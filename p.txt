@@ -88,12 +88,23 @@ Basic instructions:
  - gh repo view [user/repo per GitHub]
  - gh api repos/andrewgreen76/flygreen/contents/ty -f t.txt --content "poof" --message "poof" --branch br2
 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
+Client:
+|
 git checkout -b [new br name]
 git add [new file]
 git commit -m "commit message"
 git push origin [master/newBr]
+
+
+Server:
 |
+ - go to the GitHub website. 
+ - go to the remote repo there and pick a branch. 
+
 Expect ack (pull, merge) from the server side.
  - Delay depends on [Internet connection]
    and [status of remote repo server].  

@@ -102,12 +102,17 @@ git push origin [master/newBr]
 
 Server:
 |
- - go to the GitHub website. 
- - go to the remote repo there and pick a branch. 
+ > go to the GitHub website
+ > repo
+ > Code
+ > branches
+ > pick
+ > create pull request
+ > merge pull request
+ > confirm merge
 
-Expect ack (pull, merge) from the server side.
- - Delay depends on [Internet connection]
-   and [status of remote repo server].  
+ > git checkout [main/br2] 
+ > git pull [upstream/remorepo] [main/br2] 
 
 ========================================================================
 

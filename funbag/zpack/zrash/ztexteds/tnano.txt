@@ -1,0 +1,7 @@
+Cool! Nano actually has a legend along with a search function unlike the freaking vi ! :D 
+
+... and apparently it can do some kind of recording of macros ... ? To be continued. 
+
+Wait ... it plays by slightly different rules. 
+
+

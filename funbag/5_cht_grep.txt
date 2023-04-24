@@ -1,0 +1,10 @@
+grep [regex] [target_file_for_regex_pattern]
+ - ex.: > grep toaster immortal.txt
+   	> The toaster lives!!!
+
+grep -w [exact_string] [target_file] 
+
+====================================================================================
+
+(1) note: Only text/lang files can be grep'd, not directories or raw binary data files.
+

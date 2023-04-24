@@ -1,0 +1,43 @@
+
+Tell about:
+ - .emacs.d , init.el and its creation. 
+
+=============================================================
+
+exit:	C-x-c		(pushes old iter to ~, overwrites the opened file)
+save:	C-x-s		(pushes old iter to ~, overwrites the opened file)
+Options:
+ - dump	  ~backups: Write and configure ~./emacs.d/init.el yourself. 
+ - delete ~backups: Write and configure ~./emacs.d/init.el yourself. 
+
+copy: 	Alt-w
+cut:	C-w
+paste:	C-y
+|
+undo: 	C-x u
+
+To cut/copy from one file and paste into another:
+(1) copy from the original file
+(2) open another file with:	C-x-f
+(3) and paste there this way. 
+
+-------------------------------------------------------------
+
+fn-F10:	menus 
+
+select: 	C-space
+paste (outs):
+      	    	C-v
+
+=============================================================
+
+test
+
+=============================================================
+
+testing
+
+looking up commands
+
+OK, that was interesting, a bit challenging, but that's OK.
+

@@ -1,0 +1,5 @@
+Trying to install Emacs on this WSL Ubuntu is a bitch right now.
+
+Fuck this WSL/"unable to fetch" bullshit. This is not what modern computing is about. The simple act of getting 
+an API key for OpenAI ChatGPT should not be a fucking rocket science. 
+

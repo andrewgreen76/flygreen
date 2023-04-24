@@ -1,0 +1,58 @@
+
+regex of operands: 
+
+======================================================================
+
+(1) note: RM -R CAN BE USED ON FILES/leaves. They are just nodes after all.
+(2) note: cmd operands can be LISTED WITH SPACES. 
+
+======================================================================
+
+Useful for:
+ - folder/file search (one regex library)
+ - grepping (text search) (a different regex library)
+
+Used in: 
+ - CLI utils: shells, sed, awk 
+ - langs (need the regex lib)
+ - RDBMS
+ - WebDev (URLs, etc.)
+ - data analysis, data manip.
+ - etc. 
+
+======================================================================
+
+Wildcards:
+ * , .. , ! , \ - these characters special to regex are called WILDCARDS. 
+
+======================================================================
+FILE/FOLDER SEARCH
+======================================================================
+
+* - all nodes within the local file structure.
+cs* - all nodes starting with a spec'd character or a string (cs)
+*cs - all nodes ending with a spec'd character or a string (cs)
+*cs.* - all nodes with a spec'd character or a string (cs.) in the middle.  
+
+{} - range
+{1..5} - a range of 1 through 5 inclusively.
+cs{1..3} - nodes starting w/ cs followed by a spec'd range.
+{1..2}cs{3..4} - more than one range can be used to multiply targets.
+{01..10} - a re can account for the preceding zeroes.
+
+!(subex) - perform on all, ignore the subex-spec'd nodes.
+ - Isolate subex with ().
+ - ex.: [cmd] !(se) . You do not write [cmd] *!(se) . 
+
+======================================================================
+GREPPING (TEXT SEARCH)
+======================================================================
+
+. - any 
+
+======================================================================
+???????
+======================================================================
+
++ - recurrence  of thepreceding string.
+

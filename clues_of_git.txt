@@ -118,5 +118,10 @@ Server:
  > git pull [upstream/remorepo] [main/br2] 
 
 ========================================================================
+SAVIOR TIPS:
+ - NEVER, EVER, EVER put the token in any form inside the repo.
+ - Whenever the CLI asks for the "Password", write the token instead.
+ - You can simply type "git push origin". 
+========================================================================
 
 _

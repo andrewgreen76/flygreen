@@ -1,0 +1,93 @@
+=========================== NETWORKING cheat sheet ============================
+===============================================================================
+===============================================================================
+
+https://www.youtube.com/watch?v=ly8ikWtAY7s
+
+-------------------------------------------------------------------------------
+
+ . Older telecom systems needed (1) a computer, (2) a modem, and (3) a phone 
+   with a line. 
+
+ . Client/server telecom is made possible with a modem: 
+   + modulation - translating data (digital signal) into sound (analog signal).
+     > All analog telecom signals are inaudible sound, starting at 96kHz 
+	(sample rate). 
+   + demodulation - translating analog signal into digital signal. 
+ . A two computers - a client and a server - are also needed. 
+   + dedicated software for networking on each device. 
+   + a protocol. 
+ . Older systems rely on cabled connection. 
+
+============================= Basics of telecom: ==============================
+
+Simplex: 
+ - one-way com 
+ - ex.: keyboards, monitors. 
+
+Half duplex: 
+ - two-way com 
+ - turn-based 
+ - ex.: Walkie-Talkies. 
+
+(Full) duplex: 
+ - two-way com 
+ - simultaneous 
+ - ex.: phones. 
+
+========================== Importance of PROTOCOLS: ===========================
+
+A protocol ascertains functioning communication between devices with 
+the following parameters, known as ELEMENTS, agreed on: 
+ - DIRECTIONALITY 
+ - TIMING 
+   . flow control - speed syncing between the client and the server. 
+   . period of waiting for acknowledgment, response timeout. 
+ - SERVER ID: identifying the intended server 
+ - CLIENT ID: identifying the client 
+ - LANGUAGE (and syntax) 
+ - ACKNOWLEDGMENT of communication and reception 
+ - PACKET DETAILS (encoding, formatting, encapsulation, header details, 
+   datagram details, ...
+ - SIZING: ... especially size. Every com link has a limit to its bandwidth 
+   (transfer capacity). Large messages are resized (broken up into smaller 
+   parts. 
+ - DELIVERY OPTIONS: 
+   . unicast(ing) - 1-to-1 com 
+   . multicast(ing) - 1-to-1+ com 
+   . broadcast(ing) - 1-to-all com 
+   
+ - (might also regulate the nature of the data) 
+
+
+--------------------------- Wired telecom framework: --------------------------
+
+	binary data	digital signal 		analog/carrier (el.) signal .. 
+source >	> encoder > 	> transmitter > 	> transm. medium > ...
+device + 		protocol;modem changes signal	cable
+software		
+
+
+ ... - noise on the line 	dig. signal 	binary data 	data 
+> transm. medium > 	> receiver > 	> decoder > 		> dest. 
+	cable 		protocol / demodulation (modem)		device + SW 
+
+
+------------------------- Wireless telecom framework: -------------------------
+
+	data		dig.signal 	analog signal (sound waves) 
+source >	> encoder > 	> transmitter > 	> transm. medium > ...
+device + 		protocol / modulation (modem)	
+software		
+
+
+		sound		dig.signal	data 		data 
+> transm. medium > 	> receiver > 	> decoder > 		> dest. 
+			protocol / demodulation (modem)		device + SW 
+
+-------------------------------------------------------------------------------
+
+All of this makes up a protocol. 
+ - A protocol is essentially a design. 
+
+===============================================================================

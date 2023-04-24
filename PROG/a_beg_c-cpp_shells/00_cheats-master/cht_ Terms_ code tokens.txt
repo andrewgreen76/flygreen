@@ -1,0 +1,38 @@
+
+=================================================================================
+
+			Terminology: don't call them "thingies". 
+
+Tokens / elements: 
+
+
+directive (preprocessing directive): 
+ - a token that denotes the programmer's request to include code from another file 
+   (typically, a library). 
+ - Because it's a special request meant for the compiler to handle code inclusion and 
+   substitution, it is not considered a keyword. It does not work with data. 
+ - ex.: #include, #define. 
+
+keyword: 
+ - a language token recognizable by a compiler. Determines how a program will behave. 
+ - tokens like #include and #define are called preprocessing directives; these are  
+   responsible for code inclusion and substitution and are not 
+   considered to be keywords as they do not determine how a program behaves. 
+ - ex.: using, static, void, return, auto, vector. 
+
+identifier: 
+ - a name, essentially ; [_custom name] 
+ - ex.: in int val = 0; val is an identifier, a name for a variable to hold the value 0. 
+
+constant: 
+ - a fixed value defined with "#define" or "const". 
+ - ex.: -3, "Jim", 'a', 3.14. 
+
+operator: 
+ - a symbol (composite) that denotes a math operation, a logic operation, or use 
+   of a function. 
+ - ex.: << , >> , + , == , || , . , :: , : , ( 
+
+punctuator: 
+ - a symbol (composite) that has a non-operational meaning. 
+ - ex.: ; 

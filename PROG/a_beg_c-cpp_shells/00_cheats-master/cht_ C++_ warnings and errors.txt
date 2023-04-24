@@ -1,0 +1,38 @@
+================= Cheat sheet: common WARNINGS AND ERRORS =================
+===========================================================================
+===========================================================================
+
+============================ Compiler warnings: ===========================
+
+C4309: 		value is too large; pick a more accommodating datatype. 
+
+C6262: 		static structure within a scope is too large for the stack;
+		Dynamically allocate memory for the structure in the heap, 
+		use it, and then kill it at end of scope. 
+		- Func uses multiple bytes of stack: exceeds stack size. 
+
+C6387:		if =NULL or like : 'PARAM (1)' may be '0': 
+		- this does not adhere to the specification for the function 
+       		  'GOBBLE': DY: GO, OK 
+		- passing an unpredictable value (such as NULL). 
+
+C26495: 	an uninitialized var in a class. Assign vals (in .cpp). 
+
+C26817: 	expensive copy of scan var in range-for loop. A const ref? 
+
+====================== IntelliSense / compiler errors: ====================
+
+expression must have integral or unscoped enum type: 
+ - a place where an expression is broken up between 2+ lines of code. 
+
+=========================== Errors linker, etc.: ==========================
+
+LNK2019:	unresolved external symbol in C++. 
+ 		- no definition implemented for a function. 
+
+E0952: 		"a nontype template parameter may not have class type." 
+		- template only recognizes the basic, C-style datatypes. 
+
+E2140: 		expression must have integral or unscoped enum type. 
+		- statement broken up in code. 
+

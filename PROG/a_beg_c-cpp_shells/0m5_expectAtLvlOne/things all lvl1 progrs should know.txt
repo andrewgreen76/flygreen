@@ -1,0 +1,21 @@
+
+
+
+ - things all programmers should know at level 1. 
+ - color-coded by 
+    = (important info), 
+    = (code), 
+    = steps by OS/IDE, 
+    = good practice in programming/scripting (meas. of pre-caution),other tips: 
+    -= version control ; 
+    -= using namespace std; 
+    -= exception handling ; 
+    = (technical/in-depth explanations), 
+    = opinions 
+    = fun facts, etc. 
+ - references / appendices: 
+    = list of common warnings 
+    = list of common errors 
+OpenGL walkthrough: 
+ - setup and run: freeglut vs. glfw vs. glm vs. GLAD vs. ? 
+ - run the app 

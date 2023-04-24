@@ -1,0 +1,276 @@
+
+===========================================================================
+============================= KeyState codes: =============================
+===========================================================================
+
+ - are layout-specific 
+ - may be OS-specific 
+
+if (GetKeyState(0x00nn) < 0) {...}
+
+_________________________________________________________________
+VK_	dec	hex	function / key	
+_________________________________________________________________
+EOS	0	00	End of string '\0'
+LBUTTON	1	01	Left mouse button
+RBUTTON	2	02	Right mouse button
+CANCEL	3	03	Control-break processing
+
+MBUTTON		4	04	Middle mouse button (three-button mouse)
+XBUTTON1	5	05	X1 mouse button
+XBUTTON2	6	06	X2 mouse button
+
+#07	7	07	Undefined
+BACK	8	08	BACKSPACE key
+TAB	9	09	TAB key
+#0A	10	0A	Reserved
+#0B	11	0B	Reserved
+CLEAR	12	0C	CLEAR key
+RETURN	13	0D	ENTER key
+#0E	14	0E	Undefined
+#0F	15	0F	Undefined
+SHIFT	16	10	SHIFT key
+CONTROL	17	11	CTRL key
+MENU	18	12	ALT key
+PAUSE	19	13	PAUSE key
+CAPITAL	20	14	CAPS LOCK key
+HANGUL	21	15	IME Hangul mode
+#16	22	16	Undefined
+JUNJA	23	17	IME Junja mode
+FINAL	24	18	IME final mode
+HANJA	25	19	IME Hanja mode
+#1A	26	1A	Undefined
+ESCAPE	27	1B	ESC key
+
+CONVERT		28	1C	IME convert
+NONCONVERT	29	1D	IME nonconvert
+ACCEPT		30	1E	IME accept
+MODECHANGE	31	1F	IME mode change request
+
+SPACE	32	20	SPACEBAR
+PRIOR	33	21	PAGE UP key
+NEXT	34	22	PAGE DOWN key
+END	35	23	END key
+HOME	36	24	HOME key
+LEFT	37	25	LEFT ARROW key
+UP	38	26	UP ARROW key
+RIGHT	39	27	RIGHT ARROW key
+DOWN	40	28	DOWN ARROW key
+SELECT	41	29	SELECT key
+PRINT	42	2A	PRINT key
+EXECUTE	43	2B	EXECUTE key
+SNAPSHOT 44	2C	PRINT SCREEN key
+INSERT	45	2D	INS key
+DELETE	46	2E	DEL key
+HELP	47	2F	HELP key
+
+0	48	30	0 key
+1	49	31	1 key
+2	50	32	2 key
+3	51	33	3 key
+4	52	34	4 key
+5	53	35	5 key
+6	54	36	6 key
+7	55	37	7 key
+8	56	38	8 key
+9	57	39	9 key
+
+#3A	58	3A	Undefined
+#3B	59	3B	Undefined
+#3C	60	3C	Undefined
+#3D	61	3D	Undefined
+#3E	62	3E	Undefined
+#3F	63	3F	Undefined
+#40	64	40	Undefined
+
+A	65	41	A key
+B	66	42	B key
+C	67	43	C key
+D	68	44	D key
+E	69	45	E key
+F	70	46	F key
+G	71	47	G key
+H	72	48	H key
+I	73	49	I key
+J	74	4A	J key
+K	75	4B	K key
+L	76	4C	L key
+M	77	4D	M key
+N	78	4E	N key
+O	79	4F	O key
+P	80	50	P key
+Q	81	51	Q key
+R	82	52	R key
+S	83	53	S key
+T	84	54	T key
+U	85	55	U key
+V	86	56	V key
+W	87	57	W key
+X	88	58	X key
+Y	89	59	Y key
+Z	90	5A	Z key
+
+LWIN	91	5B	Left Windows key (Natural keyboard)
+RWIN	92	5C	Right Windows key (Natural keyboard)
+APPS	93	5D	Applications key (Natural keyboard)
+#5E	94	5E	Reserved
+SLEEP	95	5F	Computer Sleep key
+
+NUMPAD0	96	60	Numeric keypad 0 key
+NUMPAD1	97	61	Numeric keypad 1 key
+NUMPAD2	98	62	Numeric keypad 2 key
+NUMPAD3	99	63	Numeric keypad 3 key
+NUMPAD4	100	64	Numeric keypad 4 key
+NUMPAD5	101	65	Numeric keypad 5 key
+NUMPAD6	102	66	Numeric keypad 6 key
+NUMPAD7	103	67	Numeric keypad 7 key
+NUMPAD8	104	68	Numeric keypad 8 key
+NUMPAD9	105	69	Numeric keypad 9 key
+|
+MULTIPLY	106	6A	Multiply key
+ADD		107	6B	Add key
+SEPARATOR	108	6C	Separator key
+SUBTRACT	109	6D	Subtract key
+DECIMAL		110	6E	Decimal key
+DIVIDE		111	6F	Divide key
+
+F1	112	70	F1 key
+F2	113	71	F2 key
+F3	114	72	F3 key
+F4	115	73	F4 key
+F5	116	74	F5 key
+F6	117	75	F6 key
+F7	118	76	F7 key
+F8	119	77	F8 key
+F9	120	78	F9 key
+F10	121	79	F10 key
+F11	122	7A	F11 key
+F12	123	7B	F12 key
+
+#88	136	88	Unassigned
+#89	137	89	Unassigned
+#8A	138	8A	Unassigned
+#8B	139	8B	Unassigned
+#8C	140	8C	Unassigned
+#8D	141	8D	Unassigned
+#8E	142	8E	Unassigned
+#8F	143	8F	Unassigned
+
+NUMLOCK	144	90	NUM LOCK key
+SCROLL	145	91	SCROLL LOCK key
+
+#92	146	92	OEM specific
+#93	147	93	OEM specific
+#94	148	94	OEM specific
+#95	149	95	OEM specific
+#96	150	96	OEM specific
+#97	151	97	Unassigned
+#98	152	98	Unassigned
+#99	153	99	Unassigned
+#9A	154	9A	Unassigned
+#9B	155	9B	Unassigned
+#9C	156	9C	Unassigned
+#9D	157	9D	Unassigned
+#9E	158	9E	Unassigned
+#9F	159	9F	Unassigned
+
+LSHIFT		160	A0	Left SHIFT key
+RSHIFT		161	A1	Right SHIFT key
+LCONTROL	162	A2	Left CONTROL key
+RCONTROL	163	A3	Right CONTROL key
+
+LMENU		164	A4	Left MENU key
+RMENU		165	A5	Right MENU key
+BROWSER_BACK	166	A6	Browser Back key
+BROWSER_FORWARD	167	A7	Browser Forward key
+BROWSER_REFRESH	168	A8	Browser Refresh key
+BROWSER_STOP	169	A9	Browser Stop key
+BROWSER_SEARCH	170	AA	Browser Search key
+BROWSER_FAVORITES 171	AB	Browser Favorites key
+BROWSER_HOME	172	AC	Browser Start and Home key
+VOLUME_MUTE	173	AD	Volume Mute key
+VOLUME_DOWN	174	AE	Volume Down key
+VOLUME_UP	175	AF	Volume Up key
+MEDIA_NEXT_TRACK 176	B0	Next Track key
+MEDIA_PREV_TRACK 177	B1	Previous Track key
+MEDIA_STOP	178	B2	Stop Media key
+MEDIA_PLAY_PAUSE 179	B3	Play/Pause Media key
+LAUNCH_MAIL	180	B4	Start Mail key
+LAUNCH_MEDIA_SELECT	B5	Select Media key
+LAUNCH_APP1	182	B6	Start Application 1 key
+LAUNCH_APP2	183	B7	Start Application 2 key
+
+#B8	184	B8	Reserved
+#B9	185	B9	Reserved
+
+OEM_1		186	BA	For the US standard keyboard, the ';:' key
+OEM_PLUS	187	BB	For any country/region, the '+' key
+OEM_COMMA	188	BC	For any country/region, the ',' key
+OEM_MINUS	189	BD	For any country/region, the '-' key
+OEM_PERIOD	190	BE	For any country/region, the '.' key
+OEM_2		191	BF	For the US standard keyboard, the '/?' key
+OEM_3		192	C0	For the US standard keyboard, the '`~' key
+#C1	193	C1	Reserved
+#C2	194	C2	Reserved
+#C3	195	C3	Reserved
+#C4	196	C4	Reserved
+#C5	197	C5	Reserved
+#C6	198	C6	Reserved
+#C7	199	C7	Reserved
+#C8	200	C8	Reserved
+#C9	201	C9	Reserved
+#CA	202	CA	Reserved
+#CB	203	CB	Reserved
+#CC	204	CC	Reserved
+#CD	205	CD	Reserved
+#CE	206	CE	Reserved
+#CF	207	CF	Reserved
+#D0	208	D0	Reserved
+#D1	209	D1	Reserved
+#D2	210	D2	Reserved
+#D3	211	D3	Reserved
+#D4	212	D4	Reserved
+#D5	213	D5	Reserved
+#D6	214	D6	Reserved
+#D7	215	D7	Reserved
+#D8	216	D8	Unassigned
+#D9	217	D9	Unassigned
+#DA	218	DA	Unassigned
+OEM_4	219	DB	For the US standard keyboard, the '[{' key
+OEM_5	220	DC	For the US standard keyboard, the '\|' key
+OEM_6	221	DD	For the US standard keyboard, the ']}' key
+OEM_7	222	DE	For the US standard keyboard, the 'single-quote/double-quote' key
+OEM_8	223	DF	Used for miscellaneous characters
+#E0	224	E0	Reserved
+#E1	225	E1	OEM specific
+OEM_102	226	E2	Either the angle bracket key or the backslash key on the RT 102-key keyboard
+#E3	227	E3	OEM specific
+#E4	228	E4	OEM specific
+PROCESSKEY	229	E5	IME PROCESS key
+#E6	230	E6	OEM specific
+PACKET	231	E7	Used to pass Unicode characters as if they were keystrokes
+#E8	232	E8	Unassigned
+#E9	233	E9	OEM specific
+#EA	234	EA	OEM specific
+#EB	235	EB	OEM specific
+#EC	236	EC	OEM specific
+#ED	237	ED	OEM specific
+#EE	238	EE	OEM specific
+#EF	239	EF	OEM specific
+#F0	240	F0	OEM specific
+#F1	241	F1	OEM specific
+#F2	242	F2	OEM specific
+#F3	243	F3	OEM specific
+#F4	244	F4	OEM specific
+#F5	245	F5	OEM specific
+ATTN	246	F6	Attn key
+CRSEL	247	F7	CrSel key
+EXSEL	248	F8	ExSel key
+EREOF	249	F9	Erase EOF key
+PLAY	250	FA	Play key
+ZOOM	251	FB	Zoom key
+NONAME	252	FC	Reserved
+PA1	253	FD	PA1 key
+OEM_CLEAR	254	FE	Clear key
+EOL	255	FF	End of list
+

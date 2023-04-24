@@ -1,0 +1,402 @@
+=============================== C cheat sheet =================================
+===============================================================================
+===============================================================================
+
+------------------- Basic C/C++ pre-processing directives: --------------------
+
+#define f() () 	- a macro substitutes human-friendly tokens for actual code. 
+		- used to perform logic and math operations by carrying args. 
+		- (also known as a static template.) 
+		- DOES NOT WORK IN FOR-LOOP STATEMENTS; "an expression is 
+		  expected". Use const's instead. 
+
+#ifdef 		- checks if a var under #defined token has a value. 
+#pragma 	- requests info, impl. for the compiler (optimization, etc.). 
+#pragma once  	- one-time inclusion, checks if file already included; 
+		  (not a standard, but widely supported and used directive). 
+
+#if 		- checks for verity during take 1. 
+#elif		- else-if at pre-processing. 
+#endif		- closes #if / #ifdef. 
+#error		- stops pre-processing under certain conditions 
+		|
+		#if [cond]
+   		#error [msg]
+   		#endif
+
+---------------------------- Pre-defined macros: ------------------------------
+
+Macros useful for writing log statements: 
+|
+__FILE__	- carries the path to the currently viewed file (in an editor).
+__LINE__	- carries the line number of the original log statement. 
+__FUNCTION__	- carries the name of the function containing orig. log stmt. 
+
+
+You can have a compiler check what OS is on the machine: 
+|
+#ifdef 	_WIN32
+	#include ...
+	#define ...
+	void blah(){...}
+#elif	__linux__
+	...
+#elif	__unix__
+	...
+#elif	__APPLE__
+	...
+#else
+	(#error "...")
+#endif 
+
+=================== Basic C HEADER FILES and their FUNCTIONS: =================
+
+<conio.h> 	- _kbhit(), _getch() 
+		- clrscr() 
+		- [tied to Turbo C; not a part of C (std lib.) => DEPRECATED] 
+
+<termios.h>	- keyboard input on POSIX systems 
+		- ICANON - canonical mode (allows for buffered I/O) 
+
+^ - Not in C standard library 	=> no cross-platform solution. 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+<stdio.h> 	- print()s, scan()s, etc. 
+		- FILE I/O, 
+		- macros (NULL, EOF, stderr, stdin)
+
+<stdlib.h> 	- rand() num gen / randomize() 
+		- console commands - system("[CLIcmd]") 
+		- exit() 
+
+<time.h> 	- rand() num gen 
+
+<string.h>	- getline([stream], [str]); 
+		- strcpy(dest, src); 	
+		- strlen(buffer); 
+		- strcat(); 
+
+<stdint.h> 	- to enable uint16_t (2 Bytes = 1 word), maybe more. 
+
+<Windows.h>	- WinAPI (window handling), 
+		- sleep() for Win 	
+
+<curses.h>	- an alternative to conio.h (for Windows); 
+		- macros: keyboard codes, colors, etc.; 
+		- screen handling, optimization functions; 
+		- has to be downloaded/installed on Windows; 
+<ncurses.h>	- <curses.h> for Unix/GNU. 
+		- has to be downloaded/installed on Linux; 
+
+---------------------------------- typedef: ----------------------------------- 
+
+Use to give a type a new name. Let's define a term BYTE for 1B numbers: 
+
+	typedef unsigned char BYTE;	-or- 
+
+	typedef bitset<8> BYTE;
+
+------------------------ Scoped declarations - STRUCT: ------------------------
+
+struct	- the forerunner of class, a struct is more sprawling than a union. 
+	  => more than one variable can have an assigned value. 
+
+struct Type		
+{
+	
+}; 
+|| 
+typedef struct 		- another way to write a struct. 
+{
+	
+} typeWithName; 
+
+------------------------- Datatypes, sizes, and init: -------------------------
+
+Everything is signed (to split b/w + and -) until specified as unsigned. 
+u - unsigned, meaning dedication to positives (sign bit absent). 
+
+uint8_t   - unsigned char 	- 0x00-0xFF
+				  0 - 256
+uint16_t  - unsigned short 	- 0x0000-0xFFFF
+				  0 - 65,536 = 64K
+uint32_t  - unsigned int 	- 0x00000000 - 0xFFFFFFFF
+				  0 - 4GB 
+uint64_t  - unsigned long long 	- 0x 00000000 00000000 - 0x FFFFFFFF FFFFFFFF
+				  0 - 18E 
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+precision - sigfigs, not number of digits following the decimal point. 
+ . << setprecision(3) << 
+
+
+float: 
+ . 32-bit (4 Bytes), 754  SINGLE-precision number. 
+ ^> 1 for sign, 8 for exp, 23 for value. 
+ . 7 decimal digits of precision. 
+ + the type of choice for computationally intensive workload. 
+ ^> smaller, faster to process. 
+
+
+double: 
+ . used in more critical applications (business, aeronautics, etc.) 
+ . emphasis on error prevention, re-using numbers to reflect fairness. 
+ . 64-bit (8 Bytes), 754  DOUBLE-precision number. 
+ ^> 1 for sign, 11 for exp, 52 for value. 
+ . 15 decimal digits of precision, about twice as much precision as float. 
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+An array of chars: 
+ - char myword[] = { 'H', 'e', 'l', 'l', 'o', '\0' };
+
+===============================================================================
+======================== I/O basics, functions, etc.: =========================
+=============================================================================== 
+
+					|	 print		  put	
+Three data flow schemes: 		|	  out()	 	  out
+|					|	 <-+--		 --+->	
+(1) 	stdin: keyboard input. 		|	   | 		   | 
+	stdout: output to console. 	|	 --+->		 <-+--	
+(2)	char[] buffer 			|	  in()		  in
+(3)	FILE stream. 			|	 scan		  get
+					|	
+
+-------------------------------------------------------------------------------
+
+_getch() - can be used for waiting on a key press. 
+getchar() - can be used for waiting for user to hit ENTER key. 
+
+------------ Writing, reading, skipping, composing, decomposing: -------------- 
+
+stdin/out (i/o, key/con stream): 
+|
+printf("Name: %s, age: %d", n, a) 	-  comp string  -> stdout. 
+scanf("%x", &var) 			-        stdin (-> one var). 
+
+'s-' is for "string": 
+|
+sprintf(dstBf, "Sqrt of %d is %d", a,b) -   comp string  -> string buffer. 
+sscanf(srcBf, "%s %d", month, &year) 	- string buffer (-> decomp). 
+
+'f-' is for "file": 
+|
+fprintf(dstFptr,"%d.%s\n", i, str) 	-   comp string  -> file. 
+fscanf(srcFptr,"%s %d\n", &nome, &voto) -   file string (-> decomp).
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+putc(c, dstStrm/dstVar)	- 	 char  -> stream. 
+c=getc(srcStrm/srcVar)	- stream char (-> var c). 
+|	
+putchar(c) 		- 	char  -> stdout. 
+c=getchar() 		- stdin char (-> var). 
+||
+fputc(c, fptr)  	- 	char  -> file. 
+c=fgetc(fptr)		-  file char (-> var). 
+|	
+puts(str) 		-   str -> stdout.  	
+gets(str) 		- stdin -> str. 
+
+===============================================================================
+================================== FILE ops: ==================================
+=============================================================================== 
+
+Creating/opening a new file: 
+ > FILE *fp;
+ > fptr = fopen ("file_name", "mode");
+
+Reading from and writing information to a file: 
+ > fprintf(), fscanf(), fputc(), fgetc(), etc. 
+
+Closing a file: 
+ > fclose (fptr); 
+
+
+File Mode	Description
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+r		reading. 
+w		writing. If present, all data inside is truncated
+a		append mode. The content within the file doesn't change.
+r+		reading and writing from beginning
+w+		reading and writing, overwriting a file
+a+		reading and writing, appending to file
+
+
+fwrite() - Write Items
+fread()	- reads raw bytes from binary files.
+fseek() - 
+
+===============================================================================
+============================= Other necessities: ==============================
+=============================================================================== 
+
+------------------------- String format specifiers: --------------------------- 
+
+%i - as an int 
+%d - as a decimal integer 
+ > only scanned with a precision. 
+%f - as a float (smaller precision, takes less mem, faster graphic performance)  
+%lf - as a double (greater precision, takes more memory, slower performance) 
+%c - as a character 
+%s - as a string 
+
+--------------------- (Sub-string) SPECIAL characters: ------------------------ 
+
+\n	- new line 
+\t	- tab 
+\r	- carriage return character (brings cursor to the start of the line; 
+	  any new text output will overwrite the line). 
+
+--------------------------- Conversion functions: ----------------------------- 
+
+atof() - string to float/double 
+dtoa() - double to string 
+atoi() - string to int 
+itoa() - int to string 
+Integer.parseInt(String.valueOf(ch)); 	- char/string to int 
+Integer.toString(c);			- int to char/string 
+
+----------------------------- Memory management: ------------------------------ 
+
+malloc() 	- borrows a memory chunk and ties it to a pointer for a task. 
+free() 		- releases assigned memory chunk, allowing to be re-used for 
+		  something else (store other data or improve performance). 
+ptr = NULL; 	- an instruction that re-ties a pointer from unassigned memory 
+		  over to -nothing-, keeping it from "dangling". 
+
+Dangling pointer: 
+ - a pointer that holds the address of what used to be the first byte of 
+   an assigned memory chunk, but that chunk is now either used for something 
+   else or is no longer accessible. 
+
+
+
+All objects local to a function cease to exist upon exit from that function 
+and are not to be referenced from the outside. 
+
+Segmentation fault: 
+ - referencing to a no-longer-existing object. 
+
+===============================================================================
+============================ Cool / useful tricks =============================
+========================== and other functionality: ===========================
+=============================================================================== 
+
+------------------------------- Text coloring: -------------------------------- 
+
+Sequential retained coloring: 
+|
+printf("\033[0;XXm");	- changes color of text
+		30	- black 
+		31	- red 
+		32	- green 
+		33	- gold 
+		34	- blue 
+		35	- purple 
+		36	- cyan 
+		37	- black 
+
+ -or- 
+
+system("color BF"); 
+		[see VGA palette]
+
+------------------ Ternary operators in if-else one liners: ------------------- 
+
+c = (a < b) ? a : b;	// returns a value or executes a statement. 
+
+age < 18 ? printf("A Child") : printf("An Adult");
+^^
+condition ? expr_for_true : expr_for_false 
+
+printf("\nresult: %s", str1 ? "str is not empty" : "str is empty");
+
+
+----------------------------- Formatting tricks: ------------------------------ 
+
+printf("%.Xs\n", "string");		//with consts 
+printf("%.*s\n", X, "string");		//with vars 
+ - print the first X chars of string. 
+
+printf("%Xs", "string");		//with consts 
+printf("%*s\n", X, "string");		//with vars 
+ - print empty spaces if strlength is less than X; 
+ - end of string is X+ charslots away from the start of the line. 
+
+printf("%X.Ys\n", "string"); 		//with consts 
+printf("%X.*s\n", Y, "string"); 	//with vars 
+ - trim string to first Y chars, tab end of str X spaces from start of line. 
+ - args are eval'd and pushed onto the mem stack right-to-left. 
+
+printf("%	X.Y	s\n", 		"string"); 
+printf("%	*.*	s\n", 	X, Y, 	"string"); 
+
+------------------------- Other cool/useful tricks: --------------------------- 
+
+Swapping values between two vars - XOR: 
+
+	a ^= b ^= a ^= b ; 
+
+ -or- use swap(); 
+
+------------------------ Cursor: showing and hiding : ------------------------- 
+
+fputs("\e[?25l", stdout); /* hide the cursor */
+fputs("\e[?25h", stdout); /* show the cursor */
+
+===============================================================================
+=========================== Advanced, boring stuff: ===========================
+===============================================================================
+
+---------------------------- Scoped declarations: ----------------------------- 
+
+union	- a very compact collection of public variables/objects. 
+	  => only one variable can have a value at any one time.
+
+union 			
+{
+	
+} 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+enum 			- 
+{
+	
+} 
+
+------------------------------- Storage classes: ------------------------------
+
+extern int,e.g. blah ( - four purposes; see "Translation units and linkage")
+{
+	
+}
+
+extern "C" ( - four purposes; see "Translation units and linkage")
+{
+	
+}
+
+-------------------- Other potentially useful functions: ---------------------- 
+
+swap() - swaps the integer values between two vars. 
+qsort() - sorts elements in an array in ascending order. 
+putwc() — Write Wide Character
+putwchar() — Write Wide Character to stdout
+
+------------------------------------------------------------------------------- 
+
+Actual points of a program: 
+
+_start(); 	// actual entry point. 
+
+extern void _exit(register int);
+_exit(0); 	// actual exit point. 
+
+... before compiling with	gcc test_prog.c -nostartfiles 
+
+===============================================================================

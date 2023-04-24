@@ -1,0 +1,3 @@
+
+Ctrl + W	- select current sub-string / token in code. 
+

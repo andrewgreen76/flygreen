@@ -1,0 +1,9 @@
+
+C				Embedded C
+
+OS-dependent			OS-independent 
+Hardware can be modded		Hardware is NOT to be modded 
+Easy to debug and mod		NOT easy to debug and mod 		
+				Ex.: TV, DVD, camera 
+-				-	
+

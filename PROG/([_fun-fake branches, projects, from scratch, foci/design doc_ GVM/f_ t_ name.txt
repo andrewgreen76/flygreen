@@ -1,0 +1,11 @@
+
+always-list-files 	operating system 
+			virtual machine 
+
+galfvmsm
+galfdos
+
+dossim - no => DOSBox 
+gvmsim 
+
+===========================================================================

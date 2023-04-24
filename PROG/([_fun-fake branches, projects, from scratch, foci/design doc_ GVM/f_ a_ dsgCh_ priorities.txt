@@ -1,0 +1,91 @@
+
+			Design challenges / Priorities: 
+________________________________________________________________________________
+
+Every single thing on the list below will have a dedicated creative module -- 
+ -- design section and development tools. Listed in order from most to least 
+important: 
+--------------------------------------------------------------------------------
+
+
+Music 
+ + quantity; quality by UI 
+ + music production and reproduction 
+
+Sounds 
+ + for actions
+ + game events
+ + ambient sounds 
+ + sound production and reproduction 
+
+Stories / illustrations 
+ + story-writing techniques 
+ + illustration aesthetic 
+
+Look and feel (for menus, gameplay, etc.): 
+ + resolution aesthetic 
+ + color schemes 
+ + misc. 
+
+I/O (keyboard only, types of strokes; mouse - later project) 
+ + UI-based (menu, gameplay, etc.)
+ + up/down/left/right/select 
+
+
+Game state management (object): 
+ + condWin object , condLoss object , condPreEnd
+ + table container, tile by tile 
+   = tile structure - thus generated and memorized 
+     +=== interactivity: ====
+     += obst flag 
+     += grdLvl (terrain) type: grass, dirt, g-d mix, water, snow, sand 
+     += We are NOT doing complex tilesets for better immersion. 
+     += objOnTop types: item / agent / construction 
+     += .
+     +====== visual: ========
+     += shown flag 
+ + in-game interface elements 
+   = panels and menus 
+   = maxi-map 
+     += screen focus 
+   = mini-map 
+ + music / player module 
+ + (opt.: map mode, i.e. adventure vs. combat) 
+ + "fancy" reactive mechanics, effects, etc. (disappearance, surge of score, etc.) 
+
+
+Acquisition & growth aspect - a satisfying experience: 
+ + look and feel 
+ + associated mini-events (sound/music, visuals, etc.) 
+ + reward and punishment: 
+   = abilities 
+   = opportunities 
+   = enhancements through stats, etc. 
+   = expansion & influence 
+   = associated scoring system 
+   = sound and visual effects 
+
+Animation ticking: 
+ + original ASCII chars and variations 
+ + clocking rate 
+
+Scrolling 
+
+Save/load mechanics 
+
+Combat
+
+Map mode (adventure vs. combat) 
+
+Scenarios 
+
+Quests (and quest types) 
+
+Single player vs. multiplayer (HCI) 
+
+Portability 
+ + for Windows, Linux, MS-DOS, Mac OS X 
+ + re-writing from scratch vs. macro-based OS check 
+
+Debugging techniques and integrity checks 
+

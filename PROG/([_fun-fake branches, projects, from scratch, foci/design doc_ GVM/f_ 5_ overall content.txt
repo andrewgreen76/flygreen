@@ -1,0 +1,90 @@
+====================== Table of contents (Priorities) =====================
+===========================================================================
+===========================================================================
+
+============================ Design challenges ============================
+
+--------------------- Modes, mechanics, features, etc. --------------------
+
+Every single thing on the list below will have a dedicated creative 
+module - design section and development tools. Listed in order from most 
+to least important: 
+
+
+VM: 
+|
+Look and feel (icons, etc.) 
+Music 
+Sounds 
+The virtual machine will have its own philosophical origin story to tell, 
+ - with illustrations 
+Tutorials 
+I/O - keyboard only, types of strokes. 
+ - Mouse - maybe later in the dev. 
+
+VM state/stage management 
+VM stats: CPU stats and perf, RAM, storage, etc. 
+Acquisition 
+Scoring system 
+Growth aspect 
+Animation ticking 
+Scrolling 
+Stats 
+Save/load mechanics 
+Combat
+Map mode (adventure vs. combat) 
+Scenarios 
+Quests (and quest types) 
+Single player vs. multiplayer (HCI) 
+Portability 
+Debugging techniques and integrity checks 
+
+
+Game (installed, not built-in): 
+|
+Music 
+Sounds 
+Stories / illustrations 
+Look and feel 
+I/O (keyboard only, types of strokes; mouse - later project) 
+Game state management: 
+Acquisition 
+Scoring system 
+Growth aspect 
+Animation ticking 
+Scrolling 
+Stats 
+Save/load mechanics 
+Combat
+Map mode (adventure vs. combat) 
+Scenarios 
+Quests (and quest types) 
+Single player vs. multiplayer (HCI) 
+Portability 
+Debugging techniques and integrity checks 
+
+------------------------- Dev calendar (deadlines) ------------------------
+
+ - Pre-production: prototype 
+ - First playable (pre-alpha)
+ - Announce dev
+ - Alpha development
+ - Alpha demo
+ - Code freeze / Beta
+ - Beta
+ - First release -> code release
+ - Gold master, Release
+ - Delay - crunch
+ - Post-production
+
+-------------------------------- Flowchart --------------------------------
+
+-
+
+===========================================================================
+
+II. Technical challenges. 
+
+-
+
+===========================================================================

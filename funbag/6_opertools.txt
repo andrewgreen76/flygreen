@@ -16,6 +16,6 @@ $ ls > my_files.txt
  >> APPENDING 
 =====================================================================
 
-$ echo "booya" > >my_files.txt
+$ echo "booya" >> my_files.txt
 
 -

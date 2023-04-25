@@ -1,0 +1,25 @@
+============================= Concept document ============================
+===========================================================================
+===========================================================================
+
+A collection of tutorials for the Customizable-Art Operating System 
+SIMulation. 
+ - a vanilla sys that can alter itself as the user wishes (self-hosting) 
+   = made of OBJECTS (DATA + VISUAL REPRESENTATION + ACTIONS) 
+   = learn file inclusion in ASM. 
+ - about building a fake operating system from the ground up. 
+ - customizable help for the general user - no target audience/market in mind: 
+   = all ages, but adults are likely to produce better responses. 
+ - people who want to explore things on their own terms 
+ - people who would like to get tutorials and instructions 
+ - tutorials for things that exist 
+ - tutorials for things that don't 
+ - look and feel - customized by the user/student 
+ - source of the sense of reward - completion and growth 
+   = no scoring system in place 
+   = no RPG-style stats system 
+   = no acquisition mechanics 
+ - the user can choose to stop learning about building a fake OS 
+   at any time. 
+
+===========================================================================

@@ -1,0 +1,125 @@
+==================== Design priorities and challenges: ====================
+===========================================================================
+===========================================================================
+
+Every item on the list below will have a dedicated creative module -- 
+ -- design section and development tools. Listed in order from most 
+to least important: 
+---------------------------------------------------------------------------
+
+
+Design priorities: 
+ - ways of achieving a deeply satisfying user experience: 
+   music, sounds, story, user-friendliness, effective teaching, in-game 
+   achievements, appreciation of the user's efforts. 
+
+Music 
+
+Sounds 
+ + for actions
+ + for events
+ + ambient sounds 
+
+Storytelling: 
+ + The user assumes the avatar of the story's main character; CAOSim addresses 
+   to the user as such. 
+ + tell a philosophical, dramatic, semi-autobiographical story 
+ + has voiceover work 
+ + features illustrations (decide on aesthetic) 
+ + ? other story-writing techniques ? 
+
+Look and feel (for menus, gameplay, etc.): 
+ + resolution aesthetic 
+ + color schemes 
+ + misc. 
+ + customized by the user/student; the CAOSim is self-hosting. 
+
+I/O: 
+ + start off with a CL terminal or a GUI desktop 
+ + keyboard-only functionality first
+ + mouse functionality - later 
+
+Simulation state/stage design and management: 
+ + starting interface: 
+   = elements - pixels, data and vis.rep (pixels) as objects 
+   = GUI panels 
+   = GUI menus 
+ + workload in projects 
+ + two major types of projects: 
+   = customizing DOSBox output -or- creating your own text-based interface 
+   = creating your own GUI/desktop 
+ + every project has its own iteration of a sys sim 
+ + OSSim hosting features - served through a user-friendly interface 
+ + that sys sim will be made of its own objects (programs, libraries, 
+   etc.) 
+ + robust object/program construction is promoted 
+ + mechanic for preservation of project content
+   = the ability to save and load project files 
+
+
+Setup for the DOSBox module: mode 12h/13h in C/asm (640x480x16 / 320x200x256) 
+ |
+ - tutorial: C: Hello, world		- for practice 
+ - tutorial: C: graphics		- for practice 
+ - tutorial: MASM/NASM/FASM: Hello, w..	- for practice 
+ - tutorial: MASM/NASM/FASM: graphics	- for practice 
+ - tutorial: custom pixel.font / term	> results to be integrated 
+ - tutorial: VM sim with a GUI/desk 	> results to be integrated 
+ - tutorial: everything else 		> results to be integrated 
+ - tutorial: sw.b/w window/fullscreen	> results to be integrated 
+ - tutorial: ico.gr: flat shading 	> results to be integrated 
+ - tutorial: ico.gr: crude grad.shad.	> results to be integrated 
+ - tutorial: music integration		> results to be integrated (comp/ed/playback)
+ - tutorial: storytelling integr.	> results to be integrated 
+ - tutorial: telecom 			> results to be integrated 
+   = networking 			> results to be integrated 
+   = mail				> results to be integrated 
+   = IM (term/desk)			> results to be integrated 
+   = ? forum ? 				> results to be integrated 
+ - business 				> results to be integrated 
+ - multiple users share same sys space 	> results to be integrated 
+   = (CL / GUI desk) 
+|
+|
+Setup for the Windows module: in C# in Visual Studio 
+ | 
+ - tutorial: C# and VS: graphics	- for practice 
+ - tutorial: custom pixel.font / term	> results to be integrated 
+ - tutorial: VM sim with a GUI/desk 	> results to be integrated 
+ - tutorial: everything else 		> results to be integrated 
+ - tutorial: sw.b/w window/fullscreen	> results to be integrated 
+ - tutorial: ico.gr: flat shading 	> results to be integrated 
+ - tutorial: ico.gr: crude grad.shad.	> results to be integrated 
+ - tutorial: music integration		> results to be integrated (comp/ed/playback)
+ - tutorial: storytelling integr.	> results to be integrated 
+ - tutorial: telecom 			> results to be integrated 
+   = networking 			> results to be integrated 
+   = mail				> results to be integrated 
+   = IM (term/desk)			> results to be integrated 
+   = ? forum ? 				> results to be integrated 
+ - business 				> results to be integrated 
+ - multiple users share same sys space 	> results to be integrated 
+   = (CL / GUI desk) 
+
+
+Extra credit: 
+ - animation ticking 
+ - other animation tricks 
+ - scrolling 
+ - ? BBS ? licensed software ? 
+   = own Internet, custom comm protocol, custom security protocol, 
+	SSH/SSL/HTTP/STMP/etc. 
+ - ? modules as sims ? 
+ - ? GDOS ? (custom kernel, pre-processor, compiler, assembler (Z80 
+   or else), linker, loader, etc.) 
+For Linux: 
+ - 
+For Mac OS X: 
+ - 
+For Raspberry PI: 
+ - 
+Portability 
+ + for Windows, Linux, MS-DOS, Mac OS X 
+ + re-writing from scratch vs. macro-based OS check 
+Debugging techniques and integrity checks 
+

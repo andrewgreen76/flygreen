@@ -1,0 +1,124 @@
+====================== Project concept document: =====================
+======================================================================
+======================================================================
+			?!! LOSS OF FOCUS ?!! 
+======================================================================
+What I want deeply	What we want (happy medium)	Relevant (what they want) 
+			===================================
+			Turbo C for DOSBox - HoMM, GUI; 
+			Turbo ASM for DOSBox - a primitive game; 
+			Low-level programming to draw to a WinApp fullscreen. 
+			Low-level programming to draw to the desktop. 
+			===================================
+			 + Educational puzzle games. 
+			   = Book 1: graphics 
+			     . Low-level programming puzzle games. 
+			     . Memgmt puzzle games. 
+				, GraDOSSim for DOSBox with C and ASM 
+				, teaching one kind aesthetic 
+				, teaching one kind of visual art 
+				, fullscreen 
+				, teaching firmware  
+			     . High-level programming. 
+				, GraDOSSim for Windows with C# (no AGS) 
+				, GDOSSim for Win - hack OS GUI layers to learn memgmt. 
+				  ; x86
+				  ; MSVC 
+				  ; MSVC++ 
+				  ; MSVC# 
+			   = Book 2: shell scripting 
+			   = Book 3: networking 
+			   = Book 4: engineering from scratch 
+			===================================
+
+			DMA with desktop GUI (in [C]/C++), 
+			mem. mgmt to desktop scale: 
+			+ practice app (in C# w/ .NET framework): 
+			  = 320x200 window to desktop scale 
+			  = learn motion 
+			+ practice card (in C): 
+			  = 320x200 window to desktop scale 
+			  = learn motion 
+			+ fullscreen graphic practice app (a la The Shivah): 
+			  = use desktop-scale pxls to make 2x2 "classic" pixels 
+			  = learn motion 
+			- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+			+ PowerShell (just an app for scripting) 
+			- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+			?? Electrical engineering ? 
+			?? writing core programs in C++ (compiler, kernel, 100s) ? 
+			+ practice app: 640x480 window to desktop scale 
+
+			- - - - - - - - - - - - - - - -
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+games (incl. fake learning) 	-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HoMMIF 				-				-	
+
+----------------------------------------------------------------------
+------------------------------ GRAPHICS ------------------------------
+---------------------- (cool/useful knowledge): ----------------------
+----------------------------------------------------------------------
+
+			OS/game sim			
+			game designer 			
+			fullscreen			
+16-bit / 32-bit 	32-bit 				32-bit / 64-bit 
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+video memory for lowRes	-				video memory for highRes 
+mode 12h / mode 13h 	-				-	
+ruggedness		-				pixel art / AGS 
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ . 			[retro]		[modern]
+
+			retrogaming (treat DOS(Box) like a puzzle/game platform) 
+					teach/learn mem.mgmt on latest tech
+
+ x [memory model]	A000		? A000:0000 ? (depends on OS / arch / etc.) 
+ x [GUI]		-//-		-//-
+ .	
+ .	
+ .
+ x [sound]		
+
+----------------------------------------------------------------------
+-------------------------- SHELL SCRIPTING ---------------------------
+---------------------- (cool/useful knowledge): ----------------------
+----------------------------------------------------------------------
+
+			a module for PowerShell		
+			a module for BASH / ZSH	
+historical scripting 	-				-
+Batch			
+(.cmd, .bat, .com ? )
+(from / for DOS games)
+
+----------------------------------------------------------------------
+----------------------------- NETWORKING -----------------------------
+---------------------- (cool/useful knowledge): ----------------------
+----------------------------------------------------------------------
+
+simple / (unsecure)		simple 			SSH / SSL
+Telnet 				smth that works 
+pinging 
+
+----------------------------------------------------------------------
+---------------------- ENGINEERING FROM SCRATCH ----------------------
+---------------------- (cool/useful knowledge): ----------------------
+----------------------------------------------------------------------
+
+operating system	embedded systems engineer 	-
+			system architecture 		
+			BIOS / UEFI 
+			kernel 
+			compiler (in C++, STL) 
+			VRAM 
+8-, 16-, 32-bit 	32-bit 				32-bit / 64-bit 
+
+======================================================================

@@ -1,0 +1,116 @@
+
+=================================== pre-production: =================================
+
+Nov: 
+ - prototype, 
+
+========================== first playable (pre-alpha) ========================
+
+Dec: 
+ - 
+
+Jan: 
+ - 
+
+Feb: 
+ - 
+
+Mar: 
+ - 
+
+Apr: 
+ - 
+
+May: 
+ - 
+
+Jun: 
+ - 
+
+Jul: 
+ - 
+
+Aug: 
+ - 
+
+Sept: 
+ - 
+
+Oct: 
+ - adaptible engine 
+ - core functionality and most important features are done, some assets are integrated. 
+ - the game works. 
+
+================================ Announce dev ==============================
+
+=================================== alpha: =================================
+
+Nov: 
+ - testing, feedback 
+ - new features may be added 
+ - (Finishing touches) 
+ - 
+
+Dec: 
+ - 
+
+Jan: 
+ - 
+
+Feb: 
+ - 
+
+Mar: 
+ - 
+
+Apr: 
+ - 
+
+May: 
+ - 
+
+Jun: 
+ - all features are done (feature complete, feels cohesive) 
+ - all asset work is done 
+ - testing, feedback 
+ - new features might be added 
+ - (Finishing touches) 
+
+===================================== Alpha demo ==============================
+
+================================ Code freeze / Beta: ===========================
+
+Jul: 
+ - fixing ALL the bugs 
+ - NO MORE CHANGES ARE MADE to features, assets, or code. 
+
+======================================= Beta: =================================
+
+Aug: 
+ - fixing ALL the bugs 
+ - NO MORE CHANGES ARE MADE to features, assets, or code. 
+ - beta-testing 
+ - (Sound design) 
+
+=========================== First release -> code release ===========================
+
+Sept: 
+ - shipping the game 
+ - QA test plan - ? 
+
+=========================== Gold master, Release ===========================
+
+Oct: 
+ - Finished. 
+ - final build for production of the game 
+
+======================================================================
+=========================== Delay - crunch ===========================
+======================================================================
+
+
+======================================================================
+=========================== Post-production ==========================
+ - comp time 
+======================================================================
+

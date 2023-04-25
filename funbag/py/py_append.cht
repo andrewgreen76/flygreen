@@ -1,0 +1,26 @@
+
+What does the append() function do in Python?
+In Python, append() is a built-in function that is used to add an element to the end of a list. The append() function modifies the list in place, which means it adds the new element to the existing list, rather than creating a new list.
+
+Here's the basic syntax of the append() function in Python:
+
+python
+Copy code
+list_name.append(item)
+Here, list_name refers to the name of the list you want to add the element to, and item is the element you want to add.
+
+For example, let's say you have a list of numbers and you want to add the number 5 to the end of the list. You could do this with the append() function, like so:
+
+python
+Copy code
+numbers = [1, 2, 3, 4]
+numbers.append(5)
+print(numbers)
+This would output: [1, 2, 3, 4, 5]
+
+
+
+
+
+
+_

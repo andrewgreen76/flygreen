@@ -1,0 +1,10 @@
+
+What flavor of the Assembly language has the commands "len" and "equ"?
+The "len" and "equ" commands are not part of a particular flavor of Assembly language but are rather assembler directives. These directives are used to provide additional information to the assembler, which is a program that translates the Assembly code into machine code.
+
+The "len" directive specifies the length of a data item or a block of data, and the assembler uses this information to allocate the correct amount of memory for the data.
+
+The "equ" directive is used to define a constant or a symbol with a fixed value. The assembler replaces all occurrences of the defined symbol with the specified value during the assembly process.
+
+Both of these directives are commonly used in many Assembly languages, including x86 Assembly, ARM Assembly, and MIPS Assembly, among others.
+

@@ -12,13 +12,23 @@ shit to lug
 rearrange bedrock/survival instructions
 keep adding to gitBook
 
-analyze: We've detected the file has mixed line endings.
+analyze the following:
+ "We've detected the file has mixed line endings.
  When you commit changes we will normalize them to Windows-style
- (CR LF)
+ (CR LF)"
 |
 git config pull.rebase false
 git config pull.rebase true
 git config pull.ff only
 git config --global
+
+ad - apollo, dionysius; anti-ADD
+making others aware of furthering human abilities (/technical possibilities)
+bow and wine
+mind-reading
+
+genocide
+animal cruelty
+trafficking
 
 =

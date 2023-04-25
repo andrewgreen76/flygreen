@@ -1,0 +1,24 @@
+
+How did Terry A. Davis start developing TempleOS?
+Terry A. Davis began developing TempleOS (formerly known as "J Operating System" or "LoseThos") in 2013, after quitting his job as a programmer. Davis had a background in computer science and had previously worked on several software projects, including compilers, operating systems, and games.
+
+According to Davis, he was inspired to create TempleOS after having a series of religious experiences that convinced him that God wanted him to build a new operating system. Davis was a devout Christian and believed that TempleOS was his mission from God. He spent many years working on the project, which he saw as a way to create a platform for people to communicate with God through programming.
+
+TempleOS was unique in many ways, with a command-line interface and a built-in programming language called HolyC, which was designed to be simple and easy to use. Davis also included a variety of features that were not typically found in other operating systems, such as a 64-bit kernel, support for up to 256 cores, and a custom filesystem.
+
+Unfortunately, Davis struggled with mental health issues throughout his life and tragically passed away in 2018. However, his legacy lives on through TempleOS, which remains available as open-source software for others to study and use.
+
+
+
+
+
+andrewgreen031991@gmail.com
+Does that mean that he wrote the entire kernel all by himself?
+Yes, Terry A. Davis wrote the entire TempleOS kernel by himself. He worked on the project for many years, and he was known for his dedication to creating every aspect of the operating system himself, without using any third-party libraries or code.
+
+Davis was a skilled programmer, and he had experience working on other operating system projects before starting work on TempleOS. He spent a lot of time designing and developing the kernel, which is the core component of any operating system. This involved writing code to handle memory management, process scheduling, device drivers, and other low-level tasks.
+
+Davis also wrote many other components of the operating system, including the filesystem, command-line interface, and graphics system. He developed his own programming language, HolyC, which was designed to be easy to use and allowed programmers to interact with the kernel directly.
+
+Overall, TempleOS was a massive undertaking for one person to complete. Davis' dedication and passion for the project are a testament to his skill as a programmer and his unique approach to software development.
+

@@ -5,8 +5,14 @@ for creation and deletion.
 ==============================================================
 
 l , ls - show contents of the cur_dir.
+
+
+less - cont. of file to a different temp. display.
+ - good for getting the top of the file. 
+||
 cat  - cont. of file to shell;
-less - cont. of file to a different temp. display. 
+ - good for getting the bottom of the file. 
+
 
 touch	   - createe a file
 mkdir	   - createe a dir

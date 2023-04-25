@@ -2,8 +2,27 @@
 A challenge:
 
 =============================================================
-Background: You've just
+=============================================================
+
+BACKGROUND:
+
+You've just migrated with some dirs,files from Windows into
+Linux via GitHub. The process transformed the names of your
+nodes into ugly versions of their former selves, such as
+this one: 
+
+'(m_Dell_(Round-Rock-TX)'
+
+Apparently, Linux is "not happy" about having directory names
+bookended with special chars. Now, you want to retain your
+old way of structuring child nodes to the parent node by way
+of separating folders from files. Also, you have to account
+for the fact that Linux tends to list nodes (regardless of
+whether they are dirs or files) by special chars first, then
+numbers, then uppercase letters, and finally lowercase letters. 
+
+=============================================================
+=============================================================
 
 In the current sub-dir
 
-'(m_Dell_(Round-Rock-TX)'

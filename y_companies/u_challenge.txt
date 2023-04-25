@@ -15,7 +15,7 @@ this one:
 
 Apparently, Linux is "not happy" about having directory names
 bookended with special chars. Now, you want to retain your
-old way of structuring child nodes to the parent node by way
+old way of structuring child nodes under the parent by way
 of separating folders from files. Also, you have to account
 for the fact that Linux tends to list nodes (regardless of
 whether they are dirs or files) by special chars first, then
@@ -24,5 +24,13 @@ numbers, then uppercase letters, and finally lowercase letters.
 =============================================================
 =============================================================
 
-In the current sub-dir
+TASK: 
 
+In the current sub-dir write a shell script that:
+ - first substitutes special chars with a more acceptable
+   alternative (- or _) and  
+ - then removes the bookending single quotes (') within
+   the name of every node of the current directory. 
+
+=============================================================
+=============================================================

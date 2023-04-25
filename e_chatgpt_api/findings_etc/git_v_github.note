@@ -1,0 +1,12 @@
+
+What is the difference between git and github?
+ChatGPT
+Git and GitHub are related but distinct concepts in software development.
+
+Git is a distributed version control system that is used to manage changes to source code over time. It was created by Linus Torvalds in 2005 as a tool for managing the development of the Linux kernel. Git allows multiple developers to work on the same codebase simultaneously, while keeping track of changes and versions. Git can be used independently of any online platform, and can be used on local machines, servers or cloud platforms.
+
+GitHub, on the other hand, is a web-based hosting service for Git repositories. It provides a graphical user interface for creating, managing, and sharing Git repositories online. GitHub allows developers to collaborate on code with others, track issues, submit pull requests, and manage projects. GitHub is also a social platform where developers can showcase their work, follow other developers, and contribute to open source projects.
+
+In summary, Git is the underlying technology used for version control, while GitHub is an online platform that uses Git for version control and provides additional features for collaboration and social interaction among developers.
+
+=

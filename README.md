@@ -1,4 +1,4 @@
-# flygreen
+# Experimental edutainment repository "flygreen"
 
 The purpose of this repo is to help individuals, with or
 without a technical background, to

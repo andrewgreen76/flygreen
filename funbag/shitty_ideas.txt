@@ -1,3 +1,0 @@
-Shitty ideas:
- - Messaging through filenames (repeated commit-pushing and pulling).
-

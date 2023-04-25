@@ -1,7 +1,17 @@
 
-keep adding to gitBook
+filter thru cell pix
 rearrange bedrock/survival instructions
 doctor the xp levels (beg,intm,adv,bon)
-filter thru cell pix
+shit to lug
+keep adding to gitBook
+
+analyze: We've detected the file has mixed line endings.
+ When you commit changes we will normalize them to Windows-style
+ (CR LF)
+|
+git config pull.rebase false
+git config pull.rebase true
+git config pull.ff only
+git config --global
 
 =

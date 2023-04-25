@@ -1,0 +1,19 @@
+
+What does RSA have to do with SSH host keys?
+RSA is a public-key cryptosystem that is widely used in secure communication protocols such as SSH (Secure Shell). In the context of SSH, RSA is used for the generation of the host key, which is a unique identifier used to establish the authenticity of the server.
+
+When a user connects to an SSH server for the first time, the server presents its RSA public key to the client as part of the initial handshake process. The client then verifies the authenticity of the host key by checking that it has been signed by a trusted certificate authority (CA) or by verifying that the fingerprint of the key matches a known value.
+
+If the host key is authentic, the client saves the key in its list of trusted host keys for future connections. This ensures that subsequent connections to the same server can be authenticated without further prompts or verification.
+
+In summary, RSA is used in SSH to generate and verify the authenticity of the host key, which is a crucial part of establishing a secure and trusted connection between a client and server.
+
+
+
+
+
+andrewgreen031991@gmail.com
+So what does RSA stand for?
+RSA stands for Rivest-Shamir-Adleman, named after its inventors Ron Rivest, Adi Shamir, and Leonard Adleman. It is a public-key cryptosystem widely used in secure communication protocols such as SSL/TLS, SSH, and PGP. RSA is based on the mathematical properties of large prime numbers and is used for encryption, digital signatures, and key exchange. Its security is based on the difficulty of factoring large composite numbers into their prime factors, which is believed to be a computationally hard problem for classical computers.
+
+_

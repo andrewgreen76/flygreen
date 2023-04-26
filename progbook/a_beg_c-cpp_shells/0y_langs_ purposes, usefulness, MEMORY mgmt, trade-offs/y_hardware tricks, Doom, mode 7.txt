@@ -1,0 +1,5 @@
+
+Recently, I've been hearing a good deal about *hardware tricks*. For instance, the YouTuber Ahoy (see [A Brief History of Graphics](https://www.youtube.com/watch?v=QyjyWUrHsFc&t=18m44s)) mentions that some game programmers resorted to "hardware tricks" to diversify the gamut of colors on the screens of console systems. Then I read about some kind of "graphical trickery" in Doom [(see the Reception page here)](https://en.wikipedia.org/wiki/Doom_(1993_video_game)#Reception) to give the illusion that you are in a world with heights and elevations. Does that also mean some kind of hardware trickery? What is a hardware trick and is there such a thing as a software trick? 
+
+
+

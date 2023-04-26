@@ -4,7 +4,11 @@ Script:
 Emacs a "human request" file
 Write in a question
 and save
+echo -e "\n"
+echo -e "\n"
 "human req" >> transcript 
+echo -e "\n"
+echo -e "\n"
 |
 Populate reqInJson code up to human request > req_in_json.sh
 Read from "human req" >> "req in json" .sh

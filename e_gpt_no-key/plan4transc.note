@@ -9,7 +9,7 @@ and save
 Populate reqInJson code up to human request > req_in_json.sh
 Read from "human req" >> "req in json" .sh
 Populate the rest of req in json >> .sh
-bash reqInJ_in_j.sh (if bash within bash is allowed). 
+bash req_in_json.sh (if bash within bash is allowed). 
 >> transcript
 git add *
 git commit -m "g"

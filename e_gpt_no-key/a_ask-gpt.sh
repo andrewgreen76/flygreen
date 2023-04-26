@@ -1,4 +1,4 @@
-emacs seg_d_req.curl
+emacs seg_d_req.curl               # general user enters query
 echo -e "\n" >> transcript.txt
 echo -e "\n" >> transcript.txt
 cat seg_d_req.curl                   # reflects query

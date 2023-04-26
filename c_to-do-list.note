@@ -1,4 +1,12 @@
 
+add tee, tee -a
+
+ask gpt:
+ - Is it possible to get WiFi connection on a plane?
+ - 
+
+add pid (locked number)
+
 floss
 get the Reno trip approved
 

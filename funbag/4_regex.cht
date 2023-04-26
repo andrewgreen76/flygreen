@@ -26,7 +26,7 @@ Wildcards:
  * , .. , ! , \ - these characters special to regex are called WILDCARDS. 
 
 ======================================================================
-FILE/FOLDER SEARCH
+MULTIPLE FILE/FOLDER TARGETTING
 ======================================================================
 
 * - all nodes within the local file structure.

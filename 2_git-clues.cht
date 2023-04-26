@@ -94,7 +94,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 Client:
 |
-git checkout -b [new br name]
+git checkout -b [new br name]	# creates a new branch
 git add [new file]
  > git rm [new file] to reflect deletions 
 git commit -m "commit message"
@@ -114,13 +114,13 @@ Server:
  > merge pull request
  > confirm merge
 
- > git checkout [main/br2] 
+ > git checkout [main/br2]	# re-plugs into a different branch. 
  > git pull [upstream/remorepo] [main/br2] 
 
 ========================================================================
 PRACTICAL TIPS:
- - kill commit only			git reset --soft HEAD~1
- - kill commit and changes		git reset --hard HEAD~1
+ - git reset --soft HEAD~1	# kill commit only			
+ - git reset --hard HEAD~1	# kill commit and changes		
 ========================================================================
 SAVIOR TIPS:
  - NEVER, EVER, EVER put the token in any form inside the repo.

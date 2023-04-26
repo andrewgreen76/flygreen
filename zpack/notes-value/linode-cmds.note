@@ -5,4 +5,5 @@ ansible-playbook
 provision
 uptime
 upgrade
+free -m 
 

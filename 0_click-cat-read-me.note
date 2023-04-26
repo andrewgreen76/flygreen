@@ -1,1 +1,7 @@
-If you are new  w to Lin 
+If you are new to Linux (prompt), use the following commands:
+
+cat [file]
+less [file]
+cd [folder/directory]
+
+=

@@ -1,0 +1,4 @@
+A shell script is run in its own "environment". The script
+head/pointer is independent and does not tell the shell
+itself where to go ("cd").
+

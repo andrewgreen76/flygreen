@@ -1,4 +1,6 @@
 
+update repo/gptdir
+
 add tee, tee -a
 
 ask gpt:
@@ -10,7 +12,6 @@ add pid (locked number)
 floss
 get the Reno trip approved
 
-work on the plan for the transcript
 is there any evidence of a connection between meditation and programming?
 alternative tto xclip ??
 merge funbag and progbook

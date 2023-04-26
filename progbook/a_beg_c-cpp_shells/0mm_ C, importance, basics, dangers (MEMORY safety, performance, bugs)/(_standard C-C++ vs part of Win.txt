@@ -1,0 +1,8 @@
+
+part of ANSI C/C++ std		pre-defined for Windows
+(namespace std)			
+---------------------------------------------------------
+
+printf(), derivatives 		kbhit() / _kbhit()
+				getch() / _getch()
+

@@ -1,0 +1,8 @@
+
+memmove	Move block of memory (function)
+memchr	Locate character in block of memory (function)
+memset	Fill block of memory (function)
+memcpy	Copy block of memory (function)
+strncpy	Copy characters from string (function)
+memcmp	Compare two blocks of memory (function)
+

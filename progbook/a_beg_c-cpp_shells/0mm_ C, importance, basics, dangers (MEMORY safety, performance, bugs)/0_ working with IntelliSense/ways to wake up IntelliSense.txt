@@ -1,0 +1,5 @@
+
+ - click elsewhere in the editor; 
+ - comment out and de-comment back in; 
+ - trim off characters and re-type them; 
+

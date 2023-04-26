@@ -1,0 +1,21 @@
+
+					LIBRARIES: 
+
+<stdio.h> - for file management: I/O, macros (NULL, EOF, stderr, stdin), etc. 
+<conio.h> - console I/O. 
+
+==============================================================================
+
+			FUNCTIONS: basic I/O functions in C: 
+
+printf() - print const string to console. Stands for "print formatted". 
+scanf() - reads from stdin/console buffer.
+
+fprintf(fptr,"%d.%s\n", i, str) - prints to file.
+fscanf() - reads from file (stream pointer stream).
+
+sprintf(buffer, "Sum of %d and %d is %d", a, b, c) -store-print to char buffer
+sscanf() - reads from char string pointed to.
+
+==============================================================================
+

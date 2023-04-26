@@ -1,0 +1,4 @@
+
+appwiz.cpl - Programs and Features 
+services.msc - Services (Local) 
+

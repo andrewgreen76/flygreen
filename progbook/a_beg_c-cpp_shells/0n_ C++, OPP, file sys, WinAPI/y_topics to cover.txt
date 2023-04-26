@@ -1,0 +1,12 @@
+
+other basic cmd prompt commands 
+coding games in C
+
+macros 
+templates
+AEIP (OOP)
+
+memory heap 
+memory stack 
+address ranges for RAM, ROM, EEPROM, etc. 
+

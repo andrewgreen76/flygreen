@@ -1,0 +1,52 @@
+
+variable: 
+ - in the abstract, a sort of a placeholder for some piece of data, like a number or 
+   a string. In reality, it is an alias for a memory address that holds the data. 
+   The alias is 
+ - ex.: double xCoord. 
+ - pros: It holds
+ - cons: more expensive to use (takes up more memory) than a pointer. 
+
+pointer: 
+ - a type of variable with a name of its own, the name also chosen by the user. This 
+   type of variable (or the corresponding memory address) holds the memory address to 
+   another variable. 
+ - ex.: 
+
+int: 
+ - a data type 
+ - ex.: 
+
+float: 
+ - 
+ - ex.: 
+
+double: 
+ - 
+ - ex.: 
+
+string, (literal, string literal): 
+ - a data type in the form of a short line of text used or loaded in as a value. 
+ - ex.: 
+
+
+
+referencing: 
+ - 
+ - ex.: 
+
+dereferencing: 
+ - 
+ - ex.: 
+
+
+
+atomic: 
+ - a data type 
+ - ex.: 
+
+template: 
+ - a data type 
+ - ex.: 
+
+

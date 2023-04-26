@@ -1,0 +1,51 @@
+===========================================================================
+==============================	C++ cheat sheet. ==========================
+===========================================================================
+
+================================= Libraries: ==============================
+
+<iostream> is necessary 
+ - or neither cout, nor std::cout will work. 
+
+==================================  Init: =================================
+
+An array of chars: 
+ - char myword[] = { 'H', 'e', 'l', 'l', 'o', '\0' };
+
+============================= Type conversions: ===========================
+
+string to char[]: 
+|
+// if const str: 
+std::string myWord = "myWord";
+char myArray[myWord.size()+1]; //as 1 char space for null is also required
+strcpy(myArray, myWord.c_str());
+|
+// if varying str: 
+( str1 + str2 ).c_str()
+
+============================ Size "conversions": ==========================
+
+L"[string]" 
+ - augments the size of the string to wchar_t, i.e. a size greater than char 
+   (which is 1 Byte = 8 bits). Can be 16 or 32 bits depending on the OS you 
+   are using. 
+
+================================== ASCII: =================================
+
+
+
+================================== Files:  ================================
+
+Create one: 
+ - ofstream myFile(deskPath + filename); 
+
+Passing streams to functions: 
+ - ofstream has to be passed by reference. Otherwise, you'll get E1776 
+   and C2280. When you pass something by value, a copy constructor is 
+   called, but ofstream doesn't have one. 
+
+=============================== Clocks, time: =============================
+
+<chrono>
+

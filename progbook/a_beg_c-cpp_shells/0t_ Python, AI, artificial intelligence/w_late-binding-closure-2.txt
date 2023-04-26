@@ -1,0 +1,15 @@
+
+def my_func(n):
+    result=[]
+    for i in range(n):
+        result.append(lambda:i*2)
+    return result
+    
+funcs = my_func(3)
+
+for f in funcs:
+    print(f())
+    break
+
+====================================================
+

@@ -1,0 +1,100 @@
+============================== C++ cheat sheet ============================
+===========================================================================
+===========================================================================
+
+====================== Basic C++ library header files: ====================
+
+<iostream> 	- console text input, output, manipulation 
+	- learn cerr, clog;
+<fstream>	- file input, output, manipulation 
+<cstdio>	- macros (NULL, EOF, stderr, stdin, etc. )	
+<cstdlib>	- system() - console commands, 
+		- exit()	
+		- rand(), randomize() 
+<string>	- text-in-memory ops 
+<vector>	- a flexible "array" 
+<cmath>		- algebraic ops 
+<chrono> 	- time-tracking, clock-based ops 
+<ctime> 	- for date/time 
+
+================================== Init: ==================================
+
+An array of chars: 
+ - char myword[] = { 'H', 'e', 'l', 'l', 'o', '\0' };
+
+================================== Files:  ================================
+
+Create one: 
+ - ofstream myFile(deskPath + filename); 
+
+Passing streams to functions: 
+ - ofstream has to be passed by reference. Otherwise, you'll get E1776 
+   and C2280. When you pass something by value, a copy constructor is 
+   called, but ofstream doesn't have one. 
+
+================================== ASCII: =================================
+
+Changing color of console text: 
+
+printf("\033[0;XXm");	- changes color of text
+		30	- black 
+		31	- red 
+		32	- green 
+		33	- gold 
+		34	- blue 
+		35	- purple 
+		36	- cyan 
+		37	- black 
+
+ -or- 
+
+system("color XX"); 
+
+============================= Type conversions: ===========================
+
+string to char[]: 
+|
+// if const str: 
+std::string myWord = "myWord";
+char myArray[myWord.size()+1]; //as 1 char space for null is also required
+strcpy(myArray, myWord.c_str());
+|
+// if varying str: 
+( str1 + str2 ).c_str()
+
+============================ Size "conversions": ==========================
+
+L"[string]" 
+ - augments the size of the string to wchar_t, i.e. a size greater than char 
+   (which is 1 Byte = 8 bits). Can be 16 or 32 bits depending on the OS you 
+   are using. 
+
+============================== Function types: ============================
+
+virtual - 
+static - 
+
+==================== Standard Template Library (STL): =====================
+
+ - 
+
+=============================== Templates: ================================
+
+ - 
+
+============================== OOP concepts: ==============================
+
+Abstraction - 
+Encapsulation - 
+Inheritance - 
+Polymorphism - 
+
+======================== Advanced C++ header files: =======================
+
+<algorithm>	- ranges of elements 
+<stack>		- stacks 
+<set>		- sets 
+<queue>		- queues 
+<map>		- sets with ordered unique key values 
+<bits/stdc++.h>	- io, algo, vtr, string, stack, set, queue, map 
+

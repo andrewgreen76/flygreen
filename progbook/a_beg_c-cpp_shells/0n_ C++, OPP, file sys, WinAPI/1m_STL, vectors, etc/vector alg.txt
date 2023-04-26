@@ -1,0 +1,27 @@
+#include <vector>
+#include <iostream>
+
+int main()
+{
+    std::vector<int> oneDimArray;
+    oneDimArray.push_back(5);
+
+    // for(int i : oneDimArray ){...}
+    for (int i = 0; i < oneDimArray.size(); i++)   // scans, writes every elem
+    {
+        std::cout << oneDimArray[i];
+    }
+
+    std::vector<std::vector<int>> twoDimArray;
+    twoDimArray.push_back(oneDimArray); //You can put a vector of ints in here
+
+    for (int i = 0; i < twoDimArray.size(); i++)    // scans 2nd dim. 
+    {
+	// for(int j ; till end of cur vtr ; jElem++){} 
+        for (int j : twoDimArray[i])	// scans every elem at i-elem. 
+        {
+            std::cout << j;
+        }
+    }
+    return 0;
+}

@@ -1,0 +1,4 @@
+
+control desk.cpl,,@screensaver
+ - creates a shortcut to Screen Saver Settings. 
+

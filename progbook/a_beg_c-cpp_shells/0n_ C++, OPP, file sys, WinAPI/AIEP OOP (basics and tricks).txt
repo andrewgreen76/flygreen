@@ -1,0 +1,31 @@
+
+Abstraction: 
+ ~ the nature of the class 
+ ~ (design) 
+ ~ behavior 
+ ~ categorization into data to be hidden and data to be exploited. 
+ - Useful when: 
+ - How to use: access specifiers - private, protected, public. 
+
+Encapsulation: 
+ ~ a way of using the class 
+ ~ (implementation) 
+ ~ combining data with relevant methods in the same class. 
+ ~ a way of implementing abstraction. 
+ - Useful when: 
+ - How to use: 
+
+Inheritance: extended functionality, deviation 
+ - Useful when: 
+ - How to use: 
+> 	class Child : public Parent {
+>		... 
+>	};
+
+Polymorphism: multiple functions, SAME name, DIFFERENT type and params. 
+ - Useful when: a matter of intuition. 
+ - How to use: 
+>	void area (int x, int y) {}
+>	void area (float r) {}
+>	double area (double x, double y) {}
+

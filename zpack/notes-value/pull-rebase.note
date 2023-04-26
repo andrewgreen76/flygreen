@@ -1,0 +1,4 @@
+git config pull.rebase true
+git config --global pull.rebase true
+git config pull.rebase false
+git config pull.tty

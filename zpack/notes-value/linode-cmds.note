@@ -1,0 +1,8 @@
+ps aux
+tmux
+htop
+ansible-playbook
+provision
+uptime
+upgrade
+

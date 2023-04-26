@@ -1,7 +1,7 @@
-emacs b_reqin.txt
+emacs seg_d_req.curl
 echo -e "\n" >> transcript.txt
 echo -e "\n" >> transcript.txt
-cat b_reqin.txt
-cat b_reqin.txt >> transcript.txt
+cat seg_d_req.curl
+cat seg_d_req.curl >> transcript.txt
 echo -e "\n" >> transcript.txt
 echo -e "\n" >> transcript.txt

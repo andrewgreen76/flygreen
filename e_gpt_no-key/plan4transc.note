@@ -10,10 +10,12 @@ echo -e "\n"
 echo -e "\n"
 echo -e "\n"
 |
-Populate reqInJson code up to human request > req_in_json.sh
-Read from "human req" >> "req in json" .sh
-Populate the rest of req in json >> .sh
-bash req_in_json.sh (if bash within bash is allowed). 
+curl: Populate POST request up to OPEN AI KEY >> .sh
+curl: Populate OPEN AI KEY >> .sh
+curl: Populate the middle of the POST request >> .sh
+curl: Populate the human request >> .sh
+curl: Populate the rest/tail of req >> .sh
+bash the POST request (if bash within bash is allowed). 
 >> transcript
 git add *
 git commit -m "g"

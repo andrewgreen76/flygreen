@@ -1,0 +1,11 @@
+
+Commands - BATCH:
+------------------------------------------------
+:[nameOfLabel]		
+	denotes a point in the self-same batch that the machine can be 
+	re-directed to. 
+	
+------------------------------------------------
+
+errorlevel
+

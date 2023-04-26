@@ -1,0 +1,7 @@
+
+ipconfig - gives you your IP (IPv4) address 
+ipconfig /all - gives you your IP address, Mac address, subnet mask, default gateaway 
+ipconfig /release - relieves your machine of its current IP address 
+ipconfig /release "[intfce]" - relieves your machine of its current IP address at a specified interface
+ipconfig /renew - assigns a new IP address to your machine 
+

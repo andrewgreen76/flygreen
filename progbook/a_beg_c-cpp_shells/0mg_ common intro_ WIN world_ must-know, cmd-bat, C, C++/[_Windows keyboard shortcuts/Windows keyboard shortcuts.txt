@@ -1,0 +1,15 @@
+
+Ctrl + C - copy selected text/file 
+Ctrl + X - cut selected text/file 
+Ctrl + V - paste selected text/file 
+Ctrl + Z - undo latest action (from the stack of performed actions) 
+Ctrl + Y - redo action (from the stack of undone actions back onto the stack of performed actions) 
+
+Ctrl + T - open a new tab 
+Ctrl + W - close the current tab 
+Ctrl + Shift + T - re-open the last closed tab (from the stack of closed tabs) 
+
+Win + D - minimize all windows 
+Win + R - run 
+Win + S - search 
+

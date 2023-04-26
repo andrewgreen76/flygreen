@@ -1,0 +1,19 @@
+========================== BASH script cheat sheet ============================
+===============================================================================
+===============================================================================
+
+===================== Shebangs (interpreter-directives) =======================
+
+ - tells the machine to run the program using the indicated shell. 
+
+#!/bin/sh :Executes the script using the Bourne shell or a compatible shell, with path /bin/sh
+
+#!/bin/bash :Executes the script using the Bash shell.
+
+#!/bin/csh -f :Executes the script using C shell or a compatible shell.
+
+#!/usr/bin/perl -T :Executes the script using perl with the option of taint checks
+
+#!/usr/bin/env python :Executes the script using python by looking up the path to the python interpreter automatically from the environment variables. 
+
+===============================================================================

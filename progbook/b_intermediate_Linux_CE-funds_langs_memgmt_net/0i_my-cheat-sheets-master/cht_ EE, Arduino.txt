@@ -1,0 +1,38 @@
+============================ Arduino cheat sheet ==============================
+===============================================================================
+===============================================================================
+
+-------------------------- Concepts and principles: ---------------------------
+
+Transistors: 
+ - can be used for remote digital switching 
+ - can be used for signal amplification. Voltage marks over the base terminal: 
+   = 0.8V - full potential 
+   = 0.7V - an adequate amount of voltage / current flow 
+   = 0.6V - a faint current/voltage 
+   = 0.5V - no current/voltage allowed 
+ - can be used for sensing/receiving some kind of energy that will drive 
+   a current. That current amount will determine the voltage level. This way 
+   energy can be translated into voltage, which an ADC can translate into 
+   (sensor) bits. 
+   => thus generating an amount of current over a fixed circuit resistance 
+   => thus defining the output voltage. 
+
+------------------------- Bipolar / BJT transistors: --------------------------
+
+Current GAIN (beta): collector current / base current. 
+
+--------------------- Field-effect (MOSFET) transistors: ----------------------
+
+ 
+
+------------------ Practices to achieve good functionality: -------------------
+
+220 Ohm		- for every LED 
+10,000 Ohm	- for every switch, transistor 
+
+Have   [sensor/actuator]   pins mounted very close to   [power/ground] pins. 
+
+Don't confuse a TMP36 with a transistor. 
+
+===============================================================================

@@ -11,8 +11,8 @@ Read from "human req" >> "req in json" .sh
 Populate the rest of req in json >> .sh
 Bash reqInJson.sh (is bash within bash is allowed). 
 >> transcript
-Cat the transcript. 
 git add *
 git commit -m "g"
 git push
+Cat the transcript. 
 

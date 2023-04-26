@@ -1,1 +1,0 @@
-curl -H "Authorization: token $TOKEN" https://api.github.com/user

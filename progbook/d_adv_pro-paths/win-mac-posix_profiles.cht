@@ -68,8 +68,8 @@ multimedia API 	| DirectX / OpenGL / 	| Metal			| OpenGL mostly		|
 		|			|			|			|
 ----------------+-----------------------+-----------------------+-----------------------+
 		|			|			|			|
-GUI API		| WinAPI		| Cocoa			| (X Window system)	|
-(windowing	|			|			|			|
+GUI API		| WinAPI		| Cocoa			| Wayland		|
+(windowing	|			|			| (old_X Window system)	|
 system)		|			|			|			|
 		|			|			|			|
 ----------------+-----------------------+-----------------------+-----------------------+

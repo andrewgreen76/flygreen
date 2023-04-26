@@ -1,4 +1,6 @@
 
+
+
 figure out chatGPT integration into git
 doctor the cheat sheets - ?
 
@@ -8,17 +10,6 @@ goof: Vulkan + Unity + C#
 doctor the xp levels (beg,intm,adv,bon)
 shit to lug
 rearrange bedrock/survival instructions
-keep adding to gitBook
-
-analyze the following:
- "We've detected the file has mixed line endings.
- When you commit changes we will normalize them to Windows-style
- (CR LF)"
-|
-git config pull.rebase false
-git config pull.rebase true
-git config pull.ff only
-git config --global
 
 ad - apollo, dionysius; anti-ADD
 making others aware of furthering own/others' abilities (/technical possibilities)

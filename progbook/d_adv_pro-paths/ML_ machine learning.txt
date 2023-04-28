@@ -1,0 +1,36 @@
+
+What I want deeply	What we want (happy medium)	Relevant (what they want) 
+----------------------------------------------------------------------------------
+video memory for lowRes	-				video memory for highRes 
+mode 12h / mode 13h 	-				-	
+ruggedness		-				pixel art / AGS 
+----------------------------------------------------------------------------------
+ - A choice: old memory model or new memory model. 
+ - Do both: 
+   = teach/learn retrogaming (treat DOS(Box) like a puzzle platform) 
+   = AND teach/learn mem.mgmt on latest tech. 
+
+ . 			[retro]		[modern]
+ x [memory model]	A000		? A000:0000 ? (depends on OS / arch / etc.) 
+ x [animation]		-//-		-//-
+ .	
+ .	
+ .
+ x [sound]		
+----------------------------------------------------------------------
+-------------------------------- TEXT: -------------------------------
+----------------------------------------------------------------------
+
+			shell scripting 
+
+----------------------------------------------------------------------
+------------------------------ GRAPHICS: -----------------------------
+----------------------------------------------------------------------
+
+screen takeover		fullscreen (res?)		fullscreen
+operating system	embedded systems engineer 	-
+OS/game sim		game designer 			-
+-			system architecture 		-
+----------------------------------------------------------------------------------
+			networking			-
+

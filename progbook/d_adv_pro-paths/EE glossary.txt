@@ -1,0 +1,41 @@
+
+Language binding: 
+ - API that allows a foreign/guesting programming code to use services 
+   of the hosting OS or lib written in a different language. 
+ -> language adaptability / compatibility. 
+
+Glue code: 
+ - code that makes up a multi-language-friendly binding. 
+
+==============================================================================
+
+CRTC (cathode-ray tube controller): 
+ - generates the video timings, reads video data from RAM attached to the CRTC to output it via an external character generator ROM (for text modes) or directly to the video output shift register (for high resolution graphics modes).
+
+Bandwidth: 
+ - max rate of transfer (e.g, network, data, digital bandwidth). 
+
+Branch prediction: 
+ - 
+
+Cache hit logic: 
+ - 
+
+Die: a chip. 
+ - A die is the formal term for the square of silicon containing an integrated circuit. Die is singular, and dice is plural. The terms die and chip are often used synonymously. A die, in the context of integrated circuits, is a small block of semiconducting material on which a given functional circuit is fabricated.
+
+Instruction cache: 
+ - 
+
+Memory banking: 
+ - 
+
+Sandy Bridge (processors): 
+ - 
+
+Shift register: 
+ - a type of digital circuit using a cascade of flip-flops where the output of one flip-flop is connected to the input of the next. They share a single clock signal, which causes the data stored in the system to shift from one location to the next.
+
+uop cache (micro-operations cache): 
+ - 
+

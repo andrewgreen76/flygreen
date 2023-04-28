@@ -1,0 +1,6 @@
+
+cache clogging 
+in every layer of the software stack 
+PCIe bridge latency 
+
+===============================================================================

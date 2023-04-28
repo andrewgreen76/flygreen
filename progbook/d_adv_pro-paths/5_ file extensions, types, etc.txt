@@ -1,0 +1,21 @@
+
+.conf 
+ - config file
+ - contains assumptions (parameters) at the start of running an application 
+   or an OS or using an infrastructure device (server, storage, etc). These 
+   assumptions can be: 
+   = flags
+   = constant values 
+   = hard-coded user input for prompt (autoexec) 
+
+> [ipx]
+> # A remark: ipx - Enable ipx over UDP/IP emulation.
+> 
+> ipx=false
+> 
+> [autoexec]
+> # Remark for this: automated user-input goes here. 
+> MOUNT C C:\PROG\ASM\8086
+> C:
+
+================================================================================

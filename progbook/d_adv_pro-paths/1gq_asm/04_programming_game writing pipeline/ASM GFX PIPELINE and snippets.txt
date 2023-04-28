@@ -1,0 +1,26 @@
+
+[MODEL, STACK, DATA, CODE]
+(main / assume)
+
+[VIDEO MODE]
+
+
+...
+(show / XOR)
+...
+(in-game loop: controls: waitForKey)
+	...
+	  o (refresh)
+	  o (black background: XOR-hide > move > XOR-show)
+	...
+
+
+[WAIT FOR KEYPRESS]
+[BACK TO TEXT]
+[TERM]
+
+[SOURCE: ]
+
+(main endp, end main)
+[CODE ENDS, END]
+

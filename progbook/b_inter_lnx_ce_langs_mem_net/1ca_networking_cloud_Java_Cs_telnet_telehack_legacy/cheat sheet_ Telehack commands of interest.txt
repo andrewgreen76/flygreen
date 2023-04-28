@@ -1,0 +1,15 @@
+
+Essential keyboard "shortcuts": 
+|
+Ctrl + C - back out of the current application. 
+Ctrl + D - log out of the Telehack simulation. 
+
+
+
+Commands: 
+|
+users - 
+netstat - 
+finger - 
+radio - 
+

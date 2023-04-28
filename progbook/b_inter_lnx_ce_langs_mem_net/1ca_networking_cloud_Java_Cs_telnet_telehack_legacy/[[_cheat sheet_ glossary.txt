@@ -1,0 +1,43 @@
+
+BBS: 
+ - 
+
+LAN:
+ - 
+
+ping:
+ - 
+
+protocol: 
+ - 
+
+ping:
+ - 
+
+Telnet: 
+ - 
+
+subnet: 
+ - 
+
+server: 
+ - 
+
+client: 
+ - 
+
+hostname: 
+ - 
+
+port: 
+ - 
+
+PsExec: 
+ - 
+
+GPO: 
+ - 
+
+AD: 
+ - 
+

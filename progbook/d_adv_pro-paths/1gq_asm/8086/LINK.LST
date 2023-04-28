@@ -1,0 +1,84 @@
+Microsoft (R) Macro Assembler Version 5.00                  8/22/22 01:18:07
+                                                             Page     1-1
+
+
+       1				.model  small 
+       2 0400				.stack  
+       3				 
+       4 0400				stack segment para stack 
+       5 0400  0040[			    db 64 dup (' ') 
+       6	   20			
+       7			 ]	
+       8				
+       9 0440				stack ends 
+      10 0000				data segment 
+      11 0000				data ends 
+      12 0000				code segment 
+      13				    assume cs:code,ds:data,ss:stack 
+      14 0000  B8 ---- R		    mov ax,data 
+      15 0003  8E D8			    mov ds,ax 
+      16 0005  B8 ---- R		    mov ax,stack 
+      17 0008  8E D0			    mov ss,ax 
+      18				     
+      19				    ; 320x200 mode 13h 
+      20 000A  B4 00			    mov ah,00h 
+      21 000C  B0 13			    mov al,13h 
+      22 000E  CD 10			    int 10h 
+      23				     
+      24				    ;draw a red pixel at col 160, row 1
+					00:  
+      25 0010  B4 0C			    mov ah,0ch	; OP TO DRAW PIXEL 
+      26 0012  B9 000A			    mov cx,10 
+      27 0015  BA 000A			    mov dx,10 
+      28 0018  B0 05			    mov al,5	; COLOR: 5 - MAGENTA ; 
+					4 - RED ; 3 - GREEN/CYAN 
+      29 001A  CD 10			    int 10h 
+      30				     
+      31				    ;wait for a key press 
+      32 001C  B4 00			    mov ah,00h 
+      33 001E  CD 16			    int 16h 
+      34				     
+      35				    ;set back to text mode - 03h 
+      36 0020  B4 00			    mov ah,00h 
+      37 0022  B0 03			    mov al,03h 
+      38 0024  CD 10			    int 10h 
+      39				     
+      40				    ;term 
+      41 0026  B4 4C			    mov ah,4ch 
+      42 0028  CD 21			    int 21h 
+      43				     
+      44 002A				code ends 
+      45				end 
+Microsoft (R) Macro Assembler Version 5.00                  8/22/22 01:18:07
+                                                             Symbols-1
+
+
+Segments and Groups:
+
+                N a m e         	Length	 Align	Combine Class
+
+CODE . . . . . . . . . . . . . .  	002A	PARA	NONE	
+DATA . . . . . . . . . . . . . .  	0000	PARA	NONE	
+DGROUP . . . . . . . . . . . . .  	GROUP
+  _DATA  . . . . . . . . . . . .  	0000	WORD	PUBLIC	'DATA'
+  STACK  . . . . . . . . . . . .  	0440	PARA	STACK	'STACK'
+_TEXT  . . . . . . . . . . . . .  	0000	WORD	PUBLIC	'CODE'
+
+Symbols:            
+
+                N a m e         	Type	 Value	 Attr
+
+@CODE  . . . . . . . . . . . . .  	TEXT  _TEXT		
+@CODESIZE  . . . . . . . . . . .  	TEXT  0		
+@DATASIZE  . . . . . . . . . . .  	TEXT  0		
+@FILENAME  . . . . . . . . . . .  	TEXT  DEMO		
+
+
+     42 Source  Lines
+     42 Total   Lines
+     14 Symbols
+
+  50666 + 465878 Bytes symbol space free
+
+      0 Warning Errors
+      0 Severe  Errors

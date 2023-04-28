@@ -1,6 +1,0 @@
-
-Microsoft (R) Overlay Linker  Version 3.60
-Copyright (C) Microsoft Corp 1983-1987.  All rights reserved.
-
-Run File [SANDBOX.EXE]: List File [NUL.MAP]: Libraries [.LIB]: SANDBOX.ASM : fatal error L1101: invalid object module
- pos: 1 Record type: 09

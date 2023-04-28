@@ -1,0 +1,91 @@
+========================== Telnet/Telehack commands =======================
+===========================================================================
+===========================================================================
+
+Telnet: 
+ - command-line-only program for accessing content from a server, stylized 
+   as a Usenet/ARPANET experience. 
+ - completely unsecure, with SSH and SSL preferred over it. 
+
+===========================================================================
+============================== Telnet commands ============================
+===========================================================================
+
+------------------------------- Shell commands ----------------------------
+
+telnet 
+ - tap into telnet itself (without specifying the IP address and its port).
+
+telnet [net address] [port]
+ - the net address can only be accessed using the port for the protocol 
+   that's right for the address. 
+ - if the port number is not specified, port 23 is assumed for Telnet. 
+ - port 80 - HTTP
+ - port 22 - SSH 
+
+telnet freechess.org 5000 
+ - for playing chess. 
+
+telnet towel.blinkenlights.nl 
+ - plays an edited ASCII rendition of Star Wars IV. 
+
+telnet rainmaker.wunderground.com
+ - used to display weather in a city by its three-letter code. Defunct. 
+
+telnet server [port]
+ - to start your own server. 
+
+------------------------------ Internal commands --------------------------
+
+help
+ - shows a list of commands. 
+
+===========================================================================
+========================== Essential Telehack input =======================
+===========================================================================
+
+Telehack: 
+ - a simulation of telecommunications over the Telnet. 
+
+---------------------------------------------------------------------------
+
+For simple, unsecure logging in: 
+telnet telehack.com
+
+For secure surfing log in with: 
+ssh -p 2222 guest@telehack.com
+
+----------------------------- Basic keyboard I/O: -------------------------
+
+q	 - back out of the current application. 
+Ctrl + C - back out of the current entry. 
+Ctrl + D - log out of the Telehack simulation. 
+
+----------------------------- Essential commands: -------------------------
+
+newuser
+login
+?		- displays a list of basic commands 
+help 		- displays a long list of telehack commands 
+help [command]	- gives a basic description of a command 
+dir		- shows the list of files on the user's (your) account 
+users		- show the list of most recently logged-in users 
+netstat		- shows connected hosts 
+telnet [server]	- connect with the indicated server. (Use "guest".)
+		- Recommended servers: teleshack. 
+finger		- shows a list of users and what they are up to 
+finger [user]	- show info about a specified user 
+usenet		- a forum/news archived in Telehack 
+relay		- group chat feature (system level 20 (staff) required) 
+talk		- direct chat feature 
+
+------------------------- Misc/fun/useless commands: ----------------------
+
+radio		- a defunct radio 
+joke 
+starwars	- preferrable over "telnet towel.blinkenlights.nl" (from which) 
+		  you can't exit. 
+sudoku
+minesweeper
+
+===========================================================================

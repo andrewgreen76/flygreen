@@ -1,0 +1,10 @@
+
+Uses of assembly language include coding device drivers, real-time systems, low-level embedded systems, boot codes, reverse engineering and more.
+
+ > https://www.techopedia.com/why-is-learning-assembly-language-still-important/7/32268#:~:text=Uses%20of%20assembly%20language%20include,is%20still%20important%20and%20relevant.
+
+ - Complete control over a system’s resources
+ - Understanding processor and memory function
+ - Direct access to hardware
+ - Assembly language is transparent
+

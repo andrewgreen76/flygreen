@@ -1,0 +1,92 @@
+
+Headers: 
+
+org 100h - (DOS only) loads instructions after the PSP. The Program Segment Prefix, or PSP, isn't really an assembly language instruction, it's a header built by DOS when your program runs. It occupies the first 256 bytes of memory, and contains information like the amount of available memory, where the available memory starts, the command line arguments, and so forth. 
+
+============================================================================================================
+
+Basic registers to work with: 
+
+int - interrupts 
+ax - accumulator
+bx - offset (can represent relative address)
+cx - counter
+dx - 
+ds - data segment
+[??h] - content of given address
+
+------------------------------------------------------------------------------------------------------------
+
+Interrupts: 
+ - Each INT represents a functions family, where usually AH represents the function number
+
+int 10h - Video Services - load display request (video service BIOS interrupt) / screen manipulation. 
+	int 13h - for storage (HDD and FDD)
+int 16h - Keyboard Services - load PC keyboard service.  
+	int 17h - Printer Services 
+	int 1Ah - Time of Day 
+	int 1Ch - User Timer Interrupt 
+int 21h - exclusively MS-DOS services (Typically used for termination: mov al, 4Ch.)
+
+Q: When should we use any of them and for what?
+
+A: Probably never. These BIOS interrupts were primarily used by MS-DOS applications, and are essentially obsolete today. They are not available at runtime to applications running on any modern operating system, so you will likely never use them. (Exceptions might include if you are developing certain pieces of software which run very early in the boot process, such as a bootloader, firmware for a hardware device, or if you are developing the BIOS itself.)
+
+============================================================================================================
+
+Acc values before int 10h: 
+
+Objective: set to TEXT MODE: 
+mov ax, 03h
+or
+mov ah, 00h
+mov al, 03h - text mode ()
+
+Objective: set to GRAPHICS MODE: 
+mov ax, 13h 
+or
+mov ah, 00h
+mov al, 13h - graphics mode ()
+
+Objective: set to NO BLINKING of text cursor: 
+mov ch, 32     ; 0010 0000 0000 0000 b of CX. 
+mov ah, 1      ; 0000 0001 0000 0000 b of ACC. So, no blinking.  
+
+Objective: set to BLINKING of text cursor: 
+mov ax, 1003h ; al = 3 - blinking; 0001 0000 0000 0011 b of ACC.  
+; mov bx, 0     ; bx = 0 -           0000 0000 0000 0000 b of B - no offset. 
+
+============================================================================================================
+
+Acc values before int 16h: 
+
+Objective: set to EXPECTING A KEYBOARD PRESS: 
+mov ah, 0 ; 0000 0000 xxxx xxxx - expecting 1 kbd prs. 
+          ; ah = 1+ - kbd prs regd.  
+
+============================================================================================================
+
+Acc values before int 21h: 
+
+Objective: TERMINATE the program: 
+mov ax, 4Ch 
+or
+mov ah, 00h
+mov al, 4Ch - ask to terminate the program ()
+
+============================================================================================================
+
+Output instructions: 
+
+Objective: point to address of screen's text field: 
+mov     ax, 0b800h  ; universal addr for string-to-print. "I'm a string" 
+mov     ds, ax     ; load 2048d, to where data elements are stored. 
+
+============================================================================================================
+============================================================================================================
+============================================================================================================
+
+Registers: 
+
+rax is the 64-bit, "long" size register. It was added in 2003 during the transition to 64-bit processors. eax is the 32-bit, "int" size register. It was added in 1985 during the transition to 32-bit processors with the 80386 CPU.
+

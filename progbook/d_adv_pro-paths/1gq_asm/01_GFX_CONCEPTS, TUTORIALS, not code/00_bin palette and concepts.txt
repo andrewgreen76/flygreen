@@ -1,0 +1,75 @@
+
+Blank palette (8 bits = 1 Byte): 
+0000 0000
+Hnbl Lnbl 
+
+Practice pad: 
+
+Palette: 	0001 1110 	reg 0
+OR w/: x	1010 0101 	reg 1
+		_________ 
+Result: 	1011 1111 	reg 0 
+
+
+
+Palette: 	0001 1110 	reg 0
+AND w/: 0	0000 0000 	reg 1
+		_________ 
+Result: 	0000 0000 	reg 2 
+^ In the same palette or in a different register ? 
+So far this is just conceptual. 
+
+
+
+Assume: result is in a different register. 
+In that case: 
+ > ADD 0000 0000 puts 0 on reg 2. 
+ > ADD 1111 1111 does nothing, puts reg 0 on reg 2. 
+ > OR  0000 0000 does nothing, puts reg 0 on reg 2. 
+ > OR  1111 1111 puts reg 1 on reg 2. 
+ > ADD xxxx xxxx masks certain bits. 
+ > OR  xxxx xxxx writes to certain bits. 
+
+
+
+Assume: result is in reg 0. 
+In that case: 
+ > ADD xxxx xxxx erases certain bits. 
+ > OR  xxxx xxxx overwrites w/ 1's. 
+
+
+
+In conclusion: 
+ > ADD is for masking / erasing with 0's. 
+ > OR is for writing / overwriting with 1's. 
+
+
+
+============================================================================================
+
+How can I use 0's and 1's to draw on screen ? 
+ > Respond to at least one kind of input: mouse, keyboard, touchscreen, joystick. 
+ > Output: screen. 
+
+Objective: tell the machine to draw at (0,0) of screen. 
+ > Assume: machine comes with 
+	- a screen / palette with certain dimensions, 
+	- a keyboard, 
+	- certain program / instruction for drawing to the screen. 
+	  ~ If press q, draw at (0,0) 
+	  ~ If press w, draw at (0,1)
+	  ~ etc. 
+ > What would the program be like ?   
+
+
+
+Protected bin memory - 	xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx 
+ > for programs, smth the computer can do no matter what. 
+Open bin memory 	0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 
+ > for doodling. 
+
+We can write and overwrite with 1's and mask and erase and 0's. Now let's give it purpose. 
+
+Bits 0-15 - rep-ns to write with OR 	1111 1110 1101 1100 ... 
+or bits 0-1 to writh with OR 		0 and 1 	
+

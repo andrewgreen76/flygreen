@@ -1,0 +1,5 @@
+
+ - 2 pxls (text, x) = 1 pxl (gfx, x)
+ - 2 pxls (text, y) = 1 pxl (gfx, y)
+ - size of bmp file = (# of Paint/bmp pixels/Bytes) + 2KB (for headers and footers?)
+

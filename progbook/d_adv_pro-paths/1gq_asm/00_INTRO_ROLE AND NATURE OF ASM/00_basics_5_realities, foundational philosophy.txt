@@ -1,0 +1,28 @@
+
+1. Programming demands infinite patience. 
+
+2. No one will do anything for you; there are no shortcuts in understanding programming. 
+
+3. Reality is not uniform. 
+ a) There is no one Assembly flavor (architecture / instruction set). 
+  - ARM, MIPS, x86, 6502. 
+
+Q: What is the most popular assembly language?
+|
+A: There are many, many types of assembly languages. The current most popular are ARM, MIPS, and x86. ARM is used on lots of cell phones and many embedded systems. MIPS is popular on IBM CPUs and is found on systems such as Macs, some video game consoles, and a few I'm sure I'm missing.
+
+ b) There is no one Assembly syntax: 
+  - Intel vs. AT&T (GAS uses it)
+
+ c) There is no one assembler: 
+  - MASM (Intel), TASM (Intel), NASM (Intel), GAS (AT&T syntax to support a 32-bit Unix compiler)
+  - each has its own linker. 
+
+ d) There is no one architecture: 
+  - x86 (32-bit) vs x64 (64-bit)
+
+========================================================================================================================
+
+2. Vitamins: 
+ - Every register means something, and every interrupt provides a different meaning/interpretation. 
+

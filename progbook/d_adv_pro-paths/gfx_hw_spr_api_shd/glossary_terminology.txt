@@ -1,0 +1,13 @@
+
+ - diffuse light, 
+ - refection, 
+ - bump and displacement, 
+ - ambient occlusion, 
+ - global illumination, 
+ - transmission, 
+ - transparency, 
+ - specular light 
+ - refraction, 
+ - luminosity, 
+ - subsurface scattering
+

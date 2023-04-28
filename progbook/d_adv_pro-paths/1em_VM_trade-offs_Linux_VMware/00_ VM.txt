@@ -1,0 +1,17 @@
+	
+=================================================================================
+=============================== Virtual machines:  ==============================
+=================================================================================
+
+VM (virtual machine): 
+ - guest OS, typically from a disk image, being hosted on a machine. 
+
+hypervisor: 
+ - a program that manages virtual machines, as well as the storage 
+   and memory on the host for them. 
+
+hypervisor, type 2: 
+ - a system-like program under the command of the OS 
+ - the OS is under the command of the firmware 
+
+=================================================================================

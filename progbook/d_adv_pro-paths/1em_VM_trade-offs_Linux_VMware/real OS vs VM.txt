@@ -1,0 +1,9 @@
+
+Trade-offs: 
+
+	real OS					VM 
+						
+	boasts greater computational power	security
+						cost-efficiency
+						scalability 
+

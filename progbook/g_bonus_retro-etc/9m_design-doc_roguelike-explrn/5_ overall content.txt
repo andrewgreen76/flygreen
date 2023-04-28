@@ -1,0 +1,43 @@
+
+Table of contents (Priorities): 
+------------------------------------
+
+I. Design challenges. 
+
+
+1. Modes, mechanics, features, etc.
+ 
+
+Every single thing on the list below will have a dedicated creative module - 
+ - design section and development tools. Listed in order from most to least 
+important: 
+
+
+Music 
+Sounds 
+Stories / illustrations 
+Look and feel 
+I/O (keyboard only, types of strokes; mouse - later project) 
+Game state management: 
+Acquisition 
+Scoring system 
+Growth aspect 
+Animation ticking 
+Scrolling 
+Stats 
+Save/load mechanics 
+Combat
+Map mode (adventure vs. combat) 
+Scenarios 
+Quests (and quest types) 
+Single player vs. multiplayer (HCI) 
+Portability 
+Debugging techniques and integrity checks 
+
+
+2. Flowchart 
+
+------------------------------------
+
+II. Technical challenges. 
+

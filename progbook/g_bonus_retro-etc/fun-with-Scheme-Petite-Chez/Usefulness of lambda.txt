@@ -1,0 +1,44 @@
+
+
+Syntax examples for lambda-expressions
+x	a single variable
+lambda x x	a function abstraction with one argument (x) and the body "x"
+(x y)	function application where function lexp "x" is applied to arg lexp "y"
+(lambda x x y)	function "lambda x x" applied to "y"
+lambda x (x y)	function abstraction with one variable "x" and body "(x y)" which is a function application
+(lambda x x lambda y y)	function application: "lambda x x" is applied to "lambda y y" as an argument
+lambda x (x (y x))	function abstraction: body is "(x (y x))" which is an application
+lambda x lambda y x	function abstraction defining function of one variable "x" with body "lambda y x" which is another function abstraction.
+lambda x lambda y (x lambda x lambda y y)	good and strange
+
+
+
+
+(define (func arg) (procs) )		; got a func name, will need an input from the prompt. 
+((lambda (arg) (procs w/ arg)) input)	; no need for func name, got an input already (everything is hard-coded). 
+
+
+
+lambda (arg var)(procedure/s)(const input)
+
+(lambda (x) (+ x x))        =>  a procedure
+((lambda (x) (+ x x)) 4)    =>  8
+
+
+
+To avoid using defines (and begins) and compress everything into one script. 
+
+(
+	(
+		(lambda (x) (x x))
+			(lambda (fact-gen)
+				(lambda (n)
+					(if (zero? n)
+						  1
+						  (* n ((fact-gen fact-gen) (sub1 n)))
+					)
+				)
+			)
+	)
+	4
+)

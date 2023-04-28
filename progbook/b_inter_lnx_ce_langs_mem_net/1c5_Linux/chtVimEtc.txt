@@ -1,0 +1,62 @@
+    .    .    .    .    :    .    .    .    .    :    .    .    .    .    :   |
+
+			Linux Trml/Vim key shortcuts: 
+
+copy: Shift + Ctrl + C
+paste: Shift + Ctrl + V
+
+			VIM: basic vim commands: 
+
+Insertion:
+|
+i - insert at the cursor; char pushes curChar to the right. 
+a - (useful at \n) inserts to the right of the cursor. 
+A - insert at the end of the current line. 
+O - insert a line above. 
+o - insert a line below. 
+|
+r - replace the current char. 
+
+
+Navigation: 
+|
+[SHIFT] 
+
+
+Deletion:
+|
+x - deletes char at the cursor. 
+dd - del this line
+d0 - |----  ---- ---<+----|
+db - |---<+----|
+dw - |----+>---|
+dH - del this line and all lines above it
+dL - del this line and all lines below it 
+
+
+Copying and pasting:
+|
+y1w - register one |word | 
+ - includes chain of spec chars.  
+ynw - register n |c-----s| 
+|
+yy / 1yy - register this line
+nyy - register this line and next (n-1) lines. 
+|
+p - paste after cursor 
+
+
+Working with actions/entries: 
+|
+u - undo
+Ctrl + r  - redo
+:undolist - list the undo branches. 
+
+
+Saving, quitting:
+|
+:w - save. 
+:wq - quit with saving changes.
+:q! - quit without saving changes.
+
+

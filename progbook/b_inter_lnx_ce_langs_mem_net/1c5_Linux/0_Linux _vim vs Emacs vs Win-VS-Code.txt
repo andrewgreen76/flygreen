@@ -1,0 +1,41 @@
+
+Linux for dev: 
+ + package manager improves programming workflow 
+   . allows for fast installation of packages, some of which are already there. 
+   . less hassle with lib dependencies. 
+   . no need to reboot => great stability / reliability for server-client work. 
+ + faster than Win 
+   . because it's relatively light. 
+ => makes an old, virtually useless machine useful again. 
+ + more secure (no need for anti-virus software)
+ + timely updates, bug fixes 
+ + no IDE (just vim, emacs for coding)
+ + free tools and libs 
+ + supports all programming languages 
+ + gives specific error messages 
+
+ . highly customizable 
+
+
+
+Windows for dev: 
+ + more user-friendly 
+
+ - need an IDE 
+ - using _s "secure" functions 
+
+====================================================================================================
+
+GNU Emacs for dev: 
+ + extensible 
+ + self-documenting 
+ + customizable 
+
+ - less popular 
+
+
+
+Visual Studio (Code, 20xx) for dev: 
+ + a big library of extensions (debugging, code browsing, taking on other new languages)
+ + more popular 
+

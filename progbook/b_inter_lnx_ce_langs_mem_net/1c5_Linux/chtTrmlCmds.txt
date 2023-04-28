@@ -1,0 +1,26 @@
+    .    .    .    .    :    .    .    .    .    :    .    .    .    .    :   |
+
+			TERMINAL: basic Linux terminal commands: 
+
+[cmd1] ; [cmd2]	- execute these commands in one chain 
+whatis []	- gives a brief description of what the specified command does 
+man [cmd]	- help with a specific command 
+mkdir []	- create a new directory 
+mv [old] [new]	- rename a directory / file 
+rmdir []	- delete an empty directory 
+rm -r [] 	- recursively delete a directory (that is not empty) 
+vim []		- edit/create file in Vim 
+touch [] 	- create a (text) file 
+rm [] 		- delete a file
+cat []		- show content of a file 
+grep ["s"] [p]	- finds given string/word within the specified path/file 
+clear/Ctrl+L	- clears the terminal
+
+gcc [].c -o [] 	- compile C file(s)
+./[exe]		- run the C program
+python3 [].py	- runs a Python script (Python 3 - latest version series)
+pip show	- shows info about a Python package(s) 
+javac [p.java]	- compile a Java file 
+java [prog]	- run the Java program 
+
+

@@ -1,0 +1,6 @@
+
+Linux distro (distribution) / OS: 
+ = the Linux kernel
+ + package management system (installation programs, management tools) 
+ + software (e.g., KVM hypervisor). 
+

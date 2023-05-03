@@ -1,0 +1,22 @@
+
+!!! MIND COPYING THE KEY TO THE REPO !!!
+
+Once I'm plugged in, ... :
+ - update the repo with x.sh
+ - get into flygreen/e_gpt/
+ - run the bash script:
+|
+git rm {a..t}*
+cp ../../gpt-w-key/ask_gpt.sh ./
+cp ../../gpt-w-key/sega.curl ./
+cp ../../gpt-w-key/{segc..z} ./
+
+1_beginnings/	  seg_a_head.curl  seg_e_tail.curl  y_orig-reqinba.sh
+a_ask-gpt.sh	  seg_b_key.curl   transcript.txt   zot_sure/
+plan4transc.note  seg_c_mid.curl   u_response.txt
+req_in_ba.sh	  seg_d_req.curl   y_observ.note
+
+ask_gpt.sh  segb.curl  sege.curl	y_plan4transc.note  y_transcr1.txt
+reqinba.sh  segc.curl  transcript.txt	y_pybind.py
+sega.curl   segd.curl  x_off-plan.note	y_req-in-ba.sh
+

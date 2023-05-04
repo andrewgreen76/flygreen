@@ -2,6 +2,7 @@
 update repo/gptdir
 
 add tee, tee -a
++ find a way to move warnings and error msgs into file in bash. 
 
 learn bash aliasing
 

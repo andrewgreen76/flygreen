@@ -3,6 +3,8 @@ update repo/gptdir
 
 add tee, tee -a
 
+learn bash aliasing
+
 ask gpt:
  - Is it possible to get WiFi connection on a plane?
  - 

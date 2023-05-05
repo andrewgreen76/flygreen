@@ -16,7 +16,7 @@ that seems to make the most sense.
     On another note, there's something else that started
 to concern me greatly. Currently, the folder for the intermediate 
 level material bears the name "b_inter_lnx_ce_langs_mem_net".
-That's Linux, computer engineering, languages, memory, and
+That's Linux, computer engineering, languages, memory management,
 networking. Now that I think about, I should probably break up
 the networking material into at least two chunks. The first part
 would feature some modern computer communication tricks, display

@@ -1,11 +1,42 @@
+===============================================================
+Just a short PREAMBLE: 
+===============================================================
 
-If you are new to Linux (prompt), use the following commands:
+. If you are new to Linux and the Bash shell, welcome!
 
+. If you are new to GitHub and reading this from within my
+  GitHub account via Windows, macOS, or some other platform, ...
+  ... well, I guess that's not so bad. At least you have a wonderful
+  platform powerful and resourceful enough to give you the access
+  to other platforms that can educate you on how to use GitHub.
+  But, if you are keen on learning how things work, I will have
+  some instructions for you that you will have to follow yourselves. 
+
+. I don't have anything to say to the rest of you. Sorry. You
+  can always figure anything out. 
+
+===============================================================
+BASIC / SURVIVOR COMMANDS: 
+===============================================================
+
+If you are new to Linux and the Bash shell, use the following
+commands:
 
 ls
- - list all files and directories in the current directory 
+ - List all files and directories in the current directory. 
 
 cat [file]
- - read the targeted file 
+ - Read the targeted file. This is known as the concatenation 
+   command. For now don't ask.
+ - You can't do some pretty cool stuff with it, but for now
+   reading is it. 
 
+===============================================================
+TIP - ANNOYANCE/PRODUCTIVITY MANAGEMENT: 
+===============================================================
+The TAB key: 
+ - When you do get tired of writing out the name of a file or
+   directory in full, instead of doing that write out the first
+   few characters of the name and hit the TAB key. The shell
+   should auto-populate the rest of the name.
 =

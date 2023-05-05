@@ -1,3 +1,61 @@
+==== 5/4/23, 6:47pm PT:
+    I've just learned how to do aliasing in Linux. So simple that
+a child can do it ... as long as that child knows that it's doing.
+Now I have to tighten up the whole business with Linux basics
+like commands, packages, bindings, etc. Honestly, now I'm not sure
+whether I want to introduce people to Linux at the beginner or
+intermediate stage. I do still maintain that everyone who is
+looking to become a professional developer should learn whatever
+they want, however they want, and whenever they want. But when
+would I personally like to expose Linux to others? ... Great, now
+I'm just having a little monologue with myself. ... Well, let's
+go back to the old "policy" of looking at everything like a game.
+If Linux were a game, it would be a huge one. I'd probably want
+to break up the subject material into difficulty levels. Yes,
+that seems to make the most sense.
+    On another note, there's something else that started
+to concern me greatly. Currently, the folder for the intermediate 
+level material bears the name "b_inter_lnx_ce_langs_mem_net".
+That's Linux, computer engineering, languages, memory, and
+networking. Now that I think about, I should probably break up
+the networking material into at least two chunks. The first part
+would feature some modern computer communication tricks, display
+the Grand Map of complex networks of today (which will not be
+explained at that point), and give a walk through
+the history of how the earliest forms of computer communication
+came about. (I might discuss things like packets, but I'd rather
+limit that portion to pre-1969 concepts, designs, and tools).
+Maybe then the students would at least understand the basic gist
+of how one person or a few people could make two pieces of bare
+metal talk to one another. Maybe then they could develop a strong,
+informed perspective on the foundations of modern networking,
+armed with the knowledge of what can be done, what can't be done,
+what became a success, and what became a failure. This is why
+I want some telnet trickstery in the mix - because I too
+would like to know how something relatively simple like this,
+though definitely unsecure, can work without TCP/IP and the OSI
+layers. Some investigation into how subnets, gateways, masks,
+IPv4, and IPv6 came about is very much needed. And only after
+that there will come the second chunk on the subject, explaining
+certain aspects of computer communication in depth, like
+the inspired need for the aforementioned TCP/IP and the OSI model,
+as well as BBS, all the protocols, WWW as an information system,
+etc.
+    Gosh, this is just such a big subject that perhaps I should
+resume working on the baby steps in Linux and spend less time
+journaling. Oh, there was a time when just a few months ago
+I was in the habit of simply swallowing, bite after bite after
+bite, downloading images, copying and pasting text, organizing
+material, convinced that I could quickly internalize it all. That
+was then when Windows was proving itself immensely powerful as
+a tool for fast education. But, needless to say, the Internet
+proved to be a platform for countless distractions. This is why
+I'm doing all this in the CLI environment - I'm just tired of
+the distractions. I need to stay productive, continue honing my
+Linux skills, all the while "meditating against" this wonderful
+environment, rebuilding focus, having something to be addicted to. 
+==== End at 5/4/23, 8:05pm PT
+
 
 ==== 5/3/23, 9:38pm PT:
     As someone who aspires to be a professional software developer, 
@@ -22,13 +80,16 @@ repaid in breadcrumbs by douchey clientele.
 that I still don't know enough about it. Maybe I'm just too
 scared to try. Or maybe I just cling to autonomy and my musical
 ideals too much.
-~~~~ End at 5/3/23, 10:28pm PT
+==== End at 5/3/23, 10:28pm PT
 
-5/2/23:
+
+==== 5/2/23:
 I now understand why some people prefer to focus
 on important things in public places instead of doing it
-in private. 
+in private.
+==== 
 
-04/30/23
+
+==== 04/30/23: 
 [music, computer-engineering] x [impress myself, impress others]
-
+==== 

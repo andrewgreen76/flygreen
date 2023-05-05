@@ -1,6 +1,4 @@
 
-update repo/gptdir
-
 square away linux cmds, etc. 
 add bash aliasing : .bashrc > alias > source 
 add tee, tee -a

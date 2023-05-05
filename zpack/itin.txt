@@ -6,7 +6,6 @@ Itinerary:
 5/5 - the rest 
  - Union Square hearts
  - Neiman Marcus rotunda
- - Angel Island 
  - Sausalito
 
 
@@ -17,6 +16,7 @@ Itinerary:
  - Lombard Street
  - Orpheum Theater
  - Cable car 
+ - Angel Island
  - Palo Alto (Caltrain, 30 min - 1 hr)
  - 
 

@@ -1,10 +1,10 @@
 
 update repo/gptdir
 
+add bash aliasing : .bashrc > alias > source 
 add tee, tee -a
 + find a way to move warnings and error msgs into file in bash. 
 
-learn bash aliasing
 
 ask gpt:
  - Is it possible to get WiFi connection on a plane?

@@ -20,6 +20,11 @@ clear/Ctrl+L	- clears the terminal
 history		- lists previously entered commands 
 ![num]		- execute the command as indexed by history 
 
+echo
+grep
+pwd
+
+
 gcc [p].c -o [p.out] 	- compile a C program
 ./[p.out]		- run a C program 
 |

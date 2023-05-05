@@ -1,16 +1,6 @@
 
 CMDS:
 
-ls
-man
-mkdir
-touch
-rm
-clear
-echo
-grep
-|	- [pipe]
-pwd
 
 
 =

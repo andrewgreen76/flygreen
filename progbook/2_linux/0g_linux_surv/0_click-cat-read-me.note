@@ -1,7 +1,15 @@
 
 If you are new to Linux (prompt), use the following commands:
 
+
 cat [file]
+ - read the targeted file 
+
 cd [folder/directory]
+ - go to the targeted directory
+
+cd ..
+ - to go back up to the parent directory
+
 
 =

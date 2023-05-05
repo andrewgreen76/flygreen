@@ -6,7 +6,7 @@ add tee, tee -a
 
 
 ask gpt:
- - Is it possible to get WiFi connection on a plane?
+ - How do systems on planes fetch WiFi connection in the airplane mode? Are they isolated servers?
  - 
 
 add pid (locked number)
@@ -14,7 +14,6 @@ add pid (locked number)
 floss
 get the Reno trip approved
 
-is there any evidence of a connection between meditation and programming?
 alternative to xclip ??
 merge funbag and progbook
 doctor the cheat sheets - ?

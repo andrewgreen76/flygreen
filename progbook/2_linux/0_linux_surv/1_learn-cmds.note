@@ -1,0 +1,23 @@
+
+CMDS:
+
+ls
+man
+mkdir
+touch
+rm
+clear
+echo
+grep
+|	- [pipe]
+pwd
+
+
+TRICKS:
+ - commands
+ - command chaining
+ - operators, tee 
+ - (bash) scripts
+ - aliasing (.bashrc, .profile)
+
+-

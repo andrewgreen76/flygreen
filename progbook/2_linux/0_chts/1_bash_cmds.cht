@@ -1,12 +1,11 @@
 
-================= TERMINAL: basic Linux terminal commands: ====================
-
-l		- list contents of curDir, points out which ones are subDirs. 
-		  (Does not work in bash scripts.)
-ls		- list contents of the current directory. 
-[cmd1] ; [cmd2]	- execute these commands in one chain. 
 whatis [cmd]	- gives a brief description of what the specified command does 
 man [cmd]	- help with a specific command 
+
+cd [fldr/dir]	- go to the targeted directory
+cd ..		- go back up to the parent directory
+
+[cmd1] ; [cmd2]	- execute commands one after another. 
 mkdir []	- create a new directory 
 mv [old] [new]	- rename a directory / file 
 rmdir []	- delete an empty directory 
@@ -14,7 +13,6 @@ rm -r [] 	- recursively delete a directory (that is not empty).
 vim []		- edit/create file in Vim 
 touch [] 	- create a (text) file 
 rm [] 		- delete a file
-cat []		- show content of a file 
 grep ["s"] [p]	- finds given string/word within the specified path/file 
 clear/Ctrl+L	- clears the terminal 
 history		- lists previously entered commands 

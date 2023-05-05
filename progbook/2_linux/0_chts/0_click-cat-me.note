@@ -19,9 +19,6 @@ Just a short PREAMBLE:
 BASIC / SURVIVOR COMMANDS: 
 ===============================================================
 
-If you are new to Linux and the Bash shell, use the following
-commands:
-
 ls
  - List all files and directories in the current directory. 
 

@@ -1,0 +1,11 @@
+
+===============================================================
+TIP - ANNOYANCE/PRODUCTIVITY MANAGEMENT: 
+===============================================================
+
+The TAB key: 
+ - When you do get tired of writing out the name of a file or
+   directory in full, instead of doing that write out the first
+   few characters of the name and hit the TAB key. The shell
+   should auto-populate the rest of the name.
+.

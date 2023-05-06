@@ -1,0 +1,17 @@
+
+===============================================================
+TIP/COMMANDS - HELP WITH FOCUS IF YOU HAVE ADD: 
+===============================================================
+
+clear
+ - wipes the screen clean and populates the command line at
+   the top of the screen.
+
+ls -1
+ - lists contents of the current directory with a minimal
+   amount of columns. 
+
+I could also show you some scripting and aliasing tricks, but
+we are not there yet. 
+
+.

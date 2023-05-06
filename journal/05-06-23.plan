@@ -6,12 +6,36 @@ that it has (had?).
     Checking back in with more of my rather troubling thoughts.
 Last night I was reorganizing things in my repo, especially
 the mess I've made that is the handful of cheat sheets for
-basic and intermediate level commands and operators and I got
-to thinking back to the big question of what it is that I
+basic and intermediate level Bash commands and operators and
+I got to thinking back to the big question of what it is that I
 really want to do in the future - something to do with graphics
-or, if the former would not be possible for some reason,
-text display/font library work or kernel development. If I
+or, if the former would not be possible for some reason, text
+display / font library work or kernel development. If I chose
+to work for a company like NVIDIA (with all the hate that
+it got from some people, gamers especially) where I would work
+on graphics drivers, libraries, shaders, etc., I would probably
+have to switch from Bash to PowerShell. I made this assumption
+that NVIDIA makes its products fully compatible only with
+graphics APIs developed by Microsoft, whereas it would be a bit 
+of an effort to do so with OpenGL and Vulkan, but I'll let time
+and experience tell it all before I come across as the world's
+silliest goose. I do not mind migrating from Linux back to
+Windows, but I must have PowerShell in front of me in fullscreen
+at all times - all because of my ADD. (Incidentally, it is ADD
+that got me thinking that perhaps I should push the "game" of
+Linux to the forefront of my Git repository. If I have ADD
+acting up so bad and having CLI fullscreen is currently the most
+viable remedy, then maybe I should teach Linux and Bash first.
+"But what about PowerShell?", I ask myself.)
+    Every now and then I have to remind myself that all I really
+want to do is (1) to learn to provide a magnificent experience
+from the screen and out of the speakers, an experience that can
+breathe life into life, and (2) assure every aspiring developer
+that computer engineering, indie game development, and learning how
+desktop and laptop graphics work can and should be a personally
+fulfilling experience with little to no intimidation. I'll keep
+all my thoughts pertaining to currently boring subjects like
+robotics and such to myself. AI is slowly growing on me. 
 
-
-==== End at 5/	  /23, 	  pm PT
-
+==== End at 5/6/23, 8:29am PT 
+.

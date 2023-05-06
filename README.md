@@ -1,4 +1,4 @@
-# Experimental edutainment repository "flygreen"
+# Experimental edutainment/tutorial repository "Fly Green"
 
 The purpose of this repo is to help individuals, with or
 without a technical background, to

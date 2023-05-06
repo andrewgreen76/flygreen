@@ -1,22 +1,11 @@
 
 Itinerary:
 
-
- 
-5/5 - the rest 
- - Union Square hearts
- - Neiman Marcus rotunda
- - Lombard Street
- - Sausalito
-
-
 5/6 - the rest
- - Cable car 
+ - Neiman Marcus rotunda / tea party
+ - Union Square hearts
+ - Lombard Street
  - California Museum of Science
  - Salesforce Park
  - Orpheum Theater
- - Angel Island
- - Palo Alto (Caltrain, 30 min - 1 hr)
- - 
-
-_
+.

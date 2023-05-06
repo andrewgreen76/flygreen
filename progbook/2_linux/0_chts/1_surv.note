@@ -10,4 +10,7 @@ cat [file]
  - Read the targeted file. This is known as the concatenation 
    command. For now don't ask.
 
+
+
+Now go ahead and type "cat 2_proper-intro.note" and hit Enter. 
 .

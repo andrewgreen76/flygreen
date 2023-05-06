@@ -1,6 +1,7 @@
 
 rework
- - funbag + progbook (cheat sheets) 
+ - funbag + progbook (cheat sheets)
+ > For GUI or <CLI> ( PowerShell or Bash ) 
 
 square away linux cmds, etc. 
 add bash aliasing : .bashrc > alias > source 

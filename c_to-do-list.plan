@@ -1,5 +1,6 @@
 
-
+rework
+ - funbag + progbook (cheat sheets) 
 
 square away linux cmds, etc. 
 add bash aliasing : .bashrc > alias > source 
@@ -20,8 +21,6 @@ floss
 get the Reno trip approved
 
 alternative to xclip ??
-merge funbag and progbook
-doctor the cheat sheets - ?
 
 goof or amb: Vulkan + shaders
 goof or amb: Vulkan + Unity + C#

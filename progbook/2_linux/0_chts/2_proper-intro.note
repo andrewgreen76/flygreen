@@ -1,7 +1,16 @@
 
 ===============================================================
-Just a short PREAMBLE: 
+PREAMBLE - THE MISSION of this repository: 
 ===============================================================
+
+	This is an educational repository at the heart of which
+is my personal manifesto - "Learn whatever you want, learn 
+however you want to, and learn whenever you want to". That being
+said, you will notice that there is a kind of a linear pattern
+to the educational flow and structure of this repo. And there is
+a sense to that pattern. The idea is to (1) allow students to find
+joy in computer programming, (2) discover who they really are as
+programmers, and (3) help them hone their skills. 
 
 . If you are new to Linux and the Bash shell, welcome!
 
@@ -10,7 +19,9 @@ Just a short PREAMBLE:
   I guess that's not so bad. At least you have a wonderful platform
   powerful and resourceful enough to give you the access to other
   platforms that can educate you on how to use GitHub. However,
-  this Git repository right here is for those who are looking 
+  if you have at least one good reason to learn to use 
+
+this Git repository right here is for those who are looking 
   insist on learning how a version control system (a massive
   software that allows you to store your software development
   projects)

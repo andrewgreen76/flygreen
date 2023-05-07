@@ -3,11 +3,26 @@
 
 My mercurial head is torn between several directions:
 
+ - BIOS/UEFI/coreboot
  - kernel dev (hardware manager)
  - tools to add to kernel
- - Win (C#/Unity/.NET)
- - graphics (shaders, APIs)
- - BIOS/UEFI/coreboot
 
-==== revise End at 5/8/23, 8:29am ET 
+   = font lib 
+
+   = ed	      (code stor/manip)			part of OS 
+   = shell    (filesys navig , cmdproc , )      part of OS
+   = terminal (output) 	       	       	 	part of OS
+
+   = compiler (src unwrapping)		, gcc,mingw)
+   = debugger ()   			GDB ;	    part of CC ; none by default for now)
+   = assembler (asm unwrapping)		GAS, etc. ; part of CC 
+   = linker    (proc bindata)		ld ; 	    part of CC , a fucking nightmare)
+
+   = loader    (move bindata, prep)	part of OS , know your limits)
+   = io	      (ports)
+   
+ - graphics (shaders, APIs)
+ - Win (C#/Unity/.NET)
+
+==== End at 5/8/23, 10:05pm ET 
 

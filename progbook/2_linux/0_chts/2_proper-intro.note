@@ -3,15 +3,16 @@
 PREAMBLE - THE MISSION of this repository, further INSTRUCTIONS: 
 ===============================================================
 
-	This is an educational repository at the heart of which
-is my personal manifesto - "Learn whatever you want, learn 
-however you want to, and learn whenever you want to". That being
-said, you will notice that there is a kind of a linear pattern
-to the educational flow and structure of this repo. And there is
-a sense to that pattern. The idea is (1) to allow students to find
-joy in computer programming, (2) let them discover who they really
-are as programmers and engineers, and (3) help them hone their
-skills in a discipline of their choosing. 
+    This is an educational repository at the heart of which is my
+personal manifesto - "Learn whatever you want, learn however you 
+want to, and learn whenever you want to". That being said, you will
+notice that there is a kind of a linear pattern to the educational
+flow and structure of this repo. And there is a sense to that
+pattern. The idea is to employ cool hacking methods to achieve
+the following: (1) allow students to find joy in computer
+programming; (2) let them discover who they really are as
+programmers and engineers; and (3) help them hone their skills in
+a discipline of their choosing. 
 
 . If you are new to Linux and the Bash shell, welcome!
 

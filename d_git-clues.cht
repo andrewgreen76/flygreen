@@ -4,7 +4,7 @@ Find me @: https://github.com/andrewgreen76/flygreen
 
 Basic understanding:
  - For every repo there can be multiple branches.
- - For every branch can be multiple commits. 
+ - For every branch there can be multiple commits. 
 
 ========================================================================
 
@@ -124,7 +124,7 @@ PRACTICAL TIPS:
 ========================================================================
 SAVIOR TIPS:
  - NEVER, EVER, EVER put the token in any form inside the repo.
- - Whenever the CLI asks for the "Password", write the token instead.
+ - Whenever the CLI asks for the "Password", write/paste the token instead.
  - Try "git push" , "git push origin" , "git push origin . " . 
 ========================================================================
 

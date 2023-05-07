@@ -12,7 +12,8 @@ rework
      + teach DOS vs. CLI 
      + Unity, C#, .NET
      |
-     - Knowledge not transferrable to Linux.  
+     - Knowledge not transferrable to Linux / more jobs.
+     ? PowerShell does not cooperate with Unity ??
 
    . Bash: 
      + [OpenGL, Vk] x [Linux - NVIDIA/<Intel> drivers] x [NVIDIA/<Intel> shaders, etc.]  
@@ -20,12 +21,16 @@ rework
      |
      + cmds, operators, GCC ;
      + This Bash, not DOS ; teach DOS vs. CLI
-     + Knowledge is transferrable to Windows. 
+     + Knowledge is transferrable to Windows.
+     |
+     - Missing out on Unity/C# fun. 
 |
 Personal plan:
  - for CLI 		- CLI 
  - Windows for now 	- POWERSHELL 
  - for laptops		- INTEL
+
+
 
 square away linux cmds, etc. 
 add bash aliasing : .bashrc > alias > source 

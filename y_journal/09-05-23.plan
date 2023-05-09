@@ -1,0 +1,34 @@
+
+==== 5/9/23, 9:48am ET:
+
+Time to get my hands dirty ... even if those words mean
+nothing at this moment. Also, quite frankly, I'm just tired
+of simply reading about BIOS and not gaining any real
+practical experience in that field.
+
+Note to self: bare minimum to gain basic understanding. 
+
+ - BIOS/UEFI/coreboot ... There it is. Should have taken that
+   book with me. 
+ - kernel dev (hardware manager)
+ - tools to add to kernel
+
+   = font lib (need a sysdefault)		e.g., GNU Unifont
+
+   = ed	      (code stor/manip)			part of OS 
+   = shell    (filesys navig , cmdproc , )      part of OS
+   = terminal (output) 	       	       	 	part of OS
+
+   = compiler (src unwrapping)		, gcc,mingw)
+   = debugger ()   			GDB ;	    part of CC ; none by default for now)
+   = assembler (asm unwrapping)		GAS, etc. ; part of CC 
+   = linker    (proc bindata)		ld ; 	    part of CC , a fucking nightmare)
+
+   = loader    (move bindata, prep)	part of OS , know your limits)
+   = io	      (ports)
+   
+ - graphics (shaders, APIs)
+ - Win (C#/Unity/.NET)
+
+==== End at 5/9/23, 6:59pm ET 
+

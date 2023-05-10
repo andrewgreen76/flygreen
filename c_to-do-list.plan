@@ -16,7 +16,6 @@ funbag >< progbook (cheat sheets)
 
 =====================================================================
 
-add bash aliasing : .bashrc > alias > source 
 add tee, tee -a
 
 square away linux cmds, etc. 

@@ -2,6 +2,9 @@
 TRICKS:
  - commands
  - command chaining
- - operators, tee 
+ - operators
+ - tee feeds out to shell and file(s) ;
+   = tee -a feeds out to shell and appends to file(s). 
  - (bash) scripts
  - aliasing (.bashrc, .profile)
+

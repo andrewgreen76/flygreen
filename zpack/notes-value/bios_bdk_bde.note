@@ -1,0 +1,17 @@
+If an EDK is used to write a UEFI, what is used to write a legacy-style BIOS?
+ChatGPT
+To write a legacy-style BIOS, the primary tool used is a Basic Input/Output System (BIOS) development kit or a BIOS development environment specific to the motherboard or chipset manufacturer. These development kits often provide software libraries, utilities, and documentation required for BIOS development.
+
+While there is no standardized or widely adopted development kit like the Unified Extensible Firmware Interface (UEFI) Development Kit (EDK) for legacy-style BIOS development, manufacturers typically offer their own proprietary tools and resources. These tools are tailored to the specific hardware platform and its associated chipset.
+
+The legacy-style BIOS development process typically involves:
+
+Assembly Language: BIOS development often involves writing low-level code using assembly language. Assembly instructions are used to directly manipulate hardware components and initialize the system during the boot process.
+
+BIOS Interrupt Calls: The BIOS provides interrupt services that can be called by software running in real mode (16-bit mode). Developers utilize these interrupts to perform various tasks, such as accessing hardware devices, performing disk operations, and handling system events.
+
+BIOS Utilities and Libraries: Manufacturers may provide utility programs and libraries specific to their BIOS implementation. These tools assist in tasks like modifying BIOS settings, flashing the BIOS firmware, and customizing the BIOS behavior.
+
+Documentation and Reference Materials: Manufacturers typically offer detailed documentation, reference manuals, and technical specifications specific to their BIOS implementation. These resources outline the programming interfaces, memory structures, interrupt vectors, and other essential details necessary for BIOS development.
+
+It's important to note that the transition from legacy-style BIOS to UEFI has become more prevalent in recent years. UEFI offers enhanced features, improved security, and a more modular and flexible design compared to traditional BIOS. Consequently, many modern systems and motherboards have shifted to UEFI firmware as the standard. However, legacy BIOS development tools and processes are still in use for older systems or specific applications where UEFI is not applicable.

@@ -3,17 +3,31 @@
 
 I forgot about the programming questions for the interviews. Fuck!
 
- - C, C++, C#, Bash (awk, head, sort, dd, flags).
- - 
+...
 
+Ok, so this makes the most sense: 
+
+ Stipulations and other stumbling blocks :
+ - OS constitution
+ - x86 ISA - to be explained in full.
+ - x86 ISA vs. BIOS vs. kernel - ?
+ - hypervisor, virtualization
+ - drivers 
+ |
+ - Interview questions: C, C++, Bash (awk, head, sort, dd, flags).
+ - https://developerinsider.co/introduction-c-programming/ 
+ |
  - kernel dev (HW mgmt, qemu)		OS, sched, memgmt, driv, optim, hw comm, btlnks, config, dbg, virt;
-   	      	  			security, R&D, cloud, RTOS.
-										
+ ^ https://kernel.org/			security, R&D, cloud, RTOS.
+ ^ Peropesis 
+ |										
  - compiler, debugger, etc.		optim, code gen, tools/utils, dbg, ed/IDE, anlzrs, (OS, driv) ; 
    	     	       			prog/lang expand, integr, (RTOS, emb.sys). 
 
+ - Interview questions: C#.
+ |
  - Win (C#/Unity/.NET)			simple games, edu, net, sim, (UI/UX, test, consult, scripting) ; 
        					VR, AR, web apps, mobile. 
 
-==== revise End at 5/6/23, 8:29am ET 
+==== End at 5/10/23, 4:36pm ET 
 

@@ -1,0 +1,19 @@
+
+Who is doing the learning?
+ |
+ - a child?	- Why not Scratch?
+ - an adult? 	- any scripting language will do.
+
+
+You probably don't have access to Linux. You probably have Windows or macOS on your computer.
+(I'm going to assume that we refuse to go through any hassle for the sake of WSL.)
+ |
+ - PowerShell
+
+
+Goals:
+ |
+ - personal :					- Doesn't really matter. Any language that seems the most fun.
+   = You want to learn how things work? 	- Assembly -> C. (Bytes that move and manipulate other bytes.)
+ - professional :				- You should have started a while ago. C/C++. 
+

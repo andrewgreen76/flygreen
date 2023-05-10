@@ -2,28 +2,6 @@
 get the Reno trip approved
 Get my mother an NF hoodie with a zipper. 
 funbag >< progbook (cheat sheets)
-   > For desktop/NVIDIA or <laptop/Intel>  
-   > For GUI or <CLI> ( Bash )
-
-   . IDE: 
-     + [DX, OpenGL, Vk] x [MS - NVIDIA/<Intel> drivers] x [NVIDIA/<Intel> shaders, etc.]  
-     + custom APIs, drivers, shaders, etc.
-     + Unity, C#, .NET
-     |
-     - Knowledge not transferrable to Linux / more jobs.
-
-   . Bash: 
-     + [OpenGL, Vk] x [Linux - NVIDIA/<Intel> drivers] x [NVIDIA/<Intel> shaders, etc.]  
-     + custom APIs, drivers, shaders, etc.
-     |
-     + cmds, operators, GCC ;
-     . teach DOS vs. CLI
-     |
-     - cmds not transferrable to Windows.
-|
- - for CLI 		- CLI 
- - (though I wanted Win) - BASH 
- - for laptops		- INTEL
 
 =====================================================================
 
@@ -38,9 +16,10 @@ funbag >< progbook (cheat sheets)
 
 =====================================================================
 
-square away linux cmds, etc. 
 add bash aliasing : .bashrc > alias > source 
 add tee, tee -a
+
+square away linux cmds, etc. 
 
 + find a way to move warnings and error msgs into file in bash. 
 ask gpt:
@@ -50,7 +29,5 @@ floss
 
 add pid (locked number)
 alternative to xclip ??
-goof or amb: Vulkan + shaders
-goof or amb: Vulkan + Unity + C#
 shit to lug
 

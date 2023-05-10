@@ -84,5 +84,5 @@ Upon CPU initialization, what instructions does the CPU execute before it gets a
 
 {"id":"chatcmpl-7EXTE0ITxSxwP5c1OtAwt1eRBEWR7","object":"chat.completion","created":1683699608,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":26,"completion_tokens":90,"total_tokens":116},"choices":[{"message":{"role":"assistant","content":"Upon CPU initialization, the CPU executes a series of basic instructions known as the \"boot process\". These instructions include initializing the hardware components of the system, such as the memory and input/output devices, checking for errors, and loading the operating system from the boot device (e.g. hard drive or CD-ROM). The CPU may also perform a power-on self-test (POST) to check for any hardware failures or issues before proceeding with the boot process."},"finish_reason":"stop","index":0}]}
 
-==== revise 5/10/2023, 2:46am ET
+==== 5/10/2023, 2:46am ET
 

@@ -5,29 +5,24 @@ funbag >< progbook (cheat sheets)
    > For desktop/NVIDIA or <laptop/Intel>  
    > For GUI or <CLI> ( Bash )
 
-   . PSh: 
+   . IDE: 
      + [DX, OpenGL, Vk] x [MS - NVIDIA/<Intel> drivers] x [NVIDIA/<Intel> shaders, etc.]  
      + custom APIs, drivers, shaders, etc.
-     |
-     + cmds, operators, what CC does PSh use ? ;
      + Unity, C#, .NET
      |
      - Knowledge not transferrable to Linux / more jobs.
-     ? PowerShell does not cooperate with Unity ??
 
    . Bash: 
      + [OpenGL, Vk] x [Linux - NVIDIA/<Intel> drivers] x [NVIDIA/<Intel> shaders, etc.]  
      + custom APIs, drivers, shaders, etc.
      |
      + cmds, operators, GCC ;
-     + This Bash, not DOS ; teach DOS vs. CLI
-     + Knowledge is transferrable to Windows.
+     . teach DOS vs. CLI
      |
-     - Missing out on Unity/C# fun. 
+     - cmds not transferrable to Windows.
 |
-Personal plan:
  - for CLI 		- CLI 
- - Windows for now 	- POWERSHELL 
+ - OS ? shell ?		-  
  - for laptops		- INTEL
 
 

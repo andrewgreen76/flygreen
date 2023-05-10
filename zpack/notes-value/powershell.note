@@ -1,0 +1,12 @@
+
+   . PSh: 
+     + [DX, OpenGL, Vk] x [MS - NVIDIA/<Intel> drivers] x [NVIDIA/<Intel> shaders, etc.]  
+     + custom APIs, drivers, shaders, etc.
+     |
+     + cmds, operators, what CC does PSh use ? ;
+     + Unity, C#, .NET
+     |
+     - Knowledge not transferrable to Linux / more jobs.
+     - Limited usefulness / not very popular. 
+     ? PowerShell does not cooperate with Unity ??
+

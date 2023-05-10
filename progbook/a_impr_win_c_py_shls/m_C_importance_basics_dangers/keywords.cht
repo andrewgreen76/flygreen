@@ -1,0 +1,17 @@
+
+No, it is not true that the C programming language has only 32 keywords. The C language has a total of 32 reserved keywords. These keywords have predefined meanings in the language and cannot be used as identifiers (such as variable names or function names). However, C also has additional standard library functions and data types that are not considered keywords.
+
+Here is a list of the 32 reserved keywords in the C language:
+
+c
+Copy code
+auto        double      int         struct
+break       else        long        switch
+case        enum        register    typedef
+char        extern      return      union
+const       float       short       unsigned
+continue    for         signed      void
+default     goto        sizeof      volatile
+do          if          static      while
+It's worth noting that the C language has evolved over time, and newer versions (such as C99 and C11) introduced additional keywords and features. However, the core set of 32 keywords remains consistent across different versions of the C language.
+

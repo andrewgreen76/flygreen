@@ -1,0 +1,88 @@
+
+==== 5/10/2023, 2:30am ET
+
+Some interesting responses from ChatGPT concerning the genesis
+of BIOS. (And yes, I do keep in mind that ChatGPT is still
+rather experimental in nature and can still produce inaccurate
+responses. I will work it all out myself in the end.) It appears
+that I will have to take a chance with Udemy or LinkedIn Learning
+or Coursera or whatnot to actually get into the groove of how
+a CPU can function alone with just its own cache (if my information
+is correct). Trying to find the things that precede that one
+jmp 0xFFFF0 instruction. Or perhaps I should understand every
+little bit of what the different parts of a CPU do and, perhaps
+even more importantly, what those operations are good for. I will
+quickly do research on the aforementioned platforms, people's
+reviews on them, and their rates. Expect an update real soon. 
+
+--------------------------------------------------------------
+
+What tools do I need to write a primitive legacy BIOS?
+
+{"id":"chatcmpl-7EWRb9HHsKhxkchmekwuAKLBznD7U","object":"chat.completion","created":1683695663,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":20,"completion_tokens":189,"total_tokens":209},"choices":[{"message":{"role":"assistant","content":"As an AI language model, I do not have personal experience or preferences, but here are some of the tools commonly used to write a primitive legacy BIOS:\n\n1. Assembly language: A low-level programming language used to write BIOS code.\n\n2. Text editor: A tool to write and edit code in a plain text format.\n\n3. Compiler: A tool to convert the assembly language code into machine language code.\n\n4. Debugger: A tool to find and fix errors in the code.\n\n5. BIOS development kit: A collection of tools and libraries to help with BIOS development.\n\n6. Emulator: A tool to test the BIOS code in a virtual environment.\n\n7. BIOS flashing tool: A tool to write the BIOS code onto the computer's ROM.\n\n8. Hardware documentation: Detailed information about the computer's hardware, such as chipsets, IO ports, and interrupt controllers, is essential to write a BIOS that can communicate with the hardware."},"finish_reason":"stop","index":0}]}
+
+
+
+
+In a few words, tell me what is the very first thing that happens when a user hits the power-on button on a computer?
+
+{"id":"chatcmpl-7EWWEUo59DAZtXrINX1dRXMrwgtno","object":"chat.completion","created":1683695950,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":35,"completion_tokens":21,"total_tokens":56},"choices":[{"message":{"role":"assistant","content":"The power supply unit (PSU) sends power to the motherboard, which starts the boot-up process."},"finish_reason":"stop","index":0}]}
+
+
+
+
+In a few words, explain the following: how does the motherboard start the booting process?
+
+{"id":"chatcmpl-7EWmfAGZ5fU9lj8Uv1mqSXMaGapWQ","object":"chat.completion","created":1683696969,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":27,"completion_tokens":79,"total_tokens":106},"choices":[{"message":{"role":"assistant","content":"The motherboard starts the booting process by first initializing basic hardware components such as the CPU, memory, and storage devices, and then executing the BIOS (Basic Input/Output System) program stored in a non-volatile memory chip on the motherboard. The BIOS program performs a series of tests to ensure that the hardware is functioning properly and then searches for the operating system to load from the storage device."},"finish_reason":"stop","index":0}]}
+
+
+
+
+How does the motherboard initialize the CPU, system memory, and storage?
+
+{"id":"chatcmpl-7EWq1TpwF4t7g3GiCWdYX4pApReX2","object":"chat.completion","created":1683697177,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":22,"completion_tokens":196,"total_tokens":218},"choices":[{"message":{"role":"assistant","content":"The motherboard initializes the CPU, system memory, and storage through a process called the Power-On Self-Test (POST). During POST, the motherboard checks the hardware components to ensure they are functioning properly and are compatible with each other. \n\n1. CPU initialization: The motherboard sends a signal to the CPU to start executing instructions. The CPU then performs a series of self-tests to ensure it is functioning properly.\n\n2. System memory initialization: The motherboard checks the system memory to ensure it is installed correctly and functioning properly. It also sets the speed and timings of the memory modules.\n\n3. Storage initialization: The motherboard detects the storage devices connected to it and initializes them. It checks for the presence of hard drives, solid-state drives, and optical drives. It also checks the Boot Order to determine which device to boot from.\n\nOnce the POST process is complete, the motherboard hands control over to the operating system, which takes over the initialization of other hardware components and loads the necessary drivers."},"finish_reason":"stop","index":0}]}
+
+
+
+
+What is the very first line of code executed when a computer is turned on?
+
+{"id":"chatcmpl-7EWsPRxQ0ClrKB3tnGYpDrHqjxJO6","object":"chat.completion","created":1683697325,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":24,"completion_tokens":26,"total_tokens":50},"choices":[{"message":{"role":"assistant","content":"The very first line of code executed when a computer is turned on is the Basic Input/Output System (BIOS) code."},"finish_reason":"stop","index":0}]}
+
+
+
+
+What is the very first line of BIOS code?
+
+{"id":"chatcmpl-7EWt4r55hrWlIHeHQR0aiyZ8phTbL","object":"chat.completion","created":1683697366,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":18,"completion_tokens":57,"total_tokens":75},"choices":[{"message":{"role":"assistant","content":"As an AI language model, I do not have access to current BIOS code, but historically the first line of BIOS code was typically a jump instruction that would redirect the CPU to the start of the BIOS code. The exact instruction would vary depending on the specific BIOS implementation and CPU architecture."},"finish_reason":"stop","index":0}]}
+
+
+
+
+What would the first jump instruction of BIOS code look like for x86 architecture?
+
+{"id":"chatcmpl-7EX2Ui7dDTev6s2CFXTl0gAUIKmeO","object":"chat.completion","created":1683697950,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":24,"completion_tokens":53,"total_tokens":77},"choices":[{"message":{"role":"assistant","content":"The first jump instruction of BIOS code for x86 architecture would typically be:\n\n```\njmp 0xFFFF0\n```\n\nThis instruction jumps to the physical address 0xFFFF0, which is the location where the BIOS code is stored in the system's ROM."},"finish_reason":"stop","index":0}]}
+
+
+
+
+What would the first jump instruction of BIOS code look like for x86 architecture on an Intel Core i7 chip?
+
+{"id":"chatcmpl-7EX4j9AcoMBMglq6kle5NZ9XBdxml","object":"chat.completion","created":1683698089,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":31,"completion_tokens":84,"total_tokens":115},"choices":[{"message":{"role":"assistant","content":"As an AI language model, I don't have access to a specific BIOS code. However, the first jump instruction of BIOS code for x86 architecture on an Intel Core i7 chip would typically be a near jump using the JMP instruction. The address of the jump target would be specified as an offset relative to the current instruction pointer (IP) value. The exact instruction bytes would depend on the specific BIOS code implementation."},"finish_reason":"stop","index":0}]}
+
+
+
+
+What is a near jump instruction?
+
+{"id":"chatcmpl-7EXARvOPbvW48SQIUXy83xqdbGxg1","object":"chat.completion","created":1683698443,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":15,"completion_tokens":84,"total_tokens":99},"choices":[{"message":{"role":"assistant","content":"A near jump instruction is a type of machine instruction used in computer programming that allows the program to jump from one part of the code to another within a certain range of memory addresses. It is called \"near\" because the jump is within a close proximity to the current instruction being executed, typically within a few hundred bytes. This type of instruction is often used for conditional branching or loops in programming languages such as assembly language."},"finish_reason":"stop","index":0}]}
+
+
+
+
+Upon CPU initialization, what instructions does the CPU execute before it gets around to self-testing?
+
+{"id":"chatcmpl-7EXTE0ITxSxwP5c1OtAwt1eRBEWR7","object":"chat.completion","created":1683699608,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":26,"completion_tokens":90,"total_tokens":116},"choices":[{"message":{"role":"assistant","content":"Upon CPU initialization, the CPU executes a series of basic instructions known as the \"boot process\". These instructions include initializing the hardware components of the system, such as the memory and input/output devices, checking for errors, and loading the operating system from the boot device (e.g. hard drive or CD-ROM). The CPU may also perform a power-on self-test (POST) to check for any hardware failures or issues before proceeding with the boot process."},"finish_reason":"stop","index":0}]}
+
+==== revise 5/10/2023, 2:46am ET
+

@@ -1,0 +1,27 @@
+
+==== 5/10/23, 4:23am ET:
+
+Change of plans
+
+				personal	professional	jobs
+					
+ - CPU (cache, IP, sched)	v				OS, optim., compiler, arch. ; 
+       	       	   	       					emb.sys, security, robotics, DSP. 
+										
+ - BIOS				v				OS init, config/optim, sys arch ; 
+								emb.sys, test, trblsht, security, R&D, sys admin.
+										
+ - kernel dev (HW mgmt, qemu)			v		OS, sched, memgmt, driv, optim, hw comm, btlnks, config, dbg, virt;
+   	      	  						security, R&D, cloud, RTOS.
+										
+ - compiler, debugger, etc.			v		optim, code gen, tools/utils, dbg, ed/IDE, anlzrs, (OS, driv) ; 
+   	     	       						prog/lang expand, integr, (RTOS, emb.sys)
+
+ - graphics (shaders, APIs)	v				APIs, shaders, rendering, optim, anim, sim ; 
+								pipelines, vis.fx, 3D, AR, VR, mobile, done engines, 
+
+ - Win (C#/Unity/.NET)				v		simple games, edu, net, sim, (UI/UX, test, consult, scripting) ; 
+       								VR, AR, web apps, mobile, 
+
+==== End at 5/10/23, 5:47am ET 
+

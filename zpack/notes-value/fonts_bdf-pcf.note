@@ -1,0 +1,7 @@
+
+
+What are the bdf and pcf fonts?
+
+{"id":"chatcmpl-7EWFar2ekZzzCQQxDh9OhSFyoGqTj","object":"chat.completion","created":1683694918,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":18,"completion_tokens":158,"total_tokens":176},"choices":[{"message":{"role":"assistant","content":"BDF (Glyph Bitmap Distribution Format) and PCF (Portable Compiled Format) are two different types of bitmap font formats used in Unix and Linux systems. \n\nBDF fonts are represented as a text file that contains a list of glyph bitmaps and their associated metadata such as character encoding and spacing information. They are easy to edit and modify with a text editor, but can take up a lot of disk space because they store each glyph as a bitmap image.\n\nPCF fonts are a compressed version of BDF fonts that are compiled into a binary format. They are smaller in size and faster to load than BDF fonts, but are harder to edit or modify.\n\nBoth BDF and PCF fonts are primarily used in Unix and Linux systems and are not commonly used in other operating systems."},"finish_reason":"stop","index":0}]}
+
+

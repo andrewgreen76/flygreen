@@ -1,6 +1,7 @@
 
 TRICKS:
  - commands
+ - ^C, ^L 
  - command chaining
  - operators
  - tee feeds out to shell and file(s) ;

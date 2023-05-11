@@ -1,0 +1,7 @@
+
+
+What is overclocking?
+
+{"id":"chatcmpl-7F8L2pr1SZ4Nz38tsuvT2TP1MVFfQ","object":"chat.completion","created":1683841328,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":13,"completion_tokens":83,"total_tokens":96},"choices":[{"message":{"role":"assistant","content":"Overclocking is the process of increasing the clock speed of a computer component, such as a CPU, GPU, or RAM, beyond its default or factory settings. This is done to increase the performance of the component beyond its original specifications, resulting in faster processing speeds and better overall performance. However, overclocking can also lead to increased heat and power consumption, which can potentially damage the component if not properly managed."},"finish_reason":"stop","index":0}]}
+
+

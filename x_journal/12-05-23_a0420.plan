@@ -1,7 +1,25 @@
 
-==== 5/6/23, 7:10am ET:
+==== 5/12/23, 4:20am ET:
 
+    Pretty proud of what I've done so far. Maybe I didn't
+learn how to do a basic thing in VHDL or Verilog, but I did
+revisit x86 Assembly with GAS and NASM. Not as fun with text
+as it is with graphics, but hopefully I'll figure it out.
 
+    I'm thinking about making a game with Unity and C# that
+will resemble the olden days of DOS. I will have to do some 
+studying on how to recreate that authentic feel of early-mid
+90s games by observing some coloring effects that I found
+favorable in the past. It certainly will be an adventure game.
 
-==== revise End at 5/6/23, 8:29am ET 
+    I will also start contributing to Linux kernel development.
+I really don't know how to meld this project with the Unity/C#
+project, but I'll figure something out. Then a multi-threaded
+kernel from scratch per Udemy? x86 Assembly for Intel - also
+per Udemy? Let's see how it goes! 
+
+    I also want to conquer the x86 memory map. Gosh. So much
+to do. 
+
+==== revise End at 5/12/23, 4:32am ET 
 

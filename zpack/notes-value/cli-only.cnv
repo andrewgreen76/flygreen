@@ -1,0 +1,28 @@
+
+
+Are there any System76 computer models that only have Ubuntu Server as the sole operating system?
+
+{"id":"chatcmpl-7FEuRC95ylMUXriQHXbRrWGRgb9jJ","object":"chat.completion","created":1683866587,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":26,"completion_tokens":52,"total_tokens":78},"choices":[{"message":{"role":"assistant","content":"No, System76 offers desktop and laptop models with Ubuntu as the pre-installed operating system, but they do not offer any models with Ubuntu Server as the sole operating system. However, customers can choose to install Ubuntu Server on any System76 computer model themselves."},"finish_reason":"stop","index":0}]}
+
+
+
+
+Are there any System76 computer models that only have a text-based operating system with only CLI and no GUI as the sole operating system?
+
+{"id":"chatcmpl-7FEwHVrlKfvfoj4gn5NT0IymjxeCJ","object":"chat.completion","created":1683866701,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":35,"completion_tokens":47,"total_tokens":82},"choices":[{"message":{"role":"assistant","content":"Yes, System76 offers the \"Pop!_OS for CLI\" version of their operating system, which is a text-based interface without a GUI. This version is designed for users who prefer to work solely in a command-line environment."},"finish_reason":"stop","index":0}]}
+
+
+
+
+Is there a company that makes computers that feature only CLI and no windowing system?
+
+{"id":"chatcmpl-7FEyP4pUAda7XuhUcrd1RdhBilcfS","object":"chat.completion","created":1683866833,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":25,"completion_tokens":144,"total_tokens":169},"choices":[{"message":{"role":"assistant","content":"Yes, there are several companies that make computers that feature only Command Line Interface (CLI) and no windowing system. Some examples include:\n\n1. System76: They offer a range of Linux-based computers that can be configured to run only CLI.\n\n2. ZaReason: They offer a minimalist Linux-based computer called the Teo which runs only CLI.\n\n3. Purism: They offer the Librem Mini, a small form factor computer that can be configured to run only CLI.\n\n4. ThinkPenguin: They offer a range of Linux-based computers that can be configured to run only CLI.\n\nThese companies cater to users who prefer a more minimalist and command-line-based computing experience, often for security and privacy reasons."},"finish_reason":"stop","index":0}]}
+
+
+
+
+Is there a model of a System76 computer that features only a shell and no windowing system?
+
+{"id":"chatcmpl-7FF1M44XVng36daf38zHYltv6OKVF","object":"chat.completion","created":1683867016,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":28,"completion_tokens":62,"total_tokens":90},"choices":[{"message":{"role":"assistant","content":"No, currently System76 does not offer a model that features only a shell and no windowing system. All of their computers come with a pre-installed operating system that includes a windowing system. However, it is possible to install a minimal version of the operating system and remove the windowing system manually."},"finish_reason":"stop","index":0}]}
+
+

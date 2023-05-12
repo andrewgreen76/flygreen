@@ -1,0 +1,13 @@
+How does DirectX take over the screen in Windows?
+ChatGPT
+DirectX is a collection of application programming interfaces (APIs) that allow developers to create multimedia applications, especially games, that can directly access hardware acceleration features of a computer's graphics card.
+
+When an application using DirectX runs in Windows, it interacts with the DirectX APIs to access and control the graphics hardware. DirectX communicates with the graphics card driver, which in turn communicates with the hardware to render graphics on the screen.
+
+DirectX takes over the screen by using a technique called "exclusive mode." In exclusive mode, the DirectX application takes full control of the graphics card, allowing it to bypass the normal windowing system and render directly to the screen. This allows for smoother and faster graphics rendering, but also means that other applications cannot overlay their own graphics on top of the DirectX application.
+
+When the DirectX application is finished using the graphics hardware, it releases control back to the windowing system, allowing other applications to use the graphics card as well.
+
+
+
+

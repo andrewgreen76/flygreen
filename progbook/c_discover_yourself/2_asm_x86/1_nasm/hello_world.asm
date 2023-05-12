@@ -2,9 +2,9 @@ section .data
     message db 'a', 0
 
 section .text
-    global _start
+    global nasme
 
-_start:
+nasme:
     ; Write the character to the standard output
     mov eax, 4        ; System call number for write
     mov ebx, 1        ; File descriptor 1: standard output

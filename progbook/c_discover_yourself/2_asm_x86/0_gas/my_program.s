@@ -1,18 +1,18 @@
-section .data
-    message db 'a', 0
+.data
+    message:    .asciz "Hello, World!\n"
 
-section .text
-    global _start
+.text
+.global main
 
-_start:
-    ; Write the character to the standard output
-    mov eax, 4        ; System call number for write
-    mov ebx, 1        ; File descriptor 1: standard output
-    mov ecx, message  ; Address of the character
-    mov edx, 1        ; Length of the character
-    int 0x80          ; Call the kernel
+main:
+    # Write the string to the standard output
+    mov     $4, %eax          # System call number for write
+    mov     $1, %ebx          # File descriptor 1: standard output
+    mov     $message, %ecx    # Address of the string
+    mov     $14, %edx         # Length of the string
+    int     $0x80             # Call the kernel
 
-    ; Exit the program
-    mov eax, 1        ; System call number for exit
-    xor ebx, ebx      ; Exit code 0
-    int 0x80          ; Call the kernel
+    # Exit the program
+    mov     $1, %eax          # System call number for exit
+    xor     %ebx, %ebx        # Exit code 0
+    int     $0x80             # Call the kernel

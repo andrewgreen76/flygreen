@@ -1,0 +1,30 @@
+
+=== 5/13/23, 9:17am ET:
+
+    A rather bitter update.
+
+    I'm really sick of Microsoft's crap. I've just completely supplanted Windows 11 on my (supposedly) trusty
+little Dell Inspiron 14 laptop. All I wanted to do was dual-boot Linux Ubuntu onto my laptop since doing something
+as massive as kernel development would prove to be a computationally taxing practice for the device. But then ...
+BitLocker? Are you shitting me? ... And have you seen the UEFI that Dell hammered out? I find it pitiful that
+a user has to hit F12 repeatedly just to get back into the UEFI after hitting Escape on many occasions. And I
+find it very strange that a renowned manufacturer such as Dell would stoop so low as to take the UI/UX (user
+interface/user experience) into the shitter with the ADD parade that is their messy UEFI and the poor I/O design
+that comes with it. And every time I wanted to dual-boot Linux alongside Windows, Windows would keep slapping me
+in the face with the BitLocker crap. So annoying. I found that the only way to escape all this tantalizing with
+recovery keys, recovery IDs, etc. would be to grant Linux the license to dethrone the obnoxious Windows and let
+me make the most of it. Does Microsoft still have something against other operating systems?! Developers are users
+too, you know? And those are the users that want and need to stay productive, not have a carrot hanging on a stick
+in front of them. 
+
+    Anywho, ... here I am. Sitting inside the Linux ecosystem that has displaced Windows entirely. Developer
+experiences, or just general user experiences, shouldn't be this upsetting. And I'm nailing that sucker that is
+kernel development. I'm getting some kind of IDE for this purpose as suggested by the (German?) developer. And,
+I guess, I'll just have to do all my Unity gaming work on the CyberPower PC that I have at home ... or maybe this
+here laptop will do since the software is cross-platform. And maybe after that I'll learn how to pack and ship
+my games. Oh, man, the prospects. 
+
+    So looking forward to quitting Guitar Center. 
+
+=== End at 5/13/23, 9:45am ET 
+

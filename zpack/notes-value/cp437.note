@@ -1,0 +1,11 @@
+Is there a booting BIOS that still uses CP437?
+ChatGPT
+It's unlikely that there are modern BIOSes that still use CP437 encoding for their boot screens. CP437 (Code Page 437) was a character encoding widely used in the early days of personal computing, but it has largely been replaced by other encodings, such as Unicode.
+
+Modern BIOSes typically use a more advanced encoding scheme that supports a wider range of characters and languages. The most commonly used encoding for BIOSes today is probably UTF-8, which is a variable-width encoding that can represent virtually any character in any language.
+
+That being said, there may be legacy systems or specialized hardware that still use CP437 for compatibility reasons. However, this is becoming increasingly rare, and most modern hardware and software has moved on to more advanced encodings.
+
+
+
+

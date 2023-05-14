@@ -12,4 +12,12 @@ without a technical background, to
   - understand and build a perspective on modern computing
      through studying its history. 
 
-_
+
+
+The MANIFESTO IS:
+
+to run x-> to use for practical or artistic reasons
+to share x-> to show off
+to study x-> to learn
+to modify x-> to hack ethically and creatively
+

@@ -5,8 +5,11 @@ funbag >< progbook (cheat sheets)
 =====================================================================
 
  + kernel dev (HW mgmt, qemu)		OS, sched, memgmt, driv, optim, hw comm, btlnks, config, dbg, virt;
-   	      	  			security, R&D, cloud, RTOS.
-										
+ |  	      	  			security, R&D, cloud, RTOS.
+ |
+?? BOTTOM-UP OR TOP-DOWN ??
+
+
  - compiler, debugger, etc.		optim, code gen, tools/utils, dbg, ed/IDE, anlzrs, (OS, driv) ; 
    	     	       			prog/lang expand, integr, (RTOS, emb.sys)
 

@@ -59,7 +59,12 @@ Andre LaMothe 		- "The Black Art of 3D Game Programming" is 1200 pages. It has
 Mitchell Waite		- I know your work is old now and the days of MASM and DOS are
 	 		  gone, but just because something is old doesn't mean we have
 			  to throw it away. And thank you for being an inspiration to
-			  others like Andre. 
+			  others like Andre.
+
+Jay LaCroix		- People should be able to build a good perspective on Linux,
+    			  understand what it means to think like a true professional, and
+			  appreciate the fact that these things can help them on a very
+			  deep level. It's a key to happiness. 
 
 Terry A. Davis		- I know you said some foul things. I also know you had mental
       	 		  health issues like schizophrenia. I also know that you single-

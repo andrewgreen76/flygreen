@@ -22,7 +22,8 @@ Dennis Ritchie	 	- I hear people talk a game about C. It won't change the fact
 Ken Thompson
 Brian Kernighan
 
-Richard Stallman	
+Richard Stallman	- Developers are users too ... and not all users are alike.
+			  Thank you. 
 
 Linus Torvalds		- I never got the opportunity to be on the receiving end
       			  of his hateful words, but come on, we owe him something
@@ -44,6 +45,8 @@ Adrian Carmack		}
 Kevin Cloud		} You guys were seminal fucking artists, and art suffers without 
 Sandy Petersen		} personality. 
 American McGee		} 
+
+Andre LaMothe 		- "The "
 
 Terry A. Davis		- I know you said some foul things. I also know you had mental
       	 		  health issues like schizophrenia. I also know that you single-

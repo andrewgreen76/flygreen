@@ -46,7 +46,20 @@ Kevin Cloud		} You guys were seminal fucking artists, and art suffers without
 Sandy Petersen		} personality. 
 American McGee		} 
 
-Andre LaMothe 		- "The "
+Andre LaMothe 		- "The Black Art of 3D Game Programming" is 1200 pages. It has
+      			  one author ... and that person has great knowledge and a deep
+			  understanding of C and Assembly, old as those iterations are
+			  now. This put things in perspective for me and helped me
+			  cultivate the "can do" attitude. And you are also actually
+			  a hardware engineer! Jesus Christ! But if you know that there is
+			  one other person who can do it all, how or why would anyone be
+			  too faint-hearted to do the same? "The journey of a thousand
+			  miles begins with a single step.
+
+Mitchell Waite		- I know your work is old now and the days of MASM and DOS are
+	 		  gone, but just because something is old doesn't mean we have
+			  to throw it away. And thank you for being an inspiration to
+			  others like Andre. 
 
 Terry A. Davis		- I know you said some foul things. I also know you had mental
       	 		  health issues like schizophrenia. I also know that you single-

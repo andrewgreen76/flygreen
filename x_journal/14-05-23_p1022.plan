@@ -1,0 +1,20 @@
+
+==== 5/14/23, 11:23pm ET:
+
+    I wrote in my README.md manifesto "to use, to show off, to learn, to hack"
+as my personal interpretation of the GNU spirit. So I'm showing off and sharing
+my knowledge of things like the environment variables in my Linux "module" of
+the dir e_hkbk (hackbook, formerly known as progbook). This stuff is really fun
+but also really scary to experiment with. And the really messed-up part is that
+my Linux environment remembers a copy/reference to PS1 (prompt string 1) variable
+through the use of commands like echo and PS1=, whereas I have another copy of
+that variable in my .bashrc, with a different value (set of ANSI escape sequences).
+Maybe once I source ~/.bashrc, everything about the prompt will go back to
+the default settings?
+
+    I've yet to continue pushing through my Linux kernel development journey
+because I got so sidetracked with my full-time work and all the findings I got
+via ChatGPT. Deep breath. Something needs to be done. 
+
+==== End at 5/14/23, 11:38pm ET 
+

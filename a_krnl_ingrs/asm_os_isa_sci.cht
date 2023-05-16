@@ -89,20 +89,3 @@ In this example, blob is an array of unsigned characters (unsigned char). It rep
 The values inside the array (0x48, 0x65, 0x6C, and so on) represent the ASCII values of the characters "Hello, world!". Each value corresponds to a single byte of the binary blob.
 
 This example serves to illustrate the concept of a binary blob within code, where binary data is represented as a sequence of bytes. The actual content and purpose of the binary blob can vary depending on the specific use case or application.
-User
-Compute 4:43am + 85 minutes
-ChatGPT
-
-To compute the result of adding 85 minutes to 4:43 am, we need to convert the time into a common format, such as minutes since midnight. Here's the calculation:
-
-4:43 am = 4 * 60 + 43 = 283 minutes
-
-Adding 85 minutes:
-
-283 minutes + 85 minutes = 368 minutes
-
-Now, we need to convert the result back to the time format:
-
-368 minutes = 6 hours and 8 minutes
-
-So, 4:43 am + 85 minutes equals 6:08 am.

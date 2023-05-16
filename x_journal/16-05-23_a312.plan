@@ -27,10 +27,12 @@ register count: 0, destroy count: 0
 "
 
 - It appears that my Ubuntu likes Qt better than it does Kdevelop, which (ostensibly)
-is good for a system like Manjaro. So I guess I'll have to try Qt instead. Note to self.
+  is good for a system like Manjaro. So I guess I'll have to try Qt instead. Note to self.
 
 - python3 does not handle variable/object globalization the way a traditional compiler does.
 
+- There seems to be a plethora of system call conventions in total. [OS] x [ISA] x [syscall convention] x [ASM syntax]
+  would dictate how to write even a very basic program like "Hello, world". 
 
 
     Side note:
@@ -39,15 +41,15 @@ is good for a system like Manjaro. So I guess I'll have to try Qt instead. Note 
     More thoughts:
     - I'm trying to grow my skills, but perhaps the skillset is getting "too broad" and I'm supposed to have
       a specialty, something to excel at. Which is it going to be - kernel development or making adventure
-      games (ideally with a crude graphic look?) ...
+      games (ideally with a crude graphic look)? ...
       
         (A) Kernel: Well, from the professional point of view and judging by all the research that I've
-	    gathered, learning kernel development is for people who are looking to become sysadmins, from
-	    watching those YouTube videos, it appears to be a rather painful, miserable position to hold. ...
+	    gathered, learning kernel development is for people who are looking to become sysadmins, and from
+	    watching those YouTube videos it appears to be a rather painful, miserable position to hold. ...
 	    ... Damn. ... But it seems like it would be easier to find work in that field. 
 	(B) Games: But if I seek to become a game developer, people would want something in 3D and for
-	    VR/XR/MR/AR/whateverR. It would be hard to find work that has to do with very simple adventure
-	    games.
+	    VR/XR/MR/AR/whateverR as well as "jewelcase projects" (read: mobile gaming). It would be hard
+	    to find work that has to do with very simple adventure games.
 
       OK, I think I've just solved the same problem again after having forgotten the solution. ... Fooh! 
 

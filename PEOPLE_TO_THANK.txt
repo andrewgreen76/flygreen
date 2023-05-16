@@ -46,6 +46,11 @@ Kevin Cloud		} You guys were seminal fucking artists, and art suffers without
 Sandy Petersen		} personality. 
 American McGee		} 
 
+Tim Cain 		- The Fallout Post-mortem taught me a lot, not just about the game.
+    			  It inspired me to challenge my insecurities and find something
+			  to be passionate about. Why would one man start bleeding all on
+			  his own for an ambitious and daunting project?
+
 Andre LaMothe 		- "The Black Art of 3D Game Programming" is 1200 pages. It has
       			  one author ... and that person has great knowledge and a deep
 			  understanding of C and Assembly, old as those iterations are

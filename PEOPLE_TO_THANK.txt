@@ -77,7 +77,7 @@ Zach Barth		- Singular games. TIS-100 and Last Call BBS gave me a direction
 			  "Ever wonder how we put out a game a year and they almost 
 			  never crash? C#."
 
-Tarn and Zach Adams	- Sorry, but I didn't get to play Dwarf Fortress much. However, 
+Tarn and Zach Adams	- Sorry, I didn't get to play Dwarf Fortress much. However, 
      	      		  the notion that you could be a two-person team and do it all
 			  by yourselves for breadcrumbs? Seemed kind of insane to me
 			  at the time. 
@@ -85,8 +85,7 @@ Tarn and Zach Adams	- Sorry, but I didn't get to play Dwarf Fortress much. Howev
 Mike Judge    		- This guy fucks! (But I will overlook the stuff with Jackass!)
 
 Lex Fridman		- Thank you for creating an outlet for sharing. It actually makes
-    			  me truly appreciate the concept of sharing. Sure, you may seem
-			  weird, but not too much, so why does that matter? 
+    			  me truly appreciate the concept of sharing. 
 
 Jim Keller		- I probably will never know as much as you do, but the way you
     			  talk about hardware and what you know about quality leadership

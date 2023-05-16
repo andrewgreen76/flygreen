@@ -1,7 +1,7 @@
 
 === 5/16/23, 3:12am ET:
 
-    Things I've learned / am learning today: 
+    Things I have learned / am learning today: 
 
 "
 
@@ -26,8 +26,10 @@ register count: 0, destroy count: 0
 
 "
 
-    It appears that my Ubuntu likes Qt better than it does Kdevelop, which (ostensibly)
-is good for a system like Manjaro. So I guess I'll have to try Qt instead. Note to self. 
+- It appears that my Ubuntu likes Qt better than it does Kdevelop, which (ostensibly)
+is good for a system like Manjaro. So I guess I'll have to try Qt instead. Note to self.
+
+- python3 does not handle variable/object globalization the way a traditional compiler does. 
 
 === assume End at 5/16/23, 11:59pm ET 
 

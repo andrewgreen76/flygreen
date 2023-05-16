@@ -1,0 +1,33 @@
+
+=== 5/16/23, 3:12am ET:
+
+    Things I've learned / am learning today: 
+
+"
+
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+Icon theme "breeze" not found.
+kdevplatform.shell: Could not load plugin "KDevNinjaBuilder" , it reported the error: "Unable to find ninja executable. Is it installed on the system?" Disabling the plugin now.
+kdevplatform.shell: Could not load plugin "KDevMesonManager" , it reported the error: "Meson builder error: Failed to acquire the Ninja builder plugin" Disabling the plugin now.
+kdevplatform.util: Path::init: invalid/unsupported Path encountered:  http://clang-tidy
+kdevplatform.shell: process finished with error: QProcess::FailedToStart
+kdevplatform.shell: process finished with error: QProcess::FailedToStart
+kdevplatform.shell: process finished with error: QProcess::FailedToStart
+kdevplatform.shell: process finished with error: QProcess::FailedToStart
+kdevplatform.shell: process finished with error: QProcess::FailedToStart
+kdevplatform.shell: Could not load plugin "KDevCMakeDocumentation" , it reported the error: "Unable to find a CMake executable. Is one installed on the system?" Disabling the plugin now.
+Qt WebEngine seems to be initialized from a plugin. Please set Qt::AA_ShareOpenGLContexts using QCoreApplication::setAttribute before constructing QGuiApplication.
+kdevplatform.shell: Could not load plugin "kdevperforce" , it reported the error: "The variable P4CONFIG is not set. Is perforce installed on the system?" Disabling the plugin now.
+kdevelop.plugins.konsole: Failed to load 'konsolepart' plugin
+kdevplatform.shell: Could not load plugin "kdevkonsoleview" , it reported the error: "Failed to load 'konsolepart' plugin" Disabling the plugin now.
+qrc:/qml/storage.js:10: TypeError: Cannot call method 'openDatabaseSync' of undefined
+qrc:/qml/storage.js:10: TypeError: Cannot call method 'openDatabaseSync' of undefined
+register count: 0, destroy count: 0
+
+"
+
+    It appears that my Ubuntu likes Qt better than it does Kdevelop, which (ostensibly)
+is good for a system like Manjaro. So I guess I'll have to try Qt instead. Note to self. 
+
+=== assume End at 5/16/23, 11:59pm ET 
+

@@ -1,14 +1,15 @@
 
-python: ML (xls to txt to git), string interning, pre-caching, optimization 
-funbag >< progbook (cheat sheets)
-
-=====================================================================
-
  + kernel dev (HW mgmt, qemu)		OS, sched, memgmt, driv, optim, hw comm, btlnks, config, dbg, virt;
  |  	      	  			security, R&D, cloud, RTOS.
  |
 ?? BOTTOM-UP OR TOP-DOWN ??
 
+=====================================================================
+
+python: ML (xls to txt to git), string interning, pre-caching, optimization 
+funbag >< progbook (cheat sheets)
+
+=====================================================================
 
  - compiler, debugger, etc.		optim, code gen, tools/utils, dbg, ed/IDE, anlzrs, (OS, driv) ; 
    	     	       			prog/lang expand, integr, (RTOS, emb.sys)

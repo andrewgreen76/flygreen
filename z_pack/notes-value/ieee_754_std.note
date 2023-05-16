@@ -1,0 +1,13 @@
+The code "const result = (7.99 + 10);
+console.log(result);" yields 17.990000000000002. Why is there a 2 at the end of it?
+ChatGPT
+
+The presence of the extra 2 at the end of the result, such as 17.990000000000002, is a consequence of how floating-point numbers are represented and stored in JavaScript.
+
+JavaScript, like many other programming languages, uses the IEEE 754 standard for representing floating-point numbers. However, due to the inherent limitations of representing decimal values in binary form, some numbers cannot be represented exactly. This can lead to small rounding errors or imprecisions in certain calculations.
+
+In the case of (7.99 + 10), the result 17.990000000000002 is a result of this imprecision. The actual mathematical sum is 17.99, but due to the limitations of floating-point representation, the binary representation of 7.99 and 10 introduces a tiny rounding error in the computation, resulting in the extra 2 at the end.
+
+It's important to note that these rounding errors are typically very small and often don't impact practical use cases. However, when precision is crucial, it is advisable to use specialized libraries or techniques that handle decimal arithmetic with greater accuracy, such as the Decimal class in JavaScript or dedicated decimal arithmetic libraries like BigDecimal in Java.
+
+In most scenarios, rounding the result to a desired number of decimal places using techniques like toFixed() or parseFloat(result.toFixed(2)) can help alleviate the display of excessive decimal places caused by floating-point imprecision.

@@ -1,0 +1,31 @@
+Can rewrite that to target a Windows x64 system with that system's SCI convention?
+ChatGPT
+
+Certainly! Here's an example of "Hello, world!" program in assembly language for targeting a Windows x64 system using the System V AMD64 calling convention:
+
+assembly
+
+section .data
+    hello db 'Hello, world!', 0
+
+section .text
+    global _start
+
+_start:
+    ; Write the string to standard output
+    mov rdx, hello       ; Pointer to the string
+    mov rcx, 0           ; Reserved for future use (STDOUT handle)
+    call printf          ; Call the printf function from C runtime
+
+    ; Exit the program
+    mov eax, 0           ; Exit code 0
+    ret
+
+section .text
+extern printf           ; Declare the printf function from C runtime
+
+This assembly code uses the Windows x64 calling convention, where the printf function from the C runtime is invoked to write the string to the console. The printf function is declared using the extern directive.
+
+To create a project and run this assembly code in Visual Studio, you can follow the steps mentioned earlier to create a project with an assembly file. Once you have created the assembly file in your project, replace the contents of the file with the above assembly code. Build and run the project to see the "Hello, world!" message displayed in the console output on a Windows x64 system.
+
+Please note that the specific steps may vary depending on the version of Visual Studio you are using, and you may need to link against the C runtime library or make additional adjustments based on your project configuration.

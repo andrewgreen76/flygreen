@@ -1,4 +1,6 @@
 
+find
+symbolic links - ?
 lexer, parser, _?_ 
 
  + kernel dev (HW mgmt, qemu)		OS, sched, memgmt, driv, optim, hw comm, btlnks, config, dbg, virt;

@@ -1,0 +1,21 @@
+
+- BIOS/UEFI/coreboot ... There it is. Should have taken that
+   book with me. 
+ - kernel dev (hardware manager)
+ - tools to add to kernel
+
+   = font lib (need a sysdefault)		e.g., GNU Unifont
+
+   = ed	      (code stor/manip)			part of OS 
+   = shell    (filesys navig , cmdproc , )      part of OS
+   = terminal (output) 	       	       	 	part of OS
+
+   = compiler (src unwrapping)		, gcc,mingw)
+   = debugger ()   			GDB ;	    part of CC ; none by default for now)
+   = assembler (asm unwrapping)		GAS, etc. ; part of CC
+     -= lexer -> parser -> analyzer/checker. 
+   = linker    (proc bindata)		ld ; 	    part of CC , a fucking nightmare)
+
+   = loader    (move bindata, prep)	part of OS , know your limits)
+   = io	      (ports)
+   

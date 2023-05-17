@@ -1,0 +1,8 @@
+
+Which part of RAM is non-volatile?
+ChatGPT
+
+RAM (Random Access Memory) is a type of volatile memory, which means that its contents are lost when power is turned off or interrupted. Therefore, there is no non-volatile part of RAM.
+
+However, there is a type of memory called non-volatile RAM (NVRAM), which is a category of computer memory that retains its information even when power is turned off. NVRAM is typically used in devices where it is important to store critical data such as system settings, configuration data, and the BIOS (Basic Input/Output System). NVRAM can be implemented using various technologies such as EEPROM (Electrically Erasable Programmable Read-Only Memory), flash memory, or battery-backed SRAM (Static Random Access Memory).
+

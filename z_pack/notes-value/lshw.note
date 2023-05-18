@@ -1,0 +1,694 @@
+andrew-inspiron-14-7420-2-in-1
+    description: Convertible
+    product: Inspiron 14 7420 2-in-1 (0B36)
+    vendor: Dell Inc.
+    serial: HQCSVL3
+    width: 64 bits
+    capabilities: smbios-3.4.0 dmi-3.4.0 smp vsyscall32
+    configuration: boot=normal chassis=convertible family=Inspiron sku=0B36 uuid=4c4c4544-0051-4310-8053-c8c04f564c33
+  *-core
+       description: Motherboard
+       product: 0DNRR6
+       vendor: Dell Inc.
+       physical id: 0
+       version: A00
+       serial: /HQCSVL3/CNWSC0028P0WQY/
+     *-firmware
+          description: BIOS
+          vendor: Dell Inc.
+          physical id: 0
+          version: 1.7.0
+          date: 10/06/2022
+          size: 1MiB
+          capacity: 32MiB
+          capabilities: pci pnp upgrade shadowing cdboot bootselect edd int5printscreen int9keyboard int14serial int17printer acpi usb smartbattery biosbootspecification netboot uefi
+     *-cpu
+          description: CPU
+          product: 12th Gen Intel(R) Core(TM) i7-1255U
+          vendor: Intel Corp.
+          physical id: 400
+          bus info: cpu@0
+          version: 6.154.4
+          slot: U3E1
+          size: 4640MHz
+          capacity: 4700MHz
+          width: 64 bits
+          clock: 100MHz
+          capabilities: lm fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp x86-64 constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves split_lock_detect avx_vnni dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req hfi umip pku ospke waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize arch_lbr ibt flush_l1d arch_capabilities cpufreq
+          configuration: cores=10 enabledcores=10 microcode=1065 threads=12
+        *-cache:0
+             description: L1 cache
+             physical id: 705
+             slot: L1 Cache
+             size: 512KiB
+             capacity: 512KiB
+             capabilities: synchronous internal write-back instruction
+             configuration: level=1
+        *-cache:1
+             description: L2 cache
+             physical id: 706
+             slot: L2 Cache
+             size: 4MiB
+             capacity: 4MiB
+             capabilities: synchronous internal write-back unified
+             configuration: level=2
+        *-cache:2
+             description: L3 cache
+             physical id: 707
+             slot: L3 Cache
+             size: 12MiB
+             capacity: 12MiB
+             capabilities: synchronous internal write-back unified
+             configuration: level=3
+     *-cache:0
+          description: L1 cache
+          physical id: 700
+          slot: L1 Cache
+          size: 96KiB
+          capacity: 96KiB
+          capabilities: synchronous internal write-back data
+          configuration: level=1
+     *-cache:1
+          description: L1 cache
+          physical id: 701
+          slot: L1 Cache
+          size: 64KiB
+          capacity: 64KiB
+          capabilities: synchronous internal write-back instruction
+          configuration: level=1
+     *-cache:2
+          description: L2 cache
+          physical id: 702
+          slot: L2 Cache
+          size: 2560KiB
+          capacity: 2560KiB
+          capabilities: synchronous internal write-back unified
+          configuration: level=2
+     *-cache:3
+          description: L3 cache
+          physical id: 703
+          slot: L3 Cache
+          size: 12MiB
+          capacity: 12MiB
+          capabilities: synchronous internal write-back unified
+          configuration: level=3
+     *-cache:4
+          description: L1 cache
+          physical id: 704
+          slot: L1 Cache
+          size: 256KiB
+          capacity: 256KiB
+          capabilities: synchronous internal write-back data
+          configuration: level=1
+     *-memory
+          description: System Memory
+          physical id: 1000
+          slot: System board or motherboard
+          size: 16GiB
+        *-bank:0
+             description: SODIMM DDR4 Synchronous 3200 MHz (0.3 ns)
+             product: M471A1G44AB0-CWE
+             vendor: Samsung
+             physical id: 0
+             serial: 5107221B
+             slot: DIMM 1
+             size: 8GiB
+             width: 64 bits
+             clock: 3200MHz (0.3ns)
+        *-bank:1
+             description: SODIMM DDR4 Synchronous 3200 MHz (0.3 ns)
+             product: M471A1G44AB0-CWE
+             vendor: Samsung
+             physical id: 1
+             serial: 5107221D
+             slot: DIMM 2
+             size: 8GiB
+             width: 64 bits
+             clock: 3200MHz (0.3ns)
+     *-pci:0
+          description: Host bridge
+          product: Intel Corporation
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 04
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=igen6_edac
+          resources: irq:0
+        *-display
+             description: VGA compatible controller
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             logical name: /dev/fb0
+             version: 0c
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pciexpress msi pm vga_controller bus_master cap_list rom fb
+             configuration: depth=32 driver=i915 latency=0 mode=1920x1200 resolution=1920,1200 visual=truecolor xres=1920 yres=1200
+             resources: iomemory:600-5ff iomemory:400-3ff irq:208 memory:6054000000-6054ffffff memory:4000000000-400fffffff ioport:3000(size=64) memory:c0000-dffff memory:4010000000-4016ffffff memory:4020000000-40ffffffff
+        *-generic:0
+             description: Signal processing controller
+             product: Alder Lake Innovation Platform Framework Processor Participant
+             vendor: Intel Corporation
+             physical id: 4
+             bus info: pci@0000:00:04.0
+             version: 04
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msi pm bus_master cap_list
+             configuration: driver=proc_thermal_pci latency=0
+             resources: iomemory:600-5ff irq:207 memory:6055240000-605525ffff
+        *-generic:1 UNCLAIMED
+             description: System peripheral
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 6
+             bus info: pci@0000:00:06.0
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             configuration: latency=0
+        *-pci:0
+             description: PCI bridge
+             product: Alder Lake-P Thunderbolt 4 PCI Express Root Port #0
+             vendor: Intel Corporation
+             physical id: 7
+             bus info: pci@0000:00:07.0
+             version: 04
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:122 ioport:4000(size=4096) memory:8a000000-9fdfffff ioport:6000000000(size=570425344)
+        *-pci:1
+             description: PCI bridge
+             product: Alder Lake-P Thunderbolt 4 PCI Express Root Port #1
+             vendor: Intel Corporation
+             physical id: 7.1
+             bus info: pci@0000:00:07.1
+             version: 04
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:123 ioport:5000(size=4096) memory:74000000-89dfffff ioport:6030000000(size=570425344)
+        *-generic:2 UNCLAIMED
+             description: System peripheral
+             product: 12th Gen Core Processor Gaussian & Neural Accelerator
+             vendor: Intel Corporation
+             physical id: 8
+             bus info: pci@0000:00:08.0
+             version: 04
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msi pm cap_list
+             configuration: latency=0
+             resources: iomemory:600-5ff memory:60552a2000-60552a2fff
+        *-usb:0
+             description: USB controller
+             product: Alder Lake-P Thunderbolt 4 USB Controller
+             vendor: Intel Corporation
+             physical id: d
+             bus info: pci@0000:00:0d.0
+             version: 04
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi xhci bus_master cap_list
+             configuration: driver=xhci_hcd latency=0
+             resources: iomemory:600-5ff irq:161 memory:6055280000-605528ffff
+           *-usbhost:0
+                product: xHCI Host Controller
+                vendor: Linux 5.19.0-41-generic xhci-hcd
+                physical id: 0
+                bus info: usb@3
+                logical name: usb3
+                version: 5.19
+                capabilities: usb-2.00
+                configuration: driver=hub slots=1 speed=480Mbit/s
+           *-usbhost:1
+                product: xHCI Host Controller
+                vendor: Linux 5.19.0-41-generic xhci-hcd
+                physical id: 1
+                bus info: usb@4
+                logical name: usb4
+                version: 5.19
+                capabilities: usb-3.10
+                configuration: driver=hub slots=2 speed=10000Mbit/s
+        *-usb:1
+             description: USB controller
+             product: Alder Lake-P Thunderbolt 4 NHI #0
+             vendor: Intel Corporation
+             physical id: d.2
+             bus info: pci@0000:00:0d.2
+             version: 04
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi msix usb4_host_interface bus_master cap_list
+             configuration: driver=thunderbolt latency=0
+             resources: iomemory:600-5ff iomemory:600-5ff irq:16 memory:6055200000-605523ffff memory:60552a1000-60552a1fff
+        *-raid
+             description: RAID bus controller
+             product: Volume Management Device NVMe RAID Controller
+             vendor: Intel Corporation
+             physical id: e
+             bus info: pci@0000:00:0e.0
+             version: 00
+             width: 64 bits
+             clock: 33MHz
+             capabilities: raid msix pciexpress pm bus_master cap_list
+             configuration: driver=vmd latency=0
+             resources: iomemory:600-5ff iomemory:600-5ff irq:0 memory:6052000000-6053ffffff memory:72000000-73ffffff memory:6055100000-60551fffff
+        *-communication:0
+             description: Serial controller
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 12
+             bus info: pci@0000:00:12.0
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm 8250 bus_master cap_list
+             configuration: driver=intel_ish_ipc latency=0
+             resources: iomemory:600-5ff irq:26 memory:6055270000-605527ffff
+        *-usb:2
+             description: USB controller
+             product: Alder Lake PCH USB 3.2 xHCI Host Controller
+             vendor: Intel Corporation
+             physical id: 14
+             bus info: pci@0000:00:14.0
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi xhci cap_list
+             configuration: driver=xhci_hcd latency=0
+             resources: iomemory:600-5ff irq:159 memory:6055260000-605526ffff
+           *-usbhost:0
+                product: xHCI Host Controller
+                vendor: Linux 5.19.0-41-generic xhci-hcd
+                physical id: 0
+                bus info: usb@1
+                logical name: usb1
+                version: 5.19
+                capabilities: usb-2.00
+                configuration: driver=hub slots=12 speed=480Mbit/s
+              *-usb:0 UNCLAIMED
+                   description: Generic USB device
+                   product: Goodix USB2.0 MISC
+                   vendor: Goodix Technology Co., Ltd.
+                   physical id: 5
+                   bus info: usb@1:5
+                   version: 1.00
+                   serial: UID4D85CF12_XXXX_MOC_B0
+                   capabilities: usb-2.00
+                   configuration: maxpower=100mA speed=12Mbit/s
+              *-usb:1
+                   description: Video
+                   product: Integrated_Webcam_FHD: Integrat
+                   vendor: CN07W56Y8LG0024QBCPWA00
+                   physical id: 6
+                   bus info: usb@1:6
+                   logical name: input24
+                   logical name: /dev/input/event13
+                   version: 14.11
+                   capabilities: usb-2.01 usb
+                   configuration: driver=uvcvideo maxpower=500mA speed=480Mbit/s
+              *-usb:2
+                   description: Bluetooth wireless interface
+                   vendor: Intel Corp.
+                   physical id: a
+                   bus info: usb@1:a
+                   version: 0.00
+                   capabilities: bluetooth usb-2.01
+                   configuration: driver=btusb maxpower=100mA speed=12Mbit/s
+           *-usbhost:1
+                product: xHCI Host Controller
+                vendor: Linux 5.19.0-41-generic xhci-hcd
+                physical id: 1
+                bus info: usb@2
+                logical name: usb2
+                version: 5.19
+                capabilities: usb-3.10
+                configuration: driver=hub slots=4 speed=10000Mbit/s
+        *-memory UNCLAIMED
+             description: RAM memory
+             product: Alder Lake PCH Shared SRAM
+             vendor: Intel Corporation
+             physical id: 14.2
+             bus info: pci@0000:00:14.2
+             version: 01
+             width: 64 bits
+             clock: 33MHz (30.3ns)
+             capabilities: pm cap_list
+             configuration: latency=0
+             resources: iomemory:600-5ff iomemory:600-5ff memory:6055298000-605529bfff memory:60552a0000-60552a0fff
+        *-network
+             description: Wireless interface
+             product: Alder Lake-P PCH CNVi WiFi
+             vendor: Intel Corporation
+             physical id: 14.3
+             bus info: pci@0000:00:14.3
+             logical name: wlp0s20f3
+             version: 01
+             serial: 00:d4:9e:4e:3f:6d
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress msix bus_master cap_list ethernet physical wireless
+             configuration: broadcast=yes driver=iwlwifi driverversion=5.19.0-41-generic firmware=72.daa05125.0 so-a0-gf-a0-72.uc ip=192.168.1.117 latency=0 link=yes multicast=yes wireless=IEEE 802.11
+             resources: iomemory:600-5ff irq:16 memory:6055294000-6055297fff
+        *-serial:0
+             description: Serial bus controller
+             product: Alder Lake PCH Serial IO I2C Controller #0
+             vendor: Intel Corporation
+             physical id: 15
+             bus info: pci@0000:00:15.0
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm bus_master cap_list
+             configuration: driver=intel-lpss latency=0
+             resources: irq:27 memory:4017000000-4017000fff
+        *-serial:1
+             description: Serial bus controller
+             product: Alder Lake PCH Serial IO I2C Controller #1
+             vendor: Intel Corporation
+             physical id: 15.1
+             bus info: pci@0000:00:15.1
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm bus_master cap_list
+             configuration: driver=intel-lpss latency=0
+             resources: irq:40 memory:4017001000-4017001fff
+        *-communication:1
+             description: Communication controller
+             product: Alder Lake PCH HECI Controller
+             vendor: Intel Corporation
+             physical id: 16
+             bus info: pci@0000:00:16.0
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: driver=mei_me latency=0
+             resources: iomemory:600-5ff irq:176 memory:605529d000-605529dfff
+        *-isa
+             description: ISA bridge
+             product: Alder Lake PCH eSPI Controller
+             vendor: Intel Corporation
+             physical id: 1f
+             bus info: pci@0000:00:1f.0
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa bus_master
+             configuration: latency=0
+           *-pnp00:00
+                product: PnP device PNP0c02
+                physical id: 0
+                capabilities: pnp
+                configuration: driver=system
+           *-pnp00:01
+                product: PnP device PNP0b00
+                physical id: 1
+                capabilities: pnp
+                configuration: driver=rtc_cmos
+           *-pnp00:02
+                product: PnP device PNP0c02
+                physical id: 2
+                capabilities: pnp
+                configuration: driver=system
+           *-pnp00:03
+                product: PnP device PNP0303
+                physical id: 3
+                capabilities: pnp
+                configuration: driver=i8042 kbd
+           *-pnp00:04
+                product: PnP device DLL0b36
+                physical id: 4
+                capabilities: pnp
+                configuration: driver=i8042 aux
+           *-pnp00:05
+                product: PnP device PNP0c02
+                physical id: 5
+                capabilities: pnp
+                configuration: driver=system
+           *-pnp00:06
+                product: PnP device PNP0c02
+                physical id: 6
+                capabilities: pnp
+                configuration: driver=system
+           *-pnp00:07
+                product: PnP device PNP0c02
+                physical id: 7
+                capabilities: pnp
+                configuration: driver=system
+        *-multimedia
+             description: Multimedia audio controller
+             product: Alder Lake PCH-P High Definition Audio Controller
+             vendor: Intel Corporation
+             physical id: 1f.3
+             bus info: pci@0000:00:1f.3
+             logical name: card0
+             logical name: /dev/snd/controlC0
+             logical name: /dev/snd/hwC0D0
+             logical name: /dev/snd/hwC0D2
+             logical name: /dev/snd/pcmC0D0c
+             logical name: /dev/snd/pcmC0D0p
+             logical name: /dev/snd/pcmC0D1c
+             logical name: /dev/snd/pcmC0D1p
+             logical name: /dev/snd/pcmC0D3p
+             logical name: /dev/snd/pcmC0D4p
+             logical name: /dev/snd/pcmC0D5p
+             logical name: /dev/snd/pcmC0D6c
+             logical name: /dev/snd/pcmC0D7c
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: driver=sof-audio-pci-intel-tgl latency=64
+             resources: iomemory:600-5ff iomemory:600-5ff irq:209 memory:6055290000-6055293fff memory:6055000000-60550fffff
+        *-serial:2
+             description: SMBus
+             product: Alder Lake PCH-P SMBus Host Controller
+             vendor: Intel Corporation
+             physical id: 1f.4
+             bus info: pci@0000:00:1f.4
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             configuration: driver=i801_smbus latency=0
+             resources: iomemory:600-5ff irq:16 memory:605529c000-605529c0ff ioport:efa0(size=32)
+        *-serial:3
+             description: Serial bus controller
+             product: Alder Lake-P PCH SPI Controller
+             vendor: Intel Corporation
+             physical id: 1f.5
+             bus info: pci@0000:00:1f.5
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             configuration: driver=intel-spi latency=0
+             resources: irq:0 memory:70800000-70800fff
+     *-pci:1
+          description: PCI bridge
+          product: 12th Gen Core Processor PCI Express x4 Controller #0
+          vendor: Intel Corporation
+          physical id: 6
+          version: 04
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+          configuration: driver=pcieport
+          resources: irq:162 memory:72000000-720fffff
+        *-nvme
+             description: Non-Volatile memory controller
+             product: Sandisk Corp
+             vendor: Sandisk Corp
+             physical id: 0
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: nvme pm msi msix pciexpress nvm_express bus_master cap_list
+             configuration: driver=nvme latency=0
+             resources: irq:0 memory:72000000-72003fff
+  *-battery
+       product: DELL CFD7227
+       vendor: ATL
+       physical id: 1
+       version: 07/25/2022
+       serial: 1590
+       slot: Sys. Battery Bay
+       capacity: 54000mWh
+       configuration: voltage=15.0V
+  *-power UNCLAIMED
+       physical id: 2
+       capacity: 32768mWh
+  *-nvme0
+       description: NVMe device
+       product: PC SN740 NVMe WD 512GB
+       physical id: 3
+       logical name: /dev/nvme0
+       version: 73914104
+       serial: 22260J808810
+       configuration: nqn=nqn.2018-01.com.wdc:guid:E8238FA6BF53-0001-001B448B4B7833BE state=live
+     *-namespace:0
+          description: NVMe disk
+          physical id: 0
+          logical name: hwmon3
+     *-namespace:1
+          description: NVMe disk
+          physical id: 2
+          logical name: /dev/ng0n1
+     *-namespace:2
+          description: NVMe disk
+          physical id: 1
+          bus info: nvme@0:1
+          logical name: /dev/nvme0n1
+          size: 476GiB (512GB)
+          capabilities: gpt-1.00 partitioned partitioned:gpt
+          configuration: guid=f76c9350-76b5-422c-8929-31e131fd3e0a logicalsectorsize=512 sectorsize=512 wwid=eui.e8238fa6bf530001001b448b4b7833be
+        *-volume:0 UNCLAIMED
+             description: Windows FAT volume
+             vendor: mkfs.fat
+             physical id: 1
+             bus info: nvme@0:1,1
+             version: FAT32
+             serial: f648-ca01
+             size: 510MiB
+             capacity: 511MiB
+             capabilities: boot fat initialized
+             configuration: FATs=2 filesystem=fat name=EFI System Partition
+        *-volume:1
+             description: EXT4 volume
+             vendor: Linux
+             physical id: 2
+             bus info: nvme@0:1,2
+             logical name: /dev/nvme0n1p2
+             logical name: /
+             logical name: /var/snap/firefox/common/host-hunspell
+             version: 1.0
+             serial: 029f9762-ed91-416d-a7b9-29ca716c6ec1
+             size: 476GiB
+             capabilities: journaled extended_attributes large_files huge_files dir_nlink recover 64bit extents ext4 ext2 initialized
+             configuration: created=2023-05-13 02:34:13 filesystem=ext4 lastmountpoint=/ modified=2023-05-13 19:41:00 mount.fstype=ext4 mount.options=ro,noexec,noatime,errors=remount-ro mounted=2023-05-13 19:41:01 state=mounted
+  *-input:0
+       product: Lid Switch
+       physical id: 4
+       logical name: input0
+       logical name: /dev/input/event0
+       capabilities: platform
+  *-input:1
+       product: Power Button
+       physical id: 5
+       logical name: input1
+       logical name: /dev/input/event1
+       capabilities: platform
+  *-input:2
+       product: Wacom HID 49C5 Pen
+       physical id: 6
+       logical name: input14
+       logical name: /dev/input/event4
+       logical name: /dev/input/mouse0
+       capabilities: i2c
+  *-input:3
+       product: Wacom HID 49C5 Finger
+       physical id: 7
+       logical name: input15
+       logical name: /dev/input/event5
+       logical name: /dev/input/mouse1
+       capabilities: i2c
+  *-input:4
+       product: Intel HID events
+       physical id: 8
+       logical name: input17
+       logical name: /dev/input/event7
+       capabilities: platform
+  *-input:5
+       product: Intel HID 5 button array
+       physical id: 9
+       logical name: input18
+       logical name: /dev/input/event8
+       capabilities: platform
+  *-input:6
+       product: VEN_27C6:00 27C6:0D44 Mouse
+       physical id: a
+       logical name: input19
+       logical name: /dev/input/event9
+       logical name: /dev/input/mouse3
+       capabilities: i2c
+  *-input:7
+       product: Sleep Button
+       physical id: b
+       logical name: input2
+       logical name: /dev/input/event2
+       capabilities: platform
+  *-input:8
+       product: VEN_27C6:00 27C6:0D44 Touchpad
+       physical id: c
+       logical name: input20
+       logical name: /dev/input/event10
+       logical name: /dev/input/mouse4
+       capabilities: i2c
+  *-input:9
+       product: Dell Privacy Driver
+       physical id: d
+       logical name: input22
+       logical name: /dev/input/event11
+       capabilities: platform
+  *-input:10
+       product: Dell WMI hotkeys
+       physical id: e
+       logical name: input23
+       logical name: /dev/input/event12
+       capabilities: platform
+  *-input:11
+       product: Video Bus
+       physical id: f
+       logical name: input25
+       logical name: /dev/input/event14
+       capabilities: platform
+  *-input:12
+       product: sof-hda-dsp Headphone Mic
+       physical id: 10
+       logical name: input26
+       logical name: /dev/input/event15
+  *-input:13
+       product: sof-hda-dsp HDMI/DP,pcm=3
+       physical id: 11
+       logical name: input27
+       logical name: /dev/input/event16
+  *-input:14
+       product: sof-hda-dsp HDMI/DP,pcm=4
+       physical id: 12
+       logical name: input28
+       logical name: /dev/input/event17
+  *-input:15
+       product: sof-hda-dsp HDMI/DP,pcm=5
+       physical id: 13
+       logical name: input29
+       logical name: /dev/input/event18
+  *-input:16
+       product: AT Translated Set 2 keyboard
+       physical id: 14
+       logical name: input3
+       logical name: /dev/input/event3
+       logical name: input3::capslock
+       logical name: input3::numlock
+       logical name: input3::scrolllock
+       capabilities: i8042
+  *-input:17
+       product: Intel HID switches
+       physical id: 15
+       logical name: input30
+       logical name: /dev/input/event19
+       capabilities: platform
+  *-input:18
+       product: PS/2 Generic Mouse
+       physical id: 16
+       logical name: input5
+       logical name: /dev/input/event6
+       logical name: /dev/input/mouse2
+       capabilities: i8042

@@ -1,0 +1,12 @@
+
+Are symlinks text or binary data?
+ChatGPT
+
+Symbolic links, also known as symlinks or soft links, are a type of file in a file system. From a data perspective, symlinks can be considered as text data. They consist of a path or reference to another file or directory.
+
+A symbolic link contains the target path it points to, which can be either a relative or an absolute path. When a symbolic link is accessed or followed, the operating system resolves the link and treats it as if it were the actual file or directory it points to.
+
+Unlike binary data that represents the content of a file, symbolic links do not contain the actual content of the target file. Instead, they hold textual information about the path to the target file or directory. This textual information is stored as metadata within the file system.
+
+In summary, symbolic links are text-based references to other files or directories and are not considered binary data.
+

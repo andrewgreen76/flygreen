@@ -1,19 +1,4 @@
 
- + kernel dev (HW mgmt, qemu)		OS, sched, memgmt, driv, optim, hw comm, btlnks, config, dbg, virt;
- |  	      	  			security, R&D, cloud, RTOS.
- |
-?? BOTTOM-UP OR TOP-DOWN ??
-
-=====================================================================
-
- - compiler, debugger, etc.		optim, code gen, tools/utils, dbg, ed/IDE, anlzrs, (OS, driv) ; 
-   	     	       			prog/lang expand, integr, (RTOS, emb.sys)
-
- + Win (C#/Unity/.NET)			simple games, edu, net, sim, (UI/UX, test, consult, scripting) ; 
-       					VR, AR, web apps, mobile, 
-
-=====================================================================
-
 python: ML (xls to txt to git), string interning, pre-caching, optimization 
 funbag >< progbook (cheat sheets)
 

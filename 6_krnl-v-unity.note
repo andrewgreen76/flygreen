@@ -1,14 +1,14 @@
 
- + kernel dev (HW mgmt, qemu)		OS, sched, memgmt, driv, optim, hw comm, btlnks, config, dbg, virt;
- |  	      	  			security, R&D, cloud, RTOS.
- |
-?? BOTTOM-UP OR TOP-DOWN ??
++ OS/krnl	OS, sched, memgmt, driv, optim, hw comm, btlnks, config, dbg, virt;
++ lang-utils	optim, code gen, tools/utils, dbg, ed/IDE, anlzrs, (OS, driv) ; 
+|
+- OS/krnl	security, R&D, cloud, RTOS.
+- lang-utils	prog/lang expand, integr, (RTOS, emb.sys)
+|
+|  	      	  			
+> btm-up or top-down 
 
 =====================================================================
 
- - compiler, debugger, etc.		optim, code gen, tools/utils, dbg, ed/IDE, anlzrs, (OS, driv) ; 
-   	     	       			prog/lang expand, integr, (RTOS, emb.sys)
-
- + Win (C#/Unity/.NET)			simple games, edu, net, sim, (UI/UX, test, consult, scripting) ; 
-       					VR, AR, web apps, mobile, 
-
++ Win (C#/Unity/.NET)		simple games, edu, net, sim, (UI/UX, test, consult, scripting) ; 
+       				VR / AR / XR / MR / 3D / mobile, web apps,  

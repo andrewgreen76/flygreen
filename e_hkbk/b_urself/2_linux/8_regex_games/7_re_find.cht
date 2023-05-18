@@ -1,0 +1,4 @@
+
+find ./ -name "*word*"
+find ./ -type d -name "*word*"
+

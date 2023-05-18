@@ -1,6 +1,6 @@
 
-+ OS/krnl	OS, sched, memgmt, driv, optim, hw comm, btlnks, config, dbg, virt;
-+ lang-utils	optim, code gen, tools/utils, dbg, ed/IDE, anlzrs, (OS, driv) ; 
++ OS/krnl	OS, sched, memgmt, driv, optim, hw comm, btlnks, config, dbg, virt, dbg;
++ lang-utils	optim, code gen, tools/utils, anlzrs, (OS, driv) ; 
 |
 - OS/krnl	security, R&D, cloud, RTOS.
 - lang-utils	prog/lang expand, integr, (RTOS, emb.sys)

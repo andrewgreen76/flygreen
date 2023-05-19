@@ -1,1 +1,1 @@
-bind -s '\ec':'echo "Custom keybinding with Alt!"'
+bind '\ec':'echo "Custom keybinding with Alt!"'

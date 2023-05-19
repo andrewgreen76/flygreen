@@ -1,6 +1,4 @@
 
-bindings
-adp
 journal.notes -> hackbook
 memmap
 interview questions: C
@@ -20,7 +18,6 @@ ask gpt:
 
 floss
 
-alternative to xclip ??
 find a poke api lib 
 find a sound api lib 
 shit to lug

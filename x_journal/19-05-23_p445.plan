@@ -1,0 +1,15 @@
+
+=== 5/19/23, 4:45pm ET:
+
+    Learning more and more about customization of my Bash ecosystem for the sake of
+minimizing my annoyance with some of its transient aspects and thereby maximizing
+my productivity, I've learned about the nature of different teletype prompts -
+ - the shell, the username/password auth, ... and ... who knows what else is there.
+The takeaway here is that auth prompts do not accept shell keybindings or escape
+sequences. Sad, as a more friendly functionality would actually let me populate my
+login and password instantly, saving me the time and the patiences. According to
+ChatGPT, there is a way to get Emacs and Bash to share the same text buffer, but
+this is getting too involved for me and I'm just tired and need a recharge. 
+
+=== assume End at 5/19/23, 11:59m ET 
+

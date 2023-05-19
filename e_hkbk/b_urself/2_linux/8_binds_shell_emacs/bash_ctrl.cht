@@ -1,0 +1,35 @@
+
+C-a	curse to start of cmd-line.
+C-e	curse to end of cmd-line.
+
+
+    Ctrl+A: Move the cursor to the beginning of the command line.
+    Ctrl+B: Move the cursor back one character.
+    Ctrl+C: Interrupt (kill) the currently running process.
+    Ctrl+D: Send an end-of-file (EOF) character, which can close an input stream or exit the current shell session if the command line is empty.
+    Ctrl+E: Move the cursor to the end of the command line.
+    Ctrl+F: Move the cursor forward one character.
+    Ctrl+G: Abort the current command or search.
+    Ctrl+H: Delete the character before the cursor (equivalent to Backspace).
+C-i 	    
+    Ctrl+J: Equivalent to pressing the Enter key.
+    Ctrl+K: Delete the characters from the cursor position to the end of the line.
+    Ctrl+L: Clear the screen (equivalent to running the clear command).
+    Ctrl+M: Equivalent to pressing the Enter key.
+    Ctrl+N: Move to the next command in command history (down arrow).
+    Ctrl+O: Execute the current command and open a new line.
+    Ctrl+P: Move to the previous command in command history (up arrow).
+    Ctrl+Q: Resume output after it has been stopped by Ctrl+S (XOFF).
+    Ctrl+R: Search backward in command history for a command matching the entered text.
+    Ctrl+S: Pause output (XOFF). Note that this keybinding is often disabled in modern terminal emulators.
+    Ctrl+T: Swap the characters before and after the cursor.
+    Ctrl+U: Delete the characters from the beginning of the line to the cursor.
+    Ctrl+V: Interpret the next character literally, even if it has a special meaning.
+    Ctrl+W: Delete the word before the cursor.
+    Ctrl+X: Used as a prefix key in combination with other keys for various purposes.
+    Ctrl+Y: Paste the last deleted text.
+    Ctrl+Z: Suspend the current foreground process and put it in the background.
+
+
+C-s	XOFF signal to freeze out to prompt. 
+

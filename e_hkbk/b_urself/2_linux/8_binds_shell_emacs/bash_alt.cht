@@ -1,0 +1,21 @@
+
+List the functionality for every keybinding in Bash that has just the Alt-key in it.
+ChatGPT
+
+In Bash, the Alt key (usually represented as Meta or M in keybindings) is often used as a modifier key to define custom keybindings. Here are some common keybindings in Bash that involve the Alt key:
+
+    Alt+B or M-b: Move the cursor back one word.
+    Alt+F or M-f: Move the cursor forward one word.
+    Alt+D or M-d: Delete the word following the cursor.
+    Alt+Backspace or M-Backspace: Delete the word preceding the cursor.
+    Alt+U or M-u: Convert the characters from the current cursor position to the end of the word to uppercase.
+    Alt+L or M-l: Convert the characters from the current cursor position to the end of the word to lowercase.
+    Alt+T or M-t: Swap the current word with the previous word.
+    Alt+Ctrl+Y or M-Ctrl-y: Paste (yank) the last argument of the previous command.
+    Alt+Ctrl+E or M-Ctrl-e: Expand command line aliases.
+    Alt+Ctrl+U or M-Ctrl-u: Undo all changes made to the current command line.
+
+These keybindings are commonly used in Bash for efficient command line editing and manipulation. However, it's important to note that the availability and behavior of keybindings can depend on your terminal emulator and its configuration. Additionally, custom keybindings can be defined in the .inputrc file or in the shell configuration file (e.g., .bashrc).
+
+You can explore further keybindings and customize them according to your preferences and requirements.
+

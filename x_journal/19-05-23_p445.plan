@@ -18,13 +18,13 @@ and I'm going to clear it out. Here's what I have on it, and this will be preser
 here for personal development reasons:
 
 
-     	 	  	HR/CEO					       CEO/HR
-     	 GUI    gfx     BIOS	     trm    compiler  ed  shell	       krnl	 dbg  vk3d
-	 API    driver  (font lib)   (out)  (transl)      (nav/manip)  (hwmgmt)  	     
+     	 	  	         HR/CEO					          CEO/HR
+     	 GUIOS  gfx     shaders  BIOS	      trm    compiler    ed  shell	  krnl	    dbg  vk3d/	unity2d
+	 API    driver  	 (font lib)   (out)  (transl)        (nav/manip)  (hwmgmt)       2.5d     
 
-Real
+Real	 _	_	_	 _     	      x	     x		 x   x		  x	    x	 _	x
 
-Fake
+Fake	        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 === assume End at 5/19/23, 11:59m ET 
 

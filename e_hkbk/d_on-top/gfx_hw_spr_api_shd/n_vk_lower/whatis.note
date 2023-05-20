@@ -1,0 +1,3 @@
+
+Vulkan: Vulkan takes a lower-level, explicit approach, aiming to provide more direct control over the graphics hardware. It exposes a thinner API layer, giving developers greater control and flexibility in managing resources, synchronization, and optimizing performance. Vulkan is designed to be a low-overhead, high-performance API and leaves certain system-level tasks, such as windowing and input handling, to platform-specific libraries or frameworks. This allows developers to integrate Vulkan into their existing application frameworks or use platform-specific frameworks for these tasks.
+

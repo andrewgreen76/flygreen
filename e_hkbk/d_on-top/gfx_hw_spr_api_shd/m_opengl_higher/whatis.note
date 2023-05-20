@@ -1,0 +1,3 @@
+
+OpenGL: OpenGL was designed to provide a high-level, platform-independent graphics API that abstracts the underlying hardware. It includes a comprehensive set of functions and commands for performing various graphics operations, such as creating and manipulating objects, defining rendering pipelines, and handling shader programs. In addition to the core functionality, OpenGL also provides a framework called GLUT (OpenGL Utility Toolkit) or FreeGLUT, which offers basic windowing and input handling capabilities. This framework simplifies common tasks like creating windows, handling events, and managing input.
+

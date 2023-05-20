@@ -1,0 +1,11 @@
+
+Enumerating objects: 415, done.
+Counting objects: 100% (415/415), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (374/374), done.
+Writing objects: 100% (413/413), 20.28 MiB | 1.29 MiB/s, done.
+Total 413 (delta 12), reused 323 (delta 8), pack-reused 0
+remote: Resolving deltas: 100% (12/12), completed with 2 local objects.
+To https://github.com/andrewgreen76/flygreen.git
+   9fba3d3..9fe29d3  main -> main
+

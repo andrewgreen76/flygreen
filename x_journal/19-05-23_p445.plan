@@ -7,9 +7,24 @@ my productivity, I've learned about the nature of different teletype prompts -
  - the shell, the username/password auth, ... and ... who knows what else is there.
 The takeaway here is that auth prompts do not accept shell keybindings or escape
 sequences. Sad, as a more friendly functionality would actually let me populate my
-login and password instantly, saving me the time and the patiences. According to
+login and password instantly, saving me the time and the patience. According to
 ChatGPT, there is a way to get Emacs and Bash to share the same text buffer, but
-this is getting too involved for me and I'm just tired and need a recharge. 
+this is getting too involved for me and I'm just tired and need a recharge.
+
+    ...
+
+    Up and running and reporting again. I need to do something about this whiteboard
+and I'm going to clear it out. Here's what I have on it, and this will be preserved
+here for personal development reasons:
+
+
+     	 	  	HR/CEO					       CEO/HR
+     	 GUI    gfx     BIOS	     trm    compiler  ed  shell	       krnl	 dbg  vk3d
+	 API    driver  (font lib)   (out)  (transl)      (nav/manip)  (hwmgmt)  	     
+
+Real
+
+Fake
 
 === assume End at 5/19/23, 11:59m ET 
 

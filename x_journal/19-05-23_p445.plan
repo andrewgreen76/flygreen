@@ -19,12 +19,12 @@ here for personal development reasons:
 
 
      	 	  	         HR/CEO					          CEO/HR
-     	 GUIOS  gfx     shaders  BIOS	      trm    compiler    ed  shell	  krnl	    dbg  vk3d/	unity2d
-	 API    driver  	 (font lib)   (out)  (transl)        (nav/manip)  (hwmgmt)       2.5d     
+     	 GUIOS  gfx     shaders  BIOS	      trm    compiler    ed  shell	  krnl	    dbg  vk3d/	unity2d  sysdef bmp
+	 API    driver  	 (font lib)   (out)  (transl)        (nav/manip)  (hwmgmt)       2.5d     	 lib for CLIOS
 
 Real	 _	_	_	 _     	      x	     x		 x   x		  x	    x	 _	x
 
-Fake	        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Fake	        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 === assume End at 5/20/23, 1:14am ET 
 

@@ -1,0 +1,22 @@
+
+Is the file system of a computer stored in RAM or a storage device?
+ChatGPT
+
+The file system of a computer is typically stored on a storage device such as a hard disk drive or solid-state drive.
+
+When a file is accessed, the operating system will read the file system from the storage device into the computer's RAM (Random Access Memory) to allow for faster access to the file's contents. However, the file system itself remains stored on the storage device even after the computer is shut down.
+
+So while the file system may be temporarily loaded into RAM while it is being used, it is ultimately stored on a storage device.
+
+
+
+User
+Let me re-phrase it: Is the file system table of a computer stored in RAM or a storage device?
+ChatGPT
+
+The file system table of a computer, also known as the File Allocation Table (FAT), Master File Table (MFT), or similar, is typically stored on a storage device such as a hard disk drive or solid-state drive.
+
+When a file is accessed, the operating system uses the file system table to locate the file's data on the storage device. Portions of the file system table may be cached in RAM to improve performance, but the master copy remains stored on the storage device even after the computer is shut down.
+
+So while the file system table may be temporarily loaded into RAM for faster access during operation, it is ultimately stored on a storage device.
+

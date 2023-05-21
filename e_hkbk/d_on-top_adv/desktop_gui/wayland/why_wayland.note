@@ -1,0 +1,6 @@
+
+When was the Wayland protocol first written?
+ChatGPT
+
+The Wayland protocol was first written by Kristian Høgsberg in 2008. Høgsberg was a software engineer at Red Hat at the time, and he developed Wayland as a replacement for the aging X Window System, which had been the standard display server protocol for Linux and other Unix-like systems since the 1980s. Wayland was designed to provide a simpler and more efficient architecture for handling graphical display and input, and it has since gained widespread adoption among Linux-based operating systems and desktop environments.
+

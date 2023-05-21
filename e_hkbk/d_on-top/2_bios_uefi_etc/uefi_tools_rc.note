@@ -1,0 +1,20 @@
+
+What do I need to write a UEFI?
+ChatGPT
+
+To write a UEFI (Unified Extensible Firmware Interface) implementation, you will need a combination of hardware and software resources, as well as a good understanding of UEFI architecture and specifications. Here are some of the things you will need:
+
+    A development board or computer with a UEFI-compatible motherboard - this will allow you to test your UEFI implementation on real hardware.
+
+    A UEFI development kit, which may include a UEFI firmware development environment, source code, documentation, and tools for building and debugging.
+
+    A programming language such as C or C++, which is commonly used to write UEFI code.
+
+    A strong understanding of UEFI specifications and architecture, including the UEFI boot process, protocols, drivers, and services.
+
+    Access to UEFI test suites and tools, which can help you verify the functionality and compatibility of your UEFI implementation.
+
+    Debugging tools, such as a hardware debugger or a software emulator, to help you identify and fix any issues with your UEFI code.
+
+Keep in mind that UEFI development is a complex and challenging process that requires a high level of technical expertise. You may want to consider seeking out resources and support from the UEFI community, attending UEFI-related events and conferences, and collaborating with other developers to share knowledge and best practices.
+

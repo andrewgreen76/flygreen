@@ -15,24 +15,18 @@ touch [] 	- create a (text) file
 rm [] 		- delete a file
 grep ["s"] [p]	- finds given string/word within the specified path/file 
 find [file]	- searches for the targeted file (leaf).
-|
-find [path_dir] -type d -name "*word*"
-|     	        - locates all directories with the specified word in their names. 
-|
+
+find [from-dir] -type d -name "*word*"
+     	        - locates all directories with the specified word in their names. 
+
 clear/Ctrl+L	- clears the terminal 
 history		- lists previously entered commands 
-![num]		- execute the command as indexed by history 
+![num]		- execute the command as indexed by the history command 
 
-echo
-grep
-pwd
+echo		-
+>		- (overwrt oper)
+>> 		- (append oper)
+|		- (pipe oper)
+tee		-
+tee -a 		- 
 
-
-gcc [p].c -o [p.out] 	- compile a C program
-./[p.out]		- run a C program 
-|
-python3 [prog].py	- runs a Python script (Python 3 - latest version series)
-pip show		- shows info about a Python package(s) 
-|
-javac [prog.java]	- compile a Java program 
-java [prog]		- run the Java program 

@@ -1,6 +1,5 @@
 
 TRICKS:
- - commands
  - ^C, ^L 
  - command chaining
  - operators
@@ -8,4 +7,5 @@ TRICKS:
    = tee -a feeds out to shell and appends to file(s). 
  - (bash) scripts
  - aliasing (.bashrc, .profile)
+ - xdg-open 
 

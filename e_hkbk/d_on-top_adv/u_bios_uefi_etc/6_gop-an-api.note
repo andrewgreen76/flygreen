@@ -1,0 +1,11 @@
+
+User
+Is the GOP of UEFI considered an API? 
+ChatGPT
+
+The GOP (Graphics Output Protocol) of UEFI (Unified Extensible Firmware Interface) is a protocol that defines how a UEFI firmware can communicate with the graphics hardware to provide graphical output.
+
+An API (Application Programming Interface) is a set of functions, protocols, and tools for building software applications, and provides a defined way for different software components to interact with each other.
+
+So, technically, the GOP of UEFI could be considered an API, as it is a defined protocol that allows software (the UEFI firmware) to communicate with the graphics hardware. However, it's worth noting that the GOP is specific to the UEFI firmware, whereas an API is typically a more general interface that can be used by any software component that supports it.
+

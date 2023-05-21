@@ -1,0 +1,22 @@
+
+Please give me an example of a simple CLI-only website I can access just for a test-drive.
+ChatGPT
+
+Sure! Here's an example of a simple CLI-only website you can access using the curl command:
+
+arduino
+
+curl http://wttr.in
+
+This website provides weather information based on your location. When you run the above command, it will return the current weather conditions for your location in the command line.
+
+You can also provide a location as an argument to the command to get weather information for a specific location. For example, to get weather information for New York City, you can run:
+
+arduino
+
+curl http://wttr.in/New+York
+
+This will return the weather information for New York City in the command line.
+
+Note that wttr.in is a third-party website, and we do not endorse or guarantee its accuracy or reliability. It is provided here solely as an example of a simple CLI-only website that you can access using the curl command.
+

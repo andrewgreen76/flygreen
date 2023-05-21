@@ -1,0 +1,8 @@
+
+When did the curl command come about?
+ChatGPT
+
+The curl command-line tool was first released in 1997 by Daniel Stenberg. It was created to provide a simple and versatile way to make HTTP requests from the command line. Since its initial release, curl has gained widespread popularity and has become a standard tool for accessing and interacting with web services and APIs.
+
+Over the years, curl has been continuously developed and improved, with support for various protocols and features added. It is available on multiple platforms and widely used in both development and system administration tasks.
+

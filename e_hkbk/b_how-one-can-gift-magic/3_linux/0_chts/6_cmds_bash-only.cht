@@ -1,4 +1,6 @@
 
+date		- gives local date and time 
+
 whatis [cmd]	- gives a brief description of what the specified command does 
 man [cmd]	- help with a specific command 
 

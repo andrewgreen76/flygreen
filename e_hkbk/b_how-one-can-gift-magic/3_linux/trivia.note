@@ -1,0 +1,18 @@
+
+In the Bash shell, when you enter a backslash character ("") at the end of a line in the prompt string, it indicates that the command is continued on the next line. This behavior is known as "continuation prompt" or "secondary prompt."
+
+When you press Enter after typing the backslash, the shell expects you to complete the command on the next line. The ">" angular bracket is the default continuation prompt in Bash, indicating that you should continue typing the command.
+
+This feature is useful when you have a long command or need to break a command into multiple lines for better readability. The continuation prompt allows you to continue typing the command without executing it prematurely.
+
+For example, if you have a command that spans multiple lines:
+
+bash
+
+$ echo "This is a long command \
+> that continues on the next line."
+
+In this case, the ">" prompt indicates that the command is not yet complete, and you can continue typing the rest of the command on the next line.
+
+You can customize the continuation prompt by modifying the PS2 variable in your Bash shell. By changing the value of PS2, you can set a different prompt character or string for the continuation prompt according to your preference.
+

@@ -1,0 +1,15 @@
+
+User
+What is basic4gl?
+ChatGPT
+
+Basic4GL is a programming language and development environment designed for creating games and multimedia applications. It is a dialect of the BASIC programming language with additional features and libraries specific to game development.
+
+Basic4GL provides a simple and user-friendly syntax that is easy to learn, making it accessible to beginners and hobbyists interested in game development. It offers a range of built-in functions and libraries for handling graphics, sound, input, and other game-related tasks.
+
+The language supports procedural programming with support for variables, loops, conditionals, and subroutines. It also includes features specifically tailored for game development, such as sprite handling, collision detection, and keyboard/mouse input handling.
+
+Basic4GL includes an integrated development environment (IDE) that provides a code editor, debugging tools, and a runtime environment for running and testing the created applications. The IDE offers a visual interface for designing game levels, managing resources, and organizing project files.
+
+While Basic4GL is primarily focused on game development, it can also be used for other multimedia applications, simulations, and interactive software. It provides a straightforward and approachable environment for users who want to get started with game development without dealing with the complexities of more advanced programming languages.
+

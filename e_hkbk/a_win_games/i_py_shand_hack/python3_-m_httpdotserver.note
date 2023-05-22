@@ -1,0 +1,13 @@
+
+User
+What does the command “python3 -m http.server” do?
+ChatGPT
+
+The command "python3 -m http.server" is used to start a simple HTTP server in Python 3. When you execute this command in a terminal or command prompt, it launches a server that listens on port 8000 by default. This server serves files and directories from the current directory where the command was executed.
+
+The HTTP server is primarily intended for simple development and testing purposes. It can be useful for quickly sharing files or hosting a basic website locally. By default, it serves files using the MIME type 'text/plain'. However, it can also serve other MIME types based on file extensions, allowing you to view HTML, CSS, JavaScript, and other file types in a web browser.
+
+Once the server is running, you can access it by opening a web browser and navigating to "http://localhost:8000" or "http://127.0.0.1:8000". The server will display the directory listing and allow you to browse the files and directories in the current directory. You can click on files to view them in the browser or navigate to subdirectories by clicking on their names.
+
+To stop the server, you can press Ctrl+C in the terminal or command prompt where it is running.
+

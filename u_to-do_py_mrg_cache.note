@@ -1,4 +1,19 @@
 
+unwrap 1_net.cht into the parent dir 
+
+
+.data
+    message:    .asciz "I am Andrew Green\n"
+
+.text
+.global main
+
+main:
+    # Write the string to the standard output
+    mov     $4, %eax          # System call number for write
+    mov     $1, %ebx          # File descriptor 1: standard output
+... A-a-a-ah! ... tl;dw
+
 extract from networking.odt
 analyze every boring alg in py : What does it make happen? 
 write here's johnny in py

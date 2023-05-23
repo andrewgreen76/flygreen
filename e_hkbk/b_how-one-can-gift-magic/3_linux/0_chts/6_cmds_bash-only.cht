@@ -1,5 +1,8 @@
 
-date		- gives local date and time 
+Streaming commands (remembering and printing-by-default):
+|
+ls		- streams the contents of the current dir 
+pwd		- streams where you are (current working dir). For when there's no current working directory in the prompt or it's to be stored. 
 
 whatis [cmd]	- gives a brief description of what the specified command does 
 man [cmd]	- help with a specific command 
@@ -31,4 +34,6 @@ echo		-
 |		- (pipe oper)
 tee		-
 tee -a 		- 
+
+date		- gives local date and time 
 

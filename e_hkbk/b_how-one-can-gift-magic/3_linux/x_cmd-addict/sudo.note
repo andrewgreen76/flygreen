@@ -1,13 +1,4 @@
 
-awk
-sed
-head
-tail -n <num of lines> <file>
-source ~/.zshrc
-pushd ~/path
-
-
-
 sudo $(fc -ln -1)
 |
 |
@@ -31,3 +22,4 @@ Putting it all together, "$(fc -ln -1)" retrieves the most recent command execut
 For example, if you have previously executed the command "ls -l", "$(fc -ln -1)" will be replaced by the string "ls -l" in the context where it is used.
 
 Command substitution allows you to use the output of a command as an argument, assignment, or part of a larger command. It provides flexibility in scripting and allows you to dynamically incorporate the results of commands into your scripts.
+

@@ -1,0 +1,41 @@
+
+User
+What is the bash command for internet speed lookup?
+ChatGPT
+
+There is no built-in Bash command specifically for internet speed lookup. However, you can use various command-line tools to measure internet speed from the terminal.
+
+One popular tool for this purpose is speedtest-cli, which is a command-line interface for the Speedtest.net service. It allows you to measure your internet speed by connecting to the nearest Speedtest.net server.
+
+To use speedtest-cli, you can follow these steps:
+
+    Install speedtest-cli if it's not already installed. You can typically install it using package managers like apt or brew. For example, on Ubuntu, you can run:
+
+    bash
+
+sudo apt-get install speedtest-cli
+
+Once installed, you can simply run the speedtest-cli command in your terminal:
+
+bash
+
+    speedtest-cli
+
+    This will initiate the speed test and display the results, including download speed, upload speed, and ping latency.
+
+Another option is to use the fast.com command-line tool, which measures the download speed specifically. It is provided by Netflix and can be installed via npm (Node Package Manager) if you have Node.js installed:
+
+bash
+
+npm install --global fast-cli
+
+Once installed, you can run fast in your terminal:
+
+bash
+
+fast
+
+This will start the speed test and show your download speed.
+
+These tools provide a convenient way to measure your internet speed from the command line. Keep in mind that the actual internet speed may vary due to various factors, including network congestion, server load, and your network configuration.
+

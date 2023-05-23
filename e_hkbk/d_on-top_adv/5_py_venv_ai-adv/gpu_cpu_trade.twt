@@ -1,0 +1,10 @@
+
+John Carmack:
+
+
+GPUs are built with more memory bandwidth, but higher latency and lower capacity than CPUs. AI accelerators could usefully make a different memory trade — the bandwidth of a GPU (or more), but the capacity of a CPU, in exchange for even higher latency.
+
+For inference, all the weights, potentially a couple TB, can be accessed in a completely linear manner. It could even be a single transaction, streaming at a constant speed into an L2 ring buffer for a GPU core to chase calculations in, akin to racing the beam on old CRT game architectures. You could build a memory system out of masses of dirt cheap RAM, fully in parallel.
+
+Even for training, the memory access patterns can be just a forward read of the weights, a reverse read , and a staggered reverse write of gradients and weights. You could have minimum transaction sizes in the megabytes, and first byte latencies in the many microseconds.
+

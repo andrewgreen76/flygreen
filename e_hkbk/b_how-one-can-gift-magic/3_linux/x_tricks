@@ -1,0 +1,32 @@
+
+source ~/.zshrc
+
+
+
+pushd ~/path
+
+
+
+sudo $(fc -ln -1)
+|
+|
+|
+User
+What is "$(fc -ln -1)" ?
+ChatGPT
+
+The expression "$(fc -ln -1)" is a command substitution in Bash. It is used to capture the output of the fc command and substitute it into the command or script.
+
+Here's a breakdown of each component:
+
+    fc is a built-in Bash command that stands for "fix command." It is used to work with the command history and execute or manipulate previous commands.
+
+    The -ln options are passed to the fc command. -l lists the commands with line numbers, and -n suppresses command numbers in the output.
+
+    The -1 argument specifies the command history event number to retrieve. In this case, it refers to the most recent command executed.
+
+Putting it all together, "$(fc -ln -1)" retrieves the most recent command executed from the command history, along with its line number, and substitutes it as a string in the command or script.
+
+For example, if you have previously executed the command "ls -l", "$(fc -ln -1)" will be replaced by the string "ls -l" in the context where it is used.
+
+Command substitution allows you to use the output of a command as an argument, assignment, or part of a larger command. It provides flexibility in scripting and allows you to dynamically incorporate the results of commands into your scripts.

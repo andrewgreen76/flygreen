@@ -1,0 +1,103 @@
+00000000-00000fff : Reserved
+00001000-0009efff : System RAM
+0009f000-000fffff : Reserved
+  000a0000-000bffff : PCI Bus 0000:00
+  000f0000-000fffff : System ROM
+00100000-579c4fff : System RAM
+579c5000-579e7fff : Reserved
+579e8000-5cd1dfff : System RAM
+5cd1e000-60d10fff : Reserved
+60d11000-61571fff : ACPI Non-volatile Storage
+  614e3000-614e3fff : USBC000:00
+61572000-617fefff : ACPI Tables
+617ff000-617fffff : System RAM
+61800000-65ffffff : Reserved
+66400000-665fffff : Reserved
+66e00000-707fffff : Reserved
+  6c800000-707fffff : Graphics Stolen Memory
+70800000-bfffffff : PCI Bus 0000:00
+  70800000-70800fff : 0000:00:1f.5
+    70800000-70800fff : 0000:00:1f.5 0000:00:1f.5
+  72000000-73ffffff : 0000:00:0e.0
+    72000000-73ffffff : VMD MEMBAR1
+      72000000-720fffff : PCI Bus 10000:e1
+        72000000-72003fff : 10000:e1:00.0
+          72000000-72003fff : nvme
+  74000000-89dfffff : PCI Bus 0000:39
+  8a000000-9fdfffff : PCI Bus 0000:01
+c0000000-cfffffff : Reserved
+  c0000000-ce0fffff : PCI MMCONFIG 0000 [bus 00-e0]
+f9800000-f9ffffff : Reserved
+fd690000-fd69ffff : INTC1055:00
+  fd690000-fd69ffff : INTC1055:00 INTC1055:00
+fd6a0000-fd6affff : INTC1055:00
+  fd6a0000-fd6affff : INTC1055:00 INTC1055:00
+fd6d0000-fd6dffff : INTC1055:00
+  fd6d0000-fd6dffff : INTC1055:00 INTC1055:00
+fd6e0000-fd6effff : INTC1055:00
+  fd6e0000-fd6effff : INTC1055:00 INTC1055:00
+fec00000-fec003ff : IOAPIC 0
+fed00000-fed003ff : HPET 0
+  fed00000-fed003ff : PNP0103:00
+fed20000-fed7ffff : Reserved
+  fed40000-fed44fff : INTC6001:00
+    fed40000-fed44fff : INTC6001:00
+fed90000-fed90fff : dmar0
+fed91000-fed91fff : dmar1
+feda0000-feda0fff : pnp 00:05
+feda1000-feda1fff : pnp 00:05
+fedc0000-fedc7fff : pnp 00:05
+fee00000-feefffff : pnp 00:05
+  fee00000-fee00fff : Local APIC
+ff000000-ffffffff : Reserved
+100000000-48f7fffff : System RAM
+  1bde00000-1bf002187 : Kernel code
+  1bf200000-1bfd08fff : Kernel rodata
+  1bfe00000-1c01f50bf : Kernel data
+  1c0535000-1c09fffff : Kernel bss
+48f800000-48fffffff : RAM buffer
+4000000000-7fffffffff : PCI Bus 0000:00
+  4000000000-400fffffff : 0000:00:02.0
+  4010000000-4016ffffff : 0000:00:02.0
+  4017000000-4017000fff : 0000:00:15.0
+    4017000000-40170001ff : lpss_dev
+      4017000000-40170001ff : i2c_designware.0 lpss_dev
+    4017000200-40170002ff : lpss_priv
+    4017000800-4017000fff : idma64.0
+      4017000800-4017000fff : idma64.0 idma64.0
+  4017001000-4017001fff : 0000:00:15.1
+    4017001000-40170011ff : lpss_dev
+      4017001000-40170011ff : i2c_designware.1 lpss_dev
+    4017001200-40170012ff : lpss_priv
+    4017001800-4017001fff : idma64.1
+      4017001800-4017001fff : idma64.1 idma64.1
+  4020000000-40ffffffff : 0000:00:02.0
+  6000000000-6021ffffff : PCI Bus 0000:01
+  6030000000-6051ffffff : PCI Bus 0000:39
+  6052000000-6053ffffff : 0000:00:0e.0
+  6054000000-6054ffffff : 0000:00:02.0
+  6055000000-60550fffff : 0000:00:1f.3
+    6055000000-60550fffff : Audio DSP
+  6055100000-60551fffff : 0000:00:0e.0
+    6055102000-60551fffff : VMD MEMBAR2
+  6055200000-605523ffff : 0000:00:0d.2
+    6055200000-605523ffff : thunderbolt
+  6055240000-605525ffff : 0000:00:04.0
+    6055240000-605525ffff : proc_thermal
+  6055260000-605526ffff : 0000:00:14.0
+    6055260000-605526ffff : xhci-hcd
+  6055270000-605527ffff : 0000:00:12.0
+    6055270000-605527ffff : intel_ish_ipc
+  6055280000-605528ffff : 0000:00:0d.0
+    6055280000-605528ffff : xhci-hcd
+  6055290000-6055293fff : 0000:00:1f.3
+    6055290000-6055293fff : Audio DSP
+  6055294000-6055297fff : 0000:00:14.3
+    6055294000-6055297fff : iwlwifi
+  6055298000-605529bfff : 0000:00:14.2
+  605529c000-605529c0ff : 0000:00:1f.4
+  605529d000-605529dfff : 0000:00:16.0
+    605529d000-605529dfff : mei_me
+  60552a0000-60552a0fff : 0000:00:14.2
+  60552a1000-60552a1fff : 0000:00:0d.2
+  60552a2000-60552a2fff : 0000:00:08.0

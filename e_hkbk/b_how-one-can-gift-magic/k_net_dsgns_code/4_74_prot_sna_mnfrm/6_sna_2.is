@@ -1,0 +1,15 @@
+
+User
+When was the protocol launched?
+ChatGPT
+
+The IBM Systems Network Architecture (SNA) was launched by IBM in 1974. It was introduced as a comprehensive networking architecture specifically designed for IBM mainframe systems. SNA provided a framework for networking mainframes, terminals, and peripheral devices within an organization.
+
+The launch of SNA marked a significant milestone in mainframe networking, as it offered a standardized approach for connecting and communicating between mainframe systems and remote terminals. SNA became widely adopted by organizations that relied on IBM mainframe computers for their computing needs.
+
+SNA encompassed various protocols, layers, and components to handle different aspects of network communication, including session management, data formatting, error recovery, and routing. It provided a reliable and efficient means of exchanging data between mainframes and terminals over wide area networks (WANs).
+
+Over the years, SNA evolved and was enhanced with additional features and capabilities. IBM continued to develop and support SNA-based networking solutions to meet the changing needs of its mainframe customers.
+
+While SNA was particularly associated with IBM mainframe systems, it's important to note that other networking protocols and architectures were also developed during the same period to address networking requirements in different computing environments.
+

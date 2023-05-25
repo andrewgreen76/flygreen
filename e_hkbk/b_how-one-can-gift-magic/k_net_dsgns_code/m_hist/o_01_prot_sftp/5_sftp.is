@@ -1,0 +1,19 @@
+
+User
+When was the SFTP protocol officially launched?
+ChatGPT
+
+The Secure File Transfer Protocol (SFTP) is an extension of the Secure Shell (SSH) protocol and provides secure file transfer capabilities over a network. The exact "official launch" date of the SFTP protocol can vary depending on how it is defined.
+
+SFTP as an extension of SSH was first proposed in the late 1990s. It was initially developed as an alternative to the less secure File Transfer Protocol (FTP) and was designed to provide secure file transfer functionality with encryption and authentication.
+
+The IETF (Internet Engineering Task Force) released the SFTP specification in the form of an internet-draft in the year 2001, titled "SSH File Transfer Protocol." This document, commonly known as "draft-ietf-secsh-filexfer," outlined the SFTP protocol's specifications and functionality.
+
+Although the SFTP specification was not finalized as an official IETF standard, it gained widespread adoption and implementation by various SSH software vendors and projects.
+
+The OpenSSH project, one of the most widely used SSH implementations, introduced SFTP support in version 2.0 of its software, released in March 2001. This marked a significant milestone in the practical implementation and deployment of SFTP.
+
+While an official standardization process for SFTP within the IETF is still ongoing, the SFTP protocol has been widely recognized and used as a secure file transfer mechanism for many years.
+
+Therefore, while there might not be a specific "official launch" date for SFTP, its development and adoption as a practical protocol occurred in the early 2000s.
+

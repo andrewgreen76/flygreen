@@ -1,0 +1,19 @@
+
+User
+When was the FTP protocol officially launched?
+ChatGPT
+
+The File Transfer Protocol (FTP) was officially launched in 1971. It was developed as a standard protocol for transferring files between computers on a network, specifically the ARPANET (Advanced Research Projects Agency Network).
+
+The development of FTP began in the early 1970s, and the specifications were published in Request for Comments (RFC) documents. The first RFC related to FTP, RFC 114, titled "File Transfer Protocol," was published in April 1971.
+
+FTP was designed to provide a reliable and efficient means of transferring files over a network. It allowed users to connect to a remote host, navigate directories, upload and download files, and perform various file operations.
+
+Initially, FTP operated in the form of interactive command-line sessions, where users issued commands to the FTP server using a text-based interface. Later, graphical user interfaces (GUIs) and FTP client software made FTP more user-friendly and accessible.
+
+Over time, FTP underwent several revisions and enhancements to improve its functionality and address security concerns. Various extensions and additions to the original FTP specification were introduced, including FTPS (FTP over SSL/TLS) for secure file transfer.
+
+Despite the introduction of more secure protocols like SFTP (SSH File Transfer Protocol) and HTTPS (HTTP over SSL/TLS), FTP remains widely used in certain contexts, particularly for public file repositories and anonymous file sharing.
+
+The FTP protocol's long history and widespread adoption have made it one of the fundamental protocols for file transfer on the internet.
+

@@ -1,3 +1,5 @@
+# A Python trick that has to do with meaning/interpretation of a piece of data: 
+
 text = "Python is amazing!"
 if text.find("C++"):
     print("Found C++!")

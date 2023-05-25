@@ -1,0 +1,17 @@
+
+User
+When was the TCP protocol officially launched?
+ChatGPT
+
+The Transmission Control Protocol (TCP) is a core protocol of the Internet Protocol Suite (TCP/IP). It was officially defined and documented in 1981 with the publication of RFC 793, titled "Transmission Control Protocol."
+
+RFC 793, authored by Jon Postel and Joyce K. Reynolds, provided a detailed specification of the TCP protocol, including its features, packet structure, connection establishment, data transmission, flow control, and error recovery mechanisms.
+
+The publication of RFC 793 solidified TCP as a standardized protocol for reliable, connection-oriented data transmission over IP networks. It established the fundamental concepts and mechanisms that have formed the basis for TCP's widespread adoption and usage.
+
+TCP's development, however, began several years earlier, and it went through multiple iterations and refinements. The early work on TCP can be traced back to the late 1970s when it was known as the Transmission Control Program.
+
+During the late 1970s and early 1980s, TCP was refined and enhanced through collaborative efforts and iterative improvements. It underwent rigorous testing and experimentation within the ARPANET research community, leading to the final specification published in RFC 793.
+
+Since its official launch, TCP has become the predominant transport protocol on the internet, enabling reliable and ordered delivery of data between hosts. It has played a crucial role in the development and expansion of the internet, supporting a wide range of applications and services.
+

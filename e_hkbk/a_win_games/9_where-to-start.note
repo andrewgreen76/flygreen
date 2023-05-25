@@ -1,14 +1,19 @@
 
+Do we start off with data streaming or system hosting ? 
+
+
 Who is doing the learning?
  |
  - a child?	- Why not Scratch?
  - an adult? 	- any scripting language will do.
 
 
-You probably don't have access to Linux. You probably have Windows or macOS on your computer.
-(I'm going to assume that we refuse to go through any hassle for the sake of WSL.)
+You probably don't have access to Linux. You probably have Windows and not a lot of
+users have macOS on their computer. (I'm going to assume that we refuse to go through
+any hassle for the sake of WSL.)
  |
  - PowerShell
+ + transfer of some knowledge to learning other, more powerful shells like Bash. 
 
 
 Goals:

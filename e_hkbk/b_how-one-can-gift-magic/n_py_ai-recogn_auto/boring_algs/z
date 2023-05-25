@@ -1,0 +1,6 @@
+if(text.find(__)==-1): 
+    print("not found") 
+else:     
+    print ("found")
+
+... is what I meant. 

@@ -1,0 +1,15 @@
+
+User
+What language was used to code the implementation for processing data streams via NCP and Telnet?
+ChatGPT
+
+The original implementation of the Network Control Program (NCP) and Telnet protocol for processing data streams on the ARPANET network was primarily written in assembly language.
+
+Assembly language is a low-level programming language that is specific to a particular computer architecture. It provides a direct mapping of machine instructions and hardware operations, allowing for efficient and precise control over the underlying hardware.
+
+Since NCP and Telnet were developed during the early days of computer networking, when computing systems had limited processing power and memory, assembly language was often used to achieve optimal performance and resource utilization.
+
+The assembly language implementation of NCP and Telnet involved writing code that directly interacted with the network interface, handling data transmission, connection establishment, error detection, and other low-level networking tasks.
+
+However, it's worth noting that as computer architectures and programming languages evolved, subsequent implementations and adaptations of NCP and Telnet might have utilized different programming languages. For example, modern implementations of Telnet might be written in languages such as C, C++, or Java, which provide higher-level abstractions and portability across different platforms.
+

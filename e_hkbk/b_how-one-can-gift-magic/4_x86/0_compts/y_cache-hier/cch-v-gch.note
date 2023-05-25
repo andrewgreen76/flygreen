@@ -1,6 +1,6 @@
 
 User
-Is there a different between the CPU cache hierarchy and GPU cache hierarchy?
+Is there a difference between the CPU cache hierarchy and GPU cache hierarchy?
 ChatGPT
 
 Yes, there are some differences between the cache hierarchy in CPUs and GPUs due to the distinct architectural designs and purposes of these processing units. Here are a few key differences:

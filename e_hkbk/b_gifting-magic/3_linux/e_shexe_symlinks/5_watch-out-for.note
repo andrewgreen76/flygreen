@@ -1,4 +1,9 @@
 
+A symlink is similar to a shortcut in Windows in terms of behavior, but it's also different. In Windows
+a shortcut actually takes your "being" inside a folder
+
+===========================================================================================================
+
 Keep in mind:
 
 - "source_file_path" in shexe-sym-u.sh* really means the path to the location the link should take you to. 

@@ -1,0 +1,12 @@
+
+Keep in mind:
+
+- "source_file_path" in shexe-sym-u.sh* really means the path to the location the link should take you to. 
+
+
+
+shexe-sym-u.sh* does not like the following:
+
+- ~/... instead of $HOME
+- /. at the end of the "source" path
+

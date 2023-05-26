@@ -4,6 +4,10 @@ a shortcut actually takes your "being" inside a folder
 
 ===========================================================================================================
 
+Syntax: $ ln -s <source_file_path = target> <symlink_name>
+
+===========================================================================================================
+
 Keep in mind:
 
 - "source_file_path" in shexe-sym-u.sh* really means the path to the location the link should take you to. 

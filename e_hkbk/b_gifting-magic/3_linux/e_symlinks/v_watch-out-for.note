@@ -8,5 +8,6 @@ Keep in mind:
 shexe-sym-u.sh* does not like the following:
 
 - ~/... instead of $HOME
+^> Oh, and you can't do that either. You have to write out the "source file path" in its absolute form. 
 - /. at the end of the "source" path
 

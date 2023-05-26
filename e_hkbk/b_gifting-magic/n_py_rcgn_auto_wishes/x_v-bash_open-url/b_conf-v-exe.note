@@ -1,0 +1,15 @@
+
+User
+Are configs executables and vice versa?
+ChatGPT
+
+In general, configuration files and executables serve different purposes and have distinct file permissions.
+
+Configuration files are typically used to store settings and preferences for various applications or components. They are commonly in plain text format and are not executable by themselves. Configuration files are read and interpreted by the corresponding application or system component to customize its behavior.
+
+On the other hand, executables are files that contain machine code instructions and are designed to be executed or run by the operating system. Executable files can perform specific tasks, such as running a program, performing calculations, or carrying out system operations.
+
+The file permissions for configuration files and executables are usually different. Configuration files are typically given read and write permissions for the user and may have more restricted permissions for others. Executables, on the other hand, often have the execute permission enabled so that they can be run as programs.
+
+While it is possible for a file to have both executable code and configuration data, such cases are relatively uncommon. It is more typical for executables and configuration files to be separate entities, serving distinct purposes and having different file permissions.
+

@@ -8,6 +8,21 @@ Keep in mind:
 shexe-sym-u.sh* does not like the following:
 
 - ~/... instead of $HOME
-^> Oh, and you can't do that either. You have to write out the "source file path" in its absolute form. 
-- /. at the end of the "source" path
+^> You may have to write out the "source file path" in its absolute form, but I'm not too sure of that. 
+- /. at the end of the "source" path. 
 
+
+
+User
+I figured out the problem. It appears that the symlink reflects what's inside the actual target directory within the symlink-as-a-directory, and no change of path takes place within the prompt string.
+ChatGPT
+
+I see, thank you for providing that information. The behavior you described is expected when working with symbolic links in the shell. When you create a symbolic link to a directory, the symlink acts as a pointer to the target directory, but the prompt string itself doesn't reflect the change in directory.
+
+When you navigate to the symlinked directory using cd, you are effectively inside the target directory, and any subsequent commands or operations will behave as if you are in the target directory. However, the prompt string will still display the original path that corresponds to the symlink.
+
+This behavior is by design and helps to maintain consistency and avoid confusion. It ensures that the prompt reflects the actual location of the symlink rather than dynamically changing based on the target directory. It allows you to be aware that you are working within a symlinked directory.
+
+If you want the prompt string to reflect the actual path of the target directory instead of the symlink, you can customize your shell prompt by modifying the PS1 environment variable. There are various ways to achieve this, such as using the \W escape sequence in the PS1 variable, which displays the base name of the current working directory. However, modifying the prompt string is a separate topic and can involve more advanced customizations.
+
+In summary, the behavior you observed is expected, and the prompt string will continue to display the original path of the symlink. However, you are working within the target directory, and any operations will be performed on the target directory itself.

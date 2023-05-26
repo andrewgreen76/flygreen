@@ -1,6 +1,11 @@
 
 A symlink is similar to a shortcut in Windows in terms of behavior, but it's also different. In Windows
-a shortcut actually takes your "being" inside a folder
+a shortcut actually takes your "being" inside a file folder to another location, like a step-through portal.
+A symlink only functions like a reach-out portal; you are still at point A but you can still have influence
+at point B. So, a symlink is like a "bungee"-pointer. 
+
+As for file execution, both a shortcut in Windows and a symlink in Linux should be able to execute a file
+just fine. 
 
 ===========================================================================================================
 

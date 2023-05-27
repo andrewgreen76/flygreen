@@ -16,14 +16,21 @@ without a technical background, to
 
 The MANIFESTO IS:
 
-- to run      x->	to use for practical or artistic reasons
-- to share    x-> 	to show off
-- to study    x->    	to learn
-- to modify   x->	to hack ethically and creatively
+> to run
+  - to use for practical or artistic reasons
+> to share
+  - to show off
+> to study
+  - to learn
+> to modify
+  - to hack ethically and creatively
 
 ============================================================================
 
 Topics and methods recently explored to an extent (as of 05-27-2023):
 
-> symlinks, executable scripts, GIMP, focus reinforcement, 
+- symlinks,
+- executable scripts,
+- GIMP,
+- focus reinforcement, 
 

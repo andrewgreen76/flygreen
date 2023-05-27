@@ -21,3 +21,9 @@ The MANIFESTO IS:
 - to study    x->    	to learn
 - to modify   x->	to hack ethically and creatively
 
+============================================================================
+
+Topics and methods recently explored to an extent (as of 05-27-2023):
+
+> symlinks, executable scripts, GIMP, focus reinforcement, 
+

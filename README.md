@@ -14,11 +14,9 @@ without a technical background, to
   - understand and build a perspective on modern computing
      through studying its history. 
 
-==========================================================================
-
+__________________________________________________________________________
 The MANIFESTO is:
-
-==========================================================================
+__________________________________________________________________________
 
 > to run
   - to use for practical or artistic reasons
@@ -30,7 +28,9 @@ The MANIFESTO is:
   - to hack ethically and creatively
 
 ==========================================================================
+
 Topics and methods explored to an extent over the past 24-48 hours (as of 05-27-2023):
+
 ==========================================================================
 
 - symlinks

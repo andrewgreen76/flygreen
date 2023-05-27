@@ -1,6 +1,6 @@
 # Experimental edutainment/tutorial repository "Fly Green"
 
-==========================================================================================
+==========================================================================
 
 The purpose of this repo is to help individuals, with or
 without a technical background, to
@@ -14,9 +14,11 @@ without a technical background, to
   - understand and build a perspective on modern computing
      through studying its history. 
 
-==========================================================================================
-The MANIFESTO IS:
-==========================================================================================
+==========================================================================
+
+The MANIFESTO is:
+
+==========================================================================
 
 > to run
   - to use for practical or artistic reasons
@@ -27,9 +29,9 @@ The MANIFESTO IS:
 > to modify
   - to hack ethically and creatively
 
-==========================================================================================
+==========================================================================
 Topics and methods explored to an extent over the past 24-48 hours (as of 05-27-2023):
-==========================================================================================
+==========================================================================
 
 - symlinks
 - executable bash scripts

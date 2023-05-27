@@ -29,10 +29,10 @@ The MANIFESTO IS:
 
 Topics and methods recently explored to an extent (as of 05-27-2023):
 
-- symlinks,
-- executable bash scripts,
+- symlinks
+- executable bash scripts
 - more networking protocols
 - history of markup languages
-- GIMP,
-- focus reinforcement, 
+- GIMP
+- focus reinforcement
 

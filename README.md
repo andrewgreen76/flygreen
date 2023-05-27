@@ -1,9 +1,10 @@
 # Experimental edutainment/tutorial repository "Fly Green"
 
-==========================================================================
+__________________________________________________________________________
+The PURPOSE of this repo:
+__________________________________________________________________________
 
-The purpose of this repo is to help individuals, with or
-without a technical background, to
+To help individuals, with or without a technical background, to
 - improve focus (combatting ADD, etc.)
 - improve their productivity in general 
 - figure out alternatives to harmful "solutions"
@@ -27,11 +28,9 @@ __________________________________________________________________________
 > to modify
   - to hack ethically and creatively
 
-==========================================================================
-
+__________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours (as of 05-27-2023):
-
-==========================================================================
+__________________________________________________________________________
 
 - symlinks
 - executable bash scripts

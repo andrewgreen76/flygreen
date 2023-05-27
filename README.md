@@ -36,7 +36,8 @@ __________________________________________________________________________
 - executable bash scripts
 - more networking protocols
 - history of markup languages
- 
+
+
 Less impressive feats:  
 - README.md file content formatting
 - GIMP

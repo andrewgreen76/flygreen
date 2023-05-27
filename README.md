@@ -36,7 +36,7 @@ __________________________________________________________________________
 - executable bash scripts
 - more networking protocols
 - history of markup languages
-> README.md file content formatting
-> GIMP
+> README.md file content formatting | 
+> GIMP | 
 > focus reinforcement
 

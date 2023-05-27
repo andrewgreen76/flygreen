@@ -1,8 +1,11 @@
 
+add dirs on io-ports, net-ports to hackbook 
+Why I need ssh for x11 ? 
+mosh
+troubleshoot the firefox/google business 
 analyze git mv pointer-looking things 
 ue arch
 measuring your perf vs perf of machine 
-alias string sub
 gnome vs. wayland
 .py for conv img to text 
 feed input to ps1/bash/py script

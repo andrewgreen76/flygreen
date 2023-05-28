@@ -1,0 +1,6 @@
+
+^		DRM 
+^		init of KMS (deals with display modes, gfx hw)
+^      	   	init of gfx drivers 
+| OS/kernel  	init of [memgmt, proc-sched, key drivers, I/O handling]
+

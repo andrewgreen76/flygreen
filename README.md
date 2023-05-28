@@ -49,10 +49,10 @@ CHOSEN PROJECT:
 - An API / display server protocol for a 13h-like mode portable to any headless system. 
 __________________________________________________________________________
 
-  - challenge: faithful resolution
-  - plan of attack:
-    - fide: 320x200
-    - now: 1920x1200, 6 times both ways.
-    - consider fair, authentic scaling. 
+- challenge: faithful resolution
+- plan of attack:
+  - fide: 320x200
+  - now: 1920x1200, 6 times both ways.
+  - consider fair, authentic scaling. 
 - learn BIOS-kernel-API/DSP-distro ladder for that 
 

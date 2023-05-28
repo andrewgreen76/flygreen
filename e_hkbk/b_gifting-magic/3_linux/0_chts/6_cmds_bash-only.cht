@@ -18,22 +18,29 @@ rm -r [] 	- recursively delete a directory (that is not empty).
 vim []		- edit/create file in Vim 
 touch [] 	- create a (text) file 
 rm [] 		- delete a file
-grep ["s"] [p]	- finds given string/word within the specified path/file 
-find [file]	- searches for the targeted file (leaf).
 
-find [from-dir] -type d -name "*word*"
-     	        - locates all directories with the specified word in their names. 
+grep ["s"] [c]	- prints lines with the given string/word within the specified stream (path/file or cmd-out) 
+|		- feed the output of one command to another command as an arg. Can't do that with cat. 
+cat "$(command)" - feed the output - a filepath - received from a command over to cat
+
+find [br] -name [file]
+find [br] -name "*word*"
+|		- shows the path to the targeted file from the given dir down to the leaves.
+|
+find [br] -type d -name [dir]
+find [br] -type d -name "*word*"
+     	        - shows the path to the targeted dirs with the specified word in their names (from the given dir down to the leaves). 
 
 clear/Ctrl+L	- clears the terminal 
 history		- lists previously entered commands 
 ![num]		- execute the command as indexed by the history command 
 
-echo		-
->		- (overwrt oper)
->> 		- (append oper)
-|		- (pipe oper)
-tee		-
-tee -a 		- 
+echo		- streams a specified string. 
+
+>		- print to the targeted file, overwriting it
+>> 		- print to the targeted file, appending to it
+tee		- print to the terminal and the targeted file, overwriting it
+tee -a 		- print to the terminal and the targeted file, appending to it
 
 date		- gives local date and time 
 

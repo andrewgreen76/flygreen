@@ -1,0 +1,16 @@
+
+Work in QEMU: 
+
+
+DE (GNOME)			game ?? or temu 
+^
+|
+display server (Wayland)	??? or temu 
+^
+|
+KMS <> DRM <> I/O <> drivers	const - OS guts
+^
+| handover
+|
+x86 : flash : BIOS / UEFI	const
+

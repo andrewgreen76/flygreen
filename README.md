@@ -32,13 +32,13 @@ __________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours (as of 05-28-2023):
 __________________________________________________________________________
 
-- more Python ~~~~
+- compound statements in Bash configs 
+- more Python ~~~~ obj attr error 
 - Wayland vs. GNOME
-- aliasing vs. building custom cmds into the filesys with execable scripts 
+- aliasing vs. building custom cmds into the filesys with execable scripts: .sh > shebang > chmod +x
 - the MOSH protocol
 - grid computing vs. cloud computing
 - figuring out: cat $(cmd) vs. | vs. tee 
-- symlinks
 - executable bash scripts
 > [README.md file content formatting] | 
 > [GIMP] | 

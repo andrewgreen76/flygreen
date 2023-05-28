@@ -4,16 +4,15 @@ __________________________________________________________________________
 The PURPOSE of this repo:
 __________________________________________________________________________
 
-To help individuals, with or without a technical background, to
-- improve focus (combatting ADD, etc.)
-- improve their productivity in general 
-- figure out alternatives to harmful "solutions"
-- (for beginners)
+To help individuals, with or without a technical background, to: 
+- improve their productivity in general (combatting ADD, figuring out
+  alternatives to unhealthy solutions, etc.) 
+- (especially for beginners)
   - hone their programming skills,
   - internalize key programming and engineering concepts,
   - learn about different systems,
-  - understand and build a perspective on modern computing
-     through studying its history. 
+  - understand and build a perspective on modern computing through studying
+    its history. 
 
 __________________________________________________________________________
 The MANIFESTO is:

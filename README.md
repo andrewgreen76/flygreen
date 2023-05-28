@@ -49,7 +49,8 @@ __________________________________________________________________________
 - 13h-like mode portable to any headless system
   - challenge: faithful resolution
   - plan of attack:
-    - fide: 
+    - fide: 320x200
+    - from: 1920x1200
 - ? an API for the mode ? 
 - learn BIOS-kernel-distro relationship for that 
 

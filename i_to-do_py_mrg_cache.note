@@ -2,6 +2,8 @@
 Come up with a PROJECT for yourself. 
 pawn shops 
 
+termius
+cull the convos on chat gpt site
 what does memgmt look like on the sys memmap ? 
 arbitrary subdivide: professional life | personal life
 	  	     ^> 
@@ -10,13 +12,9 @@ Why I need ssh for x11 ?
 troubleshoot the firefox/google business 
 analyze git mv pointer-looking things 
 unity engine arch
-gnome vs. wayland
 .py for conv img to text 
 feed input to ps1/bash/py script
-tw/print same different
 fc
-termius
-prots to years
 unwrap 1_net.cht into the parent dir 
 
 
@@ -35,7 +33,6 @@ main:
 extract from networking.odt
 analyze every boring alg in py : What does it make happen? 
 write here's johnny in py
-cull the convos on chat gpt site
 keybindings vs. esc seqs
 ttys: cmd v. auth
 docker

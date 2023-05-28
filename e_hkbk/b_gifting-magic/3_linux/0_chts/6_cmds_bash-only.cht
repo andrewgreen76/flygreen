@@ -1,11 +1,12 @@
 
 Streaming commands (remembering and printing-by-default):
 |
-ls		- streams the contents of the current dir 
+ls		- streams the contents of the current dir  
 pwd		- streams where you are (current working dir). For when there's no current working directory in the prompt or it's to be stored. 
+echo		- streams a specified string. 
 
-whatis [cmd]	- gives a brief description of what the specified command does 
-man [cmd]	- help with a specific command 
+whatis [cmd]	- briefly describes what the specified command does. 
+man [cmd]	- comprehensive guide to the specified command. 
 
 cd [fldr/dir]	- go to the targeted directory
 cd ..		- go back up to the parent directory
@@ -35,12 +36,13 @@ clear/Ctrl+L	- clears the terminal
 history		- lists previously entered commands 
 ![num]		- execute the command as indexed by the history command 
 
-echo		- streams a specified string. 
-
 >		- print to the targeted file, overwriting it
 >> 		- print to the targeted file, appending to it
 tee		- print to the terminal and the targeted file, overwriting it
 tee -a 		- print to the terminal and the targeted file, appending to it
 
 date		- gives local date and time 
+
+<command> 2> errors.txt
+<command> &> output.txt
 

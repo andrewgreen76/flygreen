@@ -50,7 +50,8 @@ __________________________________________________________________________
   - challenge: faithful resolution
   - plan of attack:
     - fide: 320x200
-    - from: 1920x1200
+    - now: 1920x1200, 6 times both ways.
+    - consider fair, authentic scaling. 
 - ? an API for the mode ? 
 - learn BIOS-kernel-distro relationship for that 
 

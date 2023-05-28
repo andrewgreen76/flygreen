@@ -32,6 +32,7 @@ __________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours (as of 05-28-2023):
 __________________________________________________________________________
 
+- aliasing vs. building custom cmds into the filesys with execable scripts 
 - the MOSH protocol
 - grid computing vs. cloud computing
 - figuring out: cat $(cmd) vs. | vs. tee 

@@ -8,7 +8,10 @@ DE (GNOME)			game ?? or temu
 display server (Wayland)	??? or temu 
 ^
 |
-KMS <> DRM <> I/O <> drivers	const - OS guts
+^		DRM 
+^		init of KMS (deals with display modes, gfx hw)
+^      	   	init of gfx drivers
+OS/kernel  	init of [memgmt, proc-sched, key drivers, I/O handling]
 ^
 | handover
 |

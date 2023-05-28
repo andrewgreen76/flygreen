@@ -45,3 +45,7 @@ __________________________________________________________________________
 CHOSEN PROJECT: (to be announced)
 __________________________________________________________________________
 
+- mode13h sim for headless systems
+- an API for it
+- learn BIOS-kernel-distro relationship for that 
+

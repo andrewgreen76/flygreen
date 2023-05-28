@@ -1,15 +1,17 @@
 
 Streaming commands (remembering and printing-by-default):
 |
-ls		- streams the contents of the current dir  
-pwd		- streams where you are (current working dir). For when there's no current working directory in the prompt or it's to be stored. 
+ls		- streams the contents of the current dir
+cat		- streams the contents of the given file 
 echo		- streams a specified string. 
 
+cd [dir]	- go to the targeted directory
+cd ..		- go back up to the parent directory
+
+Helpers. (Press 'q' to exit them.)
+|
 whatis [cmd]	- briefly describes what the specified command does. 
 man [cmd]	- comprehensive guide to the specified command. 
-
-cd [fldr/dir]	- go to the targeted directory
-cd ..		- go back up to the parent directory
 
 [cmd1] ; [cmd2]	- execute commands one after another. 
 mkdir []	- create a new directory 
@@ -42,6 +44,7 @@ tee		- print to the terminal and the targeted file, overwriting it
 tee -a 		- print to the terminal and the targeted file, appending to it
 
 date		- gives local date and time 
+pwd		- streams where you are (current working dir). For when there's no current working directory in the prompt or it's to be stored. 
 
 <command> 2> errors.txt
 <command> &> output.txt

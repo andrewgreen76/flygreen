@@ -47,5 +47,7 @@ date		- gives local date and time
 pwd		- streams where you are (current working dir). For when there's no current working directory in the prompt or it's to be stored. 
 
 <command> 2> errors.txt
+		- print the error messages to a file. 
 <command> &> output.txt
+		- print both the stdout (expected output) and the error messages to a file. 
 

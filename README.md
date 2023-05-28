@@ -29,13 +29,13 @@ __________________________________________________________________________
   - to hack ethically and creatively
 
 __________________________________________________________________________
-Topics and methods explored to an extent over the past 24-48 hours (as of 05-27-2023):
+Topics and methods explored to an extent over the past 24-48 hours (as of 05-28-2023):
 __________________________________________________________________________
 
+- the MOSH protocol
+- figuring out: cat $(cmd) vs | vs tee 
 - symlinks
 - executable bash scripts
-- more networking protocols
-- history of markup languages
 > [README.md file content formatting] | 
 > [GIMP] | 
 > [focus reinforcement]

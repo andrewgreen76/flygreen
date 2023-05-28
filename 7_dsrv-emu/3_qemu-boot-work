@@ -1,0 +1,20 @@
+
+Boot order, 
+work in QEMU: 
+
+
+DE (GNOME)			game ?? or temu 
+^
+|
+init of dsrv (Wayland)	??? or temu 
+^
+|
+^		DRM : has API, hw-accd render ; mng membufs, synczn
+^		init of KMS (deals with display modes, gfx hw)
+^      	   	init of gfx drivers
+OS/kernel  	init of mthbd subsys [memgmt, proc-sched, key drivers, I/O handling]
+^
+| handover
+|
+x86 : flash : BIOS / UEFI	const
+

@@ -46,7 +46,10 @@ __________________________________________________________________________
 CHOSEN PROJECT: 
 __________________________________________________________________________
 
-- mode13h sim for headless systems
-- an API for it
+- 13h-like mode portable to any headless system
+  - challenge: faithful resolution
+  - plan of attack:
+    - fide: 
+- ? an API for the mode ? 
 - learn BIOS-kernel-distro relationship for that 
 

@@ -32,6 +32,7 @@ __________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours (as of 05-28-2023):
 __________________________________________________________________________
 
+- boot order from BIOS to Linux/Ubuntu userspace on top of Wayland 
 - compound statements in Bash configs 
 - more Python ~~~~ obj attr error 
 - Wayland vs. GNOME

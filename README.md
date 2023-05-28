@@ -32,6 +32,8 @@ __________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours (as of 05-28-2023):
 __________________________________________________________________________
 
+- more Python ~~~~
+- Wayland vs. GNOME
 - aliasing vs. building custom cmds into the filesys with execable scripts 
 - the MOSH protocol
 - grid computing vs. cloud computing

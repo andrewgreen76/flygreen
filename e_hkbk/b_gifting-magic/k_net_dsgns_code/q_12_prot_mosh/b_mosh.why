@@ -1,0 +1,9 @@
+
+- better CONNECTIVITY and RESPONSIVENESS in MOBILE and WIRELESS environments.
+
+- to overcome the limitations of SSH, which can suffer from CONNECTION INTERRUPTIONS or HIGH LATENCY in unstable network conditions.
+
+- to handle NETWORK DISRUPTIONS and INTERMITTENT CONNECTIVITY.
+
+- stateful client-server communication and predictive algorithms to maintain A PERSISTENT SESSION even when the network connection is temporarily lost. When connectivity is restored, MOSH syncs the client and server, allowing the user to RESUME THEIR SESSION SEAMLESSLY.
+

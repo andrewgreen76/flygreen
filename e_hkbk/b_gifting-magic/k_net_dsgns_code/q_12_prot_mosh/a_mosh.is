@@ -1,0 +1,15 @@
+
+User
+When was the MOSH protocol officially launched?
+ChatGPT
+
+The Mobile Shell (MOSH) protocol was officially launched with the release of the initial version of the MOSH software in July 2012. MOSH is a remote terminal application that aims to provide better connectivity and responsiveness in mobile and wireless environments.
+
+The development of MOSH was led by Keith Winstein and Anders Kaseorg, who introduced the protocol as a modern alternative to traditional SSH (Secure Shell) for remote terminal access. MOSH was designed to overcome the limitations of SSH, which can suffer from connection interruptions or high latency in unstable network conditions.
+
+The MOSH protocol employs a different approach to handle network disruptions and intermittent connectivity. It uses stateful client-server communication and predictive algorithms to maintain a persistent session even when the network connection is temporarily lost. When connectivity is restored, MOSH syncs the client and server, allowing the user to resume their session seamlessly.
+
+The official release of the MOSH software in July 2012 marked the public availability and launch of the MOSH protocol. Since then, MOSH has gained popularity and is used by many individuals and organizations looking for improved remote terminal access in challenging network environments.
+
+It's worth noting that MOSH is an open-source project, and its development has continued over the years with subsequent releases and updates to enhance its features and performance.
+

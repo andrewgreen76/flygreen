@@ -33,7 +33,8 @@ Topics and methods explored to an extent over the past 24-48 hours (as of 05-28-
 __________________________________________________________________________
 
 - the MOSH protocol
-- figuring out: cat $(cmd) vs | vs tee 
+- grid computing vs. cloud computing
+- figuring out: cat $(cmd) vs. | vs. tee 
 - symlinks
 - executable bash scripts
 > [README.md file content formatting] | 

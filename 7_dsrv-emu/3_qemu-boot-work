@@ -5,16 +5,21 @@ work in QEMU:
 
 DE (GNOME)			game ?? or temu 
 ^
-|
-init of dsrv (Wayland)	??? or temu 
 ^
-|
-^		DRM : has API, hw-accd render ; mng membufs, synczn
+init of dsrv/cmpstr (Wayland)	??? or temu 
+^
++---------------------------------------------------------------------------------------
+^ Configs and drivers are set up. 
+^
+^		init of DRM : has API, hw-accd render ; mng membufs, synczn, sharing rcs
 ^		init of KMS (deals with display modes, gfx hw)
 ^      	   	init of gfx drivers
 OS/kernel  	init of mthbd subsys [memgmt, proc-sched, key drivers, I/O handling]
 ^
-| handover
++-- handover ---------------------------------------------------------------------------
+^
+BIOS / UEFI	which one - may not matter. 
 |
-x86 : flash : BIOS / UEFI	const
+x86 : flash
+________________________________________________________________________________________
 

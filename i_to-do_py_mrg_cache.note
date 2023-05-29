@@ -1,10 +1,13 @@
 
-revisit grid v. comp
+
 Call about policy regarding state ID : System76 / Canonical / Tesla. 
 Wednesday : pawn shops 
-Work on the graphics mode for headless systems. 
+Work on the graphics mode for headless systems: kernel KMS > Wayland. 
 
-termius
+NULL : points to what? , const val = ?
+how does a sys know if smth is a val | var | ptr(addrOf2ndVar)
+revisit grid v. comp
+iPhone : how to termius, free SSH client, MOSH 
 cull the convos on chat gpt site
 what does memgmt look like on the sys memmap ? 
 arbitrary subdivide: professional life | personal life

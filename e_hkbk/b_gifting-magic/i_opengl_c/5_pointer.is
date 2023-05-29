@@ -1,7 +1,17 @@
 
+What is a pointer:
+
+a variable 
+holds value = address of another var
+Why?
+How does a machine know whether what it's looking at in the memory is a var? 
+
+
+
 What's a pointer good for:
 
 var aliasing
 ?? remembering a file/dir, but not by the path ??
-taste : head, linked list 
+taste : head, linked list
+Anything else ? 
 

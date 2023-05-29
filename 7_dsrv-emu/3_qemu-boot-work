@@ -11,14 +11,18 @@ prep of dsrv/cmpstr (Wayland)	??? or temu
 +---------------------------------------------------------------------------------------
 ^ Configs and drivers are set up. 
 |
-|		init of DRM : has API, hw-accd render ; mng membufs, synczn, sharing rcs
 |		init of KMS (deals with display modes, gfx hw)
+|		init of DRM : has API, hw-accd render ; mng membufs, synczn, sharing rcs
 |      	   	init of gfx drivers
-OS/kernel  	init of mthbd subsys [memgmt, proc-sched, key drivers, I/O handling]
+OS/kernel  	
 ^
 +-- handover ---------------------------------------------------------------------------
 ^
-BIOS / UEFI	UEFI chosen by ChatGPT. 
+^ If all passes well, ... 
++-> Now what? 
+^ POST init of [CPU-sched-w-cache > memgmt, storage, key drivers, I/O handling] + UEFI boot manager
+^
+BIOS/UEFI	UEFI chosen by ChatGPT. 
 |
 x86 : flash
 ________________________________________________________________________________________

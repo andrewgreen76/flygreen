@@ -4,6 +4,7 @@ Call about policy regarding state ID : System76 / Canonical / Tesla.
 Wednesday : pawn shops 
 Work on the graphics mode for headless systems: kernel KMS > Wayland. 
 
+memory leak - definition 
 NULL : points to what? , const val = ?
 how does a sys know if smth is a val | var | ptr(addrOf2ndVar)
 revisit grid v. comp

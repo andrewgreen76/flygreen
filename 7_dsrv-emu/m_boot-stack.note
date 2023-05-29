@@ -16,14 +16,16 @@ prep of dsrv/cmpstr (Wayland)	??? or temu
 |      	   	init of gfx drivers
 OS/kernel  	
 ^
-+-- handover ---------------------------------------------------------------------------
++-- handover --- payload ---------------------------------------------------------------
 ^
 ^ If all passes well, ... 
-+-> Now what? 
+^
+^ MBR / GPT
 ^ POST init of [CPU-sched-w-cache > memgmt, storage, key drivers, I/O handling] + UEFI boot manager
 ^
-BIOS/UEFI	UEFI chosen by ChatGPT. 
-|
-x86 : flash
+| UEFI : in NAND flash 
+| BIOS : in CMOS
+| 
+x86 
 ________________________________________________________________________________________
 

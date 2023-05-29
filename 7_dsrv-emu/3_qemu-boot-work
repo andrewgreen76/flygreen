@@ -10,10 +10,10 @@ prep of dsrv/cmpstr (Wayland)	??? or temu
 ^
 +---------------------------------------------------------------------------------------
 ^ Configs and drivers are set up. 
-^
-^		init of DRM : has API, hw-accd render ; mng membufs, synczn, sharing rcs
-^		init of KMS (deals with display modes, gfx hw)
-^      	   	init of gfx drivers
+|
+|		init of DRM : has API, hw-accd render ; mng membufs, synczn, sharing rcs
+|		init of KMS (deals with display modes, gfx hw)
+|      	   	init of gfx drivers
 OS/kernel  	init of mthbd subsys [memgmt, proc-sched, key drivers, I/O handling]
 ^
 +-- handover ---------------------------------------------------------------------------

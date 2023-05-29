@@ -6,7 +6,7 @@ work in QEMU:
 DE (GNOME)			game ?? or temu 
 ^
 ^
-init of dsrv/cmpstr (Wayland)	??? or temu 
+prep of dsrv/cmpstr (Wayland)	??? or temu 
 ^
 +---------------------------------------------------------------------------------------
 ^ Configs and drivers are set up. 
@@ -18,7 +18,7 @@ OS/kernel  	init of mthbd subsys [memgmt, proc-sched, key drivers, I/O handling]
 ^
 +-- handover ---------------------------------------------------------------------------
 ^
-BIOS / UEFI	which one - may not matter. 
+BIOS / UEFI	UEFI chosen by ChatGPT. 
 |
 x86 : flash
 ________________________________________________________________________________________

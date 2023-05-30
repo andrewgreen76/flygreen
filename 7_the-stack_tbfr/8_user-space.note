@@ -1,6 +1,5 @@
 
-Boot order, 
-work in QEMU: 
+Work in QEMU: 
 
 
 ^ DE (GNOME)			game ?? or temu 
@@ -9,4 +8,5 @@ work in QEMU:
 |
 | user-space init
 |
++--------------------------------------------------------------------------------------
 

@@ -16,15 +16,15 @@ prep of dsrv/cmpstr (Wayland)	??? or temu
 |      	   	init of gfx drivers
 ^ OS/kernel
 |
-+-- handover --- payload ---------------------------------------------------------------
++-- handover ---------------------------------------------------------------------------
 |
 | If all goes well, ... 
-
+| 
 ^ load in the kernel
 | ?? memgmt begins ??
 ^ CPU proc sched starts 
 |
-^ btldr/payload <> initramfs
+^ btldr <> initramfs (a kind of payload)
 ^ UEFI boot manager (bootstrap)
 | (boot sector : MBR / GPT/EFI_sys_prtn)
 |

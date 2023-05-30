@@ -1,22 +1,5 @@
 
-Boot order, 
-work in QEMU: 
-
-
-DE (GNOME)			game ?? or temu 
-^
-^
-prep of dsrv/cmpstr (Wayland)	??? or temu 
-^
-+---------------------------------------------------------------------------------------
-^ Configs and drivers are set up. 
-|
-|		init of KMS (deals with display modes, gfx hw)
-|		init of DRM : has API, hw-accd render ; mng membufs, synczn, sharing rcs
-|      	   	init of gfx drivers
-^ OS/kernel
-|
-+-- handover ---------------------------------------------------------------------------
++--- handover -------------------------------------------------------------------------
 |
 | If all goes well, ... 
 | 

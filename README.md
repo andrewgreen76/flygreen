@@ -34,13 +34,13 @@ __________________________________________________________________________
 - (planning to cover initramfs, systemd, dracut)
 - UEFI boot > Ubuntu init+subsys > userspace (Wayland > GNOME)  
 - more on pointers, the nature of NULL, string delimiters
-- history of MINIX
 > [README.md file content formatting] | 
 > [GIMP] | 
 > [focus reinforcement]
 
 __________________________________________________________________________
 CHOSEN PROJECT:
+- maintaining the Linux kernel 
 - An API / display server protocol for a 13h-like mode portable to any headless system. 
 __________________________________________________________________________
 

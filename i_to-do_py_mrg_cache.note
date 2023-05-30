@@ -2,17 +2,19 @@
 Buy: toothpaste, deo ; Get the hat ; Shower, laundry, floss. 
 Call about policy regarding state ID : System76 / Canonical / Tesla. 
 Wednesday : pawn shops
-+--- Actually, just learn to maintain the kernel (w/ KDevelop or Qt)
++-- Actually, just learn to maintain the kernel (w/ KDevelop or Qt)
++-- Or learn to develop emus of Comm64/Atari 2600/Apple II. 
 v
 Re-learn how to merge in a Git repo	<<<	build a sandbox repo. 
 Work on the graphics mode for headless systems: kernel KMS > Wayland. 
 
+cull the convos on chat gpt site
+Sandbox repo : exts , merge. 
 Explore kernel vs. microkernel. 
 memory leak - definition 
 how does a sys know if smth is a val | var | ptr(addrOf2ndVar)
 revisit grid v. comp
 iPhone : how to termius, free SSH client, MOSH 
-cull the convos on chat gpt site
 what does memgmt look like on the sys memmap ? 
 arbitrary subdivide: professional life | personal life
 	  	     ^> 

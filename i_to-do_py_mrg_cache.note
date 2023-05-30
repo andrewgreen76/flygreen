@@ -3,6 +3,7 @@ Call about policy regarding state ID : System76 / Canonical / Tesla.
 Wednesday : pawn shops
 +--- Actually, just learn to maintain the kernel (w/ KDevelop or Qt)
 v
+Re-learn how to merge in a Git repo	<<<	build a sandbox repo. 
 Work on the graphics mode for headless systems: kernel KMS > Wayland. 
 
 memory leak - definition 

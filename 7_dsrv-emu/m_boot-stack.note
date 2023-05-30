@@ -14,15 +14,16 @@ prep of dsrv/cmpstr (Wayland)	??? or temu
 |		init of KMS (deals with display modes, gfx hw)
 |		init of DRM : has API, hw-accd render ; mng membufs, synczn, sharing rcs
 |      	   	init of gfx drivers
-OS/kernel  	
+OS/kernel 
 ^
 +-- handover --- payload ---------------------------------------------------------------
-^
-^ If all passes well, ... 
-^
-^ MBR / GPT
-^ POST init of [CPU-sched-w-cache > memgmt, storage, key drivers, I/O handling] + UEFI boot manager
-^
+|
+| If all passes well, ... 
+|
+^ btldr/payload <> initramfs 
+| (boot sector : MBR / GPT) 
+^ POST init of [CPU-sched-w-cache > memgmt, storage, key drivers > I/O handling] + UEFI boot manager
+|
 | UEFI : in NAND flash 
 | BIOS : in CMOS
 | 

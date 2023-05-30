@@ -34,11 +34,7 @@ __________________________________________________________________________
 - (planning to cover systemd, dracut)
 - UEFI boot > Ubuntu init+subsys > userspace (Wayland > GNOME)
   - see dir 7_dsrv-emu
-  - currently covering subsys init, drivers
-> [README.md file content formatting] | 
-> [GIMP] | 
-> [focus reinforcement]
-
+  - currently covering: payload vs. BTLDR 
 __________________________________________________________________________
 CHOSEN PROJECT:
 - maintaining the Linux kernel 

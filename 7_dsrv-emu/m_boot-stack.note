@@ -26,7 +26,7 @@ prep of dsrv/cmpstr (Wayland)	??? or temu
 |
 ^ btldr/payload <> initramfs
 ^ UEFI boot manager (bootstrap)
-| (boot sector : MBR / GPT)
+| (boot sector : MBR / GPT/EFI_sys_prtn)
 |
 | BTLD drivers for keyboard, other peris
 | BTLD drivers for SSD

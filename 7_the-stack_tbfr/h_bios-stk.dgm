@@ -14,7 +14,8 @@
 | (boot sector : MBR / GPT/EFI_sys_prtn)
 |
 | BTLD : drivers for SSD
-| BTLD (payload) : drivers for keyboard, other peris
+| BTLD : drivers for keyboard, other peris
+| BTLD : payload : e.g., GRUB, systemd-boot	<<<	native OS provides the payload  
 | 
 ^ POST init of GPU (for an API or dsrv) 
 ^ POST init of storage (where the kernel is) 
@@ -22,6 +23,8 @@
 ^ POST init of RAM (modules, capacity, settings)	(no memory management yet)
 ^ POST init of CPU registers 	       			(no process scheduling yet)
 ^ CPU/cache
+|
+|
 |
 ^ All that POST does is running diagnostics. No driver loading. 
 |

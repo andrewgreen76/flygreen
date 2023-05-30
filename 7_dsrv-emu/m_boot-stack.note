@@ -14,8 +14,9 @@ prep of dsrv/cmpstr (Wayland)	??? or temu
 |		init of KMS (deals with display modes, gfx hw)
 |		init of DRM : has API, hw-accd render ; mng membufs, synczn, sharing rcs
 |      	   	init of gfx drivers
-OS/kernel 
-^
+^ OS/kernel
+^ CPU proc sched starts 
+|
 +-- handover --- payload ---------------------------------------------------------------
 |
 | If all passes well, ... 
@@ -28,7 +29,7 @@ OS/kernel
 | POST init of storage
 | POST drivers for [CPU, RAM]
 ^ POST init of subsys <> [CPU-sched-w-cache > memgmt] + UEFI boot manager
-^ POST init of RAM
+^ POST init of RAM (modules, capacity, settings)
 ^ POST init of CPU registers
 ^ POST init of CPU/cache
 |

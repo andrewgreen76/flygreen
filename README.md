@@ -31,10 +31,10 @@ __________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours (as of 05-28-2023):
 __________________________________________________________________________
 
+- (planning to cover initramfs, systemd, dracut)
+- UEFI boot > Ubuntu init+subsys > userspace (Wayland > GNOME)  
+- more on pointers, the nature of NULL, string delimiters
 - history of MINIX
-- boot order from BIOS to Linux/Ubuntu userspace on top of Wayland 
-- compound statements in Bash configs 
-- Wayland vs. GNOME
 > [README.md file content formatting] | 
 > [GIMP] | 
 > [focus reinforcement]

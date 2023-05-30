@@ -1,10 +1,11 @@
 
 Call about policy regarding state ID : System76 / Canonical / Tesla. 
-Wednesday : pawn shops 
+Wednesday : pawn shops
++--- Actually, just learn to maintain the kernel (w/ KDevelop or Qt)
+v
 Work on the graphics mode for headless systems: kernel KMS > Wayland. 
 
 memory leak - definition 
-NULL : points to what? , const val = ?
 how does a sys know if smth is a val | var | ptr(addrOf2ndVar)
 revisit grid v. comp
 iPhone : how to termius, free SSH client, MOSH 
@@ -18,7 +19,7 @@ troubleshoot the firefox/google business
 analyze git mv pointer-looking things 
 unity engine arch
 .py for conv img to text 
-feed input to ps1/bash/py script
+feed stream-or-arg to ps1/bash/py script
 fc
 unwrap 1_net.cht into the parent dir 
 
@@ -38,7 +39,7 @@ main:
 extract from networking.odt
 analyze every boring alg in py : What does it make happen? 
 write here's johnny in py
-keybindings vs. esc seqs
+keybindings , ANSI esc seqs , UTF-8,-16,-32 
 ttys: cmd v. auth
 docker
 pytorch

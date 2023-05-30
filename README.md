@@ -31,9 +31,10 @@ __________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours (as of 05-28-2023):
 __________________________________________________________________________
 
-- (planning to cover initramfs, systemd, dracut)
-- UEFI boot > Ubuntu init+subsys > userspace (Wayland > GNOME)  
-- more on pointers, the nature of NULL, string delimiters
+- (planning to cover systemd, dracut)
+- UEFI boot > Ubuntu init+subsys > userspace (Wayland > GNOME)
+  - see dir 7_dsrv-emu
+  - currently covering subsys init, drivers
 > [README.md file content formatting] | 
 > [GIMP] | 
 > [focus reinforcement]

@@ -21,10 +21,18 @@ OS/kernel
 | If all passes well, ... 
 |
 ^ btldr/payload <> initramfs 
-| (boot sector : MBR / GPT) 
-^ POST init of [CPU-sched-w-cache > memgmt, storage, key drivers > I/O handling] + UEFI boot manager
+| (boot sector : MBR / GPT)
+| POST drivers for I/O peris
+| POST init of I/O peris
+| POST drivers for [SSD]
+| POST init of storage
+| POST drivers for [CPU, RAM]
+^ POST init of subsys <> [CPU-sched-w-cache > memgmt] + UEFI boot manager
+^ POST init of RAM
+^ POST init of CPU registers
+^ POST init of CPU/cache
 |
-| UEFI : in NAND flash 
+^ UEFI : in NAND flash 
 | BIOS : in CMOS
 | 
 x86 

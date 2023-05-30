@@ -3,7 +3,10 @@ Buy: toothpaste, deo ; Get the hat ; Shower, laundry, floss.
 Call about policy regarding state ID : System76 / Canonical / Tesla. 
 Wednesday : pawn shops
 +-- Actually, just learn to maintain the kernel (w/ KDevelop or Qt)
-+-- Or learn to develop emus of Comm64/Atari 2600/Apple II. 
+|
++-- emus of : Comm64/Atari 2600/Apple II.
+|   	 - coded in C
+|	 - teaching x86asm(GAS, nasm)
 v
 Re-learn how to merge in a Git repo	<<<	build a sandbox repo. 
 Work on the graphics mode for headless systems: kernel KMS > Wayland. 

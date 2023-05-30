@@ -28,13 +28,13 @@ __________________________________________________________________________
   - to hack ethically and creatively
 
 __________________________________________________________________________
-Topics and methods explored to an extent over the past 24-48 hours (as of 05-28-2023):
+Topics and methods explored to an extent over the past 24-48 hours:
 __________________________________________________________________________
 
+- emulation : Atari 2600, Apple II, Commodore 64, their languages 
 - (planning to cover systemd, dracut)
-- UEFI boot > Ubuntu init+subsys > userspace (Wayland > GNOME)
+- UEFI boot > [focus : GRUB, etc.]  > userspace 
   - see dir 7_dsrv-emu
-  - currently covering: payload vs. BTLDR 
 __________________________________________________________________________
 CHOSEN PROJECT:
 - maintaining the Linux kernel 

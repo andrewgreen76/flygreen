@@ -15,27 +15,36 @@ prep of dsrv/cmpstr (Wayland)	??? or temu
 |		init of DRM : has API, hw-accd render ; mng membufs, synczn, sharing rcs
 |      	   	init of gfx drivers
 ^ OS/kernel
-^ CPU proc sched starts 
 |
 +-- handover --- payload ---------------------------------------------------------------
 |
-| If all passes well, ... 
+| If all goes well, ... 
+
+^ load in the kernel
+| ?? memgmt begins ??
+^ CPU proc sched starts 
 |
-^ btldr/payload <> initramfs 
+^ btldr/payload <> initramfs
+^ UEFI boot manager (bootstrap)
 | (boot sector : MBR / GPT)
-| POST drivers for I/O peris
-| POST init of I/O peris
-| POST drivers for [SSD]
-| POST init of storage
-| POST drivers for [CPU, RAM]
-^ POST init of subsys <> [CPU-sched-w-cache > memgmt] + UEFI boot manager
-^ POST init of RAM (modules, capacity, settings)
-^ POST init of CPU registers
-^ POST init of CPU/cache
+|
+| BTLD drivers for keyboard, other peris
+| BTLD drivers for SSD
+| 
+^ POST init of GPU (for an API or dsrv) 
+^ POST init of storage (where the kernel is) 
+^ POST init of keyboard (for prime interfacing)
+^ POST init of RAM (modules, capacity, settings)	(no memory management yet)
+^ POST init of CPU registers 	       			(no process scheduling yet)
+^ CPU/cache
+|
+^ All that POST does is running diagnostics. No driver loading. 
 |
 ^ UEFI : in NAND flash 
 | BIOS : in CMOS
-| 
-x86 
-________________________________________________________________________________________
+|
+|
+|
+x86 boot stack NOT cast in stone. Expect other designs. 
+_______________________________________________________________________________________
 

@@ -9,13 +9,14 @@
 |
 ^ BTLD : drivers for GPU 
 |
-^ BTLD <> initramfs (payload, temp filesys)
+^ BTLD	  <>	dracut (drastic initramfs cut)	<>  initramfs (payload, temp filesys); 
 ^ UEFI boot manager (bootstrap)
 | (boot sector : MBR / GPT/EFI_sys_prtn)
 |
 | BTLD : drivers for SSD
 | BTLD : drivers for keyboard, other peris
-| BTLD : payload : e.g., GRUB, systemd-boot	<<<	native OS provides the payload  
+| BTLD : payload : e.g., GRUB, systemd-boot	<<<	native OS provides the payload
+| assume GRUB 
 | 
 ^ POST init of GPU (for an API or dsrv) 
 ^ POST init of storage (where the kernel is) 

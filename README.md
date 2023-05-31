@@ -37,6 +37,13 @@ __________________________________________________________________________
   - see dir 7_dsrv-emu
 __________________________________________________________________________
 CHOSEN PROJECT:
+- an open-source software
+  - a virtual machine,
+  - an emulator,
+  - or a video game that poses as an operating system (a la Last Call BBS).
+    - Can I use the Unity Engine for that?
+  - research dedicated toolchains. 
+|
 - maintaining the Linux kernel 
 - An API / display server protocol for a 13h-like mode portable to any headless system. 
 __________________________________________________________________________

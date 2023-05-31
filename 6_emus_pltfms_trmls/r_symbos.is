@@ -1,0 +1,12 @@
+
+What is SymbOS?
+ChatGPT
+
+SymbOS is a multi-tasking, multi-user operating system designed to run on the Zilog Z80 processor and its derivatives. It was developed by the SymbOS team, a group of hobbyist developers, and was first released in 2006.
+
+The Z80 processor was widely used in home computers and other electronic devices in the 1980s, including the Sinclair ZX Spectrum, Amstrad CPC, and MSX computers. SymbOS is designed to bring modern features and capabilities to these older systems, allowing them to run multiple applications simultaneously and support modern storage devices like SD cards and USB drives.
+
+SymbOS includes a graphical user interface (GUI) that supports windows, icons, and menus, as well as a range of built-in applications including a text editor, file manager, and web browser. It also supports networking, allowing users to connect to the internet and other computers.
+
+SymbOS is open source software and is distributed under the GNU General Public License. It has a dedicated community of users and developers who continue to work on improving and expanding the operating system.
+

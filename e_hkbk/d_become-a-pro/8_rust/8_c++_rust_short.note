@@ -3,7 +3,7 @@
 
 
 
-C++:	control, understanding, versatility. 
+C++:	control, deep understanding, versatility. 
 	+ memory management,
 	- manual memory bugs (buffer overflows, null pointer dereferences, and memory leaks).
 
@@ -20,10 +20,13 @@ Sophisticated performance rivalry.
 
 ------------------------------------------------------------------------------------------------------
 
-Rust:	productivity / safety. 
+Rust:	productivity / safety;
+	concurrency.
+	+ achieves concurrency on its own terms (locks/mutexes, semaphores, atomic operations)
 	+ compile-time checks to prevent common memory bugs.
 	+ ownership system, borrowing rules, and lifetimes :
 	  + enable auto memgmt
 	  + eliminate bugs like null pointer dereferences and data races.
-	- slow versatility copy from C++
+	- slow growth of versatility 
     	+ processing multiple tasks. 
+

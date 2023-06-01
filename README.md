@@ -31,7 +31,9 @@ __________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours:
 __________________________________________________________________________
 
-- user value
+- Yaml
+- more on Bash compound statements 
+- more on user value
 - Rust (setup, build, code), Rust vs. C++ 
 - systemd vs. systemd init vs. systemd-boot, dracut
 __________________________________________________________________________

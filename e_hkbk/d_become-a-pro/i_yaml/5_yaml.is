@@ -1,0 +1,7 @@
+
+What is Yaml?
+ChatGPT
+2 / 2
+
+YAML (YAML Ain't Markup Language) is a human-readable data serialization format. It is often used for configuration files and data interchange between programming languages. YAML is designed to be easy to read and write for humans while being easily parsed by machines. It uses indentation and a concise syntax to represent data structures such as lists, dictionaries, and scalar values. YAML files can be used in various applications and frameworks, including configuration files for software, data serialization, and specifying data structures in APIs.
+

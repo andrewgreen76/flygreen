@@ -14,12 +14,11 @@
 ^ BTLD : drivers for GPU 
 |
 ^ BTLD	  <>	dracut (drastic initramfs cut)	<>  initramfs (payload, temp filesys); 
-^ UEFI boot manager (bootstrap)
-| (boot sector : MBR / GPT/EFI_sys_prtn)
+| (payload : holds information about other partitions)
 |
 | BTLD : drivers for SSD
 | BTLD : drivers for keyboard, other peris
-| BTLD : payload : GRUB		<<<	native OS provides the payload
+^ Stage 1 and Stage 2 boot managers (bootstrap)		<<<	native OS provides the payload
 | 
 ^ POST init of GPU (for an API or dsrv) 
 ^ POST init of storage (where the kernel is) 

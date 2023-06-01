@@ -44,8 +44,11 @@ __________________________________________________________________________
   - means,
   - commands
   - role in Pop!_OS, kernel, and systemd
-  - comparison to C++ 
+  - comparison to C++
+- firmware-to-userspace coreboot stack
 - systemd vs. systemd init vs. systemd-boot, dracut
+  - unit files
+  - system services 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

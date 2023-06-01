@@ -26,5 +26,4 @@ Rust:	productivity / safety.
 	  + enable auto memgmt
 	  + eliminate bugs like null pointer dereferences and data races.
 	- slow versatility copy from C++
-    	+ powerful concurrency primitives like threads, channels, and the async/await syntax. The ownership and borrowing system ensures thread safety at compile time, eliminating data races and making concurrent programming safer and easier.
-
+    	+ processing multiple tasks. 

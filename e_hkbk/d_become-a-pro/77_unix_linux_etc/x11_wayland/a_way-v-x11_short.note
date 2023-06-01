@@ -1,5 +1,0 @@
-
-x11 = server talks-to compositor
-
-wayland : server u compositor
-

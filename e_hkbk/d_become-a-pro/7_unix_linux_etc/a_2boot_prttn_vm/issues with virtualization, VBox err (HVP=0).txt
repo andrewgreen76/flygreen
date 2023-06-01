@@ -1,0 +1,31 @@
+
+Reason: 
+ - virtualization disabled by default. 
+
+Deeper reason / meaning: 
+ - better security / integrity 
+ - better performance. 
+
+Resolution: 
+ - Enter the BIOS mode 
+ - go to over-clocking (OC) settings 
+ - expand CPU features (MAY NOT BE THERE) 
+ - enable SVM mode 
+ - close > save all changes > close 
+
+Worth the hassle and the trade-offs ? 
+
+========================================================================================
+
+Not in a hypervisor partition (HVP=0) (VERR_NEM_NOT_AVAILABLE).
+AMD-V is disabled in the BIOS (or by the host OS) (VERR_SVM_DISABLED).
+
+
+Result Code: 
+E_FAIL (0x80004005)
+Component: 
+ConsoleWrap
+Interface: 
+IConsole {872da645-4a9b-1727-bee2-5585105b9eed}
+
+

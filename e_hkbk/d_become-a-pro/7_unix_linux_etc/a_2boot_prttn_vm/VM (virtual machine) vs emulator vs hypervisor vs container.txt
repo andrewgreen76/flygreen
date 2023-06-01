@@ -1,0 +1,47 @@
+
+Virtual machine (virtualization): 
+ . a piece of software for creating multiple environments on the same computer. 
+ + faster than an emulator. 
+ + allows for OS/software installation inside of it, ruling out the necessity for installation directly 
+   onto the computer's hardware. 
+   > virtual control. 
+   > better back-up, recovery ; minimal risk to PC's hardware and software. 
+ + allows for installation of other guest OS and VM. 
+ + allows for navigation through "snapshots" / states. 
+ + Hardware is accessed directly. 
+ + more popular. 
+
+ . runs on physical hardware, 
+ . but relies on CPU. 
+ . executes code directly with an interpreter. 
+
+ - more taxing on disk storage (for permanent hosting), 
+   . borrows (temporarily) huge amounts of RAM (for temporary use), 
+   . taxing on CPU (computationally expensive and complex). 
+   => runs slower than the real OS. 
+   => will make the hosting OS slower because of borrowing CPU cores (temporarily). 
+
+
+
+Emulator (emulation): 
+ . a piece of software 
+ + light on CPU / memory usage. 
+
+ . does not run on physical hardware, 
+ . but does not rely on CPU. 
+
+ - slower than a VM. 
+ - need a software connector to access hardware. 
+ - not as popular. 
+
+
+
+Hypervisor: 
+ . software for creating and managing multiple VMs. 
+ . responsible for sharing of resources with VMs. 
+
+
+
+Container: 
+ . 
+

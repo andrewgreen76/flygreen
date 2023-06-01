@@ -1,0 +1,65 @@
+
+How do I do that in Ubuntu Bash shell?
+ChatGPT
+
+To write and run a "Hello, world!" program in Rust using the Ubuntu Bash shell, you can follow these steps:
+
+    Install Rust: Open the Ubuntu Bash shell and run the following command to install Rust:
+
+    arduino
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+This command will download and run the official Rust installer script, which will guide you through the installation process.
+
+Set up the environment: After installing Rust, you need to configure your shell to use it. Run the following command to add the necessary environment variables to your shell configuration file (.bashrc):
+
+bash
+
+source $HOME/.cargo/env
+
+This command will make the cargo and rustc commands available in your shell.
+
+Create a new Rust project: In the Ubuntu Bash shell, navigate to the directory where you want to create your project. Run the following command to create a new Rust project:
+
+arduino
+
+cargo new hello_world
+
+This command will create a new directory named "hello_world" with the necessary files and configurations for a Rust project.
+
+Open the main file: Use the cd command to navigate into the newly created "hello_world" directory:
+
+bash
+
+cd hello_world
+
+Open the "main.rs" file in a text editor by running the following command:
+
+css
+
+code src/main.rs
+
+This assumes you have the "code" command set up to open your preferred text editor or IDE.
+
+Write the code: Replace the existing content of "main.rs" with the following code:
+
+rust
+
+fn main() {
+    println!("Hello, world!");
+}
+
+Save the file and close the text editor.
+
+Build and run the program: In the Ubuntu Bash shell, navigate to the root directory of your Rust project (hello_world). Run the following command to build and run the program:
+
+arduino
+
+    cargo run
+
+    This command will compile the Rust code and execute the resulting executable. You should see the output "Hello, world!" printed to the console.
+
+Congratulations! You have successfully written and executed a "Hello, world!" program in Rust using the Ubuntu Bash shell.
+
+

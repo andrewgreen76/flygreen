@@ -31,6 +31,7 @@ __________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours:
 __________________________________________________________________________
 
+- Rust
 - systemd, dracut
 - UEFI boot > [focus : GRUB, etc.]  > userspace 
   - see dir 7_dsrv-emu

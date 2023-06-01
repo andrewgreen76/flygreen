@@ -1,0 +1,36 @@
+
+your Linux distro on a USB
+
+1. Insert a bootable Linux USB drive.
+
+2. Click the start menu. This is the button in the lower-left corner of your screen that looks like the Windows logo.
+
+3. Then hold down the SHIFT key while clicking Restart. This will take you into the Windows Recovery Environment.
+windows 10 shift restart
+
+4. Then select Use a Device.
+windows recovery use a device
+
+5. Find your device in the list. If you don’t see your drive, choose EFI USB Device, then pick your drive from the next screen.
+use a device linux
+
+6. Your computer will now boot Linux. If your computer reboots Windows, there was either an issue with your drive, or you might have to change settings in your BIOS.
+Warning: Changing BIOS settings can damage your computer if you don’t know what you’re doing.
+
+7. Select Install Linux. Some distros also let you try out the OS before installing it here.
+tru or install ubuntu
+
+8. Go through the installation process. This will differ depending on which distro you are trying to install. These details might include your WiFi network, language, time zone, keyboard layout, etc. You might also be required to create an account with a username and password. Make sure to write down any details, as you will likely need them in the future.
+
+9. Most distros will allow you to partition your drive or erase it and do a clean install during the installation.
+Warning: Erasing your disk will mean you will lose your settings, files, and Windows operating system. Only select Erase if you have saved copies of all your files before starting the install process.
+
+10. Reboot your computer when prompted. If you have more than one OS in your system, you will be taken to a GNU GRUB screen after rebooting. This screen allows you to select which OS you want to boot. 
+ubuntu grub
+
+If you do not see a GRUB screen when you boot up your computer, you can try moving your Linux distro higher on your boot list in BIOS.
+
+When you’re done, you can do a hardware check. In some cases, you may need to download additional drivers to make some hardware work. The option to download drivers can be found in the Systems Settings of your new Linux OS. After verifying that your hardware is working properly, you can start exploring and using your Linux distro. 
+
+If you’re a Mac user, check out our blog on how to install Linux on your Mac.
+

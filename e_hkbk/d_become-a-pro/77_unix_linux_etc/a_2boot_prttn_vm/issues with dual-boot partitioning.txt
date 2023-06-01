@@ -1,5 +1,0 @@
-
-Drive C shrink space is too small. 
- - There's a paging file for the drive. 
- - It's a hidden system file that works with data in secondary storage for activities in main memory. 
-

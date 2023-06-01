@@ -1,0 +1,14 @@
+
+Was the Rust codebase written in C, C++, pure Assembly, or something else?
+ChatGPT
+
+The Rust programming language itself is implemented primarily in a combination of Rust, C, and some Assembly code. The compiler and core components of the Rust language, including the standard library, are primarily written in Rust.
+
+The Rust compiler, called rustc, is written in a combination of Rust and a small amount of C and Assembly. The Rust compiler is responsible for parsing, type checking, and generating optimized machine code from Rust source code. It is a self-hosted compiler, meaning it is capable of compiling its own source code.
+
+While Rust is designed to be memory-safe, it needs some low-level components that interface with the underlying hardware and operating systems. For this purpose, some parts of the Rust codebase are written in C and Assembly. These components handle platform-specific operations, interact with system libraries, and provide the necessary low-level functionality that Rust relies on.
+
+The use of C and Assembly in the Rust codebase is primarily for bootstrapping and interfacing with the lower-level system components. Once the Rust compiler and standard library are implemented in Rust, the need for C and Assembly code decreases, and most of the development and maintenance are done in Rust itself.
+
+It's worth noting that while the Rust language is designed to be safe and efficient, the Rust compiler itself is built with a combination of languages, including C and Assembly, to interface with the lower-level system components and provide the necessary functionality to compile Rust code.
+

@@ -32,9 +32,19 @@ Topics and methods explored to an extent over the past 24-48 hours:
 __________________________________________________________________________
 
 - Yaml
-- more on Bash compound statements 
+- Bash :
+  - more commands,
+  - argument and variable management in scripts, 
+  - more on Bash compound statements. 
 - more on user value
-- Rust (setup, build, code), Rust vs. C++ 
+- Rust
+  - cargo : setup, build, code,
+  - language properties,
+  - goals,
+  - means,
+  - commands
+  - role in Pop!_OS, kernel, and systemd
+  - comparison to C++ 
 - systemd vs. systemd init vs. systemd-boot, dracut
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:

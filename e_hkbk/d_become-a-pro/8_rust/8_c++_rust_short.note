@@ -1,0 +1,30 @@
+
+	different design philosophies and trade-offs
+
+
+
+C++:	control, understanding. 
+	+ memory management,
+	- manual memory bugs (buffer overflows, null pointer dereferences, and memory leaks).
+
+	+ winning the war of versatility (ecosystems and libraries)
+    	+ concurrency models, such as threads, mutexes, and atomic operations.
+	- manual synchronization and handling data races can be challenging and error-prone.
+
+------------------------------------------------------------------------------------------------------
+
+Sophisticated performance rivalry. 
+
+    C++: C++ is known for its performance. It offers direct access to low-level hardware features and allows fine-grained control over memory layout and system resources. C++ compilers are highly optimized and have a long history of producing efficient machine code.
+    Rust: Rust aims to provide comparable performance to C++. It offers zero-cost abstractions, allows low-level control, and provides high-level features without sacrificing efficiency. Rust's ownership and borrowing system enable safe abstractions with minimal runtime overhead.
+
+------------------------------------------------------------------------------------------------------
+
+RUST:	PRODUCTIVITY / SAFETY. 
+	+ COMPILE-TIME CHECKS TO PREVENT COMMON MEMORY BUGS.
+	+ OWNERSHIP SYSTEM, BORROWING RULES, AND LIFETIMES :
+	  + ENABLE AUTO MEMGMT
+	  + ELIMINATE BUGS LIKE NULL POINTER DEREFERENCES AND DATA RACES.
+	- SLOW VERSATILITY COPY FROM C++
+    	+ powerful concurrency primitives like threads, channels, and the async/await syntax. The ownership and borrowing system ensures thread safety at compile time, eliminating data races and making concurrent programming safer and easier.
+

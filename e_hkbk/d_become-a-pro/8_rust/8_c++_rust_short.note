@@ -3,7 +3,7 @@
 
 
 
-C++:	control, understanding. 
+C++:	control, understanding, versatility. 
 	+ memory management,
 	- manual memory bugs (buffer overflows, null pointer dereferences, and memory leaks).
 
@@ -20,11 +20,11 @@ Sophisticated performance rivalry.
 
 ------------------------------------------------------------------------------------------------------
 
-RUST:	PRODUCTIVITY / SAFETY. 
-	+ COMPILE-TIME CHECKS TO PREVENT COMMON MEMORY BUGS.
-	+ OWNERSHIP SYSTEM, BORROWING RULES, AND LIFETIMES :
-	  + ENABLE AUTO MEMGMT
-	  + ELIMINATE BUGS LIKE NULL POINTER DEREFERENCES AND DATA RACES.
-	- SLOW VERSATILITY COPY FROM C++
+Rust:	productivity / safety. 
+	+ compile-time checks to prevent common memory bugs.
+	+ ownership system, borrowing rules, and lifetimes :
+	  + enable auto memgmt
+	  + eliminate bugs like null pointer dereferences and data races.
+	- slow versatility copy from C++
     	+ powerful concurrency primitives like threads, channels, and the async/await syntax. The ownership and borrowing system ensures thread safety at compile time, eliminating data races and making concurrent programming safer and easier.
 

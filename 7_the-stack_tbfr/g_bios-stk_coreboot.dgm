@@ -1,0 +1,42 @@
+
++--- handover -------------------------------------------------------------------------
+|
+| If all goes well, ... 
+|
+| payload : systemd (a.k.a. systemd init)
+|
+| If all goes well, ... 
+| 
+^ BTLD : load in the kernel
+| ?? memgmt begins ??
+^ CPU proc sched starts 
+|
+^ BTLD : drivers for GPU 
+|
+^ BTLD	  <>	dracut (drastic initramfs cut)	<>  initramfs (payload, temp filesys); 
+^ UEFI boot manager (bootstrap)
+| (boot sector : MBR / GPT/EFI_sys_prtn)
+|
+| BTLD : drivers for SSD
+| BTLD : drivers for keyboard, other peris
+| BTLD : payload : GRUB / systemd-boot (pre-systemd, UEFI-only)		<<<	native OS provides the payload
+| 
+^ POST init of GPU (for an API or dsrv) 
+^ POST init of storage (where the kernel is) 
+^ POST init of keyboard (for prime interfacing)
+^ POST init of RAM (modules, capacity, settings)	(no memory management yet)
+^ POST init of CPU registers 	       			(no process scheduling yet)
+^ CPU/cache
+|
+|
+|
+^ All that POST does is running diagnostics. No driver loading. 
+|
+^ UEFI : in NAND flash 
+| BIOS : in CMOS
+| alts : coreboot, libreboot 
+|
+|
+x64 boot stack NOT cast in stone. Expect other designs. 
+_______________________________________________________________________________________
+

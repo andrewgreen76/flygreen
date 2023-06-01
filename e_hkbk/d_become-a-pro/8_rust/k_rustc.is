@@ -1,0 +1,13 @@
+
+rustc: rustc is the Rust compiler. It is responsible for compiling Rust source code into machine code that can be executed. While cargo uses rustc internally, you can also use rustc directly to compile individual Rust source files or create custom build configurations.
+
+The basic usage of rustc is as follows:
+
+    rustc source_file.rs
+
+    This command compiles the specified Rust source file (source_file.rs) into an executable binary by invoking the Rust compiler (rustc). The resulting executable can be run directly from the command line.
+
+    However, using cargo is the recommended approach for most Rust projects since it handles dependencies, builds, and manages the overall project structure.
+
+Both cargo and rustc are powerful tools that complement each other. cargo provides a higher-level abstraction for managing Rust projects, while rustc is the underlying compiler that cargo uses for compilation.
+

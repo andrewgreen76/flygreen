@@ -1,0 +1,12 @@
+
+cargo: Cargo is the package manager and build system for Rust. It provides a set of commands and features to manage dependencies, build, test, and run Rust projects. Some commonly used cargo commands include:
+
+    cargo new: Creates a new Rust project with the necessary project structure and files.
+    cargo build: Compiles the Rust project, including all its dependencies, into an executable or library.
+    cargo run: Builds and runs the Rust project in one step.
+    cargo test: Runs the tests defined in the project.
+    cargo doc: Generates documentation for the project and its dependencies.
+    cargo publish: Publishes a Rust crate to the central crates.io package registry.
+
+Cargo automatically manages dependencies and tracks versions, making it easy to add and update crates (Rust libraries) required by your project. It also handles building and compiling Rust code, managing build configurations, and ensuring a consistent and reproducible build process.
+

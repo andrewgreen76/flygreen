@@ -1,3 +1,5 @@
+# Tesseract OCR (Optical Character Recognition)
+
 from PIL import Image
 import pytesseract
 

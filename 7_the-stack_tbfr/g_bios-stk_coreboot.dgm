@@ -19,7 +19,7 @@
 |
 | BTLD : drivers for SSD
 | BTLD : drivers for keyboard, other peris
-| BTLD : payload : GRUB / systemd-boot (pre-systemd, UEFI-only)		<<<	native OS provides the payload
+| BTLD : payload : GRUB		<<<	native OS provides the payload
 | 
 ^ POST init of GPU (for an API or dsrv) 
 ^ POST init of storage (where the kernel is) 

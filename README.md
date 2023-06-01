@@ -31,15 +31,13 @@ __________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours:
 __________________________________________________________________________
 
-- Rust
-- systemd, dracut
-- UEFI boot > [focus : GRUB, etc.]  > userspace 
-  - see dir 7_dsrv-emu
+- Rust, Rust vs. C++ 
+- systemd vs. systemd init vs. systemd-boot, dracut
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________
 
-- maintaining the Linux kernel 
+- maintaining [the Linux kernel] >>>or<<< systemd
 - An API / display server protocol for a 13h-like mode portable to any headless system. 
 __________________________________________________________________________
 CHOSEN PERSONAL PROJECT:

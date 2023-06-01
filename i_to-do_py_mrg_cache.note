@@ -1,7 +1,7 @@
 
-Call about policy regarding state ID : System76 / Canonical / Tesla. 
-Wednesday : pawn shops
+Day 2 : pawn shops
 Focus on : Rust, SSH, MOSH, linux servers, network management, systemd.  
+Apply for : System76 / Canonical / Tesla. 
 Research toolchains dedicated to building VMs, EMUs, Last Call BBS (Unity + ??)
 |
 +-- Learn to maintain the kernel (w/ KDevelop or Qt)
@@ -13,9 +13,6 @@ v
 Re-learn how to merge in a Git repo	<<<	build a sandbox repo. 
 Work on the graphics mode for headless systems: kernel KMS > Wayland. 
 
-thin out dir d 
-cull the convos on chat gpt site
-windows dlls 
 Sandbox repo : exts , merge. 
 Explore kernel vs. microkernel. 
 memory leak - definition 

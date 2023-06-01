@@ -31,23 +31,24 @@ __________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours:
 __________________________________________________________________________
 
-- emulation : Atari 2600, Apple II, Commodore 64, their languages 
-- (planning to cover systemd, dracut)
+- systemd, dracut
 - UEFI boot > [focus : GRUB, etc.]  > userspace 
   - see dir 7_dsrv-emu
 __________________________________________________________________________
-CHOSEN PROJECT:
-- an open-source software
-  - a virtual machine,
-  - an emulator,
-  - or a video game that poses as an operating system (a la Last Call BBS).
-    - Can I use the Unity Engine for that?
-  - research dedicated toolchains. 
-|
+CHOSEN PROFESSIONAL PROJECT:
+__________________________________________________________________________
+
 - maintaining the Linux kernel 
 - An API / display server protocol for a 13h-like mode portable to any headless system. 
 __________________________________________________________________________
+CHOSEN PERSONAL PROJECT:
+__________________________________________________________________________
 
+- a virtual machine,
+- an emulator,
+- or a video game that poses as an operating system (a la Last Call BBS).
+  - Can I use the Unity Engine for that?
+  - research dedicated toolchains. 
 - challenge: faithful resolution
 - plan of attack:
   - fide: 320x200

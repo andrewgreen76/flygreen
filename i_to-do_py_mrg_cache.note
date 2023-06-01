@@ -1,4 +1,5 @@
 
+1hr : C++ and OpenCV
 Start packing
 Day 2 : kids engr kit 
 Confirm the fw-usp order for coreboot
@@ -25,7 +26,7 @@ what does memgmt look like on the sys memmap ?
 arbitrary subdivide: professional life | personal life
 	  	     ^> 
 add material on io-ports, net-ports to hackbook 
-Why I need ssh for x11 ? 
+Why do I need SSH for Wayland ? 
 troubleshoot the firefox/google business 
 analyze git mv pointer-looking things 
 unity engine arch
@@ -60,16 +61,11 @@ interview questions: C
 interview questions: C++
 interview questions: C#
 .py to go to a url/website
-
-=====================================================================
-
 funbag >< progbook (cheat sheets)
+How do systems on planes fetch WiFi connection in the airplane mode? Are they isolated servers?
+Experiment with GDB. 
 
 =====================================================================
-
-+ find a way to move warnings and error msgs into file in bash. 
-ask gpt:
- - How do systems on planes fetch WiFi connection in the airplane mode? Are they isolated servers?
 
 floss
 

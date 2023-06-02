@@ -37,7 +37,9 @@ __________________________________________________________________________
   - unwieldy structure
   - unit files
   - system services / daemons 
-- GitHub troubleshoot : checkout [commit-hash] -- path
+- GitHub troubleshoot :
+  - git log 
+  - git checkout [commit-hash] -- path
 - Yaml
 - Bash :
   - more commands,

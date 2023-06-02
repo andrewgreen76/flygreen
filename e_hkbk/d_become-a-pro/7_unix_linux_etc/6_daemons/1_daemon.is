@@ -1,4 +1,11 @@
 
+A process or program that : 
+- is non-interactive (runs in the background)
+- started during boot
+- regulates system functionality
+
+
+
 A daemon is a program or process that runs in the background on a computer system and performs specific tasks or provides certain functionality. System services are typically started during system boot and continue to run throughout the system's operation, independently of user interaction.
 
 System services are essential components of an operating system, responsible for various system-level functions such as managing network connections, handling system events, scheduling tasks, providing access to hardware devices, managing system resources, and more.

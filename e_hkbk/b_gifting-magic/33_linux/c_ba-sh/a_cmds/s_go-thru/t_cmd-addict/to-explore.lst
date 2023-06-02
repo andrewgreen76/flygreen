@@ -1,9 +1,0 @@
-
-awk
-sed
-head
-tail -n <num of lines> <file>
-source ~/.zshrc
-pushd ~/path
-
-

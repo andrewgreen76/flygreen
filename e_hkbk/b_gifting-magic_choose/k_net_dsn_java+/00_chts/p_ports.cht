@@ -1,0 +1,14 @@
+
+In the TCP/IP protocol suite, there are several protocols and services that operate on different port numbers to provide specific functionalities. Some commonly used port numbers in the TCP/IP suite include:
+
+    Port 80: HTTP (Hypertext Transfer Protocol) for web browsing.
+    Port 443: HTTPS (HTTP Secure) for secure web browsing.
+    Port 25: SMTP (Simple Mail Transfer Protocol) for email transmission.
+    Port 110: POP3 (Post Office Protocol version 3) for email retrieval.
+    Port 143: IMAP (Internet Message Access Protocol) for email retrieval.
+    Port 53: DNS (Domain Name System) for domain name resolution.
+    Port 22: SSH (Secure Shell) for secure remote access.
+    Port 21: FTP (File Transfer Protocol) for file transfer.
+
+These are just a few examples, and there are many other protocols and services in the TCP/IP suite, each typically associated with a specific port number. The port numbers provide a way to direct network traffic to the appropriate protocols and services running on a particular device.
+

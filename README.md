@@ -31,6 +31,9 @@ __________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours:
 __________________________________________________________________________
 
+- Bash :
+  - more commands,
+  - argument and variable management in scripts, 
 - daemons in general / outside of systemd
   - (not specifically in the context of networking)
   - importance 
@@ -42,21 +45,7 @@ __________________________________________________________________________
 - GitHub troubleshoot :
   - git log 
   - git checkout [commit-hash] -- path
-- Yaml
-- Bash :
-  - more commands,
-  - argument and variable management in scripts, 
-  - more on Bash compound statements. 
-- more on user value
-- Rust
-  - cargo : setup, build, code,
-  - language properties,
-  - goals,
-  - means,
-  - commands
-  - role in Pop!_OS, kernel, and systemd
-  - comparison to C++
-- firmware-to-userspace coreboot stack
+  - (need to cover ground with Git branches)
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

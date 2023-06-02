@@ -1,6 +1,5 @@
 
-chmod to change permission to "can't delete"
-learn git branches
+learn git branches ; Re-learn how to merge in a Git repo	<<<	build a sandbox repo. 
 1hr : C++ and OpenCV : image-processing prog
 1hr : Rust : create an interactive text-based prog (text-ed) 
 Focus on : Rust, SSH, MOSH, linux servers, network management, systemd.  
@@ -17,10 +16,8 @@ Research toolchains dedicated to building VMs, EMUs, Last Call BBS (Unity + ??)
 |   	 - coded in C
 |	 - teaching x86asm(GAS, nasm)
 v
-Re-learn how to merge in a Git repo	<<<	build a sandbox repo. 
 Work on the graphics mode for headless systems: kernel KMS > Wayland. 
 
-Sandbox repo : exts , merge. 
 add-on
 leveraging
 container technology

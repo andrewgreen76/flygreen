@@ -1,8 +1,0 @@
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-alias c='clear ; l -1'
-
-# Git aliases:
-alias g='git add ~/flygreen/*;git commit -m "x";git push'

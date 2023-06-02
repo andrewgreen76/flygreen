@@ -1,0 +1,12 @@
+
+Did Apple II features any daemons?
+ChatGPT
+
+The Apple II computer itself did not have built-in support for daemons in the same way that modern operating systems do. Daemons, in the context of computer systems, typically refer to background processes or services that run continuously and perform specific tasks.
+
+The Apple II was primarily designed as a personal computer for home and small-business use during the late 1970s and early 1980s. It had a simple operating system called Apple DOS or ProDOS, which provided basic functionality for running programs and managing files. However, it did not have a built-in system for running background daemons or services.
+
+That being said, it was possible to write and run software programs on the Apple II that performed tasks similar to daemons. Developers could create software that ran in the background and performed specific functions while the main application or operating system was running. These programs could handle tasks such as monitoring input/output, managing peripherals, or providing network services, but they were typically written and executed as standalone applications rather than system-level daemons.
+
+Overall, the concept of daemons as they exist in modern operating systems was not a core feature of the Apple II computer or its operating system.
+

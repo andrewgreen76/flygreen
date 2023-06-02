@@ -33,6 +33,8 @@ __________________________________________________________________________
 
 - daemons in general / outside of systemd
   - (not specifically in the context of networking)
+  - importance 
+  - no daemons in Apple II 
 - systemd , systemd init
   - unwieldy structure
   - unit files

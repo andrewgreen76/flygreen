@@ -1,0 +1,5 @@
+
+- better boot time	<=	services are in parallel
+- services respond to their dependencies
+- unit files : are used to describe and manage sys rcs
+

@@ -1,0 +1,18 @@
+
+A daemon is a program or process that runs in the background on a computer system and performs specific tasks or provides certain functionality. System services are typically started during system boot and continue to run throughout the system's operation, independently of user interaction.
+
+System services are essential components of an operating system, responsible for various system-level functions such as managing network connections, handling system events, scheduling tasks, providing access to hardware devices, managing system resources, and more.
+
+Some common examples of system services include:
+
+    Network services (e.g., DHCP, DNS, HTTP servers)
+    Logging services (e.g., syslog, systemd-journald)
+    Time synchronization services (e.g., NTP)
+    Hardware management services (e.g., udev)
+    Printing services (e.g., CUPS)
+    Software update services (e.g., apt-daily, dnf-automatic)
+
+System services typically run in the background, often without a direct user interface. They are designed to operate continuously and perform their designated tasks independently. They are usually managed by the system's init system, such as systemd, which starts, stops, and monitors the services based on their associated unit files.
+
+System services provide critical functionality to the operating system and applications running on it. They allow for the automation of various system-level tasks, improve system stability, enhance security, and enable the efficient utilization of system resources.
+

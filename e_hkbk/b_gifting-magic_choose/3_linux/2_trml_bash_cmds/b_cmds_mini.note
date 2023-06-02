@@ -1,9 +1,11 @@
 
 ================= TERMINAL: basic Linux terminal commands: ====================
 
-l		- list contents of curDir, points out which ones are subDirs. 
-		  (Does not work in bash scripts.)
 ls		- list contents of the current directory. 
+l		- list contents of curDir, points out which ones are subDirs. 
+		  (Does not work in bash scripts as it is an alias pre-written
+		  in some Linux systems and aliases are custom things that depend
+		  on more fundamental commands.  
 [cmd1] ; [cmd2]	- execute these commands in one chain. 
 whatis [cmd]	- gives a brief description of what the specified command does 
 man [cmd]	- help with a specific command 
@@ -23,7 +25,7 @@ history		- lists previously entered commands
 gcc [p].c -o [p.out] 	- compile a C program
 ./[p.out]		- run a C program 
 |
-python3 [prog].py	- runs a Python script (Python 3 - latest version series)
+python3 [script].py	- runs a Python script (Python 3 - latest version series)
 pip show		- shows info about a Python package(s) 
 |
 javac [prog.java]	- compile a Java program 

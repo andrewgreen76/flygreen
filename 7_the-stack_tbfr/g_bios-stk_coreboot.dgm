@@ -21,7 +21,7 @@
 ^ Stage 1 and Stage 2 boot managers (bootstrap)		<<<	native OS provides the payload
 | 
 ^ POST init of GPU (for an API or dsrv) 
-^ POST init of storage (where the kernel is) 
+^ POST init of storage (loc of kernel and utils) 
 ^ POST init of keyboard (for prime interfacing)
 ^ POST init of RAM (modules, capacity, settings)	(no memory management yet)
 ^ POST init of CPU registers 	       			(no process scheduling yet)

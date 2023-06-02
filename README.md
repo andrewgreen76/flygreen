@@ -31,6 +31,8 @@ __________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours:
 __________________________________________________________________________
 
+- daemons in general / outside of systemd
+  - (not specifically in the context of networking)
 - systemd , systemd init
   - unwieldy structure
   - unit files

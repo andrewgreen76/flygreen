@@ -1,15 +1,17 @@
 
+sift through the cmds files. 
 c, c++, javac, py 
-learn git branches ; Re-learn how to merge in a Git repo	<<<	build a sandbox repo. 
+trees : red-black, k-d, etc.
 1hr : C++ and OpenCV : image-processing prog
 1hr : Rust : create an interactive text-based prog (text-ed) 
 Focus on : Rust, SSH, MOSH, linux servers, network management, systemd.  
 iPhone : how to termius, free SSH client, MOSH 
+learn git branches ; Re-learn how to merge in a Git repo	<<<	build a sandbox repo. 
 Start packing
 kids engr kit 
 Apply for : System76 / Canonical / Tesla. 
 Confirm the fw-usp order for coreboot
-Research toolchains dedicated to building VMs, EMUs, Last Call BBS (Unity + ??)
+Research frameworks (toolsets) dedicated to building VMs, EMUs, Last Call BBS (Unity + ??)
 |
 +-- Learn to maintain the kernel (w/ KDevelop or Qt)
 |

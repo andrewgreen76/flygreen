@@ -33,7 +33,7 @@ __________________________________________________________________________
 
 - Bash :
   - more commands,
-  - argument and variable management in scripts, 
+  - argument and variable management in scripts and sessions, 
 - daemons in general / outside of systemd
   - (not specifically in the context of networking)
   - importance 

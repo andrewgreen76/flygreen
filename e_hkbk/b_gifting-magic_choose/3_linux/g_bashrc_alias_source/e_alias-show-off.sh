@@ -1,29 +1,23 @@
-root_of_repo=$(pwd | cut -d/ -f-4)	# captures path to repo root.
-apd="/."
-doctpath=$root_of_repo$apd		# doctored around "git add" arg-format
-					# to cover untracked files as well. 
-
-##########################################################################################
-
 alias c='clear ; l -1'
 alias s='source ~/.bashrc'		# to reload the path to root of working repo. 
 
 
 # Git aliases:
 #
-# Exclusively for the edutain repo: 
-alias g='git add ~/flygreen/. ; git commit -m "x" ; echo $GIT_TOKEN | xclip -selection clipboard ; git push'
+# Exclusively for the edutain repo, now unnecessary: 
+#alias t='git add ~/flygreen/. ; git commit -m "x" ; echo $GIT_TOKEN | xclip -selection clipboard ; git push'
+#alias t='echo "t: command not found"'
 #
 #
 # Rather unwieldy:
-# alias t='git add ~/flygreen/. ; git add ~/g_img-proc/. ; git commit -m "x" ; echo $GIT_TOKEN | xclip -selection clipboard ; git push'
+#alias t='git add ~/flygreen/. ; git add ~/g_img-proc/. ; git commit -m "x" ; echo $GIT_TOKEN | xclip -selection clipboard ; git push'
 #
 #
 # Solution : formulate a "git add"-friendly path to stage all changes made within the repo.
-# alias t='s ; echo $doctpath ; git add $doctpath ; git commit -m "x" ; echo $GIT_TOKEN | xclip -selection clipboard ; git push'
+#alias t='s ; echo $doctpath ; git add $doctpath ; git commit -m "x" ; echo $GIT_TOKEN | xclip -selection clipboard ; git push'
 # Pretty cool, but also annoying as it usually goes with solving problems. WELCOME TO THE WORLD OF PROBLEM-SOLVING !!!
 # Let's solve this without the intensive sourcing:
-alias t='  root_of_repo=$(pwd | cut -d/ -f-4) ;
+alias g='  root_of_repo=$(pwd | cut -d/ -f-4) ;
 	   apd="/." ; 
 	   doctpath=$root_of_repo$apd ;
 	   echo $doctpath ;

@@ -1,0 +1,17 @@
+
+Why was P2P network chosen for Diablo I?
+ChatGPT
+
+Diablo I, the popular action role-playing game developed by Blizzard Entertainment, was released in 1996. It utilized a peer-to-peer (P2P) network model for multiplayer gameplay. The decision to use a P2P network for Diablo I was likely influenced by several factors:
+
+    Cost and Scalability: P2P networks can be more cost-effective and scalable compared to client-server architectures. In a P2P network, the players' computers (peers) directly communicate with each other, eliminating the need for dedicated game servers. This decentralized approach allows for easier scaling of the game to accommodate more players without significant infrastructure costs.
+
+    Lower Latency: P2P networks can potentially offer lower latency compared to client-server architectures. In Diablo I, players were able to connect to each other's games directly, which reduced the network delay or lag between actions and responses. This direct peer-to-peer communication could provide a more responsive and immersive multiplayer experience.
+
+    Gameplay Dynamics: The P2P model in Diablo I allowed players to seamlessly join and leave multiplayer games. This flexibility and dynamic nature of P2P networks fit well with the game's cooperative and competitive gameplay mechanics. Players could easily connect with friends or strangers and engage in multiplayer sessions without relying on central servers or matchmaking services.
+
+    Timing and Technology: During the mid-1990s, when Diablo I was developed, P2P networking technology was relatively mature and readily available. The internet infrastructure and broadband connectivity were not as advanced as they are today, and client-server architectures might have presented challenges in terms of connectivity and hosting for a game like Diablo I.
+
+It's important to note that the choice of a P2P network for Diablo I was specific to the game's requirements, technical considerations, and the prevailing technological landscape at that time. Subsequent iterations of the Diablo series, such as Diablo II and Diablo III, adopted different networking models, including a combination of client-server architecture and peer-to-peer elements, to address evolving player needs and advancements in networking technologies.
+
+

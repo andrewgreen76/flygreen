@@ -1,0 +1,8 @@
+
+Direct connection between devices - peers - that would otherwise be clients. 
+
+
+No servers - no middle mgmt. 
+- more cost-effective and scalable compared to client-server architectures of the time : could easily manage large numbers of peers.
+- little-to-no lag between actions and responses compared to client-server architectures at the time ; more responsive and immersive multiplayer experience.
+

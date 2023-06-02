@@ -31,6 +31,11 @@ __________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours:
 __________________________________________________________________________
 
+- systemd , systemd init
+  - unwieldy structure
+  - unit files
+  - system services / daemons 
+- GitHub troubleshoot : checkout [commit-hash] -- path
 - Yaml
 - Bash :
   - more commands,
@@ -46,9 +51,6 @@ __________________________________________________________________________
   - role in Pop!_OS, kernel, and systemd
   - comparison to C++
 - firmware-to-userspace coreboot stack
-- systemd vs. systemd init vs. systemd-boot, dracut
-  - unit files
-  - system services 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

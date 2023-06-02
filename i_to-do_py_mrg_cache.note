@@ -1,12 +1,12 @@
 
-rcmnd toolchain for making hello app for gnome/cosmic 
-1hr : C++ and OpenCV : image-processing prog
-1hr : Rust : create an interactive text-based prog (texted)
 Start packing
-Day 2 : kids engr kit 
-Confirm the fw-usp order for coreboot
+kids engr kit 
+1hr : C++ and OpenCV : image-processing prog
+1hr : Rust : create an interactive text-based prog (text-ed) 
 Focus on : Rust, SSH, MOSH, linux servers, network management, systemd.  
+iPhone : how to termius, free SSH client, MOSH 
 Apply for : System76 / Canonical / Tesla. 
+Confirm the fw-usp order for coreboot
 Research toolchains dedicated to building VMs, EMUs, Last Call BBS (Unity + ??)
 |
 +-- Learn to maintain the kernel (w/ KDevelop or Qt)
@@ -26,7 +26,6 @@ Explore kernel vs. microkernel.
 memory leak - definition 
 how does a sys know if smth is a val | var | ptr(addrOf2ndVar)
 revisit grid v. comp
-iPhone : how to termius, free SSH client, MOSH 
 what does memgmt look like on the sys memmap ? 
 arbitrary subdivide: professional life | personal life
 	  	     ^> 

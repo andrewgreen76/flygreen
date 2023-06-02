@@ -1,22 +1,41 @@
 
-Streaming (printing) commands: 
+=== Streaming (printing) commands: ===============================================================
 
-ls
-cat
-cd
+ls  	      	- list all files and directories in the working directory (code for "current directory")
+cd [dir]	- go into this sub-directory
+cd .. 		- go up to the parent directory
+cat [file]	- stream contents of the file to the prompt
+more [] 	- 
+less []		- 
 
-==================================================================================================
+=== Auxilliary commands: =========================================================================
 
-cp
-mv
+clear	      - clears the screen, re-populates the prompt string. 
 
-==================================================================================================
+=== Filesys mgmt commands: =======================================================================
+
+cp [path/filename] [path/filename]	- copies file/dir to a different path and/or with a different name
+mv [path/filename] [path/filename]	- moves file/dir to a different path and/or with a different name
+   		   			- That's right, this same command is used for renaming. 
+rm [file]	   - deletes the file
+rm -r		   - deletes the sub-directory
+
+=== Searching commands: ==========================================================================
 
 grep
-find 
+find [down-from-dir] -name [spec-file]
+find [down-from-dir] -name "*str-in-filename*"
 
-==================================================================================================
+=== Feeding commands/operators: ==================================================================
 
-Feeding commands
+>
+>> 
+
+|
+
+tee
+
+2>
+&>
 
 -

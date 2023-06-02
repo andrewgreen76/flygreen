@@ -47,6 +47,14 @@ __________________________________________________________________________
   - git checkout [commit-hash] -- path
   - (need to cover ground with Git branches)
 __________________________________________________________________________
+Technical observations made over the past 24-48 hours:
+__________________________________________________________________________
+
+I created a variable in .bash_aliases for storing a path to the root of
+the working repo. It wasn't working for a while until I sourced .bashrc,
+and then it worked. "git add ." can only take you so far - it won't take
+care of untracked files. So I'm forced to come up with a trick for that. 
+__________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________
 

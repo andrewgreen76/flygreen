@@ -1,9 +1,10 @@
 
 === Streaming (printing) commands: ===============================================================
 
-ls 	      	- list all files and directories in the working directory (code for "current directory")
+ls 	      	- list all files and directories in the working directory (that's code for "current directory")
 cd [dir]	- go into this sub-directory
 cd .. 		- go up to the parent directory
+cd -		- takes you to the previously visited directory 
 
 cat [file]	- streams contents of the file to the prompt
 more [file] 	- streams file (to screen by default), scrolls in screen intervals, exits at end of file. 
@@ -21,7 +22,7 @@ pwd		- streams the path to the current working directory.
 
 emacs [file]	     - opens the file for editing in the Emacs Classic text editor.
       		     - You can try this with other, less sophisticated editors. (I'd definitely
-		       advise against ed.)
+		       advise against ed.) 
 
 clear	      - clears the screen, re-populates the prompt string. 
 

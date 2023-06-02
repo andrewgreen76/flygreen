@@ -4,13 +4,28 @@
 ls  	      	- list all files and directories in the working directory (code for "current directory")
 cd [dir]	- go into this sub-directory
 cd .. 		- go up to the parent directory
-cat [file]	- stream contents of the file to the prompt
-more [] 	- 
-less []		- 
 
-=== Auxilliary commands: =========================================================================
+cat [file]	- streams contents of the file to the prompt
+more [] 	- streams file (to screen by default), scrolls in screen intervals, exits at end of file. 
+less []		- streams file (to screen by default), scrolls in line intervals, exits at pressing 'q'.
+
+echo		- streams a specific string (to the prompt by default).
+		- Doesn't seem useful, but later we'll see why that's not true. 
+
+pwd		- streams the path to the current working directory. 
+		- Doesn't seem useful, but later we'll see why that's not true. 
+
+
+
+=== Editors, etc.: ===============================================================================
+
+emacs [file]	     - opens the file for editing in the Emacs Classic text editor.
+      		     - You can try this with other, less sophisticated editors. (I'd definitely
+		       advise against ed.)
 
 clear	      - clears the screen, re-populates the prompt string. 
+
+
 
 === Filesys mgmt commands: =======================================================================
 
@@ -22,20 +37,28 @@ rm -r		   - deletes the sub-directory
 
 === Searching commands: ==========================================================================
 
-grep
+grep [string] [path/file]
+- looks for the line containing the specified string (no quotes!) within the specified file. 
+|
+grep -r [string] *
+- points out all files within the working directory with lines containing the string.
+
+
 find [down-from-dir] -name [spec-file]
+- lists the paths to all the files/dirs with the specified name. 
+|
 find [down-from-dir] -name "*str-in-filename*"
+- finds the files/dirs with spec.str in name.       
 
 === Feeding commands/operators: ==================================================================
 
->
->> 
-
-|
+[command] > [file]		- feeds command output to a file, overwriting it
+[command] >> [file] 		- feeds command output to a file, appending to it
+[command_L] | [command_R]
+- the pipe operator feeds output from [command_L] as an argument to [command_R]
 
 tee
+tee -a
 
 2>
 &>
-
--

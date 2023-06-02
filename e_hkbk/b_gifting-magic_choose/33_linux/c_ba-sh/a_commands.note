@@ -1,13 +1,13 @@
 
 === Streaming (printing) commands: ===============================================================
 
-ls  	      	- list all files and directories in the working directory (code for "current directory")
+ls 	      	- list all files and directories in the working directory (code for "current directory")
 cd [dir]	- go into this sub-directory
 cd .. 		- go up to the parent directory
 
 cat [file]	- streams contents of the file to the prompt
-more [] 	- streams file (to screen by default), scrolls in screen intervals, exits at end of file. 
-less []		- streams file (to screen by default), scrolls in line intervals, exits at pressing 'q'.
+more [file] 	- streams file (to screen by default), scrolls in screen intervals, exits at end of file. 
+less [file]	- streams file (to screen by default), scrolls in line intervals, exits at pressing 'q'.
 
 echo		- streams a specific string (to the prompt by default).
 		- Doesn't seem useful, but later we'll see why that's not true. 
@@ -35,6 +35,8 @@ mv [path/filename] [path/filename]	- moves file/dir to a different path and/or w
 rm [file]	   - deletes the file
 rm -r		   - deletes the sub-directory
 
+
+
 === Searching commands: ==========================================================================
 
 grep [string] [path/file]
@@ -50,6 +52,8 @@ find [down-from-dir] -name [spec-file]
 find [down-from-dir] -name "*str-in-filename*"
 - finds the files/dirs with spec.str in name.       
 
+
+
 === Feeding commands/operators: ==================================================================
 
 [command] > [file]		- feeds command output to a file, overwriting it
@@ -62,3 +66,4 @@ tee -a
 
 2>
 &>
+

@@ -1,6 +1,9 @@
 
+to teach or find work.
+|
 sift through the cmds files. 
-c, c++, javac, py 
+memory leak - definition, praxis 
+how does a sys know if smth is a val | var | ptr(addrOf2ndVar)
 trees : red-black, k-d, etc.
 1hr : C++ and OpenCV : image-processing prog
 1hr : Rust : create an interactive text-based prog (text-ed)
@@ -26,8 +29,6 @@ add-on
 leveraging
 container technology
 Explore kernel vs. microkernel. 
-memory leak - definition, praxis 
-how does a sys know if smth is a val | var | ptr(addrOf2ndVar)
 revisit grid v. comp
 what does memgmt look like on the sys memmap ? 
 arbitrary subdivide: professional life | personal life

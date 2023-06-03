@@ -1,0 +1,14 @@
+
+When was HTTP first deployed?
+ChatGPT
+
+HTTP (Hypertext Transfer Protocol) was first deployed in 1991. It was developed by Tim Berners-Lee as part of his work on the World Wide Web (WWW) at CERN (European Organization for Nuclear Research). The initial version of HTTP, known as HTTP/0.9, was a simple protocol designed for retrieving and displaying hypertext documents.
+
+HTTP/0.9 had limited functionality and only supported basic requests for retrieving HTML documents without any headers or additional features. It was primarily used for academic and research purposes within the early stages of the World Wide Web.
+
+In subsequent years, HTTP evolved and expanded its capabilities. The introduction of HTTP/1.0 in 1996 introduced features such as headers, status codes, and support for more advanced content types. HTTP/1.1, released in 1997, further improved performance and added features like persistent connections, caching, and host-based virtual hosting.
+
+Since then, several versions and updates to the HTTP protocol have been released, with the most recent major version being HTTP/2, finalized in 2015. HTTP/2 brings significant performance improvements and introduces features such as multiplexing, server push, and header compression.
+
+HTTP has played a crucial role in the development and growth of the World Wide Web, enabling the transfer of hypertext documents and facilitating communication between clients (web browsers) and servers.
+

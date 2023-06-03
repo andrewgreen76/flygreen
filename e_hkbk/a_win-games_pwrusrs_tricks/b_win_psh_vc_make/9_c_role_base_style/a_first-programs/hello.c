@@ -2,11 +2,11 @@
 
 int main() 
 {
-    printf("Hello, world\n\n");
+    printf("\nHello, world\n\n");
     
     int x=2; 
     
-    printf("%i", x);
+    printf("%i\n\n", x);
 
     return 0;
 }

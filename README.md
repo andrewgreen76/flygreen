@@ -1,4 +1,4 @@
-# Experimental edutainment/tutorial repository "Fly Green"
+# This is an experimental edutainment/tutorial repository - a work in progress. 
 
 __________________________________________________________________________
 The PURPOSE of this repo:

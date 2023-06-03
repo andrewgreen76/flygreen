@@ -1,10 +1,11 @@
 
 to teach or find work.
 |
+Bash or write your own copy and paste commands
 sift through the cmds files. 
 memory leak - definition, praxis 
 how does a sys know if smth is a val | var | ptr(addrOf2ndVar)
-trees : red-black, k-d, etc.
+trees : red-black, k-d, BSPT, etc.
 1hr : C++ and OpenCV : image-processing prog
 1hr : Rust : create an interactive text-based prog (text-ed)
 networking arpanet-style : telnet, cmds, identify arch/prdm, etc. 

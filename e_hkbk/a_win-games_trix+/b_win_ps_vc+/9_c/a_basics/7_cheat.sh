@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gcc hello.c -o run.out
+gcc b_add.c -o run.out

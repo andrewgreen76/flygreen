@@ -1,12 +1,5 @@
 
 ls		- list contents of the current directory. 
-l		- list contents of curDir, points out which ones are subDirs. 
-		  (Does not work in bash scripts as it is an alias pre-written
-		  in some Linux systems and aliases are custom things that depend
-		  on more fundamental commands.  
-[cmd1] ; [cmd2]	- execute these commands in one chain. 
-whatis [cmd]	- gives a brief description of what the specified command does 
-man [cmd]	- help with a specific command 
 mkdir []	- create a new directory 
 mv [old] [new]	- rename a directory / file 
 rmdir []	- delete an empty directory 
@@ -15,17 +8,6 @@ vim []		- edit/create file in Vim
 touch [] 	- create a (text) file 
 rm [] 		- delete a file
 cat []		- show content of a file 
-grep ["s"] [p]	- finds given string/word within the specified path/file 
+grep [str] [p]	- finds given string/word within the specified path/file 
 clear/Ctrl+L	- clears the terminal 
-history		- lists previously entered commands 
-![num]		- execute the command as indexed by history 
-
-gcc [p].c -o [p.out] 	- compile a C program
-./[p.out]		- run a C program 
-|
-python3 [script].py	- runs a Python script (Python 3 - latest version series)
-pip show		- shows info about a Python package(s) 
-|
-javac [prog.java]	- compile a Java program 
-java [prog]		- run the Java program 
 

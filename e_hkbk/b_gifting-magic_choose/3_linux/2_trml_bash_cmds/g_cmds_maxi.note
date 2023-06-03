@@ -1,7 +1,14 @@
 
-=== Streaming (printing) commands: ===============================================================
+=== Basic streaming / printing commands: ===============================================================
+
+echo		- repeats what you say 
 
 ls 	      	- list all files and directories in the working directory (that's code for "current directory")
+l		- list contents of curDir, points out which ones are subDirs. 
+		  (Does not work in bash scripts as it is an alias pre-written
+		  in some Linux systems and aliases are custom things that depend
+		  on more fundamental commands.  
+
 cd [dir]	- go into this sub-directory
 cd .. 		- go up to the parent directory
 cd -		- takes you to the previously visited directory 
@@ -10,31 +17,37 @@ cat [file]	- streams contents of the file to the prompt
 more [file] 	- streams file (to screen by default), scrolls in screen intervals, exits at end of file. 
 less [file]	- streams file (to screen by default), scrolls in line intervals, exits at pressing 'q'.
 
-echo		- streams a specific string (to the prompt by default).
-		- Doesn't seem useful, but later we'll see why that's not true. 
-
-pwd		- streams the path to the current working directory. 
-		- Doesn't seem useful, but later we'll see why that's not true. 
+whatis [cmd]	- gives a brief description of what the specified command does 
+man [cmd]	- help with a specific command 
 
 
-
-=== Editors, etc.: ===============================================================================
+=== Editing, clearing: ===========================================================================
 
 emacs [file]	     - opens the file for editing in the Emacs Classic text editor.
       		     - You can try this with other, less sophisticated editors. (I'd definitely
 		       advise against ed.) 
 
-clear	      - clears the screen, re-populates the prompt string. 
-
+clear/Ctrl+L	- clears the screen, re-populates the prompt string. 
 
 
 === Filesys mgmt commands: =======================================================================
 
+touch [file]	 - creates the file
+mkdir [dir]	 - creates the dir
+rm [file]	 - deletes the file
+rm -r [dir/file] - deletes the dir (recursively, meaning everything in it one by one and the dir last). 
+
 cp [path/filename] [path/filename]	- copies file/dir to a different path and/or with a different name
 mv [path/filename] [path/filename]	- moves file/dir to a different path and/or with a different name
    		   			- That's right, this same command is used for renaming. 
-rm [file]	   - deletes the file
-rm -r		   - deletes the sub-directory
+
+
+=== More auxilliary commands: ====================================================================
+
+[cmd1] ; [cmd2]	- execute these commands in one chain. 
+
+history	 	- brings up a history of the recently (successfully) executed commands
+![num]		- executes the command indexed per the history 
 
 
 
@@ -55,6 +68,14 @@ find [down-from-dir] -name "*str-in-filename*"
 
 
 
+=== Streaming commands - advanced, practical use: ================================================
+
+echo		- streams a specific string (to the prompt by default).
+
+pwd		- streams the path to the current working directory. 
+
+
+
 === Feeding commands/operators: ==================================================================
 
 [cmd] > [file]		- feeds command output to a file, overwriting it
@@ -68,4 +89,17 @@ find [down-from-dir] -name "*str-in-filename*"
 
 [cmd] 2> [ermsg.txt] 	   - stderr : feeds the error message(s) to a file.  
 [cmd] &> [ermsg.txt]   	   - feeds the error message(s) to the shell and to the file. 
+
+
+
+=== Compile and run: ==================================================================
+
+gcc [p].c -o [p.out] 	- compile a C program
+./[p.out]		- run a C program 
+|
+python3 [script].py	- runs a Python script (Python 3 - latest version series)
+pip show		- shows info about a Python package(s) 
+|
+javac [prog.java]	- compile a Java program 
+java [prog]		- run the Java program 
 

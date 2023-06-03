@@ -1,0 +1,34 @@
+
+=== More aux. cmds and opers: ====================================================================
+
+[cmd1] ; [cmd2]	- execute these commands in one chain. 
+
+history	 	- brings up a history of the recently (successfully) executed commands
+![num]		- executes the command indexed per the history 
+
+
+
+=== Searching commands: ==========================================================================
+
+grep [string] [path/file]
+- looks for the line containing the specified string (no quotes!) within the specified file. 
+|
+grep -r [string] *
+- points out all files within the working directory with lines containing the string.
+
+
+find [down-from-dir] -name [spec-file]
+- lists the paths to all the files/dirs with the specified name. 
+|
+find [down-from-dir] -name "*str-in-filename*"
+- finds the files/dirs with spec.str in name.       
+
+
+
+=== Streaming commands - advanced, practical use: ================================================
+
+echo		- streams a specific string (to the prompt by default).
+
+pwd		- streams the path to the current working directory. 
+
+

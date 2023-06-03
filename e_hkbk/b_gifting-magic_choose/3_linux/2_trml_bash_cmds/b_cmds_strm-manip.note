@@ -1,0 +1,44 @@
+
+=== Basic streaming / printing commands: =========================================================
+
+echo		- repeats what you say 
+
+ls 	      	- list all files and directories in the working directory (that's code for "current directory")
+l		- list contents of curDir, points out which ones are subDirs. 
+		  (Does not work in bash scripts as it is an alias pre-written
+		  in some Linux systems and aliases are custom things that depend
+		  on more fundamental commands.  
+
+cd [dir]	- go into this sub-directory
+cd .. 		- go up to the parent directory
+cd -		- takes you to the previously visited directory 
+
+cat [file]	- streams contents of the file to the prompt
+more [file] 	- streams file (to screen by default), scrolls in screen intervals, exits at end of file. 
+less [file]	- streams file (to screen by default), scrolls in line intervals, exits at pressing 'q'.
+
+whatis [cmd]	- gives a brief description of what the specified command does 
+man [cmd]	- help with a specific command 
+
+
+=== Editing, clearing: ===========================================================================
+
+emacs [file]	     - opens the file for editing in the Emacs Classic text editor.
+      		     - You can try this with other, less sophisticated editors. (I'd definitely
+		       advise against ed.) 
+
+clear/Ctrl+L	- clears the screen, re-populates the prompt string. 
+
+
+=== Filesys mgmt commands: =======================================================================
+
+touch [file]	 - creates the file
+mkdir [dir]	 - creates the dir
+rm [file]	 - deletes the file
+rm -r [dir/file] - deletes the dir (recursively, meaning everything in it one by one and the dir last). 
+
+cp [path/filename] [path/filename]	- copies file/dir to a different path and/or with a different name
+mv [path/filename] [path/filename]	- moves file/dir to a different path and/or with a different name
+   		   			- That's right, this same command is used for renaming. 
+
+

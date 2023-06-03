@@ -1,13 +1,20 @@
 
-ls		- list contents of the current directory. 
-mkdir []	- create a new directory 
-mv [old] [new]	- rename a directory / file 
-rmdir []	- delete an empty directory 
-rm -r [] 	- recursively delete a directory (that is not empty).
-vim []		- edit/create file in Vim 
+ls		- lists contents of the current directory. 
+cat []		- shows content of a file
+cd [dir] 	- takes to spec'd dir
+cd .. 		- takes to the parent dir
+
+
 touch [] 	- create a (text) file 
+mkdir []	- create a new directory 
+mv [old] [new]
+- change the location and name of the file from. 
+
 rm [] 		- delete a file
-cat []		- show content of a file 
-grep [str] [p]	- finds given string/word within the specified path/file 
+rm -r [] 	- recursively delete a directory (empty or not).
+
+vim [file]		- edit/create file in Vim 
+nano [file]		- edit/create file in nano
+
 clear/Ctrl+L	- clears the terminal 
 

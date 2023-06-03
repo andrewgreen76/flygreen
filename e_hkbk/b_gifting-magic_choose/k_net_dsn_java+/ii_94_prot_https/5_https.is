@@ -1,0 +1,15 @@
+
+User
+When was HTTPS first deployed?
+ChatGPT
+
+HTTPS (Hypertext Transfer Protocol Secure) was first deployed in 1994. It was introduced as an extension to the original HTTP protocol to provide secure communication over the internet. HTTPS uses encryption protocols, such as SSL (Secure Sockets Layer) and its successor TLS (Transport Layer Security), to encrypt the data exchanged between a client and a server.
+
+The deployment of HTTPS was driven by the need for secure transmission of sensitive information, such as login credentials, financial data, and personal information. The use of encryption in HTTPS ensures that the data remains confidential and cannot be intercepted or tampered with by unauthorized parties.
+
+Initially, HTTPS was primarily used for secure e-commerce transactions and sensitive online transactions. Over time, the adoption of HTTPS has become more widespread, and it is now commonly used for securing various types of websites and web applications.
+
+The implementation and support for HTTPS have evolved with the development of encryption protocols. HTTPS initially relied on SSL, with HTTPS URLs starting with "https://" and using port 443. With the transition from SSL to the more secure TLS protocol, the term "HTTPS" continued to be used, but the underlying encryption technology became TLS. The modern HTTPS URLs still use port 443.
+
+The increased importance of online security and the widespread adoption of HTTPS have contributed to the protection of user privacy and the integrity of data transmitted over the internet.
+

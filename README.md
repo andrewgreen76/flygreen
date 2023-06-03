@@ -27,8 +27,9 @@ __________________________________________________________________________
 > to modify
   - to hack ethically and creatively
 
+
 __________________________________________________________________________
-Topics and methods explored to an extent over the past 24-48 hours:
+TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
 - more networking protocols, architectures, paradigms
@@ -44,8 +45,10 @@ __________________________________________________________________________
   - git log 
   - git checkout [commit-hash] -- path
   - (need to cover ground with Git branches)
+
+
 __________________________________________________________________________
-Technical observations made over the past 24-48 hours:
+TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
 I created a variable in .bash_aliases for storing a path to the root of
@@ -55,13 +58,17 @@ care of untracked files. So I'm forced to come up with a trick for that.
 
 Edit: Using pwd, cut, and command substitution and concatenation, I managed
 to forge a powerful alias that could really save me a lot of time in every
-attempt to update any repo tied to my account GitHub account. 
+attempt to update any repo tied to my account GitHub account.
+
+
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________
 
 - maintaining [the Linux kernel] >>>or<<< systemd
-- An API / display server protocol for a 13h-like mode portable to any headless system. 
+- An API / display server protocol for a 13h-like mode portable to any headless system.
+
+
 __________________________________________________________________________
 CHOSEN PERSONAL PROJECT:
 __________________________________________________________________________

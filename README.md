@@ -31,17 +31,15 @@ __________________________________________________________________________
 Topics and methods explored to an extent over the past 24-48 hours:
 __________________________________________________________________________
 
+- more networking protocols, architectures, paradigms
+  - genesis
+  - purpose
+  - evolution
+  - potential replacements 
 - Bash :
   - more commands,
   - argument and variable management in scripts and sessions, 
-- daemons in general / outside of systemd
-  - (not specifically in the context of networking)
-  - importance 
-  - no daemons in Apple II 
-- systemd , systemd init
-  - unwieldy structure
-  - unit files
-  - system services / daemons 
+  - hacks/aliases to expedite the workflow with Git. 
 - GitHub troubleshoot :
   - git log 
   - git checkout [commit-hash] -- path

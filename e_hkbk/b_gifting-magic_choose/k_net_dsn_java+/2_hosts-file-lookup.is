@@ -1,0 +1,11 @@
+
+User
+Did that method have a name?
+ChatGPT
+
+Yes, the method of hostname resolution that relied on a centralized hosts file is commonly referred to as the "hosts file lookup" method. In this method, each computer maintained its own local hosts file, which served as a manual mapping of hostnames to IP addresses.
+
+The hosts file was a plain text file stored on the local file system of a computer. It contained a list of hostname-to-IP address mappings in a specific format. When a computer needed to resolve a hostname, it would first check its local hosts file to find the corresponding IP address. If a match was found, the IP address from the hosts file would be used for communication.
+
+The hosts file lookup method worked well in the early days of networking when the number of hosts on the internet was relatively small. However, as the number of hosts grew exponentially, maintaining and updating hosts files on every computer became impractical and inefficient. This led to the development of the DNS protocol as a more scalable and distributed approach to hostname resolution.
+

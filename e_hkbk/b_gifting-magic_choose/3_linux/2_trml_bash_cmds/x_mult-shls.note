@@ -1,0 +1,26 @@
+
+Can "export" work in custom shell executables written in Bash?
+ChatGPT
+
+Yes, the export command can be used in custom shell scripts written in Bash. When used in a script, the export command sets the value of an environment variable and makes it available to any child processes spawned by the script.
+
+Here's an example:
+
+bash
+
+#!/bin/bash
+
+# Set an environment variable
+export MY_VARIABLE="Hello, World!"
+
+# Use the environment variable in the script
+echo "Value of MY_VARIABLE: $MY_VARIABLE"
+
+# Spawn a child process and access the environment variable
+./child_script.sh
+
+In this example, the export command is used to set the value of the MY_VARIABLE environment variable. The variable is then accessed within the script using the $MY_VARIABLE syntax. If the script spawns a child process (e.g., by executing another script), the child process will inherit the environment variable and can access its value.
+
+It's important to note that the export command affects the environment of the current shell and any child processes. It does not modify the environment of the parent shell or any unrelated shells running concurrently.
+
+

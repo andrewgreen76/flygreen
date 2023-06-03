@@ -1,6 +1,4 @@
 
-================= TERMINAL: basic Linux terminal commands: ====================
-
 ls		- list contents of the current directory. 
 l		- list contents of curDir, points out which ones are subDirs. 
 		  (Does not work in bash scripts as it is an alias pre-written
@@ -30,3 +28,4 @@ pip show		- shows info about a Python package(s)
 |
 javac [prog.java]	- compile a Java program 
 java [prog]		- run the Java program 
+

@@ -66,7 +66,6 @@ CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________
 
 - maintaining [the Linux kernel] >>>or<<< systemd
-- An API / display server protocol for a 13h-like mode portable to any headless system.
 
 
 __________________________________________________________________________
@@ -84,4 +83,5 @@ __________________________________________________________________________
   - now: 1920x1200, 6 times both ways.
   - consider fair, authentic scaling. 
 - learn BIOS-kernel-API/DSP-distro ladder for that 
+- An API / display server protocol for a 13h-like mode portable to any headless system.
 

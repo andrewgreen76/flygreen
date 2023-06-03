@@ -1,5 +1,5 @@
 
-=== Basic streaming / printing commands: ===============================================================
+=== Basic streaming / printing commands: =========================================================
 
 echo		- repeats what you say 
 
@@ -42,7 +42,7 @@ mv [path/filename] [path/filename]	- moves file/dir to a different path and/or w
    		   			- That's right, this same command is used for renaming. 
 
 
-=== More auxilliary commands: ====================================================================
+=== More aux. cmds and opers: ====================================================================
 
 [cmd1] ; [cmd2]	- execute these commands in one chain. 
 

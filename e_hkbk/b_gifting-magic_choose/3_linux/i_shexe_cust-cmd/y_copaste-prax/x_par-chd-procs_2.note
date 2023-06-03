@@ -1,0 +1,29 @@
+
+User
+I have the following script: "#!/bin/bash
+
+kcurtaid="/"    # Don't forget the slash b/w the pwd and the local target. 
+export KCURT=$(pwd)$kcurtaid$1    # concat = cmd substtn + the slash + 1st arg. 
+echo $KCURT    # dbg stmt. ". The problem is that when I get out of the file into the shell and type "echo $KCURT", all it prints is a line feed instead of the value inside the variable from the script. What am I doing wrong?
+ChatGPT
+
+If you are running the script as a separate process (e.g., ./script.sh), the exported variable KCURT will not be available in your current shell session. Each process has its own environment, and exporting a variable makes it available to child processes but not to the parent process.
+
+To make the exported variable available in your current shell session, you need to source the script instead of running it as a separate process. Sourcing the script executes it within the current shell context, allowing the exported variable to be accessible in the current session.
+
+To source the script, use the source command or its shorthand notation . (dot). Here's an example:
+
+bash
+
+. ./script.sh
+
+or
+
+bash
+
+source ./script.sh
+
+By sourcing the script, the KCURT variable will be available in your current shell session, and you can access its value using echo $KCURT or any other commands.
+
+Note that when you run the script as a separate process, it creates a new shell session, and any exported variables are limited to that process only. Sourcing the script allows you to bring the exported variables into your current shell session and use them as desired.
+

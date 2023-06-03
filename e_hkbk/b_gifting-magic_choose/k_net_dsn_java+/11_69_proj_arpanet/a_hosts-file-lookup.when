@@ -1,0 +1,13 @@
+
+User
+What year was "hosts file lookup" officially deployed?
+ChatGPT
+
+The "hosts file lookup" method for hostname resolution was in use prior to the development and deployment of the Domain Name System (DNS). The exact year of its official deployment is difficult to pinpoint, as it predates the widespread adoption of networking protocols and the formalization of networking standards.
+
+However, the concept of using a hosts file for hostname resolution can be traced back to the early days of ARPANET, the predecessor to the internet. ARPANET was operational in the late 1960s and early 1970s, and during that time, computers on the network typically relied on hosts files for name-to-address mapping.
+
+It's important to note that the hosts file lookup method was not introduced as a standardized or official solution. Rather, it was a practical approach used by individual computer systems to resolve hostnames before the development of a more scalable and distributed system like DNS.
+
+With the deployment of DNS in the early 1980s, the hosts file lookup method gradually became obsolete for most networked systems. DNS offered a more efficient and flexible mechanism for hostname resolution, leading to its widespread adoption as the primary method for translating domain names to IP addresses on the internet.
+

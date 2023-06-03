@@ -3,7 +3,8 @@ sift through the cmds files.
 c, c++, javac, py 
 trees : red-black, k-d, etc.
 1hr : C++ and OpenCV : image-processing prog
-1hr : Rust : create an interactive text-based prog (text-ed) 
+1hr : Rust : create an interactive text-based prog (text-ed)
+networking arpanet-style : telnet, cmds, identify arch/prdm, etc. 
 Focus on : Rust, SSH, MOSH, linux servers, network management, systemd.  
 iPhone : how to termius, free SSH client, MOSH 
 learn git branches ; Re-learn how to merge in a Git repo	<<<	build a sandbox repo. 
@@ -25,7 +26,7 @@ add-on
 leveraging
 container technology
 Explore kernel vs. microkernel. 
-memory leak - definition 
+memory leak - definition, praxis 
 how does a sys know if smth is a val | var | ptr(addrOf2ndVar)
 revisit grid v. comp
 what does memgmt look like on the sys memmap ? 

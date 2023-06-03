@@ -1,0 +1,15 @@
+
+User
+What is SMTP?
+ChatGPT
+
+SMTP stands for Simple Mail Transfer Protocol. It is a standard protocol used for sending and receiving email messages over the internet. SMTP is a client-server protocol, where an email client (sender) communicates with an email server (receiver) to transmit the email messages.
+
+SMTP provides a set of rules and conventions for the exchange of email between the sender and recipient's mail servers. It specifies the format and structure of email messages, the commands used for initiating and terminating a session, and the handling of delivery status notifications.
+
+When an email is sent using SMTP, the sender's email client establishes a connection with the recipient's email server on port 25 (by default). The sender then issues SMTP commands to communicate the sender's email address, the recipient's email address, and the content of the email message. The email server receives the message, performs various checks and validations, and then delivers the email to the recipient's mailbox.
+
+SMTP is a text-based protocol, meaning that the commands and responses exchanged between the client and server are in plain text. However, modern SMTP implementations often include encryption mechanisms, such as SMTP over TLS (SMTPS) or STARTTLS, to secure the transmission of email messages and protect them from eavesdropping or tampering.
+
+SMTP is one of the foundational protocols of email communication and is widely supported by email servers and clients. It works in conjunction with other protocols, such as POP3 (Post Office Protocol version 3) or IMAP (Internet Message Access Protocol), which are used by email clients to retrieve email from the server.
+

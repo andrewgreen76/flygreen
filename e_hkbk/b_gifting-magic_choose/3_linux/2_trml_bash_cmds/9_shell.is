@@ -1,0 +1,7 @@
+
+A shell is a master process. What that means is: 
+- it triggers and allows the user to trigger its child processes.
+- every child process is "in its own world"
+  - i.e., certain things like vars are local to those children
+  - parent and peer process will not be aware of those vars. 
+

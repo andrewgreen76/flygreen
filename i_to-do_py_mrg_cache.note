@@ -1,22 +1,32 @@
 
 coughdrops
+laundry
 to teach or find work.
 |
-explore .bash_profile / .profile 
-Bash or write your own copy and paste commands
-sift through the cmds files. 
-memory leak - definition, praxis 
-how does a sys know if smth is a val | var | ptr(addrOf2ndVar)
-1hr : C++ and OpenCV : image-processing prog
-1hr : Rust : create an interactive text-based prog (text-ed)
+C in bites, definitions, praxis :
+- dangling,
+- memory leak 
+- typedef
+- struct
+- enum
+- etc 
+revisit grid v. comp
+unwrap 1_net.cht into the parent dir 
+add material on io-ports, net-ports to hackbook 
 networking arpanet-style : telnet, cmds, identify arch/prdm, etc. 
 Focus on : Rust, SSH, MOSH, linux servers, network management, systemd.  
 iPhone : how to termius, free SSH client, MOSH 
+Why do I need SSH for Wayland ? 
+1hr : Rust : create an interactive text-based prog (text-ed)
+explore .bash_profile / .profile 
+how does a sys know if smth is a val | var | ptr(addrOf2ndVar)
+1hr : C++ and OpenCV : image-processing prog
 learn git branches ; Re-learn how to merge in a Git repo	<<<	build a sandbox repo. 
 Start packing
 kids engr kit 
 Apply for : System76 / Canonical / Tesla. 
 Confirm the fw-usp order for coreboot
+Just do DOSBox 
 Research frameworks (toolsets) dedicated to building VMs, EMUs, Last Call BBS (Unity + ??)
 |
 +-- Learn to maintain the kernel (w/ KDevelop or Qt)
@@ -31,19 +41,11 @@ add-on
 leveraging
 container technology
 Explore kernel vs. microkernel. 
-revisit grid v. comp
 what does memgmt look like on the sys memmap ? 
-arbitrary subdivide: professional life | personal life
-	  	     ^> 
-add material on io-ports, net-ports to hackbook 
-Why do I need SSH for Wayland ? 
 troubleshoot the firefox/google business 
 analyze git mv pointer-looking things 
 unity engine arch
-.py for conv img to text 
-feed stream-or-arg to ps1/bash/py script
 fc
-unwrap 1_net.cht into the parent dir 
 
 
 .data

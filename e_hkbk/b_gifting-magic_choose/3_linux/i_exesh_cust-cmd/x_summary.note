@@ -1,0 +1,7 @@
+
+.bashrc	- benefits:
+- provides $ENVARS - these variables will be set up for the whole shell and persistently for every shell session.
+- export $VAR - makes the variable known only to child processes. 
+- aliases
+- supports config extension 
+

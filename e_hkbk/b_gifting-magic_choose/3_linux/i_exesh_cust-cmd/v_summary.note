@@ -1,4 +1,0 @@
-
-.bashrc	- benefits:
-- provides global variables - these variables will be set up for the whole shell and persistently for every shell session. 
-

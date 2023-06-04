@@ -25,7 +25,7 @@ find [down-from-dir] -name "*str-in-filename*"
 
 
 
-=== Streaming commands - advanced, practical use: ================================================
+=== Streaming commands - deceptively practical: ==================================================
 
 echo		- streams a specific string (to the prompt by default).
 

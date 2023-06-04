@@ -1,15 +1,19 @@
 
-=== Feeding commands/operators: ==================================================================
+=== More advanced streaming commands/operators: ==================================================================
 
-[cmd] > [file]		- feeds command output to a file, overwriting it
-[cmd] >> [file] 		- feeds command output to a file, appending to it
+[cmd] > [file]		- streams command output to a file, overwriting it
+[cmd] >> [file] 	- streams command output to a file, appending to it
 
-[cmd_l] | [cmd_r]
-- the pipe operator feeds output from [command_l] as an argument to [command_r]
+[cmd_l] | [cmd_r]	- the pipe operator streams output from [command_l] as an argument to [command_r]
+	  		- Does not work with
+ 			       [cmd] | echo	    and		[cmd] | cat
+			  You need the command substitution method for that. (Scan through below.) 
 
-[cmd] | tee [file]   	   - feeds command output to the file and to the shell, overwriting the file
-[cmd] | tee -a [file]	   - feeds command output to the file and to the shell, appending to the file
+[cmd] | tee [file]   	   - streams command output to the file and to the shell, overwriting the file
+[cmd] | tee -a [file]	   - streams command output to the file and to the shell, appending to the file
 
-[cmd] 2> [ermsg.txt] 	   - stderr : feeds the error message(s) to a file.  
-[cmd] &> [ermsg.txt]   	   - feeds the error message(s) to the shell and to the file. 
+[cmd] 2> [ermsg.txt] 	   - stderr : streams the error message(s) to a file.  
+[cmd] &> [ermsg.txt]   	   - streams the error message(s) to the shell and to the file. 
+
+cat "$([cmd])"		   - this COMMAND SUBSTITUTION streams command/composite output to the cat command. 
 

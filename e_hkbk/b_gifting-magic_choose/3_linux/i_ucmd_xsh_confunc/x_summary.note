@@ -25,7 +25,8 @@ aliases - drawbacks:
   - No way to implement an alias that takes args. Args within the value are nobody's args. An alias is just a shortcut. 
 
 xsh - benefits:
-- Don't have to write out "bash [script]" every time. Just write "./" instead for local executable scripts.
+- Unlike alises, they can accept args ($1, $2, etc.). 
+- Just write "./[script]" instead. Don't have to write out "bash [script]" every time. 
 - Can be used as commands iff sourced or moved to a PATH (e.g., /usr/local/bin). You can add any dir with xsh to PATH. 
 xsh - drawbacks:
 - The vars inside the script are local to that script.
@@ -34,9 +35,10 @@ xsh - drawbacks:
 - Do not support aliases. Alises only work within the shell, not scripts. 
 
 func - benefits:
-- will work with pre-defined $ENVARS ... because they are in a .config
-- will have an environment-wide effect ... because they are in a .config 
+- a more practical alternative to xsh : 
+  - Written directly into a to-be-sourced Bash config, they will have an environment-wide effect. No need to create, mod, and move a file. 
 - will account for args tied to the token that is to be interpreted as a command
-func - drawbacks:
+#will work with pre-defined $ENVARS ... because they are in a .config
+unc - drawbacks:
 - ??? 
 

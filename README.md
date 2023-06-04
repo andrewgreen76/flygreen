@@ -12,8 +12,8 @@ To help individuals, with or without a technical background, to:
   - internalize key programming and engineering concepts,
   - learn about different systems,
   - understand and build a perspective on modern computing through studying
-    its history. 
-
+    its history.
+    
 __________________________________________________________________________
 The MANIFESTO is:
 __________________________________________________________________________
@@ -26,23 +26,28 @@ __________________________________________________________________________
   - to learn
 > to modify
   - to hack ethically and creatively
-
-
+  
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
+- Bash :
+  - command substitution (with cat, grep, etc.)
+  - argument and variable management in scripts and sessions, 
+  - understanding the role, the value, the pros, and the cons of :
+    - local variables
+    - environment variables
+    - the tree-like nature of the shell and its processes
+    - aliases
+    - executable scripts
+    - functions in Bash configs 
+  - hacks/aliases to expedite the workflow with Git. 
 - more networking protocols, architectures, paradigms
   - genesis
   - purpose
   - evolution
-  - potential replacements 
-- Bash :
-  - more commands,
-  - argument and variable management in scripts and sessions, 
-  - hacks/aliases to expedite the workflow with Git. 
-
-
+  - potential replacements
+  
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
@@ -56,13 +61,11 @@ Edit: Using pwd, cut, and command substitution and concatenation, I managed
 to forge a powerful alias that could really save me a lot of time in every
 attempt to update any repo tied to my account GitHub account.
 
-
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________
 
 - maintaining [the Linux kernel] >>>or<<< systemd
-
 
 __________________________________________________________________________
 CHOSEN PERSONAL PROJECT:

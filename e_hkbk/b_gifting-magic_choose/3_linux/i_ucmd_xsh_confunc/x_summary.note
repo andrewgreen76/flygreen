@@ -1,4 +1,9 @@
 
+It is best to learn through practice and then sum things up.
+You are welcome to write your own summary if you think it'll help. 
+
+=============================================================================================
+
 $vars - benefits:
 - can store data
 $vars - drawbacks:
@@ -23,10 +28,10 @@ xsh - benefits:
 - Don't have to write out "bash [script]" every time. Just write "./" instead for local executable scripts.
 - Can be used as commands iff sourced or moved to a PATH (e.g., /usr/local/bin). You can add any dir with xsh to PATH. 
 xsh - drawbacks:
-- Does not support $ENVARS. 
-  - The vars inside the script are local to that script.
+- The vars inside the script are local to that script.
   - Script vars will not reflect on the processes triggered from within that script unless those vars are exported.
   - Script vars will have no impact on the parent processes, the peer processes, or their children.
+- Do not support aliases. Alises only work within the shell, not scripts. 
 
 func - benefits:
 - will work with pre-defined $ENVARS ... because they are in a .config

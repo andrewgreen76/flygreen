@@ -1,0 +1,18 @@
+
+What happens if I put an executable script "x" in a dir in PATH and write an alias for "x" in .bashrc? Will there be a conflict or supercedence?
+ChatGPT
+
+If you have both an executable script named "x" in a directory listed in the PATH variable and an alias for "x" defined in your .bashrc, the alias will take precedence over the executable script when you enter "x" in the shell.
+
+Aliases are evaluated before searching for executables in the PATH. So, if there is an alias defined for "x" in your .bashrc, that alias will be expanded and executed when you enter "x" in the shell, even if there is an executable script with the same name in a directory listed in PATH.
+
+To execute the actual script instead of the alias, you can use the command built-in before the script name. For example:
+
+bash
+
+command x
+
+This will bypass the alias and execute the script directly.
+
+Alternatively, you can choose a different name for either the alias or the script to avoid the conflict.
+

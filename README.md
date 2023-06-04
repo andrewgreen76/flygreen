@@ -71,6 +71,9 @@ __________________________________________________________________________
 CHOSEN PERSONAL PROJECT:
 __________________________________________________________________________
 
+- Just A GAME FOR DOSBOX is fine.
+|
+|
 - a virtual machine,
 - an emulator,
 - or a video game that poses as an operating system (a la Last Call BBS).

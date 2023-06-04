@@ -23,3 +23,8 @@ This tells the system to use the Bash interpreter to execute the script.
 Overall, including a shebang line at the start of a script is considered good practice as it ensures the script is executed correctly and consistently, regardless of the system or environment in which it is run.
 
 
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+NOTE THAT THE SHEBANG LINE IS ONLY APPLICABLE TO SCRIPTS THAT ARE INTENDED TO BE EXECUTED DIRECTLY, NOT FOR SCRIPTS THAT ARE SOURCED WITHIN ANOTHER SCRIPT OR INTERPRETED IN A DIFFERENT MANNER.
+

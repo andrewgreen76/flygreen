@@ -1,0 +1,17 @@
+
+bash
+
+if [ -f ~/.gcmds ]; then
+    . ~/.gcmds
+fi
+
+    if [ -f ~/.gcmds ]: This line checks if a file named ~/.gcmds exists and is a regular file. The [ -f ~/.gcmds ] is a test condition that checks the file attributes. The -f option checks if the given path exists and is a regular file.
+
+    then: If the condition in the if statement evaluates to true, the code within the then block will be executed.
+
+    . ~/.gcmds: This line sources (executes) the file ~/.gcmds in the current shell session. The . is a built-in command in Bash used for sourcing scripts, and ~/.gcmds is the path to the script to be sourced. Sourcing a script means running its commands in the current shell environment, allowing any changes or additions made in the script to affect the current session.
+
+    fi: This marks the end of the if statement.
+
+In summary, the code checks if the file ~/.gcmds exists, and if it does, it sources (executes) the commands in that file in the current shell session. This allows the commands in ~/.gcmds to be run and any changes or additions made in that file to take effect in the current session.
+

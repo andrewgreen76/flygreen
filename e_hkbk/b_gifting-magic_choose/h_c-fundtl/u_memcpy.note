@@ -1,5 +1,5 @@
 
-memcpy(bufferData, &(uint32_t)0xFFFFFFFF, sizeof(uint
+memcpy(bufferData, &(uint32_t)0xFFFFFFFF, sizeof(uint)
 
 User
 What role does the function memcpy() play in the code above?

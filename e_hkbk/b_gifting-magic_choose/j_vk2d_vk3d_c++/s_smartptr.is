@@ -1,0 +1,10 @@
+
+When were smart pointers introduced in C++?
+ChatGPT
+
+Smart pointers were introduced in C++ with the release of the C++11 standard. The C++11 standard, also known as C++11 or C++0x, was finalized and published in 2011. It introduced several new features and improvements to the C++ language, including the addition of smart pointers.
+
+Smart pointers are a type of C++ class template that provide automatic memory management for dynamically allocated objects. They help manage the lifetime of objects by automatically deallocating the memory when it is no longer needed. The most commonly used smart pointers in C++ are std::unique_ptr, std::shared_ptr, and std::weak_ptr.
+
+These smart pointers have become an essential part of modern C++ programming, enabling safer and more efficient memory management compared to raw pointers. They help prevent common memory-related bugs such as memory leaks and dangling pointers.
+

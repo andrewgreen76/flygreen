@@ -40,7 +40,8 @@ __________________________________________________________________________
     - the tree-like nature of the shell and its processes
     - aliases
     - executable scripts
-    - functions in Bash configs 
+    - functions in Bash configs
+  - forging and deploying custom bash funcs (which was painful but fun) 
   - hacks/aliases to expedite the workflow with Git. 
 - more networking protocols, architectures, paradigms
   - genesis

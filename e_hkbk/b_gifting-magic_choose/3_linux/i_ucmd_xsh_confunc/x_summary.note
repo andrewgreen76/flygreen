@@ -44,11 +44,11 @@ xsh, sourced or in PATH - drawbacks:
 - Same as with xsh not in the PATH. 
 
 
-func - benefits:
+bash conf func - benefits:
 - a more practical alternative to xsh : 
   - Written directly into a to-be-sourced Bash config, they will have an environment-wide effect. No need to create, mod, and move a file. 
 - will account for args tied to the token that is to be interpreted as a command
-#will work with pre-defined $ENVARS ... because they are in a .config
-unc - drawbacks:
-- ??? 
+- #will work with pre-defined $ENVARS ... because they are in a .config
+bash conf func - drawbacks:
+- not well implemented : you have to put something, at least as small as echo, for the sourcing to work. 
 

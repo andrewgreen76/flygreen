@@ -13,16 +13,3 @@
 [cmd] 2> [ermsg.txt] 	   - stderr : feeds the error message(s) to a file.  
 [cmd] &> [ermsg.txt]   	   - feeds the error message(s) to the shell and to the file. 
 
-
-
-=== Compile and run: ==================================================================
-
-gcc [p].c -o [p.out] 	- compile a c program
-./[p.out]		- run a c program 
-|
-python3 [script].py	- runs a python script (python 3 - latest version series)
-pip show		- shows info about a python package(s) 
-|
-javac [prog.java]	- compile a java program 
-java [prog]		- run the java program 
-

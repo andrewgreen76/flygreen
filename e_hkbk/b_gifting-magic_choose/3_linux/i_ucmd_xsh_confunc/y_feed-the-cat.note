@@ -1,0 +1,10 @@
+
+/home/andrew/flygreen/z_pack/notes-value/pull-rebase.note
+
+
+git config pull.rebase true
+git config --global pull.rebase true
+git config pull.rebase false
+git config pull.tty
+
+

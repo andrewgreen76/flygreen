@@ -41,10 +41,6 @@ __________________________________________________________________________
   - more commands,
   - argument and variable management in scripts and sessions, 
   - hacks/aliases to expedite the workflow with Git. 
-- GitHub troubleshoot :
-  - git log 
-  - git checkout [commit-hash] -- path
-  - (need to cover ground with Git branches)
 
 
 __________________________________________________________________________

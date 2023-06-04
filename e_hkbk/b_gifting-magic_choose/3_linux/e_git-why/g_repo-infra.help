@@ -1,0 +1,6 @@
+
+- GitHub troubleshoot :
+  - git log 
+  - git checkout [commit-hash] -- path
+  - (need to cover ground with Git branches)
+

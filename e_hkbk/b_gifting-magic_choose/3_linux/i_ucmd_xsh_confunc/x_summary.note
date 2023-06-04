@@ -4,14 +4,14 @@ $vars - benefits:
 $vars - drawbacks:
 - have limited impact within the tree-like structure of shell processes.
 
-$ENVARS - benefits:
-- vars defined in .bashrc and its extensions, meaning they will have a far-reaching impact within the shell
-  (once the Bash terminal is restarted or .bashrc is sourced).
-
 .bashrc	- benefits:
 - provides $ENVARS - these variables will be set up for the whole shell and persistently for every shell session.
 - aliases
 - supports config extension
+
+$ENVARS - benefits:
+- vars defined in .bashrc and its extensions, meaning they will have a far-reaching impact within the shell
+  (once the Bash terminal is restarted or .bashrc is sourced).
 
 aliases - benefits:
 - AWESOME SHORTCUTS
@@ -19,13 +19,19 @@ aliases - drawbacks:
 - interpreted immediately ; interp does not account for the args on time.
   - No way to implement an alias that takes args. Args within the value are nobody's args. An alias is just a shortcut. 
 
-exesh - benefits:
+xsh - benefits:
 - Don't have to write out "bash [script]" every time. Just write "./" instead for local executable scripts.
-- Can be converted to commands. (DON'T FORGET TO SOURCE THEM OR MOVE THEM TO /usr/local/bin !!!)
-exesh - drawbacks:
-- The vars inside the script are local to that script.
-  - They will not reflect on the processes triggered from within that script unless those vars are exported.
-  - They will have no impact on the parent processes, the peer processes, or their children.
+- Can be used as commands iff sourced or moved to a PATH (e.g., /usr/local/bin). You can add any dir with xsh to PATH. 
+xsh - drawbacks:
+- Does not support $ENVARS. 
+  - The vars inside the script are local to that script.
+  - Script vars will not reflect on the processes triggered from within that script unless those vars are exported.
+  - Script vars will have no impact on the parent processes, the peer processes, or their children.
 
--
+func - benefits:
+- will work with pre-defined $ENVARS ... because they are in a .config
+- will have an environment-wide effect ... because they are in a .config 
+- will account for args tied to the token that is to be interpreted as a command
+func - drawbacks:
+- ??? 
 

@@ -1,5 +1,4 @@
 
-
 I created a variable in .bash_aliases for storing a path to the root of
 the working repo. It wasn't working for a while until I sourced .bashrc,
 and then it worked. "git add ." can only take you so far - it won't take

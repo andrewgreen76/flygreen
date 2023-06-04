@@ -43,24 +43,10 @@ __________________________________________________________________________
     - functions in Bash configs
   - forging and deploying custom bash funcs (which was painful but fun) 
   - hacks/aliases to expedite the workflow with Git. 
-- more networking protocols, architectures, paradigms
-  - genesis
-  - purpose
-  - evolution
-  - potential replacements
   
 __________________________________________________________________________
-TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
+TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:	 >>>	to trblsht/tech support dirs. 
 __________________________________________________________________________
-
-I created a variable in .bash_aliases for storing a path to the root of
-the working repo. It wasn't working for a while until I sourced .bashrc,
-and then it worked. "git add ." can only take you so far - it won't take
-care of untracked files. So I'm forced to come up with a trick for that.
-
-Edit: Using pwd, cut, and command substitution and concatenation, I managed
-to forge a powerful alias that could really save me a lot of time in every
-attempt to update any repo tied to my account GitHub account.
 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:

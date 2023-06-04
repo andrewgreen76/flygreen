@@ -1,0 +1,24 @@
+
+Bash configs have a way of retaining variables with values that were removed
+after having been sourced. 
+
+"
+User
+It appears that closing and reopening the terminal works but sourcing does not. Are you familiar with a shell/terminal behavior like this?
+ChatGPT
+
+If you are experiencing a situation where removing a variable assignment from a Bash configuration file and sourcing the file does not take effect immediately, but closing and reopening the terminal does, it could be due to the way the shell and terminal handle environment variables and configuration files.
+
+When you open a new terminal, the shell initializes and reads the configuration files (such as .bashrc) to set up the environment for the new shell session. Any changes made to these configuration files will take effect when a new shell session starts.
+
+However, when you source a configuration file in an existing shell session, it updates the environment variables and settings within that session without reinitializing the entire shell. In some cases, certain changes may not take effect immediately because the current shell session may still retain the previous state or cached values.
+
+To ensure that changes made to the configuration files take effect in the current shell session, you can try the following:
+
+    Use the source command instead of the . (dot) operator to explicitly source the file: source ~/.bashrc or source /path/to/config-file.
+    After sourcing the file, use the source command again to refresh the environment: source ~/.bashrc or source /path/to/config-file.
+
+By explicitly using the source command and refreshing the environment, you can help ensure that the changes in the configuration file are applied correctly in the current shell session.
+
+If you are still experiencing issues with the changes not taking effect, it's recommended to check for any other scripts or configuration files that might be overriding or conflicting with the changes you are making.
+"

@@ -8,7 +8,7 @@ gs () {
 }
 
 #git drop+dup
-gc () {
+gr () {
     cp $ABS_PATH_AND_TRG ./
     echo "Cloned and dropped: $ABS_PATH_AND_TRG"
 }

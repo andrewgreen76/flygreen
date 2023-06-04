@@ -1,6 +1,0 @@
-
-#!/bin/bash
-
-kcurtaid="/"    # Don't forget the slash b/w the pwd and the local target. 
-export KCURT=$(pwd)$kcurtaid$1    # concat = cmd substtn + the slash + 1st arg. 
-

@@ -1,18 +1,20 @@
 SLASH="/"
-ABSPATH=""
+ABS_PATH_AND_TRG=""
 
 # git store
 gs () {
-    ABSPATH=$(pwd)$SLASH$1
-    echo "Stored: $ABSPATH"
+    ABS_PATH_AND_TRG=$(pwd)$SLASH$1
+    echo "Stored: $ABS_PATH_AND_TRG"
 }
 
 #git drop+dup
-gd () {
-    echo "Cloned and dropped: $ABSPATH"
+gc () {
+    cp $ABS_PATH_AND_TRG ./
+    echo "Cloned and dropped: $ABS_PATH_AND_TRG"
 }
 
 #git move
 gm () {
-    echo "Removed and dropped: $ABSPATH"
+    git mv $ABS_PATH_AND_TRG ./
+    echo "Removed and dropped: $ABS_PATH_AND_TRG"
 }

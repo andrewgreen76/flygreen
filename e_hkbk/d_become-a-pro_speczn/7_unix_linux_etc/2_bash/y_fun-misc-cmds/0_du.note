@@ -1,0 +1,13 @@
+
+User
+What is the Bash command for displaying the size of a targeted file?
+ChatGPT
+
+The du command can be used to display the size of a file or directory in Bash. By default, it provides the size in bytes. Here's an example:
+
+bash
+
+du -h /path/to/file
+
+Replace /path/to/file with the actual path to the file you want to check. The -h option is used to display the size in human-readable format (e.g., "10K", "5M", "2G") for easier interpretation.
+

@@ -1,13 +1,12 @@
+def equal_len(x, y, /):
+    if len(x) == len(y):
+        return True
+    else:
+        return False
 
-def func():
-    a, *b, = ["Harry","Precious", "Peter"]
-    names = b
-    return "peter" in names
-    
-    # print("This is a:", a)
-    # print("This is b:", b)
-    # print(type(*b,))   - type() take 1 or 3 args ? 
+message = "Hello, World!"
 
-print(func())
+str_message = str(message)
+repr_message = repr(message)
 
-# *b,   - is of type 'list'. 
+print(equal_len(str_message, repr_message))

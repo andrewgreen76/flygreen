@@ -5,6 +5,9 @@ coughdrops
 to teach or find work.
 |
 C in bites, definitions, praxis :
+- brush up on :
+  - fscanf(),		# fileprint?
+  - sprintf(), etc	# storeprint?
 - dangling,
 - memory leak 
 - memcpy() / Turbo C

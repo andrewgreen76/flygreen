@@ -6,6 +6,7 @@ to teach or find work.
 C in bites, definitions, praxis :
 - dangling,
 - memory leak 
+- memcpy() / Turbo C
 - typedef
 - struct
 - enum

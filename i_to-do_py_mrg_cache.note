@@ -1,5 +1,4 @@
 
-coughdrops
 exchange denominations
 list of stipulations for :
 - getting work
@@ -9,16 +8,11 @@ bring up connectivity for potential Zoom interviews
 to teach or find work.
 |
 C in bites, definitions, praxis :
-- brush up on :
-  - fscanf(),		# fileprint?
-  - sprintf(), etc	# storeprint?
-- dangling,
-- memory leak 
+- brush up on strms()/manips()
 - memcpy() / Turbo C
 - typedef
 - struct
 - enum
-- etc 
 revisit grid v. comp
 unwrap 1_net.cht into the parent dir 
 add material on io-ports, net-ports to hackbook 

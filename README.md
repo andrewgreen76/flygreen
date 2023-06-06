@@ -33,25 +33,22 @@ __________________________________________________________________________
 
 - Bash :
   - command substitution (with cat, grep, etc.)
-  - argument and variable management in scripts and sessions, 
   - understanding the role, the value, the pros, and the cons of :
     - local variables
     - environment variables
     - the tree-like nature of the shell and its processes
-    - aliases
-    - executable scripts
     - functions in Bash configs
   - forging and deploying custom bash funcs (which was painful but fun) 
-  - hacks/aliases to expedite the workflow with Git. 
   
 __________________________________________________________________________
-TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:	 >>>	to trblsht/tech support dirs. 
-__________________________________________________________________________
-
+TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
+ >>>	to trblsht/tech support dirs. 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________
 
+- (TBA)
+v too bold ; let's do something simple ^ 
 - maintaining [the Linux kernel] >>>or<<< systemd
 
 __________________________________________________________________________

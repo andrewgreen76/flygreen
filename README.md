@@ -58,8 +58,13 @@ Linux Ubuntu may have complicated things on the kernel level.
 Perhaps I should do something about it. I'm not going to sacrifice my time
 studying C, Rust, the Pop!_OS kernel, coreboot, and systemd for writing
 an entire codebase for a safe, highly abstracted mirror of C, a fake,
-that could tap into any hardware. But maybe there's something I could do
-inside DOSBox if at all. 
+that could tap into any hardware.
+
+1) VM:
+- 
+
+2) DOSBox:
+- But maybe there's something I could do inside DOSBox if at all. 
 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:

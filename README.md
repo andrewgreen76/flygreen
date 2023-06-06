@@ -31,7 +31,8 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
-- The near death of TurboC. 
+- The near death of TurboC.
+- Modern C : pointers, arrays, streaming, data manipulation 
 - Bash :
   - command substitution (with cat, grep, etc.)
   - understanding the role, the value, the pros, and the cons of :

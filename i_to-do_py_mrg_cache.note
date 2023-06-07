@@ -5,8 +5,7 @@
 - typedef
 - struct
 - enum
-install TC++ on Win on CyberPowerPC 
-emu8086
+install TC++ (INTERVIEW Q-NS) on Win on CyberPowerPC 
 rest api 
 tpu
 rtos
@@ -14,13 +13,12 @@ iot
 cloud - when
 exchange denominations
 list of stipulations for :
-- getting work
+- getting work (interview q-ns, courses)
+  - Get a cert (Udemy, Coursera)
+- getting an ID (?? paystubs ??) 
 - getting a car
-- getting an ID 
-bring up connectivity for potential Zoom interviews 
 to teach or find work.
 |
-Get a cert (Udemy, Coursera)
 unwrap 1_net.cht into the parent dir 
 add material on io-ports, net-ports to hackbook 
 networking arpanet-style : telnet, cmds, identify arch/prdm, etc. 

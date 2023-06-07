@@ -1,4 +1,11 @@
 
+- segfault
+- brush up on strms()/manips()
+- memcpy() / Turbo C
+- typedef
+- struct
+- enum
+install TC++ on Win on CyberPowerPC 
 emu8086
 rest api 
 tpu
@@ -13,13 +20,6 @@ list of stipulations for :
 bring up connectivity for potential Zoom interviews 
 to teach or find work.
 |
-C in bites, definitions, praxis :
-- segfault
-- brush up on strms()/manips()
-- memcpy() / Turbo C
-- typedef
-- struct
-- enum
 Get a cert (Udemy, Coursera)
 unwrap 1_net.cht into the parent dir 
 add material on io-ports, net-ports to hackbook 

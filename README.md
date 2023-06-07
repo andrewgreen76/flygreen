@@ -79,7 +79,7 @@ __________________________________________________________________________
 
 - Just A GAME FOR DOSBOX is fine.
 - own package -or- release / command. 
-> 
+> |
 > -
 - a virtual machine,
 - an emulator,

@@ -1,0 +1,20 @@
+
+What is a pointer:
+
+a variable 
+holds value = address of another var
+Why?
+How does a machine know whether what it's looking at in the memory is a var? 
+
+
+
+What's a pointer good for:
+
+var aliasing	 // make a short alias for a long name in a local scope. 
+?? remembering a file/dir, but not by the path ??
+taste : head, linked list
+Anything else ? 
+
+
+
+Pointers are used in a professional work environment to efficiently manipulate and manage memory, facilitate data structures and algorithms, enable dynamic memory allocation, and optimize performance in low-level programming tasks.

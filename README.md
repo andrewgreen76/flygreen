@@ -42,8 +42,8 @@ __________________________________________________________________________
 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
-
 >>>	to trblsht/tech support dirs.
+__________________________________________________________________________
 
 It is pretty upsetting that TurboC(++) is not cross-platform. That means
 it can't be used at all for educational purposes. I understand that we have

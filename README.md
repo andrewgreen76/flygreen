@@ -31,6 +31,9 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
+- GPU servers 
+- edge computing, cloud, ASPs (SaaS), grid computing 
+- embedded systems dev vs. system software dev. 
 - The near death of TurboC (compatibility issues, etc.)
 - Modern C / systems engineering:
   - basic : pointers, arrays, streaming, data manipulation

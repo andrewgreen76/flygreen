@@ -79,8 +79,8 @@ __________________________________________________________________________
 
 - Just A GAME FOR DOSBOX is fine.
 - own package -or- release / command. 
-|
-|
+> 
+> -
 - a virtual machine,
 - an emulator,
 - or a video game that poses as an operating system (a la Last Call BBS).

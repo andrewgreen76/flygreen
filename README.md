@@ -31,18 +31,10 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
-- The near death of TurboC.
-- Modern C :
+- The near death of TurboC (compatibility issues, etc.)
+- Modern C / systems engineering:
   - basic : pointers, arrays, streaming, data manipulation
-  - intermed : externs, unions, understanding orders of tokens at var init/def time. 
-- Bash :
-  - command substitution (with cat, grep, etc.)
-  - understanding the role, the value, the pros, and the cons of :
-    - local variables
-    - environment variables
-    - the tree-like nature of the shell and its processes
-    - functions in Bash configs
-  - forging and deploying custom bash funcs (which was painful but fun) 
+  - intermed : externs, unions, orders of tokens at var init/def time, reg. mdfr  
 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:

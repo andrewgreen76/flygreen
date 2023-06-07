@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcc b_add.c -o run.out
+gcc f_os-macros.c -o run.out
 
 ./run.out
 

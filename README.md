@@ -31,7 +31,7 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
-- Sybase , RSA basics 
+- Sybase, SAP ASE ; RSA basics 
 - GPU servers 
 - edge computing, cloud, ASPs (SaaS), grid computing 
 - embedded systems dev vs. system software dev. 

@@ -1,0 +1,23 @@
+
+User
+What is JDBC?
+ChatGPT
+
+JDBC (Java Database Connectivity) is an API (Application Programming Interface) that provides a standard way for Java applications to interact with databases. It allows Java programs to connect to and communicate with various database systems using the Java programming language.
+
+The JDBC API provides a set of classes and interfaces that define methods and behaviors for database connectivity and database operations. It abstracts the underlying details of different databases and provides a uniform interface that developers can use to work with databases in a consistent manner.
+
+With JDBC, developers can perform tasks such as establishing a connection to a database, executing SQL queries, retrieving and manipulating data, and managing transactions. JDBC supports a wide range of database systems, including popular ones like Oracle, MySQL, Microsoft SQL Server, PostgreSQL, and more.
+
+The key components of JDBC include:
+
+    DriverManager: Provides methods to establish a database connection.
+
+    Connection: Represents a connection to a database and allows executing SQL statements and managing transactions.
+
+    Statement and PreparedStatement: Allows executing SQL queries and statements on the database.
+
+    ResultSet: Represents the result of a query and provides methods to retrieve and manipulate data from the query result.
+
+JDBC plays a crucial role in enabling Java applications to integrate with relational databases seamlessly. It provides a standardized approach for database connectivity and is widely used in Java-based applications ranging from simple desktop applications to complex enterprise systems.
+

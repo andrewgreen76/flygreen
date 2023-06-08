@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcc 5_hello-err.c -o run.out
+gcc  m_string/string-ex.c -o run.out
 
 ./run.out
 

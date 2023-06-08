@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcc h_wchar.c -o run.out
+gcc 5_hello-err.c -o run.out
 
 ./run.out
 

@@ -1,12 +1,13 @@
 
 #include "stdio.h"
-#include "string.h"
+//#include "string.h"
 
 int main() 
 {
-  string a = "Hello, ", b = "world!";
+  //string a = "Hello, ", b = "world!";
+  char a[10] = "Hello"; 
   
-  printf("\n\n\n");
+  printf("\n%s%s\n\n", a, b);
 
   return 0;
 }

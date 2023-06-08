@@ -1,14 +1,10 @@
 
-#include "stdio.h"
-//#include "string.h"
+#include <stdio.h>
 
 int main() 
 {
-  //string a = "Hello, ", b = "world!";
-  char a[10] = "Hello"; 
-  
-  printf("\n%s%s\n\n", a, b);
+    printf("\nHello, world\n\n");
 
-  return 0;
+    return 0;
 }
 

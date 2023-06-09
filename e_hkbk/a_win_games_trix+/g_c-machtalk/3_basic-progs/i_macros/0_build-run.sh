@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcc 5_arithm.c -o run.out
+gcc 7_min.c -o run.out
 
 ./run.out
 

@@ -1,0 +1,28 @@
+
+User
+Why are some macro symbols bookended with "__"?
+ChatGPT
+
+In C, macro symbols that are bookended with double underscores, such as __symbol__, are reserved for the implementation-defined or compiler-specific use. These symbols are typically defined by the compiler or the standard library and serve specific purposes.
+
+The C language specification reserves certain naming patterns to avoid conflicts with user-defined symbols and to provide a clear distinction between language keywords, library functions, and implementation-specific features. By using the double underscore prefix and suffix, these symbols are less likely to collide with user-defined symbols.
+
+For example, compiler-specific macros and predefined symbols, such as __FILE__ and __LINE__, are defined with double underscores to indicate that they are implementation-specific and should not be used for other purposes. These macros provide information about the current source file and line number, respectively, and are often used for debugging or error reporting purposes.
+
+Here's an example usage of __FILE__ and __LINE__:
+
+c
+
+#include <stdio.h>
+
+int main() {
+    printf("This message is printed from file: %s\n", __FILE__);
+    printf("Line number: %d\n", __LINE__);
+
+    return 0;
+}
+
+When this code is compiled and executed, it will display the name of the current source file and the line number where the printf statements are located.
+
+It's important to note that while using such implementation-defined macros and symbols can be useful, they should be used with caution, as they may vary across different compilers and platforms. It is generally recommended to consult the documentation or specific compiler references to understand the meaning and usage of such symbols in a particular context.
+

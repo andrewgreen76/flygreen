@@ -1,0 +1,3 @@
+
+It's important to note that the automatic destruction of objects applies only to objects with automatic storage duration (i.e., objects not created using new). Objects created with new require manual deletion using delete to avoid memory leaks, as they have dynamic storage duration.
+

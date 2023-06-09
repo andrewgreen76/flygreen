@@ -1,6 +1,4 @@
 
-macros
-wide characters
 good taste
 .txt file w/ macros from CForge > here.
  - #debugging error messages
@@ -10,14 +8,13 @@ C :
 - memcpy() / Turbo C
 - typedef
 - struct
-- enum
+C / C++ exceptions 
 install TC++ (INTERVIEW Q-NS) on Win on CyberPowerPC 
 rest api 
 tpu
 rtos
 iot
 cloud - when
-exchange denominations
 list of stipulations for :
 - getting work (interview q-ns, courses)
   - Get a cert (Udemy, Coursera)

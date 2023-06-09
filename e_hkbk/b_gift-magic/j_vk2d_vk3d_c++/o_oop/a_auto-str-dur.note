@@ -1,0 +1,41 @@
+
+I was told that when a C++ program exits a scope at runtime, a locally created object then gets automatically destroyed without a need of the "delete" command. Is that true? 
+ChatGPT
+
+Yes, that statement is true. In C++, when an object is created within a scope (such as a function or a block enclosed by curly braces), the object's destructor is automatically called when the scope is exited at runtime. This automatic destruction of objects is a fundamental feature of C++ known as automatic storage duration or automatic object lifetime management.
+
+The purpose of a destructor is to clean up any resources acquired by the object during its lifetime. This could include freeing memory, closing files, releasing locks, or any other necessary cleanup operations.
+
+Unlike objects created with dynamic allocation using the new keyword, which require manual deallocation with the delete operator, objects with automatic storage duration are automatically destroyed when they go out of scope. This automatic destruction simplifies memory management and helps prevent resource leaks and memory errors.
+
+Here's an example to illustrate the automatic destruction of objects:
+
+cpp
+
+#include <iostream>
+
+class MyClass {
+public:
+    MyClass() {
+        std::cout << "Constructor called" << std::endl;
+    }
+
+    ~MyClass() {
+        std::cout << "Destructor called" << std::endl;
+    }
+};
+
+void someFunction() {
+    MyClass obj;  // Object created within the scope of someFunction()
+    // ...
+}  // Object "obj" is automatically destroyed here
+
+int main() {
+    someFunction();
+    // ...
+    return 0;
+}  // Object "obj" is automatically destroyed here
+
+In the example above, when someFunction() is called, an instance of MyClass named obj is created within its scope. When the function returns or reaches the end of its scope, the destructor of obj is automatically called, and the message "Destructor called" is printed to the console. The same thing happens when the main() function finishes execution.
+
+

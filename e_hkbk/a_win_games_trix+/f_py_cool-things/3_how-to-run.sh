@@ -1,1 +1,3 @@
-python3 2_hello.py
+#!/bin/bash
+
+echo "Hello, World!"

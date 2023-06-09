@@ -1,5 +1,4 @@
 
-can't run py script from bash script
 statically typed:
 - determined/accessible at compile-time
 - not accessible during runtime. 

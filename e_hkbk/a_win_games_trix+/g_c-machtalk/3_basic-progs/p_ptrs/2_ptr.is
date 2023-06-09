@@ -3,7 +3,9 @@ What is a pointer:
 
 a variable 
 holds value = address of another var
-Why?
+What for? How is it used?  
+
+
 How does a machine know whether what it's looking at in the memory is a var? 
 
 
@@ -18,3 +20,4 @@ Anything else ?
 
 
 Pointers are used in a professional work environment to efficiently manipulate and manage memory, facilitate data structures and algorithms, enable dynamic memory allocation, and optimize performance in low-level programming tasks.
+

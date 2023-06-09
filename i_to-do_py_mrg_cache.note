@@ -1,5 +1,26 @@
 
+statically typed:
+- determined/accessible at compile-time
+- not accessible during runtime. 
+objects :
+- structs :
+  - organization,
+  - (using ptrs to build and manip. data structures - not to be confused with structs)
+    - data structures retain node organization
+    - data structures retain their own organization
+    - data structures help us use memory economically (keep us away from memory bottlenecking) 
+- (unions) 
+ptrs :
+- problems w/o ptrs:
+  - 
+  - tying objects together to make structures
+  - 
+- purpose:
+  - dyn.memgmt,
+  - distant recall (remembering without moving),
+  - aliasing ("I hate having to write the identifier for the same memory address")
 good taste
+create anchoring bash-funcs 
 .txt file w/ macros from CForge > here.
  - #debugging error messages
 C : 

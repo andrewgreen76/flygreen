@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcc  m_string/string-ex.c -o run.out
+gcc  m_string/string-ex.c -o zrun.out
 
-./run.out
+./zrun.out
 

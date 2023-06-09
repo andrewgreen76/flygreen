@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcc  m_string/string-ex.c -o run.out
+gcc a_ptr.c -o run.out
 
 ./run.out
 

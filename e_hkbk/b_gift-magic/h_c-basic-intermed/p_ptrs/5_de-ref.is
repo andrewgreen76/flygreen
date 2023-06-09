@@ -1,0 +1,25 @@
+
+User
+In C, what operator or symbol do I use for referencing and what do I use for de-referencing a pointer?
+ChatGPT
+
+In C, the unary & operator is used for referencing, and the unary * operator is used for dereferencing a pointer.
+
+    Referencing (&): The & operator is used to obtain the memory address of a variable, creating a pointer to that variable. It is often used when assigning a value to a pointer or passing the address of a variable as a function argument.
+
+c
+
+int num = 42;
+int* ptr = &num;  // ptr now holds the memory address of num
+
+    Dereferencing (*): The * operator is used to access the value stored at the memory address pointed to by a pointer. It is used to retrieve or modify the value stored in the memory location pointed to by the pointer.
+
+c
+
+int value = *ptr;  // Dereferencing ptr to get the value at the memory address it points to
+*ptr = 10;        // Modifying the value at the memory address pointed to by ptr
+
+In the example above, ptr is a pointer variable that holds the memory address of num. By using the dereference operator *, we can access the value stored in num through ptr.
+
+It's important to note that the same symbol * is used for both declaring a pointer variable and for dereferencing the pointer. However, their meaning depends on the context in which they are used.
+

@@ -33,7 +33,7 @@ __________________________________________________________________________
 
 - Modern C / systems engineering:
   - revisiting but in-depth:
-    - pointers, structures, syntax, memory management, memory safety and the wages from the lack of it. 
+    - syntax, memory management (pointers, structures, memory safety and the wages from the lack of it). 
 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:

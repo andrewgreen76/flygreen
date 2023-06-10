@@ -38,8 +38,6 @@ __________________________________________________________________________
     Embedded Linux, Yocto. 
 - Sybase, SAP ASE ; RSA basics 
 - GPU servers 
-- edge computing, cloud, ASPs (SaaS), grid computing 
-- embedded systems dev vs. system software dev. 
 - The near death of TurboC (compatibility issues, etc.)
 
 __________________________________________________________________________

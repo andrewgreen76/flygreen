@@ -1,5 +1,14 @@
 
-secflaws, errors, chtC 
+taste-the-waste : secflaws, errors, solns 
+memsec_principles
+|
+ptrs : secflaws, errors, solns 
+|
+structures_principles
+|
+others : secflaws, errors, solns 
+|
+chtC 
 statically typed:
 - determined/accessible at compile-time
 - not accessible during runtime. 
@@ -29,7 +38,6 @@ C :
 - brush up on strms()/manips()
 - memcpy() / Turbo C
 - typedef
-- struct
 C / C++ exceptions 
 install TC++ (INTERVIEW Q-NS) on Win on CyberPowerPC 
 py's with import - move

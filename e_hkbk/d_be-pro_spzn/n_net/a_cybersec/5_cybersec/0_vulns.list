@@ -1,15 +1,4 @@
 
-    Buffer Overflows: Occur when writing or reading data beyond the bounds of an allocated buffer, leading to memory corruption and potential arbitrary code execution.
-
-    Integer Overflows/Underflows: Arise when integer values exceed their maximum or minimum limits, causing unexpected behavior, crashes, or security vulnerabilities.
-
-    Format String Vulnerabilities: Occur when improperly formatted user input is passed as a format string argument, leading to information disclosure or arbitrary code execution.
-
-    Use of Unsafe Functions: Using functions like strcpy, gets, or scanf without proper bounds checking can lead to buffer overflows and other vulnerabilities.
-
-
-
-
     Injection Attacks: Common examples include SQL injection, command injection, and format string injection, which occur when untrusted user input is directly used in constructing queries or command execution.
 
     Unvalidated Input: Failing to validate user input can lead to various security vulnerabilities, such as cross-site scripting (XSS) and cross-site request forgery (CSRF).

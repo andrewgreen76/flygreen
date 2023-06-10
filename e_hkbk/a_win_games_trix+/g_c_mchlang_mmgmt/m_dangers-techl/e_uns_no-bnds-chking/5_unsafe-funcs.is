@@ -1,0 +1,5 @@
+
+    Use of Unsafe Functions: Using functions like strcpy, gets, or scanf without proper bounds checking can lead to buffer overflows and other vulnerabilities.
+
+
+

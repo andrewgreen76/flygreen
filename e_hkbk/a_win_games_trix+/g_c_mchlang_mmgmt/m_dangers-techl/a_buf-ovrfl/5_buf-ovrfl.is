@@ -1,0 +1,5 @@
+
+    Buffer Overflows: Occur when writing or reading data beyond the bounds of an allocated buffer, leading to memory corruption and potential arbitrary code execution.
+
+
+

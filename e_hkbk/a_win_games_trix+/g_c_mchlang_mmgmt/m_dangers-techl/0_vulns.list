@@ -1,10 +1,4 @@
 
-User
-Can you give me a good list of security vulnerabilities in C?
-ChatGPT
-
-Certainly! Here is a list of common security vulnerabilities and risks associated with programming in C:
-
     Buffer Overflows: Occur when writing or reading data beyond the bounds of an allocated buffer, leading to memory corruption and potential arbitrary code execution.
 
     Integer Overflows/Underflows: Arise when integer values exceed their maximum or minimum limits, causing unexpected behavior, crashes, or security vulnerabilities.

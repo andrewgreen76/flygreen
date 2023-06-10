@@ -20,17 +20,17 @@ int main()
 
   // Method 1: 
   struct Node * prev = NULL;
-  struct Node * walk = *head;
+  struct Node * walk = head;
 
-  while(*walk != &s){
-    prev = *walk;
-    walk = *(walk.next);
+  while(walk != &s){
+    prev = walk;
+    walk = walk->next; // ?? not walk.next ??
   }
 
   if(!prev)  // if prev was not assigned, meaning: if the 1st node is the target node "s". 
-    head = *(s.next);
+    head = s.next;
   else   // if "s" is not the 1st node: 
-    prev.next = *(s.next);
+    prev->next = s.next;
 
   printf("\nDone.\n\n");
   

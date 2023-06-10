@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcc k_rsvdsyms.c -o run.out
+gcc 1_sb.c -o run.out
 
 ./run.out
 

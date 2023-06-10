@@ -1,0 +1,29 @@
+
+User
+Is there a technical difference between bookending the name of a library with double quotes and bookending it with angular brackets in a C file?
+ChatGPT
+
+Yes, there is a technical difference between using double quotes (") and angle brackets (< >) when including a library in a C file.
+
+    Double Quotes (") - Used for Including User-Defined Headers:
+    When you use double quotes to include a library, such as "header.h", the preprocessor searches for the specified file in the current directory or in the directories specified by the -I (include) compiler option. This method is typically used for including user-defined headers or headers that are part of the project.
+
+Example:
+
+c
+
+#include "header.h"
+
+    Angle Brackets (< >) - Used for Including System Headers:
+    When you use angle brackets to include a library, such as <stdio.h>, the preprocessor searches for the specified file in the standard system directories. These directories contain system headers provided by the compiler or the operating system. This method is generally used for including standard library headers.
+
+Example:
+
+c
+
+#include <stdio.h>
+
+Using angle brackets to include system headers provides a clear distinction between user-defined headers and standard library headers. It helps the compiler locate the system headers in the appropriate directories without explicitly specifying their paths.
+
+It's important to note that the specific behavior of header inclusion can vary slightly depending on the compiler and the build environment being used. However, the general convention and purpose of using double quotes versus angle brackets remain the same.
+

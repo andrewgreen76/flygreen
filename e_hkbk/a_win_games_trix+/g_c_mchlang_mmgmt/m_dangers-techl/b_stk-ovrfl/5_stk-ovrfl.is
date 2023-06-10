@@ -1,0 +1,5 @@
+
+    Stack Overflows: Similar to buffer overflows, but specifically targeting the stack memory region. It occurs when the call stack is overrun, potentially leading to arbitrary code execution.
+
+
+

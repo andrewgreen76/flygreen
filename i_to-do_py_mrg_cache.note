@@ -1,6 +1,7 @@
 
-taste-the-waste : secflaws, errors, solns 
 memsec_principles
+|
+taste-the-waste : secflaws, errors, solns 
 |
 ptrs : secflaws, errors, solns 
 |

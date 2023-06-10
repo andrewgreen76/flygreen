@@ -32,13 +32,8 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
 - Modern C / systems engineering:
-  - basic : pointers, arrays, streaming, data manipulation
-  - intermed : externs, unions, orders of tokens at var init/def time, register modifier, enums. 
-  - revisiting: polymorphism, memcpy(), bitwise operators, macros, pointer declarations and use,
-    Embedded Linux, Yocto. 
-- Sybase, SAP ASE ; RSA basics 
-- GPU servers 
-- The near death of TurboC (compatibility issues, etc.)
+  - revisiting but in-depth:
+    - pointers, structures, syntax, memory management, memory safety and the wages from the lack of it. 
 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:

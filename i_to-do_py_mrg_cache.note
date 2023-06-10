@@ -1,4 +1,5 @@
 
+secflaws, errors, chtC 
 statically typed:
 - determined/accessible at compile-time
 - not accessible during runtime. 

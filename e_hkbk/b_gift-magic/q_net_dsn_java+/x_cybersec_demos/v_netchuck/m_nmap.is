@@ -1,0 +1,19 @@
+
+User
+What does the nmap command do?
+ChatGPT
+
+The "nmap" command is a powerful network scanning tool used to discover hosts and services on a computer network. It stands for "Network Mapper."
+
+Nmap allows you to scan and explore network hosts, perform port scanning to identify open ports, detect operating systems, and gather information about the network and its services. It can be used for various purposes, such as network troubleshooting, security auditing, and network inventory management.
+
+With Nmap, you can perform tasks like:
+
+    Host discovery: Discover and list the hosts present on a network.
+    Port scanning: Scan for open ports on a target host or a range of hosts.
+    OS detection: Attempt to determine the operating system running on a target host.
+    Service and version detection: Identify the services and their versions running on target ports.
+    Script scanning: Execute scripts to gather more information about target hosts and services.
+
+Nmap provides a wide range of options and features to customize and fine-tune your scans based on your specific requirements. It is a command-line tool available for various operating systems, including Linux, Windows, and macOS.
+

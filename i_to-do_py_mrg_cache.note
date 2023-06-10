@@ -1,4 +1,14 @@
 
+letter or rsgn
+list of stipulations for :
+- getting work (interview q-ns, courses)
+  - Get a cert (Udemy, Coursera)
+- getting an ID (?? paystubs ??) 
+- getting a car
+Start packing
+kids engr kit 
+Apply for : System76 / Canonical / Tesla. 
+|
 memsec_principles
 |
 taste-the-waste : secflaws, errors, solns 
@@ -31,11 +41,9 @@ ptrs :
   - distant recall (remembering without moving),
   - aliasing ("I hate having to write the identifier for the same memory address")
 good taste
-create anchoring bash-funcs 
 .txt file w/ macros from CForge > here.
  - #debugging error messages
 C : 
-- segfault
 - brush up on strms()/manips()
 - memcpy() / Turbo C
 - typedef
@@ -47,11 +55,6 @@ tpu
 rtos
 iot
 cloud - when
-list of stipulations for :
-- getting work (interview q-ns, courses)
-  - Get a cert (Udemy, Coursera)
-- getting an ID (?? paystubs ??) 
-- getting a car
 to teach or find work.
 |
 unwrap 1_net.cht into the parent dir 
@@ -62,12 +65,8 @@ iPhone : how to termius, free SSH client, MOSH
 Why do I need SSH for Wayland ? 
 1hr : Rust : create an interactive text-based prog (text-ed)
 explore .bash_profile / .profile 
-how does a sys know if smth is a val | var | ptr(addrOf2ndVar)
 1hr : C++ and OpenCV : image-processing prog
 learn git branches ; Re-learn how to merge in a Git repo	<<<	build a sandbox repo. 
-Start packing
-kids engr kit 
-Apply for : System76 / Canonical / Tesla. 
 Confirm the fw-usp order for coreboot
 Just do DOSBox 
 Research frameworks (toolsets) dedicated to building VMs, EMUs, Last Call BBS (Unity + ??)

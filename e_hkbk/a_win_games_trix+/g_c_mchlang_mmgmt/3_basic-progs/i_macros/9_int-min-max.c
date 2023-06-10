@@ -3,8 +3,8 @@
 
 int main()
 {
-  printf("INT_MIN is: %d", INT_MIN);
-  printf("INT_MAX is: %d", INT_MAX);
+  printf("\nINT_MIN is: %d\n", INT_MIN);
+  printf("INT_MAX is: %d\n\n", INT_MAX);
   
   return 0;
 }

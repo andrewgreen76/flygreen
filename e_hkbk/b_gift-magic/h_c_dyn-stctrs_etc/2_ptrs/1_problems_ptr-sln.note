@@ -1,0 +1,45 @@
+
+Coming up with problems: 
+
+
+Problem 1 : I want to avoid buffer overflow
+	 ... but I also don't want to waste memory
+	 ... because I don't like memory bottlenecking (that could make the program/system crash).
+
+
+Problem 2 : I hate having to write out the long name of the variable in full. 
+
+=======================================================================================
+
+Exploring those problems further:
+
+
+Problem 1 : I want to avoid buffer overflow
+	 ... but I also don't want to waste memory
+	 ... because I don't like memory bottlenecking (that could make the program/system crash).
+
+	 Adding things/objects as needed. But how?
+	 Idea: Having one thing "remember" another thing. But how? 
+
+
+Problem 2 : I hate having to write out the long name of the variable in full.
+
+	Giving the same variable/object a different, shorter name. But how do you refer to that object? 
+
+=======================================================================================
+
+Observing a pattern:
+
+
+Problem 1 : I want to avoid buffer overflow
+	 ... but I also don't want to waste memory
+	 ... because I don't like memory bottlenecking (that could make the program/system crash).
+Solution: Dynamic memory allocation : Allocating chunks of memory at runtime as needed.
+	  Pointers are the glue that binds things together.
+
+
+Problem 2 : I hate having to write out the long name of the variable in full. 
+Solution: variable aliasing
+
+=======================================================================================
+

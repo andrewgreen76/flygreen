@@ -5,11 +5,11 @@
    Lessons: 
        fwd = &obj       how you load addr of obj
        fwd = sndFwd     how you copy addr of obj from ptr to ptr
-       fwd !=           how you invoke the addr in ptr 
-           = sndFwd     how you invoke the addr in ptr
-	   = node.next  how you invoke the addr of the next node     GIVEN THE SPECD NODE. 
-	   = *(fwd.next)  how you invoke the addr of the next node   GIVEN THE PTR TO THE SPECD NODE. 
-	   = fwd->next  how you invoke the addr of the next node   GIVEN THE PTR TO THE SPECD NODE. 
+       fwd !=           how you look up the addr in ptr 
+           = sndFwd     how you look up the addr in ptr
+	   = node.next  how you look up the addr of the next node     GIVEN THE SPECD NODE. 
+	   = *(fwd.next)  how you look up the addr of the next node   GIVEN THE PTR TO THE SPECD NODE. 
+	   = fwd->next  how you look up the addr of the next node   GIVEN THE PTR TO THE SPECD NODE. 
 */
 
 #include "stdio.h"
@@ -31,22 +31,23 @@ int main()
   struct Node f;
   f.next = &s;
   struct Node * head = &f;
-  struct Node * target = &s;
+  struct Node * tgtAddr = &s;
 
   // Method 1: 
   struct Node * prev = NULL;
   struct Node * walk = head;
 
-  while(walk != target){
+  while(walk != tgtAddr){
     prev = walk;
     walk = walk->next; // ?? not walk.next ??
   }
 
   if(!prev)  // if prev was not assigned, meaning: if the 1st node is the target node "s". 
-    head = target->next;
+    head = tgtAddr->next;
   else   // if "s" is not the 1st node: 
-    prev->next = target->next;
-
+    prev->next = tgtAddr->next;
+  // Automatic storage duration. 
+  
   printf("\nDone.\n\n");
   
   //   

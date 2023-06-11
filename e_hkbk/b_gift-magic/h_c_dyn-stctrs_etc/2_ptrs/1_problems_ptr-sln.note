@@ -1,3 +1,4 @@
+___________________________________________________________________________________
 
 Problems, sources of annoyance: 
 ___________________________________________________________________________________
@@ -10,40 +11,13 @@ Problem 1 : I want to avoid buffer overflow
 
 Problem 2 : I hate having to write out the long name of the variable in full. 
 
-=======================================================================================
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+___________________________________________________________________________________
 
 Exploring those problems further:
 ___________________________________________________________________________________
@@ -63,35 +37,7 @@ Problem 2 : I hate having to write out the long name of the variable in full.
 
 Idea : 	  Giving the same variable/object a different, shorter name. But how do you refer to that object? 
 
-=======================================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+___________________________________________________________________________________
 
 Observing a pattern:
 ___________________________________________________________________________________
@@ -117,45 +63,7 @@ Idea : 	  Giving the same variable/object a different, shorter name. But how do 
 
 Idea 2 :  Remembering an object to recall it. 
 
-=======================================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+___________________________________________________________________________________
 
 One solution - holding memory addresses :
 ___________________________________________________________________________________
@@ -171,13 +79,13 @@ Idea :	 Adding things/objects as needed.
 Idea : 	 Having one thing "remember" another thing.
      	 But how? 
 
-Idea 2 : Remembering a related object.
+Idea 2 : Remembering a related/adjacent object.
 
+Solution: A special kind of variable - a pointer - will remember another object by its address.
+	  Once <dereferenced>, it will give control over another object. 
 
-Solution:
-
-Dynamic memory allocation : Allocating chunks of memory at runtime as needed.
-Pointers are the glue that binds things together.
+	  Dynamic memory allocation : Allocating chunks of memory at runtime as needed.
+	  Pointers are the glue that binds things together.
 
 
 
@@ -185,54 +93,10 @@ Problem 2 : I hate having to write out the long name of the variable in full.
 
 Idea : 	  Giving the same variable/object a different, shorter name. But how do you refer to that object? 
 
-Idea 2 :  Remembering a related object. 
+Idea 2 :  Remembering an object to recall it. 
 
-Solution:
+Solution: A pointer will remember the address of the original variable with a horrible name.
+	  Once dereferenced, it will give the program control over that variable at that moment at runtime. 
 
-variable aliasing
-
-=======================================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	  Variable aliasing. 
 

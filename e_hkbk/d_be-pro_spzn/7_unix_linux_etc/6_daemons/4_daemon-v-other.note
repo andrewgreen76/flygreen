@@ -1,0 +1,15 @@
+
+User
+That being said, are all non-interactive processes daemons?
+ChatGPT
+
+No, not all non-interactive processes are considered daemons. While daemons are a specific type of non-interactive process, not all non-interactive processes fit the definition of a daemon.
+
+Non-interactive processes are those that do not require direct user interaction or do not have a user interface. They can run in the background and perform specific tasks or provide services independently.
+
+Daemons, on the other hand, are a subset of non-interactive processes that are designed to run continuously as background services, providing specific functionalities or performing tasks independently of user interaction. Daemons often have specific characteristics, such as being started during system boot, running independently of any user session, and managing system-level functions.
+
+So, while daemons are non-interactive processes, there are other types of non-interactive processes that are not considered daemons. For example, system utilities or background tasks that are not specifically designed as long-running services or background daemons would fall under the category of non-interactive processes but not necessarily as daemons.
+
+It's worth noting that the classification of a process as a daemon or non-interactive process depends on its intended purpose, design, and behavior rather than solely on its interactive or non-interactive nature.
+

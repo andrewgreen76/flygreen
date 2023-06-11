@@ -1,4 +1,6 @@
 
+malloc and free
+taste-the-waste : secflaws, errors, solns 
 book a ticket 
 hand in : letter or rsgn
 hand in : notice to vacate
@@ -12,10 +14,6 @@ Start packing
 kids engr kit 
 Apply for : System76 / Canonical / Tesla. 
 
-memsec_principles
-|
-taste-the-waste : secflaws, errors, solns 
-|
 ptrs : secflaws, errors, solns 
 |
 structures_principles

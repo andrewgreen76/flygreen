@@ -38,15 +38,15 @@ Idea : 	 Having one thing "remember" another thing.
 
 Problem 2 : I have designed a system for file management, but do not know how to implement it.
 
-Idea : An integral part of designing a file system is considering breadth, depth, and flexibility.
-       You want to be able to add (and remove) as many peer files and sub-directories as you would like
-       at runtime. When you look up an object, you should be able to look up one or more other objects.
-       Moving from one object to another means moving from one chunk of memory to another or looking
-       them up.
-       But how do we do that?
+Idea : An integral part of designing a dynamic structure like a file system is considering breadth,
+       depth, and flexibility. You want to be able to add (and remove) as many peer files and
+       sub-directories as you would like at runtime. When you look up an object, you should be able
+       to look up one or more other objects. Moving from one object to another means moving from one
+       chunk of memory to another or looking them up.
+       > But how do we do that?
        The first step is to implement the "parent" object (representing a folder) to have something
        that can "remember" and "take you to" other objects, something actionable. 
-       Is there an implementation like that? 
+       > Is there an implementation like that? 
 
 
 Problem 3 : I hate having to write out the long name of the variable in full.

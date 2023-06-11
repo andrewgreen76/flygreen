@@ -1,6 +1,5 @@
 
-A dead-end pointer variable that holds 0x00 instead of a valid memory address. 
-
+NULL is a pointer and a constant.
 
 
 

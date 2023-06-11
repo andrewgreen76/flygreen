@@ -9,7 +9,10 @@ Problem 1 : I want to avoid buffer overflow
 	 ... because I don't like memory bottlenecking (that could make the program/system crash).
 
 
-Problem 2 : I hate having to write out the long name of the variable in full. 
+Problem 2 : I have designed a system for file management, but do not know how to implement it. 
+
+
+Problem 3 : I hate having to write out the long name of the variable in full. 
 
 
 
@@ -33,7 +36,20 @@ Idea : 	 Having one thing "remember" another thing.
      	 But how? 
 
 
-Problem 2 : I hate having to write out the long name of the variable in full.
+Problem 2 : I have designed a system for file management, but do not know how to implement it.
+
+Idea : An integral part of designing a file system is considering breadth, depth, and flexibility.
+       You want to be able to add (and remove) as many peer files and sub-directories as you would like
+       at runtime. When you look up an object, you should be able to look up one or more other objects.
+       Moving from one object to another means moving from one chunk of memory to another or looking
+       them up.
+       But how do we do that?
+       The first step is to implement the "parent" object (representing a folder) to have something
+       that can "remember" and "take you to" other objects, something actionable. 
+       Is there an implementation like that? 
+
+
+Problem 3 : I hate having to write out the long name of the variable in full.
 
 Idea : 	  Giving the same variable/object a different, shorter name. But how do you refer to that object? 
 
@@ -57,7 +73,23 @@ Idea 2 : Remembering a related/adjacent object.
 
 
 
-Problem 2 : I hate having to write out the long name of the variable in full. 
+Problem 2 : I have designed a system for file management, but do not know how to implement it.
+
+Idea : An integral part of designing a file system is considering breadth, depth, and flexibility.
+       You want to be able to add (and remove) as many peer files and sub-directories as you would like
+       at runtime. When you look up an object, you should be able to look up one or more other objects.
+       Moving from one object to another means moving from one chunk of memory to another or looking
+       them up.
+       But how do we do that?
+       The first step is to implement the "parent" object (representing a folder) to have something
+       that can "remember" and "take you to" other objects, something actionable. 
+       Is there an implementation like that? 
+
+Idea 2 : Remembering a set of objects and looking them up individually. We need something actionable. 
+
+
+
+Problem 3 : I hate having to write out the long name of the variable in full. 
 
 Idea : 	  Giving the same variable/object a different, shorter name. But how do you refer to that object? 
 
@@ -89,7 +121,7 @@ Solution: A special kind of variable - a pointer - will remember another object 
 
 
 
-Problem 2 : I hate having to write out the long name of the variable in full. 
+Problem 3 : I hate having to write out the long name of the variable in full. 
 
 Idea : 	  Giving the same variable/object a different, shorter name. But how do you refer to that object? 
 

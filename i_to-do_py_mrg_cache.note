@@ -1,5 +1,4 @@
 
-popos coreboot bootstrap : stage 1, stage 2
 can a py accept args ?
 hand in : letter or rsgn
 hand in : notice to vacate
@@ -43,7 +42,6 @@ ptrs :
   - dyn.memgmt,
   - distant recall (remembering without moving),
   - aliasing ("I hate having to write the identifier for the same memory address")
-good taste
 .txt file w/ macros from CForge > here.
  - #debugging error messages
 C : 
@@ -52,6 +50,7 @@ C :
 - typedef
 C / C++ exceptions 
 install TC++ (INTERVIEW Q-NS) on Win on CyberPowerPC
+popos coreboot bootstrap : stage 1, stage 2
 organize my GoogleDrive 
 py's with import - move
 rest api 

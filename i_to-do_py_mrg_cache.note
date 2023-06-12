@@ -1,4 +1,8 @@
 
+aliases: 
+a1 [path] - anchor this path
+g1 [path] - go to this path
+
 taste-the-waste : secflaws, errors, solns 
 take care of the apt 
 hand in : letter or rsgn

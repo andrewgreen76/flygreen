@@ -1,0 +1,5 @@
+
+    Memory Leaks: Failing to deallocate dynamically allocated memory when it is no longer needed can lead to memory leaks, causing a gradual loss of available memory.
+
+
+

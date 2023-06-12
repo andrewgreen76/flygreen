@@ -1,6 +1,4 @@
 
-    Memory Leaks: Failing to deallocate dynamically allocated memory when it is no longer needed can lead to memory leaks, causing a gradual loss of available memory.
-
     Double Free: Releasing the same dynamically allocated memory block more than once can result in memory corruption and security vulnerabilities.
 
     Race Conditions: Occur when multiple threads or processes access shared memory concurrently, leading to unpredictable behavior, data corruption, or security vulnerabilities.

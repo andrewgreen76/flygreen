@@ -1,0 +1,36 @@
+
+User
+Is there a way to put the last print statement in the first chunk of code before REPL provides the output?
+ChatGPT
+
+In a typical Python REPL session, the output is displayed immediately after executing each line of code. However, if you want to modify the code to include the last print(number) statement within the first chunk of code, you can make use of a code block and use the exec() function to execute the entire block at once. This way, the output will be displayed at the end.
+
+Here's an example of how you can achieve this:
+
+python
+
+>>> code = '''
+... number = "zero"
+... for number in range(10):
+...     print(number * 2)
+...
+... print(number)
+... '''
+
+>>> exec(code)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+9
+
+In the above example, the code is defined as a multiline string assigned to the variable code. The exec() function is then used to execute the entire code block. The output is displayed at the end after executing all the lines.
+
+Keep in mind that using exec() in this manner is not a common practice in interactive Python sessions. It's more commonly used for executing dynamically generated code or code loaded from external sources. In a typical Python REPL session, the output is displayed after each line to provide immediate feedback.
+

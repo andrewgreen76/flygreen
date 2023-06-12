@@ -1,0 +1,4 @@
+a_your-name.c: In function ‘main’:
+a_your-name.c:9:12: warning: format not a string literal and no format arguments [-Wformat-security]
+    9 |     printf(username); // Vulnerable line
+      |            ^~~~~~~~

@@ -2,7 +2,5 @@
     Format String Vulnerabilities: Occur when improperly formatted user input is passed as a format string argument, leading to information disclosure or arbitrary code execution.
 
 
-
-
     Format String Vulnerabilities: Occur when untrusted user input is directly used as a format string argument, potentially leading to information disclosure or arbitrary code execution.
 

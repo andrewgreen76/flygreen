@@ -1,3 +1,0 @@
-
-    Format String Vulnerabilities: Occur when untrusted user input is directly used as a format string argument, potentially leading to information disclosure or arbitrary code execution.
-

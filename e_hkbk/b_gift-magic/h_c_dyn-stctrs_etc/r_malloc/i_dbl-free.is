@@ -1,0 +1,3 @@
+
+    Double Free or Invalid Free: Releasing the same memory block more than once (double free) or freeing memory that was not dynamically allocated (invalid free) can result in memory corruption and crashes.
+

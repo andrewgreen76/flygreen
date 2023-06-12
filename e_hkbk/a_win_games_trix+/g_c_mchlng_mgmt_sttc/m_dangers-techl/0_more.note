@@ -1,8 +1,6 @@
 
     Race Conditions: Occur when multiple threads or processes access shared memory concurrently, leading to unpredictable behavior, data corruption, or security vulnerabilities.
 
-    Format String Vulnerabilities: Occur when untrusted user input is directly used as a format string argument, potentially leading to information disclosure or arbitrary code execution.
-
     Insecure Memory Operations: Using unsafe memory functions like strcpy, gets, or scanf without proper bounds checking can lead to buffer overflows and other vulnerabilities.
 
     Insecure File Operations: Failing to handle file operations securely, such as insufficient file permissions, improper file handling, or lack of input validation, can result in security vulnerabilities.

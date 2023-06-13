@@ -1,0 +1,3 @@
+
+	Memory Access Errors: Incorrect pointer arithmetic or accessing memory beyond the allocated bounds (buffer overflow or underflow) can lead to memory access errors, including reading/writing to invalid memory locations. This can cause program crashes or unpredictable behavior.
+

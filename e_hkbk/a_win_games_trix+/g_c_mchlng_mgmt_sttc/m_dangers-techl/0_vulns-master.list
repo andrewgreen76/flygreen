@@ -6,14 +6,19 @@ solutions
 
 
 
-With FORMAT : s_fmt-str/
-With the CALL STACK : b_stk-ovrfl/
-With VARIABLES : g_uninitd-vars/
-With VARIABLES : c_int-ovrundrfl/ (need limits.h)
-With POINTERS : f_segfault/
-With POINTERS : memory leak
-With POINTERS : dangling pointer
-With ARRAY : 6_buf-ovrfl/   e_no-bnds-chking/
+With FORMAT
+: s_fmt-str/
+With the CALL STACK
+: b_stk-ovrfl/
+With VARIABLES
+: g_uninitd-vars/
+: c_int-ovrundrfl/ (need limits.h)
+With POINTERS
+: f_segfault/
+: memory leak
+: dangling pointer
+With ARRAY
+: buf-ovrfl / no-bnds-chking/
 
 
 

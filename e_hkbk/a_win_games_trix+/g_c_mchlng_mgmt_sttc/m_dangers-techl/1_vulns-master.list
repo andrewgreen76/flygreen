@@ -1,0 +1,36 @@
+
+security flaws
+is
+results / errors
+solutions
+
+
+
+
+
+With FORMAT : format string vulnerability
+With FORMAT : format string length mismatch
+With FORMAT : format string conversion errors
+With FORMAT : format string DoS
+
+With the CALL STACK : stack overflow
+
+With VARIABLES : uninitialized variables
+With VARIABLES : int/(datatype) overflow/underflow   (need limits.h)
+
+With POINTERS : segfault
+With POINTERS : memory leak
+With POINTERS : dangling pointer
+
+With ARRAY : buffer overflow / no bounds-checking 
+
+
+
+
+
+What is taken care of in C++ ?
+
+What isn't taken care of in C++ that is taken care of in Rust ?
+
+What isn't taken care of in Rust ? 
+

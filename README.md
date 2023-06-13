@@ -33,10 +33,7 @@ __________________________________________________________________________
 
 - Modern C / systems engineering:
   - revisiting but in-depth:
-    - syntax, memory management (pointers, structures, memory safety and the wages from the lack of it). 
-    - buffer overflow, stack overflow, malloc()
-    - building blocks of OOP
-    - format string vulnerabilities 
+    - memory management (pointers, structures, memory safety and the wages from the lack of it). 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

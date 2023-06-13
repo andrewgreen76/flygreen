@@ -5,3 +5,43 @@
 
     Insecure File Operations: Failing to handle file operations securely, such as insufficient file permissions, improper file handling, or lack of input validation, can result in security vulnerabilities.
 
+
+https://www.reactive-systems.com/c-runtime-errors.html#:~:text=Typical%20memory%20errors%20include%20out,the%20use%20of%20pointers%20cast
+|
+is zero a negative number in c
+|
+https://www.quora.com/What-is-the-difference-between-+0-and-0-in-perspective-of-C
+
+
+
+ - out-of-bounds look-up 
+   = ex.: 
+ - buffer overrun 
+   = ex.: 
+ - dangling heap pointer 
+   = ex.: 
+ - dangling stack pointer 
+   = ex.: 
+ - use of pointers cast from incorrect numeric values 
+
+
+User
+Remind me of the hazards of manual memory management.
+ChatGPT
+
+Manual memory management in languages like C and C++ can introduce several hazards if not handled carefully:
+
+    Memory Leaks: Forgetting to deallocate memory that has been dynamically allocated can lead to memory leaks. It means that the allocated memory is not freed and becomes unavailable, causing a loss of available memory over time.
+
+    Dangling Pointers: If a pointer continues to point to a memory location that has been deallocated or is no longer valid, it becomes a dangling pointer. Dereferencing a dangling pointer can lead to undefined behavior and program crashes.
+
+    Double Free or Invalid Free: Releasing the same memory block more than once (double free) or freeing memory that was not dynamically allocated (invalid free) can result in memory corruption and crashes.
+
+    Memory Access Errors: Incorrect pointer arithmetic or accessing memory beyond the allocated bounds (buffer overflow or underflow) can lead to memory access errors, including reading/writing to invalid memory locations. This can cause program crashes or unpredictable behavior.
+
+    Undefined Behavior: Incorrect memory management can result in undefined behavior, where the program's behavior cannot be predicted or guaranteed. It can manifest as crashes, incorrect results, or seemingly unrelated issues.
+
+    Difficulty in Memory Ownership and Lifetime Management: Tracking ownership and lifetime of dynamically allocated memory can be complex, especially in large codebases or with multiple interacting modules. It can lead to bugs and make code maintenance and debugging challenging.
+
+To mitigate these hazards, modern programming languages and frameworks offer higher-level abstractions and automatic memory management mechanisms (such as garbage collection or smart pointers) that handle memory allocation and deallocation implicitly, reducing the risk of manual memory management errors.
+

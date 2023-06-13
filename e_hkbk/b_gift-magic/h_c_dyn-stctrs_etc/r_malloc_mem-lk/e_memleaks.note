@@ -1,3 +1,0 @@
-
-Memory Leaks: Failing to release dynamically allocated memory using functions like malloc() and calloc() can result in memory leaks. If memory leaks occur repeatedly over time, it can lead to exhaustion of available memory resources, degrading program performance or causing crashes.
-

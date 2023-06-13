@@ -1,0 +1,46 @@
+
+security flaws
+is
+results / errors
+exploits :
+- messing things up 
+- gaining access
+- other kinds of personal gain 
+my solutions
+machine's resolutions 
+
+
+
+Dir B : 
+|
+With FORMAT : format string vulnerability
+With FORMAT : format string length mismatch
+With FORMAT : format string conversion errors
+With FORMAT : format string DoS
+|
+With the CALL STACK : stack overflow
+|
+With POINTERS : segfault (deref'ing ptr to NULL) 
+With POINTERS : memory leak (ld mem & abandon)
+With POINTERS : dangling pointer (point to NULL)
+With POINTERS : double free 
+|
+With ARRAY : buffer overflow / no bounds-checking
+|
+What is taken care of in C++ ?
+What isn't taken care of in C++ that is taken care of in Rust ?
+What isn't taken care of in Rust ? 
+
+
+
+Dir D : 
+|
+With PROCESSES/THREADS : race conditions
+With RDBMS : input validation and injection
+|
+Insecure lib funcs, secure upgrades
+Resource exhaustion vulnerabilities :
+- file descriptors
+- net connections
+- DoS, instability 
+

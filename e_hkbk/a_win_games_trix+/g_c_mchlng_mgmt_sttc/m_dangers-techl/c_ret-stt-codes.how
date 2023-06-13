@@ -1,0 +1,27 @@
+
+User
+What are some of those error codes available other than 0?
+ChatGPT
+
+In C programming, the choice and meaning of non-zero error codes are typically application-specific and can vary depending on the context and requirements of the program. Here are some common examples of non-zero error codes that are commonly used:
+
+    Positive Integer Values: While it is conventional to use non-zero values for error codes, positive integer values can also be used to indicate different types or categories of errors. For example, a library or application might define specific positive error codes to represent different classes of errors, such as file-related errors, memory allocation failures, or network errors.
+
+    Negative Integer Values: Some systems or libraries use negative integer values for error codes. These negative values can represent specific error conditions or failure states. For instance, a library might use -1 to indicate a general error, -2 for a memory allocation failure, and so on.
+
+    Enumerated Constants: Error codes can be defined as enumerated constants to provide more descriptive and meaningful error values. By using an enumeration, you can assign symbolic names to error codes, making the code more readable and maintainable. For example:
+
+    c
+
+    enum ErrorCode {
+        ERR_SUCCESS = 0,
+        ERR_FILE_NOT_FOUND,
+        ERR_INVALID_INPUT,
+        ERR_MEMORY_ALLOCATION,
+        // ...
+    };
+
+    Application-Specific Codes: In many cases, applications define their own set of error codes to suit their specific needs. These codes are often documented and used consistently throughout the application. The meanings of these codes are specific to the application and may include error conditions, warnings, or informational states that the application wants to communicate.
+
+It's important to note that the choice and interpretation of error codes are determined by the application or library design. It's a good practice to document and define the meaning of error codes to ensure proper understanding and handling of errors by the calling code.
+

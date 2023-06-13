@@ -27,9 +27,9 @@ With POINTERS : double free
 |
 With ARRAY : buffer overflow / no bounds-checking
 |
-What is taken care of in C++ ?
+What isn't taken care of in C that is taken care of in C++ ?
 What isn't taken care of in C++ that is taken care of in Rust ?
-What isn't taken care of in Rust ? 
+What isn't taken care of in Rust that is taken care of in other languages (interpreted/scripting) ? 
 
 
 

@@ -1,0 +1,18 @@
+
+What is the difference between input validation and input sanitization?
+ChatGPT
+
+Input validation and input sanitization are two important practices in ensuring the security and integrity of user input in software applications. While they serve similar goals, there is a distinct difference between the two:
+
+    Input Validation: Input validation involves checking whether the user input conforms to expected criteria or requirements. It aims to ensure that the input is valid, in the sense that it meets the specified format, type, length, or other constraints. Input validation is performed to reject or flag input that does not meet the defined criteria.
+
+For example, if a user is expected to enter a numeric value, input validation would check if the input consists of valid digits and reject any non-numeric characters. It verifies the input against expected rules and patterns, preventing potentially malicious or unintended input from being processed.
+
+    Input Sanitization: Input sanitization, on the other hand, focuses on cleaning or modifying the user input to make it safe and harmless before using it in the application. It involves removing or neutralizing potentially malicious or harmful content from the input, rather than strictly validating its format or structure.
+
+Sanitization techniques may include escaping special characters, removing or filtering out specific patterns or content, or transforming the input into a safe representation. The goal is to prevent injection attacks, code execution, or unintended behavior caused by maliciously crafted input.
+
+For example, input sanitization may involve removing HTML tags or special characters that could lead to cross-site scripting (XSS) attacks, or encoding user input before using it in database queries to prevent SQL injection vulnerabilities.
+
+In summary, input validation checks whether the input conforms to expected criteria, while input sanitization focuses on modifying the input to eliminate potential security risks. Both practices are important and often used together to ensure the security and reliability of software applications.
+

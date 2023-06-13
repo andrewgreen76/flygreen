@@ -1,0 +1,3 @@
+
+    Dangling Pointers: If a pointer continues to point to a memory location that has been deallocated or is no longer valid, it becomes a dangling pointer. Dereferencing a dangling pointer can lead to undefined behavior and program crashes.
+

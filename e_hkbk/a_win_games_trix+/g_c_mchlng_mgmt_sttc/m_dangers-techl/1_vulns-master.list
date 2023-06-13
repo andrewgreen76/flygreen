@@ -18,9 +18,10 @@ With the CALL STACK : stack overflow
 With VARIABLES : uninitialized variables
 With VARIABLES : int/(datatype) overflow/underflow   (need limits.h)
 
-With POINTERS : segfault
-With POINTERS : memory leak
-With POINTERS : dangling pointer
+With POINTERS : segfault (deref'ing ptr to NULL) 
+With POINTERS : memory leak (ld mem & abandon)
+With POINTERS : dangling pointer (point to NULL)
+With POINTERS : double free 
 
 With ARRAY : buffer overflow / no bounds-checking 
 

@@ -1,0 +1,5 @@
+
+    Race Conditions: Occur when multiple threads or processes access shared memory concurrently, leading to unpredictable behavior, data corruption, or security vulnerabilities.
+
+
+

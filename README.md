@@ -35,6 +35,8 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
+- C vs. C++ vs. Rust 
+- Blockchain 
 - Linux distros : Redox, Mandrake/Mandriva, Slackware, Arch Linux, Manjaro 
 - Modern C / systems engineering:
   - revisiting but in-depth:

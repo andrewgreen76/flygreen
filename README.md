@@ -27,6 +27,10 @@ __________________________________________________________________________
 > to modify
   - to hack ethically and creatively
   
+JAtQ - Just Answer the Question:
+- any question brought up to anyone involved in education must be answered
+  without an inkling of annoyance or personality. 
+
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________

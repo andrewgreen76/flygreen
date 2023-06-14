@@ -12,9 +12,9 @@ STL
 -
 Exception handling:
 -
-Auto-rc mgmt:
+Auto-rsrc mgmt:
 - constructos, destructors
 - smart pointers
-- raii
+- raii (resource acquisition is initialization)
 - containers (std::string, std::vector)
 

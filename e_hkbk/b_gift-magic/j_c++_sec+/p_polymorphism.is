@@ -1,0 +1,4 @@
+
+Through the use of a virtual function.
+- a function that can be overriden (behave differently) in different child classes. 
+

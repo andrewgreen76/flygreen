@@ -31,7 +31,7 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
-- Linux distros : Mandrake/Mandriva, Slackware, Arch Linux, Manjaro 
+- Linux distros : Redox, Mandrake/Mandriva, Slackware, Arch Linux, Manjaro 
 - Modern C / systems engineering:
   - revisiting but in-depth:
     - memory management : command and user input injections, validation, sanitization.  

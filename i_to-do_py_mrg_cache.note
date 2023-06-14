@@ -1,8 +1,4 @@
 
-how C++ / [this machine] handles memory leaks 
-how Rust / [this machine] handles memory leaks 
-v4v
-lightning integration
 Get some BOXES
 take care of the apt 
 sell the piano
@@ -10,7 +6,10 @@ see what GoodWill will take.
 Start packing
 kids engr kit 
 |
-Fix the timeline : C++98 
+how C++ / [this machine] handles memory leaks 
+how Rust / [this machine] handles memory leaks 
+v4v
+lightning integration
 [lang1] taken care of [lang2] 
 organize vulns : 
 taste-the-waste : secflaws, errors, solns 

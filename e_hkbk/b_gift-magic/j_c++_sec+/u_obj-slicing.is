@@ -1,0 +1,3 @@
+
+Object slicing: If we were to use an array of Shape objects (Shape), it would result in object slicing. Object slicing occurs when a derived class object is assigned to a base class object, and the derived class-specific data and behavior are lost. By using an array of pointers to Shape objects, we avoid object slicing because we are storing the addresses of derived class objects, preserving their specific characteristics.
+

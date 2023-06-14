@@ -13,8 +13,8 @@ STL
 Exception handling:
 -
 Auto-rsrc mgmt:
-- constructos, destructors
-- smart pointers
+- constructors, destructors
+- smart pointers (automatic mem release, preventing mem leaks and dangling ptrs)
 - raii (resource acquisition is initialization)
 - containers (std::string, std::vector)
 

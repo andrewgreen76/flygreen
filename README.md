@@ -31,9 +31,10 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
+- Linux distros : Mandrake, Slackware, Arch Linux, Manjaro 
 - Modern C / systems engineering:
   - revisiting but in-depth:
-    - memory management (pointers, structures, memory safety and the wages from the lack of it). 
+    - memory management : command and user input injections, validation, sanitization.  
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

@@ -1,0 +1,20 @@
+
+Better data hiding through abstaction / high modularity.
+- How?
+- 
+Better type checking:
+- How?
+-
+STL
+- Why?
+-
+- Why better memgmt?
+-
+Exception handling:
+-
+Auto-rc mgmt:
+- constructos, destructors
+- smart pointers
+- raii
+- containers (std::string, std::vector)
+

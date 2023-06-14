@@ -1,0 +1,19 @@
+
+https://redox-os.org/
+
+
+
+Redox is a Unix-like Operating System written in Rust, aiming to bring the innovations of Rust to a modern microkernel and full set of applications.
+
+    Inspired by Plan 9, Minix, BSD and Linux
+    Implemented in Rust
+    Microkernel Design
+    Includes optional GUI - Orbital
+    Supports Rust Standard Library
+
+    MIT Licensed
+    Drivers run in Userspace
+    Includes common Unix commands
+    Custom libc written in Rust (relibc)
+    See Redox in Action
+

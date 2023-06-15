@@ -7,21 +7,12 @@ Start packing
 |
 how C++ / [this machine] handles memory leaks 
 how Rust / [this machine] handles memory leaks 
-[lang1] taken care of [lang2] 
-organize vulns : 
-taste-the-waste : secflaws, errors, solns 
 list of stipulations for :
 - getting work (interview q-ns, courses)
   - Get a cert (Udemy, Coursera)
 - getting an ID (?? paystubs ??) 
 - getting a car
 Apply for : System76 / Canonical / Tesla. 
-|
-ptrs : secflaws, errors, solns 
-|
-structures_principles
-|
-others : secflaws, errors, solns 
 |
 chtC 
 statically typed:

@@ -1,0 +1,25 @@
+
+What does .gitignore do?
+ChatGPT
+
+The .gitignore file is used to specify intentionally untracked files and directories that should be ignored by Git. When Git encounters a .gitignore file in a repository, it reads its contents to determine which files and directories should be excluded from version control.
+
+The .gitignore file allows you to define patterns and rules to ignore certain files or file types. This is useful for excluding files that are generated during the development process (e.g., compiled binaries, log files, temporary files) or files that contain sensitive information (e.g., API keys, passwords) that should not be committed to the repository.
+
+By defining what should be ignored in the .gitignore file, you can avoid cluttering your repository with unnecessary files and ensure that sensitive information is not accidentally committed.
+
+Here's an example of a .gitignore file that ignores compiled binaries and log files:
+
+bash
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+
+# Ignore log files
+*.log
+
+You can create or modify the .gitignore file in the root directory of your repository using a text editor. It's important to commit and push the .gitignore file to make sure it takes effect for all collaborators of the repository.
+
+

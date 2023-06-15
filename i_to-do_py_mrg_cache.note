@@ -7,8 +7,6 @@ Start packing
 |
 how C++ / [this machine] handles memory leaks 
 how Rust / [this machine] handles memory leaks 
-v4v
-lightning integration
 [lang1] taken care of [lang2] 
 organize vulns : 
 taste-the-waste : secflaws, errors, solns 

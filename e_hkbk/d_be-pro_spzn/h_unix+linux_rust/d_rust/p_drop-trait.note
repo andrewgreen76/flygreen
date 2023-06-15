@@ -1,0 +1,3 @@
+
+Resource Management: Rust's ownership system and automatic memory management through the concept of "ownership, borrowing, and lifetimes" ensure that resources, including memory, are properly managed and released. When objects go out of scope, Rust's built-in drop mechanism automatically frees associated resources, including memory allocations, using the "Drop" trait.
+

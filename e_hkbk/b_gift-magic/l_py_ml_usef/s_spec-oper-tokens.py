@@ -6,7 +6,6 @@ class Num:
         return self.x % other.x
 
 x = Num(sum([7, 3, 6]))
-print(sum([7,3,6]))
 y = Num(3)
 
 print(x % y)

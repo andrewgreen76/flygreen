@@ -1,12 +1,11 @@
 
-kids engr kit : see what GoodWill will take. 
 Get some BOXES
 take care of the apt 
 sell the piano, backpacker 
 Start packing
 |
-how C++ / [this machine] handles memory leaks 
-how Rust / [this machine] handles memory leaks 
+how [this machine] handles memory leaks 
+how [this machine] handles memory leaks 
 list of stipulations for :
 - getting work (interview q-ns, courses)
   - Get a cert (Udemy, Coursera)
@@ -15,9 +14,8 @@ list of stipulations for :
 Apply for : System76 / Canonical / Tesla. 
 |
 chtC 
-statically typed:
-- determined/accessible at compile-time
-- not accessible during runtime. 
+statically typed - determined/accessible at compile-time
+dynamically typed - accessible during runtime. 
 objects :
 - structs :
   - organization,
@@ -28,13 +26,11 @@ objects :
 - (unions) 
 ptrs :
 - problems w/o ptrs:
-  - 
   - tying objects together to make structures
-  - 
 - purpose:
   - dyn.memgmt,
-  - distant recall (remembering without moving),
-  - aliasing ("I hate having to write the identifier for the same memory address")
+  - distant recall
+  - aliasing ("I hate having to write the long identifier for the same object")
 .txt file w/ macros from CForge > here.
  - #debugging error messages
 C : 

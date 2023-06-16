@@ -35,12 +35,9 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
-- C vs. C++ vs. Rust 
+- C vs. C++ vs. Rust vs. Java vs. Go vs. C# vs. Python vs. shell scripting vs. ... 
 - Blockchain 
 - Linux distros : Redox, Mandrake/Mandriva, Slackware, Arch Linux, Manjaro 
-- Modern C / systems engineering:
-  - revisiting but in-depth:
-    - memory management : command and user input injections, validation, sanitization.  
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

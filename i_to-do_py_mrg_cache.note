@@ -107,7 +107,6 @@ journal.notes -> hackbook
 memmap
 interview questions: C
 interview questions: C++
-interview questions: C#
 .py to go to a url/website
 funbag >< progbook (cheat sheets)
 How do systems on planes fetch WiFi connection in the airplane mode? Are they isolated servers?
@@ -123,6 +122,7 @@ shit to lug
 
 =====================================================================
 
+explore curl
 Explore clipping in games. 
 
 -

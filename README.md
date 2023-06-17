@@ -35,9 +35,10 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
-- C vs. C++ vs. Rust vs. Java vs. Go vs. C# vs. Python vs. shell scripting vs. ... 
-- Blockchain 
-- Linux distros : Redox, Mandrake/Mandriva, Slackware, Arch Linux, Manjaro 
+- Open-source projects to choose from and practice with. (C, Rust, and Python
+  were selected.) 
+- Comparing: C, C++, Rust, Java, Go, C#, Python, shell scripting, Ada in terms of
+  security and performance. 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

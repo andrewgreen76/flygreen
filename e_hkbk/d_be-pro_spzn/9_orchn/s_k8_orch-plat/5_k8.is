@@ -1,0 +1,19 @@
+
+"K8" is a commonly used abbreviation for "Kubernetes." Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It was originally developed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF).
+
+Kubernetes provides a highly scalable and flexible platform for managing containerized workloads. It abstracts away the underlying infrastructure and allows developers to define the desired state of their applications using declarative configuration files. Kubernetes then takes care of scheduling and running containers, distributing them across a cluster of nodes, and ensuring high availability and fault tolerance.
+
+Some key features of Kubernetes include:
+
+1. Container orchestration: Kubernetes automates the deployment, scaling, and management of containers. It provides tools and mechanisms to ensure that containers are scheduled to appropriate nodes, scaled based on demand, and replaced if they fail.
+
+2. Service discovery and load balancing: Kubernetes includes a built-in service discovery mechanism that allows containers to communicate with each other using service names. It also provides load balancing for distributing traffic across containers.
+
+3. Automatic scaling: Kubernetes can automatically scale applications based on defined metrics such as CPU utilization or incoming request rates. It can scale the number of replicas up or down to handle varying workloads.
+
+4. Rolling updates and rollback: Kubernetes supports rolling updates, allowing applications to be updated with minimal downtime by gradually replacing old containers with new ones. It also provides rollback capabilities in case of issues during an update.
+
+5. Self-healing: Kubernetes monitors the health of containers and nodes. If a container or node fails, Kubernetes can automatically restart failed containers, replace unhealthy nodes, and reschedule workloads to ensure high availability.
+
+Kubernetes has become the de facto standard for container orchestration, enabling organizations to deploy and manage containerized applications at scale. It provides a powerful and flexible platform for building cloud-native applications and is widely used in production environments.
+

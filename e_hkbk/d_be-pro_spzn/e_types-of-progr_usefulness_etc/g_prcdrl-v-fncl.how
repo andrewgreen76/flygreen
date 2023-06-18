@@ -1,0 +1,40 @@
+
+Certainly! Here's a classic example of a simple task implemented in both procedural and functional programming styles:
+
+Procedural Programming (using C-like syntax):
+```c
+// Procedural Programming Example (C)
+#include <stdio.h>
+
+int calculateSum(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int x = 5;
+    int y = 3;
+    int sum = calculateSum(x, y);
+    printf("The sum of %d and %d is %d\n", x, y, sum);
+    return 0;
+}
+```
+
+Functional Programming (using a JavaScript-like syntax):
+```javascript
+// Functional Programming Example (JavaScript)
+function calculateSum(a, b) {
+    return a + b;
+}
+
+const x = 5;
+const y = 3;
+const sum = calculateSum(x, y);
+console.log(`The sum of ${x} and ${y} is ${sum}`);
+```
+
+In the procedural programming example, the code is organized around procedures or functions. It defines a function `calculateSum` that takes two parameters and returns their sum. The main function declares variables `x` and `y`, calls the `calculateSum` function, and prints the result using `printf` (C) or `console.log` (JavaScript).
+
+In the functional programming example, the code focuses on the evaluation of expressions and avoids mutable state. The `calculateSum` function is a pure function that takes two parameters and returns their sum. The `const` keyword is used to declare variables `x`, `y`, and `sum`. The result is logged to the console using `console.log`.
+
+The procedural programming style is centered around a sequence of steps and mutable state, while the functional programming style emphasizes the evaluation of functions and immutable data.
+

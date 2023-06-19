@@ -1,5 +1,5 @@
 
 - bad performance
-- intensive swapping (overhead of moving data in and out of storage space)
+- intensive swapping (moving data in and out of vritual memory (storage space) with an overhead)
 - sys crashes 
 

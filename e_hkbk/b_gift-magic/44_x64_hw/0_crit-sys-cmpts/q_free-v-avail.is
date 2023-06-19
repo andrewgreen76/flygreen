@@ -1,0 +1,14 @@
+
+free -h command:
+
+
+
+What is the difference between the "free" column and "available" column?
+ChatGPT
+
+The "free" column in the output of the free command represents the amount of memory that is not being used by any processes at the moment. This includes memory that is completely idle and available for immediate use.
+
+On the other hand, the "available" column represents the amount of memory that is available for new processes to allocate. It takes into account not only the free memory but also the memory that is currently being used for disk caching and buffers. The kernel uses this memory for caching file data and other system-related purposes. If a new process needs memory, the kernel can reclaim some of the memory used for caching and buffers and make it available for allocation to the new process.
+
+In summary, the "free" column shows the memory that is completely unused, while the "available" column includes both the free memory and the memory used for disk caching and buffers, which can be made available for new processes if needed.
+

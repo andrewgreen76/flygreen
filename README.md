@@ -35,6 +35,9 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
+- LLM 
+- PipeWire
+- Cython
 - Continuing to explore the pros and the cons of: C, C++, Rust, Python. 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:

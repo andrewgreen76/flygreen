@@ -1,0 +1,49 @@
+
+Certainly! Here's an example of a "Hello World" code written in Cython:
+
+```cython
+def hello_world():
+    print("Hello, World!")
+
+# Python module initialization
+def main():
+    hello_world()
+
+if __name__ == "__main__":
+    main()
+```
+
+In the above code, the `hello_world` function prints the "Hello, World!" message. The `main` function is used to call `hello_world` function. Finally, the `if __name__ == "__main__"` block ensures that `main` function is executed when the module is run directly.
+
+To compile and run the Cython code, you'll need to follow these steps:
+
+1. Save the code in a file with a `.pyx` extension (e.g., `hello_world.pyx`).
+
+2. Compile the `.pyx` file to generate the corresponding C code using the Cython compiler. Open a terminal or command prompt, navigate to the directory containing the `.pyx` file, and run the following command:
+
+   ```
+   cythonize -i hello_world.pyx
+   ```
+
+   This command compiles the Cython code and generates a `.c` file.
+
+3. Once the compilation is successful, you will have a compiled module. You can now import and use the module in your Python code:
+
+   ```python
+   import hello_world
+
+   hello_world.hello_world()
+   ```
+
+   Running the Python code will print the "Hello, World!" message.
+
+Please note that you'll need to have Cython installed on your system to compile the `.pyx` file. You can install Cython using tools like `pip`:
+
+```
+pip install cython
+```
+
+Make sure you have a C compiler installed as well, as it's required to compile the generated C code.
+
+By compiling Cython code, you can achieve better performance compared to pure Python code, especially when dealing with computationally intensive tasks or integrating with existing C/C++ codebases.
+

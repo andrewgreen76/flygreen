@@ -1,0 +1,23 @@
+
+A pull request is a feature in Git-based version control systems, such as GitHub, that allows developers to propose changes to a repository. It is commonly used in collaborative development workflows, especially when multiple contributors are working on a project.
+
+A pull request serves as a request to the repository maintainer(s) to review and merge changes made in a separate branch into the main branch (often the `master` branch). It provides a way for contributors to discuss and collaborate on code changes before they are merged into the main codebase.
+
+Here's how the pull request process typically works:
+
+1. Fork the repository: If you don't have write access to the original repository, you can fork it to create a copy under your GitHub account.
+
+2. Create a new branch: Create a new branch in your forked repository to isolate your changes. This allows you to work on the changes independently without affecting the main branch.
+
+3. Make and commit changes: Make the desired code changes in your branch and commit them to the repository. Each commit represents a specific change or set of changes.
+
+4. Open a pull request: Once you're ready to submit your changes for review, open a pull request from your branch to the main branch of the original repository. Provide a description of the changes and any additional context that may be helpful for reviewers.
+
+5. Review and discuss: The repository maintainer(s) and other collaborators can review the changes, leave comments, and suggest modifications. This allows for feedback and improvements before merging the changes.
+
+6. Make further commits and updates: If requested changes or improvements are needed, you can make additional commits to your branch to address the feedback and update the pull request accordingly.
+
+7. Merge the pull request: Once the changes have been reviewed and approved, the repository maintainer(s) can merge the pull request. This integrates the changes from the branch into the main branch of the repository.
+
+Pull requests provide a collaborative and transparent way to contribute changes to a codebase, allowing for discussion, feedback, and code review before merging the changes into the main branch.
+

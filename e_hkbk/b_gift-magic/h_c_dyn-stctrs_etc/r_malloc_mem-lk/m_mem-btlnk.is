@@ -1,0 +1,3 @@
+
+A memory bottleneck occurs when the available memory is severely limited, and the system struggles to allocate memory for new processes or tasks. When the system reaches this point, it can lead to degraded performance, increased swapping (when the operating system moves data between RAM and disk to free up memory), and even system crashes.
+

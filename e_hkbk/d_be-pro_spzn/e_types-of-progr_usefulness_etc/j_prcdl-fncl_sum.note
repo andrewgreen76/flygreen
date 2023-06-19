@@ -1,0 +1,51 @@
+
+// Procedural Programming Example (C)
+#include <stdio.h>
+
+int calculateSum(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int x = 5;
+    int y = 3;
+    int sum = calculateSum(x, y);
+    printf("The sum of %d and %d is %d\n", x, y, sum);
+    return 0;
+}
+
+
+
+
+// Functional Programming Example (JavaScript)
+function calculateSum(a, b) {
+    return a + b;
+}
+
+const x = 5;
+const y = 3;
+const sum = calculateSum(x, y);
+console.log(`The sum of ${x} and ${y} is ${sum}`);
+
+
+
+
+Apologies for the confusion. Let me clarify the differences between procedural and functional programming styles and address your questions.
+
+Procedural programming focuses on using procedures or functions to structure the code. It typically involves sequential execution of steps and relies on mutable state, such as variables that can be modified. Procedural programming often organizes code into reusable procedures and utilizes control structures like loops and conditionals.
+
+Functional programming, on the other hand, emphasizes the evaluation of mathematical functions and immutable data. It treats computation as the evaluation of expressions and avoids mutable state. Functions in functional programming are typically pure functions that produce the same output for the same input and have no side effects.
+
+Now, to address your questions:
+
+1. What does procedural style have that functional does not?
+   - Procedural programming allows for mutable state, which means that variables can be modified. It focuses on step-by-step execution of procedures or functions and relies on control structures like loops and conditionals to manipulate state and control flow.
+
+2. What does functional style have that procedural does not?
+   - Functional programming promotes immutable data and emphasizes the evaluation of expressions. It discourages mutable state and side effects, making it easier to reason about and test code. Functional programming languages often provide features like higher-order functions, function composition, and recursion as powerful tools.
+
+3. Isn't there an evaluation of an expression in the procedural code example?
+   - Yes, there is an evaluation of an expression in the procedural code example. The `calculateSum` function computes the sum of two numbers, which is an expression. However, in procedural programming, the focus is on the sequence of steps and the use of mutable state, whereas functional programming emphasizes the evaluation of expressions as the primary means of computation.
+
+In summary, the main difference between procedural and functional programming lies in their approach to state and computation. Procedural programming relies on mutable state and sequential execution of procedures, while functional programming emphasizes immutability and the evaluation of expressions.
+

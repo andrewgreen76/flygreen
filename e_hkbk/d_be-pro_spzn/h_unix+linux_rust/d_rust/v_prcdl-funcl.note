@@ -1,0 +1,7 @@
+
+Rust is primarily considered a procedural programming language. It follows a procedural programming paradigm, which means it emphasizes the use of procedures or functions to structure and organize code. Procedural programming focuses on writing a sequence of instructions to manipulate data and perform computations.
+
+However, Rust also incorporates functional programming concepts and features. It provides support for functional programming constructs such as higher-order functions, closures, and pattern matching. These features allow for more expressive and concise code, enabling functional programming techniques like immutability, pure functions, and function composition.
+
+Rust's functional programming features are a valuable addition that can enhance code clarity, maintainability, and encourage writing robust and reusable functions. However, Rust's primary focus remains on procedural programming, combining the benefits of both paradigms to enable efficient and safe systems programming.
+

@@ -35,10 +35,7 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
-- Open-source projects to choose from and practice with. (C, Rust, and Python
-  were selected.) 
-- Comparing: C, C++, Rust, Java, Go, C#, Python, shell scripting, Ada in terms of
-  security and performance. 
+- Continuing to explore the pros and the cons of: C, C++, Rust, Python. 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

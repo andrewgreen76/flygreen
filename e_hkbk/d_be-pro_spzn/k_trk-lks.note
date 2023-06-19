@@ -1,0 +1,7 @@
+
+To address memory leaks in C code, developers can:
+
+    Identify and locate the source of the memory leak by using memory profiling tools or debuggers to track memory allocation and deallocation.
+    Ensure that allocated memory is properly deallocated when it is no longer needed, using corresponding deallocation functions (e.g., free() in C).
+    Use proper error handling and cleanup mechanisms to handle exceptional cases and ensure that memory is released even in error scenarios.
+

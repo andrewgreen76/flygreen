@@ -1,0 +1,9 @@
+
+If you continuously write and run code that wastes a significant amount of memory without properly releasing it, it can lead to a gradual accumulation of memory leaks. Over time, these memory leaks can consume a large portion of available memory and potentially result in a memory bottleneck.
+
+A memory bottleneck occurs when the available memory is severely limited, and the system struggles to allocate memory for new processes or tasks. When the system reaches this point, it can lead to degraded performance, increased swapping (when the operating system moves data between RAM and disk to free up memory), and even system crashes.
+
+It's important to note that memory leaks alone may not cause a permanent memory bottleneck. When you terminate a program, the operating system should reclaim the memory allocated by that program, including any leaked memory. However, if you continuously run code that causes memory leaks without giving the system enough time to recover and release the leaked memory, the memory usage can become more and more constrained, leading to performance issues.
+
+To avoid such situations, it's crucial to write code that follows proper memory management practices. Make sure to release memory when it is no longer needed, use appropriate data structures, and test your code thoroughly to identify and fix any memory leaks. By doing so, you can minimize the risk of encountering severe memory bottlenecks and maintain optimal system performance.
+

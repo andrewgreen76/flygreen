@@ -5,6 +5,8 @@ sell the piano,
 Start packing
 |
 
+regroup C in a and b. 
+permanent memleak ? any mechs to remedy this ? 
 how [this machine] handles memory leaks 
 how [this machine] handles memory leaks
 What is the one advantage that C++ has that Rust does not?

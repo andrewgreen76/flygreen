@@ -1,7 +1,7 @@
-import sys
+class Spam:
+    def __del__(self):
+        print("Deleted!")
 
-int_val = 1
-two_ints_tpl = (int_val, int_val)
-two_tpls_tpl = (two_ints_tpl, two_ints_tpl)
-
-print(f"{sys.getsizeof(two_tpls_tpl) = }")
+x = Spam()
+y = x
+del x

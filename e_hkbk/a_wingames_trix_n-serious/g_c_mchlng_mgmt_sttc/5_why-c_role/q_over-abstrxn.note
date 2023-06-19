@@ -1,0 +1,23 @@
+
+Need for manual memgmt:
+-
+
+Problems with over-abtraction:
+- 
+
+
+
+Manual memory management is still relevant today for several reasons:
+
+1. Fine-grained control: Manual memory management allows developers to have precise control over memory allocation and deallocation. This level of control can be advantageous in performance-critical applications where memory usage needs to be optimized, and explicit control over object lifetimes is required.
+
+2. Resource-constrained environments: In embedded systems, operating systems, and other resource-constrained environments, manual memory management can be essential. These systems often have limited memory resources, and manual memory management allows for efficient allocation and deallocation, minimizing memory fragmentation and maximizing memory utilization.
+
+3. Low-level programming: Manual memory management is a fundamental aspect of low-level programming languages like C and assembly. These languages give developers direct access to memory and hardware, making manual memory management necessary for tasks like writing device drivers, operating systems, or embedded systems where fine-grained control is critical.
+
+4. Interoperability: Manual memory management is often used in scenarios where different programming languages or components need to interact with each other. By using manual memory management, developers can ensure memory compatibility and efficient data exchange between different systems.
+
+5. Performance optimization: In certain cases, manual memory management can offer better performance compared to automatic memory management techniques like garbage collection. By explicitly managing memory, developers can minimize overhead associated with garbage collection, reduce memory fragmentation, and have better control over memory locality.
+
+While automatic memory management techniques, such as garbage collection or smart pointers, provide convenience and safety by handling memory management automatically, manual memory management remains relevant in specific scenarios where control, performance, or resource constraints are priorities. However, it is important to use manual memory management with care to avoid memory leaks, dangling pointers, and other memory-related issues.
+

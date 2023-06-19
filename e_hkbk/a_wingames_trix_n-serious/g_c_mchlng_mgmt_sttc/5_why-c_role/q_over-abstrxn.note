@@ -1,9 +1,12 @@
 
-Need for manual memgmt:
--
-
 Problems with over-abtraction:
 - 
+
+When manual memgmt is needed (hardly ever):
++ Optimized memory use
++ Explicit control over object lifetimes
++ Avoiding memory fragmentation
+- May end up being tedious and counter-productive 
 
 
 

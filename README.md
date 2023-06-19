@@ -1,4 +1,4 @@
-# This is an experimental edutainment/tutorial repository - a work in progress. 
+# Welcome to the experimental edutainment/tutorial repository. 
 
 __________________________________________________________________________
 The PURPOSE of this repo:

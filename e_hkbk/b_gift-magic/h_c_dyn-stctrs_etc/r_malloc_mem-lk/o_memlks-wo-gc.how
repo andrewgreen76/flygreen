@@ -1,0 +1,11 @@
+
+In C, a language without automatic garbage collection, memory management is primarily the responsibility of the programmer. When a program terminates, all the memory allocated by that program is typically released by the operating system.
+
+However, if you have memory leaks in your C program, where memory is allocated but not properly released, those leaked memory blocks will not be automatically reclaimed by the operating system. The memory leaks will persist even after the program terminates, and the leaked memory will remain allocated until the system is restarted or the memory is explicitly freed.
+
+This can result in inefficient memory usage and potential issues such as memory exhaustion or degraded performance over time if the program runs for an extended period with continuous memory leaks.
+
+To handle memory leaks in C, it's important to ensure proper memory management within your code. You should explicitly release dynamically allocated memory using functions like `free()` when it is no longer needed. By doing so, you can avoid memory leaks and ensure efficient utilization of system resources.
+
+It's good programming practice to carefully manage memory in C to prevent memory leaks and properly deallocate memory resources when they are no longer required. This involves tracking and freeing all dynamically allocated memory throughout the program's execution.
+

@@ -1,0 +1,11 @@
+
+... rebooting the computer as a solution for memory leaks is not a recommended practice. Here's why:
+
+...
+
+	Potential for data loss: If the memory leak affects critical data or resources, rebooting may result in loss of unsaved data or corruption of important files.
+
+To effectively address memory leaks in a C program, it's best to identify and fix the source of the memory leak directly within the code. Ensure that all dynamically allocated memory is properly released using functions like free() when it is no longer needed. This will prevent memory leaks and provide a more reliable and long-term solution.
+
+Additionally, utilizing debugging tools, memory profilers, or static analysis tools can help detect memory leaks during the development and testing phases, allowing you to address them before deploying your application.
+

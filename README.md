@@ -35,6 +35,7 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
+- deeper focus on C, manual memory management, the need for it, problems with over-abstraction, etc. 
 - LLM 
 - PipeWire
 - Cython

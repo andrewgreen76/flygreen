@@ -12,3 +12,9 @@ On the other hand, the "available" column represents the amount of memory that i
 
 In summary, the "free" column shows the memory that is completely unused, while the "available" column includes both the free memory and the memory used for disk caching and buffers, which can be made available for new processes if needed.
 
+
+
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       2.6Gi       5.4Gi       692Mi       7.4Gi        11Gi
+Swap:          2.0Gi          0B       2.0Gi
+

@@ -1,4 +1,11 @@
 
+==============================================================================================================
+TAKEAWAY:
+- ... those leaked memory blocks will not be automatically reclaimed by the operating system. The memory leaks will persist even after the program terminates, and the leaked memory will remain allocated until the system is restarted or the memory is explicitly freed.
+==============================================================================================================
+
+
+
 In C, a language without automatic garbage collection, memory management is primarily the responsibility of the programmer. When a program terminates, all the memory allocated by that program is typically released by the operating system.
 
 However, if you have memory leaks in your C program, where memory is allocated but not properly released, those leaked memory blocks will not be automatically reclaimed by the operating system. The memory leaks will persist even after the program terminates, and the leaked memory will remain allocated until the system is restarted or the memory is explicitly freed.

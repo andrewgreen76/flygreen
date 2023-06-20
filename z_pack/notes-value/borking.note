@@ -1,0 +1,13 @@
+
+Yaroslav Grigorev out of network 3rd+ IT Specialist at The Cultivated B. GmbH
+1y
+
+sudo rm -rf /
+
+3 Replies 3 Replies on Yaroslav Grigorev’s comment
+See profile for Maxine Hayes
+Maxine Hayes (She/Her) out of network 3rd+ Linux Admin at Conarium Software
+3w
+
+William S. There's been plenty of times where I borked my Linux system while writing shell scripts to automate Linux From Scratch. The problem was always a variable that was set incorrectly or left unchecked. Luckily I've never accidentally deleted my rootfs, but I have deleted files in /dev and needed to do a quick restart. The lesson I learned was to never run scripts as the root user unless absolutely necessary!
+

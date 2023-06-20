@@ -6,6 +6,7 @@ Start packing
 |
 
 py: asmt vs. mut
+shallow copy vs. deep copy 
 further hackdom
 bridging the gap
 process isolation

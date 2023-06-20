@@ -5,6 +5,7 @@ sell the piano,
 Start packing
 |
 
+absolutely zero mem 
 malloc int * bfrPtr(sizeof(int));	// why ? 
 regroup C in a and b. 
 how [this machine] handles memory leaks 

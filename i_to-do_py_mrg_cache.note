@@ -5,10 +5,8 @@ sell the piano,
 Start packing
 |
 
-.copy()
 list comprehension
 the whole point to   	 (int*) malloc int * bfrPtr(sizeof(int));	// why ? 
-shallow copy vs. deep copy 
 further hackdom
 bridging the gap
 process isolation

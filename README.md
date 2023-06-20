@@ -35,7 +35,7 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
-- Python : assignment vs. mutation 
+- Python : assignment vs. mutation, duck typing 
 - deep focus on memory leaks 
 - deeper focus on C, manual memory management, the need for it, problems with over-abstraction, etc. 
 __________________________________________________________________________

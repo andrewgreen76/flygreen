@@ -5,6 +5,7 @@ sell the piano,
 Start packing
 |
 
+catalog flowers : full-time effort 
 py: asmt vs. mut
 further hackdom
 bridging the gap
@@ -19,6 +20,7 @@ how [this machine] handles memory leaks
 What is the one advantage that C++ has that Rust does not?
 |
 
+pattern matching
 Cert > Open-source projects to choose from. (C, Rust, and Python were selected.) 
 Learn cmake / Makefile
 Learn Docker / Dockerfile

@@ -35,11 +35,8 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
+- deep focus on memory leaks 
 - deeper focus on C, manual memory management, the need for it, problems with over-abstraction, etc. 
-- LLM 
-- PipeWire
-- Cython
-- Continuing to explore the pros and the cons of: C, C++, Rust, Python. 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

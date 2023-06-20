@@ -1,0 +1,19 @@
+
+"
+But if you are RE-assigning to x, isn't that mutation?
+"
+
+
+
+"
+Technically, it's not a mutation.
+
+A mutation is an *in-place* change.
+
+In other words, the value of an object changes (without changing the binding of its name). For example,
+x = [1,2]
+x.append(3)
+
+Here the object bound to x is modified without unbinding the name `x`
+"
+

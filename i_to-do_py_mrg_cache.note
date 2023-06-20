@@ -6,6 +6,8 @@ Start packing
 |
 
 creating a reference to an object
+.copy()
+list comprehension
 the whole point to   	 (int*) malloc int * bfrPtr(sizeof(int));	// why ? 
 shallow copy vs. deep copy 
 further hackdom

@@ -1,0 +1,24 @@
+
+Name binding refers to the process of associating a name (identifier) with a value in Python. It involves assigning a value to a variable or creating a reference to an object using a specific name.
+
+In Python, when a name is bound to a value, it means that the name becomes a reference or alias for that value. This allows you to use the name to access and manipulate the value throughout your code.
+
+Name binding occurs through variable assignment. When you assign a value to a variable using the assignment operator `=`, the name on the left side of the operator is bound to the value on the right side. For example:
+
+```python
+x = 42
+```
+
+In the above code, the name `x` is bound to the value `42`. Now, whenever you refer to `x` in subsequent code, it represents the value `42`.
+
+Name binding is dynamic in Python, which means you can reassign a name to a different value later in your code. For example:
+
+```python
+x = 42
+x = "Hello"
+```
+
+In this case, the name `x` is first bound to the integer value `42`, but later it is rebound to the string value `"Hello"`. The name `x` now refers to the new value.
+
+Name binding is a fundamental concept in Python and allows you to store and manipulate data by using meaningful names. It provides flexibility and allows you to work with values using descriptive and expressive identifiers throughout your code.
+

@@ -1,6 +1,3 @@
-a = [2, 3, 4]
-b = a.copy()
-b.append(6)
-print(b)
-b = a.pop()
-print(b)
+x = [1, 4, 2]
+print
+x = [list(range(i)) for i in x]

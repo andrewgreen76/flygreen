@@ -47,3 +47,10 @@ I hope that my posts helped to make it clearer to you.
 
 Feel free to ask follow-up questions, I'll do my best to answer.
 "
+
+
+
+"
+i.e., mutability vs. immutability is explorable w/ iterables, whereas reasgnt only leads to rebinding the same name to a different value like a number, a character, or a different iterable object.
+"
+

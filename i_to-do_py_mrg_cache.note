@@ -6,6 +6,7 @@ Start packing
 |
 
 creating a reference to an object
+the whole point to   	 (int*) malloc int * bfrPtr(sizeof(int));	// why ? 
 shallow copy vs. deep copy 
 further hackdom
 bridging the gap
@@ -13,7 +14,6 @@ process isolation
 linkedin
 photos : javaldx, etc. 
 absolutely zero mem
-(int*) malloc int * bfrPtr(sizeof(int));	// why ? 
 regroup C in a and b. 
 how [this machine] handles memory leaks 
 how [this machine] handles memory leaks

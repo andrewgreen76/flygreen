@@ -1,7 +1,7 @@
 
-"
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 But if you are RE-assigning to x, isn't that mutation?
-"
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
 
@@ -15,5 +15,35 @@ x = [1,2]
 x.append(3)
 
 Here the object bound to x is modified without unbinding the name `x`
-"
 
+
+
+
+
+check the id.
+
+A mutation operation does not change the object's id.
+
+A reassignment operation changes the id.
+
+For example,
+
+x = [1,2]
+x_old_id = id(x)
+
+x.append(4)  # Mutation
+print( id(x)==x_old_id )  # True
+
+x = [1,2,5]  # Reassignment
+print( id(x)==x_old_id)  # False
+
+
+
+
+
+Mutation vs reassignment is a subtle concept.
+
+I hope that my posts helped to make it clearer to you.
+
+Feel free to ask follow-up questions, I'll do my best to answer.
+"

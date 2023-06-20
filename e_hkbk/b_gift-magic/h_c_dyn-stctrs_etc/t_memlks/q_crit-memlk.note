@@ -4,8 +4,6 @@ ChatGPT
 
 Certainly! Here's an example in C that demonstrates a simple memory leak that affects critical data:
 
-c
-
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -6,6 +6,7 @@ Start packing
 |
 
 py: asmt vs. mut
+creating a reference to an object
 shallow copy vs. deep copy 
 further hackdom
 bridging the gap

@@ -38,3 +38,11 @@ print("Original list: " + str(original_list))
 print("2nd reference: " + str(reference))
 print("Shallow copy: " + str(shallow_copy))
 print("")
+
+print("Changing the first element of the original")
+original_list[0] = 10
+print("")
+print("Original list: " + str(original_list))
+print("2nd reference: " + str(reference))
+print("Shallow copy: " + str(shallow_copy))
+print("")

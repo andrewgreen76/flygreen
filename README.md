@@ -41,9 +41,7 @@ __________________________________________________________________________
   - RHS eval.,
   - list comprehension,
   - method call vs. method address,
-  - referencing vs. shallow copy vs. deep copy 
-- deep focus on memory leaks 
-- deeper focus on C, manual memory management, the need for it, problems with over-abstraction, etc. 
+  - extra-referencing vs. shallow copy vs. deep copy 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

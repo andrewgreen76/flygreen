@@ -31,14 +31,19 @@ fscanf(srcFptr,"%s %d\n", &nome, &voto) -   file string (-> decomp).
 
 ------------------------- String format specifiers: --------------------------- 
 
-%i - as an int * ; send &
-%d - as a decimal int * ; send &
+p-functions do NOT take references.
+s-functions NEED references. 
+
+%i - as an int;
+%d - as a decimal int; 
  > only scanned with a precision. 
 %f - as a float (smaller precision, takes less mem, faster graphic performance)  
 %lf - as a double (greater precision, takes more memory, slower performance) 
-%c - as a character 
-%s - as a string 
+%c - as a character;  
+%s - as a string; 
 
+%p - as a pointer;
+%u - as an unsigned integer; 
 
 ---------------------- Sub-string special characters: ------------------------- 
 

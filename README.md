@@ -42,7 +42,8 @@ __________________________________________________________________________
   - RHS eval.,
   - list comprehension,
   - method call vs. method address,
-  - extra-referencing vs. shallow copy vs. deep copy 
+  - extra-referencing vs. shallow copy vs. deep copy
+  - round() function 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

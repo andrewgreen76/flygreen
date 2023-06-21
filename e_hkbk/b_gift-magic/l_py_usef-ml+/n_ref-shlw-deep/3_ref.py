@@ -1,3 +1,6 @@
+# If you create another reference that points to the same object the original reference points to,
+# both references will reflect the same changes made to the same object. 
+
 import copy
 
 original_list = [1, 2, [3]]

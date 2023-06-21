@@ -1,21 +1,9 @@
-w = [2]  # A reference called 'w' is created to point to the list object.  
-x = w    # Creating another reference to the same object. 
-y = w.copy()    # Creating a shallow copy of the list. 
-z = w.deepcopy()    # Creating a deep copy of the list. 
+ol = [4, [5]]  # A reference called 'w' is created to point to the list object.  
+ref = w    # Creating another reference to the same object. 
+shc = w.copy()    # Creating a shallow copy of the list. 
+dpc = w.deepcopy()    # Creating a deep copy of the list. 
 
 w.append(6)
-
-
-
-# What does 'x' hold at this point ?
-# (A) [2]
-# (B) [2, 6]
-
-# What does 'y' hold at this point ?
-# (A) [2]
-# (B) [2, 6]
-
-# What is the difference between 'y' and 'z' ?
 
 
 

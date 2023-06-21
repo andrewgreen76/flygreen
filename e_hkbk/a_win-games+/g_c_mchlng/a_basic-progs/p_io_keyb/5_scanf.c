@@ -4,9 +4,9 @@
 int main() {
   int in;    // input is of type int. 
   
-  printf("Punch in the input to reflect: ");
+  printf("\nPunch in the input to reflect: ");
   scanf("%i", &in);
-  printf("%i", in);
+  printf("%i\n", in);
   
   return 0;
 }

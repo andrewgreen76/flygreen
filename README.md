@@ -35,6 +35,7 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
+- C syntax (I/O)
 - Python :
   - name binding and duck typing,
   - reassignment vs. mutation,

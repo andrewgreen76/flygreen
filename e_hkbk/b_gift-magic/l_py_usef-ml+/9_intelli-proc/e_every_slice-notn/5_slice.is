@@ -1,0 +1,20 @@
+
+Slice notation allows you to extract a portion of a sequence, such as a list, string, or tuple, using a specific step value. The general syntax for slice notation is `start:stop:step`, where `start` is the starting index, `stop` is the ending index (exclusive), and `step` is the step value that determines how elements are selected.
+
+In the case of `print(nums[::3])`, the slice notation is `[::3]`. Here's what each part represents:
+
+- The absence of `start` and `stop` values indicates that the slice includes all elements of the `nums` list.
+- The `step` value of `3` indicates that every third element from the list will be included in the slice.
+
+So, `print(nums[::3])` will print every third element from the `nums` list.
+
+Here's an example to illustrate the usage of slice notation:
+
+```python
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print(nums[::3])  # Output: [1, 4, 7, 10]
+```
+
+In this example, the slice notation `[::3]` selects every third element from the `nums` list, resulting in the output `[1, 4, 7, 10]`.
+

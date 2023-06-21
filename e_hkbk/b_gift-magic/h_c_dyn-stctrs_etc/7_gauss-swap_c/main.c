@@ -12,7 +12,6 @@ int main()
   //
   for(int i=0; i<m; i++)
   {
-    //f=i ; t=(s-1)-0 = s-1-i ;
     int t = s-1-i;
     a[i] ^= a[t] ^= a[i] ^= a[t];
   }

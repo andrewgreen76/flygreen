@@ -40,7 +40,8 @@ __________________________________________________________________________
   - reassignment vs. mutation,
   - RHS eval.,
   - list comprehension,
-  - method call vs. method address, 
+  - method call vs. method address,
+  - referencing vs. shallow copy vs. deep copy 
 - deep focus on memory leaks 
 - deeper focus on C, manual memory management, the need for it, problems with over-abstraction, etc. 
 __________________________________________________________________________

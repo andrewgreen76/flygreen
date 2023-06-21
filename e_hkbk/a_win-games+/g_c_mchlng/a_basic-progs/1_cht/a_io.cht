@@ -43,7 +43,8 @@ s-functions NEED references.
 %s - as a string; 
 
 %p - as a pointer;
-%u - as an unsigned integer; 
+%u - as an unsigned integer;
+%ls - as a wide character; 
 
 ---------------------- Sub-string special characters: ------------------------- 
 

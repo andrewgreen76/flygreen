@@ -26,6 +26,14 @@ print("2nd reference: " + str(reference))
 print("Deep copy: " + str(deep_copy))
 print("")
 
+print("Changing the original list")
+original_list[2].append(7)
+print("")
+print("Original list: " + str(original_list))
+print("2nd reference: " + str(reference))
+print("Deep copy: " + str(deep_copy))
+print("")
+
 
 
 #print("List at genesis: [1, 2, [3]]")

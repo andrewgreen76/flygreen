@@ -26,17 +26,10 @@ print("2nd reference: " + str(reference))
 print("Shallow copy: " + str(shallow_copy))
 print("")
 
-
-
-#print("List at genesis: [1, 2, [3]]")
-#
-#print("Original list became: ")
-#print(original_list)  # [1, 2, [3, 4]]
-#print("Shallow copy became: ")
-#print(shallow_copy)   # [1, 2, [3, 4]]
-#
-
-
-#print("Deep copy became: ")
-#print(deep_copy)      # [1, 2, [3, 5]]
-
+print("Changing the original list")
+original_list[2].append(6)
+print("")
+print("Original list: " + str(original_list))
+print("2nd reference: " + str(reference))
+print("Shallow copy: " + str(shallow_copy))
+print("")

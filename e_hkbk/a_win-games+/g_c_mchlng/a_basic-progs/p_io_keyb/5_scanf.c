@@ -5,8 +5,8 @@ int main() {
   int in;    // input is of type int. 
   
   printf("Punch in the input to reflect: ");
-  scanf("%d", &in);
-  printf("%d", &in);
+  scanf("%i", &in);
+  printf("%i", in);
   
   return 0;
 }

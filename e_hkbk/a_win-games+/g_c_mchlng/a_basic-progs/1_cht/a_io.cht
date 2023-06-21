@@ -16,17 +16,17 @@ Three data flow schemes: 		|	  out()	 	  out
 
 stdin/out (i/o, key/con stream): 
 |
-printf("Name: %s, age: %d", n, a) 	-  comp string  -> stdout. 
+printf("Name: %s, age: %d", n, a) 	-  compose string  -> stdout. 
 scanf("%x", &var) 			-        stdin (-> one var). 
 
 's' is for "string": 
 |
-sprintf(dstBf, "Sqrt of %d is %d", a,b) -   comp string  -> string buffer. 
+sprintf(dstBf, "Sqrt of %d is %d", a,b) -   compose string  -> string buffer. 
 sscanf(srcBf, "%s %d", month, &year) 	- string buffer (-> decomp). 
 
 'f' is for "file": 
 |
-fprintf(dstFptr,"%d.%s\n", i, str) 	-   comp string  -> file. 
+fprintf(dstFptr,"%d.%s\n", i, str) 	-   compose string  -> file. 
 fscanf(srcFptr,"%s %d\n", &nome, &voto) -   file string (-> decomp).
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 

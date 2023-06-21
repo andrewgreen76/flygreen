@@ -1,0 +1,29 @@
+
+===============================================================================
+============================= Other necessities: ==============================
+=============================================================================== 
+
+------------------------- String format specifiers: --------------------------- 
+
+%i - as an int 
+%d - as a decimal integer 
+ > only scanned with a precision. 
+%f - as a float (smaller precision, takes less mem, faster graphic performance)  
+%lf - as a double (greater precision, takes more memory, slower performance) 
+%c - as a character 
+%s - as a string 
+
+---------------------- Sub-string special characters: ------------------------- 
+
+\n	- new line 
+\t	- tab 
+
+--------------------------- Conversion functions: ----------------------------- 
+
+atof() - string to float/double 
+dtoa() - double to string 
+atoi() - string to int 
+itoa() - int to string 
+Integer.parseInt(String.valueOf(ch)); 	- char/string to int 
+Integer.toString(c);			- int to char/string 
+

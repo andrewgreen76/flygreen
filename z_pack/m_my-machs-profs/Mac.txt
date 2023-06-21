@@ -1,0 +1,71 @@
+
+Software:
+
+    System Software Overview:
+
+      System Version: macOS 13.2 (22D49)
+      Kernel Version: Darwin 22.3.0
+      Boot Volume: Untitled
+      Boot Mode: Normal
+      Computer Name: Andrew’s MacBook Pro
+      User Name: Andrew Green (andrewgreen)
+      Secure Virtual Memory: Enabled
+      System Integrity Protection: Enabled
+      Time since boot: 35 minutes, 36 seconds
+
+Proc:	2.3 GHz dual-core Intel Core i5
+Gfx:	Intel Iris Plus Graphics 640 1536 MB
+Mem: 	16 GB 2133 MHz LPDDR3
+Serial:	C02V803QHV2F
+OS: 	macOS Ventura v13.2
+
+Per iPhone: 
+	Intel Mac OS X 10.15.7
+
+==========================================================================================
+
+MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)
+
+CPU: 
+ - 2.3 GHz Dual-Core Intel Core i5
+
+Memory: 
+ - 16 GB 2133 MHz LPDDR3
+
+GPU: 
+ - Intel Iris Plus Graphics 640 1536 MB
+
+==========================================================================================
+
+Volume name : Macintosh HD
+Volume type : APFS Startup Snapshot
+BSD device node : disk1s5s1
+Mount point : /
+System : macOS 12.3.1 (21E258)
+File system : APFS (Encrypted)
+Connection : PCI-Express
+Device tree path : IODeviceTree:/PCI0@0/RP01@1C/SSD0@0/AppleS3XController
+Writable : Yes
+Is case-sensitive : No
+File system UUID : 5306382A-5493-4E9B-98F7-DF3CBBB24F31
+Volume capacity : 121,018,208,256
+Available space (Purgeable + Free) : 19,963,996,209
+Purgeable space : 4,241,356,849
+Free space : 15,722,639,360
+Used space : 23,786,393,600
+File count : 365,973
+Owners enabled : Yes
+Is encrypted : Yes
+System Integrity Protection supported : Yes
+Can be verified : Yes
+Can be repaired : Yes
+Bootable : Yes
+Journaled : No
+Media name : 
+Media type : Generic
+Ejectable : No
+Solid state : Yes
+S.M.A.R.T. status : Not Supported
+
+
+

@@ -1,0 +1,88 @@
+
+this machine's specs 
+my machine
+specs
+specifications
+NVIDIA
+Milton 
+
+
+CyberPowerPC Gaming Desktop
+Model Number SLC7000BST
+https://www.bestbuy.com/site/cyberpowerpc-gaming-desktop-amd-ryzen-7-3700x-16gb-geforce-rtx-2070-super-2tb-hdd-240gb-ssd-white/6362429.p?skuId=6362429
+
+Storage: 
+ - 2TB HDD
+ - 240GB SSD 
+
+64-bit OS
+x64-based processor 
+Windows 10 Home (2004) 
+
+
+BIOS: 
+ - BIOS Version/Date	American Megatrends Inc. F50a, 11/8/2019
+ - SMBIOS Version	3.2
+ - BIOS System Model		B450M DS3H WIFI
+
+
+RAM (modern): 
+ - 16 GB 
+ - byte-addressable ; 1B (8b) _ _ _ _ _ _ _ _ 0xFF
+ - 3 MHz RAM speed 
+ - Type of Memory (RAM) - DDR4 SDRAM
+
+CPU (desktop processor): 
+ - AMD Ryzen 7 3700X 8-Core Processor 
+ - 3.59 GHz base speed (clock speed)
+ - 8 cores, 16 logical processors ("CPUs")
+ - disabled virtualization
+ - Hyper-V support 
+ - caches: L1 - 512KB, L2 - 4MB, L3 - 32 MB 
+ - no integrated graphics. 
+
+
+Gfx: 
+ - video card: 
+ - GPU: 
+NVIDIA msi GeForce RTX 2070 Super 
+ - 8GB GDDR6 video memory (15.5Gbps) 
+ - 1920 x 1080 - max res (2,073,600 pixels) 
+ - 60 Hz refresh rate. 
+ - Drivers: .dll's, WDDM 2.7, version 27.21.14.5671 
+ - Monitor: Asus VG248QE, 24", 1920 x 1080 (full HD / 1080p), 144 Hz (~92ppi. ~53ppd?)
+ - total VRAM on the GPU: 8GB = 8,192 MB (4GB x 2 buffers). 
+ > wmic path win32_VideoController get name, videoarchitecture, deviceID, adapterram
+AdapterRAM  DeviceID          Name                           VideoArchitecture
+4293918720  VideoController1  NVIDIA GeForce RTX 2070 SUPER  5
+^
+VRAM ? in bytes. (4GB = 4,096 MB)
+Color Table Entries	4294967296
+|
+|
+Memory Address	0xF6000000-0xF6FFFFFF	= 16,777,215 
+Memory Address	0xE0000000-0xEFFFFFFF	= 268,435,455 
+Memory Address	0xF0000000-0xF1FFFFFF	= 16,777,215 
+|
+|
+Memory Address	0xA0000-0xBFFFF
+(?? Framebuffer A ??) : 0xA0000-0xAFFFF
+(?? Framebuffer B ??) : 0xB0000-0xBFFFF
+16^4 = 65,536 (64K)
+RGBA = 32 bits (4B) per pixel. 
+0x00000-0x00003	= 1px
+0x00000-0x0000B = 3px
+0x00000-0x000B0 = 3px x 16 = 48px
+0x00000-0xB0000 = 3px x 16^4 = 196,608px ??
+
+Sound: 
+ - VG248 NVIDIA high def audio 
+ - Realtek(R) audio 
+
+I/O: 
+ - 
+
+
+
+By CyberPowerPC 
+

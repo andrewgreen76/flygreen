@@ -29,7 +29,25 @@ sscanf(srcBf, "%s %d", month, &year) 	- string buffer (-> decomp).
 fprintf(dstFptr,"%d.%s\n", i, str) 	-   compose string  -> file. 
 fscanf(srcFptr,"%s %d\n", &nome, &voto) -   file string (-> decomp).
 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+------------------------- String format specifiers: --------------------------- 
+
+%i - as an int * ; send &
+%d - as a decimal int * ; send &
+ > only scanned with a precision. 
+%f - as a float (smaller precision, takes less mem, faster graphic performance)  
+%lf - as a double (greater precision, takes more memory, slower performance) 
+%c - as a character 
+%s - as a string 
+
+
+---------------------- Sub-string special characters: ------------------------- 
+
+\n	- new line 
+\t	- tab 
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 putc(c, dstStrm/dstVar)	- 	 char  -> stream. 
 c=getc(srcStrm/srcVar)	- stream char (-> var c). 

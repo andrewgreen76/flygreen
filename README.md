@@ -48,25 +48,6 @@ TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.
 __________________________________________________________________________
 
-It is pretty upsetting that TurboC(++) is not cross-platform. That means
-it can't be used at all for educational purposes. I understand that we have
-something like Arduino for doing cool things like generating sound tones,
-but there was a time when you could write just a few lines of code using
-the dos.h library and get to not only playing sounds but also plotting pixels
-on a PC. This user is not happy. To make matters worse, my impulsive
-conversion of the Dell Inspiron, which had Windows as its native OS, to
-Linux Ubuntu may have complicated things on the kernel level.
-
-Perhaps I should do something about it. I'm not going to sacrifice my time
-studying C, Rust, the Pop!_OS kernel, coreboot, and systemd for writing
-an entire codebase for a safe, highly abstracted mirror of C, a fake,
-that could tap into any hardware.
-
-1) VM:
-- 
-
-2) DOSBox:
-- But maybe there's something I could do inside DOSBox if at all. 
 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:

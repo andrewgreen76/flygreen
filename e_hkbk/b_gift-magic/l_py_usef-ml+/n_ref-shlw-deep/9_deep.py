@@ -1,3 +1,5 @@
+# A deep copy is always completely independent. 
+
 import copy
 
 original_list = [1, 2, [3]]

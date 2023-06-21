@@ -1,0 +1,21 @@
+
+- automatic : rebooting. 
+- manual : debugging tools (Valgrind), memory profilers, static analyzers. 
+
+
+
+Once a C program terminates, the operating system's options for directly coping with or resolving memory leaks caused by that program become limited. At this point, the program's memory space is deallocated, and the operating system's knowledge of specific memory allocations made by the program is typically lost.
+
+However, operating systems may implement certain mechanisms and features to mitigate the impact of memory leaks. These mechanisms are primarily focused on system stability and protection rather than fixing the memory leaks themselves. Here are a few strategies that operating systems can employ:
+
+1. Process Isolation: Operating systems use process isolation to prevent one program's memory leaks from affecting other running processes. Each process has its own virtual address space, which helps contain memory leaks within the boundaries of the individual process. This isolation prevents memory leaks from directly impacting other programs.
+
+2. Memory Protection: Modern operating systems employ memory protection mechanisms that can detect and handle illegal memory accesses, such as accessing already freed memory or accessing memory beyond the allocated boundaries. When such violations occur, the operating system can trigger an exception or a segmentation fault, terminating the process and preventing potential security vulnerabilities or further memory corruption.
+
+3. System Resource Management: Operating systems may employ resource management strategies to monitor and control the usage of system resources, including memory. These strategies aim to prevent any single process from monopolizing system resources and causing widespread performance degradation. By enforcing resource limits and prioritizing resource allocation, the impact of memory leaks on overall system performance can be minimized.
+
+4. Debugging and Profiling Tools: Operating systems may provide debugging and profiling tools that can help identify memory leaks and analyze their impact on system resources. These tools can assist developers in detecting and resolving memory leaks during the development and testing phases, improving the overall stability of programs.
+
+In summary, while operating systems have mechanisms in place to mitigate the impact of memory leaks and protect system stability, they cannot directly resolve memory leaks after a C program terminates. It remains the responsibility of the programmer to identify and fix memory leaks within the code to ensure proper resource management and optimal system performance.
+
+-

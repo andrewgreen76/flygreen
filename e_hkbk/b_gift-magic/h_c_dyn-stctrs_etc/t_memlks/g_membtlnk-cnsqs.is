@@ -1,5 +1,28 @@
 
 - bad performance
 - intensive swapping (moving data in and out of vritual memory (storage space) with an overhead)
-- sys crashes 
+- sys crashes (freezing)
+- resource contention (threads and processes attempting to get then needed resources)
+
+
+
+Certainly! Here's an example to illustrate inefficient memory usage and potential performance issues caused by memory leaks:
+
+Consider a program that performs some memory-intensive operations, such as processing large datasets or images. Let's assume that this program has a memory leak, where it allocates memory for temporary buffers during the processing but fails to release them properly.
+
+Without proper deallocation, the memory leaks gradually accumulate over time as the program runs. As a result, the program consumes more and more memory resources that are never freed, leading to inefficient memory usage.
+
+Here are some potential consequences of inefficient memory usage due to memory leaks:
+
+1. Memory Exhaustion: As the program continues to run with memory leaks, it keeps consuming additional memory that is never released. Eventually, it can exhaust the available memory resources on the system, leading to memory allocation failures or crashes.
+
+2. Increased Swapping: If the system runs out of physical memory due to memory leaks, it may resort to swapping data between RAM and disk more frequently. Swapping is a process where the operating system moves data between the slower disk storage and the faster RAM to free up memory. Increased swapping significantly slows down program execution, resulting in degraded performance.
+
+3. Reduced Responsiveness: Memory leaks can gradually consume significant memory resources, impacting the overall responsiveness of the system. Other running applications may experience delays, sluggishness, or even freeze due to inadequate available memory.
+
+4. Performance Degradation: The increased memory usage caused by memory leaks can lead to decreased performance for the affected program itself. It may experience slower processing times, longer response times, or increased latency due to the limited available memory.
+
+5. Resource Contention: In a multi-process or multi-threaded environment, inefficient memory usage due to memory leaks can lead to resource contention. Other processes or threads may struggle to acquire the necessary memory resources, causing delays or bottlenecks in the system.
+
+Overall, inefficient memory usage caused by memory leaks can have severe consequences for system performance, stability, and user experience. It's crucial to address memory leaks by properly deallocating memory to prevent these issues and ensure optimal resource management.
 

@@ -1,13 +1,10 @@
 import copy
 
 original_list = [1, 2, [3]]
-reference = original_list
 shallow_copy = copy.copy(original_list)
-deep_copy = copy.deepcopy(original_list)
 
 # Modify the nested list in the copies
 shallow_copy[2].append(4)
-deep_copy[2].append(5)
 
 
 

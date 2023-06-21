@@ -6,7 +6,7 @@ int main() {
   
   printf("\nPunch in the input to reflect: ");
   scanf("%i", &in);
-  printf("%i\n", in);
+  printf("%i\n\n", in);
   
   return 0;
 }

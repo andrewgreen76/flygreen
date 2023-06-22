@@ -1,5 +1,5 @@
 
-- automatic : rebooting. 
+- automatic : reboot, shutdown.  
 - manual : debugging tools (Valgrind), memory profilers, static analyzers. 
 
 
@@ -18,4 +18,3 @@ However, operating systems may implement certain mechanisms and features to miti
 
 In summary, while operating systems have mechanisms in place to mitigate the impact of memory leaks and protect system stability, they cannot directly resolve memory leaks after a C program terminates. It remains the responsibility of the programmer to identify and fix memory leaks within the code to ensure proper resource management and optimal system performance.
 
--

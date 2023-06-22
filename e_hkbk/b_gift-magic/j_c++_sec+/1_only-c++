@@ -1,4 +1,10 @@
 
+
+
+
+
+
+
 User
 What isn't taken care of in C that is taken care of in C++ in terms of security and otherwise?
 ChatGPT
@@ -20,4 +26,27 @@ C++ is an extension of the C programming language and provides several features 
     Standardization and safer features: C++ is a standardized language, and its standardization process focuses on safety, security, and portability. Newer versions of the C++ standard introduce safer features and idioms, such as range-based loops, nullptr, smart pointers, and constexpr, which help improve code correctness and reduce vulnerabilities.
 
 While C++ offers these additional features and security improvements over C, it's important to note that writing secure code ultimately depends on the programmer's knowledge, practices, and adherence to secure coding guidelines. C++ provides tools and abstractions to help programmers write secure code, but it does not guarantee security by default.
+
+
+
+
+
+Better data hiding through abstaction / high modularity.
+- How?
+- 
+Better type checking:
+- How?
+-
+STL
+- Why?
+-
+- Why better memgmt?
+-
+Exception handling:
+-
+Auto-rsrc mgmt:
+- constructors, destructors
+- smart pointers (automatic mem release, preventing mem leaks and dangling ptrs)
+- raii (resource acquisition is initialization)
+- containers (std::string, std::vector)
 

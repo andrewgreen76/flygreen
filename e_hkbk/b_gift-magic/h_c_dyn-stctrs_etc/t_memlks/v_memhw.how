@@ -1,0 +1,15 @@
+
+In Bash, the `dmidecode` command can provide information about the memory modules or chips on the motherboard of your device. However, please note that the availability of this command depends on your operating system and whether the `dmidecode` package is installed. 
+
+To use `dmidecode` to retrieve memory module information, you can execute the following command:
+
+```bash
+sudo dmidecode --type memory
+```
+
+The `sudo` command is used to run `dmidecode` with administrative privileges since it requires access to system information. You may be prompted to enter your password to execute the command.
+
+When you run this command, it will display detailed information about the memory modules installed on your motherboard, including details such as the manufacturer, part number, size, speed, and other relevant information.
+
+Keep in mind that the output may vary depending on your system's configuration, the availability of the `dmidecode` command, and your user privileges.
+

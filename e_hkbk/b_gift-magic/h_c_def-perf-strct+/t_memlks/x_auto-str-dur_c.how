@@ -1,3 +1,17 @@
 
--
+Automatic storage duration in C refers to the lifetime and management of variables declared within a block or function. Variables with automatic storage duration are typically created when the block is entered and destroyed when the block is exited.
+
+Here are some key points about automatic storage duration in C:
+
+1. Scope: Variables with automatic storage duration have block scope, which means they are accessible only within the block where they are defined. Once the block is exited, the variables are no longer accessible.
+
+2. Lifetime: The lifetime of variables with automatic storage duration is tied to the execution of the block where they are defined. They are created when the block is entered and destroyed when the block is exited. Each time the block is entered, new instances of these variables are created.
+
+3. Memory Allocation: Memory for variables with automatic storage duration is typically allocated on the stack, which is a region of memory managed by the program's execution stack. The stack provides a fast and efficient way to allocate and deallocate memory for local variables.
+
+4. Initialization: Variables with automatic storage duration can be declared without an initializer, in which case they have an indeterminate initial value. They can also be initialized at the time of declaration using an initializer expression.
+
+5. Automatic Deallocation: Variables with automatic storage duration are automatically deallocated when the block is exited. This means the memory used by these variables is automatically reclaimed without the need for explicit deallocation.
+
+Automatic storage duration is the default storage duration for variables declared within a block or function in C. It provides a convenient way to manage local variables that are needed only within a specific scope. By automatically allocating and deallocating memory for these variables, C simplifies memory management and reduces the risk of memory leaks.
 

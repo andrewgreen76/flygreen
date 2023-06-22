@@ -1,0 +1,32 @@
+
+To step back through multiple directories you've visited, you can use the `pushd` and `popd` commands in Bash. These commands allow you to manage a directory stack.
+
+Here's how it works:
+
+- `pushd <directory>`: This command saves the current directory onto the stack and changes the working directory to the specified `<directory>`. It also prints the updated directory stack.
+
+- `popd`: This command removes the top directory from the stack and changes the working directory to the next directory in the stack. It also prints the updated directory stack.
+
+- `dirs`: This command displays the current directory stack.
+
+Here's an example to illustrate the usage:
+
+```
+$ pushd /home/user/dir1
+/home/user/dir1 ~
+$ pushd /home/user/dir2
+/home/user/dir2 /home/user/dir1 ~
+$ pushd /home/user/dir3
+/home/user/dir3 /home/user/dir2 /home/user/dir1 ~
+$ dirs
+/home/user/dir3 /home/user/dir2 /home/user/dir1 ~
+$ popd
+/home/user/dir2 /home/user/dir1 ~
+$ popd
+/home/user/dir1 ~
+$ dirs
+/home/user/dir1 ~
+```
+
+In this example, we start by using `pushd` to move to different directories. Each time we push a directory onto the stack, the directory stack is displayed. We can use `popd` to step back through the stack and change the working directory accordingly. The `dirs` command shows the current directory stack at any given point.
+

@@ -1,0 +1,20 @@
+
+In Bash, you can use the `ulimit` command to obtain information about memory limits, including the stack size limit. However, determining the exact heap memory limit can be more challenging, as it is managed by the operating system and may not be directly accessible through a simple command.
+
+To check the stack size limit, you can use the `ulimit` command with the `-s` option:
+
+```bash
+ulimit -s
+```
+
+This command will display the stack size limit in kilobytes. Note that the output might be influenced by the configuration and permissions of your system.
+
+As for heap memory, it's not typically exposed through a direct Bash command. Heap memory management is handled by the operating system's memory management subsystem, and the specific limits and availability may vary depending on the system and its configuration.
+
+If you need more detailed information about the memory usage, including heap memory, you may need to utilize specialized tools or utilities designed for monitoring system resources. These tools often provide comprehensive insights into memory usage, including heap memory, and are commonly available for various operating systems (e.g., `top`, `htop`, or `free` on Linux-based systems).
+
+Keep in mind that Bash commands alone might not provide the complete picture of memory usage, especially when it comes to specific memory regions like heap memory.
+
+
+
+8192

@@ -7,6 +7,7 @@ Start packing
 |
 
 undo rm
+study templates before jumping into Rust. 
 If I have a Crucial 8GB DDR4-2400 SODIMM, where in all that memory would I typically find memory leaks? 
 the whole point to   	 (int*) malloc int * bfrPtr(sizeof(int));	// why ? 
 further hackdom

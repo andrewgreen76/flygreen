@@ -19,7 +19,7 @@ stdin/out (i/o, key/con stream):
 printf("Name: %s, age: %d", n, a) 	-  compose string  -> stdout. 
 scanf("%x", &var) 			-        stdin (-> one var). 
 
-'s' is for "string": 
+'s' is for "string/stream/store in buffer": 
 |
 sprintf(dstBf, "Sqrt of %d is %d", a,b) -   compose string  -> string buffer. 
 sscanf(srcBf, "%s %d", month, &year) 	- string buffer (-> decomp). 

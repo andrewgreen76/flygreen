@@ -1,0 +1,7 @@
+
+DMI stands for Desktop Management Interface. It is a standard framework and methodology for retrieving and presenting system management information about a computer system. DMI provides a standardized way to access information about various hardware components and system configuration details, including memory modules, BIOS, motherboard, CPU, and more.
+
+The DMI specification defines a standardized structure and format for storing this system information in a standardized format, often in non-volatile memory (such as the BIOS or UEFI firmware) on the motherboard. The `dmidecode` command, mentioned earlier, is a utility that reads this information and presents it in a human-readable format.
+
+The DMI information is helpful for system administrators, hardware diagnostics, troubleshooting, and monitoring purposes, as it provides detailed insights into the hardware components and configuration of a computer system.
+

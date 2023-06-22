@@ -1,0 +1,13 @@
+
+User
+Where do memory leaks go upon shutdown?
+ChatGPT
+
+When a program or the operating system shuts down, any memory leaks that have occurred within the program's execution will generally remain in memory until the system is restarted. The operating system does not explicitly clean up or deallocate memory leaks caused by a terminated program.
+
+Memory leaks persist in the system's memory until the resources are reclaimed by a system restart or until the operating system itself is shut down. When the system restarts, all resources, including leaked memory, are typically released and returned to the available pool of memory for future use.
+
+It's important to note that relying on a system restart as a solution for memory leaks is not a recommended practice. Restarting the system to clear memory leaks is a temporary and inefficient approach. The ideal approach is to identify and fix memory leaks directly within the program's code by properly deallocating memory using functions like free() (in C/C++) or appropriate memory management practices in other languages.
+
+Regularly monitoring and addressing memory leaks during the development and testing phases can help ensure optimal resource management and prevent memory-related issues in your programs.
+

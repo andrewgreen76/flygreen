@@ -1,0 +1,17 @@
+
+BASIC (Beginners All-purpose Symbolic Instruction Code) is a high-level programming language that was developed in the mid-1960s. It was designed to be easy to learn and understand, making it accessible to beginners. BASIC provides a simple syntax and a limited set of commands for performing basic programming tasks.
+
+Visual Basic (VB), on the other hand, is an object-oriented programming language that is based on BASIC. It was introduced by Microsoft in the early 1990s as a graphical programming language and development environment. Visual Basic added visual elements and event-driven programming features to the traditional BASIC language, making it easier to create Windows-based applications with user interfaces.
+
+The key differences between BASIC and Visual Basic include:
+
+1. Graphical Interface: Visual Basic introduced a visual development environment with a drag-and-drop interface for creating user interfaces, which was not available in traditional BASIC.
+
+2. Object-Oriented Programming: Visual Basic is an object-oriented language, allowing developers to define and use classes, objects, and inheritance to organize and structure their code. Traditional BASIC is typically procedural in nature.
+
+3. Event-Driven Programming: Visual Basic introduced event-driven programming, where code execution is triggered by user actions or system events. This allows developers to respond to user interactions more easily.
+
+4. Integrated Development Environment (IDE): Visual Basic comes with a comprehensive IDE that provides tools for code editing, debugging, and application deployment. Traditional BASIC may not have a dedicated IDE.
+
+Overall, Visual Basic expanded upon the simplicity of traditional BASIC by adding more advanced features, graphical elements, and a robust development environment, making it a popular choice for developing Windows applications.
+

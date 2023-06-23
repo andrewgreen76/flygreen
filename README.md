@@ -37,9 +37,10 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
-- More on memory leaks, coping strategies, Valgrind 
+- malloc() use for arrays of integers and arrays of numbers; 
 - C syntax (I/O)
 - Python :
+  - dunders (magic methods)
   - name binding and duck typing,
   - reassignment vs. mutation,
   - RHS eval.,

@@ -1,7 +1,7 @@
 #include "stdio.h"
 
 //#define s 5
-int s = 5;
+const int s = 5; // Keeping it a const is good practice ; we don't want this var to be altered. 
 
 int main()
 {

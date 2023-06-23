@@ -1,4 +1,9 @@
 
+malloc() does not work 100% of the time. Always check for the success/failure of the attempted allocation. 
+
+
+
+
 No, there is no 100% guarantee that a call to `malloc()` or any dynamic memory allocation function will be successful. Dynamic memory allocation is subject to certain limitations and potential failures.
 
 When you request heap memory allocation using `malloc()`, the function attempts to allocate the requested amount of memory from the heap. However, there are scenarios where the allocation can fail:

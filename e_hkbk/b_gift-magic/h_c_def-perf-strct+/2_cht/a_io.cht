@@ -40,7 +40,7 @@ s-functions NEED references.
 %f - as a float (smaller precision, takes less mem, faster graphic performance)  
 %lf - as a double (greater precision, takes more memory, slower performance) 
 %c - as a character;  
-%s - as a string; 
+%s - as a null-terminated char array (C-string) / string; 
 
 %p - as a pointer (ALWAYS USE (void*)arg with this one);
 %u - as an unsigned integer;

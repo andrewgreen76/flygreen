@@ -6,7 +6,7 @@ int main() {
 
     strcpy(str, "Hello");  // Initialize the string using strcpy
 
-    printf("String: %s\n", str);  // Output the initialized string
+    //printf("String: %s\n", str);  // Output the initialized string
 
     return 0;
 }

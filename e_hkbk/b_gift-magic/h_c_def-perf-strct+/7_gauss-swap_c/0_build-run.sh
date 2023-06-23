@@ -1,3 +1,3 @@
-emacs main.c
-gcc main.c -o run.out
-./run.out
+#emacs $1
+gcc $1 -o zrun.out
+./zrun.out

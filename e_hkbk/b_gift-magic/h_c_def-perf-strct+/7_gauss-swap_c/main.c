@@ -1,12 +1,19 @@
 #include "stdio.h"
 
-#define s 5
+//#define s 5
+int s = 5;
 
 int main()
 {
-  int a[s] = {1,2,3,4,5};
+  //int a[s] = {1,2,3,4,5};
+  /*
+    ain.c:8:3: error: variable-sized object may not be initialized
+    8 |   int a[s] = {1,2,3,4,5};
+      |   ^~~
+   */
+  int a[] = {1,2,3,4,5};
   int m = s/2;
-  printf("\n\n");
+  printf("\n");
 
   //swapping:
   //
@@ -19,11 +26,9 @@ int main()
   //printing:
   //
   for(int i=0; i<s; i++)
-  {
     printf("%i\n", a[i]);
-  }
   
-  printf("\n\n");  
+  printf("\n");  
   return 0;
 }
 

@@ -1,0 +1,7 @@
+
+The GCC compiler warns you to use `fgets()` instead of `gets()` because `gets()` is known to be highly unsafe and prone to buffer overflow vulnerabilities. The `gets()` function does not perform any bounds checking on the input, which means it doesn't know the size of the destination buffer. This can lead to buffer overflows if the user enters more characters than the buffer can accommodate.
+
+On the other hand, `fgets()` is a safer alternative that allows you to specify the maximum number of characters to read and includes bounds checking. It takes an additional argument specifying the size of the destination buffer, preventing buffer overflow issues.
+
+By warning you to use `fgets()`, the GCC compiler is promoting safer programming practices and encouraging you to write more secure code. It aims to prevent potential security vulnerabilities that can arise from using unsafe functions like `gets()`.
+

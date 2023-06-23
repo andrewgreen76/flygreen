@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcc b_add.c -o run.out
+gcc $1 -o zrun.out
 
-./run.out
+./zrun.out
 

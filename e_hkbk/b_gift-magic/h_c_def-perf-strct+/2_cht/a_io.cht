@@ -42,9 +42,10 @@ s-functions NEED references.
 %c - as a character;  
 %s - as a string; 
 
-%p - as a pointer;
+%p - as a pointer (ALWAYS USE (void*)arg with this one);
 %u - as an unsigned integer;
-%ls - as a wide character; 
+%ls - as a wide character;
+%x - as an unsigned int in hex; 
 
 ---------------------- Sub-string special characters: ------------------------- 
 

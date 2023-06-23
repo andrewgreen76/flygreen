@@ -1,0 +1,13 @@
+
+My sandbox C program like the code you have also gave me an address in hexadecimal that consists of six bytes. Why six?
+
+
+
+The address printed in hexadecimal consists of six bytes because it represents a 48-bit memory address on your system. Each byte in hexadecimal is represented by two characters, and 48 bits can be represented by six bytes.
+
+In most systems, memory addresses are typically represented using 64 bits (8 bytes) or 32 bits (4 bytes), depending on the architecture. However, the actual size of a memory address can vary based on the specific system and its memory model.
+
+In the example you provided, the memory address is displayed using six bytes (12 characters) in hexadecimal format. This suggests that your system has a 48-bit memory address size. The exact size and format of memory addresses depend on the underlying hardware architecture and the implementation of the C compiler.
+
+It's important to note that the size and format of memory addresses can vary across different systems and platforms. The specific details of memory addressing are determined by the hardware architecture and the operating system.
+

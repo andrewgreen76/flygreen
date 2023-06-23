@@ -1,0 +1,8 @@
+
+Things to remember about malloc()/free() :
+- Need <stdlib.h>
+- malloc() is a raw function. For every malloc() there has to be a free().
+- malloc() does not work 100% of the time;
+  - its success/failure must always be checked (to avoid invalid free).
+- Never repeat free() or you'll end up with an undefined behavior (double free). 
+

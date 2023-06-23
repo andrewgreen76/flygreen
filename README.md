@@ -37,7 +37,8 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
-- malloc() use for arrays of integers and arrays of numbers; 
+- Endian-ness 
+- malloc() use for arrays of integers and arrays of characters; 
 - C syntax (I/O)
 - Python :
   - dunders (magic methods)

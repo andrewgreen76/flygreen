@@ -6,6 +6,7 @@ sell the piano,
 Start packing
 |
 
+size_t
 dossim
 0-based indexing
 endianness

@@ -1,8 +1,4 @@
 
-Static , global variables ; objects/structures. 
-
-
-
 I apologize for the confusion caused by my previous response. In C and C++, you don't have direct control over CPU-level caching. The caching mechanisms I mentioned earlier, such as static variables or global variables, are not intended for cache optimization. They are used for managing the lifetime and scope of variables.
 
 To clarify, the caching techniques I mentioned in the context of C and C++ are not related to CPU caching, but rather to caching data in software memory. This can be useful when you want to store and retrieve frequently used or expensive-to-compute data to avoid redundant computations.

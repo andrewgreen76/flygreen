@@ -1,4 +1,16 @@
 
+Software-level caching techniques : 
+- static variables 
+- global variables 
+- objects/structures
+- dictionaries
+- hash tables
+- hash maps
+- memoization
+- in-memory caches 
+
+
+
 Caching a variable or an object can be done in various programming languages. Some languages provide built-in caching mechanisms or libraries specifically designed for caching, while others may require manual implementation.
 
 Some popular languages and approaches for caching include:

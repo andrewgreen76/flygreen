@@ -6,11 +6,6 @@ sell the piano,
 Start packing
 |
 
-size_t
-dossim
-0-based indexing
-endianness
-the whole point to   	 (int*) malloc int * bfrPtr(sizeof(int));	// why ? 
 bridging the gap
 process isolation
 study templates before jumping into Rust. 

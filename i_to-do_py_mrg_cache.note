@@ -6,6 +6,7 @@ sell the piano,
 Start packing
 |
 
+dossim
 0-based indexing
 endianness
 the whole point to   	 (int*) malloc int * bfrPtr(sizeof(int));	// why ? 

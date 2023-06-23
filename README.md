@@ -37,7 +37,7 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
-- hardware-level caching vs. software-level caching 
+- hardware-level caching vs. software-level caching, techniques 
 - Endian-ness 
 - malloc() use for arrays of integers and arrays of characters; 
 - C syntax (I/O)

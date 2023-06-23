@@ -1,0 +1,29 @@
+
+Invalid Shift : Shifting an integer value by an amount which produces an undefined result according to the C standard.
+
+
+
+
+In C, an invalid shift occurs when you perform a shift operation on an integer value that exceeds the width of the data type or when you shift by a negative value. Here's an example that demonstrates an invalid shift:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int value = 10;
+    
+    // Invalid shift by a value greater than or equal to the width of int
+    int invalidShift = value << 32;  // Shift by 32 bits
+    
+    printf("Invalid shift result: %d\n", invalidShift);
+    
+    return 0;
+}
+```
+
+In this example, we attempt to left-shift the `value` variable by 32 bits, which is greater than or equal to the width of the `int` data type (usually 32 bits). This results in undefined behavior because the shift operation exceeds the valid range.
+
+When you compile and run this code, the behavior may vary. In some cases, you might get a warning or error from the compiler indicating the invalid shift. However, the program may still execute, but the result of the invalid shift operation is unpredictable.
+
+It's important to ensure that shift operations in your code are valid and within the range of the data type being used to avoid such undefined behavior.
+

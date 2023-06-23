@@ -1,0 +1,13 @@
+
+Libreboot, an open-source firmware project, is specifically designed to support a subset of x86-based systems that utilize specific hardware and avoid proprietary components. Libreboot focuses on providing a fully free and open-source firmware replacement for these systems.
+
+Libreboot primarily targets systems that use older x86 architectures and chipsets. Some of the supported architectures include:
+
+1. Intel 32-bit (x86): Libreboot supports certain Intel processors and chipsets from the 32-bit era, such as those found in older ThinkPad laptops, desktop systems, and server boards.
+
+2. AMD 64-bit (x86-64): Libreboot also supports select AMD 64-bit processors and chipsets from the pre-UEFI era, including systems like the ASUS KGPE-D16 server board.
+
+It's important to note that Libreboot's support is limited to specific hardware platforms due to the project's emphasis on avoiding proprietary components and supporting fully free and open-source systems. Therefore, it may not have support for the latest x86 architectures or all mainstream x86-based systems.
+
+Libreboot is a separate project from Coreboot, although it initially forked from an older version of Coreboot. While Coreboot supports a wider range of x86 systems, Libreboot focuses on providing a freedom-respecting firmware option for a subset of x86-based hardware platforms.
+

@@ -7,7 +7,6 @@ Start packing
 |
 
 the whole point to   	 (int*) malloc int * bfrPtr(sizeof(int));	// why ? 
-further hackdom
 bridging the gap
 process isolation
 study templates before jumping into Rust. 

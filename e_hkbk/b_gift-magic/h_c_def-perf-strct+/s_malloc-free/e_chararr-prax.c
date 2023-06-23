@@ -15,7 +15,7 @@ int main() {
     printf("Available memory found and allocated at: %p", caddr); // \n
 
     free(carr);
-    printf("Allocated memory released\n\n");
+    printf("\nAllocated memory released\n\n");
   }
   else {
     printf("Memory unavailable");

@@ -12,10 +12,10 @@ int main() {
 
   if(iarr != NULL) {
     void* iaddr = (void*)iarr; // void* can hold anything, ESPECIALLY MEMORY ADDRESSES. 
-    printf("Available memory found and allocated at: %p", iaddr); // \n
-
+    printf("Available memory found and allocated at: %p", iaddr); //
+    
     free(iarr);
-    printf("Allocated memory released\n\n");
+    printf("\nAllocated memory released\n\n");
   }
   else {
     printf("Memory unavailable");

@@ -5,7 +5,7 @@ void asl(int *);
 int main() {
   printf("\n");
   
-  int val = 1; // 0000 0000 0000 0000, 0000 0000 0000 0001 
+  int val = 1; // 0000 0000 , 0000 0000 , 0000 0000 , 0000 0001 
   asl(&val);
   asl(&val);
   asl(&val);

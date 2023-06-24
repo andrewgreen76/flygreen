@@ -1,6 +1,4 @@
 
-portability concerns, and debugging techniques
-
 CFS scheduler, preemptive kernel, block I/O layer, and I/O schedulers
 
 An all-new chapter on kernel data structures

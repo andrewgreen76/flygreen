@@ -1,0 +1,37 @@
+
+The error you encountered is due to the usage of a reference parameter (`int &`) in the function declaration `void asl(int & v)`. 
+
+In C, unlike C++, references are not supported. The error you received is because the `&` symbol is not recognized as a valid token in the parameter list of a function in C.
+
+To resolve this error and make the code compatible with C, you can modify the code to use a pointer instead of a reference. Here's an updated version of the code:
+
+```c
+#include <stdio.h>
+
+void asl(int *);
+
+int main() {
+  printf("\n");
+  printf("sizeof(int) : %li\n", sizeof(int));
+  
+  int v = 1; // 0000 0000 0000 0000, 0000 0000 0000 0001 
+
+  asl(&v);
+  asl(&v);
+  asl(&v);
+    
+  printf("\n");
+  return 0;
+}
+
+void asl(int *v){
+  *v = *v << 1;    
+  printf("Shift result: %d \n", *v);
+  return;
+}
+```
+
+In this updated version, the `asl` function accepts an `int*` parameter, which is a pointer to an integer. The address of the `v` variable is passed using the `&` operator in the `main` function when calling `asl(&v)`. Inside the `asl` function, the value of `v` is dereferenced using the `*` operator to perform the shift operation.
+
+With these modifications, the code should compile and run without the error you encountered.
+

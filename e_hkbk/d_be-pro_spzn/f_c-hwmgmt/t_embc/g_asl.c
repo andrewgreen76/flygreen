@@ -3,7 +3,7 @@
 int main() {
   printf("sizeof(int) : %li", sizeof(int));
   
-  int value = 10; // 0000 0000 0000 0000, 0000 0000 0000 0000, 0000 0000 0000 0000, 0000 0000 0000 1010 
+  int value = 10; // 0000 0000 0000 0000, 0000 0000 0000 1010 
     
   // Invalid shift by a value greater than or equal to the width of int
   int invalidShift = value << 32;  // Shift by 32 bits

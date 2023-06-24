@@ -1,5 +1,20 @@
 
-process management, scheduling, time management and timers, the system call interface, memory addressing, memory management, the page cache, the VFS, kernel synchronization, portability concerns, and debugging techniques
+process management,
+process scheduling,
+
+kernel synchronization,
+
+SCI,
+
+time management
+timers,
+
+memory addressing,
+memory management,
+the page cache,
+the VFS (virtual fs switch),
+
+portability concerns, and debugging techniques
 
 CFS scheduler, preemptive kernel, block I/O layer, and I/O schedulers
 
@@ -21,4 +36,16 @@ submitting kernel patches
     Interfaces for allocating memory and optimizing memory access
     Basic and advanced signal interfaces, and their role on the system
     Clock management, including POSIX clocks and high-resolution timers
+
+pid:
+-
+
+semaphore:
+-
+
+mutex:
+-
+
+lock:
+-
 

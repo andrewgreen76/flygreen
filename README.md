@@ -37,12 +37,12 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
+- aspects of the Linux kernel : process scheduling/mgmt, I/O handing, memgmt, etc. 
 - Bash :
   - awk , sed ;
   - string matching & string capturing with BASH_REMATCH =~ operator. 
 - hardware-level caching vs. software-level caching, techniques 
 - endian-ness 
-- malloc() use for arrays of integers and arrays of characters; 
 - C :
   - syntax of I/O
   - syntax of method signature in a function definition (oh, those char array references) 

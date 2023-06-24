@@ -1,0 +1,11 @@
+
+WadC, QuakeC, and HolyC are languages that are inspired by or derived from the C programming language, but they are not simply extensions of C. Let's take a closer look at each of these languages:
+
+1. WadC: WadC is a scripting language specifically designed for creating levels and modifications for the video game Doom. It shares some similarities with the C language in terms of syntax and structure, but it is not a direct extension of C. WadC has its own unique features and is tailored for the specific needs of Doom level scripting.
+
+2. QuakeC: QuakeC is a programming language used for scripting game logic in the Quake engine, which powers games like Quake and its derivatives. QuakeC is based on a subset of the C language and includes some custom extensions specific to the Quake engine. While QuakeC resembles C in many ways, it is not a full-fledged extension of the C language.
+
+3. HolyC: HolyC is a programming language created by Terry A. Davis, primarily known for his work on the Temple Operating System (TempleOS). HolyC draws inspiration from the C language but includes its own unique features and design choices. It is not a direct extension of the C language and has its own syntax and semantics.
+
+In summary, while WadC, QuakeC, and HolyC may have some similarities to the C language, they are distinct languages with their own syntax, semantics, and unique features. They are designed for specific purposes and tailored to the requirements of their respective applications.
+

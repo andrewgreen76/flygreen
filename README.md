@@ -39,9 +39,9 @@ __________________________________________________________________________
 
 - Bash :
   - awk , sed ;
-  - string matching , capturing 
+  - string matching & string capturing with BASH_REMATCH 
 - hardware-level caching vs. software-level caching, techniques 
-- Endian-ness 
+- endian-ness 
 - malloc() use for arrays of integers and arrays of characters; 
 - C syntax (I/O)
 - Python :

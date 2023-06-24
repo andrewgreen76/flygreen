@@ -43,16 +43,9 @@ __________________________________________________________________________
 - hardware-level caching vs. software-level caching, techniques 
 - endian-ness 
 - malloc() use for arrays of integers and arrays of characters; 
-- C syntax (I/O)
-- Python :
-  - dunders (magic methods)
-  - name binding and duck typing,
-  - reassignment vs. mutation,
-  - RHS eval.,
-  - list comprehension,
-  - method call vs. method address,
-  - extra-referencing vs. shallow copy vs. deep copy
-  - round() function 
+- C :
+  - syntax of I/O
+  - syntax of method signature in a function definition (oh, those char array references) 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

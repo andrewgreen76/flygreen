@@ -37,7 +37,9 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
-- Bash : awk , sed; 
+- Bash :
+  - awk , sed ;
+  - string matching , capturing 
 - hardware-level caching vs. software-level caching, techniques 
 - Endian-ness 
 - malloc() use for arrays of integers and arrays of characters; 

@@ -1,7 +1,4 @@
 
-the page cache,
-the VFS (virtual fs switch),
-
 portability concerns, and debugging techniques
 
 CFS scheduler, preemptive kernel, block I/O layer, and I/O schedulers

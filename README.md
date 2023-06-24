@@ -39,7 +39,7 @@ __________________________________________________________________________
 
 - Bash :
   - awk , sed ;
-  - string matching & string capturing with BASH_REMATCH 
+  - string matching & string capturing with BASH_REMATCH =~ operator. 
 - hardware-level caching vs. software-level caching, techniques 
 - endian-ness 
 - malloc() use for arrays of integers and arrays of characters; 

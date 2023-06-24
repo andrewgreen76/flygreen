@@ -1,0 +1,24 @@
+
+process management, scheduling, time management and timers, the system call interface, memory addressing, memory management, the page cache, the VFS, kernel synchronization, portability concerns, and debugging techniques
+
+CFS scheduler, preemptive kernel, block I/O layer, and I/O schedulers
+
+An all-new chapter on kernel data structures
+Details on interrupt handlers and bottom halves
+Extended coverage of virtual memory and memory allocation
+Tips on debugging the Linux kernel
+In-depth coverage of kernel synchronization and locking
+
+submitting kernel patches
+
+    A Linux kernel, C library, and C compiler overview
+    Basic I/O operations, such as reading from and writing to files
+    Advanced I/O interfaces, memory mappings, and optimization techniques
+    The family of system calls for basic process management
+    Advanced process management, including real-time processes
+    Thread concepts, multithreaded programming, and Pthreads
+    File and directory management
+    Interfaces for allocating memory and optimizing memory access
+    Basic and advanced signal interfaces, and their role on the system
+    Clock management, including POSIX clocks and high-resolution timers
+

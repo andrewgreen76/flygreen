@@ -6,8 +6,6 @@ int main(){
   char str[] = "Right!!\n";
   printf("\n");
 
-  //  printf("%s\n", str);
-  
   for(int t = 0; t < 3; t++)
     doStuff(&str);
   

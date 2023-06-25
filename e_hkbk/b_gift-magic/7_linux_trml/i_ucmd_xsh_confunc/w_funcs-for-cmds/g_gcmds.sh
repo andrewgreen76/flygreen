@@ -8,11 +8,30 @@ ANCHOR3="/home/andrew/flygreen/e_hkbk/d_be-pro_spzn"
 # Bash configs have a problem of not automatically honoring manual abandonment tokens. 
 # Invalidator for abandoned tokens: 
 n () {
-    echo "lanch: command not found"
+    echo "n: command not found"
 }
 
 
 
+# Create a URL file with the given name , write the given URL link into the file : 
+tu () {
+    echo "[InternetShortcut]\nURL=$1" > $2
+}
+
+# Open the link in the given URL file : 
+ou () {
+    firefox $(grep -o "http.*" "$1")
+}
+
+# This command extracts the URL link from a URL file : 
+ru () {
+    grep -o "http.*" "$1" | xclip -selection clipboard
+    echo "Registered a URL link"
+}
+
+
+
+# This command simply extracts the file extension and, based on the extension, executes the program/script : 
 x () {
     #echo "Command in development"
     # Refer to the same file in one location
@@ -21,7 +40,6 @@ x () {
     #<sh-4-lang>
     if [[ $1 =~ \.([^./]+)$ ]]; then
 	ext="${BASH_REMATCH[1]}"
-	#echo "File extension: $extension"
 	if [[ $ext == "c" ]]; then
 	    gcc $1 -o zun.out
 	    ./zun.out

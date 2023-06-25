@@ -39,6 +39,8 @@ __________________________________________________________________________
 
 - aspects of the Linux kernel : process scheduling/mgmt, I/O handing, memgmt, etc. 
 - Bash :
+  - the "firefox" command is a bitch. 
+  - capturing strings in files (.url's) with Python and Bash (Bash is loaded with nuances).
   - awk , sed ;
   - string matching & string capturing with BASH_REMATCH =~ operator. 
 - hardware-level caching vs. software-level caching, techniques 

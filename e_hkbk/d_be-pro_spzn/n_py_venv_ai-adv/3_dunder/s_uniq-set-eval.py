@@ -1,3 +1,7 @@
+# string interning
+# f-eval
+# sets 
+
 class MyClass:
     def __init__(self, value):
         self.value = value

@@ -7,7 +7,7 @@ sell the piano,
 Start packing
 |
 
-vm vs. container vs. docker vs. k8s vs. kvm 
+vm vs. container vs. qemu vs. docker vs. k8s vs. kvm 
 learning points 
 need qemu for hw ; linux kernel learning points
 process isolation

@@ -1,0 +1,21 @@
+Gtk-Message: 19:33:52.201: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+WARNING: Kernel has no file descriptor comparison support: Operation not permitted
+ALSA lib conf.c:4120:(snd_config_update_r) Cannot access file /usr/share/alsa/alsa.conf
+ALSA lib seq.c:935:(snd_seq_open_noupdate) Unknown SEQ default
+[Child 16640, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox/parts/firefox/build/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16640, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox/parts/firefox/build/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16943, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (AudioPlayback, AudioPlayback:Stop) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox/parts/firefox/build/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16640, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox/parts/firefox/build/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16640, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox/parts/firefox/build/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16640, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox/parts/firefox/build/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16640, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox/parts/firefox/build/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16640, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox/parts/firefox/build/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16640, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox/parts/firefox/build/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16640, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /build/firefox/parts/firefox/build/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[ERROR viaduct::backend::ffi] Missing HTTP status
+[ERROR viaduct::backend::ffi] Missing HTTP status

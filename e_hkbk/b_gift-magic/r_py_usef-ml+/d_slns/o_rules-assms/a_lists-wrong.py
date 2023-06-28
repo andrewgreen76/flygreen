@@ -22,6 +22,15 @@ for i in a:
     #i = i + 2
 
 print("")
+print("========== Also how it's NOT done: ==========")
+print("")
+a = [2, 3]
+
+for i in len(a):
+    a[i] = a[i] + 2
+
+print(a)
+print("")
 print("========== How it's ACTUALLY done: ==========")
 print("")
 

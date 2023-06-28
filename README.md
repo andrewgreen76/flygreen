@@ -38,14 +38,13 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
 - Python fundamentals :
-  - the usefulness of mutability, immutability, hashability, frozensets, etc.
-  - rules of using them 
+  - the usefulness of properties like : mutability, immutability, hashability
+  - frozensets, etc.
+  - rules for using these properties 
 - Bash :
   - grep mastery (flags, regex library)
   - the "firefox" command is a bitch. EDIT : ... was a bitch. Now it's friends with any argument/string concatenation. 
   - capturing strings in files (.url's) with Python and Bash (Bash is loaded with nuances).
-  - awk , sed ;
-  - string matching & string capturing with BASH_REMATCH =~ operator. 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

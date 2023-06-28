@@ -1,3 +1,4 @@
+
 Implementing a cache as a dictionary (`dict`) in Python offers several advantages:
 
 1. **Fast Lookup**: Dictionaries in Python provide fast lookup time complexity (O(1)) for accessing elements by their keys. This allows efficient retrieval of cached data based on the provided key.
@@ -11,3 +12,4 @@ Implementing a cache as a dictionary (`dict`) in Python offers several advantage
 5. **Ease of Implementation**: The simplicity of using a dictionary for caching makes it easy to implement and understand. Python's built-in dictionary data structure provides an efficient and convenient way to manage key-value pairs, making it a natural choice for caching.
 
 It's worth noting that while dictionaries are a popular choice for caching, there are other data structures and caching strategies available depending on the specific use case. The choice of data structure for caching can depend on factors such as the desired eviction policy, memory requirements, and access patterns. However, dictionaries offer a good balance of simplicity, performance, and flexibility for many caching scenarios in Python.
+

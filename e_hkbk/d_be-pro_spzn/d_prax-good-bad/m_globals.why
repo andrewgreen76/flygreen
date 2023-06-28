@@ -1,0 +1,15 @@
+
+The use of global variables is considered by some to be a bad practice for several reasons:
+
+1. Encapsulation and Modularity: Global variables break the principles of encapsulation and modularity, as they allow unrestricted access to data from any part of the program. This can make it difficult to reason about and maintain code because the state of global variables can be modified by any function, making it challenging to track the source of changes and their effects.
+
+2. Dependency and Coupling: Global variables introduce tight coupling between different parts of the codebase. Any function that relies on a global variable becomes dependent on its existence and state. This can lead to code that is difficult to refactor, test, and reuse since changes to global variables can have unintended consequences throughout the codebase.
+
+3. Name Clashes and Collision: Global variables reside in a global namespace, which can lead to naming conflicts if multiple variables with the same name are used across different parts of the program. This can result in unintended side effects and make the code more error-prone.
+
+4. Thread Safety and Concurrency: Global variables can cause issues in multi-threaded or concurrent environments. If multiple threads access and modify global variables simultaneously, race conditions and synchronization problems can occur. Coordinating access to global variables across threads can be challenging and error-prone.
+
+5. Testing and Debugging: Global variables can complicate testing and debugging processes. Unit testing becomes more difficult because global variables can introduce hidden dependencies and make it harder to isolate specific components for testing. Additionally, debugging can be challenging since the state of global variables can change from any part of the codebase, making it harder to trace and understand program behavior.
+
+Instead of using global variables, it is generally recommended to use local variables with limited scope or pass data through function parameters. This promotes encapsulation, modular design, and reduces coupling between different parts of the code. If global state is truly necessary, it is often better to encapsulate it within well-defined structures or classes and provide controlled access through appropriate interfaces.
+

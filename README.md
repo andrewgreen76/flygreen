@@ -37,19 +37,15 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 __________________________________________________________________________
 
-- Virtual machines
-- aspects of the Linux kernel : process scheduling/mgmt, I/O handing, memgmt, etc. 
+- Python fundamentals :
+  - the usefulness of mutability, immutability, hashability, frozensets, etc.
+  - rules of using them 
 - Bash :
   - grep mastery (flags, regex library)
   - the "firefox" command is a bitch. EDIT : ... was a bitch. Now it's friends with any argument/string concatenation. 
   - capturing strings in files (.url's) with Python and Bash (Bash is loaded with nuances).
   - awk , sed ;
   - string matching & string capturing with BASH_REMATCH =~ operator. 
-- hardware-level caching vs. software-level caching, techniques 
-- endian-ness 
-- C :
-  - syntax of I/O
-  - syntax of method signature in a function definition (oh, those char array references) 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

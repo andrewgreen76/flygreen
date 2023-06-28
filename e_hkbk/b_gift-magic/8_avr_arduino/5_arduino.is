@@ -1,0 +1,9 @@
+
+Arduino is not a separate programming language but rather a platform that uses a simplified version of the C++ programming language. The Arduino programming language is essentially a set of C/C++ functions and libraries specifically designed to work with the Arduino hardware.
+
+The Arduino platform provides an integrated development environment (IDE) that simplifies the process of writing and uploading code to Arduino boards. The Arduino programming language is built on top of standard C/C++ and includes additional libraries and functions that abstract the complexities of microcontroller programming.
+
+While Arduino code is written in a language similar to C/C++, it has some specific conventions and libraries that make it easier to work with the Arduino hardware and its peripherals. This makes it more accessible for beginners and those without extensive programming experience.
+
+In summary, Arduino is not a separate language, but rather a platform that utilizes a simplified version of C/C++ to program microcontrollers.
+

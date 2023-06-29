@@ -1,4 +1,10 @@
 
+#!/usr/bin/bash			# looks specifically for the Linux Bash interpreter. 
+#!/usr/bin/env <prog-to-use>	# reads the PATH environment variable, browses the directories indicated within PATH. 
+
+
+
+
 The line `#!/usr/bin/env python3` is called a shebang or hashbang. It is used to specify the interpreter for executing the script. In this case, it indicates that the script should be run using the Python 3 interpreter.
 
 Here's how it works:
@@ -10,6 +16,7 @@ Here's how it works:
 When you run a script with the shebang `#!/usr/bin/env python3`, the system will look for the `python3` executable in the directories listed in the `PATH` environment variable and use it to execute the script.
 
 Using `#!/usr/bin/env python3` as the shebang allows the script to be executed on different systems without hardcoding the exact path to the Python 3 interpreter. It provides flexibility and makes the script more portable.
+
 
 
 

@@ -6,3 +6,4 @@ if __name__ == "__main__":
     width: int = 10
     height = 15
     area(width, height)
+

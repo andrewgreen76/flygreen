@@ -7,6 +7,7 @@ sell the piano,
 Start packing
 |
 
+py doc
 NAND, NOR, or SPI in cboot, rpi, etc. ? 
 py in hw
 - 

@@ -1,0 +1,27 @@
+
+In Python, triple quotes (`"""` or `'''`) are used to create multi-line string literals, also known as docstrings. Docstrings are used to provide documentation or descriptive text about a module, class, function, or method.
+
+The triple quotes allow you to define a string that spans multiple lines without the need for escape characters or concatenation. You can use either triple single quotes (`'''`) or triple double quotes (`"""`) interchangeably.
+
+Here's an example of using triple quotes to create a multi-line docstring:
+
+```python
+def greet(name):
+    """
+    This function greets the given name.
+
+    Parameters:
+    - name (str): The name to greet.
+
+    Returns:
+    - str: The greeting message.
+    """
+    return f"Hello, {name}!"
+
+print(greet("Alice"))
+```
+
+In this example, the docstring is enclosed between triple double quotes (`"""`). It provides information about the purpose of the `greet` function, its parameters, and the return value. The docstring serves as a form of documentation that can be accessed using tools like the `help()` function or documentation generators.
+
+Note that while docstrings are typically used for documentation, they can also be used as regular multi-line string literals if not assigned to any special purpose.
+

@@ -1,0 +1,20 @@
+
+Yes, you can capture and print the name of a function inside that function by using the special variable `$FUNCNAME`. `$FUNCNAME` is an array variable that contains the names of all the functions in the current call stack.
+
+To print the name of the current function, you can access `${FUNCNAME[0]}`. Here's an example:
+
+```bash
+my_function() {
+  echo "Function name: ${FUNCNAME[0]}"
+}
+
+my_function
+```
+
+Output:
+```
+Function name: my_function
+```
+
+By accessing `${FUNCNAME[0]}`, you retrieve the name of the current function in the call stack. Note that if you call another function from within `my_function`, `${FUNCNAME[0]}` will still refer to `my_function`. If you need to retrieve the name of an outer function from within an inner function, you can access it using `${FUNCNAME[1]}`, and so on, depending on the level of nesting.
+

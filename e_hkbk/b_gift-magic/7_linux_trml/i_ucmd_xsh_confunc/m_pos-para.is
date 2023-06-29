@@ -1,0 +1,6 @@
+
+Executable scripts and custom/manually defined commands, just like traditional commands, can accept arguments.
+
+
+`$1` is a positional parameter in Bash. It represents the first command-line argument passed to a script or function. Positional parameters are numbered from 1 to 9, where `$1` corresponds to the first argument, `$2` corresponds to the second argument, and so on.
+

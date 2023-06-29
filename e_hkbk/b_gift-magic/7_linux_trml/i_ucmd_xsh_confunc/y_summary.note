@@ -35,7 +35,7 @@ xsh - drawbacks:
 - The vars inside the script are local to that script.
   - Script vars will not reflect on the processes triggered from within that script unless those vars are exported.
   - Script vars will have no impact on the parent processes, the peer processes, or their children.
-- Do not support aliases. Alises only work within the shell, not scripts.
+- Do not support aliases. Alises can be used only within the shell, not scripts.
 
 
 xsh, sourced or in PATH (e.g., /usr/local/bin) - benefits:

@@ -7,7 +7,7 @@ Start packing
 
 AeGiS.
 - Graphics scripting lang : arch-agnostic.
-- inline Asm > inline C > inline C++/Py > AeGiS
+- inline Asm > inline C > (study Pygame, etc.) > AeGiS
 
 Scratch > ? > shell > C > Python <= What lang for gfx after Scratch ? 
 

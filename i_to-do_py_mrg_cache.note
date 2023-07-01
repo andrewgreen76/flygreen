@@ -8,9 +8,9 @@ Start packing
 AeGiS.
 - Graphics scripting lang : arch-agnostic.
 - inline Asm > inline C > (study Pygame, etc.) > AeGiS
-Rendering engine
+(Rendering engine)
 KDE
-OpenGL <> NOT API > Wayland > Graphics API
+sw-render <> OpenGL <> NOT API > Wayland > Graphics API
 Graphics drivers : specify the GPU (OEM, etc.)
 Plotting pixels 
 

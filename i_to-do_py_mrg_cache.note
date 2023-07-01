@@ -5,6 +5,10 @@ sell the piano,
 Start packing
 |
 
+AeGiS.
+- Graphics scripting lang : arch-agnostic.
+- inline Asm > inline C > inline C++/Py > AeGiS
+
 Scratch > ? > shell > C > Python <= What lang for gfx after Scratch ? 
 
 Does coreboot have prop pieces ? 
@@ -150,7 +154,7 @@ interview questions: C++
 funbag >< progbook (cheat sheets)
 How do systems on planes fetch WiFi connection in the airplane mode? Are they isolated servers?
 Experiment with GDB. 
-Awareness, incentive, good conditioning 
+informed Awareness, informed incentive, informed intelligence, good conditioning 
 m : Manteia , matchmaking , match the right people with the right opportunities
 
 =====================================================================

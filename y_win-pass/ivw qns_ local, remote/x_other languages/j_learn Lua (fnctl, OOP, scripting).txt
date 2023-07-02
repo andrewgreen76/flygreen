@@ -1,0 +1,3 @@
+
+ - Multi-paradigm: scripting, imperative (procedural, prototype-based, object-oriented), functional, meta, reflective
+

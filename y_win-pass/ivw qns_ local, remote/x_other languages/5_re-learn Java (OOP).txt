@@ -1,0 +1,14 @@
+
+ - OOP 
+ - high-level 
+
+ - static (statically-typed): expressing data types a must for compile time. 
+ - strong: restrictions to conversions of data types. 
+ - safe: degree of error prevention; usage will not result in errors. 
+ - nominative: requires explicit declaration of compatibility or equivalence. 
+ - manifest: requires type identification to every variable. 
+
+ - Integer max value: -2,147,483,648 to 2,147,483,647 
+
+ - Platforms: Oracle, NetBeans, 
+

@@ -1,0 +1,3 @@
+
+ - non-procedural, declarative, procedural (imperative), object-oriented, and functional
+

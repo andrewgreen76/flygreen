@@ -1,0 +1,6 @@
+
+There is no chicken-egg situation (using a terminal to write for itself), but using one terminal to write for another terminal. Previously, we had TTYs (teleprinters). Now we have 
+machines to write for machines. 
+
+Do NOT write on a terminal for itself. 
+

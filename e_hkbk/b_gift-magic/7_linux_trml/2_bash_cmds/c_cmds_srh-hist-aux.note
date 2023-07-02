@@ -15,6 +15,9 @@ grep [string] [path/file]
 |
 grep -r [string] *
 - points out all files within the working directory with lines containing the string.
+|
+grep --binary-files=without-match 'search_term' file_or_directory
+- ... because typically you want to rule out files you can't read - binaries. 
 
 
 find [down-from-dir] -name [spec-file]

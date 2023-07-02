@@ -5,6 +5,8 @@ sell the piano,
 Start packing
 |
 
+bdays
+gc nonsense
 AeGiS.
 - Graphics scripting lang : arch-agnostic.
 - inline Asm > inline C > (study Pygame, etc.) > AeGiS

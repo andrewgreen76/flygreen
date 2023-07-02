@@ -1,0 +1,43 @@
+
+In programming, the terms "method" and "function" are often used interchangeably, but there is a subtle difference between them based on their context.
+
+A method is a term commonly associated with object-oriented programming (OOP) and is a behavior or action that an object can perform. It is a function that is defined within a class or an object and operates on the data associated with that class or object. Methods are used to encapsulate behavior and logic related to the object's state and allow objects to communicate with each other. Methods are typically invoked using an instance of a class or an object.
+
+Here's an example of a method in Python:
+
+```python
+class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    
+    def calculate_area(self):
+        return self.width * self.height
+
+# Creating an instance of the Rectangle class
+rect = Rectangle(5, 10)
+
+# Invoking the calculate_area method
+area = rect.calculate_area()
+print(area)  # Output: 50
+```
+
+In this example, `calculate_area()` is a method defined within the `Rectangle` class, and it operates on the data (`width` and `height`) associated with the class.
+
+On the other hand, a function is a self-contained block of code that performs a specific task or calculation. Functions can be standalone and exist independently of any class or object. They can accept input parameters, perform computations, and return results. Functions are typically used for reusable pieces of code and modular programming.
+
+Here's an example of a function in Python:
+
+```python
+def add_numbers(a, b):
+    return a + b
+
+# Calling the add_numbers function
+result = add_numbers(10, 20)
+print(result)  # Output: 30
+```
+
+In this example, `add_numbers()` is a function that accepts two parameters (`a` and `b`), performs the addition operation, and returns the result.
+
+To summarize, the key difference between a method and a function is that a method is associated with an object or class and operates on its data, while a function is independent and can be used globally without being tied to any specific object or class.
+

@@ -5,6 +5,8 @@ sell the piano,
 Start packing
 |
 
+openGL / sdl, path, software rendering, mesa+ 
+
 AeGiS.
 - Graphics scripting lang : arch-agnostic.
 - inline Asm > inline C > (study Pygame, etc.) > AeGiS

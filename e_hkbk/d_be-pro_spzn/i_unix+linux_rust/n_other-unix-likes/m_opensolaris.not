@@ -1,0 +1,13 @@
+
+OpenSolaris, an open-source operating system based on the Solaris operating system, faced several challenges that contributed to its decline and eventual discontinuation. Some key factors include:
+
+1. Oracle's acquisition of Sun Microsystems: Oracle acquired Sun Microsystems in 2010, which raised concerns about the future of OpenSolaris. Oracle shifted its focus towards its proprietary Solaris offering, and the development of OpenSolaris slowed down significantly.
+
+2. Lack of community engagement: OpenSolaris struggled to build a strong and active community of developers and contributors. The development process became more centralized, which limited community involvement and collaboration.
+
+3. Licensing issues: OpenSolaris initially used the Common Development and Distribution License (CDDL), which had some incompatibilities with the GNU General Public License (GPL) used by many open-source projects. This led to challenges in integrating OpenSolaris components with other open-source software.
+
+4. Project governance and management: Some critics argued that the project's governance and decision-making processes were not transparent and inclusive enough, leading to dissatisfaction and reduced participation.
+
+As a result of these challenges, development on OpenSolaris slowed down, community support waned, and the project was eventually discontinued in favor of Oracle Solaris, the proprietary version of the operating system. However, efforts like Illumos and other community-driven projects have emerged to continue the development of open-source derivatives based on the original OpenSolaris codebase.
+

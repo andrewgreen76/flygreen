@@ -3,8 +3,11 @@ Ard vs. RPi
 list of things to cancel/re-route to new addr
 - banks
 - mail 
-- Udemy, Coursera, LinkedIn, 
+- Udemy, Coursera, LinkedIn,
+Solder the radio together 
+Coursera - start now 
 take care of the apt 
+
 sell the piano,  
 Start packing
 
@@ -22,8 +25,6 @@ Scratch > ? > shell > C > Python <= What lang for gfx after Scratch ?
 SOLID principles
 Design patterns 
 Does coreboot have prop pieces ? 
-
-What open-source projects still use OpenGL ? 
 
 I have a problem. I want to learn development of firmware, the kernel, graphics drivers, and graphics APIs for the x86/x64 architecture. I am honing my C, C++, and Python skills and I also want to learn Rust. I'm looking at potential projects to contribute to: Raspberry Pi, coreboot, Pop!_OS, the Linux kernel source tree
 

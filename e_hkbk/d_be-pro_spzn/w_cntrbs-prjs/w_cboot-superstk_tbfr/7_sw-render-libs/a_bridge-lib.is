@@ -1,0 +1,5 @@
+
+6. ANGLE: ANGLE (Almost Native Graphics Layer Engine) is an open-source project that translates OpenGL ES API calls to DirectX API calls. It allows applications that use OpenGL ES to run on platforms that support only DirectX, such as Windows.
+
+
+

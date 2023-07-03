@@ -1,8 +1,6 @@
 
 Yes, there are several open-source projects related to graphics drivers and APIs. Here are some notable examples:
 
-1. Mesa 3D: Mesa is an open-source implementation of the OpenGL, Vulkan, and other graphics APIs. It provides an open-source alternative to proprietary graphics drivers and supports a wide range of hardware.
-
 2. Nouveau: Nouveau is an open-source driver for NVIDIA GPUs. It aims to provide 3D acceleration and support for the latest NVIDIA hardware on Linux systems.
 
 3. AMDGPU: AMDGPU is an open-source graphics driver for AMD GPUs. It is part of the Linux kernel and provides support for various AMD Radeon graphics cards.

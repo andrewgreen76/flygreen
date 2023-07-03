@@ -11,6 +11,9 @@ Chip info :
 
 
 Memory :
+- EEPROM
+  = SPI
+  + the reserved pins connect it to the I2C interface 
 - on-chip ROM : 4MB 
 - SDRAM : 1-8 GB of LPDDR4
 
@@ -28,8 +31,9 @@ Interfaces :
 
 Pinout :
 - 26 GPIO pins
+  = All pins can perform software PWM, but only a few can perform hardware PWM, including GPIO pins number 12, 13, 18, and 19.
+  = 4 fully competent PWM pins 
 - 20 d-pins
-- 6 PWM pins
 - 6 a-pins 
 
 
@@ -46,8 +50,6 @@ Volt :
 
 
 (
-- EEPROM 
-  - SPI
 - flash
   - SPI NAND 
 )

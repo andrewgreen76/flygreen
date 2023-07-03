@@ -1,0 +1,14 @@
+
+Arduino boards typically use different types of memory chips for EEPROM, SRAM, and flash storage, depending on the specific board and microcontroller used. Here's a breakdown of the common memory types found on Arduino boards:
+
+1. EEPROM (Electrically Erasable Programmable Read-Only Memory):
+   Arduino boards often have dedicated EEPROM memory for non-volatile data storage. The EEPROM on Arduino boards is typically implemented using Flash memory technology. It provides a small amount of persistent storage that can retain data even when power is disconnected. The specific type of Flash memory used for EEPROM can vary, but it is commonly NOR Flash.
+
+2. SRAM (Static Random-Access Memory):
+   SRAM is used as the primary volatile memory for temporary data storage during program execution. The SRAM on Arduino boards is integrated into the microcontroller chip itself. The type of SRAM used depends on the specific microcontroller. It is typically implemented as internal embedded SRAM (eSRAM) within the microcontroller, which is generally based on SRAM cell technology.
+
+3. Flash Storage:
+   Arduino boards often use flash memory for storing the program code that runs on the microcontroller. The flash memory is where the Arduino sketch or program is stored. The specific type of flash memory used can vary depending on the microcontroller. The common types include NOR Flash or SPI (Serial Peripheral Interface) Flash. NOR Flash is often used in more powerful Arduino boards, while SPI Flash is commonly found in smaller or low-cost boards.
+
+It's important to note that the specific memory chips used on Arduino boards can vary between different board models and versions. The selection of memory chips is influenced by factors such as the microcontroller's capabilities, cost, and design requirements of the board. Therefore, it is always recommended to refer to the documentation or specifications of the specific Arduino board you are using to get precise details about the memory types and technologies employed.
+

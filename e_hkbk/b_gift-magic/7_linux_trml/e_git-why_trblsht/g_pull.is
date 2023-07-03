@@ -1,4 +1,8 @@
 
+What is a pull request?: Collaboration happens on a pull request. The pull request shows the changes in your branch to other people and allows people to accept, reject, or suggest additional changes to your branch. In a side by side comparison, this pull request is going to keep the changes you just made on your branch and propose applying them to the main project branch. For more information about pull requests, see "About pull requests".
+
+
+
 A pull request is a feature in Git-based version control systems, such as GitHub, that allows developers to propose changes to a repository. It is commonly used in collaborative development workflows, especially when multiple contributors are working on a project.
 
 A pull request serves as a request to the repository maintainer(s) to review and merge changes made in a separate branch into the main branch (often the `master` branch). It provides a way for contributors to discuss and collaborate on code changes before they are merged into the main codebase.

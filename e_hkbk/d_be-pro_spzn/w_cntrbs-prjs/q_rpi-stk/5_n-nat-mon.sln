@@ -1,0 +1,9 @@
+
+In most cases, connecting a motherboard to a non-native monitor using an HDMI cable does not require dedicated drivers for the monitor itself. Monitors typically utilize standard display interfaces, such as HDMI, DisplayPort, or DVI, which are supported by the graphics drivers provided by the operating system.
+
+When you connect a monitor to the motherboard's HDMI port, the graphics drivers in the operating system should automatically detect the monitor and configure the appropriate display settings. The operating system's graphics drivers are responsible for handling the communication between the motherboard's graphics hardware and the monitor.
+
+However, there may be cases where specific monitor features or functionalities, such as advanced color calibration, adaptive sync, or specific resolution/refresh rate combinations, require additional drivers or specific configuration. In such cases, the monitor manufacturer may provide specific drivers or software utilities that enhance or enable these features. You can check the monitor manufacturer's website or documentation for any additional drivers or utilities that may be available.
+
+In general, for most standard monitor configurations, the operating system's graphics drivers should handle the necessary communication and configuration automatically without requiring additional dedicated drivers for the monitor itself.
+

@@ -1,5 +1,4 @@
 
-Ard vs. RPi 
 list of things to cancel/re-route to new addr
 - banks
 - mail 
@@ -7,11 +6,10 @@ list of things to cancel/re-route to new addr
 Solder the radio together 
 Coursera - start now 
 take care of the apt 
-
 sell the piano,  
 Start packing
 
-Explore GPL 2.0 vs GPL 3.0 
+Do Udemy
 
 AeGiS.
 - Graphics scripting lang : arch-agnostic.
@@ -26,12 +24,9 @@ SOLID principles
 Design patterns 
 Does coreboot have prop pieces ? 
 
-I have a problem. I want to learn development of firmware, the kernel, graphics drivers, and graphics APIs for the x86/x64 architecture. I am honing my C, C++, and Python skills and I also want to learn Rust. I'm looking at potential projects to contribute to: Raspberry Pi, coreboot, Pop!_OS, the Linux kernel source tree
-
 LLM hallucinations 
 How can deep learning help me with the project ? Python/C/... skills ? 
-Do Udemy
-Arduino / Rpi gfx specs
+Rpi gfx specs
 py doc
 NAND, NOR, or SPI in cboot, rpi/arm, arduino/avr, etc. ? 
 py in hw

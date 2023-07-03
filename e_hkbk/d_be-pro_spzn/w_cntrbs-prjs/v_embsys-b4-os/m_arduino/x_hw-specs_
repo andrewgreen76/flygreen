@@ -8,7 +8,6 @@ Memory :
 - EEPROM 
   - nor-qm
 - flash
-  - NAND / NOR / SPI 
 - SRAM
 
 

@@ -1,0 +1,20 @@
+
+What's the command for listing all branches?
+ChatGPT
+
+To list all branches in your Git repository, you can use the following command in Bash:
+
+bash
+
+git branch
+
+This command will display a list of all branches in your repository. The currently checked out branch will be indicated with an asterisk (*) next to its name.
+
+If you want to see both local branches and remote-tracking branches, you can use the -a or --all flag:
+
+bash
+
+git branch -a
+
+This will show all branches, including both local and remote branches. Remote branches are prefixed with the name of the remote repository they belong to.
+

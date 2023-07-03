@@ -3,6 +3,7 @@
 ^ Configs and drivers are set up. 
 |
 |		(init of net)
+|		(init of DRI)
 |
 |		init of systemd (by itself or SysV init)
 |

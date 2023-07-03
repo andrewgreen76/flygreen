@@ -35,6 +35,8 @@ JAtQ - Just Answer the Question:
 
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
+
+- typical boot order / configurations within different layers of the stack for various systems 
 __________________________________________________________________________
 
 - Drivers in different layers of the stack vs. APIs vs. libraries 

@@ -1,9 +1,0 @@
-
-KDE, the popular desktop environment for Linux-based systems, heavily relies on OpenGL for rendering its graphical user interface (GUI). OpenGL provides the necessary hardware-accelerated graphics capabilities for KDE to achieve smooth animations, visual effects, and other graphical features.
-
-However, it's worth noting that KDE can also make use of software rendering as a fallback option when hardware-accelerated OpenGL is not available or supported on a particular system. In software rendering mode, KDE uses CPU-based rendering techniques instead of relying on OpenGL for graphics processing. This allows KDE to function and render its GUI even on systems without OpenGL support or with limited graphics capabilities.
-
-Software rendering, while providing basic functionality, may result in reduced performance and limited graphical effects compared to OpenGL-accelerated rendering. Therefore, for the optimal KDE experience, OpenGL support is recommended.
-
-In summary, while KDE relies on OpenGL for its full range of graphical capabilities, it can still run in a fallback mode using software rendering when OpenGL is not available or supported.
-

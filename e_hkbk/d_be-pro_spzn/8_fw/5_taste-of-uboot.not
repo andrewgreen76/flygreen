@@ -1,0 +1,13 @@
+
+$ l /boot/ > 5_taste-of-uboot.not
+
+config-5.19.0-45-generic      memtest86+.elf
+config-5.19.0-46-generic      memtest86+_multiboot.bin
+efi/			      System.map-5.19.0-45-generic
+grub/			      System.map-5.19.0-46-generic
+initrd.img@		      vmlinuz@
+initrd.img-5.19.0-45-generic  vmlinuz-5.19.0-45-generic
+initrd.img-5.19.0-46-generic  vmlinuz-5.19.0-46-generic
+initrd.img.old@		      vmlinuz.old@
+memtest86+.bin
+

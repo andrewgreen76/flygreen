@@ -7,6 +7,8 @@ Start packing
 
 openGL / sdl, path, software rendering, mesa+ 
 
+Explore GPL 2.0 vs GPL 3.0 
+
 AeGiS.
 - Graphics scripting lang : arch-agnostic.
 - inline Asm > inline C > (study Pygame, etc.) > AeGiS

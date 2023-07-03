@@ -36,11 +36,12 @@ JAtQ - Just Answer the Question:
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- typical boot order / configurations within different layers of the stack for various systems 
-__________________________________________________________________________
-
-- Drivers in different layers of the stack vs. APIs vs. libraries 
-- Methods of contributing to open-source projects 
+- typical Unix-like boot order
+- drivers, APIs, libraries/SDKs within different layers of the stack across various distributions 
+- methods of contributing to open-source projects :
+  - non-code contributions : bugs, etc.
+  - tiny, very focused contributions (maintenance of or suggestions for individual drivers, APIs, libraries,
+    managers, engines) to smaller, simpler projects. 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

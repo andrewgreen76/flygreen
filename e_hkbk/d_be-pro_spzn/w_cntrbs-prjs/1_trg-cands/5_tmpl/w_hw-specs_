@@ -1,10 +1,29 @@
 
-Microcontroller : ATmega328P 
+Chip info : 
+- microcontroller
+  - ATmega328P 
 
-chip-info
-ifces
-mem_eeprom_nor-qm
-mem_flash
-mem_sram
-pinout
-volt
+
+Memory :
+- EEPROM 
+  - nor-qm
+- flash
+- SRAM
+
+
+Interfaces :
+- I2C
+- SPI
+- UART
+
+
+Pinout :
+- 20 d-pins
+- 6 PWM pins
+- 6 a-pins 
+
+
+Volt :
+- input : 7-12V
+- operating : 5V , USB 
+

@@ -1,0 +1,23 @@
+
+My solution: I just used ChatGPT to help me nail this sucker via the Bash terminal.
+
+    So first, you'll have to learn to use the Bash terminal (Ctrl + Alt + T) if you have a Unix-like. I don't have instructions for Windows users.
+
+    Then you have to clone your remote repo to make a local copy of it in your system (unless you already have one), ideally in your 'user home' directory. Feel free to 'git clone' it straight to your 'user home' directory; it will simply create a local repo directory in there instead of dumping the content itself. What I did is I typed the command 'git clone https://...' with the https://... url that I copied from the remote repo page's green Code button drop-down menu, ... and voila. (Sorry, I've never used GitHub with SSH or GitHub CLI.)
+
+    Check out this link on my personal super-repo. You'll have to excuse the ever-changing mess I make on my repo, but hopefully the top files with somewhat descriptive names will work well enough for you to create a new branch.
+
+    Basically, once inside the local repo in the Bash CLI, you type 'git branch my-first-branch' to finally create a new branch of the main branch. You don't have to 'checkout' to shift the local repo's "focus" on that branch quite yet.
+
+    Once you do that, feel free to type 'git branch', which should list all the branches that sprouted from your local repo. However, you've only made a change to your local repo.
+
+    For the added branch to reflect on the remote repo, I think you have to first type 'git commit -m "blahblahblah" ' (not sure if you have to commit here, honestly).
+
+    Definitely do this: Finally push with 'git push --set-upstream origin my-first-branch'.
+
+    Once that's done, refresh the page of your remote repo and look up the branches there.
+
+I understand it's quite an event, and hopefully they'll get the documentation squared away. Never stop trying!
+
+(BTW, I'm using Ubuntu, in case if you are curious, but I don't think it really matters. I think it's an issue on the server side. Nothing about any client should change the remote repo's features/content.)
+

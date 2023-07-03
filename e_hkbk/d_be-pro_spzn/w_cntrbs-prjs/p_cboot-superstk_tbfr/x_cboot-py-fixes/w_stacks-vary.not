@@ -1,0 +1,9 @@
+
+The order of initialization between KMS (Kernel Mode-Setting), DRM (Direct Rendering Manager), I/O (Input/Output) subsystem, and graphics drivers during booting can vary depending on the specific system and configuration. There is no fixed order that applies universally to all systems.
+
+However, in general, the initialization process follows a logical sequence. Here's a typical order that is commonly observed: IO > gfx > DRM > KMS.
+
+The specific order can be influenced by factors such as hardware architecture, kernel configuration, and driver implementation. Different drivers and hardware may have specific requirements and dependencies that can affect the initialization order.
+
+It's important to note that while the order described above is commonly observed, there can be exceptions or variations depending on the specific system and configuration.
+

@@ -1,0 +1,27 @@
+
+API :
+- high-level funnelling, processing, passing down output, 
+
+Driver :
+- low-level funnelling, processing, passing down output, 
+
+
+
+An API (Application Programming Interface) and a driver are two distinct concepts in the context of software development, although they are related and often work together to enable functionality.
+
+API:
+An API is a set of rules, protocols, and tools that allow different software components to interact and communicate with each other. It provides a standardized interface that defines how software modules or applications can access the features and services provided by another software component, such as an operating system, library, or framework.
+
+APIs define the methods, functions, data structures, and conventions that developers can use to utilize the capabilities of a software component without needing to understand its internal workings. APIs provide an abstraction layer that simplifies the interaction between software components, allowing them to work together seamlessly.
+
+For example, graphics APIs like OpenGL or Vulkan provide a set of functions, constants, and data structures that allow developers to create and render graphics, regardless of the underlying hardware or drivers. By using the API, developers can write graphics code that is independent of specific hardware configurations or driver implementations.
+
+Driver:
+A driver, on the other hand, is software that facilitates communication between a computer's operating system and a specific hardware device. Drivers are responsible for controlling and managing the hardware, providing a layer of abstraction between the operating system and the device.
+
+Drivers implement the necessary protocols, algorithms, and interfaces required to interact with the hardware. They translate high-level commands or requests from the operating system or applications into low-level instructions that the hardware understands. Drivers handle tasks such as configuring the device, managing resources, handling interrupts, and facilitating data transfer between the hardware and software.
+
+For example, a graphics driver acts as an intermediary between the graphics hardware (e.g., GPU) and the operating system. It receives graphics commands from the operating system or applications and translates them into the appropriate instructions that the GPU can execute. The driver manages memory, optimizes rendering operations, and handles other aspects of graphics processing.
+
+In summary, an API provides a standardized interface for software components to communicate and interact, while a driver is software that enables the operating system to communicate with and control a specific hardware device. APIs facilitate inter-component communication, while drivers enable interaction with hardware devices.
+

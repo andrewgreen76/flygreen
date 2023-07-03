@@ -1,0 +1,12 @@
+
+Is Wayland a system or a protocol?
+ChatGPT
+
+Wayland is a protocol, not a system. It is a communication protocol that defines the interaction between a display server and its clients. The display server in the Wayland protocol is responsible for managing the display and input devices, while the clients are the applications that render and display their graphical content.
+
+The Wayland protocol was developed as an alternative to the X Window System protocol, which has been widely used for graphical user interfaces in Unix-like operating systems. Wayland aims to provide a simpler and more modern approach to graphics display, with a focus on efficiency and improved performance.
+
+The Wayland protocol specifies how the clients and the display server communicate with each other, including how clients send drawing commands and handle input events. It defines a set of standard protocols and interfaces for different aspects of the graphical display, such as surface management, input handling, and window management.
+
+Multiple implementations of the Wayland protocol exist, with the most popular being the reference implementation called "Weston." Wayland is used as the display protocol in various Linux-based desktop environments, such as GNOME and KDE Plasma, as well as in some embedded systems and mobile platforms.
+

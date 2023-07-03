@@ -1,0 +1,11 @@
+
+The underlying system that handles graphics instructions passed down by OpenGL depends on the specific operating system and hardware configuration. However, there are a few common implementations:
+
+1. On Windows: The underlying system that handles graphics instructions passed down by OpenGL is called the Graphics Device Interface (GDI) or the Windows Display Driver Model (WDDM) for more recent versions of Windows.
+
+2. On macOS: The underlying system that handles graphics instructions passed down by OpenGL is called Core Graphics, also known as Quartz 2D.
+
+3. On Linux: The underlying system that handles graphics instructions passed down by OpenGL can vary depending on the distribution and graphics driver being used. However, X Window System (X11) is commonly used as the display server, and the direct rendering infrastructure (DRI) provides the interface between OpenGL and the graphics hardware.
+
+It's worth noting that the landscape of graphics APIs and systems is continuously evolving, and new technologies and implementations may have emerged since my knowledge cutoff in September 2021.
+

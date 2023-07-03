@@ -1,0 +1,10 @@
+
+What is a coreboot payload?
+ChatGPT
+
+Coreboot is a free and open-source firmware that replaces the proprietary BIOS or UEFI firmware found on most computers. A payload is a program or piece of software that is loaded into memory by the firmware and executed at boot time. Coreboot supports various payloads, including operating systems, boot loaders, diagnostic tools, and firmware updates.
+
+A coreboot payload is any software that can be loaded by coreboot to take over control of the system after the firmware initialization is complete. This can be an operating system like Linux, a bootloader like GRUB, or a diagnostic tool like memtest86. The payload is responsible for initializing the hardware, loading additional software components, and handing over control to the main application.
+
+Coreboot supports a wide range of payloads, and developers can create custom payloads to suit their specific needs. The flexibility of coreboot's payload system is one of its key advantages, as it allows for customization and fine-tuning of the boot process.
+

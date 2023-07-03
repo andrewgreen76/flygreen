@@ -1,6 +1,8 @@
 
 lsb-release -a
 
+======================================================
+
 
 
 You can use the `lsb_release` command or the `/etc/os-release` file to get information about the Linux distribution. Here's how you can do it using both methods:
@@ -26,3 +28,11 @@ Codename:       focal
 
 Note that the availability of `lsb_release` and the format of `/etc/os-release` may vary depending on the Linux distribution you are using. Some distributions may have additional tools or files for providing this information.
 
+======================================================
+
+
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04.2 LTS
+Release:	22.04
+Codename:	jammy

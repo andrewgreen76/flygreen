@@ -1,0 +1,17 @@
+
+`tmux` is a terminal multiplexer, which allows you to run multiple terminal sessions within a single window. It provides features like splitting windows, creating multiple panes, detaching and reattaching sessions, and more. `tmux` helps in managing and organizing your terminal workflow efficiently.
+
+Here are a few commonly used `tmux` commands:
+
+- `tmux new`: Create a new `tmux` session.
+- `tmux attach`: Attach to an existing `tmux` session.
+- `tmux switch -t <session_name>`: Switch to a different `tmux` session.
+- `tmux list-sessions`: List all running `tmux` sessions.
+- `tmux detach`: Detach the current `tmux` session.
+- `tmux split-window`: Split the current pane into two vertical panes.
+- `tmux split-window -h`: Split the current pane into two horizontal panes.
+- `tmux resize-pane -U/D/L/R <size>`: Resize the current pane in the specified direction.
+- `tmux kill-session -t <session_name>`: Kill a specific `tmux` session.
+
+These are just a few examples, and `tmux` provides many more commands and options for managing terminal sessions. You can refer to the `tmux` manual or online resources for more information and advanced usage.
+

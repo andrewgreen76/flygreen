@@ -1,0 +1,28 @@
+
+lsb-release -a
+
+
+
+You can use the `lsb_release` command or the `/etc/os-release` file to get information about the Linux distribution. Here's how you can do it using both methods:
+
+1. Using `lsb_release` command:
+```bash
+lsb_release -a
+```
+
+2. Using `/etc/os-release` file:
+```bash
+cat /etc/os-release
+```
+
+Both commands will provide you with information about the Linux distribution, including the name, version, and other details. The output will look something like this:
+
+```
+Distributor ID: Ubuntu
+Description:    Ubuntu 20.04.3 LTS
+Release:        20.04
+Codename:       focal
+```
+
+Note that the availability of `lsb_release` and the format of `/etc/os-release` may vary depending on the Linux distribution you are using. Some distributions may have additional tools or files for providing this information.
+

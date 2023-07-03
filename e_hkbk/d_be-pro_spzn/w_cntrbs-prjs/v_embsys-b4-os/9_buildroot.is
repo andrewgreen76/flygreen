@@ -1,0 +1,3 @@
+
+Buildroot is a tool for automating the creation of Embedded Linux distributions. It builds the code for the architecture of the board so it was set up, all through an overview of Makefiles. In addition to being open-source, it is licensed under GPL-2.0-or-later. 
+

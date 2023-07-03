@@ -1,6 +1,6 @@
-def func(arr1, arr2):
-    return any(True if x == y else False for x in arr1 for y in arr2)
+def mystery(my_list):
+    n = len(my_list)
+    # print(n)
+    return [my_list.pop() for i in range(n)]
 
-print(func([1,2,3], [4,3,2,1]))
-
-# 
+print(mystery([1, 3, 5, 7]))

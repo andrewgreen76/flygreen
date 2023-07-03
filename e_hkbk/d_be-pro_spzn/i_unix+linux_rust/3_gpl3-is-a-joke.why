@@ -1,0 +1,15 @@
+
+GPL (General Public License) is a widely used free software license that provides users with the freedom to use, modify, and distribute software. The GNU GPL has evolved over time, and the two main versions are GPL 2 and GPL 3. Here are the key differences between GPL 2 and GPL 3:
+
+1. License Compatibility: GPL 2 and GPL 3 are not directly compatible with each other. GPL 3 is designed to be compatible with additional licenses, including Apache License 2.0 and the GNU Affero General Public License (AGPL). GPL 2 is not compatible with these licenses, meaning that code licensed under GPL 2 cannot be combined with code licensed under GPL 3 or these other licenses.
+
+2. Patent Protection: GPL 3 introduced specific provisions to address patent issues. It includes a patent retaliation clause that terminates the license if someone initiates a patent infringement lawsuit against the software covered by the license. GPL 2 does not have these explicit patent protection provisions.
+
+3. DRM (Digital Rights Management): GPL 3 includes provisions to address DRM restrictions. It prohibits the distribution of GPL-licensed software that is designed to enforce Digital Restrictions Management, which restricts user rights and freedoms. GPL 2 does not have specific DRM-related provisions.
+
+4. Tivoization: GPL 3 introduced provisions to address the practice known as "tivoization." Tivoization refers to the practice of using software covered by the GPL on a device while restricting users' ability to modify that software. GPL 3 requires that if someone distributes a GPL-licensed program on a device, they must provide the necessary information to enable users to modify that software. GPL 2 does not have explicit provisions to address tivoization.
+
+5. Additional Permissions: GPL 3 includes a mechanism called "Additional Permissions" that allows licensors to attach additional terms and conditions to the license. This provides more flexibility for licensors to add specific permissions or requirements to the GPL-licensed code. GPL 2 does not have this mechanism.
+
+It's important to note that while GPL 3 introduced these new provisions, both GPL 2 and GPL 3 still share the core principles of free software and require that modified versions of GPL-licensed software be made available under the same license terms. The choice between GPL 2 and GPL 3 depends on various factors, including compatibility requirements with other licenses, desired patent protection provisions, and considerations related to DRM and tivoization.
+

@@ -36,6 +36,7 @@ JAtQ - Just Answer the Question:
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
+- stacks across different architectures 
 - GNU GPLv2 vs. GPLv3 
 - typical Unix-like boot order
 - drivers, APIs, libraries/SDKs within different layers of the stack across various distributions 

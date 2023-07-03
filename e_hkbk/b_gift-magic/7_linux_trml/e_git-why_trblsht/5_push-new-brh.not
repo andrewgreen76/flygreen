@@ -1,0 +1,27 @@
+
+I created a new branch but it's not reflecting on the remote repo. What do I do?
+
+
+
+ChatGPT
+
+If you have created a new branch locally but it is not reflecting on the remote repository, you need to push the new branch to the remote. Here are the steps to push a new branch to the remote repository:
+
+    First, ensure that you have committed any changes in the new branch using the following command:
+
+    bash
+
+git commit -m "Your commit message"
+
+Next, push the new branch to the remote repository using the git push command with the --set-upstream or -u option:
+
+bash
+
+    git push --set-upstream origin new-branch
+
+    Replace new-branch with the actual name of your branch.
+
+    This command pushes the new branch to the remote repository and sets the upstream tracking branch, allowing you to use git pull and git push without specifying the branch name in the future.
+
+After performing these steps, the new branch should be available in the remote repository. You can confirm this by checking the repository on GitHub or by running git branch -r to see the remote branches.
+

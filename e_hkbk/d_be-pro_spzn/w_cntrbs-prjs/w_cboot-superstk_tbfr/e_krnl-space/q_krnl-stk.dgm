@@ -2,8 +2,12 @@
 +---------------------------------------------------------------------------------------
 ^ Configs and drivers are set up. 
 |
+|		(init of net)
+|
 |		init of systemd (by itself or SysV init)
 |
+|		(init of ALSA)
+|		
 |		init of KMS (deals with display modes, gfx hw)
 |		init of DRM : has API, hw-accd render ; mng membufs, synczn, sharing rcs
 |      	   	init of gfx drivers

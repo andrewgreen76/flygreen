@@ -5,8 +5,6 @@ Yes, there are several open-source projects related to graphics drivers and APIs
 
 3. AMDGPU: AMDGPU is an open-source graphics driver for AMD GPUs. It is part of the Linux kernel and provides support for various AMD Radeon graphics cards.
 
-4. Intel Graphics Stack: Intel provides an open-source graphics stack for their integrated GPUs, including the Intel HD Graphics and Intel Iris Graphics. The stack includes the Intel Graphics Compiler, Mesa, and other components.
-
 5. SwiftShader: SwiftShader is an open-source software renderer that provides high-performance graphics rendering for GPUs that don't support hardware acceleration. It is commonly used in virtualization and emulation scenarios.
 
 6. ANGLE: ANGLE (Almost Native Graphics Layer Engine) is an open-source project that translates OpenGL ES API calls to DirectX API calls. It allows applications that use OpenGL ES to run on platforms that support only DirectX, such as Windows.

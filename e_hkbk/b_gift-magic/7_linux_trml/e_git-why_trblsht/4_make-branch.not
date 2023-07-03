@@ -1,0 +1,30 @@
+
+User
+Remind me how to create a new branch of 'main' in Bash.
+
+
+
+ChatGPT
+
+To create a new branch named "new-branch" based on the current "main" branch in Bash, you can use the following Git command:
+
+bash
+
+git branch new-branch
+
+This command creates a new branch called "new-branch" at the same commit as the current branch (in this case, "main").
+
+To switch to the newly created branch, you can use the git checkout command:
+
+bash
+
+git checkout new-branch
+
+Alternatively, you can combine the branch creation and switching steps into a single command using the -b flag:
+
+bash
+
+git checkout -b new-branch
+
+This command creates a new branch called "new-branch" and switches to it in one step.
+

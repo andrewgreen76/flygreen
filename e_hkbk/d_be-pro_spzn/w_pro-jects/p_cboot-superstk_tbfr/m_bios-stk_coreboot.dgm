@@ -18,6 +18,11 @@
 |
 | BTLD : drivers for SSD
 | BTLD : drivers for keyboard, other peris
+
+  BTLD : init of hw DRIVERS
+
+
+
 ^ Stage 1 and Stage 2 boot managers (bootstrap)		<<<	native OS provides the payload
 |
 ^ sound, net, etc. 
@@ -27,7 +32,9 @@
 ^ POST init of RAM (modules, capacity, settings)	(no memory management yet)
 ^ POST init of CPU registers 	       			(no process scheduling yet)
 
-  HW init 
+  POST : init of HARDWARE 
+
+
 
 ^ CPU/cache
 |

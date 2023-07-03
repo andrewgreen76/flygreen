@@ -1,24 +1,33 @@
 
-Chip info : 
-- microcontroller
-  - ATmega328P 
+Chip info :  
+- Broadcom BCM2711
+  = SoC
+  + includes an ARM Cortex-A72 CPU
+  + GPU
+  + VPU
+  + mem ifces
+  + I/O ifces
+  + peris
 
 
 Memory :
-- EEPROM 
-  - nor-qm
-- flash
-  - NAND / NOR / SPI 
-- SRAM
+- on-chip ROM : 4MB 
+- SDRAM : 1-8 GB of LPDDR4
 
 
 Interfaces :
-- I2C
-- SPI
-- UART
+- I2C :
+  = I2C-0 , I2C-1 , I2C-2 via GPIO w/ a I2C bus 
+  + dedicated libs and APIs
+- SPI :
+  = SPI-0, SPI-1 via GPIO w/ a I2C bus 
+- UART : 
+  = UART0 , UART1
+  + dedicated libs and APIs via a GPIO w/ a UART bus 
 
 
 Pinout :
+- GPIO
 - 20 d-pins
 - 6 PWM pins
 - 6 a-pins 
@@ -28,3 +37,14 @@ Volt :
 - input : 7-12V
 - operating : 5V , USB 
 
+
+
+
+
+
+(
+- EEPROM 
+  - SPI
+- flash
+  - SPI NAND 
+)

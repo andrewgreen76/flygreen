@@ -27,15 +27,18 @@ Interfaces :
 
 
 Pinout :
-- GPIO
+- 26 GPIO pins
 - 20 d-pins
 - 6 PWM pins
 - 6 a-pins 
 
 
 Volt :
+- two 5V pins,
+- two 3.3V pins,
+- eight ground pins
+- two reserved pins.
 - input : 7-12V
-- operating : 5V , USB 
 
 
 
@@ -48,3 +51,4 @@ Volt :
 - flash
   - SPI NAND 
 )
+

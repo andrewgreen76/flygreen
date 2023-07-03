@@ -1,0 +1,10 @@
+
+Microcontroller : ATmega328P 
+
+chip-info
+ifces
+mem_eeprom_nor-qm
+mem_flash
+mem_sram
+pinout
+volt

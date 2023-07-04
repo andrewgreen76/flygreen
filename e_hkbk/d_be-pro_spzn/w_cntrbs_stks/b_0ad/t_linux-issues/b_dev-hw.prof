@@ -1,0 +1,13 @@
+  *-display
+       description: VGA compatible controller
+       product: Intel Corporation
+       vendor: Intel Corporation
+       physical id: 2
+       bus info: pci@0000:00:02.0
+       logical name: /dev/fb0
+       version: 0c
+       width: 64 bits
+       clock: 33MHz
+       capabilities: pciexpress msi pm vga_controller bus_master cap_list rom fb
+       configuration: depth=32 driver=i915 latency=0 mode=1920x1200 resolution=1920,1200 visual=truecolor xres=1920 yres=1200
+       resources: iomemory:600-5ff iomemory:400-3ff irq:208 memory:6054000000-6054ffffff memory:4000000000-400fffffff ioport:3000(size=64) memory:c0000-dffff memory:4010000000-4016ffffff memory:4020000000-40ffffffff

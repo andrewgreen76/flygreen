@@ -1,0 +1,9 @@
+
+Stress testing in computing is a technique used to evaluate the stability, reliability, and performance of a system under extreme or unfavorable conditions. It involves subjecting the system to a high workload or heavy usage scenarios to identify its limits, weaknesses, and potential issues.
+
+The purpose of stress testing is to simulate real-world conditions that can push the system to its maximum capacity or beyond, uncovering any potential problems that may arise under such conditions. By putting the system under stress, developers and testers can assess its behavior, measure its response time, identify bottlenecks, and determine if it can handle the anticipated workload or usage patterns.
+
+Stress testing can be applied to various components of a system, including the CPU, memory, storage, network, or the system as a whole. It typically involves running tests that generate high levels of activity, such as concurrent user requests, heavy data processing, or extensive input/output operations, to assess the system's performance and stability under such demanding scenarios.
+
+The results of stress testing can provide insights into the system's behavior under extreme conditions, help identify performance bottlenecks, uncover potential bugs or vulnerabilities, and guide improvements to enhance the system's robustness and reliability.
+

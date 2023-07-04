@@ -1,5 +1,27 @@
 
 "
+Not a dumb question.
+
+Swap is the same thing as a "page file" in Windows. Its where stuff gets saved when your RAM fills up.
+
+When you hibernate, you shut-down the computer, but write the current contents of RAM to the swap space, so that when you restart, your computer returns to the same state it was when you shut down. Stands to reason your swap needs to be at least as big as your entire RAM space, in that case.
+
+So you can have swap space solely for paging (swapping in Linux parlance), and swap space for hibernating. You could decide to have no swap space at all, if you wanted, because you just know you are never going to use that much memory.
+
+Swap to file is what windows does. There is a file, in your file system, which has the contents of swap. Its not typical for Linux, but it can be done. Typically, linux systems tend to have a partition for swapping, which is what you are setting up - a distinct portion of the storage media solely for swapping.
+
+Hope that clarifies a little!
+"
+
+
+
+"
+Hibernate = bigger swap. Will have more hdd reserved for swap
+"
+
+
+
+"
 My two cents...
 
 No matter how much ram you have always use swap( with hibernate ). You can change the swappiness value but you should use swap while installing. Linux system is stable ( you have to gain some experience) but there is a huge possibility that you will face system break down. Do not disappoint, keep going on, it's just the learning process. My system is old and 12 gigs of ram. But I still use swap as it is recommended. I run Manjaro XFCE even in their official video installation guide I saw them choosing swap. Most of the YouTubers don't use swap and I don't know why. And most of us follow them it's becoming a custom. I found one old YouTuber who gave a very intuitive guideline of installing xfce on system. He explained the whole thing so well even pointing out the faults of developers from the documentation. A system can sometimes act weird and that's the most vurnable point for Linux system as it can break and lose all your data. I am not an expert but I have crushed my system 4 times so far 😎. I am happy with that as I have learned so much while troubleshooting. I stated with ubuntu now I am on manjaro. I can move to arch but currently quite busy with various stuffs but will soon. I have still many things to learn. I want to say stat in path Sudo will make you invincible.

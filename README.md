@@ -36,7 +36,7 @@ JAtQ - Just Answer the Question:
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- VM and emulation solutions for gaming 
+- VMs and emulators, solutions for gaming 
 - GitHub branches, pull requests, merging 
 - virtual machines
 - swap area (with and without hibernation) 

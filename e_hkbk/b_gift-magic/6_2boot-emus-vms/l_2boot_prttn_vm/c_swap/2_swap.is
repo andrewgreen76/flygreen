@@ -1,0 +1,15 @@
+
+"
+My two cents...
+
+No matter how much ram you have always use swap( with hibernate ). You can change the swappiness value but you should use swap while installing. Linux system is stable ( you have to gain some experience) but there is a huge possibility that you will face system break down. Do not disappoint, keep going on, it's just the learning process. My system is old and 12 gigs of ram. But I still use swap as it is recommended. I run Manjaro XFCE even in their official video installation guide I saw them choosing swap. Most of the YouTubers don't use swap and I don't know why. And most of us follow them it's becoming a custom. I found one old YouTuber who gave a very intuitive guideline of installing xfce on system. He explained the whole thing so well even pointing out the faults of developers from the documentation. A system can sometimes act weird and that's the most vurnable point for Linux system as it can break and lose all your data. I am not an expert but I have crushed my system 4 times so far 😎. I am happy with that as I have learned so much while troubleshooting. I stated with ubuntu now I am on manjaro. I can move to arch but currently quite busy with various stuffs but will soon. I have still many things to learn. I want to say stat in path Sudo will make you invincible.
+"
+
+
+
+"
+Swap is disk space reserved for if you run out of RAM. Hibernate is the ability to save all RAM to disk and power off. In resume, the swap can be loaded to RAM for theoretically faster resume and to get back exactly where you left off.
+
+I run with no swap
+"
+

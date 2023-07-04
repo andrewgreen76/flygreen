@@ -1,6 +1,7 @@
 
 Virtual machine (virtualization): 
- . a piece of software for creating multiple environments on the same computer. 
+ . a piece of software for creating multiple environments on the same computer.
+   - hardware-dependent. 
  + faster than an emulator. 
  + allows for OS/software installation inside of it, ruling out the necessity for installation directly 
    onto the computer's hardware. 
@@ -24,7 +25,8 @@ Virtual machine (virtualization):
 
 
 Emulator (emulation): 
- . a piece of software 
+ . a piece of software
+   + hardware-agnostic. 
  + light on CPU / memory usage. 
 
  . does not run on physical hardware, 

@@ -1,0 +1,7 @@
+
+IBM's JFS (Journaled File System) was originally developed for IBM's AIX operating system and later ported to Linux. While JFS was once a popular file system choice for Linux, it has been largely superseded by more modern file systems like ext4, XFS, and Btrfs.
+
+JFS is considered to be a mature and stable file system, but its development and adoption have significantly slowed down over the years. It does not receive as much attention or active development as some of the other file systems mentioned above. As a result, JFS may not have the same level of feature advancements, performance optimizations, or community support as more actively maintained file systems.
+
+That being said, JFS may still be suitable for certain use cases or legacy systems where compatibility with AIX or existing JFS installations is a requirement. However, for most Linux users and modern deployments, it is recommended to consider using more widely adopted file systems that receive regular updates and support from the Linux community.
+

@@ -1,5 +1,5 @@
 
-- automatic : reboot, shutdown.  
+- automatic (runtime) : swapping / virtual memory, reboot, shutdown.  
 - manual : debugging tools (Valgrind), memory profilers, static analyzers. 
 
 

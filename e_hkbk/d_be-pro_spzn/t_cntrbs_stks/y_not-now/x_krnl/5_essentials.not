@@ -1,0 +1,13 @@
+
+io handling / fileOps
+memgmt
+proc sched / mgmt
+int handlers, bottom halves
+time mgmt / timers
+sci
+page cache
+vfs
+kernel sync & locking
+portability
+dbg tchqs
+

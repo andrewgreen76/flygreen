@@ -1,0 +1,13 @@
+
+In the context of downloading software, binaries and source code refer to different forms in which software is distributed.
+
+Binaries: Binaries are the compiled versions of a software program that are ready to be executed on a specific platform or operating system. They are typically provided in a pre-compiled form, meaning they have already gone through the compilation process to generate machine-readable instructions. Binaries are specific to a particular hardware architecture and operating system combination. Users can download and directly run the binaries without the need for additional compilation or build steps.
+
+Source code: Source code refers to the human-readable form of the software program written in a programming language. It is the original text-based representation of the program that developers write and maintain. Source code is written in programming languages like C, C++, Java, Python, etc. It consists of statements, functions, classes, and other programming constructs. Source code needs to be compiled or interpreted to generate the corresponding binaries that can be executed by the computer.
+
+When you download the source code of a software program, you are getting access to the raw, editable form of the program. It allows you to inspect, modify, and study the code. You can compile or build the source code yourself to generate the binaries that are compatible with your specific platform and configuration.
+
+On the other hand, downloading binaries provides you with the compiled version of the software that is ready to be executed. You don't have access to the underlying source code, and you cannot make modifications to the program.
+
+In summary, binaries are the compiled, executable versions of the software, while source code is the human-readable, editable form of the program written in a programming language.
+

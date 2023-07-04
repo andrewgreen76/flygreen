@@ -1,4 +1,8 @@
 
+Only the native OS can have anything to do with swapping as it is physically tied to the disk space. 
+
+
+
 In the context of memory management, swapping is a technique primarily implemented by operating systems rather than virtual machines (VMs) or emulators. 
 
 1. Virtual Machines (VMs): When it comes to swapping in VMs, the responsibility lies with the underlying host operating system. The host OS manages the allocation and swapping of memory pages for all the running VMs. The VM itself is not directly involved in the swapping process. If the host's physical memory becomes full, the host OS may employ swapping techniques, such as moving inactive memory pages to disk, to free up memory for other processes or VMs.

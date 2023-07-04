@@ -36,12 +36,15 @@ JAtQ - Just Answer the Question:
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
+- GitHub branches, pull requests, merging 
+- virtual machines
+- swap area (with and without hibernation) 
 - stacks across different architectures 
 - GNU GPLv2 vs. GPLv3 
 - typical Unix-like boot order
 - drivers, APIs, libraries/SDKs within different layers of the stack across various distributions 
 - methods of contributing to open-source projects :
-  - non-code contributions : bugs, etc.
+  - non-code contributions : reporting bugs, etc.
   - tiny, very focused contributions (maintenance of or suggestions for individual drivers, APIs, libraries,
     managers, engines) to smaller, simpler projects. 
 __________________________________________________________________________

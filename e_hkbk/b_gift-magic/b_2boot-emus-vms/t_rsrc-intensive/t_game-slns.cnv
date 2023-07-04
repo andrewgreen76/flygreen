@@ -1,11 +1,19 @@
 
 If you want to run a resource-intensive game that specifically requires a Linux environment on a Windows 11 system, using a virtual machine (VM) or a Linux emulator may not be the most optimal solutions. Both VMs and emulators introduce additional overhead and may not provide the best performance for running demanding games. In such cases, you may consider alternative options:
 
+
+
+
 1. Dual Boot: Dual booting involves partitioning your hard drive and installing both Windows 11 and a Linux distribution directly on separate partitions. This allows you to choose which operating system to boot into when starting your computer. By booting into the Linux partition, you can have full access to the Linux environment, including running resource-intensive games natively. However, note that dual booting requires separate installations of both Windows 11 and a Linux distribution and can be a more involved setup process.
 
-2. Proton and Steam Play: Proton is a compatibility layer developed by Valve Corporation for running Windows games on Linux. It is built into Steam, a popular gaming platform. With Proton, you can install and play a significant number of Windows games on Linux, including some resource-intensive ones. Steam Play, which incorporates Proton, simplifies the process by automatically configuring and installing compatible games. While not all games are officially supported, the compatibility list is continuously expanding.
+
+[This one is for running Windows games on Linux]
+|
+2. Proton and Steam Play: Proton is a compatibility layer developed by Valve Corporation for running WINDOWS GAMES ON LINUX. It is built into Steam, a popular gaming platform. With Proton, you can install and play a significant number of Windows games on Linux, including some resource-intensive ones. Steam Play, which incorporates Proton, simplifies the process by automatically configuring and installing compatible games. While not all games are officially supported, the compatibility list is continuously expanding.
+
 
 3. Cloud Gaming Services: Another option is to use cloud gaming services that provide Linux-based environments. Services like Google Stadia, NVIDIA GeForce NOW, or Shadow offer the ability to stream and play games remotely on their Linux infrastructure. You can access and play resource-intensive games on your Windows 11 system by streaming them from these platforms. However, a stable and fast internet connection is necessary for a smooth gaming experience.
+
 
 These alternatives provide more optimized solutions for running resource-intensive games that require a Linux environment on a Windows 11 system. Dual booting gives you full access to the Linux environment, while Proton and Steam Play offer compatibility for a wide range of Windows games on Linux. Cloud gaming services provide remote access to Linux-based gaming environments. Consider your specific needs and hardware capabilities when deciding which option suits you best.
 

@@ -1,0 +1,15 @@
+
+Yes, the hosting operating system (OS) reclaims its resources once the user is done using a virtual machine (VM). When you power off, shut down, or suspend a VM, the resources allocated to the VM are released and made available for use by the hosting OS and other processes running on the host system.
+
+Here's how the resource reclamation process typically works:
+
+1. Memory: When a VM is powered off or shut down, the memory allocated to the VM is freed and returned to the available pool of memory on the host system. The hosting OS can then utilize this memory for other applications and processes.
+
+2. CPU: Once a VM is no longer running, the CPU resources that were allocated to the VM are released. The hosting OS can distribute the CPU cycles to other tasks and processes on the host system as needed.
+
+3. Disk Space: Virtual machines use virtual hard disks or disk image files to store their operating systems, applications, and data. When a VM is no longer active, the disk space used by the VM can be reclaimed by the hosting OS. This allows the disk space to be available for other storage needs.
+
+By reclaiming these resources, the hosting OS ensures efficient utilization of system resources. This flexibility is one of the advantages of virtualization, as it allows multiple VMs to share the same physical hardware while ensuring that the resources are dynamically allocated and released as needed.
+
+It's worth noting that some virtualization platforms and hypervisors provide features like overcommitment, which allow for oversubscription of resources. In such cases, the hosting OS may allocate resources beyond its physical capacity, relying on the assumption that not all VMs will fully utilize their allocated resources simultaneously. However, the hosting OS still manages the resource allocation and reclamation process to ensure fair and efficient resource utilization.
+

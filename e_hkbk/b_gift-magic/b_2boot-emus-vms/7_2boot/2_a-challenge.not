@@ -2,6 +2,9 @@
 A challenge :	Install Pop!_OS 22.04 with NVIDIA support on the device below.
 
 
+- 
+
+
 
 Target :      	a CyberPowerPC with the following specs :
 |
@@ -24,11 +27,36 @@ Target :      	a CyberPowerPC with the following specs :
 1) Do you dual-boot vital components of the guest OS on the C drive or on the D drive ?
 
 
+
 2) Should you go with the allotted numbers below ? 
    - disk space : 25GB 
    - RAM : 8 GB
    - CPU : 2 cores (4 threads) 
 
 
+
 3) What would you ask of ChatGPT in this case ?
 
+I want to dual-boot Pop!_OS onto my CyberPower PC with Windows 10 Home Edition as its native OS. The PC has the following:
+1) the C drive with 81 GB free of 222 GB (240 GB total) consisting of the following:
+  a) /dev/sda1 NTFS partition (basic data) taking up 556 MB;
+  b) /dev/sda2 FAT32 partition (the EFI system partition with critical data) taking up 105 MB;
+  c) /dev/sda3 partition (Microsoft reserved partition with critical data) taking up 16.8 MB;
+  d) 
+
+
+
+
+- C drive : 	81 GB free of 222 GB (240 GB total)
+  - VITAL COMPONENTS
+  - /dev/sda1	     /dev/sda2	   	  /dev/sda3		/dev/sda4
+    NTFS	     FAT32		  -			NTFS
+    basic data	     EFI sys prtn	  MS res prtn		basic data
+    	  	     (CRITICAL)		  (CRITICAL)
+    556 MB	     105 MB		  16.8 MB		239.4 GB
+|    
+- D drive : 	1.55TB free of 1.81TB (2.0TB total)
+  - secondary data 
+  - /dev/sdb1	     /dev/sdb2
+    none	     NTFS
+    16.8 MB	     2.0 TB 

@@ -1,0 +1,21 @@
+
+The `realpath` command in Bash is used to resolve the absolute path of a given file or directory. It takes a path as an argument and returns the canonicalized absolute path, resolving any symbolic links or relative path components.
+
+Here's the syntax for using `realpath`:
+
+```bash
+realpath <path>
+```
+
+Replace `<path>` with the file or directory path for which you want to obtain the absolute path.
+
+For example, if you want to get the absolute path of a file called `myfile.txt` in the current directory, you can run:
+
+```bash
+realpath myfile.txt
+```
+
+The command will output the absolute path of `myfile.txt`, considering any symbolic links or relative path components.
+
+Note that the `realpath` command may not be available on all systems by default. It is typically provided by the GNU Core Utilities package.
+

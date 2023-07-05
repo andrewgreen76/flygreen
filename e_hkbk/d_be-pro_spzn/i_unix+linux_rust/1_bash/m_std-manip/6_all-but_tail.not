@@ -1,0 +1,17 @@
+
+To print all but the first line of a file to the terminal in Bash, you can use the `tail` command with the `-n` option:
+
+```bash
+tail -n +2 filename
+```
+
+Replace `filename` with the actual name or path of the file you want to display all lines except the first.
+
+For example, if you have a file called `textfile.txt`, you can run:
+
+```bash
+tail -n +2 textfile.txt
+```
+
+This will display all lines of the `textfile.txt` file starting from the second line onwards in the terminal, effectively excluding the first line.
+

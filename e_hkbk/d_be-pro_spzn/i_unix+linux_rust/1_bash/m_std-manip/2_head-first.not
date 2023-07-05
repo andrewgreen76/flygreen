@@ -1,0 +1,17 @@
+
+To print the first two lines of a file to the terminal in Bash, you can use the `head` command with the `-n` option:
+
+```bash
+head -n 2 filename
+```
+
+Replace `filename` with the actual name or path of the file you want to display the first two lines from.
+
+For example, if you have a file called `textfile.txt`, you can run:
+
+```bash
+head -n 2 textfile.txt
+```
+
+This will display the first two lines of the `textfile.txt` file in the terminal.
+

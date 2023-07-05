@@ -1,0 +1,7 @@
+
+In the context of `hwclock`, RTC stands for Real-Time Clock. The Real-Time Clock is a hardware component in a computer system that keeps track of the current date and time even when the system is powered off or rebooted.
+
+The `hwclock` command in Linux is used to read from or set the system's hardware clock. It allows you to synchronize the system's software clock (system time) with the hardware clock, or vice versa.
+
+When using the `hwclock` command, the RTC refers to the hardware clock, and the commands like `hwclock --show` or `hwclock --set` operate on the RTC. By synchronizing the system clock with the hardware clock, you can ensure that the system's time is accurate even after a reboot or power outage.
+

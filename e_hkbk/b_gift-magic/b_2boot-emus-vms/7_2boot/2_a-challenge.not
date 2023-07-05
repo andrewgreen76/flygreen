@@ -6,6 +6,7 @@ A challenge :	Install Pop!_OS 22.04 with NVIDIA support on the device below.
 Target :      	a CyberPowerPC with the following specs :
 |
 - C drive : 	81 GB free of 222 GB (240 GB total)
+  - VITAL COMPONENTS
   - /dev/sda1	     /dev/sda2	   	  /dev/sda3		/dev/sda4
     NTFS	     FAT32		  -			NTFS
     basic data	     EFI sys prtn	  MS res prtn		basic data
@@ -13,6 +14,7 @@ Target :      	a CyberPowerPC with the following specs :
     556 MB	     105 MB		  16.8 MB		239.4 GB
 |    
 - D drive : 	1.55TB free of 1.81TB (2.0TB total)
+  - secondary data 
   - /dev/sdb1	     /dev/sdb2
     none	     NTFS
     16.8 MB	     2.0 TB 

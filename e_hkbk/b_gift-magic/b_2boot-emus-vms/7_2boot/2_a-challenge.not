@@ -21,13 +21,13 @@ Target :      	a CyberPowerPC with the following specs :
 
 ===================================================================================
 
-1) Should you go with the allotted numbers below ? 
+1) Do you dual-boot vital components of the guest OS on the C drive or on the D drive ?
+
+
+2) Should you go with the allotted numbers below ? 
    - disk space : 25GB 
    - RAM : 8 GB
    - CPU : 2 cores (4 threads) 
-
-
-2) Do you dual-boot vital components of the guest OS on the C drive or on the D drive ?
 
 
 3) What would you ask of ChatGPT in this case ?

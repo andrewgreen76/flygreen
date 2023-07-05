@@ -1,0 +1,21 @@
+
+The use of parentheses in a print statement varies depending on the programming language. Some languages require parentheses around the arguments of the print statement, while others allow them to be omitted.
+
+Here are examples in different languages:
+
+Python (with parentheses):
+```python
+print("Hello, world!")
+```
+
+Python (without parentheses):
+```python
+print "Hello, world!"
+```
+
+Note that in Python 3.x, the use of parentheses is required.
+
+In some languages like Python 2.x, the print statement without parentheses is allowed, but it's considered outdated syntax and is not recommended for new code. It's generally recommended to use the parentheses for print statements to ensure code clarity and compatibility with newer language versions.
+
+It's important to check the specific syntax and conventions of the programming language you are using to determine whether parentheses are required or optional for print statements.
+

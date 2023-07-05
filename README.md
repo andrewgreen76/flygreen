@@ -36,6 +36,7 @@ JAtQ - Just Answer the Question:
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
+- Some graphics cards can do SOUND !! 
 - Dualboot partitioning 
 - Git mirroring behavior 
 - VMs and emulators, solutions for gaming 

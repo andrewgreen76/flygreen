@@ -1,0 +1,9 @@
+
+When you dual-boot two operating systems on a computer, the system memory (RAM) is also allocated independently to each operating system when it is running.
+
+When you boot into one operating system, it has full access to the available system memory without sharing it with the other operating system. The other operating system is not actively using the memory while you are using the first one.
+
+For example, if you dual-boot Pop!_OS and Windows 10, when you boot into Pop!_OS, it will have access to the entire system memory installed on your computer. Similarly, when you boot into Windows 10, it will have access to the full system memory.
+
+However, it's important to note that the total amount of system memory available to each operating system can be influenced by the configuration of your dual-boot setup and the way you partitioned your hard drive. It's recommended to allocate sufficient system memory to each operating system to ensure smooth performance and avoid running out of memory.
+

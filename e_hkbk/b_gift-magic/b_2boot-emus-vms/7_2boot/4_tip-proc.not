@@ -1,0 +1,7 @@
+
+When you dual-boot two operating systems on a computer, each operating system runs independently of the other. When you boot into one system, it has access to the full processing power (cores/threads) of the computer. The other operating system is not actively using the resources while you are using the other one.
+
+For example, if you dual-boot Pop!_OS and Windows 10 on your CyberPower PC, when you boot into Pop!_OS, it will have access to all the processing power of your computer, including the available cores and threads. Similarly, when you boot into Windows 10, it will have access to the full processing power.
+
+The allocation of processing power is determined by the operating system that is currently running. Each operating system manages its resources independently when it is booted. However, it's worth noting that some virtualization or emulation scenarios may limit the resources available to each operating system, but in a standard dual-boot setup, each system has access to the full processing power when it is running.
+

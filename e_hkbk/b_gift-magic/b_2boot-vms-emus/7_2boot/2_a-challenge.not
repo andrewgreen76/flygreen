@@ -24,25 +24,26 @@ Target :      	a CyberPowerPC with the following specs :
 
 ===================================================================================
 
-1) Do you dual-boot vital components of the guest OS on the C drive or on the D drive ?
+I. Do you dual-boot vital components of the guest OS on the C drive or on the D drive ?
 
 
 
-2) Should you go with the allotted numbers below ? 
+II. Should you go with the allotted numbers below ? 
    - disk space : 25GB 
    - RAM : 8 GB
    - CPU : 2 cores (4 threads) 
 
 
 
-3) What would you ask of ChatGPT in this case ?
-
+III. What would you ask of ChatGPT in this case ?
+|
 I want to dual-boot Pop!_OS onto my CyberPower PC with Windows 10 Home Edition as its native OS. The PC has the following:
 1) the C drive with 81 GB free of 222 GB (240 GB total) consisting of the following:
   a) /dev/sda1 NTFS partition (basic data) taking up 556 MB;
   b) /dev/sda2 FAT32 partition (the EFI system partition with critical data) taking up 105 MB;
   c) /dev/sda3 partition (Microsoft reserved partition with critical data) taking up 16.8 MB;
-  d) 
+  d) /dev/sda4 NTFS partition (basic data) taking up 239.4 GB
+2) the D drive with 81 GB free of 222 GB (240 GB total) consisting of the following:
 
 
 

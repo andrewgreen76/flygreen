@@ -1,5 +1,6 @@
 
 Two transistors => two switches.
 - In an AND gate the two switches are in a series.
-- Design for modifier keys : [left, right] x [Shift, Ctrl, Alt, fn] 
+- Design for modifier keys : [left, right] x [Shift, Ctrl, Alt, Meta (fn, Win) ]
+  - ... although in reality, the key input on the board is supposed to be sequenced. 
 

@@ -1,4 +1,5 @@
 
 Two transistors => two switches.
-- In an OR gate the two switches are in a parallel. 
+- In an OR gate the two switches are in a parallel.
+- The behavior in keys is : doesn't matter which one, action. 
 

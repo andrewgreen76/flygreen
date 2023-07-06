@@ -14,3 +14,13 @@ int main(int argc, char **argv)
   printf("\n");
   return 0;
 }
+
+/* Out : 
+
+Your argc is: 3
+
+Your argv[0] is: ./run.bx
+Your argv[1] is: Rebillionize,
+Your argv[2] is: bitches!
+
+*/

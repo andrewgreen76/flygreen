@@ -1,0 +1,12 @@
+
+The set-reset (SR) latch is composed of two smaller NOR circuits informing each other of their output. The output of one gate will govern the input-output of the other.
+- You have two inputs (maybe keys) : one sets Q to 1, the other resets/clears Q.
+
+
+- With this latch we achieve two things : 
+  - RETENTION of state (upon key release) ;
+  - our desired behavior is : having one key doing only one thing - producing an effect - and the other key doing only one thing - reversing the effect. 
+
+
+- Problem : What if we don't want to have to keep moving between set and reset inputs to change Q. 
+

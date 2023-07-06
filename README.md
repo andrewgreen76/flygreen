@@ -36,6 +36,7 @@ JAtQ - Just Answer the Question:
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
+- Python : pygame , venv and keyboard 
 - C : argc/argv , string.h , strcpy() , strlen() (NOT sizeof()) 
 - ChatGPT hallucinations 
 - Debug build , release build , assertions 

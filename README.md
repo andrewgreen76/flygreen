@@ -36,7 +36,7 @@ JAtQ - Just Answer the Question:
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- Python : pygame , venv and keyboard 
+- Python : pygame , venv and keyboard , logical operation conjunction. 
 - C : argc/argv , string.h , strcpy() , strlen() (NOT sizeof()) 
 - ChatGPT hallucinations 
 - Debug build , release build , assertions 
@@ -48,14 +48,7 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 - GitHub branches, pull requests, merging 
 - virtual machines
 - swap area (with and without hibernation) 
-- stacks across different architectures 
 - GNU GPLv2 vs. GPLv3 
-- typical Unix-like boot order
-- drivers, APIs, libraries/SDKs within different layers of the stack across various distributions 
-- methods of contributing to open-source projects :
-  - non-code contributions : reporting bugs, etc.
-  - tiny, very focused contributions (maintenance of or suggestions for individual drivers, APIs, libraries,
-    managers, engines) to smaller, simpler projects. 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

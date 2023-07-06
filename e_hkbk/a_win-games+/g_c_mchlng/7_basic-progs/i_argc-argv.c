@@ -2,9 +2,7 @@
 
 int main(int argc, char **argv)
 {
-  printf("\n");
-  printf("\n");
-  printf("Your argc is: %i\n", argc);
+  printf("\nYour argc is: %i\n\n", argc);
 
   for(int i=0; i<argc; i++)
     printf("Your argv[%i] is: %s\n", i, argv[i]);

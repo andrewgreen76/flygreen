@@ -1,6 +1,8 @@
 
-You need to put a shebang at the beginning of the script
+It's a courtesy thing. You need to put a shebang at the beginning of the script in case if this file can be copied by somebody else onto a device that may or may not have the right interpreter to run the script. (Not all shell interpreters are alike.) 
 
+
+=====================================================================================================
 
 
 Why is it important to put a shebang at the start of a script?

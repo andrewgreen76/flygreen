@@ -1,0 +1,4 @@
+
+In this D-latch -based flip-flop the clock replaces the enable input. The use of the clock allows for automation of the enable (i.e., we don't have to enable manually). 
+- What does this solve -or- where can this work ? : ... keyboards ? 
+

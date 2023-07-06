@@ -7,7 +7,7 @@ echo
 # Verify the password
 if [[ "$password" == "twc" ]]; then
     # Password is correct, execute the Python script
-    python3 0_direct-nw.py
+    python3 0_target.py
 else
     # Password is incorrect
     echo "Incorrect password. Exiting."

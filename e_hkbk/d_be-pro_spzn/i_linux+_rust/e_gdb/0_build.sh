@@ -1,5 +1,5 @@
 #!/bin/bash
 
-gcc $1 -o run4.bx -g
+gcc -o run4.bx $1 -g
 #clear
 #ls -1

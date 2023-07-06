@@ -1,0 +1,15 @@
+
+Once the latch is built and powered, S=0, R=0, Q=0, and Q'=0. Am I wrong?
+
+
+
+ChatGPT
+
+In an SR latch, when both S (Set) and R (Reset) inputs are set to 0, the behavior of the latch depends on its previous state.
+
+If the latch was previously in a stable state, meaning either Q (output) was 0 and Q' (complement of output) was 1, or Q was 1 and Q' was 0, then the latch will maintain that state with S=0 and R=0.
+
+However, if the latch was in an indeterminate state or in a metastable state (such as both Q and Q' being 0 or both being 1) prior to setting S=0 and R=0, the behavior of the latch is undefined, and it may settle into any of the possible states.
+
+To ensure predictable behavior and avoid metastability, it is best to initialize the latch in a known state before applying inputs. This can be done by setting either S=1 or R=1 to explicitly set the desired state of the latch.
+

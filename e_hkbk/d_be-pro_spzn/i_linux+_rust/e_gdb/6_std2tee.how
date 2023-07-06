@@ -1,0 +1,21 @@
+
+To print both stdout and stderr to both the terminal and a file, you can use the following syntax:
+
+```bash
+command > >(tee -a output.log) 2> >(tee -a error.log >&2)
+```
+
+Let's break down the command:
+
+- `command`: Replace this with the actual command you want to run.
+- `> >(tee -a output.log)`: Redirects the stdout of the command to the `tee` command, which writes it both to the terminal and appends it to the `output.log` file.
+- `2> >(tee -a error.log >&2)`: Redirects the stderr of the command to the `tee` command, which writes it both to the terminal and appends it to the `error.log` file. The `>&2` part ensures that the error messages are still displayed on the terminal.
+
+By using process substitution (`> >(...)`), we can redirect the output of the command to the `tee` command, which allows us to duplicate the output to multiple destinations.
+
+Make sure to replace `command` with the actual command you want to run, and `output.log` and `error.log` with the desired file names for the stdout and stderr logs, respectively.
+
+Note that the order of the redirections is important. The `> >(tee ...)` part should come before `2> >(tee ...)`. This ensures that stdout and stderr are redirected correctly.
+
+This method provides a way to capture both stdout and stderr and log them to separate files while still displaying them on the terminal.
+

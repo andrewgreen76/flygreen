@@ -1,16 +1,4 @@
 
-In C and C++, the basic debugging statements are typically preprocessor directives that are evaluated at compile time. These directives provide a way to include or exclude code based on certain conditions. Here are a few examples:
-
-1. Conditional Compilation: Using preprocessor directives like `#ifdef`, `#ifndef`, `#if`, and `#endif`, you can conditionally include or exclude blocks of code during compilation based on defined macros or compile-time expressions. For example:
-
-```c
-#ifdef DEBUG
-    printf("Debugging statement\n");
-#endif
-```
-
-In the above code, the `printf` statement will only be included in the compiled code if the `DEBUG` macro is defined.
-
 2. Assertions: The `assert` macro is another common debugging statement that checks a condition at runtime and aborts the program if the condition is false. However, many compilers provide an option to disable assertions at compile time, which effectively removes the `assert` statements from the compiled code. For example:
 
 ```c

@@ -1,5 +1,5 @@
 #!/bin/bash
 
-gcc -o run $1 -g
-./run
+gcc -o run.bx $1 -g
+./run.bx
 #rm run

@@ -1,6 +1,6 @@
 
 Tell about:
- - .emacs.d , init.el and its creation. 
+ - .emacs.d , init.el and its creation ; auto-save-list. 
 
 =============================================================
 
@@ -21,7 +21,13 @@ To cut/copy from one file and paste into another:
 (2) open another file with:	C-x-f
 (3) and paste there this way. 
 
--------------------------------------------------------------
+=============================================================
+
+$ emacs file1.txt file2.txt
+- Opens both files in Emacs Classic. Each file gets its own "buffer" (sub-window).
+- Attempting to open three or more files complicates the use of the interface. 
+
+=============================================================
 
 fn-F10:	menus 
 

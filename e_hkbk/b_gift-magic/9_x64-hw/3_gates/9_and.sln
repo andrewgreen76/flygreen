@@ -1,0 +1,5 @@
+
+Two transistors => two switches.
+- In an AND gate the two switches are in a series.
+- Design for modifier keys : [left, right] x [Shift, Ctrl, Alt, fn] 
+

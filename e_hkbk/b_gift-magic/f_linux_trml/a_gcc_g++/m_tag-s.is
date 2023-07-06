@@ -1,0 +1,15 @@
+
+The `-s` flag in GCC (GNU Compiler Collection) is used to strip the symbol table and debugging information from the compiled binary. When you specify the `-s` flag, the resulting executable file will be smaller in size because it will not contain the symbol table and debugging information.
+
+The symbol table contains information about the names of functions, variables, and other symbols used in the program. Debugging information includes details that help with debugging the program, such as line numbers, variable names, and function names.
+
+By stripping the symbol table and debugging information, you can reduce the size of the compiled binary, which can be useful for production builds where smaller file size is desirable.
+
+Here's an example of using the `-s` flag in GCC:
+
+```
+gcc -o output_file input_file.c -s
+```
+
+In the above command, `output_file` is the name you want to give to the compiled program, `input_file.c` is the C source file that you want to compile, and `-s` indicates that you want to strip the symbol table and debugging information from the output file.
+

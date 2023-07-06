@@ -1,0 +1,19 @@
+
+The `-g` flag in GCC (GNU Compiler Collection) is used to include debugging information in the compiled binary. When you specify the `-g` flag, the resulting executable file will contain additional information that aids in debugging the program.
+
+Debugging information includes details such as line numbers, variable names, and function names. This information is used by debuggers to provide a more meaningful debugging experience, allowing you to track and analyze the execution of the program.
+
+Here's an example of using the `-g` flag in GCC:
+
+```
+gcc -o output_file input_file.c -g
+```
+
+In the above command, `output_file` is the name you want to give to the compiled program, `input_file.c` is the C source file that you want to compile, and `-g` indicates that you want to include debugging information in the output file.
+
+It's important to note that including debugging information with the `-g` flag may increase the size of the compiled binary, as it adds extra metadata to the executable. This can be useful during development and debugging stages but may not be necessary for production builds.
+
+
+
+The flag adds debugging info to the file, increasing its size. 
+

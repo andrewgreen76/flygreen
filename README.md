@@ -36,6 +36,7 @@ JAtQ - Just Answer the Question:
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
+- ChatGPT hallucinations 
 - Debug build , release build 
 - Bash : 'expr' , arithmetic expansions , head , tail , setting up a password ; GDB 
 - Some graphics cards can do SOUND !! 

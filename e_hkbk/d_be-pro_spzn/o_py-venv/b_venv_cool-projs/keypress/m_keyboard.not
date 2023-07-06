@@ -1,0 +1,19 @@
+
+ImportError: You must be root to use this library on linux.
+andrew@inspiron:~/flygreen/e_hkbk/d_be-pro_spzn/o_py-venv/b_venv_cool-projs/keypress$ sudo su
+[sudo] password for andrew: 
+root@andrew-Inspiron-14-7420-2-in-1:/home/andrew/flygreen/e_hkbk/d_be-pro_spzn/o_py-venv/b_venv_cool-projs/keypress# x 9_keypress.py 
+x: command not found
+root@andrew-Inspiron-14-7420-2-in-1:/home/andrew/flygreen/e_hkbk/d_be-pro_spzn/o_py-venv/b_venv_cool-projs/keypress# python3 9_keypress.py 
+Traceback (most recent call last):
+  File "/home/andrew/flygreen/e_hkbk/d_be-pro_spzn/o_py-venv/b_venv_cool-projs/keypress/9_keypress.py", line 1, in <module>
+    import keyboard
+ModuleNotFoundError: No module named 'keyboard'
+root@andrew-Inspiron-14-7420-2-in-1:/home/andrew/flygreen/e_hkbk/d_be-pro_spzn/o_py-venv/b_venv_cool-projs/keypress# pip install keyboard
+Collecting keyboard
+  Downloading keyboard-0.13.5-py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.1/58.1 KB 1.3 MB/s eta 0:00:00
+Installing collected packages: keyboard
+Successfully installed keyboard-0.13.5
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+

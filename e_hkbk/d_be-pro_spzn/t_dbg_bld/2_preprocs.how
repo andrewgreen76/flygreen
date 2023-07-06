@@ -1,0 +1,11 @@
+
+    Conditional Compilation: Using preprocessor directives like #ifdef, #ifndef, #if, and #endif, you can conditionally include or exclude blocks of code during compilation based on defined macros or compile-time expressions. For example:
+
+c
+
+#ifdef DEBUG
+    printf("Debugging statement\n");
+#endif
+
+In the above code, the printf statement will only be included in the compiled code if the DEBUG macro is defined.
+

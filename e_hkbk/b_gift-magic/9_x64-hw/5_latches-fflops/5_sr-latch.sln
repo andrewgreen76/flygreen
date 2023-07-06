@@ -8,6 +8,7 @@ The other inputs are induced in other ways (usually with a key press) :
 
 
 This way we achieve two things :
-- RETENTION of the state, something we have not seen before this point. 
+- RETENTION of the state, something we have not seen before until now.
+  - This plays a crucial role in storing data in CPU cache registers, system memory, disk space, and flash memory. 
 - Having one input do one thing only - producing an effect - and the other input do one thing only - reversing that effect.
 

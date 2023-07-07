@@ -1,0 +1,21 @@
+
+To back up Windows 10 on a USB stick, you can use the built-in "File History" feature or create a system image using the "Backup and Restore (Windows 7)" tool. Here are the steps for both methods:
+
+Using File History:
+1. Connect the USB stick to your computer.
+2. Go to "Settings" by clicking on the Start menu and selecting the gear icon.
+3. In the Settings window, click on "Update & Security."
+4. From the left sidebar, select "Backup" and click on "Add a drive" under "Back up using File History."
+5. Choose the USB stick from the list of available drives. If it doesn't appear, make sure it is properly connected.
+6. Once selected, File History will automatically start backing up your files to the USB stick.
+
+Creating a System Image:
+1. Connect the USB stick to your computer.
+2. Type "Control Panel" in the Windows search bar and open it.
+3. In Control Panel, go to "Backup and Restore (Windows 7)."
+4. On the left sidebar, click on "Create a system image."
+5. Select the USB stick as the backup location and follow the prompts to create the system image.
+   Note: Creating a system image will back up your entire system, including the operating system, programs, and files.
+
+Remember to regularly update your backups to ensure your data is protected.
+

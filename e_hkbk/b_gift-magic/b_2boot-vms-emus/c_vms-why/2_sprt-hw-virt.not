@@ -1,0 +1,6 @@
+
+Does your device support hardware virtualization ?
+- See if virtualization is enabled in System Information (Windows 10).
+  - System Summary : Hyper-V - Virtualization Enabled - ?? If no, your device does NOT support hardware virtulization. 
+  - Do you have the option to see and enable virtualization ? If not, your device does NOT support hardware virtulization. 
+

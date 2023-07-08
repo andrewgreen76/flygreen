@@ -23,13 +23,15 @@ Own device with :
 
 - Hardware specs :
 
+  - 8-bit architecture , 6502
+  - Motherboard : (considering) Raspberry Pi  
   - Processing chip : [CPU, microprocessor, microcontroller] [brand] [model] 
   - RAM total : 5K
     - OS : 1.5K
     - SRAM : K
     - DRAM : K
-    - EEPROM : K
-    - flash : K
+  - EEPROM : K
+  - flash : K
   - interfaces : UART , SPI , I2C
   - voltages : 5V , (why 7-12V ?)
   - pinout : 

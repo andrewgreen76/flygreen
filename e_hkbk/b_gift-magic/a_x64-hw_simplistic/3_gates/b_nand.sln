@@ -1,0 +1,12 @@
+
+- a two-input NAND is like a two-input AND but with an inversion
+  = 2 two transistors / switch
+  + 2 two transistors / switch
+  + 2 two transistors / inverter
+  + 2 two transistors / inverter, but do you really need this one ? 
+
+  = 2 two transistors / switch
+  + 2 two transistors / switch
+
+  = 4+ transistors. 
+

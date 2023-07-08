@@ -21,5 +21,14 @@ Remember to regularly update your backups to ensure your data is protected.
 
 
 
-The back-up process is supposed to take up to 40 mins. Took me over three hours. 
+The back-up process is supposed to take up to 40 mins, according to a blog that was posted in March of this year (2023). 
+- EDIT : Took me over three hours.
+- EDIT : Now it's taken four hours. Cherry on top : after reverting some of the back-up (i.e., deleting some of the backed-up files) and doing the math on the space on the USB stick, I figured that even 64GB of space on a stick would not be enough. We are looking at : 
+  - C:\Windows : ~11GB
+  - C:\Program Files : ~21GB
+  - C:\Program Files : ~27GB
+  - configs : ~500MB
+  - $OF (whatever that is) : 3GB size / ~7GB size on disk
+  - desktop and boot -related critical data : ~4GB size / ~8GB size on disk
+  And this is all after I've removed much of the game-related files. I suspect some of this to be bloatware, but who am I to make that conclusion ? 
 

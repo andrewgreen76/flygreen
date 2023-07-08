@@ -1,5 +1,6 @@
 
-Has two transistors (pmos and nmos). 
+- a.k.a. an inverter. 
+- Has two transistors (pmos and nmos). 
 
 A problem : How is a NOT gate useful ?
 - Interrupts an activity, tells the circuit to stop at the input. 

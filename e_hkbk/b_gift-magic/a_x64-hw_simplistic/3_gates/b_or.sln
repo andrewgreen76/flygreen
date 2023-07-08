@@ -1,5 +1,6 @@
 
-Two transistors => two switches.
-- In an OR gate the two switches are in a parallel.
+- Assuming a minimum of two inputs/switches
+  => 4+ transistors. 
+- In an OR gate the switches are in parallel to one another.
 - The behavior in keys is : doesn't matter which one, action. 
 

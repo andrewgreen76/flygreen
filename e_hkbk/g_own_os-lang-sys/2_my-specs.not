@@ -1,0 +1,36 @@
+
+Own device with :
+
+
+
+- Design concept : 
+
+  - After PDP-7, before Xerox Alto -or- 
+  - Keyboard only 
+  - Dumb firmware
+  - Dumb kernel
+  - A microprocessor 
+  - No daemons 
+  - No sound
+  - No networking 
+  - Free
+  - Open-source / hackable 
+  - Minimalist (all CLI, no GUI)
+  - The entire device will be QEMU 
+  ? Supports virtualization 
+
+
+
+- Hardware specs :
+
+  - Processing chip : [CPU, microprocessor, microcontroller] [brand] [model] 
+  - RAM total : 5K
+    - OS : 1.5K
+    - SRAM : K
+    - DRAM : K
+    - EEPROM : K
+    - flash : K
+  - interfaces : UART , SPI , I2C
+  - voltages : 5V , (why 7-12V ?)
+  - pinout : 
+

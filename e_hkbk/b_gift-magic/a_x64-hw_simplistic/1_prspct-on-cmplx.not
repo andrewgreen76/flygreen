@@ -1,3 +1,5 @@
 
 Transistors are used to make gates. Gates are used to make latches and flip-flops. And these are used to built half-adders, adders, and multiplexers. And these are used to make registers, CPUs, and other complex units. 
 
+The MOS 6502 CPU chip (in the Apple II) has over 4,500 transistors.
+

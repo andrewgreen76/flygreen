@@ -12,3 +12,7 @@ This way we achieve two things :
   - This plays a crucial role in storing data in CPU cache registers, system memory, disk space, and flash memory. 
 - Having one input do one thing only - producing an effect - and the other input do one thing only - reversing that effect.
 
+
+
+Consists of 8+ transistors. 
+

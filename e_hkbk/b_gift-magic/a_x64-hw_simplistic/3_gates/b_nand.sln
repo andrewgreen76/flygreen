@@ -1,4 +1,5 @@
 
+Assuming a minimum of two inputs/switches : 
 - a two-input NAND is like a two-input AND but with an inversion
   = 2 two transistors / switch
   + 2 two transistors / switch

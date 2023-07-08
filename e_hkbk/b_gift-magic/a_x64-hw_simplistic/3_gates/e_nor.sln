@@ -1,5 +1,16 @@
 
-Two transistors => two switches.
+Assuming a minimum of two inputs/switches : 
+- a two-input NOR is like a two-input OR but with an inversion
+  = 2 two transistors / switch
+  + 2 two transistors / switch
+  + 2 two transistors / inverter
+  + 2 two transistors / inverter, but do you really need this one ? 
+
+  = 2 two transistors / switch
+  + 2 two transistors / switch
+
+  = 4+ transistors. 
+
 - The behavior is : allergic to all.
 - How is this useful ? 
 

@@ -1,10 +1,13 @@
 
+- In an AND gate the switches/transistors are in a series.
+
+Assuming a minimum of two inputs/switches : 
 - One switch per pair of transistors (pmos and nmos).
 - 6+ transistors
   = 2 two transistors / switch
   + 2 two transistors / switch
   + 2 two transistors / inverter
+
 - Design for modifier keys : [left, right] x [Shift, Ctrl, Alt, Meta (fn, Win) ]
   - ... although in reality, the key input on the board is supposed to be sequenced. 
-- In an AND gate the switches/transistors are in a series.
 

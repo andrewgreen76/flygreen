@@ -1,6 +1,12 @@
 
-- Assuming a minimum of two inputs/switches
-  => 4+ transistors. 
 - In an OR gate the switches are in parallel to one another.
+
+Assuming a minimum of two inputs/switches : 
+- One switch per pair of transistors (pmos and nmos).
+- 6+ transistors
+  = 2 two transistors / switch
+  + 2 two transistors / switch
+  + 2 two transistors / inverter
+
 - The behavior in keys is : doesn't matter which one, action. 
 

@@ -1,3 +1,14 @@
 
 "A microprocessor is a processor where the MEMORY and I/O components are CONNECTED EXTERNALLY."
 
+
+
+"
+Microprocessor:
+
+    A microprocessor is a central processing unit (CPU) on a single integrated circuit that primarily focuses on executing instructions and performing general-purpose computing tasks.
+    It is the core component of a computer system and requires external memory, peripherals, and additional circuitry to function as a complete system.
+    Microprocessors are designed for more complex computing tasks and offer higher performance and flexibility compared to microcontrollers.
+    They are commonly used in desktop and laptop computers, servers, high-end consumer electronics, and other devices that require general-purpose computing power.
+"
+

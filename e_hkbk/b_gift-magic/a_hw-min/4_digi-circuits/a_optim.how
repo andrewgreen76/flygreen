@@ -6,3 +6,7 @@ The reason why we express circuit functionality as boolean functions is so that 
 
 2) Another way of optimizing a boolean representation can be something as simple as writing out the truth table for the expression. If the list of possible outputs in the table looks familiar, a much simpler variation of the given boolean representation can be assumed.
 
+
+
+Boolean expressions are an example of what is called a formalism. 
+

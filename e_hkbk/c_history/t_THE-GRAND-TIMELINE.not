@@ -1,18 +1,4 @@
-	Arcade	Console	PC	Other devices		
-						
-1642				"Blaise Pascal conceived a clockwork-type calculator. 
- - the first true calculator: performed addition, subtraction, multiplication, and division. "		
-						
-1800	Alessandro Volta created the voltaic pile, a physical model functioning well enough to be passed as the first battery.					
-1820				"Thomas de Colmar invents the arithmometer. 
- - the first commercially successful mechanical calculating machine. "		
-1837	"Charles Babbage and Ada Lovelace invented the first Analytical Engine. 
- - used the first logic gates, which were mechanical in nature. "					
-1870s	"Emile Baudot invented the Baudot code, the long forerunner to ASCII.
- - His name is the origin of baud (Bd), a unit of any kind of transfer rate like bandwidth (bits/s)."					
-1877	Thomas Edison performed his first phonograph successful recording experiment with the words "Mary had a little lamb. Its fleece was white as snow."					
-1895				Guglielmo Marconi performed the first successful experiment in wireless transmission and reception with Morse code using a spark-gap transmitter.		
-						
+
 1903	An early semiconductor diode - the first silicon crystal detector - was patented.					
 	The first PCB (printed circuit board) was engineered by Albert Hanson.					
 1904	"The first thermionic (vacuum-tube) diode was designed by John Ambrose Fleming.
@@ -185,11 +171,14 @@ ____________________________________________________________________
  - was not deemed as profitable"			
 1974	x86 CISC assembly was first designed for the 8-bit Intel 8080 processor. 					
 	The 6 µm semiconductor fabrication process was commercialized. 					
+			The CP/M operating system was completed.			
 			The first iteration of SQL was released.			
 1975			Microsoft was born. 			
 			BIOS became an idea.			
 			"IBM's John Cocke began designing the IBM 801, the first ever RISC ISA.
  - the idea was to develop a 24-bit processor as an idea for a digital phone switch."			
+			"The IBM SCAMP computer was introduced.
+ - Not quite as portable as the Osborne I."			
 			"The MOS Technology 6502 processor was introduced. 
  - CISC- and RISC-like
  - 8-bit processor
@@ -211,6 +200,7 @@ Apple I and next year for Apple II.
 			The first Emacs text editor was developed by Richard Stallman. 			
 1977	The 3 µm semiconductor fabrication process was commercialized. 					
 			Oracle was founded by Larry Ellison, Bob Miner, and Ed Oates as Software Development Laboratories (SDL).			
+			Atari 2600 came out. 			
 			"Apple II saw the light of day. 
  - 4K - 48KB of RAM. 
  - 4-color graphics (CMBW). 
@@ -247,15 +237,23 @@ c. 1979			"VLSI was incorporated into IC manufacturing.
  - a process of placing millions of MOS transistors (not to be confused with MOSFETs) 
    onto a single chip
  - VLSI stands for ""very large-scale integration"""			
+			"The W Window System was developed for Unix.
+ - overlapping windows
+ - mouse support
+ - GUI toolkit
+ - developed at the Stanford University"			
 1979			"The Intel 8088 came out. 
  - Also a 16-bit CPU. 
  - The first IBM PC used this microprocessor. 
  - 4.77 MHz"		 	
+			"The Bourne shell was released.
+ - was built on concepts from the Thompson shell and the Mashey shell."			
 			Intel 8087 math co-processor was first mass-produced. 			
 			TMS9918 video display processor was first engineered by Texas Instruments.			
 			"Usenet protocol was first implemented for Unix telecommunications. 
  - used dial-up network architecture. 
  - tied to Telnet. "			
+			Usenet discussion platform was established.			
 			"The first BBS (bulletin board system) was in development. 
  - All it really needed was a phone, a modem, and a PC with appropriate BBS 
    software. "			
@@ -264,17 +262,19 @@ c. 1979			"VLSI was incorporated into IC manufacturing.
 c. 1980			MOS 6502 macro assembler Merlin was released for Apple II DOS. 			
 			Sam text editor was created by Rob Pike.			
 1980			IBM 801 RISC ISA development reached its end.			
+			VIC-20 came out.			
 			"""The Design and Application of a Retargetable Peephole Optimizer"" by Christopher Fraser and Jack W. Davidson was published.
  - Fraser proposed the concept of the titular program that improves instruction sequences
  - he also proposed the design and use of the RTL (register-transfer language)
  - RTL looks like an amalgamation of Assembly and Lisp
  - used by a variety of compilers, most notably GCC"			
+			UDP protocol was first designed by IETF (Internet Engineering Task Force).			
 			Ethernet became publicly available.			
+			Usenet was first made publicly accessible.			
 			"IPv4 was developed.
  - 32 bits would allow for over 4 billion unique IP addresses (2^32 = 4.29 * 10^9).
  - addresses are spelled out using the decimal system."			
 			H&R Block acquired CompuServe.			
-			Usenet was first made publicly accessible.			
 1981	The 1.5 µm semiconductor fabrication process was commercialized. 					
 	"16-bit arcade hardware
  - Turbo"	The advent of polygons - wire-frames. 	Brad Cox and Tom Love began work on Objective-C. 			
@@ -286,7 +286,7 @@ c. 1980			MOS 6502 macro assembler Merlin was released for Apple II DOS.
  - with 640x200 would allow for black and a chosen color. 
  - can scale from 320x200 (standard) to 640x480."			
 			The first window system for Unix was completed by Rob Pike. 			
-			The Osborne I, the first laptop/portable computer, saw the light of day.			
+			Osborne I, the first truly portable computer, saw the light of day.			
 			Ultima I: The First Age of Darkness was released for Apple II. 			
 			"First IBM PC was made in Taiwan. 
  - 16K of memory. 
@@ -299,11 +299,14 @@ c. 1980			MOS 6502 macro assembler Merlin was released for Apple II DOS.
 			65C02, the CMOS version of the 6502 chip, was launched. 			
 			"The MASM x86 assembler came out. 
  - uses Intel syntax for DOS and Win. "			
-1982		Commodore 64 released.	"The Intel 286 processor came out. 
- - 16-bit CPU.  
- - boasted the use of the protected mode for the first time"			
+1982			"The Intel 80286 (i286) processor came out. 
+ - 16-bit microprocessor
+ - boasted the use of the protected mode for the first time (memory protection, multitasking)
+ - Clock speed: 6MHz-20MHz, up to 1 MB of addressable memory"			
+			Commodore 64 was released by Commodore International.			
 			"Sun Microsystems was founded.
- - would become best known for its Sun Workstations featuring Unix systems like 4.2BSD. "			
+ - would become best known for work on the Java language (thanks in big part to James Gosling and his team)
+ - would also develop the Sun Workstations featuring Unix systems like 4.2BSD"			
 			Blit graphical terminal for Unix was co-developed by Rob Pike. 			
 		"Moon Patrol  
  - parallax scrolling made possible. "	PC-DOS v1.1 was released, supporting double-sided floppy disks. 			
@@ -323,6 +326,7 @@ c. 1980			MOS 6502 macro assembler Merlin was released for Apple II DOS.
  - Came with its own macro assembler as Merlin Pro. "			
 			"The first optical disc is announced by Panasonic and Sony.
  - could be CD, DVD, or Blu-ray"			
+			The Ada programming language was standardized as Ada 83.			
 			"Apple Lisa came out as one of the first PC models to feature a GUI. 
  - https://www.youtube.com/watch?v=7TOh_W6EUOc"			
 			MBR (Master Boot Record) received support to aid the functionality of hard disks. 			
@@ -330,6 +334,8 @@ c. 1980			MOS 6502 macro assembler Merlin was released for Apple II DOS.
 1984	"The 1 µm semiconductor fabrication process was commercialized. 
  - first developed in 1974"					
 			Apple launches the first Macintosh model - the Apple Macintosh 128K.			
+			"The first version of the X Window System, a.k.a. X11, was developed.
+ - developed at MIT"			
 			"Amstrad brought in the Amstrad CPC (Colour Personal Computer).
  - 8-bit home computer. "			
 			MS-DOS evolves to version 3.0. 			
@@ -366,10 +372,14 @@ c. 1985			"Xilinx developed the first FPGA (field-programmable gate array).
  - Xilinx itself was started in 1984"			
 1985		"Hang-On (SEGA Genesis)
  - first game to use 16-bit graphics. 
- - use of Motorola 68000 microprocessor"	"The Intel 386 (80386) processor came out. 
- - 32-bit processor.
- - 32-bit arithmetic with 16-bit operations. 
- - even then was a rare find. "			
+ - use of Motorola 68000 microprocessor"	"The Intel 80386 (i386) processor came out. 
+ - 32-bit microprocessor with a corresponding instruction set
+ - 32-bit addressing
+ - 32-bit arithmetic with 16-bit operations
+ - better performance
+ - advanced features such as virtual memory
+ - clock speed: 16MHz-40MHz, up to 4GB addressable memory
+ - even then was a rare find"			
 			"MIPS (RISC) ASM has surfaced, tailored for 32-bit processing. 
  - Works with 32-bit general-purpose and floating-point 
    registers. 
@@ -389,12 +399,13 @@ c. 1985			"Xilinx developed the first FPGA (field-programmable gate array).
 			Apple II heyday. 			
 			Microsoft Windows 1.01 was released. 			
 			Steve Jobs was forced to leave Apple and founded NeXT.			
+			Richard Stallman founded the Free Software Foundation (FSF).			
 			America Online was formed.			
 			"Enterprise 64 and Enterprise 128 computers were launched. 
  - With 64K RAM and 128K RAM, respectively. 
  - Had their own OS. "			
 			ZSoft gave birth to the PCX image format for MS-DOS. 			
-			First edition of C++ was released. 			
+			First draft of C++ was published. 			
 1986			"Texas Instruments releases the TMS34010
  - first fully programmable graphics processor
  - could run general-purpose code
@@ -451,6 +462,8 @@ c. 1985			"Xilinx developed the first FPGA (field-programmable gate array).
  / WG21 (Working Group 21)
  - resposible for standardization of terms in information and communications technology. "			
 			The GCC (GNU Compiler Collection) was developed for Linux and Unix-like systems.			
+			"The MINIX distribution was completed by Andrew S. Tanenbaum.
+ - based on a microkernel architecture"			
 			Turbo C 1.0, a 16-bit IDE and compiler, was released for DOS. 			
 			"Virtual DOS Machine (VDM) was rolled out. 
  - could run 16-bit DOS, 32-bit DOS, and 16-bit Windows applications. "			
@@ -490,6 +503,7 @@ decreasing. "	"The 80486DX 32-bit processor is released
  - Its Mach OS was built as a derivative alternative to Unix's 4.3BSD-Tahoe kernel."			
 			"Richard Stallman authored the GNU GPL (General Public License). 
  - gives everyone the four freedoms - to ""run, study, share, and modify"" GNU software"			
+			Brian Fox developed the beta version of the Bash shell scripting language.			
 			"Catacomb was initially released for Apple II. 
  - Ultima I -spirited. 
  - Fast-paced action shooter. "			
@@ -623,7 +637,8 @@ c. 1992	The 600nm semiconductor fabrication process was commercialized.
 			"UTF-8 text encoding was designed.
  - backwards compatible with ASCII
  - implemented for Plan 9 OS at first
- - used in virtually all of WWW"			
+ - used in virtually all of WWW
+ - developed by Ken Thompson and Rob Pike"			
 			TMS34010 no longer a model. 			
 			"Samsung KM48SL2000 became the first commercially available SDRAM chip.
  - 16MB capacity
@@ -642,6 +657,7 @@ c. 1993	The first smartphone was designed by employees at IBM.
 			"Novell bought the rights for Unix from AT&T to compete with Microsoft thus merging with AT&T. 
  - It later sold the trademark and certification rights for Unix to the Open Group 
    (X/Open Consortium). "			
+			HTML was introduced.			
 		16-bit on its way out. 	"Myst came out on Mac OS. 
  - multimedia tech (pre-rendered content, FMV on CDs)"			
 		"The 32-/64-bit 5th gen was introduced. 
@@ -718,6 +734,7 @@ John Romero.
 			Yahoo was created.			
 			Amazon was founded.			
 1995	The 350nm semiconductor fabrication process was commercialized. 					
+			The first version of the PHP scripting language was released.			
 			"SSH (secure shell, a cryptographic network protocol) arrived.
  - remote login
  - command-line execution"			
@@ -779,6 +796,8 @@ John Romero.
  - arguably the first role-playing first-person shooter. "			
 			TNFS was ported to Windows. 			
 			Lords of the Realm II was released for MS-DOS, Windows, and Mac. 			
+			"IPsec was first drafted by NRL (the US Naval Research Laboratory).
+ - Gurdeep Singh-Pall, a Microsoft employee, used the protocol to forge the first VPN (virtual private network)."			
 			"The first stable version of Linux Debian (v1.1) distribution was released as freeware. 
  - Debian is known to be one of the most stable distros 
  - has wide-ranging hardware support - gave birth to apt (advanced package tool)
@@ -805,6 +824,7 @@ John Romero.
  - boasts support of DirectX. 
  - SVGA, 640x480. 
  - use of two color palettes (one for objects and effects, one for background). "			
+			CSS came out.			
 			Hotmail was founded.			
 			Steve Jobs rejoins Apple after having sold NeXT to it.			
 			"ACPI (Advanced Configuration and Power Interface) was engineered.
@@ -853,6 +873,7 @@ John Romero.
  - 128-bit address scheme allows for up to 340 trillion trillion trillion unique IP addresses 
    ( 340 x 10^(12+12+12) or 340 x 10^(36) or 3.40 x 10^38 = 2^128 ).
  - addresses are spelled out in hexadecimal."			
+			CSS 2 came out.			
 		The 6th gen made its way in, featuring 128-bit systems. 	"AMD K6-2 CPU came out. 
  - Data bus: ? bits
  - Address bus: ? bits
@@ -886,7 +907,7 @@ John Romero.
  - boasted 64MB capacity
  - DDR stands for ""double data rate"""			
 			Nvidia uncovers the RIVA TNT (NV4). 			
-			C++98 came out, featuring the STL (Standard Template Library) developed by Alexander Stepanov. 			
+			The C++98 standard came out, featuring the STL (Standard Template Library) developed by Alexander Stepanov. 			
 			The first version of SDL (Simple DirectMedia Layer) was made available.			
 			Google was formed by Sergey Brin and Larry Page.			
 			VMware was started.			
@@ -913,6 +934,8 @@ John Romero.
  - # of cores: 1"			
 			GNU nano (TIP) text editor was created.			
 			Gedit was released.			
+			"CSS 3 was released.
+ - one big specification broken up into modules "			
 			"PuTTY terminal emulator was delivered. 
  - by Simon Tatham
  - a free implementation of and support for SSH and legacy protocols such as Telnet"			
@@ -939,7 +962,13 @@ John Romero.
  - dGPU is soldered to a video card
  - the card makes use of a PCIe connector (a high-speed connect to the motherboard) "			
 			C99			
+			"coreboot was born.
+ - an open-source alternative to BIOS and UEFI.
+ - reduced boot times
+ - increased system security
+ - customizable hardware settings"			
 			The original GNOME desktop environment was developed for Linux. 			
+			The first PPTP specification was published.			
 			EverQuest hit the market. 			
 			Age of Empires II: The Age of Kings was released. 			
 			Heroes of Might and Magic III came out. 			
@@ -956,9 +985,14 @@ John Romero.
  - allows for cooperation with compilers that include DJGPP. "			
 2000			Diablo II took the stage. 			
 			The first version of C# was written. 			
+			"Python 2.0 came out. 
+ - featured a garbage collector
+ - support for Unicode"			
+			The first version of XHTML was released.			
 			"The first version of RHEL (Red Hat Enterprise Linux) reached the end of its development.
  - led by Bob Young and Mark Ewing
  - integrity is the focus of the distro"			
+			MINIX became free and open-source under the BSD-3 Clause license.			
 			Apache Subversion (a.k.a. svn) version control software became available.			
 			"The Gentoo Linux distro family was started.
  - focus: simplicity and performance
@@ -1065,6 +1099,7 @@ c. 2003	The 90nm semiconductor fabrication process was commercialized.
 			Heroes of Might and Magic V (HoMM5) hit the market. 			
 			AMD acquired ATI, claiming all Radeon video card projects.			
 			Apple chose Intel Core RISC ISA over PowerPC for processor design.			
+			MINIX 2.0 became POSIX-compliant.			
 			Power ISA was developed and released by IBM's OpenPOWER Foundation.			
 			"DisplayPort technology came out to compete with HDMI.
  - a VESA standard, ergo non-proprietary
@@ -1101,8 +1136,12 @@ c. 2003	The 90nm semiconductor fabrication process was commercialized.
  - free and open-source
  - suitable for both the actual hardware (as a coreboot payload) and for emulators"			
 			The Wayland communication and display server protocol was created.			
+			Python 3.0 came out.			
 			The GitHub hosting service was created using Git. 			
 			Google released the Android with its own mobile OS, powered by Linux. 			
+			"OpenCL 1.0 came out.
+ - features a dedicated API
+ - includes a kernel-level language for executing data-parallel programs for various systems "			
 			"DuckDuckGo search engine was launched.
  - emphasis on user privacy
  - brushing off user search-based (personalized) results
@@ -1116,150 +1155,5 @@ c. 2003	The 90nm semiconductor fabrication process was commercialized.
 			"HDMI 1.4 came out.
  - support for wide color depth, audio, and Ethernet data"			
 			"The BitCoin cryptocurrency was made available through an open-source software. 
- - Thousands more followed in the coming years. "			
-						
-2010			The Telehack web and telnet simulation/game was created.			
-			"Rage first came out for iOS, shaped with the use of the id Tech 5 engine. 
- - mega-texturing (ability to change every shape and texture down to 
-   the smallest detail.)"			
-			Microsoft Azure, a cloud computing service, was launched.			
-			Oracle acquired Sun Microsystems.			
-			"RISC-V came to be as the open-source/open standard RISC ISA.
- - a ld/str architecture.
- - developed at UC Berkeley"			
-			"The Arduino Uno line of boards was released.
- - 8-bit RISC architecture"			
-2011			C11. 			
-			"C++11
- - C++98 defined only one smart pointer class, auto_ptr, which is 
-   now deprecated. C++11 includes new smart pointer classes - shared_ptr and 
-   unique_ptr.
- - Also introduced the ""auto"" keyword and comprehensive range-based 
-   for-loops. 
- - https://en.cppreference.com/w/cpp/11"			
-			"NVMe specification was outlined.
- - for NAND storage devices (flash memory, SSD, etc.)
- - intended to achieve access to storage via PCIe with low latency
- - intended to achieve internal concurrency
- - in the form of hardware/firmware on a controller chip 
- - a product of NVM Express Work Group
- - stands for Non-Volatile Memory Express (or NVMHCIS, as in Non-Volatile Memory Host 
-   Controller Interface Specification)"			
-			Manjaro, a child of Arch Linux, was born.			
-			SpaceChem from Zachtronics came out. 			
-			Might and Magic Heroes VI (HoMM6) made it to the shelves. 			
-2012	The 22nm semiconductor fabrication process was commercialized. 					
-			"Dishonored steps in to critical acclaim. 
- - uses UE3. "			
-			It was disclosed that Linux runs the behavior of the Tesla Model S. 			
-			Windows 8 came out. 			
-			Secure Boot was introduced.			
-			Azure partly migrated to Linux. 			
-			The original Raspbian OS (now Raspberry PI) was launched. 			
-2013		The Last of Us. 	"Asus brings forth the VG248QE monitor. 
- - Resolution: 1920 x 1080 (full HD / 1080p)
- - 144 Hz refresh rate
- - 24"" monitor
- - 92 ppi
-On a 1080p 27"" monitor we'd have 82 ppi. "			
-		PS2 took a dive, marking the end of the 6th gen. 	"A massive shift from 4:3 to 16:9 aspect ratio. 
- - Monitors could be of size between 20"" and 24"". 
- - 1366x768 res became a thing (~47 ppd on a 19"" screen). 
- - 1920x1080 res is made possible (~53 ppd on a 24"" screen). "			
-			Docker was created to deliver software through user-space environments called containers. 			
-			Mantle API was developed by AMD.			
-			The Kali Linux distro was made available with a focus on security and penetration testing. 			
-			Dogecoin took the stage. 			
-2014	The 14nm semiconductor fabrication process was commercialized. 					
-			C++14			
-			Chris Lattner developed the Swift programming language for Apple.			
-			"The DDR4 SDRAM (Double Data Rate 4th-Generation Synchronous Dynamic Random-Access Memory) line of memory chips from JEDEC was materialized.
- - clock rate of 800-1600 MHz"			
-			Metal API was engineered by Apple.			
-			"The K8 container orchestration system was developed with input from Jim Keller.
- - automated software deployment and scaling"			
-			Redfish specification became the standard for delivering the protocol and the interface for servers.			
-2015			Might and Magic Heroes VII (HoMM7) saw the light of day. 			
-			Verizon acquired AOL.			
-			RadioShack folded as a business.			
-			"The first version of TensorFlow was developed.
- - focus is on AI/ML
- - very popular to use GPUs in place of CPUs for more powerful deep learning"			
-			"fbdev, a Linux framebuffer rasterization program, lost all support.
- - was replaced by DRM (Direct Rendering Manager)"			
-			Windows 10 came out. 			
-2016			The first stable release of Vulkan came out.			
-			SoftBank Global (SBG) acquired Arm Ltd.			
-			Shenzhen I/O came out. 			
-c. 2017	The 10nm semiconductor fabrication process was commercialized. 					
-2017			Verizon acquired Yahoo!, thereby also acquiring CompuServe.			
-			C++17			
-			"Flutter came out.
- - developed by Google"			
-			Zen, co-engineered by Jim Keller, became the go-to microarchitecture for every AMD processor.			
-			Saw the last stable release of OpenGL, v4.6. 			
-2018	The 7nm semiconductor fabrication process was commercialized. 					
-			IBM acquires Red Hat.			
-			"UserLAnd Technologies compatibility layer mobile app was engineered. 
- - allows programs to run on mobile devices without a root account"			
-			A few models of photocameras were manufactured to capture 8k images.			
-2019			"GeForce RTX 2070 SUPER gfx card came out. 
- - high-end
- - 1800 MHz clock speed 
- - 60 Hz (60 fps)"			
-			"1440p and 4k monitors are the latest standards for TV and monitor technology. 
- - 1440p on a 24"" screen gets us 70 ppd. 
- - 4k tech on a 24"" brings us to 106 ppd (183.58 ppi). "			
-			"The AMD Ryzen 7 3700X processor saw the light of day. 
- - Clock speed/frequency: 3.6 GHz 
- - # of cores: 8 (=> 16 threads max)
- - Top performance: 8 x 3.6 GHz
- - L1, L2, L3 cache: 512 KB, 4 MB, 32 MB"			
-						
-2020	The 5nm semiconductor fabrication process was commercialized. 					
-			C++20			
-			Nvidia acquires Arm Ltd. 			
-			Apple designed their own flavor of ARM64/AArch64 ISA for Apple M Series processors as SoC (systems-on-a-chip) to be slated on "Apple silicon".			
-			"DDR5 SDRAM from SK Hynix of JEDEC came out.
- - 2,000-3,200 MHz clock rate - nearly double that of DDR4
- - 32,000-51,200 MB/s transfer rate
- - on-die ECC (error correction code is on the same chip as the processor); errors are dealt with 
-   before data is sent to the CPU"			
-			Samsung Galaxy S20 was pushed forward, featuring the 8k support for video recording.			
-2021			Windows 11 came out. 			
-			Latest stable release of DirectX API. 			
-			Facebook fell under the Meta brand following a string of acquisitions of companies. 			
-2022			Vulkan's 1.3.229 version became the latest stable release. 			
-			VESA introduces the ClearMR (Clear Motion Ratio) Compliance Test Specification, the new standard for video performance.			
-			"DisplayPort 2.1 came out.
- - support for video, audio, data, network, etc."			
-			UEFI 2.10 was released.			
-			"Nvidia no longer owns Arm; SBG (SoftBank Global) will once again own it.
- - Nvidia will retain a 20-year Arm license."			
-			AMD acquired Xilinx.			
-			AMD sold the first RX 7900 XTX video cards.			
-			Nvidia released the first line of RTX 4090 video cards.			
-			Intel offered their video cards in the form of the Arc A750 and A770. 			
-			SDL 2.26.3 evolved into SDL 3.0.			
-			Last Call BBS was made available on Steam. 			
-						
-		"Less popular IDEs: 
- - Dev C++ 
-   = thin on features
-   = needs a setup with a debugger 
-   = tends to be buggy 
- - Code::Blocks (overall quality & performance 
-   are not great compared to VS)
-"	"APIs that are old, obsolete, or should be avoided: 
- - OpenGL (hasn't been updated since 2017)
- - DirectX (hasn't got a hosedown since 2020 when DirectX 12 Ultimate was developed.)"			
-		"More popular IDEs (have features for pro dev): 
- - Visual Studio 
- - Visual Studio Code 
-   = faster performance
-   = updated every month
-   = cross-platform"	"Hottest APIs; latest, most stable versions: 
- - Vulkan 1.3.229 (gets regularly updated)
- - SDL 2.0.22 (updated on 04/xx/2022)"			
-						
-						
+ - Thousands more followed in the coming years. "
+

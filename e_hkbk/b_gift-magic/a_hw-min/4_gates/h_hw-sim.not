@@ -21,3 +21,10 @@ Simulation options :
 
 Synthesis
 
+
+
+Behavioral simulation :
+- Write up a program or a script in a high-level lang. that sims the expected behavior in a logic gate (or chip) and prints the output for every
+  input configuration.
+- When the algorithm is approved, it can be implemented in HDL.
+

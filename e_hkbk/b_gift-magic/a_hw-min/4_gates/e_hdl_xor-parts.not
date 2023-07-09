@@ -12,12 +12,6 @@ XOR :
 XOR using AND, NOT, and OR : 
 
 x XOR y = (ab') + (a'b)
-|
-  x + y = ( (x)' . (y)' ) ' = x' NAND y'
-  => (ab') + (a'b) = ( (ab')' . (a'b)' ) '
-|
-  => ( (ab')' . (a'b)' ) ' = (ab')' NAND (a'b)'
-     in AND/NOT terms  	     
 
 
 

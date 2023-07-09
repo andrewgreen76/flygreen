@@ -1,15 +1,12 @@
 
 XOR :
 
+    a   b	o
 
-
-a   b	o
-
-0   0	0
-0   1	1
-1   0	1
-1   1	0
-
+    0   0	0
+    0   1	1
+    1   0	1
+    1   1	0
 
 
 XOR using AND, NOT, and OR : 
@@ -39,3 +36,4 @@ CHIP Xor {
      And (a=nota, b=b, out=notaAndb); 	 // Gate (owna<-j, ownb<-k, ownout->l);
      Or  (a=aAndNotb, b=notaAndb, out=out);   // Gate (owna<-m, ownb<-n, ownout->the global out as mentioned in inits above);
 }
+

@@ -1,0 +1,6 @@
+
+Mux and Dmux in comm networks :
+- information can be sent in a serial line of 0's and 1's from the Mux at the source to the Dmux at the destination.
+  The sel at each of those components is connected to a clocking device called the oscillator. The oscillator keeps feeding an alternating pattern of
+  0's and 1's so that the digital data keeps getting driven bit by bit. 
+

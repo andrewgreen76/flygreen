@@ -15,9 +15,5 @@
   - OS : [name] , 1.5K
   - interfaces : UART , SPI , I2C
   - voltages : 5V , (why 7-12V ?)
-  - pinout :
-
-  - Monitor output , modes :
-    - Option 1 : one mode : text ; graphics will have to be hacked up.
-    - Option 2 : one mode : text and graphics will be treated as one.
+  - pinout : (see Board)
 

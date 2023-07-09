@@ -7,7 +7,10 @@ Simulation options :
 - Interactive sim :
   - HDL files hold defined INPUT-BASED BEHAVIOR -> hw simr (impld in Java) sims and tests HDL files 
 - Testing / script-based sim : 
-  - test scripts hold INPUT in a testing lang. -> hw simr uses inputs for testing the HDL impl.
+  - A test script holds INPUT(S) in a testing lang. -> hw simr uses inputs for testing the HDL impl.
+  - The machine's act of feeding and processing multiple input configurations one at a time from the same test script is an example of automation.
+    Though you still have to type in different inputs manually in the script, it will make for a smoother development experience compared to
+    having to write out a different configuration before every test. 
 - Comparing output :
   - Compare results (in the output file) to the desired output (in a compare file). 
 

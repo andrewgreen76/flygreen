@@ -1,0 +1,23 @@
+
+- Hardware specs :
+  - Board : Raspberry Pi 
+  - 8-bit architecture , ARM(v8) 
+  - Processing chip : [CPU, microprocessor, microcontroller] [brand] [model] 
+  - RAM total : 4K , volatile , non-expandable
+    - SRAM : K
+    - DRAM : K
+    - aux. mem : NO.
+      - Rejected : 12K 
+  - Disk space (for code, data) : NO.
+    - Rejected : internal or external (48K , mounted) 
+  - EEPROM : K
+  - Flash : K
+  - OS : [name] , 1.5K
+  - interfaces : UART , SPI , I2C
+  - voltages : 5V , (why 7-12V ?)
+  - pinout :
+
+  - Monitor output , modes :
+    - Option 1 : one mode : text ; graphics will have to be hacked up.
+    - Option 2 : one mode : text and graphics will be treated as one.
+

@@ -10,5 +10,8 @@ Mux and DMux in comm networks :
   - This way a stream of data on the same input to the Mux at source can be delivered concurrently with another stream
     of data on a different input channel down the communication line in the middle in a serial and alternating fashion
     to the DMux at the destination. The DMux will use its own clock to undo the braided stream and send the unwound data
-    down the output channel where it was intended. 
+    down the output channel where it was intended.
+
+- The delivery and reception of data does not have to follow the same clock rate ; the winding and unwinding can be done
+  asynchronously. 
 

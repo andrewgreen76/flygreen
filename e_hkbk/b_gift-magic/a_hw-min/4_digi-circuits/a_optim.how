@@ -1,4 +1,5 @@
 
 The reason why we express circuit functionality as boolean functions is so that it becomes clear to us how we can simplify circuits, thereby cutting back on the number of gates/transistors employed, making our circuit build cost-efficient.
-- things like commutative, associative, distributive, and DeMorgan laws can help us with that. 
+- Things like commutative, associative, distributive, and DeMorgan laws can help us with that.
+- There are times when using these laws can help you significantly cut down the number of components and materials by several/many times. 
 

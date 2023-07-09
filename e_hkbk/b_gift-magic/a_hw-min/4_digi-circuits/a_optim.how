@@ -1,7 +1,7 @@
 
 The reason why we express circuit functionality as boolean functions is so that it becomes clear to us how we can simplify circuits, thereby cutting back on the number of gates/transistors employed, making our circuit build cost-efficient.
 
-1) Things like commutative, associative, distributive, and DeMorgan laws can help us with that.
+1) Things like commutative, identity, associative, distributive, and DeMorgan laws can help us with that.
 - There are times when using these laws can help you significantly cut down the number of components and materials by several/many times. 
 
 2) Another way of optimizing a boolean representation can be something as simple as writing out the truth table for the expression. If the list of possible outputs in the table looks familiar, a much simpler variation of the given boolean representation can be assumed.

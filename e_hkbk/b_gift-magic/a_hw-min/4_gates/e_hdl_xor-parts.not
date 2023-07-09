@@ -23,7 +23,7 @@ x XOR y = (ab') + (a'b)
 
 Design XOR in HDL :
 
-/** blah blah */
+/** blah blah outlining behavior of the gate blah blah */
 
 CHIP Xor {
      IN a, b;	// TYPE vars

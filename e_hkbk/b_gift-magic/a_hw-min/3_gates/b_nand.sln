@@ -11,3 +11,16 @@ Assuming a minimum of two inputs/switches :
 
   = 4+ transistors. 
 
+
+
+Thought of by some as a foundational gate for creating entire behavioral circuits. 
+
+	x NAND y = (x . y)'
+
+x	y     	f
+
+0	0	1
+0	1	1
+1	0	1
+1	1	0
+

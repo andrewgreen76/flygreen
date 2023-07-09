@@ -1,5 +1,6 @@
 
 A component that provides an output based on the s-input (selection).
+- This makes for a building block in logic programming of gates. 
 - At least a 2-way. Otherwise, it's not a Mux. 
 
 

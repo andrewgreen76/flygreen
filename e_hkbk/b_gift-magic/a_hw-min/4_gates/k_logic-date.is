@@ -1,3 +1,7 @@
 
 A logic gate is simply an integrated (on-chip) circuit with a defined behavior, however simple or complex that behavior is.
 
+Logic games can be :
+- elementary (NAND, AND, OR, NOT, etc.) or
+- composite (MUX, ADDER, etc.). 
+

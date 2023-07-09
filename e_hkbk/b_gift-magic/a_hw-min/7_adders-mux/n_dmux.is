@@ -1,0 +1,8 @@
+
+Uses the selector input to determine how to feed its result to the output channels.
+
+if (sel==0)
+   {a,b}={in,0}
+else
+   {a,b}={0,in}
+

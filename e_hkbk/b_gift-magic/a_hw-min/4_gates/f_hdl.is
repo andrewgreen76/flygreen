@@ -1,0 +1,9 @@
+
+HDL is :
+- a functional language and a declarative language
+  = it is purely about conditions and behavior, not data structures and dynamic manipulation
+    -= (no procedures going on)
+    -= everything is static
+    -= inputs are unknown, not given within the implementation 
+  = no code and data compilation or interpretation
+

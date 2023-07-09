@@ -6,5 +6,6 @@ HDL is :
     -= no altering procedures going on ; everything is static
   = no code and data compilation or interpretation
 
-- In SOME places of the implementation the order of statements does not matter. 
+- The order of statements does not matter to the hardware simulator,
+  but it does matter to us for the sake of readability. 
 

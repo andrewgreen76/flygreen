@@ -1,0 +1,19 @@
+
+Consider behavior outlined in the following truth table :
+
+x	 y	  z	   f
+
+0	 0	  0	   1   
+0	 0	  1	   0
+0	 1	  0	   1
+0	 1	  1	   0
+1	 0	  0	   1
+1	 0	  1	   0
+1	 1	  0	   0
+1	 1	  1	   0
+
+How do we write a boolean expression, a circuit representation, for this kind of behavior ?
+The expression below is a way of describing such behavior and it is called the DISJUNCTIVE NORMAL FORM : 
+
+(x' . y' . z') + (x' . y . z') + (x . y' . z')
+

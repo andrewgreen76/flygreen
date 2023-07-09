@@ -4,6 +4,7 @@
   - 8-bit architecture , ARM(v8) 
   - Processing chip : [CPU, microprocessor, microcontroller] [brand] [model] 
   - RAM total : 4K , volatile , non-expandable
+    - memory model : small , tiny , ... , flat
     - SRAM : K
     - DRAM : K
     - aux. mem : NO.

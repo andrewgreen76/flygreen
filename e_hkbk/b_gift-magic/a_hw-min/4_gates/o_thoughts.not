@@ -34,6 +34,6 @@ CHIP Xor {
      Not (in=b, out=notb);     // TAKE an input, PRODUCE local 'out', LOAD it into 'procdi'.
      And (a=a, b=notb, out=aAndNotb);    // One level is complete, on to gates of next level. Gate (owna<-var1, ownb<-var2, ownout->var3);
      And (a=nota, b=b, out=notaAndb); 	 // Gate (owna<-j, ownb<-k, ownout->l);
-     Or  (a=aAndNotb, b=notaAndb, out=out);   // Gate (owna<-m, ownb<-n, ownout->the global out as mentioned in inits above);
+     Or  (a=aAndNotb, b=notaAndb, out=out);   // Gate (owna<-m, ownb<-n, ownout->the global out as mentioned in ifce inits above);
 }
 

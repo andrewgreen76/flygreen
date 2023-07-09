@@ -37,3 +37,6 @@ CHIP Xor {
      Or  (a=aAndNotb, b=notaAndb, out=out);   // Gate (owna<-m, ownb<-n, ownout->the global out as mentioned in ifce inits above);
 }
 
+Documentation : outline the GOAL , the BEHAVIOR that gets us to the goal , and the MEANS we'd use to do all that.
+Must have strong NOMENCLATURE FOR READABILITY.
+

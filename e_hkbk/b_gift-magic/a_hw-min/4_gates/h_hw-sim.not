@@ -3,9 +3,11 @@ HDL code
 
 
 
+HDL files hold defined INPUT-BASED BEHAVIOR -> hw simr (impld in Java) sims and tests HDL files 
+
 Simulation options : 
 - Interactive sim :
-  - HDL files hold defined INPUT-BASED BEHAVIOR -> hw simr (impld in Java) sims and tests HDL files 
+  - i.e., manual typing of inputs test after test
 - Testing / script-based sim : 
   - A test script holds INPUT(S) in a testing lang. -> hw simr uses inputs for testing the HDL impl.
   - The machine's act of feeding and processing multiple input configurations one at a time from the same test script is an example of automation.

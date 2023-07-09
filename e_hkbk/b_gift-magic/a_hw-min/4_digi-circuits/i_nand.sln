@@ -13,7 +13,7 @@ Assuming a minimum of two inputs/switches :
 
 
 
-Thought of by some as a foundational gate for creating entire behavioral circuits. 
+Thought of as the most essential gate for creating entire behavioral circuits. 
 
 	x NAND y = (x . y)'
 
@@ -23,4 +23,11 @@ x	y     	f
 0	1	1
 1	0	1
 1	1	0
+
+
+
+How is it the most essential gate ?
+
+(x)' = (x . x)' = x NAND x
+(x . y) = (x NAND y) '
 

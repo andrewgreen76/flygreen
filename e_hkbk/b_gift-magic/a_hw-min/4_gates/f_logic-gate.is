@@ -5,3 +5,7 @@ Logic games can be :
 - elementary (NAND, AND, OR, NOT, etc.) or
 - composite (MUX, ADDER, etc.). 
 
+
+
+There is more than one way to implement the same behavior. It can be done out of concern with energy efficiency or out of concern with cutting costs. 
+

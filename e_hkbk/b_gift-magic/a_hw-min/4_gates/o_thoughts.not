@@ -22,3 +22,20 @@ x XOR y = (ab') + (a'b)
   => ( (ab')' . (a'b)' ) ' = (ab')' NAND (a'b)'
      in AND/NOT terms  	     
 
+
+
+Design XOR in HDL :
+
+/** blah blah */
+
+CHIP Xor {
+     IN a, b;	// TYPE vars
+     OUT out;	// TYPE var
+
+     PARTS: 	// piecing together parts of the logic gate, from global input to global output.
+     Not (in=a, out=nota);     // LIST gates at 1st lvl, ins for every gate. Gate (in<-x, out->procdx); 
+     Not (in=b, out=notb);     // TAKE an input, PRODUCE local 'out', LOAD it into 'procdi'.
+     And (a=a, b=notb, out=aAndNotb);    // One level is complete, on to gates of next level. Gate (owna<-var1, ownb<-var2, ownout->var3);
+     And (a=nota, b=b, out=notaAndb); 	 // Gate (owna<-j, ownb<-k, ownout->l);
+     Or  (a=aAndNotb, b=notaAndb, out=out);   // Gate (owna<-m, ownb<-n, ownout->the global out as mentioned in inits above);
+}

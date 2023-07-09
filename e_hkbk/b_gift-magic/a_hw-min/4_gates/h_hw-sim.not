@@ -6,8 +6,10 @@ HDL code
 Simulation options : 
 - Interactive sim :
   - HDL files hold defined INPUT-BASED BEHAVIOR -> hw simr (impld in Java) sims and tests HDL files 
-- Testing : 
-  - test scripts hold INPUT in a testing lang. -> hw simr uses inputs for testing the HDL impl. 
+- Testing / script-based sim : 
+  - test scripts hold INPUT in a testing lang. -> hw simr uses inputs for testing the HDL impl.
+- Comparing output :
+  - Compare results (in the output file) to the desired output (in a compare file). 
 
 
 

@@ -1,4 +1,3 @@
 
-A logic gate is simply a circuit with a defined behavior, however simple or complex that behavior is.
-- A logic gate can be either (a) fairly large and visible components manually put together or (b) tiny, barely visible components integrated into a chip. 
+A logic gate is simply an integrated (on-chip) circuit with a defined behavior, however simple or complex that behavior is.
 

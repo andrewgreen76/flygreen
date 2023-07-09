@@ -1,3 +1,4 @@
 
-The reason why we express circuit functionality as boolean functions is so that it becomes clear to us how we can simplify circuits, thereby cutting back on the number of gates/transistors employed, making our circuit build cost-efficient. 
+The reason why we express circuit functionality as boolean functions is so that it becomes clear to us how we can simplify circuits, thereby cutting back on the number of gates/transistors employed, making our circuit build cost-efficient.
+- things like commutative, associative, distributive, and DeMorgan laws can help us with that. 
 

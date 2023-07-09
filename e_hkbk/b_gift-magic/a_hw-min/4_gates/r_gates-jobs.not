@@ -1,3 +1,16 @@
 
 Insert your own joke. 
 
+
+
+System architect :
+- is asked to design the API (the name, the interface, and the guts) for a chip tailored for a specific application or range of applications ;
+- will handle behavioral sim (all-static implementation in a high-level programming or scripting language) ; 
+- will put together the test script for the chip ; 
+- will keep a record of the best compare file. 
+|
+Developer :
+- conceives the implementation for the chip. 
+|
+A compare file will then be used to ensure the integrity of the chip.
+

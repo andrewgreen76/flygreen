@@ -30,4 +30,3 @@ How is it the most essential gate ?
 
 (x)' = (x . x)' = x NAND x
 (x . y) = (x NAND y) '
-

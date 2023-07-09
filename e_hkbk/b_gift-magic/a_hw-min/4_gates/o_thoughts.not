@@ -1,3 +1,20 @@
 
--
+XOR :
+
+
+
+a   b	o
+
+0   0	-
+0   1	-
+1   0	-
+1   1	-
+
+
+
+x XOR y = (ab') + (a'b)
+- x + y = ( (x)' . (y)' ) ' = x' NAND y'
+
+  => ( (ab')' . (a'b)' ) ' = (ab')' NAND (a'b)'
+     in AND/NOT terms  	     
 

@@ -1,0 +1,15 @@
+
+1) Any behavior can be represented with just NOTs, ANDs, and ORs. 
+
+
+
+2) However, if OR and be expressed with just ANDs and NOTs ...
+
+   x + y = ( (x)' . (y)' ) '
+
+   ..., then ANDs and NOTs is all we would need at the very least.
+
+
+
+-
+

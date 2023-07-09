@@ -1,8 +1,14 @@
 
-Mux and Dmux in comm networks :
-- Information can be sent in a serial line of 0's and 1's from the Mux at the source to the Dmux at the destination.
+Mux and DMux in comm networks :
+
+- Information can be sent in a serial line of 0's and 1's from the Mux at the source to the DMux at the destination.
   The sel at each of those components is connected to a clocking device called the oscillator. The oscillator keeps
   feeding an alternating pattern of 0's and 1's to sel. This way a bit will be popped off of one channel and then
   another channel, then another channel, and then another channel, and so on. This way the digital data keeps getting
-  driven to the destination bit by bit, later pushed to the outputs in an alternating fashion bit by bit. 
+  driven to the destination bit by bit, later pushed to the outputs in an alternating fashion bit by bit.
+
+  - This way a stream of data on the same input to the Mux at source can be delivered concurrently with another stream
+    of data on a different input channel down the communication line in the middle in a serial and alternating fashion
+    to the DMux at the destination. The DMux will use its own clock to undo the braided stream and send the unwound data
+    down the output channel where it was intended. 
 

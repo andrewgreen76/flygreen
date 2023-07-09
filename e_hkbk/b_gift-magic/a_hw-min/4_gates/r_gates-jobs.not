@@ -13,4 +13,6 @@ Developer :
 - conceives the implementation for the chip. 
 |
 A compare file will then be used to ensure the integrity of the chip.
+|
+Planned, modular design (divide-and-conquer). 
 

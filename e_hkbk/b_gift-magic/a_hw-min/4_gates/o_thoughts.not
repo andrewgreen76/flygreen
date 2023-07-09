@@ -13,8 +13,9 @@ a   b	o
 
 
 x XOR y = (ab') + (a'b)
-- x + y = ( (x)' . (y)' ) ' = x' NAND y'
-
+|
+  x + y = ( (x)' . (y)' ) ' = x' NAND y'
+|
   => ( (ab')' . (a'b)' ) ' = (ab')' NAND (a'b)'
      in AND/NOT terms  	     
 

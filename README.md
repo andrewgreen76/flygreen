@@ -36,19 +36,9 @@ JAtQ - Just Answer the Question:
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- Python : pygame , venv and keyboard , logical operation conjunction. 
-- C : argc/argv , string.h , strcpy() , strlen() (NOT sizeof()) 
-- ChatGPT hallucinations 
-- Debug build , release build , assertions 
-- Bash : 'expr' , arithmetic expansions , head , tail , setting up a password ; GDB 
-- Some graphics cards can do SOUND !! 
+- logic gates , HDL , hardware emulation 
 - Dualboot partitioning 
-- Git mirroring behavior 
-- VMs and emulators, solutions for gaming 
-- GitHub branches, pull requests, merging 
-- virtual machines
-- swap area (with and without hibernation) 
-- GNU GPLv2 vs. GPLv3 
+  - swap area (with and without hibernation) 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

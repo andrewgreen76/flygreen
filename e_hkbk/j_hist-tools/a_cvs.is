@@ -1,0 +1,5 @@
+
+"
+Concurrent Versions System is a revision control system originally developed by Dick Grune in July 1986. CVS operates as a front end to RCS, an earlier system which operates on single files. It expands upon RCS by adding support for repository-level change tracking, and a client-server model.
+"
+

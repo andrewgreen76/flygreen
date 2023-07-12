@@ -1,10 +1,5 @@
-class MyClass:
-    def __init__(self):
-        self.my_attr = 10
+def positional(name, age, /, a, b, *, key):
+    print(name, age, a, b, key)
 
-obj1 = MyClass()
-obj2 = MyClass()
-obj2.my_attr = "15"
-obj1.my_attr = obj2.my_attr + "5"
-        
-print(obj1.my_attr)
+if __name__ == "__main__":
+    positional('Mike', 17, key='test')

@@ -14,3 +14,7 @@ In release builds, assertions are typically disabled, eliminating the associated
 
 These are just a couple of examples of how you can incorporate debugging statements in C and C++ that can be controlled at compile time. By selectively including or excluding code based on compile-time conditions, you can customize the behavior of the program for debugging purposes while optimizing the final executable for production builds.
 
+
+
+assert ____ is used to check for fallacies, not errors.
+

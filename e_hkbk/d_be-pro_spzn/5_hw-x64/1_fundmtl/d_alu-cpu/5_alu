@@ -1,7 +1,14 @@
 
-.
-  
-a-
+The arithmetic/logic unit.
 
+
+	f
+  	|
+a-
+	ALU	-f(a,b)
 b-
+
+
+
+where f(a,b) is a function selection fed to ALU. ALU reads the selection, determines the function based on the selection, and performs it on 'a' and 'b'. 
 

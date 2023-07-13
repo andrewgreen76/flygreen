@@ -1,0 +1,20 @@
+
+The arithmetic logic unit.
+
+
+	f s
+  	| |
+a-
+	ALU	-f(a,b)
+b-
+
+
+
+where f(a,b) is a given function op-code fed to ALU. ALU reads the op-code, determines the function based on it, and performs it on 'a' and 'b'.
+- the function can be arithmetic (integer addition, multiplication, division, etc.) or logical (AND, OR, XOR, etc.).
+
+
+
+- What functions do firmware and an operating system depend on ?
+- What functions would our custom firmware and the operating system depend on ?
+

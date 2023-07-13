@@ -1,5 +1,10 @@
 x = bool([])
 y = all([])
 z = any([])
-
-print(x==z and y)
+print("")
+print("x = bool([]):", bool([]))
+print("y = all([]): " + str(y))
+print("z = any([]):" + str(z))
+print("")
+print("x==z and y:", x==z and y)
+print("")

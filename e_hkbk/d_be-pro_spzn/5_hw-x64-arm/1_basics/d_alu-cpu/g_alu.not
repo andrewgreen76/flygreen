@@ -14,17 +14,17 @@ b-/->
 	| | |
 	v v v 
 
-
+________________________________________________________________________________________
 
 where f(a,b) is a given function op-code fed to ALU. ALU reads the op-code, determines the function based on it, and performs it on 'a' and 'b'.
 - the function can be arithmetic (integer addition, multiplication, division, etc.) or logical (AND, OR, XOR, etc.).
 
-
+________________________________________________________________________________________
 
 - What functions do firmware and an operating system depend on ?
 - What functions would our custom firmware and the operating system depend on ?
 
-
+________________________________________________________________________________________
 
 Example of a (limited) ALU :
 
@@ -33,4 +33,7 @@ zx	nx      zy      ny	f	no (n out)  |  out
 if x==0	blogic	if y==1	blogic	0 <> &	0 <> o	    |
 ----------------------------------------------------+--------
 0	1	0	1	0	1		x|y
+
+zr==1 if o=0 ; ng if o<1
+________________________________________________________________________________________
 

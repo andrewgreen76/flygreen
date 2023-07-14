@@ -24,3 +24,13 @@ where f(a,b) is a given function op-code fed to ALU. ALU reads the op-code, dete
 - What functions do firmware and an operating system depend on ?
 - What functions would our custom firmware and the operating system depend on ?
 
+
+
+Example of a (limited) ALU :
+
+zx	nx      zy      ny	f	no (n out)  |  out
+=1	blogic	=1	blogic	1 <> +	1 <> ~o	    |
+if x==0	blogic	if y==1	blogic	0 <> &	0 <> o	    |
+----------------------------------------------------+--------
+0	1	0	1	0	1		x|y
+

@@ -1,0 +1,9 @@
+
+The Mir display server was developed by Canonical Ltd, the company behind Ubuntu, as an alternative display server to X.Org Server and Wayland. The development of Mir began in 2013 as part of Canonical's efforts to create a unified display system for Ubuntu across different form factors such as desktops, phones, tablets, and TVs.
+
+Canonical initially intended to use Mir as the default display server for Ubuntu, replacing X.Org Server. However, this plan eventually changed, and Ubuntu shifted its focus to supporting Wayland as the primary display protocol. As a result, the development and adoption of Mir as the default display server for Ubuntu were de-emphasized.
+
+Since then, Mir has continued to be developed as an open-source project, and it can still be used as an alternative display server option for specific use cases or projects. The development of Mir has seen several iterations and improvements over the years, and it remains an active project under the governance of the Mir project community.
+
+It's worth noting that while Mir was developed and supported by Canonical initially, its development is now community-driven and no longer maintained as the default display server for Ubuntu.
+

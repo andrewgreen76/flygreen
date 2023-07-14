@@ -1,0 +1,17 @@
+
+a-			-sum
+	HalfAdder
+b-			-carry
+
+
+
+a	b	sum	carry
+
+0	0	0	0
+0	1	1	0
+1	0	1	0
+1	1	0	1
+
+sum = a XOR b
+carry = ab
+

@@ -1,0 +1,18 @@
+
+- A full adder needs dozens of transistors. 
+
+
+
+a   b   c      sum   carry
+
+0   0	0      0     0
+0   0	1      1     0
+0   1	0      1     0
+0   1	1      0     1
+1   0	0      1     0
+1   0	1      0     1
+1   1	0      0     1
+1   1	1      1     1
+
+
+

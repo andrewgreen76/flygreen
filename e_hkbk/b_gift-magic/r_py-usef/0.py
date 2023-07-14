@@ -1,4 +1,6 @@
-numbers = [1, 2, 3] # numbers -> [1, 2, 3]
-integers = numbers # integers -> [1, 2, 3] ; integers -/-> numbers
-numbers = numbers + [4, 5, 6] 
-print(integers)
+def modify_str():
+    str1 = "I love Python"
+    str1.replace("love", "enjoy").split()
+    return str1
+
+print(modify_str())

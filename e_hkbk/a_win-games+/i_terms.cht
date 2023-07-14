@@ -1,0 +1,17 @@
+
+Abstraction : the practice of hiding implementation (coded details of something more "micro-scopic", i.e., details on a deeper level) from developers who work on more general designs and implementation ; they do not need to be exposed to and bothered with the details of your implementation.
+
+Design : a "spelled-out" blueprint for a piece of hardware or software for a project. 
+
+Modularity : the ability to delegate a task from a shared scope or file to a separate one.
+
+Implementation : code that follows the details of a higher design. 
+
+Construct :
+
+Suite :
+
+Artifact () : 
+
+Unit testing : 
+

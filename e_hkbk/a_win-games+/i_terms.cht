@@ -7,11 +7,12 @@ Modularity : the ability to delegate a task from a shared scope or file to a sep
 
 Implementation : code that follows the details of a higher design. 
 
-Construct :
+Construct : a key feature in a programming language that defines its characteristic.
+- e.g., for- and while- loops are constructs in object-oriented programming languages like C++. 
 
-Suite :
+Software suite : a collection of applications that aid in solving design and/or implementation problems. 
 
-Artifact () : 
+Artifact (esp. in graphics) : a side effect presenting itself as a problem stemming from a solution to another problem. 
 
-Unit testing : 
+Unit testing : The practice of keeping the implementation of a hardware unit, like a designed and implemented chip, separately from the rest of the project until that unit is refined and can be integrated into the project. 
 

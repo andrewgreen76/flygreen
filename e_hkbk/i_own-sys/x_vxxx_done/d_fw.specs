@@ -1,4 +1,6 @@
 
 - Firmware :
+  - Goal/activity : prints "Hi" 
   - Boot medium : [chip , drive]
+  - no ACPI 
 

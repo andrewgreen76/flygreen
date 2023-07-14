@@ -1,5 +1,0 @@
-
-Orthogonality: Like the Unix philosophy, TempleOS emphasizes orthogonality, meaning that system components and functionalities are designed independently and can be combined in various ways. It provides a set of orthogonal features and tools that can be used to build and extend the system.
-
-Self-Contained Components: In TempleOS, many system functionalities are implemented as self-contained components. These components, such as the editor, compiler, and graphics subsystem, are designed to be small, self-contained, and composable.
-

@@ -2,12 +2,12 @@
 The arithmetic logic unit.
 
 
-	f s ?..
-  	| | |
-	v v v
+	f s x..y
+  	| | |  |
+	v v v  v
  8-16-
-a-/->		 8-16-
-	ALU	---/---> f(a,b)
+a-/->		   8-16-
+	ALU	 ---/---> f(a,b)
 b-/->
  8-16-
 	| | |

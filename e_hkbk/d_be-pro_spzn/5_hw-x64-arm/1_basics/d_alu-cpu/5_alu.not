@@ -2,9 +2,10 @@
 The arithmetic logic unit.
 
 
+    	control bits
 	f s x..y
   	| | |  |
-	v v v  v
+inputs	v v v  v
  8-16-
 a-/->		   8-16-
 	ALU	 ---/---> f(a,b)

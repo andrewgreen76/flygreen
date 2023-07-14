@@ -14,5 +14,9 @@ a   b   c      sum   carry
 1   1	0      0     1
 1   1	1      1     1
 
+The carry bit can be piped in HDL. 
 
+
+
+True or False : It takes n full-adders to create an n-bit adder.
 

@@ -1,4 +1,7 @@
-a = "Hello"
-b = a.replace('l', 'L', 1) # replace the first x of instances. 
-print(b)
+letters = ["a"]
 
+class L:
+    letters = ["b"]
+    letters = letters + ["c"]
+
+print(letters[0], L.letters)

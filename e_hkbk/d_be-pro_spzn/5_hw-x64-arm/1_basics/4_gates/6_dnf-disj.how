@@ -17,3 +17,7 @@ The expression below is a way of describing such behavior and it is called the D
 
 (x' . y' . z') + (x' . y . z') + (x . y' . z')
 
+
+
+From the info above we can infer that TRUTH TABLES are good for thinking about CONDITIONS.
+

@@ -1,4 +1,7 @@
 
+Half-adder : adds two bits, resulting in a sum and a carry.
+____________________________________________________________________
+
 a-			-sum
 	HalfAdder
 b-			-carry
@@ -11,6 +14,7 @@ a	b	sum	carry
 0	1	1	0
 1	0	1	0
 1	1	0	1
+____________________________________________________________________
 
 sum = a XOR b
 carry = ab

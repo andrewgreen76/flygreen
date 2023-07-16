@@ -1,3 +1,11 @@
 
-Clocks are essential in building memory circuits and counters. 
+We need clocks for ... : 
+|
+- automated/regulated drive of input
+- "sensitivity" to change 
+- automated counting/idling 
+- automated anything (e.g., animation!)
+- a slower change of output (clocking/counting)
+|
+- for building memory circuits 
 

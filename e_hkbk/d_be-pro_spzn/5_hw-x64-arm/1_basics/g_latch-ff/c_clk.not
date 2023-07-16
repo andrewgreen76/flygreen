@@ -1,11 +1,20 @@
 
 We need clocks for ... : 
 |
-- automated/regulated drive of input
-- "sensitivity" to change 
-- automated counting/idling 
-- automated anything (e.g., animation!)
-- a slower change of output (clocking/counting)
-|
-- for building memory circuits 
+- "chewing food" , experiencing/savoring dynamics
+- regulation of processing and storing data in stages , capturing intermediate outputs  
+  - automated handling of stages (booting up a computer)
+- automated/regulated drive of data
+- automated flipping through multiple stages marked by captured signals within memory circuits 
+- waiting for something , "sensitivity" to change 
+- automated counting/idling
+- a slower, regulated change of output (clocking/counting, display/animation)
+- automated anything 
 
+
+
+Memory circuit :
+ = clock (automated drive)
+ + latch (storing signals/bits of data)
+
+.

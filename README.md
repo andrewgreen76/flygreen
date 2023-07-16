@@ -36,10 +36,9 @@ JAtQ - Just Answer the Question:
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- Python : recollection after evaluation (on RHS vs. on LHS)
-- logic gates , HDL , hardware emulation 
-- Dualboot partitioning 
-  - swap area (with and without hibernation) 
+- logic gates , HDL , hardware emulation
+  - processing/combinational logic vs. memory logic 
+  - ALU build
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

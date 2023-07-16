@@ -1,0 +1,9 @@
+
+To recap :
+
+- Truth tables are good for thinking about conditions.
+  a) TTs for processing (a b | o)
+  b) TTs for selecting (a b sel | o)
+
+- Multiplexers are good for selecting ... AND determining.
+

@@ -3,5 +3,6 @@ You can merge smaller buses to complete a (2^n)-bit bus ...
 ... AND split a (2^n)-bit bus into smaller buses (ideally also (2^n)-bit buses) : 
 
 Add16(a[0..7]=lsb, a[8..15]=msb, b=..., out=...);	  // completing
-Add16(..., out[0..3]=t1, out[4..15]=t2);		  // branching/borrowing 
+Add16(..., out[0..3]=t1, out[4..15]=t2);		  // branching/borrowing
+Mux4Way16(a=...,b=...,c=...,d=...,sel[0]=...,sel[1]=..., out=out, out[0..7]=low, out[8..15]=high, out[15]=ng);
 

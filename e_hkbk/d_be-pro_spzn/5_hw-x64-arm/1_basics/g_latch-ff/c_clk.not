@@ -1,15 +1,16 @@
 
 We need clocks for ... : 
 |
+- automated/regulated drive of input (or any data for that matter) 
 - "chewing food" , experiencing/savoring dynamics
 - regulation of processing and storing data in stages , capturing intermediate outputs  
   - automated handling of stages (booting up a computer)
-- automated/regulated drive of data
-- automated flipping through multiple stages marked by captured signals within memory circuits 
+- automated flipping through multiple stages marked by captured/lost signals within memory circuits (where every bit/line is in a state 0 or 1) 
 - waiting for something , "sensitivity" to change 
 - automated counting/idling
 - a slower, regulated change of output (clocking/counting, display/animation)
-- automated anything 
+- automated anything
+- regulation helps make conditioning and sequencing (and ergo, debugging) possible 
 
 
 

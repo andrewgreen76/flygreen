@@ -1,3 +1,26 @@
 
-n-bit RAM stores code (instructions) and data. 
+n-bit RAM stores code (instructions) and data.
 
+
+
+A RAM unit is a direct access logic unit :
+
+      	      load
+		|
+	+-------+-------------+
+in	|	w-bit reg 0   |
+-/------+	w-bit reg 1   |	out
+w	|	.	      +--/---
+	|"mux"	.	      |	w
+addr	|	.	      |
+-/------+	w-bit reg n-1 |
+k	|	      	      |
+	|		      |
+	+-------^clk----------+
+
+Important facts to remember : 
+- Only ONE reg is seld at a time.
+- k = log2(n)
+- RAM is a sequential chip. 
+
+.

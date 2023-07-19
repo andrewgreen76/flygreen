@@ -46,13 +46,16 @@ SUMMARY : the following latches can be thought of as simply attempts at solving 
 - clock :
   - automates 
 |
-- a rising-edge detector : BRIEFLY lets clock/enable high through, marking the moment when input value is to be reflected on the output.
-  - No other moment makes an impact on the output. 
-  - solves : [unclear] 
+- a rising-edge detector : BRIEFLY lets clock/enable high through.
+  - No other moment makes an impact on the output.
+  - solves : [unclear as to where this could be useful] 
   - problem : only achieves suspended latching 
 |
--
-|
-- flip-flop
+- D flip-flop : uses a clocked rising-edge detector as the governing signal for input capturing.
+  - The detector BRIEFLY lets clock/enable high through, marking the moment when the input value is to be reflected on the output.
+  - Other than the start of clock peak, no other moment makes an impact on the output.
+  - Output reflects the input every [clock cycle length] milliseconds. 
+  - solves : [unclear as to where this could be useful] 
+  - problem : only achieves suspended latching 
 
 .

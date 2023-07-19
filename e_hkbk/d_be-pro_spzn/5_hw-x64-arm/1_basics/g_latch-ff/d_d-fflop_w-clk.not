@@ -10,9 +10,9 @@ SUMMARY : the following latches can be thought of as simply attempts at solving 
   - solves : latching a data bit is possible 
   - problem : you are doing this with two keys instead of one
 |  
-- a basic latch with one input - the data bit : captures signal with a press of a single key, loses signal with a release of that key  
+- a basic latch with one input - the data bit : captures signal with a press of a single key, loses signal with a release of that key. 
   - players : in key 
-  - solves : works great for modifier key functionality 
+  - solves : works great for modifier key functionality ; doing away with S and R we guarantee circuit stability.  
   - problem : no latching at key release 
   - (Tip : use an inverter to implement this. ;-) )
 |
@@ -27,6 +27,19 @@ SUMMARY : the following latches can be thought of as simply attempts at solving 
   - solves : we can toggle a functionality/feature with smth like a keybinding (manual EN) or have a single-key toggle (EN always high) 
   - problem : output high is "easy to lose" ; the output high is only as long as the input high (at EN high) - no latching at key release  
 |
+- clock - used for : 
+  - automated/regulated drive of input (or any data for that matter)
+    - binary data is "listened to", captured at clock peaks, stored, and then sequentially processed 
+  - "chewing food" , experiencing/savoring dynamics
+  - regulation of processing and storing data in stages , capturing intermediate outputs  
+    - automated handling of stages (booting up a computer)
+  - automated flipping through multiple stages marked by captured/lost signals within memory circuits (where every bit/line is in a state 0 or 1) 
+  - waiting for something , "sensitivity" to change 
+  - automated counting/idling
+  - a slower, regulated change of output (clocking/counting, display/animation)
+  - automated anything
+  - regulation helps make conditioning and sequencing (and ergo, debugging) possible 
+|
 - a rising-edge detector : BRIEFLY lets clock/enable high through at equal time intervals.
   - No other moment makes an impact on the output of the flip-flop, the larger circuit.
   - solves : [unclear as to where this could be useful] 
@@ -35,7 +48,16 @@ SUMMARY : the following latches can be thought of as simply attempts at solving 
 - D flip-flop : uses a clocked rising-edge detector as the governing signal for input capturing.
   - The detector BRIEFLY lets clock/enable high through, marking the moment when the input value is to be reflected on the output.
   - Other than the start of clock peak, no other moment makes an impact on the output.
-  - Output reflects the input every [clock cycle length] milliseconds. 
+  - Output reflects the input every [clock cycle length] milliseconds.
+  - The clock cycles are short enough to capture (just about) every entered 0 and 1. 
   - solves : [unclear as to where this could be useful] 
-  - problem : only achieves suspended latching 
+  - problem : only achieves suspended latching
+|
+|
+|
+- SR latches are STATIC circuits, where automated dynamic data processing is not possible.
+- By comparison, D flip-flops HAVE A CLOCK. Clock cycles allow for "breaking up" the flow of
+  multi-bit bus data down the line ; words of data are captured at every cycle or number of cycles ;
+  incremental programmed/scripted processing of data is possible. 
+- One bit of data may not mean anything, but it's the configuration of bits that has a meaning to it for sure. 
 

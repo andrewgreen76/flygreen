@@ -3,7 +3,7 @@ In this D-latch -based flip-flop the clock replaces the enable input. The use of
 
 
 
-SUMMARY : the following latches can be thought of as simply attempts at solving the unlatching problem. 
+SUMMARY : the following latches can be thought of as simply attempts at solving the unlatching problem (in a long line of evolution). 
 |
 - SR-latch : captures and loses electrical signal on command with two keys (the set key and the reset key)
   - solves : latching a data bit is possible 
@@ -50,23 +50,17 @@ SUMMARY : the following latches can be thought of as simply attempts at solving 
   - Other than the start of clock peak, no other moment makes an impact on the output, and so THE INPUT IS CAPTURED FOR LONG ENOUGH TIME
     for it to be processed or stored (during one or more cycles). This allows for a controlled sequence of events. 
   - Output reflects the input every [clock cycle length] milliseconds.
-  - We assume the clock cycles to be long enough to give every bit of data enough time to cross the voltage threshold for 1
+  - We assume the clock cycles to be long enough to give every new bit of data enough time to cross the voltage threshold for 1
     or the voltage threshold for 0. 
   - We assume the clock cycles to be short enough to capture, not miss, every fed-in 0 and 1 at a time.
-  - We assume that the feeding of input words is one word of data at a time. 
-  - We assume that the storage of words of data is carefully orchestrated so that every word is neither missed nor duplicated.
+  - We may assume that the input is fed one new bit at a time (or per clock cycle). 
+  - We assume that the storage of data bit after bit is carefully orchestrated so that every new bit is neither missed nor duplicated.
   |
-  - The load bit - the clocked enable - peaks at the clock rate, briefly selecting the input data channel over the "old" output.
-    (Yes, this way the flip-flop functions as a multiplexer.) 
-  - solves : an array of flip-flops puts out/retains the same output just for this one clock cycle or X number of clock cycles,
+  - The clocked enable peaks at the clock rate, allowing DFF to instantly feed its own current input data bit.   
+  - Solves : an array of flip-flops puts out/retains the same output just for this one clock cycle or X number of clock cycles,
     be that for processing or future use. Employing the right technique can help us command the flip-flops to store the same data
     indefinitely. 
-  - problem : using an array of flip-flops incorrectly can only help us achieve undesirably brief latching
-  |
-  In an attempt to make everything clear :
-  - What we have here is essentially a circuit that works like a latching/looping multiplexer with a pulsating select.
-    The clocked enable briefly selects the input data channel over the "old" output. The output will flip only when a different
-    data bit is fed in as the input at the peak of the clocked enable. 
+  - Problem : using an array of flip-flops incorrectly can only help us achieve undesirably brief latching
 
 
 

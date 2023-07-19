@@ -1,0 +1,71 @@
+
+1-bit register :
+- remembers the given bit of data - 0 or 1 - indefinitely until instructed otherwise by the (unclocked/manual) load bit. 
+
+
+
+SUMMARY : the following latches can be thought of as simply attempts at solving the unlatching problem (in a long line of evolution). 
+|
+- SR-latch : captures and loses electrical signal on command with two keys (the set key and the reset key)
+  - solves : latching a data bit is possible 
+  - problem : you are doing this with two keys instead of one
+|  
+- a basic latch with one input - the data bit : captures signal with a press of a single key, loses signal with a release of that key. 
+  - players : in key 
+  - solves : works great for modifier key functionality ; doing away with S and R we guarantee circuit stability.  
+  - problem : no latching at key release 
+  - (Tip : use an inverter to implement this. ;-) )
+|
+- SR-latch with the enable pin : in-out registry at EN high.
+  - players : S, R, EN
+  - solves : latching is possible (with EN high) 
+  - problem : we are back to S and R, and now we depend on EN.    
+  - (the enable pin is otherwise known as the load)
+|
+- D-latch (based on SR with EN, but with one input key) : captures signal at key press and loses it at key release at EN high.
+  - players : EN, in key 
+  - solves : we can toggle a functionality/feature with smth like a keybinding (manual EN) or have a single-key toggle (EN always high) 
+  - problem : output high is "easy to lose" ; the output high is only as long as the input high (at EN high) - no latching at key release  
+|
+- clock - used for : 
+  - automated/regulated drive of input (or any data for that matter)
+    - binary data is "listened to", captured at clock peaks, stored, and then sequentially processed 
+  - "chewing food" , experiencing/savoring dynamics
+  - regulation of processing and storing data in stages , capturing intermediate outputs  
+    - automated handling of stages (booting up a computer)
+  - automated flipping through multiple stages marked by captured/lost signals within memory circuits (where every bit/line is in a state 0 or 1) 
+  - waiting for something , "sensitivity" to change 
+  - automated counting/idling
+  - a slower, regulated change of output (clocking/counting, display/animation)
+  - automated anything
+  - regulation helps make conditioning and sequencing (and ergo, debugging) possible
+  - once added to a D latch, it will automate the latch's behavior of listening to the input at every clock cycle. 
+|
+- a rising-edge detector : BRIEFLY lets clock/enable high through at equal time intervals.
+  - No other moment makes an impact on the output of the flip-flop, the larger circuit.
+  - solves : allows the flip-flop to put out/retain the same output just for this one clock cycle of X number of clock cycles.  
+  - problem : only achieves suspended latching 
+|
+- D flip-flop : uses a clocked rising-edge detector as the governing signal for input capturing.
+  - The detector BRIEFLY lets clock/enable high through, marking the moment when the input value is to be reflected on the output.
+  - Other than the start of clock peak, no other moment makes an impact on the output, and so THE INPUT IS CAPTURED FOR LONG ENOUGH TIME
+    for it to be processed or stored (during one or more cycles). This allows for a controlled sequence of events. 
+  - Output reflects the input every [clock cycle length] milliseconds.
+  - We assume the clock cycles to be long enough to give every new bit of data enough time to cross the voltage threshold for 1
+    or the voltage threshold for 0. 
+  - We assume the clock cycles to be short enough to capture, not miss, every fed-in 0 and 1 at a time.
+  - We may assume that the input is fed one new bit at a time (or per clock cycle). 
+  - We assume that the storage of data bit after bit is carefully orchestrated so that every new bit is neither missed nor duplicated.
+  |
+  - The clocked enable peaks at the clock rate, allowing DFF to instantly feed its own current input data bit.   
+  - Solves : an array of flip-flops puts out/retains the same output just for this one clock cycle or X number of clock cycles,
+    be that for processing or future use. Employing the right technique can help us command the flip-flops to store the same data
+    indefinitely. 
+  - Problem : using an array of flip-flops incorrectly can only help us achieve undesirably brief latching
+|
+- The bit chip model -or- the 1-bit register model : explains a two-part data bit storage circuit. In part A with the manual load/enable bit set 
+  (like a key press) a multiplexer selects the input data bit channel D (whatever the new data bit is) over the old output Q from the self-same
+  master circuit. In part B the DFF dynamically listens (thanks to its dedicated clocked enable) to the out/in from the multiplexer and stores
+  that data bit in Q. When the load bit is 0 (the key is released), the mupliplexer locks in on the master circuit's own output Q, bringing the
+  1-bit line into a data loop. 
+

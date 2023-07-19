@@ -16,3 +16,11 @@ This way we achieve two things :
 
 Consists of 8+ transistors. 
 
+
+
+SUMMARY :
+|
+- SR-latch : captures and loses electrical signal on command with two keys (the set key and the reset key)
+  - solves : latching a data bit is possible 
+  - problem : you are doing this with two keys instead of one
+

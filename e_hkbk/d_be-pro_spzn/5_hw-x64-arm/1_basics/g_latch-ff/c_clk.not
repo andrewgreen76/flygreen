@@ -43,19 +43,8 @@ SUMMARY : the following latches can be thought of as simply attempts at solving 
   - solves : we can toggle a functionality/feature with smth like a keybinding (manual EN) or have a single-key toggle (EN always high) 
   - problem : output high is "easy to lose" ; the output high is only as long as the input high (at EN high) - no latching at key release  
 |
-- clock :
-  - automates 
-|
 - a rising-edge detector : BRIEFLY lets clock/enable high through.
-  - No other moment makes an impact on the output.
-  - solves : [unclear as to where this could be useful] 
-  - problem : only achieves suspended latching 
-|
-- D flip-flop : uses a clocked rising-edge detector as the governing signal for input capturing.
-  - The detector BRIEFLY lets clock/enable high through, marking the moment when the input value is to be reflected on the output.
-  - Other than the start of clock peak, no other moment makes an impact on the output.
-  - Output reflects the input every [clock cycle length] milliseconds. 
+  - No other moment makes an impact on the output of the flip-flop, the larger circuit.
   - solves : [unclear as to where this could be useful] 
   - problem : only achieves suspended latching 
 
-.

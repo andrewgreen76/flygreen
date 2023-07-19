@@ -3,3 +3,28 @@ A SR-latch -based latch with an enable input (key).
 - Could be used in a keyboard.
 - Consists of 16+ transistors. 
 
+
+
+SUMMARY : 
+|
+- SR-latch : captures and loses electrical signal on command with two keys (the set key and the reset key)
+  - solves : latching a data bit is possible 
+  - problem : you are doing this with two keys instead of one
+|  
+- a basic latch with one input - the data bit : captures signal with a press of a single key, loses signal with a release of that key  
+  - players : in key 
+  - solves : works great for modifier key functionality 
+  - problem : no latching at key release 
+  - (Tip : use an inverter to implement this. ;-) )
+|
+- SR-latch with the enable pin : in-out registry at EN high.
+  - players : S, R, EN
+  - solves : latching is possible (with EN high) 
+  - problem : we are back to S and R, and now we depend on EN.    
+  - (the enable pin is otherwise known as the load)
+|
+- D-latch (based on SR with EN, but with one input key) : captures signal at key press and loses it at key release at EN high.
+  - players : EN, in key 
+  - solves : we can toggle a functionality/feature with smth like a keybinding (manual EN) or have a single-key toggle (EN always high) 
+  - problem : output high is "easy to lose" ; the output high is only as long as the input high (at EN high) - no latching at key release  
+

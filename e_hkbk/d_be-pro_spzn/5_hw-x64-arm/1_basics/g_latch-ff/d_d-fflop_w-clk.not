@@ -2,3 +2,40 @@
 In this D-latch -based flip-flop the clock replaces the enable input. The use of the clock allows for automation of the enable (i.e., we don't have to enable manually). 
 - What does this solve -or- where can this work ? : ... keyboards ? 
 
+
+
+SUMMARY : the following latches can be thought of as simply attempts at solving the unlatching problem. 
+|
+- SR-latch : captures and loses electrical signal on command with two keys (the set key and the reset key)
+  - solves : latching a data bit is possible 
+  - problem : you are doing this with two keys instead of one
+|  
+- a basic latch with one input - the data bit : captures signal with a press of a single key, loses signal with a release of that key  
+  - players : in key 
+  - solves : works great for modifier key functionality 
+  - problem : no latching at key release 
+  - (Tip : use an inverter to implement this. ;-) )
+|
+- SR-latch with the enable pin : in-out registry at EN high.
+  - players : S, R, EN
+  - solves : latching is possible (with EN high) 
+  - problem : we are back to S and R, and now we depend on EN.    
+  - (the enable pin is otherwise known as the load)
+|
+- D-latch (based on SR with EN, but with one input key) : captures signal at key press and loses it at key release at EN high.
+  - players : EN, in key 
+  - solves : we can toggle a functionality/feature with smth like a keybinding (manual EN) or have a single-key toggle (EN always high) 
+  - problem : output high is "easy to lose" ; the output high is only as long as the input high (at EN high) - no latching at key release  
+|
+- a rising-edge detector : BRIEFLY lets clock/enable high through at equal time intervals.
+  - No other moment makes an impact on the output of the flip-flop, the larger circuit.
+  - solves : [unclear as to where this could be useful] 
+  - problem : only achieves suspended latching 
+|
+- D flip-flop : uses a clocked rising-edge detector as the governing signal for input capturing.
+  - The detector BRIEFLY lets clock/enable high through, marking the moment when the input value is to be reflected on the output.
+  - Other than the start of clock peak, no other moment makes an impact on the output.
+  - Output reflects the input every [clock cycle length] milliseconds. 
+  - solves : [unclear as to where this could be useful] 
+  - problem : only achieves suspended latching 
+

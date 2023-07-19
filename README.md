@@ -36,9 +36,8 @@ JAtQ - Just Answer the Question:
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- logic gates , HDL , hardware emulation
-  - processing/combinational logic vs. memory logic 
-  - ALU build
+- impact of ESD on hardware 
+- evolution of memory through latches ; D flip-flops
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

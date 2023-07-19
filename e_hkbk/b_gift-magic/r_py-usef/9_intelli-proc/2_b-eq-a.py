@@ -8,5 +8,5 @@ print("Committing \"a = [4, 5, 6]\"")
 a = [4, 5, 6]   # b still -> the same [1, 2, 3] ; a -> [4, 5, 6] . Re-ref, not mutation. 
 print("b -> ", b)
 
-# If a -> [1, 2, 3] and then a -> [4, 5, 6] , GC would take care of [1, 2, 3].
+# If a -> [1, 2, 3] and then a -> [4, 5, 6] , GC would take care of [1, 2, 3] at the end of the day.
 

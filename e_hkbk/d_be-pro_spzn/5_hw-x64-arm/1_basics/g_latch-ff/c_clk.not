@@ -18,4 +18,26 @@ Memory circuit :
  = clock (automated drive)
  + latch (storing signals/bits of data)
 
+
+
+- SR-latch : captures and loses electrical signal on command with two keys (set and reset)
+  - solves : latching a data bit is possible 
+  - problem : you are doing this with two keys instead of one
+|  
+- a basic latch with one input - the data bit : captures signal with a press of a single key, loses signal with a release of that key  
+  - solves : works great for modifier key functionality 
+  - problem : we still don't have a circuit that latches with a single key press WITH a release
+|
+- SR-latch with the enable pin 
+|
+- D-latch : captures and loses electrical signal on command with a single key (the data bit)
+  - may feature an enable pin that would keep getting flipped manually (a manual "clock")
+    - if enable pin isn't flipped, the input data bit will not be sent to the output
+    - The intended new data bit has to be introduced long enough to meet the next clock cycle
+      for it to be reflected in the output. 
+  - storing Q=1 is only possible
+- clock :
+  - automates clocking 
+- flip-flop
+
 .

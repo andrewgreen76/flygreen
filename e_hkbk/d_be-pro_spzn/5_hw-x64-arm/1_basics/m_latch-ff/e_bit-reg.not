@@ -63,9 +63,9 @@ SUMMARY : the following latches can be thought of as simply attempts at solving 
     indefinitely. 
   - Problem : using an array of flip-flops incorrectly can only help us achieve undesirably brief latching
 |
-- The bit chip model -or- the 1-bit register model : explains a two-part data bit storage circuit. In part A with the manual load/enable bit set 
-  (like a key press) a multiplexer selects the input data bit channel D (whatever the new data bit is) over the old output Q from the self-same
-  master circuit. In part B the DFF dynamically listens (thanks to its dedicated clocked enable) to the out/in from the multiplexer and stores
-  that data bit in Q. When the load bit is 0 (the key is released), the mupliplexer locks in on the master circuit's own output Q, bringing the
-  1-bit line into a data loop. 
+- The bit chip model -or- the 1-bit register model : explains a two-part data bit storage circuit. In part A with the manual load/enable bit asserted 
+  (i.e., set to 1, like a key press) a multiplexer selects the input data bit channel D (whatever the new data bit is) over the old output Q from
+  the self-same master circuit. In part B the DFF dynamically listens (thanks to its dedicated clocked enable) to the out/in from the multiplexer
+  and stores that data bit in Q. When the load bit is 0 (the key is released), the mupliplexer locks in on the master circuit's own output Q,
+  bringing the 1-bit line into a data loop. 
 

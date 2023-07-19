@@ -20,24 +20,39 @@ Memory circuit :
 
 
 
-- SR-latch : captures and loses electrical signal on command with two keys (set and reset)
+SUMMARY : the following latches can be thought of as simply attempts at solving the unlatching problem. 
+|
+- SR-latch : captures and loses electrical signal on command with two keys (the set key and the reset key)
   - solves : latching a data bit is possible 
   - problem : you are doing this with two keys instead of one
 |  
 - a basic latch with one input - the data bit : captures signal with a press of a single key, loses signal with a release of that key  
+  - players : in key 
   - solves : works great for modifier key functionality 
-  - problem : we still don't have a circuit that latches with a single key press WITH a release
+  - problem : no latching at key release 
+  - (Tip : use an inverter to implement this. ;-) )
 |
-- SR-latch with the enable pin 
+- SR-latch with the enable pin : in-out registry at EN high.
+  - players : S, R, EN
+  - solves : latching is possible (with EN high) 
+  - problem : we are back to S and R, and now we depend on EN.    
+  - (the enable pin is otherwise known as the load)
 |
-- D-latch : captures and loses electrical signal on command with a single key (the data bit)
-  - may feature an enable pin that would keep getting flipped manually (a manual "clock")
-    - if enable pin isn't flipped, the input data bit will not be sent to the output
-    - The intended new data bit has to be introduced long enough to meet the next clock cycle
-      for it to be reflected in the output. 
-  - storing Q=1 is only possible
+- D-latch (based on SR with EN, but with one input key) : captures signal at key press and loses it at key release at EN high.
+  - players : EN, in key 
+  - solves : we can toggle a functionality/feature with smth like a keybinding (manual EN) or have a single-key toggle (EN always high) 
+  - problem : output high is "easy to lose" ; the output high is only as long as the input high (at EN high) - no latching at key release  
+|
 - clock :
-  - automates clocking 
+  - automates 
+|
+- a rising-edge detector : BRIEFLY lets clock/enable high through, marking the moment when input value is to be reflected on the output.
+  - No other moment makes an impact on the output. 
+  - solves : [unclear] 
+  - problem : only achieves suspended latching 
+|
+-
+|
 - flip-flop
 
 .

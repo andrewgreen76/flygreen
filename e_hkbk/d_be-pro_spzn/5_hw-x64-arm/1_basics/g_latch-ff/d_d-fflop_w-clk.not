@@ -37,7 +37,8 @@ SUMMARY : the following latches can be thought of as simply attempts at solving 
   - automated counting/idling
   - a slower, regulated change of output (clocking/counting, display/animation)
   - automated anything
-  - regulation helps make conditioning and sequencing (and ergo, debugging) possible 
+  - regulation helps make conditioning and sequencing (and ergo, debugging) possible
+  - once added to a D latch, it will automate the latch's behavior of listening to the input at every clock cycle. 
 |
 - a rising-edge detector : BRIEFLY lets clock/enable high through at equal time intervals.
   - No other moment makes an impact on the output of the flip-flop, the larger circuit.

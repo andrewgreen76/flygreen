@@ -1,6 +1,5 @@
 
 In this D-latch -based flip-flop the clock replaces the enable input. The use of the clock allows for automation of the enable (i.e., we don't have to enable manually). 
-- What does this solve -or- where can this work ? : ... keyboards ? 
 
 
 
@@ -42,16 +41,18 @@ SUMMARY : the following latches can be thought of as simply attempts at solving 
 |
 - a rising-edge detector : BRIEFLY lets clock/enable high through at equal time intervals.
   - No other moment makes an impact on the output of the flip-flop, the larger circuit.
-  - solves : [unclear as to where this could be useful] 
+  - solves : allows the flip-flop to put out/retain the same output just for this one clock cycle of X number of clock cycles.  
   - problem : only achieves suspended latching 
 |
 - D flip-flop : uses a clocked rising-edge detector as the governing signal for input capturing.
   - The detector BRIEFLY lets clock/enable high through, marking the moment when the input value is to be reflected on the output.
   - Other than the start of clock peak, no other moment makes an impact on the output.
   - Output reflects the input every [clock cycle length] milliseconds.
-  - The clock cycles are short enough to capture (just about) every entered 0 and 1. 
-  - solves : [unclear as to where this could be useful] 
-  - problem : only achieves suspended latching
+  - We assume the clock cycles to be short enough to capture, not miss, every entered 0 and 1. 
+  - solves : an array of flip-flops puts out/retains the same output just for this one clock cycle or X number of clock cycles,
+    be that for processing or future use. Employing the right technique can help us command the flip-flops to store the same data
+    indefinitely. 
+  - problem : using an array of flip-flops incorrectly can only help us achieve undesirably brief latching
 |
 |
 |
@@ -72,5 +73,5 @@ Further clarification :
 |
 Memory circuit :
  = clock (automated drive and processing)
- + latch/flip-flop (storing results/signals/bits of data)
+ + flip-flops in an array (storing results/signals/bits of data)
 

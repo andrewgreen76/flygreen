@@ -55,9 +55,16 @@ SUMMARY : the following latches can be thought of as simply attempts at solving 
 |
 |
 |
-- SR latches are STATIC circuits, where automated dynamic data processing is not possible.
-- By comparison, D flip-flops HAVE A CLOCK. Clock cycles allow for "breaking up" the flow of
-  multi-bit bus data down the line ; words of data are captured at every cycle or number of cycles ;
-  incremental programmed/scripted processing of data is possible. 
+Further clarification :
+- SR latches - pros :
+  - [unclear]
+- SR latches - cons : 
+  - SR latches are STATIC circuits, where automated dynamic data processing is not possible.
+- D flip-flops - pros : 
+  - By comparison, D flip-flops HAVE A CLOCK. Clock cycles allow for "breaking up" the flow of
+    multi-bit bus data down the line ; words of data are captured at every cycle or X number of cycles ;
+    incremental programmed/scripted processing of data is possible. 
+- D flip-flops - cons :
+  - [unclear]
 - One bit of data may not mean anything, but it's the configuration of bits that has a meaning to it for sure. 
 

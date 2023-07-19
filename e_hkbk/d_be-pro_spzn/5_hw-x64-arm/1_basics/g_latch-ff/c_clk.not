@@ -15,8 +15,8 @@ We need clocks for ... :
 
 
 Memory circuit :
- = clock (automated drive)
- + latch (storing signals/bits of data)
+ = clock (automated drive and processing)
+ + latch/flip-flop (storing results/signals/bits of data)
 
 
 

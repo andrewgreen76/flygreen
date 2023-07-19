@@ -67,4 +67,10 @@ Further clarification :
 - D flip-flops - cons :
   - [unclear]
 - One bit of data may not mean anything, but it's the configuration of bits that has a meaning to it for sure. 
+|
+|
+|
+Memory circuit :
+ = clock (automated drive and processing)
+ + latch/flip-flop (storing results/signals/bits of data)
 

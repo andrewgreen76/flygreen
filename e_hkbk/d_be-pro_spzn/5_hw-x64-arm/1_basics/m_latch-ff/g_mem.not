@@ -21,6 +21,10 @@ k	|	      	      |
 Important facts to remember : 
 - Only ONE reg is seld at a time.
 - k = log2(n)
-- RAM is a sequential chip. 
+- RAM is a sequential chip.
+- Within one cycle (tick) the new input is fed through the mux to the reg, becoming that register's "state", or the value inside that register ;
+  within the next cycle (tock) that value is fed through the DFF at a peaked enable and led to out.
+- Reading from a RAM register takes one clock cycle from the moment we entered the address of the register of interest ;
+  writing a new value to a register (tock) and reflecting it on the out (tock) takes two clock cycles. 
 
 .

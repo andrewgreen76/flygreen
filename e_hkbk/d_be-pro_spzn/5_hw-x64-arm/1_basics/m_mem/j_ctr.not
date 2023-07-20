@@ -1,0 +1,13 @@
+
+A (program) counter, or PC, is designed for keeping track of what instruction should be fetched, decoded, and executed next.
+
+The PC register holds the address of the instruction that is supposed to be handled next.
+
+At runtime a PC can be configured to one of 3+ possible <control settings> at a time :
+  1) reset (PC = 0)    // reset , works when load=0 gives way to the core PC functionality
+  2) next (PC += 1)    // inc , works when load=0 gives way to the core PC functionality
+     - when reset=1 and inc=1 , the counter chooses to stick with reset, and no counting takes place 
+  3) goto (PC = n)  // the PC "goes to"/holds the addr n, and the instruction at that addr is executed 
+  -) We should also account for the instances when a PC simply lets the input pass through on the condition of load = 1. 
+
+.

@@ -8,6 +8,8 @@ list of things to cancel/re-route to new addr
 - Udemy, Coursera, LinkedIn,
 - Spectrum : cancel / transfer by August 9th. 
 
+cache hierarchy : abstraction of eight smaller cache units into a larger cache unit.
+- e.g., L1 = 512KB, L2 = 4MB, L3 = 32MB. The higher the cache, the slower and larger it is. 
 embedded systems
 distributed systems
 [job titles]

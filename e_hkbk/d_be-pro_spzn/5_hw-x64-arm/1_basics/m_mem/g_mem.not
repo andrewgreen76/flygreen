@@ -18,8 +18,9 @@ k	|	      	      |
 	|		      |
 	+-------^clk----------+
 
-Important facts to remember : 
-- Only ONE reg is seld at a time.
+Important facts to remember :
+- all registers receive the same input at the same time, ... but ... 
+- only ONE reg receives the load(ackn) at a time ; all the other registers are ignored.
 - k = log2(n)
 - RAM is a sequential chip.
 - Within one cycle (tick) the new input is fed through the mux to the reg, becoming that register's "state", or the value inside that register ;

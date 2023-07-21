@@ -1,0 +1,9 @@
+
+Check the CPU: Open a terminal on your Linux system and run the following command to check if your CPU supports hardware virtualization:
+
+bash
+
+egrep -c '(vmx|svm)' /proc/cpuinfo
+
+If the command returns a value greater than 0, it means hardware virtualization is supported (vmx for Intel CPUs and svm for AMD CPUs).
+

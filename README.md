@@ -31,8 +31,8 @@ __________________________________________________________________________
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
+- Wine on Linux, KVM + QEMU 
 - impact of ESD on hardware 
-- evolution of memory through latches ; D flip-flops
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

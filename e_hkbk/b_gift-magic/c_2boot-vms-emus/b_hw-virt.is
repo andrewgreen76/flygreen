@@ -1,0 +1,13 @@
+
+Hardware virtualization, also known as hardware-assisted virtualization, is a technology that allows a computer's processor to create and manage virtual machines (VMs) more efficiently. It enables multiple operating systems (guests) to run simultaneously on a single physical machine (host) with each guest operating system isolated from the others.
+
+In hardware virtualization, the processor's virtualization extensions, such as Intel VT-x (Intel Virtualization Technology) or AMD-V (AMD Virtualization), are used to enhance the performance of virtualization by providing hardware-level support for tasks like memory management, CPU scheduling, and I/O operations.
+
+Advantages of hardware virtualization include:
+
+    Performance: Hardware virtualization improves the performance of VMs by offloading virtualization tasks to dedicated hardware extensions.
+
+    Isolation: Each virtual machine is isolated from other VMs and the host, providing security and preventing one VM's actions from affecting others.
+
+    Compatibility: Hardware virtualization allows running guest operating systems that are not designed explicitly for virtualized environments.
+

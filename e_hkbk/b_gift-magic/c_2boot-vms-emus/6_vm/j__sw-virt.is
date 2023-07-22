@@ -1,4 +1,8 @@
 
+Slower than hardware virtualization. 
+
+
+
 Software virtualization, ... , is a virtualization technique where a software layer called a hypervisor or virtual machine monitor (VMM) is used to create and manage virtual machines (VMs). The hypervisor runs on top of the host operating system and provides an abstraction of the underlying hardware, allowing multiple guest operating systems to run independently and simultaneously on the same physical machine.
 
 In software virtualization, the hypervisor emulates a complete set of virtual hardware components, including the CPU, memory, storage, network interfaces, and other peripherals. Each guest operating system within a virtual machine interacts with the virtual hardware as if it were running on its own dedicated physical hardware.

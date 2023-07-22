@@ -1,8 +1,9 @@
 
 Layer > Independent guest OS
 
-(Layer > Type 1 hypervisor : regulates hardware resources)
-(Layer > Hypervisor emulating the hardware) 
+(HW virt : Layer > Type 1 hypervisor (bare metal) : regulates hardware resources)
+(HW virt : Layer > Type 2 hypervisor (hosted system) )
+(SW virt : Layer > Hypervisor emulating the hardware) 
 
 
 

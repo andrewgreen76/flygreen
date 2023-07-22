@@ -11,3 +11,7 @@ However, software virtualization can have some performance overhead due to the n
 
 Popular software virtualization platforms include VirtualBox, VMware Workstation, and Microsoft Hyper-V, among others. They are commonly used for desktop virtualization, testing and development, server consolidation, and other use cases that require running multiple virtual machines on a single physical host.
 
+_________________________________________________________________________________________
+
+Binary Translation: In binary translation, the hypervisor intercepts guest operating system instructions and translates them into instructions that can be executed on the host processor. This method is used in some virtualization platforms to run guest operating systems on hosts without hardware virtualization support.
+

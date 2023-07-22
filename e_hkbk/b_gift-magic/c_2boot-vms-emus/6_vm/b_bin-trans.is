@@ -1,3 +1,0 @@
-
-Binary Translation: In binary translation, the hypervisor intercepts guest operating system instructions and translates them into instructions that can be executed on the host processor. This method is used in some virtualization platforms to run guest operating systems on hosts without hardware virtualization support.
-

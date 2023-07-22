@@ -1,0 +1,11 @@
+
+VirtualBox employs software-based virtualization, specifically full virtualization. This means that VirtualBox creates a virtualization layer on top of the host operating system and simulates the entire hardware environment needed to run guest operating systems.
+
+In full virtualization, VirtualBox emulates a complete set of virtual hardware components, including a virtual CPU, memory, storage devices, network interfaces, and input/output devices. This allows guest operating systems to run without any modifications, as they believe they are running on real hardware.
+
+VirtualBox uses a hypervisor to manage the virtual machines and provide isolation between them and the host system. The hypervisor schedules the CPU time, manages memory allocation, and handles I/O operations for the virtual machines.
+
+While full virtualization provides good compatibility with a wide range of guest operating systems, it may not be as efficient as hardware-assisted virtualization (e.g., Intel VT-x or AMD-V) when it comes to CPU-intensive tasks. However, VirtualBox does provide some optimizations and acceleration features to improve performance, such as paravirtualization for certain guest operating systems and the use of host CPU extensions when available.
+
+Overall, VirtualBox is a popular and versatile virtualization solution that is widely used for desktop virtualization, testing and development, and running multiple operating systems on a single machine.
+

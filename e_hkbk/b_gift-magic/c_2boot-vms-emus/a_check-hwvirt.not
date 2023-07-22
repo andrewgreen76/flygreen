@@ -1,0 +1,12 @@
+
+sudo apt update		# why ?
+
+
+
+egrep -c '(vmx|svm)' /proc/cpuinfo
+grep -E 'vmx|svm' /proc/cpuinfo
+|
+vmx - intel
+svm - amd
+
+.

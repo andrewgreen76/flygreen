@@ -1,0 +1,5 @@
+
+    Para-virtualization: In para-virtualization, the guest operating systems are aware that they are running in a virtualized environment. They are modified to communicate with a special interface provided by the hypervisor. This approach eliminates the need for full hardware emulation, leading to better performance compared to full virtualization.
+
+Xen is an example of a hypervisor that supports para-virtualization. Guest operating systems running on Xen need to be modified to use the Xen API for certain operations, resulting in better performance and reduced overhead.
+

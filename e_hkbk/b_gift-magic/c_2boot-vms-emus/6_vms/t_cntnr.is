@@ -1,0 +1,5 @@
+
+    Containerization: Containerization is a lightweight virtualization method that allows multiple applications to run on a single host operating system. Unlike full virtualization, containers share the host OS kernel, which makes them more efficient in terms of resource usage and startup times. Containers provide a higher level of isolation between applications than traditional processes but are not as isolated as full virtual machines.
+
+Docker is a popular platform for containerization that allows developers to package applications and their dependencies into containers, making it easier to deploy and manage applications across different environments.
+

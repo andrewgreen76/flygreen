@@ -1,4 +1,11 @@
 
+Layer > Independent guest OS
+
+(Layer > Type 1 hypervisor : regulates hardware resources)
+(Layer > Hypervisor emulating the hardware) 
+
+
+
 Full virtualization is a type of virtualization that allows multiple operating systems (known as guest operating systems) to run concurrently on a single physical host machine. In a full virtualization environment, each guest operating system is completely isolated and unaware that it is running in a virtualized environment.
 
 Key characteristics of full virtualization include:

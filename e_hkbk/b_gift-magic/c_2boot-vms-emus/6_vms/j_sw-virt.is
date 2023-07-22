@@ -1,0 +1,13 @@
+
+Software virtualization, also known as full virtualization, is a virtualization technique where a software layer called a hypervisor or virtual machine monitor (VMM) is used to create and manage virtual machines (VMs). The hypervisor runs on top of the host operating system and provides an abstraction of the underlying hardware, allowing multiple guest operating systems to run independently and simultaneously on the same physical machine.
+
+In software virtualization, the hypervisor emulates a complete set of virtual hardware components, including the CPU, memory, storage, network interfaces, and other peripherals. Each guest operating system within a virtual machine interacts with the virtual hardware as if it were running on its own dedicated physical hardware.
+
+The hypervisor schedules CPU time, allocates memory, handles I/O operations, and ensures isolation between different virtual machines, allowing them to run securely without interfering with one another. This enables users to run multiple operating systems and applications on a single physical machine without the need for modifications to the guest operating systems.
+
+One of the advantages of software virtualization is its flexibility and compatibility with a wide range of guest operating systems. It can support various types of guest operating systems, including different versions of Windows, Linux distributions, macOS, and others.
+
+However, software virtualization can have some performance overhead due to the need for emulation and virtualization of hardware resources, especially for CPU-intensive tasks. To address this, hardware-assisted virtualization technologies like Intel VT-x and AMD-V have been introduced, which offload certain virtualization tasks to the underlying hardware, improving performance and efficiency.
+
+Popular software virtualization platforms include VirtualBox, VMware Workstation, and Microsoft Hyper-V, among others. They are commonly used for desktop virtualization, testing and development, server consolidation, and other use cases that require running multiple virtual machines on a single physical host.
+

@@ -4,5 +4,7 @@ OS conventions :
 - /usr/bin/env,
 - /bin/bash,
 - /etc,
+- /etc/network/interfaces
+- /etc/sysconfig/network-scripts/ifcfg-*
 - ... etc.
 

@@ -1,0 +1,6 @@
+
+"GOG Galaxy Web Installer requires .NET Framework to proceed. Contact support.gog.com for assistance."
+
+00f4:err:winediag:SECUR32_initNTLMSP ntlm_auth was not found or is outdated. Make sure that ntlm_auth >= 3.0.25 is in your path. Usually, you can find it in the winbind package of your distribution.
+0094:err:rpc:I_RpcReceive we got fault packet with status 0x1c010003
+

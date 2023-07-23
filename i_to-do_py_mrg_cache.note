@@ -6,6 +6,7 @@ list of things to cancel/re-route to new addr
 
 KVM+QEMU (on Linux for Windows)
 PCIe
+NVMe , nvme0n1p1/2 
 address issue : hw, fw, os in dir-b and dir-d
 address issue : phil in dir-a and dir-b 
 os fs conventions (/usr/bin/env, /bin/bash, /etc, ... etc.)

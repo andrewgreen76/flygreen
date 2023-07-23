@@ -4,10 +4,10 @@ Project 4 - Coursera.
 list of things to cancel/re-route to new addr
 - Spectrum : cancel / transfer by August 9th. 
 
-Steam
-Try VMware (on Windows for Linux - DOES NOT SUPPORT HW VIRT) -or- KVM+QEMU (on Linux for Windows)
+KVM+QEMU (on Linux for Windows)
 What is DevOps, etc.
 [job titles]
+Try VMware (on Windows for Linux - DOES NOT SUPPORT HW VIRT) 
 
 cache hierarchy : abstraction of eight smaller cache units into a larger cache unit.
 - e.g., L1 = 512KB, L2 = 4MB, L3 = 32MB. The higher the cache, the slower and larger it is.

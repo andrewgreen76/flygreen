@@ -1,4 +1,5 @@
 
+address issue : hw, fw, os in dir-b and dir-d
 os fs conventions (/usr/bin/env, /bin/bash, /etc, ... etc.)
 df -h
 

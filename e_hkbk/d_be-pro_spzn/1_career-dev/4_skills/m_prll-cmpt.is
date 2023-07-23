@@ -1,5 +1,5 @@
 
-Parallel computing principles and architectures.
+Parallel computing principles and architectures (GPU kernel engineers).
 __________________________________________________________________________________
 
 Parallel computing is a type of computation in which multiple processing units work together simultaneously to solve a computational problem. The goal of parallel computing is to divide a large and complex task into smaller, more manageable sub-tasks that can be processed concurrently, thus reducing the overall processing time and increasing computational efficiency.

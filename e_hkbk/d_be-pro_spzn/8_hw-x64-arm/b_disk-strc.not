@@ -1,20 +1,11 @@
 
-Disk storage conventions :
-
-- partitions/filesystems
-  |
-  
-- operating system structure 
-  |
-  - /usr/bin/env,
-  - /bin/bash,
-  - /etc,
-  - ... etc.
-
+Disk storage conventions : 
 _____________________________________________________________________
 
-Example (my Dell Inspiron 14) :
+Partitions/filesystems structures : 
 
+- Example (my Dell Inspiron 14) :
+|
 Filesystem      Size  Used Avail Use% Mounted on
 tmpfs           1.6G  2.9M  1.6G   1% /run
 /dev/nvme0n1p2  468G   36G  409G   8% /
@@ -24,9 +15,12 @@ tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 tmpfs           1.6G  140K  1.6G   1% /run/user/1000
 tmpfs           7.7G     0  7.7G   0% /run/qemu
 
+nvme0n1px - 
 _____________________________________________________________________
 
-nvme0n1px - 
-
-
+OS structure : 
+- /usr/bin/env,
+- /bin/bash,
+- /etc,
+- ... etc.
 

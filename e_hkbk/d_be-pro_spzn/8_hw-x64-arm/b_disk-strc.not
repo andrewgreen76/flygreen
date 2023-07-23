@@ -1,10 +1,10 @@
 
-Disk partitions and other conventions :
+Disk partitions/filesystems and other conventions :
 |
 
 _____________________________________________________________________
 
-Examples :
+Example (my Dell Inspiron 14) :
 
 Filesystem      Size  Used Avail Use% Mounted on
 tmpfs           1.6G  2.9M  1.6G   1% /run
@@ -14,3 +14,4 @@ tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 /dev/nvme0n1p1  511M  6.1M  505M   2% /boot/efi
 tmpfs           1.6G  140K  1.6G   1% /run/user/1000
 tmpfs           7.7G     0  7.7G   0% /run/qemu
+

@@ -1,5 +1,5 @@
 
-OS and fs conventions :
+OS conventions :
 |
 - /usr/bin/env,
 - /bin/bash,

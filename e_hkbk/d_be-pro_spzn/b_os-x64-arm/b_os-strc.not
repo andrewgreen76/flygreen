@@ -1,10 +1,27 @@
 
-OS conventions :
-|
+Unix-like OS structure conventions :
+
 - /usr/bin/env,
+- /usr/bin/swtmp_setup 
 - /bin/bash,
 - /etc,
 - /etc/network/interfaces
 - /etc/sysconfig/network-scripts/ifcfg-*
 - ... etc.
+
+______________________________________________________________________________
+
+Unix-like permission mgmt conventions :
+
+
+
+UID (User Identifier) and GID (Group Identifier) are numerical identifiers used in Unix-like operating systems to uniquely identify users and groups, respectively. These identifiers are used internally by the operating system to manage file and process permissions and to associate users with the files they create or modify.
+
+1. UID (User Identifier): Each user account on a Unix-like system is associated with a unique numerical UID. When a user logs in, the system assigns their UID to them, and it is used to determine their access rights to files, directories, and resources on the system. The root user (superuser) typically has a UID of 0, and regular users are assigned UIDs starting from 1000 or higher.
+
+2. GID (Group Identifier): In addition to individual user accounts, Unix-like systems organize users into groups, with each group represented by a unique numerical GID. A user can belong to one or more groups, and groups are used to manage access rights to shared resources. Files and directories have associated group ownership, which dictates the access permissions for members of that group.
+
+For example, if a file is owned by user "alice" with UID 1001 and belongs to group "developers" with GID 2001, Alice and other members of the "developers" group will have permissions according to the file's ownership and group permissions.
+
+These numerical identifiers are used internally by the operating system and are more efficient for handling file access and permissions than using usernames and group names directly. However, user-friendly utilities and commands in Unix-like systems often provide mappings between usernames, group names, and their corresponding numerical IDs for easier management and understanding.
 

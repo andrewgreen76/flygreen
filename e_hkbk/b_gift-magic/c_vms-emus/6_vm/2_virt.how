@@ -1,0 +1,17 @@
+
+In Step 4 of the second-to-last response, the 50GB virtual disk image created with the `qemu-img` command is used as persistent storage for the guest OS (Windows 11) running inside the virtual machine. This virtual disk image acts as a hard drive for the guest OS, and any data written to it will persist across VM reboots and power-offs.
+
+Unlike the RAM assigned to the virtual machine, which is temporary and released back to the host system once the VM is shut down, the disk space allocated for the virtual disk image is not automatically reclaimed by the host system. The disk space remains reserved for the guest OS, even when the VM is not running.
+
+In other words, the 50GB virtual disk image serves as a fixed-size disk allocation for the Windows 11 guest OS. It won't be automatically reclaimed by the Linux host, even if you shut down or power off the VM. The space is reserved and set aside for the guest OS until you explicitly remove or delete the virtual disk image.
+
+If you need to free up disk space on your Linux host system, you can manually delete the virtual disk image once you no longer require the Windows 11 VM or if you want to reduce its allocated space. However, remember that deleting the virtual disk image will also remove any data and applications stored within the VM.
+
+Alternatively, if you prefer a dynamically allocated virtual disk image, you can use the `qemu-img` command with the `create` option and specify a lower size. This will create a disk image that grows dynamically as the guest OS writes data to it. For example:
+
+```bash
+qemu-img create -f qcow2 windows11.img 50G
+```
+
+With this approach, the disk image will start small and grow as needed, up to the specified size (50GB in this example). This can be useful if you want to save disk space on your Linux host system and allow the virtual disk image to expand as the guest OS requires more storage. However, note that a dynamically allocated image may have slightly reduced performance compared to a fixed-size image.
+

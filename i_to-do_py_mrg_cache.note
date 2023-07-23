@@ -11,7 +11,7 @@ NVMe , nvme0n1p1/2
 address issue : hw, fw, os in dir-b and dir-d
 address issue : phil in dir-a and dir-b 
 Try VMware (on Windows for Linux - DOES NOT SUPPORT HW VIRT) 
-GPU sys perf / engr 
+Book : GPU sys perf / engr 
 cmake
 embedded c
 i2c

@@ -4,21 +4,22 @@ Project 4 - Coursera.
 list of things to cancel/re-route to new addr
 - Spectrum : cancel / transfer by August 9th. 
 
+What is DevOps, etc.
 industries are always changing 
 PCIe
 NVMe , nvme0n1p1/2 
 address issue : hw, fw, os in dir-b and dir-d
 address issue : phil in dir-a and dir-b 
-What is DevOps, etc.
-[job titles]
 Try VMware (on Windows for Linux - DOES NOT SUPPORT HW VIRT) 
+GPU sys perf / engr 
 cmake
 embedded c
 i2c
 pki
 secure shell (ssh)
 sys engring
-sysadmin / IT / tech support 
+sysadmin / IT / tech support
+Computer-Aided Design (CAD)
 
 cache hierarchy : abstraction of eight smaller cache units into a larger cache unit.
 - e.g., L1 = 512KB, L2 = 4MB, L3 = 32MB. The higher the cache, the slower and larger it is.

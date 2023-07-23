@@ -15,3 +15,13 @@ The i286 and i386 refer to specific generations of Intel's x86 microprocessors:
 
 The i286 and i386 microprocessors played crucial roles in the evolution of the x86 architecture and set the foundation for subsequent generations of Intel processors. The i386, in particular, was highly influential and served as the basis for the popular 32-bit x86 computing platform that continues to be widely used today.
 
+___________________________________________________________________________
+
+Alder Lake is the codename for Intel's 12th generation of processors for desktop and mobile computers. It represents a significant shift in Intel's processor architecture, featuring a hybrid design that combines high-performance cores (P-cores) with high-efficiency cores (E-cores) on the same chip.
+
+The P-cores are designed for handling demanding tasks that require high clock speeds and processing power, while the E-cores are optimized for power efficiency and are used for less demanding tasks to save energy and extend battery life in mobile devices.
+
+Alder Lake processors are built on Intel's 10nm Enhanced SuperFin process technology and are designed to provide improved performance and efficiency compared to previous generations. They also support DDR5 memory and PCIe 5.0, offering faster data transfer rates and enhanced system performance.
+
+As of my knowledge cutoff in September 2021, Alder Lake processors had not been released yet, so more information and performance details would be available upon their official launch.
+

@@ -1,0 +1,8 @@
+
+OS and fs conventions :
+|
+- /usr/bin/env,
+- /bin/bash,
+- /etc,
+- ... etc.
+

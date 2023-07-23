@@ -1,0 +1,19 @@
+
+When reporting a bug in a GitHub project, it's essential to ensure that you're not creating a duplicate report to maintain a clean and organized issue tracker. Here's how you can report a bug without creating a duplicate:
+
+1. Search for existing issues: Before creating a new bug report, search the project's issue tracker to see if the bug has already been reported. Use relevant keywords to find similar or related issues.
+
+2. Check closed issues: Even if the issue was reported and resolved in the past, check closed issues to see if it has been fixed or reopened.
+
+3. Confirm the bug: If you find an existing issue that describes the bug you encountered, you can add more details or provide additional information in the comments to help the maintainers understand and reproduce the issue better.
+
+4. Report a new bug: If you can't find an existing report for the bug, you can create a new issue. Click on the "Issues" tab in the project repository, then click on the "New issue" button.
+
+5. Provide clear details: When reporting the bug, provide clear and concise information about the issue. Include steps to reproduce the bug, the expected behavior, the actual behavior, and any relevant error messages or logs.
+
+6. Add labels: Check if the project has issue labels and add relevant labels to your bug report. Labels help categorize the issue and make it easier for the maintainers to prioritize and manage it.
+
+...
+
+By following these steps, you can help keep the issue tracker organized and avoid creating duplicate bug reports, making it easier for maintainers to address and resolve issues efficiently.
+

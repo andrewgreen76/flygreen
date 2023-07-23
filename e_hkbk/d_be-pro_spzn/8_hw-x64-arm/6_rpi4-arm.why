@@ -1,0 +1,7 @@
+
+The Raspberry Pi 4 features a Broadcom BCM2711 system-on-chip (SoC) as its CPU. The BCM2711 is a quad-core ARM Cortex-A72 processor, which is a significant upgrade from the previous Raspberry Pi models. The Cortex-A72 cores are based on ARM's ARMv8-A architecture and offer improved performance and energy efficiency compared to the previous Cortex-A53 cores used in the Raspberry Pi 3 and earlier models.
+
+The CPU clock speed of the Raspberry Pi 4 can be adjusted depending on the model and the cooling capabilities of the device. The default clock speed is 1.5 GHz, but it can be overclocked to higher speeds using proper cooling techniques and configurations.
+
+Overall, the Broadcom BCM2711 SoC used in the Raspberry Pi 4 provides a significant boost in performance and capabilities, making it suitable for a wide range of applications, including desktop computing, multimedia, IoT projects, and more.
+

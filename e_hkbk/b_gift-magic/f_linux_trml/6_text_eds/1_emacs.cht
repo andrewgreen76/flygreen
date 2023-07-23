@@ -40,3 +40,6 @@ refresh: C-l
    (characters and strings move around). 
 
 _
+
+C-t	- pops 1st char from currLine, pushes to end of prevLine
+

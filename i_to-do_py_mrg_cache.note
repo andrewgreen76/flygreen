@@ -1,14 +1,13 @@
 
-address issue : hw, fw, os in dir-b and dir-d
-os fs conventions (/usr/bin/env, /bin/bash, /etc, ... etc.)
-df -h
-
 Project 4 - Coursera. 
 
 list of things to cancel/re-route to new addr
 - Spectrum : cancel / transfer by August 9th. 
 
 KVM+QEMU (on Linux for Windows)
+address issue : hw, fw, os in dir-b and dir-d
+os fs conventions (/usr/bin/env, /bin/bash, /etc, ... etc.)
+df -h
 What is DevOps, etc.
 [job titles]
 Try VMware (on Windows for Linux - DOES NOT SUPPORT HW VIRT) 

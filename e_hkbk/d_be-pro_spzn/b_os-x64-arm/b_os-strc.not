@@ -1,12 +1,17 @@
 
 Unix-like OS structure conventions :
 
+- /boot/efi
+- /dev/shm
 - /usr/bin/env,
 - /usr/bin/swtmp_setup 
 - /bin/bash,
 - /etc,
 - /etc/network/interfaces
 - /etc/sysconfig/network-scripts/ifcfg-*
+- /run/lock
+- /run/qemu
+- /run/user/1000
 - ... etc.
 
 ______________________________________________________________________________
@@ -25,3 +30,11 @@ For example, if a file is owned by user "alice" with UID 1001 and belongs to gro
 
 These numerical identifiers are used internally by the operating system and are more efficient for handling file access and permissions than using usernames and group names directly. However, user-friendly utilities and commands in Unix-like systems often provide mappings between usernames, group names, and their corresponding numerical IDs for easier management and understanding.
 
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.9M  1.6G   1% /run
+/dev/nvme0n1p2  468G   36G  410G   8% /
+tmpfs           7.7G     0  7.7G   0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           7.7G     0  7.7G   0% /run/qemu
+/dev/nvme0n1p1  511M  6.1M  505M   2% /boot/efi
+tmpfs           1.6G  120K  1.6G   1% /run/user/1000

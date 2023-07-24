@@ -1,0 +1,31 @@
+
+Distributed systems, also known as distributed computing systems, are a type of computing environment in which multiple computers or nodes work together to achieve a common goal or perform a task. In a distributed system, the processing and storage capabilities are distributed across different machines, and these machines communicate and coordinate with each other to complete tasks efficiently.
+
+Key characteristics of distributed systems include:
+
+1. Decentralization: In a distributed system, there is no central authority or single point of control. Instead, tasks and responsibilities are distributed across the nodes in the system.
+
+2. Scalability: Distributed systems are designed to be scalable, allowing them to handle an increasing number of nodes and users without compromising performance.
+
+3. Fault Tolerance: Distributed systems are often designed to be fault-tolerant, meaning they can continue to function even if individual nodes or components fail.
+
+4. Concurrency: Distributed systems often involve concurrent execution, where multiple nodes work on different parts of the task simultaneously.
+
+5. Communication: Nodes in a distributed system communicate with each other through various mechanisms, such as message passing, remote procedure calls (RPC), or data replication.
+
+6. Transparency: Distributed systems aim to provide transparency to users and applications, so they can interact with the system as if it were a single entity, regardless of its distributed nature.
+
+7. Heterogeneity: Distributed systems can consist of different types of hardware, operating systems, and software components, making them flexible and adaptable to various environments.
+
+Examples of distributed systems include:
+
+- Cloud Computing: Public cloud platforms like AWS, Microsoft Azure, and Google Cloud use distributed systems to provide scalable and flexible computing resources to users.
+
+- Distributed Databases: Distributed databases spread data across multiple nodes to ensure high availability and fault tolerance.
+
+- Content Delivery Networks (CDNs): CDNs distribute content across multiple servers located in different geographic locations to improve content delivery and reduce latency.
+
+- Peer-to-Peer (P2P) Networks: P2P networks allow users to share resources directly with each other without relying on a central server.
+
+Distributed systems play a critical role in modern computing, enabling various applications and services to scale and perform efficiently. However, designing, building, and managing distributed systems present unique challenges, such as ensuring data consistency, handling network partitions, and dealing with potential communication delays.
+

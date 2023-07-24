@@ -1,0 +1,11 @@
+
+Ubuntu 20.04 makes use of both OpenGL and Mesa.
+
+OpenGL is a graphics API (Application Programming Interface) that allows applications to interact with the GPU (Graphics Processing Unit) and render 2D and 3D graphics. Many applications, especially graphical and gaming applications, use OpenGL to utilize the GPU's hardware acceleration for better performance.
+
+Mesa, on the other hand, is an open-source implementation of the OpenGL specification. It provides an open-source user-space driver that allows Linux-based systems to use the GPU's hardware acceleration with OpenGL. Mesa includes drivers for both AMD/ATI and Intel GPUs.
+
+In Ubuntu 20.04, the Mesa library is used as the user-space graphics driver to enable OpenGL support for various GPUs. It provides the necessary functions and interfaces that applications can use to interact with the GPU for rendering graphics.
+
+Therefore, to have OpenGL support in Ubuntu 20.04, you need to have the Mesa library installed and the appropriate Mesa driver for your specific GPU hardware. The open-source Mesa drivers are typically installed by default on Ubuntu 20.04, providing OpenGL support out of the box for most GPUs. However, in some cases, you may need to install additional GPU-specific drivers or Mesa packages to ensure optimal performance and compatibility.
+

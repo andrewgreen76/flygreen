@@ -22,11 +22,6 @@ Computer-Aided Design (CAD)
 algorithms
 embedded systems
 
-cache hierarchy : abstraction of eight smaller cache units into a larger cache unit.
-- e.g., L1 = 512KB, L2 = 4MB, L3 = 32MB. The higher the cache, the slower and larger it is.
-- cache is small, fast, and expensive 
-- RAM is large, slow, and inexpensive 
-
 - Portfolio site
 - GOOD QUALITY Projects
 - GitHub contributions 

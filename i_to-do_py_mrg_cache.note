@@ -4,11 +4,10 @@ Project 4 - Coursera.
 list of things to cancel/re-route to new addr
 - Spectrum : cancel / transfer by August 9th. 
 
-industries are always changing 
-PCIe
-NVMe , nvme0n1p1/2 
 address issue : hw, fw, os in dir-b and dir-d
 address issue : phil in dir-a and dir-b 
+PCIe
+NVMe , nvme0n1p1/2 
 Try VMware (on Windows for Linux - DOES NOT SUPPORT HW VIRT) 
 Book : GPU sys perf / engr 
 cmake
@@ -20,7 +19,6 @@ sys engring
 sysadmin / IT / tech support
 Computer-Aided Design (CAD)
 algorithms
-embedded systems
 
 - Portfolio site
 - GOOD QUALITY Projects

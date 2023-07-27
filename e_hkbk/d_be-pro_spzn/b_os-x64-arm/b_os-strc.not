@@ -3,6 +3,11 @@ Unix-like OS structure conventions :
 
 - /bin/bash
 - /boot/efi
+- /dev/sda1
+- /dev/sda2
+- /dev/sda3
+- /dev/sda4
+- /dev/sda5
 - /dev/shm
 - /etc
 - /etc/network/interfaces

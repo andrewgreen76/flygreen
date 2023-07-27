@@ -1,17 +1,18 @@
 
 Unix-like OS structure conventions :
 
+- /bin/bash
 - /boot/efi
 - /dev/shm
-- /usr/bin/env,
-- /usr/bin/swtmp_setup 
-- /bin/bash,
-- /etc,
+- /etc
 - /etc/network/interfaces
 - /etc/sysconfig/network-scripts/ifcfg-*
+- /proc
 - /run/lock
 - /run/qemu
 - /run/user/1000
+- /usr/bin/env
+- /usr/bin/swtmp_setup 
 - ... etc.
 
 ______________________________________________________________________________

@@ -1,0 +1,25 @@
+
+Colors :
+|
+- RED :	NO / STOP
+- YELLOW : WARNING
+- WHITE : LAW
+- ORANGE : REPAIR / CONSTRUCTION 
+|
+- green : dirxn / guide
+- blue : food , other services
+- brown : recreation 
+
+
+Shapes :
+|
+- OCTAGONAL : STOP
+- DIAMOND : WARNING
+- INVD TRI : YIELD
+|
+- RECTANGLE : REGULATION
+- HOUSE-SHAPE : SCHOOL AREA
+- > (pennant) : no passing
+- O , X : railroad ahead 
+
+.

@@ -1,17 +1,16 @@
 
-stoichiometry , handover 
-fpga vs asic vs uprcsr vs uctrlr vs gpu 
 job titles < intel,amd,nvidia 
+|
 Project 4 - Coursera.
 csv lib / pkg
 |
 Move (1 month)
-> Better Internet > Zoom interviews 
+> Better reach of Internet > Zoom interviews 
 > DMVNV (0.5 weeks)
 > Find work :
   - PORTFOLIO : 
   - Git prjs (as many as possible) / Coursera / Udemy / 
-  - Better Internet / Zoom 
+  - Better reach of Internet / Zoom 
   - Git prjs (amap) / Coursera / Udemy / 
   - Reno on-site / remote 
   - Git prjs (amap)/ Coursera / Udemy / 
@@ -25,6 +24,8 @@ PCIe
 NVMe , nvme0n1p1/2 
 Try VMware (on Windows for Linux - DOES NOT SUPPORT HW VIRT) 
 Book : GPU sys perf / engr 
+stoichiometry , handover , root cause , process optimization 
+fpga vs asic vs uprcsr vs uctrlr vs gpu 
 cmake
 embedded c
 i2c

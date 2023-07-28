@@ -1,6 +1,15 @@
 
-Traffic lights, etc. :
-- not working => like a 4-way (stop, yield to others)
-- red light + turning right = stop, yield to others, turn right 
+Traffic lights, etc. : 
+|
+- watch for TURN-FORBIDDING SIGNS 
+|
+- not working => like a 4-way (STOP, yield)
+- flashing red => like a 4-way (STOP, yield)
+  - red light + turning right = stop, yield, turn 
+- flashing yellow => slow down, yield, complete the move
+|
+(- when to make a left on red : from 1-way to 1-way, but STOP AND YIELD) 
+- flashing yellow ARROW => slow down, yield, complete the turn
+- green ARROW => yield, complete the turn
 
 .

@@ -1,0 +1,16 @@
+
+DL classification sys :
+- A:
+  - tractors , commercial trucks 
+  - towing over 10k
+  - incl. B and C
+- B:
+  - towing under 10k -or- no towing
+  - buses, trucks, heavy-duty construction eqpt 
+- C:
+  - cars , vans , pickups
+  - towing under 10k 
+- M:
+  - motorcycles 
+
+.

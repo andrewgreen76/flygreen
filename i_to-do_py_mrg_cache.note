@@ -20,12 +20,14 @@ list of things to cancel/re-route to new addr
 - Spectrum : cancel / transfer by August 9th. 
 DMVNV 
 
+Ifces : UART , SPI , I2C 
 PCIe
 NVMe , nvme0n1p1/2 
 Try VMware (on Windows for Linux - DOES NOT SUPPORT HW VIRT) 
 Book : GPU sys perf / engr 
 stoichiometry , handover , root cause , process optimization 
 fpga vs asic vs uprcsr vs uctrlr vs gpu 
+MCU core architectures : ARM Cortex 
 cmake
 embedded c
 i2c

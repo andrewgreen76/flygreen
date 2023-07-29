@@ -1,7 +1,7 @@
 
 - system architecture
-  - NVMe , nvme0n1p1/2 
-  - ifces : PCIe ,  
+  - lshw 
+  - ifces : PCIe , NVMe (nvme0n1p1/2, etc.) 
 - sysadmin skills 
   - Linux kernel
   - boot : (BIOS) flavors , Secure Boot

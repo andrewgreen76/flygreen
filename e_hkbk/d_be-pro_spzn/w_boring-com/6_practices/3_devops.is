@@ -1,4 +1,7 @@
 
+A model for a software development lifecycle. 
+
+
 DevOps is a set of practices, cultural philosophies, and tools that aim to improve collaboration and communication between software development (Dev) and information technology operations (Ops) teams. The main goal of DevOps is to shorten the systems development life cycle, increase the speed of software delivery, and ensure the reliability and stability of the software in production. It bridges the gap between development and operations by promoting a culture of collaboration, shared responsibility, and continuous improvement. Here are the key aspects of DevOps:
 
 1. Collaboration: DevOps encourages close collaboration and communication between software developers, system administrators, quality assurance engineers, and other stakeholders involved in the software development and deployment process.

@@ -31,7 +31,9 @@ __________________________________________________________________________
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- Py libraries vs. modules vs. packages. 
+- Py
+  - libraries vs. modules vs. packages
+  - slice notation (zipping)
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

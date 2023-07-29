@@ -33,12 +33,6 @@ list of things to cancel/re-route to new addr
 - Spectrum : cancel / transfer by August 9th. 
 DMVNV 
 
-Linux kernel (Udemy)
-booting
-sys recovery 
-SSH
-Python : sys and os
-
 Ifces : UART (PCs / operating systems, unctrlrs) , SPI (emb/uctrlrs) , I2C (emb/uctrlrs) 
 PCIe
 NVMe , nvme0n1p1/2 
@@ -51,9 +45,6 @@ cmake
 embedded c
 i2c
 pki
-secure shell (ssh)
-sys engring
-sysadmin / IT / tech support
 Computer-Aided Design (CAD)
 algorithms
 

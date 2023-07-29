@@ -31,9 +31,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- Wine on Linux , virtual machines , resource distribution , KVM + QEMU    
-- memory hierarchy 
-- Unix-like OS structure and permission management conventions 
+- Py libraries vs. modules vs. packages. 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

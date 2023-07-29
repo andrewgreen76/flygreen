@@ -2,3 +2,6 @@
 Worst of embedded systems engineering :
 - limited scope (sensors, actuators) 
 
+Essentials :
+- UART (PCs / operating systems, unctrlrs) , SPI (emb/uctrlrs) , I2C (emb/uctrlrs)
+

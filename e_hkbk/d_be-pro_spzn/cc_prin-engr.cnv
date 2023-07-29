@@ -1,4 +1,15 @@
 
+- system architecture
+  - NVMe , nvme0n1p1/2 
+  - ifces : PCIe ,  
+- sysadmin skills 
+  - Linux kernel
+  - boot : (BIOS) flavors , Secure Boot
+  - THEN do SSH networking/security
+- Python : csv , with , py scripts in Virgo
+
+
+
 Certainly! Here's a career path that can help you progress from a starter to becoming a Principal Engineer or a similar title involved in large-scale system development:
 
 1. Education and Learning:

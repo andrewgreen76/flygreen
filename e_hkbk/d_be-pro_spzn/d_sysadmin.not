@@ -1,9 +1,10 @@
 
 Sysadmin / IT / tech support / sys engr : 
-|
-Linux kernel (Udemy)
-booting
-sys recovery 
-SSH
-Python : sys and os
+- Linux kernel (Udemy)
+  - multithreading / multiprocessing 
+  - booting
+  - sys recovery
+  - SSH :
+    - server/net admin 
+  - Python : sys and os
 

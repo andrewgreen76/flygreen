@@ -33,7 +33,11 @@ list of things to cancel/re-route to new addr
 - Spectrum : cancel / transfer by August 9th. 
 DMVNV 
 
-Ifces : UART (PCs, operating systems) , SPI (embedded systems, uctrlrs) , I2C (embedded systems) 
+Linux kernel (Udemy)
+SSH
+Python : sys and os
+
+Ifces : UART (PCs / operating systems, unctrlrs) , SPI (emb/uctrlrs) , I2C (emb/uctrlrs) 
 PCIe
 NVMe , nvme0n1p1/2 
 Try VMware (on Windows for Linux - DOES NOT SUPPORT HW VIRT) 

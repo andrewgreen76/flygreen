@@ -1,4 +1,7 @@
 
+[CPU support] 
+
+
 Check the CPU: Open a terminal on your Linux system and run the following command to check if your CPU supports hardware virtualization:
 
 bash

@@ -1,0 +1,4 @@
+
+Relocatable code :
+- code that the loader can write anywhere in memory -AND- the system can execute anywhere in memory. 
+

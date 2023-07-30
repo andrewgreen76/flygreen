@@ -1,4 +1,6 @@
 
 Relocatable code :
-- code that the loader can write anywhere in memory -AND- the system can execute anywhere in memory. 
+- code that the loader can write anywhere in memory -AND- the system can execute anywhere in memory.
+  - the loader accounts for the base address of the program
+  - it references labels and vars based on the resulting offsets, one for each label/var, in relation to the base address of that program
 

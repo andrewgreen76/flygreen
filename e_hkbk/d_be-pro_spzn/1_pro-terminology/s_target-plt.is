@@ -1,4 +1,28 @@
 
 target hardware platform :
-- of choice, of interest, in focus, maybe even custom 
+- of choice, of interest, in focus, maybe even custom.
+
+
+
+"
+A target hardware platform refers to the specific hardware architecture or computing environment for which a software program or application is designed and intended to run. It is the set of hardware components, system configuration, and underlying architecture that the software is optimized to work with.
+
+When developing software, developers need to consider the target hardware platform to ensure that the program is compatible, efficient, and properly utilizes the hardware's capabilities. The target hardware platform includes various aspects, such as:
+
+1. CPU Architecture: The type of CPU (e.g., x86, ARM, MIPS) and its instruction set architecture.
+
+2. Operating System: The specific operating system the software is intended to run on (e.g., Windows, Linux, macOS, Android, iOS).
+
+3. Memory and Storage: The amount of RAM, storage devices (e.g., HDD, SSD), and their configurations.
+
+4. Peripheral Devices: The hardware components the software interacts with (e.g., graphics card, network interface, USB devices).
+
+5. System Configuration: The overall hardware and software configuration of the target device or system.
+
+Developers must consider these factors while writing and compiling the code to ensure that the software runs smoothly and efficiently on the target hardware platform. Different hardware platforms may have specific requirements, optimizations, or limitations, and the software may need to be adapted or customized accordingly.
+
+For example, software designed for a desktop computer with an x86 CPU running Windows will have different considerations and optimizations compared to software targeted for an embedded system with an ARM CPU running Linux.
+
+Knowing the target hardware platform is essential for software deployment, distribution, and compatibility. It allows developers to ensure that their software delivers the best performance and user experience on the intended devices or systems.
+"
 

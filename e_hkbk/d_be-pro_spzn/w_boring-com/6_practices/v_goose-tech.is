@@ -1,0 +1,5 @@
+
+"
+Generic Object Oriented Substation Events (GOOSE) is a controlled model mechanism in which any format of data (status, value) is grouped into a data set and transmitted within a time period of 4 milliseconds. The following mechanisms are used to ensure specified transmission speed and reliability.
+"
+

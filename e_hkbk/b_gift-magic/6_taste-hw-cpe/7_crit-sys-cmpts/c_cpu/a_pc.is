@@ -1,0 +1,3 @@
+
+The program counter (PC) register specifices the next instruction that has to be fetched from the ROM or the drive. 
+

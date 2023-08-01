@@ -10,7 +10,7 @@ history	 	- brings up a history of the recently (successfully) executed commands
 
 === Searching commands: ==========================================================================
 
-grep [string] [path/file]
+grep [string] [stream/path/file]
 - looks for the line containing the specified string (no quotes!) within the specified file. 
 |
 grep -r [string] *

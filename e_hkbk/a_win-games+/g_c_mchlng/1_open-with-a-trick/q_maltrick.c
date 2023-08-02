@@ -15,12 +15,22 @@ int main(int argc, char * argv[])
   scanf("%s", mstr);
   //printf("You've printed: %s\n", mstr);
   //
+  /*
   printf("I spy: %c\n", *spy);
   for(int i=0; i<100; i++)
   {
-    spy++;
     printf("I spy: %c\n", *spy);
+    spy++;
   }
+  */
+
+  spy = mstr;
+  for(int i=0; i<100; i++)
+  {
+    printf("%x ", *spy);
+    spy++;
+  }
+
 
   
 

@@ -1,6 +1,6 @@
 
 "
-Yes, there is such a thing as REST (Representational State Transfer) architecture. REST is an architectural style used in web services and APIs to design networked applications. It was introduced by Roy Fielding in his doctoral dissertation in 2000 and has become widely adopted as a standard for building scalable, efficient, and interoperable web services.
+REST is an architectural style used in web services and APIs to design networked applications. It was introduced by Roy Fielding in his doctoral dissertation in 2000 and has become widely adopted as a standard for building scalable, efficient, and interoperable web services.
 
 REST is based on a set of principles and constraints that aim to provide a simple and standardized way to interact with resources over the web. Key principles of REST include:
 

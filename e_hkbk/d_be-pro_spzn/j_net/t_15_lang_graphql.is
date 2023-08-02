@@ -1,0 +1,21 @@
+
+"
+GraphQL is a query language and runtime for APIs (Application Programming Interfaces) that was developed by Facebook and later open-sourced in 2015. It provides a more flexible and efficient way to request and manipulate data compared to traditional RESTful APIs.
+
+With GraphQL, clients can specify exactly what data they need from the server, and the server responds with only that data. This eliminates over-fetching and under-fetching of data that can often occur with REST APIs. Instead of multiple endpoints for different resources, GraphQL exposes a single endpoint, and clients can request precisely the data they need using queries.
+
+Key features of GraphQL include:
+
+1. Declarative Data Fetching: Clients can specify the structure of the data they want using a query language that closely resembles the shape of the data they expect to receive. This makes it easier for developers to request and understand the data.
+
+2. Strongly Typed Schema: GraphQL APIs are based on a strongly typed schema that defines the available types of data and the relationships between them. This schema serves as a contract between the client and server, ensuring that the data requested and provided are well-defined.
+
+3. Real-time Data: GraphQL supports real-time data updates through subscriptions. Clients can subscribe to specific data changes and receive real-time updates when those changes occur on the server.
+
+4. Batched Queries: Multiple queries can be combined into a single request, allowing clients to retrieve multiple sets of data with a single network call, reducing latency and improving performance.
+
+5. Introspection: GraphQL provides built-in introspection capabilities, allowing clients to query the schema itself and discover the available data types and operations.
+
+GraphQL has gained popularity and is used by many companies and organizations to build APIs for web and mobile applications. It is particularly well-suited for applications with complex data requirements and those that require real-time data updates.
+"
+

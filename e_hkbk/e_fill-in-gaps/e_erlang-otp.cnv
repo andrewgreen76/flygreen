@@ -1,0 +1,17 @@
+
+"
+Erlang was originally developed at Ericsson in the late 1980s by Joe Armstrong, Robert Virding, and Mike Williams. It was created as a proprietary programming language for building highly concurrent, fault-tolerant, and distributed telecommunications systems. The main goal was to address the challenges of building real-time, reliable, and scalable systems for telecom applications.
+
+Telecommunications systems require high availability, as they deal with critical services like voice calls and messaging. They also need to handle a large number of concurrent connections and efficiently process data from various sources. Traditional programming languages of the time did not provide the necessary concurrency and fault-tolerance features to meet these demands.
+
+Erlang's design philosophy focused on the following key aspects:
+
+1. Concurrency: Erlang was designed to handle massive concurrency with lightweight processes (actors) and message passing. This allowed developers to build systems that could handle thousands of simultaneous tasks efficiently.
+
+2. Fault Tolerance: Erlang introduced the concept of supervisors and the "let-it-crash" philosophy. When an error occurs, Erlang processes can be quickly terminated and restarted, ensuring that the system remains operational.
+
+3. Distributed Computing: Erlang was designed to support distributed computing across multiple nodes, allowing developers to build scalable and fault-tolerant distributed applications.
+
+Over the years, Erlang gained popularity beyond telecommunications and found applications in various domains, such as web development, real-time systems, financial services, and messaging platforms. Its unique features make it well-suited for building systems that require high concurrency, fault tolerance, and scalability. Today, Erlang is widely used in both telecom and non-telecom industries, and its open-source implementation, called OTP (Open Telecom Platform), is available for developers to use and contribute to.
+"
+

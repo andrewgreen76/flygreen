@@ -16,11 +16,4 @@ tmpfs           1.6G  140K  1.6G   1% /run/user/1000
 tmpfs           7.7G     0  7.7G   0% /run/qemu
 
 nvme0n1px - 
-_____________________________________________________________________
-
-OS structure : 
-- /usr/bin/env,
-- /bin/bash,
-- /etc,
-- ... etc.
 

@@ -1,0 +1,19 @@
+
+"
+SOLID is an acronym that represents a set of five design principles in object-oriented programming (OOP) and software development. These principles were introduced by Robert C. Martin and are aimed at creating well-structured, maintainable, and scalable code. The SOLID principles are widely used to guide software design and architecture decisions to achieve flexibility and robustness in software systems.
+
+Here's a brief overview of each SOLID principle:
+
+1. Single Responsibility Principle (SRP): This principle states that a class should have only one reason to change, meaning it should have only one responsibility. A class should be focused on performing a single task, and if there are multiple reasons to change it, it's a sign of poor design.
+
+2. Open/Closed Principle (OCP): This principle suggests that software entities (classes, modules, functions) should be open for extension but closed for modification. In other words, you should be able to extend the behavior of a class without modifying its existing code, promoting the use of inheritance and interfaces to achieve this.
+
+3. Liskov Substitution Principle (LSP): This principle emphasizes that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program. In simpler terms, a subclass should be able to substitute its superclass without introducing unexpected behavior.
+
+4. Interface Segregation Principle (ISP): This principle suggests that clients should not be forced to depend on interfaces they do not use. It encourages breaking large interfaces into smaller, more specific ones, which reduces the coupling between classes and promotes better maintainability.
+
+5. Dependency Inversion Principle (DIP): This principle states that high-level modules should not depend on low-level modules but should both depend on abstractions. It encourages using abstractions (interfaces or abstract classes) to decouple the high-level and low-level modules, allowing for easier changes and flexibility.
+
+By following the SOLID principles, developers can create more maintainable, scalable, and flexible software systems, making it easier to adapt to changing requirements and reducing the risk of introducing bugs during development and maintenance.
+"
+

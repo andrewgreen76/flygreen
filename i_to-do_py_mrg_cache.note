@@ -1,11 +1,18 @@
 
-apprenticeship schools 
-QA pre-requisites 
+experience :
+- own projects :
+  - solder the radio 
+  - microprocessors :
+    - Rpi4 + Tim's TV screen
+  - microcontrollers : 
+    - Arduino : compare Minima to R4 WiFi
+    - STM32 , TI
+- apprenticeship schools 
+|
 C/C++ extension
 C runtime library 
-GPU:
-benchmark 
-mining
+|
+QA pre-requisites 
 loader
 reloc code
 exec code 

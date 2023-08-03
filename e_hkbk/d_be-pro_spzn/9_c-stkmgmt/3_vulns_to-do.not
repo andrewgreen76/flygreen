@@ -1,6 +1,5 @@
 
 list security flaws for the dir; 
-is
 results / errors
 exploits :
 - messing things up 
@@ -16,7 +15,7 @@ Dir D :
 With PROCESSES/THREADS : race conditions
 With RDBMS : input validation and injection
 |
-Insecure lib funcs, secure upgrades
+Unsafe lib funcs, secure upgrades
 Resource exhaustion vulnerabilities :
 - file descriptors
 - net connections

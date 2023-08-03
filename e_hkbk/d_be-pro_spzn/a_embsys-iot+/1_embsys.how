@@ -3,5 +3,7 @@ Worst of embedded systems engineering :
 - limited scope (sensors, actuators) 
 
 Essentials :
+- PCB design experience
+- MCU (/uprcsr) programming experience 
 - UART (PCs / operating systems, unctrlrs) , SPI (emb/uctrlrs) , I2C (emb/uctrlrs)
 

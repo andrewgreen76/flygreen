@@ -2,11 +2,13 @@
 experience :
 - own projects :
   - solder the radio 
+  - microcontrollers : 
+    - Arduino :
+      - take out the R3 UNO , use the LED display. 
+      - compare Minima to R4 WiFi
+    - STM32 , TI
   - microprocessors :
     - Rpi4 + Tim's TV screen
-  - microcontrollers : 
-    - Arduino : compare Minima to R4 WiFi
-    - STM32 , TI
 - apprenticeship schools 
 |
 C/C++ extension

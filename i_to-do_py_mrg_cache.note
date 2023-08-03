@@ -1,4 +1,5 @@
 
+Cancel Spectrum ? 
 experience :
 - own projects :
   - solder the radio 
@@ -20,8 +21,6 @@ reloc code
 exec code 
 
 job titles < intel,amd,nvidia CAREER WEBSITES  
-|
-Project 4 - Coursera. 
 |
 Move (1 month)
 > Better reach of Internet > Zoom interviews 
@@ -47,10 +46,6 @@ Interview script - something to say to the interviewer :
   - Still studying : Coursera.
 - Why this job ?
   - Underqualified for openings when matchmaking.
-
-list of things to cancel/re-route to new addr
-- Spectrum : cancel / transfer by August 9th. 
-DMVNV 
 
 Try VMware (on Windows for Linux - DOES NOT SUPPORT HW VIRT) 
 Book : GPU sys perf / engr  
@@ -87,11 +82,9 @@ Personal project :
 - dumbest firmware
 - dumbest kernel 
 
-Solder the radio together 
 pygame
 
-OS essentials : learn about BitLocker
-write gcmds for lf, gf 
+OS essentials : SecureBoot, learn about BitLocker
 do pointers cost extra access time ? 
 learn tmux (b/w two wins/paths)
 AeGiS.
@@ -101,6 +94,7 @@ sw-render <> OpenGL <> NOT API > Wayland > Graphics API
 Graphics drivers : specify the GPU (OEM, etc.)
 Plotting pixels 
 
+Thermal transferable paper > PCB. 
 Scratch > ? > shell > C > Python <= What lang for gfx after Scratch ? 
 
 SOLID principles

@@ -15,3 +15,6 @@
 2^14 = (16,384) 16K
 2^15 = (32,768) 32K
 
+2^(need n bits) = within this 2^ hard limit. 
+
+.

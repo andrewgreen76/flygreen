@@ -1,5 +1,7 @@
 
 Cancel Spectrum ? 
+floss
+|
 experience :
 - own projects :
   - solder the radio 
@@ -121,8 +123,6 @@ process isolation
 study templates before jumping into Rust. 
 photos : javaldx, etc. 
 regroup C in a and b. 
-What is the one advantage that C++ has that Rust does not?
-|
 
 pattern matching
 Cert > Open-source projects to choose from. (C, Rust, and Python were selected.) 
@@ -138,8 +138,9 @@ list of stipulations for :
 - getting a car
 awk, sed, docker
 Apply for : System76 / Canonical / Tesla. 
-|
 
+
+HTTP 403
 Find a place for (Open)AI in my superstack. (Python to build a dumb mini-AI.)  
 statically typed - determined/accessible at compile-time
 dynamically typed - accessible during runtime. 
@@ -197,8 +198,6 @@ Research frameworks (toolsets) dedicated to building VMs, EMUs, Last Call BBS (U
 v
 Work on the graphics mode for headless systems: kernel KMS > Wayland. 
 
-add-on
-leveraging
 container technology
 Explore kernel vs. microkernel. 
 what does memgmt look like on the sys memmap ? 
@@ -241,8 +240,6 @@ m : Manteia , matchmaking , match the right people with the right opportunities
 
 =====================================================================
 
-floss
-
 find a poke api lib 
 find a sound api lib 
 shit to lug
@@ -251,5 +248,9 @@ shit to lug
 
 explore curl
 Explore clipping in games. 
+
+TPV EFI
+TeX
+empty DIMM sockets
 
 -

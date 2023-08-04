@@ -1,0 +1,17 @@
+
+2^(avail bits) - 1 = max val. 
+2^(avail bits) = (max val) + 1 
+2^(1 at bit n) = reprs this val.
+
+2^0 = 1 
+2^1 = 2 
+2^2 = 4 
+2^3 = 8 
+
+.
+.
+.
+
+2^14 = (16,384) 16K
+2^15 = (32,768) 32K
+

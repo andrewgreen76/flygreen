@@ -1,4 +1,5 @@
 
 Native binary code :
-- machine code that can be executed directly by the CPU without any intermediary translations from a different architecture to that of the CPU itself. 
+- machine code that can be executed directly by the CPU without any intermediary translations from a different architecture to that of the CPU itself.
+- by x86 for x86, by ARM for ARM, etc. 
 

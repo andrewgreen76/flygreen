@@ -1,0 +1,29 @@
+
+"
+Bug tracking, also known as issue tracking or defect tracking, is a process used in software development and quality assurance to identify, report, manage, and resolve issues or defects in a software application. Bugs refer to errors, flaws, glitches, or unexpected behaviors that occur in the software, causing it to deviate from its intended functionality. Bug tracking is a systematic approach to ensure that these issues are properly documented, tracked, and addressed throughout the software development lifecycle.
+
+Key aspects of bug tracking include:
+
+1. **Issue Identification:** Bugs can be identified through various means, such as testing, user feedback, code reviews, and automated testing tools. When an issue is detected, it is reported as a bug.
+
+2. **Bug Reporting:** The person who identifies the bug typically reports it using a bug tracking tool or system. The report includes details such as the bug's description, steps to reproduce it, the software version, environment details, and any related files or screenshots.
+
+3. **Issue Tracking System:** Bug tracking is often facilitated by using specialized software or tools known as issue tracking systems or bug tracking systems. These tools provide a central repository for storing, organizing, and managing bug reports.
+
+4. **Prioritization and Assignment:** Bugs are typically categorized based on their severity and impact on the software. The development team reviews the reported bugs, assigns them to responsible individuals, and sets priorities for fixing them.
+
+5. **Bug Triaging:** In larger development teams, a bug triage process may be used to evaluate and prioritize reported bugs. This involves analyzing the bug reports, discussing their impact, and making decisions on how to address them.
+
+6. **Bug Resolution:** The development team works on resolving the identified bugs by diagnosing the underlying causes, making necessary code changes, and testing the fixes.
+
+7. **Testing and Verification:** Once a bug is fixed, it undergoes testing to verify that the issue has been resolved and that the fix does not introduce new problems.
+
+8. **Documentation:** Throughout the bug tracking process, detailed records are maintained, including bug reports, status updates, fix descriptions, and testing results.
+
+9. **Communication:** Bug tracking facilitates effective communication among team members, allowing developers, testers, and other stakeholders to collaborate on resolving issues.
+
+10. **Closure and Reporting:** After a bug is fixed and verified, it is marked as resolved or closed in the bug tracking system. Reports and summaries can be generated from the bug tracking system to provide insights into the software's quality and progress over time.
+
+Effective bug tracking helps improve software quality, enhances user satisfaction, and supports the continuous improvement of the software development process. It ensures that issues are systematically addressed and provides a structured approach to managing the complexities of software development and maintenance.
+"
+

@@ -19,8 +19,7 @@ experience :
 |
 C/C++ extension
 C runtime library 
-|
-QA pre-requisites 
+
 loader
 reloc code
 exec code 
@@ -52,6 +51,7 @@ Interview script - something to say to the interviewer :
 - Why this job ?
   - Underqualified for openings when matchmaking.
 
+QA pre-requisites 
 Try VMware (on Windows for Linux - DOES NOT SUPPORT HW VIRT) 
 Book : GPU sys perf / engr  
 fpga vs asic vs uprcsr vs uctrlr vs gpu 

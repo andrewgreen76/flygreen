@@ -4,9 +4,14 @@ synthesis
 
 P4 : original code for the x-compiler in C/Py -> GitHub 
 research,order Rpi4 -> original code -> GitHub  
-look into open-source Tesla projects (heat monitoring) -> learn/stress-test -> ... -> GitHub
+look into open-source Tesla projects
+     (heat monitoring) x (VLSI,embC)
+     -> learn/stress-test
+     -> ...
+     -> GitHub
 Arduino:LCD -> GitHub / soldering
 embC
+VLSI/VHDL 
 smth professional
 NAND2TII -> ... -> original code -> GitHub
 sysadmin skills -> ... -> GitHub 

@@ -31,9 +31,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- QA engineer and embedded systems engineer career advancement tips 
-- function pointers in C 
-- Harvard vs. von Neumann architectures
+- 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

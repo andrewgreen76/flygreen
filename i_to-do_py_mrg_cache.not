@@ -4,6 +4,7 @@ synthesis
 
 P4 : original code for the x-compiler in C/Py -> GitHub
 get a whiteboard
+iPhone images (things to learn) -> this list 
 research,order Rpi4 -> original code -> GitHub  
 look into open-source Tesla projects
      (heat monitoring) x (VLSI,embC)
@@ -18,7 +19,18 @@ NAND2TII -> ... -> original code -> GitHub
 sysadmin skills -> ... -> GitHub
 take you Mac laptop to the store 
 
-variables of var.size -> symbol in a table of ?var.size? -> mem.addr -> location 
+
+
+IPTR to cur.instr.
+|
+labels of var.size -> label table of ?var.size? -> ?LOC/LINE IN .ASM AS DEST FOR IPTR? 
+Worst-case scenario - forward reference :
+- build the LABEL TABLE , first pass thru .asm :
+  - 
+|
+variables of var.size -> variable table of ?var.size? -> mem.addr -> location
+
+
 
 VLSI
 - "Understanding of VLSI design level flows and techniques."

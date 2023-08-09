@@ -1,0 +1,40 @@
+
+"
+The reason you're encountering a segmentation fault (segfault) in your code is because you are trying to modify a string literal, which is stored in read-only memory. String literals are immutable in C, and attempting to modify them directly leads to undefined behavior, including segfaults.
+
+In your code, the line `*(mys+1) = 'o';` is attempting to modify the second character of the string literal `"Mary had"`. Since string literals are read-only, this operation is not allowed and results in a segfault.
+
+If you want to modify a string, you should use an array of characters (i.e., a mutable string) instead of a string literal. Here's a corrected version of your code using an array of characters:
+
+```c
+#include <stdio.h>
+
+int main(int argc, char * argv[])
+{
+  printf("\nCheers! Making your way in a world today.\n\n");
+
+  char mys[] = "Mary had"; // Using an array of characters
+  printf("\nThe string is: %s\n", mys);
+
+  // Spying the characters:
+  printf("\nMem addr of mys: %p\n", (void*)mys);
+  printf("\nChar 0: %c\n", (*mys));
+  printf("\nChar 1: %c\n", *(mys+1));
+  printf("\nChar 2: %c\n", *(mys+2));
+  printf("\nChar 3: %c\n", *(mys+3));
+  printf("\nChar 4: %c\n", *(mys+4));
+
+  // Modify the second character
+  mys[1] = 'o';
+
+  // Display modified string
+  printf("\nModified string: %s\n", mys);
+
+  printf("\n");
+  return 0;
+}
+```
+
+By using an array of characters (`char mys[]`) instead of a string literal, you can modify the contents of the array without encountering a segfault.
+"
+

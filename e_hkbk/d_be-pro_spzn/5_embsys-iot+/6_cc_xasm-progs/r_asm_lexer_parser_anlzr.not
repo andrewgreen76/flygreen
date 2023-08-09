@@ -1,4 +1,10 @@
 
+analyzer
+lexer-tknzr
+parser
+
+
+
 - BIOS/UEFI/coreboot ... There it is. Should have taken that
    book with me. 
  - kernel dev (hardware manager)

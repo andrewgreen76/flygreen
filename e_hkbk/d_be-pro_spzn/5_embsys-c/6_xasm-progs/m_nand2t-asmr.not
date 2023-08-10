@@ -18,7 +18,10 @@ variables of var.size -> variable table of ?var.size? -> find avail.mem.addr (?m
 	  [ var  | 0010RAMaddr10110 ]
 	   weight  0000000000010000
 		   @16(ofRAM)
-		   Actionable how ? : The CPU/AM/ALU-block performs a look-up. 
+		   Actionable how ? : the AM/ALU-block performs a look-up.
+
+ASM:		   Expected:  	      	  AM/ALU-block: 
+@weight	mpd to RAM 0000000000010000	  
 
 
 

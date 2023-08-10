@@ -102,13 +102,12 @@ Conclusion :
       - 1st pass : populate all the LABELS(decld @) and the corresponding @'s (instrxn count)
       - 2nd pass : populate all the variables
     - get to translating the .asm 
-  - labels :
-    - 1st pass : searching label.defs, adding to sym.table, designating @#um(A's/lines)->bin of instrxns for future PC=A jumps 
+  - 1st pass - labels :
+    - searching label.defs, adding to sym.table, designating @#um(A's/lines)->bin of instrxns for future PC=A jumps 
       - (The CPU/PC->ROM will take care the "IPTR" jumping. The asmr just performs the translation to Abin for ROM.) 
-  - vars :
-    - 2nd pass :
-      - looking up + allocation (reg'ing var + reg'ing next unreg'd RAM addr (16+) in the table)
-  - final run : looking up + subseq. replacing 	 LABELS with ROM addr 	    -AND-    var. with RAM addr.
+  - 2nd pass - vars :
+    - looking up + allocation (reg'ing var + reg'ing next unreg'd RAM addr (16+) in the table)
+    - finally translating : looking up + subseq. replacing 	 LABELS with ROM addr 	    -AND-    var. with RAM addr.
     - (the CPU+RAM will take care of RAMaddr->value ref'ing)
     - when from.asm:@const, then to.bin:00..1010
   - deleting the sym.table 

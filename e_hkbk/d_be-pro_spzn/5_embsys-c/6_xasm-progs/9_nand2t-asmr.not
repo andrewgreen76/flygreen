@@ -68,7 +68,7 @@ Conclusion :
 - the job of the asmr :
   - translating, NOT processing 
   - vars :
-    - looking up + allocation (reg'ing var, reg'ing next unreg'd RAM addr (16+) in the table)
+    - looking up + allocation (reg'ing var + reg'ing next unreg'd RAM addr (16+) in the table)
     - looking up + subseq. replacing var. with that RAM addr.
     - (the CPU+RAM will take care of RAMaddr->value ref'ing) 
   - labels :

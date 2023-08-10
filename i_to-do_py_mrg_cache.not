@@ -21,15 +21,19 @@ take your Mac laptop to the store
 
 
 
+HDL impl of ROM+CPU+RAM <- bin.exe (grb<ascii) <- assembler <- .asm 
+|
 IPTR to cur.instr.
 |
 variables of var.size -> variable table of ?var.size? -> mem.addr -> location
 |
-labels of var.size -> label table of ?var.size? -> ?LOC/LINE IN .ASM AS DEST FOR IPTR? 
-Worst-case scenario - forward reference :
+labels of var.size -> label table of ?var.size? -> ?LOC/LINE IN .ASM AS DEST FOR IPTR?
+- Gen. scenario (label.def, then label.use) :
+  - label.def -> asmr figures out the addr. of the 1st instr. under the label -> label-table 
+Worst-case scenario - forward reference (label-use, then label-def) : 
 - build the LABEL TABLE (1) , 1st pass thru .asm :
-  - account for all the label.defs, subseq. instr. line -> label table (1)
-- 2nd pass : sub labels with vals from label table (1) ?? 
+  - account for each label.def/subseq. instr. line -> label table (1)
+- 2nd pass : replace every procd label with a bin.val (from table) in the bin.file 
 
 
 

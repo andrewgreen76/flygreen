@@ -15,35 +15,13 @@ IPTR to cur.instr.
 BIN PROGRAM INSIDE OF ROM32K : 
 ======================================================================================================================
 
-variables of var.size -> variable table of ?var.size? -> find avail.mem.addr (?malloc?) -> variable-table
-
-
-	     	    0->15 taken
-	  [ var  | 0010RAMaddr10110 ]
-	   weight  0000000000010000
-		   @16(ofRAM)
-		   Actionable how ? : the AM/ALU-block performs a look-up.
-
-
-Sym.table :
-(var. lookup, alloc. if not there)
-weight	  |(populate)|	0000000000010000
-
-
-ASM:		   	      Expected:  	      	  AM/ALU-block: 
-@weight	mpd to RAM	      0000000000010000 		  (A-reg -> addrM)
-(Assume all vars have vals before comp.)
-M=D	       		      111xxxxxxxxxxxxx		  (ALU -> outM)
-
-======================================================================================================================
-
 labels of var.size -> label table of ?var.size? -> ?LOC/LINE IN .ASM AS DEST FOR IPTR?
 - Gen. scenario (label.def, then label.use) :							
   - label.def -> asmr figures out the addr. of the 1st instr. under the label -> label-table	
 - Worst-case scenario - forward reference (label-use, then label-def) :       	 		  	     
   - build the LABEL TABLE (1) , 1st pass thru .asm :
     - account for each label.def/subseq. instr. line -> label table (1)
-  - 2nd pass : replace every procd label with a bin.val (from table) in the bin.file 
+      	      	       			   - 2nd pass : replace every procd label with a bin.val (from table) in the bin.file 
 
 
     	high-level table (used by us, not asmr)
@@ -64,12 +42,35 @@ M-D;JEQ	       		      1111xxxxxxxxx010		  ld=1 => PC=A => JUMP -or- ld=0 => PC=
 
 ======================================================================================================================
 
+variables of var.size -> variable table of ?var.size? -> find avail.mem.addr (?malloc?) -> variable-table
+- on the 2nd pass 
+
+	     	    0->15 taken
+	  [ var  | 0010RAMaddr10110 ]
+	   weight  0000000000010000
+		   @16(ofRAM)
+		   Actionable how ? : the AM/ALU-block performs a look-up.
+
+
+Sym.table :
+(var. lookup, alloc. if not there)
+weight	  |(populate)|	0000000000010000
+
+
+ASM:		   	      Expected:  	      	  AM/ALU-block: 
+@weight	mpd to RAM	      0000000000010000 		  (A-reg -> addrM)
+(Assume all vars have vals before comp.)
+M=D	       		      111xxxxxxxxxxxxx		  (ALU -> outM)
+
+======================================================================================================================
+
 Conclusion :
 - the job of the asmr :
   - translating, NOT processing
-  - init ONE symbol table w/ : 
+    - init ONE symbol table w/ : 
     - pre-defined symbols
-    - 1st pass : populate with all the LABELS and the corresponding @'s (instrxn count) 
+    - 1st pass : populate with all the LABELS and the corresponding @'s (instrxn count)
+    - 2nd pass : 
   - labels :
     - 1st pass : searching label.defs, adding to sym.table, designating @#um->bin of instrxns for future PC=A jumps 
       - (the CPU+RAM will take care of A=01..010 and D=011..101 / M=110..110 within the same cycle ; allows for jumping around at runtime) 

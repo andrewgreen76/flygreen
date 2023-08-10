@@ -29,7 +29,7 @@ HDL impl of ROM+CPU+RAM <- bin.exe (grb<ascii) <- assembler <- .asm
 |
 IPTR to cur.instr.
 |
-variables of var.size -> variable table of ?var.size? -> find avail.mem.addr (malloc) -> variable-table
+variables of var.size -> variable table of ?var.size? -> find avail.mem.addr (?malloc?) -> variable-table
 |
 labels of var.size -> label table of ?var.size? -> ?LOC/LINE IN .ASM AS DEST FOR IPTR?
 - Gen. scenario (label.def, then label.use) :

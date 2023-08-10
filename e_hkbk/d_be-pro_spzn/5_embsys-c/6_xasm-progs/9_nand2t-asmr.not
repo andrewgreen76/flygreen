@@ -107,7 +107,7 @@ Conclusion :
       - (The CPU/PC->ROM will take care the "IPTR" jumping. The asmr just performs the translation to Abin for ROM.) 
   - 2nd pass - vars :
     - looking up + allocation (reg'ing var + reg'ing next unreg'd RAM addr (16+) in the table)
-    - finally translating : looking up + subseq. replacing 	 LABELS with ROM addr 	    -AND-    var. with RAM addr.
+  - main loop : finally translating : looking up + subseq. replacing 	 LABELS with ROM addr 	    -AND-    var. with RAM addr.
     - (the CPU+RAM will take care of RAMaddr->value ref'ing)
     - when from.asm:@const, then to.bin:00..1010
   - deleting the sym.table 

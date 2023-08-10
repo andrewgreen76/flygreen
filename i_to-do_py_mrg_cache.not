@@ -26,18 +26,20 @@ HDL impl of ROM+CPU+RAM <- bin.exe (grb<ascii) <- assembler <- .asm
 	    	regs	   			  
 	Let this one do the jumping.
 					Who's doing the rd/wr addr.?
+- It's the programmer who can introduce inanities like '@weight \n D-1;JNE' or '@LOOP \n M=32'
 |
 IPTR to cur.instr.
-|
-variables of var.size -> variable table of ?var.size? -> find avail.mem.addr (?malloc?) -> variable-table
-|
+|																0->15 taken
+variables of var.size -> variable table of ?var.size? -> find avail.mem.addr (?malloc?) -> variable-table	[ var weight | 0010memaddr10110 ]
+|	     	      	 	  	   	      	      		     		   			      	       0000000000010000
+|															       @16(ofRAM) 
 labels of var.size -> label table of ?var.size? -> ?LOC/LINE IN .ASM AS DEST FOR IPTR?
-- Gen. scenario (label.def, then label.use) :
-  - label.def -> asmr figures out the addr. of the 1st instr. under the label -> label-table 
-Worst-case scenario - forward reference (label-use, then label-def) : 
-- build the LABEL TABLE (1) , 1st pass thru .asm :
-  - account for each label.def/subseq. instr. line -> label table (1)
-- 2nd pass : replace every procd label with a bin.val (from table) in the bin.file 
+- Gen. scenario (label.def, then label.use) :							high-level table (used by us, not asmr) 
+  - label.def -> asmr figures out the addr. of the 1st instr. under the label -> label-table	[ label LOOP | numOfLineImpl? ] // No dual-use of val?
+- Worst-case scenario - forward reference (label-use, then label-def) :       	 		  	     @4(ofROM)   0...00100 // PC takes care of that.
+  - build the LABEL TABLE (1) , 1st pass thru .asm :
+    - account for each label.def/subseq. instr. line -> label table (1)
+  - 2nd pass : replace every procd label with a bin.val (from table) in the bin.file 
 
 
 

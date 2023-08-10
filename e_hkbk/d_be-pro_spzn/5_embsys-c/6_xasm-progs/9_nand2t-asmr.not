@@ -63,21 +63,48 @@ ASM:		   	      Expected:  	      	  AM/ALU-block:
 M=D	       		      111xxxxxxxxxxxxx		  (ALU -> outM)
 
 ======================================================================================================================
+ROM :				sym.table :			CPU behavior			Expected programmer's treatment :
+    					  			    				
+
+Loading flag-instr.: 												
+@SCREEN (RAMaddr)		SCREEN | A=01000..00(by def)	A->addrM , 			
+M=-1				-      	 			ALUout->outM 			<-
+
+
+Jumping flag-instr.
+( for PC=A(ln@height) ) : A<-...
+//
+@LOOP				LOOP | A=00..010(final run)	CPU/PC->ROM->CPU 
+D-1;JNE				       		     		111..101
+means smth to the asmr
+//
+(LOOP)				-> decl found			CPU/PC->ROM->CPU : 111..101
+ln @height			->LBL|ln@(1st pass)		//
+					
+
+@weight (RAMaddr)		weight | A=0..10000(2nd pass)	A<-0..10000
+				       | ( RAMaddrBin )		A->addrM
+				       
+M=D				-				ALUout->outM ,			<-
+======================================================================================================================
 
 Conclusion :
 - the job of the asmr :
   - translating, NOT processing
     - init ONE symbol table w/ : 
-    - pre-defined symbols
-    - 1st pass : populate with all the LABELS and the corresponding @'s (instrxn count)
-    - 2nd pass : 
+      - pre-defined symbols
+      - 1st pass : populate all the LABELS(decld @) and the corresponding @'s (instrxn count)
+      - 2nd pass : populate all the variables
+    - get to translating the .asm 
   - labels :
-    - 1st pass : searching label.defs, adding to sym.table, designating @#um->bin of instrxns for future PC=A jumps 
-      - (the CPU+RAM will take care of A=01..010 and D=011..101 / M=110..110 within the same cycle ; allows for jumping around at runtime) 
+    - 1st pass : searching label.defs, adding to sym.table, designating @#um(A's/lines)->bin of instrxns for future PC=A jumps 
+      - (The CPU/PC->ROM will take care the "IPTR" jumping. The asmr just performs the translation to Abin for ROM.) 
   - vars :
-    - 2nd pass : replacing every label.call with the ROMaddr. of the corresponding bin instrxn (for potential jumps). 
-    - looking up + allocation (reg'ing var + reg'ing next unreg'd RAM addr (16+) in the table)
+    - 2nd pass :
+      - looking up + allocation (reg'ing var + reg'ing next unreg'd RAM addr (16+) in the table)
     - looking up + subseq. replacing var. with that RAM addr.
-    - (the CPU+RAM will take care of RAMaddr->value ref'ing) 
-    
+    - (the CPU+RAM will take care of RAMaddr->value ref'ing)
+   - replacing every label.call with the ROMaddr. of the corresponding bin instrxn (for potential jumps). 
+   
+WRITE A PSEUDOCODE. 
 .

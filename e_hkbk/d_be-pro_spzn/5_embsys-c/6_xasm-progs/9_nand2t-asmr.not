@@ -110,6 +110,7 @@ Conclusion :
       - looking up + allocation (reg'ing var + reg'ing next unreg'd RAM addr (16+) in the table)
   - final run : looking up + subseq. replacing 	 LABELS with ROM addr 	    -AND-    var. with RAM addr.
     - (the CPU+RAM will take care of RAMaddr->value ref'ing)
+    - when from.asm:@const, then to.bin:00..1010
   - deleting the sym.table 
    
 WRITE A PSEUDOCODE. 

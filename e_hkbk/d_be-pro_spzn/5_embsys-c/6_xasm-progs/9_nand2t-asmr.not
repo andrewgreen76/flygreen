@@ -66,14 +66,17 @@ M-D;JEQ	       		      1111xxxxxxxxx010		  ld=1 => PC=A => JUMP -or- ld=0 => PC=
 
 Conclusion :
 - the job of the asmr :
-  - translating, NOT processing 
-  - vars :
-    - looking up + allocation (reg'ing var + reg'ing next unreg'd RAM addr (16+) in the table)
-    - looking up + subseq. replacing var. with that RAM addr.
-    - (the CPU+RAM will take care of RAMaddr->value ref'ing) 
+  - translating, NOT processing
+  - init ONE symbol table w/ : 
+    - pre-defined symbols
+    - 1st pass : populate with all the LABELS and the corresponding @'s (instrxn count) 
   - labels :
     - 1st pass : searching label.defs, adding to sym.table, designating @#um->bin of instrxns for future PC=A jumps 
       - (the CPU+RAM will take care of A=01..010 and D=011..101 / M=110..110 within the same cycle ; allows for jumping around at runtime) 
+  - vars :
     - 2nd pass : replacing every label.call with the ROMaddr. of the corresponding bin instrxn (for potential jumps). 
+    - looking up + allocation (reg'ing var + reg'ing next unreg'd RAM addr (16+) in the table)
+    - looking up + subseq. replacing var. with that RAM addr.
+    - (the CPU+RAM will take care of RAMaddr->value ref'ing) 
     
 .

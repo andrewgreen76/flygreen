@@ -79,13 +79,19 @@ D-1;JNE				       		     		111..101
 means smth to the asmr
 //
 (LOOP)				-> decl found			CPU/PC->ROM->CPU : 111..101
-ln @height			->LBL|ln@(1st pass)		//
+ln @height (ROMaddr)		->LBL|ln@(1st pass)		//
 					
 
-@weight (RAMaddr)		weight | A=0..10000(2nd pass)	A<-0..10000
-				       | ( RAMaddrBin )		A->addrM
+@weight (RAMaddr)		(2nd pass ; final run)						Treat it like a variable. 
+				(asmr replaces sym w/ bin A val.)
+				weight | A=0RAMaddr00		A<-0..10000
+				       	 		  	A->addrM
 				       
-M=D				-				ALUout->outM ,			<-
+M=D				-				D-reg->ALUout->outM w/ addrM,	<-
+-or-
+D=M				-				RAMout/inM->D-reg.		<-
+
+
 ======================================================================================================================
 
 Conclusion :

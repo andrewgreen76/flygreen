@@ -108,9 +108,10 @@ Conclusion :
   - vars :
     - 2nd pass :
       - looking up + allocation (reg'ing var + reg'ing next unreg'd RAM addr (16+) in the table)
-    - looking up + subseq. replacing var. with that RAM addr.
+  - final run : looking up + subseq. replacing 	 LABELS with ROM addr 	    -AND-    var. with RAM addr.
     - (the CPU+RAM will take care of RAMaddr->value ref'ing)
-   - replacing every label.call with the ROMaddr. of the corresponding bin instrxn (for potential jumps). 
+  - deleting the sym.table 
    
 WRITE A PSEUDOCODE. 
+
 .

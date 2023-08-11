@@ -2,3 +2,5 @@
 
 # Translate asm to bin -AND- synthsize current bin field to the instruction.
 
+print("Importing the translator module ...")
+

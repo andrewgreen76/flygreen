@@ -1,11 +1,37 @@
 
 main.py:
+
 - init indep. PARSER(.py)
+- init indep. TRANSLATOR(.py)
 - init indep. SYMTBLMGR(.py)
   - build     SYM.TABLE	w/ pre-defs
     as a dict 
-- handle GIVEN.ASM NAME from cli :
-  - outfile = GIVEN.HACK
-  	  (- init I/O (file-handling info) )
+
+- handle GIVENNAME.ASM from cli :
+  + outfile = GIVENNAME.HACK
+
+- distill ( givenname.asm , givenname_filtered1.txt )
+  	  > filtered_file1 = GIVENNAME_Flt1.TXT
+  	  > filtered_file2 = GIVENNAME_Flt2.TXT
+  - purge_mltln_comments :
+    - If first_char = "/*" , then keep parsing until passing "*/"
+  - purge_line_comments :
+    - 
+
+- pass_for_labels ()
+
+- pass_for_vars ()
+
+- loop_to_trans ()
+
+
+
+...
+
+
+
+- clean-up :
+  - delete sym.table
+  - delete givenname_filtered.txt
 
 .

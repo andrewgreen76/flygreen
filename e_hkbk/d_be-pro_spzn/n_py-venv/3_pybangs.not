@@ -1,0 +1,18 @@
+
+"
+Both `#!/usr/bin/env python` and `#!/usr/bin/env python3` are shebang lines commonly used at the beginning of a Python script to specify the interpreter that should be used to execute the script. However, there is an important difference between them:
+
+1. `#!/usr/bin/env python`:
+   - This shebang line indicates that the script should be executed using the `python` interpreter found in the user's `PATH`.
+   - It may point to either Python 2.x or Python 3.x, depending on how the `python` command is configured in the system.
+   - If the default `python` command points to Python 2.x, the script will be executed using Python 2.x. If it points to Python 3.x, the script will be executed using Python 3.x.
+
+2. `#!/usr/bin/env python3`:
+   - This shebang line explicitly specifies that the script should be executed using the `python3` interpreter found in the user's `PATH`.
+   - It ensures that the script is executed with Python 3.x, regardless of whether the default `python` command points to Python 2.x or Python 3.x.
+
+Using `#!/usr/bin/env python3` is considered a best practice when writing Python scripts, especially when targeting Python 3.x. It provides greater clarity and ensures that the script is executed with the intended version of Python.
+
+In summary, if you want to explicitly use Python 3.x, it's recommended to use `#!/usr/bin/env python3` in your shebang line to ensure consistent behavior across different environments.
+"
+

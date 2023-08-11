@@ -10,20 +10,20 @@ main.py:
 - handle GIVENNAME.ASM from cli :
   + outfile = GIVENNAME.HACK
 
-- distill ( givenname.asm , givenname_filtered1.txt )
-  	  > filtered_file1 = GIVENNAME_Flt1.TXT
-  	  > filtered_file2 = GIVENNAME_Flt2.TXT
-  - purge_mltln_comments :
+- distill ( givenname.asm , givenname_filtmult.txt )
+  - purge_mltln_comments : 
     - If first_char = "/*" , then keep parsing until passing "*/"
-  - purge_line_comments :
-    - 
-
+    > givenname_filtmult.txt
+  - purge_whlln_comments / purge_inline_comments :
+    - use string splitting
+    > givenname_filtln.txt
+    
 - pass_for_labels ()
-
+  > givenname.hack
 - pass_for_vars ()
-
+  > givenname.hack
 - loop_to_trans ()
-
+  > givenname.hack
 
 
 ...

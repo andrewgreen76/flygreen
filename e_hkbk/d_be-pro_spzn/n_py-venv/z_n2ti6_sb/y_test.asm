@@ -5,9 +5,9 @@
 
 // Computes R0 = 2 + 3  (R0 refers to RAM[0])
 
-/*blachblachblah*/ @2 /*blachblachblah*/ // fdshfehiuf 
-D=A	// fesofejfoej
-@3
-D=D+A
+/*blach		// 	blachblah*/ @2 /*blachblachblah*/ // fdshfehiuf 
+D=A	// fesofejfoej		// 
+@3	/*
+*/D=D+A
 @0
 M=D

@@ -1,0 +1,11 @@
+
+main.py:
+- init indep. PARSER(.py)
+- init indep. SYMTBLMGR(.py)
+  - build     SYM.TABLE	w/ pre-defs
+    as a dict 
+- handle GIVEN.ASM NAME from cli :
+  - outfile = GIVEN.HACK
+  	  (- init I/O (file-handling info) )
+
+.

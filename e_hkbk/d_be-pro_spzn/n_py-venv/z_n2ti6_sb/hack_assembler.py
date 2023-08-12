@@ -18,7 +18,7 @@ def is_arg_good():
                 return True                
             else:
                 print(f"The file '{asm_in}' is not recognized as an assembly file.")                
-                return False
+                return asm_in
         else:
             print(f"The file '{asm_in}' is not in the working directory.")
             return False
@@ -29,12 +29,16 @@ def is_arg_good():
 #def start_sym_table():
 #    print("Forgoing the creation of the symbol table ...")
 
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-    
-if(is_arg_good()):
+def make_hack_file():
     given_name, the_rest = sys.argv[1].split('.')
     outfile = given_name + ".hack"
     print("Creating", outfile, "...")
+    
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+    
+if(asm_in := is_arg_good()):
+    make_hack_file()
 
 '''
 - init indep. SYMTBLMGR(.py)

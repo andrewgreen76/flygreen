@@ -61,9 +61,10 @@ def filter_ln_cmts(prog_asm):
     with open(prog_asm, 'r') as input_file, open(progname + '_nsl.asm', 'w') as output_file:
         for line in input_file:
             parts = line.split('//')
-            spaceless = parts[0].replace(' ', '').replace('\t', '')
-            if(spaceless != ''):
-                output_file.write(spaceless) # If there's an UPCOMING LINE from input file, allow for NEWLINE in the output file.
+            output_file.write(parts[0])
+            #spaceless = parts[0].replace(' ', '').replace('\t', '')
+            #if(spaceless != ''):
+            #    output_file.write(spaceless) # If there's an UPCOMING LINE from input file, allow for NEWLINE in the output file.
 
 def filter_comments(prog_asm):
     #filter_mltln_cmts(prog_asm)

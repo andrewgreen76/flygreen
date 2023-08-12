@@ -28,42 +28,58 @@ def is_arg_good():
     else:    
         print("Operand assembly file name not provided.")
         return False
+
 #___________________________ Function : FILTERING OUT MULTI-LINE COMMENTS ______________________________    
 def filter_mltln_cmts(prog_asm):
+
     comment_start = '/*'
     comment_end = '*/'
     no_mltln_asm = progname + '_nml.asm'
-    ignore = False
     first_line = True
-    
+    ignore = False
+    instr_found = False
+
     with open(prog_asm, 'r') as input_file, open(no_mltln_asm, 'w') as output_file:
-        for line in input_file:    
+        for line in input_file:
             if(not first_line):    
-                output_file.write('\n') # If there's an UPCOMING LINE from input file, allow for NEWLINE in the output file. 
-            words = line.split()    # THE SEARCH FOR MULTILINE COMMENT BOOKENDS BEGINS. 
-            for word in words:
-                if(word == comment_start):
-                    ignore = True
-                    #continue
-                elif(word == comment_end):
-                    ignore = False
-                    #continue
-                elif(not ignore):
-                    output_file.write(word)
-            first_line = False 
+                output_file.write('\n') # If there's an UPCOMING LINE from input file, allow for NEWLINE in the output file.
+            words = line.split('/*', 1)
+            '''
+            if(words[0]):
+                #
+            while(words[1]):
+                if(not)
+            '''
+            #
+            first_line = False            
+
+    # '/*' and '*/' each can be a part of a word.  
 
 #___________________________ Function : FILTERING OUT SINGLE-LINE COMMENTS _____________________________    
-def filter_ln_cmts(asm_in):
-    with open(asm_in, 'w') as file:
-        None
+def filter_ln_cmts(prog_asm):
 
-def filter_comments(asm_in):
-    filter_mltln_cmts(asm_in)
-    #filter_ln_cmts(asm_in)
+    first_line = True
+
+    with open(prog_asm, 'r') as input_file, open(progname + '_nsl.asm', 'w') as output_file:
+        for line in input_file:
+            if(not first_line):    
+                output_file.write('\n') # If there's an UPCOMING LINE from input file, allow for NEWLINE in the output file.
+            parts = line.split('//')
+            spaceless = parts[0].replace(' ', '').replace('\t', '')
+            if(spaceless != ''):
+                output_file.write(spaceless) # If there's an UPCOMING LINE from input file, allow for NEWLINE in the output file.
+            first_line = False
+
+def filter_comments(prog_asm):
+    #filter_mltln_cmts(prog_asm)
+    filter_ln_cmts(prog_asm)
 #_______________________________ Function : CREATING THE SYMBOL TABLE __________________________________    
+
 def make_symtable():
     print("Forgoing the creation of the symbol table ...")
+
 #__________________________________ Function : CREATING .HACK FILE _____________________________________
+
 def make_hackfile(asm_in):
     outfile = progname + ".hack"
     print("Creating", outfile, "...")

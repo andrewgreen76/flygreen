@@ -5,14 +5,9 @@
 
 // Computes R0 = 2 + 3  (R0 refers to RAM[0])
 
-/**/ /*deefsers
-*/ 	// dwd awd
-	
-@2	// wadwadw
-D=A	/*deadesfesf
-*/ /*efse */@3 /*
- *
- * esfesf*/
-	D=D+A
-@0 // /*grgdr*/
+@2
+D=A
+@3
+D=D+A
+@0
 M=D

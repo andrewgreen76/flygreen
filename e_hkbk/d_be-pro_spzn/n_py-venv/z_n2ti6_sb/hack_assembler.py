@@ -44,13 +44,14 @@ def filter_mltln_cmts(prog_asm):
             for word in words:
                 if(word == comment_start):
                     ignore = True
-                    continue
+                    #continue
                 elif(word == comment_end):
                     ignore = False
-                    continue
+                    #continue
                 elif(not ignore):
                     output_file.write(word)
             first_line = False 
+
 #___________________________ Function : FILTERING OUT SINGLE-LINE COMMENTS _____________________________    
 def filter_ln_cmts(asm_in):
     with open(asm_in, 'w') as file:
@@ -58,7 +59,7 @@ def filter_ln_cmts(asm_in):
 
 def filter_comments(asm_in):
     filter_mltln_cmts(asm_in)
-    filter_ln_cmts(asm_in)
+    #filter_ln_cmts(asm_in)
 #_______________________________ Function : CREATING THE SYMBOL TABLE __________________________________    
 def make_symtable():
     print("Forgoing the creation of the symbol table ...")
@@ -79,7 +80,7 @@ if(prog_asm := is_arg_good()):               # arg check
     #__________________________________________________________________________________________________
     # Clean-up : 
     #os.remove(hack_out)
-    os.remove(progname + '_nml.asm')
+    #os.remove(progname + '_nml.asm')
 #######################################################################################################    
 
 '''

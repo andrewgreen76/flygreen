@@ -9,29 +9,32 @@ import translator
 import sys
 import os
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-def arg_or_fail():
+def is_arg_good():
 
-    if(len(sys.argv) > 1): # "Presence of an argument" test
+    if(len(sys.argv) > 1): # "Presence of argument 1" test
         asm_in = sys.argv[1]
         if os.path.exists(asm_in): # "Presence of the file" test
-            if(".asm" in asm_in): # "Recognition as .asm" test 
-                given_name, rest = asm_in.split('.')
-                outfile = given_name + ".hack"
-                #print("Creating", outfile, "...")
-                return outfile
+            if(".asm" in asm_in): # "Recognition as .asm" test
+                return True                
             else:
                 print(f"The file '{asm_in}' is not recognized as an assembly file.")                
+                return False
         else:
             print(f"The file '{asm_in}' is not in the working directory.")
+            return False
     else:    
         print("Operand assembly file name not provided.")
+        return False
 
 #def start_sym_table():
 #    print("Forgoing the creation of the symbol table ...")
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
     
-print("The output file will be:", arg_or_fail())
+if(is_arg_good()):
+    given_name, the_rest = sys.argv[1].split('.')
+    outfile = given_name + ".hack"
+    print("Creating", outfile, "...")
 
 '''
 - init indep. SYMTBLMGR(.py)

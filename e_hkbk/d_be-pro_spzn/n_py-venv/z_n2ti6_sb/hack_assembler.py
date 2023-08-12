@@ -3,8 +3,14 @@ print()
 print("Starting the Hack Assembler ...")
 
 #import symtblmgr  
+print("Importing the parser module ...")
 import parser
+print("Parser module imported")
+
+print("Importing the translator module ...")
 import translator
+print("Translator module imported")
+
 import sys
 import os
 

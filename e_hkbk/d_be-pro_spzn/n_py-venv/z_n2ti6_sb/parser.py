@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-print("Importing the parser module ...")
-
 at = '@'
 a_val = ''
 comp = ''

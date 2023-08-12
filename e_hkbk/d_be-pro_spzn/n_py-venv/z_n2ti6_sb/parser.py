@@ -1,45 +1,41 @@
 #!/usr/bin/env python3
 
-at = '@'
-a_val = ''
-comp = ''
-dest = ''
-jump = ''
+class Parser:
 
-def get_fields(instr):
+    def __init__(self):
+        self.a_val = ''
+        self.comp = ''
+        self.dest = ''
+        self.jump = ''
 
-    global a_val, comp, dest, jump
+    def get_fields(self, instr):
+        # A-instr : 
+        if(instr[0] == '@'):
+            a_val = instr.split('@')[1]
+        # C-instr with dest=comp : 
+        elif('=' in instr):
+            fields = instr.split('=')
+            self.dest = fields[0]
+            self.comp = fields[1]
+            self.jump = ''
+        # C-instr with comp;jump
+        elif(';' in instr):
+            fields = instr.split(';')
+            self.dest = ''
+            self.comp = fields[0]
+            self.jump = fields[1]
+        # Something else, probably a bad instruction : 
+        else:
+            print("Invalid instruction:", instr)
 
-    # A-instr : 
-    if(instr[0] == at):
-        a_val = instr.split('@')[1]
-    # C-instr with dest=comp : 
-    elif('=' in instr):
-        fields = instr.split('=')
-        dest = fields[0]
-        comp = fields[1]
-        jump = ''
-    # C-instr with comp;jump
-    elif(';' in instr):
-        fields = instr.split(';')
-        dest = ''
-        comp = fields[0]
-        jump = fields[1]
-    else:
-        print("Invalid instruction:", instr)
+    def get_a_val():
+        return self.a_val
 
-def get_a_val():
-    global a_val
-    return a_val
+    def get_comp():
+        return self.comp
 
-def get_comp():
-    global comp
-    return comp
+    def get_dest():
+        return self.dest
 
-def get_dest():
-    global dest
-    return dest
-
-def get_jump():
-    global jump
-    return jump
+    def get_jump():
+        return self.jump

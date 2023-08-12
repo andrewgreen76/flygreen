@@ -2,10 +2,13 @@
 print()
 print("Starting the Hack Assembler ...")
 
+#print("Importing the symbol table manager module ...")
 #import symtblmgr  
-print("Importing the parser module ...")
-import parser
-print("Parser module imported")
+#print("Symbol table manager module imported")
+
+print("Importing the parser class ...")
+from parser import Parser
+print("Parser class imported")
 
 print("Importing the translator module ...")
 import translator
@@ -16,6 +19,21 @@ import os
 
 progname = "prog"
 
+#_______________________________ Function : PARSE-TRANSLATE ROUTINE ____________________________________
+def parse_trans_loop():
+
+    first_instr = True
+    prs = Parser()
+
+    # Translate to .hack file on-the-fly : 
+    with open(progname + '_pure.asm', 'r') as input_file, open(progname + '.hack', 'w') as output_file:
+        for instr in input_file:
+            if(first_instr):
+                first_instr = False
+            else:
+                output_file.write('\n')
+            prs.get_fields(instr)
+                
 #_____________________________________ Function : RESULT DISPLAY _______________________________________
 def show_result():
 
@@ -90,20 +108,6 @@ def is_arg_good():
     else:    
         print("Operand assembly file name not provided.")
         return False
-
-#______________________________________ Function : ARG CHECK ___________________________________________
-def parse_trans_loop():
-
-    first_instr = True
-
-    with open(progname + '_pure.asm', 'r') as input_file, open(progname + '.hack', 'w') as output_file:
-        for line in input_file:
-            if(first_instr):
-                first_instr = False
-            else:
-                output_file.write('\n')
-            #if(line[0]=='@'):
-                
     
 ############################################ Script body : #############################################
 if(prog_asm := is_arg_good()):               # arg check

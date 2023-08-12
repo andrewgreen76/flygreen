@@ -32,10 +32,11 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
 - Python :
+  - nested dictionary indexing 
   - f-string evaluation
   - walrus operator
   - file I/O , lookahead functionality 
-  - global variable treatment 
+  - global variable treatment vs. using Class attributes 
 - better coding practices
   - integrity check without blowing up the call stack 
 __________________________________________________________________________

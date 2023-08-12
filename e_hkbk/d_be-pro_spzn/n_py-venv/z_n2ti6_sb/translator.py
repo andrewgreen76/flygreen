@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 
-# Translate asm to bin -AND- synthsize current bin field to the instruction.
+# Translate asm fields into binary -AND- synthsize them into a binary instruction.
 
 class Translator:
 
-  # 'field': [a, c's]
   def __init__(self):
-      
-    self.comp_table = {
+    None
+  ##########################################################################################################
+  def comp2bin(comp):
+
+    comp_table = {
       # a = 0
       '0': {'a': 0, 'c': 101010}, '1': {'a': 0, 'c': 111111}, '-1': {'a': 0, 'c': 111010}, 'D': {'a': 0, 'c': 001100}, 'A': {'a': 0, 'c': 110000},
       '!D': {'a': 0, 'c': 001101}, '!A': {'a': 0, 'c': 110001}, '-D': {'a': 0, 'c': 001111}, '-A': {'a': 0, 'c': 110011}, 'D+1': {'a': 0, 'c': 011111},
@@ -17,9 +19,29 @@ class Translator:
       'M': {'a': 1, 'c': 110000}, '!M': {'a': 1, 'c': 110001}, '-M': {'a': 1, 'c': 110011}, 'M+1': {'a': 1, 'c': 110111}, 'M-1': {'a': 1, 'c': 110010},
       'D+M': {'a': 1, 'c': 000010}, 'D-M': {'a': 1, 'c': 010011}, 'M-D': {'a': 1, 'c': 000111}, 'D&M': {'a': 1, 'c': 000000}, 'D|M': {'a': 1, 'c': 010101}
     }
-
-    self.dest_table = {
-        '': 000, 'M': 001, 'D': 010, 'MD': 011, 'A': 100, 'AM': 101, 'AD': 110, 'AMD': 111
+    
+    return str(comp_table[comp][a]) + str(comp_table[comp][c])
+  ##########################################################################################################
+  def dest2bin(dest):
+    
+    dest_table = {
+      '': 000, 'M': 001, 'D': 010, 'MD': 011, 'A': 100, 'AM': 101, 'AD': 110, 'AMD': 111
     }
 
-  def
+    return str(dest_table[dest])
+  ##########################################################################################################
+  def jump2bin(jump):
+
+    jump_table = {
+      '': 000, 'JGT': 001, 'JEQ': 010, 'JGE': 011, 'JLT': 100, 'JNE': 101, 'JLE': 110, 'JMP': 111      
+    }
+    
+    return str(jump_table[jump])
+  ##########################################################################################################
+  def get_bin_instr(a_sym, a_val, comp, dest, jump): 
+    # A-instruction : 
+    if(a_sym == '@'):
+      return '0' + bin(a_val)[2:].zfill(15)
+    # C-instruction : 
+    else:
+      return '111' + comp2bin(comp) + dest2bin(dest) + jump2bin(jump)

@@ -11,7 +11,7 @@ from parser import Parser
 print("Parser class imported")
 
 print("Importing the translator module ...")
-import translator
+from translator import Translator
 print("Translator module imported")
 
 import sys
@@ -23,16 +23,17 @@ progname = "prog"
 def parse_trans_loop():
 
     first_instr = True
-    prs = Parser()
 
     # Translate to .hack file on-the-fly : 
     with open(progname + '_pure.asm', 'r') as input_file, open(progname + '.hack', 'w') as output_file:
         for instr in input_file:
+            prs = Parser()
+            trans = Translator()
             if(first_instr):
                 first_instr = False
             else:
                 output_file.write('\n')
-            prs.get_fields(instr)
+            trans.get_bin_instr(prs.get_fields(instr))
                 
 #_____________________________________ Function : RESULT DISPLAY _______________________________________
 def show_result():

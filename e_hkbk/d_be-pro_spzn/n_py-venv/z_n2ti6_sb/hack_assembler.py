@@ -10,16 +10,44 @@ import os
 
 progname = "prog"
 
-#___________________________ Function : FILTERING OUT SINGLE-LINE COMMENTS _____________________________    
+#_____________________________________ Function : RESULT DISPLAY _______________________________________
+def show_result():
+
+    print(f"Displaying contents of the file '{progname}'_pure.asm ...")
+    
+    with open(progname + '_pure.asm', 'r') as file:
+        for line in file:
+            print(line, end='')  # Print each line without adding extra newline
+
+#_________________________________ Function : FILTERING OUT COMMENTS ___________________________________    
 def filter_ln_cmts(prog_asm):
 
-    with open(prog_asm, 'r') as input_file, open(progname + '_nsl.asm', 'w') as output_file:
+    first_instr = True
+    print(f"Generating non-code filtration files for program \'{progname}\' ...")
+
+    # Filtering out whole-line comments : 
+    with open(progname + '.asm', 'r') as input_file, open(progname + '_nsl.asm', 'w') as output_file:
         for line in input_file:
-            parts = line.split('//')
-            output_file.write(parts[0])
-            #spaceless = parts[0].replace(' ', '').replace('\t', '')
-            #if(spaceless != ''):
-            #    output_file.write(spaceless) # If there's an UPCOMING LINE from input file, allow for NEWLINE in the output file.
+            if(line[0]=='D' or line[0]=='M' or line[0]=='A' or line[0]=='0' or line[0]=='@'):
+                if(first_instr):
+                    first_instr = False
+                else:
+                    output_file.write('\n')
+                output_file.write(line.strip())
+
+    
+    # Filtering out inline comments : 
+    first_instr = True
+    with open(progname + '_nsl.asm', 'r') as input_file, open(progname + '_pure.asm', 'w') as output_file:
+        for line in input_file:
+            if(first_instr):
+                first_instr = False
+            else:
+                output_file.write('\n')
+            substrings = line.split('//')
+            instruction = substrings[0].strip()
+            output_file.write(instruction)
+            first_instr = False
 
 def filter_comments(prog_asm):
     #filter_mltln_cmts(prog_asm)
@@ -57,17 +85,35 @@ def is_arg_good():
         print("Operand assembly file name not provided.")
         return False
 
+#______________________________________ Function : ARG CHECK ___________________________________________
+def parse_trans_loop():
+
+    first_instr = True
+
+    with open(progname + '_pure.asm', 'r') as input_file, open(progname + '.hack', 'w') as output_file:
+        for line in input_file:
+            if(first_instr):
+                first_instr = False
+            else:
+                output_file.write('\n')
+            #if(line[0]=='@'):
+                
+    
 ############################################ Script body : #############################################
 if(prog_asm := is_arg_good()):               # arg check
     progname, the_rest = prog_asm.split('.') # extracting the generic program name 
     filter_comments(prog_asm)                # comment filtration
-    # building symbol table 
+    show_result()
+    # building symbol table
+    parse_trans_loop()
     
+
     #hack_out = make_hackfile(asm_in) # creating .hack file
     #__________________________________________________________________________________________________
-    # Clean-up : 
-    #os.remove(hack_out)
-    #os.remove(progname + '_nml.asm')
+    # Clean-up :
+    print("Removing auxiliary files ...")
+    os.remove(progname + '_nsl.asm')
+    #os.remove(progname + '_pure.asm')
 #######################################################################################################    
 
 '''
@@ -77,22 +123,14 @@ if(prog_asm := is_arg_good()):               # arg check
 '''
 
 '''
-- distill ( givenname.asm , givenname_filtmult.txt )
-  - purge_mltln_comments : 
-    - If first_char = "/*" , then keep parsing until passing "*/"
-    > givenname_filtmult.txt
-  - purge_whlln_comments / purge_inline_comments :
-    - use string splitting
-    > givenname_filtln.txt
-'''
-
-'''
 - pass_for_LABELS (decls)
   > givenname.hack
 |
 - pass_for_vars ()
   > givenname.hack
-|
+'''
+
+'''
 - loop_to_trans ()
   > givenname.hack
     - If @ , instr_code = 0

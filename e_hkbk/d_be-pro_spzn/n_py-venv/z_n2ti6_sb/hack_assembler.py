@@ -33,7 +33,7 @@ def parse_trans_loop():
                 first_instr = False
             else:
                 output_file.write('\n')
-            trans.get_bin_instr(prs.get_fields(instr))
+            output_file.write(trans.get_bin_instr(prs.get_fields(instr)))            
                 
 #_____________________________________ Function : RESULT DISPLAY _______________________________________
 def show_result():

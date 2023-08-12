@@ -1,24 +1,37 @@
 #!/usr/bin/env python3
-
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 print()
 print("Starting the Hack Assembler ...")
-
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 #import symtblmgr  
 import parser
 import translator
 import sys
+import os
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+def arg_or_fail():
 
-def treat_asm_name():
-    asm_in = sys.argv[1] if len(sys.argv) > 1 else print("\nProvide name of .asm file to process, as in: python3 hkasmr.py __fname__.asm\n")
-    print("Processing", asm_in, "...")
-    given_name, rest = asm_in.split('.')
-    print("Creating", given_name + ".hack")
+    if(len(sys.argv) > 1): # "Presence of an argument" test
+        asm_in = sys.argv[1]
+        if os.path.exists(asm_in): # "Presence of the file" test
+            if(".asm" in asm_in): # "Recognition as .asm" test 
+                given_name, rest = asm_in.split('.')
+                outfile = given_name + ".hack"
+                #print("Creating", outfile, "...")
+                return outfile
+            else:
+                print(f"The file '{asm_in}' is not recognized as an assembly file.")                
+        else:
+            print(f"The file '{asm_in}' is not in the working directory.")
+    else:    
+        print("Operand assembly file name not provided.")
 
-def start_sym_table():
-    print("Forgoing the creation of the symbol table ...")
+#def start_sym_table():
+#    print("Forgoing the creation of the symbol table ...")
 
-treat_asm_name()
-start_sym_table()
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+    
+print("The output file will be:", arg_or_fail())
 
 '''
 - init indep. SYMTBLMGR(.py)

@@ -58,17 +58,12 @@ def filter_mltln_cmts(prog_asm):
 #___________________________ Function : FILTERING OUT SINGLE-LINE COMMENTS _____________________________    
 def filter_ln_cmts(prog_asm):
 
-    first_line = True
-
     with open(prog_asm, 'r') as input_file, open(progname + '_nsl.asm', 'w') as output_file:
         for line in input_file:
-            if(not first_line):    
-                output_file.write('\n') # If there's an UPCOMING LINE from input file, allow for NEWLINE in the output file.
             parts = line.split('//')
             spaceless = parts[0].replace(' ', '').replace('\t', '')
             if(spaceless != ''):
                 output_file.write(spaceless) # If there's an UPCOMING LINE from input file, allow for NEWLINE in the output file.
-            first_line = False
 
 def filter_comments(prog_asm):
     #filter_mltln_cmts(prog_asm)

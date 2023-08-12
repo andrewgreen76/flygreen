@@ -26,19 +26,17 @@ def is_arg_good():
         print("Operand assembly file name not provided.")
         return False
 
-#def start_sym_table():
-#    print("Forgoing the creation of the symbol table ...")
-
-def make_hack_file():
+def make_hackfile():
     given_name, the_rest = sys.argv[1].split('.')
     outfile = given_name + ".hack"
     print("Creating", outfile, "...")
     
+#def start_sym_table():
+#    print("Forgoing the creation of the symbol table ...")
 
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-    
+########################################### Script body : #############################################
 if(asm_in := is_arg_good()):
-    make_hack_file()
+    make_hackfile()
 
 '''
 - init indep. SYMTBLMGR(.py)

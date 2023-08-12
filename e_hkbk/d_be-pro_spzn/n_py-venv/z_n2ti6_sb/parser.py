@@ -3,14 +3,16 @@
 class Parser:
 
     def __init__(self):
+        
         # An instance of this class will produce : @a_val
         self.a_sym = ''
         self.a_val = ''
         self.comp = ''
         self.dest = ''
         self.jump = ''
-
+    #######################################################################
     def get_fields(self, instr):
+        
         # A-instr : 
         if(instr[0] == '@'):
             a_sym = '@'
@@ -28,16 +30,17 @@ class Parser:
         # Something else, probably a bad instruction : 
         else:
             print("Invalid instruction:", instr)
+            
         return self.a_sym, self.a_val, self.comp, self.dest, self.jump
-
+    #######################################################################
     def get_a_val():
         return self.a_val
-
+    #######################################################################
     def get_comp():
         return self.comp
-
+    #######################################################################
     def get_dest():
         return self.dest
-
+    #######################################################################
     def get_jump():
         return self.jump

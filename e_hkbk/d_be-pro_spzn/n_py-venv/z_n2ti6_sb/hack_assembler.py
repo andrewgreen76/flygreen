@@ -33,17 +33,19 @@ def parse_trans_loop():
                 first_instr = False
             else:
                 output_file.write('\n')
-            output_file.write(trans.get_bin_instr(prs.get_fields(instr)))            
+            s,v,c,d,j = prs.get_fields(instr)
+            output_file.write(trans.get_bin_instr(s,v,c,d,j))            
                 
 #_____________________________________ Function : RESULT DISPLAY _______________________________________
 def show_result():
 
-    print(f"Displaying contents of the file '{progname}'_pure.asm ...")
+    print(f"Displaying contents of the file '{progname}_pure.asm' ...")
     
     with open(progname + '_pure.asm', 'r') as file:
         for line in file:
             print(line, end='')  # Print each line without adding extra newline
 
+    print()
 #_________________________________ Function : FILTERING OUT COMMENTS ___________________________________    
 def filter_ln_cmts(prog_asm):
 

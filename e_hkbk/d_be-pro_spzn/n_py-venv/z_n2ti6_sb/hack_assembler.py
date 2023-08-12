@@ -10,51 +10,6 @@ import os
 
 progname = "prog"
 
-#______________________________________ Function : ARG CHECK ___________________________________________
-def is_arg_good():
-    
-    if(len(sys.argv) > 1): # "Presence of argument 1" test
-        asm_in = sys.argv[1]
-        if os.path.exists(asm_in): # "Presence of the file" test
-            if(".asm" in asm_in): # "Recognition as .asm" test
-                print(f"Detected file {asm_in}. Processing ... ")
-                return asm_in               
-            else:
-                print(f"The file '{asm_in}' is not recognized as an assembly file.")                
-                return False
-        else:
-            print(f"The file '{asm_in}' is not in the working directory.")
-            return False
-    else:    
-        print("Operand assembly file name not provided.")
-        return False
-
-#___________________________ Function : FILTERING OUT MULTI-LINE COMMENTS ______________________________    
-def filter_mltln_cmts(prog_asm):
-
-    comment_start = '/*'
-    comment_end = '*/'
-    no_mltln_asm = progname + '_nml.asm'
-    first_line = True
-    ignore = False
-    instr_found = False
-
-    with open(prog_asm, 'r') as input_file, open(no_mltln_asm, 'w') as output_file:
-        for line in input_file:
-            if(not first_line):    
-                output_file.write('\n') # If there's an UPCOMING LINE from input file, allow for NEWLINE in the output file.
-            words = line.split('/*', 1)
-            '''
-            if(words[0]):
-                #
-            while(words[1]):
-                if(not)
-            '''
-            #
-            first_line = False            
-
-    # '/*' and '*/' each can be a part of a word.  
-
 #___________________________ Function : FILTERING OUT SINGLE-LINE COMMENTS _____________________________    
 def filter_ln_cmts(prog_asm):
 
@@ -82,6 +37,26 @@ def make_hackfile(asm_in):
     with open(outfile, 'w') as file:
         None
     return outfile
+
+#______________________________________ Function : ARG CHECK ___________________________________________
+def is_arg_good():
+    
+    if(len(sys.argv) > 1): # "Presence of argument 1" test
+        asm_in = sys.argv[1]
+        if os.path.exists(asm_in): # "Presence of the file" test
+            if(".asm" in asm_in): # "Recognition as .asm" test
+                print(f"Detected file {asm_in}. Processing ... ")
+                return asm_in               
+            else:
+                print(f"The file '{asm_in}' is not recognized as an assembly file.")                
+                return False
+        else:
+            print(f"The file '{asm_in}' is not in the working directory.")
+            return False
+    else:    
+        print("Operand assembly file name not provided.")
+        return False
+
 ############################################ Script body : #############################################
 if(prog_asm := is_arg_good()):               # arg check
     progname, the_rest = prog_asm.split('.') # extracting the generic program name 

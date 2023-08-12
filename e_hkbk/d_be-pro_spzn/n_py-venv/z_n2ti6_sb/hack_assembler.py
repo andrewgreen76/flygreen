@@ -7,7 +7,7 @@ import parser
 import translator
 import sys
 import os
-#___________________________________________ Functions :  ____________________________________________
+#______________________________________ Function : ARG CHECK ___________________________________________
 def is_arg_good():
 
     if(len(sys.argv) > 1): # "Presence of argument 1" test
@@ -24,18 +24,23 @@ def is_arg_good():
     else:    
         print("Operand assembly file name not provided.")
         return False
-#------------------------------------------------------------------------------------------------------
+#_________________________________ Function : CREATING .HACK FILE ______________________________________
 def make_hackfile(asm_in):
     given_name, the_rest = asm_in.split('.')
     outfile = given_name + ".hack"
     print("Creating", outfile, "...")
+    with open(outfile, 'w') as file:
+        None
+    return outfile
     
 #def start_sym_table():
 #    print("Forgoing the creation of the symbol table ...")
 
 ########################################### Script body : #############################################
 if(asm_in := is_arg_good()):
-    make_hackfile(asm_in)
+    hack_out = make_hackfile(asm_in)
+    #
+    os.remove(hack_out)
 
 '''
 - init indep. SYMTBLMGR(.py)

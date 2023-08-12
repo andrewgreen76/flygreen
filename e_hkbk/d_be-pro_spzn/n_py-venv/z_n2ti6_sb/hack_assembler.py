@@ -1,33 +1,32 @@
 #!/usr/bin/env python3
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 print()
 print("Starting the Hack Assembler ...")
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
 #import symtblmgr  
 import parser
 import translator
 import sys
 import os
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+#___________________________________________ Functions :  ____________________________________________
 def is_arg_good():
 
     if(len(sys.argv) > 1): # "Presence of argument 1" test
         asm_in = sys.argv[1]
         if os.path.exists(asm_in): # "Presence of the file" test
             if(".asm" in asm_in): # "Recognition as .asm" test
-                return True                
+                return asm_in               
             else:
                 print(f"The file '{asm_in}' is not recognized as an assembly file.")                
-                return asm_in
+                return False
         else:
             print(f"The file '{asm_in}' is not in the working directory.")
             return False
     else:    
         print("Operand assembly file name not provided.")
         return False
-
-def make_hackfile():
-    given_name, the_rest = sys.argv[1].split('.')
+#------------------------------------------------------------------------------------------------------
+def make_hackfile(asm_in):
+    given_name, the_rest = asm_in.split('.')
     outfile = given_name + ".hack"
     print("Creating", outfile, "...")
     
@@ -36,7 +35,7 @@ def make_hackfile():
 
 ########################################### Script body : #############################################
 if(asm_in := is_arg_good()):
-    make_hackfile()
+    make_hackfile(asm_in)
 
 '''
 - init indep. SYMTBLMGR(.py)

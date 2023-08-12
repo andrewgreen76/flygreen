@@ -31,7 +31,10 @@ __________________________________________________________________________
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- 
+- Python :
+  - walrus operator
+- better coding practices
+  - integrity check without blowing up the call stack 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

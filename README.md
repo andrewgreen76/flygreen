@@ -33,6 +33,8 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
 - Python :
   - walrus operator
+  - file I/O , lookahead functionality 
+  - global variable treatment 
 - better coding practices
   - integrity check without blowing up the call stack 
 __________________________________________________________________________

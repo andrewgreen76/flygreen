@@ -32,6 +32,7 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
 - Python :
+  - f-string evaluation
   - walrus operator
   - file I/O , lookahead functionality 
   - global variable treatment 

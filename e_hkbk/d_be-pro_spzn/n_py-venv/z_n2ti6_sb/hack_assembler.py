@@ -39,7 +39,7 @@ def filter_mltln_cmts(prog_asm):
     with open(prog_asm, 'r') as input_file, open(no_mltln_asm, 'w') as output_file:
         for line in input_file:    
             if(not first_line):    
-                output_file.write('\n') # If there's an upcoming line from input file, allow for newline in the output file. 
+                output_file.write('\n') # If there's an UPCOMING LINE from input file, allow for NEWLINE in the output file. 
             words = line.split()    # THE SEARCH FOR MULTILINE COMMENT BOOKENDS BEGINS. 
             for word in words:
                 if(word == comment_start):
@@ -50,7 +50,7 @@ def filter_mltln_cmts(prog_asm):
                     continue
                 elif(not ignore):
                     output_file.write(word)
-            first_line = False
+            first_line = False 
 #___________________________ Function : FILTERING OUT SINGLE-LINE COMMENTS _____________________________    
 def filter_ln_cmts(asm_in):
     with open(asm_in, 'w') as file:

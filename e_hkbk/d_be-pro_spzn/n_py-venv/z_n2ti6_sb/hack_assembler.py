@@ -34,6 +34,7 @@ def parse_trans_loop():
             else:
                 output_file.write('\n')
             s,v,c,d,j = prs.get_fields(instr)
+            print(f"What's going on ? : \n s: {s}\n v: {v}\n c: {c}\n d: {d}\n j: {j}\n")
             output_file.write(trans.get_bin_instr(s,v,c,d,j))            
                 
 #_____________________________________ Function : RESULT DISPLAY _______________________________________

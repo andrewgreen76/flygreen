@@ -13,15 +13,14 @@ class Parser:
     #######################################################################
     def get_fields(self, instr, sym_table):
 
-        print(f"Processing instruction: {instr}")
         # A-instr : 
         if(instr[0] == '@'):
             self.a_sym = '@'
             self.a_vstr = instr[1:] # A-string with @ peeled off. 
 
-            if(self.a_vstr in list(sym_table)):   # If registered, map the encountered label to addr. 
-                self.a_vstr = sym_table[self.a_vstr]     # Retrieve the corresponding address.  
-            # Otherwise the A-val is actually numerical. 
+            if(self.a_vstr in list(sym_table)):   # If encountered a registered label, ... 
+                self.a_vstr = sym_table[self.a_vstr]     # ... retrieve the corresponding address.  
+            # So, @a_vstr has been mapped (was a word) or is already a decimal constant. 
             
         # C-instr with dest=comp : 
         elif('=' in instr):

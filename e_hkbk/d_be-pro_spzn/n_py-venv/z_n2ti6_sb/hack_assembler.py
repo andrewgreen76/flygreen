@@ -57,12 +57,15 @@ def filter_ln_cmts(prog_asm):
     # Filtering out whole-line comments : 
     with open(progname + '.asm', 'r') as input_file, open(progname + '_nsl.asm', 'w') as output_file:
         for line in input_file:
-            if(line[0]=='D' or line[0]=='M' or line[0]=='A' or line[0]=='0' or line[0]=='@'):
+            subject = line.strip()
+            if(subject[0]=='D' or subject[0]=='M' or subject[0]=='A' or subject[0]=='0' or subject[0]=='@'):
+
                 if(first_instr):
                     first_instr = False
                 else:
                     output_file.write('\n')
-                output_file.write(line.strip())
+                    
+                output_file.write(subject)
     
     # Filtering out inline comments : 
     first_instr = True

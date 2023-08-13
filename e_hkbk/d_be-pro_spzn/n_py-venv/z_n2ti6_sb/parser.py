@@ -11,12 +11,17 @@ class Parser:
         self.dest = ''
         self.jump = ''
     #######################################################################
-    def get_fields(self, instr):
+    def get_fields(self, instr, sym_table):
 
         # A-instr : 
         if(instr[0] == '@'):
             self.a_sym = '@'
-            self.a_vstr = instr[1:]
+            self.a_vstr = instr[1:] # A-string with @ peeled off. 
+
+            if(self.a_vstr in list(sym_table)):   # If registered, map the encountered label to addr. 
+                self.a_vstr = sym_table[self.a_vstr]     # Retrieve the corresponding address.  
+            # Otherwise the A-val is actually numerical. 
+            
         # C-instr with dest=comp : 
         elif('=' in instr):
             fields = instr.split('=')

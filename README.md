@@ -32,7 +32,8 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
 - Python :
-  - nested dictionary indexing 
+  - string slicing
+  - dictionaries : nested dictionary indexing, appending, getting keys only, etc.   
   - f-string evaluation
   - walrus operator
   - file I/O , lookahead functionality 

@@ -20,13 +20,13 @@ import os
 progname = "prog"
 
 #_______________________________ Function : PARSE-TRANSLATE ROUTINE ____________________________________
-def parse_trans_loop():
+def parse_trans_loop(sym_table):
 
     is_first_instr = True
 
     print("Parsing through and translating instructions ...")
     # Translate to .hack file on-the-fly : 
-    with open(progname + '_pure.asm', 'r') as input_file, open(progname + '.hack', 'w') as output_file:
+    with open(progname + '_vars_regd.asm', 'r') as input_file, open(progname + '.hack', 'w') as output_file:
         for instr in input_file:
             prs = Parser()
             trans = Translator()
@@ -37,7 +37,7 @@ def parse_trans_loop():
             else:
                 output_file.write('\n')
 
-            output_file.write(trans.get_bin_instr(prs.get_fields(instr)))
+            output_file.write(trans.get_bin_instr(prs.get_fields(instr, sym_table)))
                 
 #_____________________________________ Function : RESULT DISPLAY _______________________________________
 def show_content(filename):
@@ -105,9 +105,10 @@ if(prog_asm := is_arg_good()):               # arg check
     progname, the_rest = prog_asm.split('.') # extracting the generic program name 
     filter_comments(prog_asm)                # comment filtration
 
-    symgr = SymbolTableManager() # Symbol table built with pre-defined elements. 
-    
-    parse_trans_loop()
+    symgr = SymbolTableManager() # Symbol table built with pre-defined elements.
+    symgr.map_labels(progname)
+    symgr.map_vars(progname)
+    parse_trans_loop(symgr.table)
     #__________________________________________________________________________________________________
 
     # Clean-up :
@@ -117,17 +118,3 @@ if(prog_asm := is_arg_good()):               # arg check
     os.remove(progname + '_pure.asm')
     show_content(progname + '.hack')    
     #os.remove(progname + '.hack')
-#######################################################################################################    
-
-'''
-  - build     SYM.TABLE	w/ pre-defs
-    as a dict 
-'''
-
-'''
-- pass_for_LABELS (decls)
-  > givenname.hack
-|
-- pass_for_vars ()
-  > givenname.hack
-'''

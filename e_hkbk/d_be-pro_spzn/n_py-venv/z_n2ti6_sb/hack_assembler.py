@@ -2,17 +2,17 @@
 print()
 print("Starting the Hack Assembler ...")
 
-#print("Importing the symbol table manager module ...")
-#import symtblmgr  
-#print("Symbol table manager module imported")
+print("Importing the symbol table manager class ...")
+from symtblmgr import SymbolTableManager  
+print("Symbol table manager class imported.")
 
 print("Importing the parser class ...")
 from parser import Parser
-print("Parser class imported")
+print("Parser class imported.")
 
 print("Importing the translator class ...")
 from translator import Translator
-print("Translator class imported")
+print("Translator class imported.")
 
 import sys
 import os
@@ -86,15 +86,6 @@ def filter_comments(prog_asm):
 def make_symtable():
     print("Forgoing the creation of the symbol table ...")
 
-#__________________________________ Function : CREATING .HACK FILE _____________________________________
-
-def make_hackfile(asm_in):
-    outfile = progname + ".hack"
-    print("Creating", outfile, "...")
-    with open(outfile, 'w') as file:
-        None
-    return outfile
-
 #______________________________________ Function : ARG CHECK ___________________________________________
 def is_arg_good():
     
@@ -118,14 +109,11 @@ def is_arg_good():
 if(prog_asm := is_arg_good()):               # arg check
     progname, the_rest = prog_asm.split('.') # extracting the generic program name 
     filter_comments(prog_asm)                # comment filtration
-    # building symbol table
     parse_trans_loop()
-    
-
-    #hack_out = make_hackfile(asm_in) # creating .hack file
     #__________________________________________________________________________________________________
+
     # Clean-up :
-    print("Done.")
+    print(f"File {progname}.hack generated.")
     print("Removing auxiliary files ...")
     os.remove(progname + '_nsl.asm')
     os.remove(progname + '_pure.asm')

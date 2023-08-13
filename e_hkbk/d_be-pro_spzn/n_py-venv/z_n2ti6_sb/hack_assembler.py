@@ -24,15 +24,19 @@ def parse_trans_loop():
 
     first_instr = True
 
+    print("Parsing through and translating instructions ...")
     # Translate to .hack file on-the-fly : 
     with open(progname + '_pure.asm', 'r') as input_file, open(progname + '.hack', 'w') as output_file:
         for instr in input_file:
             prs = Parser()
             trans = Translator()
+            print(f"Processing instruction: {instr}")
+            
             if(first_instr):
                 first_instr = False
             else:
                 output_file.write('\n')
+
             s,v,c,d,j = prs.get_fields(instr)
             print(f"What's going on ? : \n s: {s}\n v: {v}\n c: {c}\n d: {d}\n j: {j}\n")
             output_file.write(trans.get_bin_instr(s,v,c,d,j))            

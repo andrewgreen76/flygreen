@@ -12,7 +12,8 @@ class Parser:
         self.jump = ''
     #######################################################################
     def get_fields(self, instr):
-        
+
+        print("Extracting fields from the instruction ...")
         # A-instr : 
         if(instr[0] == '@'):
             a_sym = '@'
@@ -30,6 +31,13 @@ class Parser:
         # Something else, probably a bad instruction : 
         else:
             print("Invalid instruction:", instr)
+
+        print("Extracted fields:")
+        print(f"self.a_sym: {self.a_sym}")
+        print(f"self.a_val: {self.a_val}")
+        print(f"self.comp: {self.comp}")
+        print(f"self.dest: {self.dest}")
+        print(f"self.jump: {self.jump}")
             
         return self.a_sym, self.a_val, self.comp, self.dest, self.jump
     #######################################################################

@@ -22,7 +22,7 @@ progname = "prog"
 #_______________________________ Function : PARSE-TRANSLATE ROUTINE ____________________________________
 def parse_trans_loop():
 
-    first_instr = True
+    is_first_instr = True
 
     print("Parsing through and translating instructions ...")
     # Translate to .hack file on-the-fly : 
@@ -30,16 +30,17 @@ def parse_trans_loop():
         for instr in input_file:
             prs = Parser()
             trans = Translator()
+            instr = instr.strip()
             print(f"Processing instruction: {instr}")
             
-            if(first_instr):
-                first_instr = False
+            if(is_first_instr):
+                is_first_instr = False
             else:
                 output_file.write('\n')
 
-            s,v,c,d,j = prs.get_fields(instr)
-            print(f"What's going on ? : \n s: {s}\n v: {v}\n c: {c}\n d: {d}\n j: {j}\n")
-            output_file.write(trans.get_bin_instr(s,v,c,d,j))            
+            pass_list = prs.get_fields(instr)
+            formed_instr = trans.get_bin_instr(pass_list)
+            output_file.write(formed_instr)
                 
 #_____________________________________ Function : RESULT DISPLAY _______________________________________
 def show_result():

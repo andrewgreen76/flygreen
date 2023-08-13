@@ -40,10 +40,16 @@ class Translator:
     
     return jump_table[jump]
   ##########################################################################################################
-  def get_bin_instr(a_sym, a_val, comp, dest, jump): 
+  def get_bin_instr(pass_list):
+
+    a_sym = pass_list[0]
+    a_vstr = pass_list[1]
+    comp = pass_list[2]
+    dest = pass_list[3]
+    jump = pass_list[4]
     # A-instruction : 
     if(a_sym == '@'):
-      return '0' + bin(a_val)[2:].zfill(15)
+      return '0' + bin(int(a_vstr))[2:].zfill(15)
     # C-instruction : 
     else:
       return '111' + comp2bin(comp) + dest2bin(dest) + jump2bin(jump)

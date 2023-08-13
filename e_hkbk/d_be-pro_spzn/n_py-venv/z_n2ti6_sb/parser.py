@@ -6,18 +6,19 @@ class Parser:
         
         # An instance of this class will produce : @a_val
         self.a_sym = ''
-        self.a_val = ''
+        self.a_vstr = ''
         self.comp = ''
         self.dest = ''
         self.jump = ''
     #######################################################################
     def get_fields(self, instr):
 
-        print("Extracting fields from the instruction ...")
+        print(f"Extracting fields from the instruction {instr}")
+        
         # A-instr : 
         if(instr[0] == '@'):
-            a_sym = '@'
-            a_val = instr.split('@')[1]
+            self.a_sym = '@'
+            self.a_vstr = instr[1:]
         # C-instr with dest=comp : 
         elif('=' in instr):
             fields = instr.split('=')
@@ -34,15 +35,17 @@ class Parser:
 
         print("Extracted fields:")
         print(f"self.a_sym: {self.a_sym}")
-        print(f"self.a_val: {self.a_val}")
+        print(f"self.a_vstr: {self.a_vstr}")
         print(f"self.comp: {self.comp}")
         print(f"self.dest: {self.dest}")
         print(f"self.jump: {self.jump}")
+
+        pass_list = [self.a_sym, self.a_vstr, self.comp, self.dest, self.jump]
             
-        return self.a_sym, self.a_val, self.comp, self.dest, self.jump
+        return pass_list
     #######################################################################
     def get_a_val():
-        return self.a_val
+        return self.a_val_str
     #######################################################################
     def get_comp():
         return self.comp

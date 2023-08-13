@@ -48,7 +48,6 @@ def show_content(filename):
         for line in file:
             print(line, end='')  # Print each line without adding extra newline
 
-    print()
 #_________________________________ Function : FILTERING OUT COMMENTS ___________________________________    
 def filter_ln_cmts(prog_asm):
 

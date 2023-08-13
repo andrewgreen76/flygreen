@@ -26,7 +26,7 @@ def parse_trans_loop(sym_table):
 
     print("Parsing through and translating instructions ...")
     # Translate to .hack file on-the-fly : 
-    with open(progname + '_vars_regd.asm', 'r') as input_file, open(progname + '.hack', 'w') as output_file:
+    with open(progname + '_nodecl.asm', 'r') as input_file, open(progname + '.hack', 'w') as output_file:
         for instr in input_file:
             prs = Parser()
             trans = Translator()
@@ -122,9 +122,9 @@ if(prog_asm := is_arg_good()):               # arg check
     #show_content(progname + '.hack')    
     print("Removing auxiliary files ...")
     #os.remove(progname + '_nsl.asm')
-    os.remove(progname + '_pure.asm')
-    os.remove(progname + '_lbls_regd.asm')
-    os.remove(progname + '_vars_regd.asm')
+    #os.remove(progname + '_pure.asm')
+    #os.remove(progname + '_nodecl.asm')
+    #os.remove(progname + '_vars_regd.asm')
     os.remove(progname + '.hack')
     print("Clean-up completed.")
     

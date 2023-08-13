@@ -18,7 +18,7 @@ class SymbolTableManager:
         is_first_instr = True
 
         print("Searching for labels to add to the symbol table ...")
-        with open(progname + '_pure.asm', 'r') as infile, open(progname + '_lbls_regd.asm', 'w') as outfile:
+        with open(progname + '_pure.asm', 'r') as infile, open(progname + '_nodecl.asm', 'w') as outfile:
             index = 0
             for instr in infile:
                 
@@ -43,17 +43,16 @@ class SymbolTableManager:
         is_first_instr = True
         
         print("Searching for variables to add to the symbol table ...")
-        with open(progname + '_lbls_regd.asm', 'r') as infile, open(progname + '_vars_regd.asm', 'w') as outfile:
+        with open(progname + '_nodecl.asm', 'r') as infile:
             avail_index = 16    # First avail RAM address for a variable. 
             for instr in infile:
 
                 if(is_first_instr):    # Dodging the newline and indent bullets ... again. 
                     is_first_instr = False
-                else:
-                    outfile.write('\n')
                 instr = instr.strip()
         
                 if('@' in instr):
+                    #print(f"Processing instruction: {instr}")
                     var = instr[1:]
                     if(var not in list(self.table)):    # If the encountered var is new,..
                         self.table[var] = str(avail_index)   # ..add to the table. 

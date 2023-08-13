@@ -13,6 +13,7 @@ class Parser:
     #######################################################################
     def get_fields(self, instr, sym_table):
 
+        print(f"Processing instruction: {instr}")
         # A-instr : 
         if(instr[0] == '@'):
             self.a_sym = '@'

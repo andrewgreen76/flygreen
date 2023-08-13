@@ -113,8 +113,12 @@ if(prog_asm := is_arg_good()):               # arg check
 
     # Clean-up :
     print(f"File {progname}.hack generated.")
+    #show_content(progname + '.hack')    
     print("Removing auxiliary files ...")
-    os.remove(progname + '_nsl.asm')
+    #os.remove(progname + '_nsl.asm')
     os.remove(progname + '_pure.asm')
-    show_content(progname + '.hack')    
-    #os.remove(progname + '.hack')
+    os.remove(progname + '_lbls_regd.asm')
+    os.remove(progname + '_vars_regd.asm')
+    os.remove(progname + '.hack')
+    print("Clean-up completed.")
+    

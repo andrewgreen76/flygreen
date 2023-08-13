@@ -63,7 +63,6 @@ def filter_ln_cmts(prog_asm):
                 else:
                     output_file.write('\n')
                 output_file.write(line.strip())
-
     
     # Filtering out inline comments : 
     first_instr = True
@@ -81,10 +80,6 @@ def filter_ln_cmts(prog_asm):
 def filter_comments(prog_asm):
     #filter_mltln_cmts(prog_asm)
     filter_ln_cmts(prog_asm)
-#_______________________________ Function : CREATING THE SYMBOL TABLE __________________________________    
-
-def make_symtable():
-    print("Forgoing the creation of the symbol table ...")
 
 #______________________________________ Function : ARG CHECK ___________________________________________
 def is_arg_good():
@@ -109,6 +104,9 @@ def is_arg_good():
 if(prog_asm := is_arg_good()):               # arg check
     progname, the_rest = prog_asm.split('.') # extracting the generic program name 
     filter_comments(prog_asm)                # comment filtration
+
+    symgr = SymbolTableManager() # Symbol table built with pre-defined elements. 
+    
     parse_trans_loop()
     #__________________________________________________________________________________________________
 
@@ -122,7 +120,6 @@ if(prog_asm := is_arg_good()):               # arg check
 #######################################################################################################    
 
 '''
-- init indep. SYMTBLMGR(.py)
   - build     SYM.TABLE	w/ pre-defs
     as a dict 
 '''
@@ -133,9 +130,4 @@ if(prog_asm := is_arg_good()):               # arg check
 |
 - pass_for_vars ()
   > givenname.hack
-'''
-
-'''
-- clean-up :
-  - delete sym.table
 '''

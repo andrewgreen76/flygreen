@@ -38,16 +38,14 @@ def parse_trans_loop():
             else:
                 output_file.write('\n')
 
-            pass_list = prs.get_fields(instr)
-            formed_instr = trans.get_bin_instr(pass_list)
-            output_file.write(formed_instr)
+            output_file.write(trans.get_bin_instr(prs.get_fields(instr)))
                 
 #_____________________________________ Function : RESULT DISPLAY _______________________________________
-def show_result():
+def show_content(filename):
 
-    print(f"Displaying contents of the file '{progname}_pure.asm' ...")
+    print(f"Displaying contents of the file '{filename}' ...")
     
-    with open(progname + '_pure.asm', 'r') as file:
+    with open(filename, 'r') as file:
         for line in file:
             print(line, end='')  # Print each line without adding extra newline
 
@@ -122,7 +120,6 @@ def is_arg_good():
 if(prog_asm := is_arg_good()):               # arg check
     progname, the_rest = prog_asm.split('.') # extracting the generic program name 
     filter_comments(prog_asm)                # comment filtration
-    show_result()
     # building symbol table
     parse_trans_loop()
     
@@ -132,7 +129,9 @@ if(prog_asm := is_arg_good()):               # arg check
     # Clean-up :
     print("Removing auxiliary files ...")
     os.remove(progname + '_nsl.asm')
-    #os.remove(progname + '_pure.asm')
+    os.remove(progname + '_pure.asm')
+    show_content(progname + '.hack')    
+    #os.remove(progname + '.hack')
 #######################################################################################################    
 
 '''
@@ -150,14 +149,6 @@ if(prog_asm := is_arg_good()):               # arg check
 '''
 
 '''
-- loop_to_trans ()
-  > givenname.hack
-    - If @ , instr_code = 0
-      else   instr_code = 1
-
 - clean-up :
   - delete sym.table
-  - delete givenname_filtered.txt
 '''
-
-print()

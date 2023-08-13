@@ -40,9 +40,7 @@ class Parser:
         print(f"self.dest: {self.dest}")
         print(f"self.jump: {self.jump}")
 
-        pass_list = [self.a_sym, self.a_vstr, self.comp, self.dest, self.jump]
-            
-        return pass_list
+        return [self.a_sym, self.a_vstr, self.comp, self.dest, self.jump]
     #######################################################################
     def get_a_val():
         return self.a_val_str

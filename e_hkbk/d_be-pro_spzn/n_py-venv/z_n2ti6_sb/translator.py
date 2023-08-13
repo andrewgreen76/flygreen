@@ -7,7 +7,7 @@ class Translator:
   def __init__(self):
     None
   ##########################################################################################################
-  def comp2bin(comp):
+  def comp2bin(self, comp):
 
     comp_table = {
       # a = 0
@@ -22,9 +22,9 @@ class Translator:
       'D&M': {'a': 1, 'c': '000000'}, 'D|M': {'a': 1, 'c': '010101'}
     }
     
-    return comp_table[comp][a] + comp_table[comp][c]
+    return str(comp_table[comp]['a']) + comp_table[comp]['c']
   ##########################################################################################################
-  def dest2bin(dest):
+  def dest2bin(self, dest):
     
     dest_table = {
       '': '000', 'M': '001', 'D': '010', 'MD': '011', 'A': '100', 'AM': '101', 'AD': '110', 'AMD': '111'
@@ -32,7 +32,7 @@ class Translator:
 
     return dest_table[dest]
   ##########################################################################################################
-  def jump2bin(jump):
+  def jump2bin(self, jump):
 
     jump_table = {
       '': '000', 'JGT': '001', 'JEQ': '010', 'JGE': '011', 'JLT': '100', 'JNE': '101', 'JLE': '110', 'JMP': '111'      
@@ -40,16 +40,20 @@ class Translator:
     
     return jump_table[jump]
   ##########################################################################################################
-  def get_bin_instr(pass_list):
+  def test(self, check):
+    print("Testing ...")
+  ##########################################################################################################
+  def get_bin_instr(self, pass_list):
 
     a_sym = pass_list[0]
     a_vstr = pass_list[1]
     comp = pass_list[2]
     dest = pass_list[3]
     jump = pass_list[4]
+
     # A-instruction : 
     if(a_sym == '@'):
       return '0' + bin(int(a_vstr))[2:].zfill(15)
     # C-instruction : 
     else:
-      return '111' + comp2bin(comp) + dest2bin(dest) + jump2bin(jump)
+      return '111' + self.comp2bin(comp) + self.dest2bin(dest) + self.jump2bin(jump)

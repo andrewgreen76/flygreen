@@ -1,8 +1,9 @@
 
 Portfolio : 
 - internships 
-- SMTH PROFESSIONAL with SOMETHING YOU HAVE
-  - only open-source
+- SMTH PROFESSIONAL to/with SOMETHING YOU HAVE : 
+  < INTEL :
+    + iRISx graphics 
   < MPU / RASPBERRY PI 4 : research,order Rpi4 (A, B), 400 
     - hardware is NOT open
     < ARM 
@@ -11,27 +12,27 @@ Portfolio :
     -> original code -> GitHub
   < MCU / ARDUINO Uno R4 : Minima or Wi-Fi 4
     - AVR 
-  < INTEL :
-    + iRISx graphics 
+  |
+  |
   < Si-Five / RISC-V
-  |
-  |
   < TESLA : look into open-source Tesla projects
     + learn : [sound , heat monitoring] x [VLSI/VHDL/.. , embC]
     + stress-test
     . ...
     . GitHub
   - Peropesis
-    - not tiny enough (205 MB)
+    - not tiny enough (205 MB , compressed or uncompressed ? )
     - not approachable :
       - need to download an ISO , md5sum file 
       - https://peropesis.org/get-peropesis/
   - Linux kernel
-    - not tiny enough (4 GB) 
+    - not tiny enough (4 GB , compressed or uncompressed ? ) 
 |
+Frame of reference : RAM : Apple II max RAM , etc. 
 Keep track of what is proprietary and what isn't :
 - Proprietary 	      		      	   | Non-proprietary
 |
+CPU cores / threads 
 embC
 VLSI/VHDL 
 sysadmin skills -> ... -> GitHub

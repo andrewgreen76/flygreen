@@ -1,24 +1,25 @@
 
-How do you contribute / What can you contribute (on GitHub) ? 
-   a) Non-code contributions :
-      - reporting bugs , typos 
-      - documentation
-      ? design ideas ?
-TECHNICAL : Pick an easy project to contribute to. 
-  - How do you pick a project ?
-  - Search for projects by languages you know. 
-Degrees of complexity (roughly/tentatively easiest to hardest) :
-    - Python code (libraries , modules , packages) 
-    - web development
-    - anything pertaining to FPGA, ASIC, HDL (VHDL, VLSI, Verilog, SystemVerilog)
-    - package managers
-    - game/mechanic engines
-    - compilers, interpreters 
-    - drivers
-    - ??? firmware ???
-    - kernel
-- Keep tabs
-
+How do you contribute / What can you contribute (on GitHub) ?
+How do you pick a project ?
+ - For starters, pick a project that is not only of utmost interest, but is also the easiest to contribute to. 
+   - NON-CODE contributions :
+    - reporting bugs , typos 
+    - documentation
+    ? design ideas ?
+ - TECHNICAL :
+   - Pick an easy project to contribute to. 
+   - Search for projects by languages you know. 
+   - Degrees of complexity (roughly/tentatively easiest to hardest) :
+     - Python code (libraries , modules , packages) 
+     - web development
+     - anything pertaining to FPGA, ASIC, HDL (VHDL, VLSI, Verilog, SystemVerilog)
+     - package managers
+     - game/mechanic engines
+     - compilers, interpreters 
+     - drivers
+     - ??? firmware ???
+     - kernel
+ - Keep tabs on the projects of interest. 
 
 
 Where do you discuss potential contributions ? 

@@ -2,10 +2,16 @@
 Portfolio : 
 - internships 
 - SMTH PROFESSIONAL
-  < research,order Rpi4 -> original code -> GitHub
-    - software is open-source
-    - hardware is NOT open 
-    < Pi OS 
+  - only open-source
+  < Si-Five / RISC-V
+  < MPU / RASPBERRY PI 4 : research,order Rpi4 (A, B), 400 
+    - hardware is NOT open
+    < ARM 
+    < Pi OS
+      - graphics , sound , heat check 
+    -> original code -> GitHub
+  < MCU / ARDUINO Uno R4 Minima or Wi-Fi 4
+    - AVR 
   < INTEL :
     + iRISx graphics 
   < TESLA : look into open-source Tesla projects
@@ -14,9 +20,13 @@ Portfolio :
     . ...
     . GitHub
 |
+Keep track of what is proprietary and what isn't :
+- Proprietary 	      		      	   | Non-proprietary
+|
 embC
 VLSI/VHDL 
 sysadmin skills -> ... -> GitHub
+|
 |
 take your Mac laptop to the store 
 iPhone images (things to learn) -> this list 

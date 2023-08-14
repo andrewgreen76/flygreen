@@ -1,8 +1,11 @@
 
 Portfolio : 
 - internships 
-- SMTH PROFESSIONAL 
-  < research,order Rpi4 -> original code -> GitHub  
+- SMTH PROFESSIONAL
+  < research,order Rpi4 -> original code -> GitHub
+    - software is open-source
+    - hardware is NOT open 
+    < Pi OS 
   < INTEL :
     + iRISx graphics 
   < TESLA : look into open-source Tesla projects

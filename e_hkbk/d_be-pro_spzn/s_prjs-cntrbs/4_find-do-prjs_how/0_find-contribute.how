@@ -14,10 +14,13 @@ What/how can you contribute (on GitHub) ?
      - anything pertaining to FPGA, ASIC, HDL (VHDL, VLSI, Verilog, SystemVerilog)
      - package managers
      - game/mechanic engines
-     - compilers, interpreters 
+     - compilers, interpreters
+     - APIs 
      - drivers
-     > Raspberry PI (4: Minima, Wi-Fi) 
-     - firmware : coreboot 
+     > MCU : Arduino Uno R4 (Minima, Wi-Fi)
+     > MPU : Raspberry PI 4 (A, B) , 400
+       - hardware is NOT open 
+     - firmware : coreboot , Arduino, Raspberry PI  
      - a kernel (and its source tree)  
  - Keep tabs on the projects of interest. 
 

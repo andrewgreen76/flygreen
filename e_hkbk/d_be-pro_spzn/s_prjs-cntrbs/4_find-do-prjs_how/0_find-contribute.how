@@ -11,9 +11,9 @@ What/how can you contribute (on GitHub) ?
    - Degrees of complexity (roughly/tentatively easiest to hardest) :
      - Python code (libraries , modules , packages) 
      - web development
-     - anything pertaining to FPGA, ASIC, HDL (VHDL, VLSI, Verilog, SystemVerilog)
      - package managers
      - game/mechanic engines
+     - anything pertaining to FPGA, ASIC, HDL (VHDL, VLSI, Verilog, SystemVerilog)
      - compilers, interpreters
      - APIs 
      - drivers

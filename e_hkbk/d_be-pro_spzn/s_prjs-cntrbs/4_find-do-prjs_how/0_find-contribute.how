@@ -1,11 +1,10 @@
 
-How do you contribute / What can you contribute (on GitHub) ?
-How do you pick a project ?
- - For starters, pick a project that is not only of utmost interest, but is also the easiest to contribute to. 
+What/how can you contribute (on GitHub) ?
+ - Pick a project that is not only of utmost interest, but is also the easiest to contribute to. 
    - NON-CODE contributions :
     - reporting bugs , typos 
-    - documentation
-    ? design ideas ?
+    - skillfully written documentation
+    ? design/feature ideas ?
  - TECHNICAL :
    - Pick an easy project to contribute to. 
    - Search for projects by languages you know. 
@@ -17,8 +16,9 @@ How do you pick a project ?
      - game/mechanic engines
      - compilers, interpreters 
      - drivers
-     - ??? firmware ???
-     - kernel
+     > Raspberry PI (4: Minima, Wi-Fi) 
+     - firmware : coreboot 
+     - a kernel (and its source tree)  
  - Keep tabs on the projects of interest. 
 
 
@@ -27,4 +27,5 @@ Where do you discuss potential contributions ?
 
 Where do you contribute ? 
 - GitHub Issues 
+
 

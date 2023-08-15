@@ -2,14 +2,16 @@
 Portfolio :
 - your own projects - educational contributions : 
        	   	      		  - custom bootstrap
-  - bootloader
+  - bootable USB 
+  - custom bootloader
   - 'Hello world' kernel 
+  - elf
 - internships 
 - SMTH PROFESSIONAL to/with SOMETHING YOU HAVE : 
   - reporting bugs , typos 
   - skillfully written documentation
   < INTEL :
-    + iRISx graphics 
+    + iRISxe graphics 
   < MPU / RASPBERRY PI 4 : research,order Rpi4 (A, B), 400 
     - hardware is NOT open
     < ARM 
@@ -20,7 +22,7 @@ Portfolio :
     - AVR 
   |
 
-  < Si-Five / RISC-V
+  < RISC-V / Si-Five 
   < TESLA : look into open-source Tesla projects
     + learn : [sound , heat monitoring] x [VLSI/VHDL/.. , embC]
     + stress-test

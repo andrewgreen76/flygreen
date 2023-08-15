@@ -1,0 +1,27 @@
+
+GNU Emacs bug reporting directions :
+----------------------------------------
+
+My specs :
+|
+- uname -r (version of the Ubuntu kernel) :
+6.2.0-26-generic
+|
+- emacs -version :
+GNU Emacs 27.1
+Copyright (C) 2020 Free Software Foundation, Inc.
+GNU Emacs comes with ABSOLUTELY NO WARRANTY.
+You may redistribute copies of GNU Emacs
+under the terms of the GNU General Public License.
+For more information about these matters, see the file named COPYING.
+|
+Machine / hardware :
+- Dell Inspiron 14 
+_______________________________________________________________________________________________
+
+Issues to report : 
+---------------------
+
+Runaway spacing
+Does not indent 
+

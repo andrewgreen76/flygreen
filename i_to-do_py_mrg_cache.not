@@ -1,7 +1,7 @@
 
 Portfolio :
 - your own projects - educational contributions : 
-  - custom bootstrap
+       	   	      		  - custom bootstrap
   - bootloader
   - 'Hello world' kernel 
 - internships 
@@ -38,6 +38,7 @@ Frame of reference : RAM : Apple II max RAM , etc.
 Keep track of what is proprietary and what isn't :
 - Proprietary 	      		      	   | Non-proprietary
 
+What is a downstream OS (of Ubuntu) ? 
 CPU cores / threads
 PPA (Ubuntu)
 - driver pack

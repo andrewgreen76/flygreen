@@ -17,6 +17,7 @@ Unix-like OS structure conventions :
 - /run/qemu
 - /run/user/1000
 - /usr/bin/env
+- /usr/bin/emacs
 - /usr/bin/swtmp_setup 
 - ... etc.
 

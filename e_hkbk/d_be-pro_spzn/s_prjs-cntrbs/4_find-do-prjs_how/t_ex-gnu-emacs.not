@@ -23,9 +23,10 @@ NON-CODE :
 Checklist form ideas :
 . Detailed description of the bug :
 . Error messages : 
+. Text/info or screenshots demo'ing the bug :
+. Expected results and actual results : 
 . Steps to reproduce the bug :
 . System info (OS version/etc., target software version/etc., machine info)
-. Text/info or screenshots demo'ing the bug : 
 v 
 
 -------------------------------------------------------------------------------------

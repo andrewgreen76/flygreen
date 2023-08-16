@@ -2,7 +2,9 @@
 Portfolio :
 - GNU Emacs :
   - runaway spacing
-  - does not indent 
+  - does not indent
+- Ubuntu/Bash bugs
+  - prints the firefox CL at the very top line of the terminal upon clearing the screen. 
 - your own projects - educational contributions : 
        	   	      		  - custom bootstrap
   - bootable USB 

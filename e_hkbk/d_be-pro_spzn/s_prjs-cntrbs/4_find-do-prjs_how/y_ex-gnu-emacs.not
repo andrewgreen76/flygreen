@@ -4,6 +4,7 @@ GNU Emacs bug reporting directions :
 
 CODE / DEVELOPMENT : 
 - https://savannah.gnu.org/git/?group=emacs
+- Discussion about Emacs development takes place on emacs-devel@gnu.org.
 
 Checklist form :
 .
@@ -15,6 +16,8 @@ NON-CODE :
 - see https://www.gnu.org/software/emacs/manual/html_node/emacs/Contributing.html
   or run the shell command 'info "(emacs)Contributing"'.
 - https://www.gnu.org/software/emacs/manual/html_node/emacs/Bugs.html
+- https://www.gnu.org/software/emacs/manual/html_node/emacs/Known-Problems.html
+- https://github.com/emacs-mirror/emacs/blob/master/etc/PROBLEMS
 
 Checklist form :
 .
@@ -35,8 +38,9 @@ You may redistribute copies of GNU Emacs
 under the terms of the GNU General Public License.
 For more information about these matters, see the file named COPYING.
 |
-Machine / hardware :
-- Dell Inspiron 14 
+Device-specific :
+- Dell Inspiron 14
+- Win 11 is the native OS, not Linux Ubuntu  
 _______________________________________________________________________________________________
 
 Issues to report : 

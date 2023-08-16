@@ -2,6 +2,26 @@
 GNU Emacs bug reporting directions :
 ----------------------------------------
 
+CODE / DEVELOPMENT : 
+- https://savannah.gnu.org/git/?group=emacs
+
+Checklist form :
+.
+v 
+
+-------------------------------------------------------------------------------------
+
+NON-CODE : 
+- see https://www.gnu.org/software/emacs/manual/html_node/emacs/Contributing.html
+  or run the shell command 'info "(emacs)Contributing"'.
+- https://www.gnu.org/software/emacs/manual/html_node/emacs/Bugs.html
+
+Checklist form :
+.
+v 
+
+-------------------------------------------------------------------------------------
+
 My specs :
 |
 - uname -r (version of the Ubuntu kernel) :

@@ -1,6 +1,7 @@
 
 - Firmware :
-  - Goal/activity : prints "Hi" 
-  - Boot medium : [chip , drive]
+  - Goal/activity : boots up, prints "Hi", waits for 'q' to quit, shuts down
+    		    	      	     	   waits for 5 secs 
+  - Boot medium : [USB drive -or- make your own chip]
   - no ACPI 
 

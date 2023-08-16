@@ -5,7 +5,7 @@ Pick a project that is not only of utmost interest, but is also the easiest to c
  - NON-CODE contributions :
    - reporting bugs , typos 
    - skillfully written documentation
-   ? design/feature ideas ?
+   - design/feature ideas 
  - TECHNICAL :
    - Pick an easy project to contribute to. 
    - Search for projects by languages you know. 
@@ -18,18 +18,22 @@ Pick a project that is not only of utmost interest, but is also the easiest to c
      - compilers, interpreters
      - APIs 
      - drivers
-     > MCU : Arduino Uno R4 (Minima, Wi-Fi)
-     > MPU : Raspberry PI 4 (A, B) , 400
+     > MCU code, e.g. Arduino Uno R4 (Minima, Wi-Fi)
+     > MPU code, e.g. Raspberry PI 4 (A, B) , 400
        - hardware is NOT open 
      - firmware : coreboot , Arduino, Raspberry PI  
      - a kernel (and its source tree)  
- - Keep tabs on the projects of interest. 
-
-
-Where do you discuss potential contributions ? 
+ - Ideas : Keep tabs (literally, like web-browser tabs) on the projects of interest. 
 
 
 Where do you contribute ? 
-- GitHub Issues 
+- It's different with every project.
+  - Go to the project's GitHub page (if it has one) and see the README content.
+  - If it's not on GitHub and it is a GNU-related project (Bash, Emacs, etc.), check out the GNU Savannah website. 
 
 
+Where do you discuss potential contributions ?
+  - GitHub Issues 
+  - See if there are any mailing lists you can to subscribe to.  
+
+.

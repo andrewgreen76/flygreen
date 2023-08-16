@@ -5,11 +5,6 @@ Portfolio :
   - does not indent
 - Ubuntu/Bash bugs
   - prints the firefox CL at the very top line of the terminal upon clearing the screen. 
-- your own projects - educational contributions : 
-       	   	      		  - custom bootstrap
-  - bootable USB 
-  - custom bootloader/'Hello world' kernel ("I'll be doing the heavy-lifting for the time being.") 
-  - elf
 - internships 
 - SMTH PROFESSIONAL to/with SOMETHING YOU HAVE : 
   - reporting bugs , typos 
@@ -39,6 +34,11 @@ Portfolio :
       - https://peropesis.org/get-peropesis/
   - Linux kernel
     - not tiny enough (4 GB , compressed or uncompressed ? ) 
+- your own projects - educational contributions : 
+       	   	      		  - custom bootstrap
+  - bootable USB 
+  - custom bootloader/'Hello world' kernel ("I'll be doing the heavy-lifting for the time being.") 
+  - elf
 
 Frame of reference : RAM : Apple II max RAM , etc. 
 Keep track of what is proprietary and what isn't :

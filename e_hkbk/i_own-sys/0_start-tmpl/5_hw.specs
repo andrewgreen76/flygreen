@@ -1,20 +1,22 @@
 
 - Hardware specs :
-  - Board : Raspberry Pi 
+  - Board :
+    - [CHOOSE ONE]
+    - Rejected : [NON-PROPRIETARY] Raspberry Pi 
   - 8-bit architecture , ARM(v8) 
-  - Processing chip : [CPU, microprocessor, microcontroller] [brand] [model] 
+  - Processing chip : [MPU] [brand] [model] 
   - RAM total : 4K , volatile , non-expandable
     - memory model : small , tiny , ... , flat
     - SRAM : K
     - DRAM : K
     - aux. mem : NO.
       - Rejected : 12K 
-  - Disk space (for code, data) : NO.
+  - Storage / space (for code, data) : bootable USB
     - Rejected : internal or external (48K , mounted) 
   - EEPROM : K
   - Flash : K
   - OS : [name] , 1.5K
-  - interfaces : UART , SPI , I2C
-  - voltages : 5V , (why 7-12V ?)
+  - interfaces : PCIe (not UART , SPI , I2C) 
+  - voltages : (see Board) 5V , (why 7-12V ?)
   - pinout : (see Board)
 

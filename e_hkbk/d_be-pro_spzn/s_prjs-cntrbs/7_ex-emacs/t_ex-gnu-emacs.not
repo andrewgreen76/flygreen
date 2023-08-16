@@ -20,14 +20,24 @@ NON-CODE :
 - https://github.com/emacs-mirror/emacs/blob/master/etc/PROBLEMS
 - https://debbugs.gnu.org/
 
-Checklist form ideas :
+Email checklist :
+. Send to : bug-gnu-emacs@gnu.org
+  - Look for the target project in the "Bug mailing list" column here : https://debbugs.gnu.org/Packages.html 
+. Title/Subject : [Emacs version]; [short description of the bug]
+  - Do not type the version; it will be auto-populated.
+  - Title example : Does not indent selected text (indent-region, C-M-\ do not work)
 . Detailed description of the bug :
 . Error messages : 
 . Text/info or screenshots demo'ing the bug :
 . Expected results and actual results : 
 . Steps to reproduce the bug :
 . System info (OS version/etc., target software version/etc., machine info)
-v 
+
+"
+The best way to report a bug in Emacs is to use the command
+
+M-x report-emacs-bug
+"
 
 -------------------------------------------------------------------------------------
 

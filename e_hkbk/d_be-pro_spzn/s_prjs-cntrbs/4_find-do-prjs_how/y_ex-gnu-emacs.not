@@ -31,8 +31,9 @@ My specs :
 6.2.0-26-generic
 |
 - emacs -version (Classic) :
-GNU Emacs 27.1
-Copyright (C) 2020 Free Software Foundation, Inc.
+GNU Emacs 29.1
+Development version cf57ec68c2a5 on master branch; build date 2023-08-04.
+Copyright (C) 2023 Free Software Foundation, Inc.
 GNU Emacs comes with ABSOLUTELY NO WARRANTY.
 You may redistribute copies of GNU Emacs
 under the terms of the GNU General Public License.

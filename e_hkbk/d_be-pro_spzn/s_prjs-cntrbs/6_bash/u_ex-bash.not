@@ -1,0 +1,37 @@
+
+Bash bug reporting directions :
+----------------------------------------
+
+CODE / DEVELOPMENT : 
+
+Checklist form :
+.
+v 
+
+-------------------------------------------------------------------------------------
+
+NON-CODE : 
+- [TURNED OFF] https://savannah.gnu.org/bugs/?group=bash
+
+Checklist form :
+.
+v 
+
+-------------------------------------------------------------------------------------
+
+My specs :
+|
+- uname -r (version of the Ubuntu kernel) :
+6.2.0-26-generic
+|
+Device-specific :
+- Dell Inspiron 14
+- Win 11 is the native OS, not Linux Ubuntu  
+_______________________________________________________________________________________________
+
+Issues to report : 
+---------------------
+
+- runaway spacing
+- prints the firefox CL at the very top line of the terminal upon clearing the screen. 
+ 

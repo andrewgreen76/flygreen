@@ -1,0 +1,57 @@
+
+GNU Emacs bug reporting directions :
+----------------------------------------
+
+CODE / DEVELOPMENT : 
+- https://savannah.gnu.org/git/?group=emacs
+- Discussion about Emacs development takes place on emacs-devel@gnu.org.
+
+Checklist form :
+.
+v 
+
+-------------------------------------------------------------------------------------
+
+NON-CODE : 
+- see https://www.gnu.org/software/emacs/manual/html_node/emacs/Contributing.html
+  or run the shell command 'info "(emacs)Contributing"'.
+- https://www.gnu.org/software/emacs/manual/html_node/emacs/Bugs.html
+- https://www.gnu.org/software/emacs/manual/html_node/emacs/Known-Problems.html
+- https://github.com/emacs-mirror/emacs/blob/master/etc/PROBLEMS
+- https://debbugs.gnu.org/
+
+Checklist form ideas :
+. Detailed description of the bug :
+. Error messages : 
+. Text/info or screenshots demo'ing the bug :
+. Expected results and actual results : 
+. Steps to reproduce the bug :
+. System info (OS version/etc., target software version/etc., machine info)
+v 
+
+-------------------------------------------------------------------------------------
+
+Software specs :
+
+- uname -r (version of the Ubuntu kernel) :
+6.2.0-26-generic
+
+- emacs --version (Classic) :
+GNU Emacs 29.1
+Development version cf57ec68c2a5 on master branch; build date 2023-08-04.
+Copyright (C) 2023 Free Software Foundation, Inc.
+GNU Emacs comes with ABSOLUTELY NO WARRANTY.
+You may redistribute copies of GNU Emacs
+under the terms of the GNU General Public License.
+For more information about these matters, see the file named COPYING.
+
+Device specs :
+- Dell Inspiron 14
+- Win 11 is the native OS, not Linux Ubuntu  
+_______________________________________________________________________________________________
+
+Issues to report : 
+---------------------
+
+Does not indent 
+

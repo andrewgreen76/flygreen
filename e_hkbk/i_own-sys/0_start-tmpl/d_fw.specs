@@ -1,5 +1,6 @@
 
 - Firmware :
+  - self-hosting
   - Goal/activity : boots up, prints "Hi", waits for 'q' to quit, shuts down
     		    	      	     	   waits for 5 secs 
   - Boot medium : [USB drive -or- make your own chip]

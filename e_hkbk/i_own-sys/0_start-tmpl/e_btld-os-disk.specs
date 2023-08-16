@@ -1,6 +1,7 @@
 
 Custom bootloader specs :
 |
+- self-hosting 
 ? poses as a kernel (unikernel) 
 
 

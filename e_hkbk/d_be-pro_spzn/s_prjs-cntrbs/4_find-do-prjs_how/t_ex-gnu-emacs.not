@@ -20,8 +20,12 @@ NON-CODE :
 - https://github.com/emacs-mirror/emacs/blob/master/etc/PROBLEMS
 - https://debbugs.gnu.org/
 
-Checklist form :
-.
+Checklist form ideas :
+. Detailed description of the bug :
+. Error messages : 
+. Steps to reproduce the bug :
+. System info (OS version/etc., target software version/etc., machine info)
+. Text/info or screenshots demo'ing the bug : 
 v 
 
 -------------------------------------------------------------------------------------

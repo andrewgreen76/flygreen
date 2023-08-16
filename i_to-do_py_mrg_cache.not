@@ -1,8 +1,9 @@
 
 Portfolio :
 - GNU Emacs :
+  - does not indent (indent-region -and- C-M-\) 
+- Bash 
   - runaway spacing
-  - does not indent
 - Ubuntu/Bash bugs
   - prints the firefox CL at the very top line of the terminal upon clearing the screen. 
 - internships 

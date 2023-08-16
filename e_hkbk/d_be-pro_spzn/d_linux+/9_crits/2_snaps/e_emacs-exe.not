@@ -1,0 +1,16 @@
+
+"
+It seems that the Emacs executable might not be symlinked to the expected location. The `snap` package for Emacs should create a symlink automatically, but it appears that it might not have worked in your case.
+
+To resolve this issue, you can manually create a symlink to the Emacs executable. Open your terminal and run the following commands:
+
+```bash
+sudo ln -s /snap/bin/emacs /usr/bin/emacs
+```
+
+This will create a symbolic link from the `/usr/bin/emacs` location to the actual `emacs` executable provided by the Snap package.
+
+After running this command, you should be able to start Emacs by simply typing `emacs` in the terminal.
+"
+
+.

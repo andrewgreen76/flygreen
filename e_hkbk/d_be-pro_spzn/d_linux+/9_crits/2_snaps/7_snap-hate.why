@@ -1,0 +1,5 @@
+
+You can't run the thing that the snap package manager claimed to have installed. 
+- The package manager does not take care of graceful, secure /usr/bin/emacs installation. 
+
+.

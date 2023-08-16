@@ -1,4 +1,7 @@
 
+Hardware/drive :
+- Boot medium : [USB drive -or- make your own chip]
+
 Custom bootloader specs :
 |
 - self-hosting 

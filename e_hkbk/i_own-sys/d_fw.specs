@@ -1,8 +1,9 @@
 
 - Firmware :
   - self-hosting
+  - it probably can't run on anything
+    - written for RISC-V 
   - Goal/activity : boots up, prints "Hi", waits for 'q' to quit, shuts down
     		    	      	     	   waits for 5 secs 
-  - Boot medium : [USB drive -or- make your own chip]
   - no ACPI 
 

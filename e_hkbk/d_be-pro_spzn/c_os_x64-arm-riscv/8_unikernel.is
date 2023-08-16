@@ -1,0 +1,9 @@
+
+"
+A unikernel is a single bootable image consisting of user code linked with additional components that provide kernel-level functionality, such as opening files.
+"
+
+"
+A unikernel is a computer program statically linked with the operating system code on which it depends. Unikernels are built with a specialized compiler that identifies the operating system services that a program uses and links it with one or more library operating systems that provide them.
+"
+

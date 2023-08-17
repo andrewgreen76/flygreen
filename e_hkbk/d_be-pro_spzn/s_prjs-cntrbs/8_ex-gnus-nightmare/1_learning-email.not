@@ -2,7 +2,6 @@
 Email client of choice :
 - Each email client has its own backend(s).
 |
-|
 - Gmail
 - notmuch :
   - backend : nnnotmuch 
@@ -11,19 +10,21 @@ Email client of choice :
 - mu4e
   - more manual configuration 
 - offlineimap
+........................................................
 
-
-
-News networks (nn-) :
+News networks / backends (nn-) :
 - nnimap , nnnotmuch , nntp , nnreddit , 
+________________________________________________________
 
 Fetching news :
 - NNTP :
   - for Usenet community 
+________________________________________________________
 
 Sending emails :
 - SMTP : 
   - port for TLS/STARTTLS : 
+________________________________________________________
 
 Receiving / reading emails :
 - POP :
@@ -35,15 +36,19 @@ Receiving / reading emails :
 - IMAP :
   - emails are synced
   - usable across multiple devices 
+________________________________________________________
 
 Terms :
 - email backend : storing 
 - email sourcing : fetching
+________________________________________________________
+
 Security :
 - TLS :
   - port : 
 - SSL : 
   - port : 
+________________________________________________________
 
 ISP : Spectrum 
 

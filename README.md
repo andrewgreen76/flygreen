@@ -31,15 +31,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- Python :
-  - string slicing
-  - dictionaries : nested dictionary indexing, appending, getting keys only, etc.   
-  - f-string evaluation
-  - walrus operator
-  - file I/O , lookahead functionality 
-  - global variable treatment vs. using Class attributes 
-- better coding practices
-  - integrity check without blowing up the call stack 
+- Emacs , Emacs Lisp , email clients , news networks , protocols , etc. 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

@@ -1,0 +1,18 @@
+
+Independently functioning tools :
+....................................
+notmuch :
+- a tool, not a backend 
+- independently functioning
+- for searching and indexing email messages 
+
+nnnotmuch :
+- a backend 
+- adapts "notmuch" specifically for Gnus to make email management in Emacs possible. 
+
+offlineimap :
+- a tool
+- for synchronization of email server events
+- independent of Emacs functionality 
+
+.

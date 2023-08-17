@@ -1,0 +1,30 @@
+Andrew Green <andrewg.engr@gmail.com>
+
+Does not indent selected text (indent-region, C-M-\ do not work)
+
+
+
+Hi, all. My first bug report ever right here.
+
+Quite simply, whenever I select with Shift-[up/down arrow] lines of text
+or code I want to indent, none of the indentation methods are working
+but one. I attempt to perform a selection indentation and the Emacs command
+line prints "Indenting region ... done", but no change has occurred. I tried :
+
+(a) C-M-\ (on my Dell Inspiron 14 'Alt' is the Meta key);
+(b) entering the 'indent-region' command after accessing the command
+line with M-x; and
+(c) just using 'Tab'.
+
+I can't indent a selection with 'Tab', but 'Tab' is working where the
+cursor is at and nothing is selected. Also, I discovered a rather
+cumbersome way of indenting a selection: C-x, then TAB, then S-right. I
+wish I had the expertise to help pinpoint where the bug could possibly
+be, but all I really know is that the issue definitely goes at least as
+far back as version 27.1 (which I installed with APT vs. this 29.1 which
+I got with snap).
+
+Link to screenshot : https://drive.google.com/file/d/1TfSRCygfxSBv0h0dW-kVdIV0RevB0P7k/view?usp=sharing
+At this point, I feel providing anything else would be rather excessive, especially my 'lshw' breakdown. 
+
+Let me know if you need anything else. 

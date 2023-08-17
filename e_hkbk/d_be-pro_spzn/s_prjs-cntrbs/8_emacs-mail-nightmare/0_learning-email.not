@@ -13,6 +13,7 @@ Email client (domain) of choice :
 - Each email client has its own nn's (news networks, or backend(s)) responsible for its functionality.
 - A backend is like a class for building an instance meant to adapt some independent package's functionality for a mail client. 
 - Every backend requires its respective package to be installed. 
+
 ........................................................
 
 Gmail - backends : 
@@ -32,5 +33,13 @@ mu4e - backends :
 - sending : smtpmail
   - NEEDS the 'message-mode' package
 - (This backend requires tons of manual configuration.)
+
+........................................................
+
+notmuch :
+- a tool, not an email client or a backend
+- can be used as an alternative to Gnus and other like services 
+- independently functioning
+- for searching and indexing email messages 
 
 .

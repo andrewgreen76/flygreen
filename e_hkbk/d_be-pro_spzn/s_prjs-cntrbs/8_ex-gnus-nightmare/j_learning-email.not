@@ -1,4 +1,10 @@
 
+Sending emails : SMTP 
+Receiving / reading emails : POP or IMAP
+Tools : notmuch vs. Gmail vs. Gnus vs. mu4e vs. offlineimap  
+
+
+
 "
 Step 1: Make sure POP is the best way to read your emails
 

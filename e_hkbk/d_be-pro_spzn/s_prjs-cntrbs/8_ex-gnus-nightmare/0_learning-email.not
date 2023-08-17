@@ -42,8 +42,4 @@ offlineimap :
 - for synchronization of email server events
 - independent of Emacs functionality 
 
-Usenet - backends :
-- receiving : nntp / NNTP 
-- sending : 
-
 .

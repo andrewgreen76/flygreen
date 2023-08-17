@@ -4,14 +4,18 @@ Email client of choice :
 - notmuch
 - Gnus
 - mu4e
+  - more manual configuration 
 - offlineimap
+
+News networks (nn-) :
+- nnimap , nnnotmuch , nntp , nnreddit , 
 
 Fetching news :
 - NNTP : 
 
 Sending emails :
 - SMTP : 
-  - port : 
+  - port for TLS/STARTTLS : 
 
 Receiving / reading emails :
 - POP :
@@ -32,6 +36,7 @@ Security :
   - port : 
 - SSL : 
   - port : 
+
 ISP : Spectrum 
 
 ...................................................................................

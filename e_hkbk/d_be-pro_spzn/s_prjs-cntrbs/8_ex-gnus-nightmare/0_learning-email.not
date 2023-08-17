@@ -45,22 +45,5 @@ offlineimap :
 Usenet - backends :
 - receiving : nntp / NNTP 
 - sending : 
-________________________________________________________
-
-Sending emails :
-- SMTP : 
-  - port for TLS/STARTTLS : 
-________________________________________________________
-
-Receiving / reading emails :
-- POP :
-  - SSL 
-  - port : 995
-  - no auth 
-  - emails are NOT synced
-  - one computer 
-- IMAP :
-  - emails are synced
-  - usable across multiple devices 
 
 .

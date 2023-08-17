@@ -1,4 +1,14 @@
 
+- Choose your email client.
+- Choose the protocols and the corresponding backends for the client.
+  (1) for receiving emails,
+  (1) for sending emails, maybe
+  (1) for searching and organization of emails. 
+- Choose the independently-functioning tools for the client.
+- Choose the security measures for the client.
+  - TLS/SSL, epg/gpg, etc. 
+________________________________________________________
+
 Email client (domain) of choice :
 - Each email client has its own nn's (news networks, or backend(s)) responsible for its functionality.
 - A backend is like a class for building an instance meant to adapt some independent package's functionality for a mail client. 

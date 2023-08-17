@@ -1,13 +1,40 @@
 
-Sending emails : SMTP 
-Receiving / reading emails : POP or IMAP
-ISP : Spectrum 
-Tools : notmuch vs. Gmail vs. Gnus vs. mu4e vs. offlineimap
+Email client of choice : 
+- Gmail
+- notmuch
+- Gnus
+- mu4e
+- offlineimap
+
+Fetching news :
+- NNTP : 
+
+Sending emails :
+- SMTP : 
+  - port : 
+
+Receiving / reading emails :
+- POP :
+  - SSL 
+  - port : 995
+  - no auth 
+  - emails are NOT synced
+  - one computer 
+- IMAP :
+  - emails are synced
+  - usable across multiple devices 
+
 Terms :
 - email backend : storing 
-- email sourcing : fetching 
+- email sourcing : fetching
+Security :
+- TLS :
+  - port : 
+- SSL : 
+  - port : 
+ISP : Spectrum 
 
-
+...................................................................................
 
 "
 Step 1: Make sure POP is the best way to read your emails
@@ -17,6 +44,9 @@ IMAP and POP are both ways to read your Gmail messages in other email clients.
 IMAP can be used across multiple devices. Emails are synced in real time.
 
 POP can only be used for a single computer. Emails aren't synced in real time. Instead, they're downloaded and you decide how often you want to download new emails.
+
+
+
 Step 2: Set up POP
 First, set up POP in Gmail
 

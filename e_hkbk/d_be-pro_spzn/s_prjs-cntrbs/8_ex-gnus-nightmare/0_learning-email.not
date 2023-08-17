@@ -1,6 +1,7 @@
 
 Email client (domain) of choice :
 - Each email client has its own nn's (news networks, or backend(s)) responsible for its functionality.
+- A backend is like a class for building an instance meant to adapt some independent package's functionality for a mail client. 
 - Every backend requires its respective package to be installed. 
 ........................................................
 

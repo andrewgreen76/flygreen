@@ -1,0 +1,92 @@
+
+Let's suppose that you, like me, want to report a bug within a piece of software like Emacs. That's all you want to do. We are constantly told that you don't need to be technically inclined to be able to do simple things like composing and sending a bug report. Though there may be individuals out there who've been doing exactly that for a long time, they probably never had to deal with Gnus. Just look at this. This is pathetic! Why are there several guidelines to getting email in Emacs to work? One of them is even outdated. 
+
+
+
+https://www.emacswiki.org/emacs/GnusTutorial
+https://github.com/emacs-mirror/emacs/blob/master/lisp/gnus/gnus.el
+https://www.youtube.com/watch?v=WiyqU7gmKsk
+https://www.youtube.com/watch?v=jwz7aYUWIbM
+https://www.youtube.com/watch?v=hbCXqDT1iNI
+
+
+
+ChatGPT does not even make it any easier :
+
+"
+Setting up an email account in Emacs involves configuring the necessary settings for sending and receiving emails. Here's a step-by-step guide to help you set up an email account using the built-in email client called "Gnus":
+
+1. Open Emacs:
+   Launch Emacs from your terminal or application launcher.
+
+2. Start Gnus:
+   Type `M-x gnus` and press `Enter` (where `M-x` means pressing and holding the `Alt` key and typing `x`).
+
+3. Configure SMTP Settings (Sending Email):
+   In the Gnus buffer, type `M-x gnus-group-make-nnimap-group`. This will prompt you for the details of your SMTP (outgoing mail) server and authentication settings. Follow the prompts and provide the necessary information.
+
+4. Configure IMAP Settings (Receiving Email):
+   Type `M-x gnus-group-make-nnimap-group` again to configure your IMAP (incoming mail) server settings. Provide the server address, username, and password when prompted.
+
+5. Access Your Mailbox:
+   Once you've configured both the SMTP and IMAP settings, you can access your mailbox by typing `M-x gnus` again and selecting the group associated with your email account.
+
+6. Composing and Sending Emails:
+   To compose a new email, press `m`. A buffer will open for you to compose your email. Once you've finished composing, press `C-c C-c` to send the email.
+
+7. Reading and Managing Emails:
+   Use the `j` key to move to the next unread email and the `RET` (Enter) key to read emails. Use other Gnus keybindings to manage your emails, such as marking them as read, moving between folders, and more.
+
+Please note that setting up email in Emacs and using Gnus may require some initial configuration and customization to suit your preferences and email provider's settings. You can refer to the official Emacs documentation or online resources for more advanced configuration options and details.
+
+Keep in mind that Emacs also supports other email clients and tools, such as "notmuch," which you may explore based on your requirements.
+"
+
+"
+To set up your email host address for Emacs, you'll need to configure the built-in email client called "Gnus." Gnus is a powerful news and mail reader for Emacs. Here's how you can do it:
+
+1. **Open Your Emacs Configuration File**: Open your Emacs configuration file, which is usually located at `~/.emacs` or `~/.emacs.d/init.el`.
+
+2. **Configure Gnus for Email**: Add the following code to your configuration file to set up Gnus for email. Replace the placeholders with your actual email address, username, and email server information:
+
+   ```emacs-lisp
+   ;; Load Gnus
+   (require 'gnus)
+
+   ;; Set up your email address
+   (setq user-mail-address "your-email@example.com")
+   (setq user-full-name "Your Full Name")
+
+   ;; Set up SMTP server for sending mail
+   (setq smtpmail-smtp-server "smtp.example.com")
+   (setq smtpmail-smtp-service 587) ; Change to the appropriate port
+
+   ;; Set up incoming mail server (IMAP)
+   (setq gnus-select-method
+         '(nnimap "your-email@example.com"
+                  (nnimap-address "imap.example.com")
+                  (nnimap-server-port 993)
+                  (nnimap-stream ssl)))
+
+   ;; Use TLS for secure connections
+   (setq starttls-use-gnutls t)
+   (setq smtpmail-starttls-credentials '(("smtp.example.com" 587 nil nil)))
+
+   ;; Optional: Add keybindings for Gnus
+   (global-set-key (kbd "C-c m") 'gnus)
+   ```
+
+3. **Save and Reload Emacs**: Save your configuration file and restart Emacs to apply the changes.
+
+4. **Access Gnus**: Press the keybinding you assigned (e.g., `C-c m`) to open Gnus. You'll need to set up your email account within Gnus using the provided wizards and prompts.
+
+5. **Send and Receive Email**: Once configured, you can use Gnus to send and receive emails.
+
+Please note that setting up an email client can involve various settings and may require additional configurations based on your email provider's requirements. The above example provides a basic configuration for Gnus. Make sure to adapt it to your specific needs and consult your email provider's documentation if needed.
+"
+
+
+
+And all you want to do is send a small, simple bug report via Emacs. 
+
+.

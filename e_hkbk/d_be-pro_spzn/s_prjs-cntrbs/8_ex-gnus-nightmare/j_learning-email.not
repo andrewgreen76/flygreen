@@ -1,17 +1,25 @@
 
-Email client of choice : 
+Email client of choice :
+- Each email client has its own backend(s).
+|
+|
 - Gmail
-- notmuch
-- Gnus
+- notmuch :
+  - backend : nnnotmuch 
+- Gnus :
+  - backend : nnimap 
 - mu4e
   - more manual configuration 
 - offlineimap
+
+
 
 News networks (nn-) :
 - nnimap , nnnotmuch , nntp , nnreddit , 
 
 Fetching news :
-- NNTP : 
+- NNTP :
+  - for Usenet community 
 
 Sending emails :
 - SMTP : 
@@ -38,56 +46,5 @@ Security :
   - port : 
 
 ISP : Spectrum 
-
-...................................................................................
-
-"
-Step 1: Make sure POP is the best way to read your emails
-
-IMAP and POP are both ways to read your Gmail messages in other email clients.
-
-IMAP can be used across multiple devices. Emails are synced in real time.
-
-POP can only be used for a single computer. Emails aren't synced in real time. Instead, they're downloaded and you decide how often you want to download new emails.
-
-
-
-Step 2: Set up POP
-First, set up POP in Gmail
-
-    On your computer, open Gmail.
-    In the top right, click Settings Settings and then See all settings.
-    Click the Forwarding and POP/IMAP tab.
-    In the "POP download" section, select Enable POP for all mail or Enable POP for mail that arrives from now on.
-    At the bottom of the page, click Save Changes.
-
-Next, make changes on your email client
-
-Go to your client, like Microsoft Outlook, and check these settings.
-Incoming Mail (POP) Server 	
-
-pop.gmail.com
-
-Requires SSL: Yes
-
-Port: 995
-Outgoing Mail (SMTP) Server 	
-
-smtp.gmail.com
-
-Requires SSL: Yes
-
-Requires TLS: Yes (if available)
-
-Requires Authentication: Yes
-
-Port for TLS/STARTTLS: 587
-
-If you use Gmail with your work or school account, check with your administrator for the correct SMTP configuration.
-Server timeouts 	Greater than 1 minute (5 is recommended)
-Full Name or Display Name 	Your name
-Account Name, User Name, or Email address 	Your email address
-Password 	Your Gmail password
-"
 
 .

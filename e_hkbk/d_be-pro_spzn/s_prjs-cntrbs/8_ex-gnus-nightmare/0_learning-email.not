@@ -20,6 +20,6 @@ mu4e - backends :
 - receiving : mu 
 - sending : smtpmail
   - NEEDS the 'message-mode' package
-- (This backend requires tons of more manual configuration.)
+- (This backend requires tons of manual configuration.)
 
 .

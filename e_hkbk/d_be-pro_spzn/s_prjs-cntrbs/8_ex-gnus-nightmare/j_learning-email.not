@@ -1,7 +1,11 @@
 
 Sending emails : SMTP 
 Receiving / reading emails : POP or IMAP
-Tools : notmuch vs. Gmail vs. Gnus vs. mu4e vs. offlineimap  
+ISP : Spectrum 
+Tools : notmuch vs. Gmail vs. Gnus vs. mu4e vs. offlineimap
+Terms :
+- email backend : storing 
+- email sourcing : fetching 
 
 
 

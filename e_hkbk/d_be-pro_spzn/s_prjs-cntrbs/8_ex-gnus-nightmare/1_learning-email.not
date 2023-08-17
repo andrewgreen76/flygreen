@@ -1,24 +1,50 @@
 
-Email client of choice :
-- Each email client has its own backend(s).
-|
-- Gmail
-- notmuch :
-  - backend : nnnotmuch 
-- Gnus :
-  - backend : nnimap 
-- mu4e
-  - more manual configuration 
-- offlineimap
+Email client (domain) of choice :
+- Each email client has its own nn's (news networks, or backend(s)) responsible for its functionality.
+- Every backend requires its respective package to be installed. 
 ........................................................
 
-News networks / backends (nn-) :
-- nnimap , nnnotmuch , nntp , nnreddit , 
-________________________________________________________
+Gmail - backends : 
+- receiving/reading : nnimap -AND- [gnus -or- mu4e]  
+- sending : the SMTP protocol (smtpmail), not a backend 
+- search, indexing : [nnnotmuch + notmuch] -or- nnmairix 
 
-Fetching news :
-- NNTP :
-  - for Usenet community 
+Gnus - backends : 
+- receiving : nnimap -or- nntp (there are alternatives) 
+- sending : smtpmail 
+- search, indexing : nnnotmuch + notmuch 
+- Reddit : nnreddit
+- (Gnus is a dedicated Emacs mail client)
+
+mu4e - backends :
+- receiving : mu 
+- sending : smtpmail
+  - NEEDS the 'message-mode' package
+- (This backend requires tons of more manual configuration.)
+
+
+
+=========================================================================
+
+Independently functioning tools :
+....................................
+notmuch :
+- a tool, not a backend 
+- independently functioning
+- for searching and indexing email messages 
+
+nnnotmuch :
+- a backend 
+- adapts "notmuch" specifically for Gnus to make email management in Emacs possible. 
+
+offlineimap :
+- a tool
+- for synchronization of email server events
+- independent of Emacs functionality 
+
+Usenet - backends :
+- receiving : nntp / NNTP 
+- sending : 
 ________________________________________________________
 
 Sending emails :

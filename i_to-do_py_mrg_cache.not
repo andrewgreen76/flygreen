@@ -1,12 +1,11 @@
 
 Build a digital portfolio :
-- GNU Emacs :
-  - does not indent (indent-region -and- C-M-\)
-- Gnus :
-  - a better prompt for username (can't have whateverdefaultmeans@gmailuser@gmail.com) 
-- Ubuntu/Bash 
+- Ubuntu/Bash
+  - (Let's wait until there's a response to the Emacs bug report.) 
   - runaway spacing
   - prints the firefox CL at the very top line of the terminal upon clearing the screen. 
+- Gnus :
+  - a better prompt for username (can't have whateverdefaultmeans@gmailuser@gmail.com) 
 - internships 
 - SMTH PROFESSIONAL to/with SOMETHING YOU HAVE : 
   - reporting bugs , typos 

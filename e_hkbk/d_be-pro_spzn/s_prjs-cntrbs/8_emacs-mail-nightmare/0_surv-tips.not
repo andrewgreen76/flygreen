@@ -34,4 +34,7 @@ The default email client for reading emails :
 - Rmail (not Gnus, not mu4e)
 - M-x rmail 
 
+=================================================================================
+Please see https://debbugs.gnu.org/Emacs.html to get information about other needed functionality. 
+
 .

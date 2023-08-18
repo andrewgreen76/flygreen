@@ -36,12 +36,6 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
   - Rmail : sending emails, checking emails.
 - the Turing machine, completeness 
 __________________________________________________________________________
-TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
->>>	to trblsht/tech support dirs.
-__________________________________________________________________________
-
-
-__________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________
 

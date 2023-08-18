@@ -31,7 +31,8 @@ __________________________________________________________________________
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- Emacs , Emacs Lisp , email clients , news networks , protocols , etc. 
+- Emacs , Emacs Lisp , email clients , news networks , protocols , etc.
+  - Rmail : sending emails, checking emails. 
 __________________________________________________________________________
 TECHNICAL OBSERVATIONS MADE OVER THE PAST 24-48 HOURS:
 >>>	to trblsht/tech support dirs.

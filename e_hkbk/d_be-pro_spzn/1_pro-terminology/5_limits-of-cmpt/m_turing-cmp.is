@@ -1,0 +1,22 @@
+
+Explain what Turing complete means.
+
+"
+Turing completeness is a concept in computer science that describes a system or language's ability to perform any computation that can be algorithmically defined. In simpler terms, a system or language is Turing complete if it has the capability to simulate the behavior of a Turing machine, which is a theoretical model of computation introduced by Alan Turing in the 1930s.
+
+A system or programming language is considered Turing complete if it can meet the following criteria:
+
+1. **Universal Computation:** A Turing complete system can simulate the behavior of any other Turing complete system. This means that you can express any algorithm or computation using the constructs and capabilities provided by the system.
+
+2. **Arbitrary Memory and Computation:** The system should be capable of representing and manipulating an arbitrary amount of data and perform computations on that data. This includes having some form of memory storage and a set of instructions to operate on that memory.
+
+3. **Conditional Branching:** The ability to make decisions and perform different actions based on certain conditions (such as if statements or loops) is crucial for Turing completeness. This allows for the execution of different code paths depending on the input or state.
+
+4. **Iterative Loops:** The system must support loops or iterative constructs that allow a sequence of instructions to be repeated a certain number of times or until a certain condition is met.
+
+5. **Basic Arithmetic Operations:** The ability to perform basic arithmetic operations (addition, subtraction, multiplication, division) is essential for general-purpose computation.
+
+When a language or system is Turing complete, it means that it can be used to solve a wide range of computational problems and perform any computation that can be algorithmically described. In essence, Turing completeness is a measure of computational power and flexibility. Many programming languages, including high-level languages like Python, Java, and C++, are Turing complete, meaning they can express and execute any algorithm that can be expressed in terms of the fundamental operations and constructs provided by the language.
+"
+
+.

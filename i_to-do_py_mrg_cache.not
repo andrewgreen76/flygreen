@@ -1,5 +1,5 @@
 
-Portfolio :
+Build a digital portfolio :
 - GNU Emacs :
   - does not indent (indent-region -and- C-M-\)
 - Gnus :

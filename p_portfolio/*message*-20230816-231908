@@ -1,0 +1,132 @@
+From: Andrew Green <andrewg.engr@gmail.com>
+To: bug-gnu-emacs@gnu.org
+Subject: 29.1; Does not indent selected text (indent-region, C-M-\ do not work)
+Date: Wed, 16 Aug 2023 23:23:14 -0700
+Message-ID: <87o7j6i3vx.fsf@andrew-Inspiron-14-7420-2-in-1.mail-host-address-is-not-set>
+--text follows this line--
+Hi, all. My first bug report ever right here.
+
+Quite simply, whenever I select with Shift-[up/down arrow] lines of text
+or code I want to indent, none of the indentation methods are working
+but one. I attempt to perform a selection indentation and the Emacs command
+line prints "Indenting region ... done", but no change has occurred. I tried :
+
+(a) C-M-\ (on my Dell Inspiron 14 'Alt' is the Meta key);
+(b) entering the 'indent-region' command after accessing the command
+line with M-x; and
+(c) just using 'Tab'.
+
+I can't indent a selection with 'Tab', but 'Tab' is working where the
+cursor is at and nothing is selected. Also, I discovered a rather
+cumbersome way of indenting a selection: C-x, then TAB, then S-right. I
+wish I had the expertise to help pinpoint where the bug could possibly
+be, but all I really know is that the issue definitely goes at least as
+far back as version 27.1 (which I installed with APT vs. this 29.1 which
+I got with snap).
+
+Link to screenshot : https://drive.google.com/file/d/1TfSRCygfxSBv0h0dW-kVdIV0RevB0P7k/view?usp=sharing
+At this point, I feel providing anything else would be rather excessive, especially my 'lshw' breakdown.
+
+Let me know if you need anything else.
+
+
+
+In GNU Emacs 29.1 (build 2, x86_64-pc-linux-gnu, GTK+ Version 3.24.20,
+ cairo version 1.16.0) of 2023-08-03 built on bos03-amd64-031
+Repository revision: cf57ec68c2a5ac5b721f445928869ca14232a4d1
+Repository branch: master
+System Description: Ubuntu 22.04.3 LTS
+
+Configured using:
+ 'configure --prefix=/snap/emacs/current/usr --with-x-toolkit=gtk3
+ --without-xaw3d --with-modules --with-cairo
+ --with-native-compilation=aot --with-xinput2 --with-tree-sitter
+ --with-json
+ 'CFLAGS=-isystem/build/emacs/parts/emacs/install/usr/include
+ -isystem/build/emacs/parts/emacs/install/usr/include/x86_64-linux-gnu
+ -isystem/build/emacs/stage/usr/include -O2'
+ 'CPPFLAGS=-isystem/build/emacs/parts/emacs/install/usr/include
+ -isystem/build/emacs/parts/emacs/install/usr/include/x86_64-linux-gnu
+ -isystem/build/emacs/stage/usr/include'
+ 'LDFLAGS=-L/build/emacs/parts/emacs/install/lib
+ -L/build/emacs/parts/emacs/install/usr/lib
+ -L/build/emacs/parts/emacs/install/lib/x86_64-linux-gnu
+ -L/build/emacs/parts/emacs/install/usr/lib/x86_64-linux-gnu
+ -L/build/emacs/stage/usr/lib''
+
+Configured features:
+ACL CAIRO DBUS FREETYPE GIF GLIB GMP GNUTLS GPM GSETTINGS HARFBUZZ JPEG
+JSON LCMS2 LIBOTF LIBSELINUX LIBSYSTEMD LIBXML2 M17N_FLT MODULES
+NATIVE_COMP NOTIFY INOTIFY PDUMPER PNG RSVG SECCOMP SOUND SQLITE3
+THREADS TIFF TOOLKIT_SCROLL_BARS TREE_SITTER X11 XDBE XIM XINPUT2 XPM
+GTK3 ZLIB
+
+Important settings:
+  value of $LANG: en_US.UTF-8
+  value of $XMODIFIERS: @im=ibus
+  locale-coding-system: utf-8-unix
+
+Major mode: Text
+
+Minor modes in effect:
+  tooltip-mode: t
+  global-eldoc-mode: t
+  show-paren-mode: t
+  electric-indent-mode: t
+  mouse-wheel-mode: t
+  tool-bar-mode: t
+  menu-bar-mode: t
+  file-name-shadow-mode: t
+  global-font-lock-mode: t
+  font-lock-mode: t
+  blink-cursor-mode: t
+  line-number-mode: t
+  indent-tabs-mode: t
+  transient-mark-mode: t
+  auto-composition-mode: t
+  auto-encryption-mode: t
+  auto-compression-mode: t
+
+Load-path shadows:
+None found.
+
+Features:
+(shadow sort mail-extr emacsbug message yank-media puny dired
+dired-loaddefs rfc822 mml mml-sec epa derived epg rfc6068 epg-config
+gnus-util text-property-search time-date mm-decode mm-bodies mm-encode
+mail-parse rfc2231 mailabbrev gmm-utils mailheader sendmail rfc2047
+rfc2045 ietf-drums mm-util mail-prsvr mail-utils vc-git diff-mode
+easy-mmode vc-dispatcher term/xterm xterm site-start comp comp-cstr
+warnings icons rx cl-extra help-mode info package browse-url url
+url-proxy url-privacy url-expand url-methods url-history url-cookie
+generate-lisp-file url-domsuf url-util mailcap url-handlers url-parse
+auth-source cl-seq eieio eieio-core cl-macs password-cache json subr-x
+map byte-opt gv bytecomp byte-compile url-vars cl-loaddefs cl-lib rmc
+iso-transl tooltip cconv eldoc paren electric uniquify ediff-hook
+vc-hooks lisp-float-type elisp-mode mwheel term/x-win x-win
+term/common-win x-dnd tool-bar dnd fontset image regexp-opt fringe
+tabulated-list replace newcomment text-mode lisp-mode prog-mode register
+page tab-bar menu-bar rfn-eshadow isearch easymenu timer select
+scroll-bar mouse jit-lock font-lock syntax font-core term/tty-colors
+frame minibuffer nadvice seq simple cl-generic indonesian philippine
+cham georgian utf-8-lang misc-lang vietnamese tibetan thai tai-viet lao
+korean japanese eucjp-ms cp51932 hebrew greek romanian slovak czech
+european ethiopic indian cyrillic chinese composite emoji-zwj charscript
+charprop case-table epa-hook jka-cmpr-hook help abbrev obarray oclosure
+cl-preloaded button loaddefs theme-loaddefs faces cus-face macroexp
+files window text-properties overlay sha1 md5 base64 format env
+code-pages mule custom widget keymap hashtable-print-readable backquote
+threads dbusbind inotify lcms2 dynamic-setting system-font-setting
+font-render-setting cairo move-toolbar gtk x-toolkit xinput2 x multi-tty
+make-network-process native-compile emacs)
+
+Memory information:
+((conses 16 114400 8040)
+ (symbols 48 9442 0)
+ (strings 32 28048 2084)
+ (string-bytes 1 847021)
+ (vectors 16 18256)
+ (vector-slots 8 356180 11089)
+ (floats 8 40 88)
+ (intervals 56 276 0)
+ (buffers 984 12))

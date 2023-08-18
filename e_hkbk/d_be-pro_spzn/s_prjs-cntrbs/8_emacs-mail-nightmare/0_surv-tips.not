@@ -1,25 +1,37 @@
 
-Rmail (not Gnus, not mu4e) has you covered as the default email client. 
-=================================================================================
+Sending an email : 
+--------------------
 
-Send an email : 
+The default email client for sending an email :
+- message-mode
+
+To send an email
 - C-x m
--or-
-- M-x compose-mail 
-............................
+- M-x compose-mail
 
-Check emails :
-- M-x rmail 
-_________________________________________________________________________________
+To convert/re-format the currently active file into an email : 
+- type "M-x mes-mo"
 
-Report a bug :
-1) Access the command line with M-x
-2) Type in "repor" or "report-emacs-bug" or "report-bug"
+--------------------
+Reporting a bug : 
+--------------------
+
+Report a bug : 
+- M-x "repor" or "report-emacs-bug" or "report-bug"
 
 Report a bug specifically in Emacs :
-1) Access the command line with M-x
-2) Type in "repor" or "report-emacs-bug" 
+- M-x "repor" or "report-emacs-bug" 
+
+
 
 >>> Allow for some time to pass before your report hits the tracker as all reports are moderated. 
+
+=================================================================================
+Checking/reading emails :
+---------------------------
+
+The default email client for reading emails :
+- Rmail (not Gnus, not mu4e)
+- M-x rmail 
 
 .

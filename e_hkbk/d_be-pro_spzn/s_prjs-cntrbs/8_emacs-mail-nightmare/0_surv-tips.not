@@ -1,7 +1,11 @@
 
-Send an email :
-- Open the outgoing email buffer with :
-  C-x m
+Send an email : 
+- C-x m
+-or-
+- M-x compose-mail 
+............................................
+
+Receive an email : 
 ............................................
 
 Report a bug :

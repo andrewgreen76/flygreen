@@ -1,6 +1,16 @@
 
-"
+Send an email :
+- Open the outgoing email buffer with :
+  C-x m
+............................................
 
-"
+Report a bug :
+1) Access the command line with M-x
+2) Type in "repor" or "report-emacs-bug" or "report-bug"
+............................................
+
+Report a bug specifically in Emacs :
+1) Access the command line with M-x
+2) Type in "repor" or "report-emacs-bug" 
 
 .

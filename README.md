@@ -1,4 +1,4 @@
-# Welcome to the experimental edutainment/tutorial repository. 
+# Welcome to the experimental edutainment/multi-tutorial repository. 
 
 __________________________________________________________________________
 The PURPOSE of this repo:
@@ -6,15 +6,16 @@ __________________________________________________________________________
 
 To help individuals, with or without a technical background, to:
 - fill in the gaps left by their formal education or, if they didn't have any,
-  provide them with comprehensive alternative education; 
+  provide them with comprehensive alternative education;
+  - (especially for beginners)
+    - hone their programming skills,
+    - internalize key programming and engineering concepts,
+    - learn about different systems,
+    - understand and build a perspective on modern computing through studying
+      its history.
+- grow a portfolio; 
 - improve their productivity in general (combatting ADD, figuring out
   alternatives to unhealthy solutions, etc.); 
-- (especially for beginners)
-  - hone their programming skills,
-  - internalize key programming and engineering concepts,
-  - learn about different systems,
-  - understand and build a perspective on modern computing through studying
-    its history.
     
 __________________________________________________________________________
 The MANIFESTO is:

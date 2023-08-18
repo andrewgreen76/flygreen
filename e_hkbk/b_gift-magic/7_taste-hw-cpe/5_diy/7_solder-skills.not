@@ -1,8 +1,12 @@
 
 Safety :
-- 
+- ONLY PLUG IN THE SOLDERING IRON the moment you are ready two solder a pad with a lead.
+- ALWAYS LEAVE IT IN THE SPRING HOLDER when not using it. 
 
 Poor soldering instances :
-- 
+- solder skip :
+  - no actual solder connection between the PCB pad and the lead.
+- solder bridge :
+  - two or more pads become connected with excess solder. 
 
 .

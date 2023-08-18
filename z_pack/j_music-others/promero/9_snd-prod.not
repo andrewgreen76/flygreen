@@ -1,0 +1,10 @@
+
+"
+No, LilyPond does not produce sound directly from the sheet music. LilyPond is a music engraving program, and its primary purpose is to create high-quality sheet music and musical scores. It generates beautifully typeset sheet music in a variety of formats, such as PDF, PostScript, and SVG.
+
+To hear the sound of the music you've created with LilyPond, you would need to use a separate music notation software or digital audio workstation (DAW) that supports MIDI playback. Some software, like MuseScore or Finale, allows you to both create sheet music and hear the playback of the music using MIDI instruments. You can export LilyPond files to MIDI format and then import them into a compatible software for playback.
+
+In summary, LilyPond is focused on producing visually appealing sheet music, while other software can be used to generate sound from the sheet music through MIDI playback or virtual instruments.
+"
+
+.

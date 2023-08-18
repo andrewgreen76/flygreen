@@ -11,9 +11,7 @@ Build a digital portfolio :
   - focus on Emacs, Bash, Ubuntu. 
   - reporting bugs , typos 
   - skillfully written documentation
-  < INTEL :
-    + iRISxe graphics 
-  < RASPBERRY PI 4 : research,order Rpi4 (A, B), 400 
+  < RASPBERRY PI 4 : research,order Rpi4 (A, B), 400
     - hardware is NOT open
     < ARM 
     < Pi OS
@@ -22,7 +20,6 @@ Build a digital portfolio :
   < MCU / ARDUINO Uno R4 : Minima or Wi-Fi 4
     - AVR 
   |
-
   < RISC-V / Si-Five 
   < TESLA : look into open-source Tesla projects
     + learn : [sound , heat monitoring] x [VLSI/VHDL/.. , embC]
@@ -39,7 +36,7 @@ Build a digital portfolio :
 - your own projects - educational contributions : 
        	   	      		  - custom bootstrap
   - bootable USB 
-  - custom bootloader/'Hello world' kernel ("I'll be doing the heavy-lifting for the time being.") 
+  - custom 'Hello world' bootloader/'Hello world' kernel ("I'll be doing the heavy-lifting for the time being.") 
   - elf
 
 Frame of reference : RAM : Apple II max RAM , etc. 

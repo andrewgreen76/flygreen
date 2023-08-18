@@ -36,5 +36,7 @@ The default email client for reading emails :
 
 =================================================================================
 Please see https://debbugs.gnu.org/Emacs.html to get information about other needed functionality. 
+Check out https://lists.gnu.org/mailman/listinfo/bug-gnu-emacs if you are looking to subscribe to a GNU bugs mailing list. 
+See https://debbugs.gnu.org/ for GNU bug tracker branches other than the one for Emacs.
 
 .

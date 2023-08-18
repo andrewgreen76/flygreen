@@ -3,7 +3,21 @@ Safety :
 - ONLY PLUG IN THE SOLDERING IRON the moment you are ready two solder a pad with a lead.
 - ALWAYS LEAVE IT IN THE SPRING HOLDER when not using it. 
 
-Poor soldering instances :
+
+
+Proper soldering practices :
+- "How do I solder? Make sure the surfaces to be soldered are clean. Turn on the soldering
+  iron and set temperature above the melting point of your solder. 600°- 650°F (316°- 343°C)
+  is a good place to start for lead-based solder and 650°- 700°F (343°- 371°C) for lead-free
+  solder."
+- Why use flux ? 
+|
+|
+Poor soldering instances to avoid : 
+- wetting :
+  - solder melting ability. 
+- dewetting :
+  - solder drying up too quickly after balling up. 
 - solder skip :
   - no actual solder connection between the PCB pad and the lead.
 - solder bridge :

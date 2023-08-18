@@ -1,0 +1,14 @@
+
+In other words, neither 'rmail' nor 'message-mode' would enable me to see my own emails.
+
+
+
+"
+That's correct. Both rmail and message-mode in Emacs are primarily focused on composing and sending emails, not on managing your mailbox or viewing sent emails. They are simple and lightweight email composition modes.
+
+If you're looking for a built-in option in Emacs to manage your emails, you might want to consider mu4e or notmuch, both of which provide more comprehensive email management features, including viewing and searching through your mailbox, handling multiple email accounts, and managing sent emails.
+
+Alternatively, if you're looking for a graphical email client with more advanced features, you could consider external email clients like Thunderbird or Evolution, which can also be integrated with Emacs if needed.
+"
+
+.

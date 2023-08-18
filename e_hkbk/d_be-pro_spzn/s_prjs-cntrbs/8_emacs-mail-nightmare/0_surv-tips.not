@@ -10,7 +10,7 @@ To send an email
 - M-x compose-mail
 
 To convert/re-format the currently active file into an email : 
-- type "M-x mes-mo"
+- M-x mes-mo 
 
 --------------------
 Reporting a bug : 

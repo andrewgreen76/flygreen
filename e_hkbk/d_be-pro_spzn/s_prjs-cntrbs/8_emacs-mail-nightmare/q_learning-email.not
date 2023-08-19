@@ -1,5 +1,5 @@
 
-- Choose your email client (Gnus, mu4e, etc.).
+- Choose your email client (Rmail, Gnus, mu4e, etc.).
 - Create the .el config (and the dir for it) for the client. 
   Ex. : ~/.gnus.el, .mu4e/config.el, etc. 
 - Choose the protocols and the corresponding backends for the client.
@@ -17,6 +17,10 @@ Email client (domain) of choice :
 - Every backend requires its respective package to be installed. 
 
 ........................................................
+
+Rmail :
+- built into Emacs (no need to install or configure anything) 
+- self-sufficient 
 
 Gmail - backends : 
 - receiving/reading : nnimap -AND- [gnus -or- mu4e]  

@@ -1,0 +1,28 @@
+
+`Maildir` is a common email storage format used by various email clients and servers. It's designed to store each email message as an individual file within a directory structure. This format is often preferred over other formats like `mbox` due to its advantages in terms of performance, reliability, and ease of synchronization.
+
+In a `Maildir` structure, each email message is stored as a separate file within three main directories: `cur`, `new`, and `tmp`.
+
+- `cur`: This directory contains the email messages that have been read by the user. The messages are stored as individual files with unique filenames that include information about the message and its status.
+
+- `new`: This directory contains new, unread email messages. Like in the `cur` directory, each message is stored as an individual file.
+
+- `tmp`: This directory is used for temporarily storing messages during the process of moving them between `new` and `cur`. It ensures that messages are fully written to the file system before they are moved.
+
+The `Maildir` format has several advantages:
+
+1. **No File Locking**: Since each email is stored as an individual file, there's no need for complex file locking mechanisms that are required in other formats like `mbox`.
+
+2. **Easy Synchronization**: `Maildir` format works well in environments where email messages need to be synchronized across multiple devices or servers.
+
+3. **Less Risk of Corruption**: If an email file becomes corrupt in `Maildir`, it affects only that specific email, rather than the entire mailbox.
+
+4. **Efficient Appending**: Appending new emails is efficient, as the new email can simply be added as a new file in the `new` directory.
+
+5. **Concurrency**: Multiple processes or threads can read and write to the `Maildir` format simultaneously without conflicts.
+
+`Maildir` is widely supported by many email clients and servers, including popular ones like `mutt`, `neomutt`, `Thunderbird`, and `Dovecot`.
+
+When setting up an email client like `mu4e` or configuring an email server, you may encounter the term `Maildir` in the context of email storage and management.
+
+.

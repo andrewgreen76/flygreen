@@ -3,6 +3,8 @@
   $ mu --version
 - Install mu4e.
   $ sudo apt-get install mu4e
-  $ mu4e --version 
+  $ mu4e --version
+- Set up mu :
+  $ mu init --maildir=~/Maildir --my-address=<user>@gmail.com
 
 .

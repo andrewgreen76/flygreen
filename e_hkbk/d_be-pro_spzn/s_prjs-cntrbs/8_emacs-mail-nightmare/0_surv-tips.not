@@ -24,7 +24,8 @@ Report a bug specifically in Emacs :
 
 
 
->>> Allow for some time to pass before your report hits the tracker as all reports are moderated. 
+>>> Allow for up to a week to pass before your report hits the tracker as all reports are moderated. 
+>>> https://www.gnu.org/software/emacs/manual/html_node/efaq/Reporting-bugs.html
 
 =================================================================================
 Checking/reading emails :

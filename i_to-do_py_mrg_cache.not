@@ -60,7 +60,7 @@ iPhone images (things to learn) -> this list
 Get :
 - a whiteboard
 - GC guitar pack 
-Arduino : LCD (pre-programmed) -> GitHub / soldering
+Arduino : LCD (pre-programmed) -> GitHub 
 GitHub : Nand2Ti06 original code for the x-compiler in C/Py -> GitHub
 
 
@@ -71,7 +71,6 @@ floss
 |
 experience :
 - own projects :
-  - solder the radio
   - embedded C (much later : Unix interface, etc. from the K&R book)
   - microcontrollers : 
     - Arduino :

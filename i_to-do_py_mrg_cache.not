@@ -39,6 +39,7 @@ Build a digital portfolio :
   - custom 'Hello world' bootloader/'Hello world' kernel ("I'll be doing the heavy-lifting for the time being.") 
   - elf
 
+microcode 
 Frame of reference : RAM : Apple II max RAM , etc. 
 Keep track of what is proprietary and what isn't :
 - Proprietary 	      		      	   | Non-proprietary

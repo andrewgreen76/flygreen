@@ -2,7 +2,7 @@
 (require 'mu4e)
 
 ;; Set the path to your Maildir (replace "/path/to/Maildir" with your actual path)
-(setq mu4e-maildir "/path/to/Maildir")
+(setq mu4e-maildir "~/Maildir")
 
 ;; Configure mu4e for Gmail
 (setq mu4e-sent-messages-behavior 'sent) ; Store sent messages in Gmail's "Sent" folder
@@ -15,7 +15,7 @@
 (setq smtpmail-smtp-server "smtp.gmail.com")
 (setq smtpmail-smtp-service 587)
 (setq smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil)))
-(setq smtpmail-auth-credentials '(("smtp.gmail.com" 587 "your.email@gmail.com" nil)))
+(setq smtpmail-auth-credentials '(("smtp.gmail.com" 587 "andrewg.engr@gmail.com" nil)))
 (setq smtpmail-default-smtp-server "smtp.gmail.com")
 
 ;; Set up mu4e for receiving emails
@@ -68,9 +68,9 @@
         :match-func (lambda (msg)
                       (when msg
                         (mu4e-message-contact-field-matches
-                         msg :to "your.email@gmail.com")))
-        :vars '((user-mail-address . "your.email@gmail.com")
-                (smtpmail-smtp-user . "your.email@gmail.com")
+                         msg :to "andrewg.engr@gmail.com")))
+        :vars '((user-mail-address . "andrewg.engr@gmail.com")
+                (smtpmail-smtp-user . "andrewg.engr@gmail.com")
                 (mu4e-sent-folder . "/Personal/Sent")
                 (mu4e-drafts-folder . "/Personal/Drafts")
                 (mu4e-trash-folder . "/Personal/Trash")
@@ -79,7 +79,7 @@
                 (smtpmail-smtp-server . "smtp.gmail.com")
                 (smtpmail-smtp-service . 587)
                 (smtpmail-starttls-credentials . (("smtp.gmail.com" 587 nil nil)))
-                (smtpmail-auth-credentials . (("smtp.gmail.com" 587 "your.email@gmail.com" nil)))
+                (smtpmail-auth-credentials . (("smtp.gmail.com" 587 "andrewg.engr@gmail.com" nil)))
                 (mu4e-sent-messages-behavior . sent))))
 
 ;; Set the default context to the one defined above

@@ -4,7 +4,8 @@ Chef's tools and ingredients :
 - a support base with a spring holder for the iron 
 - a wet sponge for wiping off used solder
 - a good flux
-- a bottle of alcohol (for rubbing off flux residue) 
+- a bottle of alcohol (for rubbing off flux residue)
+- getting an exhaust extractor is a really good idea 
 
 
 
@@ -17,19 +18,22 @@ Safety :
 
 Proper soldering practices :
 - (Assess the materials you'll be working with - with lead or lead-free, the type of alloy, rosin-core flux or not.) 
-- Clean the surface of the board before soldering. 
+- Clean the soldering tip and the surface of the board before soldering. 
 - "Turn on the soldering iron and set temperature above the melting point of your solder.
   600°- 650°F (316°- 343°C) is a good place to start for lead-based solder and 650°- 700°F
   (343°- 371°C) for lead-free solder."
 - Use flux regularly. It helps remove the films of oxide that form on the metal surfaces
   that are being soldered. That way the solder will retain good wetting (ability to melt).
-- Apply alcohol 
+- Connect the tip of the iron directly with the solder, the PCB pad or pinhole, and the lead of the component to avoid solder skips.
+  - A good idea is to lightly solder up the lead and the pad/pinhole before soldering them together.
+- Hold the fresh soldered connection still until it cools and turns solid. 
+- Apply alcohol wherever solder was applied after you are done to wipe off the flux. 
 |
 |
 Poor soldering instances to avoid : 
 - dewetting :
   - solder drying up too quickly after balling up. 
-- solder skip :
+- solder skip (cold solder) :
   - no actual solder connection between the PCB pad and the lead.
 - solder bridge :
   - two or more pads become connected with excess solder. 

@@ -1,0 +1,8 @@
+
+- mu (built-in, no longer supported)
+  $ mu --version
+- Install mu4e.
+  $ sudo apt-get install mu4e
+  $ mu4e --version 
+
+.

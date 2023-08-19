@@ -1,10 +1,12 @@
 
 The following packages and features are no longer supported : 
+- mbsync - "Unable to locate package mbsync"
 - mu - "E: Unable to locate package mu"
 - mu4e - "error: Package ‘mu4e’ is unavailable"
-- notmuch
+  - CAN'T USE mu/mu4e. 
 - notmuch-emacs - "E: Unable to locate package notmuch-emacs"
 - Google's App Passwords - no longer a feature 
-- Google's Less Secure Apps - no longer a feature  
+- Google's Less Secure Apps - no longer a feature
+  - CAN'T USE gnus. 
 
 .

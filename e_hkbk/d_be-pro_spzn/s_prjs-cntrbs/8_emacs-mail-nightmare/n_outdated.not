@@ -1,9 +1,10 @@
 
 The following packages and features are no longer supported : 
-- mu
+- mu - "E: Unable to locate package mu"
+- mu4e - "error: Package ‘mu4e’ is unavailable"
 - notmuch
-- notmuch-emacs
-- Google's App Passwords
-- Google's Less Secure Apps 
+- notmuch-emacs - "E: Unable to locate package notmuch-emacs"
+- Google's App Passwords - no longer a feature 
+- Google's Less Secure Apps - no longer a feature  
 
 .

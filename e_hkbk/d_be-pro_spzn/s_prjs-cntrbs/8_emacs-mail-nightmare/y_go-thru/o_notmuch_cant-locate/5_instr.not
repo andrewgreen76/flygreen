@@ -1,0 +1,8 @@
+
+- Install notmuch :
+  $ sudo apt-get install notmuch
+- Set up notmuch :
+  $ notmuch setup
+  ... and answer the prompts. For incoming email tags you can just Enter through for [ unread inbox]. 
+
+.

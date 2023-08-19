@@ -5,7 +5,7 @@ Sending an email :
 The default email client for sending an email :
 - message-mode
 
-To send an email
+To send an email : 
 - C-x m
 - M-x compose-mail
 
@@ -21,8 +21,6 @@ Report a bug :
 
 Report a bug specifically in Emacs :
 - M-x "repor" or "report-emacs-bug" 
-
-
 
 >>> Allow for up to a week to pass before your report hits the tracker as all reports are moderated. 
 >>> https://www.gnu.org/software/emacs/manual/html_node/efaq/Reporting-bugs.html

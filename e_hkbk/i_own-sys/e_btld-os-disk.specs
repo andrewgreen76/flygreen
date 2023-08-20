@@ -6,10 +6,12 @@ Hardware/drive :
 
 
 Software/OS specs :
+|
 - FIRST : Custom bootloader specs :
   - self-hosting 
   ? poses as a kernel (unikernel) 
 - Filesys specs : 
+|
 - Kernel specs :
   - Size of kernel/OS :
     - PiOS : ~7 MB
@@ -22,6 +24,7 @@ Software/OS specs :
     - Raspbian linux kernel
       - size : 872-2,701 MB 
       - storage needed : 8+ GB 
+|
 - Compiler specs :
 - Debugger specs :
 - No applications or games 

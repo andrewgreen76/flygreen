@@ -1,9 +1,36 @@
 
 Reading emails :
+
+---------------------------
+Using notmuch and Emacs : 
 ---------------------------
 
-The default email client for reading emails :
-- Rmail (not Gnus, not mu4e)
+Yes, there is a Notmuch command that allows you to display an email within Emacs. The command is called `notmuch-show`.
+
+The `notmuch-show` command is used to display the contents of an email, showing the headers, body, attachments, and related information. It's similar to viewing an individual email in a traditional email client. You can navigate through emails using the `notmuch-show` interface, read the email's content, view attachments, and perform various actions on the email.
+
+Here's how you can use the `notmuch-show` command in Emacs:
+
+1. Open Emacs.
+
+2. Press `M-x` (Alt key + x).
+
+3. Type `notmuch-show` and press Enter.
+
+4. You'll be prompted to enter a search query to specify the email you want to display. You can use various search terms, such as sender's email address, subject, or other keywords.
+
+5. Select the email you want to display from the search results, and the `notmuch-show` interface will open, showing the email's contents.
+
+6. Inside the `notmuch-show` buffer, you can use keyboard shortcuts to navigate, read, and perform actions on the email. For example, you can use `n` to go to the next email, `p` to go to the previous email, and `q` to quit the `notmuch-show` buffer.
+
+Remember that `notmuch-show` provides a rich interface for viewing and interacting with individual emails directly within Emacs. It's a powerful tool for email management if you prefer to work within your Emacs environment.
+
+---------------------------
+Using Rmail : 
+---------------------------
+
 - M-x rmail 
+
+The default email client for reading emails. 
 
 .

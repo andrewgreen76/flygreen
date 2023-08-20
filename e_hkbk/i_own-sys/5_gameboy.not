@@ -1,5 +1,9 @@
 
-- CPU 
+- CPU (DMG, based on Z80)
+  - monochrome
+  - a Z80 CPU can work for colored gfx too
+  - 8-bit processor
+  - 16-bit mem addr space (64K mem) 
 - 8K SRAM 
 - 8K video RAM
 - cartridge 

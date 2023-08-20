@@ -46,6 +46,6 @@ notmuch :
 - a tool, not an email client or a backend
 - can be used as an alternative to Gnus and other like services 
 - independently functioning
-- for searching and indexing email messages , not sending or retrieving them 
+- for filtering/listing email messages , not sending or retrieving them 
 
 .

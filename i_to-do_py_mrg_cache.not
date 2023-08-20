@@ -12,13 +12,12 @@ Build a digital portfolio :
   - focus on Emacs, Bash, Ubuntu. 
   - reporting bugs , typos 
   - skillfully written documentation
-  < RASPBERRY PI 4 : research,order Rpi4 (A, B), 400
-    - hardware is NOT open ; ARM is not open standard 
-    < PiOS - NOT ENTIRELY FREE 
-      - graphics , sound , heat check 
-    -> original code -> GitHub
+  - An open-source MPU : 
+   -> original code -> GitHub
+    - graphics , sound , heat check 
   < MCU / ARDUINO Uno R4 : Minima or Wi-Fi 4
     - AVR 
+    - graphics , sound , heat check 
   |
   < RISC-V / Si-Five 
   < TESLA : look into open-source Tesla projects
@@ -39,11 +38,13 @@ Build a digital portfolio :
   - custom 'Hello world' bootloader/'Hello world' kernel ("I'll be doing the heavy-lifting for the time being.") 
   - elf
 
+Design a CPU 
 monolithic kernel
 unikernel 
 assembler core
 multi-core support 
-microcode 
+microcode
+
 Frame of reference : RAM : Apple II max RAM , etc. 
 Keep track of what is proprietary and what isn't :
 - Proprietary 	      		      	   | Non-proprietary

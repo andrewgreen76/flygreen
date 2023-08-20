@@ -1,10 +1,10 @@
 
-$ sudo apt-get install notmuch
-$ notmuch setup 
-$ notmuch new 
-
 $ sudo apt-get install isync 
 
 $ sudo apt-get install offlineimap 
+
+$ sudo apt-get install notmuch
+$ notmuch setup 
+$ notmuch new 
 
 .

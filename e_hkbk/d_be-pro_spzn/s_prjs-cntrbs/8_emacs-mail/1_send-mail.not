@@ -1,0 +1,14 @@
+
+Sending an email : 
+--------------------
+
+The default email client for sending an email :
+- message-mode
+
+To send an email : 
+- C-x m
+- M-x compose-mail
+
+To convert/re-format the currently active file into an email : 
+- M-x mes-mo 
+

@@ -2,6 +2,8 @@
 Hardware/drive :
 - Boot medium : [USB drive -or- make your own chip]
 
+
+
 Custom bootloader specs :
 |
 - self-hosting 
@@ -10,10 +12,14 @@ Custom bootloader specs :
 
 
 Software/OS specs :
+- Filesys specs : 
+- Kernel specs :
+  - Size :
+    - PiOS : ~7 MB
+    - Peropesis : ~205 MB (distro , ISO ? )
+    - Linux kernel : 4 GB 
+- Compiler specs :
+- Debugger specs :
+- No applications or games 
 
-   Filesys specs : 
-   Kernel specs :
-   Compiler specs :
-   Debugger specs :
-   No applications or games 
-
+.

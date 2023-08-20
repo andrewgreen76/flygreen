@@ -13,9 +13,8 @@ Build a digital portfolio :
   - reporting bugs , typos 
   - skillfully written documentation
   < RASPBERRY PI 4 : research,order Rpi4 (A, B), 400
-    - hardware is NOT open
-    < ARM 
-    < Pi OS
+    - hardware is NOT open ; ARM is not open standard 
+    < PiOS - NOT ENTIRELY FREE 
       - graphics , sound , heat check 
     -> original code -> GitHub
   < MCU / ARDUINO Uno R4 : Minima or Wi-Fi 4
@@ -40,6 +39,10 @@ Build a digital portfolio :
   - custom 'Hello world' bootloader/'Hello world' kernel ("I'll be doing the heavy-lifting for the time being.") 
   - elf
 
+monolithic kernel
+unikernel 
+assembler core
+multi-core support 
 microcode 
 Frame of reference : RAM : Apple II max RAM , etc. 
 Keep track of what is proprietary and what isn't :

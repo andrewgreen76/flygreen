@@ -1,0 +1,14 @@
+
+"
+CPU cores and CPU threads are related concepts, but CPU cores came first in the evolution of processors.
+
+A CPU core is an individual processing unit within a CPU chip. It is capable of executing instructions independently, and a CPU chip can have multiple cores. Each core can handle its own set of instructions simultaneously, which improves the overall processing power of the CPU. Multi-core processors became mainstream in the mid-2000s.
+
+CPU threads, on the other hand, are a way to improve parallelism and efficiency within a CPU core. Hyper-Threading (HT) is a technology developed by Intel that allows a single physical CPU core to act as if it were two logical cores. This allows the core to better utilize its execution resources and handle multiple threads more efficiently. Other manufacturers, like AMD, have similar technologies such as Simultaneous Multi-Threading (SMT).
+
+In essence, CPU cores were the initial building blocks of processors, allowing for parallel processing of instructions. CPU threads, as implemented through technologies like Hyper-Threading or Simultaneous Multi-Threading, came later as a way to further enhance the utilization of CPU cores and improve overall performance in multi-threaded workloads.
+
+So, CPU cores predate the concept of CPU threads, but the development of CPU threads was a subsequent innovation aimed at optimizing core utilization.
+"
+
+.

@@ -1,0 +1,17 @@
+[general]
+accounts = MyAccount
+
+[Account MyAccount]
+localrepository = Local
+remoterepository = Remote
+
+[Repository Local]
+type = Maildir
+localfolders = ~/Maildir
+
+[Repository Remote]
+type = IMAP
+remotehost = imap.gmail.com
+remoteuser = <your-username>@gmail.com
+remotepass = <your-password>
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt

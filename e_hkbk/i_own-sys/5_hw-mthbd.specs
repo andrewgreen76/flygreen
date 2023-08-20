@@ -1,5 +1,7 @@
 
-- Hardware specs :
+Hardware specs. 
+
+- Motherboard specs :
   - Board :
     - [CHOOSE ONE]
     - Rejected : [NON-PROPRIETARY] Raspberry Pi 
@@ -23,6 +25,8 @@
   - interfaces : PCIe (not UART , SPI , I2C) 
   - voltages : (see Board) 5V , (why 7-12V ?)
   - pinout : (see Board)
+
+
 
   - extra features :
     - graphics controller - inside the monitor 

@@ -1,0 +1,9 @@
+
+Reading emails :
+---------------------------
+
+The default email client for reading emails :
+- Rmail (not Gnus, not mu4e)
+- M-x rmail 
+
+.

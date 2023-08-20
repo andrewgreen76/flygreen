@@ -1,5 +1,8 @@
 
-$ sudo apt-get install isync 
+- Run the following in the Bash terminal :
+
+--------------------------------------------
+# $ sudo apt-get install isync 
 
 $ sudo apt-get install offlineimap 
 
@@ -7,5 +10,11 @@ $ sudo apt-get install notmuch
 $ notmuch setup 
 $ notmuch new
 
-# ... cause everything else is either outdated or just complex to the point of being flat-out useless. 
+# ... cause everything else is either outdated or just complex to the point of being flat-out useless.
+--------------------------------------------
 
+- Enable two-step verification in Gmail for the target Gmail address/account. 
+- Go to :
+https://myaccount.google.com/apppasswords?pli=1&rapt=AEjHL4NnlwKBWTyQ16T2X5tkwkQqW2z5TQsq03OeZgcJAFOH3Gx907sYvoRKK7y2wiwGyO2nviLKmME3Y8qhpS1aRxzzb3Kzng
+
+.

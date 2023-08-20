@@ -7,7 +7,7 @@ The following packages and features are no longer supported :
 - notmuch-emacs - "E: Unable to locate package notmuch-emacs"
 - Wanderlust - not on the Emacs list of available packages
 - mew - obsolete as of Emacs 27.1
-- Google's App Passwords - no longer a feature
+- Google's App Passwords - obscured by Google 
   - https://myaccount.google.com/apppasswords?pli=1&rapt=AEjHL4NnlwKBWTyQ16T2X5tkwkQqW2z5TQsq03OeZgcJAFOH3Gx907sYvoRKK7y2wiwGyO2nviLKmME3Y8qhpS1aRxzzb3Kzng
 - Google's Less Secure Apps - no longer a feature
   - CAN'T USE gnus. 

@@ -1,23 +1,22 @@
 
 Hardware/drive :
 - Boot medium : [USB drive -or- make your own chip]
-
-
-
-Custom bootloader specs :
-|
-- self-hosting 
-? poses as a kernel (unikernel) 
+- Does not need to be formatted. 
 
 
 
 Software/OS specs :
+- FIRST : Custom bootloader specs :
+  - self-hosting 
+  ? poses as a kernel (unikernel) 
 - Filesys specs : 
 - Kernel specs :
   - Size of kernel/OS :
     - PiOS : ~7 MB
     - Peropesis : ~205 MB (distro , ISO ? )
     - Linux kernel : 4 GB 
+    - Raspbian Lite linux kernel - 4+ GB 
+    - Raspbian linux kernel - 8+ GB 
 - Compiler specs :
 - Debugger specs :
 - No applications or games 

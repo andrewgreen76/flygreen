@@ -12,7 +12,9 @@ Build a digital portfolio :
   - focus on Emacs, Bash, Ubuntu. 
   - reporting bugs , typos 
   - skillfully written documentation
-  - An open-source MPU : 
+  - RASPBERRY PI 4 : research,order Rpi4 (A, B), 400 : 
+    - Raspbian linux kernel - 8+ GB 
+    - Raspbian Lite linux kernel - 4+ GB 
    -> original code -> GitHub
     - graphics , sound , heat check 
   < MCU / ARDUINO Uno R4 : Minima or Wi-Fi 4

@@ -5,6 +5,7 @@ $ sudo apt-get install offlineimap
 
 $ sudo apt-get install notmuch
 $ notmuch setup 
-$ notmuch new 
+$ notmuch new
 
-.
+# ... cause everything else is either outdated or just complex to the point of being flat-out useless. 
+

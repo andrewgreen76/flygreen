@@ -1,9 +1,9 @@
 
-Motherboard specs :
+SBC specs :
 
   - Board :
-    - [CHOOSE ONE]
-    - Rejected : [NON-PROPRIETARY] Raspberry Pi 
+    - [NON-PROPRIETARY] Raspberry Pi 
+    - RISC-V (Red-V, custom) 
   - Architecture :
     ? 8-bit ,
     ? [NON-PROPRIETARY] ARM(v8) 

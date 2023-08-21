@@ -7,6 +7,10 @@ Motherboard specs :
   - Architecture :
     ? 8-bit ,
     ? [NON-PROPRIETARY] ARM(v8) 
+  - interfaces/ports :
+    - PCIe (not UART , SPI , I2C) 
+  - voltages : (see Board) 5V , (why 7-12V ?)
+  - pinout : (see Board)
 
   - Processing chip :
     - low transistor count (29,000 - Intel 8086)
@@ -30,11 +34,6 @@ Motherboard specs :
   - Flash : K
 
   - OS : [name] , 1.5K
-  - interfaces : PCIe (not UART , SPI , I2C) 
-  - voltages : (see Board) 5V , (why 7-12V ?)
-  - pinout : (see Board)
-
-
 
   - extra features :
     - graphics controller - inside the monitor 

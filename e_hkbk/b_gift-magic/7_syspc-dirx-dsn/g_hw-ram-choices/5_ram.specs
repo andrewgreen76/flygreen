@@ -20,22 +20,21 @@ Account for :
     ? n-bit ,
     ? [NON-PROPRIETARY] ARM(v8) 
 
-- Breakdown : 4K+ (VIC-20) , volatile , non-expandable :
-  - DRAM (main mem) : K
-  - sys : [name] , 1.5K
-  - gen. data (logic , collision) 
-  - gfx (images , backgrounds , animations/sprites)
-  - no sound/music 
-  - SRAM (CPU cache) : K
-  - aux. mem : NO.
-    - Rejected : 12K 
-  - memory model : small , tiny , ... , flat
+Memory scheme : 
+- Partitioned DRAM (main memory) breakdown : 
+  - 4K+ (VIC-20)
+    - sys : [name] , 1.5K
+    - gen. data (logic , collision) 
+    - gfx (images/sprites/animations , backgrounds)
+    - no sound/music 
+- SRAM / CPU cache : (4K?) 
+- aux. mem : NO.
+  - Rejected : 12K 
+- memory model : small , tiny , ... , flat
+- memory is not non-expandable 
 
 - interfaces : PCIe (not UART , SPI , I2C) 
 - voltages : (see Board) 5V , (why 7-12V ?)
 - pinout : (see Board)
-
-- Sound :
-  - no sound controller 
 
 .

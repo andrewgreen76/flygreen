@@ -18,7 +18,12 @@ Hardware specs.
     - aux. mem : NO.
       - Rejected : 12K 
   - Storage / space (for code, data) : bootable USB
-    - Rejected : internal or external (48K , mounted) 
+    - Rejected : internal or external (48K , mounted)
+
+  - Generic ROM - DECIDE ON :
+    a) firmware chip (ROM/flash chip) 
+    b) insertable ROM device (booting ROM stick with an OS -or- a game) 
+    
   - EEPROM : K
   - Flash : K
   - OS : [name] , 1.5K

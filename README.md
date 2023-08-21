@@ -33,8 +33,9 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
 - Emacs , Emacs Lisp , email clients , news networks , protocols , etc.
-  - Rmail : sending emails, checking emails.
-- the Turing machine, completeness 
+  - Rmail, notmuch, offlineimap, sending emails, checking emails, etc.
+- the Turing machine, completeness, other like problems.
+- MCU vs. SoC vs. MPU for gaming. 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________
@@ -66,3 +67,4 @@ __________________________________________________________________________
 - learn BIOS-kernel-API/DSP-distro ladder for that 
 - An API / display server protocol for a 13h-like mode portable to any headless system.
 
+.

@@ -1,7 +1,8 @@
 
-ROM - read-only memory. Can be :
-- a piece of firmware (on a chip) 
-- an OS (on a flash drive) 
-- a game (in a cartridge) 
+ROM - read-only memory. Can be : 
+- a ROM chip with a piece of firmware on it
+  - (booting : firmware kickstarts basic PC functionality from a ROM chip or flash chips on the motherboard of the PC) 
+- a bootable flash drive with an OS written to it  
+- a game cartridge 
 
 .

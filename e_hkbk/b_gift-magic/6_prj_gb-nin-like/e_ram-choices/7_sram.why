@@ -1,5 +1,13 @@
 
 "
+SRAM is commonly used for a computer's cache memory, such as a processor's L2 or L3 cache. It is not used for a computer's main memory because of its cost and size. Most computers use DRAM instead because it supports greater densities at a lower cost per megabyte (MB).
+"
+
+
+
+ChatGPT : 
+|
+"
 SRAM (Static Random-Access Memory) is used in various applications where fast and reliable access to data is crucial. Its characteristics, such as high speed and low latency, make it suitable for specific use cases that require rapid data retrieval and low power consumption. Here are some common applications of SRAM:
 
 1. **Cache Memory:**

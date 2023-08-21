@@ -1,4 +1,11 @@
 
+A CPU is a chip that simply takes in input, crunches it, and provides an output.
+- takes in an instruction (and other inputs like a memory address, a reset bit, etc.)
+- performs an operation based on the current instruction, past input, and its own inner workings
+- provides an output (a word of DATA, a memory ADDRESS, next instruction to carry out, the bit to write to memory, etc.) 
+
+
+
 "
 Yes, all CPUs are microprocessors, but not all microprocessors are CPUs. The terms "CPU" (Central Processing Unit) and "microprocessor" are often used interchangeably, but they do have slightly different meanings.
 

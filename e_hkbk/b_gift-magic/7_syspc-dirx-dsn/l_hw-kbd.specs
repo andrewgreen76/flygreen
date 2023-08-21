@@ -1,27 +1,24 @@
 
-Hardware specs. 
+Keyboard specs :
 
-- Motherboard specs :
+  - Keyboard choices : 
+    - [brand] x [model]
+    - custom , RISC-V 
+    - https://en.wikipedia.org/wiki/Keyboard_controller_(computing)
+
   - Board :
     - [CHOOSE ONE]
     - Rejected : [NON-PROPRIETARY] Raspberry Pi 
+
   - Architecture :
     ? 8-bit ,
     ? [NON-PROPRIETARY] ARM(v8) 
-  - Processing chip :
+
+  - Controllers :
+    - need (1) the device controller and (2) the scancode-reading MCU 
     - custom , RISC-V
-    - [MPU] [brand] [model] 
-  - RAM total : 4K , volatile , non-expandable
-    - memory model : small , tiny , ... , flat
-    - SRAM : K
-    - DRAM : K
-    - aux. mem : NO.
-      - Rejected : 12K 
-  - Storage / space (for code, data) : bootable USB
-    - Rejected : internal or external (48K , mounted) 
-  - EEPROM : K
-  - Flash : K
-  - OS : [name] , 1.5K
+    - [MPU] [brand] [model] (8042, 8742) 
+
   - interfaces : PCIe (not UART , SPI , I2C) 
   - voltages : (see Board) 5V , (why 7-12V ?)
   - pinout : (see Board)

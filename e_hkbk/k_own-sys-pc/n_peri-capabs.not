@@ -7,9 +7,12 @@
       - Rejected : 16-bit color depth , < 256 colors (16 ?) 
     - Pre-programmed sysdefault 
     - Output modes :
-      - Option 1 : text only , absolutely no graphic support. 
-      - Option 2 : one mode : text ; graphics will have to be hacked up (a-la VIC-20).
-      - Option 3 : one mode : text and graphics will be treated as one.
+      - Option 1 : text only , absolutely no graphic mode support : 
+      	- no imitation of text as graphics or physical implementation of any kind. 
+      - Option 2 : one mode : (a) text and (b) graphics hacked up with text a-la VIC-20, monochrome (or color).
+      - Option 3 : (1) text and (2) graphics (mode 13h style or else). 
+
+- GUI : none 
   - Sound : none
   - Music : none
   - Networking : none

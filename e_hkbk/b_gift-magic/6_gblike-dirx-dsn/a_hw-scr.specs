@@ -1,0 +1,47 @@
+
+Monitor specs :
+
+- Display capabilities : 
+    - Resolution : 320 x 200	-or-	640 x 480 ,
+    - 4:3 aspect ratio 
+    - monochrome (black-and-white)
+      - Rejected : 16-bit color depth , < 256 colors (16 ?) 
+    - Pre-programmed sysdefault 
+    - Output modes :
+      - Option 1 : text only , absolutely no graphic mode support : 
+      	- no imitation of text as graphics or physical implementation of any kind. 
+      - Option 2 : one mode : (a) text and (b) graphics hacked up with text a-la VIC-20, monochrome (or color).
+      - Option 3 : (1) text and (2) graphics (mode 13h style or else). 
+
+- Board :
+  -
+
+- Architecture :
+    ? n-bit ,
+    ? [NON-PROPRIETARY] ARM(v8) 
+
+- Graphics controller - STUDY :
+  a) fab : custom , RISC-V
+  b) [brand] [model] 
+
+- RAM total : 4K , volatile , non-expandable
+  - memory model : small , tiny , ... , flat
+  - SRAM : K
+  - DRAM : K
+  - aux. mem : NO.
+    - Rejected : 12K 
+
+- Storage / space (for code, data) : bootable USB
+  - Rejected : internal or external (48K , mounted) 
+
+- EEPROM : K
+- Flash : K
+- OS : [name] , 1.5K
+- interfaces : PCIe (not UART , SPI , I2C) 
+- voltages : (see Board) 5V , (why 7-12V ?)
+- pinout : (see Board)
+
+- Sound :
+  - no sound controller 
+
+.

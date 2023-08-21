@@ -25,7 +25,7 @@ Memory scheme :
   - 4K+ (VIC-20)
     - sys : [name] , 1.5K
     - gen. data (logic , collision) 
-    - gfx (images/sprites/animations , backgrounds)
+    - screen/gfx (images/sprites/animations , backgrounds)
     - no sound/music 
 - SRAM / CPU cache : (4K?) 
 - aux. mem : NO.

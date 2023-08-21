@@ -8,7 +8,7 @@ Keyboard specs :
 
   - Board :
     - [CHOOSE ONE]
-    - Rejected : [NON-PROPRIETARY] Raspberry Pi 
+    - [NON-PROPRIETARY] Raspberry Pi 
 
   - Architecture :
     ? 8-bit ,
@@ -19,14 +19,19 @@ Keyboard specs :
     - custom , RISC-V
     - [MPU] [brand] [model] (8042, 8742) 
 
+  - LEDs - tons of checks : 
+    - hidden : 
+      - KBC on
+      - scancode MCU on 
+      - MTHBD on
+      ? kbd INT BYTE leds 
+    - open to all :
+      - 
+
   - interfaces : PCIe (not UART , SPI , I2C) 
   - voltages : (see Board) 5V , (why 7-12V ?)
   - pinout : (see Board)
 
-
-
-  - extra features :
-    - graphics controller - inside the monitor 
+  - no extra features :
     - no sound controller 
-    - no heat check controller 
 

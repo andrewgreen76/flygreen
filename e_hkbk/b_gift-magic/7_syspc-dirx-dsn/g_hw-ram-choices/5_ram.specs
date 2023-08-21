@@ -20,13 +20,16 @@ Account for :
     ? n-bit ,
     ? [NON-PROPRIETARY] ARM(v8) 
 
-- RAM total : 4K , volatile , non-expandable
-  - memory model : small , tiny , ... , flat
-  - SRAM : K
-  - DRAM : K
+- Breakdown : 4K+ (VIC-20) , volatile , non-expandable :
+  - DRAM (main mem) : K
+  - sys : [name] , 1.5K
+  - gen. data (logic , collision) 
+  - gfx (images , backgrounds , animations/sprites)
+  - no sound/music 
+  - SRAM (CPU cache) : K
   - aux. mem : NO.
     - Rejected : 12K 
-  - OS : [name] , 1.5K
+  - memory model : small , tiny , ... , flat
 
 - interfaces : PCIe (not UART , SPI , I2C) 
 - voltages : (see Board) 5V , (why 7-12V ?)

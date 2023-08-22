@@ -2,16 +2,16 @@
 Monitor specs :
 
 - Display capabilities : 
-    - Resolution : 320 x 200	-or-	640 x 480 ,
-    - 4:3 aspect ratio 
-    - monochrome (black-and-white)
-      - Rejected : 16-bit color depth , < 256 colors (16 ?) 
-    - Pre-programmed sysdefault 
-    - Output modes :
-      - Option 1 : text only , absolutely no graphic mode support : 
-      	- no imitation of text as graphics or physical implementation of any kind. 
-      - Option 2 : one mode : (a) text and (b) graphics hacked up with text a-la VIC-20, monochrome (or color).
-      - Option 3 : (1) text and (2) graphics (mode 13h style or else). 
+  - Resolution : 320 x 200	-or-	640 x 480 ,
+  - 4:3 aspect ratio 
+  - monochrome (black-and-white)
+    - Rejected : 16-bit color depth , < 256 colors (16 ?) 
+  - Pre-programmed sysdefault 
+  - Output modes :
+    - Option 1 : text only , absolutely no graphic mode support : 
+      - no imitation of text as graphics or physical implementation of any kind. 
+    - Option 2 : one mode : (a) text and (b) graphics hacked up with text a-la VIC-20, monochrome (or color).
+    - Option 3 : (1) text and (2) graphics (mode 13h style or else). 
 
 - Board :
   -

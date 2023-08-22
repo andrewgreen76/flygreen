@@ -1,6 +1,15 @@
 
 What is an OS ?
 What is a kernel ?
+|
+gb-like :
+- LCD screen choice - ? 
+|
+PC OS :
+- 6502-based multi-breadboard computer 
+- raspbian os linux kernel -> STUDY
+  - have the OS in action
+  - have the src code 
 
 Build a digital portfolio :
 - Emacs 

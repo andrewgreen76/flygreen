@@ -32,10 +32,8 @@ __________________________________________________________________________
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- Emacs , Emacs Lisp , email clients , news networks , protocols , etc.
-  - Rmail, notmuch, offlineimap, sending emails, checking emails, etc.
-- the Turing machine, completeness, other like problems.
-- MCU vs. SoC vs. MPU for gaming. 
+- MCU vs. SoC vs. MPU for gaming.
+- LCD and LED screen technology for gaming 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

@@ -1,7 +1,13 @@
 
-$ notmuch   # ... for when you have any further questions, concerns, or reservations. 
+$ offlineimap	# It is this email client that fetches your mail.
+  		# notmuch simply looks up and displays mail based on your filtering criteria, as in :
 
 $ notmuch new
-  - Email reflections should come pouring from Gmail. 
+  - Email reflections should come pouring from Gmail.
 
+$ notmuch search tag:inbox   # This should display inbox mail. 
+  
+........................................................................................
+
+$ notmuch   # ... for when you have any further questions, concerns, or reservations. 
 .

@@ -1,0 +1,21 @@
+
+"
+The ".p8" file format is associated with the PICO-8 fantasy console. PICO-8 is a platform that emulates a retro-style game console with limited graphics and sound capabilities reminiscent of early video game systems. It's designed to encourage creative game development with restrictions on graphics, sound, and code size.
+
+A ".p8" file is a cartridge file format used by PICO-8 to store games, programs, and graphics created within the PICO-8 environment. Cartridge files contain all the data necessary to run a game on the PICO-8 emulator or console. This includes graphics, sound effects, music, and the Lua programming code that defines the game's behavior.
+
+The ".p8" file format includes several sections:
+
+- **__lua__:** This section contains the Lua code for the game or program.
+- **__gfx__:** This section contains the sprite graphics data.
+- **__gff__:** This section contains additional graphics information.
+- **__map__:** This section contains map data.
+- **__sfx__:** This section contains sound effect data.
+- **__music__:** This section contains music data.
+
+When you create a game or program in PICO-8, you can export it as a ".p8" cartridge file to share with others or to run on PICO-8 emulators. The file format is specifically designed for the PICO-8 environment and is not meant to be used with other software or systems.
+
+Please note that my information is based on the state of PICO-8 as of September 2021, and there may have been developments or changes since that time.
+"
+
+.

@@ -11,7 +11,11 @@ Chef's tools and ingredients :
 - 3.5-inch LCD screen 
 
 - programming the ROM
-  - medium :
+  - code/instructions :
+    - boot , game/tiles/character set 
+  - medium : 
+    - alternative to cartridge
+    - GPIO pins , pin headers 
     ? USB stick ?
   - setup :
     - 

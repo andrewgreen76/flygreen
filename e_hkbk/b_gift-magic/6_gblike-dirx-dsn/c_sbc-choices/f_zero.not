@@ -1,0 +1,23 @@
+
+"
+Certainly, here are the specifications of the original Raspberry Pi Zero (without wireless capabilities):
+
+- **System-on-Chip (SoC):** BCM2835 by Broadcom
+- **Processor:** ARM1176JZF-S running at 1 GHz (single-core)
+- **Memory:**
+  - 512MB of LPDDR2 SDRAM
+  - No built-in Flash memory for program storage (program is loaded into RAM from an external source, usually a microSD card)
+
+- **GPIO (General Purpose Input/Output) Pins:** 40 GPIO pins
+- **Video Output:** mini-HDMI port (1080p60 video output)
+- **Camera Connector:** CSI camera connector for connecting the Raspberry Pi Camera Module
+- **USB:** One micro-USB OTG (On-The-Go) port for power and data
+- **Power Supply:** 5V via micro-USB or GPIO header
+- **Dimensions:** 65mm x 30mm (compact form factor)
+
+The original Raspberry Pi Zero offers similar specifications to the Raspberry Pi Zero W, but it lacks the wireless capabilities (Wi-Fi and Bluetooth) found in the Zero W variant. It's important to note that while the Raspberry Pi Zero does not have built-in wireless connectivity, users can add wireless functionality using external USB adapters or other compatible hardware.
+
+Please note that there may have been updates or new models released since my last update, so I recommend checking the official Raspberry Pi website or other reliable sources for the most current information on the Raspberry Pi Zero and its variants.
+"
+
+.

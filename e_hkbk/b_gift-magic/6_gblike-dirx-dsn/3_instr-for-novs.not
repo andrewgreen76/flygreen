@@ -4,13 +4,34 @@ Chef's tools and ingredients :
 - a breadboard
 - (4) x AA/AAA batteries
 - a battery case
-- a DC1 power socket 
-- a CPU
-- (2) x 8K SRAM
-- (N) x buttons
-- 3.5-inch LCD screen 
+- a DC1 power socket	power supply 
 
-- programming the ROM
+- a CPU			processing power 
+
+- (2) x 8K SRAM		display (memory buffer)
+      	   		-
+
+- USB stick / SD card	code : game, boot 
+
+- (N) x buttons		input 
+
+- 3.5-inch LCD screen 	output
+  - 320 x 240 
+- RGB LCD HAT 
+
+------------------------------------------
+Ideas : 
+------------------------------------------
+
+- source ROM (programming) setup : 
+  - setup : 
+    - 
+
+- target ROM (programming) setup :
+
+------------------------------------------
+
+- source RAM (programming) setup : 
   - code/instructions :
     - boot , game/tiles/character set 
   - medium : 
@@ -18,10 +39,9 @@ Chef's tools and ingredients :
     - GPIO pins , pin headers 
     ? USB stick ?
   - setup :
-    - 
+    -
 
-- programming the RAM
-  - setup : 
-    - 
-
+- target RAM (programming) setup : 
+  - memory-mapped input/output
+  
 .

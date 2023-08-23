@@ -4,20 +4,21 @@ Chef's ingredients :
 - a breadboard
 - (4) x AA/AAA batteries
 - a battery case
-- a DC1 power socket	power supply 
+- a DC1 power socket		power supply 
 
-- a CPU			processing power 
+- a CPU				processing power 
 
-- 3.5-inch LCD screen 	output
-  - low-res 
-  - 320 x 240 (75K) 
+- screen 			output
+  - monitor , LCD , backlit 
+  - low-res 320x240 (75K) 
+  - 3.5-inch 
 - RGB LCD HAT 
-- (2) x 8K SRAM		display (memory buffer)
-      	   		-
+- (2) x 8K SRAM			display (memory buffer)
+      	   			-
 
-- USB stick / SD card	code : game code (charset, tiles), boot 
+- USB stick / SD card		code : game code (charset, tiles), boot 
 
-- (N) x buttons		input
+- (N) x buttons			input
 ==========================================
 Chef's tools : 
 ------------------------------------------

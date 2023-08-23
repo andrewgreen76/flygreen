@@ -1,0 +1,16 @@
+
+"
+As of my last update in September 2021, there are several low-resolution 3.5-inch LCD display models available that are commonly used for various projects, including Raspberry Pi-based systems and other embedded systems. These displays often have a resolution of 320x240 pixels or similar, which is suitable for retro-style graphics or small-scale applications. Keep in mind that newer models may have been released since then, so it's a good idea to check the latest options available. Some examples of 3.5-inch LCD displays include:
+
+1. **Waveshare 3.5-inch LCD Displays:** Waveshare offers several 3.5-inch LCD display options with varying features, including touchscreens and different interfaces like HDMI or SPI.
+
+2. **Kuman 3.5-inch Touch Screen:** Kuman offers a 3.5-inch touchscreen display with a resolution of 320x480 pixels.
+
+3. **Adafruit PiTFT 3.5-inch Display:** Adafruit offers a 3.5-inch touchscreen display with a resolution of 320x480 pixels. It's designed to work well with Raspberry Pi devices.
+
+4. **Geekcreit 3.5-inch TFT LCD Display:** This is a budget-friendly option with a resolution of 320x480 pixels and support for various interfaces.
+
+When choosing a 3.5-inch LCD display, consider factors such as compatibility with your device (e.g., Raspberry Pi), resolution, touchscreen functionality, and interface options (e.g., HDMI, SPI). Be sure to read reviews and check documentation to ensure that the display meets your project's requirements.
+"
+
+.

@@ -9,6 +9,7 @@ Chef's ingredients :
 - a CPU			processing power 
 
 - 3.5-inch LCD screen 	output
+  - low-res 
   - 320 x 240 (75K) 
 - RGB LCD HAT 
 - (2) x 8K SRAM		display (memory buffer)
@@ -17,17 +18,15 @@ Chef's ingredients :
 - USB stick / SD card	code : game code (charset, tiles), boot 
 
 - (N) x buttons		input
-
 ==========================================
 Chef's tools : 
 ------------------------------------------
-
 - source ROM (programming) setup : 
-
+  -
+  
 - target ROM (programming) setup :
-
+  -
 ------------------------------------------
-
 - source RAM (programming) setup : 
   - code/instructions :
     - boot , game/tiles/character set 

@@ -1,6 +1,6 @@
 
-Chef's tools and ingredients :
-
+Chef's ingredients :
+------------------------------------------
 - a breadboard
 - (4) x AA/AAA batteries
 - a battery case
@@ -8,24 +8,21 @@ Chef's tools and ingredients :
 
 - a CPU			processing power 
 
+- 3.5-inch LCD screen 	output
+  - 320 x 240 (75K) 
+- RGB LCD HAT 
 - (2) x 8K SRAM		display (memory buffer)
       	   		-
 
-- USB stick / SD card	code : game, boot 
+- USB stick / SD card	code : game code (charset, tiles), boot 
 
-- (N) x buttons		input 
+- (N) x buttons		input
 
-- 3.5-inch LCD screen 	output
-  - 320 x 240 
-- RGB LCD HAT 
-
-------------------------------------------
-Ideas : 
+==========================================
+Chef's tools : 
 ------------------------------------------
 
 - source ROM (programming) setup : 
-  - setup : 
-    - 
 
 - target ROM (programming) setup :
 

@@ -1,24 +1,34 @@
 
 Chef's ingredients :
 ------------------------------------------
+Power supply : 
 - a breadboard
 - (4) x AA/AAA batteries
 - a battery case
-- a DC1 power socket		power supply 
+- a DC1 power socket		 
 
-- a CPU				processing power 
+Processing power : 
+- a CPU				 
 
-- screen 			output
+Inputs : 
+- (N) x buttons			
+
+Output devices : 
+- screen only : 
   - monitor , LCD , backlit 
-  - low-res 320x240 (75K) 
-  - 3.5-inch 
-- RGB LCD HAT 
-- (2) x 8K SRAM			display (memory buffer)
-      	   			-
+  - low-res : 320x240 (75K) -or- 160x144 (22.5K) 
+  - 7-in -or- 3.5-in 
+- RGB LCD HAT
 
-- USB stick / SD card		code : game code (charset, tiles), boot 
+RAM (incl. MMIO) :
+- (2) x 8K SRAM :
+  - (1) x 8K SRAM for main sys mem (running the game, storing data) 
+  - (1) x 8K SRAM for display/memory buffer 
 
-- (N) x buttons			input
+ROM (code : game code (charset, tiles), boot) : 
+- 8+ GB USB stick / 8 GB SD card
+-or- 16K ROM chip 
+
 ==========================================
 Chef's tools : 
 ------------------------------------------

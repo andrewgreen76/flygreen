@@ -1,5 +1,31 @@
 
 "
+Instruction
+
+    Raspberry Pi 4 Model B, the completely upgraded, re-engineered model of the Pi family. It has more powerful processor, faster networking, supports dual 4K output, and provides different choice of RAM.
+
+Features
+
+    BCM2711B0 (ARM Cortex-A72): 64-bit 1.5GHz quad-core
+    RAM: 8GB
+    Gigabit Ethernet
+    802.11ac 2.4GHz/5GHz dual-band NIC
+    Bluetooth 5.0, BLE
+    USB 3.0 x 2, USB 2.0 x 2
+    micro HDMI x 2 (supports 4Kp60)
+    PoE header (supports PoE HAT)
+    MicroSD slot
+    3.5 mm audio jack
+    40PIN GPIO header
+    CSI camera interface
+    DSI display interface
+    USB Type C power supply (5V/3A or above)
+
+PACKAGE CONTENT
+
+    RPi 4B 8GB X1
+..............................................................
+
 Product information
 
 Technical Details

@@ -1,0 +1,10 @@
+
+"
+Google Test (also known as gtest) is a unit testing library for the C++ programming language, released under the BSD 3-clause license and based on the xUnit architecture.
+"
+
+"
+GoogleTest isolates the tests by running each of them on a different object. When a test fails, GoogleTest allows you to run it in isolation for quick debugging. Tests should be well organized and reflect the structure of the tested code.
+"
+
+.

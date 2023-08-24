@@ -4,10 +4,14 @@ TCL
 Push the Emacs bug to the help email list. 
 design the game screen elements pixel by pixel 
 emb C 
-What is an OS ?
-What is a kernel ?
-Udemy : CPU -> RPi 4 ARM -> x86 assembler -> C compiler -> embedded C -> IoT -> SSH -> Linux kernel -> gen. kernel -> Windows kernel -> sys admin skills 
+Udemy :
+ - CPU -> RPi 4 ARM -> x86 assembler -> C compiler -> embedded C -> IoT ->
+-> client-server architectures -> physically building a server -> SSH ->
+-> Linux kernel (What is an OS ? What is a kernel ?) -> gen. kernel -> Windows kernel -> sys admin skills (server management) 
+|
 GitHub/website : contributions -> portfolio -> GitHub
+
+
 
 Smth to excel at , a project (forget versatility) : 
 |

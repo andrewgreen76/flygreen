@@ -29,26 +29,4 @@ ROM (code : game code (charset, tiles), boot) :
 - 8+ GB USB stick / 8 GB SD card
 -or- 16K ROM chip 
 
-==========================================
-Chef's tools : 
-------------------------------------------
-- source ROM (programming) setup : 
-  -
-  
-- target ROM (programming) setup :
-  -
-------------------------------------------
-- source RAM (programming) setup : 
-  - code/instructions :
-    - boot , game/tiles/character set 
-  - medium : 
-    - alternative to cartridge
-    - GPIO pins , pin headers 
-    ? USB stick ?
-  - setup :
-    -
-
-- target RAM (programming) setup : 
-  - memory-mapped input/output
-  
 .

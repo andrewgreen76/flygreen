@@ -1,0 +1,6 @@
+
+"
+A PLC program is usually written on a computer and then is downloaded to the controller. Most PLC programming software offers programming in Ladder Logic, or “C”. Ladder Logic is the traditional programming language. It mimics circuit diagrams with “rungs” of logic read left to right.
+"
+
+.

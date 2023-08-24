@@ -32,8 +32,9 @@ __________________________________________________________________________
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- MCU vs. SoC vs. MPU for gaming.
-- LCD and LED screen technology for gaming 
+- MCU vs. SoC vs. MPU for gaming 
+- LCD and LED screen technology for gaming
+- automotive testing tools (oscilloscopes, network analyzers, CAN, CANape, etc.) 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

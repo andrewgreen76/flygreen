@@ -14,10 +14,12 @@ Inputs :
 - (N) x buttons			
 
 Output devices : 
-- screen only : 
+- screen only :
+  - Hitachi 
   - monitor , LCD , backlit 
   - low-res : 320x240 (75K) -or- 160x144 (22.5K) 
-  - 7-in -or- 3.5-in 
+  - 7-in -or- 5.7-in -or- 3.5-in
+  - "QVGA display" or "320x240 TFT display"
 - RGB LCD HAT
 
 RAM (incl. MMIO) :

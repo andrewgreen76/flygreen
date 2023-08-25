@@ -1,8 +1,13 @@
 
-In C++ , for Linux , with Bash ,  
+In C , for Linux , with Bash ,  
 use OpenCV
-Choice of input : ncurses (not iostream (std::in) or conio.h) 
-==========================================
+
+Choice of input functionality :
+- [C] raw I/O 
+- [C and C++] ncurses (not conio.h) 
+- [C++] iostream (std::in) 
+
+===================================================
 
 Prompt_and_proc() :
 | 

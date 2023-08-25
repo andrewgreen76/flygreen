@@ -1,0 +1,19 @@
+
+In C++ , for Linux , with Bash ,  
+use OpenCV
+==========================================
+
+Prompt_image() :
+| 
+While NOT_MM : Doc+Display+Act : 
+- Validation_loop : 
+
+
+
+IN: MAIN_MENU
+|
+While NOT_QUIT, Doc+Display+Act : 
+- Prompt_image()
+- Quit
+
+.

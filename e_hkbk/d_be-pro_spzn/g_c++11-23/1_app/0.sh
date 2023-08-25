@@ -1,4 +1,4 @@
-g++ main.cpp -o zun.out
+g++ $1 -o zun.out
 
 if test -e zun.out; then
     echo "Generated binary executable zun.out"

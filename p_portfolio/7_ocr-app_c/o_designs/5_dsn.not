@@ -1,0 +1,37 @@
+
+In C , for Linux , with Bash ,  
+use OpenCV
+
+
+
+Design choices :
+- Modular, yet simple menu flow control 
+  - RAW I/O functionality :
+    (1) printf(), scanf(), etc. 
+    (2) ncurses (not conio.h) 
+  - RAW control flow (menus, etc.)
+    - maybe no menus ! 
+
+===================================================
+
+Prompt_and_proc() :
+| 
+While NOT_MM : Doc+Display+Act : 
+      - 
+- [R]un		  - [M]ain_Menu() 
+
+
+
+IN: MAIN_MENU
+|
+While NOT_QUIT, Doc+Display+Act : 
+- Prompt_and_proc()
+- Quit()
+
+=====================================================================
+
+Main menu: 
+
+0. Quit 
+
+.

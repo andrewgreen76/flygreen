@@ -1,6 +1,7 @@
 
 In C++ , for Linux , with Bash ,  
 use OpenCV
+Choice of input : ncurses (not iostream (std::in) or conio.h) 
 ==========================================
 
 Prompt_image() :

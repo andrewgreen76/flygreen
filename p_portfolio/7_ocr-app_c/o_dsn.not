@@ -4,13 +4,13 @@ use OpenCV
 
 
 
-Design choices : 
-- RAW I/O functionality :
-  > [C] printf(), scanf(), etc. 
-  - [C and C++] ncurses (not conio.h) 
-  - [C++] iostream (std::in)
-- RAW control flow (menus, etc.)
-  - maybe no menus ! 
+Design choices :
+- Modular menu flow control 
+  - RAW I/O functionality :
+    (1) printf(), scanf(), etc. 
+    (2) ncurses (not conio.h) 
+  - RAW control flow (menus, etc.)
+    - maybe no menus ! 
 
 ===================================================
 

@@ -1,0 +1,16 @@
+
+Prompt_and_proc() :
+| 
+While NOT_MM : Doc+Display+Act : 
+      - 
+- [R]un		  - [M]ain_Menu() 
+
+
+
+IN: MAIN_MENU
+|
+While NOT_QUIT, Doc+Display+Act : 
+- Prompt_and_proc()
+- Quit()
+
+.

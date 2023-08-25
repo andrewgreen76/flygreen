@@ -4,18 +4,18 @@ use OpenCV
 Choice of input : ncurses (not iostream (std::in) or conio.h) 
 ==========================================
 
-Prompt_image() :
+Prompt_and_proc() :
 | 
 While NOT_MM : Doc+Display+Act : 
-- Validation_loop :
-- Main Menu 
+      - 
+- [R]un		  - [M]ain_Menu() 
 
 
 
 IN: MAIN_MENU
 |
 While NOT_QUIT, Doc+Display+Act : 
-- Prompt_image()
+- Prompt_and_proc()
 - Quit()
 
 .

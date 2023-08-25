@@ -7,7 +7,8 @@ Choice of input : ncurses (not iostream (std::in) or conio.h)
 Prompt_image() :
 | 
 While NOT_MM : Doc+Display+Act : 
-- Validation_loop : 
+- Validation_loop :
+- Main Menu 
 
 
 
@@ -15,6 +16,6 @@ IN: MAIN_MENU
 |
 While NOT_QUIT, Doc+Display+Act : 
 - Prompt_image()
-- Quit
+- Quit()
 
 .

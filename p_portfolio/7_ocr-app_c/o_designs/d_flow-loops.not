@@ -14,15 +14,50 @@ All stage images generated
 Recognized dollar amount: 
 ============================================================
 
-GET_VALID_PARA() 
+Globals:
+- struct Target_Para.h 
+  - filename
+  - width
+  - height
+  - left_m
+  - right_m
+  - top_m
+  - bottom_m
 
 PROC_FILE()
 |
 
 
+
+Do While BAD_L
+- "Estimate <left> margin in %: _"
+  GET L
+  PROC L
+
+
+
+GET_VALID_REQS()
+|
+"Estimate <left> margin in %: _"
+ left_m = GET_VAL (min=0, max=width-1)
+"Estimate <right> margin in %: _"
+ right_m = GET_VAL (min=left_m, max=width-1)
+"Estimate <top> margin in %: _"
+ top_m = GET_VAL (min=0, max=height-1)
+"Estimate <bottom> margin in %: _"
+ bottom_m = GET_VAL (min=top_m, max=height-1)
+"Estimate greyscale threshold (0-255): _"
+ grey_thr = GET_VAL (min=0, max=255)
+
+............................................................
+
+GET_IMG_PROPS()
+
+
+
 GET_VALID_NAME()
 |
-While BAD_IMGNAME 
+Do While BAD_IMGNAME 
 - "Name of target image file: "
   GET file_name
   PROC file_name :
@@ -39,14 +74,15 @@ While BAD_IMGNAME
 
 RUN_CORE_FUNCS()
 |
-GET_VALID_NAME()
-GET_VALID_PARA()
+v GET_VALID_NAME()
+GET_IMG_PROPS()		// width, height 
+GET_VALID_REQS() 	// left, right, top, bottom, greyscale threshold
 PROC_FILE()
 
 
 
 IN:
 |
-RUN_CORE_FUNCS()
+v RUN_CORE_FUNCS()
 
 .

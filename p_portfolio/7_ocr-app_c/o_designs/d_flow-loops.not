@@ -2,19 +2,10 @@
 Name of target image file: _
 Estimate <left> margin in %: _
 Estimate <right> margin in %: _
-Invalid input.
-Estimate <right> margin in %: _
-Estimate <top> margin in %: _
-Invalid input.
 Estimate <top> margin in %: _
 Estimate <bottom> margin in %: _
-Invalid input.
-Estimate <bottom> margin in %: _
-Estimate greyscale threshold (0-255): _
-Invalid input.
 Estimate greyscale threshold (0-255): _
 Generating config file "img_cfg.txt" ...
-	   Config file "img_cfg.txt" generated
 Extracting selection into a separate image file ...
 Filtering selection against greyscale threshold ...
 Applying dilation and erosion to all image objects ...
@@ -23,7 +14,14 @@ All stage images generated
 Recognized dollar amount: 
 ============================================================
 
-IN:
+GET_VALID_PARA() 
+
+PROC_FILE()
+|
+
+
+GET_VALID_NAME()
+|
 While BAD_IMGNAME 
 - "Name of target image file: "
   GET file_name
@@ -32,7 +30,23 @@ While BAD_IMGNAME
     - if not, "File is not in the current directory. \n"
     - else
       - ASCERTAIN file_name ends with ".jpg" | ".jpeg" | ".gif" | ".png"
-      	- if not, "" 
-    	- Invalid input. 
+      	- if not, "Filename must end with ".jpg", ".jpeg", ".gif", or ".png"
+	- else 
+	  - CLEAR BAD_IMGNAME
+	  - LOAD file_name
+
+
+
+RUN_CORE_FUNCS()
+|
+GET_VALID_NAME()
+GET_VALID_PARA()
+PROC_FILE()
+
+
+
+IN:
+|
+RUN_CORE_FUNCS()
 
 .

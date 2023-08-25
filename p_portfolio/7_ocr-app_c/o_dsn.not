@@ -2,10 +2,15 @@
 In C , for Linux , with Bash ,  
 use OpenCV
 
-Choice of input functionality :
-- [C] raw I/O 
-- [C and C++] ncurses (not conio.h) 
-- [C++] iostream (std::in) 
+
+
+Design choices : 
+- RAW I/O functionality :
+  > [C] printf(), scanf(), etc. 
+  - [C and C++] ncurses (not conio.h) 
+  - [C++] iostream (std::in)
+- RAW control flow (menus, etc.)
+  - maybe no menus ! 
 
 ===================================================
 
@@ -22,5 +27,58 @@ IN: MAIN_MENU
 While NOT_QUIT, Doc+Display+Act : 
 - Prompt_and_proc()
 - Quit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=====================================================================
+
+Main menu: 
+
+0. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .

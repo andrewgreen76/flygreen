@@ -1,0 +1,38 @@
+
+Name of target image file: _
+Estimate <left> margin in %: _
+Estimate <right> margin in %: _
+Invalid input.
+Estimate <right> margin in %: _
+Estimate <top> margin in %: _
+Invalid input.
+Estimate <top> margin in %: _
+Estimate <bottom> margin in %: _
+Invalid input.
+Estimate <bottom> margin in %: _
+Estimate greyscale threshold (0-255): _
+Invalid input.
+Estimate greyscale threshold (0-255): _
+Generating config file "img_cfg.txt" ...
+	   Config file "img_cfg.txt" generated
+Extracting selection into a separate image file ...
+Filtering selection against greyscale threshold ...
+Applying dilation and erosion to all image objects ...
+Scanning for recognizable characters ...
+All stage images generated
+Recognized dollar amount: 
+============================================================
+
+IN:
+While BAD_IMGNAME 
+- "Name of target image file: "
+  GET file_name
+  PROC file_name :
+  - ASCERTAIN file exists
+    - if not, "File is not in the current directory. \n"
+    - else
+      - ASCERTAIN file_name ends with ".jpg" | ".jpeg" | ".gif" | ".png"
+      	- if not, "" 
+    	- Invalid input. 
+
+.

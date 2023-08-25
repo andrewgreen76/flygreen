@@ -1,4 +1,4 @@
-g++ $1 -o zun.out
+g++ $1 -o zun.out -lncurses
 
 if test -e zun.out; then
     echo "Generated binary executable zun.out"

@@ -4,7 +4,6 @@
 int main() {
     // Initialize ncurses
     initscr();
-    /*
     cbreak(); // Disable line buffering
     keypad(stdscr, TRUE); // Enable special keys like function keys
     noecho(); // Don't automatically print typed characters
@@ -19,7 +18,6 @@ int main() {
     refresh();
 
     getch(); // Wait for another key press before exiting
-    */
     // Cleanup ncurses
     endwin();
 

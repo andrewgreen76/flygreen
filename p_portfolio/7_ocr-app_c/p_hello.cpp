@@ -1,8 +1,12 @@
-#include <iostream>
+#include "stdio.h"
+#include "stdlib.h"
 
-int main()
+int main(int argc, char * argv[])
 {
-  std::cout << "Hello, world!\n";
+  printf("\n");
   
+  printf("Hello, world!\n");
+
+  printf("\n");
   return 0;
 }

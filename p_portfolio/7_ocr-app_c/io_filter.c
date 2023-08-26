@@ -34,7 +34,7 @@ bool strfilled(char * s)
 }
 
 //====================================================================
-void get_valid_name(ProcList * l)
+void get_valid_name()
 {
   bool good_img_name = false;
   char * named_file;
@@ -46,7 +46,7 @@ void get_valid_name(ProcList * l)
     if (getline(&named_file, &size, stdin) != -1) { 
       good_img_name = strfilled(named_file); // further checks;
     } else {
-        printf("You may be out of available memory.\n");
+        printf("Cannot allocate memory for filename. You may be out of available memory.\n");
     }    
   } while (!good_img_name);
   free(named_file); // free() here to avoid double-free seg-fault. 
@@ -54,7 +54,7 @@ void get_valid_name(ProcList * l)
   return;
 }
 //====================================================================
-void get_bounded_vals(ProcList * l)
+void get_bounded_vals()
 {
   printf("Collecting bounded values ...\n");
   return;

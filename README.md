@@ -32,9 +32,15 @@ __________________________________________________________________________
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- MCU vs. SoC vs. MPU for gaming 
 - LCD and LED screen technology for gaming
-- automotive testing tools (oscilloscopes, network analyzers, CAN, CANape, etc.) 
+- automotive testing tools (oscilloscopes, network analyzers, CAN, CANape, etc.)
+- C programming - revisiting :
+  - malloc(), free(), malloc() in getline(), malloc() vs. getline() 
+  - getline() instead of scanf()
+  - passing by pointer instead of passing by reference
+  - returning -1
+  - structs and typedef
+  - header-source compilation logic (in GCC) 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

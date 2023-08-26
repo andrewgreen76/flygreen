@@ -4,7 +4,10 @@ bool is_imgfile(char * fname)
 {
   if(strstr(fname, ".jpg") || strstr(fname, ".jpeg") || strstr(fname, ".png") || strstr(fname, ".gif"))
     return true;
-  else return false;
+  else {
+    printf("File is not an image. \n");
+    return false;
+  }
 }
 
 bool fhere(char * fname)
@@ -13,7 +16,6 @@ bool fhere(char * fname)
   FILE *file = fopen(fname, "r");
 
   if(file) {
-    printf("File %s exists. \n", fname);
     fclose(file);
     return is_imgfile(fname);
   } else {

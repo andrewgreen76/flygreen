@@ -10,7 +10,7 @@
 bool is_imgfile(char * );
 bool fhere(char * );     // FILE EXISTS check 
 bool strfilled(char * ); // NON-EMPTY STRING check
-void get_valid_name();
+char * get_fname();
 void get_bounded_vals( );
 
 #endif

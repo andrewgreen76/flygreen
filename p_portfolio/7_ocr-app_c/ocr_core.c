@@ -9,8 +9,8 @@ void run_core_funcs(void)
 
     ProcList l;
     
-    get_valid_name();
-    get_img_props();
+    l.fname = get_fname();
+    get_img_props(&l);
     get_bounded_vals();
     proc_img();
 }

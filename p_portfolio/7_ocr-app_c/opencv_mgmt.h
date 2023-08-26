@@ -3,7 +3,7 @@
 #include "ProcList.h"
 
 // Function prototypes
-void get_img_props();
-void proc_img( );
+void get_img_props(ProcList * );
+void proc_img();
 
 #endif

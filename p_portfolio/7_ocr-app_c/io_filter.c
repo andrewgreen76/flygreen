@@ -3,7 +3,7 @@
 //====================================================================
 bool is_imgfile(char * fname)
 {
-  if(strstr(fname, ".jpg") || strstr(fname, ".jpeg") || strstr(fname, ".png") || strstr(fname, ".gif"))
+  if( strstr(fname, ".jpg") || strstr(fname, ".jpeg") || strstr(fname, ".png") || strstr(fname, ".gif") || strstr(fname, ".bmp") )
     return true;
   else {
     printf("File is not an image. \n");
@@ -34,7 +34,7 @@ bool strfilled(char * s)
 }
 
 //====================================================================
-void get_valid_name()
+char * get_fname()
 {
   bool good_img_name = false;
   char * named_file;
@@ -51,7 +51,7 @@ void get_valid_name()
   } while (!good_img_name);
   free(named_file); // free() here to avoid double-free seg-fault. 
 
-  return;
+  return named_file;
 }
 //====================================================================
 void get_bounded_vals()

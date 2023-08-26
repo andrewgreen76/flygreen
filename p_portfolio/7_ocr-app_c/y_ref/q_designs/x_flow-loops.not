@@ -85,7 +85,7 @@ Do While BAD_IMGNAME
 	  - CLEAR BAD_IMGNAME
 	  - LOAD file_name
 
-
+.......................................................................................
 
 ocrcore.RUN_CORE_FUNCS()
 |

@@ -85,13 +85,4 @@ Do While BAD_IMGNAME
 	  - CLEAR BAD_IMGNAME
 	  - LOAD file_name
 
-
-
-ocrcore.RUN_CORE_FUNCS()
-|
-v IOMgr.GET_VALID_NAME()
-v OpenCV.GET_IMG_PROPS()		// width, height 
-v IOMgr.GET_BOUNDED_VALS() 	// left, right, top, bottom, greyscale threshold
-  OpenCV.PROC_FILE()
-
 .

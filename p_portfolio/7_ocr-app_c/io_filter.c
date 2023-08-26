@@ -1,7 +1,14 @@
 #include "io_filter.h"
 #include <stdio.h>
 
-void i(void)
+void get_valid_name(void)
 {
-    printf("I/O filter present\n");
+    printf("Prompting a valid filename ...\n");
+    return;
+}
+
+void get_bounded_vals(void)
+{
+    printf("Collecting bounded values ...\n");
+    return;
 }

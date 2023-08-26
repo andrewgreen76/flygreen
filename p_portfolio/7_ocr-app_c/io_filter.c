@@ -4,25 +4,28 @@
 //#include <string.h>
 ///////////////////////////////
 
+bool chk_exist(char * s)
+{
+  return true;
+}
 
 void get_valid_name(ProcList * l)
 {
-  int bad_img_name = 1;
-  char * in_str;
+  bool good_img_name = false;
+  char * filename;
   size_t size = 0;
   
   do {
     printf("Name of target image file: ");
     
-    if (getline(&in_str, &size, stdin) != -1) {
-      // 
-      bad_img_name = 0;
+    if (getline(&filename, &size, stdin) != -1) { 
+      good_img_name = chk_exist(filename); // further checks;
     } else {
         printf("You may be out of available memory.\n");
     }
-    free(in_str);
+    free(filename);
     
-  } while (bad_img_name);
+  } while (!good_img_name);
 
   return;
 }

@@ -18,7 +18,7 @@ void get_valid_name(void)
     
     if (getline(&in_str, &size, stdin) != -1) {
       
-      //bad_img_name = 0;
+      bad_img_name = 0;
     } else {
         printf("You may be out of available memory.\n");
     }

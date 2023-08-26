@@ -3,5 +3,5 @@
 
 void o(void)
 {
-    printf("i\n");
+    printf("OpenCV manager present\n");
 }

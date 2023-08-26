@@ -3,5 +3,5 @@
 
 void i(void)
 {
-    printf("i\n");
+    printf("I/O filter present\n");
 }

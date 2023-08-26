@@ -1,31 +1,49 @@
 #include "io_filter.h"
-#include <stdio.h>
-#include <stdlib.h> // for free()
-//#include <string.h>
-///////////////////////////////
 
-bool chk_exist(char * s)
+bool is_imgfile(char * fname)
 {
-  return true;
+  if(strstr(fname, ".jpg") || strstr(fname, ".jpeg") || strstr(fname, ".png") || strstr(fname, ".gif"))
+    return true;
+  else return false;
+}
+
+bool fhere(char * fname)
+{
+  fname[strlen(fname)-1] = '\0'; // shave off \n with \0. 
+  FILE *file = fopen(fname, "r");
+
+  if(file) {
+    printf("File %s exists. \n", fname);
+    fclose(file);
+    return is_imgfile(fname);
+  } else {
+    printf("File %s does not exist. \n", fname);
+    return false;
+  }
+}
+
+bool strfilled(char * s)
+{
+  if(strlen(s) > 1) return fhere(s);
+  else return false;
 }
 
 void get_valid_name(ProcList * l)
 {
   bool good_img_name = false;
-  char * filename;
+  char * named_file;
   size_t size = 0;
   
   do {
     printf("Name of target image file: ");
     
-    if (getline(&filename, &size, stdin) != -1) { 
-      good_img_name = chk_exist(filename); // further checks;
+    if (getline(&named_file, &size, stdin) != -1) { 
+      good_img_name = strfilled(named_file); // further checks;
     } else {
         printf("You may be out of available memory.\n");
-    }
-    free(filename);
-    
+    }    
   } while (!good_img_name);
+  free(named_file); // free() here to avoid double-free seg-fault. 
 
   return;
 }

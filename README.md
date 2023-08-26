@@ -32,15 +32,16 @@ __________________________________________________________________________
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- LCD and LED screen technology for gaming
-- automotive testing tools (oscilloscopes, network analyzers, CAN, CANape, etc.)
 - C programming - revisiting :
   - malloc(), free(), malloc() in getline(), malloc() vs. getline() 
   - getline() instead of scanf()
   - passing by pointer instead of passing by reference
   - returning -1
   - structs and typedef
-  - header-source compilation logic (in GCC) 
+  - header-source compilation logic (in GCC)
+  - ways to aid in code readability (using bool/true/false, etc.) 
+- LCD and LED screen technology for gaming
+- automotive testing tools (oscilloscopes, network analyzers, CAN, CANape, etc.)
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

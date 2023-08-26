@@ -1,0 +1,26 @@
+
+"
+No, you don't necessarily need OpenCV to determine the width and height of an image in a C program. While OpenCV is a powerful library for computer vision tasks, determining the width and height of an image can be accomplished using more basic methods in C.
+
+Here's a general approach to determine the width and height of an image without using OpenCV:
+
+1. **Read the Image File:**
+   Use file I/O functions like `fopen()` to open the image file in binary mode and read its contents into memory.
+
+2. **Analyze the Image Header:**
+   Most image formats have a header section that contains information about the image, including its dimensions. The structure of the header varies depending on the image format (e.g., BMP, JPEG, PNG). You'll need to parse the header to extract the width and height information.
+
+3. **Extract Width and Height:**
+   Once you've read and parsed the header, extract the width and height values based on the format's specifications.
+
+4. **Close the File:**
+   After extracting the necessary information, close the image file using `fclose()`.
+
+The exact details of this process will depend on the image format you're working with. For example, BMP files have a fixed-size header that includes width and height fields, while JPEG and PNG files have more complex structures.
+
+If you're working with simple image formats like BMP, you can manually read and interpret the header. For more complex formats like JPEG or PNG, you may need to refer to the respective format's specifications or use third-party libraries that specialize in reading those formats.
+
+Keep in mind that OpenCV provides a more convenient and standardized way to work with various image formats and extract information such as width and height. If you're dealing with diverse image formats or plan to perform more advanced image processing tasks, using a library like OpenCV can save you a significant amount of time and effort.
+"
+
+.

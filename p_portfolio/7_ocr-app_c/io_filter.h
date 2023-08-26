@@ -2,6 +2,6 @@
 #define IO_FILTER_H
 
 // Function prototypes
-void run_core_funcs(void);
+void i(void);
 
 #endif

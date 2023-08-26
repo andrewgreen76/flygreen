@@ -1,7 +1,13 @@
 #include "opencv_mgmt.h"
 #include <stdio.h>
 
-void o(void)
+void get_img_props(void);
 {
-    printf("OpenCV manager present\n");
+    printf("Caching image data ...\n");
 }
+
+void proc_img(void);
+{
+    printf("Processing image ...\n");
+}
+

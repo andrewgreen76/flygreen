@@ -2,6 +2,7 @@
 #define OPECV_MGMT_H
 
 // Function prototypes
-void o(void);
+void get_img_props(void);
+void proc_img(void);
 
 #endif

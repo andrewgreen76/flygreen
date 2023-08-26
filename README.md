@@ -38,8 +38,9 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
   - passing by pointer instead of passing by reference
   - returning -1
   - structs and typedef
-  - header-source compilation logic (in GCC)
-  - ways to aid in code readability (using bool/true/false, etc.) 
+  - header-source include-compile logic (in GCC)
+  - ways to aid in code readability (using <stdbool.h>/true/false, etc.)
+  - <string.h> functions 
 - LCD and LED screen technology for gaming
 - automotive testing tools (oscilloscopes, network analyzers, CAN, CANape, etc.)
 __________________________________________________________________________

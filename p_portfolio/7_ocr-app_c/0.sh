@@ -1,4 +1,4 @@
-gcc main.c ocrmgmt.c -o zun.out -lncurses
+gcc main.c ocrcore.c -o zun.out -lncurses
 
 if test -e zun.out; then
     echo "Generated binary executable zun.out"

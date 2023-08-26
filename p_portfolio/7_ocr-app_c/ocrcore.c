@@ -1,4 +1,4 @@
-#include "ocrmgmt.h"
+#include "ocrcore.h"
 #include <stdio.h>
 
 void reply(void)

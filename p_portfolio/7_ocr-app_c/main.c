@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "ocrmgmt.h"
+#include "ocrcore.h"
 
 int main(int argc, char * argv[])
 {

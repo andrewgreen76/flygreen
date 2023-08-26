@@ -1,5 +1,5 @@
-#ifndef OCRMGMT_H
-#define OCRMGMT_H
+#ifndef OCRCORE_H
+#define OCRCORE_H
 
 // Function prototypes
 void reply(void);

@@ -1,5 +1,6 @@
 #include "io_filter.h"
 
+//====================================================================
 bool is_imgfile(char * fname)
 {
   if(strstr(fname, ".jpg") || strstr(fname, ".jpeg") || strstr(fname, ".png") || strstr(fname, ".gif"))
@@ -10,6 +11,7 @@ bool is_imgfile(char * fname)
   }
 }
 
+//====================================================================
 bool fhere(char * fname)
 {
   fname[strlen(fname)-1] = '\0'; // shave off \n with \0. 
@@ -24,12 +26,14 @@ bool fhere(char * fname)
   }
 }
 
+//====================================================================
 bool strfilled(char * s)
 {
   if(strlen(s) > 1) return fhere(s);
   else return false;
 }
 
+//====================================================================
 void get_valid_name(ProcList * l)
 {
   bool good_img_name = false;
@@ -49,7 +53,7 @@ void get_valid_name(ProcList * l)
 
   return;
 }
-//////////////////////////////////////////////////////////////////
+//====================================================================
 void get_bounded_vals(ProcList * l)
 {
   printf("Collecting bounded values ...\n");

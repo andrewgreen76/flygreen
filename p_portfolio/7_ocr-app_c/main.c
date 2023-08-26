@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "ocrcore.h"
+#include "ocr_core.h"
 
 int main(int argc, char * argv[])
 {
   printf("\n");
   
-  printf("Hello, world!\n");
-  reply();
+  run_core_funcs();
 
   printf("\n");
   return 0;

@@ -1,4 +1,4 @@
-#include "opencv_mgmt.h"
+#include "img_proc.h"
 #include <stdio.h>
 
 void get_img_props(ProcList * )

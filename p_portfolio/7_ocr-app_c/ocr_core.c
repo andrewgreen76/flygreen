@@ -1,7 +1,7 @@
 #include "ocr_core.h"
 #include <stdio.h>
 #include "io_filter.h"
-#include "opencv_mgmt.h"
+#include "img_proc.h"
 
 void run_core_funcs(void)
 {

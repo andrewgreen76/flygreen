@@ -1,0 +1,16 @@
+
+"
+I used `int32_t` (signed 32-bit integer) for the `width` and `height` fields in the struct because the BMP file format specification defines these fields as 32-bit signed integers. In the BMP file format, the width and height of the image are stored as signed integers, allowing for both positive and negative values.
+
+Here's why `int32_t` is a suitable choice:
+
+1. **Compatibility with BMP Format:** The BMP file format specification specifies that the `width` and `height` fields are 32-bit signed integers. Using `int32_t` ensures that the data type matches the format of the BMP file.
+
+2. **Handling Negative Dimensions:** While it's rare to encounter BMP images with negative dimensions, the specification allows for it. For example, some BMP files may use negative height values to indicate a vertically flipped image. Using a signed data type like `int32_t` allows you to handle such cases correctly.
+
+3. **Consistency:** Using the same data type as specified in the BMP format maintains consistency and avoids potential issues that could arise from using a different data type.
+
+If you're certain that you'll only be working with BMP images that have positive dimensions, you could technically use an unsigned data type like `uint32_t` for width and height. However, since the BMP format specification allows for signed dimensions, it's safer to stick with `int32_t` to ensure compatibility and proper handling of BMP files that may use negative dimensions for specific purposes.
+"
+
+.

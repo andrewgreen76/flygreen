@@ -68,21 +68,4 @@ Do While BAD_G
 
 OpenCV.GET_IMG_PROPS()
 
-
-
-IOMgr.GET_VALID_NAME()
-|
-Do While BAD_IMGNAME 
-- "Name of target image file: "
-  GET file_name
-  PROC file_name :
-  - ASCERTAIN file exists
-    - if not, "File is not in the current directory. \n"
-    - else
-      - ASCERTAIN file_name ends with ".jpg" | ".jpeg" | ".gif" | ".png"
-      	- if not, "Filename must end with ".jpg", ".jpeg", ".gif", or ".png"
-	- else 
-	  - CLEAR BAD_IMGNAME
-	  - LOAD file_name
-
 .

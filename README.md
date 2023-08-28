@@ -41,6 +41,7 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
   - header-source include-compile logic (in GCC)
   - ways to aid in code readability (using <stdbool.h>/true/false, etc.)
   - <string.h> functions
+  - fread() functionality 
 - Image (bitmap file) metadata attributes, working with bytes (int32_t, uint16_t, uint32_t) 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:

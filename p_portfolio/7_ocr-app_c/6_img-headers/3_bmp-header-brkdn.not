@@ -1,0 +1,8 @@
+
+- 14 B : bmp file header
+  - 2 B : 	signature (0x42 0x4d - BM) - informs the computer that it's a BMP file. 
+
+- 40 B : 	bmp info (dib) header
+- 
+
+.

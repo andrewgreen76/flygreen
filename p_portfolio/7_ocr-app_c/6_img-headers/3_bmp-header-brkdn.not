@@ -1,8 +1,24 @@
 
-- 14 B : bmp file header
-  - 2 B : 	signature (0x42 0x4d - BM) - informs the computer that it's a BMP file. 
+Bytes (in a 24-bit BMP file) :
 
-- 40 B : 	bmp info (dib) header
-- 
+- 14 : bmp file header
+  - 2 : 	signature (42 4d - BM) - informs the computer that it's a BMP file.
+  - 4 : 	size of file. (Ex.: 5a 00 00 00 -or- 0101|1010 0..0 - size 90 B.) 
+  - 2+2 : 	reserved
+  - 4 : 	offset - addr of 1st byte of image info. (Ex. 36 00 00 00 takes you to 0x30+0x06.) 
+
+- 40 : 	bmp info (dib) header.
+  - 4 :     	size of info header (28 00 00 00 - 40 bytes).
+  - 4 : 	width of the image in pixels (03 00 00 00).
+  - 4 : 	height ov the image in pixels (03 00 00 00).
+  - 2 : 	number of color planes (01 00).
+  - 2 : 	bit depth (24-bit => 18 00).
+  - 4 : 	compression method info (00 00 00 00).
+  - 4 : 	raw size of bitmap data (4 B/px(BGR-) x 3px/row x 3rows = 36 bytes => 0010 0100 => 24 00 00 00).
+  - 
+
+- the rest : 	color data (BGR).
+  - The first three bytes repr. the pixel in the bottom-left corner. 
+  - Each row of pixels should amount to a number bytes that is a multiple of 4. We use 00 padding to do that (BB GG RR BB GG RR 00 00). 
 
 .

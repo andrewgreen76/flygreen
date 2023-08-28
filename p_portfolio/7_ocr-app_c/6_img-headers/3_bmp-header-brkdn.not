@@ -14,7 +14,7 @@ Bytes (in a 24-bit BMP file) :
   - 2 : 	number of color planes (01 00).
   - 2 : 	bit depth (24-bit => 18 00).
   - 4 : 	compression method info (00 00 00 00).
-  - 4 : 	raw size of bitmap data (4 B/px(BGR-) x 3px/row x 3rows = 36 bytes => 0010 0100 => 24 00 00 00).
+  - 4 : 	raw size of bitmap data (bytes(+pad)/row x 3rows = 36 bytes => 0010 0100 => 24 00 00 00).
   - 4 : 	horizonal resolution (03 00 00 00).
       		- could be (c4 0e 00 00 - 0000.1110 1100.0100 - 1100.0100.0000.1110)
   - 4 : 	vertical resolution (03 00 00 00).

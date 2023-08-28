@@ -1,4 +1,4 @@
-$C_FILE="1_txt-bytes.c"
+C_FILE="2_img-bytes.c"
 
 emacs -nw $C_FILE
 gcc $C_FILE -o zun.out

@@ -17,7 +17,7 @@ int main(int argc, char * argv[])
   printf("char * fname : %s\n", fname);
   printf("char * mode: %s\n\n", mode);
   */
-  FILE *f_at = fopen("2.txt", "rb");
+  FILE *f_at = fopen("3.txt", "rb");
   if(f_at) {
     printf("Target file found\n");
 

@@ -1,4 +1,8 @@
-emacs -nw 3_read-data.c
-gcc 3_read-data.c -o zun.out
-./zun.out 
+C_FILE="5_read-bmp.c"
+FNAME="b.bmp"
+MODE="rb"
+
+emacs -nw $C_FILE
+gcc $C_FILE -o zun.out
+./zun.out $FNAME $MODE
 #rm zun.out

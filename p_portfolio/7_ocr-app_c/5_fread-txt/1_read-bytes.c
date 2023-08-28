@@ -1,9 +1,12 @@
 #include <stdio.h>
 
+// Raw data is padded by default, the alignment requirement is 4 bytes.
+// We want to read individual bytes. 
+// We change it to 1 byte read at a time (no padding) for this piece of data right here: 
 #pragma pack(push, 1)
 char b;
 #pragma pack(pop)
-// ... or this with <stdint.h> : 
+// ... or drop the pragmas and use uint32_t with <stdint.h> : 
 //uint32_t b;
 
 
@@ -24,12 +27,6 @@ int main(int argc, char * argv[])
     fread(&b, sizeof(char), 1, f_at);
     printf("Byte : %c\n", b);
     
-    fread(&b, sizeof(char), 1, f_at);
-    printf("Byte : %c\n", b);
-
-    fread(&b, sizeof(char), 1, f_at);
-    printf("Byte : %c\n", b);
-
     fread(&b, sizeof(char), 1, f_at);
     printf("Byte : %c\n", b);
 

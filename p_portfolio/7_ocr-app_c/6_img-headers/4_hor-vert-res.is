@@ -1,0 +1,12 @@
+
+"
+In a BMP (Bitmap) file, the horizontal resolution refers to the number of pixels that are displayed horizontally in each unit of physical measurement, typically measured in dots per inch (DPI) or pixels per inch (PPI). Horizontal resolution is a metadata attribute stored within the BMP file's header and provides information about how the image should be displayed when printed or viewed on a screen.
+
+When an image is displayed on a screen or printed on paper, its physical size is determined by both its dimensions in pixels and its resolution. A higher resolution means that the image will appear smaller when printed or displayed, but with greater detail and clarity. A lower resolution will make the image appear larger but potentially less sharp.
+
+For example, an image with a horizontal resolution of 300 DPI and a width of 1200 pixels would be 4 inches wide when printed (1200 pixels ÷ 300 DPI = 4 inches).
+
+The horizontal resolution, along with the vertical resolution, color depth, compression method, and other metadata, is stored in the BMP file's header. This metadata helps devices and software understand how to properly render the image on various output mediums, such as screens, printers, or plotters. Keep in mind that not all BMP files include resolution information, as this metadata might be optional depending on the file's intended use and the software that generated it.
+"
+
+.

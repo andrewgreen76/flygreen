@@ -1,4 +1,6 @@
-emacs -nw 1_read-bytes.c
-gcc 1_read-bytes.c -o zun.out
+$C_FILE="1_txt-bytes.c"
+
+emacs -nw $C_FILE
+gcc $C_FILE -o zun.out
 ./zun.out 
 #rm zun.out

@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#pragma pack(push, 1)
+//#pragma pack(push, 1)
 char b;
-#pragma pack(pop)
+//#pragma pack(pop)
 // ... or this with <stdint.h> : 
 //uint32_t b;
 
@@ -21,17 +21,10 @@ int main(int argc, char * argv[])
   if(f_at) {
     printf("Target file found\n");
 
-    fread(&b, sizeof(char), 1, f_at);
-    printf("Byte : %c\n", b);
-    
-    fread(&b, sizeof(char), 1, f_at);
-    printf("Byte : %c\n", b);
-
-    fread(&b, sizeof(char), 1, f_at);
-    printf("Byte : %c\n", b);
-
-    fread(&b, sizeof(char), 1, f_at);
-    printf("Byte : %c\n", b);
+    for(int t=0; t<8; t++) {
+      fread(&b, sizeof(char), 1, f_at);
+      printf("Byte : %c\n", b);
+    }
 
     fclose(f_at);
   }

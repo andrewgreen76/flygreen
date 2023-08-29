@@ -7,10 +7,11 @@ void run_core_funcs(void)
 {
     printf("Running core OCR and I/O functions ...\n");
 
-    ProcList l;
+    ProcList pm;
+    BmpHeader h54;
     
-    l.fname = get_fname();
-    get_img_props(&l);
+    pm.fname = get_fname();
+    get_img_props(&pm, &h54);
     get_bounded_vals();
     proc_img();
 }

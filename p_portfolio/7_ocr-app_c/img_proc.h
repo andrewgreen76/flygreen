@@ -5,7 +5,7 @@
 #include "BmpHeader.h"
 
 // Function prototypes
-void get_img_props(ProcList * );
+void get_img_props(ProcList * , BmpHeader * );
 void proc_img();
 
 #endif

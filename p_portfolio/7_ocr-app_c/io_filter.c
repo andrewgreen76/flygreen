@@ -41,11 +41,15 @@ char * get_fname()
   bool is_iname_good = false;
   char * named_file;
   size_t size = 0;
+
+  printf("Inputk : ");
+  scanf("%s", named_file);
+  printf("Received : %s\n", named_file);
   
   do {
-    printf("Name of target image file: ");
-    
-    if (scanf(" %s", &named_file)>0 ) { 
+    printf("Name of target image file: ");    
+    if( scanf("%s", named_file)>0 ) {
+      printf("Received input : %s\n", named_file);
       is_iname_good = strfilled(named_file); // further checks;
     } else {
         printf("Cannot allocate memory for filename. You may be out of available memory.\n");

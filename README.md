@@ -41,8 +41,13 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
   - header-source include-compile logic (in GCC)
   - ways to aid in code readability (using <stdbool.h>/true/false, etc.)
   - <string.h> functions
-  - fread() vs. fgetc() 
-- Image (bitmap file) metadata attributes, working with bytes (int32_t, uint16_t, uint32_t) 
+  - fread() vs. fgetc()
+  - image (bitmap file) metadata attributes,
+    - working with bytes (int32_t, uint16_t, uint32_t)
+    - alignment requirements and byte padding 
+  - macros :
+    - their role at compile time  
+    - syntax  
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

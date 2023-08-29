@@ -1,5 +1,6 @@
 #ifndef BMPHEADER_H
 #define BMPHEADER_H
+#include <stdint.h> // For fixed-width types
 
 #pragma pack(push, 1) // Ensure that structure is packed without padding
 typedef struct {

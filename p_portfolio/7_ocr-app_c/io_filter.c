@@ -4,7 +4,7 @@
 bool is_imgfile(char * fname)
 {
   if( strstr(fname, ".jpg") || strstr(fname, ".jpeg") || strstr(fname, ".png") || strstr(fname, ".gif") || strstr(fname, ".bmp") ) {
-    assert(fname == "3.bmp");
+    printf("First check of \"3.bmp\" against : %s\n", fname);
     return true;
   }
   else {
@@ -38,7 +38,7 @@ bool strfilled(char * s)
 //====================================================================
 char * get_fname()
 {
-  bool good_img_name = false;
+  bool is_iname_good = false;
   char * named_file;
   size_t size = 0;
   
@@ -46,11 +46,15 @@ char * get_fname()
     printf("Name of target image file: ");
     
     if (getline(&named_file, &size, stdin) != -1) { 
-      good_img_name = strfilled(named_file); // further checks;
+      is_iname_good = strfilled(named_file); // further checks;
     } else {
         printf("Cannot allocate memory for filename. You may be out of available memory.\n");
     }    
-  } while (!good_img_name);
+  } while (!is_iname_good);
+  // Here we are expecting a good file name:
+  printf("Second check of \"3.bmp\" against : %s\n", named_file);  
+
+  // DO I WANT TO RETURN THE CHAR*VAL OR FREE THE STRING MEM ?? 
   free(named_file); // free() here to avoid double-free seg-fault. 
 
   return named_file;

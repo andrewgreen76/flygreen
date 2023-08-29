@@ -34,7 +34,7 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
 - C programming - revisiting :
   - malloc(), free(), malloc() in getline(), malloc() vs. getline() 
-  - getline() instead of scanf()
+  - getline() multiple-mem-check and malloc()/free() depedence -vs.- scanf() single-check and malloc()/free() independence ; 
   - passing by pointer instead of passing by reference
   - returning -1
   - structs and typedef

@@ -45,7 +45,7 @@ char * get_fname()
   do {
     printf("Name of target image file: ");
     
-    if (getline(&named_file, &size, stdin) != -1) { 
+    if (scanf(" %s", &named_file)>0 ) { 
       is_iname_good = strfilled(named_file); // further checks;
     } else {
         printf("Cannot allocate memory for filename. You may be out of available memory.\n");
@@ -55,7 +55,7 @@ char * get_fname()
   printf("Second check of \"3.bmp\" against : %s\n", named_file);  
 
   // DO I WANT TO RETURN THE CHAR*VAL OR FREE THE STRING MEM ?? 
-  free(named_file); // free() here to avoid double-free seg-fault. 
+  //free(named_file); // free() here to avoid double-free seg-fault. 
 
   return named_file;
 }

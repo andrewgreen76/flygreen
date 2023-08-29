@@ -1,5 +1,6 @@
 #ifndef IMG_PROC_H
 #define IMG_PROC_H
+#include <stdio.h>
 #include "ProcList.h"
 #include "BmpHeader.h"
 

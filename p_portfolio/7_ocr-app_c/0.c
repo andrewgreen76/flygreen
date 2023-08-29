@@ -1,13 +1,12 @@
 #include <stdio.h>
+#include <wchar.h>
 
 int main()
 {
   printf("\n");
-  char * i;
-  
-  printf("Give an input : ");
-  scanf("%c", i);
-  //printf("i : %s\n", i);
+
+  printf("size_t: %ld\n", sizeof(size_t));
+  printf("wchar_t: %ld\n", sizeof(wchar_t));
   
   printf("\n");
   return 0;

@@ -48,16 +48,6 @@ char * get_fname()
   bool is_iname_good = false;
   char * named_file;
   size_t size = 0;
-
-  printf("Regular scanf() check : ");
-  int n = scanf("%s", named_file);
-  printf("Received input : %s. Pass.\n", named_file);
-  printf("n of scanf() is : %d\n", n);
-  warn_segf();
-  
-  //printf("Conditional scanf() check : ");
-  //if( scanf("%s", named_file)>0 ) {
-  //printf("Received input : %s\n", named_file);
   
   do {
     printf("Name of target image file: ");

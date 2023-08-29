@@ -3,8 +3,10 @@
 //====================================================================
 bool is_imgfile(char * fname)
 {
-  if( strstr(fname, ".jpg") || strstr(fname, ".jpeg") || strstr(fname, ".png") || strstr(fname, ".gif") || strstr(fname, ".bmp") )
+  if( strstr(fname, ".jpg") || strstr(fname, ".jpeg") || strstr(fname, ".png") || strstr(fname, ".gif") || strstr(fname, ".bmp") ) {
+    assert(fname == "3.bmp");
     return true;
+  }
   else {
     printf("File is not an image. \n");
     return false;

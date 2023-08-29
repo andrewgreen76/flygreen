@@ -1,7 +1,4 @@
 #include "ocr_core.h"
-#include <stdio.h>
-#include "io_filter.h"
-#include "img_proc.h"
 
 void run_core_funcs(void)
 {
@@ -11,6 +8,10 @@ void run_core_funcs(void)
     BmpHeader h54;
     
     pm.fname = get_fname();
+
+    printf("pm.fname : %s\n", pm.fname);
+    //assert(pm->fname == "3.bmp");
+
     get_img_props(&pm, &h54);
     get_bounded_vals();
     proc_img();

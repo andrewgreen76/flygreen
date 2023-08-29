@@ -4,6 +4,8 @@
 #include <stdlib.h> // for free()
 #include <stdbool.h> // using true and false for a more readable code
 #include <string.h>
+#define NDEBUG
+#include <assert.h>
 #include "ProcList.h"
 
 // Function prototypes

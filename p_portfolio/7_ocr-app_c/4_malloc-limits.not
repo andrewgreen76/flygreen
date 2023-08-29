@@ -1,0 +1,59 @@
+"
+I apologize for misunderstanding your question about the "unknown size." If the size of the input string is truly unknown and potentially very large, dynamically allocating a fixed size buffer might not be the best approach, as it could lead to inefficient memory usage and potential buffer overflows.
+
+In cases where the size of the input string is truly unknown and could be large, you might consider using a resizable data structure like a linked list or a dynamic array to store the input characters. This way, you can dynamically allocate memory as needed and avoid over-allocating memory.
+
+Here's a basic example using a dynamic array approach:
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+#define INITIAL_CAPACITY 10
+
+typedef struct {
+    char *data;
+    size_t capacity;
+    size_t length;
+} DynamicString;
+
+void initDynamicString(DynamicString *str) {
+    str->data = malloc(INITIAL_CAPACITY);
+    str->capacity = str->data ? INITIAL_CAPACITY : 0;
+    str->length = 0;
+}
+
+void appendToDynamicString(DynamicString *str, char c) {
+    if (str->length + 1 >= str->capacity) {
+        str->capacity *= 2; // Double the capacity
+        str->data = realloc(str->data, str->capacity);
+    }
+
+    str->data[str->length++] = c;
+}
+
+int main() {
+    DynamicString inputString;
+    initDynamicString(&inputString);
+
+    printf("Enter a string: ");
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF) {
+        appendToDynamicString(&inputString, c);
+    }
+
+    // Print the input string
+    printf("You entered: %s\n", inputString.data);
+
+    // Clean up
+    free(inputString.data);
+
+    return 0;
+}
+```
+
+This example uses a `DynamicString` structure that keeps track of the allocated memory, capacity, and length of the string. The `initDynamicString()` function initializes the structure, and `appendToDynamicString()` appends characters to the dynamic array while resizing it as needed.
+
+Remember that this is a simplified example, and you may need to add error handling and additional features based on your requirements. Also, dynamic memory management comes with responsibilities such as proper memory deallocation to avoid memory leaks.
+"
+.

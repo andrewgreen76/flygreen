@@ -42,12 +42,16 @@ char * get_fname()
   char * named_file;
   size_t size = 0;
 
-  printf("Inputk : ");
+  printf("Regular scanf() check : ");
   scanf("%s", named_file);
-  printf("Received : %s\n", named_file);
+  printf("Received : %s. Pass.\n", named_file);
+  
+  printf("Conditional scanf() check : ");
+  //if( scanf("%s", named_file)>0 ) {
+  //printf("Received input : %s\n", named_file);
   
   do {
-    printf("Name of target image file: ");    
+    printf("Name of target image file: ");
     if( scanf("%s", named_file)>0 ) {
       printf("Received input : %s\n", named_file);
       is_iname_good = strfilled(named_file); // further checks;

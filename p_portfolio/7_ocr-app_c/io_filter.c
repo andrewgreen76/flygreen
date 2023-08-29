@@ -1,5 +1,12 @@
 #include "io_filter.h"
 
+void warn_segf()
+{
+  char * k;
+  printf("**WARNING: POTENTIAL IMPENDING SEGFAULT.** Hit ENTER to continue or C^c to abort. \n");
+  scanf("%s", k);
+}
+
 //====================================================================
 bool is_imgfile(char * fname)
 {
@@ -43,10 +50,12 @@ char * get_fname()
   size_t size = 0;
 
   printf("Regular scanf() check : ");
-  scanf("%s", named_file);
-  printf("Received : %s. Pass.\n", named_file);
+  int n = scanf("%s", named_file);
+  printf("Received input : %s. Pass.\n", named_file);
+  printf("n of scanf() is : %d\n", n);
+  warn_segf();
   
-  printf("Conditional scanf() check : ");
+  //printf("Conditional scanf() check : ");
   //if( scanf("%s", named_file)>0 ) {
   //printf("Received input : %s\n", named_file);
   

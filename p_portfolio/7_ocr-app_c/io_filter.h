@@ -9,6 +9,7 @@
 #include "ProcList.h"
 
 // Function prototypes
+void warn_segf();
 bool is_imgfile(char * );
 bool fhere(char * );     // FILE EXISTS check 
 bool strfilled(char * ); // NON-EMPTY STRING check

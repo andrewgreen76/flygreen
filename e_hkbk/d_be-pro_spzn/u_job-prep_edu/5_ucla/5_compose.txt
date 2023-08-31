@@ -1,7 +1,7 @@
 
 Hi,
 
-My name is Andrew Green and I am a long-time graduate of the University of Nevada, Reno. I am interested in applying for an admission to UCLA. I am writing to you with a number of questions and I was wondering whether some of them should be addressed to somebody outside of your office, an individual who could function as a faculty mentor or an academic advisor.
+My name is Andrew Green and I am a long-time graduate of the University of Nevada, Reno (I was registered as Andrey Gaganov there at the time). I am interested in applying for an admission to UCLA. I am writing to you with a few questions and I was wondering whether some of them should be addressed to somebody outside of your office, like the Computer Science department chair or an individual who could function as a faculty mentor or an academic advisor.
 
 First, below is a checklist that I have compiled from my research on the application requirements. Please let me know if anything from below is inaccurate or missing:
 
@@ -12,17 +12,23 @@ First, below is a checklist that I have compiled from my research on the applica
 - statement of purpose
 - personal statement
 - unofficial transcript
-- (at the time of enrollment) official transcript 
+- (at the time of enrollment, directly from the undergraduate alma mater) official transcript 
 
-Also, as I said, I have a few questions for your office or the Computer Science department. Feel free to ask them your own set of questions or forward this email to them, whichever is more appropriate. 
+Also, as I said, I have a few questions for your office or the Computer Science department. Feel free to ask them your own set of questions or forward this email to them, whichever is more appropriate (seeing that I could not find their direct number or email address). 
 
-Question 1: I have a slightly complicated situation. It's been nine and a half years since I graduated from UNR with a B.S. in Computer Science and Engineering with a focus on games and simulation. In that time my understanding of the job market related to the field has become much more informed and so my interests have changed. As someone who is looking to change his academic and professional focus from games and simulation to system administration, I understand that to find work as a sysadmin I have to land an appropriate internship. However, to get a relevant internship opportunity I have to be a current student (in my case going to pursue a M.S. in Computer Science). At this point I have two problems: (1) my transcripts are not very recent and (2) neither are the letters of recommendation that were written on my behalf during the period of 2014-2015 by people who might not even remember me by now. Given this predicament, what would your office or the CSE department have me go through with? Does that mean that I have to retake certain classes or take other ones? Do you believe that an adjustment could be made with my alma mater?
+Question 1: I have a slightly complicated situation. It's been nine and a half years since I graduated from UNR with a B.S. in Computer Science and Engineering with a focus on games and simulation. Within that time my understanding of the job market related to the field has become much more informed and so my interests have changed. As someone who is looking to change his academic and professional focus from games and simulation to system administration or operating systems development for computers, I understand that to find work as a sysadmin or OS dev I have to land an appropriate internship. However, to get a relevant internship opportunity I have to be a current student (in my case going to pursue a M.S. in Computer Science). At this point I have two problems: (1) my transcripts are not very recent and (2) neither are the letters of recommendation that were written on my behalf during the period of 2014-2015 by people who might not even remember me by now. Given this predicament, what would your office or the CSE department have me go through with? Does that mean that I have to retake certain classes or take other ones? Do you believe I have to connect with my alma mater and work out some adjusements with them?
 
-Question 2: I had a bit of a difficulty find the page with the list of programs relevant to my pursuits. The best I could find is the following webpage:
+Question 2: I had a bit of a difficulty finding the page with the list of Computer Science programs. The best I could find is the following webpage:
 
 https://www.cs.ucla.edu/research-areas/
 
+Is this the page or is there a more comprehensive alternative? It seems like the Software Systems program would be the best fit for me.
 
+
+
+I am looking forward to your response.
+
+Andrew Green
 
 ==========================================================================================================================================================
 UCLA internships : 	 $12k 11% 92%

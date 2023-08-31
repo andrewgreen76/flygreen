@@ -19,6 +19,8 @@ Also, as I said, I have a few questions for your office or the Computer Science 
 
 Question 1: I have a slightly complicated situation. It's been nine and a half years since I graduated from UNR with a B.S. in Computer Science and Engineering with a focus on games and simulation. Within that time my understanding of the job market related to the field has become much more informed and so my interests have changed. As someone who is looking to change his academic and professional focus from games and simulation to system administration or operating systems development for computers, I understand that to find work as a sysadmin or OS dev I have to land an appropriate internship. However, to get a relevant internship opportunity I have to be a current student (in my case going to pursue a M.S. in Computer Science). At this point I have two problems: (1) my transcripts are not very recent and (2) neither are the letters of recommendation that were written on my behalf during the period of 2014-2015 by people who might not even remember me by now. Given this predicament, what would your office or the CSE department have me go through with? Does that mean that I have to retake certain classes or take other ones? Do you believe I have to connect with UNR and work out some adjustments with them?
 
+> 
+
 Question 2: I had a bit of a difficulty finding the page with the list of Computer Science programs. The best I could find is the following webpage:
 
 https://www.cs.ucla.edu/research-areas/

@@ -49,16 +49,18 @@ bool is_short(char * named_file)
 void get_fname(char * named_file)
 {
   bool is_iname_good = false;
-  //char named_file[200]; // Pass around instead of malloc/free.
-  //char * p = named_file;
   
   do {
     printf("Name of target image file: ");
-    if( fgets(named_file, sizeof(named_file), stdin) != NULL ) // no-str check
+    if( fgets(named_file, sizeof(named_file), stdin) != NULL ) { // no-str check
+      //int i=0;
+      //while(i<sizeof(named_file) && named_file[i]!='\n') i++;
+      //if(named_file[i] == '\n') named_file[i] == '\0'; 
       is_iname_good = is_short(named_file);                 // too-long, further checks;
+    }
   } while (!is_iname_good);
 
-  return named_file;
+  return;
 }
 //====================================================================
 void get_bounded_vals()

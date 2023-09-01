@@ -1,21 +1,24 @@
 #include "img_proc.h"
 
-void get_img_props(ProcList * pm, BmpHeader * h54)
+void get_img_props(ProcList * pm, BmpHeader * imgh54)
 {
-    printf("Caching image data ...\n");
+  printf("Caching image data from %s\n", pm->fname);
 
-    //assert(pm->fname == "3.bmp");
-    //printf("pm->fname : %s\n", pm->fname);
-    FILE *f = fopen(pm->fname, "rb");
-    if(f) {
-      printf("File found\n");
-      fclose(f);
-    }
-    else printf("**ERROR: Cannot open file**\n");
+  FILE *srcbmp = fopen(pm->fname, "rb");
+  fread(imgh54, sizeof(imgh54), 1, srcbmp);
+
+  printf("Signature: %c%c\n", (char)(imgh54->signature & 0xFF), (char)((imgh54->signature & 0xFF00) >>8) ); 
+  printf("Total size of header: %d\n", imgh54->fileSize);
+  printf("Reserved field check: %d\n", imgh54->reserved);
+  
+  fclose(srcbmp);
+  return;
 }
 
 void proc_img()
 {
     printf("Processing image ...\n");
+
+    return;
 }
 

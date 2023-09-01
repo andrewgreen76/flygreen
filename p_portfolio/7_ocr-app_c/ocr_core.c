@@ -7,7 +7,7 @@ void run_core_funcs(void)
     ProcList pm;
     BmpHeader h54;
     
-    pm.fname = get_fname();    
+    get_fname(pm.fname);    
     get_img_props(&pm, &h54);
     get_bounded_vals();
     proc_img();

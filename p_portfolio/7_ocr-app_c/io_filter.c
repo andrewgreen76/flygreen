@@ -48,7 +48,7 @@ bool is_short(char named_file)
 }
 
 //====================================================================
-char get_fname()
+char * get_fname()
 {
   bool is_iname_good = false;
   char named_file[200]; // Pass around instead of malloc/free. 
@@ -59,7 +59,7 @@ char get_fname()
       is_iname_good = is_short(named_file); // further checks;
   } while (!is_iname_good);
 
-  return named_file;
+  return &named_file;
 }
 //====================================================================
 void get_bounded_vals()

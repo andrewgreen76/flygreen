@@ -36,6 +36,16 @@ bool strfilled(char s)
   if(strlen(s) > 1) return fhere(s);
   else return false;
 }
+//====================================================================
+bool is_short(char named_file)
+{
+  if( named_file[199] == NULL )
+    return strfilled(named_file);
+  else {
+    printf("Input is too long.\n");
+    return false; 
+  }
+}
 
 //====================================================================
 char get_fname()
@@ -45,9 +55,8 @@ char get_fname()
   
   do {
     printf("Name of target image file: ");
-    if( fgets(named_file, sizeof(named_file), stdin) != NULL )
-      if()
-	//is_iname_good = strfilled(named_file); // further checks;   
+    if( fgets(named_file, sizeof(named_file), stdin) != NULL ) // no-str check
+      is_iname_good = is_short(named_file); // further checks;
   } while (!is_iname_good);
 
   return named_file;

@@ -9,10 +9,10 @@
 #include "ProcList.h"
 
 // Function prototypes
-bool is_imgfile(char );
-bool fhere(char );     // FILE EXISTS check 
-bool strfilled(char ); // NON-EMPTY STRING check
-bool is_short(char );
+bool is_imgfile(char * );
+bool fhere(char * );     // FILE EXISTS check 
+bool strfilled(char * ); // NON-EMPTY STRING check
+bool is_short(char * );
 char * get_fname();
 void get_bounded_vals( );
 

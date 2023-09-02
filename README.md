@@ -33,21 +33,14 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
 - C programming - revisiting :
-  - malloc(), free(), malloc() in getline(), malloc() vs. getline() 
+  - abstracted string buffer initialization and release within a modular environment
+  - direct memory access with bitwise operations and bit-masking 
   - getline() multiple-mem-check and malloc()/free() depedence -vs.- scanf() single-check and malloc()/free() independence ; 
   - passing by pointer instead of passing by reference
-  - returning -1
-  - structs and typedef
-  - header-source include-compile logic (in GCC)
-  - ways to aid in code readability (using <stdbool.h>/true/false, etc.)
-  - <string.h> functions
-  - fread() vs. fgetc()
+  - sprintf(string, "%d", integer)
   - image (bitmap file) metadata attributes,
     - working with bytes (int32_t, uint16_t, uint32_t)
     - alignment requirements and byte padding 
-  - macros :
-    - their role at compile time  
-    - syntax  
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

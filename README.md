@@ -40,7 +40,8 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
   - sprintf(string, "%d", integer)
   - image (bitmap file) metadata attributes,
     - working with bytes (int32_t, uint16_t, uint32_t)
-    - alignment requirements and byte padding 
+    - alignment requirements and byte padding
+  - BMP header structures 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

@@ -1,0 +1,22 @@
+
+"
+Yes, you are correct. Not all splash screens are displayed within windows with title bars and window management controls like "minimize," "maximize," and "close" buttons. Splash screens can be implemented in various ways, and their appearance and behavior can vary depending on the application and developer's design choices.
+
+Here are some common approaches to creating splash screens that do not have window decorations:
+
+1. **Borderless Window**: Developers can create a borderless window, which means a window with no title bar, borders, or window management controls. This approach provides a clean and minimalistic look for the splash screen.
+
+2. **Full-Screen Splash**: Some splash screens cover the entire screen, effectively hiding any underlying desktop or windowing system elements. This approach ensures that the splash screen is the sole focus until it disappears.
+
+3. **Overlay**: Instead of creating a separate window, a semi-transparent overlay can be applied to the current screen content to display the splash screen. This overlay can be positioned and sized as needed.
+
+4. **Custom Drawing**: Developers can draw the splash screen directly within the application's main window or graphics context. This allows for complete control over the appearance and behavior of the splash screen.
+
+5. **Splash Screen Image**: A common approach is to display a full-screen image as the splash screen. This image can be displayed without window decorations, and it can fade in or out for a smoother transition.
+
+The choice of which approach to use depends on the specific requirements and design goals of the application. Some applications may prefer a minimalist and unobtrusive splash screen, while others may want a more elaborate and visually engaging introduction.
+
+Ultimately, whether a splash screen has window decorations or not is a design decision made by the application's developers, and it can vary from one application to another.
+"
+
+.

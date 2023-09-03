@@ -41,7 +41,9 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
   - image (bitmap file) metadata attributes,
     - working with bytes (int32_t, uint16_t, uint32_t)
     - alignment requirements and byte padding
-  - BMP header structures 
+  - BMP header structures
+  - fread(.., sizeof * hdrObj, .., ..)
+  - SDL, OpenGL, and ALSA 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

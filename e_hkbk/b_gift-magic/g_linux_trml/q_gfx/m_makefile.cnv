@@ -1,0 +1,43 @@
+
+"
+If your compiler is not finding the SDL2 header file when you use `#include <SDL.h>` but it works when you provide the full path, it indicates that the compiler's include paths are not configured correctly. To remedy this, you have a few options:
+
+1. **Update Include Paths (Recommended)**:
+   The preferred approach is to configure your compiler to include the SDL2 library path automatically. You can do this by using the `-I` flag followed by the path to the SDL2 header files.
+
+   For example:
+
+   ```bash
+   gcc -o splash_screen_program splash_screen_program.c -I/usr/include/SDL2 -lSDL2
+   ```
+
+   This tells the compiler where to find the SDL2 header files (`-I/usr/include/SDL2`) during the compilation process.
+
+2. **Modify the Makefile (if using one)**:
+   If you are using a Makefile for your project, you can add the `-I` flag to the `CFLAGS` variable within the Makefile. Here's an example of how to do it:
+
+   ```make
+   CFLAGS = -I/usr/include/SDL2
+   LDLIBS = -lSDL2
+
+   all: splash_screen_program
+
+   splash_screen_program: splash_screen_program.c
+       gcc -o $@ $^ $(CFLAGS) $(LDLIBS)
+   ```
+
+   This approach ensures that the include path is set correctly each time you build your program with `make`.
+
+3. **Environment Variable (not recommended)**:
+   You can also set an environment variable called `C_INCLUDE_PATH` to include the SDL2 header directory. However, this approach is less recommended because it affects all compilations system-wide, and it's better to specify the include path on a per-project basis.
+
+   ```bash
+   export C_INCLUDE_PATH=$C_INCLUDE_PATH:/usr/include/SDL2
+   ```
+
+   Using this method, you might need to restart your terminal or open a new terminal window to apply the changes.
+
+By updating the include paths as described in the first two options, you should be able to use `#include <SDL.h>` in your source code without specifying the full path, making your code more portable and maintainable.
+"
+
+.

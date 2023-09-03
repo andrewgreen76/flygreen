@@ -1,4 +1,5 @@
 
+"
 Yes, you can create a simple C program for Linux (Ubuntu) that populates the entire screen with a black background without relying on OpenGL or SDL by using the Linux framebuffer device. The framebuffer is a direct-access method for displaying graphics on the screen.
 
 Here's a basic example of how you can achieve this:
@@ -61,5 +62,5 @@ int main() {
 This program opens the framebuffer device (`/dev/fb0`), retrieves screen information, maps the framebuffer to memory, fills it with black pixels (all zeros), and then unmaps the framebuffer. Note that this code assumes you have permission to access the framebuffer device, which typically requires running the program as a superuser or adjusting permissions accordingly.
 
 Compile and run this program on your Ubuntu system to populate the screen with a black background. Make sure to take precautions when working with framebuffer devices, especially if you're running this code as the superuser, as it can directly manipulate the screen.
-
+"
 .

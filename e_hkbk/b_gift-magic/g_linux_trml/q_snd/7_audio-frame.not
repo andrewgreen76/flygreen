@@ -1,4 +1,8 @@
 
+Writing to a PCM device. 
+
+
+
 "
 An audio frame is a single set of audio samples that represents the amplitude of an audio signal at a particular point in time. The number of samples in an audio frame depends on the audio format being used. For example:
 

@@ -33,7 +33,6 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
 - C programming - revisiting :
-  - abstracted string buffer initialization and release within a modular environment
   - direct memory access with bitwise operations and bit-masking 
   - getline() multiple-mem-check and malloc()/free() depedence -vs.- scanf() single-check and malloc()/free() independence ; 
   - passing by pointer instead of passing by reference
@@ -42,14 +41,13 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
     - working with bytes (int32_t, uint16_t, uint32_t)
     - alignment requirements and byte padding
   - BMP header structures
-  - fread(.., sizeof * hdrObj, .., ..)
-  - SDL, OpenGL, and ALSA 
+  - fread(.., sizeof * structObj, .., ..)
+  - Linux assistance with hardware : SDL, OpenGL, and ALSA (PCM tone generation) 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________
 
 - (TBA)
-v too bold ; let's do something simple ^ 
 
 Planned projects for the future : 
 - helping to maintain [the Linux kernel, systemd, 0AD video game, Pop!_OS kernel, coreboot codebase, etc.]

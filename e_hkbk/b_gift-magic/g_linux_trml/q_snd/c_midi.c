@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
     }
 
     // Load a MIDI file (replace "your_midi_file.mid" with your MIDI file)
-    Mix_Music* music = Mix_LoadMUS("your_midi_file.mid");
+    Mix_Music* music = Mix_LoadMUS("output.mid");
     if (!music) {
         fprintf(stderr, "Failed to load MIDI file: %s\n", Mix_GetError());
         Mix_CloseAudio();

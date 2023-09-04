@@ -32,7 +32,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
 
-- C programming - revisiting :
+- C programming :
   - direct memory access with bitwise operations and bit-masking 
   - getline() multiple-mem-check and malloc()/free() depedence -vs.- scanf() single-check and malloc()/free() independence ; 
   - passing by pointer instead of passing by reference

@@ -1,4 +1,9 @@
 
+"Computers [that use] lots of registers that take only register arguments for most operations ..."
+- https://www.youtube.com/watch?v=vaGZapAGvwM
+
+
+
 "
 Load-store architecture is a computer architecture design that separates the instructions for loading data from memory (load operations) and storing data to memory (store operations) from the instructions that perform arithmetic or logic operations. In a load-store architecture, operations like addition, subtraction, and logical operations can only be performed on data that is first loaded from memory into registers, and the results must be stored back to memory when finished.
 

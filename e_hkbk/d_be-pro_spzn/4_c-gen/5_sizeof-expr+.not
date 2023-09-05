@@ -1,0 +1,32 @@
+
+SO : "Yeah, sizeof can take either a type, or an expression. And in the case of an expression, wrapping it in parentheses is optional." –
+Nate Eldredge
+
+
+
+"
+Yes, you can use `sizeof` with an expression, [as in] `sizeof *imgHdr`, and it's a valid and often used C and C++ construct. This expression calculates the size of the data type of the pointer `imgHdr` is pointing to.
+
+Here's how it works:
+
+Assuming `imgHdr` is a pointer, when you use `sizeof *imgHdr`, the compiler determines the size of the data type pointed to by `imgHdr`. It's particularly useful when `imgHdr` is a pointer to a struct or an array, as it helps you avoid specifying the type explicitly and reduces the risk of errors if the type of `imgHdr` changes.
+
+For example, if `imgHdr` is a pointer to a struct `ImageHeader`, you can use `sizeof *imgHdr` instead of `sizeof(struct ImageHeader)`:
+
+```c
+struct ImageHeader {
+    int width;
+    int height;
+};
+
+struct ImageHeader *imgHdr;
+
+size_t imageSize = sizeof *imgHdr; // Equivalent to sizeof(struct ImageHeader)
+```
+
+This makes the code more maintainable because you don't need to update `sizeof` expressions if you change the type of `imgHdr`.
+
+Keep in mind that the use of `sizeof` with expressions like this is a compile-time operation, and it doesn't require actually allocating memory or dereferencing the pointer. It simply determines the size of the data type based on the declaration of the pointer.
+"
+
+.

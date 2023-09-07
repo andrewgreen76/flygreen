@@ -4,7 +4,8 @@ Make a difference every day.
 9/6/23
 - figure out Wine 
 - Complete : an OS
-  - Study bootable images 
+  - Study bootable images
+- explore /dev/* (/zero, /null, etc.)
 |
 Thursday : 
 - disable SecureBoot on both devices

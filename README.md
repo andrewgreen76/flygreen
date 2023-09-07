@@ -30,19 +30,12 @@ __________________________________________________________________________
 > to modify
   - to hack ethically and creatively
 __________________________________________________________________________
-TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST 24-48 HOURS:
+TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 
 - C programming :
-  - direct memory access with bitwise operations and bit-masking 
-  - getline() multiple-mem-check and malloc()/free() depedence -vs.- scanf() single-check and malloc()/free() independence ; 
-  - passing by pointer instead of passing by reference
-  - sprintf(string, "%d", integer)
-  - image (bitmap file) metadata attributes,
-    - working with bytes (int32_t, uint16_t, uint32_t)
-    - alignment requirements and byte padding
-  - BMP header structures
   - fread(.., sizeof * structObj, .., ..)
-  - Linux assistance with hardware : SDL, OpenGL, and ALSA (PCM tone generation) 
+  - Linux assistance with hardware : SDL, OpenGL, and ALSA (PCM tone generation)
+- the insufferable nature of Wine and Winetricks (esp. on Ubuntu 22.04 LTS) 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

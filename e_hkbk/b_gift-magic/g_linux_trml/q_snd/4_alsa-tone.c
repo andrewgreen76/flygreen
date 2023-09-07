@@ -17,7 +17,7 @@ int main() {
 
     // Generate a simple audio tone
     char buf[4];
-    for (int i = 0; i < 100000; i++) {
+    for (int i = 0; i < 10000; i++) {
         buf[0] = 0x7F;
         buf[1] = 0x00;
         buf[2] = 0x7F;

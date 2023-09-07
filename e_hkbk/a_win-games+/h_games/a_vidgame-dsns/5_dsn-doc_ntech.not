@@ -1,0 +1,47 @@
+
+Game design - non-technical : 
+__________________________________________________
+
+- RTS
+- 2D
+- single-player only
+- plans for networking (P2P vs. client-server) 
+- highly modular implementation
+
+- Art :
+  - color palette
+  - animation techniques 
+  - Sprites :
+    - UI : 
+      - panels , buttons 
+    - player agents , enemy agents
+    - weapons , artifacts 
+  - focal map , mini-map : 
+    - lighting 
+  - font style
+
+- Features / mechanics :
+  -
+
+- 1 campaign
+  - one difficulty level - hard 
+  - bare-minimum start
+ 
+- Narrative - the player(s) create it :
+  - conflict
+  - alliances 
+  - betrayal
+
+Other core elements : 
+- One long mission/scenario play (keep playing after "losing") 
+
+- Innovation <= look + feel
+
+- Sound design :
+  -
+
+- OST :
+  - styles : 
+    - Indonesian/gamelan
+
+.

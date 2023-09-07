@@ -1,0 +1,72 @@
+
+Game design - technical : 
+__________________________________________________
+
+- RTS
+- 2D
+- single-player only first, then multi-player 
+- highly modular implementation
+
+- Art / sprites :
+  - 320x240 style	-or- 320x200 style x 6 = 1920x1200
+    => 76,800 px
+    => @ monochrome :	 76,800 B =>  75 K 
+    => @ 24-bit depth : 230,400 B => 225 K 
+    => @ 32-bit depth : 307,200 B => 300 K 
+  - tiles - squares (keep it simple)	<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  - color palette	<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  - animation techniques 
+  - UI : 
+    - panels , buttons 
+  - player agents , enemy agents
+  - weapons , artifacts 
+  - focal map , mini-map : 
+    - lighting 
+  - font style
+
+- Features/mechanics - feature-rich :
+  - 
+
+- 1 campaign
+  - one difficulty level - hard 
+  - bare-minimum start
+ 
+- Narrative - the player(s) create it :
+  - conflict
+  - alliances 
+  - betrayal
+
+Other core elements : 
+- One long mission/scenario play (keep playing after "losing") 
+
+- Sound design :
+  -
+
+- OST :
+  - styles : 
+    - Indonesian/gamelan
+  - tech : 
+    - MIDI (Py to gen. mid.files) ; ALSA , SDL 
+
+- Innovation <= look + feel
+
+==================================================
+
+HW : [see "sudo lshw"]
+OS : Linux
+Libraries :
+- ALSA, SDL, OpenGL, 
+
+==================================================
+
+Languages :
+- C, assembly 
+
+==================================================
+
+Bonus material : 
+- Networking : 
+  - P2P vs. client-server
+  - TCP/IP 
+
+.

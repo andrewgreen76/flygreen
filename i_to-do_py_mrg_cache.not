@@ -1,20 +1,12 @@
 
-Make a difference every day. 
+UTA :
+- (512) 471-3434
 |
-9/6/23
-- figure out Wine 
-- Complete : an OS
-  - Study bootable images
-- explore /dev/* (/zero, /null, etc.)
-|
-Thursday : 
-- disable SecureBoot on both devices
-- back to Windows on the laptop
-- to Linux on the PC 
+UCSD :
+- M.S. Fall 2023
+- 
 
-
-
-Apply for admission to UNR (grad special) : 
+UNR : Apply for admission to UNR (grad special) : 
 - now - 1/27/24
 v online application acct
 > fill out online app (grad special -specific)
@@ -47,16 +39,30 @@ Finding work :
    - Tesla, Vectra AI, Oracle NetSuite. 
    - B&N. 
    - Keep checking Tesla Connect. 
+
 =================================================================================================
 Personal projects : 
+
+Make a difference every day. 
 |
+9/6/23
+- figure out Wine 
+- Complete : an OS
+  - Study bootable images
+- explore /dev/* (/zero, /null, etc.)
+|
+Thursday : 
+- disable SecureBoot on both devices
+- back to Windows on the laptop
+- to Linux on the PC 
+
 Discover yourself through tech first.
 - a game (need specs) 
 - own bootloader 
 - system administration 
 - Gb-like, the means to make a fun game 
 - image-processing
-|
+
  - RECREATE C/C++ APPLICATION + OPENCV -> 
 -> Udemy : 
 -> CPU -> RPi 4 ARM -> x86 assembler -> C compiler -> embedded C -> IoT ->

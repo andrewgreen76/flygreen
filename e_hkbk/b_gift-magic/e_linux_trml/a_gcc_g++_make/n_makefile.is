@@ -1,0 +1,18 @@
+
+"
+Makefiles are typically used in conjunction with a build automation tool called "make." The "make" tool reads the instructions in a makefile and then invokes the necessary compiler (like GCC) and linker commands to build the project according to the specified rules.
+
+Here's a typical workflow:
+
+1. You create a makefile that defines the dependencies and build rules for your project.
+
+2. You run the "make" command in your terminal, passing the makefile as an argument (e.g., `make -f Makefile`).
+
+3. The "make" tool reads the makefile, determines which source files need to be compiled, and invokes GCC (or other compilers) to compile the source files into object files.
+
+4. Finally, "make" uses GCC to link the object files together to produce the final executable or library.
+
+In summary, GCC itself doesn't directly accept makefiles; it's the "make" tool that reads and processes makefiles to manage the compilation and linking process. Makefiles are an essential part of the build process for many software projects, especially those written in C and C++, and they provide a way to automate and streamline the compilation process.
+"
+
+.

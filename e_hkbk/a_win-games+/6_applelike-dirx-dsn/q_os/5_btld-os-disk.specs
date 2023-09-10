@@ -2,11 +2,13 @@
 Vegetable bootloader : 
 _______________________
 
-. Tools and ingredients			Design part
+. Tools/ingredients/decisions		Design part
 -----------------------------------------------------------------
 make (a make utility)		} 	
 GCC				}->	gen. a .bin image file 
-- NASM  	  		} 	
+NASM
+- syntax : ??	 	 	} 	
+- bit width : 8/16/32-bit	} 
 QEMU 	  			->  	an emu.box 
 a USB drive   			->    	bootable image storage
 

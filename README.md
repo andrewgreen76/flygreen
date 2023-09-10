@@ -32,9 +32,6 @@ __________________________________________________________________________
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 
-- C programming :
-  - fread(.., sizeof * structObj, .., ..)
-  - Linux assistance with hardware : SDL, OpenGL, and ALSA (PCM tone generation)
 - the insufferable nature of Wine and Winetricks (esp. on Ubuntu 22.04 LTS) 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:

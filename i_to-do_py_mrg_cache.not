@@ -1,4 +1,17 @@
 
+Make a difference every day. 
+|
+9/10/23
+. Complete : an OS
+  . Bootable images - on a drive/USB
+    . boot sector (512B, 1st sector) 
+      . bootstrap (440)
+      + vend.sig + NULL + MBR/GUID + fdisk.sig
+    . bootloader (31K, 62 sectors)
+. explore /dev/* (/zero, /null, etc.)
+
+=================================================================================================
+
 Checklists : 
 |
 UCSD : 
@@ -56,16 +69,9 @@ Finding work :
    - Keep checking Tesla Connect. 
 
 =================================================================================================
+
 Personal projects : 
 
-Make a difference every day. 
-|
-9/6/23
-- figure out Wine 
-- Complete : an OS
-  - Study bootable images
-- explore /dev/* (/zero, /null, etc.)
-|
 Thursday : 
 - disable SecureBoot on both devices
 - back to Windows on the laptop

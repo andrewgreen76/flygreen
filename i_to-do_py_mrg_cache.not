@@ -3,20 +3,6 @@ Make a difference every day.
 |
 9/10/23 : 
 . Difference : a part of an OS
-  . Tools and ingredients : 
-    . Tool    		Design part
-     --------------------------------------------------
-      GCC   	  ->	compiler 
-      NASM 	  ->	assembler	-> gen. a .bin file
-      make	  -> 	make utility 	-> gen. a .bin file 
-      QEMU 	  ->	VM / emu
-      a USB drive -> 	bootable image storage 
-  . Concepts : 
-    . boot sector (512B, 1st sector) 
-      .	   ? bootstrap (440) - nothing ??
-      .	   + vend.sig + NULL + MBR/GUID
-      + fdisk.sig (0x55 0xAA)
-    . bootloader (31K, 62 sectors)
 . explore /dev/* (/zero, /null, etc.)
 
 =================================================================================================

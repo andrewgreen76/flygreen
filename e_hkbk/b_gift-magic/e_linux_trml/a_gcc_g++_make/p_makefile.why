@@ -1,4 +1,13 @@
 
+- efficient recompiling
+  - "only the affected files are recompiled"
+  - using multiple CPU cores
+- flexible compilation based on configurations (e.g., target platform, debugging options, ...)
+- portability
+- automated build upon pushing a commit while using a version control system 
+
+
+
 "
 Writing a Makefile instead of a simple script to compile and link your code offers several advantages in software development:
 

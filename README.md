@@ -33,6 +33,7 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 
 - the insufferable nature of Wine and Winetricks (esp. on Ubuntu 22.04 LTS) 
+- the benefits of using make/Makefile over a project-building script 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

@@ -1,0 +1,9 @@
+gcc -m32 r_add.o -o r_add
+/usr/bin/ld: cannot find Scrt1.o: No such file or directory
+/usr/bin/ld: cannot find crti.o: No such file or directory
+/usr/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-linux-gnu/11/libgcc.a when searching for -lgcc
+/usr/bin/ld: cannot find -lgcc: No such file or directory
+/usr/bin/ld: skipping incompatible /usr/lib/gcc/x86_64-linux-gnu/11/libgcc.a when searching for -lgcc
+/usr/bin/ld: cannot find -lgcc: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [makefile:21: r_add] Error 1

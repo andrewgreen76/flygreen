@@ -19,7 +19,9 @@ main:
 
     ; Prepare for syscall to print the result
     mov ebx, 1             ; File descriptor 1 (STDOUT)
-    lea ecx, [result_msg]  ; Load address of the result_msg string
+
+    ; Calculate the address of the result_msg string with RIP-relative LEA
+    lea ecx, [rel result_msg]
 
     ; Calculate the length of the string (including null terminator)
     lea edx, [ecx + 13]

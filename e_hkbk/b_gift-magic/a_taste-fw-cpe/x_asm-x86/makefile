@@ -14,7 +14,7 @@ all: $(EXE)
 
 # Compile the assembly code
 $(OBJ): $(SRC)
-	$(ASSEMBLER) -f elf $(SRC) -o $(OBJ)
+	$(ASSEMBLER) -f elf32 $(SRC) -o $(OBJ)
 
 # Link the object file to create an executable
 $(EXE): $(OBJ)

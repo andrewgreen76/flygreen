@@ -37,7 +37,8 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 - x86 assembly :
   - choosing the architecture ( i286, i386/elf32/x86, elf64/x64 )
   - choosing the assembler
-  - choosing the right syntax  
+  - choosing the right syntax
+  - choosing a CC or the linker AND writing the correct tags for the command 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

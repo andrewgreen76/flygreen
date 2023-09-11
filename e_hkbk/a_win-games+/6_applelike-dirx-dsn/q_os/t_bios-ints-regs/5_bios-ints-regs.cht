@@ -1,8 +1,8 @@
 
-Op.cat		Interrupt	ah	al	Exact operation 
-------------------------------------------------------------------
-RTC int		08h
-keyboard int	09h 
+Op.cat		Interrupt	ah	al	Exact operation			bh	bl	ch	cl	dh	dl	 
+===================================================================================================================================
+RTC int		08h		-
+keyboard int	09h 		-
 
 
 Services : 
@@ -50,9 +50,18 @@ PCI		1Ah		B1h	01h	PCI install check
 					0Fh	set PCI IRQ 
 
 timer tk hndl	1Ch		-
+===================================================================================================================================
+Op.cat		Interrupt	ah	al	Exact operation			bh	bl	ch	cl	dh	dl	 
+===================================================================================================================================
+		80h		-		a syscall in 32-bit Unix-likes
+		"It's worth noting that in 64-bit systems, the x86_64 architecture uses a different mechanism for system calls, 
+		utilizing the syscall instruction instead of the int 0x80 interrupt."
 
-==================================================================
-
+			      	1     		
+				4		sys_write
+===================================================================================================================================
+Op.cat		Interrupt	ah	al	Exact operation			bh	bl	ch	cl	dh	dl	 
+===================================================================================================================================
 Not to be called :
 |
 VPT ptr (data for video modes)

@@ -1,2 +1,3 @@
-nasm -f elf a_hello-n.asm
-ld -m elf_i386 b_hello-nasm.o -o u_hello
+nasm -f elf hello-n.asm
+ld -m elf_i386 hello-n.o -o e_hello
+./e_hello

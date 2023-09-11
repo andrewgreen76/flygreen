@@ -31,14 +31,14 @@ __________________________________________________________________________
   - to hack ethically and creatively
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
+__________________________________________________________________________
 
 - the insufferable nature of Wine and Winetricks (esp. on Ubuntu 22.04 LTS) 
 - the benefits of using make/Makefile over a project-building script
 - x86 assembly :
   - choosing the architecture ( i286, i386/elf32/x86, elf64/x64 )
-  - choosing the assembler
-  - choosing the right syntax
-  - choosing a CC or the linker AND writing the correct tags for the command 
+  - choosing the assembler    	-AND- using the right syntax for it 
+  - choosing a CC or the linker -AND- writing the correct tags for the command 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

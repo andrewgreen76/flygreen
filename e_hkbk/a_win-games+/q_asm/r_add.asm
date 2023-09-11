@@ -5,9 +5,9 @@ section .bss
     sum resb 1
 
 section .text
-global _start
+global main
 
-_start:
+main:
     ; Load 2 into AL register
     mov al, 2
 
@@ -28,10 +28,3 @@ _start:
     ; Exit the program
     mov eax, 1         ; syscall number for sys_exit
     int 0x80           ; syscall interrupt
-	
-
-	;jmp $		      ; $ - current mem addr
-	;times 510-($-$$) db 0	; $$ - start of current section ; $-$$ = [3-0]
-	;db 0x55, 0xaa
-
-	

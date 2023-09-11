@@ -1,0 +1,22 @@
+
+Attempting to ... :
+- assemble, link, and run a simple addition ('2+2=4') program using GNU make on a 64-bit machine with Ubuntu on it. 
+
+
+
+Things tried : 
+
+- Not for SO or Unix SE ? 
+
+Per SO :
+- https://stackoverflow.com/questions/71645555/cannot-find-scrt-o-and-crti-o
+  multilib packages ("CRT, libgcc, and glibc")
+
+Per ChatGPT :
+- sudo apt-get install ia32-libs
+-
+	sudo apt-get update
+	sudo apt-get install --reinstall gcc
+
+
+.

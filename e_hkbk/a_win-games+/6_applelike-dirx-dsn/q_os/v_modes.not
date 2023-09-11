@@ -1,8 +1,8 @@
 
-real mode :
--
+BIOS ~ real mode :
+- 
 
-protected mode :
+UEFI, etc. ~ protected mode :
 -
 
 ...

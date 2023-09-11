@@ -2,19 +2,19 @@
 
 # Compiler and assembler
 ASSEMBLER = nasm
-LINKER = gcc
+LINKER = ld
 
 # Source and target file names
-SRC = add.asm
-OBJ = add.o
-EXE = add
+SRC = hello-n.asm
+OBJ = hello-n.o
+EXE = i_hello-n
 
 # Default target
 all: $(EXE)
 
 # Compile the assembly code
 $(OBJ): $(SRC)
-	$(ASSEMBLER) -f elf32 $(SRC) -o $(OBJ)
+	$(ASSEMBLER) -f elf $(SRC) -o $(OBJ)
 
 # Link the object file to create an executable
 $(EXE): $(OBJ)

@@ -14,13 +14,15 @@ main:
     ; Add 2 to EAX
     add eax, 2
 
-    ; Store the result in [sum]
+    ; Store the result in the memory location [sum]
     mov [sum], eax
 
     ; Prepare for syscall to print the result
     mov ebx, 1             ; File descriptor 1 (STDOUT)
     lea ecx, [result_msg]  ; Load address of the result_msg string
-    mov edx, 13            ; Length of the string (including null terminator)
+
+    ; Calculate the length of the string (including null terminator)
+    lea edx, [ecx + 13]
 
     ; Make the syscall to print the result
     mov eax, 4             ; syscall number for sys_write

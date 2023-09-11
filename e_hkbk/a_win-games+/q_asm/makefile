@@ -27,3 +27,4 @@ clean:
 # Run the program
 run: $(EXE)
 	./$(EXE)
+# make clean

@@ -1,81 +1,9 @@
 
-Op.cat		Interrupt	ah	al	Exact operation			bh	bl	ch	cl	dh	dl	 
+Op.cat		Instruction	ah	al	Exact operation			bh	bl	ch	cl	dh	dl	 
 ===================================================================================================================================
-RTC int		08h		-
-keyboard int	09h 		-
-
-
-Services : 
-|
-video		10h		00h		set video mode
-
-disk		13h		00h		reset
-
-serial port 	14h		00h		serial port init
-       				01h		transmit char
-				02h		receive char
-				03h		status 
-
-keyboard	16h		00h		read char
-				01h		read in.status
-				02h		read shift status
-				05h		store key in kbd.buffer
-				10h		read char extd
-
-printer	 	17h		00h		print char to printer
-				01h		init printer
-				02h		check printer status
-
-load OS 	19h		-
-
-RTC  		1Ah		00h		read
-				01h		set
-				02h		read time
-				03h		set time
-				04h		read date
-				05h		set date
-				06h		set alarm
-				07h		reset alarm 
-
-PCI		1Ah		B1h	01h	PCI install check
-					02h	find device
-					06h	PCI bus-specific ops
-					08h	read config byte
-					09h	read config word
-					0Ah	read config dword
-					0Bh	write config byte
-					0Ch	write config word
-					0Dh	write config dword
-					0Eh	get IRQ routine info
-					0Fh	set PCI IRQ 
-
-timer tk hndl	1Ch		-
-===================================================================================================================================
-Op.cat		Interrupt	ah	al	Exact operation			bh	bl	ch	cl	dh	dl	 
-===================================================================================================================================
-		80h		-		a syscall in 32-bit Unix-likes
-		"It's worth noting that in 64-bit systems, the x86_64 architecture uses a different mechanism for system calls, 
-		utilizing the syscall instruction instead of the int 0x80 interrupt."
+		syscall		-		a syscall in x86-64 OS's
 
 			      	1     		
 				4		sys_write
-===================================================================================================================================
-Op.cat		Interrupt	ah	al	Exact operation			bh	bl	ch	cl	dh	dl	 
-===================================================================================================================================
-Not to be called :
-|
-VPT ptr (data for video modes)
-		1Dh
-
-VGCT ptr (data for ext ASCII chars)
-     	       	1Fh
-
-FDPT ptr for the 1st HDD
-		41h
-
-FDPT ptr for the 2nd HDD 
-		46h
-
-RTC alarm 	4Ah 
 
 .

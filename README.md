@@ -34,7 +34,10 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 
 - the insufferable nature of Wine and Winetricks (esp. on Ubuntu 22.04 LTS) 
 - the benefits of using make/Makefile over a project-building script
-- choosing the right assembler and corresponding syntax for an assembly-dependent project 
+- x86 assembly :
+  - choosing the architecture ( i286, i386/elf32, elf64 )
+  - choosing the assembler
+  - choosing the right syntax  
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________

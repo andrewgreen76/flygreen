@@ -8,8 +8,11 @@ section .text
 global main
 
 main:
+    ; Clear AL register (optional)
+    xor al, al
+
     ; Load 2 into AL register
-    mov al, 2
+    add al, 2
 
     ; Add 2 to AL register
     add al, 2

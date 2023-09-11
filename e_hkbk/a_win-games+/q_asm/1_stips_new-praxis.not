@@ -1,0 +1,20 @@
+
+Practices :
+______________
+
+0. .
+   a) decide on the assembler
+   b) decide on the syntax
+   c) decide on the n-bit mode (16/32/64)
+
+
+1. Linux 22.04 LTS is missing libraries that need to be installed : 
+|
+$ sudo apt install gcc-multilib
+  #sudo apt-get install build-essential
+
+
+2. Unlike ChatGPT, do NOT use '_start' as it will lead to its redefinition in the project.
+   It is already defined in one of the libraries. 
+
+.

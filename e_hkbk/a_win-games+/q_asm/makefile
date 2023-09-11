@@ -5,9 +5,9 @@ ASSEMBLER = nasm
 LINKER = gcc
 
 # Source and target file names
-SRC = r_add.asm
-OBJ = r_add.o
-EXE = r_add
+SRC = add.asm
+OBJ = add.o
+EXE = add
 
 # Default target
 all: $(EXE)

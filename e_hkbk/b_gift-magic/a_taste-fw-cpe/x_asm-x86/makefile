@@ -18,7 +18,7 @@ $(OBJ): $(SRC)
 
 # Link the object file to create an executable
 $(EXE): $(OBJ)
-	$(LINKER) -m32 $(OBJ) -o $(EXE)
+	$(LINKER) -m32 -fno-pie -no-pie $(OBJ) -o $(EXE)
 
 # Clean up object and executable files
 clean:

@@ -1,6 +1,9 @@
 section .data
     result_fmt db "Result: %d", 10, 0  ; Format string with newline character
 
+section .bss
+    sum resd 1  ; Space for a 32-bit integer result
+
 section .text
 global main
 extern printf
@@ -12,8 +15,11 @@ main:
     ; Add 2 to EAX
     add eax, 2
 
-    ; Prepare for syscall to print the result
-    push eax                ; Push the result in EAX as an argument
+    ; Store the result in the memory location [sum]
+    mov [sum], eax
+
+    ; Push arguments for printf
+    push dword [sum]       ; Push the result as an argument
     push result_fmt         ; Push the address of the format string
     call printf            ; Call printf
 

@@ -5,6 +5,9 @@ BIOS ~ real mode :
 UEFI, etc. ~ protected mode :
 -
 
+UEFI, etc. ~ long mode :
+-
+
 ...
 
 .

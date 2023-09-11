@@ -5,9 +5,9 @@ section .bss
     sum resb 12  ; Space for the result (12 bytes to accommodate a 32-bit integer)
 
 section .text
-global _in
+global main
 
-_in:
+main:
     ; Load 2 into EAX
     mov eax, 2
 
@@ -18,15 +18,15 @@ _in:
     mov [sum], eax
 
     ; Prepare for syscall to print the result
-    mov rdi, 1             ; File descriptor 1 (STDOUT)
-    lea rsi, [result_msg]  ; Load address of the result_msg string
-    mov rdx, 13            ; Length of the string (including null terminator)
+    mov ebx, 1             ; File descriptor 1 (STDOUT)
+    lea ecx, [result_msg]  ; Load address of the result_msg string
+    mov edx, 13            ; Length of the string (including null terminator)
 
     ; Make the syscall to print the result
-    mov rax, 1             ; syscall number for sys_write
-    syscall
+    mov eax, 4             ; syscall number for sys_write
+    int 0x80               ; Interrupt 0x80 for syscall (32-bit Linux)
 
     ; Exit the program
-    mov rax, 60            ; syscall number for sys_exit
-    xor rdi, rdi           ; Status code (0)
-    syscall
+    mov eax, 1             ; syscall number for sys_exit
+    xor ebx, ebx           ; Status code (0)
+    int 0x80               ; Interrupt 0x80 for syscall (32-bit Linux)

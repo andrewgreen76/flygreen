@@ -1,20 +1,20 @@
 
-Practices :
+Stipulations and practices :
 ______________
 
-0. .
-   a) decide on the assembler
-   b) decide on the syntax
-   c) decide on the n-bit mode (16/32/64)
+1. Decide on the assembler and its syntax 
+2. Decide on the AT&T/GAS or intel syntax
+3. Decide on the n-bit mode (16/32/64)
+4. Use RIP-relative LEA (instruction pointer -relative load-effective-address), as in :
 
+   
 
-1. Linux 22.04 LTS is missing libraries that need to be installed : 
-|
-$ sudo apt install gcc-multilib
-  #sudo apt-get install build-essential
+5. Linux 22.04 LTS is missing libraries that need to be installed : 
+   |
+   $ sudo apt install gcc-multilib
+     #sudo apt-get install build-essential
 
-
-2. Unlike ChatGPT, do NOT use '_start' as it will lead to its redefinition in the project.
+6. Use 'main' instead of '_start'. Using '_start' will lead to its redefinition in the project.
    It is already defined in one of the libraries. 
 
 .

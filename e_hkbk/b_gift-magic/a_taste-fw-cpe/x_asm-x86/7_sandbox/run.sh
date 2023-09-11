@@ -1,2 +1,2 @@
-nasm -f elf hello_world_nasm.asm
-ld -m elf_i386 hello_world_nasm.o -o hello_world_nasm
+nasm -f elf a_hello-n.asm
+ld -m elf_i386 b_hello-nasm.o -o u_hello

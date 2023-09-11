@@ -5,9 +5,9 @@ ASSEMBLER = nasm
 LINKER = ld
 
 # Source and target file names
-SRC = hello-n.asm
-OBJ = hello-n.o
-EXE = i_hello-n
+SRC = hello.asm
+OBJ = hello.o
+EXE = i_hello
 
 # Default target
 all: $(EXE)
@@ -18,7 +18,7 @@ $(OBJ): $(SRC)
 
 # Link the object file to create an executable
 $(EXE): $(OBJ)
-	$(LINKER) -m32 $(OBJ) -o $(EXE)
+	$(LINKER) -m elf_i386 $(OBJ) -o $(EXE)   # Either "gcc -m32" or "ld -m elf_i386"
 
 # Clean up object and executable files
 clean:

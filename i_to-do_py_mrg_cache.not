@@ -1,24 +1,34 @@
 
-Make a difference every day. 
-|
-9/10/23 : 
-. Difference : a part of an OS
-. explore /dev/* (/zero, /null, etc.)
-
-Suppose I want to write a very dumb bootloader. I know that to do that an assembly file needs to be written and converted to binary. The first 512 bytes would be the boot sector (with the last two bytes being 0x55 0xAA). 
-
-=================================================================================================
-
 Checklists : 
-|
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+UNR : Apply for admission to UNR (grad special) : 
+> check the MyNEVADA acct 
+> immunization and records :
+  - get a TD shot
+  - update COVID records
+  - send to UNR admissions and records 
+  - URL : https://izrecord.nv.gov/public/Application/PublicPortal
+  - call 775-684-5954 or email izit@health.nv.gov
+  - NNPH locations : https://www.nnph.org/about-us/clinic-and-office-locations.php
+
+- classes start ??
+
+v online application acct
+v fill out online app (grad special -specific)
+v pay $60 fee 
+v submit 
+v create MyNEVADA acct
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
 UCSD : 
-- contact : cse-gradinfo-bsms@ucsd.edu
 - conc. (all links on
   https://extendedstudies.ucsd.edu/student-resources/registration-policies-and-procedures/concurrent-enrollment
   ) :
   - classes Fall 2024: 9/25
-  - eligibility app    wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-  - EASy requests : avail on 9/25
+  - eligibility app
+  - get the AX acct #. 
+  - EASy requests : avail on 9/25 wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
   - academic integrity tutorial
   - upload vaccine info
   - pay for the course 
@@ -26,19 +36,20 @@ UCSD :
 	- reg. checklist (M.S. starting Fall 2024) 
 	  - NEED A GPA OF AT LEAST 3.0. 
 	  - deadline : 9/6/23 - 12/20/23
+- contact : cse-gradinfo-bsms@ucsd.edu
 
-UNR : Apply for admission to UNR (grad special) : wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-- now - 1/27/24
-v online application acct
-v fill out online app (grad special -specific)
-v pay $60 fee 
-v submit 
-> create MyNEVADA acct
-> check the acct 
-> get the immunization records <- immunization webpage
-  - URL : https://izrecord.nv.gov/public/Application/PublicPortal
-  - call 775-684-5954 or email izit@health.nv.gov
-  - NNPH locations : https://www.nnph.org/about-us/clinic-and-office-locations.php
+=================================================================================================
+
+Make a difference every day. 
+|
+9/10/23 : 
+. Difference : a part of an OS
+  . boot sector in .asm 
+. explore /dev/* (/zero, /null, etc.)
+
+Suppose I want to write a very dumb bootloader. I know that to do that an assembly file needs to be written and converted to binary. The first 512 bytes would be the boot sector (with the last two bytes being 0x55 0xAA). 
+
+=================================================================================================
 
 UTA :
 - (512) 471-3434

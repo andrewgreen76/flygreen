@@ -40,33 +40,20 @@ __________________________________________________________________________
   - choosing the assembler    	-AND- using the right syntax for it 
   - choosing a CC or the linker -AND- writing the correct tags for the command 
 __________________________________________________________________________
-CHOSEN PROFESSIONAL PROJECT:
-__________________________________________________________________________
-
-- (TBA)
-
-Planned projects for the future : 
-- helping to maintain [the Linux kernel, systemd, 0AD video game, Pop!_OS kernel, coreboot codebase, etc.]
-
-__________________________________________________________________________
 CHOSEN PERSONAL PROJECT:
 __________________________________________________________________________
 
-- Just A GAME FOR DOSBOX is fine.
-- own package -or- release / command. 
-> |
-> -
-- a virtual machine,
-- an emulator,
-- or a video game that poses as an operating system (a la Last Call BBS).
-  - Can I use the Unity Engine for that?
-  - research dedicated toolchains. 
-- challenge: faithful resolution
-- plan of attack:
-  - fide: 320x200
-  - now: 1920x1200, 6 times both ways.
-  - consider fair, authentic scaling. 
+- a game for Linux 
+  - OpenGL 
+  - drivers (dev's)
+    - framebuffer
+    - SDL mixer / ALSA 
+
+- a game like a built-in OS
+
+- a game for DosBox
+- an emulator (VM) 
 - learn BIOS-kernel-API/DSP-distro ladder for that 
-- An API / display server protocol for a 13h-like mode portable to any headless system.
+- An API / display server protocol for a 13h-like mode portable to any server-like system.
 
 .

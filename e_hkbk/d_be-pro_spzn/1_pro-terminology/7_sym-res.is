@@ -1,5 +1,5 @@
 
 Name/symbolic resolution :
-- translating a string written in its own format and that means something into a different string formatted in its own way that means the very same thing.
+- taking a string written in one format and having a certain meaning and then translating it into a different format but meaning the very same thing.
 - Ex.: in DNS, in assembly language. 
 

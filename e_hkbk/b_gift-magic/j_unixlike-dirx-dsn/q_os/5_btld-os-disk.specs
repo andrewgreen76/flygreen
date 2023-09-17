@@ -8,7 +8,7 @@ make (a make utility)		}
 GCC				}->	gen. a .bin image file 
 NASM
 - syntax : ??	 	 	} 	
-- bit width : 8/16/32-bit	} 
+- bit width : 8 / 16 /<32> 	} 
 QEMU 	  			->  	an emu.box 
 a USB drive   			->    	bootable image storage
 

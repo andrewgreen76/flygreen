@@ -1,0 +1,57 @@
+
+========================== Importance of PROTOCOLS: ===========================
+
+A protocol ascertains functioning communication between devices with 
+the following parameters, known as ELEMENTS, agreed on: 
+ - DIRECTIONALITY 
+ - TIMING 
+   . flow control - speed syncing between the client and the server. 
+   . period of waiting for acknowledgment, response timeout. 
+ - SERVER ID: identifying the intended server 
+ - CLIENT ID: identifying the client 
+ - LANGUAGE (and syntax) 
+ - ACKNOWLEDGMENT of communication and reception 
+ - PACKET DETAILS (encoding, formatting, encapsulation, header details, 
+   datagram details, ...
+ - SIZING: ... especially size. Every com link has a limit to its bandwidth 
+   (transfer capacity). Large messages are resized (broken up into smaller 
+   parts. 
+ - DELIVERY OPTIONS: 
+   . unicast(ing) - 1-to-1 com 
+   . multicast(ing) - 1-to-1+ com 
+   . broadcast(ing) - 1-to-all com 
+   
+ - (might also regulate the nature of the data) 
+
+
+--------------------------- Wired telecom framework: --------------------------
+
+	binary data	digital signal 		analog/carrier (el.) signal .. 
+source >	> encoder > 	> transmitter > 	> transm. medium > ...
+device + 		protocol;modem changes signal	cable
+software		
+
+
+ ... - noise on the line 	dig. signal 	binary data 	data 
+> transm. medium > 	> receiver > 	> decoder > 		> dest. 
+	cable 		protocol / demodulation (modem)		device + SW 
+
+
+------------------------- Wireless telecom framework: -------------------------
+
+	data		dig.signal 	analog signal (sound waves) 
+source >	> encoder > 	> transmitter > 	> transm. medium > ...
+device + 		protocol / modulation (modem)	
+software		
+
+
+		sound		dig.signal	data 		data 
+> transm. medium > 	> receiver > 	> decoder > 		> dest. 
+			protocol / demodulation (modem)		device + SW 
+
+-------------------------------------------------------------------------------
+
+All of this makes up a protocol. 
+ - A protocol is essentially a design. 
+
+.

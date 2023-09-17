@@ -33,12 +33,19 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-- the insufferable nature of Wine and Winetricks (esp. on Ubuntu 22.04 LTS) 
-- the benefits of using make/Makefile over a project-building script
-- x86 assembly :
-  - choosing the architecture ( i286, i386/elf32/x86, elf64/x64 )
-  - choosing the assembler    	-AND- using the right syntax for it 
-  - choosing a CC or the linker -AND- writing the correct tags for the command 
+- minimal/vanilla bootloader specs 
+- CCNA
+- career development : 
+  - internship fairs 
+__________________________________________________________________________
+CHOSEN PROFESSIONAL PROJECT: 
+__________________________________________________________________________
+
+A legacy BIOS/UEFI (x86) -based OS :
+- 32-bit
+? multiboot2 -compliant ?? 
+- to be tested in QEMU
+- to be finally shipped for Raspberry Pi
 __________________________________________________________________________
 CHOSEN PERSONAL PROJECT:
 __________________________________________________________________________

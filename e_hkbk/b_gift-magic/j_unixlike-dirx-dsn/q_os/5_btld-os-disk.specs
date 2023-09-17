@@ -4,6 +4,8 @@ _______________________
 
 . Tools/ingredients/decisions		Design part
 -----------------------------------------------------------------
+					
+
 make (a make utility)		} 	
 GCC				}->	gen. a .bin image file 
 NASM
@@ -12,13 +14,15 @@ NASM
 QEMU 	  			->  	an emu.box 
 a USB drive   			->    	bootable image storage
 
-. Concepts : 
+. Design ideas :
+  . multiboot2-compliant 
   . boot sector (512B, 1st sector) 
     .	   ? bootstrap (440) - nothing ??
     .	   + vend.sig + NULL + MBR/GUID
     + fdisk.sig (0x55 0xAA)
   . bootloader (31K, 62 sectors)
 
+================================================================================
 ================================================================================
 
 Kernel : 

@@ -1,0 +1,24 @@
+
+"
+CCNA stands for Cisco Certified Network Associate. It is a widely recognized and respected certification in the field of networking. The CCNA certification is offered by Cisco Systems, a leading provider of networking and IT infrastructure solutions.
+
+CCNA certification is designed to validate an individual's knowledge and skills in various aspects of networking, including:
+
+1. Network Fundamentals: Understanding the basics of networking, including the OSI model, TCP/IP, IP addressing, and subnetting.
+
+2. Network Access: Configuring and managing network devices, such as switches and routers, as well as understanding Ethernet and wireless LANs.
+
+3. IP Connectivity: Routing and routing protocols, including static and dynamic routing using protocols like OSPF and EIGRP.
+
+4. IP Services: Network services such as DHCP, NAT, ACLs (Access Control Lists), and QoS (Quality of Service).
+
+5. Security Fundamentals: Basic network security concepts, including securing network devices, authentication, and device hardening.
+
+6. Automation and Programmability: An introduction to network automation and programmability using tools like Python and REST APIs.
+
+CCNA certification is often considered a foundational certification for individuals looking to start a career in networking or for those seeking to advance their networking knowledge and skills. It is a valuable credential for network administrators, network engineers, and other IT professionals involved in managing and maintaining computer networks.
+
+Cisco periodically updates its certification programs, so the specific CCNA exams and topics covered may change over time. As of my last knowledge update in September 2021, there were different CCNA tracks, such as CCNA Routing and Switching, CCNA Security, CCNA Data Center, and others. You should check Cisco's official website or a trusted source for the most up-to-date information on CCNA certification and its requirements.
+"
+
+.

@@ -1,5 +1,6 @@
 
 - Firmware :
+  - multiboot2 -compliant 
   - self-hosting
   - it probably can't run on anything
     - written for RISC-V 

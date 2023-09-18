@@ -3,9 +3,14 @@ Protocol	Used for		Port		Year		Directionality
 ----------------------------------------------------------------------------------------------------------------------------
 FTP		FILES : UP-/DOWNLOAD	21		1971		Bi
 
+TCP/IP		GAMING/SYNCING		0-65535		late 70s	Bi
+UDP		GAMING/SYNCING		(you specify)	1980 		Bi
+
 SMTP		EMAILS : sending	25		1982		Bi, ...	but it's typically used for sending.
 
-DNS		(dmn.name resolution)	53		1983		n/a
+DNS		dmn.name resolution	53		1983		Uni / n/a
+DHCP		dynamic IP.addr asmt	server UDP 67	1993		Uni / n/a
+					client UDP 68
 
 IMAP		EMAILS : rcv/view/mng	143		1986		Bi
 POP3		EMAILS : rcv/view/mng	110		1988		Uni

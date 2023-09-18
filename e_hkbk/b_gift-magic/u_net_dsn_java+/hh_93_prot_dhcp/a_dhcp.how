@@ -1,0 +1,22 @@
+
+"
+DHCP (Dynamic Host Configuration Protocol) is not inherently bidirectional in the sense that it doesn't involve continuous bidirectional communication between a client and a server once the initial configuration is completed. Instead, DHCP primarily operates in a unidirectional manner during the lease negotiation process.
+
+Here's how DHCP works in terms of directionality:
+
+1. **Client Request (Unidirectional)**: When a device (the DHCP client) connects to a network, it typically doesn't have an assigned IP address. It sends a DHCPDISCOVER message (broadcast) to the local network, requesting an IP address and other network configuration parameters.
+
+2. **Server Response (Unidirectional)**: A DHCP server on the network receives the DHCPDISCOVER message. The server selects an available IP address and sends a DHCPOFFER message (unidirectional) to the client, offering the IP address and other configuration settings.
+
+3. **Client Acceptance (Unidirectional)**: The client receives one or more DHCPOFFER messages from available DHCP servers and selects one. It then sends a DHCPREQUEST message (unidirectional) to the chosen server, requesting the offered configuration.
+
+4. **Server Confirmation (Unidirectional)**: The DHCP server that receives the DHCPREQUEST message sends a DHCPACK message (unidirectional) to the client, confirming the lease and providing the configuration details. If the DHCP server cannot fulfill the request, it sends a DHCPNAK message (unidirectional) instead.
+
+5. **Lease Duration (Unidirectional)**: Once the client has received a DHCPACK, it configures its network settings according to the provided parameters. The lease duration is also specified in the DHCPACK message, indicating how long the client can use the assigned IP address.
+
+During the lease period, the client and server do not continuously exchange messages. The client retains the leased IP address until the lease expires or until it requests a renewal (which typically happens midway through the lease period) by sending a DHCPREQUEST to the server. The renewal process is again unidirectional in nature.
+
+So, while the initial DHCP lease negotiation involves bidirectional communication for a short period, the ongoing use of the leased IP address does not involve continuous bidirectional communication between the client and the DHCP server. Instead, it operates primarily in a unidirectional manner.
+"
+
+.

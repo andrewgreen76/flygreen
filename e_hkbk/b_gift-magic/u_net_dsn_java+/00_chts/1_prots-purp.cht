@@ -1,6 +1,8 @@
 
 Protocol	Used for		Port		Year		Directionality
 ----------------------------------------------------------------------------------------------------------------------------
+FTP		-			21		1971		Bi
+
 SMTP		sending 		25		1982		Bi, ...	but it's typically used for sending.
 
 DNS		resolution		53		1983		n/a

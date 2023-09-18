@@ -1,7 +1,8 @@
 
 Prep your talk to CCO/NCC
-
-
+intern
+os
+prot cheats 
 
 Write that bootloader in ??? assembly :
 - 512 bytes , ending with 0x55 0xAA , loaded in at 0x7C00

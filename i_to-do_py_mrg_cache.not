@@ -1,4 +1,8 @@
 
+Prep your talk to CCO/NCC
+
+
+
 Write that bootloader in ??? assembly :
 - 512 bytes , ending with 0x55 0xAA , loaded in at 0x7C00
 1) jmp ; times

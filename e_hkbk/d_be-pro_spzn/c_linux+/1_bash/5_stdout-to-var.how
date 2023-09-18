@@ -1,0 +1,36 @@
+
+"
+To store the output of a command's standard output (stdout) in a variable in a Bash script, you can use command substitution. There are two common ways to do this:
+
+1. Using Backticks (``):
+
+   ```bash
+   variable_name=`command`
+   ```
+
+2. Using the `$()` syntax:
+
+   ```bash
+   variable_name=$(command)
+   ```
+
+Here's an example of how to store the output of a command in a variable using both methods:
+
+```bash
+# Using backticks
+output1=`echo "Hello, World!"`
+
+# Using $() syntax
+output2=$(echo "Hello, World!")
+
+# Display the contents of the variables
+echo "Output using backticks: $output1"
+echo "Output using \$() syntax: $output2"
+```
+
+In this example, the `echo` command is used to generate the "Hello, World!" message, and the output of the `echo` command is stored in the `output1` and `output2` variables using both backticks and the `$()` syntax.
+
+Both methods work, but the `$()` syntax is more modern and recommended because it can be nested more easily and is generally easier to read.
+"
+
+.

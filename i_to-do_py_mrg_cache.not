@@ -1,25 +1,25 @@
 
-Prep your talk to CCO/NCC
-- find out hiring managers' names at the fairs -> write a cover letter for the named person. 
-intern
-os
-prot cheats 
+UNR / OPPORTUNITIES:
+- Prep your talk to NV Career Center / Career & Corporate Outreach  
+  -> Doctor up the RESUME
+  -> find out HIRING MANAGERS' names at the fairs
+  -> write a COVER LETTER for the named person. 
+- Upcoming internship fairs - calendar :
+---------------------------------------------------------------------------
+MAKE A DIFFERENCE EVERY DAY. 
+- 9/12/23 :
 
 Write that bootloader in ??? assembly :
 - 512 bytes , ending with 0x55 0xAA , loaded in at 0x7C00
 1) jmp ; times
 2) in C/asm 
+
+os ; prot cheats 
 ===========================================================================
 ===========================================================================
 ===========================================================================
 Foundations of networking :
 - aside from CCN (TCP/IP sockets in Java) 
-===========================================================================
-UNR :
-|
-Upcoming internship fairs - calendar :
-- 
-Doctor up the resume
 ===========================================================================
 Take up MS Fall 2024 (degree-seeking) : 
 . 4/1/2024 - ?? 
@@ -71,10 +71,6 @@ GRAD SPECIAL (Non-degree seeking) :
 
 =================================================================================================
 
-Make a difference every day. 
-|
-9/12/23 :
-|
 Do the thing that you want to do best. - Which is what ? 
 Do the thing that you want the most. - Which is what ? 
 . Difference : a part of an OS

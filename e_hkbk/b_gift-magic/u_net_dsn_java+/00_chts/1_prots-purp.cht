@@ -1,6 +1,8 @@
 
 Protocol	Used for		Port		Year		Directionality
 ----------------------------------------------------------------------------------------------------------------------------
+Telnet		communication		23		1969		Bi
+
 FTP		FILES : UP-/DOWNLOAD	21		1971		Bi
 
 TCP/IP		GAMING/SYNCING		0-65535		late 70s	Bi

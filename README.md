@@ -33,10 +33,11 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-- minimal/vanilla bootloader specs 
-- CCNA
 - career development : 
-  - internship fairs 
+  - internship fairs
+  - programmer as a part of a team 
+- Bash :
+  - backticks (`) for command evaluation. (Does NOT always work.) 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

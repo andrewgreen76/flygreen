@@ -1,0 +1,6 @@
+
+"
+Resource hogging in operating systems refers to the situation where a single process or application is using a disproportionate amount of system resources, such as CPU time, memory, or disk space. This can cause other processes or applications to run slowly or even crash, as they do not have access to the resources they need. This can be caused by a number of factors, such as poor programming or a lack of memory management in the application. In some cases, it may be necessary to terminate the offending process or application in order to free up the resources and restore normal system operation.
+"
+
+.

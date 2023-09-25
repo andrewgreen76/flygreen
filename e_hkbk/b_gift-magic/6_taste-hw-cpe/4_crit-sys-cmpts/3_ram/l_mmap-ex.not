@@ -9,14 +9,16 @@ Kernel :
 - ...
 
 Stack :
-- where LOCAL variables bundled together in a function call are statically allocated 
+- where LOCAL variables bundled together in a function call are statically allocated
+- grows towards 0x00...0
 
 .
 .
 .
 
 Heap :
-- where large objects are dynamically allocated 
+- where large objects are dynamically allocated
+- grows towards 0x FF...F
 
 Data :
 - init'd -AND- uninit'd non-local (global, passed, etc.) variables  

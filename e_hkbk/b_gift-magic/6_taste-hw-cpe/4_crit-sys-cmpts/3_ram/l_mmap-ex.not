@@ -11,6 +11,7 @@ Kernel :
 Stack :
 - where LOCAL variables bundled together in a function call are statically allocated
 - grows towards 0x00...0
+- ebp - the construction pointer 
 
 .
 .

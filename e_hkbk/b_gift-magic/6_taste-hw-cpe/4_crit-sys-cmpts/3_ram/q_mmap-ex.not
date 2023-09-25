@@ -1,0 +1,28 @@
+
+https://www.youtube.com/watch?v=1S0aBV-Waeo&t=79s
+
+===================================================================
+
+Kernel :
+- envars ,
+- cmd line params -> progs
+- ...
+
+Stack :
+- where LOCAL variables bundled together in a function call are statically allocated 
+
+.
+.
+.
+
+Heap :
+- where large objects are dynamically allocated 
+
+Data :
+- init'd -AND- uninit'd non-local (global, passed, etc.) variables  
+
+Text :
+- loaded-in program code (machine instructions get loaded in here)
+- read-only 
+
+.

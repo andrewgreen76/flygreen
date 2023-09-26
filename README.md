@@ -33,10 +33,6 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-- career development : 
-  - programmer as a part of a team 
-- Bash :
-  - backticks (`) for command evaluation. (Does NOT always work.)
 - PC memory map
 - buffer overflow attacks in C 
 __________________________________________________________________________

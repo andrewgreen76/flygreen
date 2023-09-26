@@ -80,25 +80,6 @@ Do the thing that you want the most. - Which is what ?
 . Difference : a part of an OS
   . boot sector in .asm
 . explore /dev/* (/zero, /null, etc.)
-|
-. recreate fide.scale : 6 times both ways = 36 px  
-. flow of the game - events every 1/2 sec. (but can be reduced for faster, smoother flow) 
-. a way to generate a sprite quickly in GIMP
-  - think about the workload ( 1 map x 2 teams x 4 CREAT/TEAM x 2 drxns x 2 ANIM.FRAMES (STAT+ATK) )
-  ? painter's algorithm ?? 
-
-- a game for Linux 
-  - OpenGL 
-  - drivers (dev's)
-    - framebuffer
-    - SDL mixer / ALSA 
-
-- a game like a built-in OS
-
-- a game for DosBox
-- an emulator (VM) 
-- learn BIOS-kernel-API/DSP-distro ladder for that 
-- An API / display server protocol for a 13h-like mode portable to any server-like system.
 
 Suppose I want to write a very dumb bootloader. I know that to do that an assembly file needs to be written and converted to binary. The first 512 bytes would be the boot sector (with the last two bytes being 0x55 0xAA). 
 

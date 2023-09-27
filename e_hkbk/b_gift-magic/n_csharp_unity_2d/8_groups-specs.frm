@@ -17,9 +17,4 @@ Race / class / nation / alliance chart :
 
 . Magic discoveries : 
 
-. Resources :
-  . specilite
-  . belitanin 
-  . credit
-
 .

@@ -4,21 +4,32 @@ Design pillars :
 =====================================================
 
 . Tone :
-  . doinky/cheesy/cheesy
+  . doinky/corny/cheesy
   . grim
-  . something in between 
+  . something in between
+  . multi-cultural aspects (travelling , migration) 
 
 . Pace :
-  . short interludes, intros, dialogues, etc. 
+  . length of -ALL- of the following : interludes, intros, dialogues, etc. 
 
 -----------------------------------------------------
 
 . Adventure (narrative quality) : 
-  + conflict
+  . conflict
+  x [on the ground , underground , sea , space ]
+  x time :
+    . [prehistoric ,
+    . medieval ,
+    . renaissance ,
+    . modernity/Enlightenment/industrial ,
+    . WWI,WWII ,
+    . present day ,
+    . near-future/cyberpunk/colonial ,
+    . far future]
 
 -----------------------------------------------------
 
 . Growth :
   + adventure > discovery > acquisition > expansion
-
+    	      	   (land, resources)
 .

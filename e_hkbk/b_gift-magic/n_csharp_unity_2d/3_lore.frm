@@ -10,4 +10,13 @@ Sovereignty of the Sun
 Forsanaya
 Children of Ayata
 
+-----------------------------------------------------
+
+ER
+NR
+SU
+NI
+FO
+CH
+
 .

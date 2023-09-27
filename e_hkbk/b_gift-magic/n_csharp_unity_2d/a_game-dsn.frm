@@ -1,18 +1,16 @@
 
-========================
+=====================================================
 Design pillars : 
-========================
+=====================================================
 
 . Adventure (narrative quality)
   + conflict
 . Growth :
   + adventure > discovery > acquisition > expansion 
 
-vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-
-========================
+=====================================================
 Mechanics / features : 
-========================
+=====================================================
 
 - Maps :		_
   - list maps : 	world, mini, 
@@ -25,9 +23,9 @@ Mechanics / features :
 - FLOW (of the game)
   - events every 1/2 sec. (but can be reduced for faster, smoother flow) 
 
-vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-
+=====================================================
 Tech.dets :
+=====================================================
 
 . recreate fide.scale : 6 times both ways = 36 px  
 
@@ -43,14 +41,15 @@ Tech.dets :
     - framebuffer
     - SDL mixer / ALSA 
 
-vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-
+=====================================================
 Art :
+=====================================================
+
 - 
 
-============================================================================================
-
+=====================================================
 Other game ideas : 
+=====================================================
 
 - a game like a built-in OS
 

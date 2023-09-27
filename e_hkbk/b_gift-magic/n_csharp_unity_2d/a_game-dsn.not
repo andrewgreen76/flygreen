@@ -1,4 +1,6 @@
 
+Mechanics : 
+
 . recreate fide.scale : 6 times both ways = 36 px  
 . flow of the game - events every 1/2 sec. (but can be reduced for faster, smoother flow) 
 . a way to generate a sprite quickly in GIMP
@@ -17,5 +19,10 @@
 - an emulator (VM) 
 - learn BIOS-kernel-API/DSP-distro ladder for that 
 - An API / display server protocol for a 13h-like mode portable to any server-like system.
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+Art :
+- 
 
 .

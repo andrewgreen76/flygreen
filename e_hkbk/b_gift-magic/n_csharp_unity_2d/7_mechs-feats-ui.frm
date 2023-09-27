@@ -1,10 +1,11 @@
 
 =====================================================
-Mechanics / features : 
+Mechanics / features (don't forget UI) : 
 =====================================================
 
-. Tutorials / walkthroughs :
-  . 
+. Tutorials / walkthroughs 
+
+. Periods/eras : [ Y / <N> ]
 
 . Maps :		_
   . list maps : 	world, mini, 
@@ -18,6 +19,10 @@ Mechanics / features :
   x [chronic , recurring , temporary , permanent]
   x [population , income , credit , environment]
   x (+)(subj/condl)(-)
+
+=====================================================
+Race / class / nation / alliance chart : 
+=====================================================
 
 . Units : 
   . combat :
@@ -34,6 +39,6 @@ Mechanics / features :
 . Resources :
   . specilite
   . belitanin 
-  . alts : credit
+  . credit
 
 .

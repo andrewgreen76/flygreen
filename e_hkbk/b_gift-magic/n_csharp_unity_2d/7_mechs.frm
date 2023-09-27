@@ -16,7 +16,11 @@ Mechanics / features :
   x [population , income , credit , environment]
   x (+)(subj/condl)(-)
 
-. Units :
+. Units : 
+  . combat :
+    .
+  . civilian :
+    . 
 
 . Buildings :
 

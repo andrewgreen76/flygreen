@@ -3,6 +3,12 @@
 Lore : 
 =====================================================
 
+Cultural backgrounds :
+. biological origins
+. socio-cultural evolution 
+. historical lessons
+. present state 
+
 (Old) Earth
 New Earth
 Sovereignty of the Sun

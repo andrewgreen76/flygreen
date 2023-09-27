@@ -20,32 +20,4 @@ Mechanics / features (don't forget UI) :
   x [population , income , credit , environment]
   x (+)(subj/condl)(-)
 
-=====================================================
-Race / class / nation / alliance chart : 
-=====================================================
-
-(Old) Earth
-New Earth
-Sovereignty of the Sun
-(Their Patron) St Nicola's Dominion
-Forsanaya
-Children of Ayata
-
-. Units : 
-  . combat :
-    .
-  . civilian :
-    . 
-
-. Buildings :
-
-. Technologies :
-
-. Magic discoveries : 
-
-. Resources :
-  . specilite
-  . belitanin 
-  . credit
-
 .

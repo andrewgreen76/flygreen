@@ -34,7 +34,14 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
 - PC memory map
-- buffer overflow attacks in C 
+- buffer overflow attacks in C
+- game design :
+  - pillars
+  - lore
+  - mechanics/features
+  - technical details 
+  - art/UI
+  - music 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

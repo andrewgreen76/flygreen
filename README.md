@@ -37,10 +37,13 @@ __________________________________________________________________________
 - buffer overflow attacks in C
 - game design :
   - pillars
-  - lore
+    - adventure / growth
+    - cool art 
+    - lore
+    - tone / pace of the game 
   - mechanics/features
   - technical details 
-  - art/UI
+  - art/sprites (UI / map objects / font / color schemes)
   - music 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 

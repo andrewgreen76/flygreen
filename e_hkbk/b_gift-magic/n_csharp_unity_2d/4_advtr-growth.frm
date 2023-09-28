@@ -8,9 +8,10 @@ Adventure and growth :
   x setting
     [ terrain		x	weather/clouds ,
       sea    		x 	weather/clouds ,
-      different planet	x 	weather/clouds ,
-      underground ,
-      space ]
+      underground ,					- No
+      different planet	x 	weather/clouds ,	- No
+      space				       		- No 
+    ]
   x time :
     . real timeline : 
       . [prehistoric ,

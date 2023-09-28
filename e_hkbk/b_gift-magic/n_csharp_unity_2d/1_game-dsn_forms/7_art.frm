@@ -12,11 +12,15 @@ COME UP WITH SOME SWATCHES/SAMPLES.
   . buttons
   . panels
   . slots
-  . indicators (geoms)
-    . 
+  . indicators - geometries -and/or- numbers 
+    . resources
+    . health(s)
+    . mana/smth(s) 
   . screen frame decor
 
 . Map objects sprites :
+  . units
+  . buildings
   . 
 ]
 

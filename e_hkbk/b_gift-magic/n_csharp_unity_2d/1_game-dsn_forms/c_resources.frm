@@ -3,8 +3,4 @@
 Resources :
 =====================================================
 
-. specilite
-. belitanin 
-. credit
-
 .

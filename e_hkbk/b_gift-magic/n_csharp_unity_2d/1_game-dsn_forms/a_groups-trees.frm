@@ -18,4 +18,9 @@ Race / class / nation / alliance chart :
 
 . Magic discvs : 
 
+. Resources : 
+  . specilite
+  . belitanin 
+  . credit
+
 .

@@ -7,7 +7,6 @@ Design pillars :
   . doinky/corny/cheesy
   . grim
   . something in between
-  . multi-cultural aspects (travelling , migration) 
 
 . Pace :
   . length of -ALL- of the following : interludes, intros, dialogues, etc. 
@@ -32,4 +31,5 @@ Design pillars :
 . Growth :
   + adventure > discovery > acquisition > expansion
     	      	   (land, resources)
+		   
 .

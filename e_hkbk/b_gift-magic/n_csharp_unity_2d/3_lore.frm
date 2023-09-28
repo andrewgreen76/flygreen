@@ -6,6 +6,7 @@ Lore :
 Cultural backgrounds :
 . biological origins
 . socio-cultural evolution 
+  . multi-cultural aspects (travelling , migration) 
 . historical lessons
 . present state 
 

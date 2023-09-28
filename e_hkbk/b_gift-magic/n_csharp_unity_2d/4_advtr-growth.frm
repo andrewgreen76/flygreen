@@ -5,16 +5,23 @@ Adventure and growth :
 
 . ADVENTURE (narrative quality) : 
   . conflict
-  x [on the ground , underground , sea , space ]
+  x setting
+    [ on the ground	x	weather ,
+      underground ,
+      sea ,
+      space ]
   x time :
-    . [prehistoric ,
-    . medieval ,
-    . renaissance ,
-    . modernity/Enlightenment/industrial ,
-    . WWI,WWII ,
-    . present day ,
-    . near-future/cyberpunk/colonial ,
-    . far future]
+    . real timeline : 
+      . [prehistoric ,
+      . medieval ,
+      . renaissance ,
+      . modernity/Enlightenment/industrial ,
+      . WWI,WWII ,
+      . present day ,
+      . near-future/cyberpunk/colonial ,
+      . far future]
+    . fantastic timeline :
+      . 
 
 
 

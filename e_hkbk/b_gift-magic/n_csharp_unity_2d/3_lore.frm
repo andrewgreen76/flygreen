@@ -7,18 +7,10 @@ Lore :
 
 -----------------------------------------------------
 
-Bonuses/focus :
-
-ER		
-NR
-SU
-NI
-FO
-CH
-
------------------------------------------------------
-
 Cultural backgrounds :
+. Bonuses/focus :
+. Climate :
+
 . biological origins
 . socio-cultural evolution 
   . multi-cultural aspects (travelling , migration) 

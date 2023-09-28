@@ -6,9 +6,10 @@ Adventure and growth :
 . ADVENTURE (narrative quality) : 
   . conflict
   x setting
-    [ on the ground	x	weather ,
+    [ terrain		x	weather/clouds ,
+      sea    		x 	weather/clouds ,
+      different planet	x 	weather/clouds ,
       underground ,
-      sea ,
       space ]
   x time :
     . real timeline : 

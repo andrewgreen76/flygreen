@@ -3,18 +3,19 @@
 Race / class / nation / alliance chart : 
 =====================================================
 
-			ER		NR		SU		NI		FO		CH
+  - think about the workload ( 1 map x 2 teams x 4 CREAT/TEAM x 2 drxns x 2 ANIM.FRAMES (STAT+ATK) )
+
+			ER		NR		NI		CH
 
 . Units : 
-  . combat : 
-    .
+  . combat :		
+
   . civilian :
-    . 
 
 . Buildings :
 
 . Technologies :
 
-. Magic discoveries : 
+. Magic discvs : 
 
 .

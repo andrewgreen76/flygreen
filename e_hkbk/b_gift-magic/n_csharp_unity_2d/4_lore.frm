@@ -7,21 +7,15 @@ Lore :
 
 -----------------------------------------------------
 
-Cultural backgrounds :
-. Bonuses/focus :
-. Climate :
+			ER		NR		SU		NI		FO		CH
 
-. biological origins
-. socio-cultural evolution 
-  . multi-cultural aspects (travelling , migration) 
-. historical lessons
+Cultural backgr. :
+. Bonuses/focus :	-		-		-		-		-		-
+. Climate :		-		-		-		-		-		-
+
+. bio. origins
+. socio-cult. evol. 
+. hist. lessons
 . present state 
-
-ER
-NR
-SU
-NI
-FO
-CH
 
 .

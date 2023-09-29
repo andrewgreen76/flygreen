@@ -1,4 +1,8 @@
 
-A transistor is a hardware component that can receive, store, and release one electrical charge at a time. 
+1) A transistor serves two purposes :
+   - allows for a simple control of current ("go"/"do not go")
+   - allows for regulation of how much current can flow between the collector and the emitter 
+
+2) A transistor is a hardware component that can receive, store, and release one electrical charge at a time. 
 - Two inputs : collector (or source) and the base. 
 

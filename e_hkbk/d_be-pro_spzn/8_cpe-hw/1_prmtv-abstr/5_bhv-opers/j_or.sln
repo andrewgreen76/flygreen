@@ -1,4 +1,10 @@
 
+The behavior in keys is :
+ - enabling behavior
+ - doesn't matter which one, action 
+
+
+
 - In an OR gate the switches are in parallel to one another.
 
 Assuming a minimum of two inputs/switches : 
@@ -7,6 +13,4 @@ Assuming a minimum of two inputs/switches :
   = 2 two transistors / switch
   + 2 two transistors / switch
   + 2 two transistors / inverter
-
-- The behavior in keys is : doesn't matter which one, action. 
 

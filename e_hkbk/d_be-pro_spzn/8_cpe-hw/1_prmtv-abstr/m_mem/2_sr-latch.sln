@@ -1,4 +1,10 @@
 
+A two-switch (S-R) design that sets and clears the output.
+- We achieve RETENTION. 
+- We want to do better with a one-switch design than rely on the silly TWO-SWITCH design. 
+
+
+
 The set-reset (SR) latch consists of two smaller NOR gates ; they inform each other with their own output that will serve as an input to the other gate. In other words, the output of one gate will influence the input-output of the other gate.
 
 The other inputs are induced in other ways (usually with a key press) :

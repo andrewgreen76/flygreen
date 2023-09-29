@@ -1,0 +1,10 @@
+
+Structure :
+- 1 transistor
+- collector and base are the same input 
+
+Behavior :
+- input is on => output is on
+- defeats the point of having a transistor ; might as well just have a regular switch. 
+
+.

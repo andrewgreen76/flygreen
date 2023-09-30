@@ -2,14 +2,39 @@
 1-bit register :
 - DFF + load bit + enable bit 
 - LOAD BIT :
+  - regulator to letting data bit in ; 
   - unique to every register ; switched on when the currently given instruction tells the register to store the data currently on the bus.  
   - remembers the given bit of data - 0 or 1 - indefinitely until instructed otherwise by the (unclocked/manual) load bit.
 - ENABLE BIT :
+  - regulator to letting data bit out ; 
   - unique to every register ; switched on when the currently given instruction tells the register to "offload" its stored data onto the bus.
   - integrated into a chip with tri-state buffers
     - TRI-STATE BUFFERS :
       - single-pass
-      - three output states : data bit 1 (en=1), data bit 0 (en=1), and shut-off (en=0, "do not offload") 
+      - three output states : data bit 1 out (en=1), data bit 0 out (en=1), and shut-off output (en=0, "do not offload")
+      - thus a tri-state buffer (governed by the enable bit) complements a DFF+load
+
+
+      	       		 	
+      	      		 RETENTION LOOP
+	   	 ..____________________			  
+	   			       |	       _____________
+	   		       _____   |	      |		    |
+________...		...___|	    |__|______________| 3-state bf >|____
+LOAD	   		    Dx| DFF |Qb		    Qb|		    |Qa
+________...		...___|	    |_____	      |_____|_______|
+Dy	   		   CLK|>    |Q'			    |
+	   		      |_____|			  ENABLE
+	   		        #			    #
+      D-bit/state 1 here	#   D-bit/state 2 here	    #	D-bit/state 3 here
+		t=0		#	t=1		    	t=1
+				#
+				#
+				#
+				#
+The LOAD bit regulates this.	#		The ENABLE bit regulates this. 
+    	     	       		#
+				#
 
 
 

@@ -2,8 +2,7 @@
 We need clocks for ... : 
 |
 - automated/regulated drive of input (or any data for that matter) 
-- "chewing food" , experiencing/savoring dynamics
-- regulation of processing and storing data in stages , capturing intermediate outputs  
+- regulation of data in stages , capturing intermediate outputs  
   - automated handling of stages (booting up a computer)
 - automated flipping through multiple stages marked by captured/lost signals within memory circuits (where every bit/line is in a state 0 or 1) 
 - waiting for something , "sensitivity" to change 

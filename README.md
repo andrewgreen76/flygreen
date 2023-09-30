@@ -33,8 +33,8 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-- PC memory map
-- buffer overflow attacks in C
+- electrical/hardware engineering - revisiting ... :
+  - S-R latches , D latches , D flip-flops , 1-bit registers , 8-bit registers , tri-state buffers 
 - game design :
   - pillars
     - adventure / growth
@@ -44,7 +44,7 @@ __________________________________________________________________________
   - mechanics/features
   - technical details 
   - art/sprites (UI / map objects / font / color schemes)
-  - music 
+  - music
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

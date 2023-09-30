@@ -1,6 +1,15 @@
 
 1-bit register :
-- remembers the given bit of data - 0 or 1 - indefinitely until instructed otherwise by the (unclocked/manual) load bit. 
+- DFF + load bit + enable bit 
+- LOAD BIT :
+  - unique to every register ; switched on when the currently given instruction tells the register to store the data currently on the bus.  
+  - remembers the given bit of data - 0 or 1 - indefinitely until instructed otherwise by the (unclocked/manual) load bit.
+- ENABLE BIT :
+  - unique to every register ; switched on when the currently given instruction tells the register to "offload" its stored data onto the bus.
+  - integrated into a chip with tri-state buffers
+    - TRI-STATE BUFFERS :
+      - single-pass
+      - three output states : data bit 1 (en=1), data bit 0 (en=1), and shut-off (en=0, "do not offload") 
 
 
 

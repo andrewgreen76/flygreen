@@ -1,11 +1,6 @@
 #include <stdio.h>
 
-int l = 0;
-
 void printd(int n) {
-  l++;
-  printf("Level : %i\n", l);
-  
   if (n < 0) {
     putchar('-');
     n = -n;
@@ -18,7 +13,7 @@ void printd(int n) {
   return;
 }
 
-int main (int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
   printf("\n");
 
   printd(123);

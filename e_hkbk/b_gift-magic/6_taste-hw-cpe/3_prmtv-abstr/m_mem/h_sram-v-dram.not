@@ -1,0 +1,14 @@
+
+SRAM :
+. every memory cell (for a single bit) is made up of gates
++ fast memory access
++ does not rely on a constant data (really, 0/1 charge) refresh 
+- costly
+
+DRAM :
+. every memory cell is made up of a transistor and a capacitor
++ cheap
+- relies on the constant data/charge refresh
+- slow memory access 
+
+.

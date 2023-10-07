@@ -37,7 +37,10 @@ __________________________________________________________________________
   - inline functions
 - Linux kernel limitations (memory management, fixed-size process stack, etc.)
 - electrical engineering :
-  - 4-bit full adders 
+  - 4-bit full adders
+  - SRAM design vs. DRAM design
+  - 74LS family of chips
+  - width of address word ~ RAM size ; data bus width 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

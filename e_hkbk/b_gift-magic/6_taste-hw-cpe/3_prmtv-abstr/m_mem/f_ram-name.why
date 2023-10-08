@@ -1,4 +1,18 @@
 
+https://www.techtarget.com/searchstorage/definition/RAM-random-access-memory
+
+"
+The term random access as applied to RAM comes from the fact that any storage location, also known as any memory address, can be accessed directly. Originally, the term Random Access Memory was used to distinguish regular core memory from offline memory.
+
+Offline memory typically referred to magnetic tape from which a specific piece of data could only be accessed by locating the address sequentially, starting at the beginning of the tape. RAM is organized and controlled in a way that enables data to be stored and retrieved directly to and from specific locations.
+
+Other types of storage -- such as the hard drive and CD-ROM-- are also accessed directly or randomly, but the term random access isn't used to describe these other types of storage.
+"
+
+
+
+ChatGPT : 
+
 "
 The term "random access memory" (RAM) can be a bit misleading if taken too literally. In the context of computer memory, "random access" does not mean that memory addresses are accessed in a truly random or arbitrary manner. Rather, it refers to the ability to access any memory location with approximately the same amount of time and effort, regardless of the physical location of the data in memory. This is in contrast to older forms of memory, such as magnetic tape, where accessing data involved physically moving a read/write head to the correct position.
 

@@ -13,7 +13,7 @@ GETTING EMAIL RECEPTION CAPABILITY. Let's leverage the IMAP protocol by doing th
 - Click the cog icon for Settings in the upper-right cornet and then click 'See all settings'.
 - Simply click 'Enable IMAP' and 'Save Changes'. (I didn't even bother with POP, so perhaps neither should you.) 
 $ sudo apt-get install offlineimap
-- Create ~/.offlinemaprc (exactly that name after the slash), populate it as per the eponymous file in this directory,
+- Create ~/.offlineimaprc (exactly that name after the slash), populate it as per the eponymous file in this directory,
   and fill out the 'remotehost' and 'remoteuser' fields. Don't fill out the 'remotepass' part yet.
   - Note the line with the path '~/Maildir'. Maildir is the directory that will house your emails and is named after the prevailing email format
     we'll be using. 

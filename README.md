@@ -33,14 +33,11 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-- C programming :
-  - inline functions
-- Linux kernel limitations (memory management, fixed-size process stack, etc.)
 - electrical engineering :
-  - 4-bit full adders
+  - JK flip-flops , 4-bit counters
+  - revisiting von Neumann architecture with a different design 
   - SRAM design vs. DRAM design
-  - 74LS family of chips
-  - width of address word ~ RAM size ; data bus width 
+  - "debugging" with an oscilloscope 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

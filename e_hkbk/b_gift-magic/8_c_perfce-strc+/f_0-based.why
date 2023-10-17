@@ -1,4 +1,8 @@
 
+#dijkstra #edsger 
+
+
+
 Apologies for the misunderstanding. The decision to use 0-based indexing in arrays is primarily a design choice made by programming language creators and influenced by various factors, including historical reasons, mathematical conventions, and compatibility with low-level memory access.
 
 Here are a few reasons why arrays are typically implemented with 0-based indexing:

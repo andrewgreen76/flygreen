@@ -1,0 +1,18 @@
+
+a) smallest to largest
+b) largest to smallest
+
+------------------------------
+
+Swap as you parse the structure. 
+
+------------------------------
+
+a) Swap with brute force (3rd var.)
+b) Swap with ^= (xor)
+
+------------------------------
+
+. O( (n-1)^2 )
+
+.

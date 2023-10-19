@@ -1,0 +1,21 @@
+
+https://www.quora.com/In-the-C-language-why-are-we-taught-to-use-d-for-integers-while-i-also-works-the-same/answer/Dave-Hansen-4?ch=10&oid=90731083&share=5404af7f&srid=3Hh8N&target_type=answer
+
+
+
+"
+In the C language, why are we taught to use '%d' for integers while '%i' also works the same?
+Profile photo for Dave Hansen
+Dave Hansen
+Engineer5y
+
+The %i and %d format specifiers are not the same.
+
+True, they behave identically when used with the *printf functions. But for *scanf, the %i format specifier will parse integer literals just like the compiler.
+
+For example read “010” using %d, and you'll get a value of 10. But %i will return a value of 8, since the leading zero indicates an octal constant. Similarly, read “0x10” using %d, and you'll get 0 (integer parsing will stop on the “x”) but %i will return 16.
+
+The %i format specifier is supported by *printf mainly for reasons of symmetry.
+"
+
+.

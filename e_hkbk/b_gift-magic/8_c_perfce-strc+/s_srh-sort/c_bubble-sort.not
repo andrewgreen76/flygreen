@@ -1,10 +1,11 @@
 
-a) smallest to largest
-b) largest to smallest
+Blind (n-1)^2 swap: 
+- Swap as you parse the structure. 
 
 ------------------------------
 
-Swap as you parse the structure. 
+a) smallest to largest
+b) largest to smallest
 
 ------------------------------
 

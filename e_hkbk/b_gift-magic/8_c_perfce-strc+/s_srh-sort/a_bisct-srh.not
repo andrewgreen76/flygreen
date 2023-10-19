@@ -1,0 +1,12 @@
+
+1. The list is already sorted
+
+2. (Re)establish
+   - 'a' to the left
+   - 'b' to the right
+   - 'mid' in between
+   - Found : item=list[mid] ; NOT found : ib<ia
+
+. O(log(n)) 
+
+.

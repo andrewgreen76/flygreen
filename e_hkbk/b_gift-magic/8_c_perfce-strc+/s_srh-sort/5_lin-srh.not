@@ -1,0 +1,8 @@
+
+- Parse a structure linearly,
+- confirm that an item is in a structure,
+- return the location of the item if it's there.
+
+- O(n) 
+
+.

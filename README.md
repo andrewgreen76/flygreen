@@ -35,6 +35,7 @@ __________________________________________________________________________
 
 - embedded systems :
   - handling multi-byte data in the context of 8-bit processing
+  - EEPROM programming (manually byte-by-byte and using Arduino), exposure of data on a chip
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

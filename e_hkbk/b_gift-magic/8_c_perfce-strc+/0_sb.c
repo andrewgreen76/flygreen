@@ -1,5 +1,8 @@
 #include <stdio.h>
 
 int main(void){
-  printf("\n%zu\n\n", sizeof(size_t));
+  double a = 42.98;
+  double * addr_a = &a;
+
+  printf("\nSize: %zu\n\n", sizeof(char *) );
 }

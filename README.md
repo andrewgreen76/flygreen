@@ -33,11 +33,8 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-- electrical engineering :
-  - JK flip-flops , 4-bit counters
-  - revisiting von Neumann architecture with a different design 
-  - SRAM design vs. DRAM design
-  - "debugging" with an oscilloscope 
+- embedded systems :
+  - handling multi-byte data in the context of 8-bit processing
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

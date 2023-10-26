@@ -3,10 +3,10 @@ Call Generac Power Systems : 888-436-3722
 GRE : Pearson , Brainseed/Meadowood Mall
 |
 ) sorting : bubble sort , selection sort
-) searching : linear , bilinear, bisection , 
+) searching : linear , bisection , 
 ) Fibonacci recursion - what they are really looking for :
-  - 
-) NN, bilinear resize, bicubic interpolation,
+  - GIVEN index, PROVIDE number 
+) resize : NN, bilinear resize, bicubic interpolation,
 ) red-black trees, k-d trees, BSP tree, graphs (edges, nodes), 
 ) Dijkstra's algorithm, 
 - what they look like , how they work 

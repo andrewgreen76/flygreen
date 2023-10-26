@@ -34,6 +34,12 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
 [currently focusing on completing an electrical engineering project]
+- sorting algorithms :
+  - selection sort
+  - bubble sort
+- searching algorithms :
+  - linear
+  - bisection
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

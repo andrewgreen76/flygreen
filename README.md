@@ -33,9 +33,7 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-- embedded systems :
-  - handling multi-byte data in the context of 8-bit processing
-  - EEPROM programming (manually byte-by-byte and using Arduino), exposure of data on a chip
+[currently focusing on completing an electrical engineering project]
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

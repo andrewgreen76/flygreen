@@ -33,13 +33,11 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-[currently focusing on completing an electrical engineering project]
-- sorting algorithms :
-  - selection sort
-  - bubble sort
-- searching algorithms :
-  - linear
-  - bisection
+- electrical engineering :
+  - troubleshooting - the value of capacitors and resistors :
+    - handling voltage fluctuations
+    - dealing with unnecessary reactions to the falling edges of the system clock
+    - trial and error, or examining the integrity of cheap integrated circuits   
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________
@@ -48,7 +46,7 @@ A legacy BIOS/UEFI (x86) -based OS :
 - 32-bit
 ? multiboot2 -compliant ?? 
 - to be tested in QEMU
-- to be finally shipped for Raspberry Pi
+- to be shipped for Raspberry Pi
 __________________________________________________________________________
 CHOSEN PERSONAL PROJECT:
 __________________________________________________________________________

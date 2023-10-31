@@ -1,41 +1,46 @@
 
-(CONFIRM ALL)	$:out:ch	$:out:yr	$:in:ch		$:in:yr		on-site.dline		decis.date	resid.req
+(CONFIRM ALL)	$:out:ch	$:out:yr	$:in:ch		$:in:yr		on-site.dline		decis.date	
 (ASSUME PT)		
 =========================================================================================================================================================
 
-Study for GRE : links ?? 
+Study for GRE : links ??
+- verb: 154+, quant: 166+, analyt: 4+
+|
 Focus : CE : OS over embedded systems 
 - Plan of Study
 
+Residency req-ts : 1+- yr 
 
 
-27.UWi-Mad	$1.2k		$14k-24k	$1.2		$11k		(CE/EE) 12/15		4/1		??
+
+27.UWi-Mad	$1.2k		$14k-24k	$1.2		$11k		(CE/EE) 12/15		2/29-4/1	
 https://mail.google.com/mail/u/0/#inbox/QgrcJHsblRlxlqPKZvNhndPTrHsJLVSdWVL	F a l l   o n l y 	
 
 
-55.UUtah	$1,037		$21k (PT)	$313		$6.7k (PT)	12/30;1/30		??		??
+55.UUtah	$1,037		$21k (PT)	$313		$6.7k (PT)	12/30;1/30		??		
 |				$28k (FT)			      		(CE/OS,EE)
 |										Hybrid
 https://mail.google.com/mail/u/0/#inbox/KtbxLzGLjsdzWNfQNZNvCVGXvKWgSfSZHL
 
 
-73.UT-Dallas	$1.9k		$30k		$664		$15k		(OS) 1/15;5/1;		??		??
+73.UT-Dallas	$1.9k		$30k		$664		$15k		(OS) 1/15;5/1;		??		
 GRE required 
 https://mail.google.com/mail/u/0/#inbox/FMfcgzGwHLpZKjPrnJzjPhSTchkwvMZC
+https://ece.utdallas.edu/academics/graduate-programs/computer-engineering/
 
 
-69.UHouston	$1k		$13k (PT)	$246		$6.7k		3/15 ; 5/15 ; 7/1	2x / year	??
+69.UHouston	$1k		$13k (PT)	$246		$6.7k		3/15 ; 5/15 ; 7/1	3/1--		
 |				$19k (FT)
 https://mail.google.com/mail/u/0/#search/kelly/QgrcJHrnzwpqVCsMdFtcxBJfDZjDRvQsvgQ
 https://www.ece.uh.edu/graduate/degree-programs
 
 
-47.UFla (Wert)	$1.3k ?	off-s..	$28k		$449		$11k		4/1			??		??
+47.UFla (Wert)	$1.3k ?	off-s..	$28k		$449		$11k		4/1			--4/xx		 
 |		$726  ? online				
 https://mail.google.com/mail/u/0/#inbox/QgrcJHsHkwwHMZJzWLqFmzMNmdsbVFPFlgG
 
 
-10.TAMU		$816		$22k		$287		$4k		(4/1) 5/1		rolling		??
+10.TAMU		$816		$22k		$287		$4k		(4/1) 5/1		rolling		
 https://mail.google.com/mail/u/0/#inbox/KtbxLxGgKMmRPclsWzxqplKdqRqnwhxzfg	(CE, EE)
 applytexas.org
 https://engineering.tamu.edu/electrical/academics/student-projects/reu.html
@@ -43,7 +48,7 @@ Summer : The Research Experiences for Undergraduates (REU) program
 - recom to OS/kernel dev student 
 
 
-4.Purdue	$463		$30k		$380		$11k		5/1;6/30		5/15		??
+4.Purdue	$463		$30k		$380		$11k		5/1;6/30		5/15		
 |										(CE/EE)
 https://mail.google.com/mail/u/0/#search/purdue/QgrcJHrtsHbGDjgWdfdblfFrxcRWZCdpmtv
 Apply @ https://www.purdue.edu/gradschool/admissions/how-to-apply/index.html

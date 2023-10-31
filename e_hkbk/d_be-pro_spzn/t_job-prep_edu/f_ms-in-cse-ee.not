@@ -1,27 +1,27 @@
 
-(CONFIRM ALL)	$:out:ch	$:out:yr	$:in:ch		$:in:yr		on-site.dline		decis.date	COVID.immun.rec	sc.send.ID
+(CONFIRM ALL)	$:out:ch	$:out:yr	$:in:ch		$:in:yr		dline		decis.date	code	COVID.imm.rec	score.send.ID
 (ASSUME PT)		
 =========================================================================================================================================================
 
-1.MIT
+1.MIT		-		-		-		-		12/15		-		-	-		-
 
-25.UWa				$35k						not CE
+25.UWa				$35k						not CE		-		-	-		-
 
-7.UT-Austin			$19k						(CS) 5/1	
+7.UT-Austin			$19k						(CS) 5/1	-		-	-		-
 
-12.UCSD				$27k						No (data science)		
+12.UCSD				$27k						No (data sc.)	-		-	-		4836
 
-7.MI-Ann Arbor			$55k
+7.MI-Ann Arbor			$55k						   	 	-		-	-		-
 
-16.UCLA (Westwood)		$29k						IC) 12/15
+16.UCLA (Westwood)		$29k						IC) 12/15	-		-	-		4837
 
-17.Columbia			$67k
+17.Columbia			$67k						    		-		-	-		-
 
-3.UC Berkeley			$26k						3/1
+3.UC Berkeley			$26k						3/1		-		-	-		-
 
-5.Carnegie Mellon		$52k (FT)
+5.Carnegie Mellon		$52k (FT)							-		-	-		-
 
-2.Stanford 			$66k
+2.Stanford 			$66k 								-		-	-		-
 
 
 27.UWi-Mad	$1.2k		$14k-24k	$1.2		$11k		(CE/EE) 12/15		2/29-4/1	-		1846
@@ -71,6 +71,9 @@ https://mail.google.com/mail/u/0/#inbox/KtbxLzGLjsdzWNfQNZNvCVGXvKWgSfSZHL
 25.NCSU			$14k (PT)		-		-		(CE) 1/9	-	-		-		5496
 			$28k (FT)				
 
+34.UCI			$13k (PT)	No?												4859
+			$26k (FT)
+
 =========================================================================================================================================================
 WichitaSU		$7k (PT), $14k (FT)
 UNE-Lincoln		$8k (PT), $23k (FT)
@@ -82,8 +85,6 @@ Embry-Riddle		$10k (PT), $20k (FT)
 			     		Yes/No?		(CE, EE) 1/15 
 							
 			
-34.UCI			$13k (PT)	No?				
-			$26k (FT)
 UC Santa Cruz		$14k (PT)	No?
 			$27k (FT)
 			$2.7k/$6k/3cr

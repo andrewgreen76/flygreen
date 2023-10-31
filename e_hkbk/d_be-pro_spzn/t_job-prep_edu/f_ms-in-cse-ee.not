@@ -1,46 +1,53 @@
 
-(CONFIRM ALL)	$:out:ch	$:out:yr	$:in:ch		$:in:yr		on-site.dline		decis.date	COVID-immun-rec
+(CONFIRM ALL)	$:out:ch	$:out:yr	$:in:ch		$:in:yr		on-site.dline		decis.date	COVID.immun.rec	sc.send.ID
 (ASSUME PT)		
 =========================================================================================================================================================
 
-Study for GRE : links ??
-- verb: 154+, quant: 166+, analyt: 4+
-|
-Focus : CE : OS over embedded systems 
-- Plan of Study
+1.MIT
 
-Residency req-ts : 1+- yr 
+25.UWa				$35k						not CE
+
+7.UT-Austin			$19k						(CS) 5/1	
+
+12.UCSD				$27k						No (data science)		
+
+7.MI-Ann Arbor			$55k
+
+16.UCLA (Westwood)		$29k						IC) 12/15
+
+17.Columbia			$67k
+
+3.UC Berkeley			$26k						3/1
+
+5.Carnegie Mellon		$52k (FT)
+
+2.Stanford 			$66k
 
 
-
-27.UWi-Mad	$1.2k		$14k-24k	$1.2		$11k		(CE/EE) 12/15		2/29-4/1	
-https://mail.google.com/mail/u/0/#inbox/QgrcJHsblRlxlqPKZvNhndPTrHsJLVSdWVL	F a l l   o n l y 	
-
-
-55.UUtah	$1,037		$21k (PT)	$313		$6.7k (PT)	12/30;1/30		??		
-|				$28k (FT)			      		(CE/OS,EE)
-|										Hybrid
-https://mail.google.com/mail/u/0/#inbox/KtbxLzGLjsdzWNfQNZNvCVGXvKWgSfSZHL
+27.UWi-Mad	$1.2k		$14k-24k	$1.2		$11k		(CE/EE) 12/15		2/29-4/1	-		1846
+https://mail.google.com/mail/u/0/#inbox/QgrcJHsblRlxlqPKZvNhndPTrHsJLVSdWVL	F a l l   o n l y
+ECE pro : 
+https://guide.wisc.edu/graduate/electrical-computer-engineering/electrical-computer-engineering-ms/electrical-computer-engineering-professional-ms/
 
 
-73.UT-Dallas	$1.9k		$30k		$664		$15k		(OS) 1/15;5/1;		??		
+73.UT-Dallas	$1.9k		$30k		$664		$15k		(OS) 1/15;5/1;		??		-		6897
 GRE required 
 https://mail.google.com/mail/u/0/#inbox/FMfcgzGwHLpZKjPrnJzjPhSTchkwvMZC
 https://ece.utdallas.edu/academics/graduate-programs/computer-engineering/
 
 
-69.UHouston	$1k		$13k (PT)	$246		$6.7k		3/15 ; 5/15 ; 7/1	3/1--		
+69.UHouston	$1k		$13k (PT)	$246		$6.7k		3/15 ; 5/15 ; 7/1	3/1--		-		??
 |				$19k (FT)
 https://mail.google.com/mail/u/0/#search/kelly/QgrcJHrnzwpqVCsMdFtcxBJfDZjDRvQsvgQ
 https://www.ece.uh.edu/graduate/degree-programs
 
 
-47.UFla (Wert)	$1.3k ?	off-s..	$28k		$449		$11k		4/1			--4/xx		 
+47.UFla (Wert)	$1.3k ?	off-s..	$28k		$449		$11k		4/1			--4/xx		-		5812
 |		$726  ? online				
 https://mail.google.com/mail/u/0/#inbox/QgrcJHsHkwwHMZJzWLqFmzMNmdsbVFPFlgG
 
 
-10.TAMU		$816		$22k		$287		$4k		(4/1) 5/1		rolling		
+10.TAMU		$816		$22k		$287		$4k		(4/1) 5/1		rolling		-		6003
 https://mail.google.com/mail/u/0/#inbox/KtbxLxGgKMmRPclsWzxqplKdqRqnwhxzfg	(CE, EE)
 applytexas.org
 https://engineering.tamu.edu/electrical/academics/student-projects/reu.html
@@ -48,18 +55,21 @@ Summer : The Research Experiences for Undergraduates (REU) program
 - recom to OS/kernel dev student 
 
 
-4.Purdue	$463		$30k		$380		$11k		5/1;6/30		5/15		
+4.Purdue	$463		$30k		$380		$11k		5/1;6/30		5/15		-		1325/1336
 |										(CE/EE)
 https://mail.google.com/mail/u/0/#search/purdue/QgrcJHrtsHbGDjgWdfdblfFrxcRWZCdpmtv
 Apply @ https://www.purdue.edu/gradschool/admissions/how-to-apply/index.html
 Req-ts / stmts : https://issuu.com/ipfwdcs/docs/engineering_sept._22?_ga=2.259626442.1915731826.1698067868-1233323441.1697120267
 
 
-25.NCSU			$14k (PT)		-		-		(CE) 1/9	-	-
+55.UUtah	$1,037		$21k (PT)	$313		$6.7k (PT)	12/30;1/30		??		-		4853
+|				$28k (FT)			      		(CE/OS,EE)
+|										Hybrid
+https://mail.google.com/mail/u/0/#inbox/KtbxLzGLjsdzWNfQNZNvCVGXvKWgSfSZHL
+
+
+25.NCSU			$14k (PT)		-		-		(CE) 1/9	-	-		-		5496
 			$28k (FT)				
-
-
-
 
 =========================================================================================================================================================
 WichitaSU		$7k (PT), $14k (FT)
@@ -87,7 +97,6 @@ UTX-Arlington		$15k (PT)	No?
 			$28k (FT)
 90.UCRiverside		$17k (PT)	Yes?		~~~~ no CE	76%		65%
 			$33k (FT)			~~ sm:5/1;f:6/1
-7.UT-Austin		$19k		Yes		~~~~ (CS) 5/1	85%		29%
 
 ======================= $714+/credit : =================================================================
 
@@ -109,15 +118,9 @@ UB			$23k		No		-
 SUNY-Stony Brook	$23k		No
 Clemson	   		$23k 		No
 
-(1).UC Berkeley		$26k		Y/N		(MAS-E) 3/1	93%		14%
-
-12.UCSD			$27k		No (data science)		
-
 27.UC Santa Barbara	$28k		No 
 
 47.UDayton 		$29k		No
-
-UCLA (Westwood)	$29k			Yes		(IC) 12/15	92%		11%
 
 5.GIT			$29k		Yes		5/1 (non-CE)	90%		16%
 			(1.1k/cr)
@@ -142,7 +145,6 @@ NJIT			$33k		not CE
 			($1.2k)
 . 63.UArizona		$33k		Yes		(CE/EE) ??
 ASU			$33k		not CE		1/8
-UWa			$35k		not CE
 .. MOUni-Rolla		$36k		emb		7/1
 			GPA 3.3 + GRE
 . Urbana-Ch		$37k		Yes		MS: 12/15	85%		60%
@@ -170,11 +172,9 @@ NEUni			$49k
 MiSU			$50k
 UniMD-College Park	$50k
 Case Western		$51k (FT)
-Carnegie Mellon		$52k (FT)
 URoch	      		$53k
 RIT			$53k
 Rice	      		$54k
-MI-Ann Arbor		$55k
 BostonU			$56k (PT)
        			$61k (FT)
 MIT			$57k				N/E (2.5+ yrs)	95%		4%
@@ -189,9 +189,7 @@ Johns Hopkins		$61k
 Brown			$62k
 NW, IL			$62k
 USC			$65k
-Stanford 		$66k
 UMn			$67k
-Columbia		$67k
 |
 Princeton (PhD only)	$57k
 

@@ -1,42 +1,47 @@
 
-(CONFIRM ALL)	$:out:ch	$:out:yr	$:in:ch		$:in:yr		dline		decis.date	COVID.imm.rec	code	start.date
+Yr:	1	2	3	4	5	6
+Ch's:	6	6	6	6	6	
+
+(CONFIRM ALL)	$:out:ch	$:out:yr	$:in:ch		$:in:yr		dline		decis.date	mx.yrs	code	start.date
 =========================================================================================================================================================
 										Look into their programs. 
 =========================================================================================================================================================
 
-7.UT-Austin			$19k						(CS) 5/1	-		-		6882	8/26
+UNR		-		-		-		-		6/1(S);4/1(F)	6/1-7/1		6	7828	
 
-10.TAMU		$816		$22k		$287		$4k		(4/1) 5/1	rolling		-		6003
+7.UT-Austin			$19k						(CS) 5/1	-		6	6882	8/26
+
+10.TAMU		$816		$22k		$287		$4k		(4/1) 5/1	rolling		-	6003
 https://mail.google.com/mail/u/0/#inbox/KtbxLxGgKMmRPclsWzxqplKdqRqnwhxzfg	(CE, EE)
 applytexas.org
 https://engineering.tamu.edu/electrical/academics/student-projects/reu.html
 Summer : The Research Experiences for Undergraduates (REU) program
 - recom to OS/kernel dev student 
 
-3.UC Berkeley			$26k						3/1		-		-		4833	8/16(23)
-16.UCLA (Westwood)		$29k						(IC) 12/15	-		-		4837	9/23(26)
-12.UCSD				$27k						No (data sc.)	-		-		4836	9/25
-25.UWa				$35k						not CE		-		-		4854	9/27
+3.UC Berkeley			$26k						3/1		-		-	4833	8/16(23)
+16.UCLA (Westwood)		$29k						(IC) 12/15	-		-	4837	9/23(26)
+12.UCSD				$27k						No (data sc.)	-		-	4836	9/25
+25.UWa				$35k						not CE		-		-	4854	9/27
 
-4.Purdue-WL	$463		$30k		$380		$11k		5/1;6/30	5/15		-		1631
+4.Purdue-WL	$463		$30k		$380		$11k		5/1;6/30	5/15		-	1631
 |										(CE/EE)
 https://mail.google.com/mail/u/0/#search/purdue/QgrcJHrtsHbGDjgWdfdblfFrxcRWZCdpmtv
 Apply @ https://www.purdue.edu/gradschool/admissions/how-to-apply/index.html
 Req-ts / stmts : https://issuu.com/ipfwdcs/docs/engineering_sept._22?_ga=2.259626442.1915731826.1698067868-1233323441.1697120267
 
-34.UCI			$13k (PT)	No?	-		-		-		-		-		4859
+34.UCI			$13k (PT)	No?	-		-		-		-		-	4859
 			$26k (FT)
 
-27.UWi-Mad	$1.2k		$14k-24k	$1.2		$11k		(CE/EE) 12/15	2/29-4/1	-		1846	9/6
+27.UWi-Mad	$1.2k		$14k-24k	$1.2		$11k		(CE/EE) 12/15	2/29-4/1	-	1846	9/6
 https://mail.google.com/mail/u/0/#inbox/QgrcJHsblRlxlqPKZvNhndPTrHsJLVSdWVL	Fall only 
 ECE pro : 
 https://guide.wisc.edu/graduate/electrical-computer-engineering/electrical-computer-engineering-ms/electrical-computer-engineering-professional-ms/
-2.Stanford 			$66k 								-		-		4704	9/23
-5.Carnegie Mellon		$52k (FT)							-		-		2074:0402 8/28
-7.MI-Ann Arbor			$55k						   	 	-		-		1839	8/26
+2.Stanford 			$66k 								-		-	4704	9/23
+5.Carnegie Mellon		$52k (FT)							-		-	2074:0402 8/28
+7.MI-Ann Arbor			$55k						   	 	-		-	1839	8/26
 
-1.MIT		-		-		-		-		12/15		-		-		3514	9/6
-17.Columbia			$67k						    		-		-		2111	9/5
+1.MIT		-		-		-		-		12/15		-		-	3514	9/6
+17.Columbia			$67k						    		-		-	2111	9/5
 
 =========================================================================================================================================================
 
@@ -57,7 +62,7 @@ https://www.ece.uh.edu/graduate/degree-programs
 https://mail.google.com/mail/u/0/#inbox/QgrcJHsHkwwHMZJzWLqFmzMNmdsbVFPFlgG
 
 
-55.UUtah	$1,037		$21k (PT)	$313		$6.7k (PT)	12/30;1/30	??		-		4853
+55.UUtah	$1,037		$21k (PT)	$313		$6.7k (PT)	12/30;1/30	??		4		4853
 |				$28k (FT)			      		(CE/OS,EE)
 |										Hybrid
 https://mail.google.com/mail/u/0/#inbox/KtbxLzGLjsdzWNfQNZNvCVGXvKWgSfSZHL

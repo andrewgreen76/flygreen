@@ -18,7 +18,6 @@
 Intro :        Intro :
            [trans]
 
-
 Body :	       [trans] Point 1  
      	   [trans] 
 
@@ -27,7 +26,6 @@ Body :	       [trans] Point 1
 
                [trans] Point 3  
      	   [trans] 
-
 
 Concl :    [trans] 
 - 1-2 lines of your viewpoint (agreement/disagreement)

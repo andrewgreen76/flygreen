@@ -1,0 +1,6 @@
+
+System Programming
+
+System programming is the process of creating software that interacts directly with the hardware and the operating system kernel, such as device drivers, compilers, loaders, linkers, debuggers, and shell scripts. System programmers need to have a deep understanding of the architecture, functionality, and limitations of the hardware and the operating system, as well as the low-level languages and protocols that they use. System programming is often complex, critical, and error-prone, as it involves managing memory, resources, security, and performance.
+
+.

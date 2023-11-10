@@ -1,6 +1,31 @@
 
-Long passages :
+LONG PASSAGES :
 - divide and conquer :
-  - write down the elements , opinions , positives/negatives 
+  - id : elements ,
+  - id : relationships -AND- accuracy of relationships :
+    - account for : most likely , most accurate 
+    - id : opinions ,
+    - id : attitudes , 
+  - id : positives/negatives
+  - id : old items, new items
 
+==============================================================
+==============================================================
+==============================================================
+Hardly ever to bother with : 
+- timing / timeline 
+
+==============================================================
+==============================================================
+==============================================================
+Short passages :
+- divide and conquer :
+  - id : elements ,
+  - id : relationships -AND- accuracy of relationships :
+    - account for : most likely , most accurate 
+    - id : opinions ,
+    - id : attitudes , 
+  - id : positives/negatives
+  - id : old items, new items
+  
 .

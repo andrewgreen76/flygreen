@@ -1,5 +1,8 @@
 
-LONG PASSAGES :
+LONG PASSAGES : 
+
+- read once through. 
+
 - divide and conquer :
   - id : elements ,
   - id : relationships -AND- accuracy of relationships :
@@ -8,6 +11,9 @@ LONG PASSAGES :
     - id : attitudes , 
   - id : positives/negatives
   - id : old items, new items
+
+- previous claim - previous sentence.
+- issues are more important than words. 
 
 ==============================================================
 ==============================================================

@@ -1,4 +1,6 @@
 
--
+Long passages :
+- divide and conquer :
+  - write down the elements , opinions , positives/negatives 
 
 .

@@ -1,7 +1,11 @@
 
 LONG PASSAGES : 
 
+- Just like with quant. questions, never do anything in your head. 
+
 - read once through. 
+
+- Geometrically break up claims, opinions, etc. 
 
 - divide and conquer :
   - id : elements ,
@@ -13,7 +17,10 @@ LONG PASSAGES :
   - id : old items, new items
 
 - previous claim - previous sentence.
-- issues are more important than words. 
+- issues are more important than words.
+- easy deduction questions : do not rush to answer 
+
+- reassessment of dates is possible 
 
 ==============================================================
 ==============================================================

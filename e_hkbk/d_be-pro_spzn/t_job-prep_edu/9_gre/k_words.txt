@@ -1,0 +1,7 @@
+
+hypothesis :
+
+- a supposition or proposed explanation made on the basis of limited evidence as a starting point for further investigation.
+- a proposition made as a basis for reasoning, without any assumption of its truth.
+
+.

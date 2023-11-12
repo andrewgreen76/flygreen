@@ -1,11 +1,13 @@
 
 LONG PASSAGES :
 
-- do them last 
+. do them last
+|
+> within a sec plot out for 3-5 answers 
 > read the whole passage once through -> (to be able to answer multiple questions) 
 > read the question 
 > read the answers -> qualify distinctions between answers 
-- read the passage/chunks again if need be
+. read the passage/chunks again if need be
 
 If time allows / second read : 
 - Just like with quant. questions, never do anything in your head. 

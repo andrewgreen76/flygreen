@@ -1,12 +1,15 @@
 
-LONG PASSAGES : 
+LONG PASSAGES :
 
+- do them last 
+> read the whole passage once through -> (to be able to answer multiple questions) 
+> read the question 
+> read the answers -> qualify distinctions between answers 
+- read the passage/chunks again if need be
+
+If time allows / second read : 
 - Just like with quant. questions, never do anything in your head. 
-
-- read once through. 
-
 - Geometrically break up claims, opinions, etc. 
-
 - divide and conquer :
   - id : elements ,
   - id : relationships -AND- accuracy of relationships :
@@ -16,10 +19,9 @@ LONG PASSAGES :
   - id : positives/negatives
   - id : old items, new items
 
+- easy deduction questions : do not rush to answer 
 - previous claim - previous sentence.
 - issues are more important than words.
-- easy deduction questions : do not rush to answer 
-
 - reassessment of dates is possible 
 
 ==============================================================

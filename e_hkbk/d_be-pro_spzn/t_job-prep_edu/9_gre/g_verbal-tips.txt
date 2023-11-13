@@ -21,6 +21,7 @@ If time allows / second read :
   - id : positives/negatives
   - id : old items, new items
 
+- prevailing = most popular, not strongest 
 - easy deduction questions : do not rush to answer 
 - previous claim - previous sentence.
 - issues are more important than words.

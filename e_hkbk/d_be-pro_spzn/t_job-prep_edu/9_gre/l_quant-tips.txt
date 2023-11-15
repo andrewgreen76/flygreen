@@ -8,4 +8,6 @@
 Stats and probability :
 - Pay attention to the occurrences of the classes, not what the classes are. 
 
+- [Bus commuters] Always express in terms of 	   < % of all >. 
+
 .

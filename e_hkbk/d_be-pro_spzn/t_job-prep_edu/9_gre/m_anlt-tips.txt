@@ -6,19 +6,24 @@
 
 ------------------- 20 mins : -------------------
 
-Intro :        [opening stmt]	        4 mins
-           [trans]
+Intro :        [OPENING STMT]	        4 mins
+           [ sentence ]
+           [TRANS]
 
-Body :	       [trans] Point 1		4 mins
- 	   [trans] 
+Body :	       [TRANS] POINT 1		4 mins
+           [ sentence ]
+ 	   [TRANS] 
 
-	       [trans] Point 2		4 mins
-     	   [trans] 
+	       [TRANS] POINT 2		4 mins
+           [ sentence ]
+     	   [TRANS] 
 
-	       [trans] Point 3		4 mins  
-     	   [trans] 
+	       [TRANS] POINT 3		4 mins
+           [ sentence ]  
+     	   [TRANS] 
 
-Concl :    [trans]			4 mins
+Concl :    [SUMMARY]			4 mins
+           [ sentence ]
 |
 - 1-2 lines of your viewpoint (agreement/disagreement)
 - 1-2 lines of opposing viewpoint

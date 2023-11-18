@@ -7,6 +7,15 @@
 0
 - As people rely more and more on technology to solve problems, the ability of humans to think for themselves will surely deteriorate.
 
+  - Complexities :
+    - 
+
+  - Thoughts :
+    - (a:) mechanical devices, scripted automation, artificial intelligence (AI) ; (b:) personal touch to problem-solving 
+  - Scenario 1 : Theme 1 : ability to study / deductive reasoning isn't lost
+  - Scenario 2 : Theme 2 : expertise ; common knowledge vs. spec'd knowledge  
+  - Scenario 3 : Theme 3 : constant personality : people who are curious will remain curious, and those who aren't will also stay the way they are. 
+
 1
 - Govt & science
 - Teaching : praise and critique

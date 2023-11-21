@@ -33,12 +33,7 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-- electrical engineering :
-  - troubleshooting - the value of capacitors and resistors :
-    - handling voltage fluctuations
-    - dealing with unnecessary reactions to the falling edges of the system clock
-    - trial and error, or examining the integrity of cheap integrated circuits
-- control logic and assembly language encoding 
+[currently studying for the GRE , all projects postponed]
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

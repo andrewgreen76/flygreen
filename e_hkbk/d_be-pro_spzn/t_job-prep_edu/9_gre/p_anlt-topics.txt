@@ -1,44 +1,69 @@
 
+        [First scenario that comes to mind]
+        [Second scenario that comes to mind]
+        [Third scenario that comes to mind]
+	[THEN write the intro]
+	[And then re-write the intro		as a restatement in the outro]
 
-						--------------------------------- PERSPECTIVES --------------------------------- 
-
-						Poor assumptions	Solid.evid	Missing.evid		Counter-examples 
-					     				Examples
-
+==========================================================================================================================================
 
 - As people rely more and more on technology to solve problems, the ability of humans to think for themselves will surely deteriorate.
 
 
+     	    	      	       	  	     	      + benefits +   	       	      	       	  - drawbacks - 
 
-	Taking the bait of responding to this amusingly ambiguous claim, we can safely say that there is little to no correlation between leveraging technology and losing our ability to apply ourselves intellectually when it comes to solving problems. The collective strength of will of the human species took us so far that we are not willing to entertain even the slightest notion of how adoption and refinement of scientific advancements have taken intellectual potential away from us. To be convinced that nothing subtracts from our independent-thinking faculties in our engagement with technology we need to address a few exemplary points that highlight the lack of impact of any machine on human
+						      automating the boring tasks 		   
+   						      assembly line 
+						      scripting
+						      AI
+						      
+									only ways to entertain the opposing side :
+									
+												  lose : trivial : calc in your own head
 
-It must be noted that very little thought was put into composing the profferred claim, and the author of this essay refuses to acknowledge any possible complexities of the subject matter. With all that said, let's see how 
+
+
+	[First scenario that comes to mind]
+
+						      just a tool : 
+						      - scripted ; so what ; we retain steps to first principles
+        [Second scenario that comes to mind]
+
+						      just a tool :
+						      
+	[Third scenario that comes to mind]
 
 
 
 
+
+	[THEN write the intro]
+
+	[And then re-write the intro		as a restatement in the outro]
+
+social engagement
+        First, let's take a look at some of the activities that are best handled by technology and promise no benefit from human attention.
 
    	This is where technology is merely a means for achieving a desirable end. 
 
 	The first thing that must be pointed out is that is 
 
-social engagement 
-
-	First, let's take a look at some of the activities that are best handled by technology and promise no benefit from human attention.
-
 	Now let's examine instances where technology	
-
-- scripted ; so what ; we retain steps to first principles
  
 	Lastly, let's look at
 
-- artificial intelligence (AI)
 
 
 
- - automating the boring tasks 
-   - assembly line ; 
+	Taking the bait of responding to this amusingly ambiguous claim, we can safely say that there is little to no correlation between leveraging technology and losing our ability to apply ourselves intellectually when it comes to solving problems. The collective strength of will of the human species took us so far that the author of this writing is not willing to entertain even the slightest notion of how adoption and refinement of scientific advancements have taken intellectual potential away from us. It must be noted that very little thought was put into composing the profferred claim; therefore, the author of this essay refuses to acknowledge any possible complexities of the subject matter. And now, with all that said, below are a few ways for us to be convinced that nothing subtracts from our independent problem-solving faculties in our engagement with technology.  
 
+
+
+
+						--------------------------------- PERSPECTIVES --------------------------------- 
+
+						Poor assumptions	Solid.evid	Missing.evid		Counter-examples 
+					     				Examples
 
 1
 - Govt & science

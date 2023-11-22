@@ -10,39 +10,39 @@
 - As people rely more and more on technology to solve problems, the ability of humans to think for themselves will surely deteriorate.
 
 
-     	    	      	       	  	     	      + benefits +   	       	      	       	  - drawbacks - 
+     	    	      	       	  	     	      + benefits / means to a beneficial end +       - drawbacks / side-effects- 
+
+						      social engagement
+        					      First, let's take a look at some of the activities that are best handled by technology and promise no benefit from human attention.
+
+   						      assembly line : a method of relieving boredom, not a case of making the mind dull
+
 
 						      automating the boring tasks 		   
-   						      assembly line 
-						      scripting
+						      scripting : necessitated expedition of task completion ; somebody still needs to write that script ;
+						      		while it may be important for us to have a way of solving a problem, it does not necessarily have to be memorized and mechanically executed ; being able to do the same complicated thing over and over is a rather moot point to make , a dull task to repeat, and the sort of thing that can be easily documented for later examination.
+
+
 						      AI
 						      
 									only ways to entertain the opposing side :
 									
 												  lose : trivial : calc in your own head
 
-
-
-	[First scenario that comes to mind]
-
-						      just a tool : 
 						      - scripted ; so what ; we retain steps to first principles
-        [Second scenario that comes to mind]
-
-						      just a tool :
-						      
-	[Third scenario that comes to mind]
 
 
 
 
 
+
+
+
+
+	
 	[THEN write the intro]
 
 	[And then re-write the intro		as a restatement in the outro]
-
-social engagement
-        First, let's take a look at some of the activities that are best handled by technology and promise no benefit from human attention.
 
    	This is where technology is merely a means for achieving a desirable end. 
 

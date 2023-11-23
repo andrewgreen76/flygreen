@@ -1,4 +1,10 @@
 
+	Highlight/repeat/raise the case of the key words in the argument.
+	Break up possible responses into terms of a positive and terms of a negative stance.
+	- Any thought that comes to your head - write it down in one of the two columns.
+	- Take those thoughts and give shape to three whole arguments.
+	- Write "through" the arguments. 
+
         [First scenario that comes to mind]
         [Second scenario that comes to mind]
         [Third scenario that comes to mind]
@@ -7,14 +13,15 @@
 
 ==========================================================================================================================================
 
-- As people rely more and more on technology to solve problems, the ability of humans to think for themselves will surely deteriorate.
+" As people rely more and more on technology to solve problems, the ability of humans to think for themselves will surely deteriorate. "
+     	    rely      	       on tech	     to solve problems 
+__________________________________________________________________________________________________________________________________________
+
+     	    	      	       	  	     	      + benefits +			- side-effects- 
 
 
-     	    	      	       	  	     	      + benefits / means to a beneficial end +       - drawbacks / side-effects- 
-
-						      social engagement
-        					      First, let's take a look at some of the activities that are best handled by technology and promise no benefit from human attention.
-
+						      First, let's lend our focus to a painfully obvious example of technology making no negative impact on human problem-solving whatsoever - the design and deployment of the assembly line. 
+						      
    						      assembly line : a method of relieving boredom, not a case of making the mind dull
 
 
@@ -38,6 +45,11 @@
 
 
 
+
+						       / means to a beneficial end     	     drawbacks / 
+
+						      social engagement
+        					      First, let's take a look at some of the activities that are best handled by technology and promise no benefit from human attention.
 
 	
 	[THEN write the intro]

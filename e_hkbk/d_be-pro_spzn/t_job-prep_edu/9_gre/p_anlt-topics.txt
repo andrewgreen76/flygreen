@@ -1,15 +1,67 @@
 
 	Highlight/repeat/raise the case of the key words in the argument.
-	Break up possible responses into terms of a positive and terms of a negative stance.
+	Asked for an absolute or mixed stance ? 
+	Break up possible responses into terms of a positive stance and terms of a negative stance.
 	- Any thought that comes to your head - write it down in one of the two columns.
 	- Take those thoughts and give shape to three whole arguments.
 	- Write "through" the arguments. 
 
-        [First scenario that comes to mind]
+        [First scenario that comes to mind]	       
         [Second scenario that comes to mind]
         [Third scenario that comes to mind]
 	[THEN write the intro]
 	[And then re-write the intro		as a restatement in the outro]
+==========================================================================================================================================
+" Governments should place few, if any, restrictions on scientific research and development. "
+  Governments 	     	   few 	   	restrictions on scien.R&D
+
+Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take.
+      		    	      	      	  extent of agreement/disagreement 	     	 		    
+
+In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and expl
+      		    	      	      	  	    	      circumstances    	     adopting 	  		 would / - 	    be advantageous
+
+ain how these examples shape your position.
+__________________________________________________________________________________________________________________________________________
+
++									-
+Unbridled 								Restrictions 
+
+				Something truly controversial : 
+AI
+									vaccinations :
+									- companies sued :
+									- what for : 
+
+cybersecurity
+nothing unethical about
+		cloning
+		genetic engineering
+									weapons 
+
+				Frivolously treated subjects : 
+
+				Who is doing the regulating ?
+				Should they be the ones doing the regulating ? 
+				Whose interests ?
+				Who is being protected ? 
+									Harm
+									Ethics
+									Risks
+									
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ==========================================================================================================================================
 
@@ -18,20 +70,15 @@
 __________________________________________________________________________________________________________________________________________
 
      	    	      	       	  	     	      + benefits +			- side-effects- 
-
-
-						      First, let's lend our focus to a painfully obvious example of technology making no negative impact on human problem-solving whatsoever - the design and deployment of the assembly line. 
 						      
-   						      assembly line : a method of relieving boredom, not a case of making the mind dull
+						      First, let's lend our focus to a painfully obvious example of technology making no negative impact on our ability to solve problems - the design and deployment of the assembly line. Ever since the foundation of the Portsmouth Block Mills in the United Kingdom, the utilization of the assembly line reaped enormous benefits in the ways of human productivity at no cost to human intellect. The concept is simple : whatever the end goal, the production is expedited through the use of mechanical machinery. If you are an unskilled laborer in a distribution center for a bookstore, ... . 
 
-
-						      automating the boring tasks 		   
 						      scripting : necessitated expedition of task completion ; somebody still needs to write that script ;
-						      		while it may be important for us to have a way of solving a problem, it does not necessarily have to be memorized and mechanically executed ; being able to do the same complicated thing over and over is a rather moot point to make , a dull task to repeat, and the sort of thing that can be easily documented for later examination.
+						      
+						      while it may be important for us to have a way of solving a problem, it does not necessarily have to be memorized and mechanically executed ; being able to do the same complicated thing over and over is a rather moot point to make , a dull task to repeat, and the sort of thing that can be easily documented for later examination.
 
 
 						      AI
-						      
 									only ways to entertain the opposing side :
 									
 												  lose : trivial : calc in your own head
@@ -39,20 +86,15 @@ ________________________________________________________________________________
 						      - scripted ; so what ; we retain steps to first principles
 
 
-
-
-
-
-
-
+						      automating the boring tasks
 
 						       / means to a beneficial end     	     drawbacks / 
 
 						      social engagement
         					      First, let's take a look at some of the activities that are best handled by technology and promise no benefit from human attention.
-
 	
 	[THEN write the intro]
+	      tech : a method of relieving boredom, not a case of making the mind dull
 
 	[And then re-write the intro		as a restatement in the outro]
 

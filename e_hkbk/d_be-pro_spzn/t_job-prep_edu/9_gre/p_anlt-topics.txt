@@ -1,19 +1,87 @@
 
-	Highlight/repeat/raise the case of the key words in the argument.
-	Asked for an absolute or mixed stance ? 
-	Break up possible responses into terms of a positive stance and terms of a negative stance.
-	- Any thought that comes to your head - write it down in one of the two columns.
-	- Take those thoughts and give shape to three whole arguments.
-	- Write "through" the arguments. 
+	Highlight/repeat/raise the case of the key words in the argument.				KEYWORDS
+	Asked for an absolute or mixed stance ?								STANCE 
+	Break up possible responses into terms of a positive stance and terms of a negative stance.	
+	- Any thought that comes to your head - write it down in one of the two columns.    		JUSTIFY  
+	- Move up-in-the-air points towards the side that is winning (even by a margin).					up-in-the-air 
+	- Take those thoughts and give shape to three whole arguments.	      							arguments 
+	- Write "through" the arguments.
+	- Exploit the other side and counter-argue it.							EXPLOIT
 
         [First scenario that comes to mind]	       
         [Second scenario that comes to mind]
         [Third scenario that comes to mind]
 	[THEN write the intro]
 	[And then re-write the intro		as a restatement in the outro]
+	- closing remarks : opinions , thoughts
+	  - exploit 
+==========================================================================================================================================
+
+"Governments should offer college and university education free of charge to all students."
+	     	    	  	      		 ed	   free 
+
++						 	   	o						-
+
+price gouging													gives the ability to function as businesses 
+-> economically disadvantaged											encourages level competition
+-> not just economically disadvantaged but also middle class							creates jobs, but at the expense of others  
+-> detrimental to the reputation of ed.insts 
+
+One would believe that it makes perfect sense for educational institutions to be funded by the government for their payroll and expenses to be covered. However, 
+Unfortunately
+
+
+
+
+
+
+
+
+
+__________________________________________________________________________________________________________________________________________
+==========================================================================================================================================
+
+"The best way to teach is to praise positive actions and ignore negative ones."
+     	      	       	     praise 	     actions   	 ignore
+
+Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In d
+      		    	      	      	  extent    	      agree or disagree 
+
+eveloping and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations sha
+	      		      		    	   	    	    	      		      	 might/-   hold true 
+pe your position.
+
+DISAGREE 
+
++					extent 						-
+											Overton window
+											accounting for mistakes and learning from them
+											Tim Cain : story of yelling at a subordinate for being annoying even
+											    after discussing reasons for not including a feature. 
+											an art to ignoring negativity 
+appreciation/recognition of work							
+- brings satisfaction from working for the manager
+proactive
+- not wasting time on more negativity 
+
+reminders of what you should 		depends on the individual							
+keep doing 					       					 
+     											manipulate to listen to reason 
+											having discussions
+Teaching is :
+- teaching to care
+- teaching the right things
+- teaching productivity 
+- punishment (Overton window) 
+
+Teaching is NOT :
+- punishment
+											Tim Cain , during and after the period of your active influence
+__________________________________________________________________________________________________________________________________________
 ==========================================================================================================================================
 " Governments should place few, if any, restrictions on scientific research and development. "
   Governments 	     	   few 	   	restrictions on scien.R&D
+  			   reasonable 
 
 Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take.
       		    	      	      	  extent of agreement/disagreement 	     	 		    
@@ -27,17 +95,18 @@ ________________________________________________________________________________
 +									-
 Unbridled 								Restrictions 
 
+Unpoliticized R&D 
+
 				Something truly controversial : 
-AI
+AI ; surveillance 
+cybersecurity
+cloning : stem cell research, iPS 
+		genetic engineering
+									weapons 
 									vaccinations :
 									- companies sued :
 									- what for : 
 
-cybersecurity
-nothing unethical about
-		cloning
-		genetic engineering
-									weapons 
 
 				Frivolously treated subjects : 
 

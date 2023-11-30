@@ -1,0 +1,27 @@
+
+Fetch -( Decode )- Execute cycle :
+================================================
+
+
+
+Fetch :
+_____________________________________
+
+Load given mem.addr / insxn.ind : 
+> ctr --()-> MAR
+  PCOUT	     MARIN
+
+Load insxn+data (data @ m.addr) : 
+> MAD --()-> IR
+  MADOUT     IRIN 
+
+Go to next m.addr : 
+> ctr++ (ctr en)    for the next clk.ccl
+  CTE
+
+
+
+Execute :
+- ... 
+
+.

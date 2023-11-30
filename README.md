@@ -33,7 +33,8 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-[currently studying for the GRE , all projects postponed]
+ECE and programming :
+- creating a custom assembly language, programming for fetch-decode-execute cycles 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

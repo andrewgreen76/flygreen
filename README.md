@@ -37,9 +37,10 @@ ECE and programming :
 - creating a custom assembly language, programming for fetch-decode-execute cycles
 
 C programming :
-- sig figs in float and double values
+- type punning (with pointers)
+- determining the endian-ness of a device (computer) 
 - pointer arithmetic recap
-- type punning and determining the endian-ness of a device (computer) 
+- sig figs in float and double values
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

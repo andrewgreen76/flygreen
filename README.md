@@ -41,6 +41,7 @@ C programming :
 - determining the endian-ness of a device (computer) 
 - pointer arithmetic recap
 - sig figs in float and double values
+- loading strings into a char matrix 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

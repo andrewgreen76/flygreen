@@ -3,35 +3,10 @@
 int main() {
   printf("\n");
   
-  int a = 1, b = 2, c;
+  int a[] = {1,2};
 
-  printf("a = %d\n", a);
-  printf("b = %d\n", b);
-  printf("\n");
-  /*
-  c = a;
-  a = b;
-  b = c;
-  */
-
-  /*
-    a = 0001
-    b = 0010
-
-    a = 0011
-    b = 0010
-
-    a = 0011
-    b = 0001
-
-    a = 0010
-    b = 0001
-   */
-  
-  a ^= b ^= a ^= b;
-  
-  printf("a = %d\n", a);
-  printf("b = %d\n", b);
+  if(a == &a[0]) printf("Bazinga!\n");
+  else printf("... Not bazinga. (:-( \n");
   
   printf("\n");
 }

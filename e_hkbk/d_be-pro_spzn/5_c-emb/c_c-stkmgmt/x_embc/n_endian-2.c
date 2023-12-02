@@ -27,7 +27,7 @@ int main(){
   */
   
   printf("&i : %p\n", &i );    // 0x7ffc551658d0
-  char * w = (char *) &i; 
+  char * w = (char *) &i;      // as a ptr to a byte of memory, not as a ptr to a char. 
   
   printf("(char *) &i : %p\n",  w);
   printf("%x\n", *w);

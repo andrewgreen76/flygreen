@@ -27,6 +27,8 @@ int main(){
   
   printf("&i : %p\n", &i );    // 0x7ffc551658d0
   char * w = (char *) &i;      // 0x 04
+
+  // The & of the whole int is the & of the end/SB of the int. 
   
   printf("(char *) &i : %p\n",  w);
   printf("%x\n", *w);

@@ -3,8 +3,7 @@
 int main(){
   printf("\n");
 
-  /* Which way is the main memory populated ? : 
-
+  /*
     Little-endian : starting with the LSB
     Big-endian : starting with the MSB 
    */
@@ -20,14 +19,14 @@ int main(){
    size of int = 4 Bytes
        0x 01020304 
        @
-       0x 00007ffc551658df - 0x 01
-       0x 00007ffc551658de - 0x 02
-       0x 00007ffc551658dd - 0x 03
-       0x 00007ffc551658dc - 0x 04
+       0x 00007ffc551658dx
+       0x 00007ffc551658dy
+       0x 00007ffc551658dz
+       0x 00007ffc551658d0
   */
   
   printf("&i : %p\n", &i );    // 0x7ffc551658d0
-  char * w = (char *) &i; 
+  char * w = (char *) &i;      // 0x 04
   
   printf("(char *) &i : %p\n",  w);
   printf("%x\n", *w);
@@ -43,6 +42,30 @@ int main(){
   w++;
   printf("(char *) &i : %p\n",  w);
   printf("%x\n", *w);
+
+  /*
+  char * c = (char *) &i;
+
+  printf("*c : %d\n", *c );  
+  printf("c : %p\n", c );  
+  */
+  
+  //printf("Out is : %li", sizeof(&i) );
+  
+  /*
+  if(*c) printf("Little-endian\n");
+  else printf("Big-endian\n");
+  */
+
+  //int g = 0x01020304;   // g = 00 00 00 01
+                        //              ^ 
+                        // &g = 0x 7ffc551658d0
+  //printf("&g : %p", &g );
+  //char j = &g;
+  //printf("Out : %s", (char *) &g );
+  //(char) &g  // Take the var.address
+  //int *h = &g;
+  //printf("Out : %d", *h);
 
   printf("\n");
 }

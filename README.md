@@ -42,7 +42,9 @@ C programming :
 - pointer arithmetic recap
 - sig figs in float and double values
 - loading strings into a char matrix
-- explicit type casting on return value from malloc()
+- malloc() :
+  - basics recap 
+  - explicit type casting on return value from malloc()
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

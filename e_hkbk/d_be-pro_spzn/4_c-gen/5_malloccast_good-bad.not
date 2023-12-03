@@ -1,5 +1,5 @@
 
-=============================== Is it GOOD practice to explicitly cast the correct type from malloc ? ===============================
+================ Is it GOOD practice to explicitly cast the correct type on the return value from malloc() ? ================
 
 #include <stdlib.h>
 int main(void){
@@ -11,7 +11,7 @@ int main(void){
     return 0;
 }
 
-=============================== Is it BAD practice to explicitly cast the correct type from malloc ? ================================
+================ Is it BAD practice to explicitly cast the correct type on the return value from malloc() ? =================
 
 "
 In C, it's not necessary to cast the return value of `malloc` explicitly because the `void*` pointer returned by `malloc` is automatically and safely converted to the desired pointer type. However, casting the return value of `malloc` is not an error in itself, but it can lead to certain issues:

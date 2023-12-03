@@ -41,7 +41,8 @@ C programming :
 - determining the endian-ness of a device (computer) 
 - pointer arithmetic recap
 - sig figs in float and double values
-- loading strings into a char matrix 
+- loading strings into a char matrix
+- explicit type casting on return value from malloc()
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

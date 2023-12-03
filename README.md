@@ -45,6 +45,7 @@ C programming :
 - malloc() :
   - basics recap 
   - explicit type casting on return value from malloc()
+  - creating an array 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

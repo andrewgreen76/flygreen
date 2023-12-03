@@ -43,7 +43,7 @@ C programming :
 - sig figs in float and double values
 - loading strings into a char matrix
 - malloc() :
-  - basics recap 
+  - basics recap : <stdlib.h> , the heap 
   - explicit type casting on return value from malloc()
   - creating an array 
 __________________________________________________________________________

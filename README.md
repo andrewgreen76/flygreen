@@ -34,7 +34,7 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
 ECE and programming :
-- creating a custom assembly language, programming for fetch-decode-execute cycles
+- creating a custom assembly language , programming for fetch-decode-execute cycles
 
 C programming :
 - type punning (with pointers)

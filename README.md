@@ -45,7 +45,8 @@ C programming :
 - malloc() :
   - basics recap : <stdlib.h> , the heap 
   - explicit type casting on return value from malloc()
-  - creating an array 
+  - creating an array
+- struct padding 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

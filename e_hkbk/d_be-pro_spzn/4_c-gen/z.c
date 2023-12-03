@@ -12,12 +12,15 @@ void initializePoly(struct point *, int);
 
 int main(void) {
     // Fill in your main function here
-    int nvs=0;
+    int npts=0;
     struct point * poly_0;
-    scanf("%d", &nvs);
+    scanf("%d", &npts);
     
-    initializePoly(poly_0, nvs);
-    printPoly(poly_0, nvs);
+    poly_0 = (struct point *) malloc( npts*sizeof(struct point) );
+    initializePoly(poly_0, npts);
+    printPoly(poly_0, npts);
+    
+    free(poly_0);
 }
 
 void printPoint(struct point pt) {
@@ -34,9 +37,9 @@ void printPoly(struct point *ptr, int N) {
 // Write your initializePoly() function here
 void initializePoly(struct point * poly_0, int npts){
     int i;
-    poly_0 = (struct point *) malloc( npts*sizeof(struct point) );
     
     for(i=0 ; i<npts ; i++){
-        poly_0[i]
+        (poly_0+i)->x = i*-1;
+        (poly_0+i)->y = i*i;
     }
 }

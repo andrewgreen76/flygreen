@@ -9,7 +9,7 @@ b) largest to smallest
 
 ------------------------------
 
-a) Swap with brute force (3rd var.)
+a) Swap with brute force (3rd, temp var.)
 b) Swap with ^= (xor)
 
 ------------------------------

@@ -1,0 +1,26 @@
+
+"
+A resolved path, also known as an absolute path, refers to a file or directory's location in a file system without any symbolic links or relative references. It represents the complete and unambiguous path from the root of the file system to the specific file or directory.
+
+Here are a few key points about resolved paths:
+
+1. **No Symbolic Links:** A resolved path does not contain any symbolic links. If a path includes symbolic links, resolving it involves replacing those links with their actual target paths.
+
+2. **No Relative References:** Resolved paths don't contain any relative references such as `.` (current directory) or `..` (parent directory). All components of the path are explicitly specified from the root.
+
+3. **Unambiguous:** The resolved path is unique and unambiguous. It points to a specific location in the file system without any reliance on the current working directory or symbolic links.
+
+For example, consider the following path: `/home/user/documents/file.txt`
+
+In this case:
+
+- `/` represents the root of the file system.
+- `home` is a directory inside the root.
+- `user` is a subdirectory of `home`.
+- `documents` is a subdirectory of `user`.
+- `file.txt` is a file inside the `documents` directory.
+
+This is an absolute or resolved path because it explicitly specifies the location of the file from the root of the file system. Resolved paths are often used to refer to files or directories in a way that is independent of the current working directory.
+"
+
+.

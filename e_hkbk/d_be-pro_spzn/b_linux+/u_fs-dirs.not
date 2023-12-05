@@ -1,0 +1,40 @@
+
+/bin
+- basic commands for a minimal system
+
+/sbin
+- commands/execs/bins for the superuser/root
+
+/home
+- holds directories of individual users' homes (so it's a super-home, if you will)
+
+/root
+- home of the root user
+
+/etc
+- configs
+- stands for "editable text configuration"
+
+/lib
+- libraries for binaries
+
+/tmp
+- temporary files
+- emptied at every reboot 
+- can be	/var/tmp	-or-	/run/tmp
+
+/var
+- misc. files used by the OS (e.g., databases, email, history, etc.)
+- /var/logs holds records of activity within the system 
+
+/usr (Unix System Resources)
+- similar to /root
+- extended system operations (i.e., non-essential to the system)
+  => the files and directories here are not in /root
+- e.g., /usr/bin , /usr/lib 
+
+/dev
+- files related to physical devices
+- /dev/printer , /dev/audio , /dev/mem , /dev/networkcard 
+
+.

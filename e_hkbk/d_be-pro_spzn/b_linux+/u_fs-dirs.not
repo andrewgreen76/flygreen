@@ -1,40 +1,95 @@
 
+/boot
+- files needed by the bootloader
+- holds the kernel and initramfs 
+
 /bin
-- basic commands for a minimal system
+- basic commands and executables for a minimal system
+- may be symbolically linked to /usr/bin 
 
 /sbin
-- commands/execs/bins for the superuser/root
+- commands/execs/bins for the		SUPERUSER/ROOT
+- (apps used to be statically linked , featured fewer library dependencies) 
+- may be symbolically linked to /usr/sbin 
 
 /home
 - holds directories of individual users' homes (so it's a super-home, if you will)
 
+/[user-you]
+- your personal files 
+- user-specific configs 
+
 /root
-- home of the root user
+- home of the root user 
 
 /etc
-- configs
+- essential configs
+- start-up scripts 
 - stands for "editable text configuration"
 
 /lib
-- libraries for binaries
+- shared libraries for binaries the system would use
+- in other words, processes share the same library code 
+- may be symbolically linked to /usr/lib
+- e.g. : lib (32-bit) , lib64 (64-bit) 
 
 /tmp
-- temporary files
+- temporary files (downloads, keys, notes) 
 - emptied at every reboot 
 - can be	/var/tmp	-or-	/run/tmp
 
-/var
-- misc. files used by the OS (e.g., databases, email, history, etc.)
-- /var/logs holds records of activity within the system 
+/var 
+- misc. variable files specific to and used by the OS (e.g., databases, email, history, etc.)
+- /var/logs holds records of activity within the system
+- temporary message files
+- spool files
+- system-specific configs
+- web-server files (like in /srv) 
 
 /usr (Unix System Resources)
 - similar to /root
-- extended system operations (i.e., non-essential to the system)
+- utilities, extended system operations (i.e., non-essential to the system)
   => the files and directories here are not in /root
 - e.g., /usr/bin , /usr/lib 
 
 /dev
-- files related to physical devices
-- /dev/printer , /dev/audio , /dev/mem , /dev/networkcard 
+- files related to physical and virtual devices
+- /dev/printer , /dev/audio , /dev/mem , /dev/networkcard
+- "Everything is a file or directory."
+
+===========================================================================================
+
+/lost+found
+- broken files post-crash (think coredump)
+
+/media
+- mount point for fs stored on removable media devices
+- Linux may auto-mount the devices
+
+/mnt
+- "mount"
+- keeps track of temporarily mounted devices (e.g., network storage server)
+- permanent mounting is also possible
+
+/opt
+- optional software packages (placed by vendor(s))
+- retained for software compatibility 
+- rarely used
+
+/proc
+- a sudo fs (created at boot time, destroyed at shutdown)
+- holds info about every live process on the machine (every process has its own dir)
+- holds info about the system, hardware, etc.
+
+/run
+- info about the system since boot time (logged users, daemons)
+
+/srv
+- files served by web-servers and server protocols
+- rarely
+
+/sys
+- info about devices , drivers , kernel features
+- better structured than /proc 
 
 .

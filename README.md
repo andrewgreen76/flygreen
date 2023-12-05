@@ -46,7 +46,9 @@ C programming :
   - basics recap : <stdlib.h> , the heap 
   - explicit type casting on return value from malloc()
   - creating an array
-- struct padding 
+- struct padding
+
+Linux filesystem directories 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

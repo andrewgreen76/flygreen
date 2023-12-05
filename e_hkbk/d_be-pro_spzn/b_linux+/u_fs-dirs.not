@@ -1,4 +1,6 @@
 
+See man for "hier". 
+
 /boot
 - files needed by the bootloader
 - holds the kernel and initramfs 

@@ -48,7 +48,9 @@ C programming :
   - creating an array
 - struct padding
 
-Linux filesystem directories 
+Linux : 
+- filesystem directories
+- 'locate' , 'updatedb' , listing with 'echo'
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

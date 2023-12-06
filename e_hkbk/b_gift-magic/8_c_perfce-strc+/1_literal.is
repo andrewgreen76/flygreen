@@ -1,0 +1,69 @@
+
+A hard-coded value. 
+
+
+
+"
+In programming languages, a literal refers to the notation used to represent a fixed value within the source code. It is a way to express constant values directly in the code. Literals can represent values of various data types such as integers, floating-point numbers, characters, strings, and more.
+
+Here are some examples of literals in common programming languages:
+
+1. **Integer Literals:**
+   ```python
+   # Python
+   age = 25
+   ```
+
+   ```java
+   // Java
+   int count = 10;
+   ```
+
+2. **Floating-Point Literals:**
+   ```javascript
+   // JavaScript
+   var pi = 3.14;
+   ```
+
+   ```c
+   // C
+   float distance = 5.67;
+   ```
+
+3. **String Literals:**
+   ```ruby
+   # Ruby
+   message = "Hello, World!"
+   ```
+
+   ```swift
+   // Swift
+   let greeting = "Hi there"
+   ```
+
+4. **Character Literals:**
+   ```csharp
+   // C#
+   char grade = 'A';
+   ```
+
+   ```cpp
+   // C++
+   char letter = 'B';
+   ```
+
+5. **Boolean Literals:**
+   ```python
+   # Python
+   is_valid = True
+   ```
+
+   ```javascript
+   // JavaScript
+   var isEnabled = false;
+   ```
+
+Literals are fixed values that are directly written in the source code, and they represent specific data types. They are used to initialize variables with specific values and are an essential part of any programming language.
+"
+
+.

@@ -51,6 +51,7 @@ C programming :
 Linux : 
 - filesystem directories
 - 'yes' , 'locate' , 'updatedb' , listing with 'echo'
+- management of physical memory vs. virtual memory 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

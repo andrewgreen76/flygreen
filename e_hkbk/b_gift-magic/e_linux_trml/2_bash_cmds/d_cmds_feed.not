@@ -21,7 +21,7 @@ ________________________________________________________________________________
 
 ... > /dev/null		   - going nowhere, getting deleted
 
-cat [in_file] > ./[prog]   - inputs within a file as inputs for a program 
+cat [in_file] | ./[prog]   - inputs within a file as inputs for a program 
 ./[prog] < [in_file]	   - // -
 
 .

@@ -189,6 +189,12 @@ fprintf(dstFptr,"%d.%s\n", i, str) 	-   comp string  -> file.
 fscanf(srcFptr,"%s %d\n", &nome, &voto) -   file string (-> decomp).
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Alternatives to scanf :
+
+fgets() - captures newlines as well 
+getline() - only for POSIX systems 
+readline() - only for Linux distributions 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 putc(c, dstStrm/dstVar)	- 	 char  -> stream. 
 c=getc(srcStrm/srcVar)	- stream char (-> var c). 

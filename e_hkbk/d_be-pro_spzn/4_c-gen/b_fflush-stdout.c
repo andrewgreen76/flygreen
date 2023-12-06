@@ -1,5 +1,7 @@
 /* 
    fflush(stdout);    // Forces the input buffer content to be unloaded (onto the indicated data stream (here stdout for the terminal) ). 
+   
+   return 0;          // Forces the flushing of all buffers. 
 */
 
 #include <stdio.h>

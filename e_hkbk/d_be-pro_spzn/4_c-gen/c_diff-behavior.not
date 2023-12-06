@@ -1,0 +1,9 @@
+
+Not all C compilers are alike. Not all operating systems and distributions are alike.
+- While processing something like
+
+  	printf("How are you?");
+
+  different systems and different compilers will demonstrate different behavior. Some will print the prompt right on time and some won't. 
+
+.

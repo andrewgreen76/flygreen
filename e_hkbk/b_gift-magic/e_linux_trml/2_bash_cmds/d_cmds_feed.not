@@ -17,3 +17,11 @@
 
 cat "$([cmd])"		   - this COMMAND SUBSTITUTION streams command/composite output to the cat command. 
 
+__________________________________________________________________________________________________________________
+
+... > /dev/null		   - going nowhere, getting deleted
+
+cat [in_file] > ./[prog]   - inputs within a file as inputs for a program 
+./[prog] < [in_file]	   - // -
+
+.

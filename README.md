@@ -50,7 +50,7 @@ C programming :
 
 Linux : 
 - filesystem directories
-- 'locate' , 'updatedb' , listing with 'echo'
+- 'yes' , 'locate' , 'updatedb' , listing with 'echo'
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

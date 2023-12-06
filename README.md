@@ -39,7 +39,7 @@ ECE and programming :
 C programming :
 - type punning (with pointers)
 - determining the endian-ness of a device (computer) 
-- pointer arithmetic recap
+- pointer arithmetic - recap
 - sig figs in float and double values
 - loading strings into a char matrix
 - malloc() :
@@ -47,6 +47,7 @@ C programming :
   - explicit type casting on return value from malloc()
   - creating an array
 - struct padding
+- buffered vs. unbuffered read - recap 
 
 Linux : 
 - filesystem directories

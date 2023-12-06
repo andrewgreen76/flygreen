@@ -1,0 +1,7 @@
+
+- virtual memory : memory being requested by a process.
+- physical memory : memory actually being used by a process. 
+
+- Unused virtual memory requested by a process is not accounted for physical memory usage.
+
+.

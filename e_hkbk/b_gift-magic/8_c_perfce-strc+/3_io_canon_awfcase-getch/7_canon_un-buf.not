@@ -10,6 +10,79 @@ Unbuffered input, a.k.a. unbuffered read :
 
 
 
-In C all input is buffered by default. 
+In C all input is buffered by default.
+
+
+
+"
+In C, the terms "buffered" and "unbuffered" refer to the way input and output operations are handled by the standard I/O library. Let's explore the differences between buffered and unbuffered input:
+
+### Buffered Input:
+
+1. **Default Behavior:**
+   - Input operations, such as those performed with `getchar`, `scanf`, or `fgets`, are typically buffered by default.
+   - This means that the standard I/O library collects a certain amount of input (characters) into a buffer before making it available to the program.
+
+2. **Efficiency:**
+   - Buffering is done for efficiency reasons. Reading and writing data in larger chunks, rather than one character at a time, reduces the number of system calls and can improve overall performance.
+
+3. **Line Buffering:**
+   - By default, standard input is line-buffered, meaning that the buffer is flushed (written to the program) when a newline character is encountered.
+
+4. **Buffer Size:**
+   - The size of the buffer depends on the system and the I/O library implementation. Common sizes are 512 bytes or more.
+
+5. **Explicit Flushing:**
+   - Buffers can be explicitly flushed using functions like `fflush` or when the program exits.
+
+### Unbuffered Input:
+
+1. **Explicitly Requested:**
+   - Input can be made unbuffered by explicitly requesting it, for example, using the `setvbuf` function.
+
+2. **Immediate Availability:**
+   - In unbuffered mode, each character is immediately made available to the program as soon as it is entered.
+
+3. **No Line Buffering:**
+   - Unlike line buffering in the default buffered mode, unbuffered input does not wait for a newline character before making data available.
+
+Here's a simple example of unbuffered input using `setvbuf`:
+
+```c
+#include <stdio.h>
+
+int main() {
+    char ch;
+
+    // Explicitly request unbuffered input for stdin
+    setvbuf(stdin, NULL, _IONBF, 0);
+
+    printf("Enter a character: ");
+    ch = getchar();
+
+    printf("You entered: %c\n", ch);
+
+    return 0;
+}
+```
+
+In this example, `setvbuf` is used to set standard input (`stdin`) to unbuffered mode.
+
+### Summary:
+
+- **Buffered Input:**
+  - Default behavior.
+  - Read and write data in larger chunks.
+  - Line buffering is common.
+  - Improved performance.
+
+- **Unbuffered Input:**
+  - Explicitly requested.
+  - Immediate availability of input characters.
+  - No waiting for newline characters.
+  - Can be less efficient for certain scenarios.
+
+The choice between buffered and unbuffered input depends on the specific requirements and characteristics of the application. In many cases, the default buffered mode is suitable and efficient.
+"
 
 .

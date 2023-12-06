@@ -1,4 +1,15 @@
 
+Buffered input, a.k.a. buffered read :
+- Hint : expects a string and hitting <Enter>. 
+- Expl : At some point during runtime the program will use a buffer that will register multiple character inputs before the <Enter> key is pressed.
+- Canonical : The state of expecting buffered input is called the canonical mode. 
 
+Unbuffered input, a.k.a. unbuffered read :
+- Hint : expects pressing a single key.
+- The canonical mode should be disabled. 
+
+
+
+In C all input is buffered by default. 
 
 .

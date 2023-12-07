@@ -8,19 +8,21 @@
 
 .sh
 
-.elf
+.elf	- executable - Executable and Linkable Format 
 
 dwarf 
 
-.a	- auxiliary library (e.g., libm.a (math library) ) 
+.a	- auxiliary library - ar archive (e.g., libm.a (math library) )
+.so...	- // -
+.spec	- // -
 
 
 
 /usr/include
--
+- library headers (with prototypes, etc.)
 
 /usr/lib
-- libraries 
+- libraries (with function definitions pre-compiled for specific systems and processors)
 
 /usr/bin
 - binaries/applications 

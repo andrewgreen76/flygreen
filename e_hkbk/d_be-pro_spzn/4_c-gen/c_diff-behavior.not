@@ -1,9 +1,16 @@
 
 Not all C compilers are alike. Not all operating systems and distributions are alike.
+__________________________________________________________________________________________
+
 - While processing something like
 
   	printf("How are you?");
 
-  different systems and different compilers will demonstrate different behavior. Some will print the prompt right on time and some won't. 
+  without the \n at the end of the prompt, different systems and different compilers will demonstrate different behavior. Some will print the prompt right on time and some won't. 
+__________________________________________________________________________________________
+
+- On some (Linux) systems in the gcc command you may have to include the tag for the library that is to be included in the source code, like 
+
+     -lm
 
 .

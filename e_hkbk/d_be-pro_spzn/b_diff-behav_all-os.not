@@ -15,12 +15,19 @@ Not all C compilers are alike. Not all operating systems and distributions are a
 ========================================= Linux =========================================
 =========================================================================================
 
-- On some (Linux) systems in the gcc command you may have to include the tag for the library that is to be included in the source code, like 
+- On some (Linux) systems in the gcc command you may have to include the flag for the library that is to be included in the source code, like 
 
      -lm
 
   or write out the absolute path to that .a/.so library.
 
-  - However, you do NOT write out the tags for standard libraries (e.g., stdio, stdlib). 
+  - However, you do NOT write out the flags for standard libraries (e.g., stdio, stdlib). 
+
+=========================================================================================  
+=========================================================================================  
+=========================================================================================  
+
+Link face :
+- 
 
 .

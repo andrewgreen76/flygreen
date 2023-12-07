@@ -1,0 +1,22 @@
+
+CC = gcc
+CFLAGS = -std=c11 -Wall -fmax-errors=10 -Wextra
+LFLAGS =
+LIBS =
+OBJFILES = main.o aux.o
+MAIN = main
+
+
+
+all: $(MAIN)
+
+$(MAIN): $(OBJFILES)
+	 $(CC) $(CFLAGS) -o $(MAIN) $(OBJFILES)
+
+%.o: %.c
+     $(CC) $(CFLAGS) -c -o $@ $<
+
+clean
+	rm -f $(OBJFILES) $(MAIN) 
+
+#

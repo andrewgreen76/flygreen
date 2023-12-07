@@ -12,17 +12,17 @@
 
 dwarf 
 
-.a	- auxiliary library - ar archive (e.g., libm.a (math library) )
-.so...	- // -
-.spec	- // -
-
 
 
 /usr/include
-- library headers (with prototypes, etc.)
+- headers (with function declarations) 
 
 /usr/lib
-- libraries (with function definitions pre-compiled for specific systems and processors)
+- function definitions (pre-compiled for specific systems and processors)
+  |
+  .a	   - auxiliary library - ar archive (e.g., libm.a (math library) )
+  .so...   - // -
+  .spec	   - // -
 
 /usr/bin
 - binaries/applications 

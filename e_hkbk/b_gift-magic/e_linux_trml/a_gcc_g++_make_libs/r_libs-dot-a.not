@@ -8,14 +8,14 @@ Static library :
 - Naturally, the executable will still work as long as the library, once rendered incompatible, is not re-linked.
 - fast library access 
 
-
-
-$ ar rcs lib[imagination].a	1.o	2.o	... 
-  - r - Replace (overwrite existing resource) 
-  - c - Creative (allow for creating non-yet-existing resource) 
-  - s - generate a fast-access index
-
-
+Compile objs :		$ gcc -c 1.c -o 1.o
+	     	      	$ gcc -c 2.c -o 2.o
+Create stat.lib :     	$ ar rcs libimag.a	1.o	2.o	... 
+       		      	     - r - Replace (overwrite existing resource) 
+  			     - c - Creative (allow for creating non-yet-existing resource) 
+  			     - s - generate a fast-access index
+Compile prg main src :  $ gcc -c prog.c -o prog.o		   
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 $ gcc -o exec main.o lib[imag].a
 |
@@ -32,6 +32,16 @@ Dynamic (shared) library :
 - extensions : .so (Linux) or .dll (Windows)
 - the executable will automatically use the most recent/saved/changed form of the library
 - susceptible to incompatibility, the library will render the executable useless
-- slow library access due to overhead from dynamic querying of symbols 
+- slow library access due to overhead from dynamic querying of symbols
+
+
+- Use the "-fpic" flag in "gcc -c -fpic src.c -o src.o" to make the library dynamic.
+  - the flag is for position-independent code 
+
+
+Compile objs :		$ gcc -c -fpic 1.c -o 1.o
+	     	      	$ gcc -c -fpic 2.c -o 2.o
+Create dyn.lib :     	$ gcc -shared -o lib[imagination].so	  1.o	  2.o	  ...
+Compile prg main src :  $ gcc -c prog.c -o prog.o		   
 
 .

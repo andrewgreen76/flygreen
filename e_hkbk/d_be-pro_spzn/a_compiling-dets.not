@@ -5,10 +5,13 @@ ________________________________________________________________________________
 The compiler first calls the pre-processor. 
 - Pre-processor :
   - includes libraries/functions indicated by the directives.
+  - <angular brackets> suggest that the library is in /usr/include . 
+    Use "double quotes" instead to show that it's a local custom library just for this program. 
 
 Then it converts the source code into objects files.
 - Object file :
-  - the source code in machine language form, used for generating the binary. 
+  - the source code in machine language form, used for generating the binary.
+  - Every implementation file (.c) should have its respective object file. 
 
 The compiler then calls the linker.
 - Linker :

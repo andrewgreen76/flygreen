@@ -23,11 +23,4 @@ Not all C compilers are alike. Not all operating systems and distributions are a
 
   - However, you do NOT write out the flags for standard libraries (e.g., stdio, stdlib). 
 
-=========================================================================================  
-=========================================================================================  
-=========================================================================================  
-
-Link face :
-- 
-
 .

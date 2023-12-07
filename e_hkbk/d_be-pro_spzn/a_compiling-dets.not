@@ -1,0 +1,17 @@
+
+Compiling details :
+____________________
+
+Pre-processor :
+- includes libraries/functions indicated by the directives.
+
+Object file :
+- the source code in machine language form, used for generating the binary. 
+____________________
+
+$ gcc -c 
+
+Link face :
+- 
+
+.

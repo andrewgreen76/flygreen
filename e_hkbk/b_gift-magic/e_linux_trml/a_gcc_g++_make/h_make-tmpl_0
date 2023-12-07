@@ -8,6 +8,8 @@ MAIN = main
 
 
 
+# Targets : 
+
 all: $(MAIN)
 
 $(MAIN): $(OBJFILES)

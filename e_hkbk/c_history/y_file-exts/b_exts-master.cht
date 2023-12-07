@@ -4,13 +4,34 @@
 
 .txt
 
+=================================== Linux  ====================================
+
+.sh
+
+.elf
+
+dwarf 
+
+.a	- auxiliary library (e.g., libm.a (math library) ) 
+
+
+
+/usr/include
+-
+
+/usr/lib
+- libraries 
+
+/usr/bin
+- binaries/applications 
+
+================================== Windows  ===================================
+
 .cmd
  - shell scripting for automation (compiling, running, etc.)
  - automation is there for you to avoid repeated typing of the same thing(s) 
 
 .bat
-
-.sh
 
 .conf
  - 
@@ -22,7 +43,7 @@
 .dll: 
  - drivers
 
--------------------------------------------------------------------------------
+===============================================================================
 
 .bmp
 
@@ -37,3 +58,5 @@
 .ttf
 
 ===============================================================================
+
+.

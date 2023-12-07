@@ -2,9 +2,13 @@
 Library:
 - object files linked together as an archive (extension .a) .
 - a.k.a. static library.
-$ ar rcs
+
+$ ar rcs lib[imagination].a	1.o	2.o	... 
   - r - Replace (overwrite existing resource) 
   - c - Creative (allow for creating non-yet-existing resource) 
-  - s - generate a fast-access index 
+  - s - generate a fast-access index
+
+$ gcc -o exec main.o lib[imag].a 
+  - Do NOT use -c ; you already have object files generated that are to be funnelled into this archive.  
 
 .

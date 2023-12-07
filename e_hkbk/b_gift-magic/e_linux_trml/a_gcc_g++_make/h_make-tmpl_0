@@ -4,7 +4,7 @@ CFLAGS = -std=c11 -Wall -fmax-errors=10 -Wextra
 LFLAGS =
 LIBS =
 OBJFILES = main.o aux.o
-MAIN = main
+MAIN = prog
 
 
 
@@ -18,7 +18,10 @@ $(MAIN): $(OBJFILES)
 %.o: %.c
      $(CC) $(CFLAGS) -c -o $@ $<
 
-clean
-	rm -f $(OBJFILES) $(MAIN) 
+clean: 
+	rm -f $(OBJFILES) $(MAIN)
+
+launch: prog
+	./prog 
 
 #

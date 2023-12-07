@@ -1,0 +1,10 @@
+
+Library:
+- object files linked together as an archive (extension .a) .
+- a.k.a. static library.
+$ ar rcs
+  - r - Replace (overwrite existing resource) 
+  - c - Creative (allow for creating non-yet-existing resource) 
+  - s - generate a fast-access index 
+
+.

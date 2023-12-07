@@ -14,13 +14,13 @@ Create stat.lib :     	$ ar rcs libimag.a	1.o	2.o	...
        		      	     - r - Replace (overwrite existing resource) 
   			     - c - Creative (allow for creating non-yet-existing resource) 
   			     - s - generate a fast-access index
-Compile prg main src :  $ gcc -c prog.c -o prog.o		   
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Compile prg main src :  $ gcc -c prog.c -o prog.o
+Link lib to main prg : 	$ gcc -o main main.o -L. -limag
+     	    	     	  -or-
+     	    	     	$ gcc -o main main.o lib[imag].a
+__________________________________________________________________________________________________________
 
-$ gcc -o exec main.o lib[imag].a
- -or-
-$ gcc -o exec main.o -L. -l[imag] 
-  - Do NOT use -c ; you already have object files generated that are to be funnelled into this archive.  
+-L. - path to the lib in the working dir. 
 __________________________________________________________________________________________________________
 
 Dynamic (shared) library :
@@ -40,6 +40,8 @@ Dynamic (shared) library :
 Compile objs :		$ gcc -c -fpic 1.c -o 1.o
 	     	      	$ gcc -c -fpic 2.c -o 2.o
 Create dyn.lib :     	$ gcc -shared -o lib[imagination].so	  1.o	  2.o	  ...
-Compile prg main src :  $ gcc -c prog.c -o prog.o		   
-
+Compile prg main src :  $ gcc -c main.c -o main.o
+Link lib to main prg : 	$ gcc -o main main.o -L. -limag
+     	    	     	$ export LD_LIBRARY_PATH=$PWD:$LD_LIBRARY_PATH
+			
 .

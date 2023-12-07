@@ -1,14 +1,37 @@
 
-Library:
-- object files linked together as an archive (extension .a) .
-- a.k.a. static library.
+Static library : 
+- object files linked together as an archive (extension .a) . 
+- used library functions are thrown into the executable, so multiple copies may exist.
+  => the executable is relatively large, taking up more disk space and memory (at runtime) 
+- extensions : .a (Linux) or .lib (Windows)
+- any change would warrant re-linking
+- Naturally, the executable will still work as long as the library, once rendered incompatible, is not re-linked.
+- fast library access 
+
+
 
 $ ar rcs lib[imagination].a	1.o	2.o	... 
   - r - Replace (overwrite existing resource) 
   - c - Creative (allow for creating non-yet-existing resource) 
   - s - generate a fast-access index
 
-$ gcc -o exec main.o lib[imag].a 
+
+
+$ gcc -o exec main.o lib[imag].a
+|
+-or-
+|
+$ gcc -o exec main.o -L. -l[imag] 
   - Do NOT use -c ; you already have object files generated that are to be funnelled into this archive.  
+__________________________________________________________________________________________________________
+
+Dynamic (shared) library :
+- linked at runtime by the OS, the library only in one location, shared by all programs that need it (i.e., processes to share memory).
+- executable code contains names and links (references?) to the used library functions in their binary form, not the functions themselves.
+  => this makes the executable code relatively lean 
+- extensions : .so (Linux) or .dll (Windows)
+- the executable will automatically use the most recent/saved/changed form of the library
+- susceptible to incompatibility, the library will render the executable useless
+- slow library access due to overhead from dynamic querying of symbols 
 
 .

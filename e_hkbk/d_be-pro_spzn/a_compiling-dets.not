@@ -1,17 +1,33 @@
 
 Compiling details :
-____________________
+________________________________________________________________________________
 
-Pre-processor :
-- includes libraries/functions indicated by the directives.
+The compiler first calls the pre-processor. 
+- Pre-processor :
+  - includes libraries/functions indicated by the directives.
 
-Object file :
-- the source code in machine language form, used for generating the binary. 
-____________________
+Then it converts the source code into objects files.
+- Object file :
+  - the source code in machine language form, used for generating the binary. 
 
-$ gcc -c 
+The compiler then calls the linker.
+- Linker :
+  - creates the binary. 
+________________________________________________________________________________
+
+Compiling broken up : 
+
+- Just generate the object files : 
+$ gcc 	 -c	...	-o    prog.o	    prog.c	...
+
+- Invoke the linker (use the object files to generate the binary) : 
+$ gcc 	     	    	-o    prog        prog.o 
+________________________________________________________________________________
+
+Object face :
+- all the object files to be generated. 
 
 Link face :
-- 
+- all the linker flags to be used. 
 
 .

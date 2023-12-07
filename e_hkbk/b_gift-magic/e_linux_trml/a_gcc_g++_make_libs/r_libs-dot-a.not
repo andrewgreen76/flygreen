@@ -18,9 +18,7 @@ Compile prg main src :  $ gcc -c prog.c -o prog.o
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 $ gcc -o exec main.o lib[imag].a
-|
--or-
-|
+ -or-
 $ gcc -o exec main.o -L. -l[imag] 
   - Do NOT use -c ; you already have object files generated that are to be funnelled into this archive.  
 __________________________________________________________________________________________________________

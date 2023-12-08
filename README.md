@@ -47,7 +47,8 @@ C programming :
   - explicit type casting on return value from malloc()
   - creating an array
 - struct padding
-- buffered vs. unbuffered read - recap 
+- buffered vs. unbuffered read - recap
+- <string.h> , strcmp() 
 
 Linux : 
 - filesystem directories

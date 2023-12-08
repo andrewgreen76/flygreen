@@ -1,8 +1,8 @@
 
 CC = gcc
 CFLAGS = -std=c11 -Wall -fmax-errors=10 -Wextra
-LFLAGS =
-LIBS =
+LFLAGS = -L.
+LIBS = -lweather 
 OBJFILES = main.o aux.o
 MAIN = prog
 
@@ -13,7 +13,7 @@ MAIN = prog
 all: $(MAIN)
 
 $(MAIN): $(OBJFILES)
-	 $(CC) $(CFLAGS) -o $(MAIN) $(OBJFILES)
+	 $(CC) $(CFLAGS) -o $(MAIN) $(OBJFILES) $(LFLAGS) $(LIBS) 
 
 %.o: %.c
      $(CC) $(CFLAGS) -c -o $@ $<

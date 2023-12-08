@@ -1,0 +1,11 @@
+
+program: program.o weatherstats.o
+	 gcc -std=c11 -Wall -fmax-errors=10 -Wextra -L. -lweather -o program
+
+program.o: program.c weatherstats.h
+	 gcc -std=c11 -Wall -fmax-errors=10 -Wextra -c program.c -o program.o	   
+
+launch: program
+	./program
+
+#

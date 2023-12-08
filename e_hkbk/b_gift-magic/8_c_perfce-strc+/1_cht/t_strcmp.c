@@ -6,6 +6,8 @@ int main(int argc , char ** argv){
 
   if( strcmp(argv[1], "-e")==0 ) printf("Check\n");
   else printf("No check\n");
+
+  printf("argc : %d\n", argc);
   
   printf("\n");
 }

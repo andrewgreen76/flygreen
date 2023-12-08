@@ -52,7 +52,9 @@ C programming :
 Linux : 
 - filesystem directories
 - 'yes' , 'locate' , 'updatedb' , listing with 'echo'
-- management of physical memory vs. virtual memory 
+- management of physical memory vs. virtual memory
+- advanced nuances of makefile
+- generating and updating static and dynamic libraries on Linux and Windows systems 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

@@ -14,7 +14,7 @@ Create stat.lib :     	$ ar rcs libimag.a	1.o	2.o	...
        		      	     - r - Replace (overwrite existing resource) 
   			     - c - Creative (allow for creating non-yet-existing resource) 
   			     - s - generate a fast-access index
-Compile prg main src :  $ gcc -c prog.c -o prog.o
+Compile prg main obj :  $ gcc -c prog.c -o prog.o
 Link lib to main prg : 	$ gcc -o prog prog.o -L. -limag
      	    	     	  -or-
      	    	     	$ gcc -o prog prog.o lib[imag].a
@@ -22,6 +22,23 @@ Run : 			./prog
 __________________________________________________________________________________________________________
 
 -L. - path to the lib in the working dir. 
+__________________________________________________________________________________________________________
+
+Modifying the stat.lib and the prog :
+- Ex. : Adding a new obj to stat.lib :
+  - Complete the .c and the .h
+  - Compile to the new obj file
+  - Add to the archive
+  - Create and complete a master header file
+    -> Add the master header file to main_src.c
+  - Use the func(s) in the new obj/class
+  
+  - (a) Compile main_prog obj :		$ gcc -c prog.c -o prog.o
+    	Link lib to main_prog obj : 	$ gcc -o prog prog.o -L. -limag
+	
+    (b) Compile+link main_prg to lib : 	$ gcc prog.c		  -o prog	-L. -lmasterh
+    		     	      	     	      ^			  ^  	  	^ 
+					      bring up main_src	  out		link 
 __________________________________________________________________________________________________________
 
 Dynamic (shared) library :

@@ -1,0 +1,39 @@
+
+CPU Core Performance Architect
+CPU Performance Architect 
+CPU Core Physical Design Engineer 
+CPU Post Silicon Verification Engineer
+CPU Design Verification Engineer - CPU Verification Engineer
+CPU Emulation Design Verification Engineer 
+|
+Silicon RTL Design Engineer 
+RTL Design Engineer 
+CPU Core Architecture / RTL Design Engineer
+Interconnect Micro-Architect & RTL Design Engineer 
+|
+SOC Verification and Test Engineer
+ASIC IP Functional Verification Engineer
+Silicon Design Engineer
+SMTS (senior member of technical staff) Silicon Design Engineer
+Firmware Engineer
+Infinity Fabric Silicon Debug Engineer
+Infinity Fabric Micro-Architect & RTL Design Engineer 
+DV Pattern Engineer
+Microprocessor Power Architect
+Design Reliability Engineer
+|
+Product Development Engineer
+Diagnostic Release Engineer 
+
+
+
+AI Development Engineer
+AI Design Verification Engineer 
+
+
+
+Software Program Manager
+Engineering Section Manager
+RTG Diagnostic Sr. Program Manager 
+
+.

@@ -24,6 +24,12 @@ Virtual machine (virtualization):
 
 
 
+Hypervisor - realizes virtualization : 
+ . software for creating and managing multiple VMs. 
+ . responsible for sharing of resources with VMs. 
+
+======================================================================================
+
 Emulator (emulation): 
  . a piece of software
    + hardware-agnostic. 
@@ -35,12 +41,6 @@ Emulator (emulation):
  - slower than a VM. 
  - need a software connector to access hardware. 
  - not as popular. 
-
-
-
-Hypervisor: 
- . software for creating and managing multiple VMs. 
- . responsible for sharing of resources with VMs. 
 
 
 

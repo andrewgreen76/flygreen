@@ -1,4 +1,6 @@
 
-Any instance of a currently running program is a process. 
+- Any instance of a currently running program is a process.
+- A program can run concurrently as multiple instances. All of these instances are individual processes.
+- Every process has its own unique ID number, or PID. 
 
 .

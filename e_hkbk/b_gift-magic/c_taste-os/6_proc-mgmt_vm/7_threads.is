@@ -1,0 +1,10 @@
+
+
+
+
+
+To find out how many threads maximum a single process can support : 
+
+$ cat ~/../../proc/sys/kernel/threads-max
+
+.

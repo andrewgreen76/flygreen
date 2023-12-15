@@ -57,7 +57,10 @@ Linux :
 - generating and updating static and dynamic libraries on Linux and Windows systems
 
 Virtualization :
-- processes sharing resources 
+- processes sharing resources
+
+Concurrency :
+- interleaved executions 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

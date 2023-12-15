@@ -1,17 +1,22 @@
 
 Concurrency :
-- near-synchronization or orchestrating operations in order. 
+- synchronization (read: orchestration) of instructions in order. 
 
 
 An OS has a way of handling processes in no particular order. This can give rise to concurrency issues (especially in multi-threaded systems). A concurrency
 issue is typically an OS attempting to execute all tasked instructions as quickly as possible even if it means breaking the order of instructions.
 - Ex. : having two threads incrementing the same counter 100,000 times (i.e., three instructions: load counter, increment, store counter). The expected
-  output is 200,000. Roughly 600,000 instructions (100,000 x 3 instructions x 2 threads) are crushed together, resulting in execution times
-  overlapping with one another (i.e., interleaved executions). 
+  output is 200,000. Roughly 600,000 instructions (100,000 iterations x 3 instructions x 2 threads) are crushed together, resulting in execution times
+  overlapping with one another (interleaved executions). 
 ___________________________________________________________________________________________________________________________________________________________
 
 Scheduling algorithms are employed to determine which process should come next :
-- "Round Robin, First-Come-First-Serve (FCFS), Shortest Job Next (SJN), Priority Scheduling, and Multilevel Queue Scheduling, etc."
-- there are also other factors for considering which process should come next (priority, waiting time, etc.) 
+- Round Robin,
+- First-Come-First-Serve (FCFS),
+- Shortest Job Next (SJN),
+- Priority Scheduling,
+- Multilevel Queue Scheduling,
+- etc.
+- There are also other factors for considering which process should come next (priority, waiting time, etc.) 
 
 .

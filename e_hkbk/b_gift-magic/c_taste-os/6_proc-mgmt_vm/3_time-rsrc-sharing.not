@@ -31,12 +31,6 @@ Multiple processes access own instructions and data. 	How? 	- Sharing memory
 Multiple processes access devices. 	       		How? 	- Sharing storage
 	 	   	  					  - simply put, multiple processes share the same storage devices 
 
-
-Scheduling algorithms are employed to determine which process should come next :
-- "Round Robin, First-Come-First-Serve (FCFS), Shortest Job Next (SJN), Priority Scheduling, and Multilevel Queue Scheduling, etc."
-- there are also other factors for considering which process should come next (priority, waiting time, etc.) 
-
-
 Thus, every OS is a resource manager. 
 
 .

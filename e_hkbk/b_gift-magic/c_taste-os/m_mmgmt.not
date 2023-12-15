@@ -1,0 +1,7 @@
+
+- It is the program that is in charge of maintaining all of its variables and data structures.
+- Explicit memory management instructions :
+  - loading (reading) from memory
+  - storing in (writing into) memory 
+
+.

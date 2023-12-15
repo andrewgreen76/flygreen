@@ -1,5 +1,5 @@
 
-
+A thread is a sub-process that can be triggered using functions from the <pthread.h> library. 
 
 
 

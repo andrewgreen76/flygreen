@@ -1,0 +1,46 @@
+
+Multiple processes run simultaneously.			How?	- Sharing the CPU
+	 	       						  - running simultaneously is actually an illusion and having a CPU all to yourself is
+								    an illusion; the reality is that the CPU is shared 
+	 	       						  - CPU time is divided between processes
+								  - the time-sharing system goes round in circles, allotting a slice of time
+								    to every process 
+								  - context switching : data in registers (state) is saved to memory at the end of
+								    the slice and recalled from memory at the beginning of the slice 
+
+
+
+Multiple processes access own instructions and data. 	How? 	- Sharing memory
+	 	   	      		       			  - Problem : processes are scattered across the RAM in chunks but must be
+								    compartmentalized somehow so that their executable code can be run smoothly. 
+								  - Solution : the chunks of the process across the RAM (frames) can be consolidated
+								    into a contiguous group of "pages of virtual memory" - locations of scatterred
+								    RAM frames belonging to the same process are mapped (a translation is generated)
+								    into consecutives stored look-up values (virtual addresses). To map or translate
+								    a physical address into a virtual address and vice versa you need a page table,
+								    which is stored in a hardware component called the MMU (memory management unit). 
+								  - virtual address space - really frames storing a process - is comprised of :
+								    - text (instructions, i.e. executable code),
+								    - data (global and static variables),
+								    - heap to be used economically (using malloc(), calloc(), free() ),
+								    - stack (function calls (e.g., main () ), local variables)
+								    - processes can share frames 
+	 	   	      		       			  - side-effect : allotting each process its own dedicated chunk of memory (virtual
+								    address space) from all of the system's available memory gives each user
+								    the illusion of having the system all to themselves
+								  - a frame and a page are typically of the size 4K. 
+
+
+Multiple processes access devices. 	       		How? 	- Sharing storage
+	 	   	  					  - simply put, multiple processes share the same storage devices 
+
+
+Scheduling algorithms are employed to determine which process should come next :
+- "Round Robin, First-Come-First-Serve (FCFS), Shortest Job Next (SJN), Priority Scheduling, and Multilevel Queue Scheduling, etc."
+- there are also other factors for considering which process should come next (priority, waiting time, etc.) 
+
+
+
+Thus, every OS is a resource manager. 
+
+.

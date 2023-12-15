@@ -8,8 +8,6 @@ Multiple processes run simultaneously.			How?	- Sharing the CPU
 								  - context switching : data in registers (state) is saved to memory at the end of
 								    the slice and recalled from memory at the beginning of the slice 
 
-
-
 Multiple processes access own instructions and data. 	How? 	- Sharing memory
 	 	   	      		       			  - Problem : processes are scattered across the RAM in chunks but must be
 								    compartmentalized somehow so that their executable code can be run smoothly. 
@@ -30,7 +28,6 @@ Multiple processes access own instructions and data. 	How? 	- Sharing memory
 								    the illusion of having the system all to themselves
 								  - a frame and a page are typically of the size 4K. 
 
-
 Multiple processes access devices. 	       		How? 	- Sharing storage
 	 	   	  					  - simply put, multiple processes share the same storage devices 
 
@@ -38,7 +35,6 @@ Multiple processes access devices. 	       		How? 	- Sharing storage
 Scheduling algorithms are employed to determine which process should come next :
 - "Round Robin, First-Come-First-Serve (FCFS), Shortest Job Next (SJN), Priority Scheduling, and Multilevel Queue Scheduling, etc."
 - there are also other factors for considering which process should come next (priority, waiting time, etc.) 
-
 
 
 Thus, every OS is a resource manager. 

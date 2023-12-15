@@ -1,3 +1,6 @@
+// gcc -o [binary] [prog].c -lpthread
+// Run with: $ ./[binary] 1000000
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>

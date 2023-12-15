@@ -37,7 +37,6 @@ ECE and programming :
 - creating a custom assembly language , programming for fetch-decode-execute cycles
 
 C programming :
-- type punning (with pointers)
 - determining the endian-ness of a device (computer) 
 - pointer arithmetic - recap
 - sig figs in float and double values
@@ -55,7 +54,10 @@ Linux :
 - 'yes' , 'locate' , 'updatedb' , listing with 'echo'
 - management of physical memory vs. virtual memory
 - advanced nuances of makefile
-- generating and updating static and dynamic libraries on Linux and Windows systems 
+- generating and updating static and dynamic libraries on Linux and Windows systems
+
+Virtualization :
+- processes sharing resources 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

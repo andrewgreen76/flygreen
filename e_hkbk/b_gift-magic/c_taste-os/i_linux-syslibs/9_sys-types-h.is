@@ -1,0 +1,64 @@
+
+System programming, file ops, socket ops. 
+
+
+
+"
+The `sys/types.h` header file is part of the C Standard Library and is commonly used in Unix and Unix-like operating systems (including Linux). This header file declares various types and constants that are used in system-level programming, including file and socket operations.
+
+Here are some common types and constants provided by `sys/types.h`:
+
+1. **Standard Integer Types:**
+   - The header file typically defines types such as `int8_t`, `int16_t`, `int32_t`, `int64_t`, `uint8_t`, `uint16_t`, `uint32_t`, and `uint64_t` for integers of specific sizes.
+
+2. **Size Types:**
+   - Types such as `size_t` are often defined to represent the size of objects. For example, the return type of the `sizeof` operator is `size_t`.
+
+3. **File and Directory Identifiers:**
+   - The `ino_t` type represents an inode number, which is a unique identifier for a file or directory within a filesystem.
+
+4. **File Offset Type:**
+   - The `off_t` type is used to represent file offsets, typically returned by functions like `lseek`.
+
+5. **Process ID Type:**
+   - The `pid_t` type is used to represent process IDs.
+
+6. **Time Types:**
+   - The `time_t` type is used to represent time values.
+
+7. **File Descriptor Type:**
+   - The `fd_set` type is used in conjunction with functions like `select` for managing file descriptors.
+
+Here's a simple example that demonstrates the use of `sys/types.h` to define and use some of these types:
+
+```c
+#include <sys/types.h>
+#include <stdio.h>
+
+int main() {
+    // Define and use some types
+    int8_t myInt8 = 42;
+    uint32_t myUInt32 = 123456789;
+    size_t mySize = sizeof(double);
+    ino_t myInode = 987654321;
+    off_t myOffset = 1024;
+    pid_t myProcessID = getpid();
+    time_t currentTime = time(NULL);
+
+    // Display the values
+    printf("int8_t: %d\n", myInt8);
+    printf("uint32_t: %u\n", myUInt32);
+    printf("size_t: %zu\n", mySize);
+    printf("ino_t: %lu\n", (unsigned long)myInode);
+    printf("off_t: %ld\n", (long)myOffset);
+    printf("pid_t: %d\n", myProcessID);
+    printf("time_t: %ld\n", (long)currentTime);
+
+    return 0;
+}
+```
+
+In this example, the program uses types such as `int8_t`, `uint32_t`, `size_t`, `ino_t`, `off_t`, `pid_t`, and `time_t`. The specific types and constants provided by `sys/types.h` may vary slightly between different systems, but they generally serve similar purposes in system-level programming.
+"
+
+.

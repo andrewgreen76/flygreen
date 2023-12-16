@@ -1,0 +1,55 @@
+
+File information - structures and functions. 
+
+
+
+"
+The `sys/stat.h` header file is part of the C Standard Library and is commonly used in Unix and Unix-like operating systems (including Linux). This header file declares structures and functions that are related to file status and information.
+
+Here are some common functionalities provided by `sys/stat.h`:
+
+1. **File Information Structures:**
+   - The header file defines structures such as `struct stat` that contain information about a file. The `struct stat` structure typically includes fields like file size, inode number, file mode, timestamps, and other attributes.
+
+2. **File Permissions:**
+   - Constants like `S_IRUSR`, `S_IWUSR`, `S_IXUSR`, `S_IRGRP`, `S_IWGRP`, `S_IXGRP`, `S_IROTH`, `S_IWOTH`, and `S_IXOTH` represent file permission bits for user, group, and others.
+
+3. **File Type Constants:**
+   - Constants like `S_IFREG`, `S_IFDIR`, `S_IFLNK`, `S_IFIFO`, `S_IFCHR`, and `S_IFBLK` represent various file types (regular file, directory, symbolic link, FIFO, character device, and block device).
+
+4. **Functions for Retrieving File Information:**
+   - The `stat` function is commonly used to retrieve file information, including file status, using a file path. There are also related functions like `fstat` and `lstat`.
+
+5. **Mode Bits Manipulation:**
+   - Functions like `chmod`, `fchmod`, and `umask` allow manipulation of file permission bits.
+
+Here's a simple example that demonstrates the use of `sys/stat.h` to retrieve information about a file:
+
+```c
+#include <sys/stat.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    const char* file_path = "example.txt";
+    struct stat file_info;
+
+    // Retrieve file information
+    if (stat(file_path, &file_info) == -1) {
+        perror("stat");
+        exit(EXIT_FAILURE);
+    }
+
+    // Display file information
+    printf("File: %s\n", file_path);
+    printf("Size: %ld bytes\n", file_info.st_size);
+    printf("Mode: %o\n", file_info.st_mode & 0777); // Display only permission bits
+
+    return 0;
+}
+```
+
+In this example, the program uses the `stat` function to retrieve information about a file ("example.txt") and then displays some of the file's attributes, including size and mode (file permissions). Error handling is included to check for failures in the `stat` function.
+"
+
+.

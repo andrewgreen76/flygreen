@@ -1,4 +1,8 @@
 
+File control. 
+
+
+
 "
 The `<fcntl.h>` file, also known as the "File Control Options" header file, is a standard C library header file in Unix-like operating systems. It contains constants and macros that are used to configure and manipulate file-related properties and behaviors when working with files and file descriptors. This header file is particularly important for low-level file operations and I/O control.
 

@@ -1,0 +1,68 @@
+
+Changes made to a dedicated file descriptor are stored on a storage device, ensuring persistence of changes. 
+
+
+
+"
+The `fsync()` function is a system call in Unix-like operating systems, including Linux. It is used to flush the changes made to a file descriptor to the underlying storage device. This is important to ensure that data modifications are physically written to disk or other storage media, making the changes persistent.
+
+Here is the prototype of the `fsync()` function:
+
+```c
+#include <unistd.h>
+
+int fsync(int fd);
+```
+
+- `fd`: The file descriptor of the file whose changes need to be flushed.
+
+The `fsync()` function is typically used in scenarios where you want to ensure that modifications to a file are committed to the storage device immediately, rather than relying on the operating system to perform the write at some later time. This can be crucial for applications where data integrity is a priority, such as databases or critical system files.
+
+Here's a simple example of how you might use `fsync()`:
+
+```c
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    const char *file_path = "example.txt";
+    int fd = open(file_path, O_WRONLY | O_CREAT | O_TRUNC, 0666);
+
+    if (fd == -1) {
+        perror("open");
+        exit(EXIT_FAILURE);
+    }
+
+    const char *data = "Hello, fsync!";
+    size_t len = strlen(data);
+
+    if (write(fd, data, len) != len) {
+        perror("write");
+        exit(EXIT_FAILURE);
+    }
+
+    // Flush changes to the storage device
+    if (fsync(fd) == -1) {
+        perror("fsync");
+        exit(EXIT_FAILURE);
+    }
+
+    close(fd);
+
+    return 0;
+}
+```
+
+In this example:
+
+1. The program opens a file for writing.
+2. Writes some data to the file.
+3. Calls `fsync()` to ensure that the changes are flushed to the storage device.
+4. Closes the file.
+
+It's important to note that using `fsync()` can have performance implications, as it forces a synchronous write to the storage device. In many cases, the operating system's normal write behavior (buffering and periodic flushing) is sufficient, and the explicit use of `fsync()` may not be necessary. However, in certain situations where data consistency is critical, `fsync()` can be a useful tool.
+"
+
+.

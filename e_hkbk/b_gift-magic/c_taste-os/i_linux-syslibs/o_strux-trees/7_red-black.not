@@ -1,0 +1,14 @@
+
+https://www.baeldung.com/cs/red-black-trees
+
+
+
+"
+Real-world uses of red-black trees include TreeSet, TreeMap, and Hashmap in the Java Collections Library. Also, the Completely Fair Scheduler in the Linux kernel uses this data structure.
+"
+
+"
+Red-black trees offer logarithmic average and worst-case time complexity for insertion, search, and deletion. Rebalancing has an average time complexity of O(1) and worst-case complexity of O(log n). Furthermore, red-black trees have interesting properties when it comes to bulk and parallel operations.
+"
+
+.

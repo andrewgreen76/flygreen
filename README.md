@@ -56,11 +56,12 @@ Linux :
 - advanced nuances of makefile
 - generating and updating static and dynamic libraries on Linux and Windows systems
 
-Virtualization :
-- processes sharing resources
-
-Concurrency :
-- interleaved executions 
+- Virtualization :
+  - processes sharing resources
+- Concurrency :
+  - interleaved executions
+- Processes
+- I/O subsystem
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

@@ -1,10 +1,16 @@
 
+Registers : the fetch, decode (look up), and execute instructions. 
+
 ax - the most re-used general purpose register meant for storing a value as a piece data or as a memory address. 
 bx
 cx
 dx
 pc - the program counter - holds the address of the current/next instruction to be fetched. 
-ir - instrxn reg - holds the current instrxn to execute from the fetch cycle for the coming execute cycle. 
+ir - instrxn reg - holds the current instrxn to execute from the fetch cycle for the coming execute cycle.
+|
 bp
-sp
+|
+sp } - are used to manage the stack, i.e., 
+fp }   its parameters, variables, return addresses, etc. 
 
+.

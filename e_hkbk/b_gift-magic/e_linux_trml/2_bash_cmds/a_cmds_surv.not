@@ -1,5 +1,8 @@
 
-man		- pulls up a manual for a user command for a C library (not just standard libraries) 
+man		- pulls up a manual for
+		  (1) a user command
+		  (2) a C library (not just standard libraries)
+		  (3) a C library function 
 ls		- lists contents of the current directory. 
 cat []		- shows content of a file
 cd [dir] 	- takes to spec'd dir

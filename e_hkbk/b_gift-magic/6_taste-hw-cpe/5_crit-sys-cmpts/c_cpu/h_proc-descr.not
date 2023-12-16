@@ -1,0 +1,8 @@
+
+A process is described by the state of the machine it is running on :
+- the memory the process shares (instructions and data it needs) 
+- the address space it occupies
+- registers (PC, stack pointer, frame pointer) and their values
+- persistent storage devices and the info that they store, info related to the process (e.g., open files available to the process) 
+
+.

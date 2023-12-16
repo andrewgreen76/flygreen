@@ -1,0 +1,12 @@
+
+Syscalls are there to access devices. 
+
+First system calls to learn :
+
+- open()
+- write()
+- close()
+
+Each one returns a response code. 
+
+.

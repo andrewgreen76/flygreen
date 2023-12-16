@@ -1,4 +1,8 @@
 
+Simply for keeping track of nodes with multiple parameters (dimensions). 
+
+
+
 "
 K-d trees (k-dimensional trees) are data structures used for organizing points in a k-dimensional space. They are particularly useful for solving multidimensional search problems efficiently. Here are some common applications of k-d trees:
 

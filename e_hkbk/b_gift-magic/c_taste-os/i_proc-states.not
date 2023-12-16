@@ -1,0 +1,16 @@
+
+Process states : 
+- Process is moving from "ready" state to "running" state	   =    SCHEDULED PROCESS
+- Process is moving from "running" state to "ready" state	   =    DESCHEDULED PROCESS
+- Reading from or writing to storage is in progress 	   	   <> 	BLOCKED / WAITING PROCESS
+- The process has finished all of its tasks    	    	   	   = 	DONE 
+
+
+
+I/O in parallel with processes :
+- I/O operations are operations conducted between the CPU and some other device, e.g. a storage device, a network interface, or a peripheral.
+- They are carried out by the I/O subsystem in parallel with processes.
+=> They are distinguished from process. 
+- I/O operations are typically executed to improve resource usage.
+
+.

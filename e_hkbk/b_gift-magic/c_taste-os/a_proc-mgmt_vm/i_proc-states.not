@@ -1,6 +1,6 @@
 
 A process can be described by :
-- its state
+- its state (running, ready, etc.)
 - the contents of its address space
 - its register context
 - I/O info (e.g., open, readable, writable files) 

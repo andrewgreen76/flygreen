@@ -1,11 +1,18 @@
 
 I/O process in parallel with all the other, regular processes :
 - I/O operations are operations conducted between the CPU and some other device, e.g. a storage device, a network interface, or a peripheral.
-- The operations are carried out by the OS's I/O subsystem in a separate process, and the process that summoned the I/O subroutines will have to wait on them. 
+- The operations are carried out by the OS's I/O subsystem in a separate process, and the process that summoned the I/O subroutines will have to wait
+  on them. 
 => I/O subroutines are distinguished from processes. 
 - I/O operations are typically executed to improve resource usage.
   - It can happen that when pid0 summons I/O, another process pid1 can take over the CPU, and once it's done, the slower I/O subroutines may still be
-    running. Once the I/O subsystem is finished, it will hand the CPU over back over to pid0. 
+    running. Once the I/O subsystem is finished, it will hand the CPU over back over to pid0.
+
+I/O subsystem :
+- device drivers
+- I/O controllers
+- interrupts
+- I/O queues 
 
 
 

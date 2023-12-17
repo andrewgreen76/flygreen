@@ -3,4 +3,23 @@
 - A program can run concurrently as multiple instances. All of these instances are individual processes.
 - Every process has its own unique ID number, or PID. 
 
+
+
+Process :
+- code
+- data
+- heap :
+  - holds memory reserved for variables at run-time 
+  - uses the malloc() API for requesting more memory
+- stack :
+  - init'd with :   argc and argv 
+  - holds : 	    current func.args , local vars , return address 
+
+
+
+"
+Processes are made of instructions, and each instruction can only do one of two things : 
+- use the CPU
+- issue an I/O request (and wait for I/O to finish) 
+"
 .

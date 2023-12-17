@@ -4,16 +4,4 @@
 3) Allocate some memory for the program's run-time stack.
 4) Prepare for I/O requests (in and out of storage, memory, CPU, etc.)
 
-
-
-Process :
-- code
-- data
-- heap :
-  - holds memory reserved for variables at run-time 
-  - uses the malloc() API for requesting more memory
-- stack :
-  - init'd with :   argc and argv 
-  - holds : 	    current func.args , local vars , return address 
-
 .

@@ -1,0 +1,4 @@
+
+Switching on end means that the currently running or waiting process will have to finish before the system can switch to a different process. 
+
+.

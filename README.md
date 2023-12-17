@@ -33,21 +33,12 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-ECE and programming :
-- creating a custom assembly language , programming for fetch-decode-execute cycles
-
 C programming :
-- determining the endian-ness of a device (computer) 
-- pointer arithmetic - recap
-- sig figs in float and double values
-- loading strings into a char matrix
 - malloc() :
   - basics recap : <stdlib.h> , the heap 
   - explicit type casting on return value from malloc()
   - creating an array
 - struct padding
-- buffered vs. unbuffered read - recap
-- <string.h> , strcmp() 
 
 Linux : 
 - filesystem directories
@@ -60,7 +51,10 @@ Linux :
   - processes sharing resources
 - Concurrency :
   - interleaved executions
-- Processes
+- Processes :
+  - system calls 
+  - threads
+  - parent and child processes , process API 
 - I/O subsystem
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 

@@ -16,4 +16,6 @@ int main(){
   if(a) printf("YES \n");
   else printf("NO \n");
   printf("\n");
+
+  sleep(1);
 }

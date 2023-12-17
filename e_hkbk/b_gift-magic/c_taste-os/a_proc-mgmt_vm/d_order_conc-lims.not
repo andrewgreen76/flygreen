@@ -7,7 +7,8 @@ An OS has a way of handling processes in no particular order. This can give rise
 issue is typically an OS attempting to execute all tasked instructions as quickly as possible even if it means breaking the order of instructions.
 - Ex. : having two threads incrementing the same counter 100,000 times (i.e., three instructions: load counter, increment, store counter). The expected
   output is 200,000. Roughly 600,000 instructions (100,000 iterations x 3 instructions x 2 threads) are crushed together, resulting in execution times
-  overlapping with one another (interleaved executions). 
+  overlapping with one another (interleaved executions).
+- non-deterministic output 
 ___________________________________________________________________________________________________________________________________________________________
 
 Scheduling algorithms are employed to determine which process should come next :

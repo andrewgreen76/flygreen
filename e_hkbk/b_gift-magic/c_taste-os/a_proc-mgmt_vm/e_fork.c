@@ -2,9 +2,11 @@
 #include <unistd.h>
 
 int main(){
-  int pcode = fork();
+  int child_code = fork();
   
-  if(pcode<0) printf("Failed to create a child process\n");
-  else if(pcode==0) printf("I am child process : %d\n", (int)getpid() );
-  else printf("I am parent process : %d\n", (int)getpid() );
+  if(child_code < 0) printf("Failed to create a child process\n");
+  else {
+    printf("(%d) ", (int)getpid() );
+    printf("Generated child_code : %d\n", child_code);
+  }
 }

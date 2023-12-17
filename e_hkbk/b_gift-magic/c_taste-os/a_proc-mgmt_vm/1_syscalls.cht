@@ -16,7 +16,10 @@ Some from <unistd.h> - this library holds system calls and low-level I/O operati
 - fork()
 - wait()
 - exec()
-- exit() 
+|
+- sleep(n) - go inactive for n seconds 
+- exit()
+- waitpid() 
 _______________________________________________________________________________________________________________________________________
 
 pthreads (POSIX threads) : 

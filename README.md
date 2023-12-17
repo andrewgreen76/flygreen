@@ -52,6 +52,7 @@ Linux :
 - Concurrency :
   - interleaved executions
 - Processes :
+  - non-determinisic output 
   - system calls 
   - threads
   - parent and child processes , process API 

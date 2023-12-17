@@ -1,0 +1,36 @@
+
+I/O in parallel with processes :
+- I/O operations are operations conducted between the CPU and some other device, e.g. a storage device, a network interface, or a peripheral.
+- The operations are carried out by the OS's I/O subsystem and the processes have to wait on that. 
+=> They are distinguished from process. 
+- I/O operations are typically executed to improve resource usage.
+
+
+
+"
+When a process is waiting for an I/O (Input/Output) operation to complete, the mechanism that carries out this I/O operation is typically the operating system's I/O subsystem. The I/O subsystem manages the interaction between the CPU and external devices, such as disks, network interfaces, or keyboards.
+
+The key components involved in carrying out an I/O operation are:
+
+1. **Device Drivers:**
+   - Device drivers are software components that act as intermediaries between the operating system and hardware devices. They provide a standardized interface for the operating system to communicate with different types of devices. When a process initiates an I/O request, the associated device driver is responsible for translating the high-level commands from the operating system into low-level commands understood by the specific hardware.
+
+2. **I/O Controller:**
+   - The I/O controller is a hardware component responsible for managing communication between the CPU and the actual I/O device. It handles the details of transferring data between the system's memory and the peripheral device. The I/O controller may include buffers, registers, and other hardware components to facilitate efficient data transfer.
+
+3. **Interrupts:**
+   - To avoid busy-waiting or polling, the I/O subsystem often uses interrupts to notify the CPU when an I/O operation is complete. When the I/O controller finishes its task (e.g., reading data from a disk or receiving data from a network), it generates an interrupt signal. The interrupt triggers the operating system to suspend the currently running process, save its state, and transfer control to an interrupt service routine (ISR) or device driver specific to the completed I/O operation.
+
+4. **I/O Queue:**
+   - The operating system maintains a queue of I/O requests, known as the I/O queue. When a process initiates an I/O operation, the request is added to the queue. The I/O scheduler determines the order in which the pending I/O requests are serviced.
+
+5. **Context Switching:**
+   - When an I/O operation is initiated, the operating system may perform a context switch, saving the state of the current process and allowing another process to execute while the first one is waiting for the I/O operation to complete. When the I/O operation finishes, the original process can be rescheduled and resume execution.
+
+6. **Buffering and Caching:**
+   - The operating system may use buffering and caching mechanisms to optimize I/O performance. Data may be temporarily stored in buffers or caches to reduce the frequency of actual data transfers between the CPU and I/O devices.
+
+In summary, the I/O subsystem, consisting of device drivers, I/O controllers, interrupts, I/O queues, and other components, is responsible for carrying out I/O operations initiated by processes. This subsystem manages the communication between the CPU and external devices, ensuring efficient and asynchronous operation, and uses interrupts to notify the operating system when I/O operations are completed.
+"
+
+.

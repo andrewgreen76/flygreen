@@ -3,6 +3,8 @@
 
 int main(){
   int pcode = fork();
-  if(pcode) printf("I am parent : %d\n", (int)getpid() );
-  else printf("I am child : %d\n", (int)getpid() );
+  
+  if(pcode<0) printf("Failed to create a child process\n");
+  else if(pcode==0) printf("I am child process : %d\n", (int)getpid() );
+  else printf("I am parent process : %d\n", (int)getpid() );
 }

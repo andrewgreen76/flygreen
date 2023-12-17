@@ -1,42 +1,27 @@
 
-Syscalls - from <unistd.h> (this library holds system calls and low-level I/O operations as well as the macros for them). 
-- "These calls involve a transition from user mode to kernel mode to perform privileged operations provided by the operating system." 
+Syscalls :
+_______________________________________________________________________________________________________________________________________
 
-open()
-read() 
-write()
-fsync()
-close()
+Some from <unistd.h> - this library holds system calls and low-level I/O operations as well as the macros for them. 
+- "These calls involve a transition from user mode to kernel mode to perform privileged operations provided by the operating system."
 
-getpid()
+- open()
+- read() 
+- write()
+- fsync()
+- close()
 
-fork()
-wait()
-exec()
+- getpid()
 
+- fork()
+- wait()
+- exec()
+- exit() 
+_______________________________________________________________________________________________________________________________________
 
+pthreads (POSIX threads) : 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-================================== The following are NOT system calls (from <pthread.h>, etc.) =====================================
-
-pthread_create()
-pthread_join()
+- pthread_create()
+- pthread_join()
 
 .

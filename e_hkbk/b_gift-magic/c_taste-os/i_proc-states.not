@@ -1,4 +1,12 @@
 
+A process can be described by :
+- its state
+- the contents of its address space
+- its register context
+- I/O info (e.g., open, readable, writable files) 
+
+
+
 Process states : 
 - Process is moving from "ready" state to "running" state	   =    SCHEDULED PROCESS
 - Process is moving from "running" state to "ready" state	   =    DESCHEDULED PROCESS

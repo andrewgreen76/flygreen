@@ -35,4 +35,35 @@ The key components involved in carrying out an I/O operation are:
 In summary, the I/O subsystem, consisting of device drivers, I/O controllers, interrupts, I/O queues, and other components, is responsible for carrying out I/O operations initiated by processes. This subsystem manages the communication between the CPU and external devices, ensuring efficient and asynchronous operation, and uses interrupts to notify the operating system when I/O operations are completed.
 "
 
+
+
+"
+Select the best device usage when maximizing resources.
+
+Select an answer and click the button below to submit
+
+a)
+CPU - 99%
+I/O - 17%
+
+b)
+CPU - 20%
+I/O - 85%
+
+c)
+CPU - 71%
+I/O - 67%
+
+d)
+CPU - 17%
+I/O - 37%
+
+The best answer is:
+
+CPU - 71%
+I/O - 67%
+
+You want to keep both the CPU and I/O device running as much as possible to maximize your resources. So the best answer is when both devices are running at high percentages.
+"
+
 .

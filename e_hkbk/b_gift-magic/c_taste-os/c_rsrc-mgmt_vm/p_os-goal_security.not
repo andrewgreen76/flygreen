@@ -6,4 +6,12 @@ There needs to be a hierarchy of users where certain users are granted more priv
 
 At the apex is the superuser (sometimes called root). This user does not have any restrictions, which gives them tremendous power. With this power comes the ability to do harm as well. Access to this user should be highly restricted to increase security.
 "
+
+
+
+The USER MODE and the KERNEL MODE exist to segregate user-inspired requests and the system-critical operations.
+. i.e., in the user mode you can't carry out your own requests like I/O operations
++ System calls (e.g., read(), open(), exit() ) are privileged operations provided by libraries like <unistd.h>, <pthread.h>, etc.
+- C library functions (e.g., malloc() ) are not system calls and therefore are not privileged operations. 
+
 .

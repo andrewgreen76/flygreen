@@ -1,4 +1,8 @@
 
+The main goal of any OS is to maintain security between regular processes and system-critical operations. 
+
+
+
 "
 ... operating systems need to keep users from killing the processes of other users to maintain usability and security.
 
@@ -9,17 +13,16 @@ At the apex is the superuser (sometimes called root). This user does not have an
 
 
 
-The USER MODE and the KERNEL MODE exist to segregate user-inspired requests and the system-critical operations.
-. i.e., in the user mode you can't carry out your own requests like I/O operations ... unless you make a system call
-|
-+ System calls (e.g., read(), open(), exit() ) are made in the user mode to request privileged operations from the kernel.
-|
-. Privileged operations include : 
+The USER MODE and the KERNEL MODE
+. exist to segregate user-inspired requests and the system-critical operations.
+. in the user mode you can't carry out your own requests like I/O operations ... unless you make a system call
+. system calls (e.g., read(), open(), exit() ) are user mode requests for privileged operations from the kernel
+. privileged operations include : 
   . working with a file system		/dev , /lib , etc. 
   . manipulating processes 		./ -or- SIGTSTP -or- SIGINT
   . talking to processes		signal() -or- argc/argv
   . setting aside more memory 		malloc() , free() , etc.
-  |
-- C library functions (e.g., malloc() ) are NOT system calls. 
+|||
+. C library functions (e.g., malloc() ) are NOT system calls. 
 
 .

@@ -2,7 +2,6 @@
 The main goal of any OS is to maintain security between regular processes and system-critical operations. 
 
 
-
 "
 ... operating systems need to keep users from killing the processes of other users to maintain usability and security.
 
@@ -24,5 +23,14 @@ The USER MODE and the KERNEL MODE
   . setting aside more memory 		malloc() , free() , etc.
 |||
 . C library functions (e.g., malloc() ) are NOT system calls. 
+
+
+
+Trap :
+.  for a privileged operation to be carried out, the process must issue a special instruction called a trap to the kernel
+-> the process with the trap gain the kernel mode 
+-> the kernel serves the process
+-> the kernel issues a return-from-trap instruction to the process
+-> the process regains the user mode 
 
 .

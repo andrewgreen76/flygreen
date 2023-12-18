@@ -1,0 +1,43 @@
+
+CPUs for video editing , 3D-rendering :
+|
+AMD Ryzen Threadripper 1900X
+AMD Ryzen Threadripper 2950X
+AMD Ryzen Threadripper 3960X
+AMD Ryzen Threadripper 3990X
+AMD Ryzen Threadripper PRO 3955WX
+AMD Ryzen Threadripper PRO 5945WX
+AMD Ryzen Threadripper PRO 5995WX
+
+
+
+Server and embedded system processors :
+|
+AMD Epyc 
+
+
+
+SoC + FPGA (re-programmable SoC's) :
+|
+AMD-Xilinx Zynq
+
+
+
+GPUs / GPU accelerators :
+
+(replaced, 2016) AMD FirePro S 
+AMD Instinct 
+
+
+
+Data center accelerators/cards : 
+|
+AMD Alveo
+
+
+
+DPUs :
+|
+AMD Pensando 
+
+.

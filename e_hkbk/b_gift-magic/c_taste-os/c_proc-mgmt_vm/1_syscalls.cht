@@ -1,0 +1,45 @@
+
+Syscalls :
+_______________________________________________________________________________________________________________________________________
+
+Some from <unistd.h> - this library holds system calls and low-level I/O operations as well as the macros for them. 
+- "These calls involve a transition from user mode to kernel mode to perform privileged operations provided by the operating system."
+
+- open()
+- read() 
+- write()
+- fsync()
+  - Changes made to a dedicated file descriptor are stored on a storage device, ensuring persistence of changes. 
+- close()
+- exit() - exits in the middle of the program, returning the arg as a stat.cd to the OS 
+_______________________________________________________________________________________________________________________________________
+
+- getpid()
+
+- fork()
+  - returns a value > 0, i.e., the PID of the child process within the parent process
+  - returns 0 within the newly generated child process ; getpid() returns the PID of this child process
+  - return a value < 0 if the process failed to generate a child 
+
+- wait() / wait(NULL)
+  - if the child runs first , the child will finish before the parent
+  - if the parent runs first , it will wait for the child to finish 
+  - this means deterministic output
+  - wait() returns the PID of the child the parent is waiting on 
+
+- sleep(n) - idle for n seconds 
+
+- exec()
+  - 
+
+
+
+- waitpid() 
+_______________________________________________________________________________________________________________________________________
+
+pthreads (POSIX threads) : 
+
+- pthread_create()
+- pthread_join()
+
+.

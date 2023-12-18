@@ -1,5 +1,6 @@
 
-The main goal of any OS is to maintain security between regular processes and system-critical operations. 
+The main goal of any OS is to maintain security between regular processes and system-critical operations.
+. It works with hardware to achieve its security goals. 
 
 
 "
@@ -10,7 +11,9 @@ There needs to be a hierarchy of users where certain users are granted more priv
 At the apex is the superuser (sometimes called root). This user does not have any restrictions, which gives them tremendous power. With this power comes the ability to do harm as well. Access to this user should be highly restricted to increase security.
 "
 
-
+=========================================================================================================================
+=============================================== USER MODE and KERNEL MODE ===============================================
+=========================================================================================================================
 
 The USER MODE and the KERNEL MODE
 . exist to segregate user-inspired requests and the system-critical operations.
@@ -24,7 +27,9 @@ The USER MODE and the KERNEL MODE
 |||
 . C library functions (e.g., malloc() ) are NOT system calls. 
 
-
+=========================================================================================================================
+========================================================= TRAPS =========================================================
+=========================================================================================================================
 
 Trap :
 .  for a privileged operation to be carried out, the process must issue a special instruction called a trap to the kernel
@@ -33,6 +38,12 @@ Trap :
 -> the kernel issues a return-from-trap instruction to the process
 -> the process regains the user mode
 |
-. A trap table is used by the kernel to keep track of what code the process can, cannot, and is trying to access. 
+. A trap table is used by the kernel to keep track of what code the process can, cannot, and is trying to access.
+  . created at boot time
+
+
+
+Reminder : The kernel on the RAM and the rest of the hardware work together for the sake of security.
+. The kernel shares trap handlers with the hardware so that they all know what to do when a process makes a request. 
 
 .

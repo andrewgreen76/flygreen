@@ -1,0 +1,9 @@
+
+"
+... operating systems need to keep users from killing the processes of other users to maintain usability and security.
+
+There needs to be a hierarchy of users where certain users are granted more privileges than others. Having the ability to give trusted users more power will keep bad actors from abusing the system.
+
+At the apex is the superuser (sometimes called root). This user does not have any restrictions, which gives them tremendous power. With this power comes the ability to do harm as well. Access to this user should be highly restricted to increase security.
+"
+.

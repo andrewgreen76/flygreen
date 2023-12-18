@@ -23,12 +23,13 @@ A child process : a near copy of the original (parent) process.
   - returns 0 within the newly generated child process ; getpid() returns the PID of this child process
   - return a value < 0 if the process failed to generate a child 
 
-- wait() / wait(NULL)
+- wait() / wait(NULL) - delays execution of the parent process 
   - called within the parent process 
   - returns the PID of the child the parent is waiting on 
   - if the child runs first , the child will finish before the parent
   - if the parent runs first , it will wait for the child to finish 
-  - this means forcing a deterministic output
+  - this means forcing a deterministic output (we know for sure that the child will finish first and quit before the parent resumes) 
+- waitpid() 
 
 - sleep(n) - idle for n seconds 
 
@@ -54,7 +55,13 @@ A child process : a near copy of the original (parent) process.
 
 
 
-- waitpid() 
+- kill() - sends a breaking signal to the process :
+  - ^C 	   - sends a SIGINT (signal interrupt) , terminating the process 
+  - ^Z 	   - sends a SIGTSTP , pausing the process
+    $ fg   - resumes the paused process
+  - This is made possible by the signals subsystem and the infrastructure it provides. Signals can be sent to and received by
+    individual processes and process groups.
+- signal() - used by processes to send and receive signals and react to them by executing specific pieces of code  
 _______________________________________________________________________________________________________________________________________
 
 pthreads (POSIX threads) : 

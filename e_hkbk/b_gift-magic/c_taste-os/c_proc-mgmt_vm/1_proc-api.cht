@@ -22,10 +22,11 @@ ________________________________________________________________________________
   - return a value < 0 if the process failed to generate a child 
 
 - wait() / wait(NULL)
+  - called within the parent process 
+  - returns the PID of the child the parent is waiting on 
   - if the child runs first , the child will finish before the parent
   - if the parent runs first , it will wait for the child to finish 
-  - this means deterministic output
-  - wait() returns the PID of the child the parent is waiting on 
+  - this means forcing a deterministic output
 
 - sleep(n) - idle for n seconds 
 

@@ -14,8 +14,21 @@ Run/wait :
 |
 - repeats the prompt-run cycle
 
-
-
+======================================
 Every shell session is a process. 
+======================================
+
+Conclusions :
+- the parent waits , the child execs
+- before fork()						- no ability to run programs to wait on
+|
+- a child on the way to becoming a different program :
+  - this is usually where redirection (>) and piping (|) in the shell takes place
+  => the parent command and the child command share the I/O args 
+  |
+  - after fork() , no parent wait() 			- two processes share the CPU (non-deterministic output)
+  - after fork() , parent wait()	   		- sequential execution (deterministic output, one step closer to shell-like behavior)
+|
+- after fork() , parent wait() , child exec..()		- child becomes a different prog instead of (cond) remainder of parent (closer to shell.behavior)
 
 .

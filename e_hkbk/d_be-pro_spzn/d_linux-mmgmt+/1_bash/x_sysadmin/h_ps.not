@@ -1,0 +1,5 @@
+
+$ ps		# shows who is running each individual current process (command) on the surface  
+$ ps -A		# shows all current processes 
+
+.

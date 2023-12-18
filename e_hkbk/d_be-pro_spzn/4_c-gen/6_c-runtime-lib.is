@@ -1,0 +1,37 @@
+"
+The C runtime library (CRT) is a set of precompiled functions and routines that provide essential services for C programs. It is an integral part of the C programming language and is linked with C programs to provide necessary runtime support. The CRT includes functions for input and output, memory allocation, string manipulation, mathematical operations, and other fundamental operations.
+
+Key aspects of the C runtime library include:
+
+1. **Standard C Library (libc):**
+   - The Standard C Library, often referred to as `libc`, is a core component of the C runtime. It includes standard functions specified by the C language standard (such as those defined in the `<stdio.h>`, `<stdlib.h>`, `<string.h>`, and `<math.h>` headers). Examples include `printf`, `scanf`, `malloc`, `free`, `strcpy`, and various mathematical functions.
+
+2. **Startup Code:**
+   - The CRT includes startup code that is executed before the `main` function in a C program. This code initializes the runtime environment, sets up the stack, and performs other tasks required for program execution. The entry point for this startup code is often a function named `_start` or a similar name.
+
+3. **Exit Code:**
+   - The CRT provides an exit code to communicate the termination status of the program to the operating system. The `exit` function is part of the CRT and is commonly used to terminate a program, specifying an exit status.
+
+4. **I/O Functions:**
+   - Functions for input and output, such as `printf`, `scanf`, `fopen`, `fclose`, etc., are part of the CRT. These functions facilitate communication with the external environment, including file I/O and console I/O.
+
+5. **Memory Management:**
+   - Memory management functions, including `malloc`, `free`, `calloc`, and `realloc`, are part of the CRT. These functions allow dynamic memory allocation and deallocation.
+
+6. **String Manipulation:**
+   - Functions for string manipulation, such as `strcpy`, `strcat`, `strlen`, and others, are included in the CRT. These functions are crucial for working with character arrays.
+
+7. **Mathematical Functions:**
+   - Mathematical functions like `sin`, `cos`, `sqrt`, and others are part of the CRT. They provide common mathematical operations used in scientific and engineering applications.
+
+8. **Time and Date Functions:**
+   - Functions to work with time and date, such as `time`, `strftime`, and others, are included in the CRT.
+
+9. **Locale and Internationalization:**
+   - Functions for locale and internationalization, like `setlocale`, are included to support localization and language-specific formatting.
+
+The CRT is typically provided by the compiler and is specific to the target platform and operating system. Different operating systems (such as Windows, Linux, and macOS) have their own implementations of the CRT. Additionally, embedded systems may have tailored CRT implementations to suit resource constraints.
+
+When you compile a C program, the CRT is linked with your code to create an executable that can run on a specific platform. In some cases, you may have the option to use different CRT implementations or configure certain aspects of the CRT during the build process.
+"
+.

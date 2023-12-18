@@ -1,0 +1,9 @@
+
+LDR (limited direct execution) :
+- adds the program to the process list		+ new_prog
+- allocates memory for the program 		malloc()
+- loads the program into the memory 		disk -> new_prog bytes -> RAM
+- locates the program's entry point 		main() / _start
+- runs the programs 	      			run
+
+.

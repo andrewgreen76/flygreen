@@ -31,6 +31,8 @@ Trap :
 -> the process with the trap gain the kernel mode 
 -> the kernel serves the process
 -> the kernel issues a return-from-trap instruction to the process
--> the process regains the user mode 
+-> the process regains the user mode
+|
+. A trap table is used by the kernel to keep track of what code the process can, cannot, and is trying to access. 
 
 .

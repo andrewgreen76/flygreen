@@ -25,9 +25,10 @@ Infinity Fabric Micro-Architect & RTL Design Engineer
 DV Pattern Engineer
 Microprocessor Power Architect
 Design Reliability Engineer
+Design Verification Architect 
 |
 Product Development Engineer
-Diagnostic Release Engineer 
+Diagnostic Release Engineer
 
 
 

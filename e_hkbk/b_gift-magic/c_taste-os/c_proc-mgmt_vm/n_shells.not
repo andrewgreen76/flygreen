@@ -1,0 +1,21 @@
+
+A shell is a user-made program that performs the following :
+|
+Prompt : 
+- shows the prompt
+- waits for user input
+|
+Run/wait : 
+- finds the program of interest						newp_args[0]
+- calls fork() to run the command in a branch process 			fork()
+- calls an exec..() to transform the branch into a new process		exec..()
+- calls wait() in the parent for the new process to finish		wait()
+- returns from wait() in the parent
+|
+- repeats the prompt-run cycle
+
+
+
+Every shell session is a process. 
+
+.

@@ -14,6 +14,8 @@ Some from <unistd.h> - this library holds system calls and low-level I/O operati
 - exit() - exits in the middle of the program, returning the arg as a stat.cd to the OS 
 _______________________________________________________________________________________________________________________________________
 
+A child process : a near copy of the original (parent) process. 
+
 - getpid()
 
 - fork()
@@ -30,8 +32,25 @@ ________________________________________________________________________________
 
 - sleep(n) - idle for n seconds 
 
+
+
 - exec()
-  - 
+|
+- execvp()
+  - transforms the current process into a different one in accord with received arguments :
+    - the name of the new binary
+    - the name of the source file for the transformation 
+  - overwrites the original code and static (stack) data of this process' address space with those of the different program
+  - reinits the address space (the heap, the stack, etc.)
+  - runs this process as this new, different program 
+|
+|        char *newp_args[3];
+|        newp_args[0] = strdup("newp.out");   
+|        newp_args[1] = strdup("newsrc.c");      
+|        newp_args[2] = NULL;           	     // signifies the end of array
+|        execvp(newp_args[0], newp_args);     // creates and calls new prog
+|
+- exec() and execvp() NEVER return 
 
 
 

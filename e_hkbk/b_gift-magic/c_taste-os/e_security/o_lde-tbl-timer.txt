@@ -30,7 +30,7 @@ Limited direct execution :			| KERNEL			HW			PROGRAM
 						| mv regs/PC to kernel-stack
 						| return .. from trap; }
 						| 
-						| 				kstk(A) -> regs/PC
+						| 				kstk.pop(a_regs/PC)
 						| 				mode = USER_MODE
 						| 				jmp main()
 						| 
@@ -39,14 +39,15 @@ Limited direct execution :			| KERNEL			HW			PROGRAM
 						| 							  ...
 						|
 						|				stop_timer-int(1)
-						|				regs/PC -> kstk(A)
+						|				kstk.push(a_regs)
 						| 				mode = KERNEL_MODE
 						| 				jmp trap_handler()
 						| 
 						| trap {
 						|   switch() {
-						|     mv kstk(A) -> res(A) 
-						|     mv cur_p <- res(B)
+						|     struct proc A <- regs
+						|     regs <- proc B
+						|     swap( a_kstk , b_kstk )
 						| 
 						|     return .. ;
 						|   } 
@@ -54,7 +55,7 @@ Limited direct execution :			| KERNEL			HW			PROGRAM
 						|   return .. ;
 						| }
 						|
-						|				kstk(B) -> regs/PC
+						|				kstk.pop(b_regs) 
 						| 				mode = USER_MODE
 						| 				jmp PC 
 						|

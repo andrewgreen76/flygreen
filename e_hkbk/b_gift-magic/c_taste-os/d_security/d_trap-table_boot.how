@@ -1,0 +1,12 @@
+
+@ boot time :
+. the machine creates the trap tables, and every table is at own location 
+. the machine switches to kernel mode
+. configures the hardware
+. Nothing else should take place.
+. Preventive/protective measures :
+  . TRAP HANDLERS : 	  Special instructions are executed for the kernel to share trap handlers with the hardware.
+  . EXECUTE CODE : 	  When an unexpected event (I/O, keyboard event, syscall) takes place, the kernel tells the hardware what code to run.
+  . HW knows what code to execute and where to locate the trap handlers. 
+
+.

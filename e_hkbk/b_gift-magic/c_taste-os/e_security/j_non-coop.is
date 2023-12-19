@@ -1,0 +1,12 @@
+
+HW hands control over the CPU back to the kernel if ...
+. a process does not make a syscall within a certain amount of time -and-
+. a process does not attempt an illegal access within a certain amount of time 
+. a built-in TIMER-INTERRUPT can help with that
+  . stops a process that goes on for too long (like an infinite loop) by raising an interrupt (a system signal) 
+  . usually a process finishes before the interrupt is raised
+  . @ boot time the kernel informs the HW what to do in the event of a raised interrupt : 
+    . typically handing control of the CPU back to the kernel
+    . storing the state of the program 
+
+.

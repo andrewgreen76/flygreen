@@ -21,7 +21,7 @@ Multiple processes access own instructions and data. 	How? 	- Sharing memory
 								    - text (instructions, i.e. executable code),
 								    - data (global and static variables),
 								    - heap to be used economically (using malloc(), calloc(), free() ),
-								    - stack (function calls (e.g., main () ), local variables)
+								    - call stack (= k-stack + u-stack = function calls (e.g., main () ), local variables)
 								    - processes can share frames 
 	 	   	      		       			  - side-effect : allotting each process its own dedicated chunk of memory (virtual
 								    address space) from all of the system's available memory gives each user

@@ -1,0 +1,26 @@
+
+Limited direct execution :			KERNEL					PROGRAM
+|
+|
+|
+- adds the program to the process list		insert(new_prog)
+- allocates memory for the program 		malloc(new_prog)
+- loads the program into the memory 		disk -> code/data bytes -> RAM
+|
+- locates the program's entry point 		> main() 
+| - sets us the stack with argc and argv	push(argc, **argv)
+| - clears registers
+|
+- runs the program 	      			run main()
++>											exec main()
++>											return from main()
+- free memory allocated for the process		free(new_prog)
+- remove process from task list 		delete(new_prog) 
+
+================================================================================================================
+
+Challenges :
+- ensuring there isn't a malicious process		SECURITY
+- ensuring efficient sequential time-sharing 		SWITCHING 
+
+.

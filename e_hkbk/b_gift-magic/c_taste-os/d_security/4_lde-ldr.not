@@ -3,7 +3,7 @@ Limited direct execution :			KERNEL					PROGRAM
 |
 |
 |
-- adds the program to the process list		+ new_prog
+- adds the program to the process list		insert(new_prog)
 - allocates memory for the program 		malloc(new_prog)
 - loads the program into the memory 		disk -> code/data bytes -> RAM
 |
@@ -15,12 +15,12 @@ Limited direct execution :			KERNEL					PROGRAM
 +>											exec main()
 +>											return from main()
 - free memory allocated for the process		free(new_prog)
-- remove process from task list 		- new_prog 
+- remove process from task list 		delete(new_prog) 
 
-
+================================================================================================================
 
 Challenges :
-- ensuring there isn't a malicious process
-- ensuring efficient sequential time-sharing 
+- ensuring there isn't a malicious process		SECURITY
+- ensuring efficient sequential time-sharing 		SWITCHING 
 
 .

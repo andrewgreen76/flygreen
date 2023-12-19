@@ -12,7 +12,7 @@ Limited direct execution :			| KERNEL			HW			PROGRAM
 						|	BOOT TIME 
 ================================================+===========================================================================
 						|
-- adds the program to the process list		| add new_prog
+- adds the program to the process list		| insert(new_prog)
 - allocates memory for the program 		| malloc(new_prog)
 - loads the program into the memory 		| disk -> code/data bytes -> RAM
 | 	    	    	     			| 
@@ -51,7 +51,7 @@ Limited direct execution :			| KERNEL			HW			PROGRAM
 						|							}
 						| 
 - free memory allocated for the process		| free(new_prog)
-- remove process from task list 		| remove new_prog 
+- remove process from task list 		| delete(new_prog) 
   	 	      	   			| 
 						| 
 						| 

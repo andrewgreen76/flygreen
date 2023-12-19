@@ -1,0 +1,12 @@
+
+- Trusting the kernel's processes to give up control of the CPU.
+- When a process attempts to carry out an unauthorized activity (e.g., accessing a part of the kernel), the kernel can regain control of the CPU by issuing a trap to itself, most likely culminating in killing the process. 
+
+
+
+Cooperative scheduling :
+. the kernel regains control of the CPU if ...
+  (a) an illegal syscall trap occurs -or-
+  (b) the kernel sends itself a trap due to a process illegally accessing a part of the kernel directly 
+
+.

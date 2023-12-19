@@ -5,8 +5,9 @@
 . configures the hardware
 . Nothing else should take place.
 . Preventive/protective measures :
-  . TRAP HANDLERS : 	  Special instructions are executed for the kernel to share trap handlers with the hardware.
-  . EXECUTE CODE : 	  When an unexpected event (I/O, keyboard event, syscall) takes place, the kernel tells the hardware what code to run.
-  . HW knows what code to execute and where to locate the trap handlers. 
+  . TRAP HANDLERS : 	  Special instructions are executed for the kernel to share trap tables (with trap handlers) with the hardware.
+  . EXECUTE CODE : 	  When an unexpected event (I/O, keyboard event, syscall) takes place,
+    	    	 	  the kernel's trap tables/handlers tell the hardware what code to run.
+  . HW knows where to locate the trap handlers and then what code to execute. 
 
 .

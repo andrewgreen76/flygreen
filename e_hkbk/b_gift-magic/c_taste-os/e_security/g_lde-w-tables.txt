@@ -32,7 +32,7 @@ Limited direct execution :			| KERNEL			HW			PROGRAM
 - runs the program 	      			| 
 +>						| 							run main() {
 						| 							  ...
-						| 							  issue syscall_trap into OS
+						| 							  init_syscall(); 
 						| 							  trap_into_OS();
 						| 
 						|				mv regs/PC to kstk

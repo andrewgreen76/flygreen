@@ -1,0 +1,10 @@
+
+. Programs are not allowed to alter trap tables.
+. Timer-raised interrupts call for switching states. 
+  . typically involves traps
+
+
+
+LDR is supposed to guarantee efficient and safe sharing of the CPU. 
+
+.

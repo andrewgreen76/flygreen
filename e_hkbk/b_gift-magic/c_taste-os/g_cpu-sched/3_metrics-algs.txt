@@ -1,0 +1,11 @@
+
+Metrics :
+. performance
+. fairness
+
+Algorithms :
+. FIFO
+. SJF
+. STCF (pre-emption) 
+
+.

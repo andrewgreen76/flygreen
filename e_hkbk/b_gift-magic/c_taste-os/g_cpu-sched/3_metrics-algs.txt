@@ -1,11 +1,51 @@
 
 Metrics :
-. performance
-. fairness
+. fairness - FIFO 
+. performance - maximizing completion of tasks as quickly as possible, even at the expense of fairness  
+. turnaround time
+  = waiting time for this job + execution time for this job
+  . reflects total wait , performance 
+. response time
+  = t(sched) - t(arrival)
+  . reflects "quickness of appeasement" at the expense of smoothness , fairness 
+
+
 
 Algorithms :
-. FIFO
-. SJF
-. STCF (pre-emption) 
+. FIFO (values fairness)
+. SJF (values performance, allows for uninterrupted completion of tasks) 
+. STCF (pre-emption of longer tasks to give way to shorter tasks)
+. Round-robin (RR)
+  . job 1 - x ms
+  . job 2 - x ms
+  . job 3 - x ms
+  ...
+  . job 1 - x ms
+  . job 2 - x ms
+  . job 3 - x ms
+  ...
+  ... until all jobs are completed. 
+  . x = scheduling quantum based on the timer-interrupt
+    . small enough to achieve most compact execution of all tasks (no overhead during the final quantum of a task)
+    . large enough for consistent/complete context switching , thus keeping the scheduler responsive
 
+=======================================================================================================================
+===================================================== CONCLUSION : ====================================================
+=======================================================================================================================
+
+FIFO : 
+. good for average turnaround time
+  . minimal total wait per job
+  . smooth execution 
+. bad for average response time
+  . jobs are not quickly "appeased"
+
+
+RR : 
+. good for average response time
+  . jobs are quickly "appeased"  
+. bad for average turnaround time 
+  . total wait per job is not good 
+  . execution of jobs is not smooth 
+  
 .

@@ -1,4 +1,9 @@
 
+. Reading from a file means reading from a portion of a disk.
+. Writing to a file means writing to a portion of a disk. 
+
+
+
 I/O process in parallel with all the other, regular processes :
 - I/O operations are operations conducted between the CPU and some other device, e.g. a storage device, a network interface, or a peripheral.
 - not something we want when a malicious program is involved in reading from and, especially, writing to a disk (i.e., a file on a disk)

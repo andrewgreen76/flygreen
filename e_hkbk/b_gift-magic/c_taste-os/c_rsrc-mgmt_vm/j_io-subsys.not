@@ -6,9 +6,8 @@
 
 I/O process in parallel with all the other, regular processes :
 - I/O operations are operations conducted between the CPU and some other device, e.g. a storage device, a network interface, or a peripheral.
-- not something we want when a malicious program is involved in reading from and, especially, writing to a disk (i.e., a file on a disk)
-- The operations are carried out by the OS's I/O subsystem in a separate process, and the process that summoned the I/O subroutines will have to wait
-  on them. 
+  - not something we want when a malicious program is involved in reading from and, especially, writing to a disk (i.e., a file on a disk)
+- The initiating process will be busy with the OS's I/O subsystem carrying out the I/O operations. 
 => I/O subroutines are distinguished from regular processes. 
 - I/O operations are typically executed to improve resource usage.
   - It can happen that when pid0 summons I/O, another process pid1 can take over the CPU, and once it's done, the slower I/O subroutines may still be

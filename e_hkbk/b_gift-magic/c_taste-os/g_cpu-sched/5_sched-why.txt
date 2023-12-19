@@ -1,0 +1,12 @@
+
+- A process, once having issued an I/O request, will be busy with that request until done, then go back to the CPU.
+- For greater efficiency allow another process to take advantage of the CPU. 
+
+
+
+The job of the scheduler : 
+. to decide when to allow for an I/O request
+. to determine when the I/O request is fulfilled
+  . the timer-interrupt is used for the job (think time-out) 
+
+.

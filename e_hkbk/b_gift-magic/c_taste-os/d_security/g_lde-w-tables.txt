@@ -21,7 +21,7 @@ Limited direct execution :			| KERNEL			HW			PROGRAM
 | - clears registers  	   	    		| 
     	   					| 
 						| mv regs/PC to kernel-stack
-						| trap { return .. }
+						| return .. from trap; }
 						| 
 						| 				mv kstk -> regs/PC
 						| 				mode = USER_MODE

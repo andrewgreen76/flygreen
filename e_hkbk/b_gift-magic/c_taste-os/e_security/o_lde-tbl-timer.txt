@@ -16,7 +16,7 @@ Limited direct execution :			| KERNEL			HW			PROGRAM
 						|				stop_in_ms(x)
 						|
 ================================================+===========================================================================
-						|	BOOT TIME 
+						|	RUN TIME 
 ================================================+===========================================================================
 						|
 - adds the program to the process list		| insert(new_prog)
@@ -30,7 +30,7 @@ Limited direct execution :			| KERNEL			HW			PROGRAM
 						| mv regs/PC to kernel-stack
 						| return .. from trap; }
 						| 
-						| 				mv kstk -> regs/PC
+						| 				kstk(A) -> regs/PC
 						| 				mode = USER_MODE
 						| 				jmp main()
 						| 
@@ -39,13 +39,14 @@ Limited direct execution :			| KERNEL			HW			PROGRAM
 						| 							  ...
 						|
 						|				stop_timer-int(1)
-						|				mv_to_kstk(A_regs/PC)
+						|				regs/PC -> kstk(A)
 						| 				mode = KERNEL_MODE
 						| 				jmp trap_handler()
 						| 
 						| trap {
 						|   switch() {
-						|     
+						|     mv kstk(A) -> res(A) 
+						|     mv cur_p <- res(B)
 						| 
 						|     return .. ;
 						|   } 
@@ -53,7 +54,7 @@ Limited direct execution :			| KERNEL			HW			PROGRAM
 						|   return .. ;
 						| }
 						|
-						|				mv kstk -> regs/PC
+						|				kstk(B) -> regs/PC
 						| 				mode = USER_MODE
 						| 				jmp PC 
 						|

@@ -1,0 +1,8 @@
+
+Lottery scheduling :
+. the jobs that should be running with greater frequency should have better odds at going next
+
+Fair-share scheduling : 
+. each job gets an equal, proportional share of CPU time 
+
+.

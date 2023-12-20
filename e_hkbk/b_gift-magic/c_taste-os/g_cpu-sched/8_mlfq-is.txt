@@ -1,0 +1,32 @@
+
+Prioritizing of jobs :
+. Job behavior is qualified by the amount of time it spends on the CPU and the amount of time it spends in the I/O queue.
+. A job is given a priority level, determined based on its behavior, not on any of its fixed metrics.
+
+
+  ^ highest priority is given to most recently added job					recently added 
+  ^ if a process is in I/O queue instead of the CPU , its priority is high			CPU < I/O 
+  . the job's priority level remains the same if it gives up access to the CPU 			gives up CPU
+    . If a job is stuck with I/O, forcing it to repeatedly give up CPU time,
+      its priority does not change. 
+    . ex. : waiting on user input ("no penalty") 
+  v processes with more CPU time get lower priority 	     	       	   			CPU > I/O
+  v a job is demoted by a priority level if it's not completed within the given time slice 	incomplete/t 
+
+
+  Q( n ) ____________________________________
+  Q(n-1) ____________________________________
+  ...
+  Q( 1 ) ____________________________________
+  Q( 0 ) ____________________________________
+
+
+  . highest-priority jobs are run first
+  . jobs with the same highest priority are run in RR fashion
+
+=================================================================================================================================
+
+Basic idea : 
+. The behavior of the jobs in the future is "predicted" based on their past. 
+
+.

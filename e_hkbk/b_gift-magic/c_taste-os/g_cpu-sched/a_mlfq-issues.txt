@@ -1,0 +1,12 @@
+
+Starvation :
+. The CPU-intensive jobs are stuck waiting on the interactive jobs that eat up all the resources.
+. Even if a CPU-intensive job needs to make an I/O request, it will be ignored until the higher-priority jobs are completed.
+. This is not fair. We are looking at a problem that needs a solution. 
+
+Gaming the scheduler :
+. contriving hacks to allow applications float to the top priority queue
+  . ex : reading from / writing to a trivial file 
+. not what we want / not a solution 
+
+.

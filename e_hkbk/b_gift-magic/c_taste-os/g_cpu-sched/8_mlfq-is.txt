@@ -23,19 +23,21 @@ A multi-level feedback queue (MLFQ) is meant to prioritize jobs in order to bala
 There are different kinds of MLFQs, but generally they work like this : 
 
 
-  ^ after a set amount (S) of time all jobs are moved to the top priority queue			prevent starvation
-    . lingering jobs will get some resources
-    . lingering I/O requests will be honored
-    . S - time limit before priority boost
-      . long enough for I/O processes to stay performant
-      . short enough for lingering jobs not to starve 
+  ^ after a set amount (S) of time all jobs are moved to the top priority queue			} 
+    . lingering jobs will get some resources	      	     	 	  			}
+    . lingering I/O requests will be honored							} prevent starvation
+    . S - time limit before priority boost							}
+      . long enough for I/O processes to stay performant					}
+      . short enough for lingering jobs not to starve 						}
   ^ highest priority is given to most recently added job					recently added 
-  ^ if a process is in I/O queue instead of the CPU , its priority is high			CPU < I/O 
-  . the job's priority level remains the same if it gives up access to the CPU 			gives up CPU
-    . If a job is stuck with I/O, forcing it to repeatedly give up CPU time,
-      its priority does not change. 
-    . ex. : waiting on user input ("no penalty")
-  . the job's priority level remains the same if it finishes its I/O within the time slice	finishes I/O request 
+  ^ if a process is in I/O queue instead of the CPU , its priority is high			CPU < I/O
+  
+  . the job's priority level remains the same if it gives up access to the CPU 			} 
+    . If job is stuck with I/O, forcing it to repeatedly give up CPU, 				} gives up CPU
+      its priority does not change. 	     		   	       				}
+    . ex. : waiting on user input ("no penalty")						}
+  . priority remains the same if job finishes I/O or yields CPU within the time slice		finishes CPU / I/O
+  
   v processes with more CPU time get lower priority 	     	       	   			CPU > I/O
   v a job is demoted if it's not completed within a certain number of time slices 		incomplete/t
     . Length of slice depends on the priority level. Lower priority means longer slices. 

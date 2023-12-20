@@ -55,7 +55,8 @@ Linux :
   - non-determinisic output 
   - system calls 
   - threads
-  - parent and child processes , process API 
+  - parent and child processes , process API
+  - MLFQ 
 - I/O subsystem
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 

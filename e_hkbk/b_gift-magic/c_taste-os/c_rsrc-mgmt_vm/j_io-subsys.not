@@ -5,8 +5,8 @@
 
 
 I/O process in parallel with all the other, regular processes :  
-- the initiating process will be placed in the I/O queue and wait on the I/O subsystem 
-- the kernel's I/O subsystem will carry out the I/O operations 
+- the initiating process will be placed in the I/O queue  
+- the kernel's I/O subsystem will be working with the process in the queue in order to carry out the I/O operations 
 => I/O subroutines are distinguished from regular processes
 - Don't forget : the I/O subsystem is a part of the kernel, so its master copy will be on the disk and an active copy will be on the RAM. 
 |

@@ -66,10 +66,10 @@ Limited direct execution :			| KERNEL			HW			PROGRAM
 - free memory allocated for the process		| free(new_prog)
 - remove process from task list 		| delete(new_prog) 
   	 	      	   			| 
-						| 
-						| 
-Challenges :					| 
-- ensuring there isn't a malicious process	| 
-- ensuring efficient sequential time-sharing 	| 
-  	   	     				| 
+------------------------------------------------+------------------------------------------------------------------------------------------------
+						 
+Challenges :					 
+- ensuring there isn't a malicious process	 
+- ensuring efficient sequential time-sharing 	
+  	   	     				 
 .

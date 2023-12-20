@@ -4,6 +4,9 @@ Prioritizing of jobs :
 . A job is given a priority level, determined based on its behavior, not on any of its fixed metrics.
 
 
+  ^ after a set amount of time all jobs are moved to the top priority queue			prevent starvation
+    . lingering jobs will get some resources
+    . lingering I/O requests will be honored 
   ^ highest priority is given to most recently added job					recently added 
   ^ if a process is in I/O queue instead of the CPU , its priority is high			CPU < I/O 
   . the job's priority level remains the same if it gives up access to the CPU 			gives up CPU

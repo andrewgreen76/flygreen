@@ -1,20 +1,16 @@
 
-Prioritizing of jobs :
+A multi-level feedback queue (MLFQ) is meant to prioritize jobs in order to balance their performance and give them fair treatment :
+. The idea is : 
+  . for all jobs to be finished within a reasonable amount of time -and-
+  . to balance the workload between the CPU and the I/O 
+. I/O processes are typically given higher priority than CPU processes since they can take quite some time to finish.
+  . accessing storage introduces significant delay
+  . this is an idea for balancing performance of I/O with the performance of the CPU (thus achieving fairness) 
 . Job behavior is qualified by the amount of time it spends on the CPU and the amount of time it spends in the I/O queue.
-. A job is given a priority level, determined based on its behavior, not on any of its fixed metrics.
-
-
-  ^ after a set amount of time all jobs are moved to the top priority queue			prevent starvation
-    . lingering jobs will get some resources
-    . lingering I/O requests will be honored 
-  ^ highest priority is given to most recently added job					recently added 
-  ^ if a process is in I/O queue instead of the CPU , its priority is high			CPU < I/O 
-  . the job's priority level remains the same if it gives up access to the CPU 			gives up CPU
-    . If a job is stuck with I/O, forcing it to repeatedly give up CPU time,
-      its priority does not change. 
-    . ex. : waiting on user input ("no penalty") 
-  v processes with more CPU time get lower priority 	     	       	   			CPU > I/O
-  v a job is demoted by a priority level if it's not completed within the given time slice 	incomplete/t 
+. A job is given a priority level based on its behavior, not on any of its determined metrics.
+|
+. highest-priority jobs are run first
+. jobs with the same highest priority are run in RR fashion
 
 
   Q( n ) ____________________________________
@@ -24,8 +20,29 @@ Prioritizing of jobs :
   Q( 0 ) ____________________________________
 
 
-  . highest-priority jobs are run first
-  . jobs with the same highest priority are run in RR fashion
+There are different kinds of MLFQs, but generally they work like this : 
+
+
+  ^ after a set amount (S) of time all jobs are moved to the top priority queue			prevent starvation
+    . lingering jobs will get some resources
+    . lingering I/O requests will be honored
+    . S - time limit before priority boost
+      . long enough for I/O processes to stay performant
+      . short enough for lingering jobs not to starve 
+  ^ highest priority is given to most recently added job					recently added 
+  ^ if a process is in I/O queue instead of the CPU , its priority is high			CPU < I/O 
+  . the job's priority level remains the same if it gives up access to the CPU 			gives up CPU
+    . If a job is stuck with I/O, forcing it to repeatedly give up CPU time,
+      its priority does not change. 
+    . ex. : waiting on user input ("no penalty")
+  . the job's priority level remains the same if it finishes its I/O within the time slice	finishes I/O request 
+  v processes with more CPU time get lower priority 	     	       	   			CPU > I/O
+  v a job is demoted if it's not completed within a certain number of time slices 		incomplete/t
+    . Length of slice depends on the priority level. Lower priority means longer slices. 
+
+
+  . Another idea for an MLFQ is to dedicate the highest-priority queue exlusively to the kernel. This allows for prevention of
+    abuse by the user processes. 
 
 =================================================================================================================================
 

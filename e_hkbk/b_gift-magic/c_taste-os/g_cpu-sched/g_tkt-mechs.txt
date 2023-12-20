@@ -1,0 +1,19 @@
+
+Ticket mechanisms :
+_______________________________________________
+
+Ticket currency :
+. global currency
+. local currency
+  . for every user : num of tickets per job
+
+Ticket transfer :
+. temporary movement of tickets
+. typically between a client and a server 
+
+Ticket inflation :
+. a process changes the number of tickets it holds 
+. used only when processes trust each other
+  . processes do not need to talk to one another to change the number of tickets they hold 
+
+.

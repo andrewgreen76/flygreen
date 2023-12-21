@@ -7,10 +7,14 @@ What does an OS do ?
 
 ==================================================================================================================================================
 
-The main goal of any OS :
+The main goals of any OS are :
 . to maintain security between regular processes and system-critical operations 
 . it works with hardware to achieve its security goals
-
+  . no transparency : physical addresses are never disclosed to user processes
+  . protection : processes cannot affect one another, intentionally or not 
+  . efficiency :
+    . space : allocate as little memory and disk space as possible 
+    . time : take as little time performing tasks as posssible
 
 
 "

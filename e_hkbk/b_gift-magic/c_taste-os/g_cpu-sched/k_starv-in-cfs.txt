@@ -1,0 +1,13 @@
+
+In the event of a job (A) coming back from I/O or sleeping it is usually compensated with a high priority level.
+
+. First, it was sleeping or busy with I/O and the other jobs used the CPU time they needed.
+  Now, job A floats to high priority for CPU time while the other jobs are starving due to their low priority.
+
+. If the attitude is that it's not fair , the CFS can abbreviate the vruntime for job A. But by how much? 
+  . when a job's vruntime lapses, it goes to sleep 
+  . new vruntime should be long enough for the job to get its fair share 
+  . new vruntime should be short enough for the other jobs to not starve 
+  . whatever the case , CFS tree will rebalance accordingly 
+
+.

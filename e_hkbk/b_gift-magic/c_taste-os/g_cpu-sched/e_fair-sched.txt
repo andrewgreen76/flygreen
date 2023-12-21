@@ -1,0 +1,10 @@
+
+Fair-share scheduling : 
+. each job gets an equal share of CPU time 
+________________________________________________________________________________________________________________
+
+Two ways to proportionally share scheduling between processes :
+. lottery scheduling
+. completely fair scheduling (using CFS)
+
+.

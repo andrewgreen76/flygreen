@@ -11,8 +11,9 @@ Fairness metric :
 
 CFS (completely fair scheduler) :
 . uses vruntime (virtual runtime) instead of just time slices
+. every process gets its own vruntime quantum 
 . the longer the job, the longer its vruntime
-. The system records the vruntime for every job in a dedicated data structure. 
+. The system records the vruntime for every job in a dedicated data structure - a red-black tree. 
 . The next time jobs come up for scheduling, they will be prioritized by their vruntime. 
   . Jobs are scheduled shortest vruntime to longest vruntime.
 . introduces lookup/sort/switch overhead , especially when more jobs are to be scheduled  
@@ -21,7 +22,7 @@ CFS (completely fair scheduler) :
     . proc quantum = sched_latency / n (of procs)
     . scheduler runs jobs longest vruntime to shortest vruntime , allowing the same quantum for every job (a la RR) 
     . once a job finishes , the quantum is recalculated ( sched_latency/(n-1) )
-  . min_granularity = floor on quantum
+  . min_granularity = floor on vruntime 
     . typically 6 ms 
     . More jobs means more switching, which means greater lookup/sort/switch overhead.
       min_granularity is used to limit quantum reduction, thereby limiting the overhead.

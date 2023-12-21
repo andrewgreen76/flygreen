@@ -1,0 +1,20 @@
+
+CFS holds processes with their vruntimes in a red-black tree.
+. self-balancing tree
+  . balancing is enforced to support O(log(n)) search, insertion, and deletion times FOR EVERY NODE
+    . (vs. less time for one node, more time for another node) 
+    . n = number of processes to keep track of
+    . in an OS there can be at most thousands of processes, if not 
+  . balance is maintained through tracking and moving red and black nodes 
+  . rebalancing occurs at every insertion and every deletion
+  |
+  . (re)balancing rules :
+    . every node is either red or black 
+    . the root is black
+    . leaves (nil nodes) are black
+    . no consecutive reds along any one path
+    . every red parent has two black children 
+    . all paths from a node to its every leaf should have the same black height
+      . black height = number of black nodes from the node to a leaf 
+
+.

@@ -1,8 +1,4 @@
 
-Fair-share scheduling : 
-. each job gets an equal share of CPU time 
-
-
 Lottery scheduling :
 . the jobs that should be running with greater frequency should have better odds at going next
 . every process gets a proportional amount of tickets in accord with intended frequency

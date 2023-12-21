@@ -48,7 +48,7 @@ Linux :
   - parent and child processes , process API
   - scheduling : 
     . FIFO vs. SJF vs. STCF vs. MLFQ
-    . lottery scheduling 
+    . lottery scheduling vs. CFS 
 - I/O subsystem
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 

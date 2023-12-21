@@ -82,8 +82,8 @@ void mlfq_scheduling(Queue *high_priority_q, Queue *medium_priority_q, Queue *lo
 		   enqueue(low_priority_q, p); // If it failed, move it down to the low.q ; don't plug it back to the med.q. 
 		}
 	    } else { // if medium.q is EMPTY , ...
-	      p = dequeue(low_priority_q); // ... then focus on the low.q and behead that queue. 
-	      if(p != NULL) { // If low.q is NOT EMPTY 
+		p = dequeue(low_priority_q); // ... then focus on the low.q and behead that queue. 
+		if(p != NULL) { // If low.q is NOT EMPTY 
 		    printf("Process %d is running in medium priority queue\n", p->id);
 		    if(p->remaining_time <= low_priority_q->time_quantum) { // Made it within the low.quantum 
 			total_time += p->remaining_time;
@@ -96,31 +96,13 @@ void mlfq_scheduling(Queue *high_priority_q, Queue *medium_priority_q, Queue *lo
 			total_time += low_priority_q->time_quantum;
 			enqueue(low_priority_q, p); // Now you can safely plug it back into low.q. Where else would the job go ? 
 		    }
-		} else {
-		    p = dequeue(low_priority_q);
-		    if(p != NULL) {
-			printf("Process %d is running in low priority queue\n", p->id);
-			if(p->remaining_time <= low_priority_q->time_quantum) {
-			    total_time += p->remaining_time;
-			    p->remaining_time = 0;
-			    p->waiting_time = total_time - p->duration;
-			    p->turnaround_time = total_time;
-			    printf("Process %d finished execution\n", p->id);
-			} else {
-			    p->remaining_time -= low_priority_q->time_quantum;
-			    total_time += low_priority_q->time_quantum;
-			    enqueue(low_priority_q, p);
-			}
-		    } else {
-		      break; // Done with the low priority queue. 
-		    }
+	        } else {
+		  break; // Done with the low priority queue. 
 		}
 	    }
 	}
     }
 }
-
-
 
 int main() {
     // Step 6.1: Initialize the Queues
@@ -144,11 +126,7 @@ int main() {
         processes[i].waiting_time = 0;
         processes[i].turnaround_time = 0;
         enqueue(&high_priority_q, &processes[i]);  // Enqueue all processes to high priority queue initially
-
-	// Custom adjustments :
-	//processes[0].
     }
-
     // Step 6.4: Invoke the MLFQ Scheduling Function
     mlfq_scheduling(&high_priority_q, &medium_priority_q, &low_priority_q, n);
 

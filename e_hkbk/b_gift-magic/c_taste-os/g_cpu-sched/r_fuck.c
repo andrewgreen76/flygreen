@@ -110,10 +110,13 @@ int main() {
     initializeQueue(&high_priority_q, 2);  
     initializeQueue(&medium_priority_q, 4); 
     initializeQueue(&low_priority_q, 8);
+
+    
     int n;
     printf("Enter the number of processes: ");
     scanf("%d", &n);
 
+    
     Process *processes = (Process *)malloc(n * sizeof(Process));
     for(int i = 0; i < n; i++) {
         printf("Enter duration for process %d: ", i+1);
@@ -127,13 +130,13 @@ int main() {
 
     mlfq_scheduling(&high_priority_q, &medium_priority_q, &low_priority_q, n);
 
+    
     printf("Process\tDuration\tWaiting Time\tTurnaround Time\n");
-
     for(int i = 0; i < n; i++) {
         printf("%d\t%d\t\t%d\t\t%d\n", processes[i].id, processes[i].duration, processes[i].waiting_time, processes[i].turnaround_time);
     }
 
+    
     free(processes);
-
     return 0;
 }

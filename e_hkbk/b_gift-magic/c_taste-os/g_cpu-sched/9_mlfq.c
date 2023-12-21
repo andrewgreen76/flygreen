@@ -25,35 +25,34 @@ void enqueue(Queue *q, Process *p) {
         printf("Queue is full!\n");
         return;
     }
+    
     q->processes[++q->rear] = p; // Look up q's rear, incr, focus on rear of q's procs, put addr of new proc there. 
     if(q->front == -1) {        // q is no longer empty. 
         q->front = 0;
     }
     printf("Process %d enqueued in queue with time quantum %d\n", p->id, q->time_quantum);
 }
-
 // Removes head/front proc : 
 Process* dequeue(Queue *q) {
     if(q->front == -1) {
         return NULL;
     }
+    
     Process *p = q->processes[q->front]; // Look up q's front = head proc -> addr/proc of interest for future p->id lookup. 
     if(q->front == q->rear) {   // If front reached rear, reset them both. 
         q->front = q->rear = -1;
     } else {
         q->front++; // Incr'ing front gets us to ignore ("delete") the head proc. 
     }
-    printf("Process %d dequeued from queue with time quantum %d\n", p->id, q->time_quantum);
 
-    // returns the severed process : 
-    return p;
+    printf("Process %d dequeued from queue with time quantum %d\n", p->id, q->time_quantum);
+    return p; // returns the severed process : 
 }
 
 void mlfq_scheduling(Queue *high_priority_q, Queue *medium_priority_q, Queue *low_priority_q, int n) {
     int total_time = 0;
     while(1) {
-        Process *p = dequeue(high_priority_q);
-	
+        Process *p = dequeue(high_priority_q);	
 	if(p != NULL) {
 	    printf("Process %d is running in high priority queue\n", p->id);
 	    if(p->remaining_time <= high_priority_q->time_quantum) {
@@ -67,7 +66,7 @@ void mlfq_scheduling(Queue *high_priority_q, Queue *medium_priority_q, Queue *lo
 		total_time += high_priority_q->time_quantum;
 		enqueue(medium_priority_q, p);
 	    }
-	} else {
+	} else {  // if(p == NULL) , i.e., high queue is empty. 
 	    p = dequeue(medium_priority_q);
 	    if(p != NULL) {
 		printf("Process %d is running in medium priority queue\n", p->id);

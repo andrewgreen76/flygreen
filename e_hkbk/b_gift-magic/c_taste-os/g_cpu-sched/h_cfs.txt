@@ -10,8 +10,9 @@ Fairness metric :
 =============================================================================================
 
 CFS (completely fair scheduler) :
-. uses vruntime (virtual runtime) instead of just time slices
-. every process gets its own vruntime quantum 
+. essentially RR 
+. uses vruntimes (virtual runtimes) instead of just time slices
+. every process gets its own vruntime quantum (processes are weighted) 
 . the longer the job, the longer its vruntime
 . The system records the vruntime for every job in a dedicated data structure - a red-black tree. 
 . The next time jobs come up for scheduling, they will be prioritized by their vruntime. 

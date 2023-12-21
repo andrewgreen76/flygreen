@@ -1,10 +1,13 @@
 
 Fair-share scheduling : 
-. each job gets an equal share of CPU time 
+. each job is supposed to get an equal share of CPU time 
+. there's no such thing as the perfect scheduler 
+. Usually processes that spend a good amount of their time with I/O do not get their fair share of CPU time.
 ________________________________________________________________________________________________________________
 
 Two ways to proportionally share scheduling between processes :
 . lottery scheduling
 . completely fair scheduling (using CFS)
+  . considered to be one of the best options 
 
 .

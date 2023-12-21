@@ -1,7 +1,0 @@
-
-- virtualizes resources
-- manages the use of the shared physical memory
-- handles concurrency issues
-- persistently stores files 
-
-.

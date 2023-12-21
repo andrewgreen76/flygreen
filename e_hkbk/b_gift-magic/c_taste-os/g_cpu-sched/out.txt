@@ -1,0 +1,34 @@
+Enter the number of processes: Enter duration for process 1: Enter duration for process 2: Enter duration for process 3: Process 1 is running in high priority queue
+Process 2 is running in high priority queue
+Process 3 is running in high priority queue
+Process 1 is running in medium priority queue
+Process 2 is running in medium priority queue
+Process 3 is running in medium priority queue
+Process 1 is running in medium priority queue
+Process 2 is running in medium priority queue
+Process 3 is running in medium priority queue
+Process 1 is running in medium priority queue
+Process 1 finished execution
+Process 2 is running in medium priority queue
+Process 3 is running in medium priority queue
+Process 2 is running in medium priority queue
+Process 3 is running in medium priority queue
+Process 2 is running in medium priority queue
+Process 3 is running in medium priority queue
+Process 2 is running in medium priority queue
+Process 3 is running in medium priority queue
+Process 2 is running in medium priority queue
+Process 3 is running in medium priority queue
+Process 2 is running in medium priority queue
+Process 2 finished execution
+Process 3 is running in medium priority queue
+Process 3 is running in medium priority queue
+Process 3 is running in medium priority queue
+Process 3 is running in medium priority queue
+Process 3 is running in medium priority queue
+Process 3 is running in medium priority queue
+Process 3 finished execution
+Process	Duration	Waiting Time	Turnaround Time
+1	10		12		22
+2	20		26		46
+3	30		30		60

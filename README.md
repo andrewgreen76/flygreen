@@ -33,19 +33,9 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-C programming :
-- malloc() :
-  - basics recap : <stdlib.h> , the heap 
-  - explicit type casting on return value from malloc()
-  - creating an array
-- struct padding
-
 Linux : 
-- filesystem directories
-- 'yes' , 'locate' , 'updatedb' , listing with 'echo'
 - management of physical memory vs. virtual memory
 - advanced nuances of makefile
-- generating and updating static and dynamic libraries on Linux and Windows systems
 
 - Virtualization :
   - processes sharing resources
@@ -56,7 +46,9 @@ Linux :
   - system calls 
   - threads
   - parent and child processes , process API
-  - MLFQ 
+  - scheduling : 
+    . FIFO vs. SJF vs. STCF vs. MLFQ
+    . lottery scheduling 
 - I/O subsystem
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 

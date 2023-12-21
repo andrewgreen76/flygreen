@@ -8,6 +8,10 @@ Multiple processes run simultaneously.			How?	- Sharing the CPU
 								  - context switching : data in registers (state) is saved to memory at the end of
 								    the slice and recalled from memory at the beginning of the slice 
 
+
+
+A process can only access its own address space, not the address space of any other process.
+|
 Multiple processes access own instructions and data. 	How? 	- Sharing memory
 	 	   	      		       			  - Problem : processes are scattered across the RAM in chunks but must be
 								    compartmentalized somehow so that their executable code can be run smoothly. 
@@ -28,8 +32,10 @@ Multiple processes access own instructions and data. 	How? 	- Sharing memory
 								    the illusion of having the system all to themselves
 								  - a frame and a page are typically of the size 4K. 
 
+
 Multiple processes access devices. 	       		How? 	- Sharing storage
 	 	   	  					  - simply put, multiple processes share the same storage devices 
+
 
 Thus, every OS is a resource manager. 
 

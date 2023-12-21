@@ -29,7 +29,7 @@ void enqueue(Queue *q, Process *p) {
     if(q->front == -1) {        // q is no longer empty. 
         q->front = 0;
     }
-    //printf("Process %d enqueued in queue with time quantum %d\n", p->id, q->time_quantum);
+    printf("Process %d enqueued in queue with time quantum %d\n", p->id, q->time_quantum);
 }
 
 // Removes head/front proc : 
@@ -43,7 +43,7 @@ Process* dequeue(Queue *q) {
     } else {
         q->front++; // Incr'ing front gets us to ignore ("delete") the head proc. 
     }
-    //printf("Process %d dequeued from queue with time quantum %d\n", p->id, q->time_quantum);
+    printf("Process %d dequeued from queue with time quantum %d\n", p->id, q->time_quantum);
 
     // returns the severed process : 
     return p;

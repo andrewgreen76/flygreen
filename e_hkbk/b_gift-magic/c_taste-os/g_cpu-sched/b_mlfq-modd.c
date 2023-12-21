@@ -124,6 +124,9 @@ void mlfq_scheduling(Queue *high_priority_q, Queue *medium_priority_q, Queue *lo
 
 
 int main() {
+    int total_waiting_time = 0;
+    int total_turnaround_time = 0;
+
     // Step 6.1: Initialize the Queues
     Queue high_priority_q, medium_priority_q, low_priority_q;
     initializeQueue(&high_priority_q, 2);  // High priority queue with time quantum of 2
@@ -154,11 +157,20 @@ int main() {
     mlfq_scheduling(&high_priority_q, &medium_priority_q, &low_priority_q, n);
 
     // Step 6.5: Display the Results
-    printf("Process\tDuration\tWaiting Time\tTurnaround Time\n");
+    printf("\nProcess\tDuration\tWaiting Time\tTurnaround Time\n");
     for(int i = 0; i < n; i++) {
         printf("%d\t%d\t\t%d\t\t%d\n", processes[i].id, processes[i].duration, processes[i].waiting_time, processes[i].turnaround_time);
     }
 
+    for(int i=0 ; i<n ; i++) {
+      total_waiting_time += processes[i].waiting_time;
+      total_turnaround_time += processes[i].turnaround_time;
+    }
+
+    printf("\n");
+    printf("Average Waiting Time: %.2lf\n", (double)total_waiting_time / (double)n );
+    printf("Average Turnaround Time: %.2lf\n", (double)total_turnaround_time / (double)n );
+    
     // Step 6.6: Free the Allocated Memory
     free(processes);
     return 0;

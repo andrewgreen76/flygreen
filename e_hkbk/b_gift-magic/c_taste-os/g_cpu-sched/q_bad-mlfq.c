@@ -53,48 +53,48 @@ void mlfq_scheduling(Queue *high_priority_q, Queue *medium_priority_q, Queue *lo
     int total_time = 0;
     while(1) {
         Process *p = dequeue(high_priority_q);	
-	if(p != NULL) {
+	if(p != NULL) { // if high.q is NOT EMPTY 
 	    printf("Process %d is running in high priority queue\n", p->id);
-	    if(p->remaining_time <= high_priority_q->time_quantum) {
+	    if(p->remaining_time <= high_priority_q->time_quantum) { // remain.time < high.quantum
 		total_time += p->remaining_time;
 		p->remaining_time = 0;
 		p->waiting_time = total_time - p->duration;
 		p->turnaround_time = total_time;
 		printf("Process %d finished execution\n", p->id);
-	    } else {
+	    } else {  // remain.time > high.quantum 
 		p->remaining_time -= high_priority_q->time_quantum;
 		total_time += high_priority_q->time_quantum;
-		enqueue(medium_priority_q, p);
+		enqueue(medium_priority_q, p); // failed once, move down. 
 	    }
-	} else {  // if(p == NULL) , i.e., high queue is empty. 
+	} else {  // if(p == NULL) , i.e., high queue is EMPTY , go to medium : 
 	    p = dequeue(medium_priority_q);
-	    if(p != NULL) {
+	    if(p != NULL) { // if medium.q is NOT EMPTY 
 		printf("Process %d is running in medium priority queue\n", p->id);
-		if(p->remaining_time <= medium_priority_q->time_quantum) {
+		if(p->remaining_time <= medium_priority_q->time_quantum) { // Made it within the med.quantum 
 		    total_time += p->remaining_time;
 		    p->remaining_time = 0;
 		    p->waiting_time = total_time - p->duration;
 		    p->turnaround_time = total_time;
 		    printf("Process %d finished execution\n", p->id);
-		} else {
-		   p->remaining_time -= high_priority_q->time_quantum;
-		   total_time += high_priority_q->time_quantum;
-		   enqueue(medium_priority_q, p);
+		} else { // Did not make it within the med.quantum 
+		  p->remaining_time -= medium_priority_q->time_quantum; // We are working on the medium queue, not high queue. 
+		   total_time += medium_priority_q->time_quantum;
+		   enqueue(low_priority_q, p); // If it failed, move it down to the low.q ; don't plug it back to the med.q. 
 		}
-	    } else {
-		p = dequeue(medium_priority_q);
-		if(p != NULL) {
+	    } else { // if medium.q is EMPTY , ...
+	      p = dequeue(low_priority_q); // ... then focus on the low.q and behead that queue. 
+	      if(p != NULL) { // If low.q is NOT EMPTY 
 		    printf("Process %d is running in medium priority queue\n", p->id);
-		    if(p->remaining_time <= medium_priority_q->time_quantum) {
+		    if(p->remaining_time <= low_priority_q->time_quantum) { // Made it within the low.quantum 
 			total_time += p->remaining_time;
 			p->remaining_time = 0;
 			p->waiting_time = total_time - p->duration;
 			p->turnaround_time = total_time;
 			printf("Process %d finished execution\n", p->id);
-		    } else {
-			p->remaining_time -= medium_priority_q->time_quantum;
-			total_time += medium_priority_q->time_quantum;
-			enqueue(low_priority_q, p);
+		    } else { // Did not make it within the low.quantum 
+			p->remaining_time -= low_priority_q->time_quantum;
+			total_time += low_priority_q->time_quantum;
+			enqueue(low_priority_q, p); // Now you can safely plug it back into low.q. Where else would the job go ? 
 		    }
 		} else {
 		    p = dequeue(low_priority_q);

@@ -1,4 +1,5 @@
 "
-... involves or is based on probability, which is the likelihood or chance of something happening. 
+. involves or is based on probability, which is the likelihood or chance of something happening 
+. outcomes are not certain
 "
 .

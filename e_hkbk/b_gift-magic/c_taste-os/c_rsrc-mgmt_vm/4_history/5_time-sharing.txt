@@ -1,6 +1,6 @@
 
 . Time-sharing used to be done with disks.
   . I/O operations are relatively slow compared to memory operations.
-  . Moving time-sharing from disk to memory certainly increased efficiency. 
+  . Moving time-sharing from disk to memory (storing process state in and loading it from memory) certainly increased efficiency. 
 
 .

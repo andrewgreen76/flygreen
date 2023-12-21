@@ -7,4 +7,9 @@ Fairness metric :
 
 . we want F as close to 1 as possible (jobs finishing at about the same time) 
 
+=============================================================================================
+
+CFS (completely fair scheduler) :
+. 
+
 .

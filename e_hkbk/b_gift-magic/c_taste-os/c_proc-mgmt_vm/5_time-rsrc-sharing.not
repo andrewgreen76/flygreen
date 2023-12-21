@@ -10,7 +10,7 @@ Multiple processes run simultaneously.			How?	- Sharing the CPU
 
 
 
-A process can only access its own address space, not the address space of any other process.
+A process can only access its own address space and not other chunk of memory. 
 |
 Multiple processes access own instructions and data. 	How? 	- Sharing memory
 	 	   	      		       			  - Problem : processes are scattered across the RAM in chunks but must be

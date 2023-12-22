@@ -27,7 +27,7 @@ It is highly advised to use malloc() and free() instead of brk() and sbrk() for 
             MAP_PRIVATE | MAP_ANONYMOUS, 0, 0);
   "
   . NULL - Tells the compiler that we don’t care where the memory is allocated.
-  . PAGESIZE - Tells the compiler how much memory to allocate. In this example, it is 4,096 bytes.
+  . # PAGESIZE 4096 - Tells the compiler how much memory to allocate. In this example, it is 4,096 bytes.
   . PROT_READ | PROT_WRITE - Provides protection for reading from and writing to region that has been mapped. (You CAN read and write to the memory.)
   . MAP_PRIVATE - The map is marked as “private” because it is not shared with another process.
   . MAP_ANONYMOUS - A file has not been mapped, so it is marked as "anonymous". 

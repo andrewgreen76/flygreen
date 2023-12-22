@@ -8,7 +8,8 @@ ________________________________________________________________________________
 . fsync()
 . close()
 . brk()
-. sbrk() 
+. sbrk()
+. mmap() 
 _______________________________________________________________________________________________________________________________________
 
 It is highly advised to use malloc() and free() instead of brk() and sbrk() for safer memory management. 
@@ -19,5 +20,11 @@ It is highly advised to use malloc() and free() instead of brk() and sbrk() for 
 . sbrk(adjust)
   . adjusts the program break based on the incrementation/decrementation argument passed to it
   . returns the new program break 
+
+. mmap(..) 
+  . ex. mmap(NULL, PAGESIZE,
+            PROT_READ | PROT_WRITE,
+            MAP_PRIVATE | MAP_ANONYMOUS, 0, 0);
+  . //
 
 .

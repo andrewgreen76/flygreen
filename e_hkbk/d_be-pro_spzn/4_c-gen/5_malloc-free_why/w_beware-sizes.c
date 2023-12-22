@@ -2,8 +2,7 @@
   sizeof(int_ptr) = 8 bytes 
   sizeof(int) = 4 bytes 
 
-  Statically allocating memory for an int charges FOUR bytes on the stack (as though your machine is 32-bit). 
-  Dynamically allocating memory for an int charges EIGHT bytes on the heap (as though your machine is 64-bit).
+  Deref ptr to malloc'd chunk of heap = get 1st elem in the chunk. 
 */
 
 #include <stdio.h>

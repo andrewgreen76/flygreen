@@ -18,13 +18,14 @@ int main(int argc, char *argv[]) {
   // ==================== REALLOC ====================
   /*
     Reallocating beyond initialized elements. 
-   */
+   
   arr = realloc(arr, sizeof(int) * 10);
   //
   for (i = 0; i < 10; i++) {
     printf("[%d]", arr[i]);
   }
   printf("\n");
+  */
   // ==================== REALLOC ====================
   /*
     Promised shrinking. 

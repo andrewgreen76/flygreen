@@ -1,8 +1,24 @@
 #include <stdio.h>
 
 int main(void){
-  double a = 42.98;
-  double * addr_a = &a;
+  printf("\n");
 
-  printf("\nSize: %zu\n\n", sizeof(char *) );
+  char *srcPointer = "hi\0";
+
+  /*
+  printf("%c", *srcPointer );
+  srcPointer++;
+  printf("%c", *srcPointer );
+  srcPointer++;
+  */
+  
+  /*
+  while(srcPointer != NULL) {
+    printf("%c", *srcPointer );
+    srcPointer++;
+  }
+  */
+  printf("%s\n", srcPointer);
+
+  printf("\n");
 }

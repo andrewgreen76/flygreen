@@ -1,12 +1,15 @@
 /*
 Address space :
 . program code
+  . vaddr of program = addr of main 
 . stack (vars, args, return values)
   . contains static data , but can grow and shrink throughout the life of the process
   . PROCESS STATE : the stack can be used to store the state of the process 
   . user stack
   . kernel stack 
+  . vaddr of stack = addr of 1st static var 
 . heap (think malloc() / free() )
+  . vaddr of heap = addr of 1st malloc'd var 
 
 ========================================================================================================================
 

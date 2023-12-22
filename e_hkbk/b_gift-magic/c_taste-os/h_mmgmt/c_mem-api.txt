@@ -2,10 +2,17 @@
 Memory API syscalls :
 _______________________________________________________________________________________________________________________________________
 
+. brk()
+. sbrk() 
+_______________________________________________________________________________________________________________________________________
+
+It is highly advised to use malloc() and free() instead of brk() and sbrk() for safer memory management. 
+
 . brk(new_break)
   . changes the break of the program, i.e., the end of the heap
 
 . sbrk(adjust)
-  . adjusts the program break based on the incrementation/decrementation argument passed to it 
+  . adjusts the program break based on the incrementation/decrementation argument passed to it
+  . returns the new program break 
 
 .

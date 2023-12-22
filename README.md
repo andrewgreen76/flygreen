@@ -52,7 +52,7 @@ Linux :
 - C programming :
   - calloc()
   - malloc() revisited
-  - strcpy() and strlen() revisited 
+  - strcpy() , strlen() , strcat() revisited 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

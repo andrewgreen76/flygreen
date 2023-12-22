@@ -1,6 +1,7 @@
 /*
   sizeof(int_ptr) = 8 bytes 
-  sizeof(int) = 4 bytes 
+  sizeof(int) = 4 bytes (on 32-bit machines ) 
+  sizeof(int) = 8 bytes (on 64-bit machines ) 
 
   Deref ptr to malloc'd chunk of heap = get 1st elem in the chunk. 
 */

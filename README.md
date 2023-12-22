@@ -36,7 +36,6 @@ __________________________________________________________________________
 Linux : 
 - management of physical memory vs. virtual memory
 - advanced nuances of makefile
-
 - Virtualization :
   - processes sharing resources
 - Concurrency :
@@ -50,6 +49,8 @@ Linux :
     . FIFO vs. SJF vs. STCF vs. MLFQ
     . lottery scheduling vs. CFS 
 - I/O subsystem
+- C programming :
+  - calloc() 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

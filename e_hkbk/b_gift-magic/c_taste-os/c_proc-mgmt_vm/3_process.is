@@ -10,10 +10,14 @@ Process :
 - data
 - heap :
   - holds memory reserved for variables at run-time 
-  - uses the malloc() API for requesting more memory
+  - programmer explicitly requests more memory on the heap using the malloc() API
+    - malloc() returns the address of the conjured heap chunk
+    - returns NULL if it failed for some reason 
+    must explicitly release heap memory using free() 
 - stack :
   - init'd with :   argc and argv 
-  - holds : 	    current func.args , local vars , return address 
+  - holds : 	    current func.args , local vars , return address
+  - automatically handled by the compiler 
 
 
 

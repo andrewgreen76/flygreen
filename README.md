@@ -51,7 +51,8 @@ Linux :
 - I/O subsystem
 - C programming :
   - calloc()
-  - malloc() revisited 
+  - malloc() revisited
+  - strcpy() and strlen() revisited 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

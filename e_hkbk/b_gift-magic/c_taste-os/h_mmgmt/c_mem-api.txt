@@ -2,7 +2,10 @@
 Memory API syscalls :
 _______________________________________________________________________________________________________________________________________
 
-. brk()
-. sbrk()
+. brk(new_break)
+  . changes the break of the program, i.e., the end of the heap
+
+. sbrk(adjust)
+  . adjusts the program break based on the incrementation/decrementation argument passed to it 
 
 .

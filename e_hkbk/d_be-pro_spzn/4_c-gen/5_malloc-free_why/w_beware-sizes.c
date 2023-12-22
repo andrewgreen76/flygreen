@@ -25,6 +25,9 @@ int main(){
   printf("\n");
   printf("sizeof(intarr_ptr z) = %ld\n", sizeof(z) );
   printf("sizeof(deref'd z ptr to the first of ten ints) = %ld\n", sizeof(*z) );
+
+  free(y);
+  free(z);
   
   printf("\n");
 }

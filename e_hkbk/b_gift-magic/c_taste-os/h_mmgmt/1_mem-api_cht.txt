@@ -21,7 +21,9 @@ It is highly advised to use malloc() and free() instead of brk() and sbrk() for 
   . adjusts the program break based on the incrementation/decrementation argument passed to it
   . returns the new program break 
 
-. mmap(..) 
+. mmap(..)
+  . creates an anonymous alternative to the heap
+  . returns the address to the anonymous chunk 
   . ex. mmap(NULL, PAGESIZE,
             PROT_READ | PROT_WRITE,
             MAP_PRIVATE | MAP_ANONYMOUS, 0, 0);

@@ -1,5 +1,8 @@
 /*
-. realloc will NOT automatically assign 0 to the elements in the expansion to the array. 
+realloc() : 
+. It will NOT automatically assign 0 to the elements in the EXPANSION to the array. 
+. WARNING : If there's not enough memory for the expanded array at the current location , the array will be moved. 
+  This will create problems with all the pointers that you would tie to the array. 
  */
 
 #include <stdio.h>

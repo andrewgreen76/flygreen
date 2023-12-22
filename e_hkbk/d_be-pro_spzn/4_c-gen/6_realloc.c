@@ -16,6 +16,9 @@ int main(int argc, char *argv[]) {
   }
   printf("\n");
   // ==================== REALLOC ====================
+  /*
+    Reallocating beyond initialized elements. 
+   */
   arr = realloc(arr, sizeof(int) * 10);
   //
   for (i = 0; i < 10; i++) {
@@ -23,6 +26,9 @@ int main(int argc, char *argv[]) {
   }
   printf("\n");
   // ==================== REALLOC ====================
+  /*
+    Promised shrinking. 
+   */
   arr = realloc(arr, sizeof(int) * 3);
   //
   for (i = 0; i < 3; i++) {

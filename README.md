@@ -50,7 +50,8 @@ Linux :
     . lottery scheduling vs. CFS 
 - I/O subsystem
 - C programming :
-  - calloc() 
+  - calloc()
+  - malloc() revisited 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

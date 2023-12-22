@@ -17,7 +17,5 @@ int main () {
    printf("String: %s,  Address: %lu\n", txt, (uint64_t) txt);
 
    free(txt);
-   //printf("String: %s,  Address: %u\n", txt, txt);
-
    printf("\n");
 }

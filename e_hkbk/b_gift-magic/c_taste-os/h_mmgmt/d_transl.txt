@@ -5,9 +5,10 @@ Both the OS and the HW are responsible for mem.virt.
 ====================== Mem.virt techiniques : =======================
 =====================================================================
 
-Base and bounds :
-  . every process needs to use the base register and the bounds register
-  . also called dynamic relocation ("address space can be relocated even after the process has begun")
+Base and bounds registers:
+  . required for address translation 
+  . every process needs to use the base register and the bounds register 
+  . dynamic relocation is possible ("address space can be relocated even after the process has begun")
   . the register pair gives the OS an idea of how to map the process across the physical memory 
   . the register pair enforces the transparency rule (a process can only access its own address space) 
 . base register : 

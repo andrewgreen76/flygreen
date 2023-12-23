@@ -19,8 +19,9 @@ Base register :
 Bounds register = also called the limit register
 . used to prevent a fault - an illegal access beyond the proc's bounds
 . if a fault occurs, the CPU will raise an exception and the offending process may be terminated
-|
-. The bounds register assumes the origin of the stack. This poses a problem for memory economy. 
+Problems with the approach : 
+. The bounds register determines the origin of the stack. This can leave too much free memory between the heap and the stack.
+. Free memory overhead leads to another problem - taking too much time finding a fitting gap in physical memory when moving the address space. 
 
 =====================================================================================================
 

@@ -1,0 +1,17 @@
+
+Both the OS and the HW are responsible for mem.virt.
+
+=====================================================================
+====================== Mem.virt techiniques : =======================
+=====================================================================
+
+Base and bounds = dynamic relocation
+. needs two registers - the base register and the bounds register
+  . the register pair gives the OS an idea of how to map the process across the physical memory 
+  . the register pair enforces the transparency rule (a process can only access its own address space) 
+. every process needs a base-and-bounds pair  
+. base register 
+. bounds register
+  . also called the limit register 
+
+.

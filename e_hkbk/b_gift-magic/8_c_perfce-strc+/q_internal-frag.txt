@@ -1,3 +1,7 @@
+
+Internal fragmentation : the problem of wasted (extra allocated) memory. 
+
+
 "
 Internal fragmentation is a concept related to memory allocation in computer systems, particularly in the context of dynamic memory allocation and storage management. It refers to the wasted memory space that occurs within a partition or block of allocated memory when the allocated space is larger than what is actually needed by the program or data.
 

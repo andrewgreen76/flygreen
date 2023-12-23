@@ -1,0 +1,28 @@
+"
+Internal fragmentation is a concept related to memory allocation in computer systems, particularly in the context of dynamic memory allocation and storage management. It refers to the wasted memory space that occurs within a partition or block of allocated memory when the allocated space is larger than what is actually needed by the program or data.
+
+Here's a breakdown of internal fragmentation:
+
+1. **Memory Allocation:**
+   - In computer systems, memory is often allocated to programs or processes during runtime. Memory can be allocated in fixed-size blocks or dynamically adjusted based on the program's needs.
+
+2. **Partitioning:**
+   - Memory is typically divided into fixed-size or variable-size partitions to accommodate different programs or data structures. Each partition may be assigned to a specific process or data storage.
+
+3. **Wasted Space:**
+   - Internal fragmentation occurs when a partition or block of memory is allocated to a program, but the program does not fully utilize the entire allocated space. As a result, there is unused or wasted memory within the allocated block.
+
+4. **Causes:**
+   - Internal fragmentation can be caused by various factors, including memory allocation policies, varying memory requirements of different programs, and the use of fixed-size memory blocks. For example, if a program is allocated a fixed-size block of memory and only uses a portion of it, the remaining space is internally fragmented.
+
+5. **Impact:**
+   - Internal fragmentation leads to inefficient use of memory. While the total allocated memory may be sufficient to meet the program's needs, the fact that a portion of the allocated memory is not utilized effectively reduces the overall efficiency of the memory management system.
+
+6. **Mitigation:**
+   - Memory allocation strategies and algorithms can be designed to minimize internal fragmentation. Techniques such as dynamic memory allocation, variable-size partitioning, and adaptive memory allocation policies can help reduce wasted memory space.
+
+For example, dynamic memory allocation using techniques like heap memory management allows programs to request and release memory dynamically as needed, helping to mitigate internal fragmentation. Additionally, memory allocation algorithms that consider the actual size of data structures or adjust partition sizes based on program requirements can contribute to more efficient memory utilization.
+
+In summary, internal fragmentation is the inefficient use of memory within allocated blocks or partitions, leading to wasted space. Mitigating internal fragmentation is an important aspect of designing effective memory management systems.
+"
+.

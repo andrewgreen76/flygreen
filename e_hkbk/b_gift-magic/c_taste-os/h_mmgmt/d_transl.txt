@@ -5,13 +5,23 @@ Both the OS and the HW are responsible for mem.virt.
 ====================== Mem.virt techiniques : =======================
 =====================================================================
 
-Base and bounds = dynamic relocation
-. needs two registers - the base register and the bounds register
+Base and bounds :
+  . every process needs to use the base register and the bounds register
+  . also called dynamic relocation ("address space can be relocated even after the process has begun")
   . the register pair gives the OS an idea of how to map the process across the physical memory 
   . the register pair enforces the transparency rule (a process can only access its own address space) 
-. every process needs a base-and-bounds pair  
-. base register 
-. bounds register
-  . also called the limit register 
+. base register : 
+  . proc's base register value = the physical address of the process 
+  . virtual address + base = physical address
+  . PC = virtual address of the proc's instruction to be fetched and executed
+. bounds register = also called the limit register
+  . used to prevent a fault - an illegal access beyond the proc's bounds
+  . if a fault occurs, the CPU will raise an exception and the offending process may be terminated 
+
+Running a process :
+. fetch : 
+  . PC + base = phys.addr
+  . get instr. @phys.addr
+. execute.  
 
 .

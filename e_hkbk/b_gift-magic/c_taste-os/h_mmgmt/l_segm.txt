@@ -1,0 +1,21 @@
+
+Internal fragmentation : too much free memory in an address space.
+
+Segment : a piece of uninterrupted virtual address space.
+. every segment has its own base and bounds pair
+. virtual address - 14 bits (2 bits to tell the segment , 12 bits of offset) 
+  . 00 field - code segment
+    . data segment and code segment are usually lumped together as "program code" 
+  . 01 field - heap segment 
+  . stack segment
+  . offset - virtual location within the context of the segment 
+
+Segmentation :
+. segments of the same address space can be populated in different places across physical memory
+. this should allow the kernel populate processes that do not hold memory hostage between the stack and the heap
+. MMU should have a register pair for every segment
+
+Segmentation fault :
+. attempting to access memory outside of the bounds of a segment  
+
+.

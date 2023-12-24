@@ -4,10 +4,16 @@ Internal fragmentation : too much free memory in an address space.
 Segment : a piece of uninterrupted virtual address space.
 . every segment has its own base and bounds pair
 . virtual address - 14 bits (2 bits to tell the segment , 12 bits of offset) 
-  . 00 field - code segment
+  . code segment
+    . seg field : 00
+    . grows positive : 1
     . data segment and code segment are usually lumped together as "program code" 
-  . 01 field - heap segment 
+  . heap segment
+    . seg field : 01 
+    . grows positive : 1
   . stack segment
+    . seg field : 11 
+    . grows positive : 0
   . offset - virtual location within the context of the segment 
 
 Segmentation :

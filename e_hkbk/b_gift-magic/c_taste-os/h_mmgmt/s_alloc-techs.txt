@@ -1,0 +1,27 @@
+
+Best fit (smallest fit) : 
+. returning the smallest free piece that could accommodate the request
+. drawback : O(n) 
+
+Worst fit :
+. the opposite of best fit
+. the idea is to not end up with internal fragmentation marked by tiny pockets of free memory
+. "most studies suggest it works poorly, leading to excessive fragmentation and significant overheads"
+. drawback : O(n) 
+
+First fit :
+. simply returns the first fitting chunk
+. pro : quick solution
+. con : excessive fragmentation is still guaranteed
+  . address-based ordering is used for coalescing 
+
+"Next fit" :
+. the last fitting free location detected is picked for the splitting
+. The idea is to avoid reducing a free memory pocket down to a sliver , so the search through the pocket selections has to be balanced (somehow). 
+
+
+
+"
+The choice of memory allocation algorithm can impact the overall performance, efficiency, and fragmentation characteristics of an application. The decision on which algorithm to use is typically made by the designers and implementers of the standard library or runtime environment based on considerations specific to the language and its typical usage patterns.
+"
+.

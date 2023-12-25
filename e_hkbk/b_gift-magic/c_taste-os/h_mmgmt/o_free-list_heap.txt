@@ -22,16 +22,4 @@ Splitting :
 Coalescing :
 . adjacent free memory chunks are united in one node upon freeing memory 
 
-
-
-Heap implementation :
-. init heap , insert node with a free heap into the free list
-. could be partitioned and returned to by mmap()
-. example code :
-
-    // mmap() returns a pointer to a chunk of free space
-    node_t *head = mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_ANON|MAP_PRIVATE, -1, 0);
-    head->size = 4096 - sizeof(node_t); 	// example (4K of alloc'd mem - size of header) 
-    head->next = NULL;
-
 .

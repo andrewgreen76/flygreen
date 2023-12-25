@@ -11,4 +11,8 @@ Meta-data :
 	struct block *next; 
     };  
 
+
+Free list :
+. can be represented as a list of metadata nodes
+
 .

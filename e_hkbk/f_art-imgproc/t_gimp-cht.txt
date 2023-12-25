@@ -1,0 +1,14 @@
+
+Keybindings :
+___________________________________________
+
+new work			C^n
+
+undo				C^z
+
+zoom in	    			S^+
+zoom out    			-
+move zoom to left margin	C^left
+move zoom to top margin		C^up
+
+.

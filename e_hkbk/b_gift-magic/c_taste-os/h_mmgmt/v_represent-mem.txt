@@ -1,0 +1,14 @@
+
+Meta-data :
+. size of the following data block (address returned by malloc() )  
+. ptr to (metadata for) the next block of data
+. a flag for whether it's free or allocated 
+
+
+    struct block {
+	size_t size;
+	int free;                             
+	struct block *next; 
+    };  
+
+.

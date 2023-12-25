@@ -1,7 +1,7 @@
 
 Heap implementation :
-. init heap , insert node with a free heap into the free list
-. could be partitioned and returned to by mmap()
+. init heap : insert node with a free heap into the free list
+. could be individually partitioned and returned to by mmap()
 . example code :
 
     // mmap() returns a pointer to a chunk of free space

@@ -19,9 +19,43 @@ First fit :
 . the last fitting free location detected is picked for the splitting
 . The idea is to avoid reducing a free memory pocket down to a sliver , so the search through the pocket selections has to be balanced (somehow). 
 
-
+==========================================================================================================
+==========================================================================================================
+==========================================================================================================
 
 "
 The choice of memory allocation algorithm can impact the overall performance, efficiency, and fragmentation characteristics of an application. The decision on which algorithm to use is typically made by the designers and implementers of the standard library or runtime environment based on considerations specific to the language and its typical usage patterns.
 "
+
+"
+... the more information you have about the specific workload given to an allocator, the more you can tailor it to operate better for that workload.
+"
+==========================================================================================================
+==========================================================================================================
+==========================================================================================================
+
+Segregated list : 
+. a separate free list used to keep track of free memory gaps of certain sizes
+. thus an appropriate chunk can be picked quickly
+. other requests are passed to the more primitive general allocator 
+. slab allocator :
+  . a free nodes manager : a mechanism that decides on how much memory should be dedicated to segregated lists
+  . initializes any and all free nodes 
+
+Kernel's object caches :
+. segregated lists reserved specifically for frequently used system mechanisms (locks, filesys inodes , etc.)
+. when a cache runs out of space , it borrows a slab of memory via the basic allocator
+
+Binary buddy allocator :
+. "buddy" - neighboring block of memory 
+. the smallest binary subdivision of a free partition is allocated for the request (think recursive search) 
+. this clearly promises fragmentation gaps (7K < 8K, 8K-7K = 1K gap)
+. upon releasing the binary subdivision it is merged with the neighboring subdivision
+  . recursive coalescing is likely
+
+Other more scalable solutions include :
+. red-black trees
+. splay trees
+. partially-ordered trees 
+
 .

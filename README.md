@@ -43,8 +43,8 @@ Linux :
   - threads
   - parent and child processes , process API
   - scheduling : 
-    . FIFO vs. SJF vs. STCF vs. MLFQ
-    . lottery scheduling vs. CFS 
+    - FIFO vs. SJF vs. STCF vs. MLFQ
+    - lottery scheduling vs. CFS 
 - I/O subsystem
 - C programming :
   - calloc()

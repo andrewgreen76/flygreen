@@ -1,12 +1,37 @@
 
 Free list :
-. a data structure that keeps tracks of all the pockets of free memory in the memory chunk of our interest
+. a data structure that keeps tracks of all the pockets of free memory in the memory chunk of our interest (e.g., a heap)
+. head -> [node: addr, len] -> ... -> [node: addr, len] -> NULL
+. node implementation model :
+
+    typedef struct __node_t {
+	int size;
+	struct __node_t *next;
+    } node_t;
 
 
-Allocator
+
+Allocator :
+. an implemented agent that handles dynamic memory management 
+
+Splitting : 
+. When memory is requested for data , the allocator will pick out a node from the free list that can satisfy the request and split it in two.
+  . one piece is returned to the caller
+  . the rest stays on the list
+|
+Coalescing :
+. adjacent free memory chunks are united in one node upon freeing memory 
 
 
-Splitting and coalescing :
-. allocation methods 
+
+Heap implementation :
+. init heap , insert node with a free heap into the free list
+. could be partitioned and returned to by mmap()
+. example code :
+
+    // mmap() returns a pointer to a chunk of free space
+    node_t *head = mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_ANON|MAP_PRIVATE, -1, 0);
+    head->size = 4096 - sizeof(node_t); 	// example (4K of alloc'd mem - size of header) 
+    head->next = NULL;
 
 .

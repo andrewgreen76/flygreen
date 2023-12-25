@@ -1,0 +1,24 @@
+
+Header block :
+. contains the size of allocated memory
+. a magic number for integrity checking
+. auxiliary pointers for expediting deallocation
+
+    typedef struct {
+	int size;
+	int magic;
+    } header_t;
+
+
+When memory is requested , a header block indicating the size of allocated memory is added to the heap, followed by the allocated memory itself.
+. implemented in malloc() from <stdlib.h> (and the free list will be changed accordingly) 
+. free() will use that header to release memory (and the free list will be changed accordingly)
+  . uses simple pointer arithmetic to detect the header
+  . asserts the magic number 
+  . if all's good , releases the header along with the requested memory 
+
+    void free(void *ptr) {
+	header_t *hptr = (header_t *) ptr - 1;
+	...
+
+.

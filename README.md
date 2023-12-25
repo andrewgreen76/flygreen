@@ -35,11 +35,7 @@ __________________________________________________________________________
 
 Linux : 
 - management of physical memory vs. virtual memory
-- advanced nuances of makefile
-- Virtualization :
-  - processes sharing resources
-- Concurrency :
-  - interleaved executions
+  - segmentation (internal and external) 
 - Processes :
   - non-determinisic output 
   - system calls 

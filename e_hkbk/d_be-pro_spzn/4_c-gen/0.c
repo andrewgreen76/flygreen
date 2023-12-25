@@ -1,13 +1,8 @@
 #include <stdio.h>
-#include <string.h>
 
-int main(){
-  printf("\n");
-  
-  char * txt = "Goodbye";
-  printf("%s", txt);
-  printf("\n");
-  printf("Size of string : %ld\n" , strlen(txt) );
+char memory[20000];
 
-  printf("\n");
+int main(void) {
+  printf("Using (void*) memory: %p\n", (void*) memory);
+  printf("Using &memory: %p\n", (void*) &memory);
 }

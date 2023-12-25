@@ -37,6 +37,13 @@ Segmentation fault :
 
 External fragmentation :
 . too many tiny pockets of free memory across the physical memory as a result of spreading out and not compacting segments
-. it gets more diffucult to place new segments or grow the already existing ones 
+. it gets more diffucult to place new segments or grow the already existing ones
+  . Remember : processes can request specific large amounts of memory and not get a fit
+  . the kernel will have to deny the request
+
+Compaction :
+. the kernel stops all processes and presses them together in the physical memory (updating their base and bounds)
+. greatly taxes the memory and the CPU performance in the process
+. because segments are compacted, the odds them being able to grow are small 
 
 .

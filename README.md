@@ -35,7 +35,8 @@ __________________________________________________________________________
 
 Linux : 
 - management of physical memory vs. virtual memory
-  - segmentation (internal and external) 
+  - segmentation (internal and external)
+  - heap constitution and management 
 - Processes :
   - non-determinisic output 
   - system calls 

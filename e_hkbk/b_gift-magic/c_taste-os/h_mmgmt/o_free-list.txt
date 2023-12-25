@@ -1,0 +1,12 @@
+
+Free list :
+. a data structure that keeps tracks of all the pockets of free memory in the memory chunk of our interest
+
+
+Allocator
+
+
+Splitting and coalescing :
+. allocation methods 
+
+.

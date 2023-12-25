@@ -1,5 +1,6 @@
 
-Internal fragmentation : too much free memory in an address space.
+Internal fragmentation :
+. too much free memory in an address space.
 
 Segment : a piece of uninterrupted virtual address space.
 . every segment has its own base and bounds pair
@@ -16,6 +17,16 @@ Segment : a piece of uninterrupted virtual address space.
     . grows positive : 0
   . offset - virtual location within the context of the segment 
 
+Offset :
+. relative location within the segment
+. offset is positive for the code and the heap (growing positively, i.e. towards f..f ) 
+. offset is negative for the stack since it grows negatively (towards 0) 
+. 11 0100 0000 0000 (11 - segment (stack) ; offset is 1K )
+  . this is a stack segment, stacks grow negatively => offset is negative
+  . neg.offset = -1K
+  . phys.addr = base + offset = 27K
+  . bounds check is performed : | -1K | < max.seg.size (4K) 
+
 Segmentation :
 . segments of the same address space can be populated in different places across physical memory
 . this should allow the kernel populate processes that do not hold memory hostage between the stack and the heap
@@ -23,5 +34,9 @@ Segmentation :
 
 Segmentation fault :
 . attempting to access memory outside of the bounds of a segment  
+
+External fragmentation :
+. too many tiny pockets of free memory across the physical memory as a result of spreading out and not compacting segments
+. it gets more diffucult to place new segments or grow the already existing ones 
 
 .

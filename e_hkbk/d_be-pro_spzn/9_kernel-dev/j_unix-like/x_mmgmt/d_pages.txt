@@ -1,0 +1,13 @@
+
+Segmentation : logical chunks of memory are of various sizes.
+Paging	     : logical chunks of memory are all the same size. 
+
+
+
+Virtual memory		| Physical memory
+------------------------+------------------
+			|
+pages			| page frames
+			|
+			|
+.

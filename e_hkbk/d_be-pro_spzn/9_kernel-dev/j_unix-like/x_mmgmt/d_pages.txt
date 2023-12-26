@@ -35,7 +35,10 @@ Anatomy of a frame :
 
 Page table :
 . a data structure unique to every process
-. keeps track of process pages and their corresponding frames in the physical memory 
+. keeps track of process pages and their corresponding frames in the physical memory
+. the longer a page table entry (for translating virt. to phys.) , the larger
+  the page table necessary for working with processes
+  => page tables can be really space-consuming 
 
 ====================================================================================
 ====================================================================================

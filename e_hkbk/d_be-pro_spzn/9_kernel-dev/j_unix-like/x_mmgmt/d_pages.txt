@@ -1,18 +1,57 @@
 
 Segmentation : logical chunks of memory are of various sizes.
-Paging	     : logical chunks of memory are all the same size. 
+Paging	     : logical chunks of (both virtual and physical) memory are all the same size. 
 
-
+====================================================================================
+====================================================================================
 
 Virtual memory		| Physical memory
 ------------------------+------------------
 			|
-pages			| page frames
-			|
+ pages			| page frames
+			| 
 
+====================================================================================
+====================================================================================
+
+Anatomy of a page : 
+. pages * page size  =  address space size 
+
+    VPN	    	      offset within the page 
+    (virt pg no.)
+    _ _ ..... _ _    _ _ .................. _ _ 
+    2^bits = pages   2^bits = page size
+
+
+
+Anatomy of a frame :
+
+    PFN		      offset within the frame 
+    (phys fr no.)
+    _ _ ..... _ _    _ _ .................. _ _ 
+
+====================================================================================
+====================================================================================
 
 Page table :
 . a data structure unique to every process
-. keeps track of process pages in the physical memory 
+. keeps track of process pages and their corresponding frames in the physical memory 
+
+====================================================================================
+====================================================================================
+
+When a paged process attempts to access memory :
+. writing to eax    :  movl <virtual address> , %eax
+. reading from eax  :  movl %eax , <virtual address>
+. "issuing the load to physical memory" 
+. translate the paged virtual address into a physical address using the page table
+  . We can observe from countless examples that the offset will not change, but
+    the VPN will be translated into PFN. 
+
+
+  VPN	    Offset
+    0 1     0 1 0 1
+  | | |
+  v v v	    0 1 0 1 
 
 .

@@ -9,5 +9,10 @@ Virtual memory		| Physical memory
 			|
 pages			| page frames
 			|
-			|
+
+
+Page table :
+. a data structure unique to every process
+. keeps track of process pages in the physical memory 
+
 .

@@ -33,43 +33,6 @@ Anatomy of a frame :
 ====================================================================================
 ====================================================================================
 
-Page table :
-. a data structure unique to every process
-. keeps track of process pages and their corresponding frames in the physical memory
-. a page table entry is used for translating from virtual to physical memory 
-. the longer a page table entry (PTE) , the larger the page table necessary for
-  working with processes
-  => page tables can be really space-consuming
-
-Page table entry - anatomy :
-
-32 .. 12   11 .. 9    8 7   6 5 4   3   2   1   0
-PFN  	   NIL	      G PAT D A PCD PWT U/S R/W P 
-
-. present bit  	       (P) : 	 is it in RAM or the disk ?
-. protection bits      (R/W) 
-. user/supervisor bit  (U/S) : 	 can be access by a user process
-. reference bit        (A) : 	 has the page been accessed ?
-. dirty bit 	       (D) : 	 has the page been changed in the memory ?
-|
-. 		       (PWT ,
-		       PCD ,
-		       PAT ,
-		       G) : hardware caching methods 
-|
-. present bit (P) : is it in RAM or the disk ?
-  . a.k.a. the valid bit - memory can be legally accessed
-  . invalid pages do not get corresponding frames ; this saves huge amounts of physical memory 
-  . illegal -> OS trap -> kernel kills the process
-. protection bits (R/W) :
-  . readable?
-  . writable?
-  . executable?
-  . illegal -> OS trap -> kernel kills the process
-
-====================================================================================
-====================================================================================
-
 When a paged process attempts to access memory :
 . writing to eax    :  movl <virtual address> , %eax
 . reading from eax  :  movl %eax , <virtual address>
@@ -83,5 +46,42 @@ When a paged process attempts to access memory :
     0 1     0 1 0 1
   | | |
   v v v	    0 1 0 1 
+
+====================================================================================
+====================================================================================
+
+Page table :
+. a data structure unique to every process
+. keeps track of process pages and their corresponding frames in the physical memory
+. a page table entry is used for translating from virtual to physical memory 
+. the longer a page table entry (PTE) , the larger the page table necessary for
+  working with processes
+  => page tables can be really space-consuming
+
+Page table entry - anatomy (per x86) :
+
+32 .. 12   11 .. 9    8 7   6 5 4   3   2   1   0
+PFN  	   NIL	      G PAT D A PCD PWT U/S R/W P 
+
+. present bit  	       (P) : 	 is it in RAM or the disk ?
+. protection bits      (R/W) : 	 accessible? / executable?
+. user/supervisor bit  (U/S) : 	 page can be accessed by a user process
+. hardward caching     (PWT ,	  
+    control bits        PCD )
+. global mapped bit    (G)
+. page size bit        (PS) 
+. reference bit        (A) : 	 has the page been accessed ?
+. dirty bit 	       (D) : 	 has the page been changed in the memory ?
+. page attr table      (PAT) 
+|
+. present bit (P) : is it in RAM or the disk ?
+  . a.k.a. the valid bit - memory can be legally accessed
+  . invalid pages do not get corresponding frames ; this saves huge amounts of physical memory 
+  . illegal -> OS trap -> kernel kills the process
+. protection bits (R/W) :
+  . readable?
+  . writable?
+  . executable?
+  . illegal -> OS trap -> kernel kills the process
 
 .

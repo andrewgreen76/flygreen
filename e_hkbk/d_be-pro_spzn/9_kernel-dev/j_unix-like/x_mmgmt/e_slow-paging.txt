@@ -34,6 +34,6 @@ ________________________________________________________________________________
     PhysAddr = (PTE.PFN << SHIFT) | offset
 
 (5) load data from the phys.mem.addr 
-    . Register = AccessMemory(PhysAddr)
+    . eax = AccessMemory(PhysAddr)
 
 .

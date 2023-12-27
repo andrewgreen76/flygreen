@@ -1,9 +1,39 @@
 
-Why can paging be slow ? :
-. acquire the location of the correct page table 
-. access the page table
-. access the correct PTE
-. use the PTE to access the corresponding physical memory address
-. load data from the phys.mem.addr 
+Why can paging be slow ?
+
+====================================================================================
+
+To look up and move data at a virtual address into eax, you have to :
+
+(1) acquire and access the location of the correct page table 
+    . (assuming [PAGE-TABLE BASE REGISTER] holds [PAGE TABLE'S PHYSICAL ADDRESS] ) 
+    . VPN     = (VirtualAddress & VPN_MASK) >> SHIFT
+    . PTEAddr = PageTableBaseRegister + (VPN * sizeof(PTE_type))
+____________________________________________________________________________________
+
+// Check if process can access the page
+if (PTE.Valid == False)
+    RaiseException(SEGMENTATION_FAULT)
+else if (CanAccess(PTE.ProtectBits) == False)
+    RaiseException(PROTECTION_FAULT)
+else
+    // Access is OK: form physical address and fetch it ... v
+____________________________________________________________________________________
+
+(2) acquire the correct PTE
+    . PTE = AccessMemory(PTEAddr) 
+
+(3) translate the PTE to PFN 
+    . virt.addr -> VPN -> PTEAddr -> PTE -> PTE.PFN 
+
+(4) obtain the phys.addr (from the PFN and offset) :
+    . virt.addr -> offset 
+    . put the PFN together with the virt.addr offset 
+
+    offset   = VirtualAddress & OFFSET_MASK
+    PhysAddr = (PTE.PFN << SHIFT) | offset
+
+(5) load data from the phys.mem.addr 
+    . Register = AccessMemory(PhysAddr)
 
 .

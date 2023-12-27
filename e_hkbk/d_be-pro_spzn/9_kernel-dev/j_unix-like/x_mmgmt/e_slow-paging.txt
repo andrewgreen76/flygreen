@@ -1,0 +1,9 @@
+
+Why can paging be slow ? :
+. acquire the location of the correct page table 
+. access the page table
+. access the correct PTE
+. use the PTE to access the corresponding physical memory address
+. load data from the phys.mem.addr 
+
+.

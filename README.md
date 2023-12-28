@@ -35,8 +35,10 @@ __________________________________________________________________________
 
 Linux : 
 - management of physical memory vs. virtual memory
+  - heap constitution and management
   - segmentation (internal and external)
-  - heap constitution and management 
+  - paging
+  - translation lookaside buffer (TLB) 
 - Processes :
   - non-determinisic output 
   - system calls 

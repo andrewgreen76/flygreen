@@ -17,17 +17,26 @@ _ ..20.. _		_ ..12.. _
 A page : 
 . size is 4KB to choose from
 . 4096 bytes = 2^12 bytes (12 bits to generate from) 
+=> 20-bit VPNs (~1M pages to generate) 
 
 
-
-20-bit VPNs (~1M pages to generate) 
-
-
-
+Virtual address space :
+|
 _ ..32.. _
-
-
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 VPNs		offset 
 _ ..20.. _	_ ..12.. _ 
+=> 20-bit VPNs (~1M pages to generate) 
+
+
+
+Page table :
+|
+PTE.size = 4 bytes
+|
+_ ..32.. _
+=> ~1M pages * PTE.size(4B) = 4MB page-table size (to accommodate 1M pages ; a PT per process) 
+=> 4MB PTsize * number of processes
+=> We are looking at hundreds of megabytes of memory just to accommodate
 
 .

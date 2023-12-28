@@ -1,0 +1,6 @@
+
+Virtual to physical : 
+. to "disassemble" and fit the process into RAM
+. to maximize the use of RAM 
+
+.

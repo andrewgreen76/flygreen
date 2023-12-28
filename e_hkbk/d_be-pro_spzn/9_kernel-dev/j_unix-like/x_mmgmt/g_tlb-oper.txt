@@ -7,14 +7,12 @@ How a TLB is used :
 |
 |
 . if a TLB hit (a translation is present for a certain virtual address) :
-  . returned TLB_entry.PFN
+  . returned TLB_entry
   . virt.addr -> offset
-  . PhysAddr = (PTE.PFN << SHIFT) | offset
+  . PhysAddr = (TLB_entry.PFN << SHIFT) | offset
 |
 |
-. if a TLB miss :
+. if a TLB miss , page table lookup :
   . VPN -> PTEAddr -> PTE -> PTE.PFN
-  . virt.addr -> offset
-  . PhysAddr = (PTE.PFN << SHIFT) | offset 
 
 .

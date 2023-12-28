@@ -8,7 +8,7 @@ _ ..20.. _		_ ..12.. _
 =========================================================
 =========================================================
 
-32-bit address space 
+32-bit virtual addresses (in an address space) 
 |
 2^32 bytes to choose from
 
@@ -25,7 +25,9 @@ Virtual address space :
 _ ..32.. _
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 VPNs		offset 
-_ ..20.. _	_ ..12.. _ 
+_ ..20.. _	_ ..12.. _
+|
+|
 => 20-bit VPNs (~1M pages to generate) 
 
 
@@ -37,6 +39,15 @@ PTE.size = 4 bytes
 _ ..32.. _
 => ~1M pages * PTE.size(4B) = 4MB page-table size (to accommodate 1M pages ; a PT per process) 
 => 4MB PTsize * number of processes
-=> We are looking at hundreds of megabytes of memory just to accommodate
+=> We are looking at hundreds of megabytes of memory just to accommodate virt-to-phys translation. 
+v
+v
+Accommodating 1M pages per process is wasteful and costly. 
+. We can sacrifice VPN bits (thereby serving fewer pages) towards the offset , increasing page size.
+  => If we cut the page table size (num of pages) by four , the page size will quadruple. 
+. But then we may end up with wasted bits in a lot of PTEs (in the offsets).
+  => This leads to waste within pages (internal fragmentation).
+  . x86 page size : 4K
+  . SPARCv9 page size : 8K 
 
 .

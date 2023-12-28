@@ -11,11 +11,15 @@ How a TLB is used :
     . returned TLB_entry
     . virt.addr -> offset
     . PhysAddr = (TLB_entry.PFN << SHIFT) | offset
+    . VERY LITTLE OVERHEAD 
   |
   |
   . if a TLB miss , page table lookup :
     . VPN -> PTEAddr -> PTE
-    . if PTE is valid => TLB_insert(VPN , PTE.PFN)
-    . if PTE is NOT valid => seg.fault 
+    . if PTE is valid
+      => TLB_insert(VPN , PTE.PFN)
+      -> retry the VPN lookup (success guaranteed) 
+    . if PTE is NOT valid => seg.fault
+    . A LOT MORE OVERHEAD and we want to minimize TLB misses. 
 
 .

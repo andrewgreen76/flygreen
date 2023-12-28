@@ -26,11 +26,16 @@ TLB entry :
 "
 
 
+How a TLB is used :
+. It's the kernel that obtains the VPN and translates it to the PFN. 
+
+================================================================================================
+================================================================================================
+================================================================================================
+
 Cache lines :
 . contents of neighboring addresses in RAM can be easily moved into a cache line
 . only fully-associative caches, such as the TLB, possess this property 
-
-
 
 Four instructions to update a software-managed TLB :
 . TLBP probes the TLB for a specific translation

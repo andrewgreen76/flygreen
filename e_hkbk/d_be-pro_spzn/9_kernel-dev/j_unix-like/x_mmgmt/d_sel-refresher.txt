@@ -1,0 +1,33 @@
+
+VPN to select 		offset to select 
+_ ..20.. _		_ ..12.. _
+
+2^(VPN.len) = pages	2^(offset.len) = page size 
+
+=========================================================
+=========================================================
+=========================================================
+
+32-bit address space 
+|
+2^32 bytes to choose from
+
+
+
+A page : 
+. size is 4KB to choose from
+. 4096 bytes = 2^12 bytes (12 bits to generate from) 
+
+
+
+20-bit VPNs (~1M pages to generate) 
+
+
+
+_ ..32.. _
+
+
+VPNs		offset 
+_ ..20.. _	_ ..12.. _ 
+
+.

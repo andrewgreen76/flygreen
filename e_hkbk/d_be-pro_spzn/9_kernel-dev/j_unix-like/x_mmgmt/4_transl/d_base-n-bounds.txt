@@ -22,7 +22,8 @@ Bounds register = also called the limit register
 . if a fault occurs, the CPU will raise an exception and the offending process may be terminated
 Problems with the approach : 
 . The bounds register determines the origin of the stack. This can leave too much free memory between the heap and the stack.
-. Free memory overhead leads to another problem - taking too much time finding a fitting gap in physical memory when moving the address space. 
+. Free memory overhead leads to another problem - taking too much time finding a fitting gap in physical memory
+  when moving the entire address space that is bloated with free memory. 
 
 =====================================================================================================
 

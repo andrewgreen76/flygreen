@@ -1,0 +1,27 @@
+
+Memory updake optimization goals and ideas :
+
+. segmentation : con : has its own way of leading to fragmentation (within the heap and elsewhere in RAM)
+   	       	 pro : but it does its best at utilizing free memory
+		 
+. paging : 	 con : has its own way of leading to fragmentation (within pages)
+   	 	 pro : but it's quick at allocation and translation 
+|
+. idea :
+  . not a process , but every logical segment of the process gets its own unique page table (proc.addr.tranls)
+    . But if we previously distinguished processes but their ASIDs, but can we ID segments ? 
+  . every PT will have base and bounds registers
+    . bounds register : num of valid pages (page table's end)
+  . Free memory between the heap and the stack of the segment are pages marked as invalid. 
+
+
+
+
+If 32-bit addr.space , seg.num.len = 2 bits , VPN.len = 18 bits , offset.len = 12 bits :
+. seg.num to ID the segment's base-and-bounds pair to look up the phys.addr of the segment 
+|
+    SN           = (VirtualAddress & SEG_MASK) >> SN_SHIFT
+    VPN          = (VirtualAddress & VPN_MASK) >> VPN_SHIFT
+    AddressOfPTE = Base[SN] + (VPN * sizeof(PTE))
+
+.

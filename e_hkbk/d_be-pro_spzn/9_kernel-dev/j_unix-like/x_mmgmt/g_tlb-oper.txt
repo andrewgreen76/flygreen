@@ -1,14 +1,19 @@
 
 How a TLB is used :
-. a lot like traditional paging 
-. the kernel obtains the VPN and translates it to the PFN 
-
-
-
-TLB hit :
-. a translation is present for a certain virtual address
-. in that case :
-  . virt.addr -> VPN -> PTEAddr -> PTE -> PTE.PFN
+. the kernel obtains the VPN and translates it to the PFN
+. a lot like traditional paging
+. virt.addr -> VPN
+. TLB_lookup(VPN) 
+|
+|
+. if a TLB hit (a translation is present for a certain virtual address) :
+  . returned TLB_entry.PFN
+  . virt.addr -> offset
+  . PhysAddr = (PTE.PFN << SHIFT) | offset
+|
+|
+. if a TLB miss :
+  . VPN -> PTEAddr -> PTE -> PTE.PFN
   . virt.addr -> offset
   . PhysAddr = (PTE.PFN << SHIFT) | offset 
 

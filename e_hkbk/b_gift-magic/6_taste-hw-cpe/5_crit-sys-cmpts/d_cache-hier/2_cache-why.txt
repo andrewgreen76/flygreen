@@ -2,9 +2,11 @@
 Accessing a cache is quick because of :
 . its proximity to the CPU (on-die)
 . smaller, less complex hardware
-. cache memory cell technology
-. the more often/recently something is accessed , the quicker it is to get the corresponding output
-  => this promises significant overhead reduction
+. cache memory cell technology (typically SRAM : flip-flops , tons of transistors)
+|
+Reminder :
+. more recently accessed data is stored
+. the more it is accessed , the less is the overhead 
 
 
 

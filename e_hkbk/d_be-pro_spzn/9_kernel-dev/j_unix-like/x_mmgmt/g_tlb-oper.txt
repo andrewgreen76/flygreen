@@ -1,6 +1,7 @@
 
 How a TLB is used :
 . the kernel obtains the VPN and translates it to the PFN
+. the CPU goes to the TLB to check out the match for the virtual address 
 . a lot like traditional paging
   . virt.addr -> VPN
   . TLB_lookup(VPN) 

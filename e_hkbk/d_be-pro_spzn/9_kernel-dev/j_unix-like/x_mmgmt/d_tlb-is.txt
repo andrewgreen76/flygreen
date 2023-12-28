@@ -27,7 +27,7 @@ TLB entry :
 
 
 How a TLB is used :
-. It's the kernel that obtains the VPN and translates it to the PFN. 
+. the kernel obtains the VPN and translates it to the PFN
 
 ================================================================================================
 ================================================================================================

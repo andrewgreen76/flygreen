@@ -1,0 +1,7 @@
+
+Cache replacement
+= buffer replacement
+= removing less recently accessed entries (here: TLB translations)
+  . "Of course, the idea is to reduce misses (or increase hits) and therefore improve performance." 
+
+.

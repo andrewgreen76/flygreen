@@ -1,0 +1,22 @@
+
+How a TLB miss is handled :
+|
+The hardware : 
+. raises an exception , interrupting the current instruction execution 
+. switches to the kernel mode
+. jumps to the appropriate TLB miss trap handler within the kernel
+|
+The kernel's handler ... 
+  . seeks the corresponding PTE 
+  . uses privileged instructions to update the TLB 
+  . exits the trap 
+  . (((( the trap handler code is inside the kernel ))))
+  . (((( it is the hardware that needs to find and run the code ))))
+
+============================================================================================================================================================
+"
+1. The return-from-trap command has to be different than the one used to service a system call. The return-from-trap should continue running at the instruction following the OS trap, exactly as a return from a procedure call does. Returning from a TLB miss-handling trap causes the hardware to retry the instruction, resulting in a TLB hit. To continue properly, the hardware has to save a separate procedure call when trapping into the OS, depending on how the trap or exception happened.
+
+2. Operating systems must avoid creating endless loops of TLB misses by keeping TLB miss handlers in physical memory (unmapped and not subject to address translation) or reserving some TLB entries for always valid translations and using some of those slots for the handler code itself. 
+"
+.

@@ -1,0 +1,16 @@
+
+Since processes cannot share translations from the same TLB , they should be distinguished from one another.
+. The ASID (address-space identifier) field serves as an extension to the TLB cache.
+. Every process has its own ASID.
+. That way the TLB doesn't have to be flushed for every subsequent process (setting all valid bits to 0).
+  Same TLB misses will not be re-introduced.
+. CONCLUSION : TLB miss overhead is reduced. 
+|
+|
+. The kernel stores the process ASID in a privileged register to inform the hardware which process is currently running.
+
+
+
+Sharing pages between processes cuts the physical memory uptake overhead. 
+
+.

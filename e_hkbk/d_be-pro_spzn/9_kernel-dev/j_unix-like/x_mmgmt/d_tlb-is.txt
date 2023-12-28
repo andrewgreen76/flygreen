@@ -3,6 +3,39 @@ Translation Lookaside Buffer :
 . a hardware cache
 . stores more frequently used virtual-to-physical address translations
 . built into the MMU
-. accessing a cache is quicker than accessing a page table 
+. "Virtual memory would not be possible without the performance improvement afforded by TLBs."
+. 32-64 entries in a single TLB 
+|
+Reminder : 
+. accessing a cache is quicker than accessing a page table
+
+
+
+TLB entry :
+"
+    20 bits: Virtual Page Number (VPN)
+    6 bits: Process ID (PID); sometimes called Address Space ID or ASID
+    6 bits: unused
+    20 bits: Page Frame Number (PFN)
+    N bit ("Not Present" bit) : If set, memory access bypasses the cache
+      . meaning there's no translation for this virtual address
+      . a page table lookup will have to be done 
+    D bit: Dirty bit - If set, memory is writeable 
+    V bit: Valid bit - indicates whether the entry has a valid translation or not
+    G bit: Global bit - If set, TLB does NOT check PID for translation 
+"
+
+
+Cache lines :
+. contents of neighboring addresses in RAM can be easily moved into a cache line
+. only fully-associative caches, such as the TLB, possess this property 
+
+
+
+Four instructions to update a software-managed TLB :
+. TLBP probes the TLB for a specific translation
+. TLBR reads the contents of a TLB entry into registers
+. TLBWI replaces a specific TLB entry, and
+. TLBWR replaces a random TLB entry
 
 .

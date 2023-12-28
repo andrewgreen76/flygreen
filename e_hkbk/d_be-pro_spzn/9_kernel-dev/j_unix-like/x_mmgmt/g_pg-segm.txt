@@ -12,16 +12,19 @@ Memory updake optimization goals and ideas :
     . But if we previously distinguished processes but their ASIDs, but can we ID segments ? 
   . every PT will have base and bounds registers
     . bounds register : num of valid pages (page table's end)
-  . Free memory between the heap and the stack of the segment are pages marked as invalid. 
+  . Free memory between the heap and the stack of the segment are pages marked as invalid.
+    BUT ISN'T THAT WASTEFUL ? 
+  . OVERALL : process segments are minced into pages and juggled. 
 
-
-
-
+==============================================================================================
 If 32-bit addr.space , seg.num.len = 2 bits , VPN.len = 18 bits , offset.len = 12 bits :
 . seg.num to ID the segment's base-and-bounds pair to look up the phys.addr of the segment 
 |
     SN           = (VirtualAddress & SEG_MASK) >> SN_SHIFT
     VPN          = (VirtualAddress & VPN_MASK) >> VPN_SHIFT
     AddressOfPTE = Base[SN] + (VPN * sizeof(PTE))
+==============================================================================================
+
+Process segment paging leads to having too many invalidated pages. 
 
 .

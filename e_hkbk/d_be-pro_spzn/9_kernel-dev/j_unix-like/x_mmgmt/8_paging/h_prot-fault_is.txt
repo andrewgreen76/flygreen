@@ -1,0 +1,9 @@
+
+Protection fault : an event of either ... 
+. accessing a page with insufficient permissions
+. a page fault (accessing a page that does not have a frame)
+
+Segmentation fault (reminder) :
+. illegal access (to uninitialized memory) 
+
+.

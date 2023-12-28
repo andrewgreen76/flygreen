@@ -1,0 +1,15 @@
+
+How a TLB is used :
+. a lot like traditional paging 
+. the kernel obtains the VPN and translates it to the PFN 
+
+
+
+TLB hit :
+. a translation is present for a certain virtual address
+. in that case :
+  . virt.addr -> VPN -> PTEAddr -> PTE -> PTE.PFN
+  . virt.addr -> offset
+  . PhysAddr = (PTE.PFN << SHIFT) | offset 
+
+.

@@ -16,10 +16,30 @@ How a TLB is used :
   |
   . if a TLB miss , page table lookup :
     . VPN -> PTEAddr -> PTE
-    . if PTE is valid
-      => TLB_insert(VPN , PTE.PFN)
-      -> retry the VPN lookup (success guaranteed) 
-    . if PTE is NOT valid => seg.fault
-    . A LOT MORE OVERHEAD and we want to minimize TLB misses. 
+      . if PTE is valid
+	=> TLB_insert(VPN , PTE.PFN)
+	-> retry the VPN lookup (success guaranteed) 
+      . if PTE is NOT valid => seg.fault
+    . A LOT MORE OVERHEAD and we want to minimize TLB misses.
+
+
+TLB hit rate : 
+. (((( Assuming that we won't run into seg.faults ))))
+. (((( Assuming that we have a sufficiently large TLB cache )))) 
+. Because a missed translation was loaded into the TLB (in other words, the TLB was updated) ,
+  adjacent addresses from the same page (i.e., addresses with the same VPN) will be pulled up
+  just as quickly (they will also be TLB hits). This is the TLB cache's spatial locality property
+  in action.
+. The greater the size of every page , the better the TLB hit rate (performance).
+. Those TLB misses will no longer be a problem if we do access them AGAIN for whatever reason. 
+. "Since pages are typically 4KB in size, dense array-based accesses have excellent TLB performance,
+  with only one miss per page of accesses."
+
+
+Temporal locality :
+. instances of accessing the same address occurred within the same tight timeframe (justifying the presence in the cache)
+
+Spatial locality :
+. virtual addresses from the same page will get the same average quick access time 
 
 .

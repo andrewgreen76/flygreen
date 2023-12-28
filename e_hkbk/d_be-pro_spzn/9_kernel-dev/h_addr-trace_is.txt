@@ -25,4 +25,3 @@ Address traces can be obtained through various means, including hardware perform
 
 Analyzing address traces is a common practice in computer architecture, performance analysis, and system design to gain insights into how programs interact with memory and to inform improvements in hardware and software components.
 "
-.

@@ -1,0 +1,8 @@
+
+Translation Lookaside Buffer :
+. a hardware cache
+. stores more frequently used virtual-to-physical address translations
+. built into the MMU
+. accessing a cache is quicker than accessing a page table 
+
+.

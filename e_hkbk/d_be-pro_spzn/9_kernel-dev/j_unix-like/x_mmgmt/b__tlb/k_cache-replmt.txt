@@ -1,0 +1,16 @@
+
+Cache replacement
+= buffer replacement
+= removing less recently accessed entries (here: TLB translations)
+  . "Of course, the idea is to reduce misses (or increase hits) and therefore improve performance." 
+
+
+
+TLB replacement policies :
+. least-recently-used (LRU) 
+  . "... typically require maintaining and updating additional metadata to track the order of cache accesses."
+    "This metadata incurs extra memory and computational overhead."
+. random
+. The larger the TLB , the more time-consuming and less appealing the LRU policy is. 
+
+.

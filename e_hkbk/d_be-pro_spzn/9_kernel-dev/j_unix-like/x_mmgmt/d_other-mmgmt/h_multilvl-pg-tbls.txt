@@ -3,17 +3,21 @@ Process segment paging leads to having too many invalidated pages.
 
 Multi-level page table solves this problem : 
 . a tree-like structure 
-  . broken up pages of its own
+  . broken up into pages of its own that can fit into memory 
   . MLPT pages are used for
     . PFN lookup
     . checking on validity of a PFN or translation 
   . a MLPT page full of invalid entries means the virt.pages under those entries will not have physical counterparts
-    => entire groups of invalid entries are ignored, saving us lots of RAM 
+    => entire groups of invalid entries are ignored, saving us lots of RAM
+    . the ignored frames can be repurposed for something else 
   => TLB lookup -> MLPT page directory lookup
-  . a page directory keeps track of MLPT pages
+  . a page directory keeps track of MLPT pages : 
     . their validity
-    . their corresponding physical addresses, if applicable 
+    . their corresponding physical addresses, if applicable
+    . MLPT pages are logged under page directory entries (PDEs)
 . still used in modern architectures and systems
+. The kernel can borrow free pages on the fly to grow a MLPT for a process.
+. no extraneous page-frame allocation 
 
 ======================================================================
 ======================================================================
@@ -32,7 +36,9 @@ REMINDER :
 Page table entry - anatomy (per x86) :
 
 32 .. 12   11 .. 9    8 7   6 5 4   3   2   1   0
-PFN  	   NIL	      G PAT D A PCD PWT U/S R/W P 
+PFN  	   NIL	      G PAT D A PCD PWT U/S R/W P
+
+. More than just for translation, a PTE tells us something about the frame in RAM. 
 ======================================================================
 ======================================================================
 REMINDER : 
@@ -43,6 +49,7 @@ Present bit (P) : is it in RAM or the disk ?
 ======================================================================
 ======================================================================
 
-
+Also see for more details :
+. PDIndex , calculating PDEaddr. 
 
 .

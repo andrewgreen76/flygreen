@@ -35,22 +35,10 @@ __________________________________________________________________________
 
 Linux : 
 - management of physical memory vs. virtual memory
-  - heap constitution and management
   - segmentation (internal and external)
   - paging
   - translation lookaside buffer (TLB) 
-- Processes :
-  - non-determinisic output 
-  - system calls 
-  - threads
-  - parent and child processes , process API
-  - scheduling : 
-    - FIFO vs. SJF vs. STCF vs. MLFQ
-    - lottery scheduling vs. CFS 
-- I/O subsystem
 - C programming :
-  - calloc()
-  - malloc() revisited
   - strcpy() , strlen() , strcat() revisited 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 

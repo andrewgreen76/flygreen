@@ -15,7 +15,7 @@ HDD	 Even larger, even slower
 Swap space :
 . a portion of the disk used in the event of available memory capping out
 . only unused pages are moved to the space
-. 
+. in that respect, the swap space functions like an extension of RAM 
 
 
      -RAM-| -------- DISK -------- | 

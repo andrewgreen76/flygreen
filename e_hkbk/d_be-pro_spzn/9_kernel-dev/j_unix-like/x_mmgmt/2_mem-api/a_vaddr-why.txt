@@ -3,4 +3,8 @@ Virtual to physical :
 . to "disassemble" and fit the process into RAM
 . to maximize the use of RAM 
 
+
+"
+Virtual memory provides an abstraction layer that decouples the programming model from the physical hardware. Programs operate in a virtual address space, and the translation to physical addresses is handled by the operating system's memory management unit (MMU).
+"
 .

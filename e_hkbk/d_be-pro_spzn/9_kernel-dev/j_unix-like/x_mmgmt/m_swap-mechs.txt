@@ -21,4 +21,22 @@ Swap space :
      -RAM-| -------- DISK -------- | 
      RAM <-> swap space <-> filesys
 
+
+When a page is swapped out -> PAGE FAULT handling : 
+-> its "present" bit is cleared 
+-> the missing page is looked up
+-> the kernel GENERATES A PAGE FAULT 
+-> the kernel HANDLES THE PAGE FAULT : 
+   . the kernel looks the page up by its swap space address (stored in a PT) and finds the page
+   
+   . an I/O request is issued		. the process is blocked
+
+   . the kernel runs other processes on the CPU       . the page is swapped back into RAM
+   
+   . the I/O request is fulfilled
+   . PT is updated (PTE.PFN is updated)
+   . VPN -> PFN is retried
+     . first retry : write in a PTE
+     . second retry : write in a TLBE 
+
 .

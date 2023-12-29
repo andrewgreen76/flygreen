@@ -27,6 +27,13 @@ Dealing with alpha transparency in a PNG :
    . The generated layer will be the backdrop to the transparent original image.
 5) Click on the "Bucket Fill" tool, the bucket button in the section in the top left corner of GIMP's interface. 
    . Or use Shift+B
-6) Click on the "Tool Options" tab, the tiny 
+6) In that same corner, below the tool buttons are two prominent colored squares, one for the foreground and
+   one for the background. Click the background square.
+7) In the "Change Background Color" window choose the color for the background (of course, usually it's white).
+   Then click OK.  
+6) Below the foreground and background selection squares are a row of tiny tabs. Click on the "Tool Options" tab,
+   the tiny tab with the television logo
+7) Select the "BG color fill" radio button
+8) 
 
 .

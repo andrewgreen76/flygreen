@@ -1,0 +1,13 @@
+
+               total        used        free      shared  buff/cache   available
+Mem:        16046228     3431136     7640276      695056     4974816    11577504
+Swap:        2097148           0     2097148
+__________________________________________________________________________________
+
+. free : memory not being used by the kernel or a process
+. available :
+  . free memory
+  + buff/cache : disk caching capacity (reclaimable)
+  + other (?) 
+
+.

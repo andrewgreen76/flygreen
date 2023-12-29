@@ -1,17 +1,24 @@
 
-====================================================================
+============================================================================
 REMINDER :
 
 Concurrency : multiple processes/threads running at the same time. 
-====================================================================
+============================================================================
 REMINDER :
 
 CPU	 REGISTERS and CACHE in CPU are very fast but very small
 RAM	 Fast but limited space
 SSD	 Large but slow, contains file system
 HDD	 Even larger, even slower 
-====================================================================
+============================================================================
+
+Swap space :
+. a portion of the disk used in the event of available memory capping out
+. only unused pages are moved to the space
+. 
 
 
+     -RAM-| -------- DISK -------- | 
+     RAM <-> swap space <-> filesys
 
 .

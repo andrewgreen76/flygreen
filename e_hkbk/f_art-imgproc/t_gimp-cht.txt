@@ -15,25 +15,30 @@ move zoom to top margin		C^up
 Dealing with alpha transparency in a PNG : 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-1) Observe the Windows > Dockable Dialogs > Layers section in the bottom-right corner of GIMP's interface.
-   . where the "mode" / "normal" / "opacity" / "lock" / "background" crap is 
-2) Add a new layer
-   a) Layers > New Layer... -or-
-   b) Right-click on the Layers section and go to "New Layer..."
-3) In the "New Layer" window simply click OK. A new layer should be generated and seen in the Layers section. 
-4) Make sure the layer is below the layer of the original image.
-   . Drag it below the image if you have to.
-   . As you can see, the stack top-to-bottom represents foreground-to-background.
-   . The generated layer will be the backdrop to the transparent original image.
-5) Click on the "Bucket Fill" tool, the bucket button in the section in the top left corner of GIMP's interface. 
-   . Or use Shift+B
-6) In that same corner, below the tool buttons are two prominent colored squares, one for the foreground and
-   one for the background. Click the background square.
-7) In the "Change Background Color" window choose the color for the background (of course, usually it's white).
-   Then click OK.  
-6) Below the foreground and background selection squares are a row of tiny tabs. Click on the "Tool Options" tab,
-   the tiny tab with the television logo
-7) Select the "BG color fill" radio button
-8) 
+ 1) Observe the Windows > Dockable Dialogs > Layers section in the bottom-right corner of GIMP's interface.
+    . where the "mode" / "normal" / "opacity" / "lock" / "background" crap is 
+ 2) Add a new layer
+    a) Layers > New Layer... -or-
+    b) Right-click on the Layers section and go to "New Layer..."
+ 3) In the "New Layer" window simply click OK. A new layer should be generated and seen in the Layers section. 
+ 4) Make sure the layer is below the layer of the original image.
+    . Drag it below the image if you have to.
+    . As you can see, the stack top-to-bottom represents foreground-to-background.
+    . The generated layer will be the backdrop to the transparent original image.
+ |
+ |
+ 5) Click on the "Bucket Fill" tool, the bucket button in the section in the top left corner of GIMP's interface. 
+    . Or use Shift+B
+ 6) In that same corner, below the tool buttons are two prominent colored squares, one for the foreground and
+    one for the background. Click on the background square.
+ 7) In the "Change Background Color" window choose the color for the background (of course, usually it's white).
+    Then click OK.
+ |
+ |
+ 8) Below the foreground and background selection squares are a row of tiny tabs. Click on the "Tool Options" tab,
+    the tiny tab with the television logo. 
+ 9) Select the "BG color fill" radio button
+10) Lastly, move the cursor towards the image and click on it. The Bucket Tool should fill the background layer
+    with the color of your choice. 
 
 .

@@ -1,14 +1,27 @@
 
-Localization :
-. processes read data structures and fixed code in a loop
-
-=================================================================================
-
 A couple of sound algorithms for page replacement policies :
+|
 . least-frequently-used (LFU)
+|
 . least-recently-used (LRU)
   . has much less of a chance of removing a page with critical code or data unlike FIFO and random policies 
+  . "Approximating LRU reduces computing overhead and is used by many modern systems."
+  |
+  . potential "cache" implementation - the clock algorithm : 
+    . clock-like (looping) scan of pages :
+    |
+    . if current clock page is USED (usage bit == 1) 
+      . kernel clears the usage bit 
+      . move to the next current clock page
+    . if current clock page is NOT used (usage bit == 0)
+      . evict/replace the current clock page with the swapped page 
+      . hardware sets the new clock page's usage bit
+      . "... in the worst case, all pages have been recently used and we have now searched through the entire set of pages, clearing all the bits."
+    |
+    . updating pages is a viable improvement on the algorithm 
 
+=================================================================================
+================================= Other notes : =================================
 =================================================================================
 "
 In a system with hundreds of pages accessed randomly thousands of times, 
@@ -24,4 +37,10 @@ LRU performs the best
 In a “looping sequential” system where pages are accessed in order and cache size is one less than the number of pages (e.g. a cache of size 3 that accessed 0,1,2,3,0,1,2,3), 
 random performs best
 "
+=================================================================================
+Localization :
+. processes read data structures and fixed code in a loop
+=================================================================================
+
+See "time field". 
 _

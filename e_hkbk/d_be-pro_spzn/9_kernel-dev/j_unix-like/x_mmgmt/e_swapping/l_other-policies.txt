@@ -1,7 +1,20 @@
 
 Page selection policy :
-. a method by which the kernel decides when to load a page back into RAM
-. demand paging :
-  . pages are loaded into memory when requested
-  . vs. prepaging , 
+. by which the kernel decides what page to load back into RAM and when 
+  . demand paging :
+    . pages are loaded into memory when needed by the process - a no-brainer 
+  . prefetching 
+    . the kernel knows what page will be needed in the future and loads it back into RAM
+    . associative load : a neighboring page will be loaded in as well to sustain functionality  
+    . "... should only be done when there is a good likelihood of success." 
+  . prepaging
+  . etc.
+
+
+
+Disk-writing policies :
+. technically also virtual memory (VM) policies 
+. ex. : clustering 
+  . pooling (bundling) multiple individual write-to-disk requests into one , more efficient write-to-disk operation
+  . "... works because of the nature of disk drives, which can perform a single large write more efficiently than a series of little ones." 
 _

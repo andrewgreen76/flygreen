@@ -6,7 +6,8 @@ Localization :
 
 A couple of sound algorithms for page replacement policies :
 . least-frequently-used (LFU)
-. least-recently-used (LRU) 
+. least-recently-used (LRU)
+  . has much less of a chance of removing a page with critical code or data unlike FIFO and random policies 
 
 =================================================================================
 "

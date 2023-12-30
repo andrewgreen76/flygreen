@@ -1,0 +1,22 @@
+
+When swapping a page into a capped-out RAM , a page replacement policy must be deployed. 
+. "The page-replacement policy is the process of deciding which pages should be removed or replaced." 
+. Ideally, in a situation like this, we would have used precaution to retain a little chunk of RAM free to keep process service flowing.
+. We need some kind of an in-RAM page eviction policy to retain that free memory.
+|
+|
+When the total number of pages has exceeded something called the the HIGH WATERMARK (HW) -or-
+there are no free pages available in the memory : 
+. the swapping thread goes to sleep
+. a swap daemon (a.k.a. page daemon) wakes up and starts kicking pages out of the memory 
+. once the number of pages plummetted passed the LOW WATERMARK (LW) , the swap daemon stops and sleeps
+. the swapping thread resumes work
+
+
+
+There are other ideas for optimization of memory relief :
+. grouping pages and moving them to a SWAP PARTITION
+. the idea is to make disk I/O efficient
+  . reducing on-disk seek overhead and rotational overhead 
+
+.

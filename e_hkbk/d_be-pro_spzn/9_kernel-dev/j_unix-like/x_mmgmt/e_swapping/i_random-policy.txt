@@ -1,0 +1,6 @@
+
+Theoretical performance of the random policy :
+. quality of performance is marked by luck/unluck when randomly evicting pages in a full "cache" 
+. chance of success : FIFO ~<= random ~<= optimal 
+
+.

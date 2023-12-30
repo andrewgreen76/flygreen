@@ -1,0 +1,10 @@
+
+Localization :
+. processes read data structures and fixed code in a loop
+
+=================================================================================
+
+A couple of sound algorithms for page replacement policies :
+. least-frequently-used (LFU)
+. least-recently-used (LRU) 
+_

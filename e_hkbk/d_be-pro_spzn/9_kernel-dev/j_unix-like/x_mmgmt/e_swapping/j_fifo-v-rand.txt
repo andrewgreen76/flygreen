@@ -1,0 +1,15 @@
+"
+In a system with hundreds of pages accessed randomly thousands of times, 
+FIFO and random perform about the same
+
+
+
+In a system with pages accessed unevenly (where 80% of accesses were only 20% of the pages), 
+FIFO and random perform about the same
+
+
+
+In a “looping sequential” system where pages are accessed in order and cache size is one less than the number of pages (e.g. a cache of size 3 that accessed 0,1,2,3,0,1,2,3), 
+random out performs FIFO
+"
+_

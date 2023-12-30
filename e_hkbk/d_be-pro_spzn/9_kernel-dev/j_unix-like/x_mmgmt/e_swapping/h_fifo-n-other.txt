@@ -1,14 +1,5 @@
 
-The Optimal Replacement Policy :
-|
-. The page predicted to be accessed furthest in the future is evicted and replaced with the page missed in the RAM/cache.
-  . What data structure would be best for this ? A stack ? A queue ? A linked list ? A fixed-size array ? 
-
-
-
-Thoughts :
-|
-. The "cache" could be the buffer/cache on the RAM.
+What data structure would be best for this ? A stack ? A queue ? A linked list ? A fixed-size array ? 
 |
 . If "cache" (RAM) is implemented as a FIXED-SIZE ARRAY : 
   . If cache NOT full :
@@ -37,4 +28,8 @@ Thoughts :
     . If accessed page a MISS :
       . remove tail , add hit to head 
    
+
+
+Theoretically , FIFO/queue implementation would do worse than the optimal replacement policy in terms of the hit rate. 
+
 .

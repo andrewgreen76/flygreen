@@ -1,0 +1,17 @@
+
+The Optimal Replacement Policy :
+|
+. when the swap "cache" in RAM is NOT full :
+  . if the page is a hit
+    . do nothing
+  . if the page is a miss
+    . add to the cache
+. when the swap "cache" in RAM is FULL :
+  . if the page is a hit
+    . do nothing
+  . if the page is a miss 
+    . predict which page in the "cache" will be accessed "furthest in the future" , which is open to interpretation 
+      . focus on the first or last inducted page ; that'll be the page "predicted to be accessed furthest in the future"
+    . evict the targeted page and replace it with the missed page 
+
+.

@@ -1,0 +1,6 @@
+
+When the RAM and the swap space are nearly capped out , we employ an eviction policy. 
+. we reserve a sort of a "cache" in RAM
+. we evict certain pages in that "cache" 
+
+.

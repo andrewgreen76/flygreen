@@ -10,6 +10,7 @@ A process or program that :
   . out-of-memory killer
     . takes an aggressive approach to an excessively memory-intensive process - the daemon the process 
 . a daemon is started during boot , but sleeps during runtime when not required 
+. technically , a daemon responds to special circumstances , while a policy (e.g., in VM) is a persistently exercised rule 
 
 
 

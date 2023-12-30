@@ -8,9 +8,10 @@ When swapping a page into a capped-out RAM , a page replacement policy must be d
 When the total number of pages has exceeded something called the the HIGH WATERMARK (HW) -or-
 there are no free pages available in the memory : 
 . the swapping thread goes to sleep
-. a swap daemon (a.k.a. page daemon) wakes up and starts kicking pages out of the memory 
+. a swap daemon (a.k.a. page daemon) wakes up and starts kicking pages out of the memory
 . once the number of pages plummetted passed the LOW WATERMARK (LW) , the swap daemon stops and sleeps
-. the swapping thread resumes work
+. the swapping thread resumes work 
+  . technically , a daemon responds to special circumstances , while a policy is a persistently exercised rule 
 
 
 

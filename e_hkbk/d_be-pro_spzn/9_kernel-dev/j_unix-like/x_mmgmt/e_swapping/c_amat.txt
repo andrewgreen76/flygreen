@@ -1,0 +1,16 @@
+
+Average Memory Access Time (AMAT) :
+|
+|
+. AMAT = t_mem.axs + t_dsk.axs * prob_miss
+. 0 < prob_miss < 1
+|
+|
+. "Note that you must always pay the cost of accessing data in memory; ... " 
+  . "... if you miss, you must also pay the cost of getting data from disk."
+|
+|
+. "The cost of disk access in modern systems is so high that even a small miss rate can quickly overwhelm the overall AMAT of running processes." 
+  . "We must either avoid as many misses as possible or run at the disk’s speed." 
+
+.

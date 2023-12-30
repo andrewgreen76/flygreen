@@ -1,0 +1,40 @@
+
+The Optimal Replacement Policy :
+|
+. The page predicted to be accessed furthest in the future is evicted and replaced with the page missed in the RAM/cache.
+  . What data structure would be best for this ? A stack ? A queue ? A linked list ? A fixed-size array ?|
+
+
+
+Thoughts :
+|
+. The "cache" could be the buffer/cache on the RAM.
+|
+. If "cache" (RAM) is implemented as a FIXED-SIZE ARRAY : 
+  . If cache NOT full :
+    . If accessed page a HIT
+      . swap with *tail_ptr (to employ LRU) -or- do nothing
+    . If accessed page a MISS : 
+      . add the missed page to the array , move tail_ptr over 
+  . If cache FULL :
+    . If accessed page a HIT :
+      . swap with *tail_ptr (to employ LRU) -or- do nothing
+    . If accessed page a MISS : 
+      . remove page @ head_ptr
+      . tail_ptr = head_ptr 
+      . move head_ptr over 
+      . add missed page @ tail_ptr 
+|
+. If "cache" (RAM) is implemented as a QUEUE (since we have to make a prediction of what page will be accessed the latest) : 
+  . If cache NOT full :
+    . If accessed page a HIT
+      . remove from cache list , add to head (to employ LRU) -or- do nothing
+    . If accessed page a MISS : 
+      . enqueue the missed page
+  . If cache FULL :
+    . If accessed page a HIT :
+      . remove from cache list , add to head (to employ LRU) -or- do nothing 
+    . If accessed page a MISS :
+      . remove tail , add hit to head 
+   
+.

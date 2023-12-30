@@ -1,8 +1,12 @@
 
 A process or program that : 
-- is non-interactive (runs in the background)
-- started during boot
-- regulates system functionality
+. is non-interactive (runs in the background)
+. regulates system functionality
+. examples :
+  . print spooling
+  . file transfer
+  . page swapping in the event of a potential memory bottleneck (when the high watermark is reached) 
+. started during boot , but sleeps during runtime when not required 
 
 
 

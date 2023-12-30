@@ -1,0 +1,7 @@
+
+       swpd: the amount of swap memory used.
+       free: the amount of idle memory.
+       si: Amount of memory swapped in from disk (/s).
+       so: Amount of memory swapped to disk (/s).
+
+.

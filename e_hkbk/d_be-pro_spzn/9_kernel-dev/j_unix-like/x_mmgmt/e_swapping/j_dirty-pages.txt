@@ -1,0 +1,20 @@
+
+Dirty page :
+. a page that has been updated
+. reminder : every page has a "dirty bit" in its corresponding PTE 
+|
+|
+Original idea : 
+? In the interest of persistence , the file that has just been modified would be evicted through move to the disk for preservation. 
+  => clean pages are kept in RAM , dirty pages are moved to the disk 
+  . But moving every page that gets updated can be costly. How can we do better ?
+|
+|
+Alternative idea : dirty pages are left in the RAM , clean pages are evicted to nothing (since it hasn't been recently accessed). 
+. But doesn't this sacrifice persistence if we don't move updated pages to the disk ?
+|
+|
+=> Eviction can be done in either of two ways :
+   . simple removal from the RAM
+   . a move/swap into the disk 
+_

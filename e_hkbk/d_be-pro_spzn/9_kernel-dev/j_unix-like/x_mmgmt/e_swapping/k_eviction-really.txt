@@ -1,0 +1,16 @@
+"
+Yes, you are correct. In the context of memory management in operating systems, a page can be evicted from physical memory through different mechanisms, and these mechanisms can include simple removal or movement/swapping into the disk. Let's explore both scenarios:
+
+1. **Simple Removal (Zero-Fill or Discard):**
+   - In some cases, when a page needs to be evicted from memory, especially if it is clean (not modified), the operating system may choose a simple removal strategy. This involves freeing up the corresponding page frame in physical memory without writing the page's content to disk. The freed page frame is then available for other pages to be loaded into.
+
+2. **Movement/Swapping into the Disk:**
+   - When a page is evicted and it is dirty (modified), the operating system needs to ensure that the modifications are persisted to disk to maintain data consistency. In this case, the page is moved or swapped out to a designated area on the disk, such as a swap space or page file. The content of the page is written to the disk, and the page frame in physical memory is freed for other use.
+
+   - Swapping to disk is a more involved process compared to simple removal, as it requires I/O operations to read from or write to the disk. However, it allows the system to reclaim memory while preserving the content of modified pages.
+
+The choice between simple removal and swapping to disk depends on factors such as whether the page is clean or dirty, the system's memory management policies, and the overall system workload. Swapping to disk is necessary for maintaining data integrity, especially for dirty pages, but it introduces additional I/O overhead.
+
+It's worth noting that the terms and mechanisms can vary between different operating systems and memory management implementations. The goal of these mechanisms is to efficiently manage the use of physical memory while ensuring the correctness and consistency of data.
+"
+_

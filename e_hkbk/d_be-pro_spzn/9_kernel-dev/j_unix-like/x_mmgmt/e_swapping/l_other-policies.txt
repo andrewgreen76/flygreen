@@ -1,0 +1,7 @@
+
+Page selection policy :
+. a method by which the kernel decides when to load a page back into RAM
+. demand paging :
+  . pages are loaded into memory when requested
+  . vs. prepaging , 
+_

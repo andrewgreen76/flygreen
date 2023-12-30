@@ -37,9 +37,17 @@ Linux :
 - management of physical memory vs. virtual memory
   - segmentation (internal and external)
   - paging
-  - translation lookaside buffer (TLB) 
+  - protection faults : seg.faults , page faults 
+  - translation lookaside buffer (TLB)
+  - swapping mechanisms , page replacement policies
+  - page eviction methods
+  - dirty pages
+  - thrashing 
+  - AMAT 
+  - daemons
 - C programming :
-  - strcpy() , strlen() , strcat() revisited 
+  - strcpy() , strlen() , strcat() revisited
+  - memset()
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

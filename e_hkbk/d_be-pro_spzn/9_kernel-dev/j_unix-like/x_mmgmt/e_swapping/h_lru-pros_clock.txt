@@ -18,7 +18,8 @@ A couple of sound algorithms for page replacement policies :
       . hardware sets the new clock page's usage bit
       . "... in the worst case, all pages have been recently used and we have now searched through the entire set of pages, clearing all the bits."
     |
-    . updating pages is a viable improvement on the algorithm 
+    . updating pages is a viable improvement on the algorithm
+    . a developer can come up with their own variant of the algorithm 
 
 =================================================================================
 ================================= Other notes : =================================

@@ -5,8 +5,11 @@ A process or program that :
 . examples :
   . print spooling
   . file transfer
-  . page swapping in the event of a potential memory bottleneck (when the high watermark is reached) 
-. started during boot , but sleeps during runtime when not required 
+  . page daemon
+    . swapping pages out to disk in the event of a potential memory bottleneck (when the high watermark is reached)
+  . out-of-memory killer
+    . takes an aggressive approach to an excessively memory-intensive process - the daemon the process 
+. a daemon is started during boot , but sleeps during runtime when not required 
 
 
 

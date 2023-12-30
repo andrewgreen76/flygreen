@@ -1,0 +1,12 @@
+
+Thrashing :
+. the kernel is preoccupied with paging
+
+
+Admission Control : 
+. running only some of the processes concurrently (instead of letting thrashing force the system to commit a huge number of evictions)
+. "... it is sometimes better to accomplish less work properly than to try to complete everything poorly all at once."
+
+
+"Some modern systems take a harsher stance against memory saturation. When memory is oversubscribed, some versions of Linux, for example, launch an out-of-memory killer; this daemon selects a memory-intensive process and kills it, decreasing memory in a not-so-subtle manner. While this strategy is effective at decreasing memory strain, it might cause difficulties if it, for example, disables the X server, rendering any apps that require the display inoperable."
+_

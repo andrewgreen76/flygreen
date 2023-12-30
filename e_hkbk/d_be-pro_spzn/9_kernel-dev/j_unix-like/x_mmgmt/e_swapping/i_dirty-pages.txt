@@ -10,8 +10,11 @@ Original idea :
   . But moving every page that gets updated can be costly. How can we do better ?
 |
 |
-Alternative idea : dirty pages are left in the RAM , clean pages are evicted to nothing (since it hasn't been recently accessed). 
+Alternative idea :
+. Dirty pages are left in the RAM , clean pages are evicted to nothing (since it hasn't been recently accessed).
 . But doesn't this sacrifice persistence if we don't move updated pages to the disk ?
+. "the clock algorithm may be altered to look for pages that are both unused and clean to evict first;
+   if those aren’t found, then look for unused dirty pages, and so on."
 |
 |
 => Eviction can be done in either of two ways :

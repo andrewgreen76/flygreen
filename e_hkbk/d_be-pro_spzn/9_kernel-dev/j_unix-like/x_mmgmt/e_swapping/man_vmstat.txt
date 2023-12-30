@@ -4,4 +4,7 @@
        si: Amount of memory swapped in from disk (/s).
        so: Amount of memory swapped to disk (/s).
 
+Try :
+$ vmstat 1	# "This shows stats about machine usage every second." 
+
 .

@@ -2,7 +2,7 @@
 The Optimal Replacement Policy :
 |
 . The page predicted to be accessed furthest in the future is evicted and replaced with the page missed in the RAM/cache.
-  . What data structure would be best for this ? A stack ? A queue ? A linked list ? A fixed-size array ?|
+  . What data structure would be best for this ? A stack ? A queue ? A linked list ? A fixed-size array ? 
 
 
 

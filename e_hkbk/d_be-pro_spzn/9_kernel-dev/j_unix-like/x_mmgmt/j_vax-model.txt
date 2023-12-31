@@ -1,10 +1,10 @@
 
 The DEC VAX-11 minicomputer and the VAX/VMS operating system.
-_______________________________________________________________
 
+========================================================================================================================================
 "VAX/VMS was developed in the 1970s and a surprising number of techniques and approaches from this system have survived to this day."
 . "A real address space is much more sophisticated than a simple user code, data, and heap address space ... ."
-
+. the VAX VMS used a combination of segmentation and paging 
 
 
       VAX address space :
@@ -34,4 +34,13 @@ _______________________________________________________________
 	   from user code will result in an OS trap and the termination of the offending process."
       |
       . Unused space (segment 11)
+
+
+========================================================================================================================================
+VMS PTE :
+. a valid bit
+. a protection field (4 bits)
+. a dirty bit
+. kernel's field (5 bits)
+. PFN 
 _

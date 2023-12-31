@@ -1,0 +1,68 @@
+
+VMS policies and techniques : 
+
+========================================================================================================================================
+Segmented FIFO replacement policy : 
+. every process has a resident set size (RSS)
+. when a process exceeds its RSS, the first-in page is evicted but the page is still live
+. second-chance lists to boost FIFO performance (a global clean-page free list and a dirty-page list)
+|
+. "An out-of-order page is removed from the per-process FIFO and placed at the end of either the clean-page list,
+   or the dirty-page list, depending on if it has been updated. If another process wants a page, it removes
+   the first one. The free (or dirty) list is reclaimed from the original process if the original process fails
+   on that page before it is reclaimed. The segmented FIFO technique approaches LRU performance as global
+   second-chance lists grow."
+   
+========================================================================================================================================
+Clustering : 
+. "... to overcome the [problem of not having enough space in a tiny page] (since disk I/O during swapping could be
+   wasteful due to the short page size). Clustering gathers huge batches of pages from the global dirty list and
+   writes them all at once (thus making them clean). The ability to store pages wherever within swap space allows
+   the OS to aggregate pages, execute fewer and larger writes, and therefore increasing performance."
+
+========================================================================================================================================
+Lazy optimizations :
+
+
+
+Demand page zeroing :
+. typically, before any initialization is done, the content in a newly allocated memory page has either ...
+  . arbitrary garbage (leads to undefined behavior) 
+  . data left over from previous use 
+. to avoid this (for security reasons) , it is best to (re)initialize the content as 0
+  . problem : initialization time can be viewed as overhead , compounded by the number of pages to handle 
+. demand zeroing :
+  . the kernel marks on the PTE that the page is unavailable (unmapped => uninitialized) 
+  . once the page is accessed by a process , ...
+    . the process "traps the OS" (taps the kernel on the shoulder)
+    . the kernel marks the page as a demand-zero page in the kernel-exclusive field of the PTE
+    . the kernel finds a free frame , initializes it to 0 , and maps it to the virtual address accessed by the process 
+  . in other words , only map a page to a (initialized) frame when requested 
+. VMS and most modern systems use this technique 
+
+
+
+Copy-on-write (COW) :
+|
+. when requested , a page can be copied from one address space to another
+  . e.g., calling traditional fork()
+  . "Worse, a later exec() call overwrites most of the address space, combining the calling process’s and
+     the [child] program’s address spaces."
+|
+. copy-on-write :
+  . alternatively , a page can be MAPPED to another address space instead
+    . saves copying time
+    . saves memory 
+  -> both the source and the destination are marked read-only
+  . write attemps to either the source or the destination page 
+    . originate from those very same address spaces
+    . are monitored for
+  |
+  . when a write to the source page or the target page is attempted and reported to the kernel :
+    . the kernel quickly allocates a new page in RAM , inits it , and maps it to the "faulting process"
+   -> now we have :
+      . the source
+      . the old mapped target
+      . a new, private writeable target
+  . "This ensures that modifications made by one process do not affect the shared version of the page."
+_

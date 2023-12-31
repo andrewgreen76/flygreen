@@ -8,17 +8,17 @@ _______________________________________________________________
 
 
       VAX address space :
-
-      . User process region P0
+      |
+      . User process region P0 (segment 00)
       	. page 0 (for detecting access to NULL by pointers ; inaccessible) 
       	. program code
 	. data
 	. the heap 
-      . User process region P1
+      . User process region P1 (segment 01)
       	. the stack
       . there is a register for P0 and a register for P1 for switching between page tables of the same process
-	
-      . System space S
+      |	
+      . System space S (segment 10)
       	. the kernel virtual address space is a part of every user address space
       	. trap tables
 	. kernel data (structures) 
@@ -27,6 +27,11 @@ _______________________________________________________________
 	. no stack
 	. S also has its base and bound registers, but they are fixed
 	  . all processes share the same system space
-	  . the kernel can copy data via a process pointer to its own structures 
-      . Unused space 
+	  . the kernel can copy data via a process pointer to its own structures
+	. "is protected. This prevents apps from reading or writing OS data. To enable this, the hardware must support
+	   multiple page protection levels. The VAX accomplished [this] by stating in the page table protection bits
+	   what privilege level the CPU must have to access a page. Thus, attempts to access system data and code
+	   from user code will result in an OS trap and the termination of the offending process."
+      |
+      . Unused space (segment 11)
 _

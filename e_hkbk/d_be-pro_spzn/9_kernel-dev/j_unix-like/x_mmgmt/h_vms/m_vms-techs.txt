@@ -26,6 +26,9 @@ Lazy optimizations :
 
 
 Demand page zeroing :
+|
+. TAKEAWAY POINT : not initializing saves time ; initialize when necessary (when requesting allocating a page) 
+|
 . typically, before any initialization is done, the content in a newly allocated memory page has either ...
   . arbitrary garbage (leads to undefined behavior) 
   . data left over from previous use 
@@ -38,11 +41,13 @@ Demand page zeroing :
     . the kernel marks the page as a demand-zero page in the kernel-exclusive field of the PTE
     . the kernel finds a free frame , initializes it to 0 , and maps it to the virtual address accessed by the process 
   . in other words , only map a page to a (initialized) frame when requested 
-. VMS and most modern systems use this technique 
+. VMS and most modern systems use this technique
 
 
 
 Copy-on-write (COW) :
+|
+. TAKEAWAY POINT : pointing instead of writing saves time ; write to a different location when necessary 
 |
 . when requested , a page can be copied from one address space to another
   . e.g., calling traditional fork()
@@ -65,4 +70,12 @@ Copy-on-write (COW) :
       . the old mapped target
       . a new, private writeable target
   . "This ensures that modifications made by one process do not affect the shared version of the page."
+
+
+
+"
+Demand page zeroing only saves time if memory is not reallocated, as the memory is zeroed right before allocation.
+
+Copy on write only saves time if no writing occurs.
+"
 _

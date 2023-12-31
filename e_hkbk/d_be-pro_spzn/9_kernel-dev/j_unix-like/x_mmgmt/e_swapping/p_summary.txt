@@ -1,0 +1,9 @@
+"
+Summary
+___________
+
+We’ve seen the introduction of various page-replacement (and other) rules, which are now part of every modern operating system’s VM subsystem. Recent systems make some adjustments to simple LRU approximations like clock; for example, scan resistance is a major feature of many modern algorithms like ARC. Scan-resistant algorithms are typically LRU-like, but they also attempt to avoid the worst-case behavior of LRU, which we observed with the looping-sequential workload. As a result, the advancement of page-replacement algorithms continues.
+
+However, the importance of such techniques has decreased in many circumstances as the difference between memory-access and disk-access durations has increased. Because paging to disk is so expensive, the expense of frequent paging is prohibitive. As a result, the greatest remedy to excessive paging is frequently a simple (albeit intellectually disappointing) one: buy additional memory.
+"
+_

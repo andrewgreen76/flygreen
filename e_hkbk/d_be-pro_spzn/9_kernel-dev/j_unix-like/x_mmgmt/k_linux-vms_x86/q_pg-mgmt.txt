@@ -1,15 +1,31 @@
 
+===================================================================
 Intel x86 supports massive pages :
+===================================================================
+
 . traditionally : 4KB
 . modern systems : 2MB , 1GB
 |
+|
 . larger pages
-  => fewer pages per address space
-  => fewer mappings    +    more TLB hits than misses 
-  . TLB misses are serviced faster
-  . page allocation is faster
+  . pros : 
+    => fewer pages per address space
+    => fewer mappings    +    more TLB hits than misses 
+    . TLB misses are serviced faster
+    . page allocation is faster
+  . cons :
+    . internal fragmentation
+    . wasting memory with hardly-used pages
+    . more I/O swaps 
+|
+|
+Transparent big page support (mode) :
+. kernel searches for large pages without modifying applications
 
-
-
-. shmget() 
+===================================================================
+Linux page cache : 
+===================================================================
+. retains most-used pages in RAM for :
+  . memory-mapped files
+  . 
 _

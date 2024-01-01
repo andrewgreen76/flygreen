@@ -70,7 +70,9 @@ Copy-on-write (COW) :
       . the old mapped target
       . a new, private writeable target
   . "This ensures that modifications made by one process do not affect the shared version of the page."
-
+  |
+  . now fork() uses this method 
+  . now something like swapd , which evicts pages to disk , doesn't have to work as hard because there are fewer large pages to evict 
 
 
 "

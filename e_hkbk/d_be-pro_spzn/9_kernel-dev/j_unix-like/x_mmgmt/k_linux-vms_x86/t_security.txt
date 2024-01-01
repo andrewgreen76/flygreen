@@ -1,8 +1,48 @@
 
-Buffer overflow attack :
-. "These attacks aim to uncover a flaw in the target system that allows them to inject arbitrary data into its address space." 
-. can be used even against the kernel
-. a buffer overflow can overwrite memory out of the intended bounds
+Buffer overflow : 
+. overwrites memory out of the intended bounds
 . can happen with certain functions
-  . strcpy() 
+  . strcpy()
+
+
+
+Buffer overflow attack : 
+. a vulnerability is exploited to inject ...
+  . arbitrary data
+  ! SOMEONE'S CODE
+  . Even if the offending source code is not allowed to inject other code or data , it can still do other things. 
+. can be used even against the kernel
+. may crash the process or the OS
+. "Assailants can ... rent out cycles on the compromised system if they successfully assault
+   a network-connected user software (i.e., user code gaining kernel access rights)."
+|
+|
+. return oriented programming (ROP)
+  . injecter code :
+    . a function in the process's stack can be pre-emptively rigged to return the address of injected code
+  . injectee code
+    . followed by a return instruction 
+  . gadget : a piece of program code
+  . return instructions can be rigged in such a way that the end of one gadget leads to another gadget 
+  . this is a buffer overflow attack classic 
+|
+|
+. return-to-libc attack
+  . an old-school attack similar to ROP
+  . "The attacker carefully chooses libc functions that serve their malicious purposes. Common choices include
+     functions like system() or execve(), which can be used to execute arbitrary commands or launch shellcode."
+
+
+
+Security measures :
+. denial of access to certain parts of address space
+  . PTE has the inhibit bit
+    . the set bit forbids execution of the page 
+    . AMD x86 : NX bit
+    . Intel x86 : XD bit
+. address space layout randomization (ASLR) :
+  . process segments are randomly placed within the address space
+  . this makes it difficult to write malicious code to exploit the program in any particular way
+  . typically , an attack on a process under ASLR results in a crash
+  . the Linux kernel ended up with its own - KASLR (kernel address space layout randomization) 
 _

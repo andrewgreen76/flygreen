@@ -1,0 +1,32 @@
+
+32-bit Linux address space :
+. invalid : 0x00000000 - ...
+. user space : ... - 0xBFFFFFFF
+. kernel space : 0xC0000000 - 0xFFFFFFFF
+. 64-bit Linux : the split point between user space and kernel space varies 
+
+
+
+Adresses in the kernel space :
+|
+|
+. kernel logical addresses :
+  . page tables , per-process kernel stacks
+  . can NOT be switched to disk
+  . direct mapping to RAM
+    => always contiguous 
+    => "... can be used for activities that require contiguous physical memory, like I/O transfers to and from devices via directory memory access (DMA)." 
+     . 32-bit Linux : "0xC0000000 corresponds to 0x00000000, 0xC0000FFF to 0x00000FFF, and so on."
+     . 64-bit Linux : the split points vary 
+  . kernel calls kmalloc() to expand this section 
+|
+|
+. kernel virtual addresses :
+  . kernel calls vmalloc() to start and grow this section 
+  . vmalloc() "delivers a pointer to a NEARLY CONTINUOUS region of the necessary size." 
+  . "... kernel virtual memory is frequently not contiguous (and is thus not suitable for DMA)."
+  . "... utilized for huge buffers where finding a continuous large portion of physical memory is difficult."
+  . 32-bit Linux kernel can access memory larger than 1GB
+  . 64-bit Linux kernel is allowed to take up even way more than 1GB 
+
+.

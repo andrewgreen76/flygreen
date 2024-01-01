@@ -1,0 +1,101 @@
+"
+In C++, a synchronization primitive is a mechanism provided by the language or its standard library to control the access to shared resources and coordinate the execution of multiple threads. These primitives are essential for managing concurrency and preventing data races, which can lead to unpredictable behavior in multithreaded programs.
+
+Common synchronization primitives in C++ include:
+
+1. **Mutex (std::mutex):**
+   - Mutex stands for "mutual exclusion." It is used to protect shared resources by allowing only one thread at a time to access a critical section of code. A thread locks the mutex before entering the critical section and unlocks it upon exiting.
+
+   ```cpp
+   #include <iostream>
+   #include <thread>
+   #include <mutex>
+
+   std::mutex myMutex;
+
+   void myFunction() {
+       std::lock_guard<std::mutex> lock(myMutex);
+       // Critical section
+       std::cout << "Thread ID: " << std::this_thread::get_id() << std::endl;
+   }
+
+   int main() {
+       std::thread t1(myFunction);
+       std::thread t2(myFunction);
+
+       t1.join();
+       t2.join();
+
+       return 0;
+   }
+   ```
+
+2. **Unique Lock (std::unique_lock):**
+   - `std::unique_lock` is a more flexible version of a mutex lock. It allows deferred locking, timed locking, and recursive locking.
+
+   ```cpp
+   #include <iostream>
+   #include <thread>
+   #include <mutex>
+
+   std::mutex myMutex;
+
+   void myFunction() {
+       std::unique_lock<std::mutex> lock(myMutex);
+       // Critical section
+       std::cout << "Thread ID: " << std::this_thread::get_id() << std::endl;
+   }
+
+   int main() {
+       std::thread t1(myFunction);
+       std::thread t2(myFunction);
+
+       t1.join();
+       t2.join();
+
+       return 0;
+   }
+   ```
+
+3. **Condition Variable (std::condition_variable):**
+   - Condition variables are used for signaling between threads. They allow a thread to wait until a certain condition is met before proceeding.
+
+   ```cpp
+   #include <iostream>
+   #include <thread>
+   #include <mutex>
+   #include <condition_variable>
+
+   std::mutex myMutex;
+   std::condition_variable myCondition;
+
+   bool dataReady = false;
+
+   void producer() {
+       {
+           std::lock_guard<std::mutex> lock(myMutex);
+           dataReady = true;
+       }
+       myCondition.notify_one();
+   }
+
+   void consumer() {
+       std::unique_lock<std::mutex> lock(myMutex);
+       myCondition.wait(lock, [] { return dataReady; });
+       // Process data
+   }
+
+   int main() {
+       std::thread t1(producer);
+       std::thread t2(consumer);
+
+       t1.join();
+       t2.join();
+
+       return 0;
+   }
+   ```
+
+These synchronization primitives help ensure proper coordination and avoid data races in multithreaded C++ programs. They are crucial for writing correct and efficient concurrent code.
+"
+_

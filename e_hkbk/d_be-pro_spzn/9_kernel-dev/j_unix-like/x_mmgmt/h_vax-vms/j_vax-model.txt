@@ -9,16 +9,16 @@ The DEC VAX-11 minicomputer and the VAX/VMS operating system.
 
       VAX address space :
       |
-      . User process region P0 (segment 00)
+      . User process region P0 (segment 00 , 0x00000000 - 0x3fffffff)
       	. page 0 (for detecting access to NULL by pointers ; inaccessible) 
       	. program code
 	. data
 	. the heap 
-      . User process region P1 (segment 01)
+      . User process region P1 (segment 01 , 0x40000000 - 0x7fffffff)
       	. the stack
       . there is a register for P0 and a register for P1 for switching between page tables of the same process
       |	
-      . System space S (segment 10)
+      . System space S (segment 10 , 0x80000000 - ...)
       	. the kernel virtual address space is a part of every user address space
       	. trap tables
 	. kernel data (structures) 
@@ -33,7 +33,7 @@ The DEC VAX-11 minicomputer and the VAX/VMS operating system.
 	   what privilege level the CPU must have to access a page. Thus, attempts to access system data and code
 	   from user code will result in an OS trap and the termination of the offending process."
       |
-      . Unused space (segment 11)
+      . Unused space (segment 11 , ... - 0xffffffff)
 
 
 ========================================================================================================================================

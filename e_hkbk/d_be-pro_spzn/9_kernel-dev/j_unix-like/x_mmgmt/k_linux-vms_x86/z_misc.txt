@@ -1,4 +1,10 @@
 
+Page table structure :
+. P1-P4 bit fields in PTE
+. "page-table tree topologies" 
+
+
+
 Kernel 
 . responsible for mapping
 . manages processes (creation , deletion , switching)

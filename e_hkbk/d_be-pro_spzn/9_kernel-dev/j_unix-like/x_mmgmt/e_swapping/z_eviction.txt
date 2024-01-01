@@ -1,3 +1,9 @@
+
+Eviction can be done in either of two ways :
+. a move/swap into the disk 
+. simple removal from the RAM
+
+
 "
 Yes, you are correct. In the context of memory management in operating systems, a page can be evicted from physical memory through different mechanisms, and these mechanisms can include simple removal or movement/swapping into the disk. Let's explore both scenarios:
 

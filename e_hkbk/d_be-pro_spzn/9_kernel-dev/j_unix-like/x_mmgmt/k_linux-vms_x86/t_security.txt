@@ -1,0 +1,8 @@
+
+Buffer overflow attack :
+. "These attacks aim to uncover a flaw in the target system that allows them to inject arbitrary data into its address space." 
+. can be used even against the kernel
+. a buffer overflow can overwrite memory out of the intended bounds
+. can happen with certain functions
+  . strcpy() 
+_

@@ -1,0 +1,36 @@
+
+=====================================================================
+Eviction policy ideas : 
+=====================================================================
+
+Evicting a page :
+. freeing a page or marking it as available in RAM 
+
+
+
+Some lingo before we proceed forward :
+|
+. clean page :
+  . a page read but NOT written to
+  . no backup overhead
+|
+. dirty page :
+  . a page written to
+  . has to be moved/swapped into the disk for persistence (backup) 
+  . reminder : every page has a "dirty bit" in its corresponding PTE
+|
+. cleaning a page : moving/swapping a dirty page into the disk (again, backing it up) 
+
+
+
+When we have to come up with some available RAM , we need to be smart about what pages to evict.
+Only some virtual machine systems follow the policy below : 
+. a dirty page needs to be stored to the disk , or cleaned , so that it can be marked as clean before it is evicted 
+. evict clean pages (we don't want to lose the changes on the dirty pages)
+  . doesn't make sense to have clean-before-evict overhead 
+
+
+
+. "the clock algorithm may be altered to look for pages that are both unused and clean to evict first;
+   if those aren’t found, then look for unused dirty pages, and so on." 
+_

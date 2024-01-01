@@ -1,0 +1,50 @@
+
+===================================================================
+Linux page cache : 
+===================================================================
+
+. retains most-used pages from : 
+  . memory-mapped files
+  . metadata and files from devices (accessible via read() and write() system calls)
+  . process heap pages and process stack pages 
+. has its own hash table for storing these entries
+
+Anonymous memory :
+. data that resides in RAM almost exclusively
+. it may or may not be in the swap space , but it is certainly backed up on the disk
+  . ex. : data on the process heap or stack 
+
+===================================================================
+Page cleaning (cont'd) :
+===================================================================
+
+pdflush threads clean dirty pages : 
+. usually done periodically
+. but can also occur when there are too many dirty pages in RAM 
+
+===================================================================
+(Modified form of) 2Q replacement - Linux eviction policy :
+===================================================================
+
+Problem : What if we have a massive file loaded into the page cache ? 
+ . LRU would evict pretty much everything else in the page cache to accommodate this behemoth.
+ . This can be made worse if pages of this huge file are hardly ever accessed , not really worth their presence in the page cache. 
+-> When the file is no longer needed , it gets deleted.
+-> What are we left with in the page cache ? 
+ . We can isolate a regular heavyweight file from everything else in the cache that is flowing nicely in the inactive queue. 
+|
+Solution : Isolate and prioritize pages in the cache by their popularity for optimal utilization. 
+. the Linux page cache is split between two lists : 
+  . upon its first access a page is moved to the inactive queue
+  . subsequent accesses put it into the active queue
+  . "This keeps the active list to around two-thirds of the entire page cache size."
+
+===================================================================
+===================================================================
+===================================================================
+"
+Linux tracks a page’s cleanliness, similar to VMS, and bulk-writes changes using pdflush, when there are too many dirty pages.
+
+Linux’s page replacement policy tracks which pages are used via the active list.
+"
+_

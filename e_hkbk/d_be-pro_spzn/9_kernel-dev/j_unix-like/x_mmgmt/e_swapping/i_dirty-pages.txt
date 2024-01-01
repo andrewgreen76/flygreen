@@ -2,8 +2,19 @@
 Dirty page :
 . a page that has been updated
 . reminder : every page has a "dirty bit" in its corresponding PTE 
+
+
+
+Cleaning a page :
+. moving a dirty page to the disk 
 |
 |
+=> Eviction can be done in either of two ways :
+   . simple removal from the RAM
+   . a move/swap into the disk 
+
+
+
 Original idea : 
 ? In the interest of persistence , the file that has just been modified would be evicted through move to the disk for preservation. 
   => clean pages are kept in RAM , dirty pages are moved to the disk 
@@ -15,9 +26,5 @@ Alternative idea :
 . But doesn't this sacrifice persistence if we don't move updated pages to the disk ?
 . "the clock algorithm may be altered to look for pages that are both unused and clean to evict first;
    if those aren’t found, then look for unused dirty pages, and so on."
-|
-|
-=> Eviction can be done in either of two ways :
-   . simple removal from the RAM
-   . a move/swap into the disk 
+
 _

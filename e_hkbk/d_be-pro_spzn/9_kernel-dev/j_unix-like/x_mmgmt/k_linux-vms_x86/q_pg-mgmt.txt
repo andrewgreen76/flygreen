@@ -25,7 +25,10 @@ Transparent big page support (mode) :
 ===================================================================
 Linux page cache : 
 ===================================================================
-. retains most-used pages in RAM for :
+
+. retains most-used pages from : 
   . memory-mapped files
-  . 
+  . metadata and files from devices (accessible via read() and write() system calls)
+  . process heap pages and process stack pages 
+. has its own hash table for storing these entries 
 _

@@ -1,0 +1,12 @@
+"
+------------------------+---------------------------------------+-------------------------------+
+Aspect			| VAX/VMS				| Linux				|
+------------------------+---------------------------------------+-------------------------------+
+virtual address space	| pages and segmented			| pages				|
+			| 	    				|				|
+page table structure	| linear table				| four-level table		|
+     	   		| 	 				| 	     			|
+page replacement policy	| FIFO with dirty/clean list		| LRU with active/inactive list	|
+------------------------+---------------------------------------+-------------------------------+
+"
+_

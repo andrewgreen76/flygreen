@@ -1,0 +1,53 @@
+"
+`shmget()` is a system call in Unix-like operating systems that is used to create a new System V shared memory segment or access an existing one. This system call is part of the System V IPC (Inter-Process Communication) mechanism, which provides a set of functions for communication and synchronization between processes.
+
+Here is a brief overview of how `shmget()` is typically used:
+
+### Function Signature:
+```c
+#include <sys/ipc.h>
+#include <sys/shm.h>
+
+int shmget(key_t key, size_t size, int shmflg);
+```
+
+### Parameters:
+- `key`: A key that uniquely identifies the shared memory segment. Multiple processes can access the same segment by using the same key.
+- `size`: The size (in bytes) of the shared memory segment to be created.
+- `shmflg`: Flags specifying the permissions and behavior. It is a combination of flags bitwise ORed together, and it may include permissions (e.g., `IPC_CREAT` to create the segment if it doesn't exist).
+
+### Return Value:
+- On success, it returns the identifier (ID) of the shared memory segment.
+- On failure, it returns -1, and `errno` is set to indicate the error.
+
+### Example Usage:
+```c
+#include <sys/ipc.h>
+#include <sys/shm.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    key_t key = ftok("/path/to/some/file", 'R'); // Generate a key
+    size_t size = 1024; // Size of the shared memory segment
+
+    // Create or access the shared memory segment
+    int shmid = shmget(key, size, IPC_CREAT | 0666);
+    if (shmid == -1) {
+        perror("shmget");
+        exit(EXIT_FAILURE);
+    }
+
+    printf("Shared memory segment ID: %d\n", shmid);
+
+    // Other operations on the shared memory segment can follow...
+
+    return 0;
+}
+```
+
+In this example, `ftok()` is used to generate a key based on a file path and a project identifier. The `shmget()` function then creates or accesses a shared memory segment identified by the key. The resulting shared memory segment ID (`shmid`) can be used in other System V IPC functions to attach to, detach from, or control the shared memory segment.
+
+Keep in mind that System V IPC functions are older mechanisms, and modern applications often use newer IPC mechanisms, such as POSIX shared memory (shm_open) or mmap, depending on the requirements and portability considerations.
+"
+_

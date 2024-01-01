@@ -1,0 +1,15 @@
+
+Intel x86 supports massive pages :
+. traditionally : 4KB
+. modern systems : 2MB , 1GB
+|
+. larger pages
+  => fewer pages per address space
+  => fewer mappings    +    more TLB hits than misses 
+  . TLB misses are serviced faster
+  . page allocation is faster
+
+
+
+. shmget() 
+_

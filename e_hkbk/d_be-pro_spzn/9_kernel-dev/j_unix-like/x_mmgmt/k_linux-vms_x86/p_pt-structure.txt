@@ -1,3 +1,6 @@
 
-
+Kernel 
+. responsible for mapping
+. manages processes (creation , deletion , switching)
+. watches MMU integrity 
 _

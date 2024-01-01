@@ -1,0 +1,4 @@
+
+Child process : gets an address space of its own
+Threads : implemented abstractions that work like processes but share the same address space 
+_

@@ -1,0 +1,3 @@
+
+to wrap : add more code around the block/scope of other code ; extend or create a superset of. 
+_

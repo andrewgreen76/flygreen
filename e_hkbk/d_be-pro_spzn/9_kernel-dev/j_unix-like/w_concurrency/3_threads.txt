@@ -4,19 +4,26 @@ Child process : gets an address space of its own
 |
 Threads : implemented abstractions that work like processes but share the same address space
 . multiple execution locations
+. every process can have multiple threads
+  . at least one - the main thread
+  . the main thread can create multiple threads (pthread_create() ) and wait for the child threads to finish and
+    converge with the main thread (pthread_join() )
 . parallelism
-  . multiple threads have the ability to fetch and execute instructions at the exact same time 
+  . multiple threads have the ability to work at the exact same time 
   . ex. : performing and sharing I/O and non-I/O activities
-  . "thus, many modern server-based applications (web servers, database management systems, etc.) use threads." 
+  . "thus, many modern server-based applications (web servers, database management systems, etc.) use threads" 
 . context switching applies to threads as well
+  . a thread control block (TCB), used to store and load the state of the thread
+    . just like PCB, which stores and loads the state of a process 
+. whether the threads are to work at the exact same time or switch at any given moment will be up to the CPU scheduler 
 . every thread has ... 
   . a single task
   . register values
   . a stack that is shared with other threads within the same address space
     => yes , threads can access any data within the same stack space of the same process 
-     . stacks are usually not very big 
-  . a thread control block (TCB), used to store and load the state of the thread
-    . just like PCB, which stores and loads the state of a process
+     . stacks are usually not very big
+. multi-threading concurrency : "it’s hard to predict what will execute when"
+. "... scheduling is the action of assigning resources to perform tasks. The scheduler can start a thread immediately or put it in the “ready” state." 
 
 ==================================================================================================================
 

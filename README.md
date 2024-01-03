@@ -35,8 +35,6 @@ __________________________________________________________________________
 
 Linux : 
 - management of physical memory vs. virtual memory
-  - segmentation (internal and external)
-  - paging
   - protection faults : seg.faults , page faults 
   - translation lookaside buffer (TLB)
   - swapping mechanisms , page replacement policies
@@ -45,6 +43,9 @@ Linux :
   - thrashing 
   - AMAT 
   - daemons
+- concurrency and parallelism
+  - CPU scheduler
+  - multiple-CPU computers 
 - C programming :
   - strcpy() , strlen() , strcat() revisited
   - memset()

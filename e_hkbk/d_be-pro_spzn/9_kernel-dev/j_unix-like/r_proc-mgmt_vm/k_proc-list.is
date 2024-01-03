@@ -59,5 +59,8 @@ A process can have an initial state when it is built. The operating system can t
 
 
 While a process list keeps track of all processes, the Process Control Block (or PCB, or a process descriptor) is used to keep track of a specific process. 
+. process state (registers' values) 
+. priority 
+. scheduling information 
 "
 .

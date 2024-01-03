@@ -1,18 +1,24 @@
 
 Child process : gets an address space of its own
+|
+|
 Threads : implemented abstractions that work like processes but share the same address space
 . multiple execution locations
+. parallelism
+  . multiple threads have the ability to fetch and execute instructions at the exact same time 
+  . ex. : performing and sharing I/O and non-I/O activities
+  . "thus, many modern server-based applications (web servers, database management systems, etc.) use threads." 
 . context switching applies to threads as well
-. every thread has   
+. every thread has ... 
   . a single task
   . register values
-  . a stack that is shares within the same address space
+  . a stack that is shared with other threads within the same address space
     => yes , threads can access any data within the same stack space of the same process 
-     . stacks don't have to be big  
+     . stacks are usually not very big 
   . a thread control block (TCB), used to store and load the state of the thread
     . just like PCB, which stores and loads the state of a process
 
+==================================================================================================================
 
-
-PT does not need to change whenever context switching takes place.
+"Processes are better for logically independent tasks that require less memory sharing."
 _

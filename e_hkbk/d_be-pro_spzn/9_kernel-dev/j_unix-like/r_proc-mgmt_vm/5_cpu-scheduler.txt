@@ -1,0 +1,63 @@
+
+1. What is a CPU scheduler ?
+2. Is a CPU scheduler a part of the kernel code ? 
+
+
+
+"
+A CPU scheduler is a component of the operating system that manages the execution of processes or threads on a computer's central processing unit (CPU). Its primary function is to determine which process or thread should be allocated CPU time for execution, considering factors such as priority, fairness, and system efficiency. The CPU scheduler plays a crucial role in achieving efficient utilization of the CPU and providing responsiveness to users and applications.
+
+Key responsibilities of a CPU scheduler include:
+
+1. **Process or Thread Scheduling:**
+   - Deciding which process or thread should be given access to the CPU for execution. This decision is based on various criteria, such as process priority, time-sharing algorithms, and system load.
+
+2. **Context Switching:**
+   - Performing context switches between different processes or threads. A context switch involves saving the state of the currently running process or thread and restoring the state of the next one to be executed. This allows for smooth transitions between concurrent tasks.
+
+3. **Priority Management:**
+   - Managing priorities assigned to processes or threads. Higher-priority tasks are given preference in accessing the CPU. Priority levels can be dynamically adjusted based on factors like the urgency of the task or the elapsed time.
+
+4. **Fairness and Responsiveness:**
+   - Ensuring fair allocation of CPU time among competing processes or threads. Fair scheduling aims to prevent any single task from monopolizing the CPU and provides responsiveness to user interactions.
+
+5. **Scheduling Algorithms:**
+   - Implementing scheduling algorithms that determine the order in which processes or threads are selected for execution. Common scheduling algorithms include First-Come-First-Serve (FCFS), Round Robin, Shortest Job Next (SJN), and priority-based scheduling.
+
+6. **Load Balancing:**
+   - Distributing the workload evenly across multiple CPUs or cores in a multiprocessor system. Load balancing helps optimize resource utilization and prevent bottlenecks.
+
+7. **Real-Time Scheduling:**
+   - Supporting real-time processes by meeting their timing constraints and ensuring that critical tasks are executed within specified deadlines. Real-time scheduling is crucial for applications with strict timing requirements, such as embedded systems and multimedia processing.
+
+8. **Efficiency Optimization:**
+   - Optimizing the efficiency of the CPU by minimizing idle time and maximizing throughput. This involves making decisions based on the current state of the system and adapting to changes in workload dynamically.
+
+In summary, a CPU scheduler is an integral part of the operating system that orchestrates the execution of processes or threads on the CPU, aiming to achieve fairness, responsiveness, and efficient resource utilization. The specific design and algorithms used by a CPU scheduler depend on the goals and characteristics of the operating system and the underlying hardware.
+"
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+"
+
+Yes, the CPU scheduler is a core component of the operating system kernel. The kernel is the central component of an operating system that manages system resources, provides services to applications, and acts as an interface between software and hardware. The CPU scheduler, being responsible for determining which processes or threads get access to the CPU, is an integral part of the kernel.
+
+Here's how the CPU scheduler fits into the overall structure:
+
+1. **Kernel:**
+   - The kernel is the core part of the operating system that runs in privileged mode and has direct access to hardware resources.
+
+2. **CPU Scheduler:**
+   - The CPU scheduler is a module within the kernel that handles process and thread scheduling. It implements algorithms to determine the order in which processes or threads are executed on the CPU.
+
+3. **Scheduler Operations:**
+   - The CPU scheduler performs key operations like context switching, priority management, load balancing, and scheduling algorithm implementation. It makes decisions about which process or thread to run, when to switch between tasks, and how to allocate CPU time.
+
+4. **Interaction with Processes:**
+   - Processes and threads interact with the CPU scheduler through system calls or other mechanisms provided by the kernel. When a process is created or needs CPU time, it communicates with the scheduler to be placed in the execution queue.
+
+5. **Kernel Mode Execution:**
+   - The CPU scheduler operates in kernel mode, which is a privileged mode where it has direct access to hardware resources and can perform tasks critical for system operation.
+
+In summary, the CPU scheduler is an integral part of the kernel's code, and its functions are critical for managing the execution of processes and threads on the CPU. The design and implementation of the CPU scheduler are specific to the operating system and play a key role in determining system performance, responsiveness, and resource utilization.
+"
+_

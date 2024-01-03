@@ -1,4 +1,18 @@
 
 Child process : gets an address space of its own
-Threads : implemented abstractions that work like processes but share the same address space 
+Threads : implemented abstractions that work like processes but share the same address space
+. multiple execution locations
+. context switching applies to threads as well
+. every thread has   
+  . a single task
+  . register values
+  . a stack that is shares within the same address space
+    => yes , threads can access any data within the same stack space of the same process 
+     . stacks don't have to be big  
+  . a thread control block (TCB), used to store and load the state of the thread
+    . just like PCB, which stores and loads the state of a process
+
+
+
+PT does not need to change whenever context switching takes place.
 _

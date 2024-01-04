@@ -8,13 +8,17 @@ The idea :
 
 This program presents a case of a race condition :
 . two processes or threads "racing" with one another while working with the same data 
-. here : allowing two or more threads share the same global volatile variable (open to all) 
+. here - data race : allowing two or more threads share the same global volatile variable (open to all) 
+  . "the outcome is dependent on the code execution timing" 
+. critical section : 
+  . a block of code to be accessed and executed from start to finish by only one thread at a time 
 
-
+-----------------------------------------------------------------------------------------------------------------
 RISC instruction set :
 . (PC starts with the address of the program)
 . mov - uses 5 bytes 
 . add - uses 3 bytes 
+=================================================================================================================
  */
 
 #include <stdio.h>

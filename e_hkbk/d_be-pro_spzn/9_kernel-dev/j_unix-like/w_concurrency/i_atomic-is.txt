@@ -1,0 +1,5 @@
+
+Atomic instruction :
+. two or so operations implemented to function as one actual instruction
+  => executed without a threat of an interrupt 
+_

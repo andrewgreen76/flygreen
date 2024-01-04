@@ -1,0 +1,20 @@
+"
+Interrupts are regulated by both the hardware and the kernel in a computer system. The interaction between hardware and the operating system (kernel) is essential for proper handling of interrupts. Here's a breakdown of their roles:
+
+1. **Hardware:**
+   - **Interrupt Controller:** The hardware component responsible for managing and prioritizing interrupts is often called the interrupt controller. It may be a separate chip or integrated into the CPU. Examples include the Programmable Interrupt Controller (PIC) and the Advanced Programmable Interrupt Controller (APIC).
+   - **Interrupt Requests (IRQs):** Hardware devices, such as peripherals (keyboard, mouse, etc.) or other components, generate interrupt requests (IRQs) to signal events that require attention. These requests are sent to the interrupt controller.
+
+2. **Kernel:**
+   - **Interrupt Service Routine (ISR):** The kernel responds to interrupts by executing specific routines called Interrupt Service Routines (ISRs). Each type of interrupt has its corresponding ISR.
+   - **Interrupt Vector Table (IVT):** The kernel maintains an Interrupt Vector Table, a data structure that contains pointers to the ISRs for different interrupt types. When an interrupt occurs, the hardware provides an interrupt number, and the kernel uses this number to locate the corresponding ISR in the IVT.
+   - **Interrupt Handling:** The kernel takes over when an interrupt is triggered. It saves the current state of the processor, executes the appropriate ISR, and restores the state after ISR execution.
+
+3. **Interaction:**
+   - **Initialization:** During system initialization, the kernel configures the interrupt controller to handle various interrupt sources. It sets priorities, enables or disables specific interrupts, and establishes how interrupts are delivered to the CPU.
+   - **Interrupt Masking:** The kernel can selectively mask or unmask interrupts based on its needs. Masking an interrupt prevents it from being serviced, while unmasking allows it to be processed.
+   - **Interrupt Disabling:** In critical sections of code or during certain operations, the kernel may temporarily disable interrupts to prevent interruptions. This ensures the atomicity of certain operations.
+
+In summary, both hardware and the kernel play crucial roles in managing interrupts. The hardware generates interrupt signals, and the kernel orchestrates the handling of these interrupts by invoking the appropriate routines. The collaboration between hardware and the kernel is essential for the proper functioning of an interrupt-driven system.
+"
+_

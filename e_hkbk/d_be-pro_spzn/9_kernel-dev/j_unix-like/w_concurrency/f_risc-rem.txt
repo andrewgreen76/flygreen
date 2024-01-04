@@ -1,0 +1,6 @@
+
+RISC instruction set :
+. (PC starts with the address of the program)
+. mov - uses 5 bytes 
+. add - uses 3 bytes 
+_

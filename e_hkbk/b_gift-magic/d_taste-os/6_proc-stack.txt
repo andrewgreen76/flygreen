@@ -1,0 +1,4 @@
+
+Though the stack of the process is allocated statically , its contents change at runtime.
+=> It can be seen under "dynamic memory layout" on some charts. 
+_

@@ -1,3 +1,12 @@
+
+Can be influenced by outside agents such as : 
+. hardware
+. any interrupt
+. any other process 
+. any other thread
+  . using "volatile" is not ideal when race condition is a concern 
+
+
 "
 A "volatile" variable in programming is a modifier that can be applied to a variable declaration. This modifier informs the compiler that the variable's value may be changed at any time by external factors not directly related to the program's flow. As a result, the compiler should not optimize or reorder operations involving the volatile variable, ensuring that the program behaves as expected in the presence of external changes. Here are the key characteristics that make a variable "volatile":
 

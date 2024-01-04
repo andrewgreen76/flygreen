@@ -1,6 +1,21 @@
+/*
+The idea : 
+. global static "counter" variable starts at 0 
+. the program is to create two threads that would increment the counter variable a total of 20,000,000 times 
+  (10,000,000 incrementations by each thread) 
+. Problem output : The counter variable ends up being less than 20,000,000 and it's different every time. 
 
-// The counter variable ends up being different every time and it's incorrect both times.
-// The counter somehow misses the value 10,000,000. 
+
+This program presents a case of a race condition :
+. two processes or threads "racing" with one another while working with the same data 
+. here : allowing two or more threads share the same global volatile variable (open to all) 
+
+
+RISC instruction set :
+. (PC starts with the address of the program)
+. mov - uses 5 bytes 
+. add - uses 3 bytes 
+ */
 
 #include <stdio.h>
 #include <pthread.h>
@@ -20,11 +35,8 @@ void *mythread(void *arg) {
    return NULL;
 }
 
-// main()
-//
-// Just launches two threads (pthread_create)
-// and then waits for them (pthread_join)
-//
+// main() : Just launches two threads (pthread_create) and then waits for them (pthread_join)
+
 int main(int argc, char *argv[]) {
    pthread_t p1, p2;
    printf("main: begin (counter = %d)\n", counter);

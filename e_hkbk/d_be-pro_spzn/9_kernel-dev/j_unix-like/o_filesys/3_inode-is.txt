@@ -1,0 +1,13 @@
+
+Inode :
+. short for "index node"
+. a node that holds metadata about a particular file or directory
+. purpose :
+  . cached for quick access to the respective file/dir
+  . "The actual data blocks containing the file's content are then linked to the inode through the pointers."
+. all inodes for a file system are kept in one place - the inode table or inode block
+|
+|
+. "different filesystems may have variations in the structure and content of inodes"
+. an inode does not include the actual name or the contents of the file/dir 
+_

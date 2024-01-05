@@ -1,0 +1,31 @@
+"
+A filesystem inode, often simply referred to as an inode, is a data structure in a filesystem that contains metadata about a file or directory. It's a crucial component of file systems used in Unix-like operating systems. Each file or directory is associated with an inode, and this data structure holds information about the file or directory, excluding the name and the actual data content.
+
+The metadata stored in a filesystem inode typically includes:
+
+1. **File Type:**
+   - Indicates whether the inode represents a regular file, a directory, a symbolic link, or another file type.
+
+2. **Permissions:**
+   - Specifies the access permissions for the file, indicating who can read, write, or execute the file.
+
+3. **Owner and Group:**
+   - Identifies the user and group associated with the file.
+
+4. **File Size:**
+   - Records the size of the file in bytes.
+
+5. **Timestamps:**
+   - Stores various timestamps associated with the file, such as the last access time, last modification time, and last status change time.
+
+6. **Pointers to Data Blocks:**
+   - Contains references or pointers to the data blocks on the disk where the actual content of the file is stored. These pointers allow the filesystem to locate and retrieve the file's data.
+
+7. **Link Count:**
+   - Keeps track of the number of hard links pointing to the inode. The filesystem releases the associated disk space only when the link count reaches zero.
+
+Filesystem inodes are essential for efficiently managing and organizing file-related information. When a file or directory is created, the filesystem allocates an inode and associates it with the file's metadata. The actual data blocks containing the file's content are then linked to the inode through the pointers.
+
+Different filesystems may have variations in the structure and content of inodes, but the overall purpose remains the same across Unix-like operating systems. Inodes facilitate the storage and retrieval of file attributes, enabling the filesystem to keep track of files and directories effectively.
+"
+_

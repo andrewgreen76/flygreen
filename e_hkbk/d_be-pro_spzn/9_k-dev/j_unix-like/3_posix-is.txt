@@ -1,0 +1,68 @@
+
+POSIX is :
+. "standards"/"specifications" , i.e. , ideas , recipes , formulas , etc. 
+. define certain characteristics that operating systems end up sharing technically and visually 
+  . Linux 
+  . macOS
+  . all the *BSDs
+  . Solaris 
+. developed by Richard Stallman
+. approved by IEEE 
+|
+"
+POSIX (Portable Operating System Interface) standards define a set of specifications to ensure compatibility and portability across Unix-like operating systems. Some of the key POSIX standards include:
+
+1. **POSIX.1:**
+   - Specifies the fundamental interface and environment for Unix-like operating systems.
+   - Defines basic functionalities such as file I/O, process control, signals, and system utilities.
+
+2. **POSIX.1b (Real-time Extensions):**
+   - Adds real-time extensions to the original POSIX.1 standard.
+   - Introduces real-time signals, clocks, and timers.
+
+3. **POSIX.1c (Threads Extensions):**
+   - Defines thread-related functions for multithreading support.
+   - Specifies thread creation, synchronization, and control.
+
+4. **POSIX.1d (Security):**
+   - Introduces security-related extensions.
+   - Defines security controls and privileges.
+
+5. **POSIX.1g (Networking Services):**
+   - Adds networking-related interfaces.
+   - Defines socket and network-related functions.
+
+6. **POSIX.2 (Shell and Utilities):**
+   - Specifies the shell and utilities interfaces.
+   - Defines commands, utilities, and their syntax.
+
+7. **POSIX.2a (Enhanced Batch Processing):**
+   - Introduces extensions for batch processing.
+
+8. **POSIX.2c (Additional Real-time Extensions):**
+   - Further extends real-time support.
+
+9. **POSIX.2d (Profile: POSIX.2 and ISO/IEC 9945-2):**
+   - Profiles POSIX.2 and ISO/IEC 9945-2 standards.
+
+10. **POSIX.1e (System Administration):**
+    - Adds system administration interfaces.
+
+11. **POSIX.1f (Real-time Systems Profiling):**
+    - Specifies profiling interfaces for real-time systems.
+
+12. **POSIX.1i (IEEE Std 1003.1i, POSIX Access Control Lists):**
+    - Introduces Access Control Lists (ACLs) for file permissions.
+
+13. **POSIX.1j (IEEE Std 1003.1j, Extensions for Batch Processing):**
+    - Adds further extensions for batch processing.
+
+14. **POSIX.1k (IEEE Std 1003.1k, Real-time Safety):**
+    - Introduces safety-related features for real-time systems.
+
+15. **POSIX.1p (IEEE Std 1003.1p, User Portability Extensions):**
+    - Adds extensions for user portability.
+
+These are just a few examples of POSIX standards. Each standard addresses specific aspects of the operating system interface, providing a comprehensive framework for interoperability among Unix-like systems. It's important to note that compliance with POSIX standards helps ensure that software written to these standards can run on various POSIX-compliant operating systems.
+"
+_

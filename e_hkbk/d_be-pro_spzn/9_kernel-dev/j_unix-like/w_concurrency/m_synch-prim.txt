@@ -1,3 +1,13 @@
+
+Synchronization primitive : 
+. a language/library feature (e.g., mutex , lock) 
+. regulates sharing of data and/or resources between threads 
+
+
+
+The following applies to both C and C++. 
+
+
 "
 In C++, a synchronization primitive is a mechanism provided by the language or its standard library to control the access to shared resources and coordinate the execution of multiple threads. These primitives are essential for managing concurrency and preventing data races, which can lead to unpredictable behavior in multithreaded programs.
 

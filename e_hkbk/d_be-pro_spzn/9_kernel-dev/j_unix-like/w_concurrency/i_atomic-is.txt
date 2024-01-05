@@ -1,5 +1,15 @@
 
 Atomic instruction :
 . two or so operations implemented to function as a unit , one actual instruction
-  => executed without a threat of an interrupt 
+  => executed without a threat of an interrupt
+  => ensures completion of execution (e.g. , good order of update instructions)
+
+==============================================================================================================================
+==============================================================================================================================
+==============================================================================================================================
+
+Argument :
+. "... would we want hardware to allow an “atomic update of B-tree” instruction? No, not in a sensible instruction set."
+  . Why not ?
+  . complexity of implementation of multi-threaded atomic update 
 _

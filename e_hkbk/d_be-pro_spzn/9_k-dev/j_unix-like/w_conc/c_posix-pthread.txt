@@ -1,7 +1,8 @@
+
 #include <pthread.h>
 
 int pthread_create (pthread_t *thread,  
-		    const pthread_attr_t *attr,  
+		    const pthread_attr_t *attr,    // addr of attributes : stack size , sched.priority , properties , etc. 
 		    void *(*start_routine)(void*), 
 		        /*
 			  ^ This is a function pointer to the function that will be executed by the new thread. 
@@ -10,7 +11,10 @@ int pthread_create (pthread_t *thread,
 			 */
 		    void *arg); 
 
-/*
+/* 
+==============================================================================================================================================
+==============================================================================================================================================
+==============================================================================================================================================
 "
 The code you've provided is a function declaration for the `pthread_create` function. This function is part of the POSIX threads (pthread) library in C, and it is used to create a new thread.
 

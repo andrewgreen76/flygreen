@@ -1,5 +1,5 @@
 
 Atomic instruction :
-. two or so operations implemented to function as one actual instruction
+. two or so operations implemented to function as a unit , one actual instruction
   => executed without a threat of an interrupt 
 _

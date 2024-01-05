@@ -16,7 +16,12 @@ Critical section :
 . a block of code with access to shared data , and is therefore to be executed from start to finish by only one thread at a time
 
 
-Mutual exclusion :
-. while one thread is working on the critical section , the other threads are barred from accessing the section
-  until that thread is finished 
+Mutual exclusion (a.k.a. mutex) : 
+. a mechanism that allows only one thread to work on a critical section at a time , barring all the other threads until the job is done
+
+
+Indeterminate program :
+. contains one or more race conditions
+=> the output varies 
+=> the outcome is not deterministic, "something we usually expect from computer systems".
 _

@@ -1,8 +1,3 @@
-
-(void *) casting allows for returning address to different datatypes. 
-
-
-
 "
 In the context of your code, both `(void*) memory` and `&memory` refer to the address of the beginning of the `memory` array. However, there is a difference in their types and how they are interpreted.
 

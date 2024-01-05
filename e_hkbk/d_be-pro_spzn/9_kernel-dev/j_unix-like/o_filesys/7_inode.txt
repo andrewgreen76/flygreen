@@ -1,0 +1,6 @@
+
+Inode :
+. short for "index node"
+. a node that holds metadata about a particular file or directory
+. does not include the actual name of the file/dir and its content 
+_

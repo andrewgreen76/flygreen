@@ -1,0 +1,74 @@
+#include <pthread.h>
+
+int pthread_create (pthread_t *thread,  
+		    const pthread_attr_t *attr,  
+		    void *(*start_routine)(void*), 
+		        /*
+			  ^ This is a function pointer to the function that will be executed by the new thread. 
+			    The function takes a single void* argument and returns a void*. This is a common signature 
+			    for thread start routines in POSIX threads.
+			 */
+		    void *arg); 
+
+/*
+"
+The code you've provided is a function declaration for the `pthread_create` function. This function is part of the POSIX threads (pthread) library in C, and it is used to create a new thread.
+
+Let's break down the parameters of the `pthread_create` function:
+
+```c
+int pthread_create(pthread_t *thread,
+                   const pthread_attr_t *attr,
+                   void *(*start_routine)(void*),
+                   void *arg);
+```
+
+1. **`pthread_t *thread`:**
+   - This is a pointer to a `pthread_t` variable. After successfully creating a new thread, the identifier of the newly created thread is stored in the memory location pointed to by this variable.
+
+2. **`const pthread_attr_t *attr`:**
+   - This parameter is a pointer to a `pthread_attr_t` structure that specifies the attributes for the new thread (such as its stack size, scheduling policy, etc.). If you don't want to specify any special attributes, you can pass `NULL`.
+
+3. **`void *(*start_routine)(void*)`:**
+   - This is a function pointer to the function that will be executed by the new thread. The function takes a single `void*` argument and returns a `void*`. This is a common signature for thread start routines in POSIX threads.
+
+4. **`void *arg`:**
+   - This is a pointer to the argument that will be passed to the `start_routine` function when the new thread is created.
+
+5. **Return Value:**
+   - The `pthread_create` function returns an integer. A return value of 0 indicates success, and a non-zero value indicates an error.
+
+Here's a simple example of using `pthread_create`:
+
+```c
+#include <pthread.h>
+#include <stdio.h>
+
+void *thread_function(void *arg) {
+    printf("Hello from the new thread! Argument: %s\n", (char *)arg);
+    return NULL;
+}
+
+int main() {
+    pthread_t my_thread;
+    const char *message = "This is the argument.";
+
+    // Create a new thread
+    int result = pthread_create(&my_thread, NULL, thread_function, (void *)message);
+
+    if (result == 0) {
+        printf("Thread creation successful.\n");
+
+        // Optionally, wait for the thread to finish
+        pthread_join(my_thread, NULL);
+    } else {
+        fprintf(stderr, "Thread creation failed. Error code: %d\n", result);
+    }
+
+    return 0;
+}
+```
+
+This example creates a new thread that executes the `thread_function` with the provided argument. The main thread waits for the new thread to finish using `pthread_join`.
+"
+*/

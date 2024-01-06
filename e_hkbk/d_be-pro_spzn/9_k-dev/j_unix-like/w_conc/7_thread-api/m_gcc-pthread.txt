@@ -1,0 +1,6 @@
+
+#include <pthread.h>
+============================================================================
+$ gcc -o main main.c -Wall -pthread    # explicit mention in the link face. 
+
+_

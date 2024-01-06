@@ -6,12 +6,12 @@ Segmentation fault :
 . illegal access (access to uninitialized or free memory) 
 
 Page fault : an event of either ... 
-. accessing a virtual page and attempting to look up a non-existing corresponding frame 
+. taking a virtual page and attempting to look up a non-existing corresponding frame 
 . attempting to access a page that was swapped out to the disk 
 
 Protection fault - a generic term for all of the following : 
 . accessing a page with insufficient permissions
 . seg.fault 
-. a page fault
+. page fault
 
 .

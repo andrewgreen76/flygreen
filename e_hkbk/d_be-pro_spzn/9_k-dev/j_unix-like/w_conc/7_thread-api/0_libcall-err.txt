@@ -1,5 +1,0 @@
-
-Library calls can be error-prone.
-. always implement integrity check
-  . e.g. , error-handling wrapper functions 
-_

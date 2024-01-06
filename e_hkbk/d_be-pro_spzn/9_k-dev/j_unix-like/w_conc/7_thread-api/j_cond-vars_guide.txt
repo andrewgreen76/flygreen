@@ -25,9 +25,9 @@ More than one thread can wait on the condition.
 
 
 ======================================================================================================================
-Guide note : 
-======================================================================================================================
-Write simple locking/unlocking/signaling code. 
+Guide notes : 
+. Write simple locking/unlocking/signaling code.
+. "Bugs result from thread interactions. Avoid thread interactions. Keep the amount of thread interactions to a [minimum]." 
 
 
 ======================================================================================================================

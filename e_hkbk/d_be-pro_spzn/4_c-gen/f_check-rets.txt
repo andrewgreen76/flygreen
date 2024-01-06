@@ -1,0 +1,3 @@
+
+"Verify return codes. Of course, this is true for any C or UNIX programming. If you don’t, you’ll probably (a) scream, (b) rip out some hair, or (c) both."
+_

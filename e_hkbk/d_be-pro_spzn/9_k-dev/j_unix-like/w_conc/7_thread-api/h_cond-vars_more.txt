@@ -1,4 +1,7 @@
 
+======================================================================================================================
+IMPORTANT NOTE :
+======================================================================================================================
 More than one thread can wait on the condition.
 . A single sleeping thread can be woken up to proceed by calling ... 
 
@@ -8,15 +11,27 @@ More than one thread can wait on the condition.
 
      pthread_cond_broadcast(&cond); 
 
+
+
 ======================================================================================================================
-More thoughts :
-. Mutex and condition-on-mutex protect code and data in a critical section that could be otherwise be shared between threads. 
+IMPORTANT NOTE :
+======================================================================================================================
+"... the waiting thread rechecks the condition in a while loop rather than an if"
+
+"... using a while loop is the safest option. Some pthread implementations may wake up a waiting thread without rechecking
+the condition, causing the waiting thread to think the situation has changed when it hasn’t. It’s safer to think about
+waking up as a hint rather than a fact." 
+
+
+
+======================================================================================================================
+======================================================================================================================
+======================================================================================================================
+Options :
 . the mutex can be ...
   . a regular mutex
   . a regular timedlock
   . a trylock
-. "the waiting thread rechecks the condition in a while loop rather than an if"
-  . "using a while loop is the safest option" 
 
 ======================================================================================================================
 ======================================================================================================================

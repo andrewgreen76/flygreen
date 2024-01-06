@@ -21,21 +21,21 @@ Condition variable :
     // ---- SEND WAIT CALL : CALL.THREAD RELEASES THE MUTEX , LETS IN OTHER THREADS , SLEEPS -----
     // ------------- EITHER OTHER THREADS CHANGE THE CONDITION OR ALSO GO TO SLEEP  --------------
     |
-    while (ready == 0)			 // the barring variable that threads share @ mutex release  
+    while (ready == 0)			 // the barring flag that threads share @ mutex release  
       pthread_cond_wait(&cond, &lock);	 // the WAIT CALL : mutex and cond.var are linked. 
 //====================================================================================================================
     pthread_mutex_lock(&lock);
-    ready = 1;				// BARRING VARIABLE - declare all good 
+    ready = 1;				// BARRING FLAG - declare all good 
     pthread_cond_signal(&cond);		// SIGNAL CALL - tell the calling thread to wake up 
     pthread_mutex_unlock(&lock);
 //====================================================================================================================    
-    // (1) SEND cond SIGNAL , (2) HAVE barring variable GIVE OK. 
+    // (1) SEND cond SIGNAL , (2) HAVE barring flag GIVE OK. 
     // Calling thread reacqs mutex. Then , ... 
 
 
     pthread_mutex_unlock(&lock);    // calling thread releases mutex : reacq again , block other threads here 
     pthread_mutex_lock(&lock);      // reacqs mutex to block other threads here
-        // may recheck the barring and condition variables 
+        // may recheck the barring flag and the condition variable 
 	// may continue working on shared data 
     pthread_mutex_unlock(&lock);    // calling thread releases mutex , just in time for end of crit.section.  
 //====================================================================================================================

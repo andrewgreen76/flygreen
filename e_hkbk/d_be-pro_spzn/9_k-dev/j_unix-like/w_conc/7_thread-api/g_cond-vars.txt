@@ -2,7 +2,7 @@
 Condition variable :
 . THE IDEA : complete obstruction of process/threads until a condition is satisfied
 . CALLING THREAD : the main thread - the one that locks/unlocks and can have the critical section all to itself. 
-. how it works :
+. How it works :
 
 //====================================================================================================================
     pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;	 
@@ -10,49 +10,58 @@ Condition variable :
 
 
     // ---------------------------- LOCK UP , CALLING THREAD IN ----------------------------------
-    pthread_mutex_lock(&lock);	         // start with a lock ()
+    pthread_mutex_lock(&lock); 
+    // -------------------------------------------------------------------------------------------
 
 
     // --------------- ACCESSING/MODIFYING DATA ... DOING WHAT MUST BE DONE ... ------------------
 
 
-    // ----------------------------- IF SOMETHING IS OFF , ... -----------------------------------
-    // -------- TAP ON THE CONDITION-ON-LOCK TO RELEASE THE MUTEX , LET IN OTHER THREADS ---------
-    // ---------- WAIT ON A THREAD TO CHANGE THE CALLING THREAD'S SLEEPING CONDITION -------------
-    // ---------- i.e. , when all's good, the cond-on-lock has to be signaled -and-  -------------
-    // ----------------- -and- the cond-on-loop has to reflect OK to proceed ---------------------
-    //
-    while (ready == 0)			 // the (global) COND-ON-LOOP threads share @ mutex release  
-      pthread_cond_wait(&cond, &lock);	 // the WAIT CALL :
-      			       		 //   release the mutex ,
-					 //   have the calling thread sleep until pthread_cond_signal(&cond) by another thread  
-      			       		 // The calling thread sleeps , waiting for another thread to change condition and signal. 
-    pthread_mutex_unlock(&lock);
-//====================================================================================================================
-
-
-
-A thread changes the condition and wakes the calling thread with :
+    // ---------------------- SOMETHING IS OFF AT THIS POINT OF PROCESS --------------------------
+    // ---- SEND WAIT CALL : CALL.THREAD RELEASES THE MUTEX , LETS IN OTHER THREADS , SLEEPS -----
+    // ------------- EITHER OTHER THREADS CHANGE THE CONDITION OR ALSO GO TO SLEEP  --------------
+    |
+    while (ready == 0)			 // the barring variable that threads share @ mutex release  
+      pthread_cond_wait(&cond, &lock);	 // the WAIT CALL 
 //====================================================================================================================
     pthread_mutex_lock(&lock);
-    ready = 1;				// CONDITION - declare all good 
+    ready = 1;				// BARRING VARIABLE - declare all good 
     pthread_cond_signal(&cond);		// SIGNAL CALL - tell the calling thread to wake up 
     pthread_mutex_unlock(&lock);
+//====================================================================================================================    
+    // (1) SEND cond SIGNAL , (2) HAVE barring variable GIVE OK. 
+    // Calling thread reacqs mutex. Then , ... 
+
+
+    pthread_mutex_unlock(&lock);    // calling thread releases mutex : reacq again , block other threads here 
+    pthread_mutex_lock(&lock);      // reacqs mutex to block other threads here
+        // may recheck the barring and condition variables 
+	// may continue working on shared data 
+    pthread_mutex_unlock(&lock);    // calling thread releases mutex , just in time for end of crit.section.  
 //====================================================================================================================
+
+
+
 
 
 
 More than one thread can wait on the condition.
-. A single thread can be woken up to proceed by calling ... 
+. A single sleeping thread can be woken up to proceed by calling ... 
 
      pthread_cond_signal(&cond);
 
-. All present threads can be woken up by calling ...
+. All present sleeping threads can be woken up by calling ...
 
      pthread_cond_broadcast(&cond); 
 
 
 
+======================================================================================================================
+======================================================================================================================
+======================================================================================================================
+    // --------------- CALLING THREAD DOING WHAT MUST BE DONE ... WRAPPING UP ... ------------------
+======================================================================================================================
+======================================================================================================================
 ======================================================================================================================
 More thoughts :
 . Mutex and condition-on-mutex protect code and data in a critical section that could be otherwise be shared between threads. 

@@ -7,7 +7,7 @@ timedlock :
   . update abstime = time to check on the lock (ends in secs)
   . start a regular timedlock with :
     int result = pthread_mutex_timedlock(&my_mutex, &abstime); 
-  . if still locked , returns an error code 
+  . if still locked , returns EBUSY error code 
 |
 |
 . trylock : 
@@ -15,7 +15,7 @@ timedlock :
   . if the lock is held by another thread , the attempting thread will give up , simply return , and pass the critical section
   . start a trylock with : 
     int result = pthread_mutex_timedlock(&my_mutex, NULL);
-  . if locked , returns an error code 
+  . if locked , returns EBUSY error code 
  */
 
 #include <pthread.h>

@@ -1,0 +1,124 @@
+
+Condition variable :
+. like a baton the working thread passes to the attempting thread 
+. mutex and condition variable protect data shared between threads
+. 
+. how it works :
+//
+//====================================================================================================================
+    pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;	 
+    pthread_cond_t cond = PTHREAD_COND_INITIALIZER;    // CONDITION VARIABLE
+
+
+    // -------------------------------------- LOCK UP  -------------------------------------------
+    Pthread_mutex_lock(&lock);	         // start with a lock ()
+    // (can use a regular mutex , a regular timedlock, or a trylock)
+    // ---------------------------------- FIRST THREAD IN ----------------------------------------
+
+
+    // -------------------- ACCESSING/MODIFYING DATA ... -----------------------------------------
+    // -------------------- ACCESSING/MODIFYING DATA ... -----------------------------------------
+    // --------------------------------------------- ... AND FINISHING UP ... --------------------
+
+
+    // --------------------------------- THREAD JOB DONE -----------------------------------------
+    // ----------------------------- NOT SATISFIED with smth -------------------------------------
+    // -------------------- LOOPING UNTIL ANOTHER THREAD SATISFIES SMTH --------------------------
+    //
+    while (ready == 0)			 // the (global) SIGNALING VARIABLE threads share  
+      Pthread_cond_wait(&cond, &lock);	 // the WAIT CALL : link the lock to a condition variable
+      			       		 // attempting thread sleeps 
+      
+    Pthread_mutex_unlock(&lock);
+//====================================================================================================================
+
+
+
+One thread wakes the other with :
+//====================================================================================================================
+    Pthread_mutex_lock(&lock);
+    ready = 1;				// SIGNALING VARIABLE / "CONDITION" 
+    Pthread_cond_signal(&cond);		// SIGNAL CALL 
+    Pthread_mutex_unlock(&lock);
+//====================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+======================================================================================================================
+======================================================================================================================
+======================================================================================================================
+
+"
+Condition variables are synchronization primitives used in multithreaded programming to allow threads to efficiently wait for a specific condition to be met before proceeding. They are often used in conjunction with mutexes to coordinate the activities of multiple threads.
+
+Here is a high-level overview of how condition variables work between two threads:
+
+1. **Initialization:**
+   - A condition variable is associated with a mutex to form a condition variable-mutex pair. This mutex is used to protect the shared data that the condition variable is associated with.
+
+   ```c
+   pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+   pthread_cond_t condition_variable = PTHREAD_COND_INITIALIZER;
+   ```
+
+2. **Mutex Lock and Shared Data:**
+   - The threads involved should lock the shared data using the associated mutex before checking or modifying the shared data.
+
+   ```c
+   pthread_mutex_lock(&mutex);
+   // Access or modify shared data
+   ```
+
+3. **Checking the Condition:**
+   - If a thread finds that the condition it is interested in is not met, it can voluntarily release the mutex and enter a waiting state using `pthread_cond_wait()`. This releases the mutex, allowing other threads to access the shared data.
+
+   ```c
+   while (!condition) {
+       pthread_cond_wait(&condition_variable, &mutex);
+   }
+   ```
+
+   The `pthread_cond_wait()` function atomically releases the mutex and puts the calling thread to sleep until the condition variable is signaled by another thread.
+
+4. **Signaling the Condition:**
+   - Another thread that modifies the shared data and believes that the condition has been met can signal the condition variable using `pthread_cond_signal()` or `pthread_cond_broadcast()`.
+
+   ```c
+   // Modify shared data
+   condition = true;
+   pthread_cond_signal(&condition_variable); // or pthread_cond_broadcast(&condition_variable);
+   ```
+
+   The `pthread_cond_signal()` function wakes up at least one thread waiting on the condition variable. If multiple threads are waiting, `pthread_cond_broadcast()` wakes up all waiting threads.
+
+5. **Mutex Unlock:**
+   - After signaling the condition, the signaling thread should release the mutex.
+
+   ```c
+   pthread_mutex_unlock(&mutex);
+   ```
+
+6. **Wakeup and Recheck:**
+   - The thread that was waiting on the condition variable wakes up and reacquires the mutex. It then rechecks the condition to ensure that it is still true.
+
+   ```c
+   pthread_mutex_lock(&mutex);
+   // Recheck the condition
+   // Continue processing or modify shared data
+   pthread_mutex_unlock(&mutex);
+   ```
+
+This sequence of operations ensures that threads are synchronized around a shared condition, and they efficiently wait until the condition becomes true before proceeding.
+
+It's important to note that using condition variables typically involves both a condition check and a loop to recheck the condition after waking up. This is because of the potential for spurious wakeups, where a thread wakes up even though the condition might not have changed. The loop allows the thread to recheck the condition and, if necessary, go back to waiting.
+"
+_

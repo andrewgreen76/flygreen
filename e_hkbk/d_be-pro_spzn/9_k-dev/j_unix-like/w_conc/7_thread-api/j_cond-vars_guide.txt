@@ -25,15 +25,16 @@ More than one thread can wait on the condition.
 
 
 ======================================================================================================================
-Guide notes : 
-. Write simple locking/unlocking/signaling code.
-. "Bugs result from thread interactions. Avoid thread interactions. Keep the amount of thread interactions to a [minimum]." 
+Guide note : 
+======================================================================================================================
+Write simple locking/unlocking/signaling code.
+
 
 
 ======================================================================================================================
 Guide note : 
 ======================================================================================================================
-Options :
+When pairing a mutex with a condition variable , ... 
 . the mutex can be ...
   . a regular mutex
   . a regular timedlock

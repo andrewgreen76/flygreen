@@ -1,0 +1,6 @@
+
+. "Bugs result from thread interactions. Avoid thread interactions. Keep the amount of thread interactions to a [minimum]."
+. "To transfer data between threads, values must be in the heap or another globally accessible locale."
+$ man pthread_create
+$ man -k pthread 
+_

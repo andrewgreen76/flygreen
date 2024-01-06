@@ -13,6 +13,7 @@ The USER MODE and the KERNEL MODE
   . talking to processes		signal() -or- argc/argv
   . setting aside more memory 		malloc() , free() , etc.
 |||
-. C library functions (e.g., malloc() ) are NOT system calls. 
+. C library calls (e.g., malloc() ) are NOT system calls. 
+  . a system call does not need a library 
 
 .

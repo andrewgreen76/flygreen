@@ -1,6 +1,6 @@
 
 Synchronization primitive : 
-. a language/library feature (e.g., mutex , lock) 
+. a language/library feature (e.g., mutex , semaphore , condition variable) 
 . regulates sharing of data and/or resources between threads
 |
 . when we use synchronization primitives , data structures that deal with virtualization must be carefully accessed 

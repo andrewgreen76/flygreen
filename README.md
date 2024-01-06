@@ -34,18 +34,10 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
 Linux : 
-- management of physical memory vs. virtual memory
-  - protection faults : seg.faults , page faults 
-  - translation lookaside buffer (TLB)
-  - swapping mechanisms , page replacement policies
-  - page eviction methods
-  - dirty pages
-  - thrashing 
-  - AMAT 
-  - daemons
 - concurrency and parallelism
   - CPU scheduler
-  - multiple-CPU computers 
+  - multiple-CPU computers
+  - multi-threading : creation , completion , joining , other details 
 - C programming :
   - strcpy() , strlen() , strcat() revisited
   - memset()

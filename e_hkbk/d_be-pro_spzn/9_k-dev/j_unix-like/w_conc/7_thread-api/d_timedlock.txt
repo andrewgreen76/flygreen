@@ -1,0 +1,72 @@
+"
+In POSIX threads programming, a timed lock refers to the ability to attempt to acquire a lock on a mutex with a specified timeout period. The primary function used for this purpose is `pthread_mutex_timedlock()`.
+
+### `pthread_mutex_timedlock()` Function:
+
+```c
+#include <pthread.h>
+
+int pthread_mutex_timedlock(pthread_mutex_t *mutex, const struct timespec *abstime);
+```
+
+- `mutex`: A pointer to the mutex object.
+- `abstime`: A pointer to a structure (`struct timespec`) that specifies an absolute time until which the thread should attempt to acquire the lock.
+
+The `pthread_mutex_timedlock()` function attempts to lock the specified mutex within a specified time period. If the mutex is available, the function locks it and returns 0. If the mutex is currently locked by another thread, the calling thread will wait until the specified absolute time (`abstime`) is reached. If the timeout period elapses before the lock is acquired, the function returns an error code, allowing the program to handle the timeout situation.
+
+Here's a simple example:
+
+```c
+#include <pthread.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    pthread_mutex_t my_mutex;
+
+    // Initialize the mutex
+    if (pthread_mutex_init(&my_mutex, NULL) != 0) {
+        fprintf(stderr, "Mutex initialization failed\n");
+        return 1;
+    }
+
+    // Set an absolute time for the timeout
+    struct timespec abstime;
+    clock_gettime(CLOCK_REALTIME, &abstime);
+    abstime.tv_sec += 5;  // Set a timeout of 5 seconds
+
+    // Attempt to lock the mutex with a timeout
+    int result = pthread_mutex_timedlock(&my_mutex, &abstime);
+
+    if (result == 0) {
+        // Mutex successfully locked, perform critical section
+
+        // Don't forget to unlock the mutex when done
+        pthread_mutex_unlock(&my_mutex);
+
+        // Continue with the rest of the program
+    } else if (result == ETIMEDOUT) {
+        // Lock attempt timed out
+
+        fprintf(stderr, "Mutex lock attempt timed out\n");
+
+        // Handle the timeout or return from the function
+    } else {
+        // Other error occurred
+
+        fprintf(stderr, "Mutex lock attempt failed with error code %d\n", result);
+
+        // Handle the error or return from the function
+    }
+
+    // Destroy the mutex when done
+    pthread_mutex_destroy(&my_mutex);
+
+    return 0;
+}
+```
+
+In this example, the `pthread_mutex_timedlock()` function is used to attempt to lock the mutex with a specified timeout (`abstime`). The program then checks the result to determine whether the lock was successful, the attempt timed out, or an error occurred. This mechanism allows for more controlled handling of mutex acquisition attempts in scenarios where a timeout is desirable.
+"
+_

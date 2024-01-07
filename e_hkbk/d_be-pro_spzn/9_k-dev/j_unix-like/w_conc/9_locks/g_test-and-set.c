@@ -5,12 +5,12 @@ typedef struct __lock_t {
 
 // Receive/set new value , return/test old value. 
 //
-//                    v flag to update          
-int TestAndSet(int *old_ptr, int new) {
-    int old = *old_ptr; // fetch old value at old_ptr
-    *old_ptr = new;     // store ’new’ into old_ptr
-    return old; 	// return the old value
-}
+//                    v flag to update                            // THREAD 1 :                // THREAD 2 : 
+int TestAndSet(int *old_ptr, int new) {                           //                (flag=0 , new=1)   
+    int old = *old_ptr; // 100 : fetch old value at old_ptr       ->   100 : load ret flag<>0  ->    
+    *old_ptr = new;     // 101 : store ’new’ into old_ptr         ->   101 : flag <- 1         ->   100 : load ret flag<>1 
+    return old; 	// 102 : return the old value             ->   102 : RET 1 (ATOMIZE!!) ->   101 : flag <- 1 
+}                       //                                                                     ->   102 : ret
 
 
 void init(lock_t *lock) {

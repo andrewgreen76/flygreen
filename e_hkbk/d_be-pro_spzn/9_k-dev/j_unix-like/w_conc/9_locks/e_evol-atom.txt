@@ -28,7 +28,8 @@ New ideas :
   |
   |
   |
-  . test-and-set (a.k.a. atomic exchange) : 
+  . test-and-set (a.k.a. atomic exchange)
+    . the most direct form of locking hardware support 
 
       int TestAndSet(int *old_ptr, int new) {
 	  int old = *old_ptr; // fetch old value at old_ptr

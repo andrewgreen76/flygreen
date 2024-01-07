@@ -1,0 +1,48 @@
+
+========================================================================================
+Uninterrupted execution of a critical section on a SINGLE CPU :
+========================================================================================
+. "we must trust that calling threads will not abuse privileges"
+   . turning interrupts on and off
+   . locking the right thread out of the critical section
+   . forcing the CPU to spin infinitely
+     . nothing the kernel can do about this 
+
+========================================================================================
+Uninterrupted execution of a critical section on multiple CPUs / by multiple threads :
+========================================================================================
+. again , privilege abuse is possible
+. consistency is hard to maintain with this kind of multi-threading
+  . can't have different sets of facts about interrupts
+
+========================================================================================
+Long-deferred (i.e. , masked , disabled) interrupt problem :  
+========================================================================================
+ . may end up a lost interrupt , i.e. , missed by the kernel 
+=> system issues
+   . job (e.g., I/O) finished
+   > job INT issued but suppressed
+   > WHAT IF INT DIES BEFORE END OF CRITICAL SECTION EXECUTION ??? 
+   > kernel will never see the job INT 
+   > process waiting on I/O will never resume , will never get any more CPU time 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What we may want :
+
+
+CRIT-SECT-EXEC  CRIT-SECT-EXEC  C-|
+		mask-mask-mask-mask_____
+INT : _________________|		|___________________
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+////////////////////////////////////////////////////////////////
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What we certainly do NOT want :
+
+
+CRIT-SECT-EXEC  CRIT-SECT-EXEC  CRIT-SECT-EXEC  CRIT-SECT-EXEC  
+		mask-mask-mask-mask-mask-mask-mask
+INT : _________________|		|___________________
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+_

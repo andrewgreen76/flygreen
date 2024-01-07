@@ -1,0 +1,37 @@
+
+====================================================================
+ISA : 
+====================================================================
+[computer architecture] ~ [instruction set] 
+x [hardware primitives]
+  = basic instructions , used to build more complex operations
+  |
+  |
+  . MOV (registers) 
+    . MOV AX, BX	; [AX] <- [BX] 
+    . MOV [1000], AX  	; [mem.addr 1000] <- [AX] 
+  . ADD
+  . SUB
+  . AND
+  . OR 
+  . JMP 
+  . LDA mem.addr (mem.addr -> eax) 
+  . STA mem.addr (eax -> mem.addr)
+
+
+
+====================================================================
+Goals and answers : 
+====================================================================
+Basic functions : 
+ 1) Does the lock achieve mutual exclusion ?
+ 2) Can the lock keep threads out of the critical section ?
+
+Fairness : 
+ 3) Does every thread have a chance at acquiring the lock fairly soon ?
+
+Performance :
+ 4) When only the main thread is involved , what is the lock acquisition overhead ?
+ 5) When several threads are involved , what is the acquisition wait overhead ? 
+ 6) When multiple processes with multiple threads are involved , how is the lock's performance ? 
+_

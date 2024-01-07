@@ -1,3 +1,15 @@
+
+Interrupt : 
+. a signal that interrupts a process
+|
+|
++. Something occurs - a condition or an event 
+-> the interrupt is raised , the process is halted 
+-> the occurrence is handled
+-> the interrupt is cleared , the process resumes 
+
+====================================================================================================
+
 "
 Interrupts are regulated by both the hardware and the kernel in a computer system. The interaction between hardware and the operating system (kernel) is essential for proper handling of interrupts. Here's a breakdown of their roles:
 

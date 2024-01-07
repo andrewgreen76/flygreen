@@ -1,0 +1,13 @@
+
+Uniterrupted execution of a critical section on a SINGLE CPU :
+. "we must trust that calling threads will not abuse privileges"
+   . turning interrupts on and off
+   . locking the right thread out of the critical section
+   . forcing the CPU to spin infinitely
+     . nothing the kernel can do about this 
+
+
+
+Uniterrupted execution of a critical section on multiple CPUs :
+. 
+_

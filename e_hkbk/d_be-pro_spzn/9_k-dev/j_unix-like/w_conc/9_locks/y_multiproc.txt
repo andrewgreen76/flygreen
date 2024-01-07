@@ -1,0 +1,37 @@
+"
+A multiprocessor, also known as a parallel processor or multi-core processor system, is a type of computer architecture that uses two or more processors (also called central processing units or CPUs) to simultaneously process information and execute instructions. Multiprocessor systems are designed to improve overall computing performance by dividing the workload among multiple processors, allowing parallel execution of tasks.
+
+Key features of multiprocessor systems include:
+
+1. **Multiple Processors:**
+   - A multiprocessor system consists of two or more independent processors, each capable of executing its set of instructions concurrently.
+
+2. **Shared Memory or Interconnection:**
+   - Processors in a multiprocessor system may share a common memory space (shared-memory architecture), allowing them to communicate by reading and writing to the same memory locations. Alternatively, processors may be interconnected through a communication network.
+
+3. **Parallel Execution:**
+   - Multiprocessor systems enable parallelism, where multiple processors execute tasks simultaneously. This can lead to improved performance and faster execution of programs, especially in parallelizable workloads.
+
+4. **Increased Throughput:**
+   - With multiple processors, the system can handle more tasks or requests concurrently, leading to increased throughput and overall system performance.
+
+5. **Load Balancing:**
+   - Workloads can be distributed among processors to balance the computational load. Load balancing helps ensure that no single processor is overloaded while others remain underutilized.
+
+6. **Fault Tolerance:**
+   - Some multiprocessor systems may incorporate redundancy and fault-tolerant features to continue functioning in the presence of hardware failures.
+
+7. **Scalability:**
+   - Multiprocessor systems can often be scaled by adding more processors, allowing the system to handle increasing workloads.
+
+There are two main types of multiprocessor architectures:
+
+- **Symmetric Multiprocessing (SMP):**
+  - In SMP systems, each processor has equal access to the system's memory and I/O resources. SMP systems are characterized by their symmetric structure, meaning that all processors are essentially identical and can execute any task assigned to them. Most modern multi-core processors in personal computers and servers follow the SMP model.
+
+- **Asymmetric Multiprocessing (AMP):**
+  - In AMP systems, processors are assigned specific roles or tasks. One processor, often referred to as the "master," controls the system and manages overall tasks, while the other processors, known as "slaves," execute specific functions assigned by the master. AMP architectures are less common today.
+
+Multiprocessor systems are widely used in various computing environments, ranging from servers and high-performance computing clusters to desktop computers and embedded systems. They play a crucial role in meeting the increasing demand for computational power and parallel processing capabilities in modern computing.
+"
+_

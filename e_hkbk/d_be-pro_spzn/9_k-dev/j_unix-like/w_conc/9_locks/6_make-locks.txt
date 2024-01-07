@@ -1,0 +1,13 @@
+
+[computer architecture] ~ [instruction set]
+x [hardware primitives]
+  = basic instructions , used to build more complex operations
+  . MOV 
+  . ADD
+  . SUB
+  . AND
+  . OR 
+  . JMP 
+  . LDA mem.addr (mem.addr -> eax) 
+  . STA mem.addr (eax -> mem.addr) 
+_

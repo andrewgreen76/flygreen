@@ -1,8 +1,12 @@
 
-[computer architecture] ~ [instruction set]
+[computer architecture] ~ [instruction set] (ISA) 
 x [hardware primitives]
   = basic instructions , used to build more complex operations
-  . MOV 
+  |
+  |
+  . MOV (registers) 
+    . MOV AX, BX	; [AX] <- [BX] 
+    . MOV [1000], AX  	; [mem.addr 1000] <- [AX] 
   . ADD
   . SUB
   . AND

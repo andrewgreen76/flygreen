@@ -1,14 +1,15 @@
 
 Liberally disabling interrupts for the sake of atomic (uninterrupted) execution of a critical
-section is a BAD IDEA in most instances. Mask interrupts as needed. 
+section is a BAD IDEA. Mask interrupts when it is absolutely needed. 
  . the kernel needs to be able to access its own data structures atomically
-=> that is when 
-. not worth a system-critical nightmare 
+=> that is when it makes sense to mask interrupts 
+ . doing it for every user process , thus compromising the kernel's integrity , is not worth
+   a system-level nightmare 
 
 
 
 ==========================================================================================
-Uninterrupted execution of a critical section on a SINGLE CPU :
+Enforcing atomicity on a SINGLE CPU - DEMANDS TRUSTING OTHER THREADS WITH DIRECT CONTROL :
 ==========================================================================================
 . "we must trust that calling threads will not abuse privileges"
    . turning interrupts on and off
@@ -19,11 +20,10 @@ Uninterrupted execution of a critical section on a SINGLE CPU :
 
 
 ==========================================================================================
-Uninterrupted execution of a critical section with multiple CPUs/threads - not possible :
+Deciding on atomicity across MULTIPLE CPUS - CONFLICT OVER INTERRUPTS : 
 ==========================================================================================
-. again , privilege abuse is possible
-. consistency is hard to maintain with this kind of multi-threading
-  . can't have different sets of facts about interrupts
+. can't have multiple processes/threads tweaking the same set of hardware interrupts
+  at the same time 
 
 
 

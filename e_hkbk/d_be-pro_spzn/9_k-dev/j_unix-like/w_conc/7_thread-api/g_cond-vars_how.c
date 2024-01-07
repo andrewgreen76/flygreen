@@ -20,7 +20,7 @@ Condition variable :
     // ---------------------- SOMETHING IS OFF AT THIS POINT OF PROCESS --------------------------
     // ---- SEND WAIT CALL : CALL.THREAD RELEASES THE MUTEX , LETS IN OTHER THREADS , SLEEPS -----
     // ------------- EITHER OTHER THREADS CHANGE THE CONDITION OR ALSO GO TO SLEEP  --------------
-    |
+    //
     while (ready == 0)			 // the barring flag that threads share @ mutex release  
       pthread_cond_wait(&cond, &lock);	 // the WAIT CALL : mutex and cond.var are linked. 
 //====================================================================================================================

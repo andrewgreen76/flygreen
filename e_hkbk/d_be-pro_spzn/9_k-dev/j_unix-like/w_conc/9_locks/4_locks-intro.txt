@@ -1,0 +1,37 @@
+
+============================================================================
+Threads :
+============================================================================
+. created by programmers
+. scheduled by the kernel
+
+
+
+============================================================================
+Terms :
+============================================================================
+. lock owner - the thread that has the lock
+. free lock - a lock that isn't held by a thread
+  + unlocked
+  + the other threads are just stalled , not calling/waiting for the lock
+. thread stuck in lock() - waiting on the lock 
+
+
+
+============================================================================
+Lock types : 
+============================================================================
+
+lock_t  type - applicable in legacy multi-threading (System V , etc.)
+. lock_t lock;
+. the variable stores ...
+  . the lock's state
+  . information about the thread
+. lock() and unlock() , similar to mutex
+
+
+mutex_t type - exclusive to the more modern POSIX threads
+. pthread_mutex_t mutex;
+. pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+. etc. 
+_

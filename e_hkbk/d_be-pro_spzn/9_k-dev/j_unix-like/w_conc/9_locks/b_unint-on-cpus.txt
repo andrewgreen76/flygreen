@@ -1,20 +1,16 @@
 
 Liberally disabling interrupts for the sake of atomic (uninterrupted) execution of a critical
-section is a BAD IDEA. Mask interrupts when it is absolutely needed. 
- . the kernel needs to be able to access its own data structures atomically
-=> that is when it makes sense to mask interrupts 
- . doing it for every user process , thus compromising the kernel's integrity , is not worth
-   a system-level nightmare 
+section is a BAD IDEA.  
 
 
 
 ==========================================================================================
-Enforcing atomicity on a SINGLE CPU - DEMANDS TRUSTING OTHER THREADS WITH DIRECT CONTROL :
+Enforcing atomicity on a SINGLE CPU - ASSUMING ALL CALLING THREADS ARE GOOD (not true) :
 ==========================================================================================
 . "we must trust that calling threads will not abuse privileges"
-   . turning interrupts on and off
-   . locking the right thread out of the critical section
-   . forcing the CPU to spin infinitely
+   . threads flipping interrupts ASYNC to exercise atomicity 
+   . UNRESTRAINED CALLER locking others out of the critical section for too long , not sharing CPU fairly 
+   . possibility : A BAD PROCESS forcing the CPU to spin infinitely 
      . nothing the kernel can do about this 
 
 
@@ -36,7 +32,14 @@ Long-deferred (i.e. , masked , disabled) interrupt problem :
    > job INT issued but suppressed
    > WHAT IF INT DIES BEFORE END OF CRITICAL SECTION EXECUTION ??? 
    > kernel will never see the job INT , will never let the waiting process know 
-   > process waiting on I/O will starve forever 
+   > process waiting on I/O will starve forever
+
+
+ . Mask interrupts when it is absolutely necessary. 
+   . the kernel needs to be able to access its own data structures atomically
+  => that is when it makes sense to mask interrupts 
+   . doing it for every user process , thus compromising the kernel's integrity , is not worth
+     a system-level nightmare
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 What we may want :

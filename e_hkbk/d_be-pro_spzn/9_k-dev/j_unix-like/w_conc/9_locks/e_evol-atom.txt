@@ -2,22 +2,24 @@
 Evolution of atomicity enforcement mechanisms :
 
 
-=================================================
+======================================================================
 Old idea : 
-=================================================
+======================================================================
 > disabling interrupts on all CPUs -and- 
 > regulating threads in the critical section with loads/stores of the barring flag value alone
-- handing control to other threads
-  - toying with interrupts
-  - losing interrupts 
-  - lock-outs by the wrong threads 
-  - arbitrarily long spinning (no signal to other threads , unattended barring flag)
-  - inconsistent handling of hardware interrupts by multiple CPUs at the same time
+- trusting other threads : 
+  - (no) async handling of interrupts by multiple threads/processes 
+  - (no) losing interrupts 
+  - (no) excessively long lock-outs  
+  - (no) bad behavior like inducing spinning 
+    - (no signal to other threads , unattended barring flag)
+  - liberal masking
+    - overhead , increased by the number of CPUs 
 
 
-=================================================
+======================================================================
 New ideas :
-=================================================
+======================================================================
 
 > mutex + condition variable 
 
@@ -26,7 +28,7 @@ New ideas :
   |
   |
   |
-  . the atomic test-and-set : 
+  . test-and-set (a.k.a. atomic exchange) : 
 
       int TestAndSet(int *old_ptr, int new) {
 	  int old = *old_ptr; // fetch old value at old_ptr

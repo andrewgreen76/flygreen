@@ -3,10 +3,13 @@ typedef struct __lock_t {
 } lock_t;
 
 
+// Receive/set new value , return/test old value. 
+//
+//                    v flag to update          
 int TestAndSet(int *old_ptr, int new) {
     int old = *old_ptr; // fetch old value at old_ptr
     *old_ptr = new;     // store ’new’ into old_ptr
-    return old; 	      // return the old value
+    return old; 	// return the old value
 }
 
 
@@ -15,6 +18,7 @@ void init(lock_t *lock) {
     lock->flag = 0;
 }
 
+/* A spin-lock with a shared flag. */
 void lock(lock_t *lock) {
     while (TestAndSet(&lock->flag, 1) == 1)
     ; // spin-wait (do nothing)

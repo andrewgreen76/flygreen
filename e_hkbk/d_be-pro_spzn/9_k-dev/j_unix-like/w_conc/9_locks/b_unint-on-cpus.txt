@@ -1,30 +1,40 @@
 
-========================================================================================
+Disabling interrupts for the sake of atomic (uninterrupted) execution of a critical section
+is a BAD IDEA most of the time.
+. not worth a system-critical nightmare 
+
+
+
+==========================================================================================
 Uninterrupted execution of a critical section on a SINGLE CPU :
-========================================================================================
+==========================================================================================
 . "we must trust that calling threads will not abuse privileges"
    . turning interrupts on and off
    . locking the right thread out of the critical section
    . forcing the CPU to spin infinitely
      . nothing the kernel can do about this 
 
-========================================================================================
-Uninterrupted execution of a critical section on multiple CPUs / by multiple threads :
-========================================================================================
+
+
+==========================================================================================
+Uninterrupted execution of a critical section with multiple CPUs/threads - not possible :
+==========================================================================================
 . again , privilege abuse is possible
 . consistency is hard to maintain with this kind of multi-threading
   . can't have different sets of facts about interrupts
 
-========================================================================================
+
+
+==========================================================================================
 Long-deferred (i.e. , masked , disabled) interrupt problem :  
-========================================================================================
+==========================================================================================
  . may end up a lost interrupt , i.e. , missed by the kernel 
 => system issues
    . job (e.g., I/O) finished
    > job INT issued but suppressed
    > WHAT IF INT DIES BEFORE END OF CRITICAL SECTION EXECUTION ??? 
-   > kernel will never see the job INT 
-   > process waiting on I/O will never resume , will never get any more CPU time 
+   > kernel will never see the job INT , will never let the waiting process know 
+   > process waiting on I/O will starve forever 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 What we may want :
@@ -45,4 +55,8 @@ INT : _________________|		|___________________
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+
+==========================================================================================
+INT mask/unmask on multiprocessors is slower than on the more traditional CPUs. 
+==========================================================================================
 _

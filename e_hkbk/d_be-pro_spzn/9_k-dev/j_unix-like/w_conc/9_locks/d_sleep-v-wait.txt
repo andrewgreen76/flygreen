@@ -1,0 +1,53 @@
+
+sleep()
+- forces the thread/process to idle for a certain amount of time regardless of the circumstances
+
+wait()
+- forces the process to wait until the other processes have finished (and that could be any time) 
+
+===================================================================================================
+===================================================================================================
+===================================================================================================
+"
+The `wait()` and `sleep()` functions are both used in programming for managing the timing and synchronization of processes or threads, but they are used in different contexts and have distinct purposes. The specific behavior may vary depending on the programming language and the operating system. Here's a general overview:
+
+1. **`wait()`:**
+   - `wait()` is often associated with interprocess communication (IPC) and is commonly used in the context of process synchronization.
+   - In some programming languages or systems, `wait()` is used to have a process or thread wait for the completion of another process or thread. It's part of mechanisms like semaphores or condition variables.
+   - In Unix-like systems, the `wait()` system call is used by a parent process to wait for the termination of its child process.
+
+    Example in Unix-like systems (C language and Unix system calls):
+    ```c
+    pid_t child_pid = fork();
+
+    if (child_pid == 0) {
+        // Child process
+        // ...
+        exit(0);
+    } else if (child_pid > 0) {
+        // Parent process
+        int status;
+        wait(&status);  // Parent waits for the child to complete
+        // ...
+    }
+    ```
+
+2. **`sleep()`:**
+   - `sleep()` is used for introducing delays or pauses in the execution of a program, thread, or process.
+   - It is generally used for the purpose of timing or creating delays and is not directly related to synchronization between processes or threads.
+   - The `sleep()` function typically takes a specified number of seconds or milliseconds as an argument, and the program will pause execution for that duration.
+
+    Example in C (using standard library function):
+    ```c
+    #include <unistd.h>
+
+    int main() {
+        // Pause execution for 5 seconds
+        sleep(5);
+        return 0;
+    }
+    ```
+
+In summary, `wait()` is often used for synchronization between processes or threads, waiting for the completion of another process or thread. On the other hand, `sleep()` is used for introducing delays or pauses in the execution of a program. The specific behavior and usage details may vary depending on the programming language and the underlying operating system.
+"
+_

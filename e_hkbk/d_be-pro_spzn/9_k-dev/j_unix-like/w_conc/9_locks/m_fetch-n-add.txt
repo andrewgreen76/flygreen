@@ -1,4 +1,0 @@
-
-Fetch-And-Add :
-. atomic 
-_

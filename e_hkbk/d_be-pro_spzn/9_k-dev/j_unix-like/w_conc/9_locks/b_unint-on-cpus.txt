@@ -1,6 +1,8 @@
 
-Disabling interrupts for the sake of atomic (uninterrupted) execution of a critical section
-is a BAD IDEA most of the time.
+Liberally disabling interrupts for the sake of atomic (uninterrupted) execution of a critical
+section is a BAD IDEA in most instances. Mask interrupts as needed. 
+ . the kernel needs to be able to access its own data structures atomically
+=> that is when 
 . not worth a system-critical nightmare 
 
 

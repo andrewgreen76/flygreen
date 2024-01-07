@@ -1,7 +1,9 @@
 
-Compare-And-Exchange (x86) : 
-. (SPARC) compare-and-swap
-. similar to test-and-set , but more robust 
+Compare-And-Swap (CAS) :
+. usually employed in SPARC ISA 
+. also used in x86 (called "compare-and-exchange") : 
+. similar to test-and-set , but more robust
+. ATOMIC  
 . pseudocode :
 
 

@@ -13,7 +13,9 @@ This program presents a case of a race condition :
 
 
 Critical section : 
-. a block of code with access to shared data , and is therefore to be executed from start to finish by only one thread at a time
+. a block of code with access to data that can be shared between threads ;
+  => it is to be executed from start to finish by only one thread at a time
+   . ATOMICITY 
 
 
 Mutual exclusion (a.k.a. mutex) : 

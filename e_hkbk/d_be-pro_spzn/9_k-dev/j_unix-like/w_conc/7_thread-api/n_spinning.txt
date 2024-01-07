@@ -1,0 +1,9 @@
+
+Spinning (sleeping through) :
+|
+. relying solely on the barring flag , not using a condition variable (linking with the mutex) 
+=> no way to tap a lock , release the mutex , communicate with other threads 
+=> unable to tell other threads on the spot to resolve the barring flag sooner (while the calling thread is spinning)
+=> CPU time is not shared with resolution threads , but wasted on the calling thread sleeping 
+=> hope and pray that something else will change the condition fairly quickly
+_

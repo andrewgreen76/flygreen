@@ -1,5 +1,5 @@
 
-// lock_t  type - applicable in legacy system environments such as System V
+// lock_t  type - applicable in legacy multi-threading (System V , etc.)
 // mutex_t type - exclusive to the more modern POSIX threads 
 
 #include <pthread.h>

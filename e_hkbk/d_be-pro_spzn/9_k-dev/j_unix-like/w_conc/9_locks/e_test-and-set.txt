@@ -29,12 +29,14 @@ New ideas :
   |
   |
   . test-and-set (a.k.a. atomic exchange)
-    . the most direct form of locking hardware support 
-
-      int TestAndSet(int *old_ptr, int new) {
-	  int old = *old_ptr; // fetch old value at old_ptr
-	  *old_ptr = new;     // store ’new’ into old_ptr
-	  return old; 	      // return the old value
-      }
+    . the most direct form of locking hardware support
+    |
+    . a system that employs only A SINGLE CPU does not have multiple processes/threads running completely independently
+      => a preemptive scheduler (one that works the timer interrupt) is needed to secure context switching
+      => threads attempting to acquire the lock will line up at the spinlock , get their CPU time share , and waste it on waiting
+    |
+    . in a system that employs multiple CPUs (assuming every thread gets its own CPU) :
+      . If Thread A on CPU 1 acquires the lock and Thread B on CPU 2 spins on it , CPU 1 time will not be wasted on Thread B , 
+      	and Thread A gets to finish sooner. 
 
 _

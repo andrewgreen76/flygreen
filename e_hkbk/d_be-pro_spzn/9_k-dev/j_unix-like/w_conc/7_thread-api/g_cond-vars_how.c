@@ -1,9 +1,9 @@
-
+/*
 Condition variable :
 . THE IDEA : complete obstruction of process/threads until a condition is satisfied
 . CALLING THREAD : the main thread - the one that locks/unlocks and can have the critical section all to itself. 
 . How it works :
-
+*/
 //====================================================================================================================
     pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;	 
     pthread_cond_t cond = PTHREAD_COND_INITIALIZER; 	 
@@ -39,4 +39,4 @@ Condition variable :
 	// may continue working on shared data 
     pthread_mutex_unlock(&lock);    // calling thread releases mutex , just in time for end of crit.section.  
 //====================================================================================================================
-_
+//

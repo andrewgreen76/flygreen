@@ -1,11 +1,11 @@
 
 Unix library calls can be error-prone.
-. always implement integrity check
+. always implement integrity checks 
   . e.g. , error-handling wrapper functions
 
 
 
-// Keeps code clean; only use if exit() OK upon failure
+// Keeps code clean; only exit() upon failure
 //
 void Pthread_mutex_lock(pthread_mutex_t *mutex) {
   int rc = pthread_mutex_lock(mutex);

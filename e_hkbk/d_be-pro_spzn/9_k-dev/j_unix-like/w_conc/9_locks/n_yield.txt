@@ -1,9 +1,10 @@
-/*
+
 Process states : 
 . running - making progress 
 . ready - scheduled/descheduled 
 . blocked - barred from progress 
-*/
+
+
 
 ///////////////////////////////////////////////////////////////////////
 void init() {
@@ -21,14 +22,17 @@ void unlock() {
 }
 ///////////////////////////////////////////////////////////////////////
 
-/*
+
+
 Conventional scheduling : 
 . involves pre-emption (scheduler interrupts , forces time-sharing) 
   => pre-empted = interrupted 
 
 Yielding : 
 . the thread determined that it's blocked => gives up the CPU 
-. descheduling/scheduling means context switching , which costs time 
-  . the more threads are blocked , the greater the switching overhead 
-  . still better than spinning  
-*/
+. descheduling/scheduling means context switching , which costs time (relatively expensive) 
+  . the more threads are blocked , the greater the switching overhead
+  . but switching may end up costing less than the amount of CPU time wasted on spinning 
+  + better than spinning
+  - makes thread starvation possible 
+_

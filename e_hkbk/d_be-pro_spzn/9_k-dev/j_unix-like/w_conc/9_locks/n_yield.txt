@@ -29,10 +29,14 @@ Conventional scheduling :
   => pre-empted = interrupted 
 
 Yielding : 
-. the thread determined that it's blocked => gives up the CPU 
-. descheduling/scheduling means context switching , which costs time (relatively expensive) 
-  . the more threads are blocked , the greater the switching overhead
-  . but switching may end up costing less than the amount of CPU time wasted on spinning 
-  + better than spinning
-  - makes thread starvation possible 
+ . the thread determined that it's blocked => gives up the CPU 
+ . descheduling/scheduling means context switching , which costs time (relatively expensive) 
+   . more blocked threads => more yielding => greater switching overhead
+   . but switching may end up costing less than the amount of CPU time wasted on spinning 
+   + better than spinning
+   - makes thread starvation possible
+
+Conclusion :
+ . spinning -> wasting CPU time
+ . yielding -> thread starvation 
 _

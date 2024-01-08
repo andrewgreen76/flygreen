@@ -51,7 +51,7 @@ void unlock(lock_t *lock) {
                  | t(0)==mt(0) => brk | tkt <- 2            | 
                  | ...                | ret 1               | 
                  |                    | myturn <- 1         | 
-                 |                    | t(0)!=mt(1) => loop | 
+                 |                    | t(0)!=mt(1) => spin | 
                  | turn <- 1          | t(0)==mt(0) => brk  | 
                  |                    | ...                 | 
                  |                    | turn <- 2           | 
@@ -68,10 +68,10 @@ Works like a queue , but tickets and turns are stored as integers , not nodes.
                  | t(0)==mt(0) => brk | tkt <- 2            |                     |
                  |                    | ret 1               |                     |
                  |                    | myturn <- 1         | load ret tkt(2)     |
-                 |                    | t(0)!=mt(1) => loop | tkt <- 3            |
+                 |                    | t(0)!=mt(1) => spin | tkt <- 3            |
                  |                    |                     | ret 2               |
                  |                    |                     | myturn <- 2         |
-                 |                    |                     | t(0)!=mt(2) => loop |
+                 |                    |                     | t(0)!=mt(2) => spin |
                  |                    |                     |                     |
                  |                    |                     |                     |
                  |                    |                     |                     |

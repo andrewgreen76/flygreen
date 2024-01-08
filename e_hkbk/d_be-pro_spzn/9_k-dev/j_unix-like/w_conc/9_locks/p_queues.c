@@ -4,10 +4,13 @@
   . park() = sleep()          // park() puts this thread to sleep 
   . unpark(tid) = wake the thread up
   |
-  |
-  . m->guard = acq ; causes thread to spin 
-  . m->flag  = any-sleeping flag 
-  |
+  . m->guard - "TRYING TO ENTER" atomic filter flag , lets threads through one at a time. 
+  |          = 1 - "Trying to enter."                              // guard = 0 , flag = 0 : No thread entering , "do NOT wait in the queue". 
+  |          = 0 - "Not trying to enter."                          // guard = 0 , flag = 1 : No thread entering , "WAIT in the queue". 
+  |                                                                // guard = 1 , flag = 0 : Thread entering , first thread starting/last thread leaving. 
+  . m->flag  - "YOU-WAIT" flag                                     // guard = 1 , flag = 1 : Thread entering , "WAIT in the queue". 
+  |          = 1 - "You guys wait."            
+  |          = 0 - "Do not queue up , work right now."                           
   |
   We need to be convinced that this will improve lock efficiency and prevent starvation. 
 */
@@ -34,29 +37,30 @@ void lock_init(lock_t *m) {
 
 
 void lock(lock_t *m) {                                        // Thread 1            | Thread 2            | flag <- 0 ; guard <- 0 
-    while ( test_and_set(&m->guard, 1) == 1 )                 //---------------------+---------------------+
+    while ( test_and_set(&m->guard, 1) == 1 )                 //---------------------+---------------------+  _______________
     ; //acquire guard lock by spinning                        // load ret guard(0)   |                     | <
                                                               // guard <- 1          |                     | < ATOMIC MOMENT
     if (m->flag == 0) {                                       // ret 0               |                     | <_______________
-	m->flag = 1; // lock is acquired                      //                     | load ret guard(1)   | < 
+	m->flag = 1;  // Others will have to wait.            //                     | load ret guard(1)   | < 
 	m->guard = 0;                                         //                     | guard <- 1          | < ATOMIC MOMENT
-    }                                                         //                     | ret 1               | < 
-    else {                                                    // (0)!=1 => brk       |  (1)==1 => spin     |
-	queue_add(m->q, gettid()); // add thread to queue     //  flag(0)==0         |  (1)==1 => spin     |
-	m->guard = 0;                                         //  flag <- 1          |  (1)==1 => spin     |
-	park();                                               //  guard <- 0 /noelse/|  (0)!=1 => brk      |
-    }                                                         // ... crit.sect ...   | flag(1)!=0          |
+    }                                                         //                     | ret 1               | <_______________ 
+    else {                                                    // (0)!=1 => brk       |  (1)==1 => spin     | < atomic test 
+	queue_add(m->q, gettid()); // add thread to queue     //  flag(0)==0         |  (1)==1 => spin     | < atomic test
+	m->guard = 0;                                         //  flag <- 1          |  (1)==1 => spin     | < atomic test
+	park();                                               //  guard <- 0 /noelse/|  (0)!=1 => brk      |  
+    }                                                         // ... crit.sect ...   | flag(1)!=0          |  ______________
 }                                                             //  load ret guard(0)  |                     | <
                                                               //  guard <- 1         |                     | < ATOMIC MOMENT 
-                                                              //  ret 0              |                     | < 
-                                                              // (0)!=1 => brk       | queue_add(tail->T2) |
+                                                              //  ret 0              |                     | <______________ 
+                                                              // (0)!=1 => brk       | queue_add(tail->T2) | < atomic test
                                                               //  q NOT empty        | guard <- 0          |
                                                               //  queue_rmv(head->T2)| sleep(T2)           |
                                                               //  wake_up(T2)        |  up , ..crit.sect.. |
-                                                              // guard <- 0          |  .................. |
+                                                              // guard <- 0          |  .................. |  ______________
                                                               ///////////////////////| load ret guard(0)   | < 
                                                                                    //| guard <- 1          | < ATOMIC MOMENT 
-                                                                                   //| ret 0               | < 
+                                                                                   //| ret 0               | <______________
+                                                                                   //| (0)!=1 => brk       |
                                                                                    //|  q is EMPTY         |
                                                                                    //|  flag <- 0          |
 void unlock(lock_t *m) {                                                           //| guard <- 0          |

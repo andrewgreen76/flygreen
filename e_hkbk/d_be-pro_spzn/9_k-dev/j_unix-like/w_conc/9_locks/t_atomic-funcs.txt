@@ -1,0 +1,9 @@
+
+test_and_set()		// rets 1 if LOCK ACQUIRED
+compare_and_swap()	// rets 1 if LOCK ACQUIRED
+
+load_linked()		// rets 1 if LOCK ACQUIRED
+store_conditional()	// rets 1 if SUCCESS AT ACQUISITION
+
+fetch_and_add()		// rets ASSIGNED TURN NUMBER for the thread 
+_

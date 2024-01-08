@@ -1,3 +1,10 @@
+/*
+  We need a queue to log waiting threads. 
+  . queue_add(q , gettid())   // for getting the thread and waking it up, then put it to sleep()  
+  . park() = sleep()          // park() puts this thread to sleep 
+  . unpark(tid) = wake the thread up 
+*/
+
 typedef struct __lock_t {
     int flag;
     int guard;

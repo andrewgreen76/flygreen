@@ -2,10 +2,10 @@
 Fetch-And-Add :
  . ATOMIC ticketing mechanism 
    |
-   . shared ticket counter : used to ASSIGN TURN NUMBERS to threads 
-   . shared turn indicator : "YOU GO!" 
+   . shared TICKET counter : used to ASSIGN TURN NUMBERS to threads 
+   . shared TURN indicator : "YOU GO!" 
    . lock() : 
-     . local_var ("myturn") STORES THE THREAD'S TURN NUMBER 
+     . local_var ("MYTURN") STORES THE THREAD'S TURN NUMBER 
      . thread is trapped in a loop until it's the thread's turn 
    |
    => FIFO access to crit.sect

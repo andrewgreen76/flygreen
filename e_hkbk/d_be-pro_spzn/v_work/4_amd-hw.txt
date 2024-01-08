@@ -9,36 +9,33 @@ CPUs for video editing , 3D-rendering :
   AMD Ryzen Threadripper PRO 5995WX
 
 
-
-Server and embedded system processors :
-  AMD Epyc 
-
-
-
-FPGA SoCs (re-programmable SoC's) :
-- AMD-Xilinx Zynq
-- AMD-Xilinx Versal
-
-
-
 GPUs / GPU accelerators :
   (replaced, 2016) AMD FirePro S 
   AMD Instinct 
 
 
+Graphics cards (desktop) : 
+  AMD Radeon RX 7000 
 
+
+=========================================
+=========================================
+=========================================
+Server and embedded system processors :
+  AMD Epyc 
+=========================================
+FPGA SoCs (re-programmable SoC's) :
+- AMD-Xilinx Zynq
+- AMD-Xilinx Versal
+=========================================
 Data center accelerators/cards : 
   AMD Alveo
-
-
-
+=========================================
 DPUs :
   AMD Pensando 
-
-
-
+=========================================
 FPGAs :
 - AMD Artix
 - AMD Spartan 
-
+=========================================
 .

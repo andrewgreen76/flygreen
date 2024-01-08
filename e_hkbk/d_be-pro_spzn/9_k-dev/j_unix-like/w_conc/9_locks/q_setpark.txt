@@ -1,0 +1,5 @@
+
+setpark() :
+. a Solaris syscall
+. pre-parking : thread is going to tell it is about to park/sleep 
+_

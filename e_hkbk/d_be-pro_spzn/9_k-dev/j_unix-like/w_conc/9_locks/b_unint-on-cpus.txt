@@ -1,6 +1,7 @@
 
 Liberally disabling interrupts for the sake of atomic (uninterrupted) execution of a critical
-section is a BAD IDEA.  
+section is a BAD IDEA.
+. alternative : using functions implemented to be atomic on the hardware/ISA level 
 
 
 

@@ -4,7 +4,7 @@
   . park() = sleep()          // park() puts this thread to sleep 
   . unpark(tid) = wake the thread up
   |
-  . m->guard - "TRYING TO ENTER" atomic filter flag , lets threads through one at a time. 
+  . m->guard - "AWAIT OK FROM THREAD AHEAD" - atomic filter flag , lets threads through one at a time. 
   |          = 1 - "Trying to enter."                              // guard = 0 , flag = 0 : No thread entering , "do NOT wait in the queue". 
   |          = 0 - "Not trying to enter."                          // guard = 0 , flag = 1 : No thread entering , "WAIT in the queue". 
   |                                                                // guard = 1 , flag = 0 : Thread entering , first thread starting/last thread leaving. 
@@ -46,7 +46,7 @@ void lock(lock_t *m) {                                        // Thread 1       
     }                                                         //                     | ret 1               | <_______________ 
     else {                                                    // (0)!=1 => brk       |  (1)==1 => spin     | < atomic test 
 	queue_add(m->q, gettid()); // add thread to queue     //  flag(0)==0         |  (1)==1 => spin     | < atomic test
-	m->guard = 0;                                         //  flag <- 1          |  (1)==1 => spin     | < atomic test
+	m->guard = 0; // ?? wakeup/waiting race ??            //  flag <- 1          |  (1)==1 => spin     | < atomic test
 	park();                                               //  guard <- 0 /noelse/|  (0)!=1 => brk      |  
     }                                                         // ... crit.sect ...   | flag(1)!=0          |  ______________
 }                                                             //  load ret guard(0)  |                     | <

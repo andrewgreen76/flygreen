@@ -1,7 +1,17 @@
-// Fetch-And-Add :
-// . a ticket lock 
-// . ATOMIC
-// . need a shared ticket number 
+/* 
+Fetch-And-Add :
+ . ATOMIC ticketing mechanism 
+   |
+   . shared ticket counter : used to ASSIGN TURN NUMBERS to threads 
+   . shared turn indicator : "YOU GO!" 
+   . lock() : 
+     . local_var ("myturn") STORES THE THREAD'S TURN NUMBER 
+     . thread is trapped in a loop until it's the thread's turn 
+   |
+   => FIFO access to crit.sect
+   => every thread gets a tap on the shoulder (once the thread in front of it is done)
+      => no chance of infinite spinning 
+*/
 
 typedef struct __lock_t {
   int ticket;

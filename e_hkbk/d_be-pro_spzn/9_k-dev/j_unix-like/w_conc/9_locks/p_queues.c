@@ -8,7 +8,7 @@ typedef struct __lock_t {
 void lock_init(lock_t *m) {
     m->flag = 0;
     m->guard = 0;
-    queue_init(m->q);
+    queue_init(m->q); // queue of threads 
 }
 
 
@@ -21,7 +21,7 @@ void lock(lock_t *m) {
 	m->guard = 0;
     }
     else {
-	queue_add(m->q, gettid());
+      queue_add(m->q, gettid()); // add thread to queue 
 	m->guard = 0;
 	park();
     }
@@ -35,7 +35,7 @@ void unlock(lock_t *m) {
     if (queue_empty(m->q))
         m->flag = 0; // let go of lock; no one wants it
     else
-        unpark(queue_remove(m->q)); // hold lock
+        unpark(queue_remove(m->q)); // rmv thread from head of queue ; hold lock
     // (for next thread!)
     m->guard = 0;
 }

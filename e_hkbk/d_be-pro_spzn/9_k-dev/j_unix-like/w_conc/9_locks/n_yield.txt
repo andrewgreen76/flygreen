@@ -1,0 +1,34 @@
+/*
+Process states : 
+. running - making progress 
+. ready - scheduled/descheduled 
+. blocked - barred from progress 
+*/
+
+///////////////////////////////////////////////////////////////////////
+void init() {
+  flag = 0;
+}
+
+// test_and_set() : rets 1 if lock is acquired 
+void lock() {
+  while ( test_and_set(&flag, 1) == 1)
+    yield(); // give up the CPU / deschedule yourself 
+}
+
+void unlock() {
+  flag = 0;
+}
+///////////////////////////////////////////////////////////////////////
+
+/*
+Conventional scheduling : 
+. involves pre-emption (scheduler interrupts , forces time-sharing) 
+  => pre-empted = interrupted 
+
+Yielding : 
+. the thread determined that it's blocked => gives up the CPU 
+. descheduling/scheduling means context switching , which costs time 
+  . the more threads are blocked , the greater the switching overhead 
+  . still better than spinning  
+*/

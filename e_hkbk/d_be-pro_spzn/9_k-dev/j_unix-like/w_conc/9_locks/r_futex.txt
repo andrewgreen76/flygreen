@@ -1,0 +1,5 @@
+
+futex :
+. short for "fast userspace mutex"
+. reminder : mutex - a raw , basic lock (race condition possible) 
+_

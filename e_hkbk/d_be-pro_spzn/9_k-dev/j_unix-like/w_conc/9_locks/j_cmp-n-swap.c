@@ -1,13 +1,13 @@
-
+/*
 Compare-And-Swap (CAS) :
 . usually employed in SPARC ISA 
 . also used in x86 (called "compare-and-exchange") : 
 . similar to test-and-set , but more robust
 . ATOMIC  
 . pseudocode :
+*/
 
-
-			   v addr   v to-match   v to-update
+    //			   v addr   v to-match   v to-update
     int CompareAndSwap(int *ptr, int expected, int new) {
 	int original = *ptr;
 
@@ -24,4 +24,3 @@ Compare-And-Swap (CAS) :
     // (2) ret ADDR.OLD-DATA
     // 	   keep [ADDR]
     //
-_

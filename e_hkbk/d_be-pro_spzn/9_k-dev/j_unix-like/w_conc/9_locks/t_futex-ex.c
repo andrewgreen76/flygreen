@@ -17,7 +17,7 @@ void mutex_lock (int *mutex) {
 	v = *mutex;
 	if (v >= 0)
 	    continue;
-	futex_wait (mutex, v);
+	futex_wait (mutex, v); // This thread goes to sleep. 
     }
 }
 

@@ -18,7 +18,7 @@
     // Method (2) - dynamic assignment : 
     pthread_mutex_t lock;
     assert( !pthread_mutex_init(&lock, NULL) ); // always check success!
-                                      // ^ Properties/attributes : zzz
+                                      // ^ Properties/attributes : ???
 
 
     int x = 0;

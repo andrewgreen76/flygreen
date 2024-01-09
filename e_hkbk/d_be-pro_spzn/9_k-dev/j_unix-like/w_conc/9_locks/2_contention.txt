@@ -1,0 +1,42 @@
+
+Contention :
+ . multiples threads/processes attempt to access a locked critical section. 
+
+=============================================================================
+=============================================================================
+=============================================================================
+"
+Contention in the context of locking and synchronization refers to a scenario where multiple threads or processes attempt to access a shared resource that is protected by a lock or a synchronization mechanism. Contention arises when more than one entity seeks exclusive access to a critical section or a shared resource, and there is a need to resolve conflicts to ensure correctness and consistency in concurrent execution.
+
+Here are key points related to contention in locking and synchronization:
+
+1. **Critical Sections:**
+   - Contention often revolves around critical sections of code, which are portions of code that must be executed atomically, without interruption by other threads or processes.
+
+2. **Shared Resources:**
+   - Shared resources, such as variables, data structures, or files, are susceptible to contention when multiple threads attempt to read or modify them concurrently.
+
+3. **Locks and Synchronization Primitives:**
+   - Locks and synchronization primitives (e.g., mutexes, semaphores) are employed to manage contention by allowing only one thread or process at a time to enter a critical section protected by the lock.
+
+4. **Contention Scenarios:**
+   - Contention can occur in various scenarios, including:
+     - **Read-Write Contention:** Multiple threads contend for reading a shared resource simultaneously.
+     - **Write-Write Contention:** Multiple threads contend for modifying a shared resource simultaneously.
+     - **Access to Shared Data Structures:** Contention arises when multiple threads access shared data structures concurrently, and modifications to these structures need to be synchronized.
+
+5. **Performance Impact:**
+   - Contention can have a significant impact on the performance of a concurrent system. Excessive contention can lead to increased waiting times for threads, reduced throughput, and increased contention-related overhead.
+
+6. **Locking Granularity:**
+   - The granularity of locks (how much code or data is protected by a single lock) can affect contention. Fine-grained locking can reduce contention in some scenarios by allowing multiple threads to access different parts of shared data simultaneously.
+
+7. **Contention Resolution:**
+   - Synchronization mechanisms aim to resolve contention by coordinating access to shared resources. This may involve queuing threads in a first-come, first-served manner, using priority-based scheduling, or employing other strategies.
+
+8. **Deadlocks:**
+   - In certain cases, contention management can lead to deadlocks, where multiple threads are waiting for each other to release locks, resulting in a state where no progress is possible.
+
+Effective contention management is a crucial aspect of concurrent programming. Developers need to design synchronization strategies that balance the need for data consistency with the goal of maximizing parallelism and minimizing contention-related performance issues. Techniques such as lock-free programming, optimistic concurrency control, and careful consideration of locking strategies can be employed to address contention challenges.
+"
+_

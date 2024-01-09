@@ -1,0 +1,29 @@
+"
+The `continue` keyword is used in loops (such as `for` and `while` loops) to skip the rest of the code inside the loop for the current iteration and move on to the next iteration. When the `continue` statement is encountered, the control flow jumps directly to the loop's update or increment section, bypassing the remaining statements in the loop for the current iteration.
+
+Here's a basic example using a `for` loop:
+
+```c
+#include <stdio.h>
+
+int main() {
+    // Print even numbers between 1 and 10
+    for (int i = 1; i <= 10; i++) {
+        // Skip odd numbers
+        if (i % 2 != 0) {
+            continue;
+        }
+
+        // Print only even numbers
+        printf("%d\n", i);
+    }
+
+    return 0;
+}
+```
+
+In this example, the loop iterates over the numbers from 1 to 10. The `if` statement checks whether the current number (`i`) is odd. If it's odd, the `continue` statement is executed, skipping the `printf` statement, and the loop proceeds to the next iteration. This results in only even numbers being printed.
+
+The primary purpose of `continue` is to alter the flow of control within a loop based on a certain condition, allowing you to skip specific parts of the loop's body for certain cases. It's important to use `continue` judiciously, as overuse or misuse can lead to less readable code.
+"
+_

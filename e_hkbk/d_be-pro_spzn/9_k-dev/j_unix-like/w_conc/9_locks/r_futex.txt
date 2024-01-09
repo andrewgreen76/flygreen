@@ -19,8 +19,8 @@ futex ("fast userspace mutex") :
     . the kernel manages blocked threads
     . the kernel monitors for no contention 
     => a SLOW PATH to acquiring/releasing the lock
-    . threads are put down with futex_wait() (when lock is acquired) 
-    . threads are woken up with futex_wake() (when lock is released)
+    . threads are put down with FUTEX_WAIT() (when lock is acquired) 
+    . threads are woken up with FUTEX_WAKE() (when lock is released)
  |
  |
  |

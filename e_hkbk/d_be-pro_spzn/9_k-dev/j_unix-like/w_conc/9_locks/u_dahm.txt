@@ -2,8 +2,8 @@
 Two-phase locks :
  . phase 1 - thread spinning N times to acquire the lock
     . if fail -> FUTEX_WAIT() 
-    . once lock is free -> FUTEX_WAKE() 
  . phase 2 - 
+ |  . once lock is free -> FUTEX_WAKE() 
  |
  |
  . currently the standard 

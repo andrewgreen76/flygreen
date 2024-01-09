@@ -9,6 +9,7 @@
 void mutex_lock (int *mutex) {
     int v;
 
+    // =================================== FAST PATH (optimized for 1st caller)  ====================================
     if (atomic_bit_test_set (mutex, 31) == 0)    // Bit 31 was clear => mutex is avail. => ACQ the mutex (the fast path). 
       return;                                    // -> get out -> move on to crit.sect. 
                                                  // 
@@ -23,16 +24,16 @@ void mutex_lock (int *mutex) {
 	    return;
 	}
 	// STILL TAKEN. 
-	/* We have to make sure the futex value (mutex[31]) we are monitoring is truly negative (locked). */
-	v = *mutex;
+
+	v = *mutex;            // (re)assign turn number 
 	
 	if (v >= 0)            // v>=0 (lock is free) -> unlist , bounce , do crit_sect 
 	  continue;            // v<0 (lock is acqd) -> move on to sleep 
 	
-	futex_wait (mutex, v); // lock is acqd , no more threads introduced    => sleep till unlocked 
-	                       // lock is acqd , another thread came in        => skip sleep 
+	futex_wait (mutex, v); // lock is acqd -> mutex not changed            => spin for lock NOW    (spin-not-wait optimization)    // slower path    
+	                       // lock is acqd -> mutex changed (more threads) => enq, wait till unlocked                              // slowest path 
     }                          
-}
+}                              
 
 
 
@@ -43,3 +44,13 @@ void mutex_unlock (int *mutex) {
 
     futex_wake (mutex);    // Lock is made free , but there are threads waiting. 
 }
+
+/*
+  T    mutex    v
+---------------------
+  0 - - - - - - - - 
+  1      1      1 
+  2      2      2   
+  3      3      3  
+  
+*/

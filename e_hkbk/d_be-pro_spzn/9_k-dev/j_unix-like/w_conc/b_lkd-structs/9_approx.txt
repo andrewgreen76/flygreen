@@ -3,30 +3,40 @@
 APPROXIMATION COUNTING (scenario of) :
 ==============================================================================================
 
+Typical scenario : 
  . several CPUs
  . a LOCAL COUNTER for every thread/CPU 
  . a shared GLOBAL COUNTER 
  . GOAL : global counter updating (adding up local counts) 
     . "Periodically or on demand, the thread-local counters are summed or combined to obtain an overall approximation of the count. This operation might involve synchronization but is less frequent than the individual updates."
- |
+
+      		    """ global_ctr = loc_ctr_0 + ... loc_ctr_n """
+
  . one thread per CPU => no contention => scalable counting 
- |
+ 
  => each thread/CPU works with two counters (local and global)
 
+----------------------------------------------------------------------------------------------
+Goal : maximize the accuracy in the global counter value.
+Idea : keep adding local counter values to the global counter at reasonable intervals before they go too far off. 
+----------------------------------------------------------------------------------------------
 
- . timeout of access to thread-local counter :
-    . a matter of security/integrity 
-    . once a local counter reaches a certain value , ...
-       . the thread switches to updating the global counter instead
-       . local counter is reset
+ . S - threshold on the local counters :
+   . a.k.a. the approximation factor 
+   . once a local counter reaches threshold S , ...
+     . the thread will update persistent global calculation as 
+     . local counter is reset
+   |
+   |			Theoretical formula : 
+   |      		    """ global_ctr = loc_ctr_0 + ... loc_ctr_n + S*x """
+   |			    S - threshold value to persistently add , x - number of times S was reached
+   |
+   |
+   => S - indirectly proportional to the rate at which a thread performs the update-reset routine 
+   . the lower the S , the more faithful the global counter is at the expense of scalability
+      . update-reset routine overhead 
+   . the higher the S , the more scalable the counter is , but also the further off are the local counters 
 
 
- . value S ("threshold") :
-    . the rate at which a thread switches between local incrementation and global incrementation 
-    . the higher the S , the more scalable the counter is , but also the further it is off the expected count 
-    . the lower the S , the more faithful the counter is at the expense of scalability
-    . a.k.a. the approximation factor 
 
-====================================================================
-    . multiple threads on the same CPU - synchronized with a lock 
 _

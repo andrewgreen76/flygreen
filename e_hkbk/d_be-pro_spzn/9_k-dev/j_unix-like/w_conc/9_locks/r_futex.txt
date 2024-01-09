@@ -1,5 +1,28 @@
 
-futex :
-. short for "fast userspace mutex"
-. reminder : mutex - a raw , basic lock (race condition possible) 
+=============================================================================
+REMINDER :
+ . mutex - a raw , basic lock (race condition possible)
+=============================================================================
+
+futex ("fast userspace mutex") : 
+ . designed for no-contention situations
+ . hands thread management over to the kernel in the event of contention 
+ |
+ |
+ |
+ . if NO CONTENTION - futex operates in user-space :
+    . when it's just the main thread , kernel is not involved 
+    => a FAST PATH to acquiring a lock and releasing a lock
+ |   
+ . if CONTENTION - futex shifts into kernel space :
+    . kernel is invoked with syscall() or futex() 
+    . the kernel manages blocked threads
+    . the kernel monitors for no contention 
+    => a SLOW PATH to acquiring/releasing the lock
+    . threads are put down with futex_wait() (when lock is acquired) 
+    . threads are woken up with futex_wake() (when lock is released)
+ |
+ |
+ |
+ . "used to implement higher-level synchronization primitives like mutexes and condition variables" 
 _

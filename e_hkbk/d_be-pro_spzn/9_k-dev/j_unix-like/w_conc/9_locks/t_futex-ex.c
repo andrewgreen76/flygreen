@@ -32,8 +32,8 @@ void mutex_lock (int *mutex) {
 	
 	futex_wait (mutex, v); // lock is acqd -> mutex not changed            => spin for lock NOW    (spin-not-wait optimization)    // slower path    
 	                       // lock is acqd -> mutex changed (more threads) => enq, wait till unlocked                              // slowest path 
-    }                          
-}                              
+    }                          //
+}                              // Waiting threads : the head thread is enqd/sleeps (unless it's a tail) ; the tail thread spins for the lock. 
 
 
 

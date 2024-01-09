@@ -1,0 +1,12 @@
+
+Two-phase locks :
+ . phase 1 - thread spinning N times to acquire the lock
+    . if fail -> FUTEX_WAIT() 
+    . once lock is free -> FUTEX_WAKE() 
+ . phase 2 - 
+ |
+ |
+ . currently the standard 
+ . a.k.a. Dahm Locks (named after Dave Dahm) 
+ . originated in 1960s 
+_

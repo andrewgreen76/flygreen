@@ -17,8 +17,9 @@ Typical scenario :
  => each thread/CPU works with two counters (local and global)
 
 ----------------------------------------------------------------------------------------------
-Goal : maximize the accuracy in the global counter value.
-Idea : keep adding local counter values to the global counter at reasonable intervals before they go too far off. 
+> Problem : Some threads can lag and not keep up with real time , making for unstable counting. 
+> Goal : maximize the accuracy in the global counter value.
+> Idea : keep adding local counter values to the global counter at reasonable intervals before they go too far off. 
 ----------------------------------------------------------------------------------------------
 
  . S - threshold on the local counters :

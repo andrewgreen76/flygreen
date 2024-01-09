@@ -1,0 +1,27 @@
+"
+A deadlock in multi-threading occurs when two or more threads are unable to proceed because each is waiting for the other to release a resource. Essentially, it's a situation where a set of threads are blocked, and none of them can make progress. Deadlocks can significantly impact the correctness and performance of concurrent programs.
+
+The occurrence of a deadlock typically involves the following conditions, known as the Coffman conditions:
+
+1. **Mutual Exclusion:**
+   - At least one resource must be held in a mode that prevents its use by other threads. This condition ensures that resources cannot be shared simultaneously.
+
+2. **Hold and Wait:**
+   - A thread must be holding at least one resource and waiting to acquire additional resources held by other threads. This introduces the potential for circular waiting.
+
+3. **No Preemption:**
+   - Resources cannot be forcibly taken away from a thread; they must be explicitly released by the thread holding them.
+
+4. **Circular Wait:**
+   - A circular chain of two or more threads exists, where each thread is waiting for a resource held by the next thread in the chain. This creates a cycle of dependencies.
+
+To illustrate, consider the following scenario:
+
+- Thread A holds Resource 1 and is waiting for Resource 2.
+- Thread B holds Resource 2 and is waiting for Resource 1.
+
+In this case, both threads are waiting for a resource that is held by the other, creating a circular wait. If the system does not take corrective action, such as breaking the circular wait or introducing mechanisms to avoid deadlock, the threads will remain blocked indefinitely.
+
+Preventing deadlocks often involves careful design and use of synchronization mechanisms, such as locks or semaphores, and adherence to best practices. Techniques such as lock ordering, deadlock detection algorithms, and resource allocation strategies can be employed to minimize the likelihood of deadlocks in multi-threaded programs.
+"
+_

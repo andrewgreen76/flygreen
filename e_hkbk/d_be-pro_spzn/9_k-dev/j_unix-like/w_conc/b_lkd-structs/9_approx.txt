@@ -13,13 +13,19 @@ APPROXIMATION COUNTING (scenario of) :
  |
  => each thread/CPU works with two counters (local and global)
 
+
  . timeout of access to thread-local counter :
     . a matter of security/integrity 
     . once a local counter reaches a certain value , ...
        . the thread switches to updating the global counter instead
        . local counter is reset
 
- . threshold S - for 
+
+ . value S ("threshold") :
+    . the rate at which a thread switches between local incrementation and global incrementation 
+    . the higher the S , the more scalable the counter is , but also the further it is off the expected count 
+    . the lower the S , the more faithful the counter is at the expense of scalability
+    . a.k.a. the approximation factor 
 
 ====================================================================
     . multiple threads on the same CPU - synchronized with a lock 

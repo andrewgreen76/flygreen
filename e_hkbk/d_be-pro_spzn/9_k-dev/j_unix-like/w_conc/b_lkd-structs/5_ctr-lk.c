@@ -1,5 +1,5 @@
 
-// Counter with lock : 
+// Counter with lock. Now we can round up threads (typically as FIFO) and tell them when to go. 
 
 typedef struct __counter_t {
    int value;

@@ -26,11 +26,12 @@ void mutex_lock (int *mutex) {
 	/* We have to make sure the futex value (mutex[31]) we are monitoring is truly negative (locked). */
 	v = *mutex;
 	
-	if (v >= 0)            // v<0 (mtx[31]==1) -> move on to sleep ; 
-	  continue;            // v>=0 -> spin
+	if (v >= 0)            // v>=0 (lock is free) -> unlist , bounce , do crit_sect 
+	  continue;            // v<0 (lock is acqd) -> move on to sleep 
 	
-	futex_wait (mutex, v); // mutex may have changed by now. This thread goes to sleep. 
-    }
+	futex_wait (mutex, v); // lock is acqd , no more threads introduced    => sleep till unlocked 
+	                       // lock is acqd , another thread came in        => skip sleep 
+    }                          
 }
 
 

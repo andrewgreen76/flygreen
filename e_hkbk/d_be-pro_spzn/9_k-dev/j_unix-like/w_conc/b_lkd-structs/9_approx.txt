@@ -1,0 +1,24 @@
+
+==============================================================================================
+APPROXIMATION COUNTING (scenario of) :
+==============================================================================================
+
+ . several CPUs
+ . a LOCAL COUNTER for every thread/CPU 
+ . a shared GLOBAL COUNTER 
+ . GOAL : global counter updating (adding up local counts) 
+    . "Periodically or on demand, the thread-local counters are summed or combined to obtain an overall approximation of the count. This operation might involve synchronization but is less frequent than the individual updates."
+ |
+ . one thread per CPU => no contention => scalable counting 
+ |
+ => each thread/CPU works with two counters (local and global)
+
+ . timeout of access to thread-local counter :
+    . a matter of security/integrity 
+    . once a local counter reaches a certain value , ...
+       . the thread switches to updating the global counter instead
+       . local counter is reset 
+
+====================================================================
+    . multiple threads on the same CPU - synchronized with a lock 
+_

@@ -1,8 +1,11 @@
 
-Perfect scaling : 
+==============================================================================================
+PERFECT SCALING : 
+==============================================================================================
+
  . matching multi-threaded performance on a multiprocessor to that on a single processor
 
-==============================================================================================
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 "
 We construct a test in which each thread updates a single shared counter a fixed number of times; we then adjust the number of threads to determine the performance costs of the basic technique. The graph on the left displays the total time taken. Each thread updates the counter one million times.
 

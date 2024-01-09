@@ -17,7 +17,9 @@ APPROXIMATION COUNTING (scenario of) :
     . a matter of security/integrity 
     . once a local counter reaches a certain value , ...
        . the thread switches to updating the global counter instead
-       . local counter is reset 
+       . local counter is reset
+
+ . threshold S - for 
 
 ====================================================================
     . multiple threads on the same CPU - synchronized with a lock 

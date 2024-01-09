@@ -1,14 +1,37 @@
 
-==============================================================================================
-PERFECT SCALING : 
-==============================================================================================
+=========================================================================================================
+SCALABILITY : 
+=========================================================================================================
 
- . matching multi-threaded performance on a multiprocessor to that on a single processor
+ . ability to achieve consistent optimal performance while dealing with heavy concurrent workload 
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 "
-We construct a test in which each thread updates a single shared counter a fixed number of times; we then adjust the number of threads to determine the performance costs of the basic technique. The graph on the left displays the total time taken. Each thread updates the counter one million times.
+A scalable counter, in the context of multi-threading and concurrency, refers to a counter implementation that can efficiently handle a growing number of threads or concurrent operations while maintaining performance and minimizing contention. Scalability becomes crucial in systems where the number of threads can vary dynamically, and the counter needs to accommodate increased concurrency without causing bottlenecks or performance degradation.
 
-The performance of the synchronized counter scales poorly, as seen by the top line in the picture (labeled ‘Precise’). This is because the million counter updates can be completed in a fraction of a second (approximately 0.03 seconds), but updating the counter one million times simultaneously results in a significant delay (nearly 5 seconds). It only gets worse with more threads.
+Characteristics of a scalable counter include:
+
+1. **Reduced Contention:**
+   - Scalable counters aim to minimize contention among threads by using techniques such as thread-local counters, lock-free constructs, or other mechanisms that allow concurrent updates without frequent synchronization points.
+
+2. **Minimized Locking:**
+   - Locks or synchronization mechanisms can become bottlenecks in highly concurrent systems. Scalable counters often use approaches that reduce the need for locks, such as lock-free algorithms or techniques that allow independent updates without global synchronization.
+
+3. **Thread-Local Operations:**
+   - Thread-local operations, where each thread maintains its own state and only occasionally synchronizes or combines results, contribute to scalability. This reduces the frequency of synchronization points, allowing threads to work more independently.
+
+4. **Efficient Combining:**
+   - When obtaining a global count or result, scalable counters efficiently combine the partial results from individual threads. This combination operation should be performed in a way that minimizes contention and scales well with the increasing number of threads.
+
+5. **Adaptability to Workload:**
+   - Scalable counters may be designed to adapt to varying workloads and thread counts dynamically. For example, the counter might employ strategies such as resizing data structures, adjusting parameters, or employing different algorithms based on the current workload characteristics.
+
+6. **Avoidance of Hotspots:**
+   - Hotspots, where many threads contend for the same resources, can degrade performance. Scalable counters aim to distribute the workload and updates in a way that avoids creating hotspots, ensuring a more even distribution of work among threads.
+
+7. **Parallelism:**
+   - Scalable counters leverage parallelism to allow multiple threads to perform updates or operations concurrently. This can involve using parallel algorithms, exploiting hardware parallelism, or efficiently utilizing multi-core architectures.
+
+Achieving scalability often involves a trade-off between accuracy and performance. Some scalable counters may provide approximate results but offer efficient performance in scenarios where the exact count is not critical. The goal is to design a counter that can handle an increasing number of threads or concurrent operations without experiencing a proportional increase in contention and without sacrificing overall system performance.
 "
 _

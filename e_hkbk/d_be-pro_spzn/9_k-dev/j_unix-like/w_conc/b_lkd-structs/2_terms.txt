@@ -1,4 +1,0 @@
-
-Perfect scaling : 
- . matching multi-threaded performance on a multiprocessor to that on a single processor 
-_

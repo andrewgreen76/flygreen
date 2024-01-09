@@ -1,3 +1,9 @@
+
+Use "continue" to jump to the next iteration of the loop you are in. 
+
+=======================================================================
+=======================================================================
+=======================================================================
 "
 The `continue` keyword is used in loops (such as `for` and `while` loops) to skip the rest of the code inside the loop for the current iteration and move on to the next iteration. When the `continue` statement is encountered, the control flow jumps directly to the loop's update or increment section, bypassing the remaining statements in the loop for the current iteration.
 

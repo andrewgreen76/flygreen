@@ -9,7 +9,7 @@ void List_Insert(list_t *L, int key) {
     node_t *new = malloc(sizeof(node_t));
     if (new == NULL) {
 	perror("malloc");
-	return;
+	return; // ok to ret w/ nothing 
     }
     
     new->key = key;

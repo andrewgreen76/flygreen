@@ -1,0 +1,17 @@
+
+==========================================================
+HAND-OVER-HAND - resolving non-scaling in linked lists :
+==========================================================
+
+ . obtaining the lock on node 2 -> releasing the lock on node 1 
+
+ . "Hand-over-hand locking is one [method] that researchers have looked into to permit higher concurrency within a list (a.k.a. lock coupling)." 
+ . "The concept is straightforward. You add a lock to each node in the list instead of having a single lock for the entire list. The code then obtains the next node’s lock before releasing the current node’s lock as it traverses the list (which inspires the name hand-over-hand)."
+ 
+ . theoretical pros : 
+   . insertion , deletion , and lookup scale better 
+   
+ . cons :
+   . the locking and unlocking on every passed node is seen as overhead
+   . in practice , really not faster than the simple lock-unlock of the same mutex/futex 
+_

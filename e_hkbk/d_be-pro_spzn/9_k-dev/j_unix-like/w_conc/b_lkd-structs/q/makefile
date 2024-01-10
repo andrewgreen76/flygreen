@@ -1,19 +1,20 @@
-# Define variables
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11
-LDFLAGS = 
+LDFLAGS =
+
 SRC = src.c
 DEPS = queue.c
-HEADERS = queue.h 
+HEADERS = queue.h
+
+# The target executable
 TARGET = run
 
-# Default target
 all: $(TARGET)
 
-# Compile and link the program
 $(TARGET): $(SRC) $(DEPS) $(HEADERS)
-	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(SRC) $(DEPS) 
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(SRC) $(DEPS) -I.
 
-# Clean up object files and the executable
+.PHONY: clean
+
 clean:
 	rm -f $(TARGET)

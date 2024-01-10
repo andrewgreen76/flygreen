@@ -1,5 +1,5 @@
 
-CPUs for video editing , 3D-rendering :
+CPUs (video editing , 3D-rendering , etc.) :
   AMD Ryzen Threadripper 1900X
   AMD Ryzen Threadripper 2950X
   AMD Ryzen Threadripper 3960X
@@ -7,6 +7,7 @@ CPUs for video editing , 3D-rendering :
   AMD Ryzen Threadripper PRO 3955WX
   AMD Ryzen Threadripper PRO 5945WX
   AMD Ryzen Threadripper PRO 5995WX
+  AMD Ryzen 7 7840U 
 
 
 GPUs / GPU accelerators :

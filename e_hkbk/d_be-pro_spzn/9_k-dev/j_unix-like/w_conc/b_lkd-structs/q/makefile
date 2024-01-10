@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11
-LDFLAGS =
+LDFLAGS = -lpthread
 
 SRC = src.c
 DEPS = queue.c

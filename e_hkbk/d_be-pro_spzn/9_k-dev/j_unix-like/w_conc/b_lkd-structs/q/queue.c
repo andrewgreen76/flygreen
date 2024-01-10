@@ -1,6 +1,9 @@
 // A lock for the head and a lock for the tail of the queue.
 //  . concurrent enqueuing and dequeuing 
 
+#include <stdlib.h>
+#include <assert.h>
+#include "queue.h"
 
 void queue_init(queue_t *q) {
     node_t *tmp = malloc(sizeof(node_t));

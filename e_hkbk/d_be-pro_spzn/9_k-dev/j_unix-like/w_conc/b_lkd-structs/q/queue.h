@@ -5,7 +5,6 @@
 #define QUEUE_H
 
 #include <pthread.h>
-#include <queue.h>
 
 typedef struct __node_t {
     int value;
@@ -24,4 +23,4 @@ void queue_init(queue_t *q) ;
 void queue_enqueue(queue_t *q, int value) ;
 int queue_dequeue(queue_t *q, int *value) ;
 
-#endif QUEUE_H
+#endif

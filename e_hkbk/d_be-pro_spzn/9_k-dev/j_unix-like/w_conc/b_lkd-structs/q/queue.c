@@ -1,12 +1,15 @@
+// Code by Michael and Scott (OK per Patrick Ester). 
+// 
 // A lock for the head and a lock for the tail of the queue.
-//  . concurrent enqueuing and dequeuing 
+//  . hybrid of single-lock and coupling methods 
+//  . allows for an efficient CONCURRENT two-lock ENQUEUING AND DEQUEUING 
 
 #include <stdlib.h>
 #include <assert.h>
 #include "queue.h"
 
 void queue_init(queue_t *q) {
-    node_t *tmp = malloc(sizeof(node_t));
+    node_t *tmp = malloc(sizeof(node_t)); // dummy node for queue to have 
     tmp->next = NULL;
     q->head = q->tail = tmp;
     pthread_mutex_init(&q->head_lock, NULL);

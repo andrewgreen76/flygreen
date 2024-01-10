@@ -1,3 +1,11 @@
+"
+... if malloc() fails (which is a rare occurrence), the code must also release the lock before failing the insert. In this instance, the code must also fail the insert.
 
 
+This type of exceptional control flow is quite error-prone.A recent study of Linux kernel patches discovered that such rarely-taken code paths account for nearly 40% of all bugs (indeed, this observation sparked some of our own research, in which we removed all memory-failing paths from a Linux file system, resulting in a more robust system).
+"
+============================================================================================================================================================
+"
+The lookup routine is a basic code change that allows you to exit the main search loop and return to a single path. Doing so once more reduces the number of lock acquire/release points in the code, lowering the risk of accidentally adding errors (such as forgetting to unlock before returning).
+"
 _

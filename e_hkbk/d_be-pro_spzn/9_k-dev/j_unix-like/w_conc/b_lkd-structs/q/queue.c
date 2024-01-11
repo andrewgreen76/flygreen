@@ -57,6 +57,8 @@ int q_deq(queue_t *q, int *value) {
 
 void q_kill(queue_t *q) {
     int dont_care;
+
+    // dequeue() already uses the lock. Do not encap this code.  
     while( q_deq(q, &dont_care) != -1 ) ;
     free(q->head);
 }

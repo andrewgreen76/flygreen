@@ -9,6 +9,7 @@
 #include "queue.h"
 
 void q_init(queue_t *q) {
+    printf("Initializing queue ...\n");
     node_t *tmp = malloc(sizeof(node_t)); // dummy node for queue to have
     tmp->value = 0; // to avoid undefined behavior 
     tmp->next = NULL;
@@ -59,7 +60,7 @@ int q_deq(queue_t *q, int *value) {
 void q_traverse(queue_t *q){
     node_t * i = q->head;
 
-    if(i) i = i->next;
+    i = i->next;
     while(i){
 	printf("%d " , i->value );
 	i = i->next;
@@ -70,6 +71,7 @@ void q_traverse(queue_t *q){
 
 
 void q_kill(queue_t *q) {
+    printf("Destroying queue ...\n");
     int dont_care;
     // dequeue() already uses the lock. Do not encap this code.  
     while( q_deq(q, &dont_care) != -1 ) ;

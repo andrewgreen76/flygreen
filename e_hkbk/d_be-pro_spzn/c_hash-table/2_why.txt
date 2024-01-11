@@ -1,0 +1,46 @@
+
+========================================================================
+PURPOSE :
+========================================================================
+
+ . secure , fast data access 
+    . O(1) , or 1:1
+      => faster than linear search 
+    . fast error / change detection 
+
+========================================================================
+HOW IT WORKS - HASH FUNCTION/ALGORITHM :
+========================================================================
+
+ . unique number (any basis) -> hash code -> array index -> data set 
+
+========================================================================
+STIPULATIONS : 
+========================================================================
+
+ . bit-check ; 
+    . content of something can be translated to a compressed string
+    . avalanche effect (various algorithms) 
+ . has to be fast enough - to accommodate patience
+ . has to be slow enough - or 
+ . collision 
+    . but not too fast or a collision - coming up with the a hash code mapped to something else - will arise
+
+========================================================================
+Collision :
+========================================================================
+
+ .
+
+========================================================================
+Real-world examples :
+========================================================================
+
+ .
+
+========================================================================
+Simple , even phony example : 
+========================================================================
+
+ . 
+_

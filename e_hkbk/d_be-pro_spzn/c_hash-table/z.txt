@@ -1,0 +1,5 @@
+
+Pointers
+Locks 
+Hashing 
+_

@@ -1,0 +1,27 @@
+"
+Hashing is applicable to various practices in computer science and information security. Here are a few common applications of hashing:
+
+1. **Data Retrieval (Hash Tables):**
+   - Hashing is extensively used in data structures like hash tables to achieve fast data retrieval. Keys are hashed to determine the index in an array where the corresponding value is stored. This allows for constant-time average-case complexity for key-based operations like lookups, insertions, and deletions.
+
+2. **Password Storage:**
+   - Hashing is commonly used for secure password storage. Instead of storing actual passwords, systems store the hash values of passwords. When a user attempts to log in, the system hashes the entered password and compares it to the stored hash. This adds an additional layer of security, and even if the hash is compromised, the original password remains confidential.
+
+3. **Digital Signatures:**
+   - Hash functions are a crucial component of digital signatures. In digital signature schemes, a hash of the message is signed, ensuring the integrity of the message. The hash serves as a compact representation of the message, and any alteration in the message will result in a different hash value.
+
+4. **Data Integrity Checks:**
+   - Hashing is used for data integrity checks in various applications. By computing and comparing hash values before and after data transmission or storage, one can verify whether the data has been tampered with or corrupted.
+
+5. **Cryptography and Message Digests:**
+   - Hash functions are used in cryptography to produce fixed-size hash values (message digests) from variable-size input. These hash values serve as unique representations of the input data. Cryptographic hash functions have properties like collision resistance, making them suitable for applications such as digital signatures and data integrity verification.
+
+6. **File Deduplication:**
+   - Hashing is employed in file deduplication systems to identify and eliminate duplicate files. The hash values of file contents are computed, and identical files are identified by matching hash values.
+
+7. **Efficient Database Queries:**
+   - Hashing can be used to improve the efficiency of database queries by creating hash indexes. Hash indexes allow for quick access to specific data based on hash values.
+
+While hashing has these practical applications, it's important to choose appropriate hash functions based on the specific requirements of the application. Different use cases may require different properties from a hash function, such as collision resistance, avalanche effect, and efficiency.
+"
+_

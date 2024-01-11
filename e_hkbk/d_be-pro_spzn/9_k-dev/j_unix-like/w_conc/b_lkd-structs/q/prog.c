@@ -3,8 +3,11 @@
 
 int main(){
   printf("\n");
+
+  queue_t q;
   
-  printf("\n");
+  q_init(&q);
+  q_kill(&q);
 
   printf("\n");
 }

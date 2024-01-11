@@ -8,7 +8,7 @@
 #include <assert.h>
 #include "queue.h"
 
-void queue_init(queue_t *q) {
+void q_init(queue_t *q) {
     node_t *tmp = malloc(sizeof(node_t)); // dummy node for queue to have 
     tmp->next = NULL;
     q->head = q->tail = tmp;
@@ -20,7 +20,7 @@ void queue_init(queue_t *q) {
 // this Q impl :
 //  . head->node->...->node->tail ,    not    head<-node<-...<-node<-tail
 //  . insert at the tail 
-void queue_enqueue(queue_t *q, int value) {
+void q_enq(queue_t *q, int value) {
     node_t *tmp = malloc(sizeof(node_t));
     assert(tmp != NULL); // abort if malloc failed 
     tmp->value = value;
@@ -37,14 +37,14 @@ void queue_enqueue(queue_t *q, int value) {
 //  . head->node->...->node->tail ,    not    head<-node<-...<-node<-tail
 //  . remove at the head
 //  . rets SUCCESS / FAILURE
-int queue_dequeue(queue_t *q, int *value) {
+int q_deq(queue_t *q, int *value) {
     pthread_mutex_lock(&q->head_lock); 
-    node_t *tmp = q->head;                        // head -> (nnnn) <- tmp
-    node_t *new_head = tmp->next;                 //           |
-                                                  //           v
+    node_t *tmp = q->head;                        // head -> old_hd <- tmp
+    node_t *new_head = tmp->next;                 //            |
+                                                  //            v
     if (new_head == NULL) {                       //  new -> NEW_HD
-	pthread_mutex_unlock(&q->head_lock);      //           |
-	return -1; // queue was empty             //           v 
+	pthread_mutex_unlock(&q->head_lock);      //            |
+	return -1; // queue was empty             //            v 
     }                                             
     
     *value = new_head->value; // GET NEW_HEAD->VAL VIA ARG 
@@ -52,4 +52,11 @@ int queue_dequeue(queue_t *q, int *value) {
     pthread_mutex_unlock(&q->head_lock);
     free(tmp); // now remove old head 
     return 0;
+}
+
+
+void q_kill(queue_t *q) {
+    int dont_care;
+    while( q_deq(q, &dont_care) != -1 ) ;
+    free(q->head);
 }

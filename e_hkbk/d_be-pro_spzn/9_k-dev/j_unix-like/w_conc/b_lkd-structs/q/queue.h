@@ -7,7 +7,7 @@
 #include <pthread.h>
 
 typedef struct __node_t {
-    int value;
+    int value;  
     struct __node_t *next;
 } node_t;
 
@@ -19,8 +19,9 @@ typedef struct __queue_t {
 } queue_t;
 
 
-void queue_init(queue_t *q) ;
-void queue_enqueue(queue_t *q, int value) ;
-int queue_dequeue(queue_t *q, int *value) ;
+void q_init(queue_t *q) ;
+void q_enq(queue_t *q, int value) ;
+int q_deq(queue_t *q, int *value) ;
+void q_kill(queue_t *q);
 
 #endif

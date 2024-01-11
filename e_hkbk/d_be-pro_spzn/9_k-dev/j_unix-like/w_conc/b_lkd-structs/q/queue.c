@@ -9,7 +9,8 @@
 #include "queue.h"
 
 void q_init(queue_t *q) {
-    node_t *tmp = malloc(sizeof(node_t)); // dummy node for queue to have 
+    node_t *tmp = malloc(sizeof(node_t)); // dummy node for queue to have
+    tmp->value = 0; // to avoid undefined behavior 
     tmp->next = NULL;
     q->head = q->tail = tmp;
     pthread_mutex_init(&q->head_lock, NULL);
@@ -55,9 +56,21 @@ int q_deq(queue_t *q, int *value) {
 }
 
 
+void q_traverse(queue_t *q){
+    node_t * i = q->head;
+
+    if(i) i = i->next;
+    while(i){
+	printf("%d " , i->value );
+	i = i->next;
+    }
+    
+    printf("\n");    
+}
+
+
 void q_kill(queue_t *q) {
     int dont_care;
-
     // dequeue() already uses the lock. Do not encap this code.  
     while( q_deq(q, &dont_care) != -1 ) ;
     free(q->head);

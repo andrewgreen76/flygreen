@@ -6,7 +6,8 @@ int main(){
   queue_t q;
   q_init(&q);
 
-  //q_enq(&q, 2);
+  q_enq(&q, 2);
+  q_traverse(&q);
   
   q_kill(&q);
   printf("\n");

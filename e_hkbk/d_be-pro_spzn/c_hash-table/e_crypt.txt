@@ -1,51 +1,35 @@
 
-========================================================================================
-APPLICATIONS :
-========================================================================================
+========================================================================
+ENCRYPTION - A NEW SPIN ON HASHING : 
+========================================================================
 
-Private situation :
+Idea : transmitting files
+ . but files , requests , etc. can be changed
+ . transmission must be made secure 
+
+... or just compression :
  | 
- . bank database 
-    . (unique , private) key -> QUICK LOOKUP (of an entry in a database)
-    | 
-    . need a hash function (hashing algorithm) 
-       . key -> hash code -> array index -> data set
-       . key = unique number of any basis
-    . HAS TO BE FAST 
-       . O(1) , or 1:1
-    . has to be difficult enough to maximize breaking time
-       . otherwise , a hacker can generate a valid hash code soon enough 
-
-.) encryption
-    . or just data compression 
-    . need a different kind of hash function
-    . MD5 , SHA-1 , SHA-2 
-
-
-
-Non-sensitive situation :
- | 
- . a word dictionary (disk -> RAM)
-    . word -> QUICK LOOKUP (of an entry in a file)
-    |
-    . take a KEY (unique string or number of any basis)
-    -> HASHING ALGORITHM : compute a (hopefully) unique hash code
-    -> MODULO OPERATOR : compute the corresponding index 
-    -> located bucket with the key (input) and the value ("output")
-    . one and the same number of steps => O(1) 
- |
- . entry generation -> structure growth
-    . key -> hash code -> array index -> data set
+ . need a different kind of hash function
+ . MD5 , SHA-1 , SHA-2 
 
 ========================================================================
 STIPULATIONS : 
 ========================================================================
 
+ . has to be fast enough (to reserve the user's patience) 
+    . has to be slow enough
+ . there has to be an integrity check
+    . use the hash code of the file being transmitted to reflect the integrity
+    . one tiny change to the file should affect the entire hash code 
+
+
+-or- a malicious agent WILL have a good hash code
+
+
  . bit-check ; 
     . content of something can be translated to a compressed string
     . avalanche effect (various algorithms) 
- . has to be fast enough to get through security    - to accommodate patience
- . has to be difficult enough to be slowly broken   - the malicious agent WILL have a good hash code  
+ . has to be difficult enough to be slowly broken   
  . collision 
     . but not too fast or a collision - coming up with the a hash code mapped to something else - will arise
 

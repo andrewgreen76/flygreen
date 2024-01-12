@@ -1,0 +1,186 @@
+
+========================================================================================
+TO KEEP THINGS SIMPLE , FOR NOW ... 
+========================================================================================
+
+ . Forget everything you may know or have heard about hashing , like key-value pairs.
+   Let's keep it simple for now.
+ . Forget about encryption for now. 
+
+========================================================================================
+THE POINT :
+========================================================================================
+
+ . Type in one thing (dict.word , name , login , ID , password) ->
+ -> [Fast lookup] ->
+ -> Get needed related info (customer info , validity of the key , etc.)
+
+========================================================================================
+LOOKUP TIME OPTIMIZATION : 
+========================================================================================
+
+ . Traversing a traditional data structure (an array , a linked list , or a queue) and
+   comparing pieces of data to find the info you need takes linear time. Can we do better ?
+
+========================================================================================
+SOLUTION : 
+========================================================================================
+
+ . word -> [quick lookup] -> info
+ |
+ v
+ . In order to come up with a solution that is GENERAL AND SIMPLE , we'll treat input numbers as strings.
+ |
+ v
+ . string -> [quick lookup] -> info
+ |
+ v
+ . string --()-> info
+ |
+ v
+ . string --()-> specific location w/ info
+ | 	  	 ^
+ | 	  	 ^ How should info location be implemented ? 
+ |  	         |
+ |  	         . getting to the right node - O(n) -or- O(logn) 
+ | 	      	 . getting to the right array cell - O(1) 
+ |  	         => the ARRAY is chosen as the foundation for every hash table in modern databases
+ |		 => thus we'll have an array of data structs 
+ |	 	 . yes , storage space is sacrificed for speed 
+ |		 |
+ | 	         . the hash table's ARRAY HAS TO BE LARGE enough (for a dictionary , cust. database , etc.)
+ |		 => we are probably wasting unused storage space , but in a way it's for the better (more on that later) 
+ |		 | 
+ |		 . we'll work with indices instead of addresses because they are an easy abstraction to work with 
+ |
+ |
+ v
+ . string   --()->   num:[]   {info} 
+ |
+ v
+ . IDEA : convert the input string into something simple - a number - and convert that into an array index 
+ |  . seems like the most intuitive thing to do
+ |  . the same routine can be used for info addition , lookup , etc. 
+ |
+ v
+ . string --()-> number --()-->  i:[] --()-> info
+ |
+ v
+ .   --(hashing)-> --(conv-to-i)-> --(accessing)->
+
+
+This is great because 
+
+
+ |
+ v
+ . string --()-> hash code --()-> location --()-> info 
+
+========================================================================================
+========================================================================================
+========================================================================================
+
+(1) enter what you have - THE KEY (data of any type)
+
+(2) key -> [some HASHING ALGORITHM] -> something easy to work with - a number - to get info we want 
+
+(3) hash code -> [another function] -> a (smaller) number - array index with needed info 
+    . if some other key leads to the same hash code , we have an unsecure database , a bad spell-checker , etc. 
+
+========================================================================================
+									        . stored inside an entry structure (node , array cell) 
+										. tons of entries make up a gigantic database 
+
+     . hash function output is called a hash code 
+     . the expectation : for every unique key there should be a unique hash code 
+an imperfect
+========================================================================================
+APPLICATIONS :
+========================================================================================
+
+Private situation :
+ | 
+ . bank database 
+    . (unique , private) key -> QUICK LOOKUP (of an entry in a database)
+    | 
+    . need a hash function (hashing algorithm) 
+       . key -> hash code -> array index -> data set
+       . key = unique number of any basis
+    . HAS TO BE FAST 
+       . O(1) , or 1:1
+    . has to be difficult enough to maximize breaking time
+       . otherwise , a hacker can generate a valid hash code soon enough 
+
+.) encryption
+    . or just data compression 
+    . need a different kind of hash function
+    . MD5 , SHA-1 , SHA-2 
+
+
+
+Non-sensitive situation :
+ | 
+ . a word dictionary (disk -> RAM)
+    . word -> QUICK LOOKUP (of an entry in a file)
+    |
+    . take a KEY (unique string or number of any basis)
+    -> HASHING ALGORITHM : compute a (hopefully) unique hash code
+    -> MODULO OPERATOR : compute the corresponding index 
+    -> located bucket with the key (input) and the value ("output")
+    . one and the same number of steps => O(1) 
+ |
+ . entry generation -> structure growth
+    . key -> hash code -> array index -> data set
+
+========================================================================
+STIPULATIONS : 
+========================================================================
+
+ . bit-check ; 
+    . content of something can be translated to a compressed string
+    . avalanche effect (various algorithms) 
+ . has to be fast enough to get through security    - to accommodate patience
+ . has to be difficult enough to be slowly broken   - the malicious agent WILL have a good hash code  
+ . collision 
+    . but not too fast or a collision - coming up with the a hash code mapped to something else - will arise
+
+========================================================================
+Real-world examples :
+========================================================================
+
+ .
+
+========================================================================
+Simple , even phony example : 
+========================================================================
+
+ . 
+
+========================================================================
+WHAT IS IT LIKE , HOW DOES IT WORK :
+========================================================================
+
+ . "a data structure optimized for quick lookups"
+   + an array (of "buckets")
+      . yes, for a dictionary it would have to be a freaking huge array
+        (hundreds of thousands , even millions of words)
+      |
+      |
+      + collision => append the colliding node to the corresponding element in the array 
+   + key-value pair(s) 
+   + a hash function
+
+              K       V          hash    i   <K,V>
+           ----------------------------------------
+       	    "253" , "John"   -> 95347 -> 0 | <K,V>
+	     "42" , "Paul"   -> 38929 -> 1 | <K,V>
+	    "368" , "George" -> 70353 -> 2 | <K,V>
+	       .
+	       .
+	       .
+=======================================================================
+=======================================================================
+=======================================================================
+    . error / change detection
+
+_

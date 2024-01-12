@@ -8,9 +8,22 @@ TERMINOLOGY :
  . HASH CODE (or HASH VALUE) : the number the key is hashed to 
  . HASHING ALGORITHM : used to perform the conversion
     . There is no one hashing algorithm. There are different flavors out there.
+ . BUCKET : a SLOT in the hash table's array
+ . COLLISION : two or more keys are hashed to the same hash code (and, ergo, the same bucket) 
+ . KEY-VALUE PAIR : the data struct the hash table is made up of.
+    . the hash table starts off with an array of key-value pairs
+    . if there is a collision at a bucket , the new pair is either added (if registering)
+      or denied (if searching) 
+    . VALUE : the piece of information you are after from the lookup 
 
 
-	    --(hashing)->            --(%)->         --(accessing)->
-     string               hash value	     [arr:i]		     {info}
+					     [bucket]
+					     [bucket]
+					       .
+					       .
+	    --(hashing)->            --(%)->   . -(access)->
+     string               hash value	     [bucket] {key:value} -> {key:value} -> ... 
+                       	       		       .
+					       .
      
 _

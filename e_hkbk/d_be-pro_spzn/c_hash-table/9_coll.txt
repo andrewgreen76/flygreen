@@ -1,0 +1,22 @@
+
+========================================================================================
+THE INNATE PROBLEM WITH HASHING - COLLISIONS : 
+========================================================================================
+
+Collision :
+ . a hashing algorithm produces the same hash value for two different keys (violating "pigeonholing")
+ => this can make lookup of information meant for one user possible by another user (unsecure database) -or- 
+ => -or- we have a bad spell-checker 
+
+
+Solution : whether or not key B gets hashed to a value already generated from key A , ...
+ |
+ . lookup : 
+ |  . once an array index is computed , traverse the linked list at that index , comparing the given key
+ |    with the key of every data struct node , the pull up the info in that node
+ |
+ . addition :
+    . once an array index is computed , traverse the linked list at that index , comparing the given key
+      with the key of every data struct node to make sure the given key is not used 
+
+_

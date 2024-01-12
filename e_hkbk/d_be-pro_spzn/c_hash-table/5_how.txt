@@ -1,32 +1,9 @@
 
 ========================================================================================
-TO KEEP THINGS SIMPLE , FOR NOW ... 
-========================================================================================
-
- . Forget everything you may know or have heard about hashing , like key-value pairs.
-   Let's keep it simple for now.
- . Forget about encryption for now. 
-
-========================================================================================
-THE POINT :
-========================================================================================
-
- . Type in one thing (dict.word , name , login , ID , password) ->
- -> [Fast lookup] ->
- -> Get needed related info (customer info , validity of the key , etc.)
-
-========================================================================================
-LOOKUP TIME OPTIMIZATION : 
-========================================================================================
-
- . Traversing a traditional data structure (an array , a linked list , or a queue) and
-   comparing pieces of data to find the info you need takes linear time. Can we do better ?
-
-========================================================================================
 SOLUTION : 
 ========================================================================================
 
- . word -> [quick lookup] -> info
+ . word -> [??? quick lookup ???] -> info
  |
  v
  . In order to come up with a solution that is GENERAL AND SIMPLE , we'll treat input numbers as strings.
@@ -38,7 +15,11 @@ SOLUTION :
  . string --()-> info
  |
  v
+ . Of course , to find the info we need , we need to find its location. 
+ |
+ v
  . string --()-> specific location w/ info
+ | 	  	 ^
  | 	  	 ^
  | 	  	 ^ How should info location be implemented ? 
  |  	         |
@@ -55,7 +36,7 @@ SOLUTION :
  |
  |
  v
- . string   --()->   num:[]   {info} 
+ . string   --()->   [num] {info} 
  |
  v
  . IDEA : convert the input string into something simple - a number - and convert that into an array index 
@@ -63,37 +44,34 @@ SOLUTION :
  |  . the same routine can be used for info addition , lookup , etc. 
  |
  v
- . string --()-> number --()-->  i:[] --()-> info
- |
- v
- .   --(hashing)-> --(conv-to-i)-> --(accessing)->
+ . string --()-> some (big) number --()-> [smaller num] {info} 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+This is great because this calls for a small number of simple operations to perform
+an addition or a lookup no matter the case. 
 
 
-This is great because 
+     --(hashing)-> --(conversion-to-index)-> --(accessing)->
 
 
- |
- v
- . string --()-> hash code --()-> location --()-> info 
+ => hash table operations like lookup can be done in constant time
+ => again , this is better than traversing and comparing in linear time 
 
-========================================================================================
-========================================================================================
-========================================================================================
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-(1) enter what you have - THE KEY (data of any type)
+ . Conversion of the hash value (the intermediary number) to an array index is done with
+   the modulo operator.
+    |
+    . Typical formula :
 
-(2) key -> [some HASHING ALGORITHM] -> something easy to work with - a number - to get info we want 
 
-(3) hash code -> [another function] -> a (smaller) number - array index with needed info 
-    . if some other key leads to the same hash code , we have an unsecure database , a bad spell-checker , etc. 
+      	      hash_value % array_size = array_index for storing or lookup 
 
-========================================================================================
-									        . stored inside an entry structure (node , array cell) 
-										. tons of entries make up a gigantic database 
-
-     . hash function output is called a hash code 
-     . the expectation : for every unique key there should be a unique hash code 
-an imperfect
 ========================================================================================
 APPLICATIONS :
 ========================================================================================

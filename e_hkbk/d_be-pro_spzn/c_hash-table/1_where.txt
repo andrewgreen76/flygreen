@@ -1,9 +1,11 @@
 
-Quick lookup of an entry within a large data set :
+Quick lookup of an entry within a large body of data (data sets) :
+ | 
  . in a sensitive situation (customer info) : 
-    . banking
-    . healthcare 
-    . retail
+ |  . banking
+ |  . healthcare 
+ |  . retail
+ |
  . in a non-sensitive situation :
     . spell-checking 
 

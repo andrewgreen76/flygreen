@@ -10,6 +10,19 @@ Consumer thread :
 "... in a multi-threaded web server, a producer queues HTTP requests in a work queue (i.e., the bounded buffer). Consumer threads execute these requests."
 
 
+Bounded buffer in shell processing (piping) :
+ |
+ |
+ . pipe {stdout , stdin}		// kernel's bounded buffer 
+ |
+ . --cmd1(){}-> [stdout]		// producer
+   --pipe(){}-> [pipe]
+   --xscallx{	pipe <- stdout  }->
+   
+   --cmd2(pipe){  ... pipe.stdin ...	// consumer 
+		  ret ...
+	       }
+ 
 "When you pipe the output of one program into another, such as grep foo file.txt | wc -l, a bounded buffer is employed. This example runs two processes at the same time: grep writes lines from file.txt containing the string foo to standard output, and the UNIX shell redirects the output to a UNIX pipe (created by the pipe system call). The process wc’s standard input is connected to the other end of this pipe, which simply counts the number of lines in the input stream and writes out the result. Thus, the grep process is the producer, and the wc process is the consumer, between them is an in-kernel constrained buffer, and you are simply the happy user in this example."
 
 _

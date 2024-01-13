@@ -30,11 +30,14 @@ void *child(void *arg) {
 
 void thr_join() {
     Pthread_mutex_lock(&m);
-    while (done == 0)
+    while (done == 0)  // If child flips the flag before signaling , it will solve the signal-before-wait problem (race). 
         Pthread_cond_wait(&c, &m); // WAIT : sleep , do not waste CPU time 
     Pthread_mutex_unlock(&m);
 }
 
+/*
+  This is a reminder that lock/unlock allows for execution of only one thing at a time. Other threads line up and wait. 
+*/
 
 int main(int argc, char *argv[]) {
     printf("parent: begin\n");

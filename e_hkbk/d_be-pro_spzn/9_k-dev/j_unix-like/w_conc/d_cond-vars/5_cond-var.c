@@ -3,13 +3,14 @@ pthread_mutex_t m = PTHREAD_MUTEX_INITIALIZER;
 pthread_cond_t c = PTHREAD_COND_INITIALIZER;
 
 /*
-  . thread T1 is on the move 
-  . lock acquired 
+  . T1 is on the move 
+  -> T1 acquires the lock  
   -> wait() 
      -> thread T1 goes to sleep 
      -> wait() releases the lock 
-  -> another thread , T2 , satisfies a condition (resolves the barring flag) 
-  -> 
+  -> T2 satisfies a condition (resolves the barring flag) , 
+  -> T2 wakes up T1 
+  -> T1 acquires the lock again      
 */
 
 void thr_exit() {

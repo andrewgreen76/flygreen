@@ -35,7 +35,7 @@ void *producer(void *arg) {
   for (i = 0; i < loops; i++) {
     Pthread_mutex_lock(&mutex); // p1   // One producer thread at a time (scales on multi-CPU , prt-chd per CPU). 
    
-    if (full == 1) // p2
+    if (full == 1) // p2 // NO RECHECKING IN THE EVENT OF A RACE 
       Pthread_cond_wait(&cond, &mutex); // p3 // Full ? Sleep , do not waste CPU , fire off a thread to resolve this. 
     
     put(i); // p4 // FILLS buffer 
@@ -50,7 +50,7 @@ void *consumer(void *arg) {
   for (i = 0; i < loops; i++) {
     Pthread_mutex_lock(&mutex); // c1
     
-    if (full == 0) // c2
+    if (full == 0) // c2 // NO RECHECKING IN THE EVENT OF A RACE 
       Pthread_cond_wait(&cond, &mutex); // c3 // wait() releases the lock. 
     
     int tmp = get(); // c4 // EMPTIES buffer 

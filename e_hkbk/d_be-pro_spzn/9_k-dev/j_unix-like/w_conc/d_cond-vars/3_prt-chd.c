@@ -1,3 +1,9 @@
+/*
+  When the context switches to the spinning parent thread 
+   => the spinning wastes CPU time. 
+   . sometimes erroneous logic is followed 
+*/
+
 #include <stdio.h>
 #include <pthread.h>
 

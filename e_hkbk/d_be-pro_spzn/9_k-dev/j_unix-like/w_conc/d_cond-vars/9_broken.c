@@ -1,4 +1,6 @@
-int loops; // must initialize somewhere...
+// This code does not work for 2 prods / 2 cons per thread. 
+
+int loops; // put-displace N times 
 cond_t cond;
 mutex_t mutex;
 
@@ -13,7 +15,7 @@ void put(int value) {
 
 int get() {
     assert(full == 1);
-    full = 0;    // raise "empty" flag 
+    full = 0;    // mark as empty 
     return buffer;
 }
 
@@ -23,10 +25,10 @@ void *producer(void *arg) {
   int i;
   
   for (i = 0; i < loops; i++) {
-    Pthread_mutex_lock(&mutex); // p1
-    
+    Pthread_mutex_lock(&mutex); // p1   // One producer thread at a time (scales on multi-CPU , prt-chd per CPU). 
+   
     if (count == 1) // p2
-      Pthread_cond_wait(&cond, &mutex); // p3
+      Pthread_cond_wait(&cond, &mutex); // p3 // Full ? Sleep , do not waste CPU , fire off a thread to resolve this. 
     
     put(i); // p4
     Pthread_cond_signal(&cond); // p5

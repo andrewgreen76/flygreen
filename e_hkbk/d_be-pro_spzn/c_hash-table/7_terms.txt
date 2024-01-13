@@ -9,19 +9,20 @@ TERMINOLOGY :
  . HASHING ALGORITHM : used to perform the conversion
     . There is no one hashing algorithm. There are different flavors out there.
  . BUCKET : a SLOT in the hash table's array
+ . HASH TABLE is the array , possibly with linked-list extensions 
  . KEY-VALUE PAIR : the data struct the hash table is made up of.
-    . the hash table starts off with an array of key-value pairs
+    . the hash table starts off as just an array for key-value pairs
     . if there is a collision at a bucket , the new pair is either added (if registering)
-      or denied (if searching) 
-    . VALUE : the piece of information you are after from the lookup
+      or turned away (if searching) 
+    . VALUE : the piece of information you are after from the lookup (assuming 1-to-1 mapping) 
  |
  . COLLISION : two or more keys are hashed to the same hash code (and, ergo, the same bucket)
- . LOAD FACTOR : num of populated buckets / array size
+ . LOAD FACTOR = num of populated buckets / array size
     + having the load factor close to 1 means little space going unused/wasted
     - it also means a high chance of collision from hashing 
  
 
-
+					   HASH TABLE
 					     [bucket]
 					     [bucket]
 					       .

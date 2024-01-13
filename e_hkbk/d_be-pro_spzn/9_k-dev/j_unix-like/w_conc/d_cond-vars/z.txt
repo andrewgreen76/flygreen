@@ -1,0 +1,4 @@
+"
+... locks aren’t the only primitives required to construct concurrent applications.
+"
+_

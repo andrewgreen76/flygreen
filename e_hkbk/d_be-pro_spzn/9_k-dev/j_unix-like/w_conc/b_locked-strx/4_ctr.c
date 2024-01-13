@@ -1,5 +1,6 @@
 
-// Counter without lock :  
+// Counter without lock :
+//  . keeps track of the number of waiting threads 
 
 typedef struct __counter_t {
     int value;

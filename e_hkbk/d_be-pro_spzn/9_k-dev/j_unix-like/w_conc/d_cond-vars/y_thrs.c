@@ -18,6 +18,7 @@ int get() {
 
 // =================== THREAD FUNCTIONS : ===================
 
+
 void *producer(void *arg) {
     int i;
     int loops = (int) arg;

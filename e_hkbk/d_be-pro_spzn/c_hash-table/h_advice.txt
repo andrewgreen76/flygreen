@@ -1,0 +1,6 @@
+
+ . "increasing concurrency does not continuously improve performance"
+ . "[avoid] premature optimization"
+    . "There’s no use in making something faster if it doesn’t help the program’s overall performance."
+ 
+_

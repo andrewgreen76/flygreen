@@ -1,0 +1,35 @@
+
+How can it happen that one thread lags behind the other? 
+
+==============================================================
+==============================================================
+"
+In a multi-threaded program, one thread lagging behind another can happen due to various reasons related to the scheduling and execution behavior of threads. Here are some common scenarios:
+
+1. **Scheduling Differences:**
+   - The operating system scheduler determines when each thread gets CPU time. If one thread has a higher priority or is scheduled more frequently than another, it may progress more rapidly, causing the lag.
+
+2. **Resource Contention:**
+   - Threads might be contending for resources such as locks, and the order in which they acquire locks can impact their progress. If one thread consistently acquires locks before another, it may complete its work more quickly.
+
+3. **Blocking and Waiting:**
+   - Threads may enter blocking or waiting states, such as waiting for I/O operations, network communication, or the availability of resources. If one thread spends more time in a blocked state, the other threads can make progress while it waits.
+
+4. **Uneven Workloads:**
+   - If the workload assigned to each thread is uneven, one thread may have more computational work to perform, leading to a difference in execution time.
+
+5. **Thread Priority:**
+   - Operating systems often allow setting thread priorities. If one thread has a higher priority than others, it may be scheduled more frequently, potentially causing it to progress faster.
+
+6. **Concurrency Control Mechanisms:**
+   - The use of synchronization mechanisms, such as locks or semaphores, can affect the order in which threads access shared resources. If one thread is often delayed due to contention for these mechanisms, it may lag behind others.
+
+7. **CPU Affinity:**
+   - CPU affinity settings may influence the physical CPU cores on which threads are executed. If one thread consistently runs on a more powerful or less busy core, it may outpace others.
+
+8. **Thread-Specific Delays:**
+   - Specific delays introduced intentionally or unintentionally in the code of one thread can cause it to lag behind others. For example, sleep statements, unnecessary waiting, or other forms of intentional delays can impact thread progress.
+
+Understanding and addressing thread lags often involve careful consideration of the application's design, thread synchronization, workload distribution, and system-specific factors. Analyzing the thread behavior, profiling the application, and tuning the scheduling parameters can help mitigate or avoid uneven progress among threads.
+"
+_

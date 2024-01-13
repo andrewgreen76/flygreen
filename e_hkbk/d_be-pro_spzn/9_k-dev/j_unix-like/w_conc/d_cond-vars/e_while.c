@@ -26,7 +26,7 @@ void *producer(void *arg) {
   for (i = 0; i < loops; i++) {
     Pthread_mutex_lock(&mutex); // p1
     
-    while (full == 1) // p2 // avoid race of threads 
+    while (full == 1) // p2 // rechecking in the race 
       Pthread_cond_wait(&cond, &mutex); // p3
     
     put(i); // p4 // MUST BE EMPTY 
@@ -41,7 +41,7 @@ void *consumer(void *arg) {
   for (i = 0; i < loops; i++) {
     Pthread_mutex_lock(&mutex); // c1
     
-    while (full == 0) // c2 // avoid race of threads 
+    while (full == 0) // c2 // rechecking in the race  
       Pthread_cond_wait(&cond, &mutex); // c3
     
     int tmp = get(); // c4 // MUST BE FULL 

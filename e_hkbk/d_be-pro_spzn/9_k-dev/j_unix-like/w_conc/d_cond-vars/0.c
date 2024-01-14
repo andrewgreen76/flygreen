@@ -3,7 +3,9 @@
 int main(){
   printf("\n");
   
-  for(int i=0 ; i<1000000 ; i++ ) printf("%d\n" , i);
+  int i = 1;
+  char * p = (char *) &i;
+  printf("%d\n" , *p);
 
   printf("\n");
 }

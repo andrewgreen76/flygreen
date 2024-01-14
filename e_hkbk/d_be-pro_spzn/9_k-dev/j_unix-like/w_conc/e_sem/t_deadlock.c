@@ -39,7 +39,7 @@ void *consumer(void *arg) {
   int i;
   for (i = 0; i < loops; i++) {               // CONSUMERS CAN START FIRST. 
     sem_wait(&mutex); // Line C0 (NEW LINE)   // acquires the lock 
-    sem_wait(&full); // Line C1               // full : (0 -> -1) -> sleeps , keeps the lock , no one can post 
+    sem_wait(&full); // Line C1               // full : (0 -> -1) -> "sleeps" , keeps the mutex => no producer can post 
     int tmp = get(); // Line C2                
     sem_post(&empty); // Line C3
     sem_post(&mutex); // Line C4 (NEW LINE)

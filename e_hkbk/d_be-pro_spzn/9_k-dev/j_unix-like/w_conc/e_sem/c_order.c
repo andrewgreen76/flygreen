@@ -1,5 +1,3 @@
-sem_t s;
-
 /*
   sem_init(&s, 0, 1);    // semval = 1 if 1st thread is peer thread 
    . "will act as a lock"
@@ -12,6 +10,9 @@ sem_t s;
   This is easy to deal with when working only with a couple of threads. 
 
  */
+
+sem_t s;
+
 
 void *child(void *arg) {
   printf("child\n");

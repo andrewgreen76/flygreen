@@ -1,7 +1,0 @@
-
-Ordering semaphore : 
- . works for parent-child threads (0 for the parent , -1 for the child)
-
-=====================================================================================================
-
-_

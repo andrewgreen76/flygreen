@@ -1,0 +1,11 @@
+
+Ordering semaphore :
+ |
+ . works for parent-child threads
+ . 1 - awaiting (child) thread to occupy
+ . 0 - child occupies thread
+ . like a binary semaphore 
+
+=====================================================================================================
+
+_

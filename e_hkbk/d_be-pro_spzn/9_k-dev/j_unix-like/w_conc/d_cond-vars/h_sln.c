@@ -9,7 +9,7 @@ void *producer(void *arg) {
     Pthread_mutex_lock(&mutex);
     while (full == 1)
       Pthread_cond_wait(&ps_slp, &mutex);
-    put(i);
+    put(i); // buffer is now empty , so fill it : 0 -> (loops-1) 
     Pthread_cond_signal(&cs_slp);
     Pthread_mutex_unlock(&mutex);
   }

@@ -1,22 +1,28 @@
-#define MAX 10
+#define MAX 10 
 
-cond_t empty, fill;
+cond_t empty, // sound off to prod's - buffer is empty 
+       full;  // sound off to cons's - buffer is full
 mutex_t mutex;
-int count = 0 ;
 
-// ==================== aux. functions : ====================
+int buffer[MAX];
+int fill_ptr = 0;
+int use_ptr = 0;
+int count = 0;
+
+// =================== aux. functions : ===================
 
 void put(int value) {
-    assert(count < MAX);
-    count++;
-    buffer = value;
+  buffer[fill_ptr] = value; 
+  fill_ptr = (fill_ptr + 1) % MAX; // head to tail -> roll over to 0 -> done 
+  count++;
 }
 
 
 int get() {
-    assert(count > 0);
-    count--;    // mark as empty 
-    return buffer;
+  int tmp = buffer[use_ptr];
+  use_ptr = (use_ptr + 1) % MAX; // also head to tail -> roll over to 0 -> done  
+  count--;
+  return tmp;
 }
 
 // =================== THREAD FUNCTIONS : ===================

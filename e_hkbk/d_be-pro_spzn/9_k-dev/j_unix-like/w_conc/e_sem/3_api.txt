@@ -1,0 +1,41 @@
+
+==================================================================================================
+INTERPRETING STATES : 
+==================================================================================================
+
+ . in a mutex : 1 - locked , 0 - unlocked
+ |
+ . BINARY SEMAPHORE - vice versa : 1 - unlocked , 0 - locked
+ |
+ . NON-BINARY SEMAPHORE : semval(<0) = number of sleeping threads 
+    |
+    .  1 - unlocked 
+    .  0 - locked , 0 threads sleeping 
+    . -1 - locked , 1 thread sleeping
+    .  ...
+ 
+==================================================================================================
+API : 
+==================================================================================================
+
+ . sem_init(&s , share , semval) :
+    |
+    . s : semaphore to fire off
+    . share = 0 : sem is shared between threads
+    . semval : semaphore value 
+
+
+ . sem_wait() : putdown
+    |
+    . semval--;
+    . if(semval<0) wait();    // sleeps if semval<0    // skips  if semval>=1 (1->0)
+    |
+    . skips 1st wait 
+
+
+ . sem_post() : wake
+    |
+    . semval++; 
+    . wake()     // wake up a sleeping thread (if there is one)
+
+_

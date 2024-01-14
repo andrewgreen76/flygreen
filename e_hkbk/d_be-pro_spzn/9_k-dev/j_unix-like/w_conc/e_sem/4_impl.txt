@@ -1,0 +1,22 @@
+
+=====================================================================
+IMPLEMENTATION : 
+=====================================================================
+#include <semaphore.h>
+
+sem_t s;
+sem_init(&s, 0, 1);	 . sem_init(&s , share , semval) :
+			 |
+			 . s : semaphore to fire off
+			 . share = 0 : sem is shared between threads
+			 . semval : SEMAPHORE VALUE 
+
+
+// Attempt at atomicity : 
+
+sem_wait(&m);		Won't work if multiple producers/consumers 
+... crit_sect ...	are to be allowed to access crit_sect.
+sem_post(&m);
+=====================================================================
+
+_

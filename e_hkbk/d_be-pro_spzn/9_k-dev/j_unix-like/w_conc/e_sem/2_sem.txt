@@ -1,0 +1,11 @@
+
+A general-purpose sync. primitive that can function both as a mutex and as a condition variable.
+ |
+ |
+ . PURPOSE : helps manage jobs , locations in a buffer , etc. 
+ |
+ |
+ . functions like a mutex
+ . keeps count of sleeping threads
+
+_

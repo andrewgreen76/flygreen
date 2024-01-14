@@ -1,0 +1,45 @@
+
+A general-purpose sync. primitive that can function both as a mutex and as a condition variable.
+ | 
+ . "its initial value determines the semaphore’s behavior"
+    . semval(<0) = number of sleeping threads 
+
+===================================================================================================
+
+#include <semaphore.h>
+
+sem_t s;
+sem_init(&s, 0, 1);
+
+sem_wait(&m);
+// critical section here
+sem_post(&m);
+
+============================================================
+
+ . sem_init(&s , share , semval) :
+    |
+    . s : semaphore to fire off
+    . share = 0 : sem is shared between threads
+    . semval : semaphore value 
+
+
+ . sem_wait() : putdown
+    |
+    . semval--;
+    . wait();    // sleeps if semval<0    // skips  if semval>=1 (1->0)
+    |
+    . skips 1st wait 
+
+
+ . sem_post() : wake
+    |
+    . semval++; 
+    . wake()     // wake up a sleeping thread (if there is one)
+    
+============================================================
+============================================================
+============================================================
+ . applicable to jobs , buffers , etc.
+
+_

@@ -1,4 +1,16 @@
 
 Binary semaphore :
- . a semaphore used as a lock that can only exist in either of two states : acquired and released. 
+ . a semaphore used as a lock that can only exist in either of two states : acquired and released.
+
+=====================================================================================================
+=====================================================================================================
+
+A semaphore with three states (-1 , 0 , 1) is not binary.
+ |
+ .  1 - not taken
+ .  0 - 1st peer thread is working , everyone else is ready
+ . -1 - another thread trying to acquire
+ |
+ => In theory , no semaphore can be binary. 
+
 _

@@ -1,6 +1,7 @@
 
 A general-purpose sync. primitive that can function both as a mutex and as a condition variable.
- | 
+ |
+ . expecting multiple threads 
  . "its initial value determines the semaphore’s behavior"
     . semval(<0) = number of sleeping threads 
 

@@ -1,0 +1,26 @@
+// how many bytes of the heap are free?
+#define MAX_HEAP_SIZE 10 
+int bytesLeft = MAX_HEAP_SIZE;
+
+// need lock and condition too
+cond_t c;
+mutex_t m;
+
+
+
+void * allocate(int size) {
+  Pthread_mutex_lock(&m);
+  while (bytesLeft < size)
+    Pthread_cond_wait(&c, &m);
+  void *ptr = ...; // get mem from heap
+  bytesLeft -= size;
+  Pthread_mutex_unlock(&m);
+  return ptr;
+}
+
+void free(void *ptr, int size) {
+  Pthread_mutex_lock(&m);
+  bytesLeft += size;
+  Pthread_cond_signal(&c); // whom to signal??
+  Pthread_mutex_unlock(&m);
+}

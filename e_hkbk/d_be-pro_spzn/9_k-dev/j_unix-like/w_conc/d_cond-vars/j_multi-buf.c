@@ -22,7 +22,7 @@ int get() {
   int tmp = buffer[use_ptr];
   use_ptr = (use_ptr + 1) % MAX; // also head to tail -> roll over to 0 -> done  
   count--;
-  return tmp;
+  return tmp; // the value removed 
 }
 
 // =================== THREAD FUNCTIONS : ===================

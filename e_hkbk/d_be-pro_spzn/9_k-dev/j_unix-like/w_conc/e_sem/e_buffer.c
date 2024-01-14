@@ -26,8 +26,8 @@ void put(int value) {
 
 int get() {
   int tmp = buffer[use]; // Line G1    // Scan thru w/ "use". 
-  use = (use + 1) % MAX; // Line G2    // Roll over to start of buffer. 
-  return tmp;
+  use = (use + 1) % MAX; // Line G2    // Roll over to start of buffer.    // 0 <= use < MAX 
+  return tmp;                          // at one point supposed to ret -1 
 }
 
 // =================== THREAD FUNCTIONS : ===================
@@ -59,3 +59,17 @@ int main(int argc, char *argv[]) {
   sem_init(&full, 0, 0); // 0 are full
   // ...
 }
+
+/*
+  l   e   f   P        C        buffer
+  
+  0  10   0   /        /        _ _ _ _ _   _ _ _ _ _ 
+  0   9   0   skip     /        0 _ _ _ _   _ _ _ _ _ 
+  0   8   0   skip     /        0 1 _ _ _   _ _ _ _ _ 
+  ... 
+
+
+   > subtracting from empty, one at a time
+   > meanwhile/atomically : adding to full, one at a time 
+   > two comparisons to zero , two separate conditions , two different wait()'s   <=   TWO SEMAPHORES 
+*/

@@ -1,0 +1,14 @@
+
+"Signaling is unquestionably necessary, but it must be more targeted. Consumers should awaken only producers, and producers should [only] awaken consumers."
+
+============================================================================================================================================================
+
+Covering conditions :
+ . When you have no idea which sleeping thread the live thread should wake up , cover them all with pthread_cond_broadcast(&cond).
+ . Overhead :
+    . extra threads are taxing on the CPU scheduler
+    . they'll just wake up , re-check the condition , and resume sleep (per Mesa semantics)
+    => not always a good idea ; figure something out with signal calls 
+ . only appropriate in certain situations , like implementing dynamic memory allocation 
+
+_

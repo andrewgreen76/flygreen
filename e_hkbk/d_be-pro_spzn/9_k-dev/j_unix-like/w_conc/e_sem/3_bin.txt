@@ -1,0 +1,70 @@
+
+A general-purpose sync. primitive that can function both as a mutex and as a condition variable.
+ |
+ |
+ . PURPOSE : helps manage jobs , locations in a buffer , etc. 
+ |
+ |
+ . functions like a mutex
+ . keeps count of sleeping threads
+ 
+==================================================================================================
+API : 
+==================================================================================================
+
+ . sem_init(&s , share , semval) :
+    |
+    . s : semaphore to fire off
+    . share = 0 : sem is shared between threads
+    . semval : semaphore value 
+
+
+ . sem_wait() : putdown
+    |
+    . semval--;
+    . if(semval<0) wait();    // sleeps if semval<0    // skips  if semval>=1 (1->0)
+    |
+    . skips 1st wait 
+
+
+ . sem_post() : wake
+    |
+    . semval++; 
+    . wake()     // wake up a sleeping thread (if there is one)
+
+==================================================================================================
+THE WAY TO USE IT : 
+==================================================================================================
+
+ . in a mutex :     1 - locked , 0 - unlocked
+ . in a semaphore : 1 - unlocked , 0 - locked
+ . BINARY semaphore = a simple mutex-like 
+ . NON-BINARY semaphore : semval(<0) = number of sleeping threads 
+    |
+    .  1 - unlocked 
+    .  0 - locked , 0 threads sleeping 
+    . -1 - locked , 1 thread sleeping
+    .  ...
+
+
+
+
+
+
+
+
+
+===================================================================================================
+IMPLEMENTATION : 
+===================================================================================================
+#include <semaphore.h>
+
+sem_t s;
+sem_init(&s, 0, 1);
+
+sem_wait(&m);		Won't work if multiple producers/consumers 
+...			are to be allowed to access crit_sect.
+sem_post(&m);
+============================================================
+
+_

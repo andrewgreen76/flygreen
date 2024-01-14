@@ -6,6 +6,8 @@ sem_t s;
 
   sem_init(&s, 0, 0);    // semval = 0 if 1st thread is parent thread 
    . "will act as an ordering mechanism" 
+   . works for parent-child threads 
+   . more like a binary semaphore (states 0 and -1) 
 
   This is easy to deal with when working only with a couple of threads. 
 

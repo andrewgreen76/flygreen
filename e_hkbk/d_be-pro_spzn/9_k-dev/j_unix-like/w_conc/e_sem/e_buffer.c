@@ -21,14 +21,14 @@ sem_t full;
 void put(int value) {
   buffer[fill] = value; // Line F1
   fill = (fill + 1) % MAX; // Line F2    // LOOP OVER to start of buffer. 
-}
+} // THE PROBLEM HERE IS THAT A PRODUCER CAN BE INTERRUPTED , AND DATA CAN BE WRITTEN IN THE WRONG PLACE OR OVERWRITTEN. 
 
 
 int get() {
   int tmp = buffer[use]; // Line G1    // Scan thru w/ "use". 
   use = (use + 1) % MAX; // Line G2    // Roll over to start of buffer.    // 0 <= use < MAX 
   return tmp;                          // at one point supposed to ret -1 
-}
+} // No problem here since we are NOT updating the shared buffer in this scope. 
 
 // =================== THREAD FUNCTIONS : ===================
 
@@ -44,7 +44,7 @@ void *producer(void *arg) {
 
 void *consumer(void *arg) {
   int tmp = 0;
-  while (tmp != -1) {
+  while (tmp != -1) { // --------- ??? while(tmp!=loops){ ??? 
     sem_wait(&full); // Line C1
     tmp = get();     // Line C2   // marked removed , rets buffer value 
     sem_post(&empty); // Line C3

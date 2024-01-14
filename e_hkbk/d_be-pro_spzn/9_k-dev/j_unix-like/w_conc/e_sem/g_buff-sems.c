@@ -1,15 +1,20 @@
 #define MAX 10 
 int buffer[MAX];
-int fill = 0; // cur filled slot 
-int use = 0;  // cur relieved slot
-sem_t empty;
-sem_t full;
+int fill = 0; // cur filled slot   ; open data 
+int use = 0;  // cur relieved slot ; open data
+sem_t empty;  //                   ; closed data
+sem_t full;   //                   ; closed data 
 /*
-  0 <- empty's <- MAX
-   . sem_wait(&empty);    // when no empty left , producers wait() 
-  
-  0 -> full's -> MAX 
-   . sem_wait(&full);     // when no filled left , consumers wait() 
+  0 <-..<- |empty's| <-..<- MAX  
+  0 ->..-> |full's| ->..-> MAX 
+
+  sem_wait(&empty);    
+   . |empty| <-..<- MAX      
+   . no more empty left => producers wait() 
+
+  sem_wait(&full);    
+   . |full| <-..<- MAX      
+   . no filled left => consumers wait() 
 
 
   Two comparisons to zero (emptied left and filled left) tied to two different wait()'s   <=   TWO SEMAPHORES 

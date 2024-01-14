@@ -1,0 +1,4 @@
+
+Binary semaphore :
+ . a semaphore used as a lock that can only exist in either of two states : acquired and released. 
+_

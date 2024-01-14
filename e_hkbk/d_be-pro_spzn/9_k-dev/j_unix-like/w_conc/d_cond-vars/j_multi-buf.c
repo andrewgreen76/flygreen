@@ -5,9 +5,9 @@ cond_t empty, // sound off to prod's - buffer is empty
 mutex_t mutex;
 
 int buffer[MAX];
-int fill_ptr = 0;
-int use_ptr = 0;
-int count = 0;
+int fill_ptr = 0; // for tracking the slot being filled 
+int use_ptr = 0;  // for tracking the slot being unloaded 
+int count = 0;    // for tracking num of filled slots 
 
 // =================== aux. functions : ===================
 

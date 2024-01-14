@@ -72,4 +72,11 @@ int main(int argc, char *argv[]) {
    > subtracting from empty, one at a time
    > meanwhile/atomically : adding to full, one at a time 
    > two comparisons to zero , two separate conditions , two different wait()'s   <=   TWO SEMAPHORES 
+
+
+  . Producers fill the buffer full 
+  -> sound off to NO EMPTIED LEFT 
+  -> consumers suck the buffer dry 
+  -> sound off to NO FILLED LEFT 
+  -> start over with producers 
 */

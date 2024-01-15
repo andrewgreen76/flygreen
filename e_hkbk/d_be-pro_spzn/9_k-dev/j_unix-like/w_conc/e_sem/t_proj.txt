@@ -1,0 +1,9 @@
+
+ - Figure out the reason for implementing condition variables from semaphores.
+ - Attempt such an implementation. 
+
+
+"
+Constructing condition variables from semaphores, on the other hand, is a far more difficult task. Some highly experienced concurrent programmers attempted to achieve this in the Windows environment, and a slew of issues resulted. Try it for yourself to discover why creating condition variables from semaphores is more complex than it appears.
+"
+_

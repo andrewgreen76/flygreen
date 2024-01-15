@@ -1,0 +1,6 @@
+
+Thread throttling :
+ . capping the number of threads running at the same time
+ . a semaphore can be used in a situation like this 
+ 
+_

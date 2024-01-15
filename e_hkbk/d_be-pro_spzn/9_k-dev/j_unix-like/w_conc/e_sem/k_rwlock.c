@@ -1,10 +1,15 @@
 /*
   rwlock : 
-   . used on complex data structures (e.g., linked list) 
-   . one write at a time 
+   + used on complex data structures (e.g., linked list) 
+   . NO WRITING WHILE STRUCT IS UPDATED 
    . NO WRITING WHILE STRUCT IS READ 
-   . waiting writer => lack of fairness 
+   - expensive to use (due to complexity) 
+   - waiting writer => lack of fairness 
    => STARVING WRITER => keep more readers out (need new implementation) 
+   |
+   Summary : 
+    + great for accommodating multiple threads across a large and complex data structure 
+    - do not help scale up the performance 
 */
 
 typedef struct _rwlock_t {

@@ -1,0 +1,17 @@
+
+Dining philosophers problem :
+ |
+ . five philosophers at a table					P0--f0--P4
+ . separated by a single fork (five forks total)	        /	 \
+ . sometimes a philosopher eats , sometimes he thinks	       f1        f4
+    . when a philosopher eats , he needs two forks	      /	    	   \
+ |    	     		      	   	     		     P1	    	   P3
+ . every philosopher is a thread (P0-P4) 		      \		   /
+ |  	 	     	  	 			       -f2--P2--f3-
+ GOAL :
+  . write get_forks() and put_forks()
+  . no deadlock
+  . no starvation
+  . ideally : high concurrency (as many people as possible can eat at the same time)
+  
+_

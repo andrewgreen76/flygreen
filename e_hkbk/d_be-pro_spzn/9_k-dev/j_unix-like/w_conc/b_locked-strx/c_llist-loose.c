@@ -3,7 +3,7 @@ void List_Init(list_t *L) {
     pthread_mutex_init(&L->lock, NULL);
 }
 
-
+// ============== Locked insertion : ===============
 void List_Insert(list_t *L, int key) {
     // synchronization not needed
     node_t *new = malloc(sizeof(node_t));
@@ -21,15 +21,15 @@ void List_Insert(list_t *L, int key) {
     pthread_mutex_unlock(&L->lock);
 }
 
-
+// ============== Confirms presence : ==============
 int List_Lookup(list_t *L, int key) {
     int rv = -1;
     pthread_mutex_lock(&L->lock);
     node_t *curr = L->head;
     
-    while (curr) {
+    while (curr) { // traverse entire list 
 	if (curr->key == key) {
-	    rv = 0;
+	    rv = 0; // checks out 
 	    break;
 	}
 	curr = curr->next;

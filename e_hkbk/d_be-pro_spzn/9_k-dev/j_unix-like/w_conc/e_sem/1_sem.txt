@@ -7,5 +7,8 @@ A general-purpose sync. primitive that can function both as a mutex and as a con
  |
  . functions like a mutex
  . keeps count of sleeping threads
+ |
+ |
+ . It's OK to use just semaphores instead of locks and condition variables. 
 
 _

@@ -6,4 +6,9 @@
 "
 Constructing condition variables from semaphores, on the other hand, is a far more difficult task. Some highly experienced concurrent programmers attempted to achieve this in the Windows environment, and a slew of issues resulted. Try it for yourself to discover why creating condition variables from semaphores is more complex than it appears.
 "
+
+
+"
+Allen Downey’s book on concurrency and programming with semaphores is a fantastic (and free) resource. This book has many problems that you can work on to increase your understanding of semaphores in particular and concurrency in general.
+"
 _

@@ -1,0 +1,5 @@
+
+Identifier :
+ . the name of a variable or data structure
+ . int x = 0;    // ('x' is the identifier) 
+_

@@ -1,0 +1,5 @@
+
+Shell search path :
+ . all the directories holding all the executables to be utilized by the shell 
+ 
+_

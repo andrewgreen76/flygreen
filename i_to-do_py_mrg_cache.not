@@ -1,4 +1,7 @@
 
+#define  _GNU_SOURCE
+#define  _POSIX_C_SOURCE 200809L
+
 .) Any scholarships a grad student is eligible for? 
 .) Loan amt I'm eligible for - ? ($10,892)
 .) Procedure

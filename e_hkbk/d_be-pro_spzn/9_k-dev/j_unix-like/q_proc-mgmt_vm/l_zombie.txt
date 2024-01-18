@@ -1,0 +1,59 @@
+
+Can a child process finish before the parent process gets to wait()? What happens then?
+
+
+"
+Yes, it is possible for a child process to finish before the parent process reaches the `wait()` or `waitpid()` call. When a child process terminates, it becomes a "zombie" process until its exit status is retrieved by the parent. If the parent has not yet called `wait()` or `waitpid()` to collect the exit status, the child process remains in the zombie state.
+
+The operating system retains information about the terminated child process, including its exit status, until the parent retrieves that information. If the parent never calls `wait()` or `waitpid()`, zombie processes may accumulate.
+
+To handle this situation properly and avoid zombie processes, it's good practice for the parent process to promptly call `wait()` or `waitpid()` after forking a child. If a child has already terminated, the `wait()` or `waitpid()` call will retrieve its exit status immediately. If the child is still running, the parent will be suspended until the child terminates.
+
+Here's an example illustrating the concept:
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <unistd.h>
+
+int main() {
+    pid_t pid = fork();
+
+    if (pid == -1) {
+        perror("fork");
+        exit(EXIT_FAILURE);
+    } else if (pid == 0) {
+        // Code for the child process
+        printf("Child process is running\n");
+        sleep(2);
+        printf("Child process is done\n");
+        exit(EXIT_SUCCESS);
+    } else {
+        // Code for the parent process
+        printf("Parent process is waiting for the child\n");
+
+        // Parent waits for the child's exit status
+        int status;
+        pid_t child_pid = waitpid(pid, &status, 0);
+
+        if (child_pid == -1) {
+            perror("waitpid");
+            exit(EXIT_FAILURE);
+        }
+
+        if (WIFEXITED(status)) {
+            printf("Child process with PID %d exited with status %d\n", child_pid, WEXITSTATUS(status));
+        }
+
+        printf("Parent process is done\n");
+    }
+
+    return 0;
+}
+```
+
+In this example, the parent waits for the child using `waitpid()`. If the child has already terminated, the parent immediately collects its exit status; otherwise, the parent is suspended until the child terminates. Properly handling the exit status prevents zombie processes from accumulating in the system.
+"
+_

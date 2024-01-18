@@ -35,17 +35,10 @@ __________________________________________________________________________
 
 Linux : 
 - concurrency and parallelism
-  - CPU scheduler
-  - multiple-CPU computers
-  - locking hardware support :
-    - pre-emptive scheduling 
-    - mutex , spinlock , atomic functions
-    - sleep/wake , yield
-  - two-phase locks
-  - counters , approximate counting 
+  - zombie children 
 - C programming :
-  - strcpy() , strlen() , strcat() revisited
   - memset()
+  - execv() ; fork() and wait() revisited 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

@@ -1,0 +1,22 @@
+
+Where does the current process store its current directory?
+
+
+"
+The current working directory of a process is typically stored as part of the process's attributes in its process control block (PCB) or process descriptor. The process control block is a data structure maintained by the operating system for each process, containing information about the process's state, resources, and execution context.
+
+Specifically, the current working directory information is stored in the process's PCB or a similar data structure, and the operating system uses this information to resolve relative pathnames when the process performs file system operations.
+
+The exact details of how the current working directory is stored depend on the operating system. However, common elements included in the process control block related to the current working directory may include:
+
+1. **Absolute Path:** The full path to the current working directory.
+
+2. **Inode or File Descriptor:** An identifier pointing to the directory's inode or file descriptor in the file system.
+
+3. **Root Directory:** An identifier indicating the root directory.
+
+The operating system provides system calls (such as `chdir()` and `getcwd()`) to manipulate and retrieve information about the current working directory, and these calls internally update or access the relevant information in the process's PCB.
+
+Keep in mind that the current working directory is a per-process attribute, and each process has its own current working directory. Changes to the current working directory in one process do not affect the current working directory of other processes.
+"
+_

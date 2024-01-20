@@ -1,0 +1,43 @@
+"
+The `access()` function in C is used to check the accessibility of a file or a file system path. It tests the accessibility of a file based on the permissions specified by the mode argument. The function returns an integer value, and the interpretation of the return value depends on the conditions checked.
+
+Here is the basic syntax of the `access()` function:
+
+```c
+int access(const char *path, int mode);
+```
+
+- `path`: The path to the file or directory you want to check.
+- `mode`: The type of access to check, specified as a combination of permission flags (e.g., `R_OK`, `W_OK`, `X_OK`).
+
+The possible return values and their meanings are as follows:
+
+- If the file or path is accessible according to the specified mode, `access()` returns 0.
+- If the file or path does not exist, or if the specified mode is not allowed, `access()` returns -1.
+  - In the case of -1, you can check `errno` to determine the specific error condition.
+
+Here's an example of using `access()` to check if a file is readable:
+
+```c
+#include <stdio.h>
+#include <unistd.h>
+
+int main() {
+    const char *filename = "example.txt";
+
+    if (access(filename, R_OK) == 0) {
+        printf("File is readable.\n");
+    } else {
+        perror("access");
+        printf("File is not readable or does not exist.\n");
+    }
+
+    return 0;
+}
+```
+
+In this example, `access()` is used to check if the file "example.txt" is readable (`R_OK`). If it is, a success message is printed; otherwise, an error message is printed using `perror()`.
+
+Remember to include the necessary header file `<unistd.h>` when using `access()`.
+"
+_

@@ -1,0 +1,11 @@
+
+List :
+
+signal() 
+
+===========================================================================================
+
+- signal() - used by processes to send and receive signals and react to them by executing specific pieces of code
+   . <signal.h> 
+
+_

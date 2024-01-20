@@ -2,16 +2,17 @@
 Process API syscalls :
 _______________________________________________________________________________________________________________________________________
 
-. exit()
-. getpid()
 . fork()
+. sleep()
 . wait()
 . waitpid()
-. exec()
-. execvp()
-. sleep()
+. getpid()
+. exit()
+
 . kill()
-. signal() 
+. execv()
+. execlp()
+. execvp()
 _______________________________________________________________________________________________________________________________________
 
 Some from <unistd.h> - this library holds system calls and low-level I/O operations as well as the macros for them. 
@@ -73,7 +74,6 @@ A child process : a near copy of the original (parent) process.
     $ fg   - resumes the paused process
   - This is made possible by the signals subsystem and the infrastructure it provides. Signals can be sent to and received by
     individual processes and process groups.
-- signal() - used by processes to send and receive signals and react to them by executing specific pieces of code  
 _______________________________________________________________________________________________________________________________________
 
 pthreads (POSIX threads) : 

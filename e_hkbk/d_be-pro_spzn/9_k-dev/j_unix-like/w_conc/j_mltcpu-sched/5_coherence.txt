@@ -6,11 +6,11 @@ Cache coherence problem :
  |  => At this point the new cache would have to access the same frequently needed data that used to be instantly available to the process. 
  |
  . => multiple (local) caches copying the same data
- |    => overhead : wasting cache space
+ |    => overhead : wasting cache space on the same data 
  |    => overhead : eating up CPU time with RAM lookups and copies to cache
  |
  . in the event of CPU-RAM overwrite ...
-    . there is nothing that 
+    . there is nothing that would update cache(s) 
     => lack of data consistency between caches ("incoherent data")
 
 ==================================================================================================

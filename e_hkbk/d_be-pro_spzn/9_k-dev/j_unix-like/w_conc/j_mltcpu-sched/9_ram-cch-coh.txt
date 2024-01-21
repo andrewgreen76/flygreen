@@ -1,0 +1,35 @@
+
+		 |				 |
+mem_addr updated |	mem_addr		 |	mem_addr w/ old data 
+	 |	 |	   ^			 |
+----no_update--- |	   |  			 |
+	 |       |	   ? (write-back or no?) |
+	 v	 |	   | 		    	 |
+ same old cache	 |   cache updated		 |	cache <--?--> cache
+       		 |   	   			 |
+
+===================================================================================================================================================
+"When a CPU core modifies data at a memory location that was previously loaded into the CPU's cache, does the data in the cache get updated too?" 
+===================================================================================================================================================
+
+
+"
+Yes, when a CPU core modifies data at a memory location that was previously loaded into its cache, the cache is typically updated to reflect the modified data. This process is governed by the cache coherence protocol, which ensures that multiple caches in a multiprocessor system maintain a consistent view of shared data.
+
+The basic steps involved in this process are as follows:
+
+1. **Invalidation or Update:**
+   - Depending on the cache coherence protocol used, the cache may invalidate its copy of the data or update it with the modified content. Common cache coherence protocols include MESI (Modified, Exclusive, Shared, Invalid) and MOESI (Modified, Owned, Exclusive, Shared, Invalid).
+
+2. **Write-Back or Write-Through:**
+   - In systems with a write-back policy, the modified data is first written to the cache, and later, it may be written back to the main memory. In contrast, a write-through policy involves updating both the cache and main memory simultaneously.
+
+3. **Notification to Other Caches:**
+   - The cache coherence protocol ensures that other caches that have copies of the same data are notified of the modification. This notification may involve broadcasting a signal on the system's bus or using other interconnect mechanisms to inform other caches that their copies are no longer valid.
+
+4. **Synchronization with Main Memory:**
+   - Eventually, the modified data is synchronized with the main memory to maintain a consistent and persistent state. This ensures that, if another processor or core accesses the same memory location, it retrieves the most up-to-date data.
+
+Cache coherence protocols use a combination of techniques, such as snooping, invalidation, and update-based strategies, to manage the consistency of shared data across multiple caches. The goal is to prevent data inconsistencies and ensure that all processors in the system see a coherent view of memory, even in a multiprocessor environment where multiple cores may be simultaneously modifying shared data.
+"
+_

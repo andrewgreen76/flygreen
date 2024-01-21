@@ -1,0 +1,6 @@
+
+Rewriting / redevelopment of code.
+ . can be refactoring
+ . can be something less efficient 
+
+_

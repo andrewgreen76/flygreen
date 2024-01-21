@@ -1,4 +1,6 @@
 
+Refactoring : 
+|
 Changing the inner workings of something (e.g., in an API , the kernel , etc.) without calling for rewriting the higher code that leverages the guts.
  . This keeps the software user-friendly. 
 

@@ -8,5 +8,6 @@ A challenge : boosting the performance of a single CPU without significant power
  + But there are APIs that can help us achieve parallelism explicitly , thereby helping the program's performance. 
     . parallel processing ( fork() )
     . multi-threading ( <pthread.h> )
+ - Also means that the higher code that leverages this may have to be rewritten. (Not what refactoring is.) 
     
 _

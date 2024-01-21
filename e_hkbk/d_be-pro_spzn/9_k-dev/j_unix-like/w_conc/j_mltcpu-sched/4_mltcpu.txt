@@ -1,0 +1,12 @@
+
+A challenge : boosting the performance of a single CPU without significant power consumption.
+ |
+ + multiprocessors became the answer 
+ + "Multiprocessor architectures are now common across various computing devices."
+ - Simply adding more CPUs will not automatically boost the performance of a C program.
+    . a C program typically runs on a single CPU 
+ + But there are APIs that can help us achieve parallelism explicitly.
+    . parallel processing ( fork() )
+    . multi-threading ( <pthread.h> )
+    
+_

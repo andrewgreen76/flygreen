@@ -1,13 +1,11 @@
 
-----------+
-CPU	  |
-----------+
-Registers |
-==========+======+
-L1	}	 |
-L2	} caches |
-L3	} 	 |
-=================+
+----------+		}
+Registers |		} CPU (<>clock) 
+==========+======++	} retains process state
+L1	}	 ||	} 
+L2	} caches ||	} 
+L3	} 	 ||	}
+=================++	}
 |
 RAM	main memory 
 |

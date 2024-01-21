@@ -1,11 +1,14 @@
 
 Single-Queue Multiprocessor Scheduling (SQMS) :
- | 
+ |
+ |
  . all jobs across all CPUs are lined up in one scheduling queue
- . the queue has locks (one for the head , one for the tail)
-    => bottlenecks
-    => the more CPUs get lined up for the lock , the slower the system
-    => tasks get moved between CPUs
+ |
+ . The queue has its own set of locks (one for the head , one for the tail) to be acquired one process at a time.
+   -> a waiting process means high CPU utilization (non-stop use of all the registers and caches) 
+   -> Bottleneck #1 : "High CPU utilization on one or more cores can create bottlenecks, slowing down the execution of processes and tasks."
+   -> Bottleneck #2 : the more CPUs get lined up for the lock , the slower the system
+    => tasks get moved between CPUs 
 
 
 

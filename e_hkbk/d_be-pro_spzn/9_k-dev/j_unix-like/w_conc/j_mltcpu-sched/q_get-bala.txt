@@ -1,0 +1,20 @@
+
+
+
+
+"
+In a single-queue multiprocessor scheduling system, load balancing is crucial to ensure that the workload is distributed evenly across multiple CPUs. When there is one process actively running on a CPU, load balancing can be achieved by considering the following techniques:
+
+1. **Affinity Scheduling:** Affinity scheduling involves assigning specific processes to particular CPUs. However, when there is only one process running, the scheduler can use this time to analyze the system's overall load and decide if a more balanced distribution of tasks is needed. It may then choose to migrate processes to other CPUs to achieve better load balancing.
+
+2. **Dynamic Load Balancing:** Even if there is only one process running initially, the system may periodically check the load on each CPU. If imbalances are detected, the scheduler can migrate processes to other CPUs to distribute the load more evenly. This dynamic approach helps maintain balance as the workload changes over time.
+
+3. **Task Migration:** The scheduler can periodically evaluate the CPU load and decide to migrate tasks from one CPU to another to balance the load. This involves moving a running task from a heavily loaded CPU to a less loaded one. The migration should be done carefully to minimize overhead and ensure efficient resource utilization.
+
+4. **Load Prediction:** Sophisticated schedulers may use load prediction algorithms to anticipate future changes in the workload. By analyzing historical data and trends, the scheduler can proactively migrate tasks to achieve load balancing before significant imbalances occur.
+
+5. **Priority Adjustment:** The scheduler can dynamically adjust the priority of processes based on the current load of each CPU. Processes on heavily loaded CPUs may have their priorities lowered, encouraging the scheduler to migrate them to less loaded CPUs.
+
+In summary, load balancing in single-queue multiprocessor scheduling involves periodic evaluation of CPU loads, dynamic task migration, and proactive measures to prevent imbalances. These techniques help optimize system performance by ensuring that the processing power of multiple CPUs is utilized efficiently.
+"
+_

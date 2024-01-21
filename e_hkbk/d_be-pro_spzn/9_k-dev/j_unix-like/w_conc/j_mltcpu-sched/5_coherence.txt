@@ -1,7 +1,20 @@
 
-Cache coherence :
- . When a process migrates from one CPU to another , it loses the connection to its old cache with all the data therein. 
- . Cache coherence : resolution between the old and the new caches to serve the process.
-    - At this point the new cache would have to access the same frequently needed data that used to be instantly available to the process. 
+Cache coherence problem :
+ |
+ |
+ . When a process migrates from one CPU to another , it loses the connection to its old cache with all the frequently needed data therein.
+ |  => At this point the new cache would have to access the same frequently needed data that used to be instantly available to the process. 
+ |
+ . => multiple (local) caches copying the same data
+ |    => overhead : wasting cache space
+ |    => overhead : eating up CPU time with RAM lookups and copies to cache
+ |
+ . in the event of CPU-RAM overwrite ... 
+ . => lack of data consistency between caches ("incoherent data")
 
+==================================================================================================
+
+Side note :
+ . "local cache" = just "cache"
+ . typically a cache that is closer to the CPU 
 _

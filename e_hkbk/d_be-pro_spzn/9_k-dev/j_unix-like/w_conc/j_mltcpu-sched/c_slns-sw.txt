@@ -1,0 +1,7 @@
+
+"Operating systems and applications can also be designed to minimize cache coherence issues, for instance, by managing process allocation to CPUs or optimizing memory access patterns."
+|
+|
+. multi-threading API (locks , condition variables , semaphores) 
+
+_

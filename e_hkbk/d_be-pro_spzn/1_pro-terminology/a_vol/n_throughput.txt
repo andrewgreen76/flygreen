@@ -1,0 +1,7 @@
+
+"the amount of material or items passing through a system or process."
+
+"
+Network throughput refers to the rate of message delivery over a communication channel, such as Ethernet or packet radio, in a communication network. The data that these messages contain may be delivered over physical or logical links, or through network nodes.
+"
+_

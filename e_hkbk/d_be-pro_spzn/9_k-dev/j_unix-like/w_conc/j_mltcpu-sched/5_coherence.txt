@@ -1,0 +1,7 @@
+
+Cache coherence :
+ . When a process migrates from one CPU to another , it loses the connection to its old cache with all the data therein. 
+ . Cache coherence : resolution between the old and the new caches to serve the process.
+    - At this point the new cache would have to access the same frequently needed data that used to be instantly available to the process. 
+
+_

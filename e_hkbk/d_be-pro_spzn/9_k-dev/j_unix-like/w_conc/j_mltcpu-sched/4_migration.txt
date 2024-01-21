@@ -4,13 +4,14 @@ Process migration :
  . (in the context of concurrency / multiprocessor scheduling) an instance of a process getting moved from one CPU to another.
  ! This happens because of what the CPUs are going through. 
     |
-    REASONS FOR PROCESS MIGRATION :
+    REASONS FOR PROCESS MIGRATION : 
     . the core's dedicated cache is clogged  
-    . imbalance of workload (processes) between the cores 
+    . imbalance of workload (processes) between the cores (need "load balancing") 
     . high contention on the same CPU 
-    . CPUs configured differently
+    . CPUs configured differently 
        . "changing the operating frequency and voltage of CPUs based on the workload" 
        . "DVFS : Processes may be migrated to CPUs that operate at lower power states to save energy during periods of low demand."
+      => "utilizing resources differently" 
 
 =====================================================================================================================================
 "

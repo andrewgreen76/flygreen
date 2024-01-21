@@ -1,5 +1,0 @@
-
-Cache coherence :
- . the issue of consistency between caches whenever
-
-_

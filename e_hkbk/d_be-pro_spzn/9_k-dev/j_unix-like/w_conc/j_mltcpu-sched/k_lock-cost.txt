@@ -1,0 +1,4 @@
+
+Employing a lock can introduce an overhead. 
+ . "Access to a synchronized shared data structure [by multiple threads] gets quite slow as the number of CPUs [lining up] grows."
+_

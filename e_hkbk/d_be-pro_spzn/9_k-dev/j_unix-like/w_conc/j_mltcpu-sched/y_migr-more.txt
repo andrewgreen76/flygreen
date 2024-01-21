@@ -1,0 +1,26 @@
+"
+Process migration refers to the dynamic relocation of a running process from one computing environment to another. In this context, a computing environment can refer to a different physical machine, a different virtual machine, or even a different location within a distributed computing system. The goal of process migration is to optimize resource utilization, load balancing, fault tolerance, or energy efficiency.
+
+Key features and concepts associated with process migration include:
+
+1. **Dynamic Relocation:**
+   - Process migration involves moving a process from its current execution environment to another, while the process is actively running. This is in contrast to process creation or termination, where the process is not actively executing during the transition.
+
+2. **Reasons for Migration:**
+   - **Load Balancing:** Distributing the computational load more evenly across the system.
+   - **Resource Optimization:** Moving processes to utilize available resources more efficiently.
+   - **Fault Tolerance:** Relocating processes to recover from failures or hardware/software problems.
+   - **Energy Efficiency:** Consolidating processes on fewer machines during periods of low demand to save power.
+
+3. **Communication and State Transfer:**
+   - During process migration, the state of the migrating process, including its memory contents, needs to be transferred to the destination environment. Communication mechanisms ensure that the state is correctly transmitted and applied.
+
+4. **Transparent Migration:**
+   - Ideally, the migration process should be transparent to the end-user and not disrupt the ongoing computation. Achieving transparency requires managing issues such as network latency, data consistency, and potential differences in the execution environment.
+
+5. **Migration Control:**
+   - The decision to migrate a process can be automated based on system policies or load conditions. Alternatively, it can be initiated manually or by a higher-level scheduler.
+
+Process migration is commonly associated with distributed systems, cloud computing, and virtualized environments, where resources are shared among multiple users or applications. It is a complex mechanism that involves addressing challenges related to maintaining consistency, ensuring data integrity, and managing the communication between the source and destination environments.
+"
+_

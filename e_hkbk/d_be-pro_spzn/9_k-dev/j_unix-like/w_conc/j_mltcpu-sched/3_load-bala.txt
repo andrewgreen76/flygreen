@@ -1,3 +1,8 @@
+
+Load balancing :
+ . ensuring that workload is a fair amount on every CPU 
+
+
 "
 Load balancing is the process of distributing computational workloads or network traffic across multiple resources, such as servers, processors, or network links, to ensure optimal resource utilization, minimize response time, and avoid overload on any single resource. Load balancing is a crucial concept in distributed computing, cloud computing, and networking environments where multiple entities work together to handle requests or tasks.
 

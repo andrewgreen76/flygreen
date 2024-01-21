@@ -1,5 +1,5 @@
 
-Memory updake optimization goals and ideas :
+Memory uptake optimization goals and ideas :
 
 . segmentation : con : has its own way of leading to fragmentation (within the heap and elsewhere in RAM)
    	       	 pro : but it does its best at utilizing free memory

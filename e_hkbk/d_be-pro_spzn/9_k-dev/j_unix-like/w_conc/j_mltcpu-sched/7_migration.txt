@@ -1,0 +1,45 @@
+
+Process migration :
+ |
+ . (in the context of concurrency / multiprocessor scheduling) an instance of a process getting moved from one CPU to another.
+ ! This happens because of what the CPUs are going through. 
+    |
+    REASONS FOR PROCESS MIGRATION :
+    . the core's dedicated cache is clogged  
+    . imbalance of workload (processes) between the cores 
+    . high contention on the same CPU 
+    . CPUs configured differently
+       . "changing the operating frequency and voltage of CPUs based on the workload" 
+       . "DVFS : Processes may be migrated to CPUs that operate at lower power states to save energy during periods of low demand."
+
+=====================================================================================================================================
+"
+Processes may be moved from one CPU to another for various reasons, and the decision to move a process is typically influenced by system-level considerations aimed at optimizing resource utilization, performance, and energy efficiency. Here are common reasons for migrating processes between CPUs:
+
+1. **Load Balancing:**
+   - **Uneven Workload Distribution:** In a multiprocessor or multicore system, processes may be migrated to balance the computational workload across CPUs. Load balancing aims to ensure that no CPU is significantly underutilized or overloaded, improving overall system efficiency.
+
+2. **Resource Utilization:**
+   - **Resource Availability:** Processes may be migrated to CPUs with more available resources, such as lower memory utilization or less contention for shared resources. This helps optimize the use of system resources.
+
+3. **Energy Efficiency:**
+   - **Dynamic Voltage and Frequency Scaling (DVFS):** Some systems support changing the operating frequency and voltage of CPUs based on the workload. Processes may be migrated to CPUs that operate at lower power states to save energy during periods of low demand.
+
+4. **Fault Tolerance:**
+   - **Avoiding Faulty CPUs:** If a CPU becomes faulty or experiences hardware issues, processes may be migrated to a healthy CPU to maintain system reliability and availability.
+
+5. **Real-time Constraints:**
+   - **Meeting Deadlines:** In real-time systems, processes with time-sensitive tasks may be migrated to CPUs with lower contention or better responsiveness to meet tight deadlines.
+
+6. **Temperature Management:**
+   - **Thermal Considerations:** In systems with thermal constraints, processes may be moved to CPUs with lower temperatures to prevent overheating and ensure reliable operation.
+
+7. **Affinity and NUMA Architectures:**
+   - **Non-Uniform Memory Access (NUMA):** On systems with NUMA architectures, processes may be migrated to CPUs that are closer to the memory locations they access, reducing memory access latency. Affinity management helps optimize the placement of processes on specific CPUs.
+
+8. **Hardware Maintenance:**
+   - **Isolating CPUs:** During hardware maintenance or upgrades, processes may be migrated away from CPUs undergoing maintenance to minimize service disruption.
+
+Process migration involves transferring the state of a running process, including its execution context and memory contents, to another CPU. The decision to migrate processes is often made by the operating system's scheduler based on policies, system load, and other factors. The goal is to enhance system performance, responsiveness, and overall efficiency.
+"
+_

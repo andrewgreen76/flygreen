@@ -1,0 +1,5 @@
+
+Multi-core processor = multiprocessor. 
+ => Loosely speaking , core = CPU. 
+
+_

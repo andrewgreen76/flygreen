@@ -1,17 +1,17 @@
 
-		       |				 |
-mem_addr data updated  |	mem_addr		 |	  m e m o r y   a d d r e s s 
-	 |	       |	   ^			 |		w/ old data
------no_update-----    |	   |  			 |
-	 |             |	   ? (write-back or no?) |
-	 v	       |	   | 		    	 |
- same old cache	       |     cache data updated		 |	cache 1 data <--?--> cache 2 data 
-       		       |   	   			 |
+		       |				 |						|
+mem_addr data updated  |    same old mem_addr		 |	  m e m o r y   a d d r e s s 		|	
+	 |	       |	   ^			 |	  ________w/ old data________  		|
+-----no_update-----    |	   |  			 |	      			|		|
+	 |             |----no_upd_unless_write-back---- |	      			|		|
+	 v	       |	   | 		    	 |	      			v		|
+  same old cache       |    cache data updated		 |    cache 1 data  <--?--> cache 2 data 	|
+		       |				 |	(updated)   	     (old data)		|
+		       |				 |	      	     	     	     		|
 
 ===================================================================================================================================================
 "When a CPU core modifies data at a memory location that was previously loaded into the CPU's cache, does the data in the cache get updated too?" 
 ===================================================================================================================================================
-
 
 "
 Yes, when a CPU core modifies data at a memory location that was previously loaded into its cache, the cache is typically updated to reflect the modified data. This process is governed by the cache coherence protocol, which ensures that multiple caches in a multiprocessor system maintain a consistent view of shared data.

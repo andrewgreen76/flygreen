@@ -1,0 +1,15 @@
+
+Single-Queue Multiprocessor Scheduling (SQMS) :
+ | 
+ . all jobs across all CPUs are lined up in one scheduling queue
+ . the queue has locks (one for the head , one for the tail)
+    => bottlenecks
+    => the more CPUs get lined up for the lock , the slower the system
+    => tasks get moved between CPUs
+
+
+
+Multi-Queue Multiprocessor Scheduling (MQMS) :
+ |
+ . every CPU gets its own queue 
+_

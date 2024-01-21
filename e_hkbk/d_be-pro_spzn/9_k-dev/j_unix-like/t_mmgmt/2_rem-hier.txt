@@ -1,0 +1,19 @@
+
+----------+
+CPU	  |
+----------+
+Registers |
+==========+======+
+L1	}	 |
+L2	} caches |
+L3	} 	 |
+=================+
+|
+RAM	main memory 
+|
+|
+|
+SSD	storage 
+HDD	
+
+_

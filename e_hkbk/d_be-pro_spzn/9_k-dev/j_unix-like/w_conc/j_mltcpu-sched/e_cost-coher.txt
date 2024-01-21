@@ -1,0 +1,4 @@
+"
+Latency and Throughput: Cache coherence mechanisms, while essential for data integrity and consistency, can impact system latency and throughput. Ensuring that all CPUs have a coherent view of memory can require additional synchronization and data transfer overhead.
+"
+_

@@ -15,8 +15,8 @@ x [hardware primitives]
   . AND
   . OR 
   . JMP 
-  . LDA mem.addr (mem.addr -> eax) 
-  . STA mem.addr (eax -> mem.addr)
+  . LDA mem.addr (eax <- mem.addr) 
+  . STA mem.addr (mem.addr <- eax)
 
 
 

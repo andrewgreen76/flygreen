@@ -13,6 +13,15 @@ Process migration :
        . "DVFS : Processes may be migrated to CPUs that operate at lower power states to save energy during periods of low demand."
       => "utilizing resources differently" 
 
+
+CPU accessing data :
+ . Access 0x... NOW via the cache.
+ 
+CPU accessing data post-migration :
+ . Access 0x... NOW via the cache.
+ . What ?! It's not in the cache ?! Look it up in RAM and load it.
+    . RAM may not have been updated. 
+
 =====================================================================================================================================
 "
 Processes may be moved from one CPU to another for various reasons, and the decision to move a process is typically influenced by system-level considerations aimed at optimizing resource utilization, performance, and energy efficiency. Here are common reasons for migrating processes between CPUs:

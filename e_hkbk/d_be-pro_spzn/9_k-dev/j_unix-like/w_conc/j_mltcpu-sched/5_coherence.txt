@@ -9,8 +9,9 @@ Cache coherence problem :
  |    => overhead : wasting cache space
  |    => overhead : eating up CPU time with RAM lookups and copies to cache
  |
- . in the event of CPU-RAM overwrite ... 
- . => lack of data consistency between caches ("incoherent data")
+ . in the event of CPU-RAM overwrite ...
+    . there is nothing that 
+    => lack of data consistency between caches ("incoherent data")
 
 ==================================================================================================
 

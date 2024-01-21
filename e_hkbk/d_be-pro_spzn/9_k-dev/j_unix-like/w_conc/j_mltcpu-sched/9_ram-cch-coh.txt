@@ -1,12 +1,12 @@
 
-		 |				 |
-mem_addr updated |	mem_addr		 |	mem_addr w/ old data 
-	 |	 |	   ^			 |
-----no_update--- |	   |  			 |
-	 |       |	   ? (write-back or no?) |
-	 v	 |	   | 		    	 |
- same old cache	 |   cache updated		 |	cache <--?--> cache
-       		 |   	   			 |
+		       |				 |
+mem_addr data updated  |	mem_addr		 |	  m e m o r y   a d d r e s s 
+	 |	       |	   ^			 |		w/ old data
+-----no_update-----    |	   |  			 |
+	 |             |	   ? (write-back or no?) |
+	 v	       |	   | 		    	 |
+ same old cache	       |     cache data updated		 |	cache 1 data <--?--> cache 2 data 
+       		       |   	   			 |
 
 ===================================================================================================================================================
 "When a CPU core modifies data at a memory location that was previously loaded into the CPU's cache, does the data in the cache get updated too?" 

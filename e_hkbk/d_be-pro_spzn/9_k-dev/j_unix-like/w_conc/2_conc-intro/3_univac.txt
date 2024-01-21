@@ -1,0 +1,10 @@
+"
+The concept of multi-threading has evolved over time, and the term itself has been used in various contexts. However, one of the early examples of a computer system featuring a form of simultaneous or concurrent processing can be traced back to the UNIVAC I (Universal Automatic Computer I), which was one of the earliest commercially produced computers.
+
+The UNIVAC I, designed by J. Presper Eckert and John Mauchly, became operational in 1951. While it may not have had the modern concept of multi-threading as we understand it today, it did support the concept of overlapping or interleaved processing through the use of what was known as "subroutine" or "subroutine processor."
+
+In the UNIVAC I, the main processor could execute instructions, and at the same time, a separate unit known as the "subroutine" or "special function unit" could perform additional calculations or data processing concurrently. This allowed for a certain level of parallelism or overlapping of tasks, akin to a form of multi-threading.
+
+It's important to note that the terminology and concepts around multi-threading have evolved significantly since the early days of computing. Modern multi-threading involves the concurrent execution of threads within a single process, and this concept became more prominent with the advent of multi-core processors in the late 20th and early 21st centuries.
+"
+_

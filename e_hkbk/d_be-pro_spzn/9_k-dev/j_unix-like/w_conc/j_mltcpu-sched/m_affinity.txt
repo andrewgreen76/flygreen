@@ -1,0 +1,7 @@
+
+Cache affinity :
+ . process retains optimal performance through staying and working with the same cache/CPU
+    . no migration overhead 
+    . data consistency
+    . the process "retains its state" 
+_

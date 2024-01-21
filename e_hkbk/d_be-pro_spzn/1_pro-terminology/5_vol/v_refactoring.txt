@@ -1,4 +1,9 @@
 
+Changing the inner workings of something (e.g., in an API , the kernel , etc.) without calling for rewriting the higher code that leverages the guts.
+ . This keeps the software user-friendly. 
+
+
+
 "
 Code refactoring is the process of improving the internal structure of a software codebase without changing its external behavior. It is a disciplined technique used to modify code to make it more maintainable, readable, and efficient without altering the overall functionality. The primary goal of refactoring is to improve the code's design, reduce technical debt, and make it easier to understand and extend.
 

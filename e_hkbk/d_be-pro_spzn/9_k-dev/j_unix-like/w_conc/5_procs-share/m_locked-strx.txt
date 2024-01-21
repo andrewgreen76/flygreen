@@ -1,0 +1,37 @@
+
+Is the scheduling queue the only structure that multiple CPUs can access ONLY one at a time? 
+
+
+
+"
+No, the scheduling queue is not the only structure that multiple CPUs can access one at a time. In a multi-processor system, there are various shared data structures and resources that require synchronization to ensure proper and coordinated access. The scheduling queue is just one example.
+
+Other examples of structures and resources that may be accessed by multiple CPUs concurrently and require synchronization include:
+
+1. **Memory Management Structures:**
+   - Page tables, TLB (Translation Lookaside Buffer), and other memory management structures may be shared among processors. Access to these structures needs synchronization to avoid inconsistencies.
+
+2. **File System Data Structures:**
+   - Inode tables, directory structures, and file control blocks within a file system may be shared among processors when multiple processes are interacting with the file system.
+
+3. **Kernel Data Structures:**
+   - Task control blocks, process tables, system call tables, and other kernel data structures are often shared and need proper synchronization.
+
+4. **Network Buffers and Queues:**
+   - Buffers and queues used for network communication may be accessed by multiple processors in a multi-processor system.
+
+5. **Device Drivers:**
+   - Device drivers managing hardware devices may have shared data structures. Multiple processors might interact with these structures when performing I/O operations.
+
+6. **Interrupt Handling Data Structures:**
+   - Data structures used in interrupt handling, such as interrupt descriptor tables, may be accessed concurrently by multiple CPUs.
+
+7. **Kernel Caches:**
+   - Caches maintained by the kernel, such as file system caches or buffer caches, may be shared resources accessed by multiple processors.
+
+8. **System Clock and Timers:**
+   - The system clock, timers, and related data structures used for scheduling may require synchronization when accessed by multiple CPUs.
+
+In all these cases, synchronization mechanisms like locks, semaphores, or atomic operations are employed to prevent race conditions, data corruption, and ensure the consistency of shared data structures. Coordination is essential to maintaining the correctness and predictability of the operating system's internal state in a multi-processor environment.
+"
+_

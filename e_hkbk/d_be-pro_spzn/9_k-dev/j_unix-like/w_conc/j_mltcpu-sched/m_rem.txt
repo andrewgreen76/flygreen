@@ -1,0 +1,43 @@
+
+CPU resources :
+ |
+ + components 
+ + TIME ALLOTTED 
+
+
+High CPU utilization : 
+ . The problem is lots of CPU components getting really hot and staying really hot for a long time. 
+
+================================================================================
+================================================================================
+================================================================================
+
+ . registers
+ . caches
+ . speed 
+ . CPU time 
+
+================================================================================
+================================================================================
+================================================================================
+
+ + registers : ALU , IP/PC , SP , BP , etc. 
+ + CU (atomically load control words) 
+ . computational time
+ + computational power
+    + clock speed
+    + ISA features (FPU , etc.) 
+    + size and quality of caches 
+
+================================================================================
+================================================================================
+================================================================================
+
+ISA-based capabilities
+ + e.g., FPU and floating-point instructions 
+
+
+CU :
+ . in_addr -> look up atomic routine : move control words 
+
+_

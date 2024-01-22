@@ -1,3 +1,7 @@
+
+Idling or running very few tasks. 
+
+
 "
 CPU utilization, or the percentage of time that the CPU spends actively executing tasks, can decrease for various reasons. Here are some common factors that contribute to a decrease in CPU utilization:
 

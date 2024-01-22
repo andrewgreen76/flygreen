@@ -1,5 +1,5 @@
 
-Limited direct execution :			KERNEL					PROGRAM
+Limited direct execution (RR) :			KERNEL					PROGRAM
 |
 |
 |

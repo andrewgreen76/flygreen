@@ -4,7 +4,10 @@ Single-Queue Multiprocessor Scheduling (SQMS) :
  |
  . all jobs across all CPUs are lined up in one scheduling queue
  |  . centralized scheduling (one CPU scheduler)
- |  . THROUGHPUT : ONE TASK AT A TIME 
+ |  . THROUGHPUT : ONE TASK AT A TIME
+ |    => processes can be dropped on and parallelized on the same core
+ |    => high CPU utilization is possible
+ |    => process migration is possible 
  |
  . The queue has its own set of locks (one for the head , one for the tail) to be acquired by one process at a time. 
  |  => BOTTLENECK - CONTENTION FOR THE QUEUE : the more CPUs get lined up for the lock , the slower the system.

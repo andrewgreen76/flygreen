@@ -11,8 +11,8 @@ Multi-Queue Multiprocessor Scheduling (MQMS) - scalability :
     . a completely independent queue 
     => completely independent concurrent scheduling and task assignment 
     => FASTER , WIDER THROUGHPUT - up to N tasks scheduled at a time -and- up to N tasks assigned at a time 
-    => less of a need for load balancing
-    => reduced communication between cores 
+    => less of a need for load balancing (theoretically) 
+    => reduced communication between cores (low-latency , but latency is latency) 
 
 ============================================================================
 

@@ -16,12 +16,21 @@ Process migration :
 
 CPU accessing data :
  . Access 0x... NOW via the cache.
- 
+|
+|
 CPU accessing data post-migration :
  . Access 0x... NOW via the cache.
  . What ?! It's not in the cache ?! Look it up in RAM and load it.
-    . RAM may not have been updated. 
+    - RAM may not have been updated even though the old cache has been. 
 
+
+OVERHEAD :
+ . the time for moving the process from core to core
+ . the time for loading the same needed data from RAM to the new cache 
+    - it may not even be the updated data in the old cache
+    
+=====================================================================================================================================
+=====================================================================================================================================
 =====================================================================================================================================
 "
 Processes may be moved from one CPU to another for various reasons, and the decision to move a process is typically influenced by system-level considerations aimed at optimizing resource utilization, performance, and energy efficiency. Here are common reasons for migrating processes between CPUs:

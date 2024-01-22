@@ -1,8 +1,40 @@
 
 Cache affinity :
- . quite simply, repeated access to the same cache 
- . process retains optimal performance through staying and working with the same cache/CPU
-    . no migration overhead 
-    . data consistency
-    . the process "retains its state" 
+ |
+ . a case of the same process being kept on the same core and leveraging the same cache for more recurring executions
+ |
+ + the process achieves optimal performance every time by accessing the same cache over and over 
+ + the process re-captures its old state very quickly
+ + A multiprocessor scheduler is actually expected to account for cache affinity before considering load balancing. 
+
+=======================================================================================================
+=======================================================================================================
+=======================================================================================================
+
+"
+Yes, there are several reasons, beyond cache considerations, for repeatedly assigning the same process to the same core in a multiprocessor system. Here are some additional reasons:
+
+1. **Thread Affinity:**
+   - Thread affinity refers to the tendency to keep a thread or process bound to a specific core. It helps maintain a consistent execution environment and can be beneficial in scenarios where the thread benefits from the cache locality of that specific core.
+
+2. **Reduced Cache Misses:**
+   - Keeping a process on the same core reduces cache misses. Cache misses occur when the required data is not present in the cache and needs to be fetched from the slower main memory. Assigning a process to the same core minimizes cache misses, leading to improved performance.
+
+3. **Preserving CPU State:**
+   - Some applications or workloads might have specific CPU state or context that is beneficial to preserve across executions. Keeping the process on the same core helps maintain this state, potentially avoiding the overhead of restoring state information.
+
+4. **Optimized Resource Usage:**
+   - In situations where the workload exhibits a degree of locality or affinity to a specific core, keeping the process on that core may lead to more efficient use of resources. This can be particularly relevant in scenarios with NUMA (Non-Uniform Memory Access) architectures.
+
+5. **Minimized Inter-Core Communication:**
+   - If the process interacts frequently with other processes or threads running on the same core, keeping it on the same core can minimize inter-core communication overhead.
+
+6. **Predictable Performance:**
+   - Assigning a process to the same core provides predictable performance characteristics, especially in scenarios where the workload's behavior is well-suited to a particular core's cache architecture.
+
+7. **Thread Prioritization:**
+   - Some scheduling policies or systems may prioritize threads or processes that have historically been assigned to a specific core. This prioritization can be based on performance metrics, historical data, or other considerations.
+
+It's important to note that the decision to repeatedly assign a process to the same core involves trade-offs. While it may enhance certain aspects of performance, it may also lead to load imbalances across cores. Scheduling policies need to consider the overall system goals, workload characteristics, and the impact on resource utilization to achieve the desired balance between predictability and optimization.
+"
 _

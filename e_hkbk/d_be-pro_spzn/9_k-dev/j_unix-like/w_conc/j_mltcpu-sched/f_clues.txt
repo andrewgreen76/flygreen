@@ -40,8 +40,7 @@ PROCESS MIGRATION
  . again , only applicable to cores that only have one task 
  + alleviates high CPU utilization to an extent by simply moving other process(es) on the same CPU
    to a different CPU that is available or not as burdened 
- 
- - does entirely NOT solve the problem of high utilization on any core 
+ - does NOT entirely solve the problem of high utilization on a core 
 
 
 

@@ -3,14 +3,14 @@
 TASK QUEUES , SCHEDULING ALGORITHMS (REVISITED) 
 =========================================================================
 
- . It's not always a "true queue" (FCFS).
+ . A scheduling queue is not necessarily a "true queue" (FCFS).
  |
- . SJF (to completion) 
+ . SJF 
  . MLFQ
  . RR 
 
 =========================================================================
-MULTIPLE CORES SHARING INFORMATION - WHAT ?
+MULTIPLE CORES SHARING INFORMATION - LIKE WHAT ?
 =========================================================================
 
  . number of tasks running 

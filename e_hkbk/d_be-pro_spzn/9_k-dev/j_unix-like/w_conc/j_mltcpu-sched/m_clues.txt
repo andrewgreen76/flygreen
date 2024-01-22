@@ -10,26 +10,34 @@ CPU RESOURCES
 HIGH CPU UTILIZATION 
 ====================================================================================================
 
- . The problem is lots of CPU components getting really hot and staying really hot for a long time. 
+ = A problem marked by having lots of CPU components (registers , caches , CU) getting really hot
+   and staying really hot for a long time. 
 
 ====================================================================================================
 CPU-INTENSIVE OPERATIONS
 ====================================================================================================
 
- . basically , any large and/or complex workload 
+ . basically , any large and/or complex task 
  . "complex calculations, mathematical computations, data processing, or other operations that require
     substantial CPU processing power." 
 
+====================================================================================================
+LOAD BALANCING 
+====================================================================================================
 
+ . (re)distributing tasks as evenly as possible between multiprocessor's cores
+ . NOT APPLICABLE TO A CORE THAT IS BUSY WITH ONLY ONE TASK 
 
+====================================================================================================
+PROCESS MIGRATION 
+====================================================================================================
 
-
-
-
-
-
-
-
+ . a very common load-balancing method
+ . again , only applicable to cores that only have one task 
+ + alleviates high CPU utilization to an extent by simply moving other process(es) on the same CPU
+   to a different CPU that is available or not as burdened 
+ 
+ - does entirely NOT solve the problem of high utilization on any core 
 
 
 

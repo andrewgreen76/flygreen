@@ -1,0 +1,42 @@
+
+Single-Queue Multiprocessor Scheduling (SQMS) :
+ |
+ |
+ . all jobs across all CPUs are lined up in one scheduling queue
+ |
+ . The queue has its own set of locks (one for the head , one for the tail) to be acquired one process at a time.
+   -> a waiting process means high CPU utilization (non-stop use of all the registers and caches) 
+   -> Bottleneck #1 : "High CPU utilization on one or more cores can create bottlenecks, slowing down the execution of processes and tasks."
+   -> Bottleneck #2 : the more CPUs get lined up for the lock , the slower the system
+    => tasks get moved between CPUs 
+
+=============================================================================================================================================================
+So when a CPU is heavily utilized by only one task, there is nothing the load balancer can do about it. Is that correct? 
+=============================================================================================================================================================
+
+"
+In certain cases, when a CPU is heavily utilized by a single task and the workload is inherently non-parallelizable, the load balancer may have limited options to immediately address the high utilization. Load balancing mechanisms are most effective when there are parallelizable tasks that can be distributed across multiple CPU cores. If a single task dominates the CPU and is not easily parallelizable, the load balancer's ability to balance the load may be constrained.
+
+Here are some factors to consider:
+
+1. **Non-Parallelizable Workload:**
+   - If the workload of a specific task cannot be effectively parallelized, meaning it cannot be divided into smaller, independently executable sub-tasks, the load balancer may have limited options for distributing the workload across multiple cores.
+
+2. **Task Characteristics:**
+   - Some tasks may be inherently sequential, meaning they have dependencies and cannot be easily split into parallel sub-tasks. In such cases, the load balancer may not be able to achieve a balanced distribution of the workload.
+
+3. **Overhead of Process Migration:**
+   - The overhead associated with moving a running process from one core to another (process migration) may also impact the load balancer's decision. If the overhead is significant compared to the execution time of the task, migration may not be a favorable option.
+
+4. **System Policies:**
+   - System policies and constraints may also influence the load balancer's decisions. For example, there could be policies in place to minimize the frequency of process migration or to prioritize certain tasks.
+
+5. **External Dependencies:**
+   - Tasks waiting for external resources or I/O operations may not be immediately affected by load balancing decisions. The load balancer may not be able to control external factors influencing task execution.
+
+6. **Dynamic Nature of Workload:**
+   - Workloads are dynamic, and the effectiveness of load balancing can vary over time. The load balancer continuously adapts to changing conditions, but there may be intervals where immediate relief is challenging.
+
+While the load balancer may face challenges in addressing high CPU utilization for non-parallelizable workloads, it remains a crucial mechanism for optimizing system performance under varying conditions. Load balancing is generally effective when dealing with workloads that exhibit parallelism, and it helps ensure that the available CPU resources are distributed efficiently. In situations where the workload is inherently non-parallelizable, other system-level optimizations and resource allocation strategies may be explored to improve overall performance.
+"
+_

@@ -1,0 +1,6 @@
+
+Multi-Queue Multiprocessor Scheduling (MQMS) :
+ |
+ . every CPU gets its own queue 
+
+_

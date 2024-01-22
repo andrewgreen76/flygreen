@@ -1,0 +1,17 @@
+
+Limited direct execution (LDE) :
+ |
+ |
+ . (roughly speaking , in the context of CPU virtualization)
+ | the principle of following the round-robin scheduling algorithm
+ |
+ |
+ . gives the illusion of all processes - user processes and the kernel - running concurrently
+ |
+ |
+ . the kernel :
+    . manages processes (and the task list) and the memory hierarchy for them (stack and heap , CPU/cache registers) 
+    . handles interrupts , system calls , traps , etc.
+ . user processes :
+    . do whatever they need to do 
+_

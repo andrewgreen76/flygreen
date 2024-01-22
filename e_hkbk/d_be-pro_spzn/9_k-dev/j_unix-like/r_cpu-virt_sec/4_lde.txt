@@ -1,5 +1,15 @@
 
-Limited direct execution (RR) :			KERNEL					PROGRAM
+Limited direct execution (LDE) :
+ |
+ . (roughly speaking , in the context of CPU virtualization)
+   the principle of following the round-robin scheduling algorithm
+ . gives the illusion of all processes - user processes and the kernel - running concurrently
+ . the kernel handles interrupts , system calls , traps , etc., while user processes do whatever they need to do 
+
+================================================================================================================
+================================================================================================================
+
+Limited direct execution :			KERNEL					PROGRAM
 |
 |
 |
@@ -17,6 +27,7 @@ Limited direct execution (RR) :			KERNEL					PROGRAM
 - free memory allocated for the process		free(new_prog)
 - remove process from task list 		delete(new_prog) 
 
+================================================================================================================
 ================================================================================================================
 
 Challenges :

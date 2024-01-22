@@ -2,5 +2,7 @@
 Multi-Queue Multiprocessor Scheduling (MQMS) :
  |
  . every CPU gets its own queue 
+    => no need for locks 
+    => every CPU gets around to its next task sooner 
 
 _

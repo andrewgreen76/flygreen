@@ -1,0 +1,17 @@
+
+===================================================
+ATTEMPTING TO ACHIEVE A PERFECT LOAD BALANCE. 
+===================================================
+
+IMPORTANT PREFACE : 
+ . every core has a queue for parallelized tasks
+ . every core has the ability to see how busy one other core is
+ . the core can make a decision whether to steal some load from the other core (called "work stealing") 
+
+
+Constant employment migration :
+ |
+ . imperfect load balance => a job moved back and forth between the same two cores (just for the sake of even distribution , equal CPU utilization).
+ . again , to make this happen , one core task queue has to peek into another core task queue and steal work from it
+ . an ideal strategy to use in case if multi-queue scheduling does not work out at some point 
+_

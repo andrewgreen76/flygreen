@@ -1,0 +1,5 @@
+
+Constant employment migration :
+ |
+ . imperfect load balance => a job moved back and forth between the same two cores (just for the sake of even distribution , equal CPU utilization). 
+_

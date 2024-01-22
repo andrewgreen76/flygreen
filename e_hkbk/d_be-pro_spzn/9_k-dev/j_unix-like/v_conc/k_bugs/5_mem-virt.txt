@@ -1,0 +1,10 @@
+
+Pillars of memory management and virtualization : 
+ |
+ . efficiency
+    . using fast memory (registers and caches) most of the time
+    . demanding lookups in memory and disk space as needed 
+ . control : 
+    . every process gets its own private memory 
+    . the kernel watches for any unauthorized access by any other process 
+_

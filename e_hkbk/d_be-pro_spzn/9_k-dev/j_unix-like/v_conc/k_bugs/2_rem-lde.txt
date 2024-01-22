@@ -10,8 +10,10 @@ Limited direct execution (LDE) :
  |
  |
  . the kernel :
-    . manages processes (and the task list) and the memory hierarchy for them (stack and heap , CPU/cache registers) 
+    . manages processes (and the task list)
+    . manages memory for the processes (CPU registers , CPU cache , PT , stack and heap) 
     . handles interrupts , system calls , traps , etc.
+    . check for illegal access by one process to another process 
  . user processes :
     . do whatever they need to do 
 _

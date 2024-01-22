@@ -1,0 +1,6 @@
+
+Address translation (VPN , PFN , PTE , etc.) is the definitive characteristic in memory management and memory virtualization.
+ |
+ . the hardware handles address translation
+ . the kernel performs memory management (allocation , deallocation , monitoring and assessment , etc.) 
+_

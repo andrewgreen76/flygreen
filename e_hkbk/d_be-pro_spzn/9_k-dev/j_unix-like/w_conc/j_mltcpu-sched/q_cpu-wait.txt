@@ -1,0 +1,16 @@
+"
+The term "process waiting" refers to a state in which a process is temporarily inactive and waiting for a particular event or condition to occur before it can proceed with its execution. This state is also known as "waiting" or "blocked." The distinction between whether process waiting contributes to CPU utilization or idling depends on the nature of the waiting and the system's overall activity.
+
+1. **Process Waiting and CPU Utilization:**
+   - If a process is waiting for a resource or an event, it may be in a blocked state, but it doesn't necessarily mean that the CPU is idle. Other processes or threads on the system may still be actively executing, contributing to CPU utilization. In this case, the CPU is not idle because there are active tasks running, even though one or more processes may be waiting.
+
+2. **Process Waiting and CPU Idling:**
+   - On the other hand, if the waiting process is the only active process in the system or if all processes are waiting for some condition to be satisfied, the CPU may be considered idle during that period. In this scenario, CPU utilization is low because there are no actively executing tasks.
+
+It's crucial to understand that CPU utilization is a measure of the percentage of time the CPU spends executing tasks. Process waiting, by itself, does not contribute to CPU utilization because the CPU is not actively executing instructions for the waiting process during that time.
+
+However, the overall impact on CPU utilization depends on the system's design, the scheduling policies, and the behavior of other processes. For example, if there are multiple processes with varying states (some running, some waiting), the CPU may still be utilized by the running processes, even if some are waiting.
+
+In summary, process waiting itself does not contribute to CPU utilization, but its impact on overall system activity depends on the context and the state of other processes in the system.
+"
+_

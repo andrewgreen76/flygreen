@@ -1,0 +1,45 @@
+"
+Yes, an application is often associated with a process. A process is a running instance of an application, which includes the program's code, data, and system resources. However, within a process, multiple threads can be created to execute tasks concurrently. These threads share the same resources within the process but can run independently.
+
+=============================================================================================================================================================
+WHEN AN APP (PROCESS) CREATES MULTIPLE THREADS, THESE THREADS CAN BE SCHEDULED TO RUN ON DIFFERENT CPU CORES, ACHIEVING PARALLELISM. 
+=============================================================================================================================================================
+Here's how it works: 
+
+1. **Process Creation:**
+   - An application is launched as a process by the operating system. The process typically includes the program's executable code, data, and other resources needed for execution.
+
+2. **Thread Creation Within a Process:**
+   - The application can create multiple threads within the same process. These threads share the same address space, file descriptors, and other resources of the process.
+
+   ```python
+   # Python example using the threading module
+   import threading
+
+   def my_function():
+       # Code to be executed in the thread
+
+   # Create multiple threads within the same process
+   thread1 = threading.Thread(target=my_function)
+   thread2 = threading.Thread(target=my_function)
+
+   # Start the threads
+   thread1.start()
+   thread2.start()
+   ```
+
+3. **Thread Scheduling:**
+   - The operating system's scheduler determines how to allocate these threads across the available CPU cores. Each thread within the process can be scheduled to run on a different core, achieving parallel execution.
+
+4. **Concurrency and Parallelism:**
+   - While threads within a process share the same resources, they can execute independently, providing concurrency. If the system has multiple CPU cores, these threads can run in parallel, achieving parallelism.
+
+5. **Thread Coordination:**
+   - Threads within a process can communicate and synchronize their activities if needed. Proper synchronization mechanisms, such as locks or semaphores, should be used to avoid race conditions and ensure data consistency when multiple threads access shared data.
+
+6. **Task Parallelism:**
+   - Threads within a process can be used to achieve task parallelism, where different threads perform distinct tasks concurrently. Each thread executes its own sequence of instructions independently.
+
+It's important to note that while threads within the same process share resources, they can also be scheduled to run on different CPU cores, leading to parallel execution and improved performance. The ability to create multiple threads within a process is a way to exploit the parallel processing capabilities of modern multicore systems.
+"
+_

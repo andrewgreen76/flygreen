@@ -1,0 +1,27 @@
+
+=======================================================================================
+ - When the kernel works with the multiprocessor, how many CPU schedulers are there?
+=======================================================================================
+
+"
+In a multiprocessor system, the number of CPU schedulers depends on the design of the operating system's scheduler. There are two common approaches:
+
+1. **Global Scheduling (Single Scheduler):**
+   - In this approach, there is a single global scheduler that manages the scheduling decisions for all CPU cores in the system. This means that all CPU cores share a common scheduling queue, and the global scheduler determines which task to execute next on any available core.
+
+2. **Per-Core Scheduling (Multiple Schedulers):**
+   - Alternatively, some operating systems implement per-core schedulers, where each CPU core has its own independent scheduler. Each core operates with its local scheduling queue and makes scheduling decisions independently.
+
+The decision between global scheduling and per-core scheduling depends on the goals, complexity, and design considerations of the operating system. Each approach has its advantages and trade-offs.
+
+- **Global Scheduling:**
+  - **Advantages:** Simplicity, centralized control, and potential for effective load balancing across all cores.
+  - **Challenges:** Potential contention for the global scheduling queue, which may become a bottleneck under high contention scenarios.
+
+- **Per-Core Scheduling:**
+  - **Advantages:** Improved scalability, reduced contention, and potential for better cache locality.
+  - **Challenges:** Coordination and communication may be required for load balancing across cores.
+
+Modern operating systems may use a combination of these approaches or incorporate hybrid scheduling strategies to optimize system performance. The specific implementation details can vary among different operating systems and versions.
+"
+_

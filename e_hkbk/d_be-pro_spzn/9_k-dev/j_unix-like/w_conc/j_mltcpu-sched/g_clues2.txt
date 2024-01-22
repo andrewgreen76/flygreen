@@ -1,0 +1,29 @@
+
+=========================================================================
+TASK QUEUES , SCHEDULING ALGORITHMS (REVISITED) 
+=========================================================================
+
+ . It's not always a "true queue" (FCFS).
+ |
+ . SJF (to completion) 
+ . MLFQ
+ . RR 
+
+=========================================================================
+MULTIPLE CORES SHARING INFORMATION - WHAT ?
+=========================================================================
+
+ . number of tasks running 
+ . processing times 
+ . changes made to a shared memory region 
+
+=========================================================================
+MULTIPLE CORES SHARING INFORMATION - WHY ?
+=========================================================================
+
+ . CACHE COHERENCE
+ . LOAD BALANCING
+   . direct process-to-process communication eliminates the overhead of having to talk to
+     the CPU scheduler
+   => faster response to processing issues 
+_

@@ -3,9 +3,14 @@ Single-Queue Multiprocessor Scheduling (SQMS) :
  |
  |
  . all jobs across all CPUs are lined up in one scheduling queue
+ |  . centralized scheduling (one CPU scheduler)
+ |  . THROUGHPUT : ONE TASK AT A TIME 
  |
  . The queue has its own set of locks (one for the head , one for the tail) to be acquired by one process at a time. 
-    => Bottleneck : the more CPUs get lined up for the lock , the slower the system
+ |  => BOTTLENECK - CONTENTION FOR THE QUEUE : the more CPUs get lined up for the lock , the slower the system.
+ |
+ . SQMS very often encounters high CPU utilization.
+    => frequent process migration 
 
 =============================================================================================================================================================
 So when a CPU is heavily utilized by only one task, there is nothing the load balancer can do about it. Is that correct? 

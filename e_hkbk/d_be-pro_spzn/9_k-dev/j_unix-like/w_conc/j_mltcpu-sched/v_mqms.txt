@@ -1,8 +1,32 @@
 
-Multi-Queue Multiprocessor Scheduling (MQMS) :
+Multi-Queue Multiprocessor Scheduling (MQMS) - scalability :
  |
- . every CPU gets its own queue 
-    => no need for locks 
-    => every CPU gets around to its next task sooner 
+ |
+ + every CPU gets its own queue - NO NEED FOR SYNCHRONIZATION
+ |
+ + every CPU gets around to its next task sooner - CORE PERFORMANCE BOOST
+ |
+ + every CPU gets :
+    . a pre-core scheduler (or all get a global scheduler) 
+    . a completely independent queue 
+    => completely independent concurrent scheduling and task assignment 
+    => FASTER , WIDER THROUGHPUT - up to N tasks scheduled at a time -and- up to N tasks assigned at a time 
+    => less of a need for load balancing
+    => reduced communication between cores 
 
+============================================================================
+
+============================================================================
+
+
+
+============================================================================
+
+============================================================================
+
+
+
+============================================================================
+BENEFIT OF MAKING DECENTRALIZED SCHEDULING DECISIONS 
+============================================================================
 _

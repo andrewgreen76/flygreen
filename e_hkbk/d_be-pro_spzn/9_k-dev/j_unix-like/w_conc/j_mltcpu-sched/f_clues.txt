@@ -25,8 +25,12 @@ CPU-INTENSIVE OPERATIONS
 LOAD BALANCING 
 ====================================================================================================
 
- . (re)distributing tasks as evenly as possible between multiprocessor's cores
- . NOT APPLICABLE TO A CORE THAT IS BUSY WITH ONLY ONE TASK 
+ . first , heavily utilized CPUs with more than one process must be identified 
+ . load balancing : 
+    . e.g., moving processes from hot CPUs to less utilized ones (process migration) 
+    . (re)distributing tasks as evenly as possible between multiprocessor's cores 
+ . NOT APPLICABLE TO A CORE THAT IS BUSY WITH ONLY ONE TASK
+ . cannot always be achieved close to perfection 
 
 ====================================================================================================
 PROCESS MIGRATION 

@@ -1,0 +1,9 @@
+
+Features common in servers :
+ |
+ . multiprocessors
+ . scalability in handling process traffic
+    . load balancing
+ . every server holds its own massive resources
+ . every incoming process is a client sitting on a core 
+_

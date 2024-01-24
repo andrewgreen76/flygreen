@@ -1,7 +1,3 @@
-
-
-
-
 "
 In a single-queue multiprocessor scheduling system, load balancing is crucial to ensure that the workload is distributed evenly across multiple CPUs. When there is one process actively running on a CPU, load balancing can be achieved by considering the following techniques:
 

@@ -1,0 +1,12 @@
+"
+A server can refer to both a process and a computer, depending on the context.
+
+1. **Server as a Process:**
+   - In a software context, a server can refer to a process or program that is running on a computer. This server process is responsible for handling requests and providing services to other programs or devices, often over a network. Examples include web servers (e.g., Apache, Nginx), file servers, database servers, and more. In this sense, a server is a software entity that performs specific functions.
+
+2. **Server as a Computer:**
+   - In a hardware context, a server can also refer to a physical or virtual computer that is dedicated to running server software. Servers are designed to handle higher workloads, provide services to multiple clients, and often have specialized hardware configurations for tasks such as data storage, processing, and networking. These computers can range from standalone machines to large data center installations.
+
+In many cases, the term "server" is used to describe both the hardware and the software components collectively. For example, you might say, "We have deployed a new server to handle our web application," referring to both the physical or virtual machine and the server software running on it.
+"
+_

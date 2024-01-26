@@ -2,7 +2,26 @@
 Syllabus quiz :
  . course prerequisites : cs 202 , math 182 with a C and up. 
  . face-to-face lectures
- . ONLINE ASSIGNMENTS DUE BY 1159P SUN. 
+ . QUIZZES DUE BY 1159P SUN.
+    . multiple choice
+    . free response 
+ . ONLINE ASSIGNMENTS DUE BY 1159P SUN.
+ . three group discussions
+    . post once to the larger thread by end of Fri
+    . post once to a group member(s) by end of Sun
+    . discussion rubric is on Canvas
+ . exams :
+    . multiple choice
+    . free response
+    . note sheet
+       . upload on Canvas
+       . front and back
+       . no examples 
+
+ . heed the grades on Canvas , not Connect 
+
+ . weekly review assignments
+    . on Connect 
 
 ====================================================================
 EXAMPLE , BENEFIT , PURPOSE OF THE THING ; (use the opposite) 

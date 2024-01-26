@@ -1,0 +1,56 @@
+
+=============================================================================
+INTERNET : 
+=============================================================================
+
+ . transmitting binary info
+ . a song is encoded using 3 MB - 4 MB 
+
+
+Media - physical but intangible : 
+ + using electricity (modulation) , e.g., shooting Morse code
+    + cheap 
+    + multiple bits at a time 
+    - lossy
+    => good for relatively short distances 
+ + using (invisible) light waves by primitive means (think lighthouses)
+    + super-fast transmission 
+    + multiple bits at a time 
+    - malleable
+    - really expensive 
+ + using sound waves
+
+
+Primitive methods :
+ . e.g. , telegraph key
+ - need human users at all times (=> not automated)
+ - slow
+ - error-prone
+
+Now :
+ + optical signal - light sent via a cable
+
+
+Transmission capacity : 
+|
+Bandwidth : 
+ . max transmission capacity for a certain device
+ . speed 
+||
+Bit rate :
+ . number of bits transmitted over a unit of time 
+ . speed (bps) 
+|
+Latency : 
+ . amount of time for a bit to travel from point A to point B
+ . time (secs)
+
+
+Ethernet :
+ .      __
+      _|  |_
+    _|      |_
+   |	      |
+   |__________|
+
+_

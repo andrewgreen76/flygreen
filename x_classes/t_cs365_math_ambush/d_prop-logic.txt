@@ -1,0 +1,28 @@
+"
+Propositional logic, also known as sentential logic or statement logic, is a branch of mathematical logic that deals with propositions, which are statements that are either true or false. In propositional logic, these propositions are combined using logical connectives to form more complex statements.
+
+Here are some key components and concepts of propositional logic:
+
+1. **Propositions:**
+   - Propositions are basic statements that can be either true or false. They are often denoted by letters, such as \(p\), \(q\), or \(P\), and represent declarative sentences that can be evaluated as either true or false.
+
+2. **Logical Connectives:**
+   - Logical connectives are symbols or words that are used to combine propositions and create compound statements. Common logical connectives include:
+     - **Negation (\(\lnot\)):** Represents "not" or "negation."
+     - **Conjunction (\(\land\)):** Represents "and."
+     - **Disjunction (\(\lor\)):** Represents "or."
+     - **Implication (\(\rightarrow\)):** Represents "implies" or "if... then..."
+     - **Biconditional (\(\leftrightarrow\)):** Represents "if and only if."
+
+3. **Truth Values:**
+   - The truth value of a compound proposition is determined by the truth values of its constituent propositions and the logical connectives used. Truth values are typically either true (T) or false (F).
+
+4. **Truth Tables:**
+   - Truth tables are used to systematically evaluate the truth values of compound propositions for all possible combinations of truth values of their components.
+
+5. **Logical Equivalence:**
+   - Two propositions are said to be logically equivalent if they have the same truth values under all possible circumstances. This is often denoted by the symbol \(\equiv\).
+
+Propositional logic is fundamental to the study of deductive reasoning and is widely used in computer science, philosophy, linguistics, and various other fields. It provides a foundation for more complex logical systems and is a key tool in formalizing and analyzing arguments and statements.
+"
+_

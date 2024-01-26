@@ -1,0 +1,85 @@
+
+Theory of computation :
+ .
+
+Proof :
+ . a specific machine does not prove 
+
+Proof by induction :
+ . basic :
+    . p -> q : if p, then q
+    . p=-q
+
+String :
+ . a series of symbols 
+
+
+Grammar :
+ . generates strings
+    . randomly or follows a formula ? 
+ . a -> n>=1
+    . ???
+ . regular grammar : ??? 
+||
+(Formal) language :
+ . a set of strings
+ . ALL STRINGS ARE FINITE 
+ . a -> n>=1
+ . grammar for a machine 
+    . accepts strings 
+ . question that needs to be answered
+ . regular language :
+    . DFA/NFA (deterministic finite acceptor) 
+ . FSM (finite state machine)
+ . infinite language :
+    . has an infinite number of strings 
+||
+Automaton :
+ . a machine that accepts strings 
+ . model of a device
+ . adding memory
+ . are all machines Turing machines ? 
+
+
+Computability : 
+
+========================================================
+========================================================
+
+Complexity |	regular language	~	dfa/nfa machine			~		regular grammar		~	regular expressions
+	   	 . ??? cannot be infinite	 . accepts strings				 . 
+						 . no memory (cannot remember strings)
+						 . for simple problems with cheap solutions 
+						 
+	   |	context-free		~	pda (push-down automata)	~		context-free grammar	~	-
+	   	 . can have 			 . adding to smth. like a stack			 . more rules 
+	   					 . additional memory - stack
+						 . one infinite stack
+						 => can match characters ( {} )
+						 
+	   |	context-sensitive	~	lba (linear-BOUNDED automata)			context-sensitive grammar
+	     	 . more complex 		 . list-like memory
+		   				 . more capabilities with LBA
+						 . one infinite list/array			
+
+	   | 	recursive /		~	tm (Turing machine) 				unrestricted grammar 
+	        recursively enumerable		 . unlimited memory
+			    			 . programmable 
+
+	   v
+
+
+========================================================
+========================================================
+
+Set theory proofs :
+ . prove that a is b and b is a
+
+Propositions :
+ . implications (p implies q and q implies p) 
+
+========================================================
+========================================================
+
+Proof by contradiction : 
+_

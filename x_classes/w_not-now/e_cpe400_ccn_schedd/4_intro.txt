@@ -1,0 +1,31 @@
+
+About : 
+ . IT audit and compliance engineer (ISO, SO2, security and controls) 
+ . IT certificate
+
+
+6 quizzes , 3 homeworks/labs 
+
+
+One project :
+ > one person (presentation)
+    . client-server
+ . group (complex rubric) 
+
+
+One midterm , one final. 
+
+
+??? Can quizzes be retaken ??? 
+
+
+3 lab locations :
+ | 
+ . library
+ . college building 
+
+====================================================================
+
+WireShark :
+ . examining packets 
+_

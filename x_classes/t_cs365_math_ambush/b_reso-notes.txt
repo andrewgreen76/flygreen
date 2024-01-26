@@ -1,0 +1,160 @@
+
+Syllabus quiz :
+ . course prerequisites : cs 202 , math 182 with a C and up. 
+ . face-to-face lectures
+ . online assignments due by 1159p Sun. 
+
+====================================================================
+EXAMPLE , BENEFIT , PURPOSE OF THE THING ; (use the opposite) 
+WHAT PROBLEMS DOES IT SOLVE ?  
+====================================================================
+
+pattern = order = organization = framework = translation 
+
+Unstructured :
+ . no pattern , order , organization 
+ . hard to analyze
+ 
+Framework : nature ; truths or rules ; 
+Abstract entity : idea , thing 
+Objects = elements = members = things  
+Set : collection of whatever things
+
+
+Relationship :
+ | 
+ . Relation :
+    = a collection of pairs (x,y) , where x is from one set and y is from another set. 
+    . involves a simple operation or correlation ; translation
+    . "Consider a set of individuals where each person is represented by a unique identifier.
+       Let's call this set A and assume we have a set B representing certain attributes or characteristics of these individuals."
+ . Function :
+    . one UNIQUE output for every input
+    . ex. : a quality unique to a thing/person 
+    . "a rule or correspondence that associates elements from one set (the domain) to unique elements in another set (the codomain)."
+    . "For every input, there is a unique output."
+
+
+Unordered pair :
+ . a pair where the order of things does not matter 
+
+Ordered pair :
+ . a pair where the order of things does matter 
+
+Binary operation :
+ . means "I take TWO operands" 
+
+Unary operation :
+ . means "I take ONE operand" 
+
+Ternary :
+ _ a ? b : c
+
+Quaternary :
+ _ f(a,b,c,d) - whatever. 
+
+Closure (property) :
+ . elem [op] elem = elem in set 
+ . "closed under operation"
+ . "If a,b ∈  S, then a*b ∈  S." 
+
+Identity element :
+ . "has the property that combining it with any other element under that operation leaves the other element unchanged."
+ . think modulo , modular arithmetic 
+ . "equipped with a binary operation"
+
+Mathematical structure :
+ + set
+ + op 
+ . things with a sense of calculation 
+ . ex. : algebraic structures (groups , rings , fields) 
+
+
+Group :
+ + set (of things) 
+ + operation (typically mathematical) 
+ + identity element (op leading to no change) 
+ + inverse element
+    . (resolution opd) the 2nd opd that leads to output being the identity element 
+    . see/think RSA cryptography 
+ . ex. : a clock face
+ 
+
+Discrete structure :
+ . separate and unique elements 
+
+Continuous structure :
+ . features gradation / "smoothness" between values 
+
+Discrete mathematics :
+ . deals with discrete structures 
+
+Finite systems :
+ . anything limited , like a set or a string 
+
+Propositional logic : 
+ . simplest True/False statements 
+
+
+Predicate logic :
+ . notation 
+ . statements more potent / complex than propositions
+ . variable (x) - represents a value ("value" in every sense)
+ . predicate ( P(x) ) - a very simple proposition that reflects some kind of truth about the variable
+ . quantifier - an encompassing expression
+    . ∈  - is in ...
+    . ∃  - there exists ...
+    . ∀  - for any ... 
+
+
+Combinatorics :
+ . deals with manipulation of set items 
+ . counting techniques
+ . analysis of arrangement 
+
+Mathematical argument :
+ . a logical expression that leads to a conclusion 
+
+Logical connective :
+ . a boolean or conditional op (symbol) 
+
+Discrete structures :
+ . sets
+ . functions
+ . relations
+ . sequences
+
+Direct proof :
+ . 
+
+Proof by contraposition :
+ .
+ 
+Proof by contradiction :
+ . 
+
+Proof by cases :
+ .
+
+Mathematical induction :
+ . 
+
+Elementary number theory :
+ .
+
+??? Graphs and trees :
+ . help with visualizing and simplifying solutions - how ??
+
+Boolean functions :
+ . ???
+ . representation - ?
+
+Logic gates :
+ . ???
+ . representation - ?
+
+
+Read :
+ .
+ 
+_

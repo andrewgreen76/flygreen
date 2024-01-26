@@ -1,0 +1,98 @@
+
+Check on quizzes , etc. on Canvas. 
+
+================================================================================
+================================================================================
+================================================================================
+
+homework on Mon :
+ . turn in design document
+
+================================================================================
+================================================================================
+================================================================================
+
+OOP concepts 
+operator overloading
+templates / STL 
+C++ interfaces
+makefiles
+
+? solid design principles - ?
+
+? C vs. C++ - ?
+
+Abstraction :
+ . ideas ,
+    . what does it mean to be a thing 
+ . imagination 
+ ? procedural abstraction - ?
+ ? scalar - single value
+    . composite values (arrays)
+
+Encapsulation :
+ . STATE AND BEHAVIOR in a COMPOSITE 
+    . what it has , what it can do
+ . we define boundaries + how we interface with objects (data hiding) 
+ . structs , classes , access specifiers (private , public , protected)  
+ . union is a collection - not behavior-related
+
+LEARN TO WRITE A CLASS
+
+REDUNDANCY IS ENCOURAGED. 
+ . <string> here and there 
+ . DO NOT #INCLUDE <IOSTREAM>. INCLUDE LIBRARIES YOU ACTUALLY NEED. 
+    |
+    . bloats the compiler load
+    . may radically change the nature of the compiling process
+
+
+<string> is in <iostream> 
+
+Main driver - ?
+
+Modularization :
+ . procedures , behavior
+ . break up into pieces - JUST FUNCTIONS 
+ . different from encapsulation
+
+Composition (OOP prin) :
+ . relationship , state
+ . fulfills a description
+ . "be made up of several things" , not "to put together"
+ . here : made up of objects of different classes 
+
+Aggregation : 
+ .
+
+Class definition - blueprint
+
+Cover 'this' in pointers.
+ . this instance itself
+ . very useful in inheritance 
+
+. Inheritance
+   . describes "is-a" relationship
+   . HIERARCHY
+      . allows reuse of commonalities (in the base)
+      . REUSE 
+
+protected :
+ . members are private to outside world
+ . public to inherited objects
+
+Values : can be qualities 
+
+Open for extension
+
+Direct rel-p b/w inher. and runtime polym.
+
+POLYMORPHISM :
+ . subtype (runtime polym)
+    . typical polym
+    . simply replacing the base class with children
+    . works because of inheritance 
+ . parametric (compile-time polym)
+ . ad-hoc (overloading)
+ . coersion (casting) 
+_

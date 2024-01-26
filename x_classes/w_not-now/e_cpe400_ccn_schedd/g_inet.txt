@@ -7,18 +7,32 @@ INTERNET :
  . a song is encoded using 3 MB - 4 MB 
 
 
-Media - physical but intangible : 
- + using electricity (modulation) , e.g., shooting Morse code
+Media - intangible within the tangible :
+ |
+ + wired : using electricity (modulation)
+    . ex. : shooting Morse code
+    . ex. : Ethernet (copper cable) 
     + cheap 
     + multiple bits at a time 
     - lossy
-    => good for relatively short distances 
- + using (invisible) light waves by primitive means (think lighthouses)
-    + super-fast transmission 
-    + multiple bits at a time 
+    => good for relatively short distances
+ |
+ + wired : using (invisible) light waves by primitive means (optical signal) 
+    + super-fast transmission
+    + signal integrity over long distances 
+    + multiple bits at a time (depending on the angle)
     - malleable
-    - really expensive 
- + using sound waves
+    - really expensive
+    - hard to work make and maintain
+ |
+ . the majority of Internet connections are still wired
+ |
+ + wireless - using radio frequencies (inaudible sound waves)
+    . sender takes binary data in memory and translates it into sound (modulation)
+    . receiver catches the sound and translates it back to binary data (demodulation) 
+    . different bits have different frequencies
+    + "entirely mobile" : physically risk-free
+    - signal loses clarity over long distances 
 
 
 Primitive methods :
@@ -26,10 +40,7 @@ Primitive methods :
  - need human users at all times (=> not automated)
  - slow
  - error-prone
-
-Now :
- + optical signal - light sent via a cable
-
+ 
 
 Transmission capacity : 
 |
@@ -53,4 +64,7 @@ Ethernet :
    |	      |
    |__________|
 
+Wi-Fi :
+ . wireless local routing
+ . wired remote transmission 
 _

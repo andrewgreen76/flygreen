@@ -1,5 +1,6 @@
 
 Syllabus quiz :
+ . due by end of Fri 
  . course prerequisites : cs 202 , math 182 with a C and up. 
  . face-to-face lectures
  . QUIZZES DUE BY 1159P SUN.
@@ -27,6 +28,10 @@ Syllabus quiz :
 EXAMPLE , BENEFIT , PURPOSE OF THE THING ; (use the opposite) 
 WHAT PROBLEMS DOES IT SOLVE ?  
 ====================================================================
+
+Logic :
+ . hardware design
+ . AI 
 
 pattern = order = organization = framework = translation 
 

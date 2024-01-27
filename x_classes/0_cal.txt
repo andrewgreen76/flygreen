@@ -10,8 +10,12 @@ Avail SUNDAY 1/28
 ===============================================
 BOD_mon-1-29_dsndoc_cs302
 git.url
-302-qz : in-class , qns from lecture , study ahead 
-400-qz : schedd , study ahead  
+302 quiz : in-class , qns from lecture , study ahead 
+400 quiz : schedd , study ahead  
+
+
+
+
 
 ===============================================
 Avail MONDAY 1/29
@@ -19,6 +23,10 @@ Avail MONDAY 1/29
 456 quiz : EOD , Fri , online 
 477 slides , written notes , 
 read-ahead
+
+
+
+
 
 ===============================================
 Avail TUESDAY 1/30

@@ -1,21 +1,51 @@
-===============================================
-Avail SATURDAY 1/27
-===============================================
-5_EOD_sun-2-4_qz-syll_cs365 - multiple choice ? 
-6_EOD_sun-1-28_coursera-conc - read , asst 
+
+EOD , sun , 1/28 - coursera-conc - read , asst 
+
+BOD_mon-1-29_dsndoc_cs302
+git.url
+
 read-ahead
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ===============================================
 Avail SUNDAY 1/28
 ===============================================
-BOD_mon-1-29_dsndoc_cs302
-git.url
 302 quiz : in-class , qns from lecture , study ahead 
 400 quiz : schedd , study ahead  
-
-
-
-
 
 ===============================================
 Avail MONDAY 1/29
@@ -23,10 +53,6 @@ Avail MONDAY 1/29
 456 quiz : EOD , Fri , online 
 477 slides , written notes , 
 read-ahead
-
-
-
-
 
 ===============================================
 Avail TUESDAY 1/30
@@ -47,13 +73,23 @@ Avail THURSDAY 2/1
 s_read-classes-os
 
 ===============================================
+Avail FRIDAY 2/2 
+===============================================
+Due Sun , 2/4 - quiz for CS365 - timed ; multiple choice 
+
+===============================================
+Avail SATURDAY 2/3 
+===============================================
+
+===============================================
 Avail SUNDAY 2/4 
 ===============================================
 u_mon-2-5_prj-abstr-subm_cpe400
 v_read-ahead
-
 ===============================================
-Avail THURSDAY 
+Avail THURSDAY 2/8
 ===============================================
 y_EOD_thu-2-8_hw1_cs302
-
+===============================================
+Avail SATURDAY 2/10
+===============================================

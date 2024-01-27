@@ -5,5 +5,5 @@ Features common in servers :
  . scalability in handling process traffic
     . load balancing
  . every server holds its own massive resources
- . every incoming process is a client sitting on a core 
+ . every incoming process is a client process running on a core of the server (machine) 
 _

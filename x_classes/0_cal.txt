@@ -1,10 +1,10 @@
 
 EOD , sun , 1/28 - coursera-conc - read , asst 
 
-BOD_mon-1-29_dsndoc_cs302
-git.url
 
-read-ahead
+
+
+
 
 
 
@@ -44,8 +44,16 @@ read-ahead
 ===============================================
 Avail SUNDAY 1/28
 ===============================================
+
+BOD_mon-1-29_dsndoc_cs302
+git.url
+read-ahead
+
 302 quiz : in-class , qns from lecture , study ahead 
+read-ahead
+
 400 quiz : schedd , study ahead  
+read-ahead
 
 ===============================================
 Avail MONDAY 1/29

@@ -1,4 +1,16 @@
 
+================================================================================================
+
+Multi-threading introduces complexities :
+ . race condition 
+   .> locks
+   .> condition variables
+   .> semaphores
+ . possible : missing locks
+ . potential deadlocks
+
+================================================================================================
+
 Event (if-then) :
  . an occurence in storage or network
  . responded to
@@ -8,10 +20,12 @@ Event (if-then) :
 
 Event-based concurrency :
  |
- . waiting for certain events/requests 
- . responding to them
-    . server identifies 
-
+ . server waits for certain events/requests
+ -> recognizes event 
+ -> identifies event type
+ -> performs only the necessary actions
+    . maybe initiating other I/O requests 
+    . maybe scheduling other events 
 
 
  . relying on processes , never on threads
@@ -19,11 +33,7 @@ Event-based concurrency :
  . used in SERVERS
  . also in GUI apps and frameworks , but mainly in servers 
 
-================================================================================================
 
-Multi-threading introduces complexities :
- . race condition 
-   .> locks
-   .> condition variables
-   .> semaphores
+
+Event-based concurrency does away with multi-threading
 _

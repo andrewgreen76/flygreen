@@ -1,7 +1,0 @@
-
-Event loop : 
- . a loop in code that persistently waits for something 
-
-Event handler :
- . a piece of code that "responds" to an event 
-_

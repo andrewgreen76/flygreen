@@ -1,0 +1,17 @@
+
+Event loop : 
+ . a loop in code that persistently waits for something 
+
+Event handler :
+ . a piece of code that "responds" to an event
+
+=========================================================================================
+=========================================================================================
+Scheduling = order of execution. 
+=========================================================================================
+=========================================================================================
+
+ . All that a concurrent sys/app does is waiting on and processing events. 
+ . Determining the next event to handle = scheduling (in event-driven concurrency).
+    . governed by the CPU scheduler and the kernel 
+_

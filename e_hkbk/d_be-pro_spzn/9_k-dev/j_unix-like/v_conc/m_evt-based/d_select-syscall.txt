@@ -1,0 +1,8 @@
+
+select() / poll() : 
+ . for determining which protocol has incoming messages (I/O)
+
+
+file handle / file descriptor :
+ . a unique name/number / memory address for a file 
+_

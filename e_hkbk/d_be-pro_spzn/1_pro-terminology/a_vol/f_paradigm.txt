@@ -1,0 +1,4 @@
+
+Paradigm :
+ . standards/rules for development of some software 
+_

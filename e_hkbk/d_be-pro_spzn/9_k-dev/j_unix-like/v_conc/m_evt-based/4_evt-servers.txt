@@ -1,4 +1,9 @@
 
+Event :
+ . user input
+ . signal
+ . message 
+
 ===============================================================================================================
 ===============================================================================================================
 Though this concerns systems and applications in general , much of the focus will be on """server kernel""".
@@ -44,6 +49,8 @@ Asynchronous ~= independent.
 
 Event-based concurrency in systems/apps :
  |
+ . WAITING and REACTING instead of FOLLOWING  
+ | 
  . multi-threading leads to issues (i.e., race condition , lock acquisition bottleneck)
  | => event-driven sys/app uses concurrent processes instead of concurrent threads
  |

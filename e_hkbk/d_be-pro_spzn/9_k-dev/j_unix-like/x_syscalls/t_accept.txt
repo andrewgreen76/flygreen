@@ -1,0 +1,67 @@
+
+See "Berkeley sockets API". 
+
+============================================================================================================================================================
+============================================================================================================================================================
+============================================================================================================================================================
+"
+A common example of a blocking system call in server programming is the `accept` system call, which is used to accept incoming client connections in a server application. The `accept` call is typically used with sockets and is part of the Berkeley sockets API.
+
+Here is an example in C:
+
+```c
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);
+```
+
+The `accept` system call is used by a server to accept a connection request from a client. It blocks the execution of the server until a client connection is established. If there are no incoming connections, the `accept` call will wait until one arrives.
+
+Here's a simple example where a server is accepting connections in a loop:
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+
+int main() {
+    // Create a socket
+    int server_socket = socket(AF_INET, SOCK_STREAM, 0);
+
+    // Bind the socket to a specific address and port
+    struct sockaddr_in server_address;
+    server_address.sin_family = AF_INET;
+    server_address.sin_port = htons(8080);
+    server_address.sin_addr.s_addr = INADDR_ANY;
+
+    bind(server_socket, (struct sockaddr *)&server_address, sizeof(server_address));
+
+    // Listen for incoming connections
+    listen(server_socket, 5);
+
+    while (1) {
+        // Accept a connection (blocking)
+        int client_socket = accept(server_socket, NULL, NULL);
+
+        // Process the connection (in a real scenario, this would involve further I/O operations)
+
+        // Close the client socket
+        close(client_socket);
+    }
+
+    // Close the server socket
+    close(server_socket);
+
+    return 0;
+}
+```
+
+In this example, the `accept` call is blocking, meaning it will pause the execution of the server until a client connection is established. The server will then proceed to process the connection and go back to waiting for the next connection.
+
+Regarding the term "persistent block," it's not a standard term. However, when we say a system call is blocking, it means that it can potentially wait indefinitely until the required conditions are met (e.g., until data is available, a connection is established). Whether the block is "persistent" depends on the nature of the system call and the specific scenario. In the case of `accept`, it will block until a connection arrives, but once the connection is accepted, it returns, and the server can proceed with processing the connection or waiting for the next one.
+"
+_

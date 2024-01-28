@@ -1,0 +1,43 @@
+
+The functionality of applications (subordinate processes in a server) define the functionality of the server itself. 
+
+
+Synchronous I/O :
+ . an application issues an I/O request
+ -> hands "control" (CPU resources - space and time) over to the kernel 
+ -> enters a blocking state 
+ -> DOES NOT RESUME until I/O is completed 
+
+
+Asynchronous I/O - the opposite :
+ . an app issues an I/O request
+ . the kernel only briefly uses the CPU to act on the request 
+ . the app (process) quickly regains the CPU
+ . carries on with the rest of the process/tasks while the I/O request is processed 
+
+
+Status checks :
+ . an app is at liberty to keep an eye on the progress of the I/O request
+    . checks in on execution of certain I/O operations
+
+===========================================================================================
+===========================================================================================
+
+What's needed for an AIO call :
+ |
+ . file descriptor ('aio_fildes')
+ |  . every I/O operation is enclosed in a file 
+ |  . the 'fildes' macro/stream references the I/O file 
+ |
+ . file offset ('aio_offset')
+ |  . the location of the I/O operation in the file
+ |
+ . request length ('aionbytes')
+ |
+ . target memory location ('aio_buf')
+    . for file read results
+
+
+ -> an AIO call is made
+    . (on a Mac:) aio_read(struct aiocb *aiocbp) 
+_

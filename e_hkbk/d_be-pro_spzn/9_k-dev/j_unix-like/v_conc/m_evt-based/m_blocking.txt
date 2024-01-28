@@ -1,0 +1,29 @@
+
+System call overhead.
+ |
+ |
+ . system calls are executed atomically 
+ |
+ . an event-driven server can only do one thing at a time on a CPU core
+ |
+ . there are times when a server needs to make costly I/O requests on the same CPU core 
+ |  . ex. : system calls like open() and read()
+ |  . ex. : accept() system call has the server wait for connection with a client
+ |  . ex. : sleeping in between message monitoring 
+ |  => some calls lead to (temporary) blocking , stalling the server 
+ |  => having only a single event-driven core is not a good idea 
+ |     . the entire server can't make any progress 
+ |
+ => delay overhead
+
+
+Potential solution : 
+ . may have to revisit MULTI-THREADING as a solution
+    . a dedicated thread for I/O (i.e. , disk operations) 
+    . other threads - for running other operations on the same core 
+
+
+This solution is followed as an imperative rule :
+ . AVOID MAKING BLOCKING SYSTEM CALLS
+ => the event loop is always live on its own thread 
+_

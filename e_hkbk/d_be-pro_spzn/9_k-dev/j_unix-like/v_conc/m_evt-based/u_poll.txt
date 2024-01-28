@@ -1,0 +1,106 @@
+
+=============================================================================================
+Polling vs. interrupts :
+=============================================================================================
+
+Polling :
+ + customizable polling intervals
+    . 
+ - recurring checks overhead
+    . wasting CPU resources on a sleeping-checking process/thread
+
+
+Interrupts : 
+ + a hardware signal can be sent to indicate that an AIO terminated when it does happen
+
+=============================================================================================
+=============================================================================================
+=============================================================================================
+"
+The ability to control and customize polling intervals in asynchronous I/O (AIO) scenarios can be leveraged for various purposes, allowing developers to optimize resource utilization, responsiveness, and overall system performance. Here are some ways in which intervals can be leveraged:
+
+1. **Balancing Responsiveness and Efficiency:**
+   - Customizing polling intervals allows developers to strike a balance between responsiveness and efficient resource utilization.
+   - Shorter intervals provide more frequent checks for completion, offering quicker response times but potentially leading to higher CPU usage.
+   - Longer intervals reduce the frequency of checks, conserving CPU resources but potentially introducing more latency.
+
+   ```c
+   while (1) {
+       int aio_status = aio_error(&my_aiocb);
+       
+       if (aio_status == 0) {
+           // Asynchronous I/O operation completed successfully
+           break;
+       } else if (aio_status == EINPROGRESS) {
+           // I/O operation still in progress
+           // Sleep for a specific duration to control polling interval
+           usleep(10000); // Sleep for 10 milliseconds
+           // ...
+       } else {
+           // Handle other error cases
+           // Optionally break out of the loop or retry the operation
+           break;
+       }
+   }
+   ```
+
+2. **Avoiding Excessive CPU Usage:**
+   - Customizing polling intervals allows developers to control how frequently the program actively checks for completion.
+   - Longer intervals or incorporating mechanisms to yield to the operating system can help avoid excessive CPU usage during polling.
+
+   ```c
+   while (1) {
+       int aio_status = aio_error(&my_aiocb);
+       
+       if (aio_status == 0) {
+           // Asynchronous I/O operation completed successfully
+           break;
+       } else if (aio_status == EINPROGRESS) {
+           // I/O operation still in progress
+           // Sleep for a specific duration to control polling interval
+           usleep(100000); // Sleep for 100 milliseconds
+           // ...
+       } else {
+           // Handle other error cases
+           // Optionally break out of the loop or retry the operation
+           break;
+       }
+   }
+   ```
+
+3. **Deterministic Task Scheduling:**
+   - Polling intervals enable deterministic scheduling of other tasks or computations between checks for I/O completion.
+   - The program can decide when to perform additional computations, helping manage overall system load.
+
+   ```c
+   while (1) {
+       // Perform some computation or other tasks
+       // ...
+
+       // Check the status of the asynchronous I/O operation
+       int aio_status = aio_error(&my_aiocb);
+       
+       if (aio_status == 0) {
+           // Asynchronous I/O operation completed successfully
+           break;
+       } else if (aio_status == EINPROGRESS) {
+           // I/O operation still in progress
+           // Continue with other tasks or computations
+           // ...
+       } else {
+           // Handle other error cases
+           // Optionally break out of the loop or retry the operation
+           break;
+       }
+   }
+   ```
+
+4. **Reducing Latency in Low-Latency Systems:**
+   - Shorter polling intervals can be beneficial in low-latency systems where minimizing delays in handling I/O completion is critical.
+
+5. **Customizing Based on Workload Characteristics:**
+   - Polling intervals can be adjusted based on the characteristics of the workload, I/O patterns, and the desired trade-offs between responsiveness and efficiency.
+
+While customizing polling intervals provides flexibility, it's essential to carefully consider the specific requirements of the application, system constraints, and the impact on overall performance. It may be necessary to experiment with different intervals and observe the behavior of the system to determine the optimal configuration for a given scenario.
+"
+_

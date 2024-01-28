@@ -46,18 +46,6 @@ I/O (CPU) resources release does not happen by itself.
       . 0 - success
       . EINPROGRESS - still running
       . any other value - the error code for the type of failure that occurred 
- -> I/O resources are released 
+ -> I/O resources are released
 
-
- - polling overhead
-    . wasting CPU resources on a sleeping-checking process/thread 
- + interrupts are better
-    . a hardware signal can be sent to indicate that an AIO terminated when it does happen
-
-===================================================================
-===================================================================
-
-No solution is perfect and we have to deal with the drawbacks of the solutions we choose.
- . multi-threading for efficiency
- . 
 _

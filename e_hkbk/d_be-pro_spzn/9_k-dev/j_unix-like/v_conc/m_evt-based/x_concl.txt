@@ -1,0 +1,21 @@
+
+No solution is perfect and we have to deal with the drawbacks of the solutions we choose.
+
+
+ . multi-threading
+ |  + efficiency (concurrency , getting around system calls)
+ |  - complexity (synchronization primitives)
+ |  - race conditions 
+ |
+ . event-driven
+    + ease of design and implementation
+    + no race conditions
+    - no efficiency (no concurrency , risk of "freezing the core")
+
+
+We need a balance between these two strategies. 
+|
+. AIO 
+   . not purely event-driven
+   + an I/O thread + other threads 
+_

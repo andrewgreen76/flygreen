@@ -1,6 +1,7 @@
 
+Logical memory : a dedicated section within address space (code , data , stack , heap) 
 Segmentation : logical chunks of memory are of various sizes.
-Paging	     : logical chunks of (both virtual and physical) memory are all the same size. 
+Paging	     : logical chunks of memory are all the same size. 
 
 ====================================================================================
 ====================================================================================

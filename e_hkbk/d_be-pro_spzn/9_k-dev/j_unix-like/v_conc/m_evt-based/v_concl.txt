@@ -16,6 +16,7 @@ No solution is perfect and we have to deal with the drawbacks of the solutions w
 We need a balance between these two strategies. 
 |
 . AIO 
-   . not purely event-driven
-   + an I/O thread + other threads 
+   + an I/O thread + one or more threads
+     => not purely event-driven
+   . can be more thread-based than event-driven or vice versa
 _

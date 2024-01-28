@@ -5,13 +5,21 @@ Polling vs. interrupts :
 
 Polling :
  + customizable polling intervals
+   => predictable check timing and CPU utilization 
     . 
  - recurring checks overhead
     . wasting CPU resources on a sleeping-checking process/thread
+ - a late check for occurred AIO means latency (late response) 
 
 
 Interrupts : 
  + a hardware signal can be sent to indicate that an AIO terminated when it does happen
+   => little to no latency
+ + very small CPU usage
+ + the kernel rules the game 
+ - this could lead to a program's late response to I/O completion 
+
+
 
 =============================================================================================
 =============================================================================================

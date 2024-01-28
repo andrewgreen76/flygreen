@@ -24,14 +24,18 @@ An 'aiocb' structure holds the info necessary to find and execute the I/O operat
  . request length ('aionbytes')
  |
  . target memory location ('aio_buf')
-    . for file read results
+    . address of buffer for file read results (data to store and move to the network socket) 
 
 
 -> an AIO call is made
    . (on a Mac:) aio_read(struct aiocb *aiocbp)
-
-
- . pointer 'aiocbp' holds the location of the 'aiocb' structure 
+   
+-------------------------------------------------------------------
+fd - file descriptor
+sd - socket descriptor 
+-------------------------------------------------------------------
+Pointer 'aiocbp' holds the location of the 'aiocb' structure 
+-------------------------------------------------------------------
 
 ===================================================================
 ===================================================================

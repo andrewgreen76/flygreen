@@ -4,6 +4,6 @@ Protection fault : an event of either ...
 . a page fault (accessing a page that does not have a frame)
 
 Segmentation fault (reminder) :
-. illegal access (to uninitialized memory) 
+. illegal access (to uninitialized memory , i.e., outside the boundaries) 
 
 .

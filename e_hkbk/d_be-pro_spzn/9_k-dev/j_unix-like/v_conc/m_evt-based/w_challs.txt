@@ -1,0 +1,39 @@
+
+Challenges in event-based programming :
+ |
+ |
+ - more difficult (time-consuming) than implementing multi-threading
+ |
+ - no thread stack to store process state 
+ | => state has to be EXPLICITLY managed ("manual stack management")
+ |
+ - reliance on more design and implementation , more code to write , maintain , and debug 
+ |  - a continuation is any structure used for storing info for event handling 
+ |    . ex. : 'aiocb'
+ |  - reading from a file and writing to a socket requires more steps to carry out
+ |    . creating a hash table
+ |
+ - integration of event handlers into a multi-processor
+ | => synchronization and all the baggage that comes with it
+ |
+ - over-reliance on a single handler
+ |  . page fault
+ |     . logical memory that is not in RAM
+ |     . seeking the corresponding frame on the disk takes time 
+ |  . "a page fault in an event handler can halt the entire server, undermining the non-blocking nature of event-based systems"
+ |    . no blocking system calls , but there are other catalysts for a standstill
+ |
+ - event-based APIs are error-prone and complex 
+   => they need regular maintenance to resolve recently discovered errors 
+
+
+Challenges with AIO :
+ |
+ |
+ - reliance on full-on AIO makes implementation cumbersome
+ |  - async disk I/O + async network I/O
+ |  . servers would typically use select() for networking and AIO for disk I/O
+ |
+ - async disk I/O is not easy to integrate
+ 
+_

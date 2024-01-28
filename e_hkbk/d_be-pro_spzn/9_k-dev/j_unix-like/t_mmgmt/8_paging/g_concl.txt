@@ -1,12 +1,15 @@
 
 Paging :
+|
 . pros :
   . no external fragmentation
     . But aren't there unused pockets of memory within those pages ?
   . minimal use of virtual address spaces ?
+|
 . cons :
   . can be slow (memory access time) 
   . can take up too much memory
-  . needs to be designed, implemented, and used with caution 
+  . needs to be designed, implemented, and used with caution
+  . a page fault (page not in RAM) temporarily halts the process 
 
 .

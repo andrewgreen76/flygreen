@@ -1,0 +1,33 @@
+
+Runtime environment :
+ |
+ . framework - a tool for making other applications 
+ . allows otherwise unexecutable programs written in a certain language to run (support / platform) 
+
+===========================================================================================================
+===========================================================================================================
+===========================================================================================================
+"
+A runtime environment is a software framework that provides a platform for executing and running programs or applications. It includes the necessary components and services to support the execution of software, allowing programs written in a specific programming language to run on a computer or device.
+
+Key components of a runtime environment include:
+
+1. **Interpreter or Compiler:** The runtime environment includes the necessary tools to interpret or compile source code written in a particular programming language. This process translates human-readable code into machine code or an intermediate form that can be executed by the computer.
+
+2. **Libraries and APIs:** Runtime environments often come with pre-built libraries and application programming interfaces (APIs) that provide a set of functions and services. These libraries facilitate common tasks and interactions with the underlying hardware or operating system.
+
+3. **Execution Environment:** The runtime environment provides a runtime or execution environment where the compiled or interpreted code can run. This environment manages memory, handles input and output operations, and ensures proper execution flow.
+
+4. **Memory Management:** The runtime environment is responsible for managing memory allocation and deallocation during program execution. It ensures that the program uses memory efficiently and avoids memory-related issues.
+
+5. **Error Handling:** Runtime environments often include mechanisms for handling errors and exceptions that may occur during program execution. This helps improve the robustness of the software.
+
+6. **Security Features:** Some runtime environments implement security features to protect the system and the application from malicious activities. This may include access controls, sandboxing, and other security measures.
+
+7. **Platform Independence:** In some cases, runtime environments aim to provide platform independence, allowing programs to run on different hardware architectures or operating systems without modification.
+
+An example of a runtime environment is the Java Runtime Environment (JRE) for Java programs. The JRE includes the Java Virtual Machine (JVM), libraries, and other components needed to run Java applications. Similarly, Node.js provides a runtime environment for executing JavaScript code on the server.
+
+In summary, a runtime environment is a software infrastructure that supports the execution of programs, providing essential services and resources for the proper functioning of applications.
+"
+_

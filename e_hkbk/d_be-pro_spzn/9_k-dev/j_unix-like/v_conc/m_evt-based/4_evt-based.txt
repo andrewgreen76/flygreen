@@ -1,0 +1,29 @@
+
+Event (if-then) :
+ . an occurence in storage or network
+ . responded to
+ . something is event-based as opposed to unconditionally/persistently executing something 
+
+================================================================================================
+
+Event-based concurrency :
+ |
+ . waiting for certain events/requests 
+ . responding to them
+    . server identifies 
+
+
+
+ . relying on processes , never on threads
+ 
+ . used in SERVERS
+ . also in GUI apps and frameworks , but mainly in servers 
+
+================================================================================================
+
+Multi-threading introduces complexities :
+ . race condition 
+   .> locks
+   .> condition variables
+   .> semaphores
+_

@@ -1,3 +1,0 @@
-
-Relying on processes , never on threads. 
-_

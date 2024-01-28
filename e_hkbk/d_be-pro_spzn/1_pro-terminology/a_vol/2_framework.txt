@@ -1,0 +1,59 @@
+
+Framework:
+ . a tool for making other tools
+ |
+ . Form :
+ |  . a program
+ |  + reusable classes+interfaces+libs... (.c's , .h's , ready-made bin's , etc.)
+ |
+ . Purpose :
+ |  . helps with building applications 
+ |
+ . tailored for a specific language(s) 
+ |  
+ . How it builds an app :
+ |  . its own code +-> your code
+ |  -> machine code
+ |  -> executes that code
+ |  -> an app is built 
+ |
+ . ex.: .NET Framework, .NET Core, OpenGL. 
+
+
+ . (in Windows:) no need for the user to include .lib and .dll . 
+
+============================================================================================================================================================
+============================================================================================================================================================
+============================================================================================================================================================
+"
+A framework is a pre-built structure or set of tools that provides a foundation for developers to build upon, enabling them to create software applications more efficiently and consistently. Frameworks often include reusable code, libraries, and conventions that help streamline the development process and enforce best practices.
+
+Key characteristics of frameworks include:
+
+1. **Reusable Code and Libraries:** Frameworks come with pre-written code and libraries that address common tasks and functionalities. Developers can leverage these components to avoid reinventing the wheel and focus on application-specific features.
+
+2. **Abstraction:** Frameworks abstract common functionalities and provide a high-level structure, allowing developers to work at a more abstract and application-specific level. This abstraction helps in simplifying complex tasks.
+
+3. **Convention over Configuration:** Many frameworks follow the principle of "convention over configuration," meaning that certain default configurations and conventions are assumed, reducing the need for developers to specify every detail. This can lead to increased productivity and consistency across projects.
+
+4. **MVC Architecture:** Many web frameworks, in particular, follow the Model-View-Controller (MVC) architectural pattern. This separation of concerns helps organize code into distinct modules responsible for handling data, user interface, and application logic.
+
+5. **Extensibility:** Frameworks are designed to be extensible, allowing developers to add or customize features according to the specific needs of their application.
+
+6. **Integrated Tools:** Frameworks often come with integrated tools for tasks such as database interaction, form handling, and testing. This integration reduces the need for developers to seek external solutions for common functionalities.
+
+7. **Community Support:** Frameworks usually have active communities that contribute to their development, provide support, and share resources such as documentation, tutorials, and plugins.
+
+Examples of frameworks include:
+
+- **Django:** A web framework for Python that follows the MVC pattern and is known for its simplicity and scalability.
+
+- **Ruby on Rails:** A web framework for the Ruby programming language that emphasizes convention over configuration and follows the MVC pattern.
+
+- **Spring:** A comprehensive framework for building enterprise Java applications, providing support for dependency injection, aspect-oriented programming, and more.
+
+- **Express.js:** A web application framework for Node.js, designed to simplify the development of web applications and APIs.
+
+Frameworks are widely used in software development to expedite the development process, maintain code consistency, and promote best practices. They are particularly valuable for building applications with common structures and functionalities.
+"
+_

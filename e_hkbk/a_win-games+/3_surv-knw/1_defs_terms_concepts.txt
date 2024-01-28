@@ -83,7 +83,7 @@ CPU (central processing unit, a.k.a. the processor):
 
 Runtime: 
  - the period of operation of a computer devoted to input from and output to 
-   the user (i.e., follows the boot process). 
+   the user. 
 
 ===================================== Memory: ===================================
 

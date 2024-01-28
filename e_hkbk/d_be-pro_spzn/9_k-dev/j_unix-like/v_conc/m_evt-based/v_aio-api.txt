@@ -1,0 +1,63 @@
+
+===================================================================
+===================================================================
+A STRUCT AS A MAP ; THE I/O FILE/OP IS THE DESTINATION. 
+===================================================================
+===================================================================
+
+Every I/O operation is enclosed in a file. 
+ => we need a way to help us find and execute the operation 
+
+
+An 'aiocb' structure holds the info necessary to find and execute the I/O operation in one AIO call :  
+ |
+ |
+ . file descriptor ('aio_fildes') 
+ |  . kernel opens an I/O file with open() 
+ |     . you can also open network sockets 
+ |  -> open() generates a unique integer - the file descriptor - and ties that number to the I/O file (maybe in smth like a table).
+ |  -> the file descriptor value is returned and stored in the 'aio_fildes' variable for future use 
+ |
+ . file offset ('aio_offset')
+ |  . the location of the I/O operation in the file
+ |
+ . request length ('aionbytes')
+ |
+ . target memory location ('aio_buf')
+    . for file read results
+
+
+-> an AIO call is made
+   . (on a Mac:) aio_read(struct aiocb *aiocbp)
+
+
+ . pointer 'aiocbp' holds the location of the 'aiocb' structure 
+
+===================================================================
+===================================================================
+AIO termination : 
+===================================================================
+===================================================================
+
+I/O (CPU) resources release does not happen by itself. 
+ . an AIO call is programmed to terminate 
+ => need to do status checks (polling) on whether AIO is terminated
+    . (on a Mac:) aio_error(const struct aiocb *aiocbp)
+      . 0 - success
+      . EINPROGRESS - still running
+      . any other value - the error code for the type of failure that occurred 
+ -> I/O resources are released 
+
+
+ - polling overhead
+    . wasting CPU resources on a sleeping-checking process/thread 
+ + interrupts are better
+    . a hardware signal can be sent to indicate that an AIO terminated when it does happen
+
+===================================================================
+===================================================================
+
+No solution is perfect and we have to deal with the drawbacks of the solutions we choose.
+ . multi-threading for efficiency
+ . 
+_

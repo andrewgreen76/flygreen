@@ -20,24 +20,4 @@ Status checks :
  . an app is at liberty to keep an eye on the progress of the I/O request
     . checks in on execution of certain I/O operations
 
-===========================================================================================
-===========================================================================================
-
-What's needed for an AIO call :
- |
- . file descriptor ('aio_fildes')
- |  . every I/O operation is enclosed in a file 
- |  . the 'fildes' macro/stream references the I/O file 
- |
- . file offset ('aio_offset')
- |  . the location of the I/O operation in the file
- |
- . request length ('aionbytes')
- |
- . target memory location ('aio_buf')
-    . for file read results
-
-
- -> an AIO call is made
-    . (on a Mac:) aio_read(struct aiocb *aiocbp) 
 _

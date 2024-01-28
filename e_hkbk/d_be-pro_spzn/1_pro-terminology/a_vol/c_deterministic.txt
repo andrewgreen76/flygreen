@@ -1,0 +1,27 @@
+
+ . For one and the same input there will always be one and the same output. 
+ . also means "predictable" 
+
+===============================================================================
+===============================================================================
+===============================================================================
+"
+In computer science, "deterministic" refers to a system or process that, given the same initial state and inputs, will always produce the same result or output. In other words, the behavior of a deterministic system is predictable and consistent under identical conditions.
+
+Key points about determinism in the context of computer science include:
+
+1. **Reproducibility:** A deterministic algorithm or system is designed to produce the same outcome each time it is executed with the same input data and initial conditions. This characteristic allows results to be reproduced and verified.
+
+2. **Absence of Randomness:** Deterministic systems do not involve randomness or probabilistic elements in their operation. The entire sequence of steps and decisions is predefined and follows a specific logic.
+
+3. **Predictability:** Because the behavior is entirely defined by the algorithm or rules, the future state of a deterministic system can be predicted precisely, given knowledge of the current state and inputs.
+
+4. **Deterministic Algorithms:** In algorithmic design, a deterministic algorithm is one that, for a given input, will always produce the same output. This is in contrast to nondeterministic algorithms, which may exhibit different behaviors on different runs, even with the same input.
+
+5. **Deterministic Finite Automaton (DFA):** In automata theory, a deterministic finite automaton is a type of finite state machine where each transition from one state to another is uniquely determined by the input symbol.
+
+6. **Deterministic Systems in Software:** Determinism is often a desirable property in software systems, as it leads to predictable and reliable behavior. However, certain applications, especially those involving simulation, cryptography, or certain types of randomness, may intentionally incorporate nondeterministic elements.
+
+Determinism is crucial in various areas of computer science, including algorithm design, simulation, parallel computing, and distributed systems. It provides a foundation for reasoning about the behavior of systems and ensures that the same set of inputs will consistently produce the same set of outputs.
+"
+_

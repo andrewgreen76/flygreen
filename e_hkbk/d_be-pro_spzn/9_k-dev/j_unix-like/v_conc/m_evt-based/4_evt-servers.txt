@@ -1,39 +1,56 @@
 
-================================================================================================
+===============================================================================================================
+===============================================================================================================
+Though this concerns systems and applications in general , much of the focus will be on """server kernel""".
+So from here on now when I say "server" , I most likely mean "a concurrent system or application". 
+===============================================================================================================
+===============================================================================================================
 
-Multi-threading introduces complexities :
+Multi-threading introduces issues and complexities :
  . race condition 
    .> locks
    .> condition variables
    .> semaphores
  . possible : missing locks
  . potential deadlocks
+ |
+ => enough reasons to prefer MQMS to SQMS 
 
 ================================================================================================
 
 Event (if-then) :
  . an occurence in storage or network
- . responded to
- . something is event-based as opposed to unconditionally/persistently executing something 
+ . responded to 
+ . sys/app is event-based (persistent event monitoring) ... as opposed to unconditionally/persistently executing something
 
 ================================================================================================
 
-Event-based concurrency :
+Event-driven flow :
  |
- . server waits for certain events/requests
- -> recognizes event 
+ . sys/app persistently waits for certain events/requests
+ -> recognizes an event 
  -> identifies event type
  -> performs only the necessary actions
-    . maybe initiating other I/O requests 
-    . maybe scheduling other events 
+    . (maybe initiating other I/O requests) 
+    . (maybe scheduling other events) 
 
 
- . relying on processes , never on threads
- 
- . used in SERVERS
+ . used in SERVERS (a.k.a. server-side environments) 
  . also in GUI apps and frameworks , but mainly in servers 
 
+================================================================================================
+Asynchronous ~= independent. 
+================================================================================================
 
-
-Event-based concurrency does away with multi-threading
+Event-based concurrency in systems/apps :
+ |
+ . multi-threading leads to issues (i.e., race condition , lock acquisition bottleneck)
+ | => event-driven sys/app uses concurrent processes instead of concurrent threads
+ |
+ . processes are still managed and scheduled by the kernel
+ |  . but otherwise they function independently (both the server and clients) 
+ |
+ . guaranteed process independence in a system => freedom in developing the program before it becomes a task/process. 
+ |
+ . "more deterministic [predictable] and manageable approach to handling concurrent operations" 
 _

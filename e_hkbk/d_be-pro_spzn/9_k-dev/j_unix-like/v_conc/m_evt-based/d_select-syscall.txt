@@ -1,8 +1,98 @@
 
+=============================================================================
+=============================================================================
+BASICS to cover ... before getting into event-driven concurrency details : 
+=============================================================================
+=============================================================================
+
+End-to-end connection :
+ |
+ . sending packets :
+ |
+ . event/device identification
+ -> establishing a connection
+ -> protocol negotiation
+ -> data exchange
+ -> termination
+ -> release 
+
+
+Socket :
+ |
+ . in abstract , one end of a connection
+ . used to represent a device 
+ . realized with unique ID/combo = [IP addr. + port number]
+ => the uniqueness of a device in communication rests on the IP address 
+
+=============================================================================
+=============================================================================
+Event-driven concurrency DETAILS : 
+=============================================================================
+=============================================================================
+
+File pointer :
+ . (a pointer for) the memory address of a file 
+
+
+File handle / file descriptor :
+ . a unique macro (number) for a file stream
+ . "STDIN_FILENO: Standard input file descriptor, which is usually 0." 
+ . "STDOUT_FILENO: Standard output file descriptor, which is usually 1." 
+ . "STDERR_FILENO: Standard error file descriptor, which is usually 2." 
+
+
+Network descriptor :
+ | 
+ . in the abstract , a thing that represents ...
+    . a specific packet stream between sockets
+    . or the other end in communication 
+ . realized as a designated unique integer representing connection with the other end in communication
+ . stored in 'task_struct' of the client/server
+ . in a server represents a specific client 
+
+
+Total implementation :
+ |
+ . socket = IP addr. , port number , task_struct
+ . descriptor = unique representative integer for a socket 
+ |
+ . the server stores a descriptor for itself and a descriptor for the client
+ . the client stores a descriptor for itself and a descriptor for the server 
+
+
 select() / poll() : 
- . for determining which protocol has incoming messages (I/O)
+ . for determining which descriptor (local macro'd endpoint) has incoming messages (I/O)
+ . used in persistent message monitoring
+ . see : portable fraction-of-a-second sleep
 
 
-file handle / file descriptor :
- . a unique name/number / memory address for a file 
+=============================================================================
+=============================================================================
+IMPLEMENTATION : 
+=============================================================================
+=============================================================================
+
+int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *errorfds, struct timeval *timeout);
+
+"   	        | 
+argument	| description
+----------------+----------------------------------------------------------------------------------
+nfds		| this integer is (1 + the max integer value) of file descriptors
+readfds		| tells us which file descriptors are ready to read
+writefds	| tells us which file descriptors are ready to write
+errorfds	| tells us which file descriptors have file descriptions with conditions pending	??? 
+timeout		| maximum interval to wait for the selection to complete
+		| 
+"
+
+=======================================================================================
+=======================================================================================
+Functional design specification (FDS) :
+ | 
+ . a document , not a file or a piece of code
+ . the focus is on the behavior of something
+ |
+ . implementation : also means "file descriptor" (fds) in server-client architecture 
+=======================================================================================
+=======================================================================================
 _

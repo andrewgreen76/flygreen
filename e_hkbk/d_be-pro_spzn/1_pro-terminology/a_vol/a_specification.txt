@@ -1,0 +1,37 @@
+
+Functional design specification (FDS) :
+ | 
+ . a document , not a file or a piece of code
+ . the focus is on the behavior of something
+ |
+ . implementation : also means "file descriptor" (fds) in server-client architecture 
+
+=========================================================================================================================================================
+=========================================================================================================================================================
+=========================================================================================================================================================
+"
+Yes, there are various types of specifications in the realm of design and development, and not all of them are classified as functional design specifications. Some common types of specifications include:
+
+1. **Functional Design Specification (FDS):** Describes the functional requirements of a system, detailing how the system is expected to behave from a user or operational perspective. It often includes information about the intended functionality, data flow, user interfaces, and more.
+
+2. **Technical Design Specification (TDS):** Focuses on the technical aspects of a system's design. It includes details such as architecture, database design, data structures, algorithms, and other technical considerations. TDS is more concerned with the internal workings of the system.
+
+3. **System Design Specification (SDS):** Encompasses both functional and technical aspects of the system design. It provides a comprehensive overview of the system's architecture, components, and their interactions.
+
+4. **Performance Specifications:** Detail the expected performance characteristics of a system, including response times, throughput, scalability, and other performance-related metrics.
+
+5. **Security Specifications:** Outline the security requirements and measures to be implemented in a system. This may include authentication mechanisms, access control, encryption, and other security features.
+
+6. **Interface Specifications:** Define the interfaces between different components or systems. This includes APIs, communication protocols, and data exchange formats.
+
+7. **Usability Specifications:** Focus on user experience and design considerations. This may include requirements related to user interfaces, accessibility, and overall user interaction with the system.
+
+8. **Compliance Specifications:** Specify the adherence of the system to industry standards, regulations, or compliance requirements.
+
+9. **Test Specifications:** Detail the test scenarios, test cases, and procedures for verifying that the system meets its specified requirements.
+
+10. **Maintenance Specifications:** Provide guidelines for system maintenance, updates, and modifications. This may include documentation on how to handle changes and enhancements.
+
+Each type of specification serves a specific purpose in the software development life cycle, and they may be created at different stages of the design and development process. The choice of which specifications to create depends on the project's requirements and the need to communicate different aspects of the system to various stakeholders.
+"
+_

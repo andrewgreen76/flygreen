@@ -1,0 +1,16 @@
+
+Driver : 
+ . in general , code of any size 
+ . a very broad term ; using the word needs context 
+
+Main driver : 
+ . the main function or entry point in a program 
+
+Device driver : 
+ . translates data meant for a different architecture into data that the hardware in its own architecture can digest.
+
+Test driver :
+ . a program or script
+ . pushes test cases and collects results 
+
+_

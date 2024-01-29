@@ -4,7 +4,6 @@ Avail SUNDAY 1/28
 ===============================================
 
 BOD_mon-1-29_dsndoc_cs302
-git.url
 read-ahead
 
 302 quiz : in-class , qns from lecture , study ahead 
@@ -12,6 +11,7 @@ read-ahead
 
 400 quiz : schedd , study ahead  
 read-ahead
+
 
 
 
@@ -79,6 +79,8 @@ Avail SATURDAY 2/3
 Avail SUNDAY 2/4 
 ===============================================
 u_mon-2-5_prj-abstr-subm_cpe400
+CS365 - 1.1 HW 
+CS365 - 1.2 HW 
 v_read-ahead
 ===============================================
 Avail THURSDAY 2/8

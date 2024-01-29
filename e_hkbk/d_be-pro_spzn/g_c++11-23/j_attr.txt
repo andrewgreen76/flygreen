@@ -1,0 +1,32 @@
+"
+In object-oriented programming (OOP), a class attribute is a variable that is associated with a class rather than with instances (objects) of that class. Class attributes are shared among all instances of the class. They are defined at the class level and are the same for every object created from that class.
+
+Here's an example in Python:
+
+```python
+class MyClass:
+    # Class attribute
+    class_variable = "I am a class attribute"
+
+    def __init__(self, instance_variable):
+        # Instance attribute
+        self.instance_variable = instance_variable
+
+# Creating instances of the class
+obj1 = MyClass("Object 1")
+obj2 = MyClass("Object 2")
+
+# Accessing class attribute
+print(obj1.class_variable)  # Outputs: I am a class attribute
+print(obj2.class_variable)  # Outputs: I am a class attribute
+
+# Accessing instance attribute
+print(obj1.instance_variable)  # Outputs: Object 1
+print(obj2.instance_variable)  # Outputs: Object 2
+```
+
+In this example, `class_variable` is a class attribute because it's defined at the class level, and it is shared among all instances of the `MyClass`. The `instance_variable`, on the other hand, is an attribute specific to each instance of the class.
+
+Class attributes are useful when you want certain data to be common to all instances of a class, rather than being specific to each instance. They are accessed using the class name, as shown in the example.
+"
+_

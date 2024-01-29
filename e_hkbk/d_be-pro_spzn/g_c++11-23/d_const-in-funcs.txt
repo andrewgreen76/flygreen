@@ -1,0 +1,38 @@
+"
+In the examples I provided, the use of `const` in member functions serves to indicate that these functions do not modify the object's state. The `const` specifier is part of a feature known as "const correctness" in C++, and it helps enforce the idea of immutability or non-modifiability in certain contexts.
+
+Here's a brief explanation of the usage of `const` in C++:
+
+1. **Member Functions Marked as `const`:**
+   - When a member function is marked with `const`, it means that the function promises not to modify the state of the object it is called on. This allows the function to be called on constant or read-only objects.
+
+    ```cpp
+    class MyClass {
+    public:
+        int getData() const {
+            // This function does not modify the object's state
+            // ...
+            return data;
+        }
+
+    private:
+        int data;
+    };
+    ```
+
+2. **Const Objects:**
+   - When an object is declared as `const`, it means that the object's state cannot be modified through that reference or pointer. Marking member functions as `const` enables them to be called on `const` objects.
+
+    ```cpp
+    const MyClass obj;
+    int value = obj.getData();  // Calling a const member function on a const object
+    ```
+
+3. **Preventing Unintentional Modifications:**
+   - Marking member functions as `const` also helps prevent unintentional modifications of the object's state within those functions. If you attempt to modify a non-mutable member variable inside a `const` member function, the compiler will generate an error.
+
+   - It contributes to making your code more robust and self-documenting, as it clarifies the intended behavior of the function.
+
+Using `const` in these contexts helps make your code safer, more readable, and more maintainable by enforcing a clear distinction between functions that modify the object's state and those that do not. It's a good practice to use `const` wherever applicable to indicate and enforce immutability where desired.
+"
+_

@@ -1,0 +1,92 @@
+
+=======================================================================
+HW 1 PROJECT : 
+=======================================================================
+
+ . Overload oper < for ordered insert 
+ . ALL CLASSES MUST BE TEMPLATED
+ . use any data structure for the train container and the bus container
+ . YOU CANNOT EXPLICITLY COMPILE TEMPATED CLASSES IN THE MAKEFILE
+ . templated class : header and source file
+ ? 
+
+=======================================================================
+INTERFACES : 
+=======================================================================
+
+explain runtime vs. compile-time polym 
+
+pure virtual function vs. non-pure 
+subtype polym 
+ . runtime polym
+ . base class pointer = placeholder in code
+ . capitalizes on passing by reference - saving memory
+ . inheritance + saving memory + passing a child as the Base type (better type coverage)
+ . 'virtual' saves memory
+ . can't instantiate the base class
+ . parent-child type flexibility with arguments in a class function
+
+ . interface vs. abstract base class
+    . interface
+       . no attributes
+       . all functions are purely virtual
+       . exploited exclusively for inheritance
+       . no sense in making objects of the interface
+       . "syntax is same as clas definition"
+       . only need a header file
+       . abstract "contact"
+       . capitalizes on behavior
+       . ADDITIONAL FUNCTIONS ARE PRIVATE
+       . IF THERE'S IMPLEMENTATION , DEFINE ALL FUNCTIONS
+       . REQUIRED BEHAVIOR 
+
+
+
+decl : void foo(Base *); 
+Dog fido; 
+
+call foo();
+
+binding :
+ . an identifier is tied to a mem.addr 
+
+=======================================================================
+ADT :
+ . abstract data type
+ . solutions for how to store collections of like objects
+ . ex. : linked lists 
+=======================================================================
+Data structure :
+ . implementation
+ . ex. : vectors 
+=======================================================================
+
+a good idea :
+ . every class is to have 
+
+pure virtual function vs. non-pure 
+
+??? virtual functions = shared functions 
+
+ . is-a relationship
+ . has-a relationship
+
+UML - ? 
+
+=======================================================================
+
+parametric
+ . compile-time
+
+ad-hoc
+
+coersion
+ . casting
+
+=======================================================================
+TEMPLATES : 
+=======================================================================
+
+ . templated class - ?
+ . see slides 
+_

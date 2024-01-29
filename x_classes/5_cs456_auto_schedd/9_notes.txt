@@ -1,4 +1,13 @@
 
+power set :
+ .
+
+set equality problem :
+ .
+
+set theory proof :
+ .
+
 Theory of computation :
  .
 

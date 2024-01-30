@@ -1,0 +1,13 @@
+
+Packet switch :
+ . 
+
+Network core :
+ . a set of communicating routers
+ .
+ . see slides 
+ .
+ > store-and-forward
+    . packet retention (bufferring)
+    . buffer overflow 
+_

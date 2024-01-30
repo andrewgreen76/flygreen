@@ -4,11 +4,14 @@
 Asymptote :
  .
 
+
 Asymptotic notation :
  . 
 
+
 Placeholder function :
  .
+
 
 Mathematical induction :
  . - ?
@@ -17,5 +20,20 @@ Mathematical induction :
  . Inductive step : prove for n+1
     . Assume : 2n + 1 <= 2^n
     . Prove : 2(n+1) + 1 <= 2^(n+1)
-    . Proof : 2(n+1) + 1 = 2n + 1 + 2 
+    . Proof : 2(n+1) + 1 = 2n + 1 + 2
+
+
+Search algorithms :
+ . binary - recursive
+ |  . think a linear array
+ |  . know and write quickly to save time
+ |
+ . A = array
+ . x = the key we are looking for
+ . lo = index of min
+ . hi = index of max
+ . n = size of input 
+ . T(n) = running time given 'n'
+ . recress ??
+ . T(n) = T(n/2) + c 
 _

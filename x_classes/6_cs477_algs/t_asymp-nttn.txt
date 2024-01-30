@@ -26,16 +26,25 @@ Mathematical induction :
 Search algorithms :
  . binary - recursive
  |  . think a linear array
+ |  . assume the array is already sorted 
  |  . know and write quickly to save time
  |
  . A = array
  . x = the key we are looking for
  . lo = index of min
  . hi = index of max
- . n = size of input 
+ . n = size of original input 
  . T(n) = running time given 'n'
  . recress ??
  . T(n) = T(n/2) + c
+ . T(n) = T(n-1) + n   - linear work + [lump off one element -> recursive feed] 
  |
- . thinking about best/worst/average cases 
+ . thinking about best/worst/average cases
+
+
+Solving recurrences - methods :
+ . iteration method :
+    . log(n) = running time
+    . i times
+    => we stop when i=1 
 _

@@ -19,4 +19,6 @@ Automata theory :
  . a study of "abstract machines and their computational capabilities"
  . ... abilities to follow patterns 
 
+
+Humans are concerned with the imaginable. The machines are concerned with the doable. 
 _

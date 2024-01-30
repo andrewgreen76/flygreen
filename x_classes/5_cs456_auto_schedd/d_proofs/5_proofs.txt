@@ -4,6 +4,7 @@ Proof :
     . proves that if a human can determine/compute certain things , so can the machine 
     . (efficiency and inherent limits of the computation) 
 
+
 Set theory proof :
  . proof concerning sets 
 

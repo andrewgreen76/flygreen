@@ -1,32 +1,31 @@
 
-qz qns from last lecture 
-
-check on the quiz 
-|
-BOD_mon-1-29_dsndoc_cs302
-|
-check on the quiz 
-|
-ask about the Review Quiz (Wed , 1/31) no-time availability
- . HOW DO WE POST ? 
-|
-check on the quiz 
-|
-read-ahead
+cpe 400
+ . read-ahead
 
 
-
-
-read-ahead
-
-400 quiz : schedd , study ahead  
-read-ahead
 
 456 quiz : EOD , Fri , online 
 477 slides , written notes , 
 read-ahead
 
-theta tau
+
+add more assts to this cal. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -44,49 +43,84 @@ theta tau
 ===============================================
 Avail TUESDAY 1/30
 ===============================================
-i_EOD_sun-2-4_hw-1-1_1-2
-j_read-classes-os
+Study for 1/31 - in-class quiz - CS302
+ . read ahead 
+ . Top Hat - https://mail.google.com/mail/u/0/#inbox/FMfcgzGwJvlCCGlzLvDRGmWfxVNrqvSF
+
+EOD Sun , 2/4 - hw 1.1 - CS365 - timed ? 
+EOD Sun , 2/4 - hw 1.2 - CS365 - timed ? 
+EOD Sun , 2/11 - quiz ("logic quiz") for CS365 - timed ; multiple choice 
+
+Read ahead
 
 ===============================================
 Avail WEDNESDAY 1/31
 ===============================================
 m_mon-2-12_qz1_cpe400
 o_wed-2-14_hw1_cpe400
-p_read-classes-os
+Read ahead
 
 ===============================================
 Avail THURSDAY 2/1 
 ===============================================
-s_read-classes-os
+Due Sun , 2/11 - coursera asst (wk2) 
+Read ahead
 
 ===============================================
 Avail FRIDAY 2/2 
 ===============================================
-Due Sun , 2/4 - quiz for CS365 - timed ; multiple choice 
+Due Sun , 2/11 - coursera asst (wk2) 
+Read ahead
 
 ===============================================
 Avail SATURDAY 2/3 
 ===============================================
+Due Sun , 2/11 - coursera asst (wk2) 
+theta tau
+Read ahead
 
 ===============================================
 Avail SUNDAY 2/4 
 ===============================================
 u_mon-2-5_prj-abstr-subm_cpe400
-CS365 - 1.1 HW 
-CS365 - 1.2 HW 
-v_read-ahead
+Read ahead
+
+===============================================
+Avail MONDAY 2/5 
+===============================================
+
+===============================================
+Avail TUESDAY 2/6 
+===============================================
+
+===============================================
+Avail WEDNESDAY 2/7
+===============================================
+Due Mon , 2/12 - CPE400 qz 1 
+Due Wed , 2/14 - CPE400 hw 1 
+Read ahead
+
 ===============================================
 Avail THURSDAY 2/8
 ===============================================
 y_EOD_thu-2-8_hw1_cs302
+Read ahead
+
+===============================================
+Avail FRIDAY 2/9
+===============================================
+
 ===============================================
 Avail SATURDAY 2/10
 ===============================================
+Read ahead
 
 ===============================================
-Avail SUNDAY 1/28
+Avail SUNDAY 2/11
 ===============================================
+Read ahead
 
 ===============================================
-Avail MONDAY 1/29
+Avail MONDAY 2/12
 ===============================================
+Read ahead

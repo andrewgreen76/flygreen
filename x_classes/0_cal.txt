@@ -1,15 +1,16 @@
 
-cpe 400
- . read-ahead
+456 : quiz : EOD , Fri , online 
 
-
-
-456 quiz : EOD , Fri , online 
-477 slides , written notes , 
+477 : slides , written notes , 
 read-ahead
 
+check on reply from Sara Davis
+check on reply from Erin Keith 
 
 add more assts to this cal. 
+
+
+
 
 
 
@@ -43,19 +44,25 @@ add more assts to this cal.
 ===============================================
 Avail TUESDAY 1/30
 ===============================================
-Study for 1/31 - in-class quiz - CS302
+Study for 1/31 - in-class quiz - 302
  . read ahead 
  . Top Hat - https://mail.google.com/mail/u/0/#inbox/FMfcgzGwJvlCCGlzLvDRGmWfxVNrqvSF
 
-EOD Sun , 2/4 - hw 1.1 - CS365 - timed ? 
-EOD Sun , 2/4 - hw 1.2 - CS365 - timed ? 
-EOD Sun , 2/11 - quiz ("logic quiz") for CS365 - timed ; multiple choice 
+
+cpe 400
+ . read-ahead
+
+
+EOD Sun , 2/4 - hw 1.1 - 365 - timed ? 
+EOD Sun , 2/4 - hw 1.2 - 365 - timed ?
+EOD Thu , 2/8 - hw 1 - 302 
 
 Read ahead
 
 ===============================================
 Avail WEDNESDAY 1/31
 ===============================================
+EOD Sun , 2/11 - quiz ("logic quiz") for CS365 - timed ; multiple choice 
 m_mon-2-12_qz1_cpe400
 o_wed-2-14_hw1_cpe400
 Read ahead

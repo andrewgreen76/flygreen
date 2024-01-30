@@ -1,0 +1,14 @@
+
+Language (L) :
+ |
+ . only some of all possibly generated strings
+ |
+ |
+ . some molecules
+ . any SUBSET of E* 
+
+
+Infinite language :
+ . an infinite set of strings
+ => a finite language has a finite set of strings 
+_

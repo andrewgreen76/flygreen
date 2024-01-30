@@ -1,0 +1,9 @@
+
+Bandwidth : 
+ . ability to transmit at capacity
+
+Frequency Division Multiplexing :
+
+Time Division Multiplexing : 
+
+_

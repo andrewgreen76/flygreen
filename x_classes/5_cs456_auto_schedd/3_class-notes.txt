@@ -1,25 +1,64 @@
 =========================================================================================================================================================
 Essence : 
 =========================================================================================================================================================
- . 
+
+ . Discussing ideation of machines that can do at least one thing 
 
 =========================================================================================================================================================
 Flash cards for the class : 
 =========================================================================================================================================================
 
+It's all about following a pattern. 
+
+Alphabet (E) :
+ . a finite set of symbols , elements that make up a string
+ . E = {symbols}
+ => E = atoms 
+
+E* = ALL POSSIBLE STRINGS "OVER" THE ALPHABET.
+ => all possible molecules
+ . * - all
+
+Language (L) :
+ . any SUBSET of E* 
+ . some molecules
+
+Formal language :
+ . a certain type of language (subset)
+ . the automaton follows a certain rule / pattern / behavior 
+ . formal language = results of a formula 
+
 Automaton :
- . a theoretical model for a machine
+ . an abstract for a machine
+ . does one thing and one thing only - following a pattern 
  . attached are :
-    . 
+    . language - formulated resultant strings 
+    . grammar - 
+    . expressions 
+
+Automata theory : 
+ . a study of "abstract machines and their computational capabilities"
+ . ... abilities to follow patterns 
+
+============================================================================================================================================================
+============================================================================================================================================================
+============================================================================================================================================================
 
 Power set :
- .
+ . subset of the set + empty + the set itself 
 
-set equality problem :
- .
+Set equality problem :
+ . Do the two (unordered) sets contain the same elements ? 
 
-set theory proof :
- .
+Set theory :
+ . a study of sets
+ . theory = study
+
+Proof :
+ . 
+
+Set theory proof :
+ . proof concerning sets 
 
 Theory of computation :
  .
@@ -104,11 +143,4 @@ Propositions :
 ========================================================
 
 Proof by contradiction : 
-
-=========================================================================================================================================================
-Flash cards for me : 
-=========================================================================================================================================================
-
-Model :
- . abstraction / representation 
 _

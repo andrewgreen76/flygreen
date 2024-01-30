@@ -35,5 +35,7 @@ Search algorithms :
  . n = size of input 
  . T(n) = running time given 'n'
  . recress ??
- . T(n) = T(n/2) + c 
+ . T(n) = T(n/2) + c
+ |
+ . thinking about best/worst/average cases 
 _

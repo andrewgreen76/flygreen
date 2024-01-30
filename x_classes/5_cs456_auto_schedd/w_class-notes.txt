@@ -12,12 +12,6 @@ Essence :
 Flash cards for the class : 
 =========================================================================================================================================================
 
-Theory of computation :
- . study of algorithms and automata 
- => study of determining machines and solutions
- => study of problem-solving machines 
- . Machine's capabilitiy : What can be computed with this machine ? 
-
 Proof by induction :
  . recursive proof (base case and generic/inductive step)
  . You get a formula ? (Arithmetic series formula.) 
@@ -28,8 +22,6 @@ Proof by induction :
     . n=3 => n(n+1)/2 => 3(2)      = 6 = sum of first n=3 positive integers - 1+2+3
  . PROVE THE BASE CASE 
  . PROVE THE INDUCTIVE CASE 
-
-Computability : 
 
 ========================================================
 ========================================================

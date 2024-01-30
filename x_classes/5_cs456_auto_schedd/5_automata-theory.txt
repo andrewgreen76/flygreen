@@ -1,5 +1,6 @@
 
-Automata theory : 
+Automata theory :
+ . a specific theory 
  . a study of "abstract machines and their computational capabilities"
  . ... abilities to follow patterns 
 

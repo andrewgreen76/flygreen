@@ -12,16 +12,15 @@ Essence :
 Flash cards for the class : 
 =========================================================================================================================================================
 
-Proof by induction :
- . recursive proof (base case and generic/inductive step)
+Proof by induction : 
+ . PROVE THE BASE CASE 
+ . PROVE THE generic/INDUCTIVE CASE 
  . You get a formula ? (Arithmetic series formula.) 
  . ex. : sum of first n positive integers
     . 0 is not a positive integer 
     . n=1 => n(n+1)/2 => 1         = 1 = sum of first n=1 positive integers - 1 
     . n=2 => n(n+1)/2 => 3         = 3 = sum of first n=2 positive integers - 1+2
     . n=3 => n(n+1)/2 => 3(2)      = 6 = sum of first n=3 positive integers - 1+2+3
- . PROVE THE BASE CASE 
- . PROVE THE INDUCTIVE CASE 
 
 ========================================================
 ========================================================

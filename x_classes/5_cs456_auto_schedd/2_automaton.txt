@@ -1,9 +1,18 @@
 
 Automaton :
+ |
  . an ABSTRACT for a machine
- . follows a formula  
+ . input - string
+ . state
+ . processing rule
+ |
+ |
  . thought of as one with :
-    . grammar - the agent and the pattern for string generation 
+    |
+    |			    form.lang 
+    . str.genr --(grammar)-> string --> automaton 
+    | 
+    . grammar - the pattern for string generation 
     . formal language - formulated strings 
     . expressions 
 

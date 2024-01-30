@@ -2,37 +2,29 @@
 Essence : 
 =========================================================================================================================================================
 
- . Discussing ideation of machines that can do at least one thing 
+ . discussing ideation of machines that can make at least one thing happen 
 
 =========================================================================================================================================================
 Flash cards for the class : 
 =========================================================================================================================================================
 
-It's all about following a pattern. 
+It's all about FOLLOWING A FORMULA. 
 
-Alphabet (E) :
- . a finite set of symbols , elements that make up a string
- . E = {symbols}
- => E = atoms 
-
-E* = ALL POSSIBLE STRINGS "OVER" THE ALPHABET.
- => all possible molecules
- . * - all
-
-Language (L) :
- . any SUBSET of E* 
+Language (L) : 
+ . only some of all possibly generated strings 
  . some molecules
+ . any SUBSET of E* 
 
 Formal language :
+ . FORMAL LANGUAGE = STRINGS GENERATED FROM A FORMULA 
  . a certain type of language (subset)
- . the automaton follows a certain rule / pattern / behavior 
- . formal language = results of a formula 
+ . the automaton follows a certain rule / pattern / behavior / formula 
 
 Automaton :
- . an abstract for a machine
- . does one thing and one thing only - following a pattern 
+ . an ABSTRACT for a machine
+ . follows a formula  
  . attached are :
-    . language - formulated resultant strings 
+    . formal language - formulated strings 
     . grammar - 
     . expressions 
 
@@ -86,7 +78,7 @@ Proof by induction :
 Grammar :
  . generates strings
     . randomly or follows a formula ? 
- . a -> n>=1
+ . a^n >= 1
     . ???
  . regular grammar : ??? 
 ||

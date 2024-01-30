@@ -4,17 +4,13 @@ Essence :
 
  . discussing ideation of machines that can make things happen 
  . the study of ...
-    . crafting formulas 
+    . crafting formulas (grammars) 
     . following formulas
     . what formulas work for us 
 
 =========================================================================================================================================================
 Flash cards for the class : 
 =========================================================================================================================================================
-
-
-========================================================
-========================================================
 
 Set theory proofs :
  . prove that a is b and b is a

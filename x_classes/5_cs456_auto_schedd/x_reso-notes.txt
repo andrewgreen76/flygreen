@@ -25,4 +25,8 @@ String :
 E* = ALL POSSIBLE STRINGS "OVER" THE ALPHABET.
  => all possible molecules
  . * - all
+
+Union :
+ . '+'
+ . 
 _

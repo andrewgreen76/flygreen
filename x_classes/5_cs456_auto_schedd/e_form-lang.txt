@@ -1,4 +1,10 @@
 
+Formal :
+ . "the use of well-defined, precise, and systematic rules, symbols, and structures"
+ . rule-based
+ . relying on formulas and representations 
+
+
 Formal language :
  . FORMAL LANGUAGE = STRINGS GENERATED FROM A FORMULA 
  . a certain type of language (subset)

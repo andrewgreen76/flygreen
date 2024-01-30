@@ -80,7 +80,8 @@ Quaternary :
 Closure (property) :
  . elem [op] elem = elem in set 
  . "closed under operation"
- . "If a,b ∈  S, then a*b ∈  S." 
+ . "If a,b ∈  S, then a*b ∈  S."
+ . integers closed under addition 
 
 Identity element :
  . "has the property that combining it with any other element under that operation leaves the other element unchanged."

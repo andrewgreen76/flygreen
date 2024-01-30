@@ -1,49 +1,4 @@
 
-456 : quiz : EOD , Fri , online 
-
-477 : slides , written notes , 
-read-ahead
-
-check on reply from Sara Davis
-check on reply from Erin Keith 
-
-add more assts to this cal. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-===============================================
-Avail TUESDAY 1/30
-===============================================
 Study for 1/31 - in-class quiz - 302
  . read ahead 
  . Top Hat - https://mail.google.com/mail/u/0/#inbox/FMfcgzGwJvlCCGlzLvDRGmWfxVNrqvSF
@@ -53,19 +8,56 @@ cpe 400
  . read-ahead
 
 
-EOD Sun , 2/4 - hw 1.1 - 365 - timed ? 
-EOD Sun , 2/4 - hw 1.2 - 365 - timed ?
-EOD Thu , 2/8 - hw 1 - 302 
-
 Read ahead
+
+_____________________________________________________
+add more assts to this cal. - up to Tue , 2/13 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+check on reply from Erin Keith 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ===============================================
 Avail WEDNESDAY 1/31
 ===============================================
+
+EOD , Fri 2/2 , quiz online - 456 
+
+477 : slides , written notes , 
+read-ahead
+
+EOD Sun , 2/4 - hw 1.1 - 365 - timed ? 
+EOD Sun , 2/4 - hw 1.2 - 365 - timed ?
+
+Mon , 2/5 prj-abstr-subm - 400
+
+EOD Thu , 2/8 - hw 1 - 302 
+
 EOD Sun , 2/11 - quiz ("logic quiz") for CS365 - timed ; multiple choice 
-m_mon-2-12_qz1_cpe400
-o_wed-2-14_hw1_cpe400
-Read ahead
 
 ===============================================
 Avail THURSDAY 2/1 
@@ -89,7 +81,9 @@ Read ahead
 ===============================================
 Avail SUNDAY 2/4 
 ===============================================
-u_mon-2-5_prj-abstr-subm_cpe400
+
+m_mon-2-12_qz1_cpe400
+o_wed-2-14_hw1_cpe400
 Read ahead
 
 ===============================================
@@ -131,3 +125,7 @@ Read ahead
 Avail MONDAY 2/12
 ===============================================
 Read ahead
+
+===============================================
+Avail TUESDAY 2/13
+===============================================

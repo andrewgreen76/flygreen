@@ -9,6 +9,9 @@ Model :
 Symbols :
  . elements that make up a string 
 
+String :
+ . a sequence of symbols composed together 
+
 Alphabet (E) :
  . chosen symbols
  |

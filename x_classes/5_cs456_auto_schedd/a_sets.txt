@@ -1,0 +1,13 @@
+
+Power set :
+ . subset of the set + empty + the set itself
+ . the ultimate set 
+
+Set equality problem :
+ . Do the two (unordered) sets contain the same elements ? 
+
+Set theory :
+ . a study of sets
+ . theory = study
+
+_

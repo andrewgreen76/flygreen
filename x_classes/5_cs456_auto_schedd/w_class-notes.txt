@@ -2,39 +2,15 @@
 Essence : 
 =========================================================================================================================================================
 
- . discussing ideation of machines that can make at least one thing happen 
+ . discussing ideation of machines that can make things happen 
+ . the study of ...
+    . crafting formulas 
+    . following formulas
+    . what formulas work for us 
 
 =========================================================================================================================================================
 Flash cards for the class : 
 =========================================================================================================================================================
-
-It's all about FOLLOWING A FORMULA. 
-
-============================================================================================================================================================
-============================================================================================================================================================
-============================================================================================================================================================
-
-String :
- . a series of symbols 
-
-Power set :
- . subset of the set + empty + the set itself
- . the ultimate set 
-
-Set equality problem :
- . Do the two (unordered) sets contain the same elements ? 
-
-Set theory :
- . a study of sets
- . theory = study
-
-Proof : 
- . proves whether a machine can determine/compute certain things 
-    . proves that if a human can determine/compute certain things , so can the machine 
-    . (efficiency and inherent limits of the computation) 
-
-Set theory proof :
- . proof concerning sets 
 
 Theory of computation :
  . study of algorithms and automata 

@@ -10,19 +10,6 @@ Flash cards for the class :
 
 It's all about FOLLOWING A FORMULA. 
 
-Language (L) : 
- . only some of all possibly generated strings 
- . some molecules
- . any SUBSET of E* 
-
-Automaton :
- . an ABSTRACT for a machine
- . follows a formula  
- . attached are :
-    . formal language - formulated strings 
-    . grammar - 
-    . expressions 
-
 Automata theory : 
  . a study of "abstract machines and their computational capabilities"
  . ... abilities to follow patterns 

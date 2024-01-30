@@ -1,0 +1,10 @@
+
+Automaton :
+ . an ABSTRACT for a machine
+ . follows a formula  
+ . thought of as one with :
+    . grammar - the agent and the pattern for string generation 
+    . formal language - formulated strings 
+    . expressions 
+
+_

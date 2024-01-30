@@ -1,4 +1,10 @@
 
+Language (L) : 
+ . only some of all possibly generated strings 
+ . some molecules
+ . any SUBSET of E* 
+
+
 Formal language :
  . FORMAL LANGUAGE = STRINGS GENERATED FROM A FORMULA 
  . a certain type of language (subset)

@@ -28,4 +28,5 @@
 (b) PROOF BY INDUCTION  
 ===========================================================================
 
+See written notes and slides. 
 _

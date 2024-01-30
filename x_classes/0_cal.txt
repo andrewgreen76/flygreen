@@ -53,7 +53,9 @@ read-ahead
 EOD Sun , 2/4 - hw 1.1 - 365 - timed ? 
 EOD Sun , 2/4 - hw 1.2 - 365 - timed ?
 
-Mon , 2/5 prj-abstr-subm - 400
+TIME , Mon , 2/5 prj-abstr-subm - 400
+
+TIME , Tue , 2/6 - hw1 - 477
 
 EOD Thu , 2/8 - hw 1 - 302 
 

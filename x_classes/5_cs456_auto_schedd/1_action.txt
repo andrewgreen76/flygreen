@@ -1,0 +1,9 @@
+
+    			    form.lang 
+    . str.genr --(grammar)-> string --> automaton 
+    | 
+    . grammar - the pattern for string generation 
+    . formal language - formulated strings 
+    . expressions 
+
+_

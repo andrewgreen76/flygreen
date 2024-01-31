@@ -10,8 +10,4 @@ POLYMORPHISM :
 
 DIRECT REL-P B/W INHER. AND RUNTIME POLYM.
 
-Cover 'this' in pointers.
- . this instance itself
- . very useful in inheritance 
-
 _

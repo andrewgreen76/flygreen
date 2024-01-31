@@ -39,43 +39,4 @@ call foo();
 binding :
  . an identifier is tied to a mem.addr 
 
-=======================================================================
-ADT :
- . abstract data type
- . solutions for how to store collections of like objects
- . ex. : linked lists 
-=======================================================================
-Data structure :
- . implementation
- . ex. : vectors 
-=======================================================================
-
-a good idea :
- . every class is to have 
-
-pure virtual function vs. non-pure 
-
-??? virtual functions = shared functions 
-
- . is-a relationship
- . has-a relationship
-
-UML - ? 
-
-=======================================================================
-
-parametric
- . compile-time
-
-ad-hoc
-
-coersion
- . casting
-
-=======================================================================
-TEMPLATES : 
-=======================================================================
-
- . templated class - ?
- . see slides 
 _

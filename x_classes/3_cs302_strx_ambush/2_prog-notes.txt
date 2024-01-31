@@ -13,4 +13,8 @@ REDUNDANCY IS ENCOURAGED.
 
 <string> is in <iostream> 
 
+
+a good idea :
+ . every class is to have 
+
 _

@@ -1,10 +1,4 @@
 
-Check on quizzes , etc. on Canvas. 
-
-================================================================================
-================================================================================
-================================================================================
-
 OOP concepts 
 operator overloading
 templates / STL 
@@ -28,11 +22,16 @@ Encapsulation :
 
 LEARN TO WRITE A CLASS
 
-. Inheritance
-   . describes "is-a" relationship
-   . HIERARCHY
-      . allows reuse of commonalities (in the base)
-      . REUSE 
+
+Inheritance
+ . describes "is-a" relationship
+ . HIERARCHY
+    . allows reuse of commonalities (in the base)
+    . REUSE
+ |
+ |
+ . has-a relationship
+
 
 protected :
  . members are private to outside world

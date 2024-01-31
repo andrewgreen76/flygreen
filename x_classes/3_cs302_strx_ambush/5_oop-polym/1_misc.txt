@@ -1,41 +1,6 @@
 
-OOP concepts 
 operator overloading
-templates / STL 
-C++ interfaces
 makefiles
-
-Abstraction :
- . ideas ,
-    . what does it mean to be a thing 
- . imagination 
- ? procedural abstraction - ?
- ? scalar - single value
-    . composite values (arrays)
-
-Encapsulation :
- . STATE AND BEHAVIOR in a COMPOSITE 
-    . what it has , what it can do
- . we define boundaries + how we interface with objects (data hiding) 
- . structs , classes , access specifiers (private , public , protected)  
- . union is a collection - not behavior-related
-
-LEARN TO WRITE A CLASS
-
-
-Inheritance
- . describes "is-a" relationship
- . HIERARCHY
-    . allows reuse of commonalities (in the base)
-    . REUSE
- |
- |
- . has-a relationship
-
-
-protected :
- . members are private to outside world
- . public to inherited objects
 
 Values : can be qualities 
 

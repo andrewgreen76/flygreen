@@ -1,0 +1,10 @@
+
+Abstraction :
+ . ideas ,
+    . what does it mean to be a thing 
+ . imagination 
+ ? procedural abstraction - ?
+ ? scalar - single value
+    . composite values (arrays)
+
+_

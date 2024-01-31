@@ -1,0 +1,9 @@
+
+Encapsulation :
+ . STATE AND BEHAVIOR in a COMPOSITE 
+    . what it has , what it can do
+ . we define boundaries + how we interface with objects (data hiding) 
+ . structs , classes , access specifiers (private , public , protected)  
+ . union is a collection - not behavior-related
+
+_

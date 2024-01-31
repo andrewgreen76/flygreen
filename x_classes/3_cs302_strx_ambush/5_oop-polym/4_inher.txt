@@ -1,0 +1,11 @@
+
+Inheritance
+ . describes "is-a" relationship
+ . HIERARCHY
+    . allows reuse of commonalities (in the base)
+    . REUSE
+ |
+ |
+ . has-a relationship
+
+_

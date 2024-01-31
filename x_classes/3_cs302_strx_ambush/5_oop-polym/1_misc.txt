@@ -1,8 +1,4 @@
 
-makefiles
-
-Values : can be qualities 
-
 POLYMORPHISM :
  . subtype (runtime polym)
     . typical polym

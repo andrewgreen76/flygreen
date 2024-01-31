@@ -5,8 +5,9 @@ Encapsulation :
     . what states it can have , what it can do (think header file) 
  . we define boundaries (what we can't have , how we can't be , and what we can't do) 
  . we define how we interface with objects (surface interaction - with data hiding)
- 
- . structs , classes , access specifiers (private , public , protected)  
- . union is a collection of items - not behavior-related
+ |
+ . Tools for realizing encapsulation : 
+    . structs , classes , access specifiers (private , public , protected)  
+    . union is a collection of items - not behavior-related
 
 _

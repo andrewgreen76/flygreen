@@ -5,22 +5,11 @@ Check on quizzes , etc. on Canvas.
 ================================================================================
 ================================================================================
 
-homework on Mon :
- . turn in design document
-
-================================================================================
-================================================================================
-================================================================================
-
 OOP concepts 
 operator overloading
 templates / STL 
 C++ interfaces
 makefiles
-
-? solid design principles - ?
-
-? C vs. C++ - ?
 
 Abstraction :
  . ideas ,
@@ -39,38 +28,6 @@ Encapsulation :
 
 LEARN TO WRITE A CLASS
 
-REDUNDANCY IS ENCOURAGED. 
- . <string> here and there 
- . DO NOT #INCLUDE <IOSTREAM>. INCLUDE LIBRARIES YOU ACTUALLY NEED. 
-    |
-    . bloats the compiler load
-    . may radically change the nature of the compiling process
-
-
-<string> is in <iostream> 
-
-Main driver - ?
-
-Modularization :
- . procedures , behavior
- . break up into pieces - JUST FUNCTIONS 
- . different from encapsulation
-
-Composition (OOP prin) :
- . relationship , state
- . fulfills a description
- . "be made up of several things" , not "to put together"
- . here : made up of objects of different classes 
-
-Aggregation : 
- .
-
-Class definition - blueprint
-
-Cover 'this' in pointers.
- . this instance itself
- . very useful in inheritance 
-
 . Inheritance
    . describes "is-a" relationship
    . HIERARCHY
@@ -83,10 +40,6 @@ protected :
 
 Values : can be qualities 
 
-Open for extension
-
-Direct rel-p b/w inher. and runtime polym.
-
 POLYMORPHISM :
  . subtype (runtime polym)
     . typical polym
@@ -95,4 +48,11 @@ POLYMORPHISM :
  . parametric (compile-time polym)
  . ad-hoc (overloading)
  . coersion (casting) 
+
+DIRECT REL-P B/W INHER. AND RUNTIME POLYM.
+
+Cover 'this' in pointers.
+ . this instance itself
+ . very useful in inheritance 
+
 _

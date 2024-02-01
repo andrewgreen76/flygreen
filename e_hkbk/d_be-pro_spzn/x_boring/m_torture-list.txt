@@ -1,0 +1,22 @@
+
+See x_classes for resources.
+
+=======================================
+
+Data structures :
+ . jargon -> purpose
+
+Mathematics of Computer Science :
+ . jargon -> purpose 
+ . proofs -> purpose
+
+Automata and formal languages :
+ . jargon -> purpose 
+ . theories -> purpose 
+ . proofs -> purpose
+
+Analysis of Algorithms :
+ . jargon -> purpose 
+ . proofs -> purpose
+
+_

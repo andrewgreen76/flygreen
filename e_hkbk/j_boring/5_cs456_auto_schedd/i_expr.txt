@@ -1,0 +1,4 @@
+
+Expression :
+ . representation of a calculation or truth in terms of "constants, variables, operators, and other mathematical symbols" 
+_

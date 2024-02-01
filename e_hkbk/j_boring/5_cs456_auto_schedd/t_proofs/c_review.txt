@@ -1,0 +1,32 @@
+
+===========================================================================
+(a) SET THEORY PROOFS 
+===========================================================================
+
+ . de Morgan's law
+ . Show ...   =   Proof ... 
+
+ . show (A ∩ B)' = A' U B'	given sets A,B
+    	  (C)'   = D U E	
+	   F     =   G		where F,G are sets 
+
+
+ . ∩ closed under sets
+ . U closed under sets
+ . ' closed under sets 
+
+ . closure property (see 365)
+    . ??? 
+    . are integers closed under addition
+    . are integers closed under division 
+
+ . Prove that two sets are equal.
+    . if A=B => A ⊆ B and B ⊆  A
+    . if A ⊆ B => 
+
+===========================================================================
+(b) PROOF BY INDUCTION  
+===========================================================================
+
+See written notes and slides. 
+_

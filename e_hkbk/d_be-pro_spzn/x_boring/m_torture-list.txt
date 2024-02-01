@@ -4,22 +4,30 @@ See x_classes for resources.
 =============================================
 
 Data structures :
+ . see syllabus 
  . jargon -> purpose
 
 Computer Communications and Networks :
+ . see syllabus 
  . lots of concepts and solutions 
 
 Mathematics of Computer Science :
+ . see syllabus 
  . jargon -> purpose 
  . proofs -> purpose
 
 Automata and formal languages :
+ . see syllabus 
  . jargon -> purpose 
  . theories -> purpose 
  . proofs -> purpose
 
 Analysis of Algorithms :
+ . see syllabus 
  . jargon -> purpose 
  . proofs -> purpose
 
+Dev Ops :
+ . see syllabus 
+ -> 
 _

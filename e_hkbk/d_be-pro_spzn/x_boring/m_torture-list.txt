@@ -1,10 +1,13 @@
 
 See x_classes for resources.
 
-=======================================
+=============================================
 
 Data structures :
  . jargon -> purpose
+
+Computer Communications and Networks :
+ . lots of concepts and solutions 
 
 Mathematics of Computer Science :
  . jargon -> purpose 

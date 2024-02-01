@@ -1,15 +1,45 @@
 
-online ?
-specialized schools :
- . FLEXIBLE SCHEDULE
- . EE
- . many years - as long as it takes
- . electrician vs. electrical engineer
- . apprenticeships
- . vocational schools
- . trade schools
+education				+	work		
+|						|
+|						PT GC oper
+. PROTRACTED FOR YEARS
+. no MS 
+. EE
+. vocational schools
+. trade schools
+|
+. on-campus :
+   + fin.aid sch-ps 
+   ?+ internships
+   - prison feel 
+|
+. online degree :
+   + no travelling
+      + saving time
+      + - car - gas - insurance
+   + more time to self
+   + no prison feel
+   - no fin.aid / sch-ps 
+   - no direct communication about internships 
+   - no dir.com for letters of recommendation 
+
+
+specialized schools :			      			 
+ . FLEXIBLE SCHEDULE						
+ |
  . applied science
  . applied math 
+ . apprenticeships
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+comfort
+|
+Seattle
+LA / Santa Monica
+Chicago
+
+===================================================================================================
 
 #define  _GNU_SOURCE
 #define  _POSIX_C_SOURCE 200809L

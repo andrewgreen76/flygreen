@@ -1,8 +1,0 @@
-
-GitHub question:
-
-Luckily ChatGPT can be your friend in this. I only learned how to add, commit, and push. Definitely at least learn those things. But even that is a time-consuming process, so make time to learn those things. 
-
-I actually have a whole alias
-
-_

@@ -1,5 +1,0 @@
-
-binding :
- . an identifier is tied to a mem.addr 
-
-_

@@ -1,6 +1,0 @@
-
-Cover 'this' in pointers.
- . this instance itself
- . very useful in inheritance 
-
-_

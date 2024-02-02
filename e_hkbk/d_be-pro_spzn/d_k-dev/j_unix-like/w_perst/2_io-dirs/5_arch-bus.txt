@@ -1,0 +1,20 @@
+
+The bus connects EVERYTHING.
+ |
+ . connects components
+ . can also connect computers
+
+
+
+Types of buses :
+ |
+ . general I/O bus - PCI 
+ |  . connects high-perf I/O devices
+ |  . connects graphics
+ |
+ . buses for slower devices (disks , peripherals)
+    |
+    . SCSI
+    . SATA
+    . USB 
+_

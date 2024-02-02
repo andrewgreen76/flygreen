@@ -34,11 +34,8 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
 Linux : 
-- concurrency and parallelism
-  - zombie children 
-- C programming :
-  - memset()
-  - execv() ; fork() and wait() revisited 
+ . I/O
+   . types of buses 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

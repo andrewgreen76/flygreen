@@ -1,0 +1,4 @@
+"
+High performance computing (HPC) is the ability to process data and perform complex calculations at high speeds. To put it into perspective, a laptop or desktop with a 3 GHz processor can perform around 3 billion calculations per second.
+"
+_

@@ -1,0 +1,40 @@
+
+No bus , no architecture.
+ |
+ . CPU <> controllers <> other components 
+ . can also connect computers
+
+======================================================
+BUS INTERFACE PROTOCOLS :
+======================================================
+
+Faster I/O :
+|
+. PCI(e) - general 
+. NVMe - faster 
+|
+<> cards (gfx , net) 
+<> SSDs
+<> RAID controllers 
+
+
+Slower I/O (disks , peripherals)
+| 
+. USB
+| <> FLASH DRIVES 
+| <> PERIPHERALS 
+| 
+. SATA
+  <> HDD  
+   . (replaced PATA) 
+
+======================================================
+======================================================
+======================================================
+
+. (old) SCSI 
+  <> peripherals
+  <> other computers 
+  <> storage
+   . (Small Computer System Interface)
+_

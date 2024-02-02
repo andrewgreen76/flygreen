@@ -1,0 +1,16 @@
+
+I/O devices : 
+ |
+ |
+ . anything that's not memory
+ |
+ . storage
+ |  . SSD
+ |  . HDD
+ |
+ . mem-mapped I/O 
+    . (I/O) peripherals
+    . ( O ) graphics
+    . ( O ) audio
+    . (I/O) even networking 
+_

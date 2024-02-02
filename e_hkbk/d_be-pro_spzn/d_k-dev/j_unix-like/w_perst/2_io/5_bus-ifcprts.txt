@@ -3,6 +3,13 @@ No bus , no architecture.
  |
  . CPU <> controllers <> other components 
  . can also connect computers
+======================================================
+Interface :
+ . a point of interaction
+======================================================
+PROTOCOL : 
+ . AN "I/O ALGORITHM" 
+ . "a set of rules" for sending and receiving data 
 
 ======================================================
 BUS INTERFACE PROTOCOLS :
@@ -10,7 +17,7 @@ BUS INTERFACE PROTOCOLS :
 
 Faster I/O :
 |
-. PCI(e) - general 
+. PCIe - general 
 . NVMe - faster 
 |
 <> cards (gfx , net) 
@@ -29,10 +36,10 @@ Slower I/O (disks , peripherals)
    . (replaced PATA) 
 
 ======================================================
-======================================================
+SCSI - ANCIENT HISTORY 
 ======================================================
 
-. (old) SCSI 
+(old) SCSI 
   <> peripherals
   <> other computers 
   <> storage

@@ -1,0 +1,9 @@
+
+Cost efficiency :
+ |
+ . faster ~ more expensive
+ | => fast buses - shorter , slower buses - longer 
+ |
+ . Do it right and the CPU will be designed to work with more devices. 
+
+_

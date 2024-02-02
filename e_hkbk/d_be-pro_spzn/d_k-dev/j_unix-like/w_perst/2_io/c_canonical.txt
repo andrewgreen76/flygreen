@@ -1,0 +1,53 @@
+
+Canonical device :
+ |
+ . not an actual physical device
+ . an INDEPENDENT thing/abstraction that sends or receives data
+ |
+ + HW interface (I/O mmap'd registers) 
+ + HW internals (essentials , controllers , etc.) 
+ |
+ |
+ |		^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ CANONICAL DEVICE ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ .    system	>>> registers (I/O mmap'd - indep. HW interface)-->   <- HW internals (structure depends on OS and HW arch.) 
+ | 	    	                         (cmd + data + status)	       	  	    (CPU , RAM , controllers , etc.) 
+ |   sys/user   <<< vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+ |
+ |
+ |
+ . Examples :
+    |
+    . /dev/*
+    . ( I ) streams 
+    . ( O ) streams 
+    . ( O ) /dev/null
+    . piping
+    . redirection 
+    . etc. 
+
+=============================================================================================================================================================
+ . a.k.a. I/O "standard" , an I/O interface , I/O abstraction 
+=============================================================================================================================================================
+
+"
+In the context of Input/Output (I/O) operations, canonical devices refer to standard or well-established devices that are commonly used for input or output interactions in a computing environment. These devices provide a standardized and widely accepted interface for data input or output.
+
+Here are a few examples of canonical devices in I/O:
+
+1. **Standard Input (stdin):**
+   - The standard input, often represented as `stdin`, is a canonical input device in many operating systems. It typically represents the default source for input data, especially in command-line interfaces. When a program reads input from `stdin`, it is expecting input from the standard input device, which is often the keyboard.
+
+2. **Standard Output (stdout):**
+   - The standard output, represented as `stdout`, is a canonical output device. It serves as the default destination for output data. When a program writes output to `stdout`, it is directing the output to the standard output device, which is often the computer screen or console.
+
+3. **Standard Error (stderr):**
+   - Similar to `stdout`, the standard error (`stderr`) is another canonical output device. It is often used for error messages and diagnostic information. When a program writes to `stderr`, it is directing the output to the standard error device.
+
+4. **Null Device:**
+   - The null device, often represented as `/dev/null` on Unix-like systems, is a canonical output device that discards data written to it. It is commonly used when the output is not needed or should be ignored. Writing to the null device is a way to suppress output.
+
+Usage of canonical devices in I/O provides a standardized way for programs to interact with input and output sources. This abstraction allows programs to be more portable and flexible since they can use the same I/O operations regardless of the specific input or output devices attached to the system.
+
+For example, a program written to read from `stdin` can accept input from the keyboard, a file, or another program's output, making it versatile and adaptable to various scenarios. Similarly, writing to `stdout` and `stderr` allows consistent handling of program output and error messages across different environments.
+"
+_

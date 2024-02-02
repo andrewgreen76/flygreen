@@ -10,7 +10,7 @@ Types of buses :
  |
  . general I/O bus - PCI(e)
  |  <> CPU 
- |  <> I/O   (high-perf : SSD , GPUs) 
+ |  <> high-perf I/O : SSD , GPU 
  |  <> cards (gfx , net) 
  |
  |
@@ -25,7 +25,7 @@ Types of buses :
     . USB
     | <> ports (external)
     | <> USB controller (chip)
-    |  . translates USB output into signals for the CPU 
+    |     . translates USB output into signals for the CPU 
     |  
     . SATA
     | <> CPU

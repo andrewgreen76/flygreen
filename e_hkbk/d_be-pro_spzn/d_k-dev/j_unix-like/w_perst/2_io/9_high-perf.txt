@@ -1,4 +1,10 @@
 "
+High performance computing (HPC) is the ability to process data and perform complex calculations at high speeds. To put it into perspective, a laptop or desktop with a 3 GHz processor can perform around 3 billion calculations per second.
+"
+===================================================================================
+===================================================================================
+===================================================================================
+"
 High-performance I/O (Input/Output) devices refer to hardware components designed to handle data input and output at exceptionally fast rates. These devices are crucial for applications that demand rapid and efficient data transfer between the computer and external peripherals. Here are some examples of high-performance I/O devices:
 
 1. **Solid State Drives (SSDs):** SSDs provide faster data access and transfer speeds compared to traditional hard disk drives (HDDs). They use flash memory technology, resulting in quicker read and write operations.

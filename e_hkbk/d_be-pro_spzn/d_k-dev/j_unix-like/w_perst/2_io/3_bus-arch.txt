@@ -1,7 +1,7 @@
 
 No bus , no architecture.
  |
- . connects components
+ . connects CPU to other components
  . can also connect computers
 
 
@@ -9,18 +9,18 @@ No bus , no architecture.
 Types of buses :
  |
  . general I/O bus - PCI(e)
- |  <> CPU 
+ |  <> CARDS (gfx , net)
  |  <> high-perf I/O : SSD , GPU 
- |  <> cards (gfx , net) 
  |
+ . NVMe :
+ |  <> SSD 
  |
  . buses for slower devices (HDD , peripherals)
     |
     . SCSI (Small Computer System Interface)
-    | <> CPU 
+    | <> PERIPHERALS
+    | <> OTHER COMPUTERS 
     | <> storage
-    | <> peripherals
-    | <> other computers 
     | 
     . USB
     | <> ports (external)
@@ -28,7 +28,6 @@ Types of buses :
     |     . translates USB output into signals for the CPU 
     |  
     . SATA
-    | <> CPU
-    | <> storage
-    |  . (replaced PATA) 
+      <> STORAGE 
+       . (replaced PATA) 
 _

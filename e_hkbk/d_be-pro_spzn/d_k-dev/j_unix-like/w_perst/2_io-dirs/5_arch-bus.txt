@@ -8,9 +8,10 @@ The bus connects EVERYTHING.
 
 Types of buses :
  |
- . general I/O bus - PCI 
- |  . connects high-perf I/O devices
- |  . connects graphics
+ . general I/O bus - PCI(e)
+ |  <-> CPU 
+ |  <-> high-perf I/O devices
+ |  <-> cards (gfx , net) 
  |
  . buses for slower devices (disks , peripherals)
     |

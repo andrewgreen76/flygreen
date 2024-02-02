@@ -14,7 +14,7 @@ Types of buses :
  |
  . buses for slower devices (disks , peripherals)
     |
-    . SCSI
+    . SCSI (Small Computer System Interface) 
     . SATA
     . USB 
 _

@@ -1,5 +1,5 @@
 ====================================================================
-Question about rebooting academic track while not enrolled 
+Rebooting my academic track while not enrolled 
 ====================================================================
 Wait until Feb. 9th 
 ====================================================================
@@ -7,7 +7,7 @@ Wait until Feb. 9th
 
 Hi,
 
-I am entertaining the idea of potentially transferring to your institution, so I would like to know what you would recommend in my case.
+I am entertaining the idea of potentially joining your institution, so I would like to know what you would recommend in my case.
 
 My background: 
  - University of Nevada-Reno graduate, 2014, BS in Computer Science and Engineering, focus in games and simulations 
@@ -17,7 +17,9 @@ My background:
  - I can email you my transcript 
 
 Questions for ECE division: 
- - Would it be possible for me to start a second BS track with a different specialization at your institution? 
+ - Would it be possible for me to start a second BS track with a different specialization at your institution?
+ - Would starting a BS track in a slightly different major be the better alternative?
+
 
 
 Thank you
@@ -46,13 +48,6 @@ transfer/freshman/grad :
 courses :
 recommend a major/program for computer arch. : 
 ===========================================================================================================================================================
-UCSD - (form pending) 
-
-BS deadline : 
-transfer/freshman/grad :
-courses :
-recommend a major/program for computer arch. : 
-===========================================================================================================================================================
 p a s s - UCI - p a s s 
 
 BS deadline : 
@@ -67,40 +62,47 @@ transfer/freshman/grad :
 courses :
 recommend a major/program for computer arch. : 
 ===========================================================================================================================================================
-PURDUE WEST LAFAYETTE 
+PURDUE WEST LAFAYETTE - (email pending)
 
 BS deadline : 
 transfer/freshman/grad :
 courses :
 recommend a major/program for computer arch. : 
 ===========================================================================================================================================================
-COLORADO SCHOOL OF MINES  
+COLORADO SCHOOL OF MINES - (email pending) 
 
 BS deadline : 
 transfer/freshman/grad :
 courses :
 recommend a major/program for computer arch. : 
 ===========================================================================================================================================================
-TAMU 
+TAMU - (email pending) 
 
 BS deadline : 
 transfer/freshman/grad :
 courses :
 recommend a major/program for computer arch. : 
 ===========================================================================================================================================================
-RIT 
+RIT - (email pending) 
 
 BS deadline : 
 transfer/freshman/grad :
 courses :
 recommend a major/program for computer arch. : 
 ===========================================================================================================================================================
-UMN
+UMN - (email pending) 
 
 BS deadline : 3/1
 transfer/freshman/grad :
 courses :
 recommend a major/program for computer arch. : 
  . Computer architecture and parallel programming 
+===========================================================================================================================================================
+UCSD - (email pending)
+
+BS deadline : 
+transfer/freshman/grad :
+courses :
+recommend a major/program for computer arch. : 
 ===========================================================================================================================================================
 _

@@ -1,15 +1,15 @@
 
 Canonical device :
  |
- . not an actual physical device 
- . an INDEPENDENT abstraction
+ . not a separate physical device 
+ . more like an independent task with dedicated resources 
  . can be an input point
  . can be an output point
- . can a data movement process 
+ . can be a data movement process 
  |
  |
  .		    ^^^^^^^^^^^^^^^^^^^^^^^^^^ CANONICAL DEVICE ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- |		    |   indep. HW INTERFACE    |	     | 	     	   HW internals		      |
+ |		    |   indep. HW INTERFACE    |	     | 	     HW internals of the device	      |
  |		    | (I/O mmap'd "registers") |	     | (structure depends on OS and HW arch.) |
  |		    +--------------------------+	     +----------------------------------------+
  |     	      {	>>> |			       |	     |					      |
@@ -18,6 +18,9 @@ Canonical device :
  |             	    |  	      	     	       | 	     |	       	       		     	      |    	     	      	     	       	     
  |    		    vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
  |
+ |		    cmd reg - specifies the job
+ |		    data reg - I/O buffer for the internals
+ |		    status reg - holds dev's status value 
  |
  . Examples :
     |

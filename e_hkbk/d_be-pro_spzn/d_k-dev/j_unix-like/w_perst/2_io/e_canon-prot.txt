@@ -1,0 +1,44 @@
+
+How the OS works with the canonical device (task/HW) :
+
+
+ . POLLING for "ready"	<-|status| : ready
+ |
+ . SENDING DATA         ->|data|
+ |
+ . WRITING A COMMAND	->|command|
+ |
+ . POLLING   		
+     for finished	<-|status| : not ready 
+      or error
+
+--------------------------------------------------------------------------------
+ - No switching is offered. 
+   => CPU time is wasted on an uninterrupted I/O task (especially polling) 
+--------------------------------------------------------------------------------
+
+Solution - interrupts (for context switching) :
+ |
+ . OS enables an interrupt, which ... 
+   + sends a request (cmd + data) to the device
+   + puts the irrelevant ongoing process to sleep
+      . the I/O subsystem would handle the I/O on a separate thread 
+   + switches context to another task
+   |
+   -> I/O operation is fulfilled
+   -> interrupt to switch context to kernel mode
+   -> call an interrupt handler from the kernel
+   -> handler terminates the request
+   -> current CPU task is aborted / put to sleep 
+   -> handler wakes up the sleeping process
+
+
+ + Interrupts allow for concurrency => efficiency. 
+ - Context switching takes time. 
+   => leveraging interrupts for an I/O task that ends very quickly is not worth it. 
+ |
+ |
+ => use polling for short jobs 
+  . use interrupts for longer jobs
+  . use both if the device speed is unknown 
+_

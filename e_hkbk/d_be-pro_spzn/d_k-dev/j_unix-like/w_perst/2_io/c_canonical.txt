@@ -1,18 +1,22 @@
 
 Canonical device :
  |
- . not an actual physical device
- . an INDEPENDENT thing/abstraction that sends or receives data
+ . not an actual physical device 
+ . an INDEPENDENT abstraction
+ . can be an input point
+ . can be an output point
+ . can a data movement process 
  |
- + HW interface (I/O mmap'd registers) 
- + HW internals (essentials , controllers , etc.) 
  |
- |
- |		^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ CANONICAL DEVICE ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- .    system	>>> registers (I/O mmap'd - indep. HW interface)-->   <- HW internals (structure depends on OS and HW arch.) 
- | 	    	                         (cmd + data + status)	       	  	    (CPU , RAM , controllers , etc.) 
- |   sys/user   <<< vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
- |
+ .		    ^^^^^^^^^^^^^^^^^^^^^^^^^^ CANONICAL DEVICE ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ |		    |   indep. HW INTERFACE    |	     | 	     	   HW internals		      |
+ |		    | (I/O mmap'd "registers") |	     | (structure depends on OS and HW arch.) |
+ |		    +--------------------------+	     +----------------------------------------+
+ |     	      {	>>> |			       |	     |					      |
+ |   sys/user {     | 	        RAM : 	       | <---------> |         (CPU , other mem.addrs ,	      |
+ |   	      {	<<< |  |cmd| |data| |status|   |  	     | 	         controllers , etc.)  	      | 
+ |             	    |  	      	     	       | 	     |	       	       		     	      |    	     	      	     	       	     
+ |    		    vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
  |
  |
  . Examples :
@@ -28,7 +32,6 @@ Canonical device :
 =============================================================================================================================================================
  . a.k.a. I/O "standard" , an I/O interface , I/O abstraction 
 =============================================================================================================================================================
-
 "
 In the context of Input/Output (I/O) operations, canonical devices refer to standard or well-established devices that are commonly used for input or output interactions in a computing environment. These devices provide a standardized and widely accepted interface for data input or output.
 

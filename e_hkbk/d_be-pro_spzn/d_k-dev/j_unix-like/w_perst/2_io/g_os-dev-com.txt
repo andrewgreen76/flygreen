@@ -1,0 +1,16 @@
+==========================================================================
+METHODS FOR KERNEL-DISK COMMUNICATION 
+==========================================================================
+
+1) the kernel uses I/O INSTRUCTIONS to directly work with the disk
+   . the kernel receives a request from the user-space 
+   -> it formulates an I/O request based on the user request
+   -> it uses the device driver (disk driver) 
+
+   . instructions are provided by device drivers
+   . device drivers are built into the kernel 
+ 
+2) kernel leverages CANONICAL DEVICES to work with disks , etc.  
+   . OS and devices exchange data via mmap'd addresses in the interface
+   . this eliminates the need for I/O instructions 
+_

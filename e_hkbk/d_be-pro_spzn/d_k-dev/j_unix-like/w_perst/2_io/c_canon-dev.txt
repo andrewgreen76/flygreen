@@ -1,8 +1,8 @@
 
 Canonical device :
  |
- . not a separate physical device 
- . more like an independent task with dedicated resources 
+ . a "device" , more like a virtual device , not a physical one 
+ . like an independent task with dedicated resources 
  . can be an input point
  . can be an output point
  . can be a data movement process 

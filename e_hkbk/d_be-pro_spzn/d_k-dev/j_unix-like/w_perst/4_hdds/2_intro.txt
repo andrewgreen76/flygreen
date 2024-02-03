@@ -1,0 +1,24 @@
+
+Persistent storage :
+ . "when we turn the power to the device off and back on, the data will still be there" 
+
+-------------------------------------------------------------------------------------------
+
+The file system is an abstraction that helps regulate devices such as a disk.
+
+-------------------------------------------------------------------------------------------
+
+Interface - for reading and writing :
+ | 
+ . mmap'd I/O , registers
+ . file system services
+ . a device driver
+
+
+Internals :
+ . controller
+ . disk platters
+ . arm
+ . head
+ ... 
+_

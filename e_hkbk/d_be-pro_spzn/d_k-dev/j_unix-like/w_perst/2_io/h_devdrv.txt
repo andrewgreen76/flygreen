@@ -1,3 +1,11 @@
 
+Device driver :
+ |
+ . software 
+ . enables the kernel to exchange digestible data with the device
+ . built into the kernel
 
+
+Block :
+ . a fixed-size unit of data 
 _

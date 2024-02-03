@@ -13,25 +13,22 @@ An I/O request is made , ...
  |
  -> context is switched
 
-
-
 ===========================================================================================
 DIRECT MEMORY ACCESS (DMA) 
 ===========================================================================================
 
 DMA engine :
- . relieves the CPU of PIO copying burden
+ . relieves the CPU of PIO business
 
 
+The way it works is : 
  |
  + [DMA CONTROLLER] moves data directly b/w ...  
  |  (A) RAM
  |  (B) I/O controllers (storage , cards , etc.)
  |
  . DMA uses [THE SAME BUSES] as the CPU 
- . bus mastering :
-    . DMA bus arbitration process requests access to buses from the CPU when it's idle 
-
+    . bus mastering : DMA bus arbitration process requests access to buses from the CPU when it's idle 
 
 
 DMA functionality :
@@ -39,5 +36,7 @@ DMA functionality :
  . OS tells DMA the [SIZE] and the [DESTINATION] of the data to be copied
  -> OS goes on about its business
  -> DMA controller performs the copying
- -> DMA controller is done , raises an interrupt to the OS 
+ -> DMA controller is done , raises an interrupt to the OS
+ -> I/O operations can proceed , another process can run on the CPU 
+ -> ... 
 _

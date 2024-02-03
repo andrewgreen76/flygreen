@@ -13,7 +13,7 @@ Canonical device :
  |		    | (I/O mmap'd "registers") |	     | (structure depends on OS and HW arch.) |
  |		    +--------------------------+	     +----------------------------------------+
  |     	      {	>>> |			       |	     |					      |
- |   sys/user {     | 	        RAM : 	       | <---------> |         (CPU , other mem.addrs ,	      |
+ |   sys/user {     | 	        RAM : 	       | <---------> |         (CPU , other mem.addrs ,	      | <-----> disks and other devices 
  |   	      {	<<< |  |cmd| |data| |status|   |  	     | 	         controllers , etc.)  	      | 
  |             	    |  	      	     	       | 	     |	       	       		     	      |    	     	      	     	       	     
  |    		    vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv

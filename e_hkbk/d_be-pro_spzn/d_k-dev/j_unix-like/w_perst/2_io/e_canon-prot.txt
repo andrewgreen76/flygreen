@@ -1,6 +1,6 @@
-
-How the OS works with the canonical device (task/HW) :
-
+============================================================================================================================================================
+CANONICAL PROTOCOL (OS + canonical device) : 
+============================================================================================================================================================
 
  . POLLING for "ready"	<-|status| : ready
  |
@@ -9,13 +9,10 @@ How the OS works with the canonical device (task/HW) :
  . WRITING A COMMAND	->|command|
  |
  . POLLING   		
-     for finished	<-|status| : not ready 
-      or error
+     for finished	<-|status| : not ready		 - No switching is offered. 
+      or error			     	 		   => CPU TIME IS WASTED ON AN UNINTERRUPTED I/O TASK (DUE TO POLLING) 
 
---------------------------------------------------------------------------------
- - No switching is offered. 
-   => CPU time is wasted on an uninterrupted I/O task (especially polling) 
---------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Solution - interrupts (for context switching) :
  |

@@ -1,0 +1,27 @@
+===================================================================================
+HDD INTERFACE 
+===================================================================================
+
+Host :
+ . the computer HDD is connected to
+
+HDD interface :
+ . a physical/electrical connection 
+ . host RAM <> HDD cache
+
+Sector = block :
+ . fixed-size unit of data
+
+HDD :
+ + several sectors 
+    . sector = 512 bytes
+    . address space : 0 -> n-1 
+ + a dedicated cache
+
+===================================================================================
+
+HDD interface types :
+
+IDE :
+ . a.k.a. PATA 
+_

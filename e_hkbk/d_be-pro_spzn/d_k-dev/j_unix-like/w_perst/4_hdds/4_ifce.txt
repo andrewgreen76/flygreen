@@ -1,5 +1,5 @@
 ===================================================================================
-HDD INTERFACE 
+HDD INTERFACE - BASICS
 ===================================================================================
 
 Host :
@@ -19,9 +19,33 @@ HDD :
  + a dedicated cache
 
 ===================================================================================
+HDD INTERFACE TYPES :
+===================================================================================
 
-HDD interface types :
+SCSI :
+ . introduced in 1986 
+ . was mainly used in servers
+ . replaced by SATA 
 
 IDE :
- . a.k.a. PATA 
+ . a.k.a. PATA
+ . introduced in 1986 
+ . no need for porting controller cards
+
+SATA :
+ . introduced in 2003
+ . serial connection between a personal computer and a hard drive 
+ . replaced PATA
+ . see also SATA II and SATA III 
+
+SAS :
+ . Serially Attached SCSI
+ . revealed in 2004 
+ . mainly used in servers
+
+Fiber Channel :
+ + fiber optic cabling (of course) 
+ + serial data transfer
+ => high-performance
+ => used in servers 
 _

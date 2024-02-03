@@ -1,0 +1,21 @@
+"
+Fiber Channel (FC) was introduced in the late 1980s. The initial development and standardization efforts for Fiber Channel began in 1988, with the goal of creating a high-speed, reliable, and standardized interface for connecting computer systems and storage devices. The first official Fiber Channel standard, known as FC-0 (Fiber Channel Physical and Signaling Interface), was approved by the American National Standards Institute (ANSI) in 1989.
+
+The early focus of Fiber Channel was on providing a standard for connecting servers to storage devices, offering advantages over existing technologies such as parallel SCSI (Small Computer System Interface). Fiber Channel's serial architecture, high-speed data transfer, and support for both copper and fiber optic cabling contributed to its adoption in storage networking.
+
+Over the years, Fiber Channel has evolved with successive generations and updates, each offering increased data transfer rates and additional features. The development of the Fiber Channel Protocol (FCP) facilitated the communication of SCSI commands over Fiber Channel, making it well-suited for storage area networks (SANs) and storage connectivity.
+
+Key milestones in Fiber Channel development include:
+
+- **1988:** Development efforts for Fiber Channel begin.
+- **1989:** Approval of the first official Fiber Channel standard (FC-0) by ANSI.
+- **1994:** Introduction of the Fiber Channel Arbitrated Loop (FC-AL) standard.
+- **1998:** Introduction of the Fiber Channel Switch Fabric (FC-SW) standard.
+- **2003:** Introduction of the Fiber Channel over Ethernet (FCoE) standard.
+- **2006:** Introduction of 8 Gb/s Fiber Channel.
+- **2011:** Introduction of 16 Gb/s Fiber Channel.
+- **2013:** Introduction of 32 Gb/s Fiber Channel.
+
+Fiber Channel has remained a foundational technology for storage networking in enterprise environments, providing high-performance and reliable connectivity for storage area networks. While other storage technologies, such as iSCSI (Internet Small Computer System Interface) and NAS (Network Attached Storage), have also gained popularity, Fiber Channel continues to be a critical component in many enterprise storage infrastructures.
+"
+_

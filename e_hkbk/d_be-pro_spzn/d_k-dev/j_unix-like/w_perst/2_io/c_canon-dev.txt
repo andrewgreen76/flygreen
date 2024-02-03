@@ -5,7 +5,8 @@ Canonical device :
  . like an independent task with dedicated resources 
  . can be an input point
  . can be an output point
- . can be a data movement process 
+ . can be a data movement process
+ . it's supposed to be available to the user 
  |
  |
  .		    ^^^^^^^^^^^^^^^^^^^^^^^^^^ CANONICAL DEVICE ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

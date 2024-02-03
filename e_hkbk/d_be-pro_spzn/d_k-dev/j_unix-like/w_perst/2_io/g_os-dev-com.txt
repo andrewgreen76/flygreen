@@ -1,16 +1,37 @@
-==========================================================================
-METHODS FOR KERNEL-DISK COMMUNICATION 
-==========================================================================
+========================================================================================
+[KERNEL] <> [PHYSICAL I/O DEVICE] :  
+========================================================================================
 
-1) the kernel uses I/O INSTRUCTIONS to directly work with the disk
-   . the kernel receives a request from the user-space 
-   -> it formulates an I/O request based on the user request
-   -> it uses the device driver (disk driver) 
-
-   . instructions are provided by device drivers
-   . device drivers are built into the kernel 
+Remember , ... a physical device :
+ . storage drive
+ . a card (net , gfx , sound) 
+ . a peripheral
  
-2) kernel leverages CANONICAL DEVICES to work with disks , etc.  
-   . OS and devices exchange data via mmap'd addresses in the interface
-   . this eliminates the need for I/O instructions 
+----------------------------------------------------------------------------------------
+
+1) pushing I/O INSTRUCTIONS down a line of abstractions :
+   |
+   |
+   . kernel receives a syscall from the user-space 
+   -> kernel translates the call into an I/O request 
+   -> kernel feeds the request to its device driver interface 
+   -> device driver sends [HIGH-LEVEL COMMANDS] to the device controller (registers) 
+   -> device controller digests commands into [LOW-LEVEL I/O INSTRUCTIONS]
+   -> the controller sends the instructions to the device hardware 
+   |
+   |
+   -> results of the I/O operation are reflected on the controller
+   -> the kernel , monitoring the controller , lets the user know 
+   
+----------------------------------------------------------------------------------------
+ 
+2) kernel uses the MEMORY-MAPPED I/O to send requests to the device 
+   |
+   |
+   . certain memory addresses correspond to device controller registers
+   . the kernel loads from and stores to the registers 
+   |
+   |
+   => this shortcut eliminates the need for I/O instructions and the moving chain in method 1
+   => method 2 is a little more efficient 
 _

@@ -1,5 +1,20 @@
 
 Every HDD has a disk scheduling algorithm.
+ |
+ |
  . FIFO
- . 
+ |
+ . Shortest Seek Time First (SSTF)
+ |  . prime sort : by tracks , inside-out or outside-in 
+ |  . per-track sort : clockwise
+ |
+ . SCAN (Elevator)
+ |  . the arm moves back and forth to service the closest job in the queue 
+ |
+ . Shortest Access Time First (SATF)
+    . jobs are sorted by their access times ( T(I/O) ) 
+    . T(I/O) is quickly computed for sorting and scheduling
+    . the disk scheduler does the calculations 
+       . part of the kernel's I/O subsystem ...
+       . ... while the action is happening in the disk drive 
 _

@@ -21,17 +21,13 @@ CONSTITUTION
  > 1-2 processors 	}
 
 ===========================================================================================
-MIRRORING VS. STRIPING  
+TRANSPARENCY 
 ===========================================================================================
 
- . redundancy (mirroring) - for reliability (recalling safe duplicate data)
-
- . non-redundancy (striping) - storing different pieces of data across different disks 
-   . every piece is written to a block (sector) on a separate disk 
-   |
-   + parallelized distribution => less time to carry out the same I/O vs. doing it with a single disk
-   + potentially saves seek time (b/c fewer blocks to R/W) 
-   |
-   - risk of data loss 
-
+Leveraging not one , but all disks as though they are one big (logical) disk.
+ |
+ |
+ . The functionality is no different from that of a single physical disk.
+ + Portability : nothing needs to change if a physical replacement occurs.
+ => makes RAID deployable (i.e., user-friendly , hassle-free) 
 _

@@ -1,0 +1,20 @@
+
+===========================================================================================
+MIRRORING VS. STRIPING  
+===========================================================================================
+
+ . non-redundancy (striping) - storing different pieces of data across different disks 
+   . every piece is written to a block (sector) on a separate disk 
+   |
+   + parallelized distribution => less time to carry out the same I/O vs. doing it with a single disk
+   + potentially saves seek time (b/c fewer blocks to R/W) 
+   |
+   - risk of data loss 
+
+ . redundancy (mirroring) - for reliability (recalling safe duplicate data)
+
+ . parity checks :
+    . error-checking
+    . fault tolerance
+    . reconstruction after disk failure 
+_

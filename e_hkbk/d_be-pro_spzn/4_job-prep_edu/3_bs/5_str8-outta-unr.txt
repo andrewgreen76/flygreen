@@ -71,8 +71,6 @@ transfer/freshman/grad : readm
 courses :
 recommend a major/program for computer arch. :
 
-
-
 ---------------- APPLY BY APRIL 1ST. ------------------
 
 4+1 

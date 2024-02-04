@@ -1,0 +1,38 @@
+
+An HDD can have 1+ platters. 
+
+
+Platter :
+ . a circular storage medium
+ . made of aluminum 
+ . both surfaces of a platter have magnetic coating
+ . magnetic variations write in and erase bits
+ . secured with a single spindle connected to a motor
+    . rotated counter-clockwise 
+    . speed is measured with RPM (rotations per minute)
+    . 7,200-15,000 is the norm 
+ |
+ |
+ . every PLATTER has two surfaces
+ . every SURFACE has thousands of concentric circles - tracks
+    . modern HDDs have millions of tracks 
+ . every TRACK has multiple clusters (arcs) 
+ . every CLUSTER has two sectors
+    . cluster - smallest storage unit for a file 
+ . stacked tracks from different platters make up a CYLINDER
+ |
+ . every surface has an assigned disk HEAD which makes magnetic patters on the disk
+ . the disk ARM (a.k.a. actuator arm) moves the head
+
+
+
+Three stages of reading from / writing to (R/W) a disk :
+ |
+ . SEEK :
+    . move the head to the right track
+    . an expensive disk operation 
+ . ROTATION : have the head wait for the right sector (rotational delay)
+    . worst-case scenario - near-full rotational delay
+    . an expensive disk operation 
+ . TRANSFER - R/W itself 
+_

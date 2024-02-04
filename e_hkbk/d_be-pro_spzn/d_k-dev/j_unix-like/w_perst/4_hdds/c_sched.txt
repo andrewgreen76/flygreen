@@ -1,0 +1,5 @@
+
+Every HDD has a disk scheduling algorithm.
+ . FIFO
+ . 
+_

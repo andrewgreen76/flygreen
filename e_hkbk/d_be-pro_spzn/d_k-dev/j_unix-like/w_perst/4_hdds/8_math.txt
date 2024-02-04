@@ -25,20 +25,6 @@ RATE OF I/O :
  . used to compare drives
 
 ======================================================
-HIGH-PERFORMANCE MARKET VS. CAPACITY MARKET 
-======================================================
-
-For high performance :
- + low seek time
- + high rotational speed
- + fast transfer
-
-For capacity :
- + pack as many bits as possible
- - slow operation
- . accounts for "cost per byte" 
-
-======================================================
 WORKLOADS  
 ======================================================
 
@@ -49,8 +35,8 @@ Random workloads :
 
 Sequential workloads :
  . linear read of multiple sectors
+ . capable of handling massive requests very quickly compared to the random workload method 
 
-===============================================================
 
  . T(seek) = avg. seek
 
@@ -58,5 +44,9 @@ Sequential workloads :
  . T(rot) = avg. T(rot) = -------------- = --------------
 				2	         2
 
- . T(tf) =  
+ . T(tf) = ??? 
+
+=====================================================================================================================================================
+"Customers are often willing to spend on a high-performance drive while trying to get as much capacity as possible for as little money as possible."
+=====================================================================================================================================================
 _

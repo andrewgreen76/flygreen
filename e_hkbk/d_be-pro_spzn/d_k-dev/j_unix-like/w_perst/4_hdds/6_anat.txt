@@ -31,7 +31,8 @@ Three stages of reading from / writing to (R/W) a disk :
  . SEEK :
     . move the head to the right track
     . an expensive disk operation 
- . ROTATION : have the head wait for the right sector (rotational delay)
+ . ROTATION :
+    . have the head wait for the right sector (rotational delay)
     . worst-case scenario - near-full rotational delay
     . an expensive disk operation 
  . TRANSFER - R/W itself 

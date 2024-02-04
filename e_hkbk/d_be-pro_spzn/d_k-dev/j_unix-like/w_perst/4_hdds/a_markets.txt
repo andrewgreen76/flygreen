@@ -1,0 +1,15 @@
+
+======================================================
+HIGH-PERFORMANCE MARKET VS. CAPACITY MARKET 
+======================================================
+
+For high performance :
+ + low seek time
+ + high rotational speed
+ + fast transfer
+
+For capacity :
+ + pack as many bits as possible
+ - slow operation
+ . accounts for "cost per byte" 
+_

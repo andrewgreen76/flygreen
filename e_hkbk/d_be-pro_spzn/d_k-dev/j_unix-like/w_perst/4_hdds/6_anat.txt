@@ -18,7 +18,9 @@ Platter :
     . modern HDDs have millions of tracks 
  . every TRACK has multiple clusters (arcs) 
  . every CLUSTER has two sectors
-    . cluster - smallest storage unit for a file 
+    . sector/block - smallest storage unit for a file
+    . sectors used to be 512 bytes
+    . now sectors are 4KB in size 
  . stacked tracks from different platters make up a CYLINDER
  |
  . every surface has an assigned disk HEAD which makes magnetic patters on the disk

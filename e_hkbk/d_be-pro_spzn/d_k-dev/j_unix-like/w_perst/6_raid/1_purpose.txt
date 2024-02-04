@@ -1,0 +1,37 @@
+
+We want something that is ...
+ . fast + maybe capacious (i.e., efficient)
+ . reliable (robust)
+
+===========================================================================================
+RAID - REDUNDANT ARRAY OF INDEPENDENT DISKS 
+===========================================================================================
+
+ . idea for reliability - storing the same data on multiple disks
+ . thought of as one disk ("logical disk") 
+ . used in servers and data centers
+
+===========================================================================================
+CONSTITUTION 
+===========================================================================================
+
+ > multiple disks (HDD) 
+ > VM (RAM) 	  	}
+ > NVM (SSD) 		} b/c you need disk mgmt 
+ > 1-2 processors 	}
+
+===========================================================================================
+MIRRORING VS. STRIPING  
+===========================================================================================
+
+ . redundancy (mirroring) - for reliability (recalling safe duplicate data)
+
+ . non-redundancy (striping) - storing different pieces of data across different disks 
+   . every piece is written to a block (sector) on a separate disk 
+   |
+   + parallelized distribution => less time to carry out the same I/O vs. doing it with a single disk
+   + potentially saves seek time (b/c fewer blocks to R/W) 
+   |
+   - risk of data loss 
+
+_

@@ -15,12 +15,4 @@ Striping (block-level)
  |
  - risk of data loss
 
-
-Strip :
- . a block chosen for holding a piece of larger data 
-
-
-Strip set :
- . blocks that hold different pieces of the same data 
-
 _

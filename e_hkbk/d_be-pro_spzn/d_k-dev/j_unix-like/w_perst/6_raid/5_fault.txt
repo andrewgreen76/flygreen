@@ -1,0 +1,18 @@
+
+Fault :
+ . a cause for potential malfunctioning
+ . ex. : wear-and-tear , physical defects , electrical failures 
+
+
+Fault tolerance :
+ . persistence and resilience in spite of faults 
+ + redundancy - for backup 
+ + quick response with error checking and correction
+
+Fault model :
+ . a design with the aim of developing a RAID system capable of recovering from certain kinds of faults
+
+Fail-stop :
+ . the model assumes a disk is either 100% usable or useless , nothing in the middle
+ . the RAID controller or software constantly monitors for disk failure (fault detection) 
+_

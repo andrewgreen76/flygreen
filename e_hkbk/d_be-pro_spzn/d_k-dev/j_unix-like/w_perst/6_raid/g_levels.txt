@@ -12,6 +12,7 @@ MIRRORING VS. STRIPING
    - risk of data loss 
 
  . redundancy (mirroring) - for reliability (recalling safe duplicate data)
+    . twin disks (i.e., no more than two) 
 
  . parity checks :
     . error-checking

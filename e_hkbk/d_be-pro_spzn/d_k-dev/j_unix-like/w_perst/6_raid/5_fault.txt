@@ -9,8 +9,10 @@ Fault tolerance :
  + redundancy - for backup 
  + quick response with error checking and correction
 
+
 Fault model :
  . a design with the aim of developing a RAID system capable of recovering from certain kinds of faults
+
 
 Fail-stop :
  . the model assumes a disk is either 100% usable or useless , nothing in the middle

@@ -1,0 +1,36 @@
+=============================================================================
+CHUNK SIZE AFFECTS PERFORMANCE 
+=============================================================================
+
+ . I/O data is broken down into stripes
+ . stripes are broken down into chunks
+ 
+
+Stripe :
+ . a group of consecutive I/O data pieces , each one written to a different disk at the same time 
+ . a logical subset of I/O data 
+
+
+Chunk :
+ . a block , the smallest unit of I/O data
+ . a logical element of a stripe , written separately to a different disk
+
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+Why is chunk size so meaningful ?
+|
+Imagine you want to store a small file. 
+  a) you can slice it into very small chunks 
+    + more disks are used (better use of parallelism) 
+    + more chunks are written/accessed at the same time
+    - more chunks => more head re-positioning (lift-off , rot.delay , landing on the disk) 
+  b) you can split it into very large chunks 
+    - fewer disks are populated at the same time
+    + less re-positioning of the head 
+-----------------------------------------------------------------------------
+Reminder : positioning time = seek time + rotational delay.
+-----------------------------------------------------------------------------
+We need to strike the right balance between small chunks and large chunks. 
+-----------------------------------------------------------------------------
+_

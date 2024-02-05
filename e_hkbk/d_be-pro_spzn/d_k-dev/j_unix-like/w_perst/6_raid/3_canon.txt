@@ -1,0 +1,39 @@
+===================================================================================
+RAID INTERFACE :
+===================================================================================
+
+ . RAID as a logical device connects with a host (file system or a client) 
+ |  . usually via SATA 
+ |
+ . treated as a single disk (transparency)
+ |  . a linear array of blocks
+ |  
+ . storing the same piece of data to N disks means : 
+    . issuing N physical I/O requests
+    . i.e., one logical I/O request 
+
+===================================================================================
+HARDWARE-BASED RAID INTERNALS : 
+===================================================================================
+
+Hardware-based RAID :
+ . independent from the host's CPU
+
+ > multiple disks + connectors 
+ > RAID controller(s) ("processor(s)") : 
+   . firmware runs RAID
+   . performs RAID operations all on its own 
+ > VM (DRAM) - for temporary buffering of I/O data 
+ > NVM (SSD) - for secure buffering when writing data 
+
+===================================================================================
+SOFTWARE-BASED RAID INTERNALS : 
+===================================================================================
+ 
+Software-based RAID :
+ . RAID-related operations are performed by the host's CPU 
+
+ > multiple disks + connectors 
+ > VM (DRAM) - for temporary buffering of I/O data 
+ > NVM (SSD) - for secure buffering when writing data 
+_

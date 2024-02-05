@@ -12,15 +12,6 @@ RAID - REDUNDANT ARRAY OF INDEPENDENT DISKS
  . used in servers and data centers
 
 ===========================================================================================
-CONSTITUTION 
-===========================================================================================
-
- > multiple disks (HDD) 
- > VM (RAM) 	  	}
- > NVM (SSD) 		} b/c you need disk mgmt 
- > 1-2 processors 	}
-
-===========================================================================================
 TRANSPARENCY 
 ===========================================================================================
 
@@ -28,6 +19,6 @@ Leveraging not one , but all disks as though they are one big (logical) disk.
  |
  |
  . The functionality is no different from that of a single physical disk.
- + Portability : nothing needs to change if a physical replacement occurs.
+ + Portability : nothing else needs to change if a physical replacement occurs.
  => makes RAID deployable (i.e., user-friendly , hassle-free) 
 _

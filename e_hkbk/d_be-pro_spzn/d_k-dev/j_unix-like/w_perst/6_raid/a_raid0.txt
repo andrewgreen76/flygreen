@@ -1,0 +1,26 @@
+=========================================================================
+RAID 0 
+=========================================================================
+
+Striping (block-level)
+ |
+ |
+ . storing different pieces of the same data across different disks
+ . every piece is written to a block (sector) on a separate disk 
+ => non-redundancy 
+ |
+ + parallelized distribution => less time to carry out the same I/O vs. doing it with a single disk
+    . T(size(tf)/N) < T(size(tf))
+ + potentially saves seek time (b/c fewer blocks to R/W) 
+ |
+ - risk of data loss
+
+
+Strip :
+ . a block chosen for holding a piece of larger data 
+
+
+Strip set :
+ . blocks that hold different pieces of the same data 
+
+_

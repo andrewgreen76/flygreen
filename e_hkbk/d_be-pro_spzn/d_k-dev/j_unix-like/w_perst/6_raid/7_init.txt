@@ -1,0 +1,15 @@
+
+=================================================================================
+WHAT GOES ON RAID FIRST :
+=================================================================================
+
+ . metadata
+ . parity information
+ . ECC
+ . boot sector
+ . system files
+ . hidden files
+ ...
+
+Then goes user data. 
+_

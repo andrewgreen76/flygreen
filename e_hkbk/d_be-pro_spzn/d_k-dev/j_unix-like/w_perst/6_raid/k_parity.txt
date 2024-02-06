@@ -1,22 +1,39 @@
 
 Parity :
  . a method of enforcing data integrity across RAID
- . parity bits accompany data
-    . stored parity 	<- 
-    . calculated parity <- from the RAID controller or the host's CPU 
+
+
+Parity bits :
+ . used in error detection 
+ . parity bits accompany corresponding data 
     . error-checking : comparing parity bits 
- . need a parity disk 
+ . may need a parity disk 
 
+================================================================================
+ . ONES = sum of 1's in data
+ . EVEN_SUM = even number of 1's in data 
+ . ODD_SUM = odd number of 1's in data 
+ . (ONES + 1) % 2 = parity bit
+================================================================================
+ODD PARITY ARRANGEMENT :
+================================================================================
 
-Odd parity :
- . 1's in data + parity bit = odd (1)
+ 
+ . EVEN_SUM + 1 = 
+
+ . ONES + 1 = odd (1)
  => 1's in data
  . odd (1) = (sum+1)%2 
  . even (0) = (sum+1)%2 
+================================================================================
 
 
 Parity checks :
  . error-checking
  . fault tolerance
  . reconstruction after disk failure 
+
+
+    . stored parity 	<- 
+    . calculated parity <- from the RAID controller or the host's CPU 
 _

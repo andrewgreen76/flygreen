@@ -10,32 +10,33 @@ Parity bits :
  . may need a parity disk 
 
 ================================================================================
- . ONES = sum of 1's in data
- . EVEN_SUM = even number of 1's in data 
- . ODD_SUM = odd number of 1's in data 
- . (ONES + 1) % 2 = parity bit
- 
+ . ONES = sum of 1's 
+ . EVEN_SUM = even number of 1's 
+ . ODD_SUM = odd number of 1's   
 ================================================================================
 Odd parity arrangement :
- | 
- . (EVEN_SUM + [parity_bit] ) % 2 = odd (1)		= parity bit 
- . (ODD_SUM + [parity_bit] ) % 2 = even (0)		= parity bit 
 
+ . (ONES + [parity_bit] ) = ODD_SUM 
+
+   1011001 1     =>	1 = parity bit 
+
+   1101011 0     =>	0 = parity bit
 ================================================================================
 Even parity arrangement :
- | 
- . (EVEN_SUM + [parity_bit] ) % 2 = odd (1)		= parity bit 
- . (ODD_SUM + [parity_bit] ) % 2 = even (0)		= parity bit 
+  
+ . (ONES + [parity_bit] ) = EVEN_SUM	
 
+   1101011 1     =>	1 = parity bit
+
+   1110001 0 	 =>	0 = parity bit
 ================================================================================
-
-
 Parity checks :
  . error-checking
  . fault tolerance
  . reconstruction after disk failure 
 
-
-    . stored parity 	<- 
-    . calculated parity <- from the RAID controller or the host's CPU 
+ . stored parity 	<- a bit representing even parity or odd parity 
+ . calculated parity 	<- from the RAID controller or the host's CPU
+    . if calculated parity bit does not match the stored parity bit , we have an error(s) 
+ . single-bit parity fails with an even number of errors 
 _

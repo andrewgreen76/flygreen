@@ -1,16 +1,22 @@
 
 Parity :
  . a method of enforcing data integrity across RAID
- . need a parity disk 
  . parity bits accompany data
     . stored parity 	<- 
     . calculated parity <- from the RAID controller or the host's CPU 
     . error-checking : comparing parity bits 
+ . need a parity disk 
 
 
- . parity checks :
-    . error-checking
-    . fault tolerance
-    . reconstruction after disk failure 
+Odd parity :
+ . 1's in data + parity bit = odd (1)
+ => 1's in data
+ . odd (1) = (sum+1)%2 
+ . even (0) = (sum+1)%2 
 
+
+Parity checks :
+ . error-checking
+ . fault tolerance
+ . reconstruction after disk failure 
 _

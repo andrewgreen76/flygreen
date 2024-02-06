@@ -1,0 +1,15 @@
+===========================================================================================================
+RAID 5
+===========================================================================================================
+
+ . similar to RAID 4
+ . but parity information is distributed across all disks instead of being stored on a dedicated disk
+ + room for one more regular disk
+ +> wider I/O throughput (better parallelism) 
+
+
+Evaluation :
+ . reliability - same as RAID 4
+ . capacity - same as RAID 4
+   . sum of parity information size across all disks = size of parity disk = (N-1)*B 
+_

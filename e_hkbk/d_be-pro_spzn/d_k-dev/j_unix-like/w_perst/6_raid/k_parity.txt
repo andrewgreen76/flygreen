@@ -14,17 +14,19 @@ Parity bits :
  . EVEN_SUM = even number of 1's in data 
  . ODD_SUM = odd number of 1's in data 
  . (ONES + 1) % 2 = parity bit
-================================================================================
-ODD PARITY ARRANGEMENT :
-================================================================================
-
  
- . EVEN_SUM + 1 = 
+================================================================================
+Odd parity arrangement :
+ | 
+ . (EVEN_SUM + [parity_bit] ) % 2 = odd (1)		= parity bit 
+ . (ODD_SUM + [parity_bit] ) % 2 = even (0)		= parity bit 
 
- . ONES + 1 = odd (1)
- => 1's in data
- . odd (1) = (sum+1)%2 
- . even (0) = (sum+1)%2 
+================================================================================
+Even parity arrangement :
+ | 
+ . (EVEN_SUM + [parity_bit] ) % 2 = odd (1)		= parity bit 
+ . (ODD_SUM + [parity_bit] ) % 2 = even (0)		= parity bit 
+
 ================================================================================
 
 

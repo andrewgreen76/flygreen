@@ -2,9 +2,9 @@
 Error :
  . an inadvertent change of a bit of data due to a fault
  . certain solutions are based on the idea that only a single bit would change
- => WE ARE ASSUMING ONLY A SINGLE ERROR WOULD HAPPEN 
+ => WE ARE ASSUMING ONLY A SINGLE ERROR WOULD HAPPEN
 
-ECC - error-checking code : 
+Error-checking : 
  . many ways to design and implement error-checking 
  . parity comparison - one of those solutions 
 
@@ -20,26 +20,43 @@ Parity bit :
 
 Parity bit calculations : 
  . handled by (a) the RAID controller or (b) the host's CPU
- . instead of (sum+1)%2 use XOR : 
-    . [disk 0:] 1  XOR  [disk 1:] 0  XOR
+ . we look at the bits at the same location of every disk
+   -> OUR STRIPE 
+ . instead of (sum+1)%2 of every bit on the stripe use XOR :
+
+
+               [disk 0:]   [disk 1:]   [disk 2:]  [disk 3:]   
+   stripe A        1    (+)    0    (+)    1    (+)   0	      = 0  <- your "old" parity bit (O) - stored on the parity disk 
+		   .............................................................................................................
+   stripe A	   1    (+)    1    (+)    1    (+)   0	      = 1  <- your new parity bit (N) - doesn't match the old parity bit 
+   	  	   	       	    	   	      	      	      	       	      	      	=> we have an error
+												
 
 Parity disk : 
  . stores pre-calculated parity bits to be matched with a next set of more recently calculated parity bits
  . mis-match => error 
  . used in RAID 3 and RAID 4
  . otherwise , parity bits would be distributed across disks , like in RAID 5 and RAID 6 
+
 ================================================================================
+================================================================================
+================================================================================
+
 Odd parity arrangement :
 
  . (1's in data + [parity_bit] ) = odd number of 1's
  
    1011001 1  =>  1 = parity bit 
    1101011 0  =>  0 = parity bit
+
 ================================================================================
+
 Even parity arrangement :
   
  . (1's in data + [parity_bit] ) = even number of 1's
  
    1101011 1  =>  1 = parity bit
    1110001 0  =>  0 = parity bit
+
+ . Fun fact : XOR yields results compliant with even parity 
 _

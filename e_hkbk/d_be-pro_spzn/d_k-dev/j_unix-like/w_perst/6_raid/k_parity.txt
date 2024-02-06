@@ -1,34 +1,35 @@
 
 Parity :
- . a method of enforcing data integrity across RAID
-
+ . the state of being even or odd
+ . the parity of the sum of 1's in the data , not the parity of the data 
 
 Parity bits :
- . used in error detection 
- . parity bits accompany corresponding data 
-    . error-checking : comparing parity bits 
- . may need a parity disk 
+ . used in detecting errors within data stored on RAID disks
+ . parity bits accompany corresponding data
+ . a fault-inspired erroneous change in one data bit changes the parity 
+ . error checking : comparing pre-calculated parity bits with the newly calculated ones
+ |
+ . we are thinking a single erroneous change
+   => if there is one error , we will catch it 
 
-================================================================================
- . ONES = sum of 1's 
- . EVEN_SUM = even number of 1's 
- . ODD_SUM = odd number of 1's   
 ================================================================================
 Odd parity arrangement :
 
- . (ONES + [parity_bit] ) = ODD_SUM 
+ . (1's in data + [parity_bit] ) = odd number of 1's 
 
    1011001 1     =>	1 = parity bit 
 
    1101011 0     =>	0 = parity bit
+
 ================================================================================
 Even parity arrangement :
   
- . (ONES + [parity_bit] ) = EVEN_SUM	
+ . (1's in data + [parity_bit] ) = even number of 1's 
 
    1101011 1     =>	1 = parity bit
 
    1110001 0 	 =>	0 = parity bit
+
 ================================================================================
 Parity checks :
  . error-checking
@@ -38,5 +39,8 @@ Parity checks :
  . stored parity 	<- a bit representing even parity or odd parity 
  . calculated parity 	<- from the RAID controller or the host's CPU
     . if calculated parity bit does not match the stored parity bit , we have an error(s) 
- . single-bit parity fails with an even number of errors 
+ . single-bit parity fails with an even number of errors
+
+Parity disk :
+ . stores calculated parity bits to be matches with stored parity bits 
 _

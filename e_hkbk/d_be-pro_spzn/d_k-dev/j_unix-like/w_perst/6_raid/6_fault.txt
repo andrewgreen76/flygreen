@@ -5,9 +5,10 @@ Fault :
 
 
 Fault tolerance :
+ . basically , the ability to WORK AROUND a fault 
  . persistence and resilience in spite of faults 
  + redundancy - for backup 
- + quick response with error checking and correction
+ + QUICK RESPONSE with error checking and correction
 
 
 Fault model :

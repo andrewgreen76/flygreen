@@ -1,0 +1,23 @@
+===========================================================================================
+RAID 1 
+===========================================================================================
+
+Mirroring - for reliability (recalling safe duplicate data)
+ |
+ |
+ . twin disks (i.e., no more than two)
+ . no striping (actual redundancy involved)
+ + parallel read of different blocks of the same data 
+   => better performance 
+
+===========================================================================================
+RAID 1 PERFORMANCE EVALUATION 
+===========================================================================================
+
+Reliability :
+ . can handle one disk failure per twin set
+ => can handle up to N/2 failures maximum (one per pair) 
+
+Capacity :
+ . N*B/2 can be used for user data storage 
+_

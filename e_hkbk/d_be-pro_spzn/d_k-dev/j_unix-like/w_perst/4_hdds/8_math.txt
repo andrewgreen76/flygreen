@@ -25,15 +25,16 @@ RATE OF I/O :
  . used to compare drives
 
 ======================================================
-WORKLOADS  
+WORKLOADS - OBSERVED SIDE-EFFECTS OF I/O 
 ======================================================
 
 Random workloads :
- . random read
+ . random reading all overe the place
+ => not desirable 
  . small blocks (4KB) 
  . used in database management 
 
-Sequential workloads :
+Sequential workloads : 
  . linear read of multiple sectors
  . capable of handling massive requests very quickly compared to the random workload method 
 

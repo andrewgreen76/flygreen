@@ -29,10 +29,4 @@ Total usable RAID capacity :
 =================================================================================
 Reliability :
  . tolerance of / working around disk failures
-
-=================================================================================
-Performance - depends on : 
- . seeking + rotation + transfer 
- . workload amount
- . workload management method (random vs. sequential)
 _

@@ -15,4 +15,13 @@ Striping (block-level)
  |
  - risk of data loss
 
+=========================================================================
+RAID 0 PERFORMANCE 
+=========================================================================
+
+Reliability :
+ . no backups 
+
+Capacity : 
+ . N*B block used
 _

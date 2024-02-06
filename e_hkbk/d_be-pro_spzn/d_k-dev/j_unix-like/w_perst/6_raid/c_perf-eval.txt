@@ -1,3 +1,24 @@
+=================================================================================
+RAID PERFORMANCE EVALUATION :
+=================================================================================
+
+Performance - depends on : 
+ . seeking + rotation + transfer 
+ . workload amount
+ . workload management method (random vs. sequential)
 
 
+Single-request latency :
+ . time length of response to an I/O request
+
+
+Steady-state throughput :
+ . amount of data transferred across all disks at a certain time interval
+
+
+Sequential requests (requests involving adjacent blocks) - suitabale for a single disk.
+|
+Random workload - solved with parallelism.
+ . random workload on the same single disk (pair) - bad news
+ <= greater positioning times 
 _

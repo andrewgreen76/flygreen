@@ -1,0 +1,12 @@
+===================================================================================
+RAID 10 - NESTED 1+0 : 
+===================================================================================
+
+ . mirroring a disk 
+ -> striping across the array of pairs
+
+ + RAID 0 : tolerates multiple disk failures
+ + RAID 1 : parallelized read 
+ 
+ - mirroring demands twice the disk space 
+_

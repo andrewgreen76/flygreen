@@ -1,17 +1,28 @@
 
-Parity :
- . the state of being even or odd
- . the parity of the sum of 1's in the data , not the parity of the data 
+Error :
+ . an inadvertent change of a bit of data due to a fault
+ . certain solutions are based on the idea that only a single bit would change
+ => WE ARE ASSUMING ONLY A SINGLE ERROR WOULD HAPPEN 
 
-Parity bits :
- . used in detecting errors within data stored on RAID disks
+Parity : 
+ . possessing either of two mathematical states : even or odd 
+ . the parity of the SUM OF 1'S in the data , not the parity of the data 
+
+Parity bit :
+ . used in detecting errors (erroneous changes) within data stored on RAID disks
  . parity bits accompany corresponding data
- . a fault-inspired erroneous change in one data bit changes the parity 
+ . a single error => changed parity => error detected 
  . error checking : comparing pre-calculated parity bits with the newly calculated ones
- |
- . we are thinking a single erroneous change
-   => if there is one error , we will catch it 
 
+ECC - error-checking code : 
+ . many ways to design and implement error-checking 
+ . parity comparison - one of those solutions 
+
+Parity disk : 
+ . stores pre-calculated parity bits to be matched with a next set of more recently calculated parity bits
+ . mis-match => error 
+ . used in RAID 3 and RAID 4
+ . otherwise , parity bits would be distributed across disks , like in RAID 5 and RAID 6 
 ================================================================================
 Odd parity arrangement :
 
@@ -20,7 +31,6 @@ Odd parity arrangement :
    1011001 1     =>	1 = parity bit 
 
    1101011 0     =>	0 = parity bit
-
 ================================================================================
 Even parity arrangement :
   
@@ -29,18 +39,12 @@ Even parity arrangement :
    1101011 1     =>	1 = parity bit
 
    1110001 0 	 =>	0 = parity bit
-
 ================================================================================
-Parity checks :
- . error-checking
- . fault tolerance
+Responding to errors (fault tolerance) : 
+ . 
  . reconstruction after disk failure 
 
- . stored parity 	<- a bit representing even parity or odd parity 
- . calculated parity 	<- from the RAID controller or the host's CPU
-    . if calculated parity bit does not match the stored parity bit , we have an error(s) 
+ <- from the RAID controller or the host's CPU
+ 
  . single-bit parity fails with an even number of errors
-
-Parity disk :
- . stores calculated parity bits to be matches with stored parity bits 
 _

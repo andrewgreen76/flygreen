@@ -1,0 +1,61 @@
+=============================================================================================================
+RAID 4 - BASICS 
+=============================================================================================================
+
+Stripe :
+ . every bit in a stripe is read off of the same location on every disk 
+
+Error :
+ . an inadvertent change of a bit in a stripe due to a fault of the bit's disk 
+
+=============================================================================================================
+SINGLE-DISK FAULT TOLERANCE : 
+=============================================================================================================
+
+Error-checking :
+ . imagine a single disk in RAID that is so faulty that one of the bits in the stripe erroneously changes 
+ => the sum of 1's in the stripe will change
+ => parity of the sum of 1's will change (odd->even , even->odd)
+ => we have an error 
+ => we can use persistent parity comparison to detect errors
+
+Parity bit : 
+ . every stripe gets a dedicated parity bit
+ . 0 <= even sum of data bits 
+ . 1 <= odd sum of data bits 
+ . a single error => changed parity => error detected
+ => this method fails with an even number of errors (we count on single-disk failure) 
+
+Parity bit calculations : 
+ . handled by (a) the RAID controller or (b) the host's CPU
+ . instead of (sum % 2) on the stripe use XOR :
+
+
+                   [disk 0:]   [disk 1:]   [disk 2:]  [disk 3:]   
+   stripe A (t)        1    (+)    0    (+)    1    (+)   0	      = 0 parity bit - stored on the [parity disk] 
+		   .................................................................................................................
+   stripe A (t+1)      1    (+)    1    (+)    1    (+)   0	      = 1  <- your new parity bit - doesn't match the old parity bit 
+   	  	   	       	    	   	      	      	      	       	      	      	    => we have an error
+
+================================================================================
+================================================================================
+================================================================================
+
+Odd parity arrangement :
+
+ . (1's in data + [parity_bit] ) = odd number of 1's
+ 
+   1011001 1  =>  1 = parity bit 
+   1101011 0  =>  0 = parity bit
+
+================================================================================
+
+Even parity arrangement :
+  
+ . (1's in data + [parity_bit] ) = even number of 1's
+ 
+   1101011 1  =>  1 = parity bit
+   1110001 0  =>  0 = parity bit
+
+ . Fun fact : XOR yields results compliant with even parity 
+_

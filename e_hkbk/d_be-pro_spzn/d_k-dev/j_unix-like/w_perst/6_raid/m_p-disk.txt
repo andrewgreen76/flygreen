@@ -1,0 +1,15 @@
+												
+Parity disk : 
+ . stores pre-calculated parity bits to be matched with a next set of more recently calculated parity bits
+ . used in RAID 3 and RAID 4
+ |
+ . otherwise , parity bits would be distributed across disks , like in RAID 5 and RAID 6 
+
+
+Trade-off :
+ . parity-based recovery can be used in place of mirroring-based recovery
+ + save space
+ + do away with cost of mirrors
+ - disk replacement time 
+ - persistent parity-based operations overhead - taxing on performance 
+_

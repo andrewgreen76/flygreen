@@ -2,11 +2,23 @@
 RAID 5
 ===========================================================================================================
 
+ . a.k.a. rotating parity 
  . similar to RAID 4
  . but parity information is distributed across all disks instead of being stored on a dedicated disk
+ 
  + room for one more regular disk
- +> wider I/O throughput (better parallelism) 
+ +> wider I/O throughput (better parallelism)
+ - but parity chunks take up space on every disk
+ - the intricate arrangement of parity chunks across disks complicates I/O operations
 
+
+	   [d0]  [d1]   [d2]  ...
+
+			      ...
+		       P(N-2)
+		P(N-1)
+	   P(N)
+   
 
 Evaluation :
  . reliability - same as RAID 4

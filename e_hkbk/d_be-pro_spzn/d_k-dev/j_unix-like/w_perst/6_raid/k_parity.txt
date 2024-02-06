@@ -4,6 +4,10 @@ Error :
  . certain solutions are based on the idea that only a single bit would change
  => WE ARE ASSUMING ONLY A SINGLE ERROR WOULD HAPPEN 
 
+ECC - error-checking code : 
+ . many ways to design and implement error-checking 
+ . parity comparison - one of those solutions 
+
 Parity : 
  . possessing either of two mathematical states : even or odd 
  . the parity of the SUM OF 1'S in the data , not the parity of the data 
@@ -14,9 +18,10 @@ Parity bit :
  . a single error => changed parity => error detected 
  . error checking : comparing pre-calculated parity bits with the newly calculated ones
 
-ECC - error-checking code : 
- . many ways to design and implement error-checking 
- . parity comparison - one of those solutions 
+Parity bit calculations : 
+ . handled by (a) the RAID controller or (b) the host's CPU
+ . instead of (sum+1)%2 use XOR : 
+    . [disk 0:] 1  XOR  [disk 1:] 0  XOR
 
 Parity disk : 
  . stores pre-calculated parity bits to be matched with a next set of more recently calculated parity bits
@@ -26,25 +31,15 @@ Parity disk :
 ================================================================================
 Odd parity arrangement :
 
- . (1's in data + [parity_bit] ) = odd number of 1's 
-
-   1011001 1     =>	1 = parity bit 
-
-   1101011 0     =>	0 = parity bit
+ . (1's in data + [parity_bit] ) = odd number of 1's
+ 
+   1011001 1  =>  1 = parity bit 
+   1101011 0  =>  0 = parity bit
 ================================================================================
 Even parity arrangement :
   
- . (1's in data + [parity_bit] ) = even number of 1's 
-
-   1101011 1     =>	1 = parity bit
-
-   1110001 0 	 =>	0 = parity bit
-================================================================================
-Responding to errors (fault tolerance) : 
- . 
- . reconstruction after disk failure 
-
- <- from the RAID controller or the host's CPU
+ . (1's in data + [parity_bit] ) = even number of 1's
  
- . single-bit parity fails with an even number of errors
+   1101011 1  =>  1 = parity bit
+   1110001 0  =>  0 = parity bit
 _

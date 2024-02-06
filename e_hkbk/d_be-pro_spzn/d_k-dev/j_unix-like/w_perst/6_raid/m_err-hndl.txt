@@ -1,0 +1,36 @@
+==================================================================================
+RESPONDING TO ERRORS (FAULT TOLERANCE) : 
+==================================================================================
+
+How do we deal with errors detected with parity-based ECC ? 
+ |
+ . an error means we have a faulty disk
+ => we need to identify the disk
+ -> attempt to recover the data
+ -> or attempt to fix the disk
+ -> or replace the disk
+
+==================================================================================
+HOW TO IDENTIFY A FAULTY DISK :
+==================================================================================
+
+Automatically - RAID management software
+ . since RAID is always connected to a server or a computer , that device will have
+   the RAID management software that will point out which disk is faulty
+ -> an admin will handle the problem 
+
+Manually - an admin will detect the faulty disk :
+ . the RAID controller simply signals that there's an error
+ -> an admin comes over and looks into things (LEDs , etc.)
+ -> the admin identifies the faulty disk 
+ -> the admin handles the problem 
+ 
+
+Data recovery after disk failure :
+ |
+ .
+ 
+
+Other notes : 
+ . single-bit parity fails with an even number of errors
+_

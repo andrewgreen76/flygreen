@@ -5,8 +5,6 @@ Why is I/O slow in general ?
  . HDD is slow due to its mechanical nature.
  |
  . SSD is also rather slow
- |  . the NAND technology involved
- |  . more complex architecture
- |
- . RAM just uses DRAM and SRAM. 
+    . the NAND technology involved
+    . complex architecture
 _

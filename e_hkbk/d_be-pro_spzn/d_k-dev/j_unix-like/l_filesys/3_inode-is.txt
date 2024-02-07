@@ -20,7 +20,7 @@ Inode ("index node") :
 . an inode does not include the actual name or the contents of the file/dir
 
 
-
+Every inode has a unique number - inode number - that a file goes by in some places. 
 
 
 =====================================================================================================

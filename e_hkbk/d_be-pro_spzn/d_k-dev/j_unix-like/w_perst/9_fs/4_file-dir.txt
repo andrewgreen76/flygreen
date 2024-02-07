@@ -1,0 +1,21 @@
+
+File :
+ . a group of bytes
+ . has a unique inode (and inode number) 
+ . [symbolic name + inode number] mapped together in a dir 
+
+Directory entry :
+ . every file inside has an entry
+ . every dir inside has an entry
+
+Directory tree : 
+ . a subset of the file system 
+ . a.k.a. directory hierarchy
+
+File system :
+ . the largest dir tree
+ . starts at the root dir (/ in Unix-based systems)
+
+Absolute pathname :
+ . from the root down to the file/dir of interest 
+_

@@ -3,7 +3,7 @@
 #include <math.h>
 
 void sort(int * );
-int get_start_i(int * , int );
+int get_start_i(int * , int , int * );
 void scan_down(int * , int * , int , int * );
 void scan_up(int * , int * , int , int * );
 
@@ -22,9 +22,9 @@ int main(int argc, char *argv[])
 
   sort(locs);
   //=======================================================
-  start_i = get_start_i(locs, start_sector);
-  scan_down(locs , start_sector , start_i , &total_mvmt);
-  scan_up(locs , start_sector , start_i , &total_mvmt);
+  start_i = get_start_i(locs, start_sector , &total_mvmt);
+  scan_down(locs , &start_sector , start_i , &total_mvmt);
+  scan_up(locs , &start_sector , start_i , &total_mvmt);
   //=======================================================
   
   printf("Total Disk Head Movement: %d" , total_mvmt);
@@ -43,10 +43,10 @@ void sort(int * locs){
   }
 }
 ///////////////////////////////////////////////////////////////////////////
-int get_start_i(int * locs , int at_sector){
+int get_start_i(int * locs , int at_sector , int * tmv){
   
   if(at_sector < locs[0]) {
-    tmv = at_sector;
+    *tmv = at_sector;
     return 0; 
   }
   
@@ -59,8 +59,8 @@ void scan_down(int * locs , int * at_sector, int i , int * tmv){
 
   while(i > 0){
     i--;
-    tmv += abs(at_sector - locs[i]); // added to mvmt dist 
-    at_sector = locs[i]; // rem new sector 
+    *tmv += abs(*at_sector - locs[i]); // added to mvmt dist 
+    *at_sector = locs[i]; // rem new sector 
     
     fflush(stdout);
     printf("Sector %d\n" , locs[i]);
@@ -73,8 +73,8 @@ void scan_down(int * locs , int * at_sector, int i , int * tmv){
 void scan_up(int * locs , int * at_sector, int i , int * tmv){
   
   for( ; i<10 ; i++){    
-    tmv += abs(at_sector - locs[i]);
-    at_sector = locs[i];
+    *tmv += abs(*at_sector - locs[i]);
+    *at_sector = locs[i];
     
     fflush(stdout);
     printf("Sector %d\n" , locs[i]);

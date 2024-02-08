@@ -10,3 +10,9 @@ int main()
   return 0;
 }
 
+/*
+    O_CREAT - creates the file
+    O_WRONLY - locks it,
+    O_TRUNC - truncates it to zero bytes, erasing any existing content
+    S_IRUSR|S_IWUSR - permissions are set to allow the owner to read and write to the file.
+*/

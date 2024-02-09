@@ -10,8 +10,7 @@ CPU Post Silicon Verification Engineer
 CPU Design Verification Engineer - CPU Verification Engineer
 CPU Emulation Design Verification Engineer 
 |
-Silicon RTL Design Engineer 
-RTL Design Engineer 
+RTL Design Engineer	><	Silicon RTL Design Engineer	><	RTL Silicon Design Engineer   
 CPU Core Architecture / RTL Design Engineer
 Interconnect Micro-Architect & RTL Design Engineer 
 |

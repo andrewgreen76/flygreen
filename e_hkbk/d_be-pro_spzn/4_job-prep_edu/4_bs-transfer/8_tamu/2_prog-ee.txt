@@ -12,29 +12,18 @@ EE focus :
 
 
 Classes :
- . 
+ |
+ + chem
+ + rhetoric and composition
+ + sensing , control , actuation 
+ + Newtonian mechanics
+ + electricity + magnetism
+ + dfq
+ + applied math 
+ |
+ - e-circuit theory
+ - ML for EE 
 
-=========================================================
-ESET :
- . technical
- . sales
- . management
- . embedded
- . C
- . assembly 
-
-
-Classes :
- . 
-
-=========================================================
-IT Svc Mgmt :
- . IT
- . mgmt / leadership 
-
-
-Classes :
- . 
 
 
 

@@ -1,20 +1,92 @@
 
-EE :
+EE focus :
     . embedded 
      . analog and mixed-signal electronics
       . biomedical imaging
        . sensing and genomic signal processing
- . computer engineering and systems
+ > computer engineering and systems
 	 . device science and nanotechnology
 	  . energy and power
 	   . electromagnetics and microwaves
 	    . information science and systems 
 
+
+Classes :
+ . 
+
+=========================================================
 ESET :
-Industrial Dist. :
+ . technical
+ . sales
+ . management
+ . embedded
+ . C
+ . assembly 
+
+
+Classes :
+ . 
+
+=========================================================
 IT Svc Mgmt :
-Manuf. and Mech Eng Tech :
-MXET - Marine :
-MXET - Mechatronics
-MXET - BS STEM Ed :
-Tech Mgmt : 
+ . IT
+ . mgmt / leadership 
+
+
+Classes :
+ . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=========================================================
+	Industrial Dist. :
+	 . management
+	 . sales
+	 . operations 
+	 . solutions
+	 . HVAC 
+
+=========================================================
+	Manuf. and Mech Eng Tech :
+	 . industry
+	 . management
+	 . operations
+	 . sales
+	 . installations 
+=========================================================
+	MXET - Marine :
+	 . marine
+	 . sales
+	 . service
+	 . leadership 
+=========================================================
+	MXET - Mechatronics
+	 . mechanical
+	 . robotics
+	 . control engineering
+	 . automation 
+	 . electro-marine
+	 . STEM Ed 
+=========================================================
+	MXET - BS STEM Ed :
+	 . education 
+=========================================================
+	Tech Mgmt : 
+	 . business analyst
+	 . data analyst 
+

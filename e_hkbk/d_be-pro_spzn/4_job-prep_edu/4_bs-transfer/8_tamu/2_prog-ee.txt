@@ -1,17 +1,12 @@
-
 EE focus :
     . embedded 
      . analog and mixed-signal electronics
-      . biomedical imaging
-       . sensing and genomic signal processing
  > computer engineering and systems
 	 . device science and nanotechnology
 	  . energy and power
 	   . electromagnetics and microwaves
 	    . information science and systems 
-
------------------------------------------------------
-
+----------------------------------------------------
 Classes :
 
  + chem
@@ -27,13 +22,21 @@ Classes :
  + comp.arch & design
  + uni.core - creative arts
  + tech.elective
-    . electronics testing (ESET 352) 
+    . electronics testing (ESET 352)
+    . communications and cryptography (MATH 470)
+    . properties/chem (MEEN/MSEN 222)
+    . thermodynamics (MEEN 315)
+    . functional materials (MSEN 325)
+    . optics , gases , laws , thermodynamics (PHYS 221)
+ + ECEN elective
+    . circuits (ECEN 325)
+    . ECEN 410-480
+    . ECEN 489 
 
  + electronic properties of materials 
  + tech.elective
     . programming languages (CSCE 314) 
-    . intro to computer systems (CSCE 313) 
- 
+    . intro to computer systems (CSCE 313)  
  - e-circuit theory
  - ML for EE
  - design

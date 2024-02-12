@@ -1,4 +1,3 @@
-
 ESET :
  . technical
  . sales
@@ -6,9 +5,59 @@ ESET :
  . embedded
  . C
  . assembly 
-
+----------------------------------------------------
 Classes :
- |
- +
- |
- - 
+
+ + chem
+ + rhetoric and composition
+ + computer applications for engineers , software design , debugging , student-written programs , engineering majors ,
+   	      		  career exploration , prax , pathways to success 
+ + algebra , geometry , calc I
+ + uni.core - creative arts 
+ + sensing , control , actuation
+ + algebra , calc II , calc III 
+ + Newtonian mechanics
+ + uni.core - creative arts
+ + uni.core / chem - creative arts 
+ + electricity + magnetism
+ + circuit analysis
+ + digital electronics
+ + embedded C 
+ + electricity + magnetism
+ + AC / motors/generators
+ + LAN / MAN
+ + MCU arch
+ + leadership
+ + analog , transistors
+ + RF , wireless
+ + embedded
+ + high-impact learning practice , professional outcomes
+ + e-testing
+ + net sys , security
+ + wireless 
+ + uni.core - creative arts
+ + capstone 
+ + tech.elective
+    . electronics testing (ESET 352)
+    . communications and cryptography (MATH 470)
+    . properties/chem (MEEN/MSEN 222)
+    . thermodynamics (MEEN 315)
+    . functional materials (MSEN 325)
+    . optics , gases , laws , thermodynamics (PHYS 221)
+ + writing / communication / talking
+ + capstone 
+ + tech.elective
+    . electronics testing (ESET 352)
+    . communications and cryptography (MATH 470)
+    . properties/chem (MEEN/MSEN 222)
+    . thermodynamics (MEEN 315)
+    . functional materials (MSEN 325)
+    . optics , gases , laws , thermodynamics (PHYS 221)    
+ + uni.core - creative arts
+ + uni.core - creative arts
+ + uni.core - creative arts
+
+ - Six Sigma (process improvement , statistics) 
+ - business , marketing , research 
+ - bio , data ; sensors , ADC/DAC , sampling , DSP (ESET 359)
+ - control systems 

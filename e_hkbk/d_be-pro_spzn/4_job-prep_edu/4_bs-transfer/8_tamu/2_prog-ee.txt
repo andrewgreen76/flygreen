@@ -10,19 +10,34 @@ EE focus :
 	   . electromagnetics and microwaves
 	    . information science and systems 
 
+-----------------------------------------------------
 
 Classes :
- |
+
  + chem
  + rhetoric and composition
  + sensing , control , actuation 
  + Newtonian mechanics
  + electricity + magnetism
  + dfq
- + applied math 
- |
+ + applied math
+ + signals and systems
+ + electric energy conversion
+ + writing / communication / talking
+ + comp.arch & design
+ + uni.core - creative arts
+ + tech.elective
+    . electronics testing (ESET 352) 
+
+ + electronic properties of materials 
+ + tech.elective
+    . programming languages (CSCE 314) 
+    . intro to computer systems (CSCE 313) 
+ 
  - e-circuit theory
- - ML for EE 
+ - ML for EE
+ - design
+ - design 
 
 
 

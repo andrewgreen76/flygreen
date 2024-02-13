@@ -1,4 +1,6 @@
 ESET :
+ . electronics x 3
+ . testing 
  . technical
  . sales
  . management

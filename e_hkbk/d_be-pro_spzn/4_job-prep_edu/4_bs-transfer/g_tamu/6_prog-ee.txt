@@ -1,4 +1,5 @@
 EE focus :
+ . electronics x 1
     . embedded 
      . analog and mixed-signal electronics
  > computer engineering and systems
@@ -26,7 +27,6 @@ Classes :
  + dfq
  + applied math
  + physics
- + signals and systems
  + fields
  + transistors , circuits , amplifiers 
  + electric energy conversion
@@ -49,13 +49,14 @@ Classes :
     . ECEN 489
     ... 
 
- + e-circuit theory
+ - e-circuit theory , laws , analysis 
  - ML for EE
- - design , concepts 
- - design
- - probability , uncertainty
- - planning , design , documentation , development 
- - planning , design , documentation , development 
+ . signals and systems
+ . design , concepts 
+ . design
+ . probability , uncertainty
+ . planning , design , documentation , development 
+ . planning , design , documentation , development 
 
 
 

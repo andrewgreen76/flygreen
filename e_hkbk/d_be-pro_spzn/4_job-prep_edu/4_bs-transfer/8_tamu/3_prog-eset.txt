@@ -24,7 +24,6 @@ Classes :
  + digital electronics
  + embedded C 
  + electricity + magnetism
- + AC / motors/generators
  + LAN / MAN
  + MCU arch
  + leadership
@@ -56,7 +55,9 @@ Classes :
  + uni.core - creative arts
  + uni.core - creative arts
  + uni.core - creative arts
+ + AC / motors/generators
 
+ - theorems 
  - Six Sigma (process improvement , statistics) 
  - business , marketing , research 
  - bio , data ; sensors , ADC/DAC , sampling , DSP (ESET 359)

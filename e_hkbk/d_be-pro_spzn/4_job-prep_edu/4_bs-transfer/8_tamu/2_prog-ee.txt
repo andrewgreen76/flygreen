@@ -10,37 +10,52 @@ EE focus :
 Classes :
 
  + chem
- + rhetoric and composition
- + sensing , control , actuation 
+ + rhetoric and composition 
+ + computer applications for engineers , software design , debugging , student-written programs , engineering majors ,
+   	      		  career exploration , prax , pathways to success
+ + algebra , geometry , calc I 
+ + uni.core - creative arts
+ + sensing , control , actuation
+ + calc II 
  + Newtonian mechanics
+ + uni.core - creative arts
+ + chem / uni.core - creative arts
+ + calc III 
+ + electricity + magnetism
  + electricity + magnetism
  + dfq
  + applied math
+ + physics
  + signals and systems
+ + fields
+ + transistors , circuits , amplifiers 
  + electric energy conversion
  + writing / communication / talking
  + comp.arch & design
+ + semiconductors , physics 
  + uni.core - creative arts
  + tech.elective
-    . electronics testing (ESET 352)
-    . communications and cryptography (MATH 470)
-    . properties/chem (MEEN/MSEN 222)
-    . thermodynamics (MEEN 315)
-    . functional materials (MSEN 325)
-    . optics , gases , laws , thermodynamics (PHYS 221)
- + ECEN elective
-    . circuits (ECEN 325)
-    . ECEN 410-480
-    . ECEN 489 
-
- + electronic properties of materials 
- + tech.elective
     . programming languages (CSCE 314) 
-    . intro to computer systems (CSCE 313)  
- - e-circuit theory
+    . intro to computer systems (CSCE 313)
+ + uni.core - creative arts
+ + ECEN elective
+    . ECEN 410-480
+    . ECEN 489
+    ... 
+ + professional development 
+ + uni.core - creative arts
+ + ECEN elective
+    . ECEN 410-480
+    . ECEN 489
+    ... 
+
+ + e-circuit theory
  - ML for EE
+ - design , concepts 
  - design
- - design 
+ - probability , uncertainty
+ - planning , design , documentation , development 
+ - planning , design , documentation , development 
 
 
 

@@ -2,10 +2,36 @@
 IT Svc Mgmt :
  . IT
  . mgmt / leadership 
-
-
+----------------------------------------------------
 Classes :
- |
- +
- |
- - 
+
+ + C
+ + rhetoric and composition
+ + uni.core - creative arts
+ + writing / communication / talking
+ + uni.core - creative arts
+ + uni.core - creative arts
+ + uni.core - creative arts
+ + writing 
+ + uni.core - creative arts
+ + prescr.elect. 
+ + uni.core - creative arts
+ + prescr.elect. 
+ + prescr.elect.
+ + capstone : team interaction 
+ + uni.core - creative arts
+ + prescr.elect. 
+ 
+ + networking
+ - practices , principles , lifecycle , business ; cert
+ - businesses , social sciences math
+ - design and concepts
+ - logic nitpicking , probability , formal deduction
+ - HR
+ - practices , management , analysis , foundations (ITSV 272)
+ - principles , business regulations , law
+ - statistics , probability , sampling , inference
+ - econ 
+ - practices , innovation , issues
+ - DevOps : practices , philosophies , business , management 
+ 

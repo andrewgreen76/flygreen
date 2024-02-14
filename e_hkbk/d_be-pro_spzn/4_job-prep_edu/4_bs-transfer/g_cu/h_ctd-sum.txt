@@ -1,0 +1,108 @@
+CTD focus :
+ . IT , pro dev , math , I/O  
+----------------------------------------------------
+Classes :
+
+ + chem
+ + rhetoric and composition 
+ + computer applications for engineers , software design , debugging , student-written programs , engineering majors ,
+   	      		  career exploration , prax , pathways to success
+ + algebra , geometry , calc I 
+ + uni.core - creative arts
+ + sensing , control , actuation
+ + calc II 
+ + Newtonian mechanics
+ + uni.core - creative arts
+ + chem / uni.core - creative arts
+ + calc III 
+ + electricity + magnetism
+ + electricity + magnetism
+ + dfq
+ + applied math
+ + physics
+ + fields
+ + transistors , circuits , amplifiers 
+ + electric energy conversion
+ + writing / communication / talking
+ + comp.arch & design
+ + semiconductors , physics 
+ + uni.core - creative arts
+ + tech.elective
+    . programming languages (CSCE 314) 
+    . intro to computer systems (CSCE 313)
+ + uni.core - creative arts
+ + ECEN elective
+    . ECEN 410-480
+    . ECEN 489
+    ... 
+ + professional development 
+ + uni.core - creative arts
+ + ECEN elective
+    . ECEN 410-480
+    . ECEN 489
+    ... 
+
+ - e-circuit theory , laws , analysis 
+ - ML for EE
+ . signals and systems
+ . design , concepts 
+ . design
+ . probability , uncertainty
+ . planning , design , documentation , development 
+ . planning , design , documentation , development 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=========================================================
+	Industrial Dist. :
+	 . management
+	 . sales
+	 . operations 
+	 . solutions
+	 . HVAC 
+
+=========================================================
+	Manuf. and Mech Eng Tech :
+	 . industry
+	 . management
+	 . operations
+	 . sales
+	 . installations 
+=========================================================
+	MXET - Marine :
+	 . marine
+	 . sales
+	 . service
+	 . leadership 
+=========================================================
+	MXET - Mechatronics
+	 . mechanical
+	 . robotics
+	 . control engineering
+	 . automation 
+	 . electro-marine
+	 . STEM Ed 
+=========================================================
+	MXET - BS STEM Ed :
+	 . education 
+=========================================================
+	Tech Mgmt : 
+	 . business analyst
+	 . data analyst 
+

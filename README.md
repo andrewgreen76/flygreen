@@ -34,8 +34,8 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
 Linux : 
- . I/O
-   . types of buses 
+ . C programming language : 
+   . lseek() 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

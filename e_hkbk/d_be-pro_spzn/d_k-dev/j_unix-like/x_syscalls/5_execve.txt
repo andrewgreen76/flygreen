@@ -1,0 +1,45 @@
+"
+The `execve()` system call in Unix-like operating systems is used to execute a program. It replaces the current process image with a new one, loading a new program into the current process. The `execve()` system call is part of the exec family of functions in Unix.
+
+Here is the basic syntax of `execve()`:
+
+```c
+#include <unistd.h>
+
+int execve(const char *pathname, char *const argv[], char *const envp[]);
+```
+
+- `pathname`: The path to the executable file to be executed.
+- `argv`: An array of pointers to null-terminated strings that represent the argument list for the new program. The first element (`argv[0]`) is typically the name of the program itself.
+- `envp`: An array of pointers to null-terminated strings that represent the environment of the new program. It contains environment variables in the form "NAME=value," and the array is terminated with a null pointer.
+
+The `execve()` system call does not return on success; instead, it replaces the current process image with the new program. If there is an error, it returns -1, and the specific error code can be retrieved from the `errno` variable.
+
+Here is a simple example of using `execve()`:
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main() {
+    char *programPath = "/bin/ls";
+    char *programName = "ls";
+    char *programArgs[] = {programName, "-l", NULL};
+    char *envp[] = {NULL};  // Empty environment for simplicity
+
+    if (execve(programPath, programArgs, envp) == -1) {
+        perror("execve");
+        return 1;
+    }
+
+    // This code will not be reached if execve is successful
+    printf("This line will not be executed.\n");
+
+    return 0;
+}
+```
+
+In this example, the `execve()` system call is used to execute the "ls" command with the "-l" flag. If `execve()` is successful, the current process image is replaced by the "ls" program. If there is an error, the error message is printed, and the program exits with an error code.
+"
+_

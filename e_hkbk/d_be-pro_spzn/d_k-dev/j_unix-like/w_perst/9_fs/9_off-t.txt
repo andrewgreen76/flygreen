@@ -1,0 +1,57 @@
+
+ . (signed) int
+ . offset
+    ~= size of file (as in base + offset = bound)
+    ~= location within the file 
+
+=================================================================================================================================================
+
+"
+`off_t` is a data type in C that is used to represent file offsets, typically in the context of file I/O operations. It is defined as a signed integral type, and its size can vary depending on the system and platform.
+
+The purpose of `off_t` is to provide a data type that can hold the size or offset of a file, allowing programs to perform operations such as reading or writing at specific positions within a file.
+
+Here is the basic declaration of `off_t`:
+
+```c
+#include <sys/types.h>
+
+off_t someOffset;
+```
+
+`off_t` is often used with functions that involve file positioning, such as `lseek()` and `fseek()`. It represents an offset measured in bytes from the beginning of a file.
+
+Example usage with `lseek()`:
+
+```c
+#include <unistd.h>
+#include <fcntl.h>
+
+int main() {
+    int fd = open("example.txt", O_RDONLY);
+
+    if (fd == -1) {
+        perror("open");
+        return 1;
+    }
+
+    off_t offset = lseek(fd, 0, SEEK_END); // Move to the end of the file
+
+    if (offset == (off_t)-1) {
+        perror("lseek");
+        close(fd);
+        return 1;
+    }
+
+    printf("Size of the file: %lld bytes\n", (long long)offset);
+
+    close(fd);
+    return 0;
+}
+```
+
+In this example, `off_t` is used to store the offset returned by `lseek()` to determine the size of a file by moving the file cursor to the end. The `(long long)` type casting is used for proper printing of the offset value with `printf`. The `(off_t)-1` is a common convention to indicate an error return from functions like `lseek()`.
+
+It's worth noting that the size of `off_t` can vary between systems. On many systems, it is a 32-bit or 64-bit signed integer type.
+"
+_

@@ -1,0 +1,53 @@
+"
+`lseek()` is a system call in Unix and Unix-like operating systems, including Linux, that is used to reposition the file offset of an open file descriptor. The file offset is the position within the file where the next read or write operation will occur. This system call allows you to move the file offset to a specific location within a file.
+
+The `lseek()` function has the following prototype:
+
+```c
+#include <unistd.h>
+
+off_t lseek(int fd, off_t offset, int whence);
+```
+
+- `fd`: The file descriptor of the open file.
+- `offset`: The offset by which to move the file cursor. It can be positive, negative, or zero.
+- `whence`: Specifies the reference point for the offset. It can take one of the following values:
+  - `SEEK_SET`: Set the file offset to `offset` bytes from the beginning of the file.
+  - `SEEK_CUR`: Set the file offset to its current value plus `offset`.
+  - `SEEK_END`: Set the file offset to the size of the file plus `offset`.
+
+The return value of `lseek()` is the resulting offset, or -1 in case of an error.
+
+Here's an example usage of `lseek()` to determine the size of a file:
+
+```c
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdio.h>
+
+int main() {
+    int fd = open("example.txt", O_RDONLY);
+
+    if (fd == -1) {
+        perror("open");
+        return 1;
+    }
+
+    off_t offset = lseek(fd, 0, SEEK_END); // Move to the end of the file
+
+    if (offset == (off_t)-1) {
+        perror("lseek");
+        close(fd);
+        return 1;
+    }
+
+    printf("Size of the file: %lld bytes\n", (long long)offset);
+
+    close(fd);
+    return 0;
+}
+```
+
+In this example, `lseek()` is used to move to the end of the file (`SEEK_END`), and the resulting offset is printed to determine the file size. The `(long long)` type casting is used for proper printing of the offset value with `printf`.
+"
+_

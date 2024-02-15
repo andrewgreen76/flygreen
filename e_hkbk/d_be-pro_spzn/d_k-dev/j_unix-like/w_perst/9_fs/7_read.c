@@ -4,7 +4,7 @@
 int main() {
     char buffer[101];  // 100 characters + null terminator
 
-    // Read from standard input (file descriptor 0)
+                             // src_fd = 0, dest, bytes 
     ssize_t bytesRead = read(STDIN_FILENO, buffer, 100);
 
     if (bytesRead == -1) {

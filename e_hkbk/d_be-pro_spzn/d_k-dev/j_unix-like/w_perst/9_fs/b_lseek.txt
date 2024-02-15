@@ -1,3 +1,7 @@
+
+lseek( [fd] , [v offset] , [ref v] ) 
+
+=================================================================================================================================================
 "
 `lseek()` is a system call in Unix and Unix-like operating systems, including Linux, that is used to reposition the file offset of an open file descriptor. The file offset is the position within the file where the next read or write operation will occur. This system call allows you to move the file offset to a specific location within a file.
 

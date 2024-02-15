@@ -1,0 +1,4 @@
+
+fseek (file seek) - implemented for high-level work FILE streams 
+lseek (long seek) - implemented for low-level work with file descriptors 
+_

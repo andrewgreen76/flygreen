@@ -16,3 +16,11 @@ int main()
     O_TRUNC - truncates it to zero bytes, erasing any existing content
     S_IRUSR|S_IWUSR - permissions are set to allow the owner to read and write to the file.
 */
+
+
+/* 
+   The same file can be opened for than once before a close. 
+    . every open returns an independent file descriptor 
+    => accessing a file in multiple locations 
+    . one process ~ one open/fd ~ OFT (open file table) entry 
+*/

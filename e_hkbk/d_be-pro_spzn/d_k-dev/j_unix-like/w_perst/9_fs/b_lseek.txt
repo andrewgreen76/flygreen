@@ -1,5 +1,12 @@
 
-lseek( [fd] , [v offset] , [ref v] ) 
+lseek( [fd] , [v offset] , [ref v] )
+ . returns new [0+offset] within the file
+ . returns -1 if error 
+
+ref :
+ . SEEK_SET => fp = offset 
+ . SEEK_CUR => fp = cur + offset 
+ . SEEK_END => fp = size_of_file + offset 
 
 =================================================================================================================================================
 "

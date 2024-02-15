@@ -1,0 +1,35 @@
+"
+In the context of file systems and operating systems, an "inode" (index node) is a data structure that holds metadata about a file. The specific information stored in a struct inode can vary depending on the file system implementation and the operating system. However, common attributes stored in an inode include:
+
+1. **File Type:**
+   - Indication of whether the inode corresponds to a regular file, directory, symbolic link, etc.
+
+2. **File Permissions:**
+   - Information about who can read, write, or execute the file.
+
+3. **File Owner:**
+   - Identification of the user who owns the file.
+
+4. **File Group:**
+   - Identification of the group associated with the file.
+
+5. **File Size:**
+   - The size of the file in bytes.
+
+6. **Timestamps:**
+   - Creation time, modification time, and access time indicating when various actions were performed on the file.
+
+7. **Link Count:**
+   - The number of hard links pointing to the inode. When the count drops to zero, the file system can reclaim the associated storage.
+
+8. **Pointers to Data Blocks:**
+   - For small files, direct pointers to data blocks; for larger files, indirect or doubly-indirect pointers to additional data blocks.
+
+9. **File Identifier:**
+   - A unique identifier or number associated with the file.
+
+The inode is crucial for the file system to manage and track files efficiently. Each file in the file system is associated with an inode, and the operating system uses these structures to locate and manage files on disk.
+
+It's important to note that the exact structure and contents of a struct inode can vary between different file systems, such as ext4, NTFS, or others, and the details are often specific to the design of the file system in use.
+"
+_

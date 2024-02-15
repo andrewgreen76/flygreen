@@ -1,8 +1,14 @@
 
- . (signed) int
- . offset
-    ~= size of file (as in base + offset = bound)
-    ~= location within the file 
+Offset :
+ |
+ . location within the file (as in base + offset)
+ . stored in struct file
+ . used by struct proc 
+ . implicit use of offset : calc using fscanf() , fprintf() , etc.
+ . explicit use of offset : lseek() , fseek()
+ . new offset = [ret from op_func()] + old offset 
+ |
+ . data type : off_t = (signed) int
 
 =================================================================================================================================================
 

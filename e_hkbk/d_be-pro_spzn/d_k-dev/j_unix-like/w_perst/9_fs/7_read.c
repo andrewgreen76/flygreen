@@ -20,3 +20,9 @@ int main() {
 
     return 0;
 }
+
+/* 
+   . a read() attempt beyond the file’s end returns 0 , letting the process know that it has read the entire file. 
+   . read() returns the number of bytes read (3rd arg) 
+   . a read() should read past EOF to let the process know that it reached EOF 
+*/

@@ -1,3 +1,7 @@
+
+sudo apt install strace 
+
+===========================================================================================================================================================
 "
 `strace` is a diagnostic tool in Unix-like operating systems that is used to trace and display the system calls made by a program during its execution. System calls are low-level operations performed by a program to interact with the kernel, such as file I/O, network communication, and process management.
 

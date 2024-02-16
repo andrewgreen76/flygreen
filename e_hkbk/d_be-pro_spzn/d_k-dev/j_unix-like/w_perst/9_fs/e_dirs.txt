@@ -1,6 +1,7 @@
 
 Directories :
 
- . dir data = metadata
- . references to files , other dirs 
+ . dir = data (metadata) 
+ . references to files , other dirs
+ . mkdir() - syscall that creates a dir 
 _

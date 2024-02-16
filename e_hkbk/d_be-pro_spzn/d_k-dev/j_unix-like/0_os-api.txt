@@ -19,6 +19,7 @@ dup2()
 dup3() 
 
 chdir()
+mkdir() 
 access()
 rename()
 unlink()

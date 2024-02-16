@@ -1,5 +1,5 @@
 
-The stat() and fstat() system calls go off of "struct stat" : 
+// The stat() and fstat() system calls go off of "struct stat" : 
 
 
 struct stat {
@@ -19,6 +19,6 @@ struct stat {
 };
 
 
-`stat` is also a CLI tool. 
+// `stat` is also a CLI tool. 
 
-_
+//

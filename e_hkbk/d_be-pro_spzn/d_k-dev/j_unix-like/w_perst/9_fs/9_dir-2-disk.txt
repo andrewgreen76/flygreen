@@ -1,0 +1,23 @@
+"
+The statement "Sometimes, the directory containing the file zoo must also fsync(). This step guarantees that a newly created file is on disk and is also part of the directory." highlights a consideration for ensuring both the file and the directory containing the file are durably stored on disk.
+
+When a new file is created, it's not only the file itself that needs to be flushed to disk but also the changes to the directory's data structures, which include the new file entry. The directory entry should reflect the existence of the new file persistently on the storage device.
+
+In this scenario, using `fsync()` on the file descriptor of the directory can help achieve this goal. Here's a simplified example in pseudocode:
+
+```c
+// Open the directory
+int dir_fd = open("path/to/directory", O_RDWR);
+
+// Flush changes to the directory to disk
+fsync(dir_fd);
+
+// Close the directory
+close(dir_fd);
+```
+
+By using `fsync()` on the directory file descriptor, you're aiming to make sure that any changes related to the directory, including the addition of the new file, are durably stored.
+
+It's worth noting that while this approach helps to synchronize the directory changes to disk, it might introduce performance considerations, especially if used frequently. As always, the decision to use `fsync()` should be based on specific requirements for data durability and the associated trade-offs in terms of performance.
+"
+_

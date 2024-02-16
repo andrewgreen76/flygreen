@@ -14,5 +14,8 @@ Purpose :
  |
  | => use fsync()
  |
- .  ----data---> [disk] 
+ |  ----data---> [disk]
+ |
+ . fsync() returns true after all pending writes are completed
+   => the app/process using fsync() can continue 
 _

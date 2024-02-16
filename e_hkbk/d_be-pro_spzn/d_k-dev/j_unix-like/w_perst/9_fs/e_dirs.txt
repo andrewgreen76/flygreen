@@ -3,5 +3,6 @@ Directories :
 
  . dir = data (metadata) 
  . references to files , other dirs
- . mkdir() - syscall that creates a dir 
+ . mkdir() 
+ . rmdir() - only works on empty directories 
 _

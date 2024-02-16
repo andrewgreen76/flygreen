@@ -1,0 +1,25 @@
+
+link() :
+ |
+ . can make a file
+ |  . creates a struct inode with metadata for the file 
+ |  . ties that inode to the symbolic name given by the user  
+ |
+ . can create a hard link (alias/"copy") of the original file 
+ |  . the original and the new symbolic links are tied to the same inode  
+ |  . another symbolic name (provided by the user) is linked to the same inode 
+ |  
+ . link( const char * old_pathname , const char * new_pathname )
+ . called upon by "ln" in Bash 
+ . hard link ~= copy
+ . An attempt to make a single change to the file under the hard link
+   leads to creating a more recent , updated copy of the original.
+    . Same symbolic link , different inode. 
+
+=======================================================================================================
+
+unlink() : 
+ . deletes the file with the name provided in the argument 
+ . rets 0 if success
+ . called upon by "rm" 
+_

@@ -28,14 +28,6 @@ int main() {
     read(3, &c, 1);
     printf("char : %c\n", c );
     
-    /*
-    if (offset == (off_t)-1) {
-        perror("lseek");
-        close(fd);
-        return 1;
-    }
-    */
-
     close(fd);
     return 0;
 }

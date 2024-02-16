@@ -1,0 +1,19 @@
+
+Output redirection :
+ | 
+ . from terminal to file 
+ |  . for logging (tracing the output of a program or script)
+ |  . > , >> , tee , | , 2>&1 , >&2 
+ |
+ . from file to terminal
+    . cat (seeing content of file) 
+
+
+dup()
+ . "Any changes to the file offset or file status flags through one file descriptor WILL AFFECT THE OTHER."
+ . int newfd = dup(oldfd);
+ 
+dup2() -
+
+dup3() - 
+_

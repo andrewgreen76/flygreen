@@ -1,0 +1,10 @@
+"
+The state of an open file is maintained by the operating system through the open file table entry associated with the file. The open file table entry contains information about the file, such as the file position, access mode, file status flags, and other relevant details.
+
+When multiple processes share access to the same file, each process has its own file descriptor pointing to the common open file table entry. The state information within the open file table entry is independent for each process. Consequently, processes can have different file positions, access modes, or other attributes based on their individual interactions with the file.
+
+Processes can access the file concurrently, and the operating system ensures that their interactions with the open file are managed appropriately. The concept of taking turns in a round-robin fashion does not apply at the file level. Instead, the operating system employs mechanisms such as file locking to coordinate and manage access to the file, preventing conflicts between processes.
+
+In summary, each process maintains its own state information within the shared open file table entry, and the operating system uses various synchronization mechanisms to handle concurrent access and maintain consistency when multiple processes interact with the same file.
+"
+_

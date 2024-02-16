@@ -1,0 +1,12 @@
+
+Every individual process has its own private ("independent") array of file descriptors (stdin, stdout, stderr, custom+).
+ . even if there is more than one process
+ . whether they are related or not
+ . proc 1 can have fd 3 , proc 2 can have its own fd 3 , etc.
+
+
+The OFT (open file table) is shared.
+ => fd's from different arrays can reference the same OFT entry
+ . BUT THE OFT ENTRY CAN ONLY HAVE ONE OFFSET , ONE INODE
+ . the REFERENCE COUNT keeps track of how many fd's have the file open 
+_

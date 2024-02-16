@@ -19,8 +19,12 @@ dup2()
 dup3() 
 
 chdir()
-rename()
 access()
+rename()
+unlink()
+
+stat()
+fstat() 
 
 accept() 
 _

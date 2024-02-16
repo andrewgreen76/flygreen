@@ -1,0 +1,6 @@
+
+Directories :
+
+ . dir data = metadata
+ . references to files , other dirs 
+_

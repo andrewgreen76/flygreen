@@ -2,22 +2,24 @@
 Inode ("index node") :
 -----------------------
 
-. just like any node - an implemented data structure 
-. every inode is unique , dedicated to a file/dir , and has a purpose : 
-  . provides the standard way of accessing the file/dir
-    . holds pointers to all blocks of the file   
-  . provides metadata about the file/dir (file type , file size , permissions , etc.) 
-  . is useful in caching for quick access to the file/dir
+ . all nodes are data structures
+ . "a file system's personal persistent data structure" 
+ . every inode is unique , dedicated to a file/dir , and has a purpose : 
+ | . provides the standard way of accessing the file/dir
+ |   . holds pointers to all blocks of the file   
+ | . provides metadata about the file/dir (file type , file size , permissions , etc.) 
+ | . is useful in caching for quick access to the file/dir
+ . "All inodes are stored on disk, with a copy in memory to speed up access."
 
 
-. all inodes ... 
-  . stored in the inode table (a.k.a. inode block) grown in the RAM
-  . point to their respective files/dirs - nodes of a tree that is the filesystem , stored on the disk 
-  => tied to one filesystem 
-|
-|
-. "different filesystems may have variations in the structure and content of inodes"
-. an inode does not include the actual name or the contents of the file/dir
+ . all inodes ... 
+   . stored in the inode table (a.k.a. inode block) grown in the RAM
+   . point to their respective files/dirs - nodes of a tree that is the filesystem , stored on the disk 
+   => tied to one filesystem 
+ |
+ |
+ . "different filesystems may have variations in the structure and content of inodes"
+ . an inode does not include the actual name or the contents of the file/dir
 
 
 Every inode has a unique number - inode number - that a file goes by in some places. 

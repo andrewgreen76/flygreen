@@ -1,0 +1,18 @@
+
+Purpose :
+
+
+ . A direct write to storage would take a longer time. 
+
+
+ . Instead , write()
+ |
+ .  ---data--> [fast buffer] -----> [disk] 
+
+
+ . There is still the possibility of a crash after the buffer and before the write to disk. 
+ |
+ | => use fsync()
+ |
+ .  ----data---> [disk] 
+_

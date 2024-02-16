@@ -1,0 +1,34 @@
+
+dup()
+ |
+ . simply creates a duplicate/"alias" 
+    . "Any changes to the file offset or file status flags through one file descriptor WILL AFFECT THE OTHER."
+    . NO PRACTICAL PURPOSE WHATSOEVER
+    . certainly no sense in using on stdin , stdout , stderr 
+ . int newfd = dup(oldfd);
+
+#####################################################################################################################
+
+Output redirection :
+ | 
+ . from terminal to file 
+ |  . for logging (tracing the output of a program or script)
+ |  . > , >> , tee , | , 2>&1 , >&2 
+ |
+ . from file to terminal
+    . cat (seeing content of file)
+
+
+dup2()
+ |
+ . allows for redirection
+ . dup2( dest_fd , STDOUT_FILENO );
+ . dup2( STDOUT_FILENO , src_fd );
+
+#####################################################################################################################
+
+dup3()
+ . 
+
+#####################################################################################################################
+_

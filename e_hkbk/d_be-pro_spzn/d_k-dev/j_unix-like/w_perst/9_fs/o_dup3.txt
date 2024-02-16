@@ -1,0 +1,48 @@
+"
+`dup3()` is a system call in Linux and other Unix-like operating systems that duplicates an open file descriptor. It is similar to `dup2()`, but it provides additional options and is more flexible.
+
+Here is the prototype of the `dup3()` system call:
+
+```c
+int dup3(int oldfd, int newfd, int flags);
+```
+
+- `oldfd`: The file descriptor to be duplicated.
+- `newfd`: The file descriptor to be used as the duplicate.
+- `flags`: Additional flags that can modify the behavior. It can include `O_CLOEXEC` to set the close-on-exec flag.
+
+The main difference between `dup2()` and `dup3()` is the ability to specify additional flags with `dup3()`. The `O_CLOEXEC` flag, for example, allows you to set the close-on-exec flag for the new file descriptor in an atomic operation.
+
+Here's an example of using `dup3()`:
+
+```c
+#include <fcntl.h>
+#include <stdio.h>
+#include <unistd.h>
+
+int main() {
+    int oldfd = open("example.txt", O_RDONLY);
+    if (oldfd == -1) {
+        perror("open");
+        return 1;
+    }
+
+    int newfd = dup(oldfd);
+    if (newfd == -1) {
+        perror("dup");
+        close(oldfd);
+        return 1;
+    }
+
+    // Use newfd as needed...
+
+    close(oldfd);
+    close(newfd);
+
+    return 0;
+}
+```
+
+In this example, `dup3()` is not used, but `dup()` is used to duplicate an open file descriptor. `dup3()` becomes more relevant when additional flags need to be set for the new file descriptor.
+"
+_

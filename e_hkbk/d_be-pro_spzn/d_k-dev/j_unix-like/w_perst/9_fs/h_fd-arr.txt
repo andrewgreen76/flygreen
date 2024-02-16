@@ -5,8 +5,12 @@ Every individual process has its own private ("independent") array of file descr
  . proc 1 can have fd 3 , proc 2 can have its own fd 3 , etc.
 
 
+
 The OFT (open file table) is shared.
  => fd's from different arrays can reference the same OFT entry
+ | . using fork() , dup functions
+ |
  . BUT THE OFT ENTRY CAN ONLY HAVE ONE OFFSET , ONE INODE
+ |
  . the REFERENCE COUNT keeps track of how many fd's have the file open 
 _

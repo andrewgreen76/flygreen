@@ -8,12 +8,16 @@ Output redirection :
  . from file to terminal
     . cat (seeing content of file) 
 
+################################################################################################################
 
 dup()
+ . NO PRACTICAL PURPOSE WHATSOEVER 
  . "Any changes to the file offset or file status flags through one file descriptor WILL AFFECT THE OTHER."
  . int newfd = dup(oldfd);
  
-dup2() -
+dup2()
+ . 
 
-dup3() - 
+dup3()
+ . 
 _

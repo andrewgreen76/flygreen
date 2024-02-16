@@ -1,0 +1,9 @@
+"
+Using strace shows us that mv uses the system function rename(char *old, char *new) that takes the old file name and new file name as arguments.
+rename() is normally designed as an atomic call. If a system crashes during renaming, the file will be renamed to either the old or the new name. rename() is important for applications that require atomic file state updates. 
+"
+
+
+A .tmp file is used for preserving updates (new state) for persistence.
+ . This way the target is in either the healthy old state or the healthy new state. 
+_

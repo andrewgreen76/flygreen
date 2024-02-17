@@ -12,8 +12,7 @@ Stripe :
 
 
 Chunk :
- . a block , the smallest unit of I/O data
- . a logical element of a stripe , written separately to a different disk
+ . number of blocks per cylinder on a stripe 
 
 -----------------------------------------------------------------------------
 -----------------------------------------------------------------------------

@@ -18,7 +18,8 @@ For a user/client to get an idea of how the disk is used , we need
    => 1 cluster = 1 KB
    => 1 block group = 4 KB (1 page)
    => you see pages on a cylinder 
- . in an FFS , files and directories are defrag'd on the same cylinder 
+ . in an FFS , files and directories are defrag'd on the same cylinder (group) 
+   => helps cut back on long seeks 
 
 ===========================================================================================================================================================
 LOGICAL BREAKDOWN OF A CYLINDER GROUP IN AN FFS :

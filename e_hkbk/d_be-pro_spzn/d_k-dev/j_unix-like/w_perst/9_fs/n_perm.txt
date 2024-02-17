@@ -1,0 +1,31 @@
+
+Permissions :
+ |
+ . a.k.a. the file mode 
+ $ ls -l    - displays permissions
+ . can be changed with "chmod"
+    $ chmod 600 file.txt
+
+ . a process always needs OS' permission to access a file
+    . a fd is returned if permission is granted 
+
+===========================================================================
+
+    owner |group|other
+          |     |
+   -  rw- |r--  |r--		1 codio codio 0 Jan 26 02:41 permissions.txt
+   ^  ^^^
+   |  |||
+   |  ||executable
+   |  ||
+   |  |writeable
+   |  |
+   |  readable
+   |
+   file type
+    -    regular file
+    d	 directory
+    l	 symbolic link
+    
+===========================================================================
+_

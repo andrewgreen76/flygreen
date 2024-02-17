@@ -1,8 +1,14 @@
 
 Directories :
 
- . dir = data (metadata) 
- . references to files , other dirs
+ . dir = data (metadata, incl. dir's inode number)
+ 
+ . references :
+   "." for itself
+   ".." for the parent directory
+   . references to files
+   . references to other dirs
+   
  . mkdir() 
  . rmdir() - only works on empty directories 
 _

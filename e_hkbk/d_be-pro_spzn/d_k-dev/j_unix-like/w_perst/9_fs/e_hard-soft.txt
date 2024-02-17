@@ -13,7 +13,7 @@ HARD LINKS ("COPIES") :
  |  . the original and the new links are mapped to the same inode (number)  
  |  
  . link( const char * old_pathname , const char * new_pathname )
- . called upon by "ln" in Bash 
+ $ ln target copy 
  |
  . link count = count of references ("files") to the same inode 
  | . every link() increments the count
@@ -31,4 +31,7 @@ HARD LINKS ("COPIES") :
 SYMBOLIC/SOFT LINKS : 
 ====================================================================================================
 
+ . creates a "shortcut" , not a copy
+ . if the src is removed , the link has a dangling pointer 
+ $ ln -s target link 
 _

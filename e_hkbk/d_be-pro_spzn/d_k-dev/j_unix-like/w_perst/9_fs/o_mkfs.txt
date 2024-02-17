@@ -1,0 +1,45 @@
+========================================================================================================
+MAKING AN (empty) FILESYSTEM :
+========================================================================================================
+
+File system (tree) :
+ |
+ . has a certain type (ext3 , NTFS) 
+ . maintained on a storage device
+    . It can be said that the "partition is mounted as a root file system using a [file system (type)]". 
+ . has a file/dir mgmt interface
+ . a single holistic file system is typically comprised of other file systems
+    . ex.: proc (interface to kernel's data structures , info about processes , etc.)
+    . ex.: tmpfs (for fast r/w operations ; always stored in RAM , never on the disk)
+    
+========================================================================================================
+ . mkfs()
+ 
+ . ingredients :
+    . storage device
+    . file system type
+
+ . shape : a uniform fs tree
+========================================================================================================
+ . sda's           - partitions
+ . ext's , NTFS    - file systems
+
+
+ . mount() : inserts the [NEW FS TREE] inside the [EXISTING FS TREE IN A PARTITION] at a [MOUNT POINT]
+    |
+    $ mount -t [fs] [partition] [mount point]
+    $ mount -t ext3 /dev/sda1 /home/users
+    |
+    $ ls /home/users/ one two
+       . /home/users/    - root of new fs 
+========================================================================================================
+"
+/dev/sda1 on / type ext3 (rw)
+       proc on /proc type proc (rw)
+       sysfs on /sys type sysfs (rw)
+       /dev/sda5 on /tmp type ext3 (rw)
+       /dev/sda7 on /var/vice/cache type ext3 (rw)
+       tmpfs on /dev/shm type tmpfs (rw)
+       AFS on /afs type afs (rw)			- a distributed file system 
+"
+_

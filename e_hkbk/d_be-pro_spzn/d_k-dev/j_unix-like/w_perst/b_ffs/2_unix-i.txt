@@ -1,0 +1,29 @@
+
+In the beginning , before file systems , there were :
+ . for storing data - record-based storage systems
+ . one-level system organization 
+
+================================================================
+THE OLD UFS (UNIX FILE SYSTEM) :
+================================================================
+
+ . a.k.a. the First Edition Unix
+ . a.k.a. VSFS (very simple file system) 
+ . development finished in 1971 
+
+Logical volume breakdown :
+ . S (superblock) - info about the entire fs 
+    . volume size
+    . inode count
+    . access to the free list (of blocks) 
+ . fs inodes
+ . data (>50% of the disk's volume) 
+
+
+API :
+ . open()
+ . close()
+ . read()
+ . write()
+ . others (but their implementation was changed) 
+_

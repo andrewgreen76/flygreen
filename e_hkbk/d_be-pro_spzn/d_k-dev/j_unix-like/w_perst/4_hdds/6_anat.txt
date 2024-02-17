@@ -21,7 +21,9 @@ Platter :
     . sector/block - smallest storage unit for a file
     . sectors used to be 512 bytes
     . now sectors are 4KB in size 
- . stacked tracks from different platters make up a CYLINDER
+ . CYLINDER = stacked tracks from different platters make up a CYLINDER
+ . cylinder group = stacked platters 
+ . DISK = a set of cylinder groups 
  |
  . every surface has an assigned disk HEAD which makes magnetic patters on the disk
  . the disk ARM (a.k.a. actuator arm) moves the head

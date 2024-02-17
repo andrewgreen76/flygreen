@@ -1,0 +1,40 @@
+===========================================================================================
+LOGICAL ORGANIZATION OF A DISK :
+===========================================================================================
+
+For a user/client to get an idea of how the disk is used , we need
+ . an interface
+ . a logical organization of the disk 
+
+
+	Block groups :
+
+	| group 0       | group 1       | group 2       |
+	|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_| ...
+
+
+ . block groups represent a cylinder
+ . 1 block = 512 B
+   => 1 cluster = 1 KB
+   => 1 block group = 4 KB (1 page)
+   => you see pages on a cylinder 
+ . in an FFS , files and directories are defrag'd on the same cylinder 
+
+===========================================================================================================================================================
+LOGICAL BREAKDOWN OF A CYLINDER GROUP IN AN FFS :
+===========================================================================================================================================================
+
+
+	|	| 	    | 	   	 |	  		|								|
+	|	| per-group | per-group  |	  		|	 							|
+	| Super	| inode	    | data	 |			|								|
+	|       | bitmaps   | bitmaps    |	inodes 		|	 		data					|
+	| block | (alloc    | (alloc     | 	 		| 	(takes up most of the cylinder group space)		|
+	| 	|  or free) |  or free)  | 	  		| 	 							|
+	|	| 	    | 	   	 |	  		|	 							|
+
+
+ . S = superblock = S-block
+ . S is copied into every single cylinder group
+   => preserves mounting ability
+_

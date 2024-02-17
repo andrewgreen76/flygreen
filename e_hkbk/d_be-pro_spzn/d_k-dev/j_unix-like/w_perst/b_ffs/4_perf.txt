@@ -1,0 +1,29 @@
+================================================================================
+OLD UNIX - PERFORMANCE ISSUES :
+================================================================================
+
+Fragmentation : 
+
+ - would become extremely poor very quickly
+ - the disk was used as RAM 
+   - super-slow access
+   - new huge files are fragmented 
+     - takes time to seek from block to block
+
+ + defragmentation software - use it when time allows
+   . data is compacted together , free space is compacted together
+   + significantly reduces seeking time
+   . rewrites the inodes accordingly 
+
+================================================================================
+
+512-byte blocks :
+
+ - did not give the right balance , so two problems lingered :
+   - blocks too large => internal fragmentation (in-block wasting) 
+   - blocks too small
+     => external fragmentation (too many small free pockets) 
+     => more blocks to handle
+       => more time spent accessing/moving blocks 
+       => more metadata to be logged for all the blocks 
+_

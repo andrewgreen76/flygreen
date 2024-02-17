@@ -38,7 +38,7 @@ Segmentation fault :
 . attempting to access memory outside of the bounds of a segment  
 
 External fragmentation :
-. too many tiny pockets of free memory across the physical memory as a result of spreading out and not compacting segments
+. too many tiny free pockets across RAM as a result of spreading out and not compacting segments
 . it gets more diffucult to place new segments or grow the already existing ones
   . Remember : processes can request specific large amounts of memory and not get a fit
   . the kernel will have to deny the request

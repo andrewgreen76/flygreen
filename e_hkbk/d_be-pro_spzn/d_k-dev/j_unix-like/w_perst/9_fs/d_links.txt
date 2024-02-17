@@ -8,32 +8,4 @@ unlink() :
 File :
  . essentially a link (name mapped to an inode) 
  . it is not file content
- 
-=======================================================================================================
-link() :
- |
- . can make a link ("file") 
- |  . creates a struct inode with metadata for the file 
- |  . ties that inode (number) to the name given by the user  
- |
- . can create a hard link (alias/"copy") of the original file 
- |  . the original and the new links are mapped to the same inode (number)  
- |  . another symbolic name (provided by the user) is linked to the same inode 
- |  
- . link( const char * old_pathname , const char * new_pathname )
- . called upon by "ln" in Bash 
- |
- . link count = count of references ("files") to the same inode 
- | . every link() increments the count
- | . every unlink() decrements it
- |    . link count = 0    =>    data blocks are released , the inode is released 
- |
- . An attempt to make a single change to the content under the hard link
-   leads to splitting off as a different file.
-    -> Same second symbolic link , different inode , a separate link count => different file
-
- . a hard link to a directory cannot be created (=> redundancy)
- . a hard link to a file in a different disk/partition cannot be created 
- 
-=======================================================================================================
 _

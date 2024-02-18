@@ -4,7 +4,7 @@ MAKING AN (empty) FILESYSTEM :
 
 File system (tree) :
  |
- . has a certain type (ext3 , NTFS) 
+ . has a certain type (ext3 , ext4 , NTFS , FAT) 
  . maintained on a storage device
     . It can be said that the "partition is mounted as a root file system using a [file system (type)]". 
  . has a file/dir mgmt interface

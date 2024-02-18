@@ -1,0 +1,25 @@
+================================================================================
+AMORTIZATION AND CALCULATING CHUNK SIZE : 
+================================================================================
+
+
+			     disk I/O work
+ . peak disk performance = -----------------
+   	     		        overhead
+
+
+				 1 ms of transfer time
+ . given 50% peak disk perf. , ------------------------- = 1 
+   	     	       	           1 ms of seek time 
+
+
+ . AMORTIZATION = a method of improving peak disk performance over cost 
+
+
+   	   avg.	    	 avg.
+	 tf. rate      seek time
+         ^^^^^^^^     ^^^^^^^^^^
+   	   ? KB         ? secs
+	 --------  x  ----------  =  chunk size 
+ 	   sec	         seek
+_

@@ -7,11 +7,13 @@ FILE/DIR ALLOCATION POLICIES :
  . unrelated items are placed in different block groups
    => more related items can be added to a block group 
 
+
 =======================================================================================
 DIR PLACEMENT :
 =======================================================================================
 
  . dir_inode and dir_data are placed in a cylinder group with most free memory 
+
 
 =======================================================================================
 ALLOCATING LARGE FILES :
@@ -37,7 +39,4 @@ ALLOCATING LARGE FILES :
       4		----------	aaaaa----- ---------- ---------- ----------
       5		----------	aaaaa----- ---------- ---------- ----------
       6		----------	---------- ---------- ---------- ----------
-
-
- . amortization : increasing work/overhead ratio 
 _

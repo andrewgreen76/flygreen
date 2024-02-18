@@ -1,0 +1,18 @@
+
+An inode all by itself may not be able to represent a massive file.
+
+=====================================================================================================================================================
+SINGLE INDEX BLOCK - AN INODE EXTENSION :
+=====================================================================================================================================================
+"
+A single index block, also known as a single indirect block, is a data structure used in file systems to extend the addressing capacity of an inode for larger files. Instead of storing all block pointers directly within the inode, which could be limiting for large files, a single index block is introduced to hold additional pointers.
+
+Here's how it typically works:
+
+1. **Direct Pointers:** The inode contains a certain number of direct block pointers (e.g., 12), which directly point to data blocks containing file content.
+
+2. **Single Index Block (Single Indirect Pointer):** If the file requires more blocks than can be accommodated by the direct pointers, a single index block is used. This block contains pointers to additional data blocks.
+
+By introducing this single index block, the inode can efficiently point to more data blocks, extending the addressing capacity without significantly increasing the size of the inode itself. Each pointer in the single index block leads to another data block, allowing the file system to support larger files while maintaining a hierarchical structure to manage block addressing. This concept is part of the hierarchical structure used to organize and locate data blocks in file systems.
+"
+_

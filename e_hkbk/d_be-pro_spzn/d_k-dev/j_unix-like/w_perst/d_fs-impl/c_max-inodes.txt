@@ -1,0 +1,11 @@
+
+When the inode table is maxed out :
+
+ . no more files/dirs can be made
+ . data loss
+ . crashing applications
+ . OS crashes , restarts
+ . processes don't restart
+ . periodic tasks failing to fire
+
+_

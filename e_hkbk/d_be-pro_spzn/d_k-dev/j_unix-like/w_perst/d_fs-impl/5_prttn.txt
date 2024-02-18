@@ -1,0 +1,26 @@
+=====================================================================================
+PARTITION ORGANIZATION (BEFORE MOUNTING A FILE SYSTEM) : 
+=====================================================================================
+
+Partition :
+ = a storage volume dedicated to a file system
+
+
+A simple partition organization :
+ . a sequence of 8-block , 4 KB groups 
+ . 1 block = 512 B 
+
+
+	|	| 	    | 	   	 |	  		|								|
+	|	| per-group | per-group  |	  		|	 							|
+	| Super	| inode	    | data	 |			|								|
+	|       | bitmaps   | bitmaps    |	inode 		|	 		data					|
+	| block | (alloc    | (alloc     | 	table 		| 	(takes up most of the cylinder group space)		|
+	| 	|  or free) |  or free)  | 	  		| 	 							|
+	|	| 	    | 	   	 |	  		|	 							|
+		 0 - free , 1 - allocated
+
+
+ . S is copied into every single cylinder group
+	
+_

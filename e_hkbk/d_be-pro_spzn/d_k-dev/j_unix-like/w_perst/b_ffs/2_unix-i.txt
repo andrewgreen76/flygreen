@@ -11,12 +11,19 @@ THE OLD UFS (UNIX FILE SYSTEM) :
  . a.k.a. VSFS (very simple file system) 
  . development finished in 1971 
 
+
 Logical volume breakdown :
+ |
+ |
  . S (superblock) - info about the entire fs 
-    . volume size
-    . inode count
-    . access to the free list (of blocks) 
+ |  . volume size , number of data blocks 
+ |  . inode count
+ |  . address of the free list (of blocks)
+ |  . address of the inode table
+ |  . a magic number representing the file system type 
+ |  
  . fs inodes
+ |
  . data (>50% of the disk's volume) 
 
 

@@ -1,0 +1,67 @@
+
+To locate an inode in a file system : 
+ . a file system is on a drive
+ . drives/partitions/tables/regions are NOT BYTE-ADDRESSABLE (as in no 0x...)
+ . ... but sectors (blocks) are 
+ . an inode is located by its sector from the start of the partition 
+
+=========================================================================================================================================================
+CALCULATE TO TRACK AN INODE - EXAMPLE : 
+=========================================================================================================================================================
+
+* i_table = 12 K = 12288 bytes 
+ . 512 bytes / sector  
+ . 256 B / inode 
+ . 16 inodes / block = 4K/block 
+ . 80 inodes / i_table = 20K 
+
+			      12K_____ 80 _____|
+				|  |  |  |  |  |
+	|	|	|	|	       |											|
+	| S	|   i	|   d	| inode table  |						data					|
+	|	|	|	|	       |											|	
+_____________________________________________________________________________________________________________________________________________________
+
+Locate inode 32 (in KB , or the 33rd inode).
+
+        _______________________ i_table ________________________
+        0      7       16	       32			}
+        |||||||||   	|||||||||	|||||||||		} inodes 
+	        8	|      24	|      40		}
+		|||||||||	|||||||||	|||||||||	}
+        0K   	2K     4K      6K      8K     10K		< B/KB tracker
+	0	        8      	       16     			}
+	| | | | | | | | | | | | | | | | | | | | | | | | |	} blocks 
+
+
+1) Compute its offset (in B/KB) : 
+
+     offset = [i] x [sizeof(inode)] = 32 x 256 = 8192B = 8K 
+
+
+2) Compute the location of the inode (in B/KB) from the start of the partition :
+
+     loc_inode = loc_itable + offset = 12K + 8K = 20K 
+
+     Prttn    	       	       	I-table		inode				EOTable	
+     0	      	       	        12K		20K				32K
+     |	      	       		|		.				|
+
+
+3) Find the sector of the inode on the drive/partition :
+    . 512B / sector
+    . 256B / inode
+    => 2 inodes / sector 
+
+
+	              1024 B       1 inode	 1 sector						      1 sector
+    sector = 20 K x ---------- x ----------- x ------------ = 40 = sector (41st)	sector = 20480 B x ------------- = 40 
+       	       	        1 K         256 B    	 2 inodes     	   	  		       	       	     512 bytes
+
+
+    sector = loc_inode(bytes) / [bytes/sector] 
+__________________________________________________________________________________________________________________________________________________
+
+sector = ( (inumber * inode_size) + itable_addr) / sectorSize;
+     
+_

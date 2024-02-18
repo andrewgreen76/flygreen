@@ -1,0 +1,13 @@
+=====================================================================================
+FILE SYSTEM INGREDIENTS : 
+=====================================================================================
+
+ . storage device
+ . file system type 
+ . data structures (arrays or trees) 
+ . access methods
+    . a fs maps process calls (system calls) to the structures
+       . structures read
+       . structures written to
+       . quality/efficiency of execution of these operations 
+_

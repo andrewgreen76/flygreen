@@ -14,7 +14,8 @@ Directory tree :
 
 File system :
  . the largest dir tree
- . starts at the root dir (/ in Unix-based systems)
+ . mounted on a storage device 
+ . starts at the root dir (/ in Unix-based systems) 
 
 Absolute pathname :
  . from the root down to the file/dir of interest 

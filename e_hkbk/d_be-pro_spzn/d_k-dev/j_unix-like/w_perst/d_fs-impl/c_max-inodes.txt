@@ -1,6 +1,7 @@
 
 When the inode table is maxed out :
 
+ . sizeof(itable) = block_size * n_direct_refs
  . no more files/dirs can be made
  . data loss
  . crashing applications

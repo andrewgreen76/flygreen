@@ -1,0 +1,4 @@
+
+User processes must die so that the kernel-related process can survive. 
+Structures in a regular program's memory must perish so that the FS structures can survive. 
+_

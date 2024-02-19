@@ -16,10 +16,10 @@ Accessing/writing tons and tons of bytes on the disk can really drag the perform
  . design choices :
    (1) use write() to buffer or buffer automatically
        + changes take place very quickly
-       - changes can be lost 
+       - changes can be lost (crash-consistency) 
    (2) bypass buffering 
        + immediate write to disk
-       - changes are realized very slowly
+       - changes are realized very slowly 
        . fsync() - the program's say-so to write immediately directly to the disk 
 
 =================================================================================================

@@ -1,0 +1,37 @@
+=========================================================================================
+WRITING TO A FILE : 
+=========================================================================================
+
+Writing a file is more costly than reading it :
+ . time to dynamically update the dirs' inodes and the file inode
+ . time to allocate space for the file
+ . time to manage free space 
+
+=========================================================================================
+
+ . get the pathname
+ -> open() - traverses the pathname
+    . start at / dir
+    -> read / inode (i-num = 2)
+    -> loop :
+       -> read dir data blocks -> look up child in the pathname by its inode
+    -> check perm in leaf_inode 
+    
+    If good to read : 
+    -> find the file
+    -> alloc fd in the OFT
+    -> ret fd_addr to user
+    
+ -> write()
+    -> mark target d-blk in the data bitmap as used
+    -> update an inode/bitmaps accordingly
+    -> actual write - into the data blocks 
+
+    -> read the 1st block
+    -> update the inode (time last accessed)
+    -> update fd in the OFT for future reads
+
+ -> close the file
+    -> dealloc fd in the OFT 
+
+_

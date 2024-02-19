@@ -1,0 +1,26 @@
+=========================================================================================
+READING FROM A FILE : 
+=========================================================================================
+
+ . get the pathname
+ -> open() - traverses the pathname
+    . start at / dir
+    -> read / inode (i-num = 2)
+    -> loop :
+       -> read dir data blocks -> look up child in the pathname by its inode
+    -> check perm in leaf_inode 
+    
+    If good to read : 
+    -> find the file
+    -> alloc fd in the OFT
+    -> ret fd_addr to user
+    
+ -> read() 
+    -> read the 1st block
+    -> update the inode (time last accessed)
+    -> update fd in the OFT for future reads
+    
+ -> close the file
+    -> dealloc fd in the OFT 
+
+_

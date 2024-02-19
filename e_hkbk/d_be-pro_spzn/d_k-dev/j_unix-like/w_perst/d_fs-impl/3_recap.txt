@@ -3,11 +3,14 @@ FILE SYSTEM INGREDIENTS :
 =====================================================================================
 
  . storage device 
- . file system type 
+ . file system type
+   / i-num = 2 
  . data structures (arrays or trees) 
  . access methods
-    . a fs maps process calls (system calls) to the structures
-       . structures read
+    . a FS maps process calls (system calls) to the structures
+       . structures read from 
        . structures written to
        . quality/efficiency of execution of these operations
+
+ -> mkfs() 
 _

@@ -1,0 +1,35 @@
+====================================================================================
+INODE BITMAPS AND DATA BITMAPS :
+====================================================================================
+
+struct InodeBitmap {
+    uint8_t data[INODE_BITMAP_BYTES];	    ... assuming each bit represents the availability of an inode
+};
+
+
+struct DataBitmap {
+    uint8_t data[DATA_BITMAP_BYTES];	    ... assuming each bit represents the availability of a data block 
+};
+
+====================================================================================
+ . 0 - free
+ . 1 - taken
+====================================================================================
+
+When a file is created :
+ |
+ . find , alloc  inode
+ . find , update inode bitmap
+ |
+ . find , alloc  data blocks
+    . getting contiguous blocks is ideal 
+   (a) allocate + write on the go
+   (b) pre-allocation - marking off an entire series of blocks before the data is written in 
+ . find , update data bitmap
+ |
+ . update the multi-level B-tree
+ . write metadata into inode
+ . write metadata into data blocks 
+ . write file content into the data blocks
+ . update dir entry 
+_

@@ -1,0 +1,41 @@
+
+ . used for storing hugs amounts of large data
+ . dirs are organized as a B-tree
+    . self-balancing red-black BST
+    . multiple children per node 
+ . development started in 1993 
+
+====================================================================================================================================================
+"
+XFS (Extended File System) is a high-performance and scalable file system designed for Unix-like operating systems. It was originally developed by Silicon Graphics, Inc. (SGI) and is known for its advanced features, robustness, and efficient handling of large-scale storage systems. XFS has been integrated into various Unix and Linux distributions.
+
+Key features of XFS include:
+
+1. **Scalability:**
+   - XFS is designed to handle large amounts of data and filesystems, making it suitable for enterprise-level storage solutions.
+
+2. **Performance:**
+   - It provides high-performance file I/O, particularly for large files and high-throughput workloads.
+   - Optimizations for parallel I/O operations contribute to its performance.
+
+3. **Journaling:**
+   - XFS uses a journaling file system approach to enhance data consistency and recovery after system failures.
+
+4. **Metadata Handling:**
+   - Efficient handling of metadata, such as directory entries and file attributes.
+
+5. **Support for Large Storage Devices:**
+   - XFS supports large storage devices and files, with features like 64-bit addressing for scalability.
+
+6. **Online Resizing:**
+   - XFS supports online resizing of the filesystem, allowing administrators to adjust filesystem sizes without unmounting.
+
+7. **Extended Attributes:**
+   - Support for extended attributes, allowing users to associate additional metadata with files.
+
+8. **Checksums:**
+   - XFS supports checksums to verify data integrity and detect data corruption.
+
+XFS is commonly used in environments that require high-performance storage solutions, such as data centers, file servers, and large-scale computing clusters. While it is native to some Unix-based operating systems, including certain versions of Linux, its availability may depend on the specific distribution and kernel version.
+"
+_

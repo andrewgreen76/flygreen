@@ -22,7 +22,7 @@ Permissions :
    |  |
    |  readable
    |
-   file type
+   file type field 
     -    regular file
     d	 directory
     l	 symbolic link

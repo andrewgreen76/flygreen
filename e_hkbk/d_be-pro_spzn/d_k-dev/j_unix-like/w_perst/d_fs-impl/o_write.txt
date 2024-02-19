@@ -17,8 +17,7 @@ Writing a file is more costly than reading it :
        -> read dir data blocks -> look up child in the pathname by its inode
     -> check perm in leaf_inode 
     
-    If good to read : 
-    -> find the file
+    If good to write : 
     -> alloc fd in the OFT
     -> ret fd_addr to user
     

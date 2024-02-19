@@ -1,0 +1,40 @@
+=========================================================================================
+CREATING A FILE : 
+=========================================================================================
+
+Creating a file is more costly than writing to it.
+ . recursive r/w 
+
+ . get the pathname
+ -> open() - traverses the pathname , creates the file 
+    . start at / dir
+    -> read / inode (i-num = 2)
+    -> loop : top-to-bottom read 
+       -> read dir data blocks -> look up child in the pathname by its inode
+    -> check perm in leaf_inode 
+    
+    If good to create :
+    -> scan the inode bitmap for a free inode 
+    -> allocate an inode
+    -> allocate space in the parent dir
+    -> do r/w to init inode
+    -> map i_num w/ filename 
+
+    -> alloc fd in the OFT
+    -> ret fd_addr to user
+    
+ -> write()
+    -> update the inode bitmap accordingly
+    -> recursively update inodes of dirs up the pathname
+
+    -> for every data block to write to :
+       -> read the file's inode  
+       -> mark target d-blk in the data bitmap as used
+       -> actual write to the data block
+       -> update the inode (time last accessed , etc.)
+       -> update fd in the OFT , target the next data block 
+
+ -> close the file
+    -> dealloc fd in the OFT 
+
+_

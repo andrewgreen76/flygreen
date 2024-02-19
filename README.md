@@ -35,7 +35,12 @@ __________________________________________________________________________
 
 Linux : 
  . C programming language : 
-   . lseek() 
+   . lseek()
+   . fseek()
+   . more system calls ( mkfs() , dup() family , opendir() , readdir() , closedir() , etc. )
+   . inodes
+   . file system bitmaps
+   . caching and buffering in file systems 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

@@ -1,0 +1,41 @@
+=================================================================================================
+CACHING AND BUFFERING : 
+=================================================================================================
+
+Accessing/writing tons and tons of bytes on the disk can really drag the performance down.
+
+ . We can take our business to memory , specifically the page cache 
+   => we get a performance boost , sacrificing persistence 
+ . an LRU selection policy chooses which disk blocks to cache
+
+ . caching - mapping sectors to addresses
+ . (write) buffering - remembering what to write to disk pages
+    . in modern FS , buffer writes occur every 5-30 secs
+    . latest buffer changes are lost upon a crash
+
+ . design choices :
+   (1) use write() to buffer or buffer automatically
+       + changes take place very quickly
+       - changes can be lost 
+   (2) bypass buffering 
+       + immediate write to disk
+       - changes are realized very slowly
+       . fsync() - the program's say-so to write immediately directly to the disk 
+
+=================================================================================================
+DYNAMIC PARTITIONING : 
+=================================================================================================
+
+ . Recall that segmentation and paging are memory management techniques for handling processes.
+ 
+ . Dynamic partitioning is like segmentation - breaking up memory into variable-size pieces - but
+   FOR FILE SYSTEM PAGES.
+   
+ . Page cache is shared by :
+    . virtual memory pages (processes)
+    . file system pages (swapping) 
+
+=================================================================================================
+
+
+_

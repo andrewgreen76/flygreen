@@ -1,0 +1,16 @@
+"
+Dynamic partitioning typically refers to a memory management technique used in operating systems to allocate and deallocate memory dynamically during program execution. In this context, "partitioning" refers to dividing the available memory into variable-sized blocks or partitions to accommodate the memory needs of different programs.
+
+Key features of dynamic partitioning include:
+
+1. **Variable Partition Sizes:** Unlike static partitioning, where memory is divided into fixed-size partitions, dynamic partitioning allows each process to occupy a partition of a size that matches its actual memory requirements.
+
+2. **Flexible Memory Allocation:** Memory is allocated to a process when it is loaded into memory, and it is deallocated when the process terminates or is no longer in need of the allocated memory.
+
+3. **Fragmentation Management:** Dynamic partitioning aims to address both internal fragmentation (wasted memory within a partition) and external fragmentation (wasted memory scattered between allocated partitions). Techniques like compaction may be used to reduce external fragmentation by relocating processes.
+
+4. **More Efficient Use of Memory:** By allowing partitions to adjust dynamically based on the actual memory needs of processes, dynamic partitioning aims to achieve a more efficient use of available memory.
+
+Different allocation strategies can be used in dynamic partitioning, such as first fit, best fit, and worst fit, each with its own advantages and disadvantages. The choice of strategy impacts how effectively memory is allocated and how fragmentation is managed.
+"
+_

@@ -1,0 +1,12 @@
+
+To append to a file : 
+
+ . open()
+ . lseek(fs , 0 , SEEK_END)
+ . write() to the next 4K block
+ . close()
+
+
+
+
+_

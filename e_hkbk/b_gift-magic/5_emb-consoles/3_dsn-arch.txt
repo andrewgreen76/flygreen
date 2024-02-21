@@ -16,6 +16,28 @@ VIC-20 :
 MEMORY-MAPPED I/O : 
 ==============================================================================
 
+First devices :
+ |
+ ? breadboard prototyping ?
+ ? PCB prototyping ?
+ . research/compare (best) processors
+ | . primitive breadboard CPU
+ | . MOS 6502
+ | . the one in Tetris 
+ | . the one in Gameboy - Sharp LR35902 / Intel 8080 / Zilog Z80
+ | . the one in VIC-20
+ | . IS , clock speed , arch.width 
+ |
+ . output : 
+    . display - LCD screen
+       ? controller 
+    . sound - speaker / piezo pick-up
+       ? controller 
+ . memory/storage (on the main board)
+ . processor (on the main board)
+
+
+
  . MMIO :
    . input : 
      . keypad / keyboard / buttons 

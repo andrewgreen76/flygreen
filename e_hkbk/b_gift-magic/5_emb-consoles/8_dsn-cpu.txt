@@ -1,6 +1,21 @@
 ==============================================================================
-MEMORY-MAPPED I/O : 
+CPU SPECS : 
 ==============================================================================
+
+ . research/compare (best) processors
+ | . primitive breadboard CPU
+ | . MOS 6502
+ | . the one in Tetris 
+ | . the one in Gameboy - Sharp LR35902 / Intel 8080 / Zilog Z80
+ | . the one in VIC-20 - MOS 6502 
+ | . the one in VIC-20 - MOS 6510
+ | . IS , clock speed , arch.width 
+
+
+ . memory/storage (on the main board)
+ . processor (on the main board)
+
+
 
  . MMIO :
    . input : 

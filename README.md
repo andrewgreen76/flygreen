@@ -34,13 +34,17 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
 Linux : 
- . C programming language : 
-   . lseek()
-   . fseek()
-   . more system calls ( mkfs() , dup() family , opendir() , readdir() , closedir() , etc. )
-   . inodes
-   . file system bitmaps
-   . caching and buffering in file systems 
+  . C programming language : 
+    . lseek()
+    . fseek()
+    . more system calls ( mkfs() , dup() family , opendir() , readdir() , closedir() , etc. )
+    . inodes
+    . file system bitmaps
+    . caching and buffering in file systems
+ . legacy computers and consoles
+    . hardware in Commodore 64 , VIC-20 , Atari 2600 ; BASIC ROM , KERNAL
+    . memory-mapped I/O
+    . VICMON and WozMon 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

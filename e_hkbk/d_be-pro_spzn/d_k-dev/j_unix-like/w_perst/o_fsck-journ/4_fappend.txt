@@ -1,12 +1,36 @@
-
-To append to a file : 
+===========================================================================
+APPENDING TO A FILE : 
+===========================================================================
 
  . open()
  . lseek(fs , 0 , SEEK_END)
  . write() to the next 4K block
  . close()
 
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
 
+struct inode/stat {
+  blkcnt_t st_blocks	=	inode.size / num of data blocks in the file
+
+  uint32_t pointer 	=	index of 1st data block
+  uint32_t pointer	=	NULL [not being used]
+  |
+  | [depends on the number of data block]
+  |
+  uint32_t pointer	=	NULL [not being used]
+};
+
+
+===========================================================================
+CHANGING/OVERWRITING A FILE : 
+===========================================================================
+
+struct ovrwr_blk    -    [change it]
+struct data_bitmap  -    [change it]
+struct inode	    -    [change it]
+
+=>
 
 
 _

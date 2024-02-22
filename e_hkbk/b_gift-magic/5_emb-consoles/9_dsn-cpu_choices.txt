@@ -1,29 +1,4 @@
 ==============================================================================
-CPU - DESIGN BASICS AND CONSIDERATIONS : 
-==============================================================================
-
- . clock
- . IS 
- . registers :
-    . acc
-    . base
-    . generic clk/ctr
-    . data
-    . PC
- . flags 
- . caches (L1 , L2 , L3)
- . A-width : 
- . D-width : 
-
- . research/compare (best) processors
- | . cust primitive CPU - (?)
- | . the one in Tetris  - (Princeton) Sharp LR35902 / Intel 8080 / Zilog Z80
- | . the one in Gameboy - (Princeton) Sharp LR35902 / Intel 8080 / Zilog Z80
- | . the one in VIC-20  - (Princeton) MOS 6502 
- | . the one in C64 	- (Harvard) MOS 6510 
- | . IS , clock speed , arch.width 
-
-==============================================================================
 CPU SPECS : 
 ==============================================================================
 
@@ -32,65 +7,63 @@ CPU SPECS :
     . arch.width : 8-bit
     . IS : custom 
     . registers :
-    . flags 
-    . caches :
+       . flags (to be made) 
+    . CACHES : NONE 
     . A-width : 
     . D-width : 
 
- . MOS 6502 (Apple I , Apple II , VIC-20) 
+ . MOS 6502 (Apple I , Apple II , VIC-20 - 70s, 80s) 
     . 1.02 MHz 
     . arch.width : 8-bit
     . IS : 6502 
     . registers :
-    . flags 
-    . caches :
+    . CACHES : NONE
     . A-width : 
     . D-width : 
     
- . MOS 6510 (C64) 
+ . MOS 6510 (C64 - 1982) 
     . 1.02 MHz
     . arch.width : 8-bit
     . IS : 6502 
     . registers :
-    . flags 
-    . caches :
+    . CACHES : NONE
     . A-width : 
     . D-width : 
     
- . Sharp LR35902 (Tetris , Gameboy) 
+ . Sharp LR35902 (Tetris (monochrome) , Gameboy (monochrome) - 1989) 
     . 4.19 MHz 
     . arch.width : 8-bit
     . IS : hybrid (Intel 8080 / Z80)  
     . registers :
-    . flags 
-    . caches :  
+    . CACHES : NONE
     . A-width : 
     . D-width :
     
- . Intel 80486DX2-66 MHz (IBM Aptiva , Compaq Presario 425 '94 , Compaq Presario CDS 524) 
+ . Intel 80486DX2 (IBM Aptiva , Compaq Presario 425 ('94 model) , Compaq Presario CDS 524 - 1994) 
     . 66 MHz
     . arch.width : 32-bit 
     . IS : x86 
     . registers :
-    . flags 
-    . caches : 
+    . caches : no , external 
     . A-width : 
     . D-width :
 
- . Intel Pentium (Compaq Presario 425 '96) 
+ . Intel Pentium (Compaq Presario 425 ('96 model) - 1996) 
     . 60-100+ MHz 
     . arch.width : 32-bit
     . IS : x86
     . "Pipeline Architecture: Dual-pipeline design (superscalar architecture)"
     . "Floating-Point Unit (FPU): Integrated"
     . registers :
-    . flags 
-    . caches : 
+    . caches :
+       . on-chip L1
+       . 8 KB for instructions 
+       . 8 KB for data 
     . A-width : 
     . D-width :
 
 ==============================================================================
-CPU SPECS : 
+MEMORY : SPECS 
 ==============================================================================
 
  . memory/storage (on the main board)

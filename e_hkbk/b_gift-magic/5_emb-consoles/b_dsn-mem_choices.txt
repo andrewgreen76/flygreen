@@ -1,0 +1,44 @@
+==============================================================================
+MEMORY : SPECS 
+==============================================================================
+
+ROM :
+ |
+ . programmability : Arduino 
+ |
+ . code , constants 
+ . AT28C16 EEPROM chips 
+
+
+RAM :
+ |
+ . variables
+ . writability by the device : ? 
+ | 
+ . 74LS189
+    . usable as ROM 
+ . 74LS289 - more reliable than the 189 
+    . usable as ROM 
+
+==============================================================================
+MMIO : LAYOUT 
+==============================================================================
+
+ROM : 
+   . game logic 
+   . OS master 
+
+RAM : 
+   . keypad / keyboard / buttons 
+   . mouse
+   . graphics :
+     . LCD screen
+     . 320 x 200
+     . 8-bit RGB palette
+     . 60 fps
+     . double-buffered 
+   . sound :
+      . built-in speaker - piezo pick-up
+   . OS copy 
+
+_

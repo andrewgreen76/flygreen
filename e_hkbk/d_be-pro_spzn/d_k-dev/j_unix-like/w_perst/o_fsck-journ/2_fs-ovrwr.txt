@@ -1,5 +1,7 @@
 ================================================================================
-APPENDING TO / OVERWRITING A FILE : 
+OVERWRITING A FILE : 
+================================================================================
+3/3 APPEND WRITES THAT CHANGE FS : 
 ================================================================================
 
 Call : 
@@ -33,7 +35,6 @@ Reflect the change in the file :
  . re-write "struct inode"	
 
 --------------------------------------------------------------------------------
-
 FS' caching : 
   [ovrwr_blk]   --->  page/buffer cache  --(5-30 secs)-->  disk 
   [data_bitmap] --->  page/buffer cache  --(5-30 secs)-->  disk

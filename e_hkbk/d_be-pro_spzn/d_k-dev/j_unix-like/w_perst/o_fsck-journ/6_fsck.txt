@@ -1,0 +1,23 @@
+===========================================================================================
+FSCK - FILE SYSTEM CHECKER 
+===========================================================================================
+
+ . S-blocks' corruptions 
+    . compares the FS size to the num of alloc'd blocks 
+ . block reconciliations :
+    <> i-bitmap
+    <> d-bitmap
+    <> inodes
+ . inode type reconciliations 
+ . dir entries
+ . link counts 
+
+  +------------------------------------------------------+
+  | . used in legacy file systems			 |
+  +------------------------------------------------------+
+  | - DOES NOT WORK when an inode.ptr points to garbage	 |
+  +------------------------------------------------------+
+
+ . kicks in after rebooting when the FS is mounted and ready 
+    
+_

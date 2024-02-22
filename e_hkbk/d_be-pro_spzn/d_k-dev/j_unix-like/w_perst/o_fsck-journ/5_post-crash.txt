@@ -1,0 +1,42 @@
+===========================================================================================
+1/3 WRITES SUCCESSFUL (APPENDING) 
+===========================================================================================
+
+ [v] data block
+      - old inode + old d-bitmap => unassociated d-block , over-writeable 
+      
+ [v] inode
+      - new data is lost 
+      - inode.ptr -> old d-block (old garbage -or- another file)
+      . FS inconsistency : 
+	 . inode <> d-bitmap    => reconcile  
+ 
+ [v] data bitmap  
+      - new data is lost
+      - a false flag wasted a block - SPACE LEAK  
+      - FS inconsistency
+      
+===========================================================================================
+2/3 WRITES SUCCESSFUL (APPENDING) 
+===========================================================================================
+
+ (a) [v] d-bitmap
+     [v] inode
+     	  - new data is lost
+	  - access to garbage / another file 
+
+ (b) [v] inode 
+     [v] d-block
+     	  - d-block can be overwritten 
+	  . FS inconsistency
+	  
+ (c) [v] d-block 
+     [v] d-bitmap
+     	  - unassociated d-block , inaccessible 
+	  . FS inconsistency 
+
+===========================================================================================
+Crash-consistency problem
+ . a.k.a. consistent-update problem
+ . atomicity means nothing in the face of crashes and power outages. 
+_

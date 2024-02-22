@@ -44,7 +44,8 @@ Linux :
  . legacy computers and consoles
     . hardware in Commodore 64 , VIC-20 , Atari 2600 ; BASIC ROM , KERNAL
     . memory-mapped I/O
-    . VICMON and WozMon 
+    . VICMON and WozMon
+    . console / PC booting routines 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

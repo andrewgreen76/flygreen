@@ -2,8 +2,8 @@
 RAM LAYOUT : MMIO , ETC. 
 ==============================================================================
 
-Needs APIs :
-
+Needs APIs :						ROM 
+							...
  							----------------------
  . "OS" copy						copied system code 
  | 							----------------------
@@ -24,17 +24,17 @@ Needs APIs :
  |  . more sound media => more buffers
  |  . built-in speaker - piezo pick-up			----------------------
  |  . multiple pickups for harmony			sound buffer - MIDI 
- |  ? custom compatible soundcard/controller ?
- |							----------------------
+ |  ? custom compatible soundcard/controller ?		----------------------
  |							sound buffer - ??? 
  |							----------------------
- . reserved for other applications 			net I/O , Wi-Fi , Bluetooth
+ . reserved for other applications 			net I/O ,
+ | 	    	      					Wi-Fi , Bluetooth
  | 	    	      					----------------------
- |							user data 
- |							(net RAM, etc.)
- . user data						 
-    . variables 					----------------------
-    . writability by the device : ? 			text 
+ . user data						user data 
+    . variables						(net RAM, etc.)
+    . writability by the device : ?
+							----------------------
+							text 
 							----------------------
 
 ==============================================================================

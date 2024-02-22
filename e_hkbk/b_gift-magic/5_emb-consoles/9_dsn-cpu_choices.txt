@@ -33,7 +33,7 @@ CPU SPECS :
     . A-width : 
     . D-width : 
     
- . Sharp LR35902 (Tetris (monochrome) , Gameboy (monochrome) - 1989) 
+ . Sharp LR35902 (Tetris (monochrome) , Game Boy (monochrome) - 1989) 
     . 4.19 MHz 
     . arch.width : 8-bit
     . IS : hybrid (Intel 8080 / Z80)  

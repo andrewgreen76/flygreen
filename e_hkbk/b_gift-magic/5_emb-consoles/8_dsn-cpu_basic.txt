@@ -3,14 +3,17 @@ CPU - DESIGN BASICS AND CONSIDERATIONS :
 ==============================================================================
 
  . clock
- . IS 
+ . IS
+ . ALU 
  . registers :
-    . acc
-    . base
-    . generic clk/ctr
-    . data
-    . PC
-    . control word 
+    . [slot] acc
+    . [slot] base
+    . [slot] generic clk/ctr
+    . [slot] data
+    . PC / IP (mediates with external ROM) 
+    . MAR (mediates with external RAM) 
+    . MDR (mediates with external RAM) 
+    . control register/field (ALU ops , reg in , reg out , etc.) 
     . flags
        . ZF ,
        . sign (negative) flag  ,

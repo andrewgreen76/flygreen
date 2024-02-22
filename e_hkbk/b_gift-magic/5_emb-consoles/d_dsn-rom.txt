@@ -1,0 +1,40 @@
+==============================================================================
+ROM : LAYOUT 
+==============================================================================
+
+ 							----------------------
+ . "OS" master						master system code 
+ |  . low-level routines (user I/O , disk I/O , etc.) 
+ |  . functions
+ |  . commands
+ |							----------------------
+ . programmability tools :				loader
+ |  . Arduino , MLMonC (VIC)				linker 
+ |  . lang / interpreter / instructions			assembler - x86
+ |    	     		   				 . lexer,parser,anlzr
+ |							(fixer) 
+ |							compiler
+ |							debugger 
+ |							interpreter 
+ |							
+ |							----------------------
+ . text support :					charset / font(s) 
+ |  . video (text) interface controller	
+ |  . charset
+ |  . n_fonts 
+ |  x n_chars
+ |							----------------------
+ . real video support - ?				game/any graphics 
+    . ?
+    x ?
+======================================================= ----------------------
+ . game logic						game logic 
+    . low-level routines (I/O , etc.) 
+    . functions
+    . commands
+							----------------------
+ . other things						animation code
+
+
+   	 						----------------------
+_

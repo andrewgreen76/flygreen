@@ -6,8 +6,9 @@ ROM :
  |
  . programmability : Arduino 
  |
- . code , constants 
- . AT28C16 EEPROM chips 
+ . WHAT :  code (which asm flavor? x86? 6502?) , constants 
+ . WHERE : AT28C16 EEPROM chips
+ . HOW :   video (text) interface controller 
 
 
 RAM :
@@ -18,27 +19,22 @@ RAM :
  . 74LS189
     . usable as ROM 
  . 74LS289 - more reliable than the 189 
-    . usable as ROM 
-
+    . usable as ROM
+    
 ==============================================================================
 MMIO : LAYOUT 
 ==============================================================================
 
-ROM : 
+ROM :
+   . characters
+   . lang / interpreter / instructions 
    . game logic 
-   . OS master 
+   . OS kernel master 
 
 RAM : 
    . keypad / keyboard / buttons 
    . mouse
    . graphics :
-     . LCD screen
-     . 320 x 200
-     . 8-bit RGB palette
-     . 60 fps
-     . double-buffered 
    . sound :
-      . built-in speaker - piezo pick-up
    . OS copy 
-
 _

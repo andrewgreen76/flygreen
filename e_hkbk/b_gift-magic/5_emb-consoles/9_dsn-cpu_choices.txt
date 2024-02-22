@@ -20,6 +20,9 @@ CPU SPECS :
     . CACHES : NONE
     . A-width : 
     . D-width : 
+
+ . TIA + 6507 MPU (Atari 2600 - 1977)
+    . iffy 
     
  . MOS 6510 (C64 - 1982) 
     . 1.02 MHz

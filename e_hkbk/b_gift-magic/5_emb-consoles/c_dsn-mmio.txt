@@ -1,27 +1,44 @@
 ==============================================================================
-MMIO : LAYOUT 
+RAM LAYOUT : MMIO , ETC. 
 ==============================================================================
 
-ROM : 
-   . game logic 
-   . OS master 
+Needs APIs :
 
-RAM : 
-   . keypad / keyboard / buttons 
-   . mouse
-   . graphics :
-     . LCD screen
-     . 320 x 200
-     . 8-bit RGB palette
-     . 60 fps
-     . double-buffered 
-   . sound :
-      . built-in speaker - piezo pick-up
-   . OS copy 
+ 							----------------------
+ . "OS" copy						copied system code 
+ | 							----------------------
+ . keypad / keyboard / buttons 				keyboard buffer
+ |  	    	       					----------------------
+ . mouse    	       					mouse buffer 
+ |							----------------------
+ . graphics :						framebuffer (A) 
+ |  . LCD screen					HUGEHUGHUGEHUGEHUGEHUG
+ |  . 320 x 200						EHUGEHUGEHUGEHUGEHUGEH
+ |  . low ppi						----------------------
+ |  . 8-bit RGB palette					(framebuffer B)
+ |  . 60 fps						
+ |  . double-buffered 					----------------------
+ |  ? custom compatible videocard/controller ?		(framebuffer C) 
+ |							----------------------
+ . sound - media 					sound buffer - piezo 
+ |  . more sound media => more buffers
+ |  . built-in speaker - piezo pick-up			----------------------
+ |  . multiple pickups for harmony			sound buffer - MIDI 
+ |  ? custom compatible soundcard/controller ?
+ |							----------------------
+ |							sound buffer - ??? 
+ |							----------------------
+ . reserved for other applications 			net I/O , Wi-Fi , Bluetooth
+ | 	    	      					----------------------
+ |							net RAM 
+ |							----------------------
+ . user data						user data 
+    . variables 
+    . writability by the device : ? 
+							----------------------
 
 ==============================================================================
 OS : SPECS 
 ==============================================================================
-
 
 _

@@ -1,0 +1,9 @@
+======================================================================================
+THREE WRITES RECAP : 
+======================================================================================
+
+ . inode       - num blocks , which are allocated 
+ . data bitmap - which are allocated 
+ . data block  - contents
+ 
+_

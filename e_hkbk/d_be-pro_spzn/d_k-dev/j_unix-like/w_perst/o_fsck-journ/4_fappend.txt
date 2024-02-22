@@ -1,36 +1,41 @@
-===========================================================================
+================================================================================
 APPENDING TO A FILE : 
-===========================================================================
+================================================================================
 
+Call : 
  . open()
  . lseek(fs , 0 , SEEK_END)
  . write() to the next 4K block
  . close()
 
----------------------------------------------------------------------------
----------------------------------------------------------------------------
-
-struct inode/stat {
-  blkcnt_t st_blocks	=	inode.size / num of data blocks in the file
-
-  uint32_t pointer 	=	index of 1st data block
-  uint32_t pointer	=	NULL [not being used]
-  |
-  | [depends on the number of data block]
-  |
-  uint32_t pointer	=	NULL [not being used]
-};
-
-
-===========================================================================
-CHANGING/OVERWRITING A FILE : 
-===========================================================================
-
-struct ovrwr_blk    -    [change it]
-struct data_bitmap  -    [change it]
-struct inode	    -    [change it]
-
-=>
+  +----------------------------------------------------------------------------+
+  | struct inode/stat {							       |
+  |   blkcnt_t st_blocks  =	inode.size / num of data blocks in the file    |
+  |   	     				     	    	 	       	       |
+  |   uint32_t pointer 	  =	index of 1st data block			       |
+  |   uint32_t pointer	  =	NULL [not being used]			       |
+  |   |									       |
+  |   | [depends on the number of data block]				       |
+  |   |									       |
+  |   uint32_t pointer	  =	NULL [not being used]			       |
+  | };									       |
+  +----------------------------------------------------------------------------+
 
 
+Reflect the change in the file :
+ |
+ . re-write "struct ovrwr_blk"
+ . re-write
+	    struct DataBitmap {
+	      int * dataBlockStatus;  // malloc'd 
+	      ? - int dataBlockStatus - ?
+	    };
+ . re-write "struct inode"	
+
+--------------------------------------------------------------------------------
+
+FS' caching : 
+  [ovrwr_blk]   --->  page/buffer cache  --(5-30 secs)-->  disk 
+  [data_bitmap] --->  page/buffer cache  --(5-30 secs)-->  disk
+  [inode]       --->  page/buffer cache  --(5-30 secs)-->  disk
 _

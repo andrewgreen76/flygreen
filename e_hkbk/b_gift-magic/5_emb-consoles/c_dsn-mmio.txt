@@ -30,11 +30,11 @@ Needs APIs :
  |							----------------------
  . reserved for other applications 			net I/O , Wi-Fi , Bluetooth
  | 	    	      					----------------------
- |							net RAM 
- |							----------------------
- . user data						user data 
-    . variables 
-    . writability by the device : ? 
+ |							user data 
+ |							(net RAM, etc.)
+ . user data						 
+    . variables 					----------------------
+    . writability by the device : ? 			text 
 							----------------------
 
 ==============================================================================

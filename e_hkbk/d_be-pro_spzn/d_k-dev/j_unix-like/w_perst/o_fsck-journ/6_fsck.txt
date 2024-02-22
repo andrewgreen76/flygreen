@@ -4,20 +4,31 @@ FSCK - FILE SYSTEM CHECKER
 
  . S-blocks' corruptions 
     . compares the FS size to the num of alloc'd blocks 
- . block reconciliations :
+ . block alloc reconciliations :
     <> i-bitmap
     <> d-bitmap
     <> inodes
  . inode type reconciliations 
  . dir entries
- . link counts 
+ . link counts
+ . defective duplicates
+ . dangling block pointers (elimination) 
+ . dangling dir pointers (elimination) 
+ . out-of-bounds pointers
+    . located in inodes and indirect blocks 
+    . pointers with addresses out of founds of the partition
+ . 2-to-1 dir links 
 
-  +------------------------------------------------------+
-  | . used in legacy file systems			 |
-  +------------------------------------------------------+
-  | - DOES NOT WORK when an inode.ptr points to garbage	 |
-  +------------------------------------------------------+
+  +---------------------------------------------------------------------+
+  | . used in legacy file systems					|
+  +---------------------------------------------------------------------+
+  | - runs at a slow rate (can take hours)				|
+  |    - got worse with larger disk capacities and integration of RAID	|
+  +---------------------------------------------------------------------+
+  | - scans the entire drive even if the issues are few			|
+  |    => inefficient							|
+  +---------------------------------------------------------------------+
 
- . kicks in after rebooting when the FS is mounted and ready 
-    
+ . reboot -> FS is mounted and ready -> [fsck] 
+
 _

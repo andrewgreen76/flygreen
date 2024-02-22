@@ -1,0 +1,27 @@
+============================================================================================
+DATA JOURNALING : 
+============================================================================================
+
+Pre-emptive measures taken in the interest of data integrity and recovery.
+ |
+ . rolling back - reverting the target data blocks to the old state
+ . replaying	- updating the target data blocks to the new state 
+
+
+Copying file changes to the journal (before committing the changes to the file system).
+ |
+ . fast
+ . atomic (all or none of the changes are applied) 
+
+
+struct journal {
+  + initial block 
+     . final addresses of blocks involved
+     . TID - transaction identifier
+  + content blocks
+     . content before (over)writing to the disk 
+  + final block
+     . w/ TID 
+};
+
+_

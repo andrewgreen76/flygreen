@@ -1,0 +1,17 @@
+=================================================================================
+BATCHING - FOR WRITE-TO-DISK OPTIMIZATION
+=================================================================================
+
+ (a) we can run write-ops on blocks one by one
+ 
+ (b) we can batch and log them altogether into a single global transaction
+      |
+      . WHY : 
+      |  + metadata for one transaction instead of many
+      |	 + costly read/write operations of one transaction instead of many 
+      |
+      . HOW :
+       	 1/2 - [write-ops] , [changes to bitmaps , inodes] are collectively buffered (batched) in RAM
+       	 2/2 - logged into the journal every 5 secs
+      
+_

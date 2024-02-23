@@ -5,14 +5,13 @@
 |   not for recovery from interrupted atomic operations 				    |
 =============================================================================================
 
- -----------------------------------------------------------------------------------------------------
  . ATOMIC LOG OF :
     |
     . [transaction descriptor block]
     . [target WRITE-OPS , metadata , data]
     |
-    . pre-checkpointing tactics :
-       . indiv. trans. commits -  key progress points in the journal to help expedite potential replay  
+    . checkpointing tactics :
+       . indiv. trans. commits - key progress points in the journal to help expedite potential replay  
        . snapshot (copy) of the target data blocks
        
  -----------------------------------------------------------------------------------------------------
@@ -22,12 +21,13 @@
      
  -----------------------------------------------------------------------------------------------------
  -> WRITE TO DISK
-     . metadata and data
+     . follows the journal (ops , data , etc.)
      ...
       [transaction marked as completed] -> [journal descriptor / commit block]
      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! [ CRASH / OUTAGE ] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
  -----------------------------------------------------------------------------------------------------
+
  -> RECOVERY - ANALYSIS :
      . FS will track completed write-ops
 
@@ -35,7 +35,9 @@
       . depends on the design
       . depends on the stage to completion
       . depends on the transaction commit status 
-     (a) finish line NOT reached => FS will roll back (revert) to the old state or last checkpoint -or- 
-     (b) finish line reached 	 => FS will replay (re-enact) the logged operations and commit the changes
-     	  . a.k.a. redo logging 
+     (a) checkpoint NOT reached => FS will roll back (revert) to the old state -or-
+     (b) checkpoint reached , finish line not reached => FS will roll back to last checkpoint -or- 
+     (c) finish line reached 	 => FS will replay (re-enact) the logged operations and commit the changes
+     	  . a.k.a. redo logging
+
 _

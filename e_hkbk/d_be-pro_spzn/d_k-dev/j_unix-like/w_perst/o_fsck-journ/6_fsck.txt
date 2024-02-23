@@ -1,19 +1,26 @@
 ===========================================================================================
+EXT2 : 
+===========================================================================================
+
+ext2 :
+ . released in 1993 
+ . used `fsck` for retaining/maintaining FS stability 
+ . S-block holds the [MOUNT STATE] of the file system 
+    . EXT2_VALID_FS - macro for "trustworthy" ; all changes are finalized and consistent 
+ . precursor to ext3 (w/ the journaling mechanism) 
+
+===========================================================================================
 FSCK - FILE SYSTEM CONSISTENCY CHECKER 
 ===========================================================================================
 
  . S-blocks' corruptions 
     . compares the FS size to the num of alloc'd blocks 
- . block alloc reconciliations :
-    <> i-bitmap
-    <> d-bitmap
-    <> inodes
- . inode type reconciliations 
+ . reconciliation b/w bitmaps and inodes 
+ . reconciliation of inode types  
  . dir entries
  . link counts
  . defective duplicates
- . dangling block pointers (elimination) 
- . dangling dir pointers (elimination) 
+ . dangling dir/block pointers (elimination) 
  . out-of-bounds pointers
     . located in inodes and indirect blocks 
     . pointers with addresses out of founds of the partition

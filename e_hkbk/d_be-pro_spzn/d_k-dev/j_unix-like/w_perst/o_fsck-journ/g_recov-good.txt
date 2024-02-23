@@ -1,31 +1,34 @@
 ============================================================================================
-JOURNALING TRANSACTIONS - SUCCESSFUL RECOVERY : 
+JOURNALING , ATOMIC TRANSACTIONS - SUCCESSFUL RECOVERY : 
 ============================================================================================
 
-Transaction - an atomic routine.
- |
- . log intended write-ops into the journal 
- -> checkpointing tactics :
+ . LOGGING : log intended write-ops into the journal
+
+ -> CHECKPOINTING - tactics :
      . putting up key progress spots in the journal to help expedite potential replay  
      . snapshot (copy) of the target data blocks 
- -> commence actual write to the d-blocks in FS ...
+
+ -----------------------------------------------------------------------------------------------------
+ -> COMMITTING to the data blocks in FS ...
     ...
     ...
-    [transaction (not) marked as completed]
-    ...
+    [transaction marked as completed] -> [journal descriptor / commit block / transaction descriptor]
     [crash/outage]
-    ...
-    ...
- -> recovery : FS will track completed write-ops
- -> depending on the design , the stage to completion , and the transaction commit status (reached finish line or not) ,
-    FS will roll back (revert) or replay (re-enact) the logged operations and commit the changes 
-     . finish line NOT reached => revert to the last checkpoint  
-     . finish line reached	=> replay 
+ -----------------------------------------------------------------------------------------------------
 
- +------------------------------+
- | S-blocks must remain intact	|
- +------------------------------+
+ -> RECOVERY - ANALYSIS :
+     . FS will track completed write-ops
 
-We could have multiple transactions 
+ -> RECOVERY - DECISION AND ACTION : 
+     (a) finish line NOT reached => FS will roll back (revert) to the old state or last checkpoint -or- 
+     (b) finish line reached 	 => FS will replay (re-enact) the logged operations and commit the changes 
+      . depends on the design
+      . depends on the stage to completion
+      . depends on the transaction commit status 
+
+============================================================================================
+ . S-blocks must remain intact 
+ . we are likely to have multiple transactions 
+============================================================================================
 
 _

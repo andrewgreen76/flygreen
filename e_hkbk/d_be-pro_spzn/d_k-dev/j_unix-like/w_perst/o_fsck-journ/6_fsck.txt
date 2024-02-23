@@ -1,5 +1,5 @@
 ===========================================================================================
-FSCK - FILE SYSTEM CHECKER 
+FSCK - FILE SYSTEM CONSISTENCY CHECKER 
 ===========================================================================================
 
  . S-blocks' corruptions 
@@ -22,11 +22,11 @@ FSCK - FILE SYSTEM CHECKER
   +---------------------------------------------------------------------+
   | . used in legacy file systems					|
   +---------------------------------------------------------------------+
-  | - runs at a slow rate (can take hours)				|
-  |    - got worse with larger disk capacities and integration of RAID	|
-  +---------------------------------------------------------------------+
+  | - runs at a slow rate						|
   | - scans the entire drive even if the issues are few			|
+  |    - got worse with larger disk capacities and integration of RAID	|
   |    => inefficient							|
+  | => can take hours							|
   +---------------------------------------------------------------------+
 
  . reboot -> FS is mounted and ready -> [fsck] 

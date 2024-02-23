@@ -1,0 +1,42 @@
+============================================================================================
+JOURNALING - WHY , HOW : 
+
+Goal : maintain/regain data integrity in the file system in the event of a crash/outage.
+ . Retention of updates is not as important. 
+============================================================================================
+
+
+Let's make changes to some data blocks.
+|
+|
+Transaction - atomic routine :
+  |
+  . log intended write operations into the journal 
+  -> commence actual write to the FS ...
+     ...
+     ...
+     [transaction (not) marked as completed]
+     ...
+     [crash/outage]
+     ...
+     ...
+  -> recovery : FS will track completed write ops
+  -> depending on the design , the stage to completion , and the transaction commit status (reached finish line or not) ,
+     FS will roll back (revert) or replay (re-enact) the logged operations and commit the changes 
+      . finish line NOT reached => revert 
+      . finish line reached	=> replay 
+
+
+--------------------------------------------------------------------------------------------
+struct journal {
+  + initial block 
+     . final addresses of blocks involved
+     . TID - transaction identifier
+  + write-ops blocks
+     . content before (over)writing to the disk 
+  + final block
+     . w/ TID 
+};
+--------------------------------------------------------------------------------------------
+
+_

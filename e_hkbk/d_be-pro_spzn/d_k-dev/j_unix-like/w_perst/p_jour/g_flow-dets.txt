@@ -1,19 +1,20 @@
 =============================================================================================
-| JOURNALING , ATOMIC TRANSACTIONS , RECOVERY :						    |
+| JOURNALING (A to Z) :									    |
 |	     	    		   	    						    |
 | . meant for recovery from interrupted write to disk ,					    |
 |   not for recovery from interrupted atomic operations 				    |
 =============================================================================================
 
- . ATOMIC LOG OF [TRANS_DESC , OPS , DATA] :
+  . ATOMIC LOG OF [TRANS_DESC , OPS , DATA] :
     |
     . [transaction descriptor block]
-    . [write-ops , metadata , data]
-    |
-    . checkpointing tactics :
-       . indiv. trans. commits - key progress points in the journal to help expedite potential replay  
+    . [write-ops]
+    |  + checkpoints (key progress points in the journal to help expedite potential replay)
+    . "undo" logging 
+    . [metadata , data]
        
  -----------------------------------------------------------------------------------------------------
+       
  -> ATOMIC LOG OF COMMIT BLOCK
      . all ops have been recorded
      . ready to update target data blocks

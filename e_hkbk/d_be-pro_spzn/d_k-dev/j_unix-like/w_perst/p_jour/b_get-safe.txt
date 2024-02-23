@@ -1,0 +1,10 @@
+==================================================================================================================
+RECOVERY WITH A JOURNAL : 
+==================================================================================================================
+
+In an effort to recover , FS can employ journaling to :
+  |
+ (a) roll back (revert) the changes to FS , achieving the initial stable state 
+ (b) replay (re-enact) all the changes to FS , achieving the final stable state 
+
+_

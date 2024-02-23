@@ -1,0 +1,12 @@
+==================================================================================================================
+STABLE AND UNSTABLE FS STATES : 
+==================================================================================================================
+
+Stable state of FS :
+ . consistency between the bitmaps , inodes , and data blocks
+ . before and after changes to FS (even if it means dropping the file changes)
+
+
+When a crash or a power outage occurs in the middle of writing to FS , the FS is stuck in corrupt (inconsistent) state.
+
+_

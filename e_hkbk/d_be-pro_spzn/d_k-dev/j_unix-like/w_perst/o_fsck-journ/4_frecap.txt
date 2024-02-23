@@ -1,9 +1,0 @@
-==============================================================================================
-THREE WRITES RECAP : 
-==============================================================================================
-
- . inode       - ties the file to its every block	| num blocks , which are allocated 
- . data bitmap - usability , protection  		| (which ones are allocated)  
- . data block  - contents
- 
-_

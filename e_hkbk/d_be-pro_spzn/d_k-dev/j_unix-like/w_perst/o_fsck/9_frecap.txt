@@ -1,0 +1,9 @@
+==============================================================================================
+HOW A FILE IS STORED - RECAP OF THREE WRITES : 
+==============================================================================================
+
+ . inode       - ties the file to its every block	| ref'd blocks = FILE CONSTITUTION  
+ . data bitmap - FILE PLACEMENT  			| (which ones are allocated)  
+ . data block  - CONTENTS
+ 
+_

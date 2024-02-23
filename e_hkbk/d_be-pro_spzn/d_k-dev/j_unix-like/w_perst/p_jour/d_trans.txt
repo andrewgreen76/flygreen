@@ -1,9 +1,15 @@
 ==================================================================================================================
-PROS / CONS :
+FS-WRITE TRANSACTIONS : 
 ==================================================================================================================
 
- + unlike fsck , jounaling targets exact recovery point
-    => faster recovery 
- - as an update phase, journaling increases update completion time 
+
+TRANSACTIONS :
+ |
+ . individually logged file-write ops to be done on a file 
+ . atomic units of work
+ |
+ = file write ops
+ = write transactions
+ = changes to FS  
 
 _

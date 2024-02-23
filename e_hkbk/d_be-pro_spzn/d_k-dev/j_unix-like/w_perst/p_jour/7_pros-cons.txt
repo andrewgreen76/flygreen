@@ -1,0 +1,10 @@
+==================================================================================================================
+PROS / CONS :
+==================================================================================================================
+
+ + unlike fsck , jounaling targets exact recovery point
+    => faster recovery
+    
+ - as an update phase, journaling increases update completion time 
+
+_

@@ -7,13 +7,14 @@ JOURNALING - WHAT , WHY , WHERE , WHEN :
 
 Premise :
  |
- . SPARE target data blocks for the time being
-    . (maybe even copy-on-write) 
- . LOG impending updates in the [JOURNAL STRUCTURE] on the disk
+ . LOG impending write-ops in the [JOURNAL STRUCTURE] on the disk
     . the journal structure is typically squeezed between the S-block and i-bitmap
- . INTEGRITY : after a crash/outage and a reboot the OS will decide whether to ...
-    . revert (roll back) the changes -or-
-    . re-enact (replay) the changes 
+ . STORE state of target blocks 
+ . DATA INTEGRITY :
+    . MORE IMPORTANT THAN FIGHTING FOR UPDATES 
+    . after a crash/outage and a reboot the OS will decide whether to ...
+       . revert (roll back) the changes -or-
+       . re-enact (replay) the changes 
 
 
 History of use : 

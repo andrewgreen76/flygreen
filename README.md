@@ -45,7 +45,8 @@ Linux :
     . hardware in Commodore 64 , VIC-20 , Atari 2600 ; BASIC ROM , KERNAL
     . memory-mapped I/O
     . VICMON and WozMon
-    . console / PC booting routines 
+    . console / PC booting routines
+    . journaling in ext3 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

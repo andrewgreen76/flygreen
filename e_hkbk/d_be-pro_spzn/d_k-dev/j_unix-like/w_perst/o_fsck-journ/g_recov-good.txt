@@ -9,7 +9,7 @@
  . ATOMIC LOG OF :
     |
     . [transaction descriptor block]
-    . [target write-ops , metadata , data]
+    . [target WRITE-OPS , metadata , data]
     |
     . pre-checkpointing tactics :
        . indiv. trans. commits -  key progress points in the journal to help expedite potential replay  
@@ -25,9 +25,7 @@
      . metadata and data
      ...
       [transaction marked as completed] -> [journal descriptor / commit block]
-
- -----------------------------------------------------------------------------------------------------
-     !!! [crash/outage] !!!
+     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! [ CRASH / OUTAGE ] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
  -----------------------------------------------------------------------------------------------------
  -> RECOVERY - ANALYSIS :
@@ -38,6 +36,6 @@
       . depends on the stage to completion
       . depends on the transaction commit status 
      (a) finish line NOT reached => FS will roll back (revert) to the old state or last checkpoint -or- 
-     (b) finish line reached 	 => FS will replay (re-enact) the logged operations and commit the changes 
-
+     (b) finish line reached 	 => FS will replay (re-enact) the logged operations and commit the changes
+     	  . a.k.a. redo logging 
 _

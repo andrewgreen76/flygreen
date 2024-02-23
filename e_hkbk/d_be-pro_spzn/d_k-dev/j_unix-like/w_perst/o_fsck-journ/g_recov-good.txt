@@ -1,34 +1,43 @@
-============================================================================================
-JOURNALING , ATOMIC TRANSACTIONS - SUCCESSFUL RECOVERY : 
-============================================================================================
-
- . LOGGING : log intended write-ops into the journal
-
- -> CHECKPOINTING - tactics :
-     . putting up key progress spots in the journal to help expedite potential replay  
-     . snapshot (copy) of the target data blocks 
+=============================================================================================
+| JOURNALING , ATOMIC TRANSACTIONS , RECOVERY :						    |
+|	     	    		   	    						    |
+| . meant for recovery from interrupted write to disk ,					    |
+|   not for recovery from interrupted atomic operations 				    |
+=============================================================================================
 
  -----------------------------------------------------------------------------------------------------
- -> COMMITTING to the data blocks in FS ...
-    ...
-    ...
-    [transaction marked as completed] -> [journal descriptor / commit block / transaction descriptor]
-    [crash/outage]
+ . ATOMIC LOG OF :
+    |
+    . [transaction descriptor block]
+    . [target write-ops , metadata , data]
+    |
+    . pre-checkpointing tactics :
+       . indiv. trans. commits -  key progress points in the journal to help expedite potential replay  
+       . snapshot (copy) of the target data blocks
+       
  -----------------------------------------------------------------------------------------------------
+ -> ATOMIC WRITE OF COMMIT BLOCK
+     . all ops have been recorded
+     . ready to update target data blocks
+     
+ -----------------------------------------------------------------------------------------------------
+ -> WRITE TO DISK
+     . metadata and data
+     ...
+      [transaction marked as completed] -> [journal descriptor / commit block]
 
+ -----------------------------------------------------------------------------------------------------
+     !!! [crash/outage] !!!
+
+ -----------------------------------------------------------------------------------------------------
  -> RECOVERY - ANALYSIS :
      . FS will track completed write-ops
 
  -> RECOVERY - DECISION AND ACTION : 
-     (a) finish line NOT reached => FS will roll back (revert) to the old state or last checkpoint -or- 
-     (b) finish line reached 	 => FS will replay (re-enact) the logged operations and commit the changes 
       . depends on the design
       . depends on the stage to completion
       . depends on the transaction commit status 
-
-============================================================================================
- . S-blocks must remain intact 
- . we are likely to have multiple transactions 
-============================================================================================
+     (a) finish line NOT reached => FS will roll back (revert) to the old state or last checkpoint -or- 
+     (b) finish line reached 	 => FS will replay (re-enact) the logged operations and commit the changes 
 
 _

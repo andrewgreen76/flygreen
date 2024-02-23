@@ -5,17 +5,16 @@
 |   not for recovery from interrupted atomic operations 				    |
 =============================================================================================
 
- . ATOMIC LOG OF :
+ . ATOMIC LOG OF [TRANS_DESC , OPS , DATA] :
     |
     . [transaction descriptor block]
-    . [target WRITE-OPS , metadata , data]
+    . [write-ops , metadata , data]
     |
     . checkpointing tactics :
        . indiv. trans. commits - key progress points in the journal to help expedite potential replay  
-       . snapshot (copy) of the target data blocks
        
  -----------------------------------------------------------------------------------------------------
- -> ATOMIC WRITE OF COMMIT BLOCK
+ -> ATOMIC LOG OF COMMIT BLOCK
      . all ops have been recorded
      . ready to update target data blocks
      

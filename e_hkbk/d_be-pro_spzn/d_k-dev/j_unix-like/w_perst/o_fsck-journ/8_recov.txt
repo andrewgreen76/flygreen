@@ -1,4 +1,21 @@
 ==================================================================================================================
+RECOVERY METHODS : 
+==================================================================================================================
+
+When a crash or a power outage occurs in the middle of writing to FS , the FS is stuck in corrupt (inconsistent) state.
+  |
+  |
+ (a) use fsck to tend to the entire disk
+  |
+ (b) pre-emptively log in a JOURNAL (and then fix) : 
+      . write-ops on the data blocks 
+      . target inodes
+      . target bitmap / location
+      . target data blocks 
+
+
+
+==================================================================================================================
 FS STABILITY : 
 ==================================================================================================================
 
@@ -9,12 +26,8 @@ Stable state :
 
 
 ==================================================================================================================
-FORMS OF RECOVERY : 
+JOURNALING DURING RECOVERY : 
 ==================================================================================================================
-
-When a crash or a power outage occurs in the middle of writing to FS , the FS is stuck in corrupt (inconsistent) state.
-
-
 
 Ways to regain stability :
   |

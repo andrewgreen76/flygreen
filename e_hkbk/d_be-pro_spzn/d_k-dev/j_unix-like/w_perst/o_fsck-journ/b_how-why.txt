@@ -1,0 +1,13 @@
+==================================================================================================================
+JOURNALING IN ACTION : 
+==================================================================================================================
+
+1) LOG transactions from the RAM into the [JOURNAL STRUCTURE] in FS. 
+   . between a superblock and a block group somewhere in the middle of the disk
+   . [FINAL STATE] of file system is secured 
+
+2) Securing [INITIAL STATE] of file system : 
+   . undo logging : the inverse of every little write-op is logged in the journal 
+   . copy-on-write : old state of [bitmaps , inodes , data] is copied
+
+_

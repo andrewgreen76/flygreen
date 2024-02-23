@@ -1,0 +1,15 @@
+==================================================================================================================
+JOURNALING - LOGGING FILE WRITE OPS AS BACKUP : 
+==================================================================================================================
+
+ . a.k.a. write-ahead logging 
+ . will come in handy in the event of a crash / power outage
+ |
+ . individual changes made to file by user = atomic units of work called TRANSACTIONS 
+    = file write ops
+    = write transactions
+    = changes to FS  
+ . the FS may decide to [ROLL BACK] file changes (revert write transactions to target) 
+ . the FS may decide to [REPLAY] file changes (finish write transactions to target) 
+
+_

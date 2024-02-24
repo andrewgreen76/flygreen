@@ -4,6 +4,7 @@ COPY-ON-WRITE
 
 Purpose :
  |
+ + maintaining metadata consistency 
  + using pointers to the desired final state saves time
  |  . the desire final state of data is written in unused space
  |

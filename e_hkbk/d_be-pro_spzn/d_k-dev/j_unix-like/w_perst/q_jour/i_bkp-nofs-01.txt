@@ -3,7 +3,7 @@ UNORDERED JOURNALING :
 =====================================================================================
 
 Purpose :
- . maintaining file constitution and consistency 
+ . maintaining metadata consistency 
 
 
 Method / features :

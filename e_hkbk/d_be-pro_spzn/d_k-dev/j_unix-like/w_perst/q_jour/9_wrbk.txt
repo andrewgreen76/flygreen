@@ -1,0 +1,20 @@
+====================================================================================
+WRITEBACK JOURNALING : 
+====================================================================================
+
+Entails : 
+  . [intended write-ops] ---> journal 
+ -> [metadata] ---> journal
+ -> [  data  ] ---> file in FS
+
+
+  . CRASH -> metadata logging finished	  => FS is NOT recoverable 
+  . metadata logging finished -> CRASH    => FS is recoverable
+  . 
+ => data is corrupted
+
+
+Characteristics :
+ . recovery is NOT great
+ . performance is great 
+_

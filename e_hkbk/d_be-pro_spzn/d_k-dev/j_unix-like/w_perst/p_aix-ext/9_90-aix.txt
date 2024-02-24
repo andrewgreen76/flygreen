@@ -1,0 +1,10 @@
+===============================================================================
+FIRST JFS' : AIX 3.1  
+===============================================================================
+
+ . introduced in 1990
+ . by IBM
+ . "one of the first UNIX commercial filesystems that implemented journaling"  
+ . "The next year the idea was popularized in a widely cited paper on log-structured file systems."
+
+_

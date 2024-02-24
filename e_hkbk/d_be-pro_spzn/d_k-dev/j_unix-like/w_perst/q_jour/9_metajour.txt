@@ -1,3 +1,19 @@
+===========================================================================
+METADATA JOURNALING : 
+===========================================================================
+
+Used in :
+ . NTFS
+ . versions of ext3
+ . versions of ext4 
+
+
+Logging :
+  |
+  . [file ops] ---> journal 
+ -> [metadata] ---> journal 
+
+==================================================================================================================
 "
 Exclusive metadata journaling, also known as metadata-only journaling, is a technique in file systems where only metadata changes are journaled to enhance performance while still providing some level of data consistency and recovery. This method is commonly used in certain file systems to improve efficiency. One notable file system that utilizes exclusive metadata journaling is:
 

@@ -17,5 +17,9 @@ Consequences :
 CIRCULAR LOG :  
 =================================================================================
 
-
+Journal superblock :
+ |
+ . tracks and deallocates blocks of completed transactions
+ . the blocks will be populated with more recent transactions 
+ 
 _

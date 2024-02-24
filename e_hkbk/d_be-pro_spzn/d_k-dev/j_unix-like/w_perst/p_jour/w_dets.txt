@@ -2,15 +2,13 @@
 JOURNALING AND RECOVERY (A to Z) : 
 ======================================================================================================
 
-  . ATOMIC LOG of transactions :
+  . ATOMIC LOG OF TRANSACTION :
     | . transaction descriptor block
     | . intended write-ops
-    |   + "undo logging" 
-    |	  . a.k.a. "before-image logging"
+    |   + "undo logging" (to secure INITIAL SAFE STATE)
     |	  ( i) inverse write-ops - for reverting (or "rolling back") changes
     |	  (ii) initial state of FS is saved to the journal
-    | 	  => can fall back to INITIAL SAFE STATE 
-    |   + checkpoints (key progress points in the journal to help expedite potential replay)
+    |   + write checkpoints (key progress points in the journal to help expedite potential replay)
     | . target inodes
     | . target bitmaps/locs
     | . target data blocks 
@@ -18,15 +16,15 @@ JOURNALING AND RECOVERY (A to Z) :
  -----------------------------------------------------------------------------------------------------       
  -> ATOMIC LOG OF COMMIT BLOCK
      . all ops have been recorded
-     . ready to update target data blocks
-     
+     . ready to update target data blocks     
  -----------------------------------------------------------------------------------------------------
- -> WRITE TO DISK
-     . follows the journal (ops , data , etc.)
+ -> WRITE TO DISK 
      ...
-      [transaction marked as completed] -> [journal descriptor / commit block]
+     . transaction checkpointed (marked as completed) -> [JS-block] 
+       		   			   	      -> [journal descriptor / commit block]
+ -----------------------------------------------------------------------------------------------------
+ -> DEALLOCATE THE TRANSACTION BLOCK 
      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! [ CRASH / OUTAGE ] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
  -----------------------------------------------------------------------------------------------------
  -> RECOVERY - ANALYSIS :
      . FS will track completed and not-completed write-ops

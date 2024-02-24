@@ -1,0 +1,31 @@
+==================================================================================================================
+JOURNALING - CONCEPT : 
+==================================================================================================================
+
+ . a.k.a. write-ahead logging (WAL)
+ . alternative to the slower `fsck`
+
+==================================================================================================================
+BASIC JOURNALING - ORDERED JOURNALING : 
+==================================================================================================================
+
+ . used in database management (not in generic file systems)  
+
+
+1) keeping record in `struct journal` :
+   |  . kept between a superblock and a block group somewhere in the middle of the disk
+   |  + intended file ops
+   |  . THAT'S IT 
+   |
+2) crash -> recovery -> outcomes using the journal : 
+   | (a) initial state of FS is regained
+   | (b) final state of FS is achieved
+
+=========================================================================================
+HISTORY : 
+=========================================================================================
+
+ . introduced with the release of the ext3 Linux file system
+ . in 2001 
+ . still used in modern systems 
+_

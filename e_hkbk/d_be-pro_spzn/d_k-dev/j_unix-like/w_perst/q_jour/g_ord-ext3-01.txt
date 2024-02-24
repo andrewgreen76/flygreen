@@ -7,13 +7,22 @@ ORDERED JOURNALING :
  . still used in various modern file systems
 
 
+
 Logging :
   |
-  . [changes in FS] ---> journal 
- -> [     data    ] ---> file in FS 
- -> [   metadata  ] ---> journal 
+  .	     [changes in FS] ---> journal 
+ -> (atomic) [     data    ] ---> file in FS 
+ ->  atomic  [   metadata  ] ---> journal
+ ->  atomic  [commit block ] ---> journal
+ ->  	     [metadata change] ---> FS
+ -> mark as completed in the JS-block 
  |
+ |
+ . metadata is updated later
+    . "Crash consistency relies on the rule of “write the pointed-to object before the object that points to it”."
+ => no dangling pointers 
  => recovery quality is fair 
+
 
 
   . CRASH -> file writing finished 	  => FS is corrupted 

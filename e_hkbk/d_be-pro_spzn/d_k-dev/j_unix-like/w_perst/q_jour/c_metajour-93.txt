@@ -2,8 +2,17 @@
 METADATA JOURNALING : 
 ===========================================================================
 
+Trade-offs : 
+ - data is not backed up in the journal
+ - data changes are not logged
+ + single-write instead of double-write to disk
+ + much smaller I/O workload
+ => faster FS operation
+
+
 Used in :
  . NTFS
+ . XFS in SGI 
  . versions of ext3
  . versions of ext4 
 

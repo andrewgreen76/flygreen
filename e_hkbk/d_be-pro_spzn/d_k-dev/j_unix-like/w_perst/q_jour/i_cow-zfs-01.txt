@@ -1,0 +1,18 @@
+=======================================================================================
+COPY-ON-WRITE
+=======================================================================================
+
+Purpose :
+ |
+ + using pointers to the desired final state saves time
+ |  . the desire final state of data is written in unused space
+ |
+ . target blocks are not overwritten 
+
+
+
+Release :
+ . in 2001 
+ . with Sun's ZFS
+ 
+_

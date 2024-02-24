@@ -1,8 +1,13 @@
+========================================================================================================
+CAVEATS ABOUT JOURNALING : 
+========================================================================================================
 
- . we are likely to have multiple transactions 
+ . for recovery from interrupted write to disk , not for recovery from interrupted atomic operations
+ 
  . corrupt S-block => corrupt file system
     . can corrupt or erase data 
     . important to have back-ups of the S-block
+    
  ? one atomic transaction for every 512-byte block ? 
 
 _

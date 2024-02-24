@@ -1,10 +1,11 @@
 struct journal {
   
-  struct init_blk ib; 
+  struct super_blk s; 
      // . final addresses of blocks involved
      // . TID - transaction identifier
-  struct write_ops_blks * ops;
+  struct trans_desc_blk * tb; 
+  struct write_ops_blk * ops;
      // . content before (over)writing to the disk
-  struct commit_blk cb; 
+  struct commit_blk * cb; 
      // . w/ TID 
 };

@@ -1,0 +1,21 @@
+=================================================================================
+JOURNAL'S LIMITS :  
+=================================================================================
+
+A journal has a chance of getting clogged up within 5 secs.
+|
+|
+Consequences :
+  |
+  . last changes made within the 5-sec interval may be lost
+  . journal wraparound : older entries may get overwritten
+  . definitely a problem when it comes handling critical portions of the FS 
+
+
+
+=================================================================================
+CIRCULAR LOG :  
+=================================================================================
+
+
+_

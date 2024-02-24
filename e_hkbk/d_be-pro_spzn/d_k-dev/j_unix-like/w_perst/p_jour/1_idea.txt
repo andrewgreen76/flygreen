@@ -1,0 +1,21 @@
+==================================================================================================================
+JOURNALING : 
+==================================================================================================================
+
+ . a.k.a. write-ahead logging
+ . alternative to the slow `fsck`
+
+
+1) keeping record in `struct journal` :
+   |  . kept between a superblock and a block group somewhere in the middle of the disk
+   |  + intended file ops
+   |  + metadata
+   |  + data
+   |
+   |
+2) recovery using the journal
+   |  . fixing the targets in the process 
+   | (a) initial state of FS is regained
+   | (b) final state of FS is achieved
+   
+_

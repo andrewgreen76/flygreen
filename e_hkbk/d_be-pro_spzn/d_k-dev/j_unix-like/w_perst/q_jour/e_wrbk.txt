@@ -5,16 +5,17 @@ WRITEBACK JOURNALING :
  . a variation on the ordered journaling mechanism 
 
 
-Entails : 
-  . [intended write-ops] ---> journal 
+Logging :
+  |
+  . [file-ops] ---> journal 
  -> [metadata] ---> journal
  -> [  data  ] ---> file in FS
 
 
   . CRASH -> metadata logging finished	  => FS is NOT recoverable 
   . metadata logging finished -> CRASH    => FS is recoverable
-  . 
- => data is corrupted
+  . CRASH -> file writing finished 	  => FS is corrupted 
+  . file writing finished -> CRASH 	  => FS is secure 
 
 
 Characteristics :

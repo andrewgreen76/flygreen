@@ -1,0 +1,24 @@
+==================================================================================================================
+ORDERED JOURNALING : 
+==================================================================================================================
+
+ . introduced in 2001
+ . with the release of the ext3 Linux file system
+ . still used in various modern file systems
+
+
+Logging :
+  |
+  . [file ops] ---> journal 
+ -> [  data  ] ---> file in FS 
+ -> [metadata] ---> journal 
+ |
+ => recovery quality is fair 
+
+
+  . CRASH -> file writing finished 	  => FS is corrupted 
+  . file writing finished -> CRASH 	  => FS is secure 
+  . CRASH -> metadata logging finished	  ? FS is NOT recoverable ?
+  . metadata logging finished -> CRASH    ? FS is recoverable ?
+
+_

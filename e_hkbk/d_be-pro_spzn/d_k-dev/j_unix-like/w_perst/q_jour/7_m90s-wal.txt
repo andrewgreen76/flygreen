@@ -1,0 +1,19 @@
+==================================================================================================================
+WRITE-AHEAD LOGGING (WAL) : 
+==================================================================================================================
+
+ . alternative to the slower `fsck`
+ . a very basic form of journaling   
+
+
+Logging - keeping record in `struct journal` :
+ . kept between a superblock and a block group somewhere in the middle of the disk
+ + intended file ops
+ . THAT'S IT 
+   
+
+Crash -> recovery -> outcomes using the journal : 
+ (a) initial state of FS is regained
+ (b) final state of FS is achieved
+
+_

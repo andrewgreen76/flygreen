@@ -1,0 +1,20 @@
+==================================================================================================================
+DATA JOURNALING : 
+==================================================================================================================
+
+ . introduced in 2008
+ . with ext4 
+ . still used in various modern file systems  
+
+
+Logging :
+  |
+  . [file-ops] ---> journal 
+ -> [metadata] ---> journal
+ -> [  data  ] ---> journal 
+
+
+Crash -> recovery :
+ . involves reconciliation of metadata and data 
+
+_

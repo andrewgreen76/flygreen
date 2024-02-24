@@ -2,7 +2,7 @@
 ORDERED JOURNALING : 
 ==================================================================================================================
 
- . used in database management (not in generic file systems)  
+ . usable in any file system 
 
 
 1) keeping record in `struct journal` :
@@ -14,6 +14,8 @@ ORDERED JOURNALING :
 2) crash -> recovery -> outcomes using the journal : 
    | (a) initial state of FS is regained
    | (b) final state of FS is achieved
+
+
 
 =========================================================================================
 HISTORY : 

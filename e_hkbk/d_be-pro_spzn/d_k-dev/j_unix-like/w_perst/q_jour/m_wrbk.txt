@@ -2,6 +2,9 @@
 WRITEBACK JOURNALING : 
 ====================================================================================
 
+ . a variation on the ordered journaling mechanism 
+
+
 Entails : 
   . [intended write-ops] ---> journal 
  -> [metadata] ---> journal

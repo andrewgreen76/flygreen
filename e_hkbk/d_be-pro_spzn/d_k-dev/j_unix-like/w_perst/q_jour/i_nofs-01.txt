@@ -1,0 +1,23 @@
+=====================================================================================
+UNORDERED JOURNALING : 
+=====================================================================================
+
+Purpose :
+ . maintaining file constitution and consistency 
+
+
+Method / features :
+ . reading addresses in the inode 
+ . backpointer-based concurrency
+ . forward pointers
+
+
+Trade-offs : 
+ . 
+
+
+History : 
+ . ReiserFS : one of the first no-order file systems (NoFS)
+ . came out in 2001
+ 
+_

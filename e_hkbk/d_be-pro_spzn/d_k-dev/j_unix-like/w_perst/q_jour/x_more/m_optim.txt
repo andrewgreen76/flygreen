@@ -1,0 +1,16 @@
+==================================================================================
+OPTIMISTIC CRASH CONSISTENCY : 
+==================================================================================
+
+Purpose :
+ . maintaining metadata consistency
+ 
+
+Method / features : 
+ . transaction checksum
+ . variations of the transaction checksum
+ . etc.
+ |
+ - multiple disk writes
+
+_

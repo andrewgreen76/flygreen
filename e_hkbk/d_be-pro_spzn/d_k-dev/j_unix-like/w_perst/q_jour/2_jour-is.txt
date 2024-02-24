@@ -31,4 +31,10 @@ JOURNALING - WHY ?
  	    |
 	    . How are we going to get to it ? 
 
+===============================================================================
+
+ . ordered
+ . unordered (no-order FS , NoFS)
+    . backpointer-based consistency
+    
 _

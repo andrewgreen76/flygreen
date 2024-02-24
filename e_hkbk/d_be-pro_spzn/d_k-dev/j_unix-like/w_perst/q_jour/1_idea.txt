@@ -1,0 +1,30 @@
+===============================================================================
+JOURNALING - WHY ? 
+===============================================================================
+
+ (a) `fsck` is slow and scans the entire drive 
+
+
+ (b) journaling :
+      |
+      . pre- disk write / crash / outage
+      |
+      . quickly storing intentions for FS :
+       	 |
+	 . target in FS  		=> immediate jump to the corrupted file (metadata/data) 
+	 . inserts , deletes , etc.    	=> recovery measures
+       	 . logged in `struct journal`
+	 . kept between a superblock and a block group somewhere in the middle of the disk
+	 |
+	 . does not log entire metadata as backup 
+	 . does not log entire data as backup 
+
+
+	 . crash -> recovery :
+	    |
+	    . Which safe state do we want to get to ?
+	       (a) safe state before crash is regained
+	       (b) desired post-write state is achieved
+	    . How are we going to get to it ? 
+
+_

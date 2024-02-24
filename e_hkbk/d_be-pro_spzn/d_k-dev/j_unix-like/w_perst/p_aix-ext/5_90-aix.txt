@@ -1,10 +1,10 @@
 ===============================================================================
-AIX 3.1  
+IBM AIX 3.1 OS :   
 ===============================================================================
 
  . introduced in 1990
  . by IBM
- . "one of the first UNIX commercial filesystems that implemented journaling"  
+ . the FS is "one of the first UNIX commercial filesystems that implemented journaling"  
  . "The next year the idea was popularized in a widely cited paper on log-structured file systems."
 
 _

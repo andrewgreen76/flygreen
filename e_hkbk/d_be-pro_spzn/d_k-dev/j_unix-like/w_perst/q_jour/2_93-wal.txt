@@ -3,13 +3,15 @@ WRITE-AHEAD LOGGING (WAL) :
 ==================================================================================================================
 
  . alternative to the slower `fsck`
- . a very basic form of journaling   
 
 
-Logging - keeping record in `struct journal` :
+Logging intended file changes before performing them :
+ |
+ . in the `struct journal` 
  . kept between a superblock and a block group somewhere in the middle of the disk
- + intended file ops
- . THAT'S IT 
+ + intended file ops 
+ . metadata may be logged
+ . data may also be logged 
    
 
 Crash -> recovery -> outcomes using the journal : 

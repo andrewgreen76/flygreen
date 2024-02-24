@@ -23,4 +23,6 @@ DATA JOURNALING - INTRO :
 DATA JOURNALING - HISTORY : 
 =========================================================================================
 
+ . introduced in 2008 with ext4 
+
 _

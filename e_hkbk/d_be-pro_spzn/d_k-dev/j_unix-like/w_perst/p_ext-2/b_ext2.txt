@@ -1,0 +1,13 @@
+===========================================================================================
+EXT2 : 
+===========================================================================================
+
+ext2 :
+ . released in 1993 
+ . still used `fsck` for retaining/maintaining FS stability
+ . still not JFS 
+ . S-block holds the [MOUNT STATE] of the file system 
+    . EXT2_VALID_FS - macro for "trustworthy" ; all changes are finalized and consistent 
+ . precursor to ext3 (w/ the journaling mechanism) 
+
+_

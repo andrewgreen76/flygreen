@@ -1,0 +1,40 @@
+"
+
+Current layout: 1 Panel without tree
+10. Metadata Journaling
+10. Metadata Journaling
+File system functioning is still slow. Consecutive journaling doubles write traffic, consuming half the drive’s maximum write capacity. A costly search between journal and main file system writes increases overhead for some workloads.
+The cost of writing every data block to disk twice has led to several performance improvements. Data journaling, the Linux ext3 journaling mode, captures all user data and metadata. Unlike metadata journaling, ordered journaling does not write user data to the notebook. So, after the same update, the journal would show:
+.guides/img/mdJournaling1
+Because most disk I/O traffic is data, not writing data twice minimizes the I/O load of journaling.
+Take a look at our file-adding In this update, I[v2], B[v2], and Db. One will be written to the file system twice, while the other two will be logged and checked.
+For metadata-only journaling, the data blocks should be written first.
+File systems like Linux ext3 write data blocks before metadata. The protocol is as follows:
+
+    Data write: At final location, write data; wait for completion (waiting is optional; details below).
+    Journal metadata write: Write the begin block and metadata to the log; wait for writes to complete.
+    Journal commit: Write the transaction commit block (including TxE) to the log; wait for the write to finish.
+    Checkpoint metadata: Write the metadata update to its final file system location.
+    Free: Later, mark the transaction free in journal superblock.
+
+This protocol allows a file system to prevent garbage pointers by requiring data write first.
+Crash consistency relies on the rule of “write the pointed-to object before the object that points to it”.
+Metadata journaling outnumbers data journaling. NTFS and SGI’s XFS both journal metadata. Unordered and ordered ext3 are supported. While these methods share common metadata, their data semantics vary.
+Forcing data entry before journal entry is not necessary for accuracy. Writing to data, the transaction-begin block, and journaled metadata can all be done concurrently as long as Steps 1 and 2 are done before Step 3.
+Checkpoint
+Metadata journaling has become popular because…
+
+Select your response and click the button below to submit.
+
+There may be more than one correct response!
+
+it uses different data semantics than data journaling.
+
+it allows for faster file system operation.
+
+it decreases the I/O write traffic significantly.
+
+it causes more I/O write traffic.
+
+"
+_

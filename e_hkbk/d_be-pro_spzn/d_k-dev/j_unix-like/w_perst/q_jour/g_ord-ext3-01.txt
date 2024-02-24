@@ -9,9 +9,9 @@ ORDERED JOURNALING :
 
 Logging :
   |
-  . [file ops] ---> journal 
- -> [  data  ] ---> file in FS 
- -> [metadata] ---> journal 
+  . [changes in FS] ---> journal 
+ -> [     data    ] ---> file in FS 
+ -> [   metadata  ] ---> journal 
  |
  => recovery quality is fair 
 

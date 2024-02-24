@@ -9,9 +9,9 @@ DATA JOURNALING :
 
 Logging :
   |
-  . [file-ops] ---> journal 
- -> [metadata] ---> journal
- -> [  data  ] ---> journal 
+  . [changes in FS] ---> journal 
+ -> [  metadata   ] ---> journal
+ -> [    data     ] ---> journal 
 
 
 Crash -> recovery :

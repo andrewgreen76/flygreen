@@ -1,0 +1,7 @@
+
+XFS :
+ . "did not originate on Linux"
+ . "first released on IRIX, a UNIX vari- ant for SGI workstations and servers"
+ . in December 1994
+ . employed an early form of ordered journaling 
+_

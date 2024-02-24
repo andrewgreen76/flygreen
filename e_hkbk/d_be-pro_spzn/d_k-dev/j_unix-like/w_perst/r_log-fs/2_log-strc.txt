@@ -1,0 +1,24 @@
+=================================================================================
+LOG-STRUCTURED FILE SYSTEM (LFS) : 
+=================================================================================
+
+Purpose :
+ . improving performance of writing to FS
+
+
+Method / features :
+ |
+ + batching file changes in a memory SEGMENT before logging
+    + reduces amount of metadata and I/O operations 
+    . a.k.a. write-buffering 
+    . a.k.a. segmenting 
+ - writing into free space instead of overwriting 
+    + target is safe
+ - sequential writing to the disk
+    . may be inefficient 
+ + more efficient use of RAID
+
+
+ . previously batched data blocks are followed by a metadata block 
+
+_

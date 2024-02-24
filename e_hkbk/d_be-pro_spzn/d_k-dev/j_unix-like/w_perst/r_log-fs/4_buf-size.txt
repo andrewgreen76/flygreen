@@ -1,0 +1,36 @@
+=========================================================================================
+LFS BUFFERING SIZE : 
+=========================================================================================
+
+
+T(1seek) - for every write op
+
+effective rate - rate achieved given the conditions 
+peak rate - highest achievable transfer rate (0 positioning and 0 rotational delay ) 
+
+=========================================================================================
+
+
+	       	        size(wr)
+T(wr) =  T(seek) + -------------------
+      	 	      peak_rate(wr) 
+
+
+		  size(wr)		    size(wr)
+eff_rate(wr) = ------------- = ------------------------------------
+	      	   T(wr)	 T(seek) + (size(wr) / peak_rate)
+
+
+		   		 	 +--------------------------------------+
+      eff_rate	   		 	 |					|
+F = --------------   ,   0 < F < 1	 | We want :	eff_rate ~= peak_rate	|
+      peak_rate	     	       	 	 |  i.e.,  :	F >= 0.9 (90%)		|
+      					 |					|
+		   		 	 +--------------------------------------+
+
+
+	        eff_rate		     F
+size(wr)    = ------------ x T(pos)    = --------- x peak_rate x T(pos) 
+	          1 - F	  	           1 - F 
+
+_

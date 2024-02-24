@@ -5,6 +5,7 @@ ORDERED JOURNALING :
  . introduced in 2001
  . with the release of the ext3 Linux file system
  . still used in various modern file systems
+ . ordered metadata journaling is most common 
 
 
 

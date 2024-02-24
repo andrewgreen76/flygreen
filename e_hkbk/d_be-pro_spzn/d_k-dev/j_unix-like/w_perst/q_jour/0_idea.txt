@@ -23,8 +23,12 @@ JOURNALING - WHY ?
 	 . crash -> recovery :
 	    |
 	    . Which safe state do we want to get to ?
-	       (a) safe state before crash is regained
-	       (b) desired post-write state is achieved
+	    |  (a) safe state before crash is regained
+	    |  (b) desired post-write state is achieved
+            |   |
+ 	    |  (a) roll back (revert) the changes to FS , achieving the initial stable state 
+ 	    |  (b) replay (re-enact) all the changes to FS , achieving the final stable state 
+ 	    |
 	    . How are we going to get to it ? 
 
 _

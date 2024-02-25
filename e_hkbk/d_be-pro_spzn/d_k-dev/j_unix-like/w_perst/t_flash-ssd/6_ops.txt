@@ -22,17 +22,4 @@ Writing to a page :
 |
 . once the entire block is cleared 
 
-
-
-============================================================================
-STATES OF FLASH PAGES : 
-============================================================================
-
-
-Every page has a state : 
- |
- . INVALID - never used 
- . VALID - populated with a generic value
- . ERASED - previously used but wiped
-
 _

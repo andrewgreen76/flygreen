@@ -1,0 +1,8 @@
+=====================================================================================
+NOTES ON PERFORMANCE AND DENSITY : 
+=====================================================================================
+
+ . SLC read can actually take 10us-25us 
+ . the more bits can be squeezed in a transistor , the longer it takes to read , write , and erase it 
+
+_

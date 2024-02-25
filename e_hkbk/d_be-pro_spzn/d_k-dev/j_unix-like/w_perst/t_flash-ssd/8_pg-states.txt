@@ -5,9 +5,9 @@ STATES OF FLASH PAGES :
 
 Every page has a state : 
  |
- . INVALID - never used 
- . VALID - populated with a generic value
- . ERASED - previously used but wiped
+ . INVALID (factory state) - never used 
+ . VALID   (any gen.value) - populated with a generic value
+ . ERASED       (0xff) 	   - previously used but wiped
  . a read can occur regardless of the page's state 
 
 _

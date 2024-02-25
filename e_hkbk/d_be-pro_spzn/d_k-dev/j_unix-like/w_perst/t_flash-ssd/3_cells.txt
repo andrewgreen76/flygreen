@@ -1,10 +1,9 @@
 ============================================================================
-CELL TECH IN FLASH-BASED STORAGE : 
+CELLS IN FLASH STORAGE : 
 ============================================================================
 
  . a flash-chip transistor can store multiple binary values
  . {0,1} is mapped to the charge trapped
-
 
 
  . single-level cells (SLC) : 
@@ -20,5 +19,8 @@ CELL TECH IN FLASH-BASED STORAGE :
 
  . triple-level cells (TLC) :
     . three bits per cell 
+
+ . quad-level cells (TLC) :
+    . four bits per cell 
 
 _

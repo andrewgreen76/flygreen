@@ -1,0 +1,16 @@
+============================================================================
+ORGANIZATION IN FLASH-BASED STORAGE : 
+============================================================================
+
+
+Data can be accessed in :
+ . individual BLOCKS (1 block = 128+ KB)
+ . individual PAGES (1 page = 4+- KB)
+ . these work very differently from the more traditional disk blocks , RAID blocks , and memory pages 
+
+
+A flash chip is made up of banks (or planes) of cells.
+ . 1 bank = several blocks
+ . 1 block = many pages 
+
+_

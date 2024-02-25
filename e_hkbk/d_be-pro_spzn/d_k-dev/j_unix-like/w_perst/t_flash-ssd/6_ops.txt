@@ -1,0 +1,38 @@
+============================================================================
+FLASH OPERATIONS - LOW-LEVEL INSTRUCTIONS : 
+============================================================================
+
+
+Reading a page :
+|
+. no sweat
+. feed the page number
+. takes a few usecs 
+. "random-access" storage (like RAM - quickly access any location) 
+
+
+Erasing a block :
+|
+. the entire block must be buffered first
+. erase takes a few msecs
+. all 1s means empty by default 
+
+
+Writing to a page :
+|
+. once the entire block is cleared 
+
+
+
+============================================================================
+STATES OF FLASH PAGES : 
+============================================================================
+
+
+Every page has a state : 
+ |
+ . INVALID - never used 
+ . VALID - populated with a generic value
+ . ERASED - previously used but wiped
+
+_

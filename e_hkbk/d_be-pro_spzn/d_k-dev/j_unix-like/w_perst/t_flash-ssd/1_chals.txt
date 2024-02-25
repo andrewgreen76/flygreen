@@ -1,0 +1,14 @@
+=================================================================================
+DRAWBACKS OF FLASH-BASED STORAGE : 
+=================================================================================
+
+ - subsequent writes to the same page can't be close to one another 
+    . due to the physical properties of transistors in NAND flash memory
+    . the transistors will be worn out
+    . consecutive writes can be broken up with an erase 
+ - before erasing/writing to a single flash page its entire block must be erased
+    . physically it would be very impractical to design and develop a mechanism
+      that can erase individual tiny pages
+    . (this is especially true for multi-level cell (MLC) configurations) 
+
+_

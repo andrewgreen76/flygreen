@@ -46,7 +46,8 @@ Linux :
     . memory-mapped I/O
     . VICMON and WozMon
     . console / PC booting routines
- . journaling , JFS , ext3 , etc.  
+ . journaling , JFS , ext3 , etc.
+ . LFS 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

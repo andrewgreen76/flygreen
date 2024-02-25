@@ -1,0 +1,35 @@
+===================================================================================
+BUFFERING AND RECOVERY IN LFS : 
+===================================================================================
+
+Buffered transactions are written to the log on the disk when
+ (a) the buffer write time inverval elapses
+ (b) the buffer is full
+
+
+Log anatomy :
+ . head segment
+ . tail segment
+ . segments in the middle are linked with pointers
+
+
+Crash recognition in LFS :
+  . a CR at one end of disk 
+  . a CR at the other end of disk
+  . alternating atomic write to CRs
+  . LFS uses new imap pointers 
+     . a head segment with a timestamp
+     . other info in the middle segments
+     . a tail segment with the second and last timestamp
+  . each CR is monitored :
+     . the head and tail timestamps are compared
+     . the CR with consistent timestamps is the more recent one 
+     . the CR will be read for 
+	. locating imap pieces
+	. unread files
+	. unread dirs
+ -> roll forward :
+     . a database approach 
+     . info inside the CR will be used to reconstruct the FS to a stable state 
+
+_

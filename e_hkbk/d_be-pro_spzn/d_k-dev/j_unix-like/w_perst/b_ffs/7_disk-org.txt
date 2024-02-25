@@ -13,4 +13,5 @@ Recall the PHYSICAL ORGANIZATION OF A DISK :
  . CYLINDER = stacked tracks from different platters make up a CYLINDER
  . cylinder group = stacked platters 
  . DISK = a set of cylinder groups
+
 _

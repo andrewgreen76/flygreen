@@ -1,0 +1,29 @@
+================================================================================
+BLOCK LIVENESS : 
+================================================================================
+
+ . status of the block (old or live)
+
+
+In LFS :
+ . every block has a dedicated segment
+ . every block segment has a head
+ . the head contains the segment summary block (SS) 
+ . the segment summary block has : 
+    + i-number 
+    + offset
+
+
+Block liveness determination procedure :
+ . get the block's current location (C)
+ . get the file's i-number (from SS)
+ . get the block's offset within the file (from SS) 
+ . feed the i-number to the imap , get the file's disk location
+ . use the offset to calculate the block's disk location (O) 
+ . match the locations
+    . if O == C , the block is live
+    . if O =/= C , the old-version block needs to be cleaned
+    -> live block is detected
+    -> its version is incremented 
+    -> imap is updated 
+_

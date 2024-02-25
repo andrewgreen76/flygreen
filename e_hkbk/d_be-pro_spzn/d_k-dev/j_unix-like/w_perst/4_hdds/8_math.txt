@@ -25,18 +25,21 @@ RATE OF I/O :
  . used to compare drives
 
 ======================================================
-WORKLOADS - OBSERVED SIDE-EFFECTS OF I/O 
+WORKLOADS (ACCESS PATTERNS) 
 ======================================================
 
+ . two possible ways of accessing data on the disk 
+
 Random workloads :
- . random reading all overe the place
+ . disk arm moving from place to place
+ => T(seek) + T(rot_delay) involved 
  => not desirable 
  . small blocks (4KB) 
  . used in database management 
 
 Sequential workloads : 
  . linear read of multiple sectors
- . capable of handling massive requests very quickly compared to the random workload method 
+ . capable of handling massive requests very quickly compared to the random workload scenario 
 
 
  . T(seek) = avg. seek

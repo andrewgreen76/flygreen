@@ -13,12 +13,35 @@ Method / features :
     . a.k.a. write-buffering 
     . a.k.a. segmenting 
  - writing into free space instead of overwriting 
-    + target is safe
+    . old versions of blocks are retained
+    - several versions take up space 
  - sequential writing to the disk
     . may be inefficient 
  + more efficient use of RAID
+    + RAID 4 and RAID 5 are used to solve the problem of small writes
+    . metadata and I/O footprint are minimized 
+
+=================================================================================
+LFS ORGANIZATION : 
+=================================================================================
+
+ . previously batched data blocks are followed by a metadata block
+ 
+ - inodes are scattered around the disk
+ - inodes are not fixed in place , so they are harder to track before reading/writing 
 
 
- . previously batched data blocks are followed by a metadata block 
+Inode maps - "a level of indirection" : 
+ . used to track an inode (for the next piece of the file) 
+ . imap = 4B array (a "pointer" to a location on the disk)
+ . takes an inode number
+ . returns the inode's block/location 
+ . updated when an inode is written to the disk 
 
+
+Preserving FS constitution on-the-fly :
+  . write the data block
+ -> append the inode
+ -> append a piece of the imap (to find the next block of the file) 
+ 
 _

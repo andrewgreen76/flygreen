@@ -1,0 +1,24 @@
+
+Live block :
+ . most recently formed copy of a data block
+
+
+
+===================================================================================
+CLEANING - HANDLING OLD COPIES : 
+===================================================================================
+
+LFS cleaner
+ . akin to a garbage collector 
+
+
+ + LFS cleaner periodically reads the oldest copy from the disk into a buffering segment
+ . LFS cleaner figures out which blocks are live
+ . moves only the live blocks back onto the disk 
+   
+
+ - formation of free holes on the disk 
+ + holes can be filled 
+    + a buffering segment can help with this 
+
+_

@@ -1,0 +1,17 @@
+=================================================================================
+CHECKPOINT REGION : 
+=================================================================================
+
+ . recently added and ever-moving imap pieces are written here
+ . CR -> imap piece -> inode -> data block
+      	      	       	     ^
+			     |
+			     direct , indirect , doubly-indirect pointers are used to locate the data blocks 
+
+
+ + LFS caches/updates the imap  
+ . happens every 30 secs
+    + less frequent => less overhead => better performance
+    - not great for preserving FS integrity 
+
+_

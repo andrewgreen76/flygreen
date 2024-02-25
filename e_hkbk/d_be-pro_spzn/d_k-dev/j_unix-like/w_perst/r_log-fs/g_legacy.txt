@@ -1,0 +1,16 @@
+===========================================================================
+LFS POST-MORTEM : 
+===========================================================================
+
+LFS design concepts inspired :
+ |
+ . NetApp’s WAFL
+ . Sun’s ZFS
+ . Linux btrfs
+ . recent flash-based SSDs
+
+
+ . snapshots :
+    . older versions of files can re-create an older state of the FS 
+
+_

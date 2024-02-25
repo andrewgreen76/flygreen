@@ -1,0 +1,9 @@
+==================================================================================
+THE RECURSIVE UPDATE PROBLEM : 
+==================================================================================
+
+A file or directly can get moved from place to place.
+ - intuitive implementation : recursive update of the dir hierarchy
+ + indirection (redirection) with imap can help bypass recursive restructuring 
+
+_

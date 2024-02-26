@@ -1,0 +1,13 @@
+===================================================================================================================================================
+IN-MEMORY FTL TABLE CACHING : 
+===================================================================================================================================================
+
+ + memory as extension of SSD
+ + LRU-style caching in place of log blocks
+ . a WORKING SET of translations is cached
+ |
+ - may fail ; the set would have to retrieved from SSD
+ |
+ . when the cache is full , dirty mappings are evicted to the SSD , triggering disk writes 
+
+_

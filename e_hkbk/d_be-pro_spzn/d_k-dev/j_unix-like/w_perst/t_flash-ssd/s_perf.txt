@@ -1,0 +1,25 @@
+===================================================================================================================================================
+SSD PERFORMANCE VS. HDD PERFORMANCE : 
+===================================================================================================================================================
+
+ + SSD's are random-access - meaning "any randomly picked address can be accessed immediately"
+    . so are DRAM
+
+
+
+Sequential r/w : 
+ . both HDD's and SSD's - few hundred I/O ops/sec
+ . but SSD's are somewhat faster 
+
+Random r/w : 
+ . SSD's are better by many miles
+
+SSD rates : 
+ . write rates > read rates
+ . in a log-structured FTL logged random writes can be treated as a sequential write
+
+
+
+"The performance difference between sequential and random I/Os is minor, yet reducing random I/Os is crucial when designing file systems."
+
+_

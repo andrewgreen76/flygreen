@@ -23,13 +23,4 @@ LOGGING - the use of the MAPPING TABLE :
 	     . Write(2001) with contents b2	       | 	2001 -> 3
 
 
-
-Issues with traditional log structuring :
- |
- - avoiding overwriting (to curtal memory cell wear) means writing to erased blocks/pages
-    - DEAD BLOCKS : obsolete copies of the same thing are preserved
-    + but a garbage collector will come around
- - in-memory mapping tables are expensive
-    . the larger the device , the larger the table will have to be 
-
 _

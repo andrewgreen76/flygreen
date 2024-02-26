@@ -1,0 +1,30 @@
+
+Direct mapping for small (random) writes :
+ . quick , direct mapping for every page 
+ . more populated pages => more mappings 
+    
+
+Block-level mapping for large (sequential) writes : 
+ . slow mapping (direct-to-block , then use offset) for every page
+ . fewer mappings in the table
+
+
+==========================================================================================
+HYBRID MAPPING : 
+==========================================================================================
+
+ . dual record-keeping :
+   | 
+  (1) the LOG TABLE - for small , random writes
+   |  . just a few LOG BLOCKS are reserved
+   |  
+  (2) the DATA TABLE - for large , sequential writes
+ 
+ . should reduce log-block count 
+
+
+Idea :
+ . multiple pages <= multiples logical blocks mapped to the same block
+ . one logical block <-> one physical page 
+ 
+_

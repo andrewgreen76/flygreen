@@ -1,0 +1,41 @@
+==========================================================================================
+DIRECT MAPPING RECAP : 
+==========================================================================================
+
+In direct mapping , to rewrite one page :
+ |
+ |
+ . buffer the block's content 
+ . erase the block
+ . amend the target page
+ . load it back into the old block
+ |
+ |
+ => more steps
+ => few logical<-> physical address translations
+ |
+ |
+ . one piece of data can take up an entire block 
+
+
+
+==========================================================================================
+BLOCK-BASED MAPPING : 
+==========================================================================================
+
+In block-level mapping , to rewrite one page :
+ |
+ |
+ . shift the other pages to the freshest block
+ . write the amended page to the new block 
+ => fewer steps to page overwriting
+ |
+ |
+ . multiple logical addresses can be mapped to the same block 
+ => fewer steps in a logical <-> physical address translation
+ |  . including in-block offsets
+ |
+ |
+ . not suitable for small writes 
+
+_

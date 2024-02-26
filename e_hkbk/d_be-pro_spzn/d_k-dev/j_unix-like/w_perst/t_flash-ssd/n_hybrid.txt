@@ -1,0 +1,33 @@
+
+Small, random write :
+ . any one-page write fed to the SSD , unrelated to other writes 
+
+Log block :
+ . SSD's write "buffer"  
+ . alleviates op load on actual target blocks
+ . when full , its contents are committed to SSD 
+
+
+
+==========================================================================================
+HYBRID MAPPING : 
+==========================================================================================
+
+Features :
+
+ (1) the LOG TABLE
+     . a small, random write -> logical address --(map)-> a physical block 
+     . an optimal number of a few LOG BLOCKS are reserved 
+    
+ (2) the DATA TABLE - for large , sequential writes
+
+
+
+ . should reduce log-block count 
+
+
+
+ . multiple pages <= multiples logical blocks mapped to the same block
+ . one logical block <-> one physical page 
+ 
+_

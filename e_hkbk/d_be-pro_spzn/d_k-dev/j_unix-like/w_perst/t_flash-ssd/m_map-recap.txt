@@ -1,0 +1,12 @@
+
+Direct mapping for small (random) writes :
+ . quick , direct mapping for every page 
+ . more populated pages => more mappings 
+    
+
+Block-level mapping for large (sequential) writes : 
+ . slow mapping (direct-to-block , then use offset) for every page
+ . fewer mappings in the table
+
+
+_

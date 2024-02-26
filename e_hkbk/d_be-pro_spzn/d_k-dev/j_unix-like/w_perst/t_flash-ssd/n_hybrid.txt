@@ -9,13 +9,24 @@ Block-level mapping for large (sequential) writes :
  . fewer mappings in the table
 
 
+
 ==========================================================================================
 HYBRID MAPPING : 
 ==========================================================================================
 
+Small, random write :
+ . any one-page write fed to the SSD , unrelated to other writes 
+
+Log block :
+ . write "buffer" for the SSD 
+ . wear leveling for actual target blocks  
+ . periodically relieved for future sequential writes
+ . "the difference lies in how data is organized, managed, and programmed within these blocks"
+ 
+
  . dual record-keeping :
    | 
-  (1) the LOG TABLE - for small , random writes
+  (1) the LOG TABLE - for small , random writes (laid down sequentially) 
    |  . just a few LOG BLOCKS are reserved
    |  
   (2) the DATA TABLE - for large , sequential writes

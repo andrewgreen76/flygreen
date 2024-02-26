@@ -1,0 +1,48 @@
+===================================================================================================================================================
+FULL MERGE : 
+===================================================================================================================================================
+
+ . a form of GC
+
+Goals :
+ . reclaim space
+ . reduce fragmentation
+ . optimize storage efficiency 
+
+Actions : 
+ . consolidates and organizes log table data for efficient access
+ . minimizes write amplification and improves overall performance
+
+Drawbacks :
+ - additional erases and writes 
+ - laborious 
+
+===================================================================================================================================================
+
+"
+In the context of log-structured mapping used in NAND flash memory management within Solid-State Drives (SSDs), a "full merge" refers to a comprehensive process of consolidating and organizing data within the log-structured mapping structure. This process is also known as "garbage collection" or "compaction."
+
+Here are the key aspects of a full merge:
+
+1. **Log Table Accumulation:**
+   - The log table is a portion of the NAND flash memory where small and random write operations are initially accumulated. Data is written sequentially to the log table.
+
+2. **Fragmentation in the Log Table:**
+   - Over time, as small writes occur, the log table may become fragmented with a mix of valid and invalid data blocks. Valid data blocks contain information that is still relevant, while invalid or obsolete data blocks are no longer needed.
+
+3. **Full Merge Process:**
+   - A full merge process is initiated to address the fragmentation in the log table and optimize space utilization.
+   - During a full merge, the SSD controller identifies valid data blocks in the log table, compacts them, and then moves the consolidated data to a more permanent storage location, often referred to as the data table or other storage structures.
+
+4. **Erase-Before-Write Operation:**
+   - The full merge process may involve erasing blocks in the data table before writing consolidated data to them. This is in line with the erase-before-write characteristic of NAND flash memory.
+
+5. **Garbage Collection:**
+   - The full merge process is a form of garbage collection where obsolete or invalid data is effectively removed from the log table, and the remaining valid data is organized for efficient access.
+
+6. **Write Amplification Reduction:**
+   - By performing a full merge, the SSD controller aims to reduce write amplification, which is the phenomenon where multiple physical writes are required to process a single logical write. Reducing write amplification contributes to improved SSD performance and longevity.
+
+The term "full merge" emphasizes the thoroughness of the process, addressing the entirety of the log table and reclaiming space by consolidating valid data. This process is crucial for maintaining the efficiency and performance of SSDs over time, especially in environments with mixed workloads and varying data access patterns.
+"
+_

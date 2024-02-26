@@ -1,3 +1,16 @@
+=======================================================================================================================================================
+SWITCH-MERGE :
+=======================================================================================================================================================
+
+Goal :
+ . compact and organize pages 
+
+Actions : 
+ . FTL moves between the log table and the data table
+
+
+
+=======================================================================================================================================================
 "
 A "switch merge" typically refers to a process in the context of log-structured mapping used in NAND flash memory management within Solid-State Drives (SSDs). In log-structured mapping, data is first written sequentially to a log table, and then periodically, a process called a merge or compaction is performed to consolidate and organize the data for optimal space utilization.
 

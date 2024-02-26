@@ -1,0 +1,16 @@
+"
+SSDs outperform current hard drives even while conducting sequential I/0, ...
+
+... but SSDs haven’t completely replaced hard drives because of the cost per unit of capability. Currently, a 250GB SSD costs around $150.00, or 60 cents per GB. A typical 1-TB hard disk costs around $50, or 5 cents per GB. The cost gap between these two storage medium is still more than 10 times."
+
+
+
+========================================================================================================================================================
+HDD'S VS. SSD'S - CHOICES FOR DATA CENTERS : 
+========================================================================================================================================================
+
+"Large-scale storage systems are created based on performance and cost disparities. SSDs are a great choice for performance, especially for random reads. If you’re building a big data center and need to store a lot of data, the pricing differential pushes many toward hard drives.
+"
+
+"Flash-based SSDs are becoming prevalent in laptops, desktops, and servers in the world’s data centers."
+_

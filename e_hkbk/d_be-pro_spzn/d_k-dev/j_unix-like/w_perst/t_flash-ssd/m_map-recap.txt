@@ -9,4 +9,9 @@ Block-level mapping for large (sequential) writes :
  . fewer mappings in the table
 
 
+ +-------------------------------------------------------+
+ | We want to minimize the space uptake by these tables. |
+ +-------------------------------------------------------+
+
+
 _

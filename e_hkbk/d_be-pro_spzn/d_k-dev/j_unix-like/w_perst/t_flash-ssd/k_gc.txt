@@ -23,5 +23,10 @@ Over-provisioning :
   . Cleaning is deferred until downtime. 
  -> During downtime GC can do its work and live pages can be moved onto the freshest locations.
  => GC over the same blocks is less frequent. 
- 
+
+
+
+Cost of GC :
+ . write amplification
+
 _

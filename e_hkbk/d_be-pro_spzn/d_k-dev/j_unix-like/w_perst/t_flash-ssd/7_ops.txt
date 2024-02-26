@@ -4,11 +4,12 @@ FLASH OPERATIONS - LOW-LEVEL INSTRUCTIONS :
 
 
 Reading a page :
-|
-. no sweat
-. feed the page number
-. takes a few usecs 
-. "random-access" storage (like RAM - quickly access any location) 
+  |
+  . no sweat
+ (1) feed the address (-> page number)
+ (1) feed the length 
+  . takes a few usecs 
+  . "random-access" storage (like RAM - quickly access any location) 
 
 
 Erasing a block :
@@ -20,6 +21,11 @@ Erasing a block :
 
 Writing to a page :
 |
-. once the entire block is cleared 
+. once the entire block is cleared
+
+
+Trim op :
+|
+. marks unwanted blocks 
 
 _

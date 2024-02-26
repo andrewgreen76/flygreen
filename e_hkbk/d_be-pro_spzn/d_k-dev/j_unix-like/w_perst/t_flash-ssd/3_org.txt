@@ -4,8 +4,8 @@ ORGANIZATION IN FLASH-BASED STORAGE :
 
 
 Data can be accessed in :
- . individual BLOCKS (1 block = 128+ KB)
- . individual PAGES (1 page = 4+- KB)
+ . individual BLOCKS (1 block = 128KB-2MB)
+ . individual PAGES (1 page = 1KB-8KB , 4KB avg.)
  . these work very differently from the more traditional disk blocks , RAID blocks , and memory pages 
 
 

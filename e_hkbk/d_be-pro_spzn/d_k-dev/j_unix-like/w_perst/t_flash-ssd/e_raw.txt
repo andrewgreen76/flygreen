@@ -1,0 +1,32 @@
+
+Raw flash :
+ . unintegrated / bare flash memory chips 
+
+=======================================================================================================================================================
+
+"
+Raw flash refers to the unprocessed or bare NAND or NOR flash memory chips before they are integrated into storage devices or other electronic devices. These raw flash chips are the fundamental building blocks used in various applications, such as solid-state drives (SSDs), USB flash drives, memory cards, and embedded systems.
+
+Key points about raw flash:
+
+1. **Memory Technology:**
+   - Raw flash can be based on different memory technologies, including NAND flash and NOR flash. NAND flash is commonly used for high-capacity storage applications, while NOR flash is often used for code storage and booting purposes.
+
+2. **No Controller or Firmware:**
+   - Raw flash does not include the controller or firmware that is necessary for managing the complex operations of reading, writing, and erasing data. It lacks the intelligence required for wear leveling, error correction, bad block management, and other functions.
+
+3. **Density and Type:**
+   - Raw flash chips come in various densities, indicating the storage capacity of the chip. Additionally, they can be classified based on their type, such as SLC (Single-Level Cell), MLC (Multi-Level Cell), TLC (Triple-Level Cell), or QLC (Quad-Level Cell) NAND flash.
+
+4. **Used in Manufacturing:**
+   - Manufacturers of storage devices and electronic products purchase raw flash chips to integrate them into their designs. The integration process involves combining the raw flash chips with a flash controller and firmware to create functional storage devices.
+
+5. **Requires Controller for Usability:**
+   - To make raw flash usable in a storage application, it needs to be paired with a flash controller. The controller manages the intricacies of reading, writing, and erasing data on the flash memory, as well as implementing various management functions to ensure reliability and performance.
+
+6. **Widely Used in Embedded Systems:**
+   - Raw flash is commonly used in embedded systems where storage requirements are specific, and manufacturers prefer to implement their own control and management mechanisms.
+
+When users interact with storage devices like USB flash drives or SSDs, they are dealing with products that incorporate raw flash memory along with the necessary controllers and firmware to make the storage device functional. The integration of raw flash into a complete storage solution enhances reliability, longevity, and overall performance.
+"
+_

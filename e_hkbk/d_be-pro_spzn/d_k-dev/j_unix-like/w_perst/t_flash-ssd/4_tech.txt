@@ -1,10 +1,9 @@
 ============================================================================
-THE TECH OF FLASH STORAGE : 
+THE TECH OF FLASH-BASED STORAGE : 
 ============================================================================
 
  . flash chips are made of pure silicon
-    => SSDs more durable/reliable than HDDs 
-
+    => more durable/reliable than HDDs 
 
 =================================================================================
 DRAWBACKS OF FLASH-BASED STORAGE : 
@@ -12,13 +11,28 @@ DRAWBACKS OF FLASH-BASED STORAGE :
 
  - subsequent writes to THE SAME PAGE can't be close to one another 
     . due to the physical properties of transistors in NAND flash memory
-    . the transistors will be worn out
-    . consecutive writes can be broken up with an erase 
+    . the transistors will be "worn out" (charges will linger) 
+    . break up consecutive writes with erase before write 
+    - erases are not perfect ; tiny charges will still linger in cells and accumulate over time
+    |  => may result in 0 when it should be 1 and vice versa
+    |
+    . LIFETIMES :
+       . SLC : 100,000 program/erase (P/E) cycles (may turn out to be longer than expected) 
+       . MLC : 10,000 program/erase (P/E) cycles 
+
  - before erasing/writing to THE SAME FLASH PAGE its entire block must be erased
     . physically it would be very impractical to design and develop a mechanism
       that can erase individual tiny pages
-    . (this is especially true for multi-level cell (MLC) configurations) 
+    . (this is especially true for multi-level cell (MLC) configurations)
 
+ - disturbance :
+    . neighboring bits can get flipped (read disturb , a.k.a. program disturb) 
+
+ - erases are long (ms , not us) 
+
+=================================================================================
+RECAP : 
+=================================================================================
 
 Recap :
  (1) only the entire block can be erased

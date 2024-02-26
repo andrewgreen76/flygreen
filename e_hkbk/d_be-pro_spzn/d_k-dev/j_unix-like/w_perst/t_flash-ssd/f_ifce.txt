@@ -1,0 +1,38 @@
+=====================================================================================================================
+SSD - FLASH INTEGRATION AND INTERFACE LOGIC : 
+=====================================================================================================================
+
+			.
+			.
+			.
+			|
+	+---------------+-----------------------+
+	| SSD drive interface to the bus	|
+	+---------------+-----------------------+
+			|
+	+---------------+---------------------------------------+	+---------------------------------------+
+	| SSD controller					|	| flash SRAM cells			|
+	|  + dedicated device control logic 			|	|					|
+	|  + FTL (flash translation layer)			|	|					|
+	|    . converts high-level reads and writes 		|	|					|
+	|      into low-level rd/wr/er flash instructions	+-------+					|
+	|    . evenly distributes writes between blocks		|	|					|
+	|      => those blocks will wear out at the same time	|	|					|
+	|      	  (WEAR LEVELING)		 	    	|	|					|
+	|    . guides page-writes in ascending sequence 	|	|					|
+	|      => helps avoid program disruption		|	|					|
+	|     		 	    	     			|	|					|
+	+-------------------------------------------------------+	+---------------------------------------+
+
+					SRAM :
+					 . caching
+					 . buffering
+					 . mapping tables
+
+
+What can boost SSD performance :
+ + parallelized flash operations
+ . inverse of write amplification :
+    . multiple low-level writes (and other instructions) per one high-level instruction 
+
+_

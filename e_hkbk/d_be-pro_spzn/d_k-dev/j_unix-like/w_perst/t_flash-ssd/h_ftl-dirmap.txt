@@ -1,0 +1,24 @@
+===========================================================================================
+FTL - DIRECT MAPPING ISSUES : 
+===========================================================================================
+
+Direct mapping :
+ . every physical page is represented (i.e., directly mapped to) a logical page at the interface.
+ . a.k.a. block-level mapping 
+
+
+Deterrents :
+ |
+ . buffer-erase-reprogram routine cycle for every re-write 
+   => performance overhead
+   => longenvity issue
+ - overwriting of the logical block forces overwriting of the same physical block 
+ - wear leveling is not very reliable 
+ - write amplicication
+ |
+ => slow
+ => inconsistent 
+
+
+
+_

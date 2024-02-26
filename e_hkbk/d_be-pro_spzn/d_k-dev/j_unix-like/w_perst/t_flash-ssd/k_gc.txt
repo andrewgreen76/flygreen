@@ -1,0 +1,27 @@
+==========================================================================================
+GARBAGE COLLECTION : 
+==========================================================================================
+
+At the time of reaching a dead block :
+  . live pages are searched for
+ -> live pages are buffered
+ -> dead block is erased
+ -> the block is refreshed with the recent content
+ -> the less recent block of the live pages is released 
+
+
+Relieving a block of dead weight means :
+ - more operations on the blocks (erase at old block , write at new block) 
+   => more wear
+
+
+
+We want to relieve the SSD of block op work.
+|
+Over-provisioning :
+  . An SSD can be designed and developed to have extra storage just for live pages.
+  . Cleaning is deferred until downtime. 
+ -> During downtime GC can do its work and live pages can be moved onto the freshest locations.
+ => GC over the same blocks is less frequent. 
+ 
+_

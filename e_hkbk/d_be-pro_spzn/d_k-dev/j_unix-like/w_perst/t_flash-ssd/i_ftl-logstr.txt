@@ -1,0 +1,35 @@
+===================================================================================
+LOG-STRUCTURED FTLs AND LOGICAL OVERWRITES : 
+===================================================================================
+
+LOGGING - the use of the MAPPING TABLE :
+ |
+ . logical blocks and physical blocks/pages can be re-mapped to avoid physical location overwriting 
+ . aids in fast block logging and overwritten-block loading
+ . stored in RAM
+ . ascending (sequential) mapping of erased-written
+    + avoids program disruption
+    + maintains wear leveling
+    => helps with the device's longevity
+ + direct mapping relieves us of worrying about logical and physical block/page sizes 
+    - forces overwriting of the same physical block
+    
+
+	       Logical    	     		       | Logical-physical mapping 
+	     ------------------------------------------+---------------------------
+	     . Write(100) with contents a1	       |	 100 -> 0
+	     . Write(101) with contents a2	       | 	 101 -> 1
+	     . Write(2000) with contents b1	       | 	2000 -> 2
+	     . Write(2001) with contents b2	       | 	2001 -> 3
+
+
+
+Issues with traditional log structuring :
+ |
+ - avoiding overwriting (to curtal memory cell wear) means writing to erased blocks/pages
+    - DEAD BLOCKS : obsolete copies of the same thing are preserved
+    + but a garbage collector will come around
+ - in-memory mapping tables are expensive
+    . the larger the device , the larger the table will have to be 
+
+_

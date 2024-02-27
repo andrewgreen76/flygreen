@@ -47,7 +47,8 @@ Linux :
     . VICMON and WozMon
     . console / PC booting routines
  . journaling , JFS , ext3 , etc.
- . LFS 
+ . LFS
+ . SSD tech and mechanisms 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

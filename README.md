@@ -33,19 +33,19 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-Linux : 
-  . C programming language : 
-    . lseek()
-    . fseek()
-    . more system calls ( mkfs() , dup() family , opendir() , readdir() , closedir() , etc. )
-    . inodes
-    . file system bitmaps
-    . caching and buffering in file systems
+Linux :
+
+ . revisiting networking basics :
+    . protocols
+    . layers
+    . socket programming (TCP/UDP socket APIs)
+    
  . legacy computers and consoles
     . hardware in Commodore 64 , VIC-20 , Atari 2600 ; BASIC ROM , KERNAL
     . memory-mapped I/O
     . VICMON and WozMon
-    . console / PC booting routines
+    . console / PC booting routines 
+    
  . journaling , JFS , ext3 , etc.
  . LFS (log-structured file systems) 
  . SSD tech and mechanisms 
@@ -53,11 +53,13 @@ __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________
 
-A legacy BIOS/UEFI (x86) -based OS :
-- 32-bit
-? multiboot2 -compliant ?? 
-- to be tested in QEMU
-- to be shipped for Raspberry Pi
+[REJECTED - PROPRIETARY SOFTWARE]
+  | 
+  A legacy BIOS/UEFI (x86) -based OS :
+  - 32-bit
+  ? multiboot2 -compliant ?? 
+  - to be tested in QEMU
+  - to be shipped for Raspberry Pi
 __________________________________________________________________________
 CHOSEN PERSONAL PROJECT:
 __________________________________________________________________________

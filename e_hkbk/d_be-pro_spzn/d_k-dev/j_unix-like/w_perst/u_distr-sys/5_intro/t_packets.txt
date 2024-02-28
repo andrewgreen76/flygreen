@@ -15,8 +15,6 @@ Causes of loss / corruption :
 
 
 Packet drop :
- . every network switch / network router has a buffer for incoming packets
- . packets can only come in one at a time
- . 
- 
+ . every network switch / network router has a buffer for M incoming packets
+ . N packets come in (M<N)    =>    packets collide , N-M packets are dropped 
 _

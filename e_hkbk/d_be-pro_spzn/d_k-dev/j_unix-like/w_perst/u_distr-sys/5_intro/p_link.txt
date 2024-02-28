@@ -1,0 +1,10 @@
+
+Network link : 
+ . "the entire communication path or connection between two devices, encompassing the physical medium, networking equipment, and protocols ... "
+
+
+
+Cable : 
+ . "a cable specifically denotes the physical medium, such as wires or fibers, used for data transmission within that link."
+ 
+_

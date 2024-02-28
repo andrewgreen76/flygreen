@@ -1,0 +1,7 @@
+
+Collision :
+ | 
+ . 2+ devices deploy data over the same network at the same time 
+ . ex. : multiple packets enter the buffer of the network switch or router at the same time 
+
+_

@@ -21,7 +21,7 @@ Security :
 
 
 
-Communication :
+Unreliability :
  . "It appears that communication is always going to be unreliable with modern networking."
  . lost packets
  . corrupted packets

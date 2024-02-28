@@ -1,0 +1,19 @@
+===================================================================================
+TCP :
+===================================================================================
+
+
+ . Transmission Control Protocol 
+
+
+ . connection-oriented
+    => reliable
+    => ordered (A-Z at server , A-Z at recepient)
+
+
+ . TCP three-way handshake
+    (1) >>> [SYN seg : SYN flag set]  >>>
+    (2) <<< [SYN-ACK seg : flag sets] <<<
+    (3) >>> >>> >>> [ACK seg] >>> >>> >>>
+
+_

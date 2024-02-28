@@ -1,0 +1,35 @@
+=====================================================================================================================================================
+HANDSHAKE :
+=====================================================================================================================================================
+
+ . a routine through which 2+ entities agree on a connection and transfer of data 
+
+
+
+=====================================================================================================================================================
+
+"
+A handshake, in the context of networking and communication protocols, refers to a process where two devices or entities establish a connection by exchanging predefined signals or messages to ensure mutual agreement and readiness for data transfer. The handshake is a key part of connection-oriented protocols and is typically used to set up and confirm the parameters of the communication session.
+
+Key characteristics of a handshake process:
+
+1. **Initiation:**
+   - One of the devices, known as the initiator, sends a request or signal to establish a connection.
+
+2. **Acknowledgment:**
+   - The receiving device, known as the responder, acknowledges the request, indicating its willingness to establish the connection.
+
+3. **Parameter Negotiation:**
+   - The devices exchange information about the parameters of the communication session, such as communication settings, supported features, and other relevant details.
+
+4. **Confirmation:**
+   - Both devices confirm that they have received and understood the exchanged information, signaling that the connection is established and ready for data transfer.
+
+5. **Error Handling:**
+   - The handshake process may include mechanisms for error handling, allowing devices to detect and address issues that may arise during the setup.
+
+Connection-oriented protocols, such as TCP (Transmission Control Protocol), often use a handshake mechanism to establish a reliable and ordered communication session. During the TCP handshake, a three-way process (SYN, SYN-ACK, and ACK) is employed to set up a connection before actual data transmission begins.
+
+In contrast, connectionless protocols like UDP (User Datagram Protocol) do not involve a formal handshake. They operate without establishing a persistent connection and are characterized by a more lightweight and faster approach, suitable for scenarios where low latency is crucial.
+"
+_

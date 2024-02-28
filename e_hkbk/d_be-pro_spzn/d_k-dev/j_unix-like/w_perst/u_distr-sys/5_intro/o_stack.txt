@@ -1,0 +1,25 @@
+
+Stack (networking stack) :
+ |
+ . a bundle of layers
+
+
+
+ . TCP/IP
+    . application
+    . transport
+    . internet
+    . link
+
+
+
+ . OSI model
+    . application (Telnet , HTTP , SSH) 
+    . presentation
+    . session
+    . transport (e.g., UDP - real-time, unreliable) 
+    . network	(e.g., IP - addressing)
+    . (data) link (e.g., Ethernet)
+    . physical 
+
+_

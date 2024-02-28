@@ -18,25 +18,14 @@ Protocol :
     . Zoom proprietary communication protocol 
 
 
+
 Layer :
  . a level of abstraction of routines in a networking stack
- . each layers has its own set of protocols 
-
-
-Stack (networking stack) :
- . a bundle of layers 
- . TCP/IP
-    . application
-    . transport
-    . internet
-    . link 
- . OSI model
-    . application 
-    . presentation
-    . session
-    . transport
-    . network
-    . (data) link
-    . physical 
+ . each layer has its own set of protocols 
+ . layers 2-4 - standardized with certain protocols 
+    . transport (e.g., UDP - real-time, unreliable) 
+    . network	(e.g., IP - addressing)
+    . (data) link (e.g., Ethernet)
+ . layers 5-7 - less standardized 
 
 _

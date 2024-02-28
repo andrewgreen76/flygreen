@@ -1,0 +1,22 @@
+===================================================================================
+UDP :
+===================================================================================
+
+
+ . User Datagram Protocol 
+ . transport layer protocol 
+
+
+ . connectionless
+    |
+    . no handshaking
+    . no ongoing state (no regard of state of transmission, i.e., order of packets)
+
+
+ + low latency
+    => real-time , immediate delivery
+ + no handshaking overhead 
+ - unreliable 
+ - unordered (A-Z at server , but no guarantee of A-Z at recepient)
+
+_

@@ -1,5 +1,0 @@
-
-Handshake :
- . a routine through which 2+ entities agree on a connection and transfer of data 
-
-_

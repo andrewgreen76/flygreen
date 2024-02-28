@@ -1,0 +1,9 @@
+=========================================================================================
+APPLICATION PROGRAMMING INTERFACE (API) : 
+=========================================================================================
+
+ . a library (set of functions) meant for facilitating implementation of something
+   in order to achieve a project's goal
+ => an abstraction 
+
+_

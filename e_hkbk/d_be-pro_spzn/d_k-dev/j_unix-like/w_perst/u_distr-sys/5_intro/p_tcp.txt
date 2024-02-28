@@ -16,4 +16,34 @@ TCP :
     (2) <<< [SYN-ACK seg : flag sets] <<<
     (3) >>> >>> >>> [ACK seg] >>> >>> >>>
 
+
+
+===================================================================================
+TCP SOCKET API :
+===================================================================================
+
+"
+Yes, TCP (Transmission Control Protocol) typically relies on a socket API (Application Programming Interface) for communication. Sockets provide a standardized interface for networking at the application layer and enable processes or applications to communicate over a network. The socket API allows developers to create, configure, and manage network sockets for TCP-based communication.
+
+Key points regarding TCP and sockets:
+
+1. **Socket API:**
+   - The socket API provides a set of functions and mechanisms that allow applications to create sockets, specify communication parameters, establish connections, send and receive data, and handle various aspects of networking.
+
+2. **Socket Types:**
+   - The socket API supports different types of sockets, including stream sockets for TCP communication. Stream sockets provide a reliable, connection-oriented communication channel.
+
+3. **Connection Establishment:**
+   - For TCP communication, the socket API includes functions to establish a connection using a three-way handshake (e.g., `connect()` function).
+
+4. **Data Transfer:**
+   - Once a connection is established, the socket API provides functions (e.g., `send()` and `recv()`) for sending and receiving data over the TCP connection.
+
+5. **Socket Addressing:**
+   - The socket API allows applications to specify source and destination addresses and port numbers, enabling communication between specific hosts and ports.
+
+Example socket API functions in languages like C include `socket()`, `bind()`, `listen()`, `accept()`, `connect()`, `send()`, and `recv()`. These functions enable the creation of TCP sockets, binding them to specific addresses and ports, establishing connections, and facilitating data transfer.
+
+In summary, TCP applications commonly use the socket API to implement communication over TCP connections. The socket API abstracts the underlying network details and provides a convenient interface for developers to work with TCP-based communication in their applications.
+"
 _

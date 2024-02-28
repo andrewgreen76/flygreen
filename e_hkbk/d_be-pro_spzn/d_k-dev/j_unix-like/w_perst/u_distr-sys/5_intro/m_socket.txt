@@ -12,4 +12,6 @@ SOCKET , IP ADDRESS , PORT :
     . number for the available communication process on that device
     . the recepient listens to the port 
 
+ . socket API - part of transmission implementation 
+
 _

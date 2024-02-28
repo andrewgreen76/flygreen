@@ -34,4 +34,30 @@ UDP - COMMUNICATION ROUTINE :
  . recepient unconditionally listens to the UDP port for incoming datagrams
  . recepient unconditionally processes the datagram 
 
+
+
+===================================================================================
+UDP SOCKET API :
+===================================================================================
+"
+Yes, UDP (User Datagram Protocol) also uses a socket API (Application Programming Interface) for communication, similar to TCP. The socket API provides a standardized interface for networking at the application layer, allowing applications to create, configure, and manage network sockets for UDP-based communication.
+
+Key points regarding UDP and sockets:
+
+1. **Socket API Functions:**
+   - The socket API includes functions that enable the creation of UDP sockets, binding them to specific addresses and ports, and facilitating the sending and receiving of UDP datagrams.
+
+2. **Connectionless Nature:**
+   - While UDP is connectionless, the socket API still provides a convenient way for applications to send and receive UDP datagrams. Each UDP datagram is treated independently, and the socket API functions allow applications to specify destination addresses and ports.
+
+3. **Datagram Transmission:**
+   - The socket API functions for UDP include functions such as `sendto()` and `recvfrom()`, which are used for sending and receiving UDP datagrams. These functions do not involve a formal connection setup process.
+
+4. **Socket Addressing:**
+   - The socket API allows applications to specify source and destination addresses and port numbers, facilitating communication between specific hosts and ports.
+
+Example socket API functions for UDP in languages like C include `socket()`, `bind()`, `sendto()`, and `recvfrom()`. These functions enable the creation of UDP sockets, binding them to specific addresses and ports, and facilitating the transmission of UDP datagrams.
+
+In summary, both TCP and UDP applications commonly use the socket API to implement communication, and the API abstracts the underlying network details for developers.
+"
 _

@@ -3,15 +3,21 @@ SOCKET , IP ADDRESS , PORT :
 ===============================================================================
 
  = IP address + port
- 
- . IP address :
-    . every device has one assigned to it  
-    . by the IP protocol (layer 3) 
+ . a.k.a. communication endpoint (sender or recipient)
 
- . port :
-    . number for the available communication process on that device
-    . the recepient listens to the port 
 
- . socket API - part of transmission implementation 
+
+IP address :
+ . every device has one assigned to it  
+ . by the IP protocol (layer 3) 
+
+port :
+ . number for the available communication process on that device
+ . the recipient listens to the port 
+
+
+
+Socket API :
+ . part of transmission implementation 
 
 _

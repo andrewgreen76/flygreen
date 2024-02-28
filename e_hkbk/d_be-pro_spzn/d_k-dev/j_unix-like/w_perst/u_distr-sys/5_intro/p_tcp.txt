@@ -6,9 +6,9 @@ TCP :
  . Transmission Control Protocol 
 
 
- . connection-oriented
+ . connection-oriented (two-way) 
     => reliable
-    => ordered (A-Z at server , A-Z at recepient)
+    => ordered (A-Z at server , A-Z at recipient)
 
 
  . TCP three-way handshake

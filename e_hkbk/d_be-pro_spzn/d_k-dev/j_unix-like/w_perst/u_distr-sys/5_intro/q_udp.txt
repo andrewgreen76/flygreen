@@ -19,7 +19,7 @@ UDP - ABOUT :
     => real-time , immediate delivery
  + no handshaking overhead 
  - unreliable 
- - unordered (A-Z at server , but no guarantee of A-Z at recepient)
+ - unordered (A-Z at server , but no guarantee of A-Z at recipient)
 
 
 
@@ -28,11 +28,11 @@ UDP - COMMUNICATION ROUTINE :
 ===================================================================================
 
  . sender builds a datagram
- . datagram -> recepient (@ socket = IP_addr + port) 
+ . datagram -> recipient (@ socket = IP_addr + port) 
  . sender has no concept of datagram loss
     => no datagram retransmission mechanism in place 
- . recepient unconditionally listens to the UDP port for incoming datagrams
- . recepient unconditionally processes the datagram 
+ . recipient unconditionally listens to the UDP port for incoming datagrams
+ . recipient unconditionally processes the datagram 
 
 
 

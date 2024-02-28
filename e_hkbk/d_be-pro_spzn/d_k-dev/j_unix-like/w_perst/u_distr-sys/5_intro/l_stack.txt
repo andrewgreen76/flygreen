@@ -17,9 +17,11 @@ Stack (networking stack) :
     . application (Telnet , HTTP , SSH) 
     . presentation
     . session
-    . transport (e.g., UDP - real-time, unreliable) 
+    . transport
+       . UDP - raw performance (real-time, unreliable)
+       . TCP - order and guarantee (reliable , high-latency) 
     . network	(e.g., IP - addressing)
-    . (data) link (e.g., Ethernet)
-    . physical 
+    . (data) link (e.g., Ethernet protocol)
+    . physical (Ethernet , Wi-Fi , etc.) 
 
 _

@@ -1,10 +1,16 @@
 ==================================================================================
-PACKETS 
+PACKETS AND DATAGRAMS 
 ==================================================================================
 
 Packet :
  . the smallest structure for holding and transferring data
- . has its own format (header, body, etc.) 
+ . has its own format (header, body, etc.)
+ . packets may or may not have relation between one another
+    . relation for the sake of ordered communication (1st packet , 2nd packet , etc.) 
+
+
+Datagram :
+ . an independent packet (may be sent unordered with other datagrams) 
 
 
 

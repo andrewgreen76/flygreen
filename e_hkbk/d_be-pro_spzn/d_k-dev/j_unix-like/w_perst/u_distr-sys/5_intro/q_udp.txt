@@ -1,14 +1,16 @@
 ===================================================================================
-UDP :
+UDP - ABOUT :
 ===================================================================================
-
 
  . User Datagram Protocol 
  . transport layer protocol 
 
 
- . connectionless
+ . "connectionless"
     |
+    . not the best word to describe a type of transmission 
+    . in a sense that data transfer liberal , unconditional 
+       . unbridled , free for all 
     . no handshaking
     . no ongoing state (no regard of state of transmission, i.e., order of packets)
 
@@ -18,5 +20,18 @@ UDP :
  + no handshaking overhead 
  - unreliable 
  - unordered (A-Z at server , but no guarantee of A-Z at recepient)
+
+
+
+===================================================================================
+UDP - COMMUNICATION ROUTINE :
+===================================================================================
+
+ . sender builds a datagram
+ . datagram -> recepient (@ socket = IP_addr + port) 
+ . sender has no concept of datagram loss
+    => no datagram retransmission mechanism in place 
+ . recepient unconditionally listens to the UDP port for incoming datagrams
+ . recepient unconditionally processes the datagram 
 
 _

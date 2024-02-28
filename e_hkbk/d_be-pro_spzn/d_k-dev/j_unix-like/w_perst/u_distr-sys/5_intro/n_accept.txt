@@ -1,0 +1,7 @@
+======================================================================================
+ACCEPTING UNRELIABILITY : 
+======================================================================================
+
+" A simple yet effective way of dealing with unreliable communication is to simply not deal with it at all. Because some programs can deal with lost packets, it’s sometimes good to let them connect to a simple unreliable messaging layer."
+
+_

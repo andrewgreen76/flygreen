@@ -1,5 +1,15 @@
 ==================================================================================
-PACKETS - LOSS , CORRUPTION , DROP : 
+PACKETS 
+==================================================================================
+
+Packet :
+ . the smallest structure for holding and transferring data
+ . has its own format (header, body, etc.) 
+
+
+
+==================================================================================
+PACKET LOSS , CORRUPTION , DROP : 
 ==================================================================================
 
 
@@ -17,4 +27,5 @@ Causes of loss / corruption :
 Packet drop :
  . every network switch / network router has a buffer for M incoming packets
  . N packets come in (M<N)    =>    packets collide , N-M packets are dropped 
+
 _

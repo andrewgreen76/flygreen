@@ -1,5 +1,5 @@
 ==================================================================================
-VOCABULARY - APPETIZERS : 
+NETWORKS - INTRO : 
 ==================================================================================
 
 Internet :
@@ -16,10 +16,5 @@ Ethernet :
  . the tech that goes into LAN
  . wired connections
  . packets travel along a copper or fiber-optic cable 
-
-
-
-Packet :
- .
   
 _

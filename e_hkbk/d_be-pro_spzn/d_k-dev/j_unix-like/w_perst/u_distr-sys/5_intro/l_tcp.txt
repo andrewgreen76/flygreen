@@ -23,13 +23,13 @@ TCP :
 		
        		|.......... TIMEOUT ............|
 		
-       retry    >>> [SYN seg : SYN flag set]  >>> 
+       retry    >>> [SYN seg : SYN flag set]  >>>    rcvr
 		
        		|.......... TIME-
    (2)		<<< [SYN-ACK seg : flag sets] <<<
    		|   	        -OUT ...........|
 		
-   (3) 		>>> >>> >>> [ACK seg] >>> >>> >>>
+   (3) 		>>> >>> >>> [ACK seg] >>> >>> >>>    rcvr    
        delete copy 
 
 

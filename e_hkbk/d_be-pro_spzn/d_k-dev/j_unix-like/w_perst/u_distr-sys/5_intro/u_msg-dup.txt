@@ -1,0 +1,34 @@
+========================================================================================
+MESSAGE DUPLICATION 
+========================================================================================
+
+
+Why worry about message duplication if TCP uses ACK?
+
+ -  "Message duplication concerns may still arise in TCP, despite its use of acknowledgments (ACKs),
+     due to factors such as network issues, retransmissions, or application-level concerns, prompting
+     the need for additional mechanisms at the application layer to ensure the desired semantics."
+
+
+
+Consequences of message duplication : 
+ . duplicate processing
+ . redundant actions
+ . inconsistent system states 
+
+
+
+Message duplication monitoring :
+ . the recipient uses the sequence counter to remember the ID of the latest message ,
+   ensuring that it does not act on a duplicate 
+
+________________________________________________________________________________________
+
+			|		 |
+   	    sender    	| ---[packet]--> |  receiver    --->    application
+			| <----[ack]---- |
+			|		 |
+	    		| 		 |
+________________________________________________________________________________________
+
+_

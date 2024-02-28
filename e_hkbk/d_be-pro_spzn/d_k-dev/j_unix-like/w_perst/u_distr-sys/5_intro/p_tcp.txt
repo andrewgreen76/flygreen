@@ -6,7 +6,9 @@ TCP :
  . Transmission Control Protocol 
 
 
- . connection-oriented (two-way) 
+ . "connection-oriented"
+    |
+    . in a sense that the sender does hear from the receiver 
     => reliable
     => ordered (A-Z at server , A-Z at recipient)
 

@@ -6,11 +6,9 @@ UDP - ABOUT :
  . transport layer protocol 
 
 
- . "connectionless"
+ . "connectionless" 
     |
-    . not the best word to describe a type of transmission 
-    . in a sense that data transfer liberal , unconditional 
-       . unbridled , free for all 
+    . in a sense that the sender does not hear from the receiver at all 
     . no handshaking
     . no ongoing state (no regard of state of transmission, i.e., order of packets)
 

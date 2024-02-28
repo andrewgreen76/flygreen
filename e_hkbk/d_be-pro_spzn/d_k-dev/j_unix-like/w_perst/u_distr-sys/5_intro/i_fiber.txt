@@ -1,0 +1,10 @@
+
+Optical fiber cable :
+ . as thin as human hair
+ > relies on refraction
+    . refractive index
+    > total internal refraction
+      . makes retention of light particles possible
+    . cladding - ??
+    . attenuation of light (absorption , scattering) 
+_

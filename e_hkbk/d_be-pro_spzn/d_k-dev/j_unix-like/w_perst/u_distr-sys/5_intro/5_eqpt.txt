@@ -1,0 +1,17 @@
+
+Network switch :
+ |
+ . connects devices in a LAN
+ . manages data traffic
+ . MAC address -> data recepient 
+ |
+ . at the data link layer (layer 2)
+    => improves LAN performance 
+
+
+
+Network router :
+ |
+ .
+
+_

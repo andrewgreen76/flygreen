@@ -1,0 +1,70 @@
+
+=============================================================================
+INTERNET : 
+=============================================================================
+
+ . transmitting binary info
+ . a song is encoded using 3 MB - 4 MB 
+
+
+Media - intangible within the tangible :
+ |
+ + wired : using electricity (modulation)
+    . ex. : shooting Morse code
+    . ex. : Ethernet (copper cable) 
+    + cheap 
+    + multiple bits at a time 
+    - lossy
+    => good for relatively short distances
+ |
+ + wired : using (invisible) light waves by primitive means (optical signal) 
+    + super-fast transmission
+    + signal integrity over long distances 
+    + multiple bits at a time (depending on the angle)
+    - malleable
+    - really expensive
+    - hard to work make and maintain
+ |
+ . the majority of Internet connections are still wired
+ |
+ + wireless - using radio frequencies (inaudible sound waves)
+    . sender takes binary data in memory and translates it into sound (modulation)
+    . receiver catches the sound and translates it back to binary data (demodulation) 
+    . different bits have different frequencies
+    + "entirely mobile" : physically risk-free
+    - signal loses clarity over long distances 
+
+
+Primitive methods :
+ . e.g. , telegraph key
+ - need human users at all times (=> not automated)
+ - slow
+ - error-prone
+ 
+
+Transmission capacity : 
+|
+Bandwidth : 
+ . max transmission capacity for a certain device
+ . speed 
+||
+Bit rate :
+ . number of bits transmitted over a unit of time 
+ . speed (bps) 
+|
+Latency : 
+ . amount of time for a bit to travel from point A to point B
+ . time (secs)
+
+
+Ethernet :
+ .      __
+      _|  |_
+    _|      |_
+   |	      |
+   |__________|
+
+Wi-Fi :
+ . wireless local routing
+ . wired remote transmission 
+_

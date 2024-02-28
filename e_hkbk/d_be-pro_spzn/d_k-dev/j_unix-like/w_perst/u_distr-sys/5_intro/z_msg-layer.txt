@@ -1,5 +1,7 @@
 
 Messaging layer :
+ . some sources call the transport layer (layer 4) the message layer
+ . TCP and UDP 
  . a piece of software that regulates sending and receiving of messages
  . message format ("anatomy")
  . message queue(s)

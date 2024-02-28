@@ -13,11 +13,13 @@ UDP - ABOUT :
     . no ongoing state (no regard of state of transmission, i.e., order of packets)
 
 
+=> 
+ - unreliable (datagram state is unknown)  
+ - unordered (A-Z at server , but no guarantee of A-Z at recipient)
  + low latency
     => real-time , immediate delivery
- + no handshaking overhead 
- - unreliable 
- - unordered (A-Z at server , but no guarantee of A-Z at recipient)
+ + no handshaking overhead
+ + uses checksums to detect datagram corruptions 
 
 
 

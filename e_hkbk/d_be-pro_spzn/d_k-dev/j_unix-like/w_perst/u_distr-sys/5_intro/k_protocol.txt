@@ -1,0 +1,44 @@
+
+Protocol :
+ . design (rules , specifications , principles)
+ . every implemented protocol is designed for a specific purpose
+ . examples :
+    . Telnet - terminal access 
+    . TCP - data transfer , NOT REAL-TIME (not live) 
+    . IP - network addressing (assignment ) 
+    . UDP - resource-intensive REAL-TIME media transfer
+    . SMTP - sending/receiving emails (middle)
+    . DNS - domain name resolution (translation) 
+    . IMAP - fetching and organizing emails (endpoint)
+    . HTTP - web (media) transfer
+    . HTTPS - secure web transfer
+       . Zoom chat 
+    . Zoom proprietary communication protocol 
+
+
+
+Stack (networking stack) :
+ . a bundle of protocols
+ . TCP/IP
+    . application
+    . transport
+    . internet
+    . link 
+ . OSI model
+    . application 
+    . presentation
+    . session
+    . transport
+    . network
+    . (data) link
+    . physical 
+
+
+
+Messaging layer :
+ . a piece of software that regulates sending and receiving of messages
+ . message format ("anatomy")
+ . message queue(s)
+ . etc. 
+
+_

@@ -1,0 +1,32 @@
+
+Failure : 
+ . "Even if one machine fails, that doesn’t mean the entire system must fail.
+    This is one of the great things about distributed systems, and it’s why
+    Google, Facebook, and other web services use them now."
+
+
+
+Performance :
+ . traffic
+ . efficiency
+
+
+
+Security :
+ . trust
+ . verity of the actual second party
+ . 3rd party cannot pose as the 2nd party
+    . cannot monitor messages 
+    . cannot change messages
+
+
+
+Communication :
+ . "It appears that communication is always going to be unreliable with modern networking."
+ . lost packets
+ . corrupted packets
+ . packets fetched by a 3rd party
+
+
+
+_

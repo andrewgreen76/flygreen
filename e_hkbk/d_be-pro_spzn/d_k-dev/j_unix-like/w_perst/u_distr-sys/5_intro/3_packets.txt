@@ -1,0 +1,22 @@
+==================================================================================
+PACKETS - LOSS , CORRUPTION , DROP : 
+==================================================================================
+
+
+Causes of loss / corruption :
+ |
+ . electrical issues (ground interference , etc.)
+    => some bits get inverted
+    
+ . network link is damaged (cable is nicked) 
+ . packet router is damaged
+ . remote host system is damaged
+
+
+
+Packet drop :
+ . every network switch / network router has a buffer for incoming packets
+ . packets can only come in one at a time
+ . 
+ 
+_

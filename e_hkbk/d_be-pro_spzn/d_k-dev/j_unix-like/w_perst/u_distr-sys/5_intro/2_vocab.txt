@@ -1,0 +1,20 @@
+==================================================================================
+VOCABULARY - APPETIZERS : 
+==================================================================================
+
+Internet :
+ . the largest super-network of networks
+
+
+
+LAN :
+ . the smallest of networks - for a building or a campus 
+
+
+
+Ethernet :
+ . the tech that goes into LAN
+ . wired connections
+ . packets travel along a copper or fiber-optic cable 
+
+_

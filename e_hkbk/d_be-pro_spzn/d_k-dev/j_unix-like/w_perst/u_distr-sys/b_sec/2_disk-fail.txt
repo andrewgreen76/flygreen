@@ -1,34 +1,3 @@
-======================================================================================
-DISK FAILURE TYPES - CAUSES AND DEGREES OF SEVERITY 
-======================================================================================
-
-
-Latent-sector error :
- |
- |
- . INACCESSIBLE sectors 
- . damage by a head crash or cosmic rays
- |
- . data corruption awareness : NOT IMMEDIATELY NOTICEABLE
- |
- . expected solution : disk recovery 
-    . LSE's can be fixed by disk check utilities
-       . chkdsk on Windows
-       . fsck on Linux
-       . otherwise you'd want to have a JFS
-
-
-
-Block corruption : 
-  |
-  |
- (1) caused by physical damage  
- (2) caused by data transfer via a faulty bus 
-  |
-  . data corruption awareness : immediately noticeable
-  . expected solution : disk recovery  
-
-
 
 Fail-stop (recap) :
  |
@@ -39,4 +8,36 @@ Fail-stop (recap) :
  . data corruption awareness : immediately noticeable
  . expected solution : DISK REPLACEMENT 
 
+
+
+======================================================================================
+DISK FAILURE TYPES : 
+======================================================================================
+
+Silent faults : 
+ . a type of disk failure
+ . pass ECC
+ . go unchecked until a damaged block is requested
+ . potential solutions : disk check utilities , JFS
+ . latent-sector error (LSE) , block corruption 
+
+
+Latent-sector error :
+ . symptoms :	 INACCESSIBLE sectors 
+ . causes :    	 physical contact , smears , cosmic rays
+ . "Costly drives with at least one LSE are just as likely to have additional errors as cheaper drives" 
+ . "The number of LSEs grows with the size of the disk" 
+ . "Disk scrubbing helps identify more LSEs" 
+ . "Spatial and temporal locality play a big part in finding LSEs" 
+
+
+Block corruption : 
+ . symptoms :   corrupted or misplaced data
+ . causes : 	 physical damage , write via a faulty bus , write to a wrong location
+
+
+Fail-partial faults :
+ . silent : accessing bad sectors , disk seems to work 
+ . non-silent : accessing bad sectors => system lets user/client know 
+ 
 _

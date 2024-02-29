@@ -1,0 +1,21 @@
+
+Expect RPC congestion at the same server.
+
+
+
+===========================================================================================
+THREAD POOLS 
+===========================================================================================
+
+A server should be able to concurrently handle multiple requests.
+=> the server should have a pool of threads
+  |
+  |
+  . need a [STUB GENERATOR] on both the client and the server sides 
+  |
+  . the [MAIN THREAD] receives and sends messages 
+  . each one of the [WORKER THREADS] handles a single RPC
+  | 
+  . locks may be necessary 
+
+_

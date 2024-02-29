@@ -18,8 +18,9 @@ Consequences of message duplication :
 
 
 
-Message duplication monitoring :
- . the recipient uses the sequence counter to remember the ID of the latest message ,
+Message duplication monitoring : 
+ . a feature in TCP 
+ . the recipient uses the [SEQUENCE COUNTER] to remember the ID of the latest message ,
    ensuring that it does not act on a duplicate 
 
 ________________________________________________________________________________________

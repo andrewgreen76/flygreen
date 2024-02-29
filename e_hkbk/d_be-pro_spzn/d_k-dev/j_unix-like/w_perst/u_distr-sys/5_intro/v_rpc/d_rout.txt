@@ -1,5 +1,5 @@
 ====================================================================================
-RPC - METHOD AND BASIC ROUTINE : 
+RPC PACKAGING - THE METHOD AND THE BASIC ROUTINE : 
 ====================================================================================
 
 
@@ -11,15 +11,19 @@ RPC - METHOD AND BASIC ROUTINE :
  -> sends a request to the server 
  |
  . RPC's ARE NOT PRE-PACKAGED
- -> server accounts for the target service 
+ -> server accounts for the requested service 
  -> selects and bundles up function definitions of the target process' API for the service 
  |  in a single package as a distinct procedure within the server's memory/storage space
  |
- . the package , loaded with definitions , still resides on the server side 
- -> server takes the list of RPCalls in the package and exports it to the client
- -> client generates stubs - local representations of the RPCalls
- |   . stubs - client-side code that handles passing parameters and fetching returned values
+ . the package , loaded with function definitions , still resides on the server side
+ |
+ . stubs are generated on the server side 
+ |   . stub - local code that moves and processes function parameters and return values
  |   . need a stub generator (a.k.a. protocol compiler) 
+ |
+ -> server takes the list of RPCalls in the package and exports it to the client
+ -> client receives it like an API package 
+ -> stubs are generated on the client side  
  |  
  -> client combines its own codebase with the stubs into one source code and compiles it into an application
  -> marshaling : 
@@ -27,7 +31,7 @@ RPC - METHOD AND BASIC ROUTINE :
  |   . RPCall requests are digested into packets prior to transmission
  |
  -> server and client exchange messages
- -> server unmarshals and feeds the parameters
+ -> server unmarshals and feeds the function identifier and the parameters
  -> server marshals the results
  -> client unmarshals them 
 

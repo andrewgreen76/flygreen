@@ -16,6 +16,8 @@ Fault model :
 
 
 Fail-stop :
- . the model assumes a disk is either 100% usable or useless , nothing in the middle
+ . the model assumes that a disk is either 100% usable or useless , nothing in the middle ... 
+ . ... but the rest of the disks may still function and allow the drive to continue operating 
  . the RAID controller or software constantly monitors for disk failure (fault detection) 
+
 _

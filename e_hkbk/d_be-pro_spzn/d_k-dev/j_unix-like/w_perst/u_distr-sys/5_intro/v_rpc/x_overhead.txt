@@ -1,0 +1,19 @@
+=================================================================================
+RPC PERFORMANCE OVERHEAD 
+=================================================================================
+
+RPC is integrated into the transport layer.
+ |
+ |
+ - overhead w/ TCP : 
+ |  . timeout/retry
+ |  . extra acknowledgements
+ |  -> sacrifice of performance 
+ |  +> reliability (guarantee of delivery , ordered communication)
+ |
+ |
+ - prefer UDP :
+    + better performance
+    - unreliable 
+
+_

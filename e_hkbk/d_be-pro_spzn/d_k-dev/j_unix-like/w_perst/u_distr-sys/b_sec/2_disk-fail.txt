@@ -1,40 +1,42 @@
 ======================================================================================
-DISK FAILURE 
+DISK FAILURE TYPES - CAUSES AND DEGREES OF SEVERITY 
 ======================================================================================
+
+
+Latent-sector error :
+ |
+ |
+ . INACCESSIBLE sectors 
+ . damage by a head crash or cosmic rays
+ |
+ . data corruption awareness : NOT IMMEDIATELY NOTICEABLE
+ |
+ . expected solution : disk recovery 
+    . LSE's can be fixed by disk check utilities
+       . chkdsk on Windows
+       . fsck on Linux
+       . otherwise you'd want to have a JFS
+
+
+
+Block corruption : 
+  |
+  |
+ (1) caused by physical damage  
+ (2) caused by data transfer via a faulty bus 
+  |
+  . data corruption awareness : immediately noticeable
+  . expected solution : disk recovery  
+
 
 
 Fail-stop (recap) :
  |
  |
  . a way of responding to disk damage or corruption 
- . the disk is rendered useless at the slightest issue 
+ . THE DISK IS RULED USELESS at the slightest issue 
  |
  . data corruption awareness : immediately noticeable
- . expected outcome : disk replacement 
-
-
-
-Latent-sector error :
- |
- |
- . caused by physical damage to a sector or group of sectors on a storage device  
- |  . head crash 
- |  . cosmic rays
- |
- . LSE's can be fixed by disk check utilities
- |  . chkdsk on Windows
- |  . fsck on Linux
- |  . otherwise you'd want to have a JFS
- |
- . data corruption awareness : not immediately noticeable
- . expected outcome : disk recovery  
-
-
-
-Block corruption : 
- |
- |
- . data corruption awareness : immediately noticeable
- . expected outcome : disk recovery  
+ . expected solution : DISK REPLACEMENT 
 
 _

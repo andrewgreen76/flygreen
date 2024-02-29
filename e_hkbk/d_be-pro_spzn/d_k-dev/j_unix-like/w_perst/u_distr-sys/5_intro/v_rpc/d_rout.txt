@@ -1,0 +1,34 @@
+====================================================================================
+RPC - METHOD AND BASIC ROUTINE : 
+====================================================================================
+
+
+ . CLIENT-SERVER ARCHITECTURE
+ . a service is a process (for clients) 
+
+
+ . client wants to use remote services
+ -> sends a request to the server 
+ |
+ . RPC's ARE NOT PRE-PACKAGED
+ -> server accounts for the target service 
+ -> selects and bundles up function definitions of the target process' API for the service 
+ |  in a single package as a distinct procedure within the server's memory/storage space
+ |
+ . the package , loaded with definitions , still resides on the server side 
+ -> server takes the list of RPCalls in the package and exports it to the client
+ -> client generates stubs - local representations of the RPCalls
+ |   . stubs - client-side code that handles passing parameters and fetching returned values
+ |   . need a stub generator (a.k.a. protocol compiler) 
+ |  
+ -> client combines its own codebase with the stubs into one source code and compiles it into an application
+ -> marshaling : 
+ |   . a.k.a. serialization 
+ |   . RPCall requests are digested into packets prior to transmission
+ |
+ -> server and client exchange messages
+ -> server unmarshals and feeds the parameters
+ -> server marshals the results
+ -> client unmarshals them 
+
+_

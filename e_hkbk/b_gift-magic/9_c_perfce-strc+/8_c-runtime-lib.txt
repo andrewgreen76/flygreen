@@ -1,12 +1,19 @@
 
 The C runtime library includes :
-. standard C library :
-  . <stdio.h>
-  . <stdlib.h>
-  . <string.h>
-  . <math.h>
-. <time.h>
+ |
+ |
+ . standard C library :
+ |  . <stdio.h>	 - input/output 
+ |  . <stdlib.h>	 - memory mgmt 
+ |  . <string.h>	 - string processing 
+ |  . <math.h>	 - computations
+ |
+ |
+ . <time.h> 
 
+
+
+=====================================================================================================================================================
 
 "
 The C runtime library (CRT) is a set of precompiled functions and routines that provide essential services for C programs. It is an integral part of the C programming language and is linked with C programs to provide necessary runtime support. The CRT includes functions for input and output, memory allocation, string manipulation, mathematical operations, and other fundamental operations.

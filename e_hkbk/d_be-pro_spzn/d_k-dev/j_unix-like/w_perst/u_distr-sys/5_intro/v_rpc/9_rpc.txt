@@ -4,27 +4,17 @@
 
 
 ====================================================================================
-REMOTE PROCEDURE CALL (RPC) 
+REMOTE PROCEDURE CALL (RPC) - ABOUT : 
 ====================================================================================
 
 Shape/form :
- . a mechanism that follows a method
- . there are APIs that can help realize this mechanism 
+ . select codebase from process API is bundled , copied , and moved in packets
+   from the server's memory/storage to the client's memory 
+ . there are RPC APIs that can help realize this mechanism 
 
 Goal :
- . optimization of executing code of the process from the 2nd party 
- . "as straightforward as calling a local function"
-
-
-
-Method :
- . CLIENT-SERVER ARCHITECTURE 
- . server bundles up functions and routines of the process API
- . in an RPC 
- . RPC
-
-
-
- . RPC's come in packages 
-
+ . "RPC allows the invocation of procedures or methods on a remote server as if they were local"
+ . consolidation and optimization of executing code of the process on the server-side 
+ . the idea is to make remote access "as straightforward as calling a local function" 
+ 
 _

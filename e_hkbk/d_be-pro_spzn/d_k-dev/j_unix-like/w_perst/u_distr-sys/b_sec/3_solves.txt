@@ -2,7 +2,12 @@
 HANDLING LSE's
 =========================================================================================
 
+Solution : REDUNDANCY AND RECONSTRUCTION 
  . (in RAID) copying from the twin disk
- . (in RAID 4/5) using the parity disk or rotating parity 
+ . (in RAID 4/5) using the parity disk or rotating parity
+ - limited redundancy + one LSE = poor reconstruction
+    + solution : more redundancy (second parity disk)
+    - costs more
+    + logging in LFS can make up for that 
 
 _

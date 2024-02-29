@@ -1,0 +1,16 @@
+"
+While both log-structured design and journaling are techniques used in file systems for ensuring data consistency and recovery, they have some differences:
+
+1. **Log-Structured Design:**
+   - In a log-structured file system, write operations are sequentially appended to a log or journal.
+   - This sequential write pattern can improve write performance and simplify recovery processes.
+   - NetApp's WAFL is an example of a file system that incorporates log-structured design.
+
+2. **Journaling:**
+   - Journaling, on the other hand, is a broader concept that can be implemented in various file system designs, including log-structured ones.
+   - In journaling file systems, a journal (or log) is used to record metadata or changes to the file system structure before they are applied to the main file system.
+   - The journal ensures atomicity and consistency during system crashes or failures.
+
+In summary, log-structured design is a specific approach where write operations are organized in a log-like structure, and it is often associated with improved write performance. Journaling is a more general concept that includes various techniques, and log-structured file systems may incorporate journaling as part of their design for ensuring data integrity.
+"
+_

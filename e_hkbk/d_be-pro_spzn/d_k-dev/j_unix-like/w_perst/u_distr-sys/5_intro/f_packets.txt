@@ -5,6 +5,8 @@ PACKETS AND DATAGRAMS
 Packet :
  . the smallest structure for holding and transferring data
  . has its own format (header, body, etc.)
+ . 1.5 KB on Ethernet
+ . 64 KB on IPv4/IPv6 
  . packets may or may not have relation between one another
     . relation for the sake of ordered communication (1st packet , 2nd packet , etc.)
  . packets can be buffered together to form a single message prior to transmission 

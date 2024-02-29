@@ -5,7 +5,7 @@ Stripe :
  . every bit in a stripe is read off of the same location on every disk 
 
 Error :
- . an inadvertent change of a bit in a stripe due to a fault of the bit's disk 
+ . an inadvertent change of a bit in a stripe due to a fault in the bit's disk 
 =============================================================================================================
 SINGLE-DISK FAULT TOLERANCE : 
 =============================================================================================================

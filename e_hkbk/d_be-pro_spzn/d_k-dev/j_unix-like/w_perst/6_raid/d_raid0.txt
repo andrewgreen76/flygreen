@@ -8,12 +8,14 @@ Striping (block-level)
  . storing different pieces of the same data across different disks
  . every piece is written to a block (sector) on a separate disk 
  => non-redundancy 
+ => shouldn't be called a RAID 
  |
  + parallelized distribution => less time to carry out the same I/O vs. doing it with a single disk
     . T(size(tf)/N) < T(size(tf))
- + potentially saves seek time (b/c fewer blocks to R/W) 
+ + potentially saves seek time (b/c fewer blocks to R/W)
+ => fast 
  |
- - risk of data loss
+ - risk of data loss 
 
 =========================================================================
 RAID 0 PERFORMANCE 

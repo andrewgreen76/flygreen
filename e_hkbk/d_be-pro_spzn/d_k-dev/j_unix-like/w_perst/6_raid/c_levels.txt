@@ -1,3 +1,13 @@
+
+Common RAID types :
+ . RAID 0
+ . RAID 1
+ . RAID 5
+ . RAID 10
+
+============================================================================================================================================================
+============================================================================================================================================================
+============================================================================================================================================================
 "
 RAID (Redundant Array of Independent Disks) is broken up into several levels, commonly referred to as RAID levels, to provide different combinations of performance, fault tolerance, and capacity depending on the specific needs and requirements of a given computing environment. Each RAID level has its own characteristics, advantages, and trade-offs. Here are some reasons why RAID is broken up into different levels:
 

@@ -1,0 +1,28 @@
+
+How does a RAID deal with an even number of flipped bits? Wouldn't that go undetected?
+
+
+"
+In addition to parity checks, RAID controllers utilize checksums, cyclic redundancy checks (CRC), or other sophisticated error-detection mechanisms to enhance data integrity within a RAID array. These mechanisms involve generating a checksum or a hash value for each data block and comparing it against the stored checksum or hash value.
+
+Here's a more detailed explanation:
+
+1. **Checksums:**
+   - RAID controllers may employ checksums, which involve calculating a checksum value based on the contents of a data block.
+   - When data is read from the RAID array, the controller recalculates the checksum and compares it with the stored checksum. If a discrepancy is detected, an error is flagged.
+
+2. **Cyclic Redundancy Checks (CRC):**
+   - CRC is a mathematical algorithm used for error detection. It generates a fixed-size checksum based on the data in a block.
+   - The RAID controller recalculates the CRC value during read operations and compares it with the stored CRC. A mismatch indicates a potential error.
+
+3. **Multiple Parity Levels (RAID 6):**
+   - RAID 6, with its dual parity, allows the detection and correction of up to two simultaneous disk failures or flipped bits within a stripe.
+   - The RAID controller uses the additional parity information to identify and correct errors beyond what a single parity bit could handle.
+
+4. **Scrubbing and Periodic Checks:**
+   - Many RAID controllers implement background processes like data scrubbing or periodic checks.
+   - Scrubbing involves proactively reading and verifying data on all drives to detect latent errors, and periodic checks involve regular assessments of data integrity.
+
+By combining these methods with parity-based error correction, RAID controllers can offer a comprehensive approach to identifying and rectifying errors, ensuring the ongoing reliability of data stored in the RAID array.
+"
+_

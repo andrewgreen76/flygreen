@@ -8,7 +8,11 @@ Mirroring - for reliability (recalling safe duplicate data)
  . twin disks (i.e., no more than two)
  . no striping (actual redundancy involved)
  + parallel read of different blocks of the same data 
-   => better performance 
+   => better performance
+
+
+Duplexing :
+ . every twin has a dedicated controller 
 
 ===========================================================================================
 RAID 1 PERFORMANCE EVALUATION 

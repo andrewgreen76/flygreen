@@ -2,6 +2,9 @@
 RAID 5
 ===========================================================================================================
 
+ . MOST COMMON RAID SETUP
+    . fast
+    . capacious 
  . a.k.a. rotating parity 
  . similar to RAID 4
  . but parity information is distributed across all disks instead of being stored on a dedicated disk

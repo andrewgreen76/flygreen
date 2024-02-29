@@ -1,0 +1,54 @@
+
+Can we make memory-sharing happen between processes on different computers ? 
+ . one big virtual address space 
+
+
+
+===============================================================================================
+DISTRIBUTED MEMORY SHARING (DSM) SYSTEMS 
+===============================================================================================
+
+ . multiple threads on different machines (not different processes on the same machine)
+
+
+
+Ways for a DSM system to access the virtual memory on a machine :
+  (1) feeding off of 2nd party's process cached in the page table 
+  (2) page fault handler retrieves the process state from the 2nd party
+
+
+
+Issues with DSM :
+ - not fault-tolerant upon endpoint failure (some data structures or processing code become unavailable)
+ - not all DSM systems are cheap
+ - [packet congestion] is possible
+    => implementation has to [keep real-time traffic minimal]
+    => the communication is slow either way
+
+
+
+===============================================================================================
+ALTERNATIVES TO DSM : 
+===============================================================================================
+
+"
+Distributed Shared Memory (DSM) systems are still used in certain scenarios, but they have been complemented and, in some cases, supplanted by alternative paradigms and technologies. 
+
+1. **Message Passing:**
+   - Message Passing Interface (MPI) has gained prominence for distributed computing, allowing processes to communicate by explicitly passing messages. MPI is widely used in high-performance computing.
+
+2. **Data Parallelism:**
+   - Data parallelism models, such as those used in MapReduce and Apache Spark, distribute data and computation across nodes, reducing the need for shared memory.
+
+3. **Distributed Databases:**
+   - Distributed databases, like Apache Cassandra or Amazon DynamoDB, provide distributed data storage with consistent and partition-tolerant access.
+
+4. **Microservices Architecture:**
+   - Microservices architecture focuses on building independent, loosely-coupled services, each with its data storage, reducing the need for shared memory.
+
+5. **Cloud Computing:**
+   - Cloud computing platforms, such as AWS, Azure, and Google Cloud, offer scalable and distributed computing resources, often relying on virtualization and containerization.
+
+While DSMs are still used in certain contexts, the choice of distributed computing paradigm depends on the specific requirements and characteristics of the application or system.
+" 
+_

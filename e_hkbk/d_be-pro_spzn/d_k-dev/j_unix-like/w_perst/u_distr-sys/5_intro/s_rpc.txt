@@ -1,0 +1,30 @@
+
+"Programming language abstractions make far more sense than OS abstractions for constructing distributed systems. The most common abstraction is a remote procedure call, or RPC."
+
+
+
+====================================================================================
+REMOTE PROCEDURE CALL (RPC) 
+====================================================================================
+
+Shape/form :
+ . a mechanism that follows a method
+ . there are APIs that can help realize this mechanism 
+
+Goal :
+ . optimization of executing code of the process from the 2nd party 
+ . "as straightforward as calling a local function"
+
+
+
+Method :
+ . CLIENT-SERVER ARCHITECTURE 
+ . server bundles up functions and routines of the process API
+ . in an RPC 
+ . RPC
+
+
+
+ . RPC's come in packages 
+
+_

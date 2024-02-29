@@ -1,0 +1,24 @@
+"
+Yes, there are APIs (Application Programming Interfaces) provided by various RPC (Remote Procedure Call) frameworks and libraries. These APIs allow developers to use and implement RPC functionality in their applications. Here are examples of RPC frameworks and their associated APIs:
+
+1. **gRPC:**
+   - **API:** gRPC provides APIs for multiple programming languages, including C++, Java, Python, Go, and others. Developers use these APIs to define services, create clients and servers, and make remote procedure calls. The gRPC API is often generated using Protocol Buffers (Protobuf).
+
+2. **Apache Thrift:**
+   - **API:** Thrift offers APIs for different programming languages, such as Java, C++, Python, and more. Developers use the Thrift API to define data types and services, create clients and servers, and perform remote procedure calls.
+
+3. **Java RMI (Remote Method Invocation):**
+   - **API:** Java RMI has an API that allows Java developers to define remote interfaces, implement server-side methods, and create clients that invoke remote procedures. The API is part of the Java standard library.
+
+4. **XML-RPC and JSON-RPC:**
+   - **API:** These RPC protocols, based on XML and JSON, respectively, define simple APIs for making remote calls over HTTP. Libraries for various programming languages provide APIs to encode and decode RPC requests and responses.
+
+5. **JSON-RPC 2.0:**
+   - **API:** JSON-RPC 2.0 has a simple and language-agnostic API. Developers use JSON-RPC libraries in their preferred programming languages to create and consume JSON-RPC messages.
+
+6. **.NET Remoting:**
+   - **API:** .NET Remoting, a technology in the .NET Framework, provides APIs for defining remote interfaces, creating server objects, and making remote calls between .NET applications.
+
+These examples showcase that each RPC framework typically comes with its own set of APIs that developers use to interact with the RPC system. These APIs abstract the complexities of remote communication, allowing developers to focus on defining services, making remote calls, and handling distributed computing aspects.
+"
+_

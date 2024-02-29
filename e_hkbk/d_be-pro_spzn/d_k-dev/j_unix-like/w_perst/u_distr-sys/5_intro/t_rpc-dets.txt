@@ -1,0 +1,39 @@
+"
+Step by step, the process for a server to export routines to a client typically involves the following:
+
+1. **Server Initialization:**
+   - The server initializes itself and sets up the necessary resources for handling client requests.
+
+2. **Routine Definition:**
+   - The server defines the routines or functions that it intends to export to clients. These routines encapsulate specific functionalities or services.
+
+3. **Remote Procedure Call (RPC) Mechanism:**
+   - The server utilizes a Remote Procedure Call (RPC) mechanism to expose its routines to clients. RPC allows the invocation of procedures or methods on a remote server as if they were local.
+
+4. **Interface Definition:**
+   - The server defines an interface that describes the available routines, including the names of the routines, their parameters, and return types. This interface acts as a contract between the server and clients.
+
+5. **Stub Generation:**
+   - Based on the interface definition, stubs or proxies are generated. Stubs act as local representatives of the remote routines on the client side. They handle the communication details between the client and server.
+
+6. **Client Compilation:**
+   - The client incorporates the generated stubs into its code and compiles the application.
+
+7. **Client Invocation:**
+   - The client invokes the exported routines using the local stubs. From the client's perspective, the invocation appears as a local procedure call.
+
+8. **Marshalling and Communication:**
+   - Parameters and results of the routine calls are marshaled (serialized) into a format suitable for transmission over the network. The client and server communicate to exchange these messages.
+
+9. **Server Processing:**
+   - The server receives the RPC request, unmarshals the parameters, and executes the corresponding routine.
+
+10. **Result Marshalling:**
+    - The server marshals the results into a response message, which is sent back to the client.
+
+11. **Client Unmarshalling:**
+    - The client unmarshals the results and continues its execution, treating the remote procedure call as a regular local function call.
+
+This process allows a server to export specific routines or services to clients, enabling remote clients to invoke these routines as if they were local, providing a form of distributed computing. The RPC mechanism abstracts the complexities of network communication, making remote invocations seamless for developers.
+"
+_

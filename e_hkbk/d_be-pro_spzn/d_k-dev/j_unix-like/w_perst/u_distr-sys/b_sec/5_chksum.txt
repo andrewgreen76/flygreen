@@ -1,0 +1,43 @@
+===================================================================================
+CHECKSUMS - FOR DETECTION AND RECOVERY   
+===================================================================================
+
+
+Why a CHECKSUM :
+ |
+ |
+ . a 4B-8B number (written in hex) 
+ . represents the state of much larger corresponding data 
+ |  . 1 memory block (a few KB) 
+ |  . 1 disk sector  (512 B)
+ |  . 1 packet	     (1.5KB , 64KB , etc.)
+ |
+ . like a "summary" 
+
+
+
+Computation : 
+ =  f ( large data )
+
+
+
+Stored where :
+ . in the inode table 
+ . between data blocks
+ . etc. 
+
+
+
+Trade-offs :
+ |
+ |
+ + supreme error detection
+ |  . missed by parity checks 
+ |  . silent faults 
+ |
+ - resource-intensive
+ - periodic use , not persistent 
+ |
+ => more sophisticated than parity checks 
+
+_

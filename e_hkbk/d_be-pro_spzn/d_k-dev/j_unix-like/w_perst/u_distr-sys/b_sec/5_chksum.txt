@@ -12,8 +12,7 @@ Why a CHECKSUM :
  |  . 1 disk sector  (512 B)
  |  . 1 packet	     (1.5KB , 64KB , etc.)
  |
- . like a "summary" 
-
+ . naturally , old and new checksums are compared to detect unwarranted change 
 
 
 Computation : 

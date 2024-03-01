@@ -2,15 +2,59 @@
 NFSv2 : 
 ========================================================================================
 
- + stateless
- + one protocol request packs a punch
- 
- . can manage packets with file ops meant for more than one file at a time 
 
-One protocol request :
- . file handle - ID of target file/dir
-    . volume ID - ID of target file system
-    . 
- . 
+Exporting :
+ . server makes a file/dir/FS available to NFS clients 
+ + NFSv2 can export more than one file/dir/FS at a time
+
+
+
+NFSv2 request - constitution :
+  |
+  . needs a file handle (a composite target ID) 
+  |  . volume ID - ID of target file system (when working with multiple targets at a time)	// where : FS
+  |  . inode  	 - specifies the target file    	  	       		    		// what  : file 
+  |  . client ID - helps distinguish clients and their instances				// user  : who wants to access 
+  |     . a.k.a. client's generation number 
+  |     . the incremented value is given to every new handle 
+  |
+  . messages - NFS calls 
+
+
+
+========================================================================================================================================================
+NFS API : 
+========================================================================================================================================================
+
+NFSPROC GETATTR file handle
+returns: attributes
+
+NFSPROC SETATTR file handle, attributes
+returns: –
+
+NFSPROC LOOKUP directory file handle, name of file/dir to look up
+returns: file handle
+
+NFSPROC READ file handle, offset, count
+data, attributes
+
+NFSPROC WRITE file handle, offset, count, data
+attributes
+
+NFSPROC CREATE directory file handle, name of file, attributes
+–
+
+NFSPROC REMOVE directory file handle, name of file to be removed
+–
+
+NFSPROC MKDIR directory file handle, name of directory, attributes
+file handle
+
+NFSPROC RMDIR directory file handle, name of directory to be removed
+–
+
+NFSPROC READDIR directory handle, count of bytes to read, cookie
+returns: directory entries, cookie (to get more entries)
+========================================================================================================================================================
 
 _

@@ -1,0 +1,7 @@
+
+Protool message :
+ . an individual file-op
+ . based on the protocol's API
+ . meant to be bundled with other messages to make up a request 
+
+_

@@ -1,0 +1,16 @@
+========================================================================================
+NFSv2 : 
+========================================================================================
+
+ + stateless
+ + one protocol request packs a punch
+ 
+ . can manage packets with file ops meant for more than one file at a time 
+
+One protocol request :
+ . file handle - ID of target file/dir
+    . volume ID - ID of target file system
+    . 
+ . 
+
+_

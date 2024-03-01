@@ -1,3 +1,7 @@
+======================================================================================
+DISK FAILURE TYPES ("DISK FAILURE MODES") : 
+======================================================================================
+
 
 Fail-stop (recap) :
  |
@@ -8,11 +12,6 @@ Fail-stop (recap) :
  . data corruption awareness : immediately noticeable
  . expected solution : DISK REPLACEMENT 
 
-
-
-======================================================================================
-DISK FAILURE TYPES : 
-======================================================================================
 
 Silent faults : 
  . a type of disk failure

@@ -3,6 +3,7 @@ LOST WRITES :
 ========================================================================================
 
 
+ . a disk failure mode 
  . a write did not reflect on the recipient disk
     . an integrity check for every disk-to-disk write
        . phys.IDs 

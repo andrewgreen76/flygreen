@@ -5,11 +5,17 @@ MISDIRECTED WRITES IN RAID :
 
 Say we want to mirror a disk. 
 |
+|
+|
 It's one thing to get a good data block. It's another thing to write it to the correct sector.
- . a physical identifier (ID) would accompany the data block and the checksum sector
-    + disk no. 
-    + block no. - offset 
-    . block offsets don't match => misdirected write detected 
+  |
+  . a physical identifier (ID) would accompany the data block and the checksum sector
+  |  + disk no. 
+  |  + block no. - offset
+  |
+  . block offsets don't match => misdirected write detected
+     . a disk failure mode 
+
 
 
 More redundancy could help in troubleshooting. 

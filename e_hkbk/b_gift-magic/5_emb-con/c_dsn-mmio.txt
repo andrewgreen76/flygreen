@@ -3,9 +3,9 @@ RAM LAYOUT : MMIO , ETC.
 ==============================================================================
 
 Needs APIs :						ROM 
-							...
  							----------------------
- . "OS" copy						copied system code 
+							copied post-boot 
+ . "OS" copy						prog/rout code 
  | 							----------------------
  . keypad / keyboard / buttons 				keyboard buffer
  |  	    	       					----------------------

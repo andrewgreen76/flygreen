@@ -1,0 +1,113 @@
+========================================================================================
+FLETCHER'S CHECKSUM FUNCTION : 
+========================================================================================
+
+
+IMPORTANT THING TO REMEMBER : 
+ . checksum width = input data width 
+
+
+
+Computations (given 16-bit data , 16-bit checksum) :
+  |
+ (1) sum1 = 0
+  |  sum2 = 0 
+  |
+ (2) for every byte : 
+  |  	 sum1 = sum1 + byte_val
+  |	 sum2 = sum2 + sum1
+  |
+ (3) chksum = (sum2 % 255) cat (sum1 % 255)	// not 256 (255 possible checksum vals) 
+     chksum = ((sum2 % 255) <<8) | (sum1 % 255)	
+
+
+
+There are a few common variants of this function :
+ . Fletcher-16 (16-bit data , 16-bit checksum) 
+ . Fletcher-32 (32-bit data , 32-bit checksum => % 65,025) 
+ . Fletcher-64 (64-bit data , 64-bit checksum => % 4,228,250,625)
+
+
+
+Outcome :
+ . a mismatch of Fletcher checksums
+ <= individual bits got flipped
+ <= multiple burst error (multiple consecutive bits got flipped) 
+
+
+
+Named after John G. Fletcher (of Lawrence Livermore National Laboratory). 
+
+
+===========================================================================================================================================================
+===========================================================================================================================================================
+===========================================================================================================================================================
+
+Given a piece of data , like the string "HELLO" , compute Fletcher's checksum.
+
+      	       0000 0000
+      	       0000 0000
+      	       0000 0000
+      H = 72 = 0100 1000
+      E = 69 = 0100 0101
+      L = 76 = 0100 1100	64 < 40 < 32
+      L = 76 = 0100 1100
+      O = 79 = 0100 1111
+
+      We need two variables : sum1 and sum2.
+       . sum1 = 0 
+       . sum2 = 0
+
+      => sum1 = 372  = 0000 0000 0000 0000 0000 0001 0111 0100		(% 255 = 117 = 0111 0101) 
+      	 sum2 = 1095 = 0000 0000 0000 0000 0000 0100 0100 0111  	(% 255 =  75 = 0100 1011)
+	 chksum	====== 0000 0000 0000 0000 0000 0001 0111 0100 0000 0000 0000 0000 0000 0100 0100 0111 
+
+===========================================================================================================================================================
+
+"
+Let's take a small example where we want to compute Fletcher's checksum for the ASCII string "HELLO". Each character in the string will be represented by its ASCII value.
+
+1. **Data:**
+   ASCII values for each character in "HELLO":
+   ```
+   H: 72
+   E: 69
+   L: 76
+   L: 76
+   O: 79
+   ```
+
+2. **Initialization:**
+   ```
+   sum1 = 0
+   sum2 = 0
+   ```
+
+3. **Processing:**
+   Process each character and update the sums:
+   ```
+   sum1 += 72   (H)
+   sum2 += sum1
+
+   sum1 += 69   (E)
+   sum2 += sum1
+
+   sum1 += 76   (L)
+   sum2 += sum1
+
+   sum1 += 76   (L)
+   sum2 += sum1
+
+   sum1 += 79   (O)
+   sum2 += sum1
+   ```
+
+4. **Result:**
+   Concatenate the values of \(sum1\) and \(sum2\) as the final checksum:
+   ```
+   Fletcher's checksum = "224040"
+   ```
+
+In this example, I used ASCII values for simplicity, but Fletcher's checksum is more commonly applied to binary data. The resulting checksum can be used for error-checking purposes during data transmission or storage.
+"
+_

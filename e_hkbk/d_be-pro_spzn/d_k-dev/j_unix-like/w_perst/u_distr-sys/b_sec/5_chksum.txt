@@ -7,7 +7,7 @@ Why a CHECKSUM :
  |
  |
  . a 4B-8B number (written in hex) 
- . represents the state of much larger corresponding data 
+ . mini-representation of the "state" of much larger corresponding data 
  |  . 1 memory block (a few KB) 
  |  . 1 disk sector  (512 B)
  |  . 1 packet	     (1.5KB , 64KB , etc.)
@@ -36,7 +36,5 @@ Trade-offs :
  |
  - resource-intensive
  - periodic use , not persistent 
- |
- => more sophisticated than parity checks 
 
 _

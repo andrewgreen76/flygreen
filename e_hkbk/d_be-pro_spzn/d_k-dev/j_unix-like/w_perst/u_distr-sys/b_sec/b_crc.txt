@@ -1,0 +1,12 @@
+========================================================================================
+CRC (CYCLIC REDUNDANCY CHECKSUM) 
+========================================================================================
+
+Simple.
+
+CRC = dblk_val % k
+ . dblk_val - value in data block
+ . k - some positive integer (fixed by design)
+ . deemed to be very useful in resource-intensive activities like networking 
+
+_

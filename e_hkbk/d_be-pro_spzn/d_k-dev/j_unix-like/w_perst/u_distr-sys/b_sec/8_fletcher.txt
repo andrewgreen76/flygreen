@@ -3,11 +3,6 @@ FLETCHER'S CHECKSUM FUNCTION :
 ========================================================================================
 
 
-IMPORTANT THING TO REMEMBER : 
- . checksum width = input data width 
-
-
-
 Computations (given 16-bit data , 16-bit checksum) :
   |
  (1) sum1 = 0
@@ -29,18 +24,29 @@ There are a few common variants of this function :
 
 
 
-Outcome :
+Outcome : 
+ |
  . a mismatch of Fletcher checksums
- <= individual bits got flipped
- <= multiple burst error (multiple consecutive bits got flipped) 
+ |  <= individual bits got flipped
+ |  <= multiple burst error (multiple consecutive bits got flipped)
+ |
+ . in a basic example : checksum width = input data width
+ . in a real-world example : we want some compression from checksum mapping 
+    .   ~125 : 1    // 512 bytes of data to 4 bytes of the checksum file  
+    .  ~1000 : 1    // 1,024
+    . ~16000 : 1    // 16 * 1,024 = 16,384 
 
-
-
-Named after John G. Fletcher (of Lawrence Livermore National Laboratory). 
 
 
 ===========================================================================================================================================================
+TRIVIA : 
 ===========================================================================================================================================================
+
+ . named after John G. Fletcher (of Lawrence Livermore National Laboratory)
+ . late 1970s 
+
+===========================================================================================================================================================
+EXAMPLES : 
 ===========================================================================================================================================================
 
 Given a piece of data , like the string "HELLO" , compute Fletcher's checksum.

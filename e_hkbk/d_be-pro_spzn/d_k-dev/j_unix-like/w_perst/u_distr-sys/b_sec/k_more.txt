@@ -1,0 +1,35 @@
+========================================================================================
+CHECKSUMMING OVERHEAD (AND WHAT WE CAN DO ABOUT IT) : 
+========================================================================================
+
+
+
+Minimal overhead : 
+ . 4KB (data) : 8B (checksum) = 0.19% capacity
+ 
+
+
+Significant overhead :
+ |
+ - during key disk I/O procedures the CPU has to the following for every data block :  
+ |  . retrieve the stored checksum FROM THE DISK
+ |  . retrieve the data block FROM THE DISK 
+ |  . compute a new checksum for the integrity check
+ |
+ - routine idle-time maintenance calls for checksumming
+    - CPU overhead
+    - I/O overhead
+    + can be configured to shorten the scrubbing time 
+
+
+
+========================================================================================
+POSITIVE SIDE-EFFECTS : 
+========================================================================================
+
+ + comparing checksums only (no direct data check)
+    + saves time
+    + also saves RAM space 
+
+
+_

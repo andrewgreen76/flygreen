@@ -1,0 +1,38 @@
+========================================================================================
+POSSIBLE LAYOUTS FOR A FILE SYSTEM WITH CHECKSUMS : 
+========================================================================================
+
+
+Each single checksum is written into its own sector. 
+
+----------------------------------------------------------------------------------------
+
+A.
+
+         8B   512B  8B   512B  8B   512B  8B   512B  
+    ... |c |   D   |c |   D   |c |   D   |c |   D   | ...
+
+
+ . integrating 8B alternating checksums into a file system on a drive with an arm that makes
+ | 512-byte seeks between alternating data blocks is not a good idea
+ |
+ => some vendors make drives with arms that makes 520-byte seeks 
+
+
+ . for technical reasons it is much easier to engineer a disk arm to make huge jump 
+
+----------------------------------------------------------------------------------------
+
+B.  
+	 ____64_8B_chksum_blks_=_512B____|_________64_512B_data_blocks________
+        |8B 8B 8B 8B ........... 8B 8B 8B|  512B    512B    512B    512B  
+    ... |c |c |c |c |...........|c |c |c |   D   |   D   |   D   |   D   | ...
+    	|     	    		      	 |
+    	|_____or_in_multiples_of_64______|________or_in_multiples_of_64_______
+
+----------------------------------------------------------------------------------------
+
+Whatever the layout , before writing to a data block , the corresponding checksum sector
+must be updated first. So , a write for the checksum and a write for the data block. 
+
+_

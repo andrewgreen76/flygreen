@@ -1,0 +1,17 @@
+========================================================================================
+DISK SCRUBBING : 
+========================================================================================
+
+
+Data corruption can snowball in a system.
+We need to decide when to perform a comprehensive disk check. 
+ |
+ |
+ . periodic scanning 
+ |  . every night
+ |  . every week
+ |
+ . data blocks are checked
+ . checksums are compared 
+
+_

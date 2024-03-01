@@ -1,0 +1,23 @@
+========================================================================================
+THE BRASS TACKS - USING CHECKSUMS : 
+========================================================================================
+
+A client
+  |
+  |
+  = FS
+  = storage controller
+  = etc.
+  |
+  |
+  . lifts a data block from the server
+  . lifts the corresp. stored checksum from the server
+  -> computes another checksum locally
+  -> matches the checksums to ensure data integrity
+  |
+  |
+  (a) all is good ; make it available to the user
+  (b) data is corrupted ; deploy a copy of the data block from the redundant (twin) disk instead
+     . no copy => tough luck ! Should have known better. 
+
+_

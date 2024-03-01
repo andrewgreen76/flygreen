@@ -33,7 +33,7 @@ Latent-sector error :
 
 Block corruption : 
  . symptoms :   corrupted or misplaced data
- . causes : 	 physical damage , write via a faulty bus , write to a wrong location
+ . causes : 	physical damage , write via a faulty bus , write to a wrong location (misdirected write) 
 
 
 Fail-partial faults :

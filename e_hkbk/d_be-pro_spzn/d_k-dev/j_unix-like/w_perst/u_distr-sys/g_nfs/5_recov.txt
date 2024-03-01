@@ -1,15 +1,35 @@
 ========================================================================================
-FAST RECOVERY IN NFS : 
+STATEFUL PROTOCOL : 
 ========================================================================================
 
 
-Stateful protocol :
- . 
+Every individual client request is BROKEN UP into separate client-server transfer sessions. 
 
 
+Idea for server's recovery from a crash - keeping track of data transfer state. 
+ . state is retained by the client
+ . shared with the server in the event of a server failure
+ . simply called "shared state" 
+ . a.k.a. distributed state
+
+
+PROBLEM - example :
+  |					      |---------- R E C O V E R Y    T I M E -------------|
+  . file-ops sharing -> !!! SERVER CRASH !!! -> subsequent file-op/data packet transfer is missed -> server recovers
+  |
+  => necessitates a recovery protocol : 
+    . server crash event : the client would have to keep track of the state (where the two sides are at with file-ops) 
+    . client crash event : server misses a request anyway
+    
+
+
+========================================================================================
+FAST RECOVERY IN NFS : 
+========================================================================================
 
 Stateless protocol :
- . does away with the overhead of tracking what a client does
- . the server just does its job 
+  |
+  . a single one-way transfer packs all the info needed to fulfill a single client request 
+  . does away with the overhead of tracking where the client and the server are at with file ops  
 
 _

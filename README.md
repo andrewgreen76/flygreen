@@ -49,7 +49,8 @@ Linux :
  . journaling , JFS , ext3 , etc.
  . LFS (log-structured file systems) 
  . SSD tech and mechanisms
- . disk faults , checksums , checksum functions 
+ . disk faults , checksums , checksum functions
+ . DFS , NFS , AFS 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

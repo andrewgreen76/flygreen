@@ -8,7 +8,17 @@ Can we make memory-sharing happen between processes on different computers ?
 DISTRIBUTED MEMORY SHARING (DSM) SYSTEMS 
 ===============================================================================================
 
- . multiple threads on different machines (not different processes on the same machine)
+
+ . clients can leverage [SERVICES] and other features
+ |  . centralized administration (backups are made on servers , not clients)
+ |  . security 
+ |
+ . clients can [SHARE DATA] with one another via the server
+ |
+ => like a hybrid of client-server and P2P
+
+
+ . involves multithreading 
 
 
 

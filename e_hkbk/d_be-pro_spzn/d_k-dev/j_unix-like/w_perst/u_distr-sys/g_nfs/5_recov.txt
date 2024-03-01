@@ -1,0 +1,15 @@
+========================================================================================
+FAST RECOVERY IN NFS : 
+========================================================================================
+
+
+Stateful protocol :
+ . 
+
+
+
+Stateless protocol :
+ . does away with the overhead of tracking what a client does
+ . the server just does its job 
+
+_

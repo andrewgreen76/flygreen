@@ -1,0 +1,48 @@
+========================================================================================
+DISTRIBUTED FILE SYSTEMS : 
+========================================================================================
+
+Client apps use the [CLIENT-SIDE FILE SYSTEM]. 
+
+  (1) access to local files and dirs
+
+  (2) main application : transparent access to files on a remote server 
+   |   	   	       : fast back-and-forth client-server piecemeal sharing via packets 
+   |
+   |
+   |  ===================================== INIT w/ a syscall ======================================
+   |  . client issues a syscall (file-op) 
+   |  -> OS VFS layer (around the kernel) makes a note of the syscall
+   |  -> VFS talks to DFS (client module)
+   |  -> DFS feeds off the syscall file-op to make a network request packet
+   |	 . file path
+   |	 . file-op type
+   |  ------------------------------- NETWORKING LAYER - HANDSHAKE ---------------------------------
+   |  -> sends the packet to the server 
+   |  -> server file system module catches and processes the packet
+   |  -> sends a response to the client
+   |  -> client receives & unmarshals the packet
+   |  -> client comes up with a return value for its own syscall
+   |  ----------------------------------------------------------------------------------------------
+   |  -> a plethora of other syscalls are necessary to execute any one simple thing (think strace)
+   |  ##############################################################################################
+   |  ##############################################################################################
+   |  ====================================== FILE OP SYSCALLS ======================================
+   |  . client issues a syscall (file-op) 
+   |  -> OS VFS layer (around the kernel) makes a note of the syscall
+   |  -> VFS talks to DFS (client module)
+   |  -> DFS feeds off the syscall file-op to make a network request packet
+   |	 . file path
+   |	 . file-op type
+   |  ------------------------------- NETWORKING LAYER - HANDSHAKE ---------------------------------
+   |  -> sends the packet to the server
+   |  -> server file system module catches and processes the packet	// space and data within are treated as though they belong to the client
+   |  -> accesses a disk block or a cache page 		     		// e.g., file descriptors 
+   |  -> sends a response to the client	  		  		// fast back-and-forth client-server piecemeal sharing via packets
+   |  -> client receives & unmarshals the packet , comes up with data
+   |  -> data is buffered (to be read by a client app) 
+   |  -> (data may also get cached on a disk) 
+   |  -> client comes up with a return value for its own syscall 
+   |  ==============================================================================================
+   
+_

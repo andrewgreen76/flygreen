@@ -24,7 +24,7 @@ Another checksum can be added to ensure the write actually happened.
  . the data block - not so much
  > mismatch : inode's checksum =/= computed checksum 
  - fails when both the inode (w/ the checksum) and the data block are lost
- |  . ... but that's highlt unlikely 
+ |  . ... but that's highly unlikely 
  |
  . ex.: Sun's Zettabyte File System (ZFS)
 

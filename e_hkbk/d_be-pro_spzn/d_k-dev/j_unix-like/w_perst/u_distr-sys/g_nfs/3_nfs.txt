@@ -1,0 +1,39 @@
+========================================================================================
+NETWORK FILE SYSTEMS : 
+========================================================================================
+
+
+History :
+  |
+  . Andrew File System (AFS) - a concept developed by Andrew S. Tanenbaum
+  . led to the fruition of NFS by Sun Microsystems
+  . NFSv2
+     . launched in 1985
+     . was very hot
+     . one server for all the clients in the network 
+     . main principle : FAST , SIMPLE RECOVERY
+	. especially in the face of heavy network traffic
+	. b/c if the server fails , the entire network system does 
+  . NFSv3 came along in 1995 
+
+
+
+NFS : 
+  |
+  . features an open protocol (i.e., it's non-proprietary) 
+  . design lifting , forking , like server building , competition are OK
+  |  . interoperability is strongly encouraged
+  |
+  . NFSv2 - the ultimate expression of what NFS is about
+     . fast, simple recovery in the event of a failure 
+
+
+
+Vendors today :
+     . Oracle
+     . NetApp
+     . EMC
+     . IBM
+     . etc.
+
+_

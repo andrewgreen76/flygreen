@@ -37,6 +37,9 @@ Block corruption :
 
 Fail-partial faults :
  . silent : accessing bad sectors , disk seems to work 
- . non-silent : accessing bad sectors => system lets user/client know 
- 
+ . non-silent : accessing bad sectors => system lets user/client know
+
+
+"Disk failure modes include mechanical failures (e.g., motor failure, head crash), electronic failures (e.g., controller issues), firmware corruption, bad sectors, logical errors, and wear-out in the case of solid-state drives (SSDs)."
+
 _

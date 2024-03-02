@@ -1,0 +1,22 @@
+========================================================================================
+THE ANDREW FILE SYSTEM (AFS) 
+========================================================================================
+
+ . a DFS 
+ . designed by Andrew S. Tanenbaum 
+ . aims at scalability
+ . transparency
+
+
+ . whole-file caching
+    |
+    . in NFS only individual blocks of the target file are cached
+    |
+    > in AFS the entire file is cached
+    . on the client's disk 
+    + relying less on the server and network connectivity
+      is supposed to improve file management performance
+    . AFS_Fetch in AFSv1 
+
+
+_

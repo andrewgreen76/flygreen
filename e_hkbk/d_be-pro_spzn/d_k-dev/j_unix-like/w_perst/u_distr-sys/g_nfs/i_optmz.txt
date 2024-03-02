@@ -10,13 +10,12 @@ Massive I/O traffic on the link :
  + CACHING :
  |  . Instead of having the server playing close to the vest
  |    and the client sending tons of requests over the link ,
- |    a copy of the target can be moved over the link once
+ |    a copy of the file can be moved over the link once
  |    and [CACHED] on the client's side.
  |
  + BUFFERING :
     . If we want to change the file and keep the updates ,
       we can write directly to the copy (located in the write buffer)
       and send it back to overwrite the original on the server's disk. 
-
 
 _

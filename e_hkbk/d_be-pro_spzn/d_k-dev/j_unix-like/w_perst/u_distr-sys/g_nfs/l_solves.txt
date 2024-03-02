@@ -1,0 +1,38 @@
+==================================================================================================
+NFSv2 SOLUTIONS FOR CACHE CONSISTENCY : 
+==================================================================================================
+
+
+Stale cache = cache holding an out-of-date copy of the master file. 
+ . (i.e., the master file has been updated) 
+
+
+
+1) flush-on-close :
+   . the first client to close the file will have the updates flushed towards the server
+   . the other clients will have the updates exported to them
+   - clients would retain their stale copies that the server would have to accept
+      . these copies need to be erased instead 
+
+
+
+2) real-time update of time-of-modification on both the server and the client sides
+   . "Each cached block generates a GETATTR request to the server."
+   |
+  (a) -> t_mod(cl_cache) < t_mod(server)    =>    timeout : client copy is old and will be invalidated 
+   |  -> client cache gets cleared
+   |  -> "subsequent reads get the latest version"
+  (b) -> t_mod(cl_cache) >= t_mod(server)   =>	  client copy is "still fresh" 
+   |
+   |
+   . Drawbacks : 
+     |
+     - repeated GETATTR query overhead
+     - need an attribute cache
+     |  - complicates client-side implementation
+     |	- versions of the same file need to be kept track of 
+     |
+     - even when t_mod(cl_cache) >= t_mod(server) , it's hard to tell which copy must be kept 
+
+
+_

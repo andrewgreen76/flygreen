@@ -1,0 +1,15 @@
+==================================================================================================
+CACHE CONSISTENCY PROBLEM : 
+==================================================================================================
+
+
+What if we have multiple clients working on their own copies of the same file
+and they decide to make changes to the same master ?
+  |
+  => updates will not occur in real time 
+  => we have a problem
+  |
+  . a.k.a. update visibility problem 
+
+
+_

@@ -1,0 +1,23 @@
+========================================================================================
+BUFFERING ON THE SERVER SIDE : 
+========================================================================================
+
+
+Servers cache and buffer their data/metadata in RAM (before writing to disk). 
+  |
+  + improves performance
+  |
+  . server could notify the client of every successful write to RAM before the write to disk 
+  - [request x+1] can arrive before [execution of x]
+     . this race of operations leads to inconsistencies between [client_cache/server_RAM] and [server_disk]
+     => forcing the writes : every write should be completed before letting the client know
+
+
+
+Write-to-disk bottleneck is still a possibility.
+ . there are a few solutions 
+ . one solution : a faster secondary persistent storage - battery-backed memory
+ . from NetApp
+ . some disk-write traffic is deferred , thinning out the workload 
+
+_

@@ -1,0 +1,44 @@
+========================================================================================
+POSSIBLE SERVER FAILURES - CAUSE AND EFFECT : 
+========================================================================================
+
+ .    request lost 
+ .    server is offline (made unavailable)  ->    lack of responsiveness to the client (requests are ignored) 
+ .    crash   ->   loss of communication    ->    lack of responsiveness to the client (requests are ignored)
+ .    reply lost
+ 
+
+A client can retry. 
+  (a) server responds => timer is cancelled
+  (b) server does not respond before timer expires => client can resend the request 
+
+
+========================================================================================
+IDEMPOTENT OPERATIONS AND RECOVERY : 
+========================================================================================
+
+ . "the result of repeating the same operation is the same every time"
+ . operations that make no impact on the data ... WELL , NOT EXACTLY
+ . change in the result after the first execution ; no change after repeated executions of the same operation
+ . when a server fails to respond to any idempotent operation , it is safe to retry it 
+ . retrying stops when the client hears back from the server 
+
+
+Examples : 
+ . retrying LOOKUP
+ . retrying READ (at file's origin)
+ . retrying a logical operation
+ . retrying file creation/deletion
+ . retrying bitwise WRITE (overwrite of the same piece ; see below)
+ |  
+ . NFS crash recovery relies on idempotence
+ |  . no need to worry about accidental unwarranted alterations ; they won't happen
+ |
+ . NFS operations (or queries) are idempotent 
+
+
+Non-idempotent operations :
+  . retrying an arithmetic operation 
+  . retrying append-write or insert-write 
+
+_

@@ -1,0 +1,73 @@
+========================================================================================================================================================
+NFSv2 API : 
+========================================================================================================================================================
+
+
+Mount protocol :
+ . granting access to FS's "/" 
+
+
+#####################################################################
+			     API list : 
+#####################################################################
+*********************************************************************
+			      LOOKUP
+*********************************************************************
+
+ . accessing a file
+ 
+ . like stat()
+
+ . given a file path , an individual LOOKUP call is needed to access
+   each dir and the target file 
+ 
+  NFSPROC LOOKUP directory file handle, name of file/dir to look up 
+  returns: {
+      file handle ,
+      attributes {
+	  creat_date , 
+	  mod_date , 
+	  file_size ,
+	  owner ,
+	  permissions 
+      }
+  }
+*********************************************************************
+			     GETATTR
+*********************************************************************
+NFSPROC GETATTR file handle
+returns: {
+    attributes {
+        last_update_time ,
+	etc. 
+    }
+}
+*********************************************************************
+			      OTHERS
+*********************************************************************
+NFSPROC SETATTR file handle, attributes
+returns: –
+
+NFSPROC READ file handle, offset, count, filename 
+data, attributes
+
+NFSPROC WRITE file handle, offset, count, data
+attributes
+
+NFSPROC CREATE directory file handle, name of file, attributes
+–
+
+NFSPROC REMOVE directory file handle, name of file to be removed
+–
+
+NFSPROC MKDIR directory file handle, name of directory, attributes
+file handle
+
+NFSPROC RMDIR directory file handle, name of directory to be removed
+–
+
+NFSPROC READDIR directory handle, count of bytes to read, cookie
+returns: directory entries, cookie (to get more entries)
+========================================================================================================================================================
+
+_

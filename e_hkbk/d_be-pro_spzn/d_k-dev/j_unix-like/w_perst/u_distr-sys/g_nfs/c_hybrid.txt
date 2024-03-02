@@ -1,0 +1,11 @@
+========================================================================================
+A STATELESS PROTOCOL IN A STATEFUL DFS : 
+========================================================================================
+
+
+It is possible to create a system where ... 
+ . a client keeps track of states 
+ . sends comprehensive requests 
+
+
+_

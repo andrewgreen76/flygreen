@@ -1,0 +1,9 @@
+========================================================================================
+RECAP : 
+========================================================================================
+
+ . packet  = a unit of data (~= struct) sent from party to party 
+ . request = an individual one-way packet transfer
+ . message = protocol function/procedure/operation/RPC call 
+
+_

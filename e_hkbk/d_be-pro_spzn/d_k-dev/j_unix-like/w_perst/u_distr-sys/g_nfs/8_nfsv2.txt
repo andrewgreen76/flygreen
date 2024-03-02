@@ -16,45 +16,11 @@ NFSv2 request - constitution :
   |  . inode  	 - specifies the target file    	  	       		    		// what  : file 
   |  . client ID - helps distinguish clients and their instances				// user  : who wants to access 
   |     . a.k.a. client's generation number 
-  |     . the incremented value is given to every new handle 
+  |     . the incremented value is given to every new handle
+  |	. for reusing inodes 
   |
-  . messages - NFS calls 
+  . NFS messages (procedure calls)
+     . (the API can be implemented in a number of languages) 
 
-
-
-========================================================================================================================================================
-NFS API : 
-========================================================================================================================================================
-
-NFSPROC GETATTR file handle
-returns: attributes
-
-NFSPROC SETATTR file handle, attributes
-returns: –
-
-NFSPROC LOOKUP directory file handle, name of file/dir to look up
-returns: file handle
-
-NFSPROC READ file handle, offset, count
-data, attributes
-
-NFSPROC WRITE file handle, offset, count, data
-attributes
-
-NFSPROC CREATE directory file handle, name of file, attributes
-–
-
-NFSPROC REMOVE directory file handle, name of file to be removed
-–
-
-NFSPROC MKDIR directory file handle, name of directory, attributes
-file handle
-
-NFSPROC RMDIR directory file handle, name of directory to be removed
-–
-
-NFSPROC READDIR directory handle, count of bytes to read, cookie
-returns: directory entries, cookie (to get more entries)
-========================================================================================================================================================
 
 _

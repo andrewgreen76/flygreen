@@ -2,14 +2,9 @@
 STATELESS PROTOCOLS - FAST RECOVERY IN NFS : 
 ========================================================================================
 
-
-(Recap)
- . request = an individual one-way packet transfer 
-
-
 Stateless protocol :
   |
   . one request packs all the info needed to fulfill it 
-  . protocol does away with the overhead of tracking where the client and the server are at with file ops  
+  . the protocol does away with the overhead of tracking where the client and the server are at with file ops  
 
 _

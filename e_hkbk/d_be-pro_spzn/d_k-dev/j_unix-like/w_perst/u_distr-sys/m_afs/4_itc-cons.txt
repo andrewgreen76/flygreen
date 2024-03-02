@@ -1,0 +1,32 @@
+========================================================================================
+ISSUES WITH ITC 
+========================================================================================
+
+1) linear filepath traversal time is too great for the server : 
+   . cumulative inode-table flipping on the part of the server takes a significant amount of time 
+   . [multiple dir/file lookups per file path] x [multiple clients]
+   => a deterrent to scalability 
+
+2) overhead from "paranoid" issuing of TestAuth protocol messages 
+   . you have to keep checking whether a remote cache copy has been changed ,
+     thus becoming the latest "state" of the file
+   . the expectation is for the updates to reflect in real time
+   => a deterrent to scalability 
+
+3) no workload balancing between servers
+   . later rectified with volumes
+   . volume
+      = a logical storage unit
+      . merely a chunk of data space with an arbitrary size 
+      . can be broken up between servers
+      - splitting is done manually by admins
+
+4) no multithreading or multiprocessing involved to achieve optimal performance
+   . only one process per client
+   => context switching overhead + other overheads
+   . later rectified with multithreading in AFSv2 
+
+
+=> only up to 20 clients per server without server CPU bottlenecking 
+
+_

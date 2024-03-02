@@ -1,26 +1,40 @@
 ========================================================================================
-AFSv1 API : 
+ITC : 
+========================================================================================
+
+ . progenitor of the real AFS 
+ . informally known as AFSv1
+ . did not scale well compared to the later AFS 
+
+
+
+========================================================================================
+ITC API : 
 ========================================================================================
 
 
-System calls : 
- . open() brings a copy of the entire file into the client cache
- . close() flushes it to the server
+System calls :
+ . fully local (client-only , no server involved)
+ . for file operations 
+ . open()  - right after the Fetch protocol message is honored 
+ . close() - before the Store protocol message is sent 
 
 
-
-Protocol messages : 
- . AFS Fetch() - 
-
+Protocol messages - communicating with the server : 
+ . Fetch       - Fetch the contents of file
+ . Store       - Store this file on the server
+    . called when the file is updated locally 
+ . TestAuth    - Test whether a file has changed remotely (used to validate cached entries)
+ . GetFileStat - Get the stat info for a file
+ . SetFileStat - Set the stat info for a file
+ . ListDir     - List the contents of a directory
 
 
 The rest of the API is client-only ; server is not involved at all. 
 
 
-
 Side-note : 
- . read() and write() are implemented to be efficient , operating only on individual blocks
-
+ . read() and write() are implemented to be efficient , operating only on individual blocks 
 
 
 ============================================================================================================================================================

@@ -1,0 +1,4 @@
+
+Cached entry = a copy of a file , file blocks , or dir from the master on the server. 
+
+_

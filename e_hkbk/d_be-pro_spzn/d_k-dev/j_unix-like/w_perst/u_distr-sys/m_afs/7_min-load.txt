@@ -1,0 +1,42 @@
+========================================================================================
+AFS CLIENT-SERVER INTERACTIONS ARE MINIMIZED : 
+========================================================================================
+
+
+1) callback = update alert from the server
+   . upon write to the cached entry the client issues a Store protocol message to the server
+   -> server sends callbacks to the other clients
+   . kind of like polling vs. interrupts
+
+
+ 
+2) old plan - IDENTICAL LOOKUPS OVERHEAD : 
+ |  . client sends the same entire pathname for the same file to the server ... every time the file is needed  
+ |  -> server is busy looking up dirs one by one before finally getting to the file ... every time that file is needed 
+ |  -> server sends a copy of the master file 
+ |
+ |
+ . new plan - CACHING THE FILE BY ITS ID :
+ |  . client does not neet to re-obtain the same file for its latest state
+ |  . the server will issue a callback in the event of an update from elsewhere 
+ |     . client sends the pathname to the file ... once 
+ |     -> server sends a copy + its FID 
+ |     -> client caches the file + its FID
+ |
+ | . subsequent
+ |
+ |     . in the event of a change to the state of the file the server notifies the other clients
+ |
+ | => AFS must be stateful 
+ |
+ |
+ . ideal for when client's targets are the same 
+ |
+ |
+ . need an FID instead of a pathname 
+    . volume ID  - specifies the volume within the network
+    . file ID    - specifies the file in the volume 
+    . uniquifier - allows for reuse of volume ID and file ID when their file is deleted 
+
+
+_

@@ -1,0 +1,10 @@
+========================================================================================
+IDEMPOTENT OPERATIONS WITH UNDESIRABLE OUTCOMES : 
+========================================================================================
+
+Example - mkdir() : 
+ + repeated calls to mkdir() give us the same outcome - a created dir 
+ . the first call returns the SUCCESS code 
+ - but subsequent calls return the FAILURE code 
+
+_

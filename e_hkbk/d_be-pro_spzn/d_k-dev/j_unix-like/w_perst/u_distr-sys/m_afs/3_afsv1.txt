@@ -1,0 +1,76 @@
+========================================================================================
+AFSv1 API : 
+========================================================================================
+
+
+System calls : 
+ . open() brings a copy of the entire file into the client cache
+ . close() flushes it to the server
+
+
+
+Protocol messages : 
+ . AFS Fetch() - 
+
+
+
+The rest of the API is client-only ; server is not involved at all. 
+
+
+
+Side-note : 
+ . read() and write() are implemented to be efficient , operating only on individual blocks
+
+
+
+============================================================================================================================================================
+============================================================================================================================================================
+============================================================================================================================================================
+"
+The Andrew File System (AFS) is a distributed file system that allows users to access files and directories from multiple locations seamlessly. There isn't a specific "AFSv1 API" widely recognized by that name. However, AFS has its own set of APIs and protocols that enable clients to interact with the AFS server.
+
+The primary AFS APIs and protocols include:
+
+1. **AFS System Calls:** AFS provides a set of system calls that applications or clients can use to interact with the file system. These system calls include operations for file and directory manipulation, authentication, and other AFS-specific functions.
+
+2. **AFS Commands:** Users and administrators can interact with AFS through command-line utilities that use the AFS APIs. These commands include 'fs' commands (e.g., `fs listquota`, `fs setacl`) and other utilities for managing AFS-specific features.
+
+3. **AFS RPC Protocol:** AFS clients communicate with AFS servers using Remote Procedure Call (RPC) protocols. The AFS RPC protocol defines the format of messages exchanged between clients and servers, allowing for operations such as file access, authentication, and management of AFS entities.
+
+4. **AFS Programming Libraries:** AFS provides programming libraries that developers can use to build applications that interact with the file system. These libraries often encapsulate the lower-level AFS APIs and make it easier for developers to integrate AFS functionality into their applications.
+
+It's important to note that AFS has evolved over time, and different versions of the AFS protocol exist. The term "AFSv1" might be a reference to an early version of the AFS protocol.
+
+If you have specific requirements or questions about AFS APIs, it would be helpful to refer to the official AFS documentation, which includes details about the available APIs, system calls, and programming interfaces. Additionally, any implementation of AFS might introduce its own APIs or extensions.
+"
+============================================================================================================================================================
+============================================================================================================================================================
+============================================================================================================================================================
+"
+In AFS (Andrew File System), client-side system calls are used to interact with the AFS client software and perform operations related to accessing and managing files within the AFS environment. These system calls are distinct from traditional file system calls and are specific to the AFS client implementation.
+
+While AFS primarily operates using standard file system interfaces, it introduces its own set of system calls on the client side to handle AFS-specific functionality. These client-side system calls are responsible for managing the AFS client cache, handling file access, and interacting with the AFS server.
+
+Common AFS client system calls may include:
+
+1. **afs_syscall (AFSCALL):**
+   - A general-purpose AFS system call used for various AFS-related operations. This system call may encompass different AFS functionalities and serve as an entry point for AFS-specific actions.
+
+2. **afs_mount (AFS_Mount):**
+   - Used to mount an AFS volume on the client machine. This system call establishes a connection between the client and the AFS server, making the contents of the AFS volume accessible to the client.
+
+3. **afs_lookup (AFS_Lookup):**
+   - Performs a lookup operation to find the location of a file or directory within the AFS namespace.
+
+4. **afs_read (AFS_Read) and afs_write (AFS_Write):**
+   - AFS-specific versions of the standard read and write operations, allowing the client to read data from and write data to files stored in AFS.
+
+5. **afs_stat (AFS_Stat):**
+   - Retrieves file attributes (such as size, modification time, etc.) for a specified file or directory in AFS.
+
+These are just examples, and the actual set of AFS client system calls may vary depending on the implementation and version of the AFS client software.
+
+It's important to note that AFS is designed to provide a transparent file system interface to applications, and in many cases, standard POSIX file system calls can be used without modification. However, the introduction of client-side system calls in AFS is necessary to handle AFS-specific features and ensure seamless integration with the distributed file system.
+"
+
+_

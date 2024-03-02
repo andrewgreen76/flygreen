@@ -5,7 +5,6 @@ NETWORK FILE SYSTEMS :
 
 History :
   |
-  . Andrew File System (AFS) - a concept developed by Andrew S. Tanenbaum
   . led to the fruition of NFS by Sun Microsystems
   . NFSv2
      . launched in 1985

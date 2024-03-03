@@ -50,7 +50,8 @@ Linux :
  . LFS (log-structured file systems) 
  . SSD tech and mechanisms
  . disk faults , checksums , checksum functions
- . DFS , NFS , AFS 
+ . DFS , NFS , AFS
+ . UDP API 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

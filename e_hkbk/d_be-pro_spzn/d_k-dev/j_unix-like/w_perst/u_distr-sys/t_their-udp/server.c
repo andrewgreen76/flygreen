@@ -43,14 +43,12 @@ int main() {
     socklen_t len;
     int n;
 
-    len = sizeof(cliaddr); //len is value/resuslt
+    len = sizeof(cliaddr); //len is value/result
 
     n = recvfrom(sockfd, (char *)buffer, MAXLINE, MSG_WAITALL, ( struct sockaddr *) &cliaddr, &len);
     buffer[n] = '\0';
     printf("Client Says: %s\n", buffer);
-    sendto(sockfd, (const char *)hello, strlen(hello),
-        MSG_CONFIRM, (const struct sockaddr *) &cliaddr,
-            len);
+    sendto(sockfd, (const char *)hello, strlen(hello), MSG_CONFIRM, (const struct sockaddr *) &cliaddr, len);
     printf("Response sent.\n");
     
     return 0;

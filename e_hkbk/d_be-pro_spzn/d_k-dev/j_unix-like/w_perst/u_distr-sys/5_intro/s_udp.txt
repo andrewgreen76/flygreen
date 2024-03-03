@@ -8,7 +8,7 @@ UDP - ABOUT :
 
  . "connectionless" 
     |
-    . in a sense that the sender does not hear from the receiver at all 
+    . in a sense that the server and the client do not use acknowledgements (weird as it is) 
     . no handshaking
     . no ongoing state (no regard of state of transmission, i.e., order of packets)
 

@@ -1,7 +1,7 @@
 
 Fast File System (FFS)
 
- . addressed the causes of poor performance - fragmentation and handling large blocks 
+ > addressed the causes of poor performance - fragmentation and handling large blocks 
  . first FFS was developed for BSD (Berkeley Software Distribution)
  . File systems evolve. The inteface and compatibility factors remain the same , but the implementation is optimized for performance and reliability.
  . There are hundreds of FS out there , many still rooted in FFS :

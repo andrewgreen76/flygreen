@@ -2,10 +2,18 @@
 AFS CLIENT-SERVER INTERACTIONS ARE MINIMIZED : 
 ========================================================================================
 
-1) callback = update alert from the server
-  . upon write to the cached entry the client issues a Store protocol message to the server
-  -> server sends callbacks to the other clients
-  . kind of like polling vs. interrupts
+1) callback = update alert from the server :
+  |
+  . every cached copy has a callback on it
+  -> upon write to its cached entry the client issues a Store protocol message to the server
+  -> server stores the state of the file 
+  -> breaks callbacks on older copies
+  -> alerts other clients 
+  -> OTHER CLIENTS ARE STUCK WITH THEIR OLD COPIES until they request for a flush from the server 
+  -> server flushes the new state of the file to the the other client(s) 
+  -> re-establishes callbacks , viewing all copies as in-sync 
+  |
+  . kind of like interrupts over polling  
 
  
  . old plan - IDENTICAL LOOKUPS OVERHEAD ON THE SERVER SIDE : 

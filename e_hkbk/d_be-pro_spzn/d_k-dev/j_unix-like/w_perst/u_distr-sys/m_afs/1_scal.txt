@@ -3,8 +3,9 @@ THE ANDREW FILE SYSTEM (AFS)
 ========================================================================================
 
  . a DFS 
- . aims at scalability
- . transparency
+ . aims at scalability (compared to NFS) 
+ . transparency (between the server and its clients)
+    . but security is NOT compromised 
 
 
  . AFSv1 introduced whole-file caching

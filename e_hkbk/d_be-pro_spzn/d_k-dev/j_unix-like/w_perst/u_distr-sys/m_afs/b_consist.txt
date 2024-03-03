@@ -1,0 +1,36 @@
+========================================================================================
+MAINTAINING CACHE CONSISTENCY : 
+========================================================================================
+
+
+ . server retains old copies of the same file 
+ . working on the same file on different machines at the same time hardly every happens ,
+   ... but when it does , ... 
+
+
+
+Cache consistency in ITC : 
+ . a cached copy is closed on a client 
+ -> flushed to the server as the latest state 
+ -> server invalidates all other cached copies
+ -> breaks their callbacks 
+ -> sends the latest state
+ -> callbacks on the latest copies are established
+
+
+
+Final state of file in AFS :
+ |
+ . "last closer wins" is the actual principle in AFS 
+ |  . also called "last writer wins" for some reason 
+ |  . whichever client closes its cached copy last has the latest state of the same file
+ |  . last close = close on the last open fd  
+ |  . all the copies on other clients are either gone or stored by the server (as temp files)
+ |  => one client has the latest state 
+ |
+ . in contrast with NFS
+    . individual block updates are flushed from all clients
+    => final state of file is a mix of updates from all directions 
+
+
+_

@@ -1,0 +1,15 @@
+========================================================================================
+BENEFITS FROM AFS : 
+========================================================================================
+
+ . ease of use :
+    . global namespace for all clients
+
+ . ease of server management 
+
+ . strong security :
+    . user authentication
+    . user-controlled access (privacy settings , incl. per-file)
+       . (access-control lists)
+
+_

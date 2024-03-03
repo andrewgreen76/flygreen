@@ -1,0 +1,27 @@
+========================================================================================
+CRASH RECOVERY IN AFS : 
+========================================================================================
+
+Client recovery :
+|
+Client must send a TestAuth after every reboot (just to check on the file's state).
+  (a) still valid => client can still use it
+  (b) not valid => get the latest copy from the server
+
+
+Server recovery :
+ |
+(1) server loses the master backup 
+(2) server loses all callbacks => has no sense of which client-cached entry is the latest
+ ||
+ vv
+(a) server should alert clients of its own crash
+(b) clients should check on the server periodically with a [HEARTBEAT message]
+ |
+ -> do cached-entry integrity/validity check 
+
+
+AFS has a somewhat advanced yet scalable and recovery-capable caching model (compared to NFS). 
+
+
+_

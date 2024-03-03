@@ -40,13 +40,12 @@ int main() {
         exit(EXIT_FAILURE);
     }
     
-    int len, n;
+    socklen_t len;
+    int n;
 
     len = sizeof(cliaddr); //len is value/resuslt
 
-    n = recvfrom(sockfd, (char *)buffer, MAXLINE,
-                MSG_WAITALL, ( struct sockaddr *) &cliaddr,
-                &len);
+    n = recvfrom(sockfd, (char *)buffer, MAXLINE, MSG_WAITALL, ( struct sockaddr *) &cliaddr, &len);
     buffer[n] = '\0';
     printf("Client Says: %s\n", buffer);
     sendto(sockfd, (const char *)hello, strlen(hello),

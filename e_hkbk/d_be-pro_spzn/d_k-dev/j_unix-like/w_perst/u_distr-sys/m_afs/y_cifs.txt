@@ -1,0 +1,38 @@
+========================================================================================
+COMMON INTERNET FILE SYSTEM (CIFS) 
+========================================================================================
+
+ = the Windows-based distributed file system protocol 
+
+
+===========================================================================================================================================================
+===========================================================================================================================================================
+===========================================================================================================================================================
+
+"
+It is a standard network file sharing protocol that allows systems to share files and resources over a network. CIFS is widely used in Windows operating systems for sharing files, printers, and other resources among computers on a network.
+
+Key features and aspects of CIFS include:
+
+1. **Cross-Platform File Sharing:** CIFS facilitates file sharing between systems running different operating systems, including Windows, Linux, and others. It allows interoperability between Windows-based systems and non-Windows systems.
+
+2. **File Access and Permissions:** CIFS supports the access and manipulation of files and directories, including read, write, execute, and permission settings. It integrates with the security and access control mechanisms of the underlying operating systems.
+
+3. **Naming and Directory Services:** CIFS includes mechanisms for naming and browsing services, allowing users to locate resources on the network. This includes features like NetBIOS names and browsing.
+
+4. **Print Services:** In addition to file sharing, CIFS can be used for printer sharing, enabling users to access and use printers connected to remote systems on the network.
+
+5. **Authentication:** CIFS supports various authentication mechanisms, including user-level authentication and password protection. It allows users to access shared resources securely.
+
+6. **Client-Server Architecture:** CIFS operates on a client-server model. Clients make requests for file or resource access, and servers respond to those requests. This client-server architecture enables distributed file sharing.
+
+7. **Transport Protocols:** CIFS typically uses TCP/IP as the underlying transport protocol. It can operate over the Internet and other network protocols.
+
+8. **SMB Protocol:** CIFS is often associated with the Server Message Block (SMB) protocol, which is the underlying protocol used for communication between CIFS-enabled systems.
+
+9. **Windows File and Print Sharing:** On Windows systems, CIFS is often referred to as "File and Printer Sharing for Microsoft Networks." It is a fundamental component for sharing resources in Windows networking environments.
+
+It's important to note that while CIFS was widely used, its successor, SMB (Server Message Block), has become the more prevalent term in recent years. SMB has evolved over time, with newer versions such as SMB2 and SMB3 offering enhanced features and security.
+"
+
+_

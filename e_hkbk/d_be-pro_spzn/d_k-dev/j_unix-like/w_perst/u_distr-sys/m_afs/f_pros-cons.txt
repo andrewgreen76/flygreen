@@ -1,0 +1,25 @@
+========================================================================================
+AFS - MAJOR PROS AND CONS : 
+========================================================================================
+
+Pros :
+  |
+  + ease of use :
+  |  . global namespace for all clients
+  |
+  + ease of server management 
+  |
+  + strong security :
+     . user authentication
+     . user-controlled access (privacy settings , incl. per-file)
+	. (access-control lists)
+
+
+
+Cons :
+  |
+  - not an open standard (compared to NFS)
+     . seriously losing the battle to NFS and CIFS (the Windows-based Common Internet File System)
+     . NFSv4 is the closest thing to AFS 
+ 
+_

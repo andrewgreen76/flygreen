@@ -2,19 +2,24 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=c11
 LDFLAGS = -lpthread
 
-SRC = prog.c
+SRC1 = server.c
+SRC2 = client.c
 DEPS = 
 HEADERS = 
 
-# The target executable
-TARGET = prog
+# The target executables
+TARGET1 = server
+TARGET2 = client
 
-all: $(TARGET)
+all: $(TARGET1) $(TARGET2)
 
-$(TARGET): $(SRC) $(DEPS) $(HEADERS)
-	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(SRC) $(DEPS) -I.
+$(TARGET1): $(SRC1) $(DEPS) $(HEADERS)
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(SRC1) $(DEPS) -I.
+
+$(TARGET2): $(SRC2) $(DEPS) $(HEADERS)
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(SRC2) $(DEPS) -I.
 
 .PHONY: clean
 
 clean:
-	rm -f $(TARGET)
+	rm -f $(TARGET1) $(TARGET2)

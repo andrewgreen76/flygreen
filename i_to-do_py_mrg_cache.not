@@ -2,6 +2,8 @@
 Use GCGC.
 study x86 ISA (x86 instr -> bin)
 booting : how CPU moves code from ROM to RAM
+real-world practice : loading sysdefault charset into ROM
+keyboard : 80 keys 
 LED screen refresh
 what goes in an Intel 80286/else (ALU , regs , etc.) 
 FFS to AFS : real-world applications (then and now) , history of evolutions , etc. 

@@ -4,9 +4,12 @@ BOOT-SHUTDOWN ROUTINE :
 
  . toggle button : on 
  -> CPU , etc. : powered
- -> PC = 0 
+ -> PC = 0 (PC->IR)
  -> PC++ (running program instructions) 
-
+ -> HLT
+ -> JMP HLT 
+ -> toggle button : off
+ -> immediate kill 
 
 
 ========================================================================================

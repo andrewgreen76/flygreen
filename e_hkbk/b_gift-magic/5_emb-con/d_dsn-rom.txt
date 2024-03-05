@@ -2,12 +2,12 @@
 ROM : LAYOUT 
 ==============================================================================
 
- 							----------------------
- . "OS" master						master system code 
- |  . low-level routines (user I/O , disk I/O , etc.) 
- |  . functions , commands
- |  . booting snowball : "BIOS" -> ... 
- |  . priority booting   
+ 							______________________
+ . "OS" master						master system code	1.5K 
+ |  . low-level routines (user I/O , disk I/O , etc.) 	  (1) boot code		
+ |  . functions , commands     	     	      		  (2) prog/runt code 
+ |  . booting snowball : "BIOS" -> ... 			  (3) shutdown code 
+ |  . priority booting
  |							----------------------
  . programmability - tools :				meta-programming tools:  
  |  . Arduino , MLMonC (VIC)				
@@ -20,10 +20,10 @@ ROM : LAYOUT
  |							compiler
  |							debugger 
  |							(interpreter)
- |							sys API 
+ |							(emb)sys API 
  |							----------------------
- . text support :					charset / font(s) 
- |  . video (text) interface controller	
+ . text support :					charset / font(s)	128 x 
+ |  . video (text) interface controller			
  |  . charset
  |  . n_fonts 
  |  x n_chars
@@ -41,4 +41,8 @@ ROM : LAYOUT
 
 
    	 						----------------------
+							.
+							.
+							.
+							RAM
 _

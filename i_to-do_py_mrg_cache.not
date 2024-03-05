@@ -24,8 +24,11 @@ persistence : LED screen refresh
  : byte : B 
  : byte : a 
 -> screen brightness (duty cycle) 
-keyboard : 80 keys 
+keyboard : 80 keys
+modes : real , protected , immediate , addressing 
 emb.system API
+ROM image file
+...
 game 
 =================================
 |

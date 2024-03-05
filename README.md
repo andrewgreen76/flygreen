@@ -40,15 +40,13 @@ Linux :
     . layers
     . socket programming (TCP/UDP socket APIs)
     
- . legacy computers and consoles
+ . legacy computers , consoles , and components 
     . hardware in Commodore 64 , VIC-20 , Atari 2600 ; BASIC ROM , KERNAL
     . memory-mapped I/O
     . VICMON and WozMon
-    . console / PC booting routines 
+    . console / PC booting routines
+    . Intel microprocessors (1970s-1990s)
     
- . journaling , JFS , ext3 , etc.
- . LFS (log-structured file systems) 
- . SSD tech and mechanisms
  . disk faults , checksums , checksum functions
  . DFS , NFS , AFS
  . UDP API 

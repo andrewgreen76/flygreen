@@ -23,9 +23,9 @@ ROM : LAYOUT
  |							(emb)sys API 
  |							----------------------
  . text support :					charset / font(s)	128 x 
- |  . video (text) interface controller			(? Terminus ?)
- |  . charset
- |  . n_fonts 
+ |  . video (text) interface controller			(? Apple II Roman ?)
+ |  . charset	   	     				(? Terminus ?)
+ |  . n_fonts 						
  |  x n_chars
  |							----------------------
  . real video support - ?				game/any graphics 

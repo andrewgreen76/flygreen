@@ -1,6 +1,6 @@
 
 Use GCGC.
-|
+
 =================================
 NO:
 ---------------------------------
@@ -13,7 +13,12 @@ real-world booting : how CPU copies code from ROM to RAM
 =================================
 YES:
 ---------------------------------
--> 
+-> THE portability standard
+   . compiler 
+  -> assembler 
+  -> linker
+  -> loader
+  -> memory 
 -> Intel processors : 8080 , 80286 , 80386 , 80486 
 -> decide on arch : 16-bit
 -> 
@@ -26,12 +31,17 @@ persistence : LED screen refresh
 -> screen brightness (duty cycle) 
 keyboard : 80 keys
 modes : real , protected , immediate , addressing 
-emb.system API
 ROM image file
+pixel
+char
+charset 
+emb.system API (higher C + scripting) 
+ . getclk()
+ . change_brightness() 
 ...
 game 
 =================================
-|
+
 FFS to AFS : real-world applications (then and now) , history of evolutions , etc. 
 
 type safety -> polym , encap , etc. -> math of cs -> autom -> alg anls 

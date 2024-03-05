@@ -95,7 +95,7 @@ CPU SPECS :
     . D-width :
 
 ==============================================================================
-CPU SPECS : 
+I/O COMPONENTS : 
 ==============================================================================
 
  . memory/storage (on the main board)
@@ -113,7 +113,7 @@ CPU SPECS :
        . 60 fps
        . double-buffered 
      . sound :
-	. built-in speaker - piezo pick-up 
+       . built-in speaker - piezo pick-up 
 
  . OS , game logic - RAM+ROM 
 

@@ -13,9 +13,20 @@ real-world booting : how CPU copies code from ROM to RAM
 =================================
 YES:
 ---------------------------------
+-> 
+-> Intel processors : 8080 , 80286 , 80386 , 80486 
+-> decide on arch : 16-bit
+-> 
 real-world practice : loading sysdefault charset into ROM
-LED screen refresh
+persistence : LED screen refresh
+ : byte : R 
+ : byte : G 
+ : byte : B 
+ : byte : a 
+-> screen brightness (duty cycle) 
 keyboard : 80 keys 
+emb.system API
+game 
 =================================
 |
 FFS to AFS : real-world applications (then and now) , history of evolutions , etc. 

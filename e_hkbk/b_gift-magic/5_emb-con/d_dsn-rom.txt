@@ -19,7 +19,8 @@ ROM : LAYOUT
  |							(fixer) 
  |							compiler
  |							debugger 
- |							(interpreter) 
+ |							(interpreter)
+ |							sys API 
  |							----------------------
  . text support :					charset / font(s) 
  |  . video (text) interface controller	

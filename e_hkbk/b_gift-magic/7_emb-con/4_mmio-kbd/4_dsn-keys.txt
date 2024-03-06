@@ -17,7 +17,9 @@ USB 3.0 :
 	#			#
 	#			#
 	#########################
-	Vcc	D-	D+	GND	
+	Vcc	D-	D+	GND
+
+PS/2 : 
 
 
 Plan B : 

@@ -1,7 +1,7 @@
 
 -> THE portability standard
    . 32-bit 
-  -> compiler 
+  -> C compiler 
   -> assembler 
   -> linker
   -> loader

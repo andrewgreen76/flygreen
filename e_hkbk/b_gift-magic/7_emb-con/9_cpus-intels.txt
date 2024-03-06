@@ -26,7 +26,8 @@ INTEL CPUS (BEFORE CONSIDERING AN OPCODE MATRIX) :
 
 ==================
 
-80286 : 
+80286 :
+ . more spread-out pinout 
  . 1982 
  . |archi| - 16
  . |  A  | - 24
@@ -34,7 +35,8 @@ INTEL CPUS (BEFORE CONSIDERING AN OPCODE MATRIX) :
 
 
 
-80386 : 
+80386 :
+ . pins are closer together 
  . 1985
  . |archi| - 32
  . |  A  | - 32

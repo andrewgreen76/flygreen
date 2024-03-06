@@ -2,9 +2,9 @@
 ARCHITECTURE : 
 ==============================================================================
 
- . width : 8-bit / 32-bit 
+ . width : 32-bit 
 
-We want color. 
+We want color (RGBa). 
 
 Tetris : 
 

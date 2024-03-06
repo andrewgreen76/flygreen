@@ -1,0 +1,46 @@
+========================================================================================
+DESIGN MAP : 
+========================================================================================
+
+
+NO:
+---------------------------------
+what goes in an Intel 80286/else (ALU , regs , etc.)
+study x86 ISA (x86 instr -> bin)
+=================================
+MAYBE:
+---------------------------------
+real-world booting : how CPU copies code from ROM to RAM
+=================================
+YES:
+---------------------------------
+-> THE portability standard
+   . compiler 
+  -> assembler 
+  -> linker
+  -> loader
+  -> memory 
+-> Intel processors : 8080 , 80286 , 80386 , 80486 
+-> decide on arch : 16-bit
+-> 
+real-world practice : loading sysdefault charset into ROM
+persistence : LED screen refresh
+ : byte : R 
+ : byte : G 
+ : byte : B 
+ : byte : a 
+-> screen brightness (duty cycle) 
+keyboard : 80 keys
+modes : real , protected , immediate , addressing 
+ROM image file
+pixel
+char
+charset 
+emb.system API (higher C + scripting) 
+ . getclk()
+ . change_brightness() 
+...
+game 
+=================================
+
+_

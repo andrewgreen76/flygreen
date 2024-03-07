@@ -2,9 +2,28 @@
 SERIAL PERIPHERAL INTERFACE (SPI) : 
 ========================================================================================
 
+ + fast
+ + simultaneous two-way communication
+    . (full-duplex) 
+
+ - needs lots of lines 
+
  . serial 
  . synchronous
  . short-distance 
  . c. 1985
 
+========================================================================================
+"
+One potential drawback of SPI (Serial Peripheral Interface) is that it typically requires more physical wires compared to other serial communication protocols like I2C or UART. SPI commonly uses at least four wires for communication:
+
+1. **MISO (Master In Slave Out):** Data line from the slave to the master.
+2. **MOSI (Master Out Slave In):** Data line from the master to the slave.
+3. **SCLK (Serial Clock):** Clock signal from the master to synchronize data transfer.
+4. **SS/CS (Slave Select/Chip Select):** Signal to select the specific slave device.
+
+Additional lines may be required for more advanced configurations, such as bidirectional data lines for full-duplex communication, or extra control lines.
+
+The requirement for more physical wires can be a disadvantage in applications where minimizing the number of interconnections is crucial, such as in compact or resource-constrained designs. Other serial communication protocols like I2C or UART may use fewer wires for basic communication, making them more suitable in certain scenarios. However, it's essential to weigh this drawback against the advantages and specific requirements of the application when choosing a communication protocol.
+"
 _

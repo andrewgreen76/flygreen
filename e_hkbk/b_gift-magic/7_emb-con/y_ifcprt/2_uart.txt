@@ -2,6 +2,13 @@
 UART : 
 ========================================================================================
 
+ + simple design
+    . transmitter line 
+    . receiver line
+    
+ - error-prone
+    . no built-in mechanisms 
+ 
  . serial
  . asynchronous 
  . "Universal Asynchronous Receiver/Transmitter" 

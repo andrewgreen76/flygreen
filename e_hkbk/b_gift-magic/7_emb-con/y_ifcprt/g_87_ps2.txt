@@ -2,6 +2,12 @@
 PS/2
 ========================================================================================
 
+ + reliability (connection peripherals to the PC)
+ + simple design 
+
+ - peripherals cannot be (un)plugged (while the device is on) 
+    . no hot-plugging (a.k.a. hot-swapping) 
+
  . serial
  . asynchronous 
  . developed in 1987 

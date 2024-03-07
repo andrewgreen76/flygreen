@@ -2,6 +2,11 @@
 I2C : 
 ========================================================================================
 
+ + allows for inter-compatibility / inter-adaptability 
+
+ - signal degradation
+    => not good for long distances 
+
  . serial
  . synchronous 
  . Inter-Integrated Circuit

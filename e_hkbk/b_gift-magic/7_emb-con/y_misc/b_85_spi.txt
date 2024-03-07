@@ -2,6 +2,9 @@
 SERIAL PERIPHERAL INTERFACE (SPI) : 
 ========================================================================================
 
- . c. 1985 
+ . serial 
+ . synchronous
+ . short-distance 
+ . c. 1985
 
 _

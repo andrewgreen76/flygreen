@@ -2,6 +2,13 @@
 UART : 
 ========================================================================================
 
+ . serial
+ . asynchronous 
+ . "Universal Asynchronous Receiver/Transmitter" 
+ . has a long history of development 
+
+========================================================================================
+
 "
 The concept of UART (Universal Asynchronous Receiver-Transmitter) and asynchronous serial communication has roots dating back to the early days of telegraphy and telephony. However, the specific term "UART" and the development of integrated circuits with UART functionality occurred in the mid-20th century.
 

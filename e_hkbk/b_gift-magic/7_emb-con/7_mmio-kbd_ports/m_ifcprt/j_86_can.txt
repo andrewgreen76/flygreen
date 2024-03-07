@@ -2,6 +2,8 @@
 CONTROLLER AREA NETWORK : 
 ========================================================================================
 
+ . common application : automotive systems 
+
  + signal survives in harsh/noisy environments
     . differential signaling (CAN High and CAN Low) 
 

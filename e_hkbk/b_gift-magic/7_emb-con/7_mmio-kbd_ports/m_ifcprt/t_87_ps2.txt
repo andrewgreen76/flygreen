@@ -2,6 +2,8 @@
 PS/2
 ========================================================================================
 
+ . common application : I/O devices (keyboard , mouse) 
+
  + reliability (connection peripherals to the PC)
  + simple design 
 
@@ -9,7 +11,7 @@ PS/2
     . no hot-plugging (a.k.a. hot-swapping) 
 
  . serial
- . asynchronous 
+ . synchronous 
  . developed in 1987 
 
  . retro

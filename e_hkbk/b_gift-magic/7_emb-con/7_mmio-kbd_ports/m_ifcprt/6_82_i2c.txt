@@ -2,7 +2,7 @@
 I2C : 
 ========================================================================================
 
- + allows for inter-compatibility / inter-adaptability 
+ + (common application : ) allows for INTER-COMPATIBILITY / INTER-ADAPTABILITY 
 
  - signal degradation
     => not good for long distances 

@@ -3,6 +3,7 @@ SERIAL PERIPHERAL INTERFACE (SPI) :
 ========================================================================================
 
  + fast
+    . common application : FAST TRANSFER B/W COMPONENTS 
  + simultaneous two-way communication
     . (full-duplex) 
 

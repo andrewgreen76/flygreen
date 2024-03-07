@@ -1,13 +1,15 @@
 
 -> THE portability standard
-   . 32-bit 
+   . 32-bit , x86 
+  -> 32-bit SoC (CPU , RAM , ROM)
+      . Broadcom BCM2711
+      . quad-core ARM Cortex-A72 CPU
+      . VideoCore VI GPU 
   -> C compiler 
   -> assembler 
   -> linker
   -> loader
   -> memory 
--> Intel processors : 8080 , 80286 , 80386 , 80486 
--> decide on arch : 32-bit
 -> 
 real-world practice : loading sysdefault charset into ROM
 persistence : LED screen refresh
@@ -34,6 +36,8 @@ game
 
 NO:
 ---------------------------------
+-> Intel processors : 8080 , 80286 , 80386 , 80486 
+-> decide on arch : 32-bit
 what goes in an Intel 80286/else (ALU , regs , etc.)
 study x86 ISA (x86 instr -> bin)
 

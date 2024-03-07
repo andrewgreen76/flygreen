@@ -10,6 +10,11 @@ UART :
 ========================================================================================
 
 "
+- A Universal Asynchronous Receiver Transmitter (UART) is a type of communication in which data is transferred SEQUENTIALLY BIT BY BIT. 
+- You need a TRANSMITTER and a RECEIVER to perform UART communication.
+"
+
+"
 The concept of UART (Universal Asynchronous Receiver-Transmitter) and asynchronous serial communication has roots dating back to the early days of telegraphy and telephony. However, the specific term "UART" and the development of integrated circuits with UART functionality occurred in the mid-20th century.
 
 Key points in the historical development of UART:

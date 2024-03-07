@@ -1,0 +1,15 @@
+
+
+ . retro
+
+
+
+ . 5 pins :
+    |
+    . Vcc
+    . GND
+    . clk
+    . data
+    . shield 
+
+_

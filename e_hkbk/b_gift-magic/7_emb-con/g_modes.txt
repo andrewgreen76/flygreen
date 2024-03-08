@@ -1,4 +1,0 @@
-addressing
-real
-protected
-immediate 

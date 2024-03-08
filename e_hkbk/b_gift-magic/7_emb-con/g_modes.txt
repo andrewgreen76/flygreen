@@ -1,0 +1,4 @@
+addressing
+real
+protected
+immediate 

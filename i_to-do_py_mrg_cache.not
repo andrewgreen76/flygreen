@@ -389,7 +389,7 @@ Interview script - something to say to the interviewer :
 - Why this job ?
   - Underqualified for openings when matchmaking.
 
-QA pre-requisites 
+
 Try VMware (on Windows for Linux - DOES NOT SUPPORT HW VIRT) 
 Book : GPU sys perf / engr  
 fpga vs asic vs uprcsr vs uctrlr vs gpu 
@@ -425,7 +425,6 @@ Personal project :
 - dumbest firmware
 - dumbest kernel 
 
-pygame
 
 OS essentials : SecureBoot, learn about BitLocker
 do pointers cost extra access time ? 
@@ -440,6 +439,8 @@ Plotting pixels
 Thermal transferable paper > PCB. 
 Scratch > ? > shell > C > Python <= What lang for gfx after Scratch ? 
 
+
+learning ASM (Malcolm Shore) - LinkedIn 
 Does coreboot have prop pieces ? 
 LLM hallucinations 
 How can deep learning help me with the project ? Python/C/... skills ? 
@@ -538,6 +539,12 @@ Research frameworks (toolsets) dedicated to building VMs, EMUs, Last Call BBS (U
 v
 Work on the graphics mode for headless systems: kernel KMS > Wayland. 
 
+=====================================================================
+
+Intro to career in SW dev. - Annyce Davis (LinkedIn) 
+
+=====================================================================
+
 container technology
 Explore kernel vs. microkernel. 
 what does memgmt look like on the sys memmap ? 
@@ -547,6 +554,7 @@ unity engine arch
 fc
 procedural content generation tools 
 
+=====================================================================
 
 .data
     message:    .asciz "I am Andrew Green\n"

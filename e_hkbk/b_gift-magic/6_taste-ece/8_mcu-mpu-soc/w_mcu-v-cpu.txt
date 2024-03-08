@@ -1,10 +1,24 @@
 
- . MCU runs one program. 
- . SoC boots up an OS that allows the user and the developer to do a number of different things. 
+MCU :
+ . runs one program 
+ + cheaper
+ + consumers less power
+ 
+
+CPU/SoC : 
+ . boots up an OS that allows the user and the developer to do a number of different things.
+ - more expensive
+ - consumes more power
+ + faster , more powerful
+
+
+"MPUs are typically selected based on a software decision, the choice of interfaces, or purely for performance reasons, whereas MCU selection is more often related to hardware factors."
 
 
 
-====================================================================================================================================================
+==========================================================================================================================================================
+==========================================================================================================================================================
+==========================================================================================================================================================
 
 "
 Microcontroller (MCU) and System-on-Chip (SoC) are two distinct types of integrated circuits that serve different purposes in embedded systems. Here are the key differences between MCU and SoC:

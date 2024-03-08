@@ -1,7 +1,16 @@
 
--> THE portability standard
-   . 32-bit , x86 
-  -> 32-bit SoC (CPU , RAM , ROM)
+-> keyboard : 
+    . custom : 
+       . controller - Arduino MCU (ATmega328P)
+       . custom driver 
+    . manuf-built
+       . 80 keys (light action) 
+    . USB
+
+
+-> THE portability standard 
+   . 32-bit , ARM (x86 is canned) 
+  -> 32-bit SoC (CPU , RAM , ROM) 
       . Broadcom BCM2711
       . quad-core ARM Cortex-A72 CPU
       . VideoCore VI GPU 
@@ -10,20 +19,20 @@
   -> linker
   -> loader
   -> memory 
--> 
-real-world practice : loading sysdefault charset into ROM
+|
 persistence : LED screen refresh
  : byte : R 
  : byte : G 
  : byte : B 
  : byte : a 
 -> screen brightness (duty cycle) 
-keyboard : 80 keys
+|
 modes : real , protected , immediate , addressing 
 ROM image file
 pixel
-char
-charset 
+-> real-world : char
+-> real-world : charset 
+-> real-world : loading sysdefault CHARSET into ROM
 emb.system API (higher C + scripting) 
  . getclk()
  . change_brightness() 

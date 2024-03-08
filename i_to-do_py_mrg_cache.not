@@ -1,5 +1,6 @@
 
 appt for haircut 
+Arduino / STM32 : read_EEPROM() 
 
 Task : figure out how to load onto ROM of BCM2711 on RPi4 . 
 Can you program the ROM on BCM2711 ? 
@@ -45,19 +46,13 @@ Computer technician :
  ? SAP ? 
 
 
-Can't make a living studying things. Either fix or solve.
 Diagnostics and fixing : computers , graphics cards.
  - computer repair technician
  - hardware repair technician
  - GPU technician 
-Coming up with ideas. 
 
-CS / EE
  . check out the curricula (for theories , proofs , algorithms) 
-EMAIL ABOUT
- . APPLYING FOR CS AGAIN
- . PT TRACK 
-BS CS/EE DEADLINES 
+
 
 education				+	work		
 |						|
@@ -107,14 +102,6 @@ Colorado - CU Boulder
 #define  _GNU_SOURCE
 #define  _POSIX_C_SOURCE 200809L
 
-.) Any scholarships a grad student is eligible for? 
-.) Loan amt I'm eligible for - ? ($10,892)
-.) Procedure
-.) (I used to have the Mill.schp and my mom and I paid out of pocket)
-   - When do I pay? Monthly? During the semester? After the semester
-...
-
-
 
 pwd vs. realpath 
 
@@ -146,13 +133,6 @@ https://www.google.com/about/careers/applications/jobs/results/99476672668934854
 https://www.linkedin.com/learning/introduction-to-career-skills-in-software-development/explore-version-control-systems?autoSkip=true&resume=false
 paper calendar 
 
-UNR / OPPORTUNITIES:
-- Prep your talk to NV Career Center / Career & Corporate Outreach  
-  -> Doctor up the RESUME
-  -> FAIRS CAL 
-  -> find out HIRING MANAGERS' names at the fairs
-  -> write a COVER LETTER for the named person. 
-- Upcoming internship fairs - calendar :
 ---------------------------------------------------------------------------
 MAKE A DIFFERENCE EVERY DAY. 
 - 9/12/23 :
@@ -162,53 +142,17 @@ Write that bootloader in ??? assembly :
 1) jmp ; times
 2) in C/asm 
 
-os ; prot cheats 
 ===========================================================================
 ===========================================================================
 ===========================================================================
 Foundations of networking :
 - aside from CCN (TCP/IP sockets in Java) 
 ===========================================================================
-Take up MS Fall 2024 (degree-seeking) : 
-. 4/1/2024 - ?? 
-+ Need to switch to
        	  	 system administration
      	       	 operating systems engineering 
      	       	 embedded systems engineering
-- GPA 3.0 
-- LoRecs 
----------------------------------------------------------------------------
-GRAD SPECIAL (Non-degree seeking) : 
-+ Raise the GPA 
-- For people thinking about pursuing BS 
-- permission , forms 
 ===========================================================================
-- Questions :
-  - 775-784-6469
-  - visit career and corporate outreach (College of Business)	
-  - ask about the [pros, cons] x [non-degree, degree, (3.0) MS]
-  - GPA : 3.0 (https://www.unr.edu/cse/graduate-program)
-  - SHOW EXPERIENCE :
-    - TECH USED, IMPACT, RELEVANT THINGS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
     - RESEARCH THE COMPANIES 
-    - SYSADMIN 
-    - EMBEDDED SYSTEMS (find good companies) 
-    - OS DEVELOPMENT (find good companies) 
-    - GAME (find good companies) ; Unity/C# for a mock-up of the OS/game project.
-
-  - first day of Spring 2024 classes - M, 1/22
-    - graduate school of admissions
-    - career studio in Pennington student achievement center :
-      - (775) 682-7114
-      - 10-2
-      - 1664 N. Virginia Ave Pennington #208
-      - career mentor
-      - unr.edu/careers -> handshake 
-    - career and corporate outreach (College of Business) :
-      - 775-682-9149 
-  - While I'm working on improving my GPA, what would my path be towards earning an internship ? 
-
-> check the MyNEVADA acct 
 
 > immunization and records :
   - update COVID records
@@ -219,8 +163,6 @@ GRAD SPECIAL (Non-degree seeking) :
 
 =================================================================================================
 
-Do the thing that you want to do best. - Which is what ? 
-Do the thing that you want the most. - Which is what ? 
 . Difference : a part of an OS
   . boot sector in .asm
 . explore /dev/* (/zero, /null, etc.)
@@ -523,7 +465,6 @@ study templates before jumping into Rust.
 photos : javaldx, etc. 
 regroup C in a and b. 
 
-pattern matching
 Cert > Open-source projects to choose from. (C, Rust, and Python were selected.) 
 Learn cmake / Makefile
 Learn Docker / Dockerfile

@@ -224,15 +224,13 @@ Finding work :
 
 =================================================================================================
 
-Personal projects : 
+src for PiOS / Raspbian 
 
 Thursday : 
 - disable SecureBoot on both devices
 - back to Windows on the laptop
 - to Linux on the PC 
 
-Discover yourself through tech first.
-- a game (need specs) 
 - own bootloader 
 - system administration 
 - Gb-like, the means to make a fun game 
@@ -540,9 +538,7 @@ v
 Work on the graphics mode for headless systems: kernel KMS > Wayland. 
 
 =====================================================================
-
 Intro to career in SW dev. - Annyce Davis (LinkedIn) 
-
 =====================================================================
 
 container technology
@@ -600,5 +596,10 @@ Explore clipping in games.
 TPV EFI
 TeX
 empty DIMM sockets
+
+=====================================================================
+
+Sims in Unity
+Pixel shader 
 
 -

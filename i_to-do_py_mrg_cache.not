@@ -2,24 +2,6 @@
 appt for haircut - 11a @ Supercuts 
 Mines
 
-Plan for the keyboard emb.sys :
- . I/O (kbd) API in C 
- . HDMI API in C 
-
-Plan for the screen emb.sys :
- . memory IC 	      	    - frame byte storage 
- . need an MCU/MPU  	    - driving frame bytes 
- . need a GPU / video card  - working with HDMI at high power 
- . I/O (kbd) API in C 
- . HDMI API in C 
- . pipeline :
-													 |
-    |		      |		|	      |		 |	      |		   ||||||		 |	     |
-    | bytes in memory > color  	> timing/sync >   HDMI   >    TMDS    >    TMDS    >HDCP>	HDMI	 >    HDMI   | 
-    |  (framebuffer)  | space	| 	      | protocol | (for HDMI) | serializer |||||| physical layer | interface |
-    |		      |		|	      |		 | 	      | 	   |||||| 	   	 | 	     |
-    		      			      		 	      		   			 |
-
 
 Arduino / STM32 : read_EEPROM() 
 Task : figure out how to load onto ROM of BCM2711 on RPi4 . 

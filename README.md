@@ -38,18 +38,12 @@ Linux :
  . revisiting networking basics :
     . protocols
     . layers
-    . socket programming (TCP/UDP socket APIs)
-    
- . legacy computers , consoles , and components 
-    . hardware in Commodore 64 , VIC-20 , Atari 2600 ; BASIC ROM , KERNAL
-    . memory-mapped I/O
-    . VICMON and WozMon
-    . console / PC booting routines
-    . Intel microprocessors (1970s-1990s)
-    
- . disk faults , checksums , checksum functions
- . DFS , NFS , AFS
- . UDP API 
+    . socket programming (TCP/UDP socket APIs)    
+ . UDP API
+
+ . EDID utility
+ . video signal generation : VGA , HDMI , DSI
+ . frame buffering 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

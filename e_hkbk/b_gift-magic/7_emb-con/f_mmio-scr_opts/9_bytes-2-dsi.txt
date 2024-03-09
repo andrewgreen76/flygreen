@@ -5,8 +5,8 @@ BYTES-TO-HDMI PIPELINE :
 
 													 |
     |		      |		|	      |		 |	      |		   ||||||		 |	     |
-    | bytes in memory > color  	> timing/sync >   HDMI   >    TMDS    >    TMDS    >HDCP>	HDMI	 >    HDMI   | 
-    |  (framebuffer)  | space	| 	      | protocol | (for HDMI) | serializer |||||| physical layer | interface |
+    | bytes in memory >  color 	> timing/sync > DSI/HDMI >    TMDS    >    TMDS    >HDCP>   DSI / HDMI	 > DSI/HDMI  | 
+    |  (framebuffer)  |  space	| 	      | protocol |    	      | serializer |||||| physical layer | interface |
     |		      |		|	      |		 | 	      | 	   |||||| 	   	 | 	     |
     		      			      		 	      		   			 |
 

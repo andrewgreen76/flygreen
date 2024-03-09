@@ -1,0 +1,14 @@
+========================================================================================
+I2C : 
+========================================================================================
+
+ + (common application : ) allows for INTER-COMPATIBILITY / INTER-ADAPTABILITY 
+
+ - signal degradation
+    => not good for long distances 
+
+ . serial
+ . synchronous 
+ . Inter-Integrated Circuit
+
+_

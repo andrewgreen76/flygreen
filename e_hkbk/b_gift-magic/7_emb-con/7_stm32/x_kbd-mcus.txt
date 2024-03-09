@@ -1,0 +1,22 @@
+"
+Certainly! For programming a keyboard using an STM32 microcontroller (MCU), you can consider the STM32 development boards that provide USB connectivity and are compatible with the STM32CubeIDE development environment. Here's a recommendation:
+
+**STM32 Nucleo-64 Development Board with STM32F103RB MCU:**
+
+1. **Board Name:** STM32 Nucleo-64 Development Board (NUCLEO-F103RB)
+2. **Microcontroller:** STM32F103RB
+3. **Features:**
+   - 64-pin STM32F103RB microcontroller with USB capabilities.
+   - On-board ST-LINK/V2-1 debugger/programmer for easy debugging and programming.
+   - USB Full-Speed interface for easy connection to a computer.
+   - Arduino Uno headers for additional expansion options.
+   - Access to a wide range of STM32 peripherals for flexibility in project development.
+   - Compatibility with the STM32CubeIDE development environment.
+
+This Nucleo board provides a good balance of features and ease of use, making it suitable for keyboard-related projects. It includes USB connectivity, which is essential for interfacing with a computer as you work on your keyboard project.
+
+Make sure to check the specific features of the board and ensure it meets your project requirements. Additionally, you may want to explore other STM32 Nucleo boards or Discovery boards based on your specific needs and the STM32 MCU series you prefer.
+
+Remember to check the availability and features of the board on the official STMicroelectronics website or authorized distributors. If you have specific requirements or features in mind, it's worth exploring other STM32 development boards to find the one that best suits your project.
+"
+_

@@ -8,6 +8,8 @@ INGREDIENTS :
 (b) shopping list :
    . board : [HDMI , clock , prog_mem w/ image] 
 
+
+
 ========================================================================================
 
 Plan for the screen emb.sys :

@@ -42,7 +42,9 @@ Linux :
  . UDP API
 
  . EDID utility
- . video signal generation : VGA , HDMI , DSI
+ . video signal generation and processing :
+    . VGA , HDMI , DSI
+    . tools and resources : LTDC's , STM32 , ESP32 , NVIDIA Jetson Nano 
  . frame buffering 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 

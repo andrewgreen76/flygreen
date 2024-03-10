@@ -1,0 +1,25 @@
+========================================================================================
+INGREDIENTS : 
+========================================================================================
+
+(a) by hand :
+   . exposed HDMI cable , 161 ctr , 04 , 30 NAND , 
+   
+(b) shopping list :
+   . board : [HDMI , clock , prog_mem w/ image] 
+
+========================================================================================
+
+Plan for the screen emb.sys :
+ |
+ .		no OS
+ .		scr/mon w/ HDMI 
+ . (board w/) fb mem IC			- frame byte storage 
+ . (board w/) an MCU/MPU  	    	- driving frame bytes 
+ . (2nd board) need a GPU / video card  - working with HDMI at high power
+ |
+ . I/O (kbd) API in C 
+ . HDMI API in C 
+ . pipeline :
+
+_

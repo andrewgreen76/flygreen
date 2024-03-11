@@ -1,0 +1,8 @@
+"
+The type of LED integrated into boards like the Arduino Uno is often referred to as a "Surface Mount LED" or "SMD LED." These LEDs are typically smaller and have a flat, surface-mount design, allowing them to be directly soldered onto the surface of the circuit board during the manufacturing process.
+
+On the Arduino Uno, you'll find surface-mount LEDs used as indicators for power, communication, and other status indications. They are often labeled with a letter or symbol indicating their function (e.g., "L" for the built-in LED on pin 13 on the Arduino Uno).
+
+It's worth noting that SMD LEDs come in various sizes and form factors, and the specific type used on a particular board may vary based on the design and manufacturer's choice.
+"
+_

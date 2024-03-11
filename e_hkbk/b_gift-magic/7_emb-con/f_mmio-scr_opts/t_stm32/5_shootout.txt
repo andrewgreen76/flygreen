@@ -1,0 +1,17 @@
+
+		clk	    ROM		RAM	|   ARM		Price		32-bit
+		speed				|  Cortex	
+						
+f103 (B_Pill)  	72 MHz	    128 KB	20 KB	|   M3
+f100
+NUCLEO-F103RB	
+Nucleo-L152RE
+f769i
+f769
+f769i
+f746
+
+ili9488
+ili9341
+
+_

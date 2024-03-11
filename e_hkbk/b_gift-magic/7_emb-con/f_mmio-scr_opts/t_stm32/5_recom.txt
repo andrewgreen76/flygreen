@@ -1,5 +1,0 @@
-
- . STM32 Nucleo-64 Development Board (NUCLEO-F103RB)
- . STM32 Nucleo-L152RE 
-
-_

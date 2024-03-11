@@ -1,0 +1,4 @@
+[InternetShortcut]\nURL=https://forum.allaboutcircuits.com/threads/microcontroller-and-video-games.170126/
+
+
+"Generally speaking microcontrollers are unsuited for video games. There are several reasons for this, lack of a suitable amount of memory to represent an image, lack of computational capabilities like multiply and divide, and lack of speed. Many microcontrollers can address one or two of these limitations, but few can address all three. You might be able to do something with an ARM based board or even better with a GPU board used for Bitcoin mining or advanced vector graphics."

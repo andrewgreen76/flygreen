@@ -12,9 +12,9 @@ BOARDS :
 ----------------------------------------------------------------------------------------------------------------------	###################
 Amazon hits :														###################
 ----------------------------------------------------------------------------------------------------------------------	###################
-f769ni-disco	216 MHz	    2 MB	532 KB	|   M7		$130	  4"	800x472		DSI-adapt-HDMI		-------------------
-f769nih6-disco	216 MHz	    2 MB	532 KB	|   M7		$130	  4"	800x472		DSI-adapt-HDMI		-------------------
-f103c8t6 (pill) 72 MHz	    128 KB	20 KB	|   M3		$15	NOT POWERFUL ENOUGH ; WILL BE USED FOR LEARNING ABOUT BOOTLOADING 
+f769ni-disco	216 MHz	    2 MB	532 KB	|   M7		$130	  4"	800x472		DSI-adapt-HDMI		CONVINCED CONVINCED 
+f769nih6-disco	216 MHz	    2 MB	532 KB	|   M7		$130	  4"	800x472		DSI-adapt-HDMI		CONVINCED CONVINCED 
+f103c8t6 (pill) 72 MHz	    128 KB	20 KB	|   M3		$15	NOT POWERFUL ENOUGH ; FOR LEARNING ABT BTLD	################### 
 NUCLEO-F103RB	72 MHz	    128 KB	20 KB	|   M3		$30	NOT SUITABLE FOR DISPLAY AT ALL ###################################
 ----------------------------------------------------------------------------------------------------------------------	###################
 eBay hits : 														###################

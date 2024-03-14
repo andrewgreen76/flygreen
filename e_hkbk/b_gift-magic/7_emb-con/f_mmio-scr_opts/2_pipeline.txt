@@ -3,13 +3,18 @@ BYTES-TO-HDMI PIPELINE :
 =========================================================================================================================================================
 
 
-			reform'd   modulated 
-      bytes in memory	pxl data    e-signal
+		   bytes    reform'd      modulated	
+                 in memory  pxl data      e-signal
+		    	    refresh rate
+			    hsync (newln)
+			    vsync (newfr)
+			    pxl clk
 													 |
     |		      |		|	      |		 |	      |		   ||||||		 |	     |
     | bytes in memory >  color 	> timing/sync > DSI/HDMI >    TMDS    >    TMDS    >HDCP>   DSI / HDMI	 > DSI/HDMI  | 
     |  (framebuffer)  |  space	| 	      | protocol |    	      | serializer |||||| physical layer | interface |
-    |		      |		|	      |		 | 	      | 	   |||||| 	   	 | 	     |
+    |		      |	convert	|	      |		 | 	      | 	   |||||| 	   	 | 	     |
+    |		      |		|	      |		 |	      |		   ||||||		 |	     |
     		      			      		 	      		   			 |
 
 

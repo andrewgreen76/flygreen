@@ -9,20 +9,7 @@ TC1602A-21TR3 PROGRAM : "Open to work!"
 instr		RS	RW'	E	D7-4 D3-0	HeX
 ========================================================================================
 
-OPEN_BUF	0	0	X	0000 0000	0x 00
-RESTART		0	0	X	0000 0001	0x 01
-.............				     		.....
-BLINK   	0	0	X	0000 1101	0x 0D
-UNDER   	0	0	X	0000 1110	0x 0E
-BLINK_N_UNDER  	0	0	X	0000 1111	0x 0F
-
-SHIFT_LEFT   	0	0	X	0001 0000	0x 10
-SHIFT_RIGHT   	0	0	X	0001 0100	0x 14
-
-EN_TWO_LNS   	0	0	X	0011 1000	0x 38
-
-GOTO_LN1_CHNUM 	0	0	X	1000 0000	0x 1N
-GOTO_LN2_CHNUM 	0	0	X	1100 0000	0x CN
+BLINK_N_UNDER	0	0	X	0000 1111	0x 0F
 
 
 
@@ -30,7 +17,18 @@ GOTO_LN2_CHNUM 	0	0	X	1100 0000	0x CN
 data		RS	RW'	E	D7-4 D3-0	HeX
 ========================================================================================
 
-[SPACE]   	1	0	X	0010 0000	0x 20
-
+O		1	0	X	0100 1111	0x 4F
+p
+e
+n
+[ ]
+t
+o
+[ ]
+w
+o
+r
+k
+!
 
 _

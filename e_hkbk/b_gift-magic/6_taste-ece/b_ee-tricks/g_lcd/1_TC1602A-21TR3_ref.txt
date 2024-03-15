@@ -24,11 +24,21 @@ SHIFT_LEFT   	0	0	X	0001 0000	0x 10	.
 SHIFT_RIGHT   	0	0	X	0001 0100	0x 14	.
 
 
+EN_2ND_LN   	0	0	X	0010 1000	0x 28
 EN_2ND_LN   	0	0	X	0011 1000	0x 38
 
 
-GOTO_LN1_CHNUM 	0	0	X	1000 0000	0x 1N
-GOTO_LN2_CHNUM 	0	0	X	1100 0000	0x CN
+NOWR_LN2_CHNUM 	0	0	X	0100 xxxx	0x 4N
+NOWR_LN2_START 	0	0	X	0100 0000	0x 40
+NOWR_LN2_END 	0	0	X	0100 1111	0x 4F
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GOTO_LN1_CHNUM 	0	0	X	1000 xxxx	0x 8N
+GOTO_LN1_START 	0	0	X	1000 0000	0x 80
+GOTO_LN1_END 	0	0	X	1000 1111	0x 8F
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+GOTO_LN2_CHNUM 	0	0	X	1100 xxxx	0x CN
+GOTO_LN2_START 	0	0	X	1100 0000	0x C0
+GOTO_LN2_END 	0	0	X	1100 1111	0x CF
 
 
 

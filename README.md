@@ -35,11 +35,7 @@ __________________________________________________________________________
 
 Linux :
 
- . revisiting networking basics :
-    . protocols
-    . layers
-    . socket programming (TCP/UDP socket APIs)    
- . UDP API
+ . manual LCD programming 
 
  . EDID utility
  . video signal generation and processing :

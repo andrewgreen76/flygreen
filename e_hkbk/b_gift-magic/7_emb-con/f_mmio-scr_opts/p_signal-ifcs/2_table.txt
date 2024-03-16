@@ -5,8 +5,7 @@ VIDEO SIGNAL PROTOCOLS PROFILE TABLE :
 	year		Ana/Dig		srl/prl		a/sync		SPI/I2C		bit-width
 
 RCA	'30s/'40s	.		.		.		.
-I2C	'82		.		.
-LCD	'68/'70s	.		.		.		I2C
+LCD	'68/'70s	dig		parallel	sync		I2C		8-bit
 VGA	.		.		.
 HDMI	.		.		.
 

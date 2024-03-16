@@ -1,0 +1,40 @@
+======================================================================================================
+AUDIO SIGNAL PROTOCOLS PROFILE TABLE : 
+======================================================================================================
+
+	year		Ana/Dig		ser/prll	a/sync		SPI (sync)/	bit-width/bit-rate
+									/I2C
+
+HDMI	'02		dig		prll		async  		I2C		24 / 30 / 36 / 48-bit
+
+AUX(35)	----------------------------------------------------------------------------------------------
+RCA	'30s/'40s	ana/dig		-		-		-		16/24-bit ; 44KHz-48KHz
+
+======================================================================================================
+ADDENDUM : BIT-WIDTH , ETC. 
+======================================================================================================
+
+RCA :
+"
+RCA connectors, traditionally used for analog audio and video signals, are not inherently associated with a specific digital bit-width. However, if RCA connectors were adapted for transmitting digital signals, the bit-width would depend on the specific digital protocol and data format being used.
+
+For example:
+
+1. **Audio Signals**: If RCA connectors were used to transmit digital audio signals, the bit-width would typically be determined by the audio resolution of the digital audio format being transmitted. Common audio resolutions include 16-bit, 24-bit, and 32-bit, which represent the number of bits used to represent each audio sample.
+
+2. **Video Signals**: For digital video signals, the bit-width would depend on factors such as the resolution, color depth, and compression used in the video format. Common video resolutions include 720p, 1080p, and 4K, while color depths may vary from 8-bit per channel (24-bit color) to higher depths such as 10-bit or 12-bit per channel.
+
+In summary, the digital bit-width associated with RCA connectors would vary depending on the specific digital signal being transmitted, whether it's digital audio or digital video, and the resolution and format of the data being transmitted.
+"
+
+======================================================================================================
+OTHER VIDEO SIGNAL PROTOCOLS PROFILE TABLE : 
+======================================================================================================
+
+	year		ana/dig		ser/prll	a/sync		SPI/I2C		bit-width
+
+RCA	'30s/'40s	ana/dig		ser (dig)	-		-		-
+DVI 	--------------------------------------------------------------- I2C --------------------------
+DPort 	----------------------------------------------------------------------------------------------
+
+_

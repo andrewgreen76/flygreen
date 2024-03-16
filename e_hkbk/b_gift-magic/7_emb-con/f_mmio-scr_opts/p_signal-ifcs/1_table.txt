@@ -1,0 +1,69 @@
+========================================================================================
+VIDEO SIGNAL PROTOCOLS PROFILE TABLE : 
+========================================================================================
+
+	year		Ana/Dig		srl/prl		a/sync		SPI/I2C		bit-width
+
+RCA	'30s/'40s	.		.		.		.
+I2C	'82		.		.
+LCD	'68/'70s	.		.		.		I2C
+VGA	.		.		.
+HDMI	.		.		.
+
+========================================================================================
+USER-INPUT SIGNAL PROTOCOLS PROFILE TABLE : 
+========================================================================================
+
+	year		Ana/Dig		srl/prl		a/sync		SPI/I2C		bit-width
+
+RCA	'30s/'40s
+RS232	'60s
+PS/2	'87
+USB	'00
+
+========================================================================================
+AUDIO SIGNAL PROTOCOLS PROFILE TABLE : 
+========================================================================================
+
+	year		Ana/Dig		srl/prl		a/sync		SPI/I2C		bit-width
+
+UART	-		serial		async		7/8/9
+RCA	'30s/'40s
+RS232	'60s
+I2C	'82		.		.
+SPI	'85		.		.
+CAN	'86
+PS/2	'87
+LCD	'68/'70s	.		.
+VGA	.		.		.
+HDMI	.		.		.
+USB	'00
+
+========================================================================================
+MISCELLANEOUS SIGNAL PROTOCOLS PROFILE TABLE : 
+========================================================================================
+
+	year		Ana/Dig		srl/prl		a/sync		SPI/I2C		bit-width
+
+UART	-		serial		async		7/8/9
+RCA	'30s/'40s
+RS232	'60s
+I2C	'82		.		.
+SPI	'85		.		.
+CAN	'86
+PS/2	'87
+LCD	'68/'70s	.		.
+VGA	.		.		.
+HDMI	.		.		.
+USB	'00
+
+========================================================================================
+ADDENDUM : BIT-WIDTH , ETC. 
+========================================================================================
+
+UART : 
+"
+The bit width on UART (Universal Asynchronous Receiver-Transmitter) refers to the number of bits used to represent each character in the communication protocol. In most cases, UART communication uses 8 data bits per character. However, it can also be configured to use different bit widths, such as 7 or 9 data bits, depending on the specific application requirements. Additionally, UART communication includes start and stop bits, as well as optional parity bits, which are used for error detection and synchronization, but these are separate from the data bits.
+"
+
+_

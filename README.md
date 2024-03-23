@@ -36,8 +36,6 @@ __________________________________________________________________________
 Linux :
 
  . manual LCD programming 
-
- . EDID utility
  . video signal generation and processing :
     . VGA , HDMI , DSI
     . tools and resources : LTDC's , STM32 , ESP32 , NVIDIA Jetson Nano 

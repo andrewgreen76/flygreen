@@ -1,0 +1,20 @@
+"
+    High Definition
+        720p (1280 × 720 pixels) HDMI 1.0 and up
+        1080p (1920 × 1080) HDMI 1.0 and up
+    Ultra High Definition (UHD)
+        4K UHD (3840 × 2160) HDMI 1.3 and up
+        8K UHD (7680 × 4320) HDMI 2.1
+
+
+    Category 2: HDMI 1.3 & 1.4 - High Speed @ 4K
+        data rate: 10 GBPS
+        refresh rate: 30 Hz
+    Category 3: HDMI 2.0 - Premium High Speed @ 4K
+        data rate: 18 GBPS
+        refresh rate: 60 Hz
+    Category 3: HDMI 2.1 - Ultra-High-Speed @ 4K
+        data rate: 48 GBPS
+        refresh rate: 120 Hz
+"
+_

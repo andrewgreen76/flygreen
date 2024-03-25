@@ -1,3 +1,10 @@
+
+ . processing power
+    . a really fast clock
+    . can handle ample voltage 
+
+=============================================================================================================================================================
+
 "
 Generating an HDMI signal at home requires specialized equipment and knowledge of digital video standards. Here are the general steps involved:
 

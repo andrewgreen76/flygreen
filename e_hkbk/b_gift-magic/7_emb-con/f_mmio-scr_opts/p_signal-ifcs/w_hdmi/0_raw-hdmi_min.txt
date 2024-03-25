@@ -1,4 +1,8 @@
 
+ . sufficient Vcc
+ . sufficient clock speed
+ . sufficient frame memory 
+ 
  . 320 x 240
  ? 256 colors
    . manual palette composition

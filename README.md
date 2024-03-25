@@ -37,6 +37,7 @@ Linux :
 
  . manual LCD programming 
  . video signal generation and processing :
+    . I2C , FPC , DDC , LTDC , LVDS , eDP , MIPI DSI 
     . VGA , HDMI , DSI
     . tools and resources : LTDC's , STM32 , ESP32 , NVIDIA Jetson Nano 
  . frame buffering 

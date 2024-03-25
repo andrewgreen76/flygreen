@@ -3,20 +3,24 @@ BYTES-TO-HDMI PIPELINE :
 =========================================================================================================================================================
 
 
-		   bytes    reform'd      modulated	
-                 in memory  pxl data      e-signal
-		    	    refresh rate
-			    hsync (newln)
-			    vsync (newfr)
-			    pxl clk
-													 |
-    |		      |		|	      |		 |	      |		   ||||||		 |	     |
-    | bytes in memory >  color 	> timing/sync > DSI/HDMI >    TMDS    >    TMDS    >HDCP>   DSI / HDMI	 > DSI/HDMI  | 
-    |  (framebuffer)  |  space	| 	      | protocol |    	      | serializer |||||| physical layer | interface |
-    |		      |	convert	|	      |		 | 	      | 	   |||||| 	   	 | 	     |
-    |		      |		|	      |		 |	      |		   ||||||		 |	     |
-    		      			      		 	      		   			 |
-
+		   bytes    reform'd      						
+                 in memory  pxl data   
+		    	    (8bR,8bG,8bB)  modulated
+		    	    refresh rate   e-signal
+			    hsync (newln)						   
+			    vsync (newfr)	      RGBHVC 				   	
+			    pxl clk		  (8b/10b data)	   RGBHVC		  					
+			    PLL				        (8b/10b data)
+										8b/10b serialized data -->->->->->->->->->->->->->
+													   
+    |		      |		|	      |		 |	      		     ||||||		   |	       ||||||
+    | bytes in memory >  color 	> timing/sync > DSI/HDMI >    	      TMDS           >HDCP>   DSI / HDMI   > DSI/HDMI  >rvrs> receive
+    |  (framebuffer)  |  space	| 	      | protocol |   encoder / serializer/   |||||| physical layer | interface |||||| > decode/deserialize
+    |		      |	convert	|	      |	(out of  | 	 /transmitter 	     |||||| 	   	   | 	       |||||| > send to LEDs 
+    |		      |		|	      |	  many)	 |	      		     ||||||	(cable)	   |	       |||||| 
+    		      			      		 	      		     ||||||		   |	       ||||||
+			display controller on a graphics card ---------------------- |||||| 		   |	       |||||| display controller
+			      		 					     ||||||		   |	       ||||||
 
 =========================================================================================================================================================
 "The formatted pixel data is converted into HDMI signals. This involves modulating electrical signals to represent the pixel values, timing information, and synchronization signals."

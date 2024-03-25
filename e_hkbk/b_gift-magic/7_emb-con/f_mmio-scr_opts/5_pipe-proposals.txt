@@ -2,6 +2,9 @@
 PIPELINE PROPOSALS , ONGOING PROJECTS : 
 ========================================================================================
 
+() laptop-like 
+ . [fb/EEPROM] + [DDC] + [home-made screen]
+
 () [Arduino Uno R3] + [mono 16x2 LCD display]
  . 
 

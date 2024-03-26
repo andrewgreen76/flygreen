@@ -1,4 +1,9 @@
 
+- : system processing is involved just to project an image , code is handled first 
++ : loading data (and code) straight from the EEPROM upon startup 
+
+=========================================================================================================================================================
+
 "
 Yes, there are single-board computers (SBCs) or system-on-chip (SoC) boards that can boot directly from their onboard storage, such as an EEPROM (Electrically Erasable Programmable Read-Only Memory), without the need for a separate microSD card or external storage device. One example of such a board is the Raspberry Pi Compute Module.
 

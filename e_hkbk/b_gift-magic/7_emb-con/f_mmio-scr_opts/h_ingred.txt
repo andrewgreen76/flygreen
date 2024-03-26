@@ -1,12 +1,17 @@
 ========================================================================================
 INGREDIENTS : 
 ========================================================================================
-
-(a) by hand :
-   . exposed HDMI cable , 161 ctr , 04 , 30 NAND , 
    
-(b) shopping list :
-   . board : [HDMI , clock , prog_mem w/ image] 
+() shopping list :
+ . fast on-board clock
+ . processor (drives pixel data and pulse signals out of fb)
+ . [with HDMI/eDP/MIPI DSI] serializing capability
+ . transmitter
+ . memory IC (EEPROM / SDRAM) 
+ . board : [HDMI , clock , prog_mem w/ image] 
+
+() by hand :
+   . exposed HDMI cable , 161 ctr , 04 , 30 NAND , 
 
 
 

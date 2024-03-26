@@ -3,6 +3,11 @@ Custom image to HDMI.
 
 =========================================================================================================================================================
 
+- : invasive RTL (FPGA) programming 
++ : direct fb / EEPROM programming 
+
+=========================================================================================================================================================
+
 "
 If you're looking for a board with similar capabilities to the BCM2711 (the SoC used in the Raspberry Pi 4) that allows for direct programming of the framebuffer before outputting to HDMI, you might want to consider FPGA (Field-Programmable Gate Array) development boards. FPGAs offer flexibility and programmability, allowing you to implement custom logic, including framebuffer manipulation, before outputting the result to HDMI or other display interfaces.
 

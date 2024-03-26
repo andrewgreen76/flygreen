@@ -1,0 +1,4 @@
+
+EEPROM -> fb-SDRAM -> LCD 
+
+_

@@ -1,0 +1,25 @@
+========================================================================================
+# USB mass storage device
+# basic recovery mode
+# display driver
+# bootloader 
+
+"This diagnostics screen is rendered directly by the FIRMWARE using its built-in capabilities TO INTERACT WITH THE GPU/DISPLAY HARDWARE."
+"From this diagnostics screen, you may have the option to perform some basic actions, such as CONFIGURING BOOT OPTIONS or UPDATING FIRMWARE."
+
+# start.elf
+# .elf on a microSD 
+========================================================================================
+
+"
+When the Raspberry Pi boots without an SD card inserted, it enters a diagnostic mode known as "USB mass storage device boot" or "USB boot mode". In this mode, the Raspberry Pi acts as a USB mass storage device, and it exposes a special diagnostic partition to the host computer it's connected to via USB.
+
+In this diagnostic mode, the Raspberry Pi's built-in firmware (part of the SoC's ROM code) generates the diagnostic screen directly without relying on an SD card or an external bootloader. The firmware renders this screen using its built-in capabilities to interact with the GPU and display hardware.
+
+The diagnostic screen typically includes information such as the Raspberry Pi model, firmware version, boot configuration options, and a prompt indicating that the Raspberry Pi is ready to receive an operating system image via USB. This screen is displayed on the connected monitor or display device.
+
+Once the Raspberry Pi enters USB boot mode and exposes the diagnostic partition, the user can use a tool provided by the Raspberry Pi Foundation, such as the Raspberry Pi Imager or the Raspberry Pi USB Boot Tool, to write an operating system image to the diagnostic partition. After writing the image, the Raspberry Pi reboots and boots from the newly written operating system image.
+
+So, in summary, when the Raspberry Pi boots without an SD card inserted, the firmware in the SoC's ROM code generates the diagnostic screen directly, using its built-in capabilities to interact with the GPU and display hardware.
+"
+_

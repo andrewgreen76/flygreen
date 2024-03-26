@@ -1,3 +1,8 @@
+
+No OS with systemd. 
+
+=========================================================================================================================================================
+
 "
 Yes, Raspberry Pi can support operating systems without a graphical user interface (GUI). In fact, many operating systems available for Raspberry Pi, such as Raspbian Lite, Ubuntu Server, and Arch Linux ARM, are designed to run without a GUI.
 

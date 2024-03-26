@@ -1,4 +1,25 @@
 
-EEPROM -> fb-SDRAM -> LCD 
+up to   0x  1	      f		f	  f	     f	       f
+	_ _ _ 1M  _ _ _ 64K  _ _ _ 4K  _ _ _ 256  _ _ _ 16  8 _ _ _
+	
+	  vvvvvv
+	  vvvvvv
+	  
+	  (2 MB)
+
+charset 
+fontlib
+EEPROM --(pxl data)--> fb-SDRAM -> LCD
+   |------------------->|
+    display + btld-FW/OS
+    driver
+    VideoCore VI
+    on BCM2711
+		|
+		|
+    btld FW - (hidden) processing   <-  code on ROM:   <-  [POWER ON]
+    sysmon    	       		    	  hw_init
+					   boot
+        	       		    (hardwired in SoC)
 
 _

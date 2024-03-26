@@ -1,0 +1,20 @@
+"
+If you're looking for an entry-level or budget motherboard that you can use to hook up your eDP screen at home, you'll want to consider a motherboard with compatible display outputs and sufficient features for your needs. Here's a recommendation:
+
+**ASUS Prime B450M-A/CSM**
+
+- **Compatibility**: This motherboard supports AMD Ryzen processors and APUs, which offer decent performance for everyday computing tasks and light gaming. It's compatible with most modern eDP screens.
+  
+- **Display Outputs**: The motherboard features HDMI and VGA outputs, which might not be directly compatible with your eDP screen. However, you can use an eDP to HDMI converter to connect your eDP screen to the HDMI port on this motherboard.
+  
+- **Budget-Friendly**: The ASUS Prime B450M-A/CSM is a budget-friendly option that provides good value for its price. It offers essential features for home use without breaking the bank.
+  
+- **Reliability**: ASUS is a reputable motherboard manufacturer known for producing reliable products. The Prime series motherboards are designed for stability and longevity.
+
+- **Micro-ATX Form Factor**: This motherboard comes in a micro-ATX form factor, which means it's relatively compact and suitable for smaller cases if space is a concern.
+
+- **Expandability**: While it's a budget motherboard, it still offers some expandability options with multiple PCIe slots and RAM slots for future upgrades.
+
+Before making a purchase, ensure that the ASUS Prime B450M-A/CSM meets your specific requirements and that it's compatible with the rest of your hardware components. Additionally, verify that it supports the resolution and refresh rate of your eDP screen through the HDMI output with the use of an appropriate converter.
+"
+_

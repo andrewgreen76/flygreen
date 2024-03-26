@@ -1,3 +1,8 @@
+
+- : FPGA => RTL/Verilog/VHDL , no eDP/DSI support 
++ : Xilinx (AMD hw) , powerful , FPGA skills , supports HDMI 
+
+===========================================================================================================================================================
 "
 Yes, there are display driver boards that do not depend on an operating system and instead operate at a lower level, interfacing directly with hardware. These boards are often used in embedded systems where real-time performance and direct control over hardware are required. One example of such a display driver board is the Digilent Zybo Z7.
 

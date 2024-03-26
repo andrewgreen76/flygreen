@@ -17,9 +17,10 @@ EEPROM --(pxl data)--> fb-SDRAM -> LCD
     on BCM2711
 		|
 		|
-    btld FW - (hidden) processing   <-  code on ROM:   <-  [POWER ON]
-    sysmon    	       		    	  hw_init
-					   boot
-        	       		    (hardwired in SoC)
+    btld FW - (hidden) processing   <-  code on mask ROM:   <-  [POWER ON]
+    sysmon (diag)      		    	  hw_init
+    hw_init				   boot
+    boot    	       		    (hardwired in SoC)
+    system configuration 
 
 _

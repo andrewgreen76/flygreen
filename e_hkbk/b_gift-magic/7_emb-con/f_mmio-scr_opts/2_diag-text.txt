@@ -1,8 +1,11 @@
 ========================================================================================
 # USB mass storage device
+# USB mass storage device boot 
+# USB boot mode 
 # basic recovery mode
-# display driver
-# bootloader 
+# display driver (in SoC) 
+# bootloader on ROM (built into RPi4) 
+# diag screen generation code on ROM (built into RPi4) 
 
 "This diagnostics screen is rendered directly by the FIRMWARE using its built-in capabilities TO INTERACT WITH THE GPU/DISPLAY HARDWARE."
 "From this diagnostics screen, you may have the option to perform some basic actions, such as CONFIGURING BOOT OPTIONS or UPDATING FIRMWARE."

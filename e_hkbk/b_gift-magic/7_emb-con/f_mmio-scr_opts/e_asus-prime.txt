@@ -3,6 +3,11 @@ Boards to use for simple graphics output.
 
 ===========================================================================================================================================================
 
+- : expensive , hard to come by 
++ : powerful , eDP 
+
+===========================================================================================================================================================
+
 "
 If you're looking for an entry-level or budget motherboard that you can use to hook up your eDP screen at home, you'll want to consider a motherboard with compatible display outputs and sufficient features for your needs. Here's a recommendation:
 

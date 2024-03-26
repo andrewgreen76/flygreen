@@ -8,7 +8,11 @@ INGREDIENTS :
  . [with HDMI/eDP/MIPI DSI] serializing capability
  . transmitter
  . memory IC (EEPROM / SDRAM) 
- . board : [HDMI , clock , prog_mem w/ image] 
+ . board : [HDMI , clock , prog_mem w/ image]
+ -------------------------------------------------------------
+ . software
+ . embedded code 
+ 
 
 () by hand :
    . exposed HDMI cable , 161 ctr , 04 , 30 NAND , 

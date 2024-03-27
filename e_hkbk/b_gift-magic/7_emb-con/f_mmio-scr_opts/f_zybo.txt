@@ -4,6 +4,22 @@
 
 ===========================================================================================================================================================
 "
+The Zybo Z7 Zynq-7010 ARM/FPGA SoC does come with a built-in first-stage bootloader, but it's important to note that it's not programmed into ROM via a custom mask layer like some other integrated circuits. Instead, the first-stage bootloader for the Zynq-7000 series SoCs (which includes the Zynq-7010) is stored in a specific portion of the on-chip boot ROM known as the BootROM.
+
+Here's a general overview of how the first-stage bootloader is handled in Zynq-7000 series SoCs like the Zynq-7010:
+
+1. **BootROM**: The Zynq-7000 series SoCs contain a BootROM that is hardwired into the silicon during manufacturing. This BootROM is responsible for the initial boot process of the device. It contains a minimal set of boot code that is executed upon power-up or reset.
+
+2. **First-Stage Bootloader**: The BootROM loads the first-stage bootloader, also known as FSBL (First Stage Boot Loader), from a specific location. The FSBL is typically stored in non-volatile memory (e.g., Flash memory) connected to the SoC. The FSBL's primary function is to initialize the hardware, configure the memory controller, and set up the environment for loading subsequent boot components.
+
+3. **Customization**: The FSBL can be customized by developers to include additional functionality or configurations specific to their applications. However, the BootROM itself is not user-accessible or modifiable.
+
+4. **Boot Process**: After the FSBL completes its tasks, it may load additional boot components such as the second-stage bootloader (e.g., U-Boot), FPGA configuration bitstream, or Linux kernel, depending on the system's configuration and requirements.
+
+In summary, while the Zynq-7000 series SoCs like the Zynq-7010 do come with a built-in first-stage bootloader, it is not programmed into ROM via a custom mask layer. Instead, the bootloader is stored in a specific portion of the on-chip BootROM, and the initial boot process is orchestrated by this BootROM firmware.
+"
+===========================================================================================================================================================
+"
 Yes, there are display driver boards that do not depend on an operating system and instead operate at a lower level, interfacing directly with hardware. These boards are often used in embedded systems where real-time performance and direct control over hardware are required. One example of such a display driver board is the Digilent Zybo Z7.
 
 The Digilent Zybo Z7 is an FPGA-based development board featuring a Xilinx Zynq-7000 SoC (System on Chip). It combines the flexibility of an FPGA with the processing power of an ARM Cortex-A9 dual-core processor. This combination allows for high-performance computing tasks as well as real-time control of peripherals, including display interfaces.

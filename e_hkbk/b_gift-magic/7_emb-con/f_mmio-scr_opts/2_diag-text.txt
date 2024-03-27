@@ -1,4 +1,8 @@
 ========================================================================================
+FIRST-STAGE CYCLIC BOARD-SPECIFIC BOOTLOADER ROUTINE : 
+ . power -> CPU_clk 
+
+========================================================================================
 (a) work with a board that can transmit HDMI signal
 (b) work with something simpler , smaller , less powerful 
 
@@ -14,12 +18,12 @@ CPU simulation HW :
  ? no CU/eeproms ? 
  
 ========================================================================================
-Bare-minimum HW first (HDMI TX + SoC  /  CPU + CHAR-ROM + RAM:fb)
+Bare-minimum HW first (HDMI TX + SoC  /  CPU + CHAR-ROM + RAM:fb + mem-ctrlr + clk + peris)
 |
 -> ROM :
 # first-stage cyclic board-specific bootloader routine : 
 1) teach : hw_init
- -> bootloader image 
+ -> bootloader binary image (512B) 
 2) teach : a color (green) test routine 
 >) teach : diag screen generation code 
 # fontlib / charset (bitmap) 

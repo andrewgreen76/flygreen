@@ -1,4 +1,7 @@
 ========================================================================================
+(a) work with a board that can transmit HDMI signal
+(b) work with something simpler , smaller , less powerful 
+
 Fool the monitor into thinking it's dealing with a legit signal source.
  . clock rate = 1.5 GHz 
  . HDMI transmitter
@@ -11,8 +14,9 @@ CPU simulation HW :
  ? no CU/eeproms ? 
  
 ========================================================================================
-
-ROM :
+Bare-minimum HW first (HDMI TX + SoC  /  CPU + CHAR-ROM + RAM:fb)
+|
+-> ROM :
 # cyclic board-specific bootloader routine : 
 1) teach : hw_init
 2) teach : a color (green) test routine 
@@ -40,11 +44,13 @@ RAM :
 
 # start.elf
 # .elf on a microSD 
+
 ========================================================================================
 A really dumb laptop :
  . powerful MPU/SoC (not MCU)
  . HDMI
  . EEPROM with bootloader and character set 
+
 ========================================================================================
 
 

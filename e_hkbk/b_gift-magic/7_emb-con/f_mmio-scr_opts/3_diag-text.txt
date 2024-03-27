@@ -3,7 +3,7 @@
 (b) work with something simpler , smaller , less powerful 
 
 Fool the monitor into thinking it's dealing with a legit signal source.
- . clock rate = 1.5 GHz 
+ . clock rate = 54 MHz / 1.5 GHz 
  . HDMI transmitter
  . improvised display driver/ctrlr 
 Just drive green/white color into the HDMI monitor. 
@@ -17,8 +17,9 @@ CPU simulation HW :
 Bare-minimum HW first (HDMI TX + SoC  /  CPU + CHAR-ROM + RAM:fb)
 |
 -> ROM :
-# cyclic board-specific bootloader routine : 
+# first-stage cyclic board-specific bootloader routine : 
 1) teach : hw_init
+ -> bootloader image 
 2) teach : a color (green) test routine 
 >) teach : diag screen generation code 
 # fontlib / charset (bitmap) 
@@ -51,8 +52,46 @@ A really dumb laptop :
  . HDMI
  . EEPROM with bootloader and character set 
 
-========================================================================================
+=================================================================================
 
+up to   0x  1	      f		f	  f	     f	       f
+	_ _ _ 1M  _ _ _ 64K  _ _ _ 4K  _ _ _ 256  _ _ _ 16  8 _ _ _
+	
+	  vvvvvv
+	  vvvvvv
+	  
+	  (2 MB)
+
+charset 
+fontlib
+EEPROM --(pxl data)--> fb-SDRAM -> LCD
+   |------------------->|
+    display + btld-FW/OS
+    driver
+    VideoCore VI
+    on BCM2711
+		|
+		|
+    btld FW - (hidden) processing   <-  code on mask ROM:   <-  [POWER ON]
+    sysmon (diag)      		    	  hw_init
+    hw_init				   boot
+    boot    	       		    (hardwired in SoC)
+    system configuration 
+
+=================================================================================
+
+Just look at the motherboards placed in laptops! That's a lot of chips to think about! 
+ . but think back to VIC-20 (CPU, CHAR-ROM, RAM/fb, BASIC, KERNAL) 
+
+ . bootloader 	 	  => need EEPROM 
+ . a program / a system   => need storage
+ . dynamic graphics 	  => need RAM 
+ . need filesystems
+
+Write routines/instructions (based on the ARM opcode matrix and addressing modes)
+  for initializing handpicked hw {SoC  /  CPU + CHAR-ROM + RAM:fb}. 
+
+=================================================================================
 
 "
 The bootloader on the Raspberry Pi is responsible for initializing the hardware and managing the boot process. When the Raspberry Pi boots without an SD card inserted and enters the diagnostics screen mode (also known as USB mass storage device boot or USB boot mode), the bootloader firmware, which is stored in the SoC's ROM, executes code to generate the diagnostics screen.

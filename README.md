@@ -33,6 +33,11 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+EEPROM programming :
+ . Raspberry PI 4
+ . laptop motherboards 
+
+
 Linux :
 
  . manual LCD programming 

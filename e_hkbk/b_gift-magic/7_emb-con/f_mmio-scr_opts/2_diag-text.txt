@@ -1,6 +1,13 @@
 ========================================================================================
 FIRST-STAGE CYCLIC BOARD-SPECIFIC BOOTLOADER ROUTINE : 
- . power -> CPU_clk 
+ () power -> CPU_clk
+ () color tests () green () white 
+ () 
+
+========================================================================================
+BootROM
+ . hardwired into the silicon 
+ . loads FSBL 
 
 ========================================================================================
 (a) work with a board that can transmit HDMI signal

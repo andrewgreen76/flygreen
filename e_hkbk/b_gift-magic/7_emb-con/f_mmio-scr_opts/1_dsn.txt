@@ -23,4 +23,19 @@ EEPROM --(pxl data)--> fb-SDRAM -> LCD
     boot    	       		    (hardwired in SoC)
     system configuration 
 
+=================================================================================
+=================================================================================
+=================================================================================
+
+Just look at the motherboards placed in laptops! That's a lot of chips to think about! 
+ . but think back to VIC-20 (CPU, CHAR-ROM, RAM/fb, BASIC, KERNAL) 
+
+ . bootloader 	 	  => need EEPROM 
+ . a program / a system   => need storage
+ . dynamic graphics 	  => need RAM 
+ . need filesystems
+
+Write routines/instructions (based on the ARM opcode matrix and addressing modes)
+  for initializing handpicked hw {SoC  /  CPU + CHAR-ROM + RAM:fb}. 
+
 _

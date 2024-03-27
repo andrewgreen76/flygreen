@@ -1,3 +1,11 @@
+
+In analog video signals the color intensity is determined by the given voltage level. In digital video signals this is achieved with regulating
+the duty cycle based on the given value (from 0 to 255 in binary - hence the term "8-bit color depth"). 
+
+=========================================================================================================================================================
+=========================================================================================================================================================
+=========================================================================================================================================================
+
 "
 VGA (Video Graphics Array) is considered an analog signal because it uses continuously varying electrical voltages to represent image data. In VGA signaling, the intensity of the red, green, and blue (RGB) components of each pixel is transmitted as an analog voltage level. These voltage levels are interpreted by the display device to produce the corresponding colors on the screen.
 

@@ -1,6 +1,24 @@
 ========================================================================================
-Every bootloader is tailored for the board's make-up.
-# hw_init
+Fool the monitor into thinking it's dealing with a legit signal source.
+ . clock rate = 1.5 GHz 
+ . HDMI transmitter
+ . improvised display driver/ctrlr 
+Just drive green/white color into the HDMI monitor. 
+
+========================================================================================
+CPU simulation HW :
+ + power + clock + EEPROM w/ instr.
+ ? no CU/eeproms ? 
+ 
+========================================================================================
+
+ROM :
+# cyclic board-specific bootloader routine : 
+1) teach : hw_init
+2) teach : a color (green) test routine 
+>) teach : diag screen generation code 
+# fontlib / charset (bitmap) 
+
 # boot
 # system configuration 
 
@@ -8,20 +26,14 @@ Every bootloader is tailored for the board's make-up.
 # USB mass storage device boot 
 # USB boot mode 
 # basic recovery mode
-|
+
 Brain/muscle :
-# 	     <-  central processing 
-# display driver component (in SoC)	<-  Gfx
-|
+# check on CPU/SoC	     <-  regulating states 
+# check on display driver component (in SoC)	<-  Gfx
+
 RAM :
-# fb 
-|
-ROM :
-# color test 
-# bootloader code (built into RPi4)   <-  cannot be seen
-  # board-specific 
-  # diag screen generation code (built into RPi4)  <- can be seen 
-# fontlib / charset (bitmap) 
+# check on fb (2M for 1920x1200 ; 75K for 320x240 ; 64K for 320x200)
+# teach the bootloader to access fb 
 
 "This diagnostics screen is rendered directly by the FIRMWARE using its built-in capabilities TO INTERACT WITH THE GPU/DISPLAY HARDWARE."
 "From this diagnostics screen, you may have the option to perform some basic actions, such as CONFIGURING BOOT OPTIONS or UPDATING FIRMWARE."
@@ -29,6 +41,12 @@ ROM :
 # start.elf
 # .elf on a microSD 
 ========================================================================================
+A really dumb laptop :
+ . powerful MPU/SoC (not MCU)
+ . HDMI
+ . EEPROM with bootloader and character set 
+========================================================================================
+
 
 "
 The bootloader on the Raspberry Pi is responsible for initializing the hardware and managing the boot process. When the Raspberry Pi boots without an SD card inserted and enters the diagnostics screen mode (also known as USB mass storage device boot or USB boot mode), the bootloader firmware, which is stored in the SoC's ROM, executes code to generate the diagnostics screen.

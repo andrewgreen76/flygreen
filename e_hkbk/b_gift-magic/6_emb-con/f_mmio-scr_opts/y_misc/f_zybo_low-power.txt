@@ -1,6 +1,6 @@
 
-- : FPGA => RTL/Verilog/VHDL , no eDP/DSI support 
-+ : Xilinx (AMD hw) , powerful , FPGA skills , supports HDMI 
+- : FPGA => no eDP/DSI/HDMI support , RTL/Verilog/VHDL 
++ : Xilinx (AMD hw) , powerful , FPGA skills 
 
 ===========================================================================================================================================================
 "

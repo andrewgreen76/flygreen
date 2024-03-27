@@ -1,4 +1,27 @@
 ========================================================================================
+Don't make your own HDMI/DSI screen. 
+
+========================================================================================
+Make your own [HDMI/DSI DISPLAY DRIVER] + [HDMI/DSI TX] ?
+ (Y)
+     ( ) extensive studying of the HDMI/DSI Tx block diagram/HW , make your own components
+ (N)
+     (a) get a board that features the right display driver and the right Tx
+     (b) come up with an isolated EEPROM that will
+						   (a) house your FSBL
+						   (b) house your SSBL 
+						   ( ) hw_mon with LEDs 
+						   ( ) bootloader will attempt hw_init
+     
+
+
+Make your own DSI Tx ?
+ (Y)
+     ( ) extensive studying of the HDMI Tx block diagram/HW , make your own components
+ (N)
+     (a) get a board that features HDMI 
+
+========================================================================================
 FIRST-STAGE CYCLIC BOARD-SPECIFIC BOOTLOADER ROUTINE : 
  () power -> CPU_clk
  () color tests () green () white 
@@ -20,9 +43,25 @@ Fool the monitor into thinking it's dealing with a legit signal source.
 Just drive green/white color into the HDMI monitor. 
 
 ========================================================================================
+
+ . power on/off flip/flop 
+
 CPU simulation HW :
- + power + clock + EEPROM w/ instr.
- ? no CU/eeproms ? 
+ + power + clock 
+ + CU/eeproms : instr -> c-word
+   . x86 imitation (opcode matrix , modes (addressing , etc.) ) 
+   . fetch 
+   . NOP
+   . lda
+   . sta 
+   . add/sub
+   . mlt/div
+   . AND
+   . OR 
+ + EEPROM w/ prog instr.
+ + hu-u-u-u-u-u-u-u-u-u-uge RAM
+   . slave ROM
+   . fb 
  
 ========================================================================================
 Bare-minimum HW first (HDMI TX + SoC  /  CPU + CHAR-ROM + RAM:fb + mem-ctrlr + clk + peris)

@@ -1,4 +1,9 @@
 ========================================================================================
+Every bootloader is tailored for the board's make-up.
+# hw_init
+# boot
+# system configuration 
+
 # USB mass storage device
 # USB mass storage device boot 
 # USB boot mode 
@@ -13,7 +18,8 @@ RAM :
 |
 ROM :
 # color test 
-# bootloader code (built into RPi4)   <-  cannot be seen 
+# bootloader code (built into RPi4)   <-  cannot be seen
+  # board-specific 
   # diag screen generation code (built into RPi4)  <- can be seen 
 # fontlib / charset (bitmap) 
 

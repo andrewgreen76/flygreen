@@ -1,8 +1,8 @@
 
- . All registers are cleared.
+All registers are cleared. Then , ... reset vector : 
 
-IP     		 0xfff0
-CS selector 	 0xf000
-CS base 	 0xffff0000
+0xfff0 		 ; IP 
+0xf000		 ; CS selector
+0xffff0000	 ; CS base
 
 _

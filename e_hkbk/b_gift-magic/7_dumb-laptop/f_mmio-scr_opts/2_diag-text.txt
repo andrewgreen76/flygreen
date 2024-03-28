@@ -1,0 +1,173 @@
+========================================================================================
+Don't make your own HDMI/DSI screen. 
+
+========================================================================================
+Make your own [HDMI/DSI DISPLAY DRIVER] + [HDMI/DSI TX] ?
+ (Y)
+     ( ) extensive studying of the HDMI/DSI Tx block diagram/HW , make your own components
+ (N)
+     (a) get a board that features the right display driver and the right Tx
+     (b) come up with an isolated EEPROM that will
+						   (a) house your FSBL
+						   (b) house your SSBL 
+						   ( ) hw_mon with LEDs 
+						   ( ) bootloader will attempt hw_init
+     
+
+
+Make your own DSI Tx ?
+ (Y)
+     ( ) extensive studying of the HDMI Tx block diagram/HW , make your own components
+ (N)
+     (a) get a board that features HDMI 
+
+========================================================================================
+FIRST-STAGE CYCLIC BOARD-SPECIFIC BOOTLOADER ROUTINE : 
+ () power -> CPU_clk
+ () color tests () green () white 
+ () 
+
+========================================================================================
+BootROM
+ . hardwired into the silicon 
+ . loads FSBL 
+
+========================================================================================
+(a) work with a board that can transmit HDMI signal
+(b) work with something simpler , smaller , less powerful 
+
+Fool the monitor into thinking it's dealing with a legit signal source.
+ . clock rate = 54 MHz / 1.5 GHz 
+ . HDMI transmitter
+ . improvised display driver/ctrlr 
+Just drive green/white color into the HDMI monitor. 
+
+========================================================================================
+
+ . power on/off flip/flop 
+
+CPU simulation HW :
+ + power + clock 
+ + CU/eeproms : instr -> c-word
+   . x86 imitation (opcode matrix , modes (addressing , etc.) ) 
+   . fetch 
+   . NOP
+   . lda
+   . sta 
+   . add/sub
+   . mlt/div
+   . AND
+   . OR 
+ + EEPROM w/ prog instr.
+ + hu-u-u-u-u-u-u-u-u-u-uge RAM
+   . slave ROM
+   . fb 
+ 
+========================================================================================
+Bare-minimum HW first (HDMI TX + SoC  /  CPU + CHAR-ROM + RAM:fb + mem-ctrlr + clk + peris)
+|
+-> ROM :
+# first-stage cyclic board-specific bootloader routine : 
+1) teach : hw_init
+ -> bootloader binary image (512B) 
+2) teach : a color (green) test routine 
+>) teach : diag screen generation code 
+# fontlib / charset (bitmap) 
+
+# boot
+# system configuration 
+
+# USB mass storage device
+# USB mass storage device boot 
+# USB boot mode 
+# basic recovery mode
+
+Brain/muscle :
+# check on CPU/SoC	     <-  regulating states 
+# check on display driver component (in SoC)	<-  Gfx
+
+RAM :
+# check on fb (2M for 1920x1200 ; 75K for 320x240 ; 64K for 320x200)
+# teach the bootloader to access fb 
+
+"This diagnostics screen is rendered directly by the FIRMWARE using its built-in capabilities TO INTERACT WITH THE GPU/DISPLAY HARDWARE."
+"From this diagnostics screen, you may have the option to perform some basic actions, such as CONFIGURING BOOT OPTIONS or UPDATING FIRMWARE."
+
+# start.elf
+# .elf on a microSD 
+
+========================================================================================
+A really dumb laptop :
+ . powerful MPU/SoC (not MCU)
+ . HDMI
+ . EEPROM with bootloader and character set 
+
+=================================================================================
+
+up to   0x  1	      f		f	  f	     f	       f
+	_ _ _ 1M  _ _ _ 64K  _ _ _ 4K  _ _ _ 256  _ _ _ 16  8 _ _ _
+	
+	  vvvvvv
+	  vvvvvv
+	  
+	  (2 MB)
+
+charset 
+fontlib
+EEPROM --(pxl data)--> fb-SDRAM -> LCD
+   |------------------->|
+    display + btld-FW/OS
+    driver
+    VideoCore VI
+    on BCM2711
+		|
+		|
+    btld FW - (hidden) processing   <-  code on mask ROM:   <-  [POWER ON]
+    sysmon (diag)      		    	  hw_init
+    hw_init				   boot
+    boot    	       		    (hardwired in SoC)
+    system configuration 
+
+=================================================================================
+
+Just look at the motherboards placed in laptops! That's a lot of chips to think about! 
+ . but think back to VIC-20 (CPU, CHAR-ROM, RAM/fb, BASIC, KERNAL) 
+
+ . bootloader 	 	  => need EEPROM 
+ . a program / a system   => need storage
+ . dynamic graphics 	  => need RAM 
+ . need filesystems
+
+Write routines/instructions (based on the ARM opcode matrix and addressing modes)
+  for initializing handpicked hw {SoC  /  CPU + CHAR-ROM + RAM:fb}. 
+
+=================================================================================
+
+"
+The bootloader on the Raspberry Pi is responsible for initializing the hardware and managing the boot process. When the Raspberry Pi boots without an SD card inserted and enters the diagnostics screen mode (also known as USB mass storage device boot or USB boot mode), the bootloader firmware, which is stored in the SoC's ROM, executes code to generate the diagnostics screen.
+
+The bootloader has a predefined set of routines and instructions to display the diagnostics screen. These routines typically involve accessing the GPU (Graphics Processing Unit) and display hardware through memory-mapped I/O (Input/Output) to render text and graphics directly on the screen.
+
+The information displayed on the diagnostics screen is typically static and doesn't involve complex calculations or dynamic data retrieval. Instead, it usually includes static information such as the Raspberry Pi model, firmware version, boot options, and potentially some basic troubleshooting instructions.
+
+This information is hardcoded or configured within the bootloader firmware itself. When the bootloader executes during the boot process without an SD card inserted, it executes the routines necessary to display this information on the screen.
+
+The bootloader may also include basic user interaction capabilities, allowing users to configure boot options or perform simple actions using keyboard input (such as pressing certain keys like Esc to access the diagnostics screen).
+
+In summary, the bootloader firmware on the Raspberry Pi includes predefined routines and instructions to generate and display the diagnostics screen directly using the GPU and display hardware. The information displayed on the diagnostics screen is typically static and predetermined, hardcoded, or configured within the bootloader firmware itself.
+"
+
+
+
+"
+When the Raspberry Pi boots without an SD card inserted, it enters a diagnostic mode known as "USB mass storage device boot" or "USB boot mode". In this mode, the Raspberry Pi acts as a USB mass storage device, and it exposes a special diagnostic partition to the host computer it's connected to via USB.
+
+In this diagnostic mode, the Raspberry Pi's built-in firmware (part of the SoC's ROM code) generates the diagnostic screen directly without relying on an SD card or an external bootloader. The firmware renders this screen using its built-in capabilities to interact with the GPU and display hardware.
+
+The diagnostic screen typically includes information such as the Raspberry Pi model, firmware version, boot configuration options, and a prompt indicating that the Raspberry Pi is ready to receive an operating system image via USB. This screen is displayed on the connected monitor or display device.
+
+Once the Raspberry Pi enters USB boot mode and exposes the diagnostic partition, the user can use a tool provided by the Raspberry Pi Foundation, such as the Raspberry Pi Imager or the Raspberry Pi USB Boot Tool, to write an operating system image to the diagnostic partition. After writing the image, the Raspberry Pi reboots and boots from the newly written operating system image.
+
+So, in summary, when the Raspberry Pi boots without an SD card inserted, the firmware in the SoC's ROM code generates the diagnostic screen directly, using its built-in capabilities to interact with the GPU and display hardware.
+"
+_

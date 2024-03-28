@@ -1,0 +1,20 @@
+"
+In the context of HDMI graphics, PLL stands for Phase-Locked Loop. A Phase-Locked Loop is a control system that generates an output signal whose phase is related to the phase of an input signal. PLLs are commonly used in HDMI (High-Definition Multimedia Interface) graphics for clock synchronization and frequency synthesis.
+
+Here's how PLLs are typically used in HDMI graphics:
+
+1. **Clock Generation:**
+   - HDMI requires precise clock signals for transmitting video and audio data. PLLs are employed to generate stable and accurate clock signals that meet the specific timing requirements of HDMI standards.
+
+2. **Frequency Synthesis:**
+   - HDMI signals often have different pixel clock frequencies based on the resolution and refresh rate of the video content. PLLs can be configured to synthesize these different frequencies from a reference clock, ensuring that the HDMI transmitter sends the correct data at the required speed.
+
+3. **Jitter Reduction:**
+   - Jitter refers to the variations in the timing of a signal. PLLs can help reduce jitter by locking onto the incoming clock signal and generating a more stable and precise output clock. This is crucial for maintaining signal integrity and preventing artifacts in the displayed image.
+
+4. **Clock Recovery:**
+   - In HDMI receivers, PLLs can be used for clock recovery. They synchronize with the incoming HDMI signal, extracting the clock information from the data stream. This recovered clock is then used for processing the received video and audio data.
+
+In summary, PLLs play a vital role in HDMI graphics by ensuring that the transmitted and received signals adhere to the required timing and frequency specifications. They contribute to the overall quality and reliability of HDMI connections in multimedia applications.
+"
+_

@@ -1,0 +1,22 @@
+"
+System-on-Chip (SoC) designs typically don't incorporate reprogrammable EEPROM (Electrically Erasable Programmable Read-Only Memory) directly onto the chip. Instead, EEPROM is generally a separate component used for storing non-volatile data that needs to be retained even when power is removed.
+
+However, some SoCs may integrate a form of reprogrammable non-volatile memory within the chip itself, such as flash memory or embedded flash memory. These types of memory can be reprogrammed, but they are typically used for storing firmware, boot code, and configuration data rather than general-purpose data storage like EEPROM.
+
+For example, some microcontrollers and microprocessors integrate flash memory that can be reprogrammed to update firmware or store configuration parameters. These chips are commonly used in embedded systems, IoT devices, and other applications where reprogrammable non-volatile memory is required.
+
+It's important to note that the specific features and capabilities of SoCs vary depending on the manufacturer and the intended use case. While some SoCs may include reprogrammable non-volatile memory, others may rely on external EEPROM or flash memory for similar functionality.
+"
+
+
+
+"
+Single-board computers (SBCs) typically don't include reprogrammable EEPROM (Electrically Erasable Programmable Read-Only Memory) directly onboard. However, they may support external EEPROM chips that can be reprogrammed by the user.
+
+External EEPROM chips are commonly used with SBCs for storing configuration data, custom firmware, or other non-volatile information. These chips connect to the SBC through interfaces such as I2C, SPI, or GPIO pins.
+
+While the SBC itself doesn't have reprogrammable EEPROM onboard, you can add an external EEPROM chip to achieve similar functionality. Many SBCs provide support for interfacing with external EEPROMs, making it relatively straightforward to integrate into your projects.
+
+If you have a specific SBC in mind, you can check its datasheet or documentation to see if it supports external EEPROMs and what interface it uses for connecting them. Additionally, many hobbyist electronics suppliers offer EEPROM modules or breakout boards that are compatible with popular SBCs like Raspberry Pi, Arduino, and others.
+"
+_

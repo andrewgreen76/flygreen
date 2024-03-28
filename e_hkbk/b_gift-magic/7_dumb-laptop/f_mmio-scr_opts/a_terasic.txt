@@ -1,0 +1,26 @@
+
+Custom image to HDMI. 
+
+=========================================================================================================================================================
+
+- : invasive RTL (FPGA) programming 
++ : direct fb / EEPROM programming , powerful 
+
+=========================================================================================================================================================
+
+"
+If you're looking for a board with similar capabilities to the BCM2711 (the SoC used in the Raspberry Pi 4) that allows for direct programming of the framebuffer before outputting to HDMI, you might want to consider FPGA (Field-Programmable Gate Array) development boards. FPGAs offer flexibility and programmability, allowing you to implement custom logic, including framebuffer manipulation, before outputting the result to HDMI or other display interfaces.
+
+One popular FPGA development board that you could consider is the Terasic DE10-Nano. Here's why it might be suitable for your project:
+
+1. **Powerful FPGA**: The Terasic DE10-Nano features an Intel Cyclone V SoC FPGA, which provides significant processing power and flexibility for implementing custom logic, including framebuffer manipulation.
+
+2. **HDMI Output**: The DE10-Nano board includes an HDMI output port, allowing you to connect it directly to an HDMI display after programming the FPGA.
+
+3. **Development Environment**: Terasic provides a comprehensive development environment for the DE10-Nano, including software tools, documentation, and example projects to help you get started with FPGA development.
+
+4. **Community Support**: The DE10-Nano has a community of developers and enthusiasts who share resources, tutorials, and projects, making it easier to learn and troubleshoot.
+
+Using an FPGA development board like the Terasic DE10-Nano gives you the flexibility to implement custom framebuffer manipulation algorithms or other graphics processing tasks before outputting the result to HDMI. However, it's worth noting that FPGA development can be more complex than programming traditional microcontrollers or SoCs, and it may require some familiarity with hardware description languages (such as Verilog or VHDL) and FPGA development tools.
+"
+_

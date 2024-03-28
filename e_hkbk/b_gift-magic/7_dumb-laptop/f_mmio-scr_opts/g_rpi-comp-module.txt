@@ -3,6 +3,23 @@
 + : loading data (and code) straight from the EEPROM upon startup 
 
 =========================================================================================================================================================
+"
+Yes, there are single-board computers (SBCs) and microcontroller platforms available with sufficient power and memory to handle large display tasks without relying on a traditional operating system. These platforms are often used in embedded systems, digital signage, kiosks, and other applications where the primary task is to drive a large display with specific content.
+
+Some examples of such platforms include:
+
+1. **Raspberry Pi Compute Module:** The Raspberry Pi Compute Module series offers powerful computing capabilities in a compact form factor. It can be used to drive large displays with custom software developed using libraries such as OpenGL or directly interfacing with the display hardware.
+
+2. **BeagleBone Black:** The BeagleBone Black is another popular SBC with sufficient processing power and memory to handle display tasks. It can run custom firmware or bare-metal applications tailored to the specific display requirements.
+
+3. **Arduino Due:** While microcontrollers like the Arduino Due have limited resources compared to SBCs, they can still handle certain display tasks. They are suitable for driving smaller displays or simple graphics interfaces.
+
+4. **Microcontroller-based Display Controllers:** Some microcontroller platforms, such as those based on ARM Cortex-M processors, offer dedicated display controller peripherals and sufficient memory to drive large displays without the need for a full-fledged operating system.
+
+When using these platforms for large display tasks without an operating system, developers typically write custom firmware or bare-metal applications tailored to the specific requirements of the display. This approach allows for efficient resource utilization and precise control over the display output. Additionally, developers may use specialized libraries or frameworks for graphics rendering and user interface design, depending on the complexity of the display content.
+"
+
+
 
 "
 Yes, there are single-board computers (SBCs) or system-on-chip (SoC) boards that can boot directly from their onboard storage, such as an EEPROM (Electrically Erasable Programmable Read-Only Memory), without the need for a separate microSD card or external storage device. One example of such a board is the Raspberry Pi Compute Module.

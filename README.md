@@ -34,8 +34,12 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
 EEPROM programming :
- . Raspberry PI 4
- . laptop motherboards 
+ . [not possible] Raspberry PI 4
+ . [not possible] laptop motherboards
+
+Firmware programming :
+ . POST imitation
+ . BIOS (not UEFI) imitation
 
 
 Linux :

@@ -9,7 +9,9 @@ DRAM - larger (main) memory
  . surface-mount package 
  . not page-mode ones like : 4164 (8K-16K) , 4464
  
-flash - storage 
+flash - storage
+ . NAND - in USB sticks , SSD's 
+ . NOR - in BIOS/UEFI chips 
 
 ============================================================================================================================================================
 

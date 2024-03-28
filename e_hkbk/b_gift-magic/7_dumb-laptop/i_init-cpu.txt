@@ -1,4 +1,0 @@
-
- . All registers are cleared. 
-
-_

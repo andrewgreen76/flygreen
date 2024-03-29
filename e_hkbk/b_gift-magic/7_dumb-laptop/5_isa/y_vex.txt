@@ -1,0 +1,16 @@
+"
+VEX (Vector Extension) and EVEX (Extended Vector Extension) are instruction encoding schemes used in modern x86 processors, particularly for SIMD (Single Instruction, Multiple Data) and vector processing instructions.
+
+1. **VEX**:
+   - VEX is an instruction encoding scheme introduced with Intel's Sandy Bridge microarchitecture.
+   - It provides support for wider vector registers and additional vector operations.
+   - VEX prefixes are used to encode SIMD instructions, such as those for SSE (Streaming SIMD Extensions) and AVX (Advanced Vector Extensions), allowing for better performance and flexibility in handling vector operations.
+
+2. **EVEX**:
+   - EVEX is an extension of the VEX encoding scheme introduced with Intel's Knights Landing (KNL) architecture and further refined in subsequent microarchitectures.
+   - It extends the capabilities of VEX by adding support for even wider vector registers (up to 512 bits) and additional features for enhanced performance and functionality.
+   - EVEX prefixes are used to encode SIMD instructions for AVX-512, which introduces a new set of SIMD instructions and wider vector registers compared to previous AVX versions.
+
+Both VEX and EVEX encoding schemes are used to facilitate efficient SIMD and vector processing operations, enabling x86 processors to handle parallel computations more effectively in applications such as scientific computing, multimedia processing, and artificial intelligence.
+"
+_

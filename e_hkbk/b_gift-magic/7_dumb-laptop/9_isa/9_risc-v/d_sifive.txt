@@ -1,0 +1,8 @@
+"
+SiFive, the company known for its RISC-V processor designs, primarily focuses on providing processor IP (intellectual property) cores rather than complete motherboards. However, there are development boards and platforms available from SiFive and other vendors that incorporate SiFive's RISC-V processor IP cores.
+
+One example is the SiFive HiFive Unmatched board, which is a development board featuring the SiFive Freedom U740 processor. While this board is not a traditional motherboard like those found in laptops, it provides a platform for developers to experiment with and develop software for RISC-V-based systems.
+
+Additionally, SiFive collaborates with various partners and customers to integrate their RISC-V processor cores into custom silicon solutions, which could potentially include motherboards or system-on-module (SOM) designs for specific applications. However, these are typically not consumer products and are developed for specific use cases or customers.
+"
+_

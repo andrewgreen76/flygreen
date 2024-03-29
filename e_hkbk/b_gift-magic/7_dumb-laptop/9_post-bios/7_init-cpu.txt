@@ -1,7 +1,7 @@
 
 All registers are cleared. Then , ... reset vector : 
 
-0x0000fff0	 ; IP 
+0x0000fff0	 ; IP (fetch) 
 0x0000f000	 ; CS selector
 0xffff0000	 ; CS base
 

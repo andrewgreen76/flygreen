@@ -1,0 +1,79 @@
+=======================================================================================================================================================
+M7 : 
+=======================================================================================================================================================
+
+"
+The ARM Cortex-M7 architecture doesn't have a single "control register" that encompasses all control functions. Instead, various control-related functions are distributed across several special function registers (SFRs) or control/status registers (CSRs). While it's not feasible to provide a complete bit-for-bit breakdown in this format, I can outline some key control-related registers commonly found in Cortex-M7-based microcontrollers:
+
+1. **Control Register (CONTROL)**:
+   - Bit 0 (nPRIV): Specifies the privilege level of the processor.
+   - Bit 1 (SPSEL): Specifies the current stack pointer used by the processor.
+
+2. **System Control Block (SCB)**:
+   - Various registers for controlling and configuring system behavior, such as the System Handler Control and State Register (SHCSR) and the System Control Register (SCTLR).
+
+3. **Priority Mask Register (PRIMASK)**:
+   - Bit 0: Controls the masking of interrupts with priority levels lower than the current execution priority.
+
+4. **Fault Mask Register (FAULTMASK)**:
+   - Bit 0: When set, disables all interrupts except for NMI and HardFault.
+
+5. **Base Priority Register (BASEPRI)**:
+   - Bits 0-7: Defines the base priority level below which interrupts are masked.
+
+6. **Interrupt Control and State Register (ICSR)**:
+   - Bits 0-8: Exception number, indicating the active exception.
+
+7. **Vector Table Offset Register (VTOR)**:
+   - Specifies the address offset of the vector table.
+
+8. **Special Register Access Control Register (SACR)**:
+   - Controls privileged or unprivileged access to certain system registers.
+
+These registers collectively enable the configuration and management of the processor's operation, including interrupt handling, exception handling, memory management, and system configuration. The specific functionalities and bit assignments of these registers may vary depending on the Cortex-M7 implementation and the manufacturer's customization. For detailed information, refer to the specific MCU's technical reference manual or datasheet provided by the manufacturer.
+"
+
+=======================================================================================================================================================
+General : 
+=======================================================================================================================================================
+
+"
+In the ARM Cortex-M architecture, the control registers, also known as special function registers (SFRs) or control/status registers (CSRs), play a crucial role in configuring and controlling various aspects of the processor's operation. While there isn't a single "control register" that encompasses all control functions, there are several important control and status registers that collectively manage the processor's behavior. Here's a breakdown of some key control-related registers in the ARM Cortex-M architecture:
+
+1. **Control Register (CONTROL)**:
+   - Bit 0 (nPRIV): Specifies the privilege level of the processor. When set to 0, the processor operates in privileged mode, and when set to 1, it operates in unprivileged mode.
+   - Bit 1 (SPSEL): Specifies the current stack pointer used by the processor. When set to 0, the MSP (Main Stack Pointer) is used, and when set to 1, the PSP (Process Stack Pointer) is used.
+
+2. **System Control Register (SCTLR)**:
+   - Bits 0-1: Enable or disable MMU (Memory Management Unit).
+   - Bits 2-3: Enable or disable caches.
+   - Bits 12-13: Endianness control (big-endian or little-endian).
+   - Other bits: Various system control and configuration options.
+
+3. **System Handler Control and State Register (SHCSR)**:
+   - Bits 0-15: Various system fault status and control bits.
+   - Bits 16-18: Memory Management Fault enable, Bus Fault enable, Usage Fault enable.
+   - Other bits: Exception and fault control.
+
+4. **Priority Mask Register (PRIMASK)**:
+   - Bit 0: Controls the masking of interrupts with priority levels lower than the current execution priority.
+
+5. **Fault Mask Register (FAULTMASK)**:
+   - Bit 0: When set, disables all interrupts except for NMI and HardFault.
+
+6. **Base Priority Register (BASEPRI)**:
+   - Bits 0-7: Defines the base priority level below which interrupts are masked.
+
+7. **Interrupt Control and State Register (ICSR)**:
+   - Bits 0-8: Exception number, indicating the active exception.
+   - Bits 12-15: Priority of the pending exception.
+
+8. **Vector Table Offset Register (VTOR)**:
+   - Specifies the address offset of the vector table.
+
+9. **Special Register Access Control Register (SACR)**:
+   - Controls privileged or unprivileged access to certain system registers.
+
+These are just a few examples of control-related registers in the ARM Cortex-M architecture. The specific functionality and bit assignments of these registers may vary depending on the Cortex-M processor variant and the specific implementation. These registers collectively enable the configuration and management of the processor's operation, including exception handling, interrupt control, memory management, and system configuration.
+"
+_

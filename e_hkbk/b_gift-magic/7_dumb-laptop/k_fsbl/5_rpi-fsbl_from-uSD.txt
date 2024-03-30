@@ -1,0 +1,8 @@
+"
+The Raspberry Pi is capable of running the first-stage bootloader from a microSD card. In fact, this is the standard way that the Raspberry Pi boots up. 
+
+When you power on the Raspberry Pi, the SoC's boot ROM initializes and loads the first-stage bootloader (bootcode.bin) from the first partition of the microSD card. This first-stage bootloader then proceeds to load subsequent bootloaders (such as start.elf) and the Linux kernel from the microSD card or another boot device, initiating the boot process.
+
+So, unlike some embedded systems where the initial bootloader might be hardcoded into the board's firmware, the Raspberry Pi's first-stage bootloader is loaded from the microSD card, allowing for flexibility and ease of updating or modifying the boot process.
+"
+_

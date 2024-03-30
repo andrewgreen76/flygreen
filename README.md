@@ -33,13 +33,16 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-EEPROM programming :
+Boot/EEPROM firmware programming :
  . [not possible] Raspberry PI 4
  . [not possible] laptop motherboards
+ . [not possible] reset vector 
 
-Firmware programming :
+Flash firmware programming :
  . POST imitation
  . BIOS (not UEFI) imitation
+ . FSBL
+ . SSBL 
 
 
 Linux :

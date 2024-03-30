@@ -33,6 +33,9 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Control register bits in x86 , ARMv8
+
+
 Boot/EEPROM firmware programming :
  . [not possible] Raspberry PI 4
  . [not possible] laptop motherboards

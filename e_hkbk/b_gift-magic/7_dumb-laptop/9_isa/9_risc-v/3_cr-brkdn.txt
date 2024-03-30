@@ -1,0 +1,50 @@
+"
+In RISC-V architecture, there isn't a single "control register" that encompasses all control functions. Instead, control functions are distributed across multiple control and status registers (CSRs), each responsible for specific aspects of the processor's operation. However, I can provide a breakdown of some commonly used control and status registers in RISC-V architecture:
+
+1. **mstatus (Machine Status Register)**:
+   - Bit 0: UIE (User-mode Interrupt Enable).
+   - Bit 1: SIE (Supervisor-mode Interrupt Enable).
+   - Bit 2: HIE (Hypervisor-mode Interrupt Enable).
+   - Bit 3: MIE (Machine-mode Interrupt Enable).
+   - Bit 4: UPIE (User-mode Previous Interrupt Enable).
+   - Bit 5: SPIE (Supervisor-mode Previous Interrupt Enable).
+   - Bit 6: HPIE (Hypervisor-mode Previous Interrupt Enable).
+   - Bit 7: MPIE (Machine-mode Previous Interrupt Enable).
+   - Bit 8: SPP (Supervisor Previous Privilege).
+   - Bit 9: HPP (Hypervisor Previous Privilege).
+   - Bit 10: MPP (Machine Previous Privilege).
+   - Bit 11: FS (Floating-point Status).
+   - Bit 12: XS (Extension Status).
+   - Bit 13: MPRV (Modify PRiVilege).
+   - Bit 14: SUM (permit Supervisor User Memory access).
+   - Bit 15: MXR (Make eXecutable Readable).
+   - Bit 16: TVM (Trap Virtual Memory).
+   - Bit 17: TW (Trap Watch).
+   - Bit 18: TSR (Trap SRET).
+   - Bit 19: MPRV (Modify PRiVilege).
+   - Bit 20: XL (eXtension Level).
+   - Bit 21: SD (State Dirty).
+   - Bit 22-23: Reserved.
+   - Bit 24-31: Custom Status Fields.
+
+2. **mepc (Machine Exception Program Counter)**:
+   - Holds the address to which control should be transferred when a trap, exception, or interrupt is taken in machine mode.
+
+3. **mcause (Machine Cause Register)**:
+   - Indicates the cause of the most recent trap, exception, or interrupt in machine mode.
+
+4. **mtvec (Machine Trap-Vector Base Address)**:
+   - Specifies the base address of the trap handler code in machine mode.
+
+5. **misa (Machine ISA Register)**:
+   - Describes the supported ISA extensions and features.
+
+6. **mie (Machine Interrupt Enable)**:
+   - Controls which interrupts are enabled in machine mode.
+
+7. **mip (Machine Interrupt Pending)**:
+   - Indicates which interrupts are pending in machine mode.
+
+This breakdown provides a high-level overview of some key control and status registers in RISC-V architecture, but the specific functionalities and bit assignments may vary depending on the processor implementation and specific system configuration. Additionally, RISC-V architecture includes various other CSRs that control other aspects of the system's operation, such as timers, performance counters, and memory protection.
+"
+_

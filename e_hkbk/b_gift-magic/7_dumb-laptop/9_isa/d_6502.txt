@@ -1,0 +1,30 @@
+"
+In the MOS 6502 architecture, there isn't a single dedicated "control register" like in more modern architectures. However, there are several registers and flags that can be collectively considered as control-related. Below is a breakdown of some key registers and flags in the MOS 6502 architecture:
+
+1. **Status Register (P)**:
+   - Bit 0 (C): Carry flag.
+   - Bit 1 (Z): Zero flag.
+   - Bit 2 (I): Interrupt Disable flag.
+   - Bit 3 (D): Decimal Mode flag (not used in the NES variant of the 6502).
+   - Bit 4 (B): Break Command flag (software interrupt).
+   - Bit 5 (U): Unused (always 1).
+   - Bit 6 (V): Overflow flag.
+   - Bit 7 (N): Negative flag.
+
+2. **Program Counter (PC)**:
+   - A 16-bit register that holds the memory address of the next instruction to be executed.
+
+3. **Instruction Register (IR)**:
+   - Holds the opcode of the currently executing instruction.
+
+4. **Address Register (AR)**:
+   - Holds the address used for memory operations such as load and store.
+
+5. **Data Register (DR)**:
+   - Holds data being read from or written to memory.
+
+These registers, along with the status flags in the Status Register (P), control various aspects of the 6502's operation, such as arithmetic operations, branching, and interrupt handling. The combination of these registers and flags allows the 6502 to execute instructions and manage its state during program execution.
+
+Please note that the 6502 architecture is relatively simple compared to modern architectures, and its control-related features are distributed across multiple registers and flags rather than being consolidated into a single control register.
+"
+_

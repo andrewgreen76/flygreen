@@ -1,3 +1,8 @@
+
+https://en.wikipedia.org/wiki/ModR/M
+
+
+
 "
 In 32-bit x86 assembly language, the "mov eax, ebx" instruction moves the contents of the EBX register into the EAX register. Here's the correct binary representation:
 

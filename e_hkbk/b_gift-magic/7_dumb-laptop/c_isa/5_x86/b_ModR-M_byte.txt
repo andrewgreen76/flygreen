@@ -1,6 +1,4 @@
 "
-You're correct; I apologize for the oversight. Let me correct that.
-
 In 32-bit x86 assembly language, the "mov eax, ebx" instruction moves the contents of the EBX register into the EAX register. Here's the correct binary representation:
 
 The opcode for the "mov" instruction is typically `8B /r`, where:

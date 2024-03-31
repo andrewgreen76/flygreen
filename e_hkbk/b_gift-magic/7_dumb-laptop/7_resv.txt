@@ -1,0 +1,4 @@
+"
+During the design phase, architects specify the reset vector mechanism, including determining the address where the reset vector is located, designing the hardware logic for initializing the program counter with the reset vector address during power-on or reset events, and mapping the reset vector address to a specific location in the CPU's address space, typically in non-volatile memory such as ROM or flash memory.
+"
+_

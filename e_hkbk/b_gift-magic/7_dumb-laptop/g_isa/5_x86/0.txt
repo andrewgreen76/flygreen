@@ -1,0 +1,1 @@
+describe the flow of binary values from memory/register to register in an x86 CPU

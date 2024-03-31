@@ -1,0 +1,10 @@
+
+ . IR
+ -> CU 
+
+===========================================================================================================================================================
+
+"
+The control logic is typically integrated into various components throughout the CPU, including the Instruction Decoder, Sequencer, and various control signal generation circuits.
+"
+_

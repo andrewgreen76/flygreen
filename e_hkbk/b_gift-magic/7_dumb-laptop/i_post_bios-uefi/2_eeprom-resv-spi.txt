@@ -1,0 +1,6 @@
+"Originally, the BIOS was stored in a parallel ROM mapped to the top 32K of memory via the ISA bridge. However, since the demise of the ISA bus, this has changed somewhat, and I have seen the BIOS stored on an SPI (4-wire) EEPROM, which was accessed via an LPC controller, again mapping it to memory. In other words, an access to the memory bus was translated by the hardware inside the chip into an SPI transaction."
+
+ - Stephen Crocker
+   Software Engineer (2001–present)5y
+
+_

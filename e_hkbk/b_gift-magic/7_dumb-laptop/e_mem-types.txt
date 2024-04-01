@@ -1,3 +1,8 @@
+ 
+flash - storage
+ . NOR - in BIOS/UEFI chips
+ . SPI - in UEFI chips
+ . NAND - in USB sticks , SSD's 
 
 SRAM - processor and cache
  . PDIP and surface-mount packages
@@ -8,10 +13,6 @@ DRAM - larger (main) memory
  . typically , SDRAM
  . surface-mount package 
  . not page-mode ones like : 4164 (8K-16K) , 4464
- 
-flash - storage
- . NAND - in USB sticks , SSD's 
- . NOR - in BIOS/UEFI chips 
 
 ============================================================================================================================================================
 

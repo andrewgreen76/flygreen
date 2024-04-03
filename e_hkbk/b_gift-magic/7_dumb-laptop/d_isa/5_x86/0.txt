@@ -1,3 +1,0 @@
-One sentence: . It's OK to admit that you don't know. 
-
-describe the flow of binary values from memory/register to register in an x86 CPU

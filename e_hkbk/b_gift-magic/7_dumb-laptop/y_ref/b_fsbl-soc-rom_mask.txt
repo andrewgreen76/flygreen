@@ -1,3 +1,7 @@
+========================================================================================
+FIRMWARE-SILICON MASKING (IN BROADCOM SOC's) 
+========================================================================================
+
 "
 The process of programming the first-stage bootloader into the System-on-Chip (SoC) of a Raspberry Pi involves several stages and techniques. While the specifics of the process are proprietary and not publicly disclosed by Broadcom, the manufacturer of the SoC used in Raspberry Pi devices, we can provide a general overview of how such operations are typically carried out in semiconductor manufacturing:
 

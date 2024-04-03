@@ -6,7 +6,7 @@ flash - storage
 
 SRAM - processor and cache
  . PDIP and surface-mount packages
- . 74LS289 , 62256 
+ . 74LS289 (x8) , 62256 (x8) 
  . Hitachi , Alliance Memory 
  
 DRAM - larger (main) memory

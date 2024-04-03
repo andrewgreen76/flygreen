@@ -1,0 +1,4 @@
+"
+No, the clock signal is not a part of the PCIe (Peripheral Component Interconnect Express) bus itself. PCIe uses a separate clocking mechanism called a "reference clock" or "data strobe" to synchronize data transmission between devices. This clock signal is typically generated externally to the PCIe bus and is not transmitted over the bus itself.
+"
+_

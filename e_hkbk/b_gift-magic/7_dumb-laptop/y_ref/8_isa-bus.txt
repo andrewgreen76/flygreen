@@ -1,0 +1,4 @@
+"
+The ISA bus, or Industry Standard Architecture bus, was a computer bus standard introduced by IBM in 1981 for connecting peripheral devices to the motherboard of IBM PC compatible computers.
+"
+_

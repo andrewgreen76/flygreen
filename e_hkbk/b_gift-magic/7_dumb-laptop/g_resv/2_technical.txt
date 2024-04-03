@@ -10,11 +10,17 @@ Control logic :
    mapped to a sequence of words , every cycle/step yielding a word via the control
    logic decoder 
 
+"
+Most microprocessors have reset vectors fixed at the two ends of their address spaces. Here are a few examples: The Intel 8086 processor has its reset vector at FFFF0h, the high end of its address space. PIC18 processors have the reset vector located at the low end, 0000h.
+"
 
+============================================================================================================================================================
+============================================================================================================================================================
+============================================================================================================================================================
 
- . the reset vector is the address of the first fully composed instruction to be executed
- . ... but the first things to be executed are actually MICRO-instructions - control logic signals
+ ? the reset vector is the address of the first fully composed instruction to be executed
+ ? ... but the first things to be executed are actually MICRO-instructions - control logic signals
    for loading the reset vector's instruction into the PC :
-   . 
+   ? 
 
 _

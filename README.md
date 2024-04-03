@@ -33,8 +33,12 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-Control register bits in x86 , ARMv8
+Control logic bits/signals in x86 , ARMv8.
 
+Reset vector :
+ . hardwired/integrated into the CPU 
+ . "double indirection"
+ . near jump to BIOS 
 
 Boot/EEPROM firmware programming :
  . [not possible] Raspberry PI 4
@@ -47,10 +51,7 @@ Flash firmware programming :
  . FSBL
  . SSBL 
 
-
-Linux :
-
- . manual LCD programming 
+Video signal interfacing , display drivers/controllers : 
  . video signal generation and processing :
     . I2C , FPC , DDC , LTDC , LVDS , eDP , MIPI DSI 
     . VGA , HDMI , DSI

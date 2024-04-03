@@ -1,0 +1,28 @@
+"
+A "near jump" is an instruction in x86 assembly language that performs a relative jump to a target address within a limited range, typically within a segment of code.
+"
+
+
+
+"
+In 32-bit x86 assembly language, the range for a near jump is typically -128 to +127 bytes from the current instruction's address.
+"
+
+
+
+"
+The range is limited to fit within a single-byte signed offset, optimizing the instruction size and allowing for more efficient encoding in machine code.
+"
+
+
+
+Jumps to the start of BIOS within the range of {-128, +127} bytes.
+ |
+ . jmp BIOS_Start
+
+
+
+"
+In binary, the near jump instruction `jmp BIOS_Start` in 32-bit x86 assembly language would be represented as `EB XX`, where `EB` is the opcode for the relative short jump instruction, and `XX` is the signed 8-bit offset representing the distance to jump.
+"
+_

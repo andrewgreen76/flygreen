@@ -1,0 +1,4 @@
+"
+They are in pairs to enable differential signaling, which improves noise immunity and allows for higher data transfer rates over longer distances compared to single-ended signaling.
+"
+_

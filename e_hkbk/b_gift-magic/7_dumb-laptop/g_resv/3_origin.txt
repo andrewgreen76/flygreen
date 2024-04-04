@@ -1,15 +1,4 @@
 
-Control logic :
- |
- . IR 
- -> sequencer
- -> decoder
- -> control unit (with a word for the next clock cycle) 
- |
- . every single instruction {opd|opc} is buffered for a handful of cycles/steps ,
-   mapped to a sequence of words , every cycle/step yielding a word via the control
-   logic decoder 
-
 "
 Most microprocessors have reset vectors fixed at the two ends of their address spaces. Here are a few examples: The Intel 8086 processor has its reset vector at FFFF0h, the high end of its address space. PIC18 processors have the reset vector located at the low end, 0000h.
 "

@@ -1,0 +1,4 @@
+"
+Staff at Intel may use a combination of hardware and software tools, including testing equipment such as logic analyzers, oscilloscopes, and in-circuit emulators, as well as specialized diagnostic software, to test the integrity and communication between the CPU and the BIOS/UEFI flash storage during development and quality assurance processes.
+"
+_

@@ -1,0 +1,16 @@
+"
+In a 32-bit x86 CPU, the flags register typically includes the following flags:
+
+1. CF (Carry Flag): Indicates if an arithmetic operation resulted in a carry out of the most significant bit.
+2. PF (Parity Flag): Indicates the parity (even or odd) of the least significant byte of the result.
+3. AF (Adjust Flag): Indicates if there was a carry or borrow between the low and high nibbles of the result in arithmetic operations.
+4. ZF (Zero Flag): Indicates if the result of an operation is zero.
+5. SF (Sign Flag): Indicates if the result of an operation is negative (set if the most significant bit of the result is 1).
+6. TF (Trap Flag): Enables single-step mode for debugging purposes.
+7. IF (Interrupt Flag): Enables or disables external interrupts.
+8. DF (Direction Flag): Determines the direction of string manipulation instructions (forward or backward).
+9. OF (Overflow Flag): Indicates if the result of a signed arithmetic operation overflowed its designated size.
+
+These flags are used by the CPU to control program flow and to indicate the outcome of arithmetic and logical operations.
+"
+_

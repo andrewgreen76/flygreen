@@ -1,0 +1,39 @@
+
+https://en.wikipedia.org/wiki/ModR/M
+
+
+
+"
+In 32-bit x86 assembly language, the "mov eax, ebx" instruction moves the contents of the EBX register into the EAX register. Here's the correct binary representation:
+
+The opcode for the "mov" instruction is typically `8B /r`, where:
+- `8B` is the hexadecimal representation of the opcode.
+- `/r` indicates that the instruction uses the ModR/M byte to specify the registers involved.
+
+For "mov eax, ebx":
+- The opcode is `8B`.
+- The ModR/M byte specifies the source (EBX) and destination (EAX) registers, which is `11` for both.
+
+Putting it all together:
+- Opcode: `10001011` (in binary, or `8B` in hexadecimal)
+- ModR/M byte: `11000111` (for EBX as source and EAX as destination)
+- Therefore, the complete binary representation would be:
+```
+10001011 11000111
+```
+"
+
+
+
+"
+The ModR/M byte in this case specifies the source and destination registers for the "mov" instruction. Here's the breakdown:
+
+- Bits 7-6 (Mod): This field specifies the addressing mode. Since we're dealing with register-to-register move, the Mod field is `11` (binary).
+
+- Bits 5-3 (Reg/Opcode): This field specifies the destination register. For "mov eax, ebx," the destination register is EAX, which is encoded as `000`.
+
+- Bits 2-0 (RM): This field specifies the source register. For "mov eax, ebx," the source register is EBX, which is encoded as `011`.
+
+Therefore, the ModR/M byte is `11000111` in binary, representing the addressing mode `11` (register), the destination register EAX, and the source register EBX.
+"
+_

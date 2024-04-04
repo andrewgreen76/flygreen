@@ -1,4 +1,0 @@
-"
-In 32-bit x86 architecture, the instruction opcode typically populates the lower-order bits of the Instruction Register (IR), while the operands, including register identifiers and immediate values, are represented by higher-order bits within the IR.
-"
-_

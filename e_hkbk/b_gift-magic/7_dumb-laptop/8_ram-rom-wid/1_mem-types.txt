@@ -16,6 +16,13 @@ DRAM - larger (main) memory
 
 ROM
 
+
+MRAM :
+|
+"
+ MRAM stands for Magnetoresistive Random Access Memory. It is a type of non-volatile memory that stores data by utilizing magnetic elements to represent the binary values (0s and 1s). MRAM has several advantages, including fast read and write speeds, low power consumption, and high endurance. It is considered a promising alternative to traditional memory technologies such as DRAM and Flash memory due to its combination of speed, non-volatility, and reliability.
+"
+
 ============================================================================================================================================================
 
 "

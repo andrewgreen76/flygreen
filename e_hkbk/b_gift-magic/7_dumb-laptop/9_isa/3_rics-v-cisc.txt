@@ -1,0 +1,4 @@
+"
+One key difference between a Complex Instruction Set Computer (CISC) and a Reduced Instruction Set Computer (RISC) architecture is that CISC architectures typically have a larger and more complex instruction set, including multi-step instructions, while RISC architectures have a smaller and simpler instruction set with single-cycle instructions.
+"
+_

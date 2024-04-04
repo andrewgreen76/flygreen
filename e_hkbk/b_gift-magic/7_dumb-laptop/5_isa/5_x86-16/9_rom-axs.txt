@@ -1,4 +1,0 @@
-"
-In x86 architecture, the Memory Address Register (MAR) is typically used to hold the memory address of data in RAM (Random Access Memory) rather than EEPROM (Electrically Erasable Programmable Read-Only Memory). Accessing EEPROM addresses in an x86 system usually involves using specialized instructions or communication protocols, such as SPI (Serial Peripheral Interface) or I2C (Inter-Integrated Circuit), rather than directly manipulating the MAR. The CPU may interact with EEPROM through peripheral interfaces or controllers, which manage the communication with the EEPROM device and handle address and data transfers between the CPU and EEPROM.
-"
-_

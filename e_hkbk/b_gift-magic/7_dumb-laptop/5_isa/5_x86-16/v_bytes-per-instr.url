@@ -1,5 +1,0 @@
-[InternetShortcut]\nURL=https://electronics.stackexchange.com/questions/509025/reason-for-x86-reset-vector-being-at-0xfffffff0-instead-of-0xffffffff
-
-
-
-"x86 instructions often take up more than one byte, and a reasonable reset routine will almost certainly point to multiple instructions."

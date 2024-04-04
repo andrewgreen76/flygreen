@@ -1,0 +1,14 @@
+
+instr_mem_addr_bus
+instr_mem_data_bus
+data_mem_addr_bus
+data_mem_data_bus
+|
+CPU_intern_bus_low
+CPU_intern_bus_high
+|
+8-bit instr
+|
+harvard architecture 
+
+_

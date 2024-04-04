@@ -1,0 +1,4 @@
+"
+Intel uses a process called photolithography, which involves projecting patterns onto silicon wafers using light and chemical processes, to physically scale down their integrated circuits and achieve smaller transistor sizes, enabling higher performance and increased density on semiconductor chips.
+"
+_

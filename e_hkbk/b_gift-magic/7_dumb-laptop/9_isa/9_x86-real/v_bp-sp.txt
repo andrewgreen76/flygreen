@@ -1,0 +1,4 @@
+"
+The stack pointer register (SP) and base pointer register (BP) are also part of the x86 architecture and were introduced with the original 16-bit Intel 8086 processor in 1978. The stack pointer register is used to manage the stack memory, while the base pointer register is often used as a reference point for accessing data on the stack or in other memory regions.
+"
+_

@@ -1,0 +1,4 @@
+"
+A reboot parameter file is a configuration file used by operating systems or firmware to store settings related to the system's behavior during the reboot process, such as boot device priority or system startup options.
+"
+_

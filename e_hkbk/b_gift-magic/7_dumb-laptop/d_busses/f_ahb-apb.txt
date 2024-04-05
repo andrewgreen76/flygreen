@@ -1,0 +1,4 @@
+"
+AHB (Advanced High-performance Bus) and APB (Advanced Peripheral Bus) are two widely used bus protocols in ARM-based microcontroller systems, where AHB typically connects high-performance components like processors and memories, while APB connects slower peripheral devices.
+"
+_

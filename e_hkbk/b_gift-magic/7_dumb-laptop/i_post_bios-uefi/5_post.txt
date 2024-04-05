@@ -10,7 +10,9 @@ HARDWARE INITIALIZATION :
     communication protocols, and device addresses essential for the correct operation and
     interaction of hardware components within the computer system."
 
- . 
+ . init_cpu
+ . init_mem-ctrlr
+ -> 
  
 ========================================================================================
 DIAGNOSTIC ROUTINES : 
@@ -19,8 +21,24 @@ DIAGNOSTIC ROUTINES :
  . 
 
 ============================================================================================================================================================
-Stored in NOR-flash chip along with BIOS. 
+
+Stored in NOR-flash chip along with the rest of the BIOS. 
+
 ============================================================================================================================================================
+============================================================================================================================================================
+============================================================================================================================================================
+
+"
+The hardware parameter setup process involves configuring various settings and attributes of hardware components to ensure their proper operation within the system. This often begins with the initialization of essential components like the CPU and memory controller, followed by assigning memory addresses, configuring communication interfaces, setting interrupt priorities, establishing clock frequencies, and calibrating device-specific settings. This setup is typically performed through low-level programming, including direct manipulation of hardware registers or execution of firmware initialization routines, ensuring that the hardware components are configured optimally for the system's requirements.
+"
+
+
+
+"
+Memory addresses are specifically assigned to various hardware components, such as RAM, ROM, peripheral devices, and memory-mapped I/O registers, to facilitate efficient data access and control within the system.
+"
+
+
 
 "
 POST (Power-On Self-Test) typically precedes the execution of BIOS (Basic Input/Output System) during the boot process of a computer.

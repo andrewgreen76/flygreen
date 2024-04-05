@@ -12,7 +12,31 @@ HARDWARE INITIALIZATION :
 
  . init_cpu
  . init_mem-ctrlr
- -> mem_addrs 
+ -> mem_addr_assignment
+    . a.k.a. memory-mapping
+    . ROM , RAM , I/O registers 
+
+========================================================================================
+CPU INITIALIZATION : 
+========================================================================================
+
+ . 
+
+========================================================================================
+MEMORY CONTROLLER INITIALIZATION : 
+========================================================================================
+
+ . 
+
+========================================================================================
+MEMORY ADDRESS ASSIGNMENT : 
+========================================================================================
+
+ . "Memory address assignment occurs through a process of memory mapping, where specific
+    ranges of addresses are allocated to different hardware components either statically
+    through hardware design or dynamically by the system firmware during initialization,
+    ensuring coherent and organized access to each component within the system's address
+    space."
 
 ============================================================================================================================================================
 ============================================================================================================================================================

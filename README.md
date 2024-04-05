@@ -33,25 +33,30 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-Control logic bits/signals in x86 , ARMv8.
+DIY project : building my own dumb laptop / motherboard 
 
-Reset vector :
- . hardwired/integrated into the CPU 
- . "double indirection"
- . near jump to BIOS 
+ . control logic bits/signals in x86 , ARMv8.
 
-Boot/EEPROM firmware programming :
- . [not possible] Raspberry PI 4
- . [not possible] laptop motherboards
- . [not possible] reset vector 
+ . reset vector :
+   . hardwired/integrated into the CPU 
+   . "double indirection"
+   . near jump to BIOS 
 
-Flash firmware programming :
- . POST imitation
- . BIOS (not UEFI) imitation
- . FSBL
- . SSBL 
+ . boot/EEPROM firmware programming :
+   . [not possible] Raspberry PI 4
+   . [not possible] laptop motherboards
+   . [not possible] reset vector 
 
-Talos RISC CPU!
+ . flash firmware programming :
+   . POST imitation 
+   . BIOS (not UEFI) imitation
+   . FSBL
+   . SSBL 
+
+ . Talos RISC CPU!
+
+ . system bus vs. chipset
+ 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

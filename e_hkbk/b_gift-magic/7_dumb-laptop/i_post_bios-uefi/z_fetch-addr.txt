@@ -1,4 +1,0 @@
-"
-The binary/hexadecimal value used to fetch the next instruction in x86 architecture is not an instruction itself; it represents a memory address. When the CPU needs to fetch the next instruction, it sends the address (in this case, FFF0) to the memory unit to retrieve the instruction stored at that address. This address is determined by the hardware design and the behavior of the CPU upon power-on or reset. Therefore, it's not something that comes into or comes out of the control unit specifically, but rather it's a signal sent by the control unit to the memory unit to retrieve the next instruction.
-"
-_

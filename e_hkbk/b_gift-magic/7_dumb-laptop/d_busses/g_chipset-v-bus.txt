@@ -1,4 +1,34 @@
+
+System/memory bus :
+ . interconnect rails
+ . allows for connection between registers and modules
+ . allows for transfer of addresses , data , instructions 
+
+
+Chipset :
+ . a collection of interface and controller chips
+ . allows for connection between devices
+ . allows for transfer of signals (audio , video , etc.)
+ . also responsible for HW initialization 
+
+
+===========================================================================================================================================================
+===========================================================================================================================================================
+===========================================================================================================================================================
+
 "
 ... the system bus primarily handles data transfer between components, while the chipset manages peripheral connections, system initialization, and other system management tasks, each fulfilling distinct roles in the overall functionality of the computer system.
+"
+
+
+
+"
+The chipset is a silicon backbone integrated into the motherboard that works with specific CPU generations. It relays communications between the CPU and the many connected storage and expansion devices.
+"
+
+
+
+"
+On a physical level, the chipset coordinates bussing by providing interfaces and controllers that regulate the flow of data between the CPU, memory, peripherals, and other system components, ensuring efficient communication and data transfer across the various buses within the computer system.
 "
 _

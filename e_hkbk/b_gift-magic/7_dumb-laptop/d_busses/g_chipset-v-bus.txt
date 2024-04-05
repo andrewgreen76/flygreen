@@ -1,0 +1,4 @@
+"
+... the system bus primarily handles data transfer between components, while the chipset manages peripheral connections, system initialization, and other system management tasks, each fulfilling distinct roles in the overall functionality of the computer system.
+"
+_

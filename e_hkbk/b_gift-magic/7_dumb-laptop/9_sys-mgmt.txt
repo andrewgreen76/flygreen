@@ -1,0 +1,4 @@
+"
+System management refers to tasks such as power management, device initialization, and overall system coordination, ensuring efficient operation and optimal performance of the computer system.
+"
+_

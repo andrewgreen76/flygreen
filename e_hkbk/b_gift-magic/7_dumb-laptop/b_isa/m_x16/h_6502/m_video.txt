@@ -1,0 +1,4 @@
+"
+The Apple II supported a composite video signal output through a RCA connector, which predates the CGA (Color Graphics Adapter) standard and provided monochrome or color display capabilities, depending on the model and monitor used.
+"
+_

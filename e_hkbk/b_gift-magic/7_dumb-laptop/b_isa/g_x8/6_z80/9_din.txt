@@ -1,0 +1,4 @@
+"
+The ZX Spectrum supported a composite video signal output through a DIN connector, which predates the CGA (Color Graphics Adapter) standard and provided monochrome or color display capabilities, depending on the model and TV used.
+"
+_

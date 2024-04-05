@@ -1,0 +1,4 @@
+"
+Internal logic refers to the circuitry and control units within the CPU responsible for executing basic operations such as fetching instructions, decoding them, and controlling data flow within the processor.
+"
+_

@@ -20,7 +20,8 @@ HARDWARE INITIALIZATION :
 CPU INITIALIZATION : 
 ========================================================================================
 
- . 
+ . power-on reset signal
+ . configuration pins 
 
 ========================================================================================
 MEMORY CONTROLLER INITIALIZATION : 

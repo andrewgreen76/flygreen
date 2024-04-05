@@ -1,0 +1,11 @@
+
+ . power-on
+ -> power supply stabilizes
+ -> initialize power distribution circuits 
+
+==========================================================================================================================================================
+
+"
+No, the clock signal typically starts working only after the power supply stabilizes and the motherboard's power distribution circuits initialize following the press of the power-on button.
+"
+_

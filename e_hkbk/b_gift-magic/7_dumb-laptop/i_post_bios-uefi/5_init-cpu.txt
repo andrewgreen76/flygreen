@@ -1,11 +1,21 @@
 
 All registers are cleared. Then , ... reset vector : 
 
-0x0000fff0	 ; IP (fetch) 
+0x0000fff0	 ; IP (fetch instr @ resv) 
 0x0000f000	 ; CS selector
 0xffff0000	 ; CS base
 
-CS base    + IP     = resv
-0xffff0000 + 0x0000fff0 = 0xfffffff0
 
+CS base    + IP         = resv
+0xffff0000 + 0x0000fff0 = 0xfffffff0
+----------------------------------------------
+code	   + offset	= where we want to be 
+segment
+
+
+===============================================================================================================================================
+
+"
+A CPU can be initialized without executing any code by configuring its internal registers and control units through hardware-based mechanisms such as power-on reset signals or configuration pins, ensuring basic functionality and readiness for code execution.
+"
 _

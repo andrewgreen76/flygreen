@@ -1,0 +1,25 @@
+========================================================================================
+SPECIAL REGISTERS : 
+========================================================================================
+
+ . CS - code segment
+ |  . "... stores the base address of the code segment in memory for the currently executing program."
+ |
+ . DS (Data Segment),
+ . ES (Extra Segment),
+ . FS,
+ . GS,
+ . each responsible for storing the base address of their respective segments in memory 
+
+
+========================================================================================
+CODE SEGMENT : 
+========================================================================================
+
+ . "In a 20-bit address in x86 real mode, the 16 most significant bits (bits 19 to 4)
+    hold the address of the code segment."
+ . "In x86 real mode, the remaining lower-order bits (bits 3 to 0) of a 20-bit address
+    are used as offsets within the code segment, allowing access to individual bytes
+    within the segment."
+
+_

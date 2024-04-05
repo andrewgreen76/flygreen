@@ -1,0 +1,4 @@
+
+ . stored in NOR-flash chip along with the rest of the BIOS. 
+
+_

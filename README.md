@@ -37,6 +37,9 @@ DIY project : building my own dumb laptop / motherboard
 
  . control logic bits/signals in x86 , ARMv8.
 
+ . cold boot
+   . cold boot vector 
+
  . reset vector :
    . hardwired/integrated into the CPU 
    . "double indirection"

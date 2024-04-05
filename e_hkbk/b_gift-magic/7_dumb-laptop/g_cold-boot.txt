@@ -1,0 +1,10 @@
+"
+Cold boot refers to the process of starting a computer system from a completely powered-off state, typically by turning on the power supply, which initiates the system's hardware initialization, Power-On Self Test (POST), and operating system loading sequence.
+"
+
+
+
+"
+The cold boot vector refers to the memory address where the system starts executing instructions upon initial power-on, while the reset vector points to the address where the system begins execution after a reset event, such as a hardware reset or software-initiated reset instruction.
+"
+_

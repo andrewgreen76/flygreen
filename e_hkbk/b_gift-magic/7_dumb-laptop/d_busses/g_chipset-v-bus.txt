@@ -9,7 +9,10 @@ Chipset :
  . a collection of interface and controller chips
  . allows for connection between devices
  . allows for transfer of signals (audio , video , etc.)
- . also responsible for HW initialization 
+ . also responsible for HW initialization
+ . "Without the chipset, coordinating data flow and communication between the CPU,
+    memory, peripherals, and other system components would be extremely difficult,
+    if not impossible, leading to SYSTEM INSTABILITY AND INEFFICIENCY."
 
 
 ===========================================================================================================================================================

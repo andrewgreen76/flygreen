@@ -1,0 +1,10 @@
+"
+The address of the reset vector — in this case FFFF0h — of a CPU is fixed in hardware by design. It is part of the specification of the CPU. The CPU goes to that address, fetches whatever address it finds there, jumps to that address, and begins executing. It is a kind of double indirection with a fixed first step (the CPU goes to address FFFF0h, which is most likely in a ROM of some kind) and a second step that depends on the machine. In a PC, the vector will point to early initialization code in the BIOS that begins the boot process, but more generally, it could in principle be anything that can be hardware memory-mapped into that address, but 99.9% of the time, it's some kind of ROM (PROM, EPROM, EEPROM, etc.).
+"
+
+
+
+"
+The CPU is typically designed with a predetermined memory mapping scheme, allowing it to know the fixed location within the ROM chip where the reset vector is stored, often specified by the CPU's architecture or defined during system initialization.
+"
+_

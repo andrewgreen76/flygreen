@@ -1,0 +1,4 @@
+"
+External instructions refer to code stored in external memory, such as BIOS ROM or other firmware, which the CPU accesses after fetching the reset vector address during the boot process.
+"
+_

@@ -1,4 +1,10 @@
 "
 Internal logic refers to the circuitry and control units within the CPU responsible for executing basic operations such as fetching instructions, decoding them, and controlling data flow within the processor.
 "
+
+
+
+"
+For storing internal logic, typically specialized integrated circuits (ICs) such as microcontrollers or custom-designed ASICs (Application-Specific Integrated Circuits) are utilized within the CPU.
+"
 _

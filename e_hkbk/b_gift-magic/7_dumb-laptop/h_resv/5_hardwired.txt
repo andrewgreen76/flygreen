@@ -1,0 +1,35 @@
+"
+The reset vector is hardwired into the internal logic of the CPU during its manufacturing process, typically through the configuration of dedicated circuits or registers within the CPU's architecture.
+"
+
+
+
+"
+"Configuration of registers" refers to the process of setting specific values in hardware registers within the CPU's architecture, often during manufacturing, to define critical parameters such as the reset vector address.
+"
+
+
+
+"
+"Setting specific values" involves programming the contents of internal CPU registers, often done during the manufacturing process or through dedicated configuration mechanisms, to define parameters such as the reset vector address.
+"
+
+
+
+"
+"Programming the contents of internal CPU registers" involves setting predefined values using low-level hardware configuration methods, such as mask programming during manufacturing or specialized configuration interfaces, to define critical parameters like the reset vector address.
+"
+ => the reset vector is in the ROM chip 
+
+
+
+"
+Mask programming, also known as ROM mask programming, is a method used in semiconductor manufacturing to create Read-Only Memory (ROM) chips. During mask programming, the ROM's memory cells are permanently encoded with data patterns by using photolithography to etch a mask onto the silicon wafer during the fabrication process. This process is irreversible, resulting in ROM chips that contain fixed data patterns and cannot be altered or reprogrammed after production. Mask programming is commonly used for mass production of ROM chips, offering high reliability, low cost, and fast production times compared to other ROM programming methods such as EEPROM or flash memory programming.
+"
+
+
+
+"
+The reset vector is typically stored in ROM, which is commonly utilized for storing fixed data such as initialization routines and critical addresses, while ASICs are primarily used for implementing custom logic functions within the CPU architecture.
+"
+_

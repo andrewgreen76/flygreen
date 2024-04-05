@@ -1,0 +1,4 @@
+"
+Built-in mechanism refers to internal hardware logic within the CPU responsible for basic operations like fetching the reset vector address, which is essential for initiating the boot process.
+"
+_

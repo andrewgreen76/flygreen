@@ -1,0 +1,4 @@
+"
+The ULA (Uncommitted Logic Array) chip in the ZX Spectrum is a custom integrated circuit responsible for generating video output and controlling sound, serving as a key component of the computer's architecture.
+"
+_

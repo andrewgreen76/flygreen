@@ -1,7 +1,8 @@
 
  . power-on
  -> power supply stabilizes
- -> initialize power distribution circuits 
+ -> initialize power distribution circuits
+ -> clock kicks in 
 
 ==========================================================================================================================================================
 

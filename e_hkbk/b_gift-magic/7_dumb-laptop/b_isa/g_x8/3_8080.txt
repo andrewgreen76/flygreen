@@ -1,0 +1,4 @@
+"
+The Intel 8080 architecture supported a 16-bit address bus, allowing it to address up to 64 KB of memory.
+"
+_

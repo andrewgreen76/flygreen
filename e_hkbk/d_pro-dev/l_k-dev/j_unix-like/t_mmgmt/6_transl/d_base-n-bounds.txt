@@ -11,15 +11,18 @@ Base and bounds virtualization:
 . also called dynamic relocation ("address space can be relocated even after the process has begun")
 . the register pair gives the OS an idea of how to map the process across the physical memory 
 . the register pair enforces the transparency rule (a process can only access its own address space)
-. In the classic dynamic relocation method the base and bounds values are stored in the MMU registers. 
+. In the classic dynamic relocation method the base and bounds values are stored in the MMU registers.
+. introduced with the protected (32-bit) mode in i386 
 |
 Base register : 
 . proc's base register value = the physical address of the process 
 . virtual address + base = physical address
 . PC = virtual address of the proc's instruction to be fetched and executed
+|
 Bounds register = also called the limit register
 . used to prevent a fault - an illegal access beyond the proc's bounds
 . if a fault occurs, the CPU will raise an exception and the offending process may be terminated
+|
 Problems with the approach : 
 . The bounds register determines the origin of the stack. This can leave too much free memory between the heap and the stack.
 . Free memory overhead leads to another problem - taking too much time finding a fitting gap in physical memory

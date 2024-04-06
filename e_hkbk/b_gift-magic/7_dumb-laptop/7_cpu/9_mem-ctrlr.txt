@@ -1,3 +1,8 @@
+
+Inputs and outputs of CPU components (ALU , registers , control logic) go through the memory controller to get to and from the system bus. 
+
+============================================================================================================================================================
+
 "
 Registers are not typically directly connected to the system bus; instead, they interface with it through the CPU's internal data paths or register file access mechanisms.
 "

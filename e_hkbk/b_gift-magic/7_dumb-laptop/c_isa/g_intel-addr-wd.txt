@@ -1,0 +1,57 @@
+
+Intel 4004 :
+ |
+ . '71
+ . data bus width : 4 bits
+ . address bus width : 4 bits
+ . address width : 12 bits (past bus limits as an address can be multiplexed)
+ |
+ . "The Intel 4004 processor, despite having a 4-bit address width, was often used
+ |  in systems with bank-switching techniques that allowed it to access larger amounts
+ |  of memory. In practice, it could address up to 4 KB (4096 bytes) of memory."
+ |
+ => addressable memory range : 2^(12 bits) = 4K
+
+
+
+Intel 8008 :
+ |
+ . '72
+ . data bus width : 8 bits
+ . address bus width : 8 bits
+ . address width : 14 bits
+ |
+ . "Apologies for the oversight. Despite having an 8-bit address width, the Intel 8008
+ |  processor could address up to 16 KB (16384 bytes) of memory through various memory
+ |  management techniques such as bank switching."
+ |
+ => addressable memory range : 2^14 = 16K (banking / multiplexing) 
+
+
+
+Intel 8080 :
+ . '74
+ . data bus width : 8
+ . address bus width : 16
+ . address width : 16
+ . addressable memory range : 2^16 = 64K 
+
+
+
+Intel 8086 :
+ . '78
+ . data bus width : 16 
+ . address bus width : 20 
+ . address width : 20
+ . addressable memory range : 2^20 = 1M 
+
+
+
+Intel 8088 :
+ . '79
+ . data bus width : 8
+ . address bus width : 20 
+ . address width : 20 
+ . addressable memory range : 2^20 = 1M 
+
+_

@@ -1,0 +1,4 @@
+
+The reset vector is integrated into the control logic module of the CPU. 
+
+_

@@ -1,0 +1,4 @@
+This is an engineering design question. For my DIY project I want to built a dumb/vanilla laptop with its own CPU-based motherboard (which will never happen). I got a lot of input from ChatGPT, the web, and the book "Hands-On Booting" by Yogesh Babar (not without its value, but it has a lot of vague and inaccurate info and far too many typos). It is my understanding that once I press the power button on, say, a laptop, after the power distribution system and the clock are on, the first thing that happens within the CPU - i.e., within the first clock cycle, - is that the control logic executes a fetch microcode, which gets decoded into control signals that trigger the address bits on a ROM chip, the ROM chip outputs the reset vector, and the reset vector is then loaded into the program counter.
+
+Is any of this inaccurate? Am I missing something?
+_

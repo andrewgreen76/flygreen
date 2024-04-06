@@ -1,0 +1,34 @@
+"
+... control logic code is typically written in hardware description languages (HDLs) such as Verilog or VHDL, which are used to describe the behavior of digital circuits at a lower level than assembly language.
+"
+
+
+
+"
+In Verilog, specifying a parameter with a fixed value represents hardcoding the reset vector address into the control logic, ensuring it remains constant during simulation and synthesis.
+"
+
+
+
+"
+Verilog code is synthesized into a hardware description language representation, which is then translated by synthesis tools into a netlist specifying the connections between physical components on a semiconductor device, ultimately resulting in the manufacture of a physical integrated circuit.
+"
+
+
+
+"
+"Synthesized" in the context of hardware design refers to the process of translating a high-level hardware description language (HDL) such as Verilog into a lower-level representation that specifies the actual physical components and interconnections needed to implement the desired functionality in hardware.
+"
+
+
+
+"
+... the lower-level representation resulting from synthesis is typically called a netlist, which describes the logical connections between hardware components such as gates, flip-flops, and interconnects within the integrated circuit design.
+"
+
+
+
+"
+The netlist undergoes a layout process where it is mapped onto the physical chip's layout, specifying the exact placement and routing of transistors and interconnects to form the physical integrated circuit.
+"
+_

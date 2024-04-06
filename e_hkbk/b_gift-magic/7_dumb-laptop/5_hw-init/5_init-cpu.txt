@@ -1,18 +1,6 @@
 
-All registers are cleared. Then , ... reset vector : 
-
-0x0000fff0	 ; IP (fetch instr @ resv) 
-0x0000f000	 ; CS selector
-0xffff0000	 ; CS base
-
-
-CS base    + IP         = resv
-0xffff0000 + 0x0000fff0 = 0xfffffff0
-----------------------------------------------
-code	   + offset	= where we want to be 
-segment
-
-
+ . predefined / predetermined - hardwired or hardcoded 
+ 
 ========================================================================================
 CPU INITIALIZATION : 
 ========================================================================================
@@ -30,6 +18,30 @@ CPU INITIALIZATION :
     loading the reset vector into the program counter, occurs within a single clock cycle
     of the CPU."
 
+ . "A CPU's internal logic is designed to automatically initiate certain operations,
+    such as fetching the reset vector, upon power-on, enabling it to execute initial
+    firmware routines without requiring explicit instructions from external sources."
+
+ . "Address generation circuits within the CPU are responsible for generating the address bits
+    used to access ROM during operations like fetching the reset vector."
+
+ . "Address generation circuits in a CPU typically include counters, multiplexers, and
+    other logic elements that generate memory addresses based on control signals and
+    internal states. These circuits are designed to produce the necessary address bits
+    required to access specific locations within the ROM chip, such as the one containing
+    the reset vector. The generation of address bits is often orchestrated by control signals
+    derived from the CPU's instruction decoding and execution mechanisms, ensuring precise
+    memory access during operations like fetching instructions or data from ROM."
+
+ . "The [multiple-address] indirection allows for flexibility and adaptability in CPU design,
+    facilitating the execution of various initialization routines and accommodating potential
+    modifications or optimizations to the boot process without requiring changes to the core
+    instruction execution mechanism, such as the program counter initialization."
+
+ . "In some CPU architectures, fetching the reset vector from ROM may indeed occur within
+    a single clock cycle, but in others, it may span multiple clock cycles depending on
+    the specific implementation and design of the CPU."
+
 ========================================================================================
 MEMORY CONTROLLER INITIALIZATION : 
 ========================================================================================
@@ -45,6 +57,24 @@ MEMORY ADDRESS ASSIGNMENT :
     through hardware design or dynamically by the system firmware during initialization,
     ensuring coherent and organized access to each component within the system's address
     space."
+
+========================================================================================
+PROGRAM COUNTER AND CODE SEGMENT REGISTER INITIALIZATION : 
+========================================================================================
+
+
+All registers are cleared. Then , ... reset vector : 
+
+0x0000fff0	 ; IP (fetch instr @ resv) 
+0x0000f000	 ; CS selector
+0xffff0000	 ; CS base
+
+
+CS base    + IP         = resv
+0xffff0000 + 0x0000fff0 = 0xfffffff0
+----------------------------------------------
+code	   + offset	= where we want to be 
+segment
 
 ===============================================================================================================================================
 ===============================================================================================================================================

@@ -1,0 +1,4 @@
+"
+A memory bank is a logical division of memory that allows for the organization and access of data or instructions stored in a specific range of memory addresses.
+"
+_

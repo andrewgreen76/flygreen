@@ -1,5 +1,13 @@
 
- . X KB - XX KB
- . first version : X KB
+ . 1977
+
+
+ . RAM :     X KB - XX KB
+ . storage : X KB
+
+
+ . first version :
+   . RAM :     X KB
+   . storage : X KB
 
 _

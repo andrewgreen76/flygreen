@@ -1,5 +1,7 @@
 
- . "... approximately 12,000 lines of code."
- . ~12K 
+ . 1987
+ 
+ . RAM :     128 KB
+ . storage : XXX KB
 
 _

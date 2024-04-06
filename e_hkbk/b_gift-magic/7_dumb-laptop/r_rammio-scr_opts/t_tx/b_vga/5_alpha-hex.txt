@@ -1,0 +1,4 @@
+"
+In VGA, the hexadecimal byte value used for transparency (no painting) is typically represented as 0x00. This value indicates that the pixel should be completely transparent and not display any color.
+"
+_

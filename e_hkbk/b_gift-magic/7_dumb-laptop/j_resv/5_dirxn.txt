@@ -1,0 +1,4 @@
+"
+In the fabrication of a laptop's motherboard, hardwiring the reset vector directly into the control logic unit is typically more common than using microprogramming, as it offers simplicity and efficiency in the initialization process.
+"
+_

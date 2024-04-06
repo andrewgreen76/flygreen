@@ -23,12 +23,12 @@ Verilog code is synthesized into a hardware description language representation,
 
 
 "
-... the lower-level representation resulting from synthesis is typically called a netlist, which describes the logical connections between hardware components such as gates, flip-flops, and interconnects within the integrated circuit design.
+... the lower-level representation resulting from synthesis is typically called a netlist, which describes the logical connections between hardware components such as gates, flip-flops, and interconnects within the integrated circuit design. ... It's a textual representation specifying the logical connections between components in a circuit, typically expressed as a list of interconnected nodes and their corresponding electrical connections.
 "
 
 
 
 "
-The netlist undergoes a layout process where it is mapped onto the physical chip's layout, specifying the exact placement and routing of transistors and interconnects to form the physical integrated circuit.
+The netlist undergoes a layout process where it is mapped onto the physical chip's layout, specifying the exact placement and routing of transistors and interconnects to form the physical integrated circuit." "The layout process involves translating the abstract netlist into a physical layout by defining the exact positions and connections of individual transistors, interconnects, and other components on the semiconductor substrate, typically using specialized computer-aided design (CAD) software." Therefore, "... the physical layout resulting from the layout process represents a detailed blueprint of the integrated circuit's structure, akin to a circuit diagram but specifying the exact positions and connections of physical components on the semiconductor substrate.
 "
 _

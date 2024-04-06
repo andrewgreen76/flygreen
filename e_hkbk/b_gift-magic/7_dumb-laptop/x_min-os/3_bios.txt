@@ -1,0 +1,9 @@
+
+ . 1975
+ . first BIOS - for CP/M OS
+
+
+ . RAM : X KB
+ . ROM : X KB
+
+_

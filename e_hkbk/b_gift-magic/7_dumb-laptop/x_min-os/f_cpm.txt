@@ -1,0 +1,5 @@
+
+ . RAM :       16 KB
+ . storage : <360 KB (on a 5.25" floppy)
+
+_

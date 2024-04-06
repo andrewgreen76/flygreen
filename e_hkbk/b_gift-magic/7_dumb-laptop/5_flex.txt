@@ -1,0 +1,156 @@
+"
+What Happens When A CPU Starts:
+
+This is a discussion of what happens when a CPU chip starts. It may be
+thought of as what happens when a whole computer starts, since the CPU is the
+center of the computer and the place where the action begins.
+
+Generally, when a CPU chip first receives power, it must be reset by
+receiving a pulse on its RESET (or RST) pin. This is because when the power
+supply is first powering up, even if it only takes a second or two, the CPU
+has already received "dirty" power, because the power supply was building up
+a steady stream of electricity. Digital logic chips like CPUs require precise
+voltages, and they get confused if they receive something outside their
+intended voltage range. Thus, as soon as the chip has powered up, it is reset
+to bring it to a known starting condition. This is done automatically by
+circuitry on the motherboard that performs a reset upon power-up. The RESET
+pin (which is usually active-low) must be activated for a certain number of
+clock cycles to reset the CPU. The reset circuit keeps the RESET signal
+active for a moment, then disables it, at which point the CPU begins its act.
+
+The actions of the CPU can actually be summarized very simply: It simply
+executes instructions from memory. Ultimately, all the CPU really is, is a
+chip which receives instructions, and then performs those instructions.
+
+The CPU gets its instructions from memory. "Memory" is a term that
+encompasses both the RAM and the ROM. The RAM is the CPU's workspace, where
+it temporarily stores data that it is currently working on. The ROM is the
+permanent code that the CPU reads every time it is turned on; The ROM is
+always the first code to get executed on the CPU. The CPU addresses memory
+(both RAM and ROM) through the address bus, sending out a particular
+combination of 1s and 0s on the address bus lines to choose a particular byte
+of memory. The memory chips respond by sending the contents of the selected
+memory cell over the data bus to the CPU.
+
+Every CPU has a particular point in memory where it begins reading
+instructions after it has been reset. Some CPUs will simply jump to a set
+point and begin executing the instructions there, while others actually use
+what is called a "reset vector", which means that it first checks a
+particular point in memory for a number which is the memory address to begin
+executing instructions at.
+
+As an example of this, the Z80 CPU immediately begins executing code from
+memory address 0000 when it is reset. This is a relatively simple case. By
+contrast, the 6502, another popular classic CPU, has a two-byte reset vector
+located at memory addresses FFFC and FFFD (in hexadecimal). This means that
+the ROM in a 6502-based computer *must* be at the top of the memory space.
+The two bytes are stored backwards, and thus, if FFFC contains 00 and FFFD
+contains B0, then the 6502 will jump to memory location B000 and start
+executing instructions there. There are two advantages to this system: First
+of all, it gives the computer engineer some control over where the CPU begins
+executing ROM code, and secondly, it leaves the bottom area of the memory
+space (beginning at address 0000) free for RAM. The Z80's system, although
+simpler, creates a "hole" in the memory, because the bottom of the memory
+space is used by ROM and therefore you cannot use the beginning of the memory
+space for normal RAM work.
+
+The CPU contains a register called the instruction pointer (abbreviated IP)
+which contains a number. The number in the IP is the memory address at which
+the next instruction is to be performed. IP is incremented with each
+instruction, and in the event of a JMP instruction (a jump instruction, which
+tells the CPU to jump to another location and start running the instructions
+there), IP is set to the jump location and then the CPU continues on its way
+from there. The CPU's instructions are sometimes called "opcodes". They are
+simply strings of binary 1s and 0s which together form an instruction. For
+example, on a standard Intel 80x86 CPU (such as a 486 or Pentium), the opcode
+90h (or 10010000 binary) is a NOP (no operation) opcode. NOP is the simplest
+instruction in any CPU, and it simply means to do nothing and go on to the
+next instruction. If a cell in RAM or ROM contains this opcode and the CPU
+executes it, it will perform a NOP (in other words, it will do nothing) and
+then IP will be set to the next memory cell. (On some computer platforms, the
+instruction pointer is called the "program counter", inexplicably abbreviated
+"PG". However, on the PC (as in "IBM PC") platform, the term "instruction
+pointer" is usually used, because that term is preferred by Intel with regard
+to its 80x86 CPU family.)
+
+Regardless of where the CPU begins getting its instructions, the beginning
+point should always be somewhere in a ROM chip. The computer needs startup
+instructions to perform basic hardware checking and preparation, and these
+are contained in a ROM chip on the motherboard called the BIOS. This is where
+any computer begins executing its code when it is turned on.
+
+Once the BIOS code has been executed, what happens next depends entirely on
+what is in the BIOS, although normally the BIOS will begin looking for a disk
+drive of some kind and start executing the instructions there (which is
+usually an operating system). From that point onward, the OS takes over and
+usually runs a shell which the user then uses to operate the computer.
+
+It should be explained how the CPU communicates with the various memory
+chips. At the very least, a computer needs two of these (one for ROM and one
+for RAM), and often there are more than one. Yet they all share the same
+address bus; How do the chips know when the CPU is addressing them, and when
+it is not? A very popular solution to this is to use a converter chip,
+usually a 3-to-8 converter, and occasionally a 2-to-4 converter is used.
+
+The 3-to-8 converter is simply a chip with three logic inputs and eight logic
+outputs. Depending on which combination of inputs is on, a single of the
+eight outputs will be activated. If you remember your binary math, you should
+realize that having three bits gives you eight possible combinations of 1s
+and 0s, to wit: 000, 001, 010, 011, 100, 101, 110, and 111. The three inputs
+are attached to the highest three lines of the address bus (A13 to A15 in a
+CPU with a 16-bit address bus), and the eight outputs can now be used as chip
+select signals. Very nearly every RAM or ROM chip in existence has a "Chip
+Select" (CS) pin, which can enable or disable the chip, and whichever chip
+receives the CS signal from the 3-to-8 converter will be the one that
+responds to the memory access by the CPU.
+
+Of course, because you are devoting 3 of your address bus lines to chip
+selection, you have reduced addressing functionality within the actual chips.
+However, this is not usually a problem. The remaining 13 address bus lines
+give you 8K of memory space in each chip, which is usually enough for small
+computers. If you have 8 memory chips, each of them with 8K of memory in
+them, then you have a full 64K of addressable memory, using the full capacity
+of a CPU with a 16-bit address bus.
+
+The following are the memory ranges you get with a 3-to-8 converter on a
+16-bit address bus (numbers preceding the range indicate the status of the
+three inputs on the converter):
+
+000: 0000h to 1FFFh
+001: 2000h to 3FFFh
+010: 4000h to 5FFFh
+011: 6000h to 7FFFh
+100: 8000h to 9FFFh
+101: A000h to BFFFh
+110: C000h to DFFFh
+111: E000h to FFFFh
+
+The following are the memory ranges you get with a 3-to-8 converter on an
+8-bit address bus:
+
+000: 00h to 1Fh
+001: 20h to 3Fh
+010: 40h to 5Fh
+011: 60h to 7Fh
+100: 80h to 9Fh
+101: A0h to BFh
+110: C0h to DFh
+111: E0h to FFh
+
+The following are the memory ranges you get with a 2-to-4 converter on a
+16-bit address bus:
+
+00: 0000h to 3FFFh
+01: 4000h to 7FFFh
+10: 8000h to BFFFh
+11: C000h to FFFFh
+
+The following are the memory ranges you get with a 2-to-4 converter on an
+8-bit address bus:
+
+00: 00h to 3Fh
+01: 40h to 7Fh
+10: 80h to BFh
+11: C0h to FFh
+"
+_

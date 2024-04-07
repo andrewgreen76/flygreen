@@ -1,0 +1,90 @@
+==============================================================================
+RAM LAYOUT : MMIO , ETC. 
+==============================================================================
+
+Needs APIs :						ROM
+      	   						.
+							.
+ 							----------------------
+							copied post-boot 
+ . "OS" copy						prog/rout code
+ | 							----------------------
+ |							| stack
+ |							v
+ |							----------------------
+ |							^
+ |							| heap
+ | 							----------------------
+ . keypad / keyboard / buttons 				keyboard buffer
+ |  	    	       					----------------------
+ . mouse    	       					(((mouse buffer)))
+ | 							----------------------
+ |							shared memory 
+ |							----------------------
+ . graphics :						framebuffer (A) 
+ |  . LCD screen					HUGEHUGHUGEHUGEHUGEHUG
+ |  . 320 x 200						EHUGEHUGEHUGEHUGEHUGEH
+ |  . low ppi						----------------------
+ |  . 8-bit RGB palette					(framebuffer B)
+ |  . 60 fps						
+ |  . double-buffered 					----------------------
+ |  ? custom compatible videocard/controller ?		(framebuffer C) 
+ |							----------------------
+ . sound - media 					sound buffer - piezo 
+ |  . more sound media => more buffers
+ |  . built-in speaker - piezo pick-up			----------------------
+ |  . multiple pickups for harmony			sound buffer - MIDI 
+ |  ? custom compatible soundcard/controller ?		----------------------
+ |							sound buffer - ??? 
+ |							----------------------
+ . reserved for other applications 			net I/O ,
+ | 	    	      					Wi-Fi , Bluetooth
+ | 	    	      					----------------------
+ . user data						user space : apps+data 
+    . variables						(net RAM, etc.)
+    . writability by the device : ?
+							----------------------
+							data 
+							----------------------
+							code / text 
+							----------------------
+							shared libs 
+							----------------------
+							process heap (dynamic mem) 
+							______________________	   0x00000000
+
+==============================================================================
+ANOTHER MAP :  
+==============================================================================
+
++---------------------------------------+
+|            Kernel Space               |
+|                                       |
+| High Kernel Address (e.g., 3GB)       |
+|                                       |
+|---------------------------------------|
+|            Stack (grows ↓)            |
+|---------------------------------------|
+|            Heap (grows ↑)             |
+|---------------------------------------|
+|                                       |
+|       Memory-Mapped Devices,           |
+|       I/O Buffers, and Shared Memory  |
+|                                       |
+|---------------------------------------|
+|                                       |
+|   User Space (e.g., 2GB - 3GB)        |
+|                                       |
+|---------------------------------------|
+|       Code Segment (Text)             |
+|---------------------------------------|
+|       Data Segment                    |
+|---------------------------------------|
+|       Shared Libraries                |
+|---------------------------------------|
+|       Process Heap (dynamic memory)   |
+|                                       |
+| Low User Address (e.g., 0GB)          |
++---------------------------------------+
+
+_

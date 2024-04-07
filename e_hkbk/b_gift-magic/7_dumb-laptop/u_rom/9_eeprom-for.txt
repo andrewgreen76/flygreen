@@ -1,4 +1,4 @@
 "
-Apologies for any confusion. EEPROM stands for Electrically Erasable Programmable Read-Only Memory, but it is actually read-write memory. It can be both programmed and erased electrically and retains data even when the power is turned off, making it suitable for storing configuration settings that need to be modified. Configuration settings modified by a sysadmin are indeed stored in EEPROM.
+EEPROM stands for Electrically Erasable Programmable Read-Only Memory, but it is actually read-write memory. It can be both programmed and erased electrically and retains data even when the power is turned off, making it suitable for storing configuration settings that need to be modified. Configuration settings modified by a sysadmin are indeed stored in EEPROM.
 "
 _

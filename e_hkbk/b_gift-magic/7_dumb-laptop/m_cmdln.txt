@@ -1,4 +1,0 @@
-
-If we are going to be doing a single command line, let char-LCD do it. 
-
-_

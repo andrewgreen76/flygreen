@@ -1,0 +1,23 @@
+
+Desirable clock rate : 1 GHz
+Desirable RAM amount : 256 MB
+Desirable resolution : 640 x 480
+Desirable arch.width : x32
+
+
+
+		disk size		disk size
+		(UN-compressed)		(compressed)		
+
+Wolf3D		2 MB			1 MB	<
+Heretic		12 MB			5 MB
+Hexen (demo)	11 MB			5.5 MB
+Hexen (full)	21 MB			9 MB
+HoMM I 		24 MB			10 MB	<
+...............................................
+Blood		60 MB			24 MB
+...............................................
+HoMM II 	144 MB			97 MB
+KoM  		300 MB			-
+
+_

@@ -1,5 +1,0 @@
-
-Two modes :
- . 0 - pre-graphic - LCD
- . 1 - graphic	   - VGA monitor
-_

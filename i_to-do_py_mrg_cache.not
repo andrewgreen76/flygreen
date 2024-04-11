@@ -1,15 +1,15 @@
 
-commercially available 
+open-hardware home-made laptop (two flavors) :
+ . breadboard-based
+ . more modern , tighter form-factor
+   . tighter architecture
+   => needs tools 
+
 
 profile the LCD pipeline 
 STM32 board -> firmware for printing characters 
-appt for haircut - 3p @ Supercuts 
 
-study hsync and vsync <- Ben's VGA project 
-Arduino / STM32 : read_EEPROM() 
-Task : figure out how to load onto ROM of BCM2711 on RPi4 . 
-Can you program the ROM on BCM2711 ?
-QFP programmer 
+QFP/SOIC programmer 
 
 programming     | data structures       |
  - type safety -> polym , encap , etc. -> math of cs -> autom -> alg anls 

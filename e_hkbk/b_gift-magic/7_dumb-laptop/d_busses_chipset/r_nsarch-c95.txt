@@ -1,4 +1,0 @@
-"
-The first chipset featuring the northbridge and southbridge architecture was developed by Intel in the mid-1990s, with the release of the Intel 430FX chipset (also known as the Triton I).
-"
-_

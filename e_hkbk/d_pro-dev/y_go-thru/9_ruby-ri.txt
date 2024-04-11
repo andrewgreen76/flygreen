@@ -1,0 +1,4 @@
+"
+The "ri" command is a Unix command-line utility used to access reference information for Ruby programming language. It stands for "Ruby Interactive Reference." It allows users to browse and search Ruby documentation directly from the command line.
+"
+_

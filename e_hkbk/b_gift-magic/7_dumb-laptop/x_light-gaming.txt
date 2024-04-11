@@ -1,7 +1,7 @@
 
 Desirable clock rate : ? 1 GHz ?
-Desirable RAM amount : 256 MB
-Desirable stor_amt   : 32 MB 
+Desirable RAM amount : 32 MB (capped by Toshiba Libretto 70CT from 256 MB) 
+Desirable stor_amt   : 32 MB (to house HoMM I + OS kernel + etc.) 
 Desirable resolution : 640 x 480
 Desirable arch.width : x32
 

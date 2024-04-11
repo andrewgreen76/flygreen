@@ -1,0 +1,4 @@
+"
+No, the Raspberry Pi does not have a traditional northbridge or southbridge architecture; instead, it incorporates various components directly onto its System on a Chip (SoC).
+"
+_

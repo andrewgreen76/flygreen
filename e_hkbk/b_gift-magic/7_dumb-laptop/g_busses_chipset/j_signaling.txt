@@ -4,6 +4,6 @@ Single-ended signaling refers to a method of transmitting electrical signals whe
 
 
 "
-... differential signaling ... which improves noise immunity and allows for higher data transfer rates over longer distances compared to single-ended signaling.
+... differential signaling ... improves noise immunity and allows for higher data transfer rates over longer distances compared to single-ended signaling.
 "
 _

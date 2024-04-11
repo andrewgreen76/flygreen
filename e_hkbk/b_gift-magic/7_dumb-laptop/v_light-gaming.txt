@@ -1,6 +1,7 @@
 
-Desirable clock rate : 1 GHz
+Desirable clock rate : ? 1 GHz ?
 Desirable RAM amount : 256 MB
+Desirable stor_amt   : 32 MB 
 Desirable resolution : 640 x 480
 Desirable arch.width : x32
 

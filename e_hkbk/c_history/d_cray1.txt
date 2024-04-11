@@ -1,0 +1,4 @@
+"
+After mainframe computers, one of the most powerful computers using the pre-chipset single-chip CPU design was the Cray-1, introduced in 1976, renowned for its vector processing capabilities and revolutionary design.
+"
+_

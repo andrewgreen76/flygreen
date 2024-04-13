@@ -1,0 +1,57 @@
+"
+In C, you typically deal with file offsets (positions within the file) rather than absolute memory addresses. However, if you need the absolute memory address of a byte within a file, you would have to map the file into memory using memory-mapping techniques like `mmap()` in Unix-like systems or `CreateFileMapping()` in Windows.
+
+Here's a simplified example using `mmap()` in Unix-like systems:
+
+```c
+#include <stdio.h>
+#include <sys/mman.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main() {
+    // Open the file for reading
+    int fd = open("example.txt", O_RDONLY);
+    if (fd == -1) {
+        perror("Error opening file");
+        return 1; // Return error
+    }
+
+    // Get the file size
+    off_t file_size = lseek(fd, 0, SEEK_END);
+    if (file_size == -1) {
+        perror("Error getting file size");
+        close(fd);
+        return 1; // Return error
+    }
+
+    // Map the file into memory
+    void *addr = mmap(NULL, file_size, PROT_READ, MAP_PRIVATE, fd, 0);
+    if (addr == MAP_FAILED) {
+        perror("Error mapping file into memory");
+        close(fd);
+        return 1; // Return error
+    }
+
+    // Output the address of a byte (for example, the first byte)
+    printf("Absolute address of byte: %p\n", addr);
+
+    // Unmap the memory and close the file
+    munmap(addr, file_size);
+    close(fd);
+
+    return 0; // Return success
+}
+```
+
+In this example:
+
+- We open the file "example.txt" for reading.
+- We get the size of the file using `lseek()`.
+- We map the file into memory using `mmap()`, obtaining a pointer (`addr`) to the beginning of the mapped memory region.
+- We output the address of the byte within the mapped memory region.
+- Finally, we unmap the memory and close the file.
+
+Please note that memory-mapping files into memory is a more advanced technique and may have implications on system resources. It's essential to handle errors and release resources properly when using memory mapping.
+"
+_

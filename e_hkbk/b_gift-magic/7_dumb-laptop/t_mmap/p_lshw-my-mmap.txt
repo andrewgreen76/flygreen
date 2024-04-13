@@ -1,6 +1,7 @@
 
 	     .		 :
-	     vars	 :7ffx_xxxx_xxxx-7fff_ffff_ffff	     		     
+	     vars	 :7ffx_xxxx_xxxx-7fff_ffff_ffff
+	     file chars  :76fx_xxxx_xxxx-76ff_ffff_ffff
 	     .		     :
 	     uncl_memory     :60552a0000-60552a0fff
              com1_memory     :605529d000-605529dfff

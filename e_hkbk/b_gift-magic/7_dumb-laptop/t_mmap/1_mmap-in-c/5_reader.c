@@ -5,7 +5,7 @@
 
 int main() {
     // Open the file for reading
-    int fd = open("example.txt", O_RDONLY);
+    int fd = open("1_victim.c", O_RDONLY);
     if (fd == -1) {
         perror("Error opening file");
         return 1; // Return error

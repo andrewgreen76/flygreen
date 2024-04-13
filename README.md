@@ -30,34 +30,36 @@ __________________________________________________________________________
 > to modify
   - to hack ethically and creatively
 __________________________________________________________________________
+CHOSEN PERSONAL PROJECT:
+__________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
 DIY project : building my own dumb laptop / motherboard 
-
+ |
  . control logic bits/signals in x86 , ARMv8.
-
+ |
  . cold boot
-   . cold boot vector 
-
+ | . cold boot vector 
+ |
  . reset vector :
-   . hardwired/integrated into the CPU 
-   . "double indirection"
-   . near jump to BIOS 
-
+ | . hardwired/integrated into the CPU 
+ | . "double indirection"
+ | . near jump to BIOS 
+ |
  . boot/EEPROM firmware programming :
-   . [not possible] Raspberry PI 4
-   . [not possible] laptop motherboards
-   . [not possible] reset vector 
-
+ | . [not possible] Raspberry PI 4
+ | . [not feasible] laptop motherboards
+ | . [TBD] reset vector 
+ |
  . flash firmware programming :
-   . POST imitation 
-   . BIOS (not UEFI) imitation
-   . FSBL
-   . SSBL 
-
+ | . POST imitation 
+ | . BIOS (not UEFI) imitation
+ | . FSBL
+ | . SSBL
+ |
  . Talos RISC CPU!
-
+ |
  . system bus vs. chipset
  
 __________________________________________________________________________
@@ -72,7 +74,7 @@ __________________________________________________________________________
   - to be tested in QEMU
   - to be shipped for Raspberry Pi
 __________________________________________________________________________
-CHOSEN PERSONAL PROJECT:
+ABANDONED PROJECT IDEAS:
 __________________________________________________________________________
 
 - a game for Linux 

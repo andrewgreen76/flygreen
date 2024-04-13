@@ -1,5 +1,7 @@
 
-			     :
+	     .		 :
+	     vars	 :7ffx_xxxx_xxxx-7fff_ffff_ffff	     		     
+	     .		     :
 	     uncl_memory     :60552a0000-60552a0fff
              com1_memory     :605529d000-605529dfff
              ser2_memory     :605529c000-605529c0ff

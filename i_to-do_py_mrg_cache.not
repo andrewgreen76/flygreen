@@ -9,6 +9,28 @@ open-hardware home-made laptop (two flavors) :
    . low-speed
    . reserved exclusively for kernel/other patches 
 
+=======================================================================================
+
+CS grad : PMP subplan : 
+ . a 5XXX class
+ 
+EE undergrad : PMP subplan : high-speed digital design
+
+=======================================================================================
+
+Total cost = $90k/yr
+|
+COA = $65k/yr
+|
+COLiving = $25k/yr 
+ . residence : $20,400/yr (not $17k/yr)
+ . food : $4,000/yr
+
+Bursar's office 
+
+=======================================================================================
+=======================================================================================
+=======================================================================================
 
 profile the LCD pipeline 
 STM32 board -> firmware for printing characters 

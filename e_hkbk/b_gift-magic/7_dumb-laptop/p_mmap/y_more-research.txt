@@ -1,0 +1,23 @@
+
+GDT (Global Descriptor Table) , LDT (Local Descriptor Table)
+|
+| . "The Global Descriptor Table (GDT) is a data structure in x86 architecture
+|    that stores segment descriptors, providing memory segmentation information
+|    such as base address, limit, and access permissions for memory segments
+|    used by the CPU."
+|
+| . "The Local Descriptor Table (LDT) is a data structure in x86 architecture
+|    similar to the GDT, but it is specific to a particular process and provides
+|    additional memory segmentation capabilities beyond those available in the GDT."
+|
+|
+v
+segment selector 
+|
+v
+CS:IP (code segment : instruction pointer) 
+|
+v
+top 16 bytes 
+
+_

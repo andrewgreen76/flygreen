@@ -1,0 +1,10 @@
+"
+In BIOS, the address 0xFFFFFFF0 typically holds the initial jump instruction, often a near jump (opcode 0xE9) or a far jump (opcode 0xEA), redirecting the CPU to the start of the BIOS initialization code.
+"
+
+
+
+1110 1001 - njmp (within 1 MB range ; signed 32-bit) 
+1110 1010 - fjmp (beyond the 1 MB range ; signed 32-bit) 
+
+_

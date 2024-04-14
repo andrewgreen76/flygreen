@@ -1,0 +1,4 @@
+"
+In BIOS, the address 0xFFFFFFF4 typically holds the segment selector portion of the far jump instruction, specifying the code segment to be used for execution after the jump.
+"
+_

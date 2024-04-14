@@ -1,3 +1,8 @@
+
+0xfffffff4
+
+======================================================================================================================================================
+
 "
 Cold boot refers to the process of starting a computer system from a completely powered-off state, typically by turning on the power supply, which initiates the system's hardware initialization, Power-On Self Test (POST), and operating system loading sequence.
 "

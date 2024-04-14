@@ -2,6 +2,10 @@
 At address 0xFFFFFFFE of BIOS, typically resides the second half-byte of the opcode for the jump instruction, contributing to the complete instruction encoding.
 "
 
+
+
+
+
 0xffffffff - _ _ _ _   _ _ _ _  jmp_opd
 0xfffffffe - _ _ _ _   _ _ _ _  jmp_opc 
 0xfffffffd - _ _ _ _   _ _ _ _  
@@ -17,6 +21,21 @@ At address 0xFFFFFFFE of BIOS, typically resides the second half-byte of the opc
 0xfffffff3 - _ _ _ _   _ _ _ _  
 0xfffffff2 - -----------------
 0xfffffff1 - _ _ _ _   _ _ _ _  
-0xfffffff0 - reset vector 
+0xfffffff0 - reset vector
 
+jmp_opc = ??
+jmp_opd = "offset portion" 
+
+
+
+
+
+"
+In typical BIOS implementations:
+
+- Address 0xFFFFFFF0: Contains the initial jump instruction, redirecting CPU execution to the start of BIOS initialization code.
+- Addresses 0xFFFFFFF1 to 0xFFFFFFF3: Unused or reserved memory space.
+- Address 0xFFFFFFF4: Holds the segment selector portion of the far jump instruction.
+- Addresses 0xFFFFFFF5 to 0xFFFFFFFF: Contain the offset portion of the far jump instruction, specifying the target address for the jump instruction execution.
+"
 _

@@ -1,0 +1,22 @@
+"
+At address 0xFFFFFFFE of BIOS, typically resides the second half-byte of the opcode for the jump instruction, contributing to the complete instruction encoding.
+"
+
+0xffffffff - _ _ _ _   _ _ _ _  jmp_opd
+0xfffffffe - _ _ _ _   _ _ _ _  jmp_opc 
+0xfffffffd - _ _ _ _   _ _ _ _  
+0xfffffffc - _ _ _ _   _ _ _ _  
+0xfffffffb - _ _ _ _   _ _ _ _  
+0xfffffffa - _ _ _ _   _ _ _ _  
+0xfffffff9 - _ _ _ _   _ _ _ _  
+0xfffffff8 - _ _ _ _   _ _ _ _  
+0xfffffff7 - _ _ _ _   _ _ _ _  
+0xfffffff6 - _ _ _ _   _ _ _ _  
+0xfffffff5 - _ _ _ _   _ _ _ _  
+0xfffffff4 - cold boot vector 
+0xfffffff3 - _ _ _ _   _ _ _ _  
+0xfffffff2 - -----------------
+0xfffffff1 - _ _ _ _   _ _ _ _  
+0xfffffff0 - reset vector 
+
+_

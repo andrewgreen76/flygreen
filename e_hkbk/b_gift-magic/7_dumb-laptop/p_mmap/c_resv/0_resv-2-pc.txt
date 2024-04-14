@@ -1,0 +1,7 @@
+"
+So during hardware reset, the program counter (IP) register is set to 0x0000, just like on a 8085 CPU. And to get to the end of memory, the code segment (CS) register is set to 0xFFFF. This makes the CPU start from 16 bytes from end of memory.
+"
+
+https://electronics.stackexchange.com/questions/509025/reason-for-x86-reset-vector-being-at-0xfffffff0-instead-of-0xffffffff
+
+_

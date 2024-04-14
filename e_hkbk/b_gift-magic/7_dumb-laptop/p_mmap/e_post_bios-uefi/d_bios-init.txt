@@ -1,0 +1,4 @@
+"
+In 64-bit x86 architecture, the first instruction of the BIOS initialization code typically involves initializing basic hardware components such as the CPU, memory, and peripherals. The exact nature of this instruction varies depending on the BIOS firmware and motherboard manufacturer, but it typically sets up essential system parameters and performs basic system checks.
+"
+_

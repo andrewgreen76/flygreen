@@ -1,0 +1,12 @@
+"
+Here are the typical steps involved in the identification of the CPU model and manufacturer during the POST BIOS routine:
+
+1. Reading CPUID information: The BIOS reads the CPUID instruction, which provides detailed information about the CPU.
+2. Parsing CPUID data: The BIOS parses the CPUID data to extract information such as the CPU family, model, stepping, and features.
+3. Vendor identification: The BIOS checks vendor-specific signatures or identifiers to determine the CPU manufacturer (e.g., Intel or AMD).
+4. Cross-referencing with microcode: The BIOS cross-references the extracted CPU information with its internal database of supported CPUs and microcode updates.
+5. Displaying CPU information: The BIOS may display the detected CPU model and manufacturer on the screen during the boot process.
+
+These steps may vary slightly depending on the specific BIOS implementation and CPU architecture.
+"
+_

@@ -15,7 +15,9 @@ GENERAL-PURPOSE REGISTERS :
    . can also be used to provide input for configuring system settings (think MS-DOS)  
  . BX
    . the secondary register
-   . used in ALU operations 
+   . used in ALU operations
+   . also called base register
+   . used in array operations 
    . can also be used to provide input for configuring system settings (think MS-DOS)  
  . CX 
    . "Count Reg"

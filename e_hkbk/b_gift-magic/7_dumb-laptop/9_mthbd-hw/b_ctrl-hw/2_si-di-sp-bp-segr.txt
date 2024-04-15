@@ -1,3 +1,4 @@
+
 ========================================================================================
 CPU REGISTERS - GENERAL : 
 ========================================================================================
@@ -33,8 +34,13 @@ SPECIAL(IZED) REGISTERS :
 
  . PC(IP),
  . FLAGS (status flags - describe ALU output) 
- . "... CS (code segment), DS (data segment), ES (extra segment), FS, GS, and SS (stack segment), which are used for memory segmentation."
-
+ . CS (code segment)
+ . DS (data segment)
+ . ES (extra segment)
+ . FS
+ . GS
+ . SS (stack segment)
+ . used for memory segmentation 
 
 ========================================================================================================================================================
 ========================================================================================================================================================

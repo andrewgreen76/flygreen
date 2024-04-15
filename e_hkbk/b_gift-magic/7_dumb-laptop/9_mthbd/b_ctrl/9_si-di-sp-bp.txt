@@ -1,4 +1,0 @@
-"
-... SI (source index), DI (destination index), BP (base pointer), and SP (stack pointer) are indeed general-purpose registers, typically used for various data manipulation tasks and memory addressing. They are not specialized registers.
-"
-_

@@ -23,11 +23,11 @@ GENERAL-PURPOSE REGISTERS :
    . "Count Reg"
    . "Used for counting purposes, like number of iterations while looping, number of characters in a string, etc."
    . can make additional operations such as multiplication possible 
- . DX,
- . SI,
- . DI,
- . SP,
- . BP.
+ . DX 
+ . SI 
+ . DI 
+ . SP 
+ . BP 
  . they are called "general-purpose" , but each one of them has a specific intended purpose
 
 ========================================================================================
@@ -35,14 +35,23 @@ SPECIAL(IZED) REGISTERS :
 ========================================================================================
 
  . PC(IP),
- . FLAGS (status flags - describe ALU output) 
+ . FLAGS (status flags - describe ALU output)
+ |
+ Used for memory segmentation : 
  . CS (code segment)
  . DS (data segment)
  . ES (extra segment)
  . FS
  . GS
  . SS (stack segment)
- . used for memory segmentation 
+
+========================================================================================
+INTERNAL REGISTERS :
+========================================================================================
+
+ . IR 
+ . MAR
+ . MDR (MBR) 
 
 ========================================================================================================================================================
 ========================================================================================================================================================

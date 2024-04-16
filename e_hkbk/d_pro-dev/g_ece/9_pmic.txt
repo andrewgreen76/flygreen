@@ -1,0 +1,14 @@
+"
+Power management on a laptop motherboard is typically controlled by a combination of hardware and software components. Key components involved in power management include:
+
+1. **Embedded Controller (EC):** The embedded controller is a microcontroller chip on the motherboard responsible for managing various system functions, including power management. It communicates with other components such as the BIOS, operating system, and power management ICs to regulate power usage, battery charging, and system sleep states.
+
+2. **Power Management Integrated Circuits (PMICs):** PMICs are specialized integrated circuits responsible for managing power distribution and regulation within the laptop. They control voltage regulation, battery charging, and power delivery to different components such as the CPU, GPU, memory, and peripherals.
+
+3. **Battery Management System (BMS):** For laptops with rechargeable batteries, the battery management system is responsible for monitoring battery health, charging, and discharging. It communicates with the EC and PMICs to optimize battery performance and prevent overcharging or overheating.
+
+4. **Operating System (OS) Power Management Features:** The operating system also plays a significant role in power management. It includes features such as CPU throttling, dynamic voltage and frequency scaling (DVFS), and sleep states (such as standby, hibernate, and suspend) to conserve power when the system is idle or under low load.
+
+These components work together to ensure efficient power usage, prolong battery life, and manage thermal performance on a laptop motherboard.
+"
+_

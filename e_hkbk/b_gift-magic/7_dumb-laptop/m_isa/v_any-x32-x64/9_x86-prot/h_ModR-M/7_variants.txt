@@ -1,0 +1,4 @@
+"
+In x86 assembly, "variants" of a register typically refer to its different parts or extensions, such as the lower and higher halves, or specific byte-sized portions, which can be accessed individually for specific operations.
+"
+_

@@ -1,0 +1,9 @@
+
+Instruction w/o opds :
+ (((Fetch ucode)))
+ . NOP 
+
+Instructions w/ opds :
+ . everything else 
+
+_

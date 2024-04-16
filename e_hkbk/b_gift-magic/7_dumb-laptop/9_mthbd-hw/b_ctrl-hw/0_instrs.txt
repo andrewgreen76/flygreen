@@ -1,9 +1,0 @@
-
-Instructions w/o opds :
- . Fetch
- . NOP 
-
-Instructions w/ opds :
- . 
-
-_

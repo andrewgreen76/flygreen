@@ -54,4 +54,8 @@ Intel 8088 :
  . address width : 20 
  . addressable memory range : 2^20 = 1M 
 
+
+
+Intel 80286 : 
+
 _

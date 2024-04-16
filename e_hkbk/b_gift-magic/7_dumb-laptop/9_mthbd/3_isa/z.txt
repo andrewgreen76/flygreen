@@ -1,0 +1,4 @@
+
+seg:off = phys_addr
+
+_

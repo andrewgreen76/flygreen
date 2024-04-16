@@ -1,0 +1,9 @@
+"
+... the Intel 4004 microprocessor, released in 1971, did not have a dedicated Bus Interface Unit (BIU) like modern x86 processors. The Intel 4004 was a 4-bit microprocessor and the first commercially available microprocessor. It was primarily designed for specific applications and did not have the complexity or architectural features found in later processors like the x86 series. The concept of a BIU became more prevalent in later microprocessor designs as the architectures evolved to handle more complex tasks and interactions with external devices and memory subsystems.
+"
+
+
+
+"
+The concept of a Bus Interface Unit (BIU) became more prevalent with the introduction of the Intel 8086 microprocessor in 1978. The Intel 8086 was one of the first processors to feature a dedicated BIU as part of its architecture. The BIU in the Intel 8086 managed the interface between the CPU and the external system bus, handling memory accesses, instruction fetching, and other bus-related operations. This architecture laid the foundation for subsequent x86 processors, where the BIU continued to play a crucial role in memory access and system bus management."
+_

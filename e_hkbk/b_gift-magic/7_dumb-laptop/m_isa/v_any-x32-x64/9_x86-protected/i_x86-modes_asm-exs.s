@@ -8,7 +8,7 @@
 	;; 3. Direct addressing mode:
 	mov eax, [0x12345678] ; Move the contents of the memory address 0x12345678 into the eax register
 
-	;; 4. Indirect addressing mode:	
+	;; 4. (Register) indirect addressing mode:	
 	mov eax, [ebx] ; Move the contents of the memory address stored in the ebx register into the eax register
 
 	;; 5. Indexed addressing mode:

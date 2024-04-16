@@ -1,0 +1,4 @@
+"
+AH (high byte of AX) and AL (low byte of AX) are two separate 8-bit registers within the same 16-bit register, AX, in the x86 architecture, allowing for simultaneous access to different portions of the data stored in AX.
+"
+_

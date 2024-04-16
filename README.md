@@ -38,7 +38,9 @@ __________________________________________________________________________
 DIY project : building my own dumb laptop / motherboard
  |
  . instruction queue/decode buffer
- . EU + BIU 
+ . EU (Execution Unit) + BIU (Bus Interface Unit)
+ . the history of interrupts
+ . the history of BIOS 
  |
  . x86 protected mode - addressing modes 
  |

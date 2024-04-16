@@ -37,6 +37,8 @@ __________________________________________________________________________
 
 DIY project : building my own dumb laptop / motherboard 
  |
+ . x86 protected mode - addressing modes 
+ |
  . control logic bits/signals in x86 , ARMv8.
  |
  . cold boot
@@ -45,7 +47,7 @@ DIY project : building my own dumb laptop / motherboard
  . reset vector :
  | . hardwired/integrated into the CPU 
  | . "double indirection"
- | . near jump to BIOS 
+ | . near/far jump to BIOS 
  |
  . boot/EEPROM firmware programming :
  | . [not possible] Raspberry PI 4
@@ -55,10 +57,6 @@ DIY project : building my own dumb laptop / motherboard
  . flash firmware programming :
  | . POST imitation 
  | . BIOS (not UEFI) imitation
- | . FSBL
- | . SSBL
- |
- . Talos RISC CPU!
  |
  . system bus vs. chipset
  

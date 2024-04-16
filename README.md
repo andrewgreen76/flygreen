@@ -35,7 +35,10 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-DIY project : building my own dumb laptop / motherboard 
+DIY project : building my own dumb laptop / motherboard
+ |
+ . instruction queue/decode buffer
+ . EU + BIU 
  |
  . x86 protected mode - addressing modes 
  |

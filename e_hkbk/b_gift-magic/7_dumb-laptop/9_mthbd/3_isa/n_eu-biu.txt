@@ -1,0 +1,14 @@
+"
+EU (Execution Unit) and BIU (Bus Interface Unit) are two key components of the Intel x86 CPU architecture:
+
+1. Execution Unit (EU): The Execution Unit is responsible for executing instructions fetched by the BIU. It consists of various functional units, including the Arithmetic Logic Unit (ALU), which performs arithmetic and logical operations, as well as units for handling control flow instructions, data movement, and managing processor states. The EU carries out the actual computation and control tasks specified by the instructions.
+
+2. Bus Interface Unit (BIU): The Bus Interface Unit manages the interface between the CPU and the system bus. It handles memory-related operations such as fetching instructions from memory (including BIOS ROM during startup), loading them into the CPU's instruction queue, coordinating data transfers between the CPU and memory subsystem, and managing the interaction with peripheral devices. The BIU plays a crucial role in memory access and instruction fetching.
+"
+
+
+
+"
+... during the startup process, the x86 CPU utilizes the BIU (Bus Interface Unit) to fetch instructions from the BIOS (Basic Input/Output System) ROM (Read-Only Memory). The BIU manages the interaction with the system bus and handles memory-related operations, including fetching instructions from the BIOS ROM and loading them into the CPU's instruction queue for execution.
+"
+_

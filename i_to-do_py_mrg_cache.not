@@ -1,4 +1,13 @@
 
+Curriculum plan for CU Boulder. 
+History of x86 MPUs.
+When was a cache introduced in MPUs? First Intel MPU to have a cache? 
+Where are PLAs typically used in semiconductor manufacturing? 
+Where are PLDs typically used in semiconductor manufacturing?
+Is a PLD made to be a part of EU, BIU, or some other part of an MPU? 
+
+=======================================================================================
+
 open-hardware home-made laptop (two flavors) :
  . breadboard-based
  . more modern , tighter form-factor

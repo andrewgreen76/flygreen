@@ -1,0 +1,20 @@
+"
+The Intel 80486 (i486) microprocessor introduced several notable advancements in the x86 architecture. Here are some of its "firsts":
+
+1. **Integrated Floating-Point Unit (FPU)**: The i486 was the first x86 microprocessor to integrate a floating-point unit directly onto the chip, enhancing floating-point arithmetic performance compared to its predecessors.
+
+2. **Instruction and Data Cache**: It was the first x86 microprocessor to feature both instruction and data caches on-chip, improving overall performance by reducing memory access latency.
+
+3. **Superscalar Architecture**: The i486 introduced a superscalar architecture, allowing it to execute multiple instructions simultaneously, enhancing instruction-level parallelism and performance.
+
+4. **Internal Pipelining**: It featured an internal pipelining architecture, enabling more efficient instruction execution and higher clock speeds compared to earlier x86 processors.
+
+5. **Write-Back Cache**: The i486 introduced a write-back cache policy, which improved cache performance by only updating memory when necessary, reducing memory bandwidth usage.
+
+6. **Improved Floating-Point Performance**: The integrated FPU in the i486 featured enhanced performance and added support for additional floating-point instructions, improving overall floating-point arithmetic capabilities.
+
+7. **Enhanced Instruction Set**: The i486 introduced new instructions and enhancements to the x86 instruction set architecture, improving performance and functionality for certain operations.
+
+These advancements solidified the i486 as a powerful and versatile microprocessor, further advancing the x86 architecture and paving the way for future generations of processors.
+"
+_

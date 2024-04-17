@@ -1,4 +1,9 @@
 "
 PLA stands for Programmable Logic Array. In control logic, a PLA is a digital circuit that can be programmed to implement specific logic functions or control sequences. It consists of an array of programmable AND and OR gates, allowing for flexible configuration of logic operations to control the behavior of a system or device. PLAs are commonly used in microprocessor control units, where they help in executing instruction sequences and managing various system operations.
 "
+
+
+"
+Programmable Logic Arrays (PLAs) find common use in semiconductor manufacturing primarily in the creation of Application-Specific Integrated Circuits (ASICs) and Field-Programmable Gate Arrays (FPGAs). They are utilized during the design phase to implement custom logic functions, such as combinational and sequential logic, which are then programmed into the PLAs to define the behavior of the semiconductor device. Additionally, PLAs can be found in various other applications including memory controllers, interface circuits, and specialized control units within integrated circuits.
+"
 _

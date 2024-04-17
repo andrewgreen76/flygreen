@@ -1,4 +1,10 @@
 "
+Apologies for any confusion. Yes, you're correct. Control logic and instruction decoding are indeed integral parts of the Execution Unit (EU) within a microprocessor, and PLDs are commonly used in these areas to implement various control functions and instruction decoding logic.
+"
+
+======================================================================================================================================================
+
+"
 Programmable Logic Devices (PLDs), including Programmable Logic Arrays (PLAs), Programmable Array Logic (PAL), Generic Array Logic (GAL), and Complex Programmable Logic Devices (CPLDs), are commonly used in semiconductor manufacturing for various purposes:
 
 1. **Logic Design Prototyping**: PLDs are used during the prototyping phase of integrated circuit (IC) design to implement and test custom logic functions before committing to fixed silicon designs.

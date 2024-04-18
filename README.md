@@ -40,7 +40,8 @@ DIY project : building my own dumb laptop / motherboard
  . instruction queue/decode buffer
  . EU (Execution Unit) + BIU (Bus Interface Unit)
  . the history of interrupts
- . the history of BIOS 
+ . the history of BIOS
+ . floating-point division in Intel CPU's 
  |
  . x86 protected mode - addressing modes 
  |

@@ -69,11 +69,14 @@ DIY project : building my own dumb laptop / motherboard
 
 
 History of security vulnerabilities :
+ | 
  . DoS
  . Morris Worm
  . information disclosure on ARPANET
  . session hijacking
- . privilege escalation and authentication bypass on Unix systems 
+ . privilege escalation and authentication bypass on Unix systems
+ |
+ . illegal access to memory contents 
 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 

@@ -37,8 +37,12 @@
    . by Robert Tappan Morris - "the first person to be convicted under the Computer Fraud and Abuse Act" 
    . released on November 2, 1988 
    . fingerd buffer overflow exploit
-     . using primitive C functions 
-     => string-buffer overflow (following memory overwrite) 
+     = feeding an excessively long input to a program for buffering 
+     + using primitive C functions
+     => string-buffer overflow
+     => overwriting the memory that follows (BP , ret)
+     => overwritten ret can lead to somewhere in the middle of the NOP-sled
+     -> NOP-sled leads to the entry point of malicious code 
    . sendmail debug-mode exploit
    . "weak password guessing" 
    . "unintentional recursion (rapid replication of the worm) that caused the worm to replicate more aggressively than intended"

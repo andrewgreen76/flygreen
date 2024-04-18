@@ -1,7 +1,7 @@
 
 Closed data :
  |
- . [ want to retain , garbage ]
+ . [ still need , still have , garbage ]
  x [ don't mind exposure , do mind exposure ]
  |
  . you don't know what sort of data will follow the buffer in focus

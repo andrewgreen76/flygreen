@@ -1,5 +1,5 @@
 
-What the Pentium FDIV bug a problem with bare metal or with firmware?
+Was the Pentium FDIV bug a problem with bare metal or with firmware?
 ChatGPT
 
 The Pentium FDIV (Floating-Point Division) bug was a hardware problem rather than a firmware issue. It was a flaw in the hardware implementation of the floating-point division unit in certain early versions of the Intel Pentium processor.

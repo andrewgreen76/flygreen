@@ -56,6 +56,42 @@ Intel 8088 :
 
 
 
-Intel 80286 : 
+Intel 80286 :
+ . '82 
+ . data bus width : 16 
+ . address bus width : 24 
+ . address width : 24 
+ . addressable memory range : 2^24 = 16M 
+ . high-performance
+ . more transistors
+
+
+
+Intel 80386 :
+ . '85
+ . data bus width : 32 
+ . address bus width : 32 
+ . address width : 32 
+ . addressable memory range : 2^32 = 4G 
+
+
+
+Intel 80486 :
+ . '89
+ . integrated FPU
+ . better performance compared to i386 
+ . data bus width : 32 
+ . address bus width : 32 
+ . address width : 32 
+ . addressable memory range : 2^32 = 4G 
+
+
+
+Intel Itanium IA-64 :
+ . '01
+ . data bus width : 64 
+ . address bus width : 64 
+ . address width : 64 
+ . addressable memory range : 2^64 = 18E 
 
 _

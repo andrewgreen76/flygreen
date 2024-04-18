@@ -1,0 +1,17 @@
+
+assembly	'47
+FORTRAN		'57
+COBOL	 	'59
+ALGOL 60	'60
+Lisp  		'60
+Simula		'62
+CPL		c.'63
+BASIC		'64
+BCPL		c.'67
+B		'69
+Forth		c.'70
+New B		'70
+Pascal		'70 (N. Wirth) 
+C		('69-)'73 
+
+_

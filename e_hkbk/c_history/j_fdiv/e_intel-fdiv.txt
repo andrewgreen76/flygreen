@@ -1,0 +1,4 @@
+"
+The first Intel MPU (Microprocessor Unit) to feature hardware support for floating-point division was the Intel 8087 Floating-Point Coprocessor, introduced in 1980. The 8087 was an optional companion chip designed to work alongside Intel's 8086 and 8088 processors, providing hardware acceleration for floating-point arithmetic operations, including division, multiplication, addition, and subtraction.
+"
+_

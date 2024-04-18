@@ -1,0 +1,15 @@
+
+Closed data :
+ |
+ . [ want to retain , garbage ]
+ x [ don't mind exposure , do mind exposure ]
+ |
+ . you don't know what sort of data will follow the buffer in focus
+   . credit card info (cached for payments) 
+   . passwords (banking , etc.)
+   . authentication tokens (Git , etc.) 
+   . keys (encryption keys , CD keys)
+   . IP
+   . emails 
+
+_

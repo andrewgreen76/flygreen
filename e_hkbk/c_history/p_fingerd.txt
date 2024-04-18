@@ -1,0 +1,8 @@
+"
+Fingerd, short for "finger daemon," is a network service daemon that provides information about users on a network. It originated in the Unix operating system and was commonly found on Unix-like systems. 
+
+The finger protocol allows users to query information about other users on the network, such as their login name, real name, idle time, and more. Fingerd listens for incoming finger requests on the network and responds with the requested information. 
+
+Unfortunately, fingerd implementations in some Unix systems had vulnerabilities that could be exploited by attackers, such as buffer overflow vulnerabilities. These vulnerabilities were famously exploited by the Morris Worm in 1988, leading to one of the first large-scale incidents of malware spreading across the internet. As a result, fingerd became notorious as one of the entry points exploited by the Morris Worm.
+"
+_

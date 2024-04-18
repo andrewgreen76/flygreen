@@ -65,7 +65,16 @@ DIY project : building my own dumb laptop / motherboard
  | . BIOS (not UEFI) imitation
  |
  . system bus vs. chipset
- 
+
+
+
+History of security vulnerabilities :
+ . DoS
+ . Morris Worm
+ . information disclosure on ARPANET
+ . session hijacking
+ . privilege escalation and authentication bypass on Unix systems 
+
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 
 __________________________________________________________________________

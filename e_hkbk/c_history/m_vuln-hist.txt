@@ -25,16 +25,25 @@
 
 
  . 1985 : authentication bypass
-   . "Len de Bruxelles" 
+   . by "Len de Bruxelles" 
    . "vulnerabilities in the Unix rsh (remote shell) service"
    . "to gain unauthorized access without providing valid credentials"
 
 
 
  . 1988 : buffer overflow attack / code injection 
-   . Morris Worm 
-   (a) "exploited vulnerabilities in the Unix fingerd and sendmail programs"
-   (b) accidental exposure of own source code because of a debugging error
+   . Morris Worm
+   . "a programming error"
+   . by Robert Tappan Morris - "the first person to be convicted under the Computer Fraud and Abuse Act" 
+   . released on November 2, 1988 
+   . fingerd buffer overflow exploit
+     . using primitive C functions 
+     => string-buffer overflow (following memory overwrite) 
+   . sendmail debug-mode exploit
+   . "weak password guessing" 
+   . "unintentional recursion (rapid replication of the worm) that caused the worm to replicate more aggressively than intended"
+   . "... his intention was not to cause harm, but rather to gauge the size of the internet"
+   
 
 
 

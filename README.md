@@ -35,6 +35,10 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+The mystery of the circular semiconductor wafer.
+
+The "stored program" model. 
+
 DIY project : building my own dumb laptop / motherboard
  |
  . instruction queue/decode buffer

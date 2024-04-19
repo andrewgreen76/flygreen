@@ -1,0 +1,4 @@
+"
+Award BIOS is a type of Basic Input/Output System (BIOS) firmware developed by Award Software International, Inc. It was commonly used in many personal computers and motherboards during the late 20th century and early 21st century. Award BIOS provided essential low-level functions for hardware initialization, system configuration, and startup processes in IBM-compatible PCs.
+"
+_

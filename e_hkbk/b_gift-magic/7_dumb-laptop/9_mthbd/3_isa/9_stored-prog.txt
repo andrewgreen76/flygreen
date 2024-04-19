@@ -1,0 +1,4 @@
+"
+The "stored program" model is a fundamental concept in computer science and refers to the idea that instructions and data are stored together in memory, allowing a computer to retrieve and execute instructions sequentially. This model is a key characteristic of modern digital computers and enables programmability, where a computer can execute a sequence of instructions to perform various tasks without the need for physical modification of hardware. It forms the basis of the von Neumann architecture, named after mathematician and physicist John von Neumann, who first proposed this concept in the mid-20th century.
+"
+_

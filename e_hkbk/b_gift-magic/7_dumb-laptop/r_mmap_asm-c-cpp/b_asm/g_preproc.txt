@@ -1,0 +1,4 @@
+"
+In assembly files, "%ifdef" and "%endif" are preprocessor directives used to conditionally include or exclude blocks of code based on whether a specific identifier is defined.
+"
+_

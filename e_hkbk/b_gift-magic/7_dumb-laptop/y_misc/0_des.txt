@@ -1,0 +1,15 @@
+
+
+=======================================================================================
+
+open-hardware home-made laptop (two flavors) :
+ . breadboard-based
+ . more modern , tighter form-factor
+   . tighter architecture
+   => needs tools
+ . on-board Wi-Fi
+   . free / securely-paid low-cost 
+   . low-speed
+   . reserved exclusively for kernel/other patches 
+
+_

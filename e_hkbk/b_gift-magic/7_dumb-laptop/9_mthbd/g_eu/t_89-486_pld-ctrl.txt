@@ -1,5 +1,5 @@
 "
-Apologies for any confusion. Yes, you're correct. Control logic and instruction decoding are indeed integral parts of the Execution Unit (EU) within a microprocessor, and PLDs are commonly used in these areas to implement various control functions and instruction decoding logic.
+Control logic and instruction decoding are indeed integral parts of the Execution Unit (EU) within a microprocessor, and PLDs are commonly used in these areas to implement various control functions and instruction decoding logic.
 "
 
 "

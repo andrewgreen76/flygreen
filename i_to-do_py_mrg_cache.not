@@ -1,20 +1,12 @@
 
+EFLAGS , RFLAGS 
+
+what are some of the things i should learn before getting hired to write and maintain proprietary UEFI firmware?
+
 Incremental development
  - history of x86 MPUs. 
 Curriculum plan for CU Boulder. 
 main args in the kernel-space 
-
-=======================================================================================
-
-open-hardware home-made laptop (two flavors) :
- . breadboard-based
- . more modern , tighter form-factor
-   . tighter architecture
-   => needs tools
- . on-board Wi-Fi
-   . free / securely-paid low-cost 
-   . low-speed
-   . reserved exclusively for kernel/other patches 
 
 =======================================================================================
 

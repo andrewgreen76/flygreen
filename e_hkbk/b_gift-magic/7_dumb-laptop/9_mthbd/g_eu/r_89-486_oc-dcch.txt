@@ -5,4 +5,12 @@ The i486 featured an on-chip 8KB to 16KB Level 1 data cache (L1d cache), which h
 
 Since then, data caching has become a standard feature in virtually all modern Intel microprocessors, with cache sizes and architectures evolving over time to meet the increasing demands of complex software and applications.
 "
+
+
+
+"
+To clarify, the Intel 80386 (i386) did not introduce a data cache. The i386 primarily introduced a larger 32-bit architecture, virtual memory support, and protected mode, among other features, but it did not include an on-chip data cache.
+
+The introduction of the data cache occurred with later generations, specifically with the Intel 80486 (i486) processor. The i486 was the first Intel microprocessor to include an on-chip data cache, which significantly improved performance by storing frequently accessed data closer to the CPU core, reducing memory access latency for data-intensive operations.
+"
 _

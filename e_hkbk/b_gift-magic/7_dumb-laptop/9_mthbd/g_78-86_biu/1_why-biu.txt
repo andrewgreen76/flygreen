@@ -1,0 +1,4 @@
+"
+The BIU's primary responsibility is to manage communication between the CPU and the memory subsystem, including fetching instructions and data from main memory. It may include components such as the Instruction Fetch Unit (IFU) and Memory Management Unit (MMU) but does not typically include components like data caches, which are more directly related to the execution and caching of data within the CPU core itself.
+"
+_

@@ -1,0 +1,4 @@
+"
+Intel introduced support for MIMD (Multiple Instruction, Multiple Data) parallelism in their microprocessors with the introduction of the Intel Xeon Phi coprocessors. The first generation of Intel Xeon Phi, codenamed "Knights Corner," was announced in June 2012. These coprocessors featured many-core architectures with numerous processing cores capable of executing multiple instructions independently on separate data sets concurrently, thus providing support for MIMD parallelism. The Xeon Phi coprocessors were designed to accelerate highly parallel workloads in scientific computing, data analytics, and other high-performance computing (HPC) applications.
+"
+_

@@ -1,9 +1,0 @@
-"
-The Instruction Queue or Instruction Decode Buffer is indeed utilized during normal execution as well. It helps in improving performance by prefetching and buffering instructions ahead of time, allowing the CPU to execute them efficiently without waiting for each instruction to be fetched individually from memory. This mechanism aids in reducing the latency associated with memory accesses and enables more effective instruction execution pipelines.
-"
-
-
-"
-During boot time, when fetching and decoding instructions from BIOS, the CPU primarily utilizes the Instruction Pointer (IP) register to fetch instructions, and while decoding, it may use the Instruction Queue, but not the Memory Address Register (MAR) or Memory Data Register (MDR).
-"
-_

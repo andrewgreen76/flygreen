@@ -1,0 +1,8 @@
+"
+Data caching, similar to instruction caching, was introduced in Intel microprocessors around the same time. The first significant implementation of data caching in Intel processors occurred with the introduction of the Intel 80486 processor, also known as the i486, which was released in April 1989.
+
+The i486 featured an on-chip 8KB to 16KB Level 1 data cache (L1d cache), which helped improve performance by storing frequently accessed data closer to the CPU core, reducing memory access latency. This cache helped accelerate data-intensive operations and contributed to overall system performance improvements.
+
+Since then, data caching has become a standard feature in virtually all modern Intel microprocessors, with cache sizes and architectures evolving over time to meet the increasing demands of complex software and applications.
+"
+_

@@ -41,6 +41,7 @@ The "stored program" model.
 
 DIY project : building my own dumb laptop / motherboard
  |
+ . the history of Motorola MPUs 
  . addressing modes in x86
  . the history of component inclusions in x86 CPUs 
  . instruction queue/decode buffer

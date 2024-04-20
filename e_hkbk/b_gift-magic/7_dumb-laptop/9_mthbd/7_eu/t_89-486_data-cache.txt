@@ -1,4 +1,0 @@
-"
-The data cache, a high-speed memory storage located closer to the CPU, was first introduced in the Intel 80486 microprocessor, which was released in 1989. The data cache is used to store frequently accessed data from memory, allowing the CPU to access it more quickly than if it had to retrieve the data directly from system memory. This caching mechanism significantly improves overall system performance by reducing memory access latency.
-"
-_

@@ -1,0 +1,12 @@
+"
+Control Register 2 (CR2) is a special-purpose register in the x86 architecture that is used to store the linear address of the last page fault that occurred in the system. It was introduced with the Intel 80386 processor (386), which was released in 1985.
+
+CR2 is a 32-bit register that holds the linear address that caused a page fault when the processor attempted to access memory. When a page fault occurs, the processor automatically stores the linear address that caused the fault in CR2. This allows the operating system to determine the cause of the fault and take appropriate action, such as loading data from disk into memory or handling memory protection violations.
+
+CR2 is primarily used by the operating system's memory management subsystem to implement virtual memory and handle memory access errors. By storing the linear address of page faults, CR2 provides crucial information for diagnosing and resolving memory-related issues in the system.
+
+While CR2 is not directly accessible or modifiable by software running on the processor, the operating system can read its value when handling page faults to determine the cause of the fault and take appropriate action.
+
+Overall, CR2 plays a crucial role in memory management and fault handling in the x86 architecture, providing essential information for diagnosing and resolving memory-related issues in operating systems.
+"
+_

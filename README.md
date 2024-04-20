@@ -41,6 +41,8 @@ The "stored program" model.
 
 DIY project : building my own dumb laptop / motherboard
  |
+ . addressing modes in x86
+ . the history of component inclusions in x86 CPUs 
  . instruction queue/decode buffer
  . EU (Execution Unit) + BIU (Bus Interface Unit)
  . the history of interrupts

@@ -1,0 +1,57 @@
+
+ . industry certs : CUD/UCD from UEFI forum ; CBP
+ . ACPI (in UEFI) 
+ . any specific hardware , kits ?
+ . PEI in POST ? 
+ . DXE in POST ?
+ . BIOS or UEFI ?
+ . POST : hardware initialization
+ . communities 
+
+========================================================================================================================================================
+
+"
+Several companies specialize in BIOS/UEFI development or work closely with firmware development:
+
+1. Insyde Software Corporation
+2. Phoenix Technologies (now part of Avocent)
+3. American Megatrends Inc. (AMI)
+4. Intel Corporation (for Intel-based platforms)
+5. HP Inc. (Hewlett-Packard)
+6. Dell Technologies Inc.
+7. Lenovo Group Ltd.
+8. Supermicro Computer Inc.
+9. ASUSTek Computer Inc.
+10. Gigabyte Technology Co., Ltd.
+
+These companies often have dedicated teams focused on BIOS/UEFI development for their products or provide firmware solutions and services to other hardware manufacturers.
+"
+
+========================================================================================================================================================
+
+"
+Aspiring engineers interested in firmware development and maintenance, particularly in the area of proprietary UEFI firmware, can get started by following these steps:
+
+1. Education: Pursue a degree in computer science, computer engineering, electrical engineering, or a related field. A strong foundation in computer architecture, operating systems, and low-level programming is essential.
+
+2. Learn Programming Languages: Develop proficiency in programming languages commonly used in firmware development, such as C and assembly language. Practice writing code for low-level system interaction and hardware initialization.
+
+3. Study UEFI Specification: Familiarize yourself with the UEFI specification by studying official documentation, books, tutorials, and online resources. Understand the architecture, protocols, data structures, and programming interfaces defined by UEFI.
+
+4. Gain Hands-on Experience: Seek opportunities to gain hands-on experience with firmware development tools, such as compilers, debuggers, emulators, and hardware debuggers. Experiment with writing simple firmware programs and interfacing with hardware components.
+
+5. Join Firmware Development Communities: Participate in online forums, discussion groups, and communities focused on firmware development and UEFI programming. Engage with experienced professionals, ask questions, and share knowledge with others in the field.
+
+6. Build Projects: Work on personal or open-source projects that involve firmware development. This could include developing bootloaders, device drivers, or firmware utilities. Building projects will help you apply your knowledge and develop practical skills.
+
+7. Obtain Certifications: Consider obtaining certifications relevant to firmware development, such as Certified UEFI Developer (CUD) certification offered by the Unified EFI Forum. Certifications can validate your expertise and enhance your credibility in the field.
+
+8. Networking: Attend industry events, conferences, and workshops related to firmware development and computer hardware. Networking with professionals in the field can provide valuable insights, career opportunities, and mentorship.
+
+9. Continuous Learning: Stay updated on emerging technologies, industry trends, and advancements in firmware development. Continuously expand your knowledge and skills through self-study, online courses, and professional development programs.
+
+10. Apply for Internships or Entry-Level Positions: Look for internships or entry-level positions at companies involved in firmware development, computer hardware manufacturing, or embedded systems design. Gain practical experience and build a strong foundation for your career in firmware engineering.
+
+By following these steps and remaining dedicated to learning and skill development, aspiring engineers can kickstart their journey towards becoming proficient firmware developers specializing in proprietary UEFI firmware.
+"
+_

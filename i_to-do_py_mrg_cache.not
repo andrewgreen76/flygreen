@@ -1,16 +1,14 @@
 
-check on UMN , TAMU 
 private scholarships 
- . industry certs : CUD/UCD from UEFI forum ; CBP
- . ACPI (in UEFI) 
- . any specific hardware , kits ?
- . PEI in POST ? 
- . DXE in POST ?
- . BIOS or UEFI ?
- . tiano
- . PI (platform init)
- . specification - ? 
-
+industry certs : CUD/UCD from UEFI forum ; CBP
+ACPI (in UEFI) 
+any specific hardware , kits ?
+PEI in POST ? 
+DXE in POST ?
+BIOS or UEFI ?
+tiano
+PI (platform init)
+check on UMN , TAMU 
 transistors 
 
 CPUs 

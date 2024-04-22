@@ -1,0 +1,16 @@
+"
+ACPI stands for Advanced Configuration and Power Interface. It is an open industry specification developed by Intel, Microsoft, and other industry leaders that defines platform-independent interfaces for hardware discovery, configuration, and power management in modern computer systems.
+
+ACPI provides a standardized way for operating systems to control power management features such as sleep, hibernation, and thermal management. It also enables devices to communicate their capabilities and configurations to the operating system, allowing for dynamic hardware configuration and device enumeration.
+
+Key components of ACPI include:
+
+1. ACPI Tables: Data structures stored in the system's firmware (BIOS or UEFI) that describe the system's hardware configuration, including devices, resources, and power management features.
+
+2. ACPI BIOS: The firmware implementation that supports ACPI and provides interfaces for the operating system to interact with ACPI tables and control system hardware.
+
+3. ACPI Operating System: The operating system component responsible for interpreting ACPI tables, managing power states, and coordinating system hardware according to ACPI specifications.
+
+Overall, ACPI plays a critical role in modern computer systems by enabling efficient power management, hardware configuration, and device control, leading to better system performance, reliability, and energy efficiency.
+"
+_

@@ -8,7 +8,8 @@ BIOS or UEFI ?
 tiano
 PI (platform init)
 check on UMN , TAMU 
-transistors 
+transistors
+read init-dets.txt
 
 CPUs 
 memory - Micron 

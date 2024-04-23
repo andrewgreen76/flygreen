@@ -41,6 +41,7 @@ The "stored program" model.
 
 DIY project : building my own dumb laptop / motherboard
  |
+ . hardware/CPU initialization (vanilla) routine - details 
  . all x86 registers 
  . the history of Motorola MPUs 
  . addressing modes in x86

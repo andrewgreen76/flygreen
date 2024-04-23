@@ -1,6 +1,11 @@
 
+amd evol : 
+numa / sub-numa / SNC - in UEFI too ? 
+what is the first thing a CPU microarchitect does 
+can a processor have multiples ALU's / sets of general-purpose registers 
+POST/BIOS
 EEPROM programmer (pro-grade tool/utility) 
-own loader
+own loader - "What is a loader?"
 linker
 assembler
 compiler
@@ -9,9 +14,10 @@ pre-processor
 private scholarships 
 industry certs : CUD/UCD from UEFI forum ; CBP
 any specific hardware , kits ?
-PEI in POST ? 
-DXE in POST ?
 BIOS or UEFI ?
+UEFI : 
+ . PEI in POST ? 
+ . DXE in POST ?
 tiano
 PI (platform init)
 check on UMN , TAMU 

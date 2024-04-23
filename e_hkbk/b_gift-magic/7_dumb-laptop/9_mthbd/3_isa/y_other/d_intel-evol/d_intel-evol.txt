@@ -83,7 +83,40 @@ Intel 80486 :
  . data bus width : 32 
  . address bus width : 32 
  . address width : 32 
- . addressable memory range : 2^32 = 4G 
+ . addressable memory range : 2^32 = 4G
+
+
+
+Intel i860 :
+ . '89
+
+
+
+Intel Pentium I :
+ . '93
+
+
+
+Intel Pentium Pro :
+ . '95
+
+
+
+Intel Pentium II Xeon :
+ . '98
+ . workstations
+ . servers
+
+
+
+Intel Pentium III Xeon :
+ . '99 
+
+
+
+Intel Pentium 4 :
+ . '00
+ . 42 million transistors 
 
 
 
@@ -92,6 +125,53 @@ Intel Itanium IA-64 :
  . data bus width : 64 
  . address bus width : 64 
  . address width : 64 
- . addressable memory range : 2^64 = 18E 
+ . addressable memory range : 2^64 = 18E
+ . mainly for servers 
 
+
+
+Intel Xeon :
+ . '01 
+ . mainly for servers
+
+
+
+Intel Centrino :
+ . '03 
+ . great for building thin laptops
+ . mainly for mobile devices 
+
+
+
+Intel Dual-Core :
+ . '06
+ . tied to Viiv multimedia specifications for home entertainment devices 
+
+
+
+Intel Quad-Core processors :
+ . '06
+
+
+
+Intel Core 2 Duo :
+ . '06
+
+
+
+Intel Core 2 Quad :
+ . '07 
+
+
+
+2nd-Gen Intel Core :
+ . '11 
+ . a.k.a. Sandy Bridge 
+
+
+
+3rd-Gen Intel Core :
+ . '12
+ . a.k.a. IVY Bridge 
+ 
 _

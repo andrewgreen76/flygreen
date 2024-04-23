@@ -1,0 +1,10 @@
+"
+A CP/M disk is a nothing more than a series of sectors that store 128 bytes each. The first sectors on the disk are reserved for CP/M, and hold a copy of the CCP, BDOS and BIOS. These are read off the disk during the boot procedure by the boot loader.
+"
+
+
+
+"
+In CP/M (Control Program for Microcomputers), CCP stands for Console Command Processor. The CCP is responsible for interpreting and executing user commands entered via the console or command-line interface. It serves as the user interface for interacting with the operating system, handling commands such as file manipulation, program execution, and system configuration.
+"
+_

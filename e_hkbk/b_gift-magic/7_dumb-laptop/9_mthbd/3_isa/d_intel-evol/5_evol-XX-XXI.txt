@@ -173,7 +173,7 @@ Intel Core 2 Quad :
 
 3rd-Gen Intel Core :
  . '12
- . a.k.a. IVY Bridge
+ . a.k.a. Ivy Bridge
 
 
 

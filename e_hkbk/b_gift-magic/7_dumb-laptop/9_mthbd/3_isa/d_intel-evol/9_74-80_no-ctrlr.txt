@@ -1,0 +1,6 @@
+"
+The Intel 8080 microprocessor, introduced in 1974, did not require the same level of external support chips as the later Intel 8086 and subsequent processors. The architecture of the 8080 was simpler, and it was designed to be used in a wide variety of applications, including embedded systems and early microcomputers.
+
+While the 8080 did not have integrated support for peripherals like modern CPUs, it didn't require as many external support chips as later processors because the systems it was used in were less complex. In many cases, the 8080 was interfaced directly with memory and peripheral devices without the need for dedicated support chips like those found in later systems based on the 8086 and other x86 processors.
+"
+_

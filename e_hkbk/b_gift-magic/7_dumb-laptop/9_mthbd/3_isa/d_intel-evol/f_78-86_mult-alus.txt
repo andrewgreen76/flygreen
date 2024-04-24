@@ -1,4 +1,10 @@
 "
+The earliest Intel MPU (Microprocessor Unit) to feature multiple ALUs (Arithmetic Logic Units) was the Intel 8086 processor, which was introduced in 1978. The Intel 8086 was a 16-bit microprocessor and one of the first members of the x86 family of processors. While it only had one primary ALU, it also featured additional ALUs for handling specific tasks such as address calculation and data manipulation, effectively providing multiple execution units for improved performance and efficiency compared to earlier processors.
+"
+
+
+
+"
 The first Intel microprocessor to feature multiple ALUs and multiple sets of general-purpose registers was the Intel iAPX 432, introduced in the early 1980s. 
 
 The Intel iAPX 432 was a highly ambitious processor architecture designed for high-level programming languages and sophisticated operating systems. It featured a unique object-based architecture and included multiple ALUs and register sets to support advanced features such as object-oriented programming, hardware-based garbage collection, and built-in support for parallelism.

@@ -1,12 +1,15 @@
 
-Lineage of Intel uarchs :
- . Broadwell uarch 
-
-
-
 Intel Core MPUs / MPU families :
- . Sandy Bridge () 
- . Ivy Bridge () 
+ . P5
+ . P6
+ . NetBurst
+ . Enhanced Pentium M  
+ . Core
+ . Penryn 
+ . Nehalem 
+ . Westmere 
+ . 2nd-gen Intel Core MPU - Sandy Bridge (2011 - 2013) 
+ . 3rd-gen Intel Core MPU - Ivy Bridge () 
  . Haswell (2013 - ?)
    . 4th-gen Intel Core MPU 
  . Broadwell (2014 - 2018)

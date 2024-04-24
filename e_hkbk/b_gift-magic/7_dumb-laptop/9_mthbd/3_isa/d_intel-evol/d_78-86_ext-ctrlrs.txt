@@ -1,0 +1,8 @@
+"
+The Intel 8086, introduced in 1978, was the first Intel microprocessor to feature external controllers on the chipset. However, it's essential to note that the term "chipset" as it's understood today didn't exist in the same form back then.
+
+The 8086 processor was typically paired with supporting chips that handled various functions such as memory interfacing, I/O operations, and bus control. These supporting chips were not integrated onto the same die as the processor but rather were separate components on the motherboard. They included components like the 8284 clock generator, 8288 bus controller, and various memory and I/O controllers.
+
+These external controllers on the motherboard constituted an early form of chipset, although the concept wasn't as sophisticated or integrated as modern chipsets found in later processors. Nonetheless, the 8086 was the first Intel microprocessor to require external controllers on the motherboard to handle various system functions.
+"
+_

@@ -5,12 +5,4 @@ On the other hand, the Intel 8086 microprocessor, introduced in 1978, did not ha
 
 While the 8086 didn't have multiple ALUs for parallel processing, its architecture included multiple execution units to handle different types of instructions, improving overall performance and efficiency compared to earlier processors like the 8080.
 "
-
-
-
-"
-The Intel Pentium processor, introduced in 1993, was one of the first Intel microprocessors to feature multiple Arithmetic Logic Units (ALUs) on a single chip. The Pentium processor, with its superscalar architecture, included two ALUs, allowing it to execute multiple instructions in parallel.
-
-This architectural enhancement significantly improved the processor's ability to execute instructions simultaneously, leading to higher performance in tasks that could be parallelized. Since the Pentium processor, subsequent generations of Intel processors have continued to increase the number of execution units, including ALUs, to further enhance performance and efficiency.
-"
 _

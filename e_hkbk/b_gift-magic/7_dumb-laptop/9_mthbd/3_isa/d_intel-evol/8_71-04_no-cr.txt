@@ -1,0 +1,46 @@
+
+Intel 4004 :
+ . '71
+
+
+
+Had the following :
+ |
+ . clock
+ . PC/IP width : 12 bits 
+ . control logic (IR , stepper , decoder) 
+ . 16 general-purpose registers (R0-R15) :
+   . 4 bits 
+ . ALU : 4-bit
+ . MAR : 12 bits
+ . MDR : 4 bits 
+ |
+ . data bus width : 4 bits
+ . address bus width : 4 bits
+ . address width : 12 bits (past bus limits as an address can be multiplexed)
+ |
+ . "The Intel 4004 processor, despite having a 4-bit address width, was often used
+ |  in systems with bank-switching techniques that allowed it to access larger amounts
+ |  of memory. In practice, it could address up to 4 KB (4096 bytes) of memory."
+ |
+ => addressable memory range : 2^(12 bits) = 4K
+
+
+
+Lacked the following :
+ | 
+ . control registers
+ . controllers
+ . chipset
+ . BIU / segment registers 
+
+=========================================================================================================================================================
+
+"
+In the Intel 4004 microprocessor, control signals were not retained in dedicated control registers as in modern processors. Instead, the microinstructions stored in ROM were decoded and executed within the same clock cycle, effectively dispatching control signals to the various components of the CPU as needed.
+
+The microinstructions encoded in ROM determined the sequence of operations required to execute each machine instruction. These microinstructions controlled the ALU, memory access, and other functional units within the processor, orchestrating their operation to execute instructions.
+
+While the 4004 did not have the same level of complexity or architectural features as modern processors, its approach to control signal management was sufficient for its intended purpose and contributed to its role as one of the earliest microprocessors.
+"
+_

@@ -1,0 +1,14 @@
+
+ . clock
+ . PC/IP
+ . bus
+ . control logic (IR , stepper , decoder , CU (to reflect output of control logic) ) 
+ . general-purpose registers
+ . ALU
+ . MAR + MDR
+
+
+
+ . RAM 
+
+_

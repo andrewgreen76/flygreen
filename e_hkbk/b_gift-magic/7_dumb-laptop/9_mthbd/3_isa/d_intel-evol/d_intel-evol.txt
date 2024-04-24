@@ -62,7 +62,8 @@ Intel 80286 :
  . address bus width : 24 
  . address width : 24 
  . addressable memory range : 2^24 = 16M 
- . high-performance
+ . multiprocessing
+   => high-performance
  . more transistors
 
 
@@ -172,6 +173,13 @@ Intel Core 2 Quad :
 
 3rd-Gen Intel Core :
  . '12
- . a.k.a. IVY Bridge 
+ . a.k.a. IVY Bridge
+
+
+
+Intel Xeon Phi :
+ . '13
+ . HPC applications
+ . parallel processing workloads 
  
 _

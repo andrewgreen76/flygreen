@@ -1,17 +1,6 @@
 
 first controller in intel mpu 
 learn to use a debugger (with breakpoints) 
-lineage of Intel uarchs
- . Skylake 
- . Kaby Lake (MPU -and- uarch) 
- . Coffee Lake (MPU) 
- . Cannon Lake (MPU) 
- . Ice Lake (MPU -and- uarch)
-   . 10th-Gen
- . Tiger Lake
- . Alder Lake
- . Raptor Lake
- . Arrow Lake 
 numa / sub-numa / SNC - in UEFI too ? 
 what is the first thing a CPU microarchitect does 
 can a processor have multiples ALU's / sets of general-purpose registers 

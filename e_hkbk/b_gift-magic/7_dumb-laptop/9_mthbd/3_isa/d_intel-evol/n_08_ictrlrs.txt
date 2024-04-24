@@ -1,0 +1,8 @@
+"
+The first Intel microprocessor (MPU) to feature an integrated memory controller was the Intel Core i7, based on the Nehalem microarchitecture, introduced in November 2008.
+
+Before Nehalem, memory controllers were typically located on the chipset rather than integrated directly into the CPU. However, with Nehalem, Intel introduced an integrated memory controller, which improved memory access latency and bandwidth by allowing the processor to communicate directly with system memory without going through the chipset.
+
+The integrated memory controller was a significant architectural change that contributed to improved performance and efficiency in Intel's processor lineup. It has since become a standard feature in modern x86 processors.
+"
+_

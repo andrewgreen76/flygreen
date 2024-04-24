@@ -2,6 +2,7 @@
 Intel 4004 :
  |
  . '71
+ . PC width : 12 bits  
  . data bus width : 4 bits
  . address bus width : 4 bits
  . address width : 12 bits (past bus limits as an address can be multiplexed)
@@ -93,7 +94,7 @@ Intel i860 :
 
 
 
-Intel Pentium I :
+Intel Pentium I (i586) :
  . '93
 
 

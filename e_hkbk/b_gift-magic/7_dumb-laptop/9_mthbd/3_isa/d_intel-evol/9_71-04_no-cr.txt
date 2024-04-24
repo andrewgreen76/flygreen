@@ -1,0 +1,8 @@
+"
+In the Intel 4004 microprocessor, control signals were not retained in dedicated control registers as in modern processors. Instead, the microinstructions stored in ROM were decoded and executed within the same clock cycle, effectively dispatching control signals to the various components of the CPU as needed.
+
+The microinstructions encoded in ROM determined the sequence of operations required to execute each machine instruction. These microinstructions controlled the ALU, memory access, and other functional units within the processor, orchestrating their operation to execute instructions.
+
+While the 4004 did not have the same level of complexity or architectural features as modern processors, its approach to control signal management was sufficient for its intended purpose and contributed to its role as one of the earliest microprocessors.
+"
+_

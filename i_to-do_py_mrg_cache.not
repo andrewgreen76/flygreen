@@ -1,4 +1,7 @@
 
+x86 MPU : 
+ . mult cores. 1 core : 
+   . EUs 
 mult ALUs / mult gen-regs 
 i7 
 first controller in intel mpu 

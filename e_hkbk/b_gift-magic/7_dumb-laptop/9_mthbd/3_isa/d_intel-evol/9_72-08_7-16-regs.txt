@@ -7,7 +7,7 @@ Intel 8008 :
 Had the following :
  |
  . clock
- . PC/IP width : 8 bits 
+ . PC/IP width : 8-bit
  . control logic (IR , stepper , decoder) 
  . general-purpose registers :
    . 7 of them (B, C, D, E, H, L, Accumulator (A) ) 
@@ -15,12 +15,12 @@ Had the following :
    . did not feature register pairs like the BC, DE, and HL pairs found in the 8085 ; it had a set of single registers
    => treated individually
  . ALU : 8-bit
- . MAR : 12 bits
- . MDR : 4 bits 
+ . MAR : 12-bit
+ . MDR : 8-bit 
  |
- . data bus width : 8 bits
- . address bus width : 8 bits
- . address width : 14 bits
+ . data bus width : 8-bit
+ . address bus width : 8-bit
+ . address width : 14-bit
  |
  . "Despite having an 8-bit address width, the Intel 8008 processor could address
  |  up to 16 KB (16384 bytes) of memory through various memory management techniques

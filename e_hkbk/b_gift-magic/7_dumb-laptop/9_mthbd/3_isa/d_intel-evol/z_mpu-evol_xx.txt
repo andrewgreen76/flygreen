@@ -1,13 +1,4 @@
 
-Intel 8080 :
- . '74
- . data bus width : 8
- . address bus width : 16
- . address width : 16
- . addressable memory range : 2^16 = 64K 
-
-
-
 Intel 8086 :
  . '78
  . data bus width : 16 

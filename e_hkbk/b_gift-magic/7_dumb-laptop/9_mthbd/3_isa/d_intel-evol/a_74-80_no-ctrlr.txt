@@ -1,3 +1,38 @@
+
+Intel 8080 :
+ . '74
+
+
+
+Had the following :
+ |
+ . clock
+ . PC/IP width : 8-bit
+ . control logic (IR , stepper , decoder) 
+ . general-purpose registers :
+   . 7 of them (B, C, D, E, H, L, Accumulator (A) ) 
+   . 8-bit 
+   . did not feature register pairs like the BC, DE, and HL pairs found in the 8085 ; it had a set of single registers
+   => treated individually
+ . ALU : 8-bit
+ . MAR : 12-bit
+ . MDR : 8-bit 
+ |
+ . data bus width : 8-bit
+ . address bus width : 16-bit
+ . address width : 16-bit
+ => addressable memory range : 2^16 = 64K 
+
+
+
+Lacked the following :
+ | 
+ . control registers
+ . controllers
+ . chipset
+ . BIU / segment registers 
+
+=========================================================================================================================================================
 "
 The Intel 8080 microprocessor, introduced in 1974, did not require the same level of external support chips as the later Intel 8086 and subsequent processors. The architecture of the 8080 was simpler, and it was designed to be used in a wide variety of applications, including embedded systems and early microcomputers.
 

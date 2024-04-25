@@ -21,7 +21,9 @@ Had the following :
  . data bus width : 8-bit
  . address bus width : 16-bit
  . address width : 16-bit
- => addressable memory range : 2^16 = 64K 
+ => addressable memory range : 2^16 = 64K
+ |
+ . LDA and STA instructions 
 
 
 

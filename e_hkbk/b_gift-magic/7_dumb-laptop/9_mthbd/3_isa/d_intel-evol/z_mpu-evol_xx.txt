@@ -1,13 +1,4 @@
 
-Intel 8086 :
- . '78
- . data bus width : 16 
- . address bus width : 20 
- . address width : 20
- . addressable memory range : 2^20 = 1M 
-
-
-
 Intel 8088 :
  . '79
  . data bus width : 8

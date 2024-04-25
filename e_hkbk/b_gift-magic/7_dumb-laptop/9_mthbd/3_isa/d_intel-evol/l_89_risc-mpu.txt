@@ -1,4 +1,0 @@
-"
-Yes, the Intel i860, also known as the Intel 80860, was a microprocessor introduced by Intel in 1989. It was a RISC-based microprocessor designed for high-performance computing tasks, including graphics processing and scientific applications. The i860 featured a superscalar architecture with multiple execution units, including integer units, floating-point units, and graphics units. It was notable for its innovative architecture and performance capabilities, although it did not achieve widespread adoption outside of certain specialized markets.
-"
-_

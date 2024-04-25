@@ -1,0 +1,24 @@
+"
+... the Intel i860, also known as the Intel 80860, was a microprocessor introduced by Intel in 1989. It was a RISC-based microprocessor designed for high-performance computing tasks, including graphics processing and scientific applications. The i860 featured a superscalar architecture with multiple execution units, including integer units, floating-point units, and graphics units. It was notable for its innovative architecture and performance capabilities, although it did not achieve widespread adoption outside of certain specialized markets.
+"
+
+
+
+"
+The ISA (Instruction Set Architecture) on the Intel i860 processor, also known as the Intel 860XP or Intel 860XR, is a Reduced Instruction Set Computer (RISC) architecture. The i860 was introduced by Intel in 1989 and was designed for high-performance computing applications, including graphics processing, scientific computing, and digital signal processing.
+
+The ISA of the i860 is characterized by its RISC principles, which emphasize a simplified instruction set with a focus on efficiency and performance. Some key features of the i860 ISA include:
+
+1. **Load-Store Architecture:** Like most RISC architectures, the i860 follows a load-store model, where instructions operate only on data stored in registers. Memory access is performed through explicit load and store instructions.
+
+2. **Fixed-Length Instructions:** Instructions in the i860 ISA are fixed-length, typically 32 bits long, which simplifies instruction decoding and execution.
+
+3. **Parallelism:** The i860 architecture supports instruction-level parallelism (ILP) through features such as superscalar execution and multiple functional units. It can execute multiple instructions simultaneously, enabling high throughput and performance.
+
+4. **Vector Processing:** The i860 includes vector processing capabilities, allowing it to perform operations on vectors of data in a single instruction. This feature is particularly useful for multimedia and scientific computing applications.
+
+5. **Fused Multiply-Add (FMA) Instructions:** The i860 introduced fused multiply-add instructions, which perform both multiplication and addition operations in a single instruction, improving efficiency and performance for certain numerical computations.
+
+Overall, the ISA of the i860 reflects its design goals of delivering high performance, especially for computationally intensive tasks like graphics rendering and scientific simulation. While the i860 architecture was not as commercially successful as some of Intel's other processor families, it contributed to the advancement of parallel computing and influenced subsequent generations of processors.
+"
+_

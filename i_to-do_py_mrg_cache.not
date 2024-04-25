@@ -1,5 +1,6 @@
 
-first controller in intel mpu 
+NP-hard , Turing complete , NP-complete 
+changes / graduations from MPU to MPU 
 learn to use a debugger (with breakpoints) 
 numa / sub-numa / SNC - in UEFI too ? 
 what is the first thing a CPU microarchitect does 
@@ -62,6 +63,7 @@ Bursar's office
 =======================================================================================
 =======================================================================================
 
+general-purpose , recent , educational , fun 
 profile the LCD pipeline 
 STM32 board -> firmware for printing characters 
 

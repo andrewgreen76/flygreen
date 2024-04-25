@@ -9,9 +9,10 @@ Had the following :
  . clock
  . PC/IP width : 8-bit
  . control logic (IR , stepper , decoder) 
- . paired general-purpose registers :
-   . B with C, D with E, and H with L, plus Accumulator (A) 
-   . 8-bit 
+ . general-purpose registers :
+   . all 8-bit 
+   . paired ones : B with C, D with E, and H with L 
+   . Accumulator (A) 
  . ALU : 8-bit
  . MAR : 12-bit
  . MDR : 8-bit 

@@ -9,9 +9,11 @@ Had the following :
  . clock
  . PC/IP width : 8 bits 
  . control logic (IR , stepper , decoder) 
- . 7 general-purpose registers (R0-R15) :
-   . 8 bits
-   . B , C , D , E , H , L , A 
+ . general-purpose registers :
+   . 7 of them (B, C, D, E, H, L, Accumulator (A) ) 
+   . 8-bit 
+   . did not feature register pairs like the BC, DE, and HL pairs found in the 8085 ; it had a set of single registers
+   => treated individually
  . ALU : 8-bit
  . MAR : 12 bits
  . MDR : 4 bits 
@@ -20,9 +22,9 @@ Had the following :
  . address bus width : 8 bits
  . address width : 14 bits
  |
- . "Apologies for the oversight. Despite having an 8-bit address width, the Intel 8008
- |  processor could address up to 16 KB (16384 bytes) of memory through various memory
- |  management techniques such as bank switching."
+ . "Despite having an 8-bit address width, the Intel 8008 processor could address
+ |  up to 16 KB (16384 bytes) of memory through various memory management techniques
+ |  such as bank switching."
  |
  => addressable memory range : 2^14 = 16K (banking / multiplexing) 
 

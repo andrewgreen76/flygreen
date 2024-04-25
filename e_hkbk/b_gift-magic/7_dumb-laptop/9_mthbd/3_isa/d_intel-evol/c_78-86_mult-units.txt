@@ -1,8 +1,1 @@
-"
-The Intel 8080 microprocessor featured a single Arithmetic Logic Unit (ALU), which was responsible for performing arithmetic and logical operations on data.
-
-On the other hand, the Intel 8086 microprocessor, introduced in 1978, did not have multiple ALUs in the same sense as modern multi-core processors. Instead, the 8086 had a single ALU that operated on 16-bit data. However, the 8086 had additional execution units such as a dedicated segment arithmetic unit, which performed segment-related arithmetic operations, and a shift/rotate unit for bit manipulation operations.
-
-While the 8086 didn't have multiple ALUs for parallel processing, its architecture included multiple execution units to handle different types of instructions, improving overall performance and efficiency compared to earlier processors like the 8080.
-"
 _

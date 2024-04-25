@@ -1,3 +1,8 @@
+
+========================================================================================
+CONTROLLERS , FINALLY !  
+========================================================================================
+
 "
 The Intel 8086, introduced in 1978, was the first Intel microprocessor to feature external controllers on the chipset. However, it's essential to note that the term "chipset" as it's understood today didn't exist in the same form back then.
 
@@ -6,7 +11,9 @@ The 8086 processor was typically paired with supporting chips that handled vario
 These external controllers on the motherboard constituted an early form of chipset, although the concept wasn't as sophisticated or integrated as modern chipsets found in later processors. Nonetheless, the 8086 was the first Intel microprocessor to require external controllers on the motherboard to handle various system functions.
 "
 
-
+========================================================================================
+LIST OF CONTROLLERS :  
+========================================================================================
 
 "
 The Intel 8086 microprocessor was typically accompanied by several supporting chips on the motherboard, each serving specific roles or functions. These supporting chips were not integrated onto the same die as the processor but were separate components on the motherboard. Here are some of the key supporting chips often found alongside the Intel 8086:
@@ -28,5 +35,17 @@ The Intel 8086 microprocessor was typically accompanied by several supporting ch
 8. Support Chips: Various other support chips may have been used for tasks such as voltage regulation, power management, or interfacing with expansion slots.
 
 These are some of the common supporting chips that would have accompanied the Intel 8086 microprocessor on a typical motherboard. The specific configuration could vary depending on the system requirements and motherboard design.
+"
+
+========================================================================================
+MULTIPLE UNITS : EXECUTION , ARITHMETIC , SHIFT/ROTATE 
+========================================================================================
+
+"
+The Intel 8080 microprocessor featured a single Arithmetic Logic Unit (ALU), which was responsible for performing arithmetic and logical operations on data.
+
+On the other hand, the Intel 8086 microprocessor, introduced in 1978, did not have multiple ALUs in the same sense as modern multi-core processors. Instead, the 8086 had a single ALU that operated on 16-bit data. However, the 8086 had additional execution units such as a dedicated segment arithmetic unit, which performed segment-related arithmetic operations, and a shift/rotate unit for bit manipulation operations.
+
+While the 8086 didn't have multiple ALUs for parallel processing, its architecture included multiple execution units to handle different types of instructions, improving overall performance and efficiency compared to earlier processors like the 8080.
 "
 _

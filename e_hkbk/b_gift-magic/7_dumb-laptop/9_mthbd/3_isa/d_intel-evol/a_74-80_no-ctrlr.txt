@@ -33,6 +33,7 @@ Lacked the following :
  . BIU / segment registers 
 
 =========================================================================================================================================================
+
 "
 The Intel 8080 microprocessor, introduced in 1974, did not require the same level of external support chips as the later Intel 8086 and subsequent processors. The architecture of the 8080 was simpler, and it was designed to be used in a wide variety of applications, including embedded systems and early microcomputers.
 

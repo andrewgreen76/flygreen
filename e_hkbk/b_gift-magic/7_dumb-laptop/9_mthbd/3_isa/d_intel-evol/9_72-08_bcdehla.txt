@@ -37,6 +37,13 @@ Lacked the following :
  . chipset
  . BIU / segment registers 
 
-=========================================================================================================================================================
 
+
+=====================================================================================
+[MAR] vs. [H+L] 
+=====================================================================================
+
+"
+The Memory Address Register (MAR) is dedicated solely to holding memory addresses, providing a dedicated location for storing memory addresses during memory read or write operations, complementing the H and L registers which were general-purpose registers that could be used for various tasks beyond memory addressing.
+"
 _

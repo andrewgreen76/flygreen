@@ -1,4 +1,0 @@
-"
-The Address Generation Unit (AGU) was introduced in the Intel 80286 microprocessor, which was released in 1982. The AGU played a crucial role in performing memory address calculations, enabling more advanced memory management capabilities compared to earlier processors.
-"
-_

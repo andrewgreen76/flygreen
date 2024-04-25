@@ -1,4 +1,7 @@
 
+load / store unit
+superscalar : multiple ALUs ? 
+refresh counter 
 NP-hard , Turing complete , NP-complete 
 changes / graduations from MPU to MPU 
 learn to use a debugger (with breakpoints) 
@@ -25,6 +28,7 @@ PI (platform init)
 check on UMN , TAMU 
 transistors
 read init-dets.txt
+branch prediction
 
 CPUs 
 memory - Micron 

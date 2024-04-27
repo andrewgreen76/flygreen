@@ -1,5 +1,6 @@
 
-is single-ended signaling used in making CPUs 
+at what point does BIOS come into BPIDCPU (Incr. Dev.)
+ . once all the hardware (to be init'd) is finished 
 load / store unit
 superscalar : multiple ALUs ? 
 refresh counter 

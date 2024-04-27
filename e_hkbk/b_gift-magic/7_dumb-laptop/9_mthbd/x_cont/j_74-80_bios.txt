@@ -1,0 +1,5 @@
+
+at what point does BIOS come into BPIDCPU (Incr. Dev.)
+ . once all the hardware (to be init'd) is finished 
+
+_

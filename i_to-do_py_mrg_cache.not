@@ -1,8 +1,4 @@
 
-first to have APIC
-first to have Intel 8259 
-at what point does BIOS come into BPIDCPU (Incr. Dev.)
- . once all the hardware (to be init'd) is finished 
 load / store unit
 superscalar : multiple ALUs ? 
 refresh counter 

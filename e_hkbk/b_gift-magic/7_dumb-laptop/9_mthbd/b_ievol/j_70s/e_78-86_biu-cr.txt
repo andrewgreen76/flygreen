@@ -24,7 +24,9 @@ Has the following :
  => addressable memory range : 2^20 = 1M
  |
  . load-store unit 
- . controllers
+ . controllers :
+   . DMA
+   . PIC (interrupts) 
  . register file 
 
 

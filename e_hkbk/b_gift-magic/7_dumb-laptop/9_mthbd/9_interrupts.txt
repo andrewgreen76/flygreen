@@ -7,4 +7,26 @@ In the context of modern electronic digital computers, the Manchester Baby, or S
 
 Ultimately, the concept of interrupts evolved over time alongside advancements in computing technology, with early examples found in various forms across different computing devices and systems. It's important to recognize that the specific implementation and terminology of interrupts have evolved considerably since their earliest manifestations.
 "
+
+
+
+"
+Here are a few key dates in the development of interrupts for computers:
+
+1. **1950s:** Early computers, such as the UNIVAC I and IBM 701, used basic interrupt mechanisms to handle external events, such as input/output operations and hardware errors.
+
+2. **1960s:** The concept of vectored interrupts, where the interrupting device provides additional information to the CPU about the type of interrupt, begins to emerge.
+
+3. **[...] 1960s:** IBM System/360 mainframe computers introduce a sophisticated interrupt handling mechanism, including prioritized interrupts and multiple interrupt levels.
+
+4. **1970s:** Microprocessor-based systems, such as the Intel 4004 and 8008, feature interrupt capabilities to handle external events and prioritize tasks.
+
+5. **1980s:** The development of standardized interrupt controllers, such as the Intel 8259 Programmable Interrupt Controller (PIC), simplifies interrupt handling in personal computers.
+
+6. **1990s:** Advanced interrupt handling features, such as nested interrupts and advanced programmable interrupt controllers (APICs), become commonplace in modern computer architectures.
+
+7. **2000s-Present:** Interrupt handling continues to evolve with advancements in multi-core processors, virtualization, and real-time operating systems, requiring more sophisticated interrupt handling mechanisms to manage concurrent tasks efficiently.
+
+These dates highlight key milestones in the development of interrupt mechanisms for computers, from the early days of mainframe computing to modern multi-core processor architectures.
+"
 _

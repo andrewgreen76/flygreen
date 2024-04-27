@@ -41,6 +41,10 @@ The "stored program" model.
 
 DIY project : building my own dumb laptop / motherboard
  |
+ . 8086 innovations :
+   . load-store unit
+   . controllers
+   . register file 
  . history of Intel MPUs , MPU families , microarchitectures 
  . hardware/CPU initialization (vanilla) routine - details 
  . all x86 registers 

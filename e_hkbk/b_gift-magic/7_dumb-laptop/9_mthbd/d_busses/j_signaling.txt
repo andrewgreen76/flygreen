@@ -1,0 +1,28 @@
+========================================================================================
+SINGLE-ENDED SIGNALING : 
+========================================================================================
+
+"
+Single-ended signaling refers to a method of transmitting electrical signals where the information is carried on a single wire with reference to a common ground, often used in simpler or shorter-range communication systems.
+"
+
+========================================================================================
+DIFFERENTIAL SIGNALING : 
+========================================================================================
+
+"
+... differential signaling ... improves noise immunity and allows for higher data transfer rates over longer distances compared to single-ended signaling.
+"
+
+========================================================================================
+TRANSITION-MINIMIZED DIFFERENTIAL SIGNALING : 
+========================================================================================
+
+"
+TMDS stands for Transition Minimized Differential Signaling. It is a technology used in digital video interfaces, particularly in DVI (Digital Visual Interface) and HDMI (High-Definition Multimedia Interface) connections. TMDS is employed to transmit high-speed digital video data from a source device, such as a computer or DVD player, to a display device, such as a monitor or television.
+
+TMDS works by encoding digital video data into a serial stream of differential signals, which are then transmitted over a cable. The transition minimized aspect of TMDS refers to the encoding method used to minimize electromagnetic interference (EMI) and signal degradation during transmission. By minimizing the number of signal transitions, TMDS helps to ensure reliable and high-quality transmission of digital video data over longer distances.
+
+In HDMI and DVI connections, TMDS is used to transmit video data along with other essential information, such as audio, control signals, and display information. It plays a crucial role in enabling high-resolution and high-quality digital video output in modern multimedia systems.
+"
+_

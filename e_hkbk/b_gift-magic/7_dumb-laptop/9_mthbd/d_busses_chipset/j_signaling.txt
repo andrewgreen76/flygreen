@@ -1,9 +1,0 @@
-"
-Single-ended signaling refers to a method of transmitting electrical signals where the information is carried on a single wire with reference to a common ground, often used in simpler or shorter-range communication systems.
-"
-
-
-"
-... differential signaling ... improves noise immunity and allows for higher data transfer rates over longer distances compared to single-ended signaling.
-"
-_

@@ -1,0 +1,36 @@
+
+Intel 8086 :
+ . '78
+
+
+
+Has the following :
+ |
+ . clock
+ . PC/IP width : 16-bit
+ . control logic (IR , stepper , decoder , control registers) 
+ . general-purpose registers :
+   . all 16-bit 
+   . paired ones : B with C, D with E, and H with L
+   . Accumulator (A) 
+ . ALU : 16-bit
+ . BIU / segment registers 
+ . MAR : 20-bit
+ . MDR : 16-bit 
+ |
+ . data bus width : 16 
+ . address bus width : 20 
+ . address width : 20
+ => addressable memory range : 2^20 = 1M
+ |
+ . load-store unit 
+ . controllers
+ . register file 
+
+
+
+Lacks the following :
+ | 
+ . a chipset
+
+_

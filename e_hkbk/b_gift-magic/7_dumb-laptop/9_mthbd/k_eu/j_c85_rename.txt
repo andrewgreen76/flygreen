@@ -1,8 +1,7 @@
 
- . 1990 - in IBM POWER1 ISA
- . 1995 - in Intel Pentium Pro 
-
-=======================================================================================================================================================
+===========================================================================
+REGISTER RENAMING (mid-80s) : 
+===========================================================================
 
 "
 Register renaming is a technique used in modern processors to improve performance by eliminating data hazards in the pipeline. It allows the processor to map logical registers (architectural registers) to physical registers dynamically, which helps in overlapping and out-of-order execution of instructions. 
@@ -13,4 +12,10 @@ The Register Renaming Logic ensures that instructions can execute independently 
 
 Register renaming as a technique for improving processor performance was developed and first implemented in commercial microprocessors in the mid-1980s. One of the earliest implementations was in the IBM POWER1 architecture, which introduced register renaming to support out-of-order execution in 1990. Subsequently, other processor architectures, such as the Intel Pentium Pro (introduced in 1995), also adopted register renaming to enhance instruction-level parallelism and overall performance.
 "
+
+======================================================================================================================================================
+
+ . 1990 - in IBM POWER1 ISA
+ . 1995 - in Intel Pentium Pro 
+
 _

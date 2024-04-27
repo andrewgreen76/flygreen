@@ -1,0 +1,4 @@
+"
+The DMA (Direct Memory Access) controller accompanying the Intel 8086 microprocessor was commonly referred to as the "8237 DMA controller." This DMA controller was part of the Intel 8237 DMA Controller family, which also included variants like the 8237A and 8237B. These DMA controllers were designed to offload data transfer tasks from the CPU by directly accessing system memory, improving overall system performance for tasks such as data transfer between peripherals and memory.
+"
+_

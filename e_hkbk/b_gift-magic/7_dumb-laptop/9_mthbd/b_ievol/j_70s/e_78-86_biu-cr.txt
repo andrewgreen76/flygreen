@@ -6,7 +6,7 @@ Intel 8086 :
 
 Has the following :
  |
- . clock
+ . clock (Intel 8284) 
  . PC/IP width : 16-bit
  . control logic (IR , stepper , decoder , control registers) 
  . general-purpose registers :
@@ -25,8 +25,9 @@ Has the following :
  |
  . load-store unit 
  . controllers :
-   . DMA
-   . PIC (interrupts) 
+   . DMA : Intel 8237A and Intel 8237B 
+   . PIC (interrupts) : Intel 8259
+   . bus controller : Intel 8288 
  . register file 
 
 

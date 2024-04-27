@@ -43,7 +43,8 @@ DIY project : building my own dumb laptop / motherboard
  |
  . 8086 innovations :
    . load-store unit
-   . controllers
+   . bus interface unit 
+   . controllers (DMA , PIC , etc.) 
    . register file 
  . history of Intel MPUs , MPU families , microarchitectures 
  . hardware/CPU initialization (vanilla) routine - details 

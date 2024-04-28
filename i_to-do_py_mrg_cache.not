@@ -1,4 +1,7 @@
 
+cpu-evol file/dets --to-> decades/cpu-files  
+mpu
+mmu
 load / store unit
 superscalar : multiple ALUs ? 
 refresh counter 

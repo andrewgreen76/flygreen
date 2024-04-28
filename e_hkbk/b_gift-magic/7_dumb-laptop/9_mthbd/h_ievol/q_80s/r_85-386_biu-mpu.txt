@@ -1,0 +1,12 @@
+"
+A Memory Protection Unit (MPU) is a hardware component within a computer's CPU or chipset responsible for enforcing memory protection mechanisms. Memory protection is a feature of modern operating systems that isolates memory accesses between different processes and prevents unauthorized access to memory regions. The MPU facilitates this by controlling access permissions for memory pages or segments, such as read, write, and execute permissions, and by enforcing memory access boundaries.
+
+The MPU works in conjunction with the Memory Management Unit (MMU) to translate virtual addresses used by software into physical addresses in memory, and to enforce access control policies specified by the operating system. By enforcing memory protection, the MPU helps to improve system stability, security, and reliability by preventing processes from inadvertently accessing or modifying each other's memory.
+"
+
+
+
+"
+A memory protection unit (MPU), is a computer hardware unit that provides memory protection. It is usually implemented as part of the central processing unit (CPU). MPU is a trimmed down version of memory management unit (MMU) providing only memory protection support.
+"
+_

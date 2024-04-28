@@ -1,4 +1,10 @@
 "
+The first microprocessor, the Intel 4004, had no interrupt capability. Its successor, the 8008, had interrupts, but with the shallow call stack and the need to reserve scarce registers to do any sort of context save, they were nearly unusable.
+"
+
+
+
+"
 The Intel 8008 microprocessor indeed introduced support for interrupts, enabling external devices to signal the CPU for immediate attention during its operation. This feature allowed the 8008 to handle asynchronous events and prioritize tasks efficiently, making it suitable for a broader range of applications beyond simple sequential processing.
 "
 _

@@ -5,9 +5,9 @@ CLOCKING SCHEMES IN MODERN (INTEL) PROCESSORS :
 
 "
 The Intel 4004 microprocessor, introduced in 1971, was the first microprocessor produced by Intel and is considered the first commercially available CPU. The Intel 4004 operated on a two-phase clock, making it the first Intel CPU to feature this type of clocking scheme. The two-phase clocking approach helped synchronize the internal operations of the CPU and ensure proper timing of instructions and data transfers.
-"
 
-"
+The last Intel CPU to prominently feature a two-phase clocking scheme was the Intel 80286 microprocessor, which was introduced in 1982. Subsequent Intel processors, starting with the 80386 and beyond, adopted more advanced clocking schemes as processor architectures evolved.
+
 Modern Intel processors use various clocking schemes and techniques to optimize performance, power efficiency, and reliability. Some of the key clocking schemes and techniques used in modern Intel processors include:
 
 1. **Dynamic Frequency Scaling (DFS)**: Intel processors feature dynamic frequency scaling, where the CPU's clock speed can be dynamically adjusted based on workload demands. This allows the CPU to operate at higher frequencies when needed for demanding tasks and reduce frequencies during idle or low-power scenarios to save power.

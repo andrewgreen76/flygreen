@@ -1,0 +1,36 @@
+========================================================================================
+CLOCK PHASES , TWO-PHASE CLOCK ON A 6502 CPU : 
+========================================================================================
+
+"
+In the context of the 6502 microprocessor, PHI2 (often written as φ2) refers to the second phase of the clock signal in the processor's timing. The 6502 operates on a two-phase clock, where each phase of the clock signal (φ1 and φ2) drives different parts of the processor's internal logic.
+
+During the φ2 phase of the clock, various operations such as instruction decoding, data transfer, and execution take place within the CPU. The φ2 phase typically follows the φ1 phase and helps to synchronize the internal operations of the processor. This two-phase clocking scheme is common in many microprocessors and helps to ensure proper timing and synchronization of the CPU's operations.
+"
+
+========================================================================================
+CLOCKING SCHEMES IN MODERN (INTEL) PROCESSORS : 
+========================================================================================
+
+"
+The Intel 4004 microprocessor, introduced in 1971, was the first microprocessor produced by Intel and is considered the first commercially available CPU. The Intel 4004 operated on a two-phase clock, making it the first Intel CPU to feature this type of clocking scheme. The two-phase clocking approach helped synchronize the internal operations of the CPU and ensure proper timing of instructions and data transfers.
+"
+
+"
+Modern Intel processors use various clocking schemes and techniques to optimize performance, power efficiency, and reliability. Some of the key clocking schemes and techniques used in modern Intel processors include:
+
+1. **Dynamic Frequency Scaling (DFS)**: Intel processors feature dynamic frequency scaling, where the CPU's clock speed can be dynamically adjusted based on workload demands. This allows the CPU to operate at higher frequencies when needed for demanding tasks and reduce frequencies during idle or low-power scenarios to save power.
+
+2. **Turbo Boost**: Intel Turbo Boost is a feature that allows the CPU to temporarily increase its clock speed beyond its base frequency when additional performance is required. This feature dynamically adjusts the clock speed based on factors such as workload, temperature, and power consumption.
+
+3. **Clock Gating**: Clock gating is a power-saving technique used to disable the clock signal to specific logic blocks or functional units within the CPU when they are not in use. This helps reduce power consumption by preventing unnecessary clock cycles in idle or low-activity areas of the processor.
+
+4. **Multiple Clock Domains**: Modern Intel processors often use multiple clock domains to independently control the timing of different functional blocks or subsystems within the CPU. This allows for more fine-grained control over clocking and helps optimize performance and power consumption.
+
+5. **Clock Mesh**: Some Intel processors feature a clock mesh architecture, where clock signals are distributed across the chip using a mesh network topology. This helps reduce clock skew and improve clock distribution efficiency, particularly in large multicore processors.
+
+6. **Clock Synchronization and Skew Management**: Intel processors employ sophisticated clock synchronization techniques to ensure that clock signals are properly synchronized across different parts of the chip. Clock skew management techniques help minimize timing discrepancies between different clock domains and ensure reliable operation.
+
+These are just a few examples of the clocking schemes and techniques used in modern Intel processors. Overall, Intel continually innovates in the area of clocking to improve performance, power efficiency, and reliability in their CPU designs.
+"
+_

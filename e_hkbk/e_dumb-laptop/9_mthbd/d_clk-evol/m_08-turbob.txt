@@ -1,0 +1,4 @@
+"
+Turbo Boost was first employed as a clocking scheme on motherboards with the introduction of Intel's Nehalem microarchitecture, which debuted in desktop processors with the Intel Core i7- Nehalem processor series in 2008.
+"
+_

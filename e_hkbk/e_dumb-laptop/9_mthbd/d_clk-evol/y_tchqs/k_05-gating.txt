@@ -1,0 +1,4 @@
+"
+Clock gating was introduced as a power-saving technique in clocking on motherboards with the advent of modern microarchitectures, becoming prevalent in Intel processors around the mid-2000s with architectures like Intel Core.
+"
+_

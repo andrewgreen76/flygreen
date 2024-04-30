@@ -1,4 +1,14 @@
 "
+Dynamic Frequency Scaling (DFS), also known as dynamic voltage and frequency scaling (DVFS), is a technique used in processors to adjust their operating frequency and voltage dynamically based on the workload and system conditions. While it involves changes to the CPU's clock frequency, it is not a standalone clocking scheme like a single-phase or two-phase clock.
+
+Instead, DFS is a power-saving mechanism that allows the CPU to operate at lower frequencies and voltages during periods of low activity or low demand, conserving energy and reducing heat generation. Conversely, it can increase the frequency and voltage when more processing power is needed to handle heavier workloads.
+
+While DFS affects the CPU's clock frequency, it operates independently of traditional clocking schemes and is primarily focused on optimizing power efficiency and performance dynamically. Therefore, it is more accurately described as a power management technique rather than a specific clocking scheme.
+"
+
+
+
+"
 Dynamic Frequency Scaling (DFS) was first employed as a clocking scheme on motherboards with the introduction of Intel's SpeedStep technology, which debuted in mobile processors with the Pentium III-M (Tualatin) in 2001.
 "
 _

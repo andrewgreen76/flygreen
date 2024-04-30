@@ -41,6 +41,7 @@ The "stored program" model.
 
 DIY project : building my own dumb laptop / motherboard
  |
+ . clocking schemes and techniques in Intel microprocessors 
  . 8086 innovations :
    . load-store unit
    . bus interface unit 

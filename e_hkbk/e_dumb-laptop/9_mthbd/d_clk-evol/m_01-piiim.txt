@@ -1,0 +1,4 @@
+"
+Dynamic Frequency Scaling (DFS) was first employed as a clocking scheme on motherboards with the introduction of Intel's SpeedStep technology, which debuted in mobile processors with the Pentium III-M (Tualatin) in 2001.
+"
+_

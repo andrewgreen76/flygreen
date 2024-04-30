@@ -1,0 +1,10 @@
+"
+... "mobile processor" [is] a processor designed specifically for use in mobile devices such as laptops, notebooks, and tablets. These processors are typically optimized for power efficiency and thermal performance, allowing them to operate within the constraints of smaller form factors and battery-powered devices. Examples of mobile processors include those used in Intel's line of mobile CPUs, such as the Pentium M, Core i series (e.g., Core i5, Core i7), and more recent iterations like Intel's Core and Atom processors designed for tablets and ultrabooks.
+"
+
+
+
+"
+The first Intel mobile processor, designed specifically for laptops and other mobile devices, was the Intel Pentium Processor with MMX Technology (P55C) for mobile, also known as the Intel Pentium MMX for Mobile. It was introduced in 1997.
+"
+_

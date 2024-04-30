@@ -16,10 +16,4 @@ During the φ2 phase of the clock, various operations such as instruction decodi
 
 φ2 (Phi 2): This is the second phase of the clock signal. During φ2, additional operations such as instruction decoding, execution, and memory access may take place. φ2 follows φ1 in the clock cycle and helps to synchronize and coordinate the internal operations of the processor.
 "
-
-
-
-"
-φ1 and φ2 represent specific phases within the clock cycle that are driven by the rising and falling edges of the clock pulse. These phases help to synchronize and coordinate the internal operations of the microprocessor, ensuring proper timing and execution of instructions.
-"
 _

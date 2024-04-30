@@ -1,9 +1,0 @@
-
-========================================================================================
-CLOCKING SCHEMES IN INTEL PROCESSORS : 
-========================================================================================
-
-"
-[...] there is no record of an Intel CPU working with a two-phase clock generator. All Intel CPUs, from the earliest microprocessors to modern architectures, have utilized a single-phase clocking scheme."
-"
-_

@@ -1,5 +1,6 @@
 
-mobile processor 
+memory segmentation : mem protection and addressing in 8088
+
 
 
 
@@ -44,7 +45,6 @@ mobile processor
 The open-source Google Maps of VLSI design (down to micro- and nano-). 
 A game for making games
 pictures : of dies 
-memory segmentation : mem protection and addressing in 8088
 no MMU in 8088 
 von Neumann vs. load-store 
 cpu-evol file/dets --to-> decades/cpu-files  

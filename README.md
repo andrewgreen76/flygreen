@@ -1,6 +1,15 @@
 # Welcome to the experimental edutainment/multi-tutorial repository. 
 
 __________________________________________________________________________
+ANNOUNCEMENT :
+
+If somebody can create open-source software that's like the Google Maps
+of VLSI (designing chips) that'd be great.
+
+ . or I can do that myself
+ . a game for making games 
+__________________________________________________________________________
+__________________________________________________________________________
 The PURPOSE of this repo:
 __________________________________________________________________________
 

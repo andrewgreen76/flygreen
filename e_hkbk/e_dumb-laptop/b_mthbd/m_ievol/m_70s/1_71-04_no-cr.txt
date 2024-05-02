@@ -2,7 +2,8 @@
 INTEL 4004 - INCLUSIONS AND INNOVATIONS : 
 ========================================================================================
 
- . world's first microprocessor 
+ . world's first microprocessor
+ . 
 
 ========================================================================================
 INTEL 4004 - OVERVIEW : 
@@ -15,13 +16,14 @@ INTEL 4004 - OVERVIEW :
 Had the following :
  |
  . clock
- . PC/IP width : 12 bits 
+ . PC/IP width : 14 bits 
  . control logic (IR , stepper , decoder) 
  . 16 general-purpose registers (R0-R15) :
    . 4 bits 
  . ALU : 4-bit
  . MAR : 12 bits
- . MDR : 4 bits 
+ . MDR : 4 bits
+ . push-down address call stack 
  |
  . data bus width : 4 bits
  . address bus width : 4 bits

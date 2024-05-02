@@ -24,8 +24,7 @@ To help individuals, with or without a technical background, to:
       its history.
 - grow a portfolio; 
 - improve their productivity in general (combatting ADD, figuring out
-  alternatives to unhealthy solutions, etc.); 
-    
+  alternatives to unhealthy solutions, etc.);     
 __________________________________________________________________________
 The MANIFESTO is:
 __________________________________________________________________________

@@ -1,24 +1,4 @@
 
-Intel 80386 :
- . '85
- . data bus width : 32 
- . address bus width : 32 
- . address width : 32 
- . addressable memory range : 2^32 = 4G 
-
-
-
-Intel 80486 :
- . '89
- . integrated FPU
- . better performance compared to i386 
- . data bus width : 32 
- . address bus width : 32 
- . address width : 32 
- . addressable memory range : 2^32 = 4G
-
-
-
 Intel i860 :
  . '89
 

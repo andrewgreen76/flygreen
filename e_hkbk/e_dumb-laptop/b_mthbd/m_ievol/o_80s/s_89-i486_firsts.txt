@@ -1,3 +1,49 @@
+
+========================================================================================
+INTEL 80486 - INCLUSIONS AND INNOVATIONS : 
+========================================================================================
+
+ . integrated FPU
+ . better performance compared to i386 
+
+
+========================================================================================
+INTEL 80486 - OVERVIEW : 
+========================================================================================
+
+ . released in 1989
+
+
+
+Has the following :
+ |
+ . clock 
+ . PC/IP width : 32-bit
+ . control logic (IR , stepper , decoder , control registers) 
+ . general-purpose registers :
+   . all 32-bit 
+   . paired ones : B with C, D with E, and H with L
+   . Accumulator (A) 
+ . ALU : 32-bit
+ . BIU / segment registers 
+ . MAR : 32-bit
+ . MDR : 32-bit 
+ |
+ . data bus width : 32 
+ . address bus width : 32 
+ . address width : 32 
+ . addressable memory range : 2^32 = 4G
+ |
+ . load-store unit 
+ . controllers :
+   . DMA : 
+   . PIC (interrupts) 
+   . bus controller
+   . keyboard controller 
+ . register file 
+
+==========================================================================================================================================================
+
 "
 The Intel 80486 (i486) microprocessor introduced several notable advancements in the x86 architecture. Here are some of its "firsts":
 

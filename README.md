@@ -49,13 +49,16 @@ The "stored program" model.
 
 DIY project : building my own dumb laptop / motherboard
  |
+ . memory (wide) protection , protected mode , virtual memory support 
+ . paged memory 
  . clocking schemes and techniques in Intel microprocessors 
  . 8086 innovations :
    . load-store unit
    . bus interface unit 
    . controllers (DMA , PIC , etc.) 
    . register file 
- . history of Intel MPUs , MPU families , microarchitectures 
+ . history of Intel CPUs , CPU families , microarchitectures
+ . AMD CPUs in laptops 
  . hardware/CPU initialization (vanilla) routine - details 
  . all x86 registers 
  . the history of Motorola MPUs 

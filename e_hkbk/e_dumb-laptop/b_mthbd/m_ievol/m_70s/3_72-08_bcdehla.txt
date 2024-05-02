@@ -27,7 +27,7 @@ Had the following :
  . ALU : 8-bit
  . MAR : 12-bit
  . MDR : 8-bit
- . flags : P (parity) , Z (zero) , S (sign) 
+ . flags : C (carry) , P (parity) , Z (zero) , S (sign) 
  . 7-level push-down address call stack 
  |
  . data bus width : 8-bit

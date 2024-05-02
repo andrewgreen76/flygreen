@@ -1,0 +1,4 @@
+"
+The first integrated circuit (IC) created by Jack Kilby at Texas Instruments in 1958 was a simple device that contained several components, including resistors and capacitors, on a single piece of semiconductor material (germanium). This IC paved the way for the miniaturization of electronic components and revolutionized the field of electronics.
+"
+_

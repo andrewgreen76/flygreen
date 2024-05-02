@@ -17,4 +17,11 @@ The Intel 8008 microprocessor was capable of running various operating systems a
 
 These are just a few examples of the operating systems that could run on systems using the Intel 8008 microprocessor. The availability of operating systems varied depending on the specific hardware platform and the preferences of system manufacturers and users.
 "
+
+============================================================================================================================================================
+
+ . 1973 - RT-11 
+ . 1974 - CP/M
+ . 
+
 _

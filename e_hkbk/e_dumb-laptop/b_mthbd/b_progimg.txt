@@ -43,4 +43,12 @@ EARLY PROGRAM IMAGES - MEDIA , SYSTEMS , AND APPLICATIONS :
  . tools :        assembler , etc.
  . applications : industrial , scientific , early microcomputer systems 
 
+
+========================================================================================
+WHERE THERE'S AN OS , THERE'S STORAGE 
+========================================================================================
+
+"
+The Manchester Baby was capable of storing programs and data in the form of electrically charged mercury delay lines. These delay lines served as the primary form of memory for the machine, allowing it to store and retrieve data for processing. While the storage technology used by the Manchester Baby was primitive compared to modern storage devices, it represented a significant advancement in the field of computing and laid the foundation for the development of more sophisticated storage technologies in the years to come.
+"
 _

@@ -1,0 +1,57 @@
+
+========================================================================================
+INTEL 80286 - INCLUSIONS AND INNOVATIONS : 
+========================================================================================
+
+ . memory management
+ . protected mode
+ | . memory (wide) protection
+ | . multitasking
+ | . virtual memory support (up to 1 GB segmentation)
+ . MMU (on-die) 
+ |
+ . 24 bits for addressing 
+ . separate address and data buses 
+ |
+ . multiprocessing
+   => high-performance
+ . more transistors
+
+
+
+========================================================================================
+INTEL 80286 - OVERVIEW : 
+========================================================================================
+
+ . released in 1982
+
+
+
+Has the following :
+ |
+ . clock 
+ . PC/IP width : 16-bit
+ . control logic (IR , stepper , decoder , control registers) 
+ . general-purpose registers :
+   . all 16-bit 
+   . paired ones : B with C, D with E, and H with L
+   . Accumulator (A) 
+ . ALU : 16-bit
+ . BIU / segment registers 
+ . MAR : 24-bit
+ . MDR : 16-bit 
+ |
+ . data bus width : 16 
+ . address bus width : 24 
+ . address width : 24 
+ . addressable memory range : 2^24 = 16M 
+ |
+ . load-store unit 
+ . controllers :
+   . DMA : 
+   . PIC (interrupts) 
+   . bus controller
+   . 8042 keyboard MCU 
+ . register file 
+
+_

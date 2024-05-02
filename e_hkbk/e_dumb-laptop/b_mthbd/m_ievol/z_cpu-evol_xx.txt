@@ -1,16 +1,4 @@
 
-Intel 80286 :
- . '82 
- . data bus width : 16 
- . address bus width : 24 
- . address width : 24 
- . addressable memory range : 2^24 = 16M 
- . multiprocessing
-   => high-performance
- . more transistors
-
-
-
 Intel 80386 :
  . '85
  . data bus width : 32 

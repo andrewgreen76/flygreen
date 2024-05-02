@@ -50,9 +50,19 @@ Lacks the following :
 
 
 
-============================================================================
+======================================================================================
+MEMORY SEGMENTATION : 
+======================================================================================
+
+ . "Segmentation was introduced on the Intel 8086 in 1978 as a way to allow programs
+    to address more than 64 KB (65,536 bytes) of memory."
+
+ . "... the memory is divided into segments, each with a fixed size and starting address,
+    allowing for more efficient memory addressing and management."
+
+======================================================================================
 PAGED MEMORY : 
-============================================================================
+======================================================================================
 
  . paged memory - pages , OS , 
 

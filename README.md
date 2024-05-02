@@ -49,6 +49,7 @@ The "stored program" model.
 
 DIY project : building my own dumb laptop / motherboard
  |
+ . the Manchester Baby , the first stored program , program images 
  . memory (wide) protection , protected mode , virtual memory support 
  . paged memory 
  . clocking schemes and techniques in Intel microprocessors 

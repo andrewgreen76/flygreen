@@ -3,13 +3,16 @@
 PROGRAM IMAGE : 
 ========================================================================================
 
+ . a.k.a. executable image 
+ . a.k.a. binary image
+ . basically , a program in a state (binary) that allows it to be run (and does not need
+   any further processing) 
+
 "
 A program image refers to a binary file that contains a compiled or executable version of
 a software program, typically representing its machine code instructions and data in a format
 ready for execution on a computer system.
 "
-
-
 
 "
 The first CPU (Central Processing Unit) to be able to run a program image was the Manchester Baby,
@@ -22,9 +25,22 @@ SSEM (THE MANCHESTER BABY) :
 ========================================================================================
 
  . a.k.a. Small-Scale Experimental Machine
- . "The Manchester Baby, also called the Small-Scale Experimental Machine, was the first
-    electronic stored-program computer. It was built at the University of Manchester
-    by Frederic C. Williams, Tom Kilburn, and Geoff Tootill, and ran its first program
-    on 21 June 1948."
+
+"
+The Manchester Baby, also called the Small-Scale Experimental Machine, was the first electronic stored-program computer. It was built at the University of Manchester by Frederic C. Williams, Tom Kilburn, and Geoff Tootill, and ran its first program on 21 June 1948.
+"
+
+"
+The first stored program run on the Manchester Baby (SSEM) was a program written by Freddie Williams and Tom Kilburn, who led the team that built the machine. The program demonstrated the operation of the SSEM by performing a simple calculation, specifically determining the highest proper factor of a given number (2^18 = 262,144). This program effectively showcased the capabilities of the SSEM as the world's first stored-program computer.
+"
+
+========================================================================================
+EARLY PROGRAM IMAGES - MEDIA , SYSTEMS , AND APPLICATIONS : 
+========================================================================================
+
+ . media :        paper tape , magnetic tape , punch cards
+ . languages :    assembly language , machine code
+ . tools :        assembler , etc.
+ . applications : industrial , scientific , early microcomputer systems 
 
 _

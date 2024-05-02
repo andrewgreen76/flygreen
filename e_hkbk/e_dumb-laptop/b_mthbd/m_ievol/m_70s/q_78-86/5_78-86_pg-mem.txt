@@ -1,0 +1,9 @@
+
+ . paged memory - pages , OS , 
+
+=========================================================================================================================================================
+
+"
+Paged memory is a memory management scheme where the physical memory is divided into fixed-size blocks called pages, allowing the operating system to manage memory more efficiently by swapping data between RAM and secondary storage such as a hard disk.
+"
+_

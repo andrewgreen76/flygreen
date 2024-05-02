@@ -1,3 +1,8 @@
+
+========================================================================================
+EARLY INTERRUPTS : 
+========================================================================================
+
 "
 One notable early example of interrupt-like mechanisms is found in the Analytical Engine, conceived by Charles Babbage in the 1830s. Although the Analytical Engine was never completed during Babbage's lifetime, its design included provisions for what Babbage referred to as "interrupting cards." These cards would alter the sequence of operations performed by the Engine, effectively interrupting its current task to handle special cases or conditions.
 
@@ -8,7 +13,9 @@ In the context of modern electronic digital computers, the Manchester Baby, or S
 Ultimately, the concept of interrupts evolved over time alongside advancements in computing technology, with early examples found in various forms across different computing devices and systems. It's important to recognize that the specific implementation and terminology of interrupts have evolved considerably since their earliest manifestations.
 "
 
-
+========================================================================================
+EVOLUTION OF INTERRUPTS : 
+========================================================================================
 
 "
 Here are a few key dates in the development of interrupts for computers:

@@ -1,0 +1,30 @@
+
+========================================================================================
+PROGRAM IMAGE : 
+========================================================================================
+
+"
+A program image refers to a binary file that contains a compiled or executable version of
+a software program, typically representing its machine code instructions and data in a format
+ready for execution on a computer system.
+"
+
+
+
+"
+The first CPU (Central Processing Unit) to be able to run a program image was the Manchester Baby,
+also known as the Small-Scale Experimental Machine (SSEM), developed at the University of Manchester
+in England.
+"
+
+========================================================================================
+SSEM (THE MANCHESTER BABY) : 
+========================================================================================
+
+ . a.k.a. Small-Scale Experimental Machine
+ . "The Manchester Baby, also called the Small-Scale Experimental Machine, was the first
+    electronic stored-program computer. It was built at the University of Manchester
+    by Frederic C. Williams, Tom Kilburn, and Geoff Tootill, and ran its first program
+    on 21 June 1948."
+
+_

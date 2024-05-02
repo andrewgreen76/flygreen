@@ -3,6 +3,8 @@ INTEL 8008 - INCLUSIONS AND INNOVATIONS :
 ========================================================================================
 
  . the first 8-bit microprocessor 
+ . flags : P (parity) , Z (zero) , S (sign)
+ . calls stack up to 7 levels 
 
 ========================================================================================
 INTEL 8008 - OVERVIEW : 
@@ -24,7 +26,9 @@ Had the following :
    => treated individually
  . ALU : 8-bit
  . MAR : 12-bit
- . MDR : 8-bit 
+ . MDR : 8-bit
+ . flags : P (parity) , Z (zero) , S (sign) 
+ . 7-level push-down address call stack 
  |
  . data bus width : 8-bit
  . address bus width : 8-bit

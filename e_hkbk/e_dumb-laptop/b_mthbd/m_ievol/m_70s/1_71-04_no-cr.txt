@@ -1,15 +1,10 @@
-========================================================================================
-INTEL 4004 - INCLUSIONS AND INNOVATIONS : 
-========================================================================================
-
- . world's first microprocessor
- . 
 
 ========================================================================================
 INTEL 4004 - OVERVIEW : 
 ========================================================================================
 
  . released in 1971
+ . world's first microprocessor
 
 
 
@@ -23,7 +18,8 @@ Had the following :
  . ALU : 4-bit
  . MAR : 12 bits
  . MDR : 4 bits
- . push-down address call stack 
+ . a carry flag 
+ . 3-level push-down address call stack 
  |
  . data bus width : 4 bits
  . address bus width : 4 bits

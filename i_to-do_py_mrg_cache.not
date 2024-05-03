@@ -1,10 +1,27 @@
 
-storage support -> files -> OS 
+learn about storage technology :
+ |
+ . history of flash (NAND , NOR , SPI , ?USB? )
+ | + organization (blocks / sectors)
+ | + how to store/write files
+ |   . anatomy of a file on the physical level 
+ |
+ . ROM is too small for a kernel/etc.
+
+===========================================================================================
+===========================================================================================
+===========================================================================================
+
+storage support -> files -> programs (sh+interp , kernel , debugger , etc.) -> OS (on a storage disk/partition) 
+		   	    	     BIOS , BDOS , CCP 
+		   	    	     Chash / ChasmC / c.h.asm (ulang) 
+				     Bash  / C      / x86 asm 
 first computer to work with a storage device  
 first device to support an operating system 
 first CPU to support an operating system (vertical studies : CPU + OS)
  . storage at the time
 
+rtos
 
 
 
@@ -47,7 +64,13 @@ first CPU to support an operating system (vertical studies : CPU + OS)
 
 the need for memory segmentation 
 
+address = segment + offset
 
+IVT :
+ . contiguous vectors (dedicated service addresses) 
+ . size : 1K = 256 vectors x 4 bytes 
+ => 10 A-bits
+ . each (contiguous) vector is an [address] that holds [the address of a specific service routine - ISR] 
 
 
 
@@ -167,6 +190,7 @@ check on UMN , TAMU
 transistors
 read init-dets.txt
 branch prediction
+BASIC : source listings 
 
 CPUs 
 memory - Micron 

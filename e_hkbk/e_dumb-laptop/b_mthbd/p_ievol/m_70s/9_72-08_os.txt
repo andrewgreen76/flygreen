@@ -1,3 +1,8 @@
+
+========================================================================================
+EARLY OPERATING SYSTEMS - NOT LIKE THE ONES TODAY : 
+========================================================================================
+
 "
 The first Intel CPU to run an operating system was the Intel 8008 microprocessor, which was used in early computer systems such as the Datapoint 2200, capable of running operating systems like CP/M (Control Program for Microcomputers).
 "
@@ -13,15 +18,30 @@ The Intel 8008 microprocessor was capable of running various operating systems a
 
 3. MP/M (Multi-Programming Monitor): MP/M was a multi-user version of CP/M designed for multi-user microcomputing environments. It allowed multiple users to run concurrent processes on a single system, including those based on the Intel 8008.
 
-4. BASIC: Many early microcomputer systems using the Intel 8008 processor ran BASIC interpreters as their primary operating environment. BASIC provided an interactive programming environment for users to develop and run their programs.
+[...]
 
 These are just a few examples of the operating systems that could run on systems using the Intel 8008 microprocessor. The availability of operating systems varied depending on the specific hardware platform and the preferences of system manufacturers and users.
 "
 
 ============================================================================================================================================================
 
+"
+BASIC: Many early microcomputer systems using the Intel 8008 processor ran BASIC interpreters as their primary operating environment. BASIC provided an interactive programming environment for users to develop and run their programs.
+"
+
+============================================================================================================================================================
+
+ . (1964 - BASIC interpreter) 
+ . System/360 OS's :
+ | . 1965 - BOS/360
+ | . c. 1965 - TOS/360
+ | . 1966 - DOS/360
+ | . 1966 - OS/360
+ | . 1967 - TSS/360
+ |
+ . c. 1972 - MCS-8 Monitor 
  . 1973 - RT-11 
  . 1974 - CP/M
- . 
+ . 1979 - MP/M 
 
 _

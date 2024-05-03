@@ -1,4 +1,47 @@
 
+cpu init dets 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 learn about storage technology :
  |
  . history of flash (NAND , NOR , SPI , ?USB? )
@@ -14,8 +57,8 @@ learn about storage technology :
 
 storage support -> files -> programs (sh+interp , kernel , debugger , etc.) -> OS (on a storage disk/partition) 
 		   	    	     BIOS , BDOS , CCP 
-		   	    	     Chash / ChasmC / c.h.asm (ulang) 
-				     Bash  / C      / x86 asm 
+		   	    	     eash / EaC (easmC) / easm (c.h.asm) (ulang) 
+				     Bash / C     / x86 asm 
 first computer to work with a storage device  
 first device to support an operating system 
 first CPU to support an operating system (vertical studies : CPU + OS)

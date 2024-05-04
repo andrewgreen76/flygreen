@@ -42,7 +42,16 @@ cpu init dets
 
 
 
-instruction bit fields in 8008 (?)
+uproc. simulates DEC PDP. 
+
+instruction bit fields in 8008 : 
+ . 
+
+instruction bit fields in 8080 : 
+ . 
+
+instruction bit fields in 8086 : 
+ . 
 
 
 

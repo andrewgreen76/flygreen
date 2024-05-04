@@ -1,0 +1,14 @@
+"
+The Intel 8008 microprocessor was used in various early computer systems, including:
+
+1. Datapoint 2200: The Datapoint 2200, introduced in 1970, was one of the earliest microcomputers to feature the Intel 8008 processor. It was a pioneering system in the development of desktop computing and was capable of running early operating systems such as CP/M.
+
+2. Micral N: The Micral N, introduced in 1973 by French company R2E Micral, is considered one of the first commercial microcomputers. It was based on the Intel 8008 processor and was primarily used for industrial and scientific applications.
+
+3. SCELBI-8H: The SCELBI-8H, introduced in 1974 by SCELBI Computer Consulting, was one of the earliest microcomputers available in kit form. It featured the Intel 8008 processor and was aimed at hobbyists and enthusiasts interested in building their own computer systems.
+
+4. POLY-88: The POLY-88, introduced in 1976 by Microcomputer Associates, Inc., was a popular microcomputer kit based on the Intel 8008 processor. It was widely used by hobbyists and small businesses for various computing tasks.
+
+These are just a few examples of computer models that featured the Intel 8008 microprocessor. The Intel 8008 was used in various other systems and applications during its time, contributing to the early development of microcomputing.
+"
+_

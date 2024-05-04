@@ -1,7 +1,4 @@
 
-Show , don't tell :
- . 
-
 instruction bit fields in 8008 : 
  . 
 
@@ -38,6 +35,13 @@ instruction bit fields in 8086 :
 
 
 
+
+
+
+
+
+
+int , rdy 
 
 
 

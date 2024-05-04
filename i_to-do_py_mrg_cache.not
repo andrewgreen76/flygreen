@@ -1,6 +1,11 @@
 
 instruction bit fields in 8008 : 
- . 
+ . _ _ _ _   _ _ _ _
+   opc
+ . _ _ _ _   _ _ _ _
+   opd
+
+ . "The Intel 8008 microprocessor uses addressing modes specified by the opcode to determine where to look for the operand once it fetches the opcode."
 
 instruction bit fields in 8080 : 
  . 
@@ -245,6 +250,7 @@ mem protection and addressing in 8088
 
 
 
+FBPLID (Fixed Basic Pipeline for Linear Incremental Development of a CPU). 
 The open-source Google Maps of VLSI design (down to micro- and nano-). 
 A game for making games
 pictures : of dies 

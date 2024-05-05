@@ -1,0 +1,11 @@
+
+Purpose of functions :
+ - relieves us of the need to write the same code again and again 
+ - recursion (an instance of a function calling another instance of the same function) 
+ - abstraction (modularity)
+ - organization
+ - can be
+   (a) standalone
+   (b) a "member" of a struct 
+
+_

@@ -1,0 +1,20 @@
+
+========================================================================================
+OPERAND-LESS (NON-ADDRESSING) :
+========================================================================================
+
+ . NOP (No Operation): Performs no operation.
+ . HLT (Halt): Halts the CPU.
+ . DAA (Decimal Adjust Accumulator): Adjusts the contents of the accumulator after an addition operation to ensure correct representation in binary-coded decimal (BCD) format.
+ . CMA (Complement Accumulator): Bitwise complements the contents of the accumulator.
+ . STC (Set Carry Flag): Sets the carry flag in the flag register.
+ . CMC (Complement Carry Flag): Bitwise complements the carry flag in the flag register. 
+
+
+========================================================================================
+ADDRESSING MODES :
+========================================================================================
+
+"
+"
+_

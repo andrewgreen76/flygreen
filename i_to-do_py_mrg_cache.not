@@ -1,5 +1,49 @@
 
-instruction bit fields in 8008 : 
+oit : immun : clear cache 
+online xp
+5/4 - acad.adv. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(PDF) instruction bit fields in 8008 : 
  . _ _ _ _   _ _ _ _
    opc
  . _ _ _ _   _ _ _ _
@@ -7,10 +51,10 @@ instruction bit fields in 8008 :
 
  . "The Intel 8008 microprocessor uses addressing modes specified by the opcode to determine where to look for the operand once it fetches the opcode."
 
-instruction bit fields in 8080 : 
+(PDF) instruction bit fields in 8080 : 
  . 
 
-instruction bit fields in 8086 : 
+(PDF) instruction bit fields in 8086 : 
  . 
 
 

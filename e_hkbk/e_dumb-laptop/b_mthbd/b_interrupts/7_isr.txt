@@ -1,0 +1,16 @@
+========================================================================================
+INTERRUPT SERVICE ROUTINE (ISR) : 
+========================================================================================
+
+"
+ISR had the capability of disabling the other devices’ interrupts while enabling the present device interrupts and it can re-enable the other device interrupts after completion of execution.
+
+Interrupt_Service Routines are always ready to act because the maximum number of interrupts is of asynchronous type.
+
+This interrupt_service mechanism can make the ISR work for multiple sources.
+
+The ISR can handle both non-maskable and maskable interrupts. The program line can be used to enable or disable the handler.
+The ISR can also be used for the diversion of unimportant instructions. 
+"
+
+_

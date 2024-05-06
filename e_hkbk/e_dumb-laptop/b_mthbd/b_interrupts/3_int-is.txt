@@ -1,0 +1,11 @@
+========================================================================================
+WHAT IS AN INTERRUPT : 
+========================================================================================
+
+"
+The instruction which needs immediate attention or execution is called the interrupt. In the early days of computing, the higher-order function to be performed in the controller or processor will lead to the time taking process as they have the order signal processing. To eliminate this and to decrease the slow response of the processors the Interrupt_technology had been introduced to perform the sudden or high priority instructions.
+
+When the interrupt occurs in the processor or controller they will execute the present instruction and will look after that instruction which is interrupting through the interrupt_handler or interrupt service routine (ISR).
+"
+
+_

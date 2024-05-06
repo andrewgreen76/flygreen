@@ -1,0 +1,13 @@
+========================================================================================
+INTERRUPT HANDLING : 
+========================================================================================
+
+"
+Normally the cycle of the controller or the processor is like fetch, decode and execute. If the cycle will be disturbed due to the unplanned instruction then it is called an interrupt. To handle this type of interrupts we need different tools. The interrupt_handler is used to handle the sudden and important instructions that should be executed immediately.
+
+The interrupt_handler will be activated when the interrupt occurs and the cycle of the processor or controller is disturbed or stopped. The interrupt handler will recognize the type of interrupt and then it will execute the instruction immediately.
+
+Most of the interrupts are of asynchronous type. This interrupt_handler is popularly known as the Interrupt Service Routine (ISR). The interrupt handlers are classified according to the types of interrupt occurrence. Every device will have different types of interrupt handlers.
+"
+
+_

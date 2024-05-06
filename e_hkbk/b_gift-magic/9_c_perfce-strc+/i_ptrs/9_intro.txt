@@ -1,0 +1,9 @@
+
+Pointers :
+ - OO membership
+ - code reuse (using function/object code at the same memory location instead of creating
+   and using its copies)
+ - referencing 15K+ pieces of code (objects) - beyond what a call stack level allows
+ - ex.: struct object pointers , function pointers 
+
+_

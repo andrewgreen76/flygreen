@@ -1,0 +1,6 @@
+
+IVT :
+ . contiguous vectors (dedicated service addresses) 
+ . size : 1K = 256 vectors x 4 bytes 
+ => 10 A-bits
+ . each (contiguous) vector is an [address] that holds [the address of a specific service routine - ISR] 

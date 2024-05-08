@@ -47,6 +47,8 @@ The mystery of the circular semiconductor wafer.
 
 The "stored program" model. 
 
+CPU caches , their roles. 
+
 DIY project : building my own dumb laptop / motherboard
  |
  . the Manchester Baby , the first stored program , program images 

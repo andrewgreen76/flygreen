@@ -1,0 +1,7 @@
+
+ . 1985
+
+ . RAM :     (256-) 512 KB
+ . storage : X MB (on three(?) floppies) 
+
+_

@@ -1,6 +1,12 @@
 
 ALGOL 68 secure programming language.
-massively parallel non-uniformly interconnected heterogeneous nodes 
+massively parallel non-uniformly interconnected heterogeneous nodes
+uniform permutation without repetition 
+specialized PUs :
+ . NVidia : [GPU] x [servers]
+ . ARM	  : [CPU] x [servers]
+ . AMD	  : [CPU] x [servers]
+ . Intel  : [CPU] x [servers]
 
 Health / Immun. : 
  . Wardenburg : screening test - skin test or blood test 

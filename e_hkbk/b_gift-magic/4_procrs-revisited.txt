@@ -1,0 +1,8 @@
+
+specialized PUs :
+ . NVidia : [GPU] x [servers]
+ . ARM	  : [CPU] x [servers]
+ . AMD	  : [CPU] x [servers]
+ . Intel  : [CPU] x [servers]
+
+_

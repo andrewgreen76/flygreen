@@ -14,6 +14,28 @@ Ultimately, the concept of interrupts evolved over time alongside advancements i
 "
 
 ========================================================================================
+EARLY COMPUTERS FEATURING INTERRUPTS : 
+========================================================================================
+
+"
+Interrupts are a fundamental concept in computer architecture that allow the CPU to temporarily suspend its current execution and handle a specific event or request. While the concept of interrupts dates back to the earliest days of computing, the notion of hardware interrupts as we understand them today started to emerge in the mid-20th century with the development of more sophisticated electronic computers. Here are some early computers that featured interrupts:
+
+1. **EDSAC (Electronic Delay Storage Automatic Calculator)** - Developed at the University of Cambridge in England, EDSAC, which ran its first program in May 1949, is often credited as one of the earliest computers to feature interrupts.
+
+2. **UNIVAC I (Universal Automatic Computer I)** - Developed by Remington Rand for the United States Census Bureau, UNIVAC I, which was introduced in 1951, also incorporated interrupt capabilities.
+
+3. **IBM 701** - Introduced by IBM in 1952, the IBM 701 was IBM's first commercial scientific computer and is reported to have had interrupt capabilities.
+
+4. **Ferranti Mark 1** - Developed in the United Kingdom by Ferranti, the Ferranti Mark 1, which ran its first program in 1951, was one of the earliest computers to feature an interrupt system.
+
+5. **Whirlwind I** - Developed at the Massachusetts Institute of Technology (MIT) and operational in 1951, Whirlwind I, which was a pioneering digital computer, featured an interrupt system for handling various tasks.
+
+6. **SEAC (Standards Eastern Automatic Computer)** - Developed at the National Bureau of Standards (NBS) in the United States and operational in 1950, SEAC is reported to have included interrupt capabilities.
+
+These early computers laid the groundwork for the use of interrupts in subsequent computer systems, and the concept of interrupts has since become a standard feature in virtually all modern computer architectures.
+"
+
+========================================================================================
 EVOLUTION OF INTERRUPTS : 
 ========================================================================================
 

@@ -1,0 +1,104 @@
+
+========================================================================================
+LANGUAGES TIMELINE : 
+========================================================================================
+
+							procedural	imperative	structured	
+
+ . 1947 - assembly 	K. Booth			.		.		.
+ . 1957 - FORTRAN 	J. Backus
+ . 1958	- ALGOL 58 	F. L. Bauer , et al. 
+ . 1959 - COBOL 	G. Hopper 
+ . 1960 - ALGOL 60 	A. J. Perlis, et al. 
+ . 1960 - Lisp 		J. McCarthy
+ . 1962 - Simula 	O. Dahl , K. Nygaard 
+ . 1963 - CPL 		C. Strachey , et al. 
+ . 1964 - BASIC 	J. G. Kemeny , T. E. Kurtz 
+ . 1967 - BCPL		M. Richards
+ . 1969	- B		D. M. Ritchie , K. L. Thompson	
+ . 1970 - Forth		C. H. Moore
+ . 1970	- New B		D. M. Ritchie , K. L. Thompson
+ . 1970	- Pascal	N. Wirth 
+ . 1972 - C		D. M. Ritchie
+ . 1972	- Smalltalk 	A. Goldberg , et al.
+
+========================================================================================
+TERMINOLOGY : 
+========================================================================================
+
+========================================================================================
+UNSTRUCTURED VS. STRUCTURED : 
+========================================================================================
+
+Unstructured :
+  |
+  . characteristics :
+  | . goto statements
+  |
+  . languages :
+  | . assembly
+  | . BASIC 
+  | . Fortran 
+  |
+Structured :
+ . program control (flow) structures : 
+   . sequence 
+   . condition 
+   . iteration 
+   . blocks
+   . subroutines 
+
+========================================================================================
+PROCEDURAL VS. FUNCTIONAL : 
+========================================================================================
+
+Procedural :
+  |
+  . characteristics :
+  | . mutable state
+  |
+  . languages : 
+  | . C
+  | . Pascal
+  | . COBOL
+  | . BASIC
+  |
+Functional :
+  |
+  . characteristics :
+  | . evaluation of mathematical expressions 
+  | . independent functions ; same input -> same output
+  |
+  | . immutable state
+  | . immutable data
+  | . first-class (higher-order) functions
+  |
+  . languages : 
+    . Haskell
+    . Lisp
+    . Scheme
+    . Clojure
+    . Erlang
+
+========================================================================================
+IMPERATIVE VS. DECLARATIVE : 
+========================================================================================
+
+Imperative :
+ . enmeshed with procedural programming
+
+Declarative :
+ . enmeshed with functional programming 
+ . enmeshed with logic programming 
+ . Prolog
+ . Haskell 
+
+========================================================================================
+MUTABLE VS. IMMUTABLE STATES : 
+========================================================================================
+
+Mutable state :
+
+Immutable state : 
+
+_

@@ -51,6 +51,10 @@ CPU caches , their roles.
 
 DIY project : building my own dumb laptop / motherboard
  |
+ . interrupts
+ . assembly language flavors
+ . instruction (addressing) modes 
+ . assembly language prefixes
  . the Manchester Baby , the first stored program , program images 
  . memory (wide) protection , protected mode , virtual memory support 
  . paged memory 

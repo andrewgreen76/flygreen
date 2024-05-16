@@ -1,17 +1,17 @@
 
-assembly	'47
-FORTRAN		'57
-COBOL	 	'59
-ALGOL 60	'60
-Lisp  		'60
-Simula		'62
-CPL		c.'63
-BASIC		'64
-BCPL		c.'67
-B		'69
-Forth		c.'70
-New B		'70
-Pascal		'70 (N. Wirth) 
-C		('69-)'73 
+ . 1947 - assembly	
+ . 1957 - FORTRAN
+ . 1959 - COBOL
+ . 1960 - ALGOL 60
+ . 1960 - Lisp
+ . 1962 - Simula
+ . 1963 - CPL
+ . 1964 - BASIC
+ . 1967 - BCPL
+ . 1969	- B
+ . 1970 - Forth
+ . 1970	- New B
+ . 1970	- Pascal (N. Wirth) 
+ . 1972 - C 
 
 _

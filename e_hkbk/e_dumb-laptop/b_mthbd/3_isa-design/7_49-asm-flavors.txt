@@ -1,0 +1,21 @@
+
+========================================================================================
+THE HISTORY OF ASSEMBLY LANGUAGE FLAVORS : 
+========================================================================================
+
+ . 1948 - Manchester Baby 
+ . 1949 - EDSAC
+ . 1950 - SEAC
+ . 1951 - UNIVAC I
+ . 1951 - Ferrant Mark 1
+ . 1951 - Whirlwind I 
+ . 1952 - IBM 701
+
+========================================================================================
+THE MANCHESTER BABY : 
+========================================================================================
+
+"
+The Manchester Baby didn't use an assembly language as we commonly understand it today. It was programmed directly using machine language, which involved setting switches and using other low-level methods to input instructions and data. There wasn't a separate symbolic language like assembly used for programming the Manchester Baby. Instead, programmers had to directly manipulate the switches and control the machine's operations manually to execute programs.
+"
+_

@@ -3,7 +3,7 @@
 LANGUAGES TIMELINE : 
 ========================================================================================
 
-							procedural	imperative	structured	
+							prcdrl/funcl	imper/decl	un-/struc	
 
  . 1947 - assembly 	K. Booth			.		.		.
  . 1957 - FORTRAN 	J. Backus
@@ -23,8 +23,12 @@ LANGUAGES TIMELINE :
  . 1972	- Smalltalk 	A. Goldberg , et al.
 
 ========================================================================================
-TERMINOLOGY : 
+TERMINOLOGY FOR ALL LANGUAGES (NOT JUST FOR PROGRAMMING) : 
 ========================================================================================
+
+Reminder : this is a discussion of languages for all sorts of applications , not just
+for programming. This includes query , hardware description (behavior) , markup , and
+markdown. 
 
 ========================================================================================
 UNSTRUCTURED VS. STRUCTURED : 
@@ -47,6 +51,32 @@ Structured :
    . iteration 
    . blocks
    . subroutines 
+
+========================================================================================
+IMPERATIVE VS. DECLARATIVE : 
+========================================================================================
+
+Imperative :
+ . enmeshed with procedural programming
+
+Declarative :
+ . database query languages (e.g., SQL, XQuery)
+ . regular expressions
+ . logic programming 
+ . functional programming
+ . configuration management
+ . algebraic modeling systems 
+
+========================================================================================
+LOGIC PROGRAMMING : 
+========================================================================================
+
+ . under with logic programming 
+ . enmeshed with functional programming 
+ . Prolog
+ . Datalog
+ . answer set programming (ASP) 
+ . Haskell
 
 ========================================================================================
 PROCEDURAL VS. FUNCTIONAL : 
@@ -79,19 +109,6 @@ Functional :
     . Scheme
     . Clojure
     . Erlang
-
-========================================================================================
-IMPERATIVE VS. DECLARATIVE : 
-========================================================================================
-
-Imperative :
- . enmeshed with procedural programming
-
-Declarative :
- . enmeshed with functional programming 
- . enmeshed with logic programming 
- . Prolog
- . Haskell 
 
 ========================================================================================
 MUTABLE VS. IMMUTABLE STATES : 

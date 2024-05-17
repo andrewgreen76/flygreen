@@ -51,6 +51,7 @@ CPU caches , their roles.
 
 DIY project : building my own dumb laptop / motherboard
  |
+ . evolution of compilers , assemblers , linkers/loaders 
  . interrupts
  . assembly language flavors
  . instruction (addressing) modes 

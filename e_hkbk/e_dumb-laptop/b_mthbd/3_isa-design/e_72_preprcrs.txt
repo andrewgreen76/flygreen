@@ -1,0 +1,13 @@
+"
+The first preprocessor ever developed is the C preprocessor, which was introduced with the C programming language in the early 1970s. The C preprocessor, often known as `cpp`, was designed by Dennis Ritchie and Brian Kernighan at Bell Labs as part of their development of the Unix operating system and the C programming language.
+
+The primary functions of the C preprocessor include:
+
+1. **File Inclusion**: Inserting the contents of one file into another with the `#include` directive.
+2. **Macro Definitions**: Defining and using macros with the `#define` directive.
+3. **Conditional Compilation**: Including or excluding parts of the code based on certain conditions with directives like `#if`, `#ifdef`, `#ifndef`, `#else`, `#elif`, and `#endif`.
+4. **Line Control**: Providing information about the source code line numbers with the `#line` directive.
+
+These capabilities allowed for greater flexibility and modularity in the development of C programs, setting a precedent for similar tools in other programming languages that followed.
+"
+_

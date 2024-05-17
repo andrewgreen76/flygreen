@@ -2,36 +2,36 @@
 	src
 	 |
 	 v
-     ----+----
-     preprocsr
-     ----+----
+   +-----------+
+   | preprocsr |
+   +-----------+
 	 v
      preprcd src
      	 v
-     ----+----
-     compiler
-     ----+----
+   +-----------+
+   | compiler  |
+   +-----------+
 	 v
      assembly
          v
-     ----+----
-     assembler
-     ----+----
+   +-----------+
+   | assembler |
+   +-----------+
 	 v
-     obj/relocble bin
+   obj/relocble bin
 	 v
-     ----+----	> libs
-     linker	  /
-     ----+----	< modules 
+   +-----------+ > libs
+   |  linker   |
+   +-----------+ < modules 
 	 v
      execble bin 
 	 v
-     ----+----
-     loader 
-     ----+----
+   +-----------+
+   |  loader   | 
+   +-----------+
 	 v
-     ----+----
-     memory
-     ----+----
+   +-----------+
+   |  memory   |
+   +-----------+
      
 _

@@ -1,37 +1,39 @@
 
-	src
-	 |
-	 v
-   +-----------+
-   | preprocsr |
-   +-----------+
-	 v
-     preprcd src
-     	 v
-   +-----------+
-   | compiler  |
-   +-----------+
-	 v
-     assembly
-         v
-   +-----------+
-   | assembler |
-   +-----------+
-	 v
-   obj/relocble bin
-	 v
-   +-----------+ > libs
-   |  linker   |
-   +-----------+ < modules 
-	 v
-     execble bin 
-	 v
-   +-----------+
-   |  loader   | 
-   +-----------+
-	 v
-   +-----------+
-   |  memory   |
-   +-----------+
-     
+	     src
+	     | |
+	     v v
+	+-----------+
+	| preprocsr |
+	+-----------+
+	     v v
+	 preprcd src
+	     v v
+	+-----------+
+	| compiler  |
+	+-----------+
+	     v v
+	  assembly
+	     v v
+	+-----------+
+	| assembler |
+	+-----------+
+	     v v
+       relocatable bin
+    obj (indiv. bin files)
+	     v v
+	+-----------+ > libs
+	|  linker   |
+	+-----------+ < modules 
+	      v
+	executable bin
+	(all is fused)
+	      v
+	+-----------+
+	|  loader   | 
+	+-----------+
+	      v
+	+-----------+
+	|  memory   |
+	+-----------+
+
 _

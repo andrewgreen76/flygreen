@@ -6,7 +6,7 @@ LANGUAGES TIMELINE :
 							prcdrl/funcl	imper/decl	un-/struc	
 
  . 1947 - assembly 	K. Booth			.		.		.
- . 1957 - FORTRAN 	J. Backus
+ . 1957 - Fortran 	J. Backus
  . 1958	- ALGOL 58 	F. L. Bauer , et al. 
  . 1959 - COBOL 	G. Hopper 
  . 1960 - ALGOL 60 	A. J. Perlis, et al. 

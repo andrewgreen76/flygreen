@@ -1,0 +1,37 @@
+
+	src
+	 |
+	 v
+     ----+----
+     preprocsr
+     ----+----
+	 v
+     preprcd src
+     	 v
+     ----+----
+     compiler
+     ----+----
+	 v
+     assembly
+         v
+     ----+----
+     assembler
+     ----+----
+	 v
+     obj/relocble bin
+	 v
+     ----+----	> libs
+     linker	  /
+     ----+----	< modules 
+	 v
+     execble bin 
+	 v
+     ----+----
+     loader 
+     ----+----
+	 v
+     ----+----
+     memory
+     ----+----
+     
+_

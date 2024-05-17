@@ -57,9 +57,13 @@ IMPERATIVE VS. DECLARATIVE :
 ========================================================================================
 
 Imperative :
+ . explicitly specified statements to achieve something (programming over scripting) 
  . enmeshed with procedural programming
 
 Declarative :
+ . a command or statement is given to get something done ; the processing utility will
+   understand/translate this into the steps implied to achieve the goal (scripting over
+   programming) 
  . database query languages (e.g., SQL, XQuery)
  . regular expressions
  . logic programming 

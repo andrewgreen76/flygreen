@@ -5,6 +5,7 @@ THE HISTORY OF ASSEMBLY LANGUAGE FLAVORS :
 
  . 1948 - Manchester Baby 
  . 1949 - EDSAC
+ . 1949	- Manchester Mark I
  . 1950 - SEAC
  . 1951 - UNIVAC I
  . 1951 - Ferrant Mark 1

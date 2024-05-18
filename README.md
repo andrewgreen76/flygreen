@@ -43,11 +43,10 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-The mystery of the circular semiconductor wafer.
-
-The "stored program" model. 
-
-CPU caches , their roles. 
+Assembly :
+ . GAS (AT&T) syntax
+ . its key directives
+ . .org - writing to specific memory addresses 
 
 DIY project : building my own dumb laptop / motherboard
  |

@@ -68,4 +68,12 @@ Here are some scenarios where you might use `.org`:
 
 "
 
+========================================================================================
+ORG(ANIZING) CODE BY DEFAULT : 
+========================================================================================
+
+"
+When `.org` is not provided, code and data are typically assembled sequentially, starting from the beginning of the section (such as `.text` or `.data`), following the previous instruction or data declaration. The assembler typically places `.data` and `.text` sections in memory according to default settings or rules defined by the assembler's configuration, often starting from predefined addresses or aligning them based on memory segment boundaries. For the GAS assembler, the default rules or settings for placing `.data` and `.text` sections are typically determined by the linker script used during the linking phase, which specifies the layout of different sections in the final executable or object file. 
+"
+
 _

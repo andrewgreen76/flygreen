@@ -1,0 +1,29 @@
+
+ . share :
+   (. in a business or investment)
+   . financial interest 
+   . supplemental reward
+   = a slice of profits
+   (+ a say in decisions) 
+   = stake
+   . ownership
+
+
+ . equity plan :
+   . a policy by which you are entitled to a share  
+
+
+ . stock grant : 
+   = share 
+
+
+ . stock option :
+   |
+   = a contractual provision allowing a potential owner to buy stock
+   |
+   . "In finance, an option is a contract which conveys to its owner, the holder, the right,
+      but not the obligation, to buy or sell a specific quantity of an underlying asset
+      or instrument at a specified strike price on or before a specified date, depending on
+      the style of the option."
+
+_

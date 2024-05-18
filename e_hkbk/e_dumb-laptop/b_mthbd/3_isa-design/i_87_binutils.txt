@@ -1,0 +1,18 @@
+"
+The "binutils" package refers to a collection of binary utilities for the manipulation of object files, libraries, and executables in various formats. These utilities are typically used during the compilation and linking process in software development. Some of the common tools included in the binutils package are:
+
+1. `as` (GNU assembler): This tool translates assembly language source files into machine code object files.
+
+2. `ld` (GNU linker): This tool links multiple object files and libraries together to create an executable or shared library.
+
+3. `objdump`: This tool displays information about object files, including disassembling machine code and inspecting various sections of the file.
+
+4. `ar` (GNU archiver): This tool creates, modifies, and extracts from archives, which are collections of object files.
+
+5. `nm` (GNU symbol lister): This tool lists symbols from object files, libraries, or executables.
+
+6. `strip`: This tool removes unnecessary information from object files, such as symbol tables and debugging information, to reduce file size.
+
+These utilities are essential components of the toolchain used in the compilation and linking process for many programming languages, including C, C++, and assembly language. The binutils package is commonly used in Unix-like operating systems, including Linux distributions.
+"
+_

@@ -1,18 +1,22 @@
-.data
-    message:    .asciz "Hello, World!\n"
+.section .data
+    num1:   .long 10          # Define the first number
+    num2:   .long 20          # Define the second number
+    result: .long 0           # Define a variable to store the result
 
-.text
-.global main
+.section .text
+.global _start
 
-main:
-    # Write the string to the standard output
-    mov     $4, %eax          # System call number for write
-    mov     $1, %ebx          # File descriptor 1: standard output
-    mov     $message, %ecx    # Address of the string
-    mov     $14, %edx         # Length of the string
-    int     $0x80             # Call the kernel
+_start:
+    # Load the first number into register eax
+    movl    num1, %eax
+
+    # Add the second number to eax
+    addl    num2, %eax
+
+    # Store the result in the result variable
+    movl    %eax, result
 
     # Exit the program
-    mov     $1, %eax          # System call number for exit
-    xor     %ebx, %ebx        # Exit code 0
-    int     $0x80             # Call the kernel
+    movl    $1, %eax          # syscall number for exit
+    xorl    %ebx, %ebx        # exit status 0
+    int     $0x80             # invoke syscall

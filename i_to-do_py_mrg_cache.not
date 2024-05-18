@@ -1,11 +1,14 @@
 
 What happens to the hardware of the host machine when it runs an assembly program?
 Finding something addictive :
- . Turing Machine 
- . pen-and-paper working with instructions in different modes
- . early assembly
+ . GAS (over NASM)
+ . 8086 assembly
  . x86 asm : making mistakes 
- . NASM
+   . learning modes  
+ . pen-and-paper working with instructions in different modes
+ ? early assembly ? 
+ ? 8008 assembly ? 
+ ? Turing Machine ? 
 
 Health / Immun. : 
  . Wardenburg : screening test - skin test or blood test 

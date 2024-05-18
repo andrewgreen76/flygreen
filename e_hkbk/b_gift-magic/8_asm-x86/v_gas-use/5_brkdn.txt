@@ -1,0 +1,71 @@
+
+========================================================================================
+GAS DIRECTIVES : 
+========================================================================================
+
+ .data   - declaring variables the programmer will initialize
+ .bss  	 - declaring variables that will NOT be initialized at the start
+ .text 	 - the directive announcing the beginning of the "text" (really , code) section.
+ 	   .data -or- .bss would break the .text section. 
+ .globl  - this directive exposes the following symbols (address representations) to other files.
+ 	   It is actually spelled without the 'a'. 
+ .asciz  - announces the following "term" to be a string (null-terminated) 
+
+ main 	 - 
+ _start  - the program's entry point within the ".text" section. ".text" demarcates where the code is ,
+ 	   but _start tells the CPU exactly where to start. 
+
+"
+... you can use `_start` as the entry point for your assembly program without any issues. However, keep in mind that using `_start` instead of `main` may affect how your program interacts with certain runtime environments or libraries, especially when dealing with high-level languages like C. Typically, if you're writing a standalone assembly program or a bootloader, using `_start` is appropriate. If you're integrating assembly code into a larger project or using it alongside high-level languages, you may want to follow the conventions of the environment or language you're working with, which might involve using `main`.
+"
+
+========================================================================================
+CONTRAST WITH INTEL (NASM) SYNTAX : 
+========================================================================================
+
+"
+The directives you mentioned, such as `.data`, `.text`, `.globl`, and `.asciz`, are specific to the GNU Assembler (GAS) syntax, which typically uses AT&T syntax. In Intel syntax, used by assemblers like NASM and YASM, the directives differ, and some may not exist in the same form.
+
+Here's a comparison:
+
+- In GAS (AT&T syntax):
+  - `.data`: Specifies the beginning of the data section.
+  - `.text`: Specifies the beginning of the code section.
+  - `.globl`: Marks a symbol as global, making it visible to other modules.
+  - `.asciz`: Defines a null-terminated string.
+  [- `.org`: Defines the starting address of the source code provided below the ".org" line.
+     .org 0x1000
+     ... 
+     .org 0x2000
+     ...
+  ] 
+
+- In NASM (Intel syntax):
+  - `section .data`: Specifies the beginning of the data section.
+  - `section .text`: Specifies the beginning of the code section.
+  - `global`: Declares a symbol as global.
+  - `db` or `dd`: Used to define bytes or words, respectively, including ASCII strings.
+  [- `org`: Same as .org in GAS assembly syntax.]
+
+While the purposes of these directives are similar, their syntax and usage differ between GAS and NASM. When writing assembly code in Intel syntax, you'd use the NASM equivalents of these directives.
+"
+
+========================================================================================
+WHAT IS ORG FOR : 
+========================================================================================
+
+"
+The `.org` directive is most fitting to use when you need to specify the location where subsequent code or data should be assembled, typically when dealing with low-level programming or when working directly with memory-mapped hardware.
+
+Here are some scenarios where you might use `.org`:
+
+1. **Bootloaders and firmware**: When writing bootloaders or firmware code that needs to be loaded at a specific memory address, you might use `.org` to ensure your code is placed at the correct location in memory.
+
+2. **Memory-mapped I/O**: When writing code that interacts with memory-mapped I/O devices, you might use `.org` to place your code at the addresses corresponding to the device registers.
+ [. e.g. , when working directly with input from the keyboard or the mouse or with the output to the screen]
+
+[...]
+
+"
+
+_

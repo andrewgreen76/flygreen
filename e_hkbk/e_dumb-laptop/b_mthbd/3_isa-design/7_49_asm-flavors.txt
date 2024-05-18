@@ -30,14 +30,12 @@ EDSAC :
 GAS : 
 ========================================================================================
 
- . Generalized Assembly System
  = GNU Assembler
-
-
-"
-The Generalized Assembly System (GAS) is a cross-assembler, a software tool used for generating machine code for one type of computer (target) on a different type of computer (host). 
-
-In the context of Unix-like operating systems, GAS often refers to the GNU Assembler, which is part of the GNU Binutils package. It provides support for various instruction set architectures (ISAs) and is capable of assembling code for multiple target architectures.
-"
+ |
+ =/= Generalized Assembly System = Generalized Assembly Language (GAL) 
+ |
+ . "In the context of Unix-like operating systems, GAS often refers to the GNU Assembler,
+    which is part of the GNU Binutils package. It provides support for various instruction
+    set architectures (ISAs) and is capable of assembling code for multiple target architectures." 
 
 _

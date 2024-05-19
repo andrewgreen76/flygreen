@@ -50,7 +50,8 @@ Assembly :
 
 DIY project : building my own dumb laptop / motherboard
  |
- . 1940s-1960s computers , architectures , operating systems , innovations 
+ . 1940s-1960s computers , architectures , operating systems , innovations
+ . Intel syntax vs. AT&T syntax 
  . evolution of compilers , assemblers , linkers/loaders 
  . assembly language flavors
  . instruction (addressing) modes 

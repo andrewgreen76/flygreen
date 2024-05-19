@@ -1,0 +1,4 @@
+"
+The IBM 701, introduced in 1952, is often credited as the first computer to feature dedicated control logic, facilitating the sequencing and execution of instructions in a stored program.
+"
+_

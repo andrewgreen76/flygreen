@@ -50,34 +50,18 @@ Assembly :
 
 DIY project : building my own dumb laptop / motherboard
  |
+ . 1940s-1960s computers , architectures , operating systems , innovations 
  . evolution of compilers , assemblers , linkers/loaders 
- . interrupts
  . assembly language flavors
  . instruction (addressing) modes 
  . assembly language prefixes
  . the Manchester Baby , the first stored program , program images 
  . memory (wide) protection , protected mode , virtual memory support 
  . paged memory 
- . clocking schemes and techniques in Intel microprocessors 
- . 8086 innovations :
-   . load-store unit
-   . bus interface unit 
-   . controllers (DMA , PIC , etc.) 
-   . register file 
- . history of Intel CPUs , CPU families , microarchitectures
- . AMD CPUs in laptops 
- . hardware/CPU initialization (vanilla) routine - details 
- . all x86 registers 
- . the history of Motorola MPUs 
  . addressing modes in x86
- . the history of component inclusions in x86 CPUs 
  . instruction queue/decode buffer
- . EU (Execution Unit) + BIU (Bus Interface Unit)
  . the history of interrupts
  . the history of BIOS
- . floating-point division in Intel CPU's 
- |
- . x86 protected mode - addressing modes 
  |
  . control logic bits/signals in x86 , ARMv8.
  |

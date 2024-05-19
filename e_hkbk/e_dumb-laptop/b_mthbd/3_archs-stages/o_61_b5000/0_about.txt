@@ -1,0 +1,7 @@
+
+The Burroughs B5000 computer was released.
+ . one of the first commerical computers to feature virtual memory 
+ . had a system compatible with multiprocessors
+ . had locking hardware support for enforcing atomicity in multi-threading 
+
+_

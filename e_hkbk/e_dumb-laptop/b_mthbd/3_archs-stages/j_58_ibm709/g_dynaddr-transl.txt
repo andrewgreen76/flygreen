@@ -1,0 +1,5 @@
+
+ . dynamic address translation
+   . a form of virtual memory management 
+
+_

@@ -1,0 +1,4 @@
+
+ . magnetic core memory (RAM) 
+
+_

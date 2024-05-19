@@ -1,8 +1,0 @@
-
- . bootstrap
-   --loads--> kernel
-	      --loads--> loader
- . linker
- . assembler 
-
-_

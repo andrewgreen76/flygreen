@@ -1,0 +1,4 @@
+"
+The first computer to have a Program Status Word (PSW) with a Program Interrupt Enable (PIE) bit was the IBM System/360 series, introduced in 1964. The PIE register specifically referred to the bit within the PSW that controlled the enabling and disabling of program interrupts, an essential feature for managing the system's execution and handling of various interrupt requests.
+"
+_

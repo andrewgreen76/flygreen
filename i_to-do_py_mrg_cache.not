@@ -1,14 +1,22 @@
 
 What happens to the hardware of the host machine when it runs an assembly program?
 Finding something addictive :
- . GAS (over NASM)
- . 8086 assembly
- . x86 asm : making mistakes 
-   . learning modes  
+ . DEC PDP architecture 
+ . Intel 8008 
+ . below assembly :
+   . forget about mnemonics ; think only in binary/hex
+   . LED memmon 
+   . cpu/mem <-> keyscan+scrout (scan2scr interp)
+   . ints : anykey 
+ . DEC PDP -style transparency 
  . pen-and-paper working with instructions in different modes
  ? early assembly ? 
  ? 8008 assembly ? 
  ? Turing Machine ? 
+ . GAS (over NASM)
+ . 8086 assembly
+ . x86 asm : making mistakes 
+   . learning modes
 
 Health / Immun. : 
  . Wardenburg : screening test - skin test or blood test 

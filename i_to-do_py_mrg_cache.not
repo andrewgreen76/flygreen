@@ -1,15 +1,13 @@
 
 What happens to the hardware of the host machine when it runs an assembly program?
 Finding something addictive :
- . DEC PDP architecture 
- . Intel 8008 
  . below assembly :
    . forget about mnemonics ; think only in binary/hex
-   . LED memmon 
+   . LED(mem)mon 
    . cpu/mem <-> keyscan+scrout (scan2scr interp)
    . ints : anykey 
  . DEC PDP -style transparency 
- . pen-and-paper working with instructions in different modes
+ . exercises : instructions in different modes
  ? early assembly ? 
  ? 8008 assembly ? 
  ? Turing Machine ? 

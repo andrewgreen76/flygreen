@@ -1,6 +1,10 @@
 
 What happens to the hardware of the host machine when it runs an assembly program?
 Finding something addictive :
+ . exercises 
+   . learning modes
+   ? Turing Machine (Turing-complete) ? 
+   . GAS (over NASM)
  . below assembly :
    . forget about mnemonics ; think only in binary/hex
    . LED(mem)mon 
@@ -10,11 +14,6 @@ Finding something addictive :
  . exercises : instructions in different modes
  ? early assembly ? 
  ? 8008 assembly ? 
- ? Turing Machine ? 
- . GAS (over NASM)
- . 8086 assembly
- . x86 asm : making mistakes 
-   . learning modes
 
 Health / Immun. : 
  . Wardenburg : screening test - skin test or blood test 

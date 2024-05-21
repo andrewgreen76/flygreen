@@ -1,8 +1,16 @@
 
+hw ; --logisim-- ; --cust emu-- :
+ . gfx ctrlr built into the screen
+ . gfx ctrlr/GPU built onto a board ? 
 What happens to the hardware of the host machine when it runs an assembly program?
 Finding something addictive :
  . exercises 
-   . learning modes
+   . modes :
+     (1) (How do we know which mode it is based on the instr ? )
+     (2) (How is the mode supported using instr bit fields ? ) 
+     . immediate  : operand is within the instruction
+     . register	  : dest_reg <- src_reg (both specd in instr)
+     . implicit	  : standalone ; 
    ? Turing Machine (Turing-complete) ? 
    . GAS (over NASM)
  . below assembly :
@@ -22,13 +30,11 @@ Health / Immun. :
 -> ASAP : Buff OneCard photo deadline 
 
 ==========================================================================================================================================================
-ONLINE XP
--> Enrolling in classes module (end of challenge)
--> UEACAdvising@colorado.edu : 
-   . best time for an enrollment window
-   . what is the window like
-   . group advising session ?
-   . ? Local - Where you will be physically located while accessing CU classes/course content this semester ? 
+UEACAdvising@colorado.edu : 
+ . best time for an enrollment window
+ . what is the window like
+ . group advising session ?
+ . ? Local - Where you will be physically located while accessing CU classes/course content this semester ? 
 -> (ONCE) enrollment window 
 
 ==========================================================================================================================================================

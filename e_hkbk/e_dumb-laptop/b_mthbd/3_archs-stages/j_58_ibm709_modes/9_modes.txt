@@ -1,0 +1,9 @@
+
+Modes - exercises : 
+  (1) (How do we know which mode it is based on the instr bit fields ? )
+  (2) (How is the mode supported using instr bit fields ? ) 
+  . immediate  : operand is within the instruction
+  . register   : dest_reg <- src_reg (both specd in instr)
+  . implicit   : standalone ; 
+
+_

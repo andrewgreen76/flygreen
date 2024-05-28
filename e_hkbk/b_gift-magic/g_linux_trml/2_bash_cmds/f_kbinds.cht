@@ -1,5 +1,35 @@
 
-C-c_to_ditch_cmd
-C-l_to_clear
+========================================================================================
+COMMAND LINE KEYBINDINGS 
+========================================================================================
+
+C-c - ditch the current command line
+C-u - wipe the command line (works half the time) 
+C-l - clear the screen (nothing is seen but the command prompt) 
+
+========================================================================================
+COMMAND LINE / TEXT EDITING (SHARED) KEYBINDINGS 
+========================================================================================
+
+C-a - go to start of line
+C-e - go to end of line
+
+
+A-[bksp] - eat preceding word
+A-d 	 - eat following word 
+
+========================================================================================
+EMACS NAVIGATION KEYBINDINGS 
+========================================================================================
+
+C-[up] - go to the position before the preceding paragraph
+C-[dn] - go to the position after the following paragraph 
+
+A-a - go to start of paragraph
+A-e - go to end of paragraph
+
+========================================================================================
+EMACS NAVIGATION KEYBINDINGS 
+========================================================================================
 
 _

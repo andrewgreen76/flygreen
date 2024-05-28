@@ -13,7 +13,7 @@ cs   }
 --------------
 
 
-
+How does assembly work ? 
 hw ; --logisim-- ; --cust emu-- :
  . gfx ctrlr built into the screen
  . gfx ctrlr/GPU built onto a board ? 

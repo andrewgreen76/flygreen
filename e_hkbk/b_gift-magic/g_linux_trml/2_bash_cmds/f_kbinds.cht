@@ -18,6 +18,10 @@ C-e - go to end of line
 A-[bksp] - eat preceding word
 A-d 	 - eat following word 
 
+
+A-u - change the following word to uppercase
+A-l - change the following word to lowercase 
+
 ========================================================================================
 EMACS NAVIGATION KEYBINDINGS 
 ========================================================================================
@@ -27,9 +31,5 @@ C-[dn] - go to the position after the following paragraph
 
 A-a - go to start of paragraph
 A-e - go to end of paragraph
-
-========================================================================================
-EMACS NAVIGATION KEYBINDINGS 
-========================================================================================
 
 _

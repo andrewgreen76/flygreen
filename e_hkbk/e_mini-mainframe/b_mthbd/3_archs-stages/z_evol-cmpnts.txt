@@ -4,7 +4,7 @@
  . mini-mainframe	
 
 
- . SSEM : regs :
+ . SSEM : seq + IR + ACC :
    . clock generator 
    . stored program 
      . SCU (no PC/MAR/MDR yet)
@@ -13,8 +13,8 @@
    . accumulator 
 
 
- . EDSAC_asm-stor:
-0_edsac.jpg  7_isa.url	g_49_asm-flavors.txt  t_subrout.txt  x_paper-tape
+ . EDSAC : 
+	g_49_asm-flavors.txt  t_subrout.txt  x_paper-tape
 5_ints.url   9_asm.url	j_asm-addict@	      w_sec-storage
 
 9_49_mmark1_ints-inds:

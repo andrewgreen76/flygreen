@@ -1,0 +1,4 @@
+"
+The first program run on the SSEM (Small-Scale Experimental Machine) calculated the highest proper divisor of the number 2^18 (262,144). The program successfully found that the highest proper divisor of 2^18 is 131,072, which is 2^17. This successful execution marked a significant milestone in the development of stored-program computers.
+"
+_

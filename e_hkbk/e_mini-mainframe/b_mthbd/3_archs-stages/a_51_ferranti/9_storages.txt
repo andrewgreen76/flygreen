@@ -1,0 +1,8 @@
+"
+The Ferranti Mark 1, also known as the Manchester Electronic Computer (MEC), utilized the following for primary and secondary storage:
+
+1. **Primary Storage**: The primary storage of the Ferranti Mark 1 consisted of a mercury delay line memory. This memory technology used sound waves traveling through a mercury-filled tube to store and retrieve binary data. It had a capacity of around 2048 20-bit words.
+
+2. **Secondary Storage**: For secondary storage, the Ferranti Mark 1 utilized magnetic tape drives. These drives allowed the computer to store and retrieve large amounts of data sequentially on magnetic tape reels. Magnetic tape was commonly used for long-term data storage and retrieval in early computing systems due to its relatively high capacity and low cost compared to other storage technologies available at the time.
+"
+_

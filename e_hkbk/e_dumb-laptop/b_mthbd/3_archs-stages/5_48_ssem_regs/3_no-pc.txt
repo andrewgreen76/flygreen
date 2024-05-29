@@ -1,0 +1,4 @@
+"
+The Manchester Baby, while lacking a conventional program counter, relied on a different mechanism for program execution. It utilized a SEQUENCE CONTROL UNIT that incremented memory addresses sequentially to fetch and execute instructions from memory. This approach effectively served a similar purpose to a program counter, enabling the execution of stored programs on the Manchester Baby.
+"
+_

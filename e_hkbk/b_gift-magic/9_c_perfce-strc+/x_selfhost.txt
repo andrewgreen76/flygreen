@@ -1,0 +1,4 @@
+"
+Dennis Ritchie initially implemented C by writing its first compiler in assembly language for the PDP-11 computer. This early version of the C compiler translated C code into machine code for the PDP-11. Over time, the C language was improved and became capable of being self-hosted, meaning subsequent versions of the C compiler were written in C itself.
+"
+_

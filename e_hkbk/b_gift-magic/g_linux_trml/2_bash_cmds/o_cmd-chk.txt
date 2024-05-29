@@ -1,0 +1,4 @@
+
+command -v [cmd]
+
+_

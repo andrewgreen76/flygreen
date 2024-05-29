@@ -1,0 +1,72 @@
+
+ - microcode
+ - reset sequence 
+ - mini-mainframe 
+
+5_48_ssem_regs:
+0_ssem.jpg  3_no-pc.txt  6_instr-addr_mar  9_48_instr-bits.png
+2_clk-genr  5_acc	 8_instr-reg_mdr   d_48_stored-prog.txt
+
+7_49_edsac_asm-stor:
+0_edsac.jpg  7_isa.url	g_49_asm-flavors.txt  t_subrout.txt  x_paper-tape
+5_ints.url   9_asm.url	j_asm-addict@	      w_sec-storage
+
+9_49_mmark1_ints-inds:
+0_mark1.jpg    b_pc  f_mar  j_ind-regs.txt
+2_interrupts/  d_ir  h_mdr  m_stor-magdrum
+
+b_51_univac1:
+0_univac.jpg  b_own-ints
+
+d_51_whirlwind1:
+0_whirl.jpg  b_alu  m_core-mem.txt
+
+f_52_ibm701_ctrlog:
+0_701-near.jpg	5_first-mainframe    x_batch-proc.txt
+2_701-far.jpg	l_52_ctrl-logic.txt
+
+h_54_ibm704_utils:
+0_704.jpg	    9_fortran	      m_54_loaders.pdf	t_56_gm-naa-io
+5_build-pipe.txt    d_lisp	      o_ln-ldr		v_better-ints.txt
+7_54_compilers.url  g_54_linking.txt  q_relocation	x_float
+
+j_58_ibm709_modes:
+0_709.jpg	  9_modes-brkdn.txt  g_dynaddr-transl.txt
+3_instr-bits.png  d_all-modes.url
+
+  k_59_ibm1401_trsst.txt
+  
+l_59_ibm7090_krnlimg:
+0_7090.jpg  2_7094.jpg	l_2phi	o_61_ctss_kernel.txt
+
+m_61_b5000_stk-vm-privi:
+0_b5000-f.png  b_stack-machine.url   m_segm-virtmem  y_ref.url
+2_b5000-n.png  g_vm-is.url	     p_61_privi.txt
+5_about.txt    m_64_privi-modes.txt  t_atomicity
+
+n_62_m-atlas_vm-pag:
+0_atlas.jpg  g_virtm-pag
+
+o_64_ibm360_regs-gfx:
+0_360-1.jpg   5_ic	  9_64_cisc-v-risc.txt	d_link-reg     t_2250-gfx.url
+2_360-2.jpeg  7_1st-cisc  b_sp-bp		g_psw-pie.txt
+
+q_65_pdp7_mmio-unix:
+0_pdp7-n.jpg   6_mmio	       d_timeshare  m_hello.url
+2_pdp7-f.jpeg  b_one-addr-isa  g_unix.url
+
+r_66_flynn:
+5_66_flynn.url	9_simd-mimd.txt  d_12_mimd.txt
+
+s_70_pdp11_orth:
+3_orth.url  7_70_pdp11-model.url  d_c-lang  g_unix-sprt  m_orth-is
+
+t_70_uarchs:
+5_uarch-impl.url  m_any-x8/  n_any-x16/  p_any-x32-x64/  w_eu-biu/  x_ah-al.txt
+
+x_72-90s:
+9_72_c-preprcrs.txt  h_78_instr-prefixes.txt  w_97_vpu-mmx-simd.txt
+g_78_oper-modes.txt  i_87_binutils.txt
+
+y_other:
+5_asm-ide_stm32.url  b_zen  f_ahb-apb.txt  k_motorola/	y_arm-cortexm.txt

@@ -12,6 +12,7 @@ chem }
 cs   }
 --------------
 
+evolution : components 
 rei m o
 How does assembly work ? 
 hw ; --logisim-- ; --cust emu-- :

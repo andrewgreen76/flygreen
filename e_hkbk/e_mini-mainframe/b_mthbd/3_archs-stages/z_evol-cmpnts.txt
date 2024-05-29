@@ -3,9 +3,12 @@
  - reset sequence
  - mini-mainframe	
 
- - SSEM : regs:
-   - SCU for PC  6_instr-addr_mar  9_48_instr-bits.png
-2_clk-genr  5_acc	 8_instr-reg_mdr   d_48_stored-prog.txt
+ - SSEM : regs :
+   - clock generator 
+   - SCU for PC
+   9_48_instr-bits.png
+   5_acc
+   - stored program 
 
 7_49_edsac_asm-stor:
 0_edsac.jpg  7_isa.url	g_49_asm-flavors.txt  t_subrout.txt  x_paper-tape

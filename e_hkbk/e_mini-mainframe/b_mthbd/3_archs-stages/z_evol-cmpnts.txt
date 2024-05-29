@@ -1,10 +1,10 @@
 
  - microcode
- - reset sequence 
- - mini-mainframe 
+ - reset sequence
+ - mini-mainframe	
 
-5_48_ssem_regs:
-0_ssem.jpg  3_no-pc.txt  6_instr-addr_mar  9_48_instr-bits.png
+ - SSEM : regs:
+   - SCU for PC  6_instr-addr_mar  9_48_instr-bits.png
 2_clk-genr  5_acc	 8_instr-reg_mdr   d_48_stored-prog.txt
 
 7_49_edsac_asm-stor:
@@ -35,7 +35,7 @@ j_58_ibm709_modes:
 3_instr-bits.png  d_all-modes.url
 
   k_59_ibm1401_trsst.txt
-  
+
 l_59_ibm7090_krnlimg:
 0_7090.jpg  2_7094.jpg	l_2phi	o_61_ctss_kernel.txt
 
@@ -64,9 +64,11 @@ s_70_pdp11_orth:
 t_70_uarchs:
 5_uarch-impl.url  m_any-x8/  n_any-x16/  p_any-x32-x64/  w_eu-biu/  x_ah-al.txt
 
-x_72-90s:
+v_72-90s:
 9_72_c-preprcrs.txt  h_78_instr-prefixes.txt  w_97_vpu-mmx-simd.txt
 g_78_oper-modes.txt  i_87_binutils.txt
 
+     x_10-riscv
+     
 y_other:
 5_asm-ide_stm32.url  b_zen  f_ahb-apb.txt  k_motorola/	y_arm-cortexm.txt

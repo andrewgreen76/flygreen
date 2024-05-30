@@ -23,6 +23,6 @@ exec_src() {
 
 }
 
-for i in {1..10}; do
+for i in {1..1}; do
     exec_src $1
 done

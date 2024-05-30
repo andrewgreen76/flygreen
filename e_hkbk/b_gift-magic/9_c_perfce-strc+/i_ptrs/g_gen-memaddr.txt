@@ -1,0 +1,20 @@
+"
+In C, the compiler is responsible for generating memory addresses for statically-allocated variables. When you declare a statically-allocated variable, the compiler determines the memory address for that variable during the compilation process, before the program is executed.
+
+The specific mechanism by which memory addresses are assigned to statically-allocated variables can vary depending on factors such as the compiler, the target architecture, and the optimization settings. However, the general process involves:
+
+1. **Memory Layout**: The compiler typically divides memory into different sections, such as the stack, heap, and static memory.
+
+2. **Static Memory Allocation**: Statically-allocated variables are allocated memory in the static memory section. These variables have fixed memory addresses determined at compile-time.
+
+3. **Address Assignment**: The compiler assigns memory addresses to statically-allocated variables based on the order of declaration, the size of the variables, alignment requirements, and any optimization strategies employed by the compiler.
+
+4. **Linker**: In the case of multi-source file projects, the linker may resolve the final memory addresses of statically-allocated variables across different compilation units.
+
+5. **Executable Generation**: Finally, the compiler generates machine code that includes instructions to access the memory addresses of statically-allocated variables at runtime.
+
+It's important to note that the actual memory addresses assigned to statically-allocated variables may vary between different executions of the program, as they depend on factors such as the program's environment, memory layout, and other runtime conditions. However, these addresses are fixed during the execution of a particular instance of the program.
+
+In summary, C compilers are responsible for generating memory addresses for statically-allocated variables during the compilation process, based on various factors such as memory layout, variable size, alignment requirements, and optimization strategies.
+"
+_

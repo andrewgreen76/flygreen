@@ -1,5 +1,4 @@
 
-Call CEAS 
 EE  : PES (start over) -> EE  -> 
 CSE : CE -> grad       <- 3.0 
 
@@ -13,6 +12,7 @@ chem }
 cs   }
 --------------
 
+trap vs. interrupt vs. exception 
 first hardware interrupts - 1103a 
 first software interrupts
 exception handling

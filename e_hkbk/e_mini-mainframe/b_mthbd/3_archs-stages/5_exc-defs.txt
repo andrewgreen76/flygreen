@@ -1,0 +1,22 @@
+
+Exception :
+ . a special condition/event the hardware has to respond to 
+
+
+Interrupt :
+ . asynchronous (independent external intervention) 
+ => UNEXPECTED 
+ . hardware-based
+ . I/O 
+
+
+Trap :
+ . synchronous
+ => PROGRAMMED 
+ . software-based 
+ . responds to events of :
+   . arithmetic error
+   . system call
+   . illegal memory access 
+
+_

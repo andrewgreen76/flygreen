@@ -44,7 +44,7 @@ Exception
 Division by zero
 Value won't fit
 Button press
-Illegal mem.axs
+Illegal memory access
 
 
 An interrupt signals some kind of a condition/event.

@@ -1,0 +1,82 @@
+
+========================================================================================
+WHAT IS AN EXCEPTION :
+========================================================================================
+
+ . a condition/event the hardware or the system has to respond to
+
+"
+1. **Integer Overflow**: An arithmetic operation produces a value exceeding the maximum representable value for the given data type.
+2. **Divide by Zero**: Attempting to divide a number by zero.
+3. **Null Pointer Dereference**: Accessing memory through a null pointer.
+4. **Segmentation Fault**: Accessing memory outside of the allocated range.
+5. **Stack Overflow**: Exceeding the stack size limit, typically due to deep or infinite recursion.
+6. **Arithmetic Underflow**: An arithmetic operation results in a number too small to be represented.
+7. **Buffer Overflow**: Writing data beyond the boundaries of allocated memory.
+8. **Access Violation**: Attempting to read or write to a restricted area of memory.
+9. **Invalid Opcode**: Executing an instruction that the processor does not recognize.
+10. **Page Fault**: Accessing a page of memory that is not currently mapped to the virtual address space.
+11. **Bus Error**: A fault resulting from an invalid physical address or other memory access issues.
+12. **Floating Point Exception**: Errors in floating-point arithmetic, such as overflow, underflow, division by zero, or invalid operations.
+13. **Illegal Instruction**: Attempting to execute an instruction that is not allowed.
+14. **Alignment Fault**: Accessing data that is not properly aligned in memory.
+15. **Timeout**: An operation exceeds the allowed time limit.
+16. **Privileged Instruction**: Attempting to execute an instruction that is reserved for the operating system or other privileged code.
+17. **Hardware Failure**: Issues due to hardware malfunction.
+18. **I/O Error**: Errors during input/output operations, such as disk read/write failures.
+19. **Segmentation Fault**: Accessing memory in a way that is disallowed by the operating system (common in C/C++ programming).
+"
+
+ . overflow - an attempt to store a number that is too large for a register/memory address 
+ . underflow - an attempt to store a number that is too small for a register/memory address
+   (typically occurring in floating-point arithmetic) 
+
+
+========================================================================================
+WHAT IS AN INTERRUPT :
+========================================================================================
+
+
+------------------- Trap -------------------
+Occurrence	-> trigger	-> response 
+Event     	   interrupt  	   handling
+Exception
+Division by zero
+Value won't fit
+Button press
+Illegal mem.axs
+
+
+An interrupt signals some kind of a condition/event.
+
+
+Every interrupt should be handled, or responded to - with an interrupt handler,
+a.k.a. an ISR (an interrupt service routine). 
+
+
+========================================================================================
+TYPES OF INTERRUPTS :
+========================================================================================
+
+
+Hardware interrupt :
+ . triggered by : 
+   . a peripheral [I/O , NIC]
+   . a timer
+   . debug module
+   . signal (ergo, hardware interrupt) 
+ => asynchronous (UNEXPECTED , independent external event/intervention) 
+
+
+Software interrupt  = TRAP :
+ . triggered by
+   . instruction
+   . system call 
+ . requests for :
+   . OS services
+   . device driver interaction 
+ => synchronous (PROGRAMMED) 
+   . originates where control signals are (CU)
+   . triggered after the execution of an instruction 
+
+_

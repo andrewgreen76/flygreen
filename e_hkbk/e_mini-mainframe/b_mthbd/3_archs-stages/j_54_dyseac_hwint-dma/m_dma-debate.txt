@@ -1,0 +1,12 @@
+"
+The DYSEAC also appears to be the first computer to provide DMA, although IBM was granted a patent for DMA cycle-stealing on the SAGE system (US 3,319,230 Astrahan, et al., "Data Processing Machine Including Program Interrupt Feature," filed Sept. 1956 and granted May 1967). (The SAGE project started in 1952, and I cannot yet determine the date of the first use of DMA in the design.)
+
+    Knuth states, "The DYSEAC computer ... introduced the idea of input-output devices communicating directly with memory while a program is running, then interrupting the program upon completion." [D.E. Knuth. The Art of Computer Programming. Volume 1, Fundamental Algorithms. (2nd ed.) Reading, MA: Addison-Wesley, 1973. Section 1.4.5, pp. 225-227.]
+
+    ... versus ...
+
+    Jacobs states "the input/output (I/O) break, or memory cycle stealing," was introduced in SAGE [J.F. Jacobs, The SAGE Air Defense System - A Personal History. Bedford, MA: MITRE Corp., 1986.]
+
+    Serrell, et al., identify "computation in parallel with I/O" as a significant new feature of SAGE. [R. Serrell, M.M. Astrahan, G.W. Patterson, and I.B. Pyne, "The Evolution of Computing Machines and Systems," Proc. IRE, vol. 50, no. 5, May 1962, pp. 1039-1058.] 
+"
+_

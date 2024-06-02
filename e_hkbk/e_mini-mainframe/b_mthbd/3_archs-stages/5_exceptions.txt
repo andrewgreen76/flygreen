@@ -37,7 +37,12 @@ WHAT IS AN INTERRUPT :
 ========================================================================================
 
 
-------------------- Trap -------------------
+A signal triggered by an exception (an event) and informing the hardware or the system
+that something must be handled.
+
+For every exception there should be an interrupt and a way to handle it - an interrupt handler,
+a.k.a. an ISR (an interrupt service routine). 
+
 Occurrence	-> trigger	-> response 
 Event     	   interrupt  	   handling
 Exception
@@ -47,36 +52,42 @@ Button press
 Illegal memory access
 
 
-An interrupt signals some kind of a condition/event.
-
-
-Every interrupt should be handled, or responded to - with an interrupt handler,
-a.k.a. an ISR (an interrupt service routine). 
-
-
 ========================================================================================
-TYPES OF INTERRUPTS :
+HARDWARE INTERRUPT :
 ========================================================================================
 
 
-Hardware interrupt :
+ . asynchronous (UNEXPECTED , independent external event/intervention) 
+ . may be a misnomer as not all asynchronous interrupts are strictly hardware 
+
+
  . triggered by : 
-   . a peripheral [I/O , NIC]
+   . a peripheral (I/O)
+     . button press
+     . NIC 
    . a timer
    . debug module
-   . signal (ergo, hardware interrupt) 
- => asynchronous (UNEXPECTED , independent external event/intervention) 
 
 
-Software interrupt  = TRAP :
+Attempt to interact -> INTERRUPT -> hardware response 
+
+
+========================================================================================
+SOFTWARE INTERRUPT = TRAP :
+========================================================================================
+
+
  . triggered by
-   . instruction
-   . system call 
- . requests for :
-   . OS services
+   . OS service request 
+   . an error (e.g., overflow , DIV/0 , illegal memory access) 
+   . suspicious process behavior (OS trap for the kernel mode) 
    . device driver interaction 
+   . an instruction (e.g., system call)
  => synchronous (PROGRAMMED) 
    . originates where control signals are (CU)
    . triggered after the execution of an instruction 
+
+
+Process execution -> exception thrown -> TRAP -> kernel mode 
 
 _

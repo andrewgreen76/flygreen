@@ -1,0 +1,4 @@
+"
+The UNIVAC 1103A, an early computer from the 1950s, did not have a conventional interrupt system as found in modern computers. Instead, it utilized a mechanism called "programmed control" for handling input and output operations. This method required the CPU to actively check (or poll) the status of peripheral devices at specific points in the program to determine if they needed attention, rather than being interrupted asynchronously by hardware signals. This approach ensured that the CPU managed I/O operations without relying on a separate interrupt system.
+"
+_

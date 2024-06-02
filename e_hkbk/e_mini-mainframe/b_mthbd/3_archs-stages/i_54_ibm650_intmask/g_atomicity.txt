@@ -1,0 +1,4 @@
+"
+The purpose of interrupt masking is to prevent the CPU from being interrupted by certain interrupts during critical sections of code, ensuring that important tasks are completed without interruption.
+"
+_

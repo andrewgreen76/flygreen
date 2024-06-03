@@ -1,0 +1,4 @@
+"
+The UNIVAC 1103A featured a specialized "wind tunnel interrupt" designed to handle high-speed data acquisition from wind tunnel experiments by temporarily halting the main program to process incoming data quickly and efficiently.
+"
+_

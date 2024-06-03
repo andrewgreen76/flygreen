@@ -1,0 +1,12 @@
+"
+IBM 704 (1955) - debugging feature called "transfer trapping"
+
+    Branches/jumps were called "transfers" in the 704.
+
+    In trapping mode, when the control decoded an unconditional transfer instruction or a conditional transfer instruction that would be taken, the target address of the transfer instruction would be placed instead in the address field bits of the instruction in location 0 and then the program counter would be set to the value 1.
+
+    The instruction in location one would be ttr (trap transfer), which was the single unconditional transfer that was immune to the trapping mode. Thus the original program could be resumed by branching back to location 0 and then to the target address (by executing the ttr instruction in location 0).
+
+    Trapping mode was entered by the etm (enter trapping mode) instruction; trapping mode was exited by the ltm (leave trapping mode) instruction or by manually pressing the clear or reset buttons on the console. 
+"
+_

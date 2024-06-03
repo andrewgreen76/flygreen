@@ -1,0 +1,8 @@
+"
+Open source intelligence is the collection and analysis of data gathered from open sources to produce actionable intelligence.
+"
+
+"
+OSINT, or Open Source Intelligence, refers to the process of collecting and analyzing information from publicly available sources to support decision-making in areas such as national security, business intelligence, and law enforcement.
+"
+_

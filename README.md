@@ -50,20 +50,17 @@ Assembly :
 
 DIY project : building my own dumb laptop / motherboard
  |
- . exceptions , interrupts , traps 
+ . the history of exceptions , interrupts , traps 
  . 1940s-1960s computers , architectures , operating systems , innovations
  . Intel syntax vs. AT&T syntax 
  . evolution of compilers , assemblers , linkers/loaders 
  . assembly language flavors
- . instruction (addressing) modes 
+ . x86 instruction (addressing) modes 
  . assembly language prefixes
  . the Manchester Baby , the first stored program , program images 
  . memory (wide) protection , protected mode , virtual memory support 
  . paged memory 
- . addressing modes in x86
  . instruction queue/decode buffer
- . the history of interrupts
- . the history of BIOS
  |
  . control logic bits/signals in x86 , ARMv8.
  |

@@ -1,0 +1,8 @@
+"
+The IBM 701, introduced in 1952, was the first mainframe architecture to support an operating system, known as the IBM 701 Monitor. This system managed job scheduling and basic input/output operations, laying the groundwork for more sophisticated operating systems in subsequent mainframes.
+"
+
+"
+However, it's important to note that earlier systems, such as the UNIVAC I (introduced in 1951), had basic supervisory programs to handle input/output operations and job sequencing, but these were not fully developed operating systems as we understand them today. The development of more fully-featured operating systems evolved with subsequent mainframes.
+"
+_

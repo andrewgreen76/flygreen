@@ -1,0 +1,4 @@
+"
+Breadboards, as used in electronics for prototyping and testing circuits, were invented in the 1970s. The modern plastic, solderless breadboard was developed by Ronald J. Portugal, who filed a patent for it in 1971.
+"
+_

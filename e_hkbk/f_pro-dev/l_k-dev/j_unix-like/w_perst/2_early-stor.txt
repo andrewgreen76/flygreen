@@ -1,0 +1,7 @@
+
+ . punch cards 
+ . magnetic drum 
+ . floppy disks
+ . cartridges 
+
+_

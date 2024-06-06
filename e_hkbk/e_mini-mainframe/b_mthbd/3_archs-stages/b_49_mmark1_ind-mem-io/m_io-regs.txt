@@ -1,0 +1,6 @@
+
+Registers for communicating with peripheral devices : 
+ . input register
+ . output register 
+
+_

@@ -1,6 +1,0 @@
-
- . a pair of index registers
- . modifying addresses : 
-   . manipulating arrays , data structures , loops 
-
-_

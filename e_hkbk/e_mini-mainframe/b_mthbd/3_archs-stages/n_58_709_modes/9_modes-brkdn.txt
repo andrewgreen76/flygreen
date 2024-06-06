@@ -6,10 +6,11 @@ MODES :
   (1) (How do we know which mode it is , based on the instr bit fields ? )
   (2) (How is the mode supported using instr bit fields ? )
   (3) (What instructions follow this mode ? ) 
-  . immediate  : operand is within the instruction
-    . mov eax, 10
+  . immediate  : operand is within the instruction 
+    . mov eax, 10 
   . register   : dest_reg <- src_reg (both specd in instr)
-  . implicit   : standalone 
+  . implicit   : standalone
+  . indexed    : 
   . abs/direct : LEA -> JMP
   . PC-relative: JMP_REL offset
   . reg.indir  : JMP reg
@@ -20,6 +21,6 @@ MODES :
 ABOUT LEA : 
 ========================================================================================
 
- . 
+ . Load Effective Address 
 
 _

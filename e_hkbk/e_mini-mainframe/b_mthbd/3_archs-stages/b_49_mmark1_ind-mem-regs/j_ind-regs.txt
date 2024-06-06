@@ -1,0 +1,27 @@
+
+ . come in pairs - source (SI) and destination (DI)
+
+
+========================================================================================
+USES : 
+========================================================================================
+
+Main : 
+ . modifying operand addresses : 
+   . manipulating arrays , data structures , loops
+
+General-purpose : 
+ . mathematical operations 
+ . string operations	   
+
+
+============================================================================================================================================================
+
+"
+An index register is a type of register in a computer's CPU used to modify operand addresses during the execution of a program, typically for operations involving arrays, loops, and other repetitive processes. By adding the contents of the index register to the base address of an instruction, the CPU can efficiently access a sequence of memory locations.
+
+Here’s a concise definition:
+
+**Index Register**: A CPU register that holds an index value used to modify operand addresses during program execution, facilitating efficient access to sequential memory locations in loops and arrays.
+"
+_

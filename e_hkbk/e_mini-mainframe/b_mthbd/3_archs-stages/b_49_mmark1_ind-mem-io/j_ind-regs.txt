@@ -6,9 +6,12 @@
 USES : 
 ========================================================================================
 
-Main : 
- . modifying operand addresses : 
-   . manipulating arrays , data structures , loops
+Main - modifying operand addresses : 
+ . manipulating arrays , data structures , loops
+ . effective address (EA)
+   . mem_addr of interest (and manipulation)
+   . EA = base + SI
+   . base is treated as a constant , SI is not 
 
 General-purpose : 
  . mathematical operations 

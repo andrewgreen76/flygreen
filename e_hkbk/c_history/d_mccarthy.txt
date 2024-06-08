@@ -1,7 +1,0 @@
-
- . Lisp
- . AI
- . time-sharing systems
- . Garbage Collection 
-
-_

@@ -3,18 +3,27 @@ PDFs :
  . Whirlwind: The History of a Pioneer Computer
  . A History of Computing in the Twentieth Century 
 
-COA :
- . COL :	month		year
-   . rent      - $2,500		$30,000 
-   . utilities - $250		$3,000
-   . food      - $1,200		$14,400
-   . materials - $67		$800
-   . CC cover  - $1334		$16,000 
- . tuit/fees   - $5,500		$66,000
-				$131,000	is amt to loan. 
-books - PDFs for every class 
+COA : 	     BEST-CASE SCENARIO						WORST-CASE SCENARIO 
+ . COL :	month		year					month	   year
+   . rent      - $2,500		$30,000 				$1,300	   $15,600
+   . utilities - $250		$3,000					$250	   $3,000
+   . food      - $1,200		$14,400					-	   -
+   . materials - $67		$800					-	   -	
+   . CC cover  - $1334		$16,000 				-	   -
+ . tuit/fees   - $5,500		$66,000					$5,500	   $66,000 
+				$131,000	is amt to loan. 		   $85,000
 check out rental places 
+ . 720-414-1446 / https://ralphieslist.colorado.edu/housing/property/steps-from-campus-university-village-at-boulder-creek/ocp69nl42t
+ . (720) 897-0025 / https://ralphieslist.colorado.edu/housing/property/777-broadway/ocp5whtq8n
+ . (719) 377-0148 / https://ralphieslist.colorado.edu/housing/property/3050-madison-ave-apt-5/ocpn6w6r2m
 
+ . lodging 
+ -> find work thru CU Boulder resources 
+ -> proof of income
+ -> residence
+
+===============================================================
+books - PDFs for every class 
 ===============================================================
  . OS :
 ---------------------------------------------------------------

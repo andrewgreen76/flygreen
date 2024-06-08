@@ -1,4 +1,0 @@
-"
-In Princeton architecture, a common bus is used for data and instructions. While in Harvard architecture separate set of buses is used for transferring the data and instruction fetching as two separate memory units exist here.
-"
-_

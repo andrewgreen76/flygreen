@@ -3,6 +3,8 @@
 MULTIPLE SEQUENCE AND INTERRUPTS : 
 ========================================================================================
 
+A sequence (subroutine) can fire off an interrupt to trigger another sequence (i.e., context switching). 
+
 "
 In a multiple-sequence system like the Lincoln Laboratory TX-2, interrupts are used to efficiently switch between different sequences of instructions or tasks by pausing the current sequence, handling an interrupt, and then resuming or switching to another sequence, thereby enabling multitasking and responsive computing.
 "

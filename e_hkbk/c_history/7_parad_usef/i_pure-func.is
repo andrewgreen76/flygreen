@@ -1,0 +1,19 @@
+
+A pure function is a function that, given the same input, always produces the same output and has no side effects. Let's break down these characteristics:
+
+1. Same input, same output: A pure function returns a result based solely on its input parameters. It does not depend on any external state that could change over time. For example, if you pass the value 5 to a pure function, it will always return the same result, regardless of when or how many times you call it.
+
+2. No side effects: A pure function does not modify any state outside of its own scope. It does not alter global variables, modify data structures, perform I/O operations, or have any observable effects beyond its return value. This ensures that calling a pure function does not have unintended consequences on other parts of the program.
+
+By adhering to these principles, pure functions have several benefits:
+
+1. Referential transparency: Since pure functions always produce the same output for the same input, they can be replaced with their result (referentially transparent). This property enables easier reasoning about code, simplifies debugging, and allows for program optimization.
+
+2. Testability: Pure functions are easy to test because they have no dependencies on external state. You can test them in isolation by providing specific input values and asserting the expected output.
+
+3. Modularity: Pure functions can be composed together to build more complex functions and systems. Since they have no side effects, they are predictable and can be safely combined without unexpected interactions.
+
+4. Concurrency: Pure functions are inherently thread-safe because they do not rely on shared mutable state. They can be executed concurrently without concerns of race conditions or data corruption.
+
+It's important to note that not all functions in a programming language need to be pure. Sometimes, side effects and mutable state are necessary for practical reasons, such as I/O operations or stateful computations. However, embracing pure functions where possible can lead to more maintainable and predictable code.
+

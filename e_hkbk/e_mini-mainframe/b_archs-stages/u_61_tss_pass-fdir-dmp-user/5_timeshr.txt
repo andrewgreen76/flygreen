@@ -1,12 +1,9 @@
 
- . multiple tasks
-   . some of which can be
-
- . user
-   . tty interfaces with memory
- 
+ . multiple tasks (soon-to-be processes)
+   . some of which can represent tty users/accounts interfacing via computer system memory 
  . sharing CPU in round-robin manner
- => 
+ => early form of CPU virtualization 
+
 
 ====================================================================================================================================================
 

@@ -15,14 +15,15 @@ DISTINCTIVE FEATURES :
 
  . supported (three) user accounts
    . 27K mem support for all users total 
-   . 5K mem support for supervisor mode (OS) 
+   . 5K mem support for supervisor mode (OS)
+   . PASSWORDS 
 
  . tape unit with system commands 
 
 Every user had : 
  . flexowriter (typing console)
  . two tape units
-   (1) file directory (system)
+   (1) file directory 
    (2) core dump file ("error log") for debugging purposes 
 
 _

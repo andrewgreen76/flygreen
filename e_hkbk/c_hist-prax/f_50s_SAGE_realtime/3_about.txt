@@ -12,6 +12,9 @@
  => not a computer , but a system that ties computers and other devices together in one network
  |
  |
+ . faster than batch processing 
+ |
+ |
  . computer / architecture : IBM AN/FSQ-7 
 
 _

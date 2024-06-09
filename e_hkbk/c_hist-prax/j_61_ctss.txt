@@ -1,0 +1,6 @@
+
+ . computer / architecture :
+   . IBM 7090 
+   . IBM 7094 
+
+_

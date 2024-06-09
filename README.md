@@ -50,11 +50,10 @@ Assembly :
 
 DIY project : building my own dumb laptop / motherboard
  |
- . 1940s-1960s : early interrupts , multiple-sequence , time-sharing , SAGE 
+ . 1940s-1960s :
+   . early interrupts , multiple-sequence , time-sharing , SAGE , CTSS , Multics 
  . the history of exceptions , interrupts , traps 
- . Intel syntax vs. AT&T syntax 
  . evolution of compilers , assemblers , linkers/loaders 
- . assembly language flavors
  . x86 instruction (addressing) modes 
  . assembly language prefixes
  . the Manchester Baby , the first stored program , program images 

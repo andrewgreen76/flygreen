@@ -1,0 +1,5 @@
+
+ . "automat[ing] the execution of a series of jobs without manual intervention"
+ . much-needed and frequently-used instructions / operations were programmed on punchcards
+ 
+_

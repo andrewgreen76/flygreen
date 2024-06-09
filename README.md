@@ -51,7 +51,8 @@ Assembly :
 DIY project : building my own dumb laptop / motherboard
  |
  . 1940s-1960s :
-   . early interrupts , multiple-sequence , time-sharing , SAGE , CTSS , Multics 
+   . early interrupts , transfer trapping , multiple-sequence , timesharing ,
+     SAGE , CTSS , Multics , supervisory program , batch processing 
  . the history of exceptions , interrupts , traps 
  . evolution of compilers , assemblers , linkers/loaders 
  . x86 instruction (addressing) modes 

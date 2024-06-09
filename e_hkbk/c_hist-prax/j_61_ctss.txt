@@ -5,6 +5,11 @@
 
 
  . "The “compatible” term referred to an old 709 batch processing system that it emulated to facilitate migration to the new world of timesharing."
- . batch-processing -> (compatible) time-sharing 
+ |
+ |
+ . batch-processing -> (compatible) time-sharing
+
+
+ . supported user accounts 
 
 _

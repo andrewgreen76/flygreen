@@ -1,0 +1,54 @@
+
+Safety is : 
+ . lack of exposure of memory or program control/flow to any sort of potential harm (e.g., errors/exceptions and exploits) 
+ . ensuring such a state
+
+Harm can be : 
+ . intentional 
+ . accidental 
+
+Examples of errors / exceptions : 
+ . integer overflow
+ . BUFFER OVERFLOW
+ . goto statements
+
+Methods of exploiting exceptions :
+ . BUFFER OVERFLOW
+   . overwriting a return address
+   . memory sled to the address of a malicious program/script 
+
+======================================================================================================================================================
+
+"
+In the context of computing, safety refers to the protection of computer systems, networks, and data from accidental harm, malfunction, or unintended behaviors that could lead to failures or unsafe conditions. Safety focuses on ensuring that systems operate correctly and securely without causing harm to people, data, or equipment, particularly in environments where failures could have serious consequences.
+
+Key aspects of safety in computing include:
+
+1. **Reliability**: Ensuring that systems perform their intended functions consistently and without failure over time.
+   
+2. **Fault Tolerance**: Designing systems to continue functioning correctly even when part of the system fails.
+
+3. **Error Detection and Correction**: Implementing mechanisms to detect and correct errors in data processing and transmission.
+
+4. **Data Integrity**: Protecting data from corruption or accidental alteration.
+
+5. **Access Control**: Ensuring that only authorized users and processes can access certain data or system functionalities to prevent accidental misuse.
+
+6. **Fail-Safe Mechanisms**: Designing systems to default to a safe state in the event of a failure or error.
+
+7. **Redundancy**: Using redundant components or systems to provide backup in case of failure.
+
+8. **Validation and Verification**: Rigorous testing and validation processes to ensure systems behave as expected under all conditions.
+
+9. **Standards Compliance**: Adhering to industry standards and best practices to ensure safety and reliability.
+
+10. **Monitoring and Logging**: Keeping detailed records of system operations and monitoring for any signs of malfunction or misuse.
+
+In safety-critical systems, such as those used in healthcare, aviation, automotive, and industrial control systems, ensuring safety is of paramount importance. Failures in these environments can lead to significant harm, so extensive measures are taken to design, implement, and maintain systems with high safety standards.
+"
+
+======================================================================================================================================================
+
+ALGOL 68 secure programming language.
+
+_

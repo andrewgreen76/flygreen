@@ -1,4 +1,8 @@
 
+========================================================================================
+FIRST RECORDED INSTANCES OF VARIOUS TYPES OF VULNERABILITY EXPLOITS : 
+========================================================================================
+
  . c. 1970 : information disclosure 
    . "... exploring the capabilities of networked computing, without the security measures
       that are commonplace today. This experimental environment led to instances of unintentional
@@ -62,4 +66,24 @@
    . "a malicious website coerced a user's browser to make unauthorized requests to another site
       where the user was authenticated" 
 
+========================================================================================
+KEVIN MITNICK AND ARPANET : 
+========================================================================================
+
+"
+... the 1980 incident involving the ARPANET, the precursor to the modern internet. This breach was carried out by a group of high school students from Los Angeles, who managed to gain unauthorized access to ARPANET using simple password-guessing techniques.
+
+In 1980, these students, led by a teenager named Kevin Mitnick, exploited weak passwords and poor security practices to break into ARPANET, accessing several military and research computer systems. Their activities were eventually discovered, leading to increased awareness of the need for stronger security measures in computer networks. This incident marked one of the earliest examples of a computer system security breach and highlighted the importance of securing computer networks against unauthorized access.
+"
+
+========================================================================================
+HANNOVER HACKERS : 
+========================================================================================
+
+"
+... the 1986 incident involving the hacking group known as the "Hannover Hackers," particularly Clifford Stoll's experience detailed in his book *The Cuckoo's Egg*. This group of German hackers, including Markus Hess, infiltrated various military and research systems in the United States, exploiting vulnerabilities in those systems.
+
+Markus Hess, one of the hackers, breached systems at the Lawrence Berkeley National Laboratory and other sensitive locations. The hackers' activities were not just unauthorized but also dangerous, as they accessed systems that controlled critical infrastructure and contained sensitive information. Stoll, an astronomer turned systems administrator, discovered the intrusion and meticulously tracked down the hackers, eventually leading to their identification and prosecution. This case highlighted the vulnerabilities of computer systems and the potential dangers of unauthorized access, marking a significant moment in the history of cybersecurity.
+"
+ 
 _

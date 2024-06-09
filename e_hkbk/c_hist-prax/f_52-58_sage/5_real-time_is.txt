@@ -1,0 +1,9 @@
+"
+A real-time SYSTEM is one that processes data and provides responses within a guaranteed time frame, often instantly, to ensure timely and deterministic performance.
+"
+
+ . the key phrase here is "quick response"
+ . typically related to embedded systems (think sensors)
+ . not a computer , but a system that ties computers and other devices together in one network 
+
+_

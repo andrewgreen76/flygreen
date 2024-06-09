@@ -2,6 +2,7 @@
  . computer / architecture :
    . IBM 7090 
    . IBM 7094
+   . PDP-1
 
 
  . "compatible" : meant to allow transitioning

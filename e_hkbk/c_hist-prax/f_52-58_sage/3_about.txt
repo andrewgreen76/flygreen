@@ -1,9 +1,17 @@
 
  . Semi-Automatic Ground Environment
  . an air defense system
-
+ |
+ |
  . considered to be the first real-time system
- . "SAGE was a real-time system because it continuously processed radar data and provided
-    immediate responses to track and intercept potential air threats instantaneously."
+ . Why is it a real-time system ?
+ | . "SAGE was a real-time system because it continuously processed radar data and provided
+ |    immediate responses to track and intercept potential air threats instantaneously."
+ |
+ |
+ => not a computer , but a system that ties computers and other devices together in one network
+ |
+ |
+ . computer / architecture : IBM AN/FSQ-7 
 
 _

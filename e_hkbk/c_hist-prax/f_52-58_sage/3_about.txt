@@ -1,0 +1,9 @@
+
+ . Semi-Automatic Ground Environment
+ . an air defense system
+
+ . considered to be the first real-time system
+ . "SAGE was a real-time system because it continuously processed radar data and provided
+    immediate responses to track and intercept potential air threats instantaneously."
+
+_

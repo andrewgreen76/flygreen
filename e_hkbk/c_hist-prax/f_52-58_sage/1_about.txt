@@ -1,7 +1,0 @@
-
- . Semi-Automatic Ground Environment
- . an air defense system
-
- . considered to be the first real-time system 
-
-_

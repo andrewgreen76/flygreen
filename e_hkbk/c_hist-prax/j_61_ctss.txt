@@ -4,12 +4,24 @@
    . IBM 7094
 
 
- . "The “compatible” term referred to an old 709 batch processing system that it emulated to facilitate migration to the new world of timesharing."
- |
- |
- . batch-processing -> (compatible) time-sharing
+ . "compatible" : meant to allow transitioning
+   . 709 batch processing system -> timesharing
 
 
- . supported user accounts 
+========================================================================================
+DISTINCTIVE FEATURES : 
+========================================================================================
+
+ . supported (three) user accounts
+   . 27K mem support for all users total 
+   . 5K mem support for supervisor mode (OS) 
+
+ . tape unit with system commands 
+
+Every user had : 
+ . flexowriter (typing console)
+ . two tape units
+   (1) file directory (system)
+   (2) core dump file ("error log") for debugging purposes 
 
 _

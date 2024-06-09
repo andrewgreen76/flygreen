@@ -1,0 +1,7 @@
+
+ . supervisory program
+ . a.k.a. supervisor
+ 
+ . the precursor to OS/kernel 
+
+_

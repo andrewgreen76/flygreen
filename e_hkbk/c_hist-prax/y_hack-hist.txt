@@ -1,0 +1,103 @@
+"
+History of Computer Hacking and Cybersecurity Threats: From the 50s to Today
+April 21, 2023
+
+Hacking has gone through several eras over the years, each with its own unique characteristics and motivations. Understanding the history of computer hacking is important for understanding its impact on technology and society, the current state of cybersecurity, and for developing effective strategies for protecting against cyber threats.
+
+In this post, we will explore the history of computer hacking and cybersecurity threats from the 1950s to present day. In our next post, we will also further explore the techniques hackers use to penetrate systems and what you can do for defense in your organization.
+
+ 
+Early Computer Hacking: 1950s & 1960s
+
+Hacking is a term that has been used to describe unauthorized access to computer systems or networks for various purposes, including stealing data, causing damage, or demonstrating security vulnerabilities. However, hacking did not always involve computers or networks, and its history is much older than the internet era. 
+
+The term "hacker" was first used to refer to computer hacking at the Massachusetts Institute of Technology (MIT) in the late 1950s. “Hacker” referred to people who explored the limits of computer technology and found ways to modify or improve computer hardware and software. In the early days of computing, hacking was more about curiosity and experimentation than malicious intent.
+
+One of the first known instances of computer hacking occurred in the late 1950s, when a group of MIT students known as the Tech Model Railroad Club began experimenting with the school's new IBM 704 computer. The students were fascinated by the computer's ability to perform complex calculations, and they soon discovered that they could use it to control the switches and signals of the school's model railroad system.
+
+ 
+1960s 
+
+When large corporations and governments first began to adopt computer systems, cybersecurity measures were relatively lax, and hacking was largely viewed as something done ‘for fun’ rather than a serious threat. 
+
+Hackers in the 60s were mostly computer science students and researchers who wanted to explore the limits of computer technology. They were curious about how computer systems worked and wanted to experiment with them to see what they could do.
+
+Computer security was in its infancy in the 60s. The first computer password was created in 1961, when Fernando Corbató and his team at MIT created the Compatible Time-Sharing System (CTSS). To ensure that users could access only their own files and programs, the team created a system of passwords that allowed users to log in and access their personal data.
+
+ 
+1970s & 1980s: First Laws and Guidelines Created Around Computer Security
+
+During the early 1970s, hacking was still mostly a form of exploration and experimentation. There were no laws or regulations governing computer security, and many computer systems were poorly secured or not secured at all. Hackers were able to explore and experiment with these systems without fear of legal repercussions.
+
+One of the most notable figures of the hacker community in the 70s was John Draper, also known as Captain Crunch. Draper gained notoriety for his ability to manipulate the tone-based signaling used by telephone networks to make free long-distance calls. He used a toy whistle from a cereal box to mimic the tone used by the phone company to authenticate calls. Draper's exploits made him a legend in the hacking community, and he was one of the first to recognize the potential of computer networks for hacking.
+
+In 1971, the first computer virus, known as the Creeper virus, was released. The virus was created by Bob Thomas, a programmer at BBN Technologies, and it spread through the ARPANET, the precursor to the modern internet. The Creeper virus was not designed to cause harm, but it marked the beginning of a new era in computer security, where malicious software could be used to cause significant damage.
+
+Despite the increasing attention around computer security throughout the decade, the hacking community continued to grow and evolve throughout the 1970s. Groups such as the Homebrew Computer Club, which included members such as Steve Wozniak and Steve Jobs, were instrumental in advancing the field of computer technology and hacking.
+
+As computer networks became more sophisticated and the potential for malicious activity became more apparent, the government and private industry began to take notice. In 1979, the US Department of Defense created the first computer security guidelines, which established standards for securing computer systems and networks.
+
+ 
+1980s
+
+The home computer era began in the 1980s when personal computers became widely available to the general public. The introduction of affordable and accessible computers, such as the Apple II in 1977 and the IBM PC in 1981, gave hackers the tools they needed to explore computer systems on their own terms. Many hackers began experimenting with software and hardware modifications, as well as creating new tools and techniques for exploring and exploiting computer systems.
+
+This era of hacking was also characterized by the rise of hacking groups, such as the Cult of the Dead Cow and the Chaos Computer Club, a group of computer enthusiasts based in Germany. The Chaos Computer Club was known for their innovative techniques and their focus on computer security.
+
+One of the most famous examples of a hacker from this era was Kevin Mitnick, who gained notoriety for his ability to penetrate the security of some of the world's largest corporations. Mitnick was known for his social engineering skills, which he used to trick employees into divulging sensitive information or passwords.
+
+The 1980s also saw the emergence of computer viruses and malware as a significant threat to computer security. One of the most famous malware of this era was the Morris worm, which was created by a graduate student named Robert Tappan Morris Jr. in 1988. The Morris worm spread rapidly through the internet, causing significant damage to computer systems and forcing the government and private industry to take computer security more seriously. 
+
+Overall, the 1980s marked a shift to a more serious and regulated approach to computer security. In 1986, the CFAA (Computer Fraud and Abuse Act) was enacted in the United States, making it illegal to access a protected computer without authorization and prohibited the theft or destruction of data or computer programs.
+
+ 
+The Internet Era Begins: 1990s
+
+The internet era began in the 1990s when the internet became widely available to the general public. This era of hacking was characterized by a shift from individual hackers to organized cybercriminals. Hackers started using the internet to commit cybercrimes, such as stealing credit card numbers and personal information.
+
+As barriers around owning and using computers lessened, so did the barriers around hacking. The 1990s also saw the emergence of a new type of hacker: the "script kiddie". Script kiddies were hackers who relied on pre-written software tools to carry out their attacks, rather than developing their own tools and techniques. While less skilled than more experienced hackers, script kiddies were able to cause significant damage due to the widespread availability of hacking tools on the internet.
+
+In response to the growing threat of computer-related crime, The Computer Fraud and Abuse Act (CFAA) was amended in 1994 to include provisions that make it illegal to transmit harmful code or viruses, as well as to extort money through the use of a computer—and again in 1996, adding provisions aimed at addressing the growing problem of computer-related fraud.
+
+ 
+2000s 
+
+As digitization opened up new avenues for exploits, the early 2000s marked a continuation of the rise of both computer hacking and cybercrime that began in the 1990s. 
+
+Hacktivism, or the use of hacking to promote a political or social cause, also became prominent. One of the most famous hacktivist groups was Anonymous, who gained notoriety for their high-profile attacks on government and corporate websites. Anonymous used a variety of techniques, including Distributed Denial of Service (DDoS) attacks, to take down websites and disrupt online services. The group also engaged in acts of civil disobedience, and was known for its use of social media and online forums to organize and communicate with members.
+
+The early 2000s also saw the emergence of new forms of cybercrime, such as phishing and malware attacks. Phishing attacks involve sending fake emails or messages that appear to be from legitimate sources in order to trick users into giving up their personal information or login credentials. Malware attacks involve infecting computers with software that can be used to steal data, damage systems, or take control of the computer.
+
+One of the most famous examples of a malware attack occurred in 2008, when a worm called Conficker infected millions of computers around the world. Conficker exploited a vulnerability in Microsoft Windows and could be used to create a botnet, a network of infected computers that could be controlled remotely by the attacker.
+
+The late 2000s also saw the emergence of new threats to computer security, such as cyber espionage and state-sponsored hacking. These attacks were carried out by governments and other organizations seeking to steal sensitive information or disrupt the operations of their rivals. The most famous example of this was the Stuxnet worm, which was discovered in 2010 and was believed to have been created by the US and Israeli governments to sabotage Iran's nuclear program.
+
+ 
+2010-Present
+
+The years from 2010 to 2023 have seen a continued evolution of computer hacking and cybercrime, with new threats and challenges emerging as technology advances and the digital world becomes ever more intertwined with our daily lives.
+
+One of the most notable developments in the early 2010s was the rise of ransomware, a type of malware that encrypts a victim's files and demands payment in exchange for the decryption key. One of the earliest examples of ransomware was the 2013 CryptoLocker virus, which infected computers around the world and demanded payment in Bitcoin. Since then, ransomware attacks have become increasingly common, with high-profile incidents like the WannaCry attack of 2017 affecting hundreds of thousands of computers in more than 150 countries.
+
+The early 2010s also saw the growing use of social media by hackers and cybercriminals. Social media platforms like Twitter and Facebook provided a new avenue for spreading malware and phishing attacks, as well as for spreading disinformation and propaganda. Hackers and state-sponsored actors alike have used social media to launch attacks on political opponents, steal sensitive information, and influence public opinion.
+
+Another trend in the early 2010s was the increasing targeting of mobile devices by hackers. As smartphones and tablets became more ubiquitous, they also became a more attractive target for cybercriminals. Malware and phishing attacks targeting mobile devices became more common, and new vulnerabilities were discovered that could be exploited to gain access to users' personal data.
+
+The mid-2010s also saw the emergence of new threats from state-sponsored actors, particularly from Russia, North Korea, and China. These actors have been responsible for a range of attacks, including the 2014 hack of Sony Pictures Entertainment and the 2016 hack of the Democratic National Committee. These attacks demonstrated the increasing sophistication of state-sponsored hacking and the potential for such attacks to have serious political and economic consequences.
+
+In the late 2010s and early 2020s, there has been a growing focus on the security of the Internet of Things (IoT), the network of devices and sensors that are connected to the internet. As more and more devices become connected to the internet, the potential for attacks that exploit vulnerabilities in these devices grows. In 2016, the Mirai botnet, which was composed of compromised IoT devices, was responsible for a DDoS attack that took down large portions of the internet.
+
+The rise of artificial intelligence (AI) and machine learning (ML) has also created new opportunities and challenges in the field of computer security. On the one hand, AI and ML can be used to detect and prevent cyberattacks, and to identify new vulnerabilities and threats. On the other hand, they can also be used by hackers to develop more sophisticated attacks, and to develop new forms of malware and other threats.
+
+ 
+Looking Forward
+
+The history of computer hacking and cybersecurity threats is a long and complex one, with many different motivations and techniques. From the early days of exploring the limits of computer technology to the modern-day threat of cybercrime, hacking has evolved alongside the development of technology. 
+
+Despite the negative connotations associated with hacking, it is important to recognize that not all hacking is bad. "White hat" hackers, also known as ethical hackers, use their skills to identify and report security vulnerabilities to organizations, helping to improve their security posture. Many organizations now employ ethical hackers to test their systems and networks for weaknesses before they can be exploited by cybercriminals.
+
+Hacking has also had a positive impact on the development of technology. Many of the innovations in computer hardware and software have been driven by hackers who sought to push the boundaries of what was possible. The open-source movement, which has led to the development of popular software such as Linux and Apache, was also driven by hackers who believed in the power of collaboration and sharing.
+
+Looking to the future, it is clear that the field of computer hacking and cybercrime will continue to evolve and present new challenges. As new technologies emerge and the digital world becomes more intertwined with our daily lives, it is likely that the threat landscape will continue to evolve, and new eras of hacking will emerge. It is up to all of us to stay informed about the latest threats and to take steps to protect ourselves and our organizations from cyber threats.
+"
+_

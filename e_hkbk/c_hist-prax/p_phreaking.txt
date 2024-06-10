@@ -1,0 +1,4 @@
+"
+One of the most notable figures of the hacker community in the 70s was John Draper, also known as Captain Crunch. Draper gained notoriety for his ability to manipulate the tone-based signaling used by telephone networks to make free long-distance calls. He used a toy whistle from a cereal box to mimic the tone used by the phone company to authenticate calls. Draper's exploits made him a legend in the hacking community, and he was one of the first to recognize the potential of computer networks for hacking.
+"
+_

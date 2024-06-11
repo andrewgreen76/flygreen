@@ -1,0 +1,4 @@
+"
+A run queue, also known as a ready queue, is a data structure used by an operating system's scheduler to keep track of all the processes that are ready to run but are currently waiting for CPU time. Each entry in the run queue represents a process that is in the "ready" state, meaning it is waiting for its turn to be executed by the CPU. The scheduler selects processes from the run queue based on a specific scheduling algorithm to determine which process should be executed next.
+"
+_

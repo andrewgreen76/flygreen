@@ -50,6 +50,7 @@ Assembly :
 
 DIY project : building my own dumb laptop / motherboard
  |
+ . the history of phreaking 
  . 1940s-1960s :
    . early interrupts , transfer trapping , multiple-sequence , timesharing ,
      SAGE , CTSS , Multics , supervisory program , batch processing 

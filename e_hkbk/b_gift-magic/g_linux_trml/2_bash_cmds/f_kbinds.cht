@@ -3,9 +3,9 @@
 COMMAND LINE KEYBINDINGS 
 ========================================================================================
 
-C-c - ditch the current command line
-C-u - wipe the command line (works half the time) 
-C-l - clear the screen (nothing is seen but the command prompt) 
+C-c - ditch the current command line (and start a new prompt) 
+C-u - eat command line (up to text cursor position) 
+C-l - clear the screen (all is wiped but the command prompt) 
 
 ========================================================================================
 COMMAND LINE / TEXT EDITING (SHARED) KEYBINDINGS 
@@ -15,12 +15,12 @@ C-a - go to start of line
 C-e - go to end of line
 
 
-A-[bksp] - eat preceding word
-A-d 	 - eat following word 
+A-[bksp] - cut/yank preceding word
+A-d 	 - cut/yank following word 
 
 
-A-u - change the following word to uppercase
-A-l - change the following word to lowercase 
+A-u - change the following word to all uppercase
+A-l - change the following word to all lowercase 
 
 ========================================================================================
 EMACS NAVIGATION KEYBINDINGS 

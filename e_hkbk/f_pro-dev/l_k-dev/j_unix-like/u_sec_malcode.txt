@@ -45,4 +45,5 @@ Security measures :
   . this makes it difficult to write malicious code to exploit the program in any particular way
   . typically , an attack on a process under ASLR results in a crash
   . the Linux kernel ended up with its own - KASLR (kernel address space layout randomization) 
+
 _

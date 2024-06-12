@@ -6,11 +6,15 @@
 USES : 
 ========================================================================================
 
-Main - modifying operand addresses : 
- . manipulating arrays , data structures , loops
+Main - modifying operand addresses :
+ |
+ . manipulating arrays , strings , loops
+ . Accessing and manipulating strings and arrays requires
+ |
  . effective address (EA)
    . mem_addr of interest (and manipulation)
    . EA = base + SI
+     104 = 100 + 4
    . base is treated as a constant , SI is not 
 
 General-purpose : 

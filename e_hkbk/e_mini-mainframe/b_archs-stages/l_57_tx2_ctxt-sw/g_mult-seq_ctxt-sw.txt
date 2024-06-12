@@ -1,9 +1,17 @@
 
 ========================================================================================
+MULTIPLE-SEQUENCE SYSTEM : 
+========================================================================================
+
+ . just an early term for a system being able to store and run multiple tasks and switch between them
+
+========================================================================================
 MULTIPLE SEQUENCE AND INTERRUPTS : 
 ========================================================================================
 
-A sequence (subroutine) can fire off an interrupt to trigger another sequence (i.e., context switching). 
+At the occurrence of an interrupt a sequence (subroutine/task) can be suspended and give
+CPU time to another sequence - an example of context switching. 
+ => Multiple-sequence + interrupts => CONTEXT SWITCHING (for VIRTUALIZATION). 
 
 "
 In a multiple-sequence system like the Lincoln Laboratory TX-2, interrupts are used to efficiently switch between different sequences of instructions or tasks by pausing the current sequence, handling an interrupt, and then resuming or switching to another sequence, thereby enabling multitasking and responsive computing.
@@ -18,7 +26,7 @@ EXAMPLE :
 ========================================================================================
 
 "
-This "multiple sequence" computer contains 33 sequence counters (32 normal sequence counters, held in the upper 32 of 64 index registers, and one special sequence counter, held in index register 0); each operates at the fixed priority corresponding its index register number. J.W. Forgie, in "The Lincoln TX-2 input-output system," in Proc. WJCC, February 1957, pp. 156-160, lists 25 defined sequences:
+This "multiple sequence" computer contains 33 sequence counters (32 normal sequence counters, held in the upper 32 of 64 index registers, and one special sequence counter, held in index register 0); each operates at the fixed priority corresponding [to] its index register number. J.W. Forgie, in "The Lincoln TX-2 input-output system," in Proc. WJCC, February 1957, pp. 156-160, lists 25 defined sequences:
 
     restart - highest priority, special sequence used for starting other sequences (index register 0)
     I/O alarms

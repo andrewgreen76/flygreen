@@ -1,6 +1,16 @@
 
-source index + destination index 
-locking hardware support 
+source index + destination index
+prototyping before 1971 
+what are pages 
+why is memory organized as pages
+what are segments  
+why is memory organized as segments 
+(1) memory protection by i286 vs. (2) memory protection per paging and segm. 
+locking hardware support
+stack frame (during function calls)
+base pointer
+stack pointer
+segment registers
 
 PDFs :
  . Whirlwind: The History of a Pioneer Computer

@@ -8,6 +8,7 @@ INNOVATIONS :
 
  . a hierarchical file system
  . single-level store
+ . segment register support
  . dynamic linking
  . access control lists
  . ring-oriented security
@@ -19,5 +20,11 @@ COMPUTER / ARCHITECTURE :
 
    . GE-645
    . Honeywell DPS-8/M system of computers 
+
+========================================================================================
+SEGMENT REGISTERS :
+========================================================================================
+
+ . segment base address + displacement + base + index * scale 
 
 _

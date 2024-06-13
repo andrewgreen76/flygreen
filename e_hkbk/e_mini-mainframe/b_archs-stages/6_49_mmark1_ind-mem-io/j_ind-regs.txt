@@ -87,11 +87,12 @@ EFFECTIVE ADDRESS (EA) vs. SOURCE INDEX (SI) :
 
  . alternatively , EA (effective address) can be used to access a specific byte in the buffer
  . EA = base address + offset 
+ . EA is always computed (can be used in place of writing out individual arithmetic instructions) 
  |
- |  MOV EAX, [EBX + 2]   ; Load the byte at array[2] into EAX (effective address: EBX + 2) 
- |  MOV EAX, [ESI + 5]
+ |  . MOV EAX, [EBX + 2]   ; Load the byte at array[2] into EAX (effective address: EBX + 2) 
+ |  . MOV EAX, [ESI + 5]
  |
- . BX , SI , DI , BP - all can serve as base registers 
+ => BX , SI , DI , BP - all can serve as base registers 
 
 
 ========================================================================================
@@ -122,6 +123,40 @@ Scaled Index :	mov eax, [ebx + esi*4]  ; EA = EBX + ESI*4
 Based Indexed w/ Displt :
 
       mov eax, [ebx + esi*4 + 8]  ; EA = EBX + ESI*4 + 8
+
+
+========================================================================================
+LOAD EFFECTIVE ADDRESS (LEA) : 
+========================================================================================
+
+ . allows for explicit EA computation within the same instruction
+ . does NOT access EA
+ . LEA stores the computed EA in a specified register 
+
+       . LEA ESI, [EBX + 8*EAX + 4]    ; returns the computed EA 
+       . MOV EDX, [EBX + 8*EAX + 4]    ; computes EA -> returns contents of the computed EA  
+
+
+========================================================================================
+EA COMPUTATION LOGIC : 
+========================================================================================
+
+struct Point
+{
+     int xcoord;
+     int ycoord;
+};
+
+       LEA ESI, [EBX + 8*EAX + 4]    ; returns the computed EA
+
+
+ . EA = EBX  	     + 8*EAX + 4
+ 
+	base	     
+ 
+      	location       spec'd
+	of
+	struct
 
 
 ============================================================================================================================================================

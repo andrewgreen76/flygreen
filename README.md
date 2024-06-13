@@ -50,6 +50,8 @@ Assembly :
 
 DIY project : building my own dumb laptop / motherboard
  |
+ . index registers
+ . memory protection , paging , segmentation
  . the history of phreaking 
  . 1940s-1960s :
    . early interrupts , transfer trapping , multiple-sequence , timesharing ,
@@ -62,11 +64,6 @@ DIY project : building my own dumb laptop / motherboard
  . memory (wide) protection , protected mode , virtual memory support 
  . paged memory 
  . instruction queue/decode buffer
- |
- . control logic bits/signals in x86 , ARMv8.
- |
- . cold boot
- | . cold boot vector 
  |
  . reset vector :
  | . hardwired/integrated into the CPU 

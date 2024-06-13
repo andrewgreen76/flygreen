@@ -1,25 +1,46 @@
 
+ . used to access (and manipulate) a piece of data (string or array) stored in consecutive addresses 
+ => can only be used to store addresses of data (operands)
+ 
  . come in pairs - source (SI) and destination (DI)
+ . typically initialized together
+
+	MOV SI , 4000H
+	MOV DI , 6000H
+
+ . mediated by the accumulator
 
 
 ========================================================================================
-USES : 
+A GOOD EXAMPLE : 
 ========================================================================================
 
-Main - modifying operand addresses :
- |
- . manipulating arrays , strings , loops
- . Accessing and manipulating strings and arrays requires
- |
- . effective address (EA)
-   . mem_addr of interest (and manipulation)
-   . EA = base + SI
-     104 = 100 + 4
-   . base is treated as a constant , SI is not 
+	ORG 1850H
 
-General-purpose : 
- . mathematical operations 
- . string operations	   
+START:
+	MOV SI , 4000H
+	MOV DI , 6000H
+	MOV CX , 1000H
+
+MOVE_NEXT:
+	MOV AX , [SI]
+	MOV [DI] , AX
+
+	INC SI
+	INC DI
+	LOOP MOVE_NEXT
+
+	HLT 
+
+
+========================================================================================
+EFFECTIVE ADDRESS (EA)
+========================================================================================
+
+ . mem_addr of interest (and manipulation)
+ . EA = base + SI
+   104 = 100 + 4
+ . base is treated as a constant , SI is not 
 
 
 ============================================================================================================================================================

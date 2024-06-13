@@ -3,19 +3,21 @@
 MODES : 
 ========================================================================================
 
+ . ways of describing instructions , how they work 
+
   (1) (How do we know which mode it is , based on the instr bit fields ? )
   (2) (How is the mode supported using instr bit fields ? )
   (3) (What instructions follow this mode ? ) 
   . immediate  : operand is within the instruction 
-    . mov eax, 10 
+    . MOV EAX , 10 
   . register   : dest_reg <- src_reg (both specd in instr)
-  . implicit   : standalone
-  . indexed    : 
+  . implicit   : CLC , PUSH & POP (implicit + explicit) 
+  . indexed    : involve SI and DI (MOV , ADD , SUB , MUL) 
   . abs/direct : LEA -> JMP
   . PC-relative: JMP_REL offset
   . reg.indir  : JMP reg
   . seql       : NOP
-  . condl      : JEQ , skipEQ 
+  . condl      : JEQ , skipEQ
 
 ========================================================================================
 ABOUT LEA : 

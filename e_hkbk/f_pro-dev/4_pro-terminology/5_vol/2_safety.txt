@@ -15,7 +15,7 @@ Examples of errors / exceptions :
 Methods of exploiting exceptions :
  . BUFFER OVERFLOW
    . overwriting a return address
-   . memory sled to the address of a malicious program/script 
+   . NOP memory sled to the address of a malicious program/script 
 
 ======================================================================================================================================================
 

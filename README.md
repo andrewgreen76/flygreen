@@ -50,7 +50,7 @@ Assembly :
 
 DIY project : building my own dumb laptop / motherboard
  |
- . index registers , EA , LEA 
+ . index registers , EA (computation) , MOV vs. LEA 
  . memory protection , paging , segmentation
  . the history of phreaking 
  . 1940s-1960s :

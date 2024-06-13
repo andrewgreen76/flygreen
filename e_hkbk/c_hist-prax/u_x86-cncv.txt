@@ -1,0 +1,4 @@
+"
+The original x86 instruction set architecture (ISA) was conceived by Intel, with Stephen P. Morse and Bruce Ravenel leading the design of the Intel 8086 processor, which introduced the x86 ISA in 1978.
+"
+_

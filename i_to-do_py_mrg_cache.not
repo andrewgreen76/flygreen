@@ -1,5 +1,4 @@
 
-prototyping before 1971 
 source index + destination index
 what are pages 
 why is memory organized as pages
@@ -26,12 +25,16 @@ COA : 	     BEST-CASE SCENARIO						WORST-CASE SCENARIO
 						amt to loan 		   	   $85,000
 ------------------------------------------------------------------------------------------------------
 
-Openings :
+Openings : 
  . https://boulder.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&sort_column=default&job.job_types%5B%5D=6&query=college%20of%20engineering%20%26%20applied%20science
 
-@ Bursar : 
- . How do you decide on the number ?
- . FinAid 
+@ FinAid / Bursar :
+ . a parent cosigner
+   . Can I still incur all the payments without the cosigner's involvement ? 
+   . lower interest 
+ . Sallie Mae 
+ . College Ave
+ . Bursar|Est. -> lender|sum -> FinAid/covers|rem -> me
 
 @ OCHNR :
  . recommendations on how to go about housing for an transfer/out-of-state grad student who is not currently employed

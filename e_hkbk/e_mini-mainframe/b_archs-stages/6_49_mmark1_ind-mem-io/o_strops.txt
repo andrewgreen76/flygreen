@@ -1,0 +1,8 @@
+
+These operations are called "string instructions" regardless of the nature of the target
+in the buffer.
+ . MOVS , LODS , STOS , CMPS , SCAS
+ . DI flag
+ . CLD , STD 
+
+_

@@ -1,18 +1,38 @@
 
- . used to access (and manipulate) a piece of data (string or array) stored in consecutive addresses 
- => can only be used to store addresses of data (operands)
- 
- . come in pairs - source (SI) and destination (DI)
- . typically initialized together
+========================================================================================
+(MEMORY) BUFFER : 
+========================================================================================
 
-	MOV SI , 4000H
-	MOV DI , 6000H
-
- . mediated by the accumulator
+ . a set of consecutive addresses (i.e., always together in memory , never segmented) 
 
 
 ========================================================================================
-A GOOD EXAMPLE : 
+WHY INDEX REGISTERS : 
+========================================================================================
+
+(a) Storing addresses of strings/arrays as told by the program(mer) :
+ |
+ |	MOV SI , 4000H
+ |	
+ . just SI
+ | . used to access (and manipulate) a piece of data stored in a single buffer (e.g., string or array) 
+ . typically used in pairs - source (SI) and destination (DI)
+   . used to work on two memory buffers (typically for copying or processing)
+
+
+(b) Parsing through buffers , (processing and) exchanging data :
+  |
+  . [SI] x [???] -> [DI]
+  | INC SI , DI
+  | [SI] x [???] -> [DI]     
+  | INC SI , DI
+  | ...
+  | 
+  . b a b y   ->   b a b e
+
+
+========================================================================================
+EXAMPLE 1 : 
 ========================================================================================
 
 	ORG 1850H
@@ -34,15 +54,78 @@ MOVE_NEXT:
 
 
 ========================================================================================
-EFFECTIVE ADDRESS (EA)
+EXAMPLE 2 : 
 ========================================================================================
 
- . mem_addr of interest (and manipulation)
- . EA = base + SI
-   104 = 100 + 4
- . base is treated as a constant , SI is not 
+; Example: Moving a string from source to destination
+
+MOV ESI, source     	   ; Load source address into ESI
+MOV EDI, dest    	   ; Load destination address into EDI
+MOV ECX, length  	   ; Load length of the string into ECX
+
+REP MOVSB        	   ; Repeat moving byte from [ESI] to [EDI] for ECX times
 
 
+========================================================================================
+RULES AND CONVENTIONS : 
+========================================================================================
+
+ . typically initialized together
+
+	MOV SI , 4000H
+	MOV DI , 6000H
+
+ . always mediated by the accumulator
+
+
+========================================================================================
+EFFECTIVE ADDRESS (EA) vs. SOURCE INDEX (SI) : 
+========================================================================================
+
+ . as mentioned , SI can be used to hold the address of a string/array or parse through the buffer
+
+
+ . alternatively , EA (effective address) can be used to access a specific byte in the buffer
+ . EA = base address + offset 
+ |
+ |  MOV EAX, [EBX + 2]   ; Load the byte at array[2] into EAX (effective address: EBX + 2) 
+ |  MOV EAX, [ESI + 5]
+ |
+ . BX , SI , DI , BP - all can serve as base registers 
+
+
+========================================================================================
+EA IN ACTION - EXAMPLE 1 : 
+========================================================================================
+
+section .data
+    array db 10, 20, 30, 40, 50  ; Define an array of bytes
+
+section .text
+    global _start
+
+_start:
+    mov ebx, array       ; Load the base address of the array into EBX
+    mov eax, [ebx + 2]   ; Load the byte at array[2] into EAX (effective address: EBX + 2) 
+
+
+========================================================================================
+EA IN ACTION - EXAMPLE 2 : 
+========================================================================================
+	
+Direct :	mov eax, [1234h]	; EA = 1234h (a fixed memory address)
+Based :		mov eax, [ebx]    	; EA = EBX (the content of the EBX register)
+Indexed :	mov eax, [ebx + esi]  	; EA = EBX + ESI
+Scaled Index :	mov eax, [ebx + esi*4]  ; EA = EBX + ESI*4
+
+
+Based Indexed w/ Displt :
+
+      mov eax, [ebx + esi*4 + 8]  ; EA = EBX + ESI*4 + 8
+
+
+============================================================================================================================================================
+============================================================================================================================================================
 ============================================================================================================================================================
 
 "

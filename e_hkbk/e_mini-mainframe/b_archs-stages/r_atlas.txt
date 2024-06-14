@@ -1,0 +1,12 @@
+"
+Page faults : 
+
+    The Atlas introduced a paged virtual memory. From http://hoc.co.umist.ac.uk/storylines/compdev/commercialisation/atlas.html
+
+        The clever feature was that rather than requiring the processor to use its precious time, swapping memory in and out of the drum storage space, the transfers would be automatically done on demand. This was implemented using another clever technique. If a request was made for data not currently in the core memory, an interrupt, (then called an extracode instruction), was called. This paused the execution of the program, and automatically loaded the page of memory which the data was in, (a page being a 512 word block of memory).
+         
+        A further optimisation to this technique was also implemented. Rather than check for every instruction to ensure it is in core memory, which would largely waste time, as the sequential nature of instruction reads means they are more than likely to be in the current page, a different method was used. They eliminated the check for each instruction, and instead implemented an exception handler to deal with the error accesses. 
+
+    Brian Napper, "The Atlas Interrupt Mechanism, Illustrated with Paper Tape Input" 
+"
+_

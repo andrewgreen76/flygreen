@@ -1,5 +1,4 @@
 
-source index + destination index
 what are pages 
 why is memory organized as pages
 what are segments  
@@ -10,6 +9,9 @@ stack frame (during function calls)
 base pointer
 stack pointer
 segment registers
+OSINT = Inet
+phishing
+spear-phishing 
 
 PDFs :
  . Whirlwind: The History of a Pioneer Computer

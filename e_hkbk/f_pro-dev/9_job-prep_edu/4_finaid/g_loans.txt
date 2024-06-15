@@ -1,0 +1,30 @@
+
+COA :
+ . total cost (before schps , loans , etc.) 
+   . advertised by school
+   . annual cost * 4 years 
+ . direct costs : tuition and fees 
+ . indirect costs : close to the vest
+
+
+Loans :
+ . federal :
+   . lower interest rate
+   . no cosigner
+   . NO PAYMENT DURING SCHOOL TIME
+   . consolidation / forgiveness
+ . (for parents) Direct PLUS Loan 
+ . private
+   . awful interest rate
+   . cosigner
+   . PAYMENT DURING SCHOOL TIME 
+   . consolidation / forgiveness 
+ |
+ . dir subsid :
+   . interest is covered during grace , etc.
+   => smaller min payments 
+ . indir subsid :
+   . interest is NOT covered during grace , etc.
+   => larger min interest/payments 
+
+_

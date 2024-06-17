@@ -1,4 +1,9 @@
 
+ . arbitrarily large amount of memory
+ . conditional branching 
+
+============================================================================================================================================================
+
 Explain what Turing complete means.
 
 "
@@ -19,4 +24,4 @@ A system or programming language is considered Turing complete if it can meet th
 When a language or system is Turing complete, it means that it can be used to solve a wide range of computational problems and perform any computation that can be algorithmically described. In essence, Turing completeness is a measure of computational power and flexibility. Many programming languages, including high-level languages like Python, Java, and C++, are Turing complete, meaning they can express and execute any algorithm that can be expressed in terms of the fundamental operations and constructs provided by the language.
 "
 
-.
+_

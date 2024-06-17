@@ -1,11 +1,48 @@
 
  . cont. ed :
- . MS on Coursera
+ . MS in CS on Coursera (Crystal) 
  . face-to-face , job opportunities - more of a chance
  + internships
  + fixed times
- . apply fed. loans
- . Chrystal : MS in CS Coursera 
+ . fed. loans - applicable 
+
+
+Prerequisites :
+ . higher-level programming (C / C++)
+   . macros 
+   . templates 
+ . data structures
+ . algorithms (analysis)
+ -> discrete mathematics
+    . set theory
+    . functions
+    . relations
+    . natural language argument 
+    . logic (propositional , natural deduction , etc.) 
+    . elements of mathematical reasoning 
+|
+v
+
+Terms to cover :
+ . theory of computation -
+ . formal math. argument - 
+ . rigorous math. argument - 
+ . computational complexity theory -
+ . decision problem -
+ . polynomial time - 
+ . formal method -
+ . model checking - 
+ . automated reasoning -
+ . verification -
+ . module -
+ . regression - 
+ . unit test -
+ . formal verification -
+ . synthesis -
+ . program synthesis -
+ . reactive systems - 
+ . automata - 
+ . protocol verification -
 
 -------------------------------
 

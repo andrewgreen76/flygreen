@@ -30,7 +30,7 @@ emacs [file]	     - opens the file for editing in the Emacs Classic text editor.
 clear/Ctrl+L	- clears the screen, re-populates the prompt string. 
 
 
-=== Filesys mgmt commands: =======================================================================
+=== File/dir mgmt commands: ======================================================================
 
 touch [file]	 - creates the file
 mkdir [dir]	 - creates the dir

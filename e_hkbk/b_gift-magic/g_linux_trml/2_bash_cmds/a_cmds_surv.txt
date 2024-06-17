@@ -12,13 +12,15 @@ cd .. 		- takes to the parent dir
 touch [] 	- create a (text) file 
 mkdir []	- create a new directory 
 mv [old] [new]
-- change the location and name of the file from. 
+- move data from file to file 
+=> also used to "rename" a file
+- of course , files can be in different locations 
 
 rm [] 		- delete a file
 rm -r [] 	- recursively delete a directory (empty or not).
 
-vim [file]		- edit/create file in Vim 
-nano [file]		- edit/create file in nano
+vim [file]	- edit/create file in Vim 
+nano [file]	- edit/create file in nano
 
 clear/Ctrl+L	- clears the terminal 
 

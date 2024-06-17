@@ -1,3 +1,24 @@
+
+Prerequisites :
+ -> higher-level programming (C / C++)
+    . macros 
+    . templates 
+ -> 
+
+Terms to cover : 
+ . computational complexity theory -
+ . decision problem -
+ . polynomial time 
+ . formal method -
+ . model checking - 
+ . verification -
+ . synthesis -
+ . reactive systems - 
+ . automata - 
+ . protocol verification - 
+
+============================================================================================================================================================
+
 "
 Automata play a crucial role in the fields of verification and synthesis in computer science and formal methods. Here's an overview of how automata are used in these contexts:
 

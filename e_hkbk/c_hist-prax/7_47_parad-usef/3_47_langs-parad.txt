@@ -1,4 +1,8 @@
 
+ . multi-paradigm
+ . functional
+ . reflective 
+
 ========================================================================================
 LANGUAGES TIMELINE : 
 ========================================================================================
@@ -13,7 +17,8 @@ LANGUAGES TIMELINE :
  . 1960 - Lisp 		J. McCarthy
  . 1962 - Simula 	O. Dahl , K. Nygaard 
  . 1963 - CPL 		C. Strachey , et al. 
- . 1964 - BASIC 	J. G. Kemeny , T. E. Kurtz 
+ . 1964 - BASIC 	J. G. Kemeny , T. E. Kurtz
+ . 1964 - PL/I		G. Radin , et al. 
  . 1967 - BCPL		M. Richards
  . 1969	- B		D. M. Ritchie , K. L. Thompson	
  . 1970 - Forth		C. H. Moore
@@ -57,19 +62,22 @@ IMPERATIVE VS. DECLARATIVE :
 ========================================================================================
 
 Imperative :
- . explicitly specified statements to achieve something (programming over scripting) 
- . enmeshed with procedural programming
+ . explicitly specified statements to achieve something
+ . (but this does NOT mean programming over scripting) 
+ . strongly tied to procedural programming
+ . FORTRAN , COBOL , ALGOL , BASIC , C / C++ , Python , Java 
 
 Declarative :
  . a command or statement is given to get something done ; the processing utility will
-   understand/translate this into the steps implied to achieve the goal (scripting over
-   programming) 
+   understand/translate this into the steps implied to achieve the goal
+ . (but this does NOT mean scripting over programming) 
  . database query languages (e.g., SQL, XQuery)
  . regular expressions
  . logic programming 
- . functional programming
+ . strongly tied to functional programming
  . configuration management
- . algebraic modeling systems 
+ . algebraic modeling systems
+ . Lisp , ML , Prolog , Datalog , ASP 
 
 ========================================================================================
 LOGIC PROGRAMMING : 

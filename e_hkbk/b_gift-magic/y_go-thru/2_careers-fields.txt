@@ -1,0 +1,8 @@
+
+Power electronics :
+ . "Power electronics is the application of electronics to the control and conversion of
+    electric power. The first high-power electronic devices were made using mercury-arc valves."
+
+x
+
+_

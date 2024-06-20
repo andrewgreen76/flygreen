@@ -16,36 +16,35 @@
 
 A year off :
  . one year of earning to kill CC debt
- . time to explore :
-   . early computer emulations : ENIAC , SSEM , etc. 
-   . VLSI design ; semic. 
-   . CPU/GPU architectures
-   . languages 
-   . data structures , algorithms 
-   . compilers
-   . file systems 
-   . operating systems 
-
-Prerequisites :
- . higher-level programming (C / C++)
-   . macros 
-   . templates 
- . data structures
- . algorithms (analysis)
- -> discrete mathematics
-    . set theory
-    . functions
-    . relations
-    . natural language argument 
-    . logic (propositional , natural deduction , etc.) 
-    . elements of mathematical reasoning 
+ . time to explore prerequisites :
+   . BB equivalents of early computers : ENIAC , SSEM , etc. 
+   . VLSI design ; semic.    	       	       	      
+     . Logisim 
+   . CPU/GPU architectures			      
+   . assemblers					      
+   . compilers / higher-level programming (C / C++)   
+     . goto statements 
+     . macros
+     . pragmas 
+     . templates 
+   -> data structures				      
+   -> algorithms (analysis)			      
+   -> file systems 				      
+   -> operating systems 			      
+   -> discrete mathematics			      
+      . set theory
+      . functions
+      . relations
+      . natural language argument 
+      . logic (propositional , natural deduction , etc.) 
+      . elements of mathematical reasoning 
 |
 v
 
 Terms to cover :
  . theory of computation -
  . formal math. argument - 
- . rigorous math. argument - 
+ . rigorous math. argument -
  . computational complexity theory -
  . decision problem -
  . polynomial time - 

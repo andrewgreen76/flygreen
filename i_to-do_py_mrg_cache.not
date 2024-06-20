@@ -1,14 +1,4 @@
 
-SFBay :
- . one year of earning to kill CC debt
- . time to explore
-   . electrical / computer engineering ; VLSI design
-   . CPU/GPU architectures
-   . languages , data structures , algorithms 
-   . compilers
-   . file systems 
-   . operating systems 
-
 @ De Anza / UW / UMN / GATech :
  . Research on : 
    . pathways (wafer / semic. des/manuf.) 
@@ -23,6 +13,55 @@ SFBay :
  . Ask about : 
    . in-state tuition rates - $31/credit ?
  . Get to know the faculty. 
+
+A year off :
+ . one year of earning to kill CC debt
+ . time to explore :
+   . early computer emulations : ENIAC , SSEM , etc. 
+   . VLSI design ; semic. 
+   . CPU/GPU architectures
+   . languages 
+   . data structures , algorithms 
+   . compilers
+   . file systems 
+   . operating systems 
+
+Prerequisites :
+ . higher-level programming (C / C++)
+   . macros 
+   . templates 
+ . data structures
+ . algorithms (analysis)
+ -> discrete mathematics
+    . set theory
+    . functions
+    . relations
+    . natural language argument 
+    . logic (propositional , natural deduction , etc.) 
+    . elements of mathematical reasoning 
+|
+v
+
+Terms to cover :
+ . theory of computation -
+ . formal math. argument - 
+ . rigorous math. argument - 
+ . computational complexity theory -
+ . decision problem -
+ . polynomial time - 
+ . formal method -
+ . model checking - 
+ . automated reasoning -
+ . verification -
+ . module -
+ . regression - 
+ . unit test -
+ . formal verification -
+ . synthesis -
+ . program synthesis -
+ . reactive systems - 
+ . automata - 
+ . protocol verification -
 
 -------------------------------
 
@@ -76,43 +115,6 @@ mons / OS
  . fed. loans - applicable 
 
 -------------------------------
-
-Prerequisites :
- . higher-level programming (C / C++)
-   . macros 
-   . templates 
- . data structures
- . algorithms (analysis)
- -> discrete mathematics
-    . set theory
-    . functions
-    . relations
-    . natural language argument 
-    . logic (propositional , natural deduction , etc.) 
-    . elements of mathematical reasoning 
-|
-v
-
-Terms to cover :
- . theory of computation -
- . formal math. argument - 
- . rigorous math. argument - 
- . computational complexity theory -
- . decision problem -
- . polynomial time - 
- . formal method -
- . model checking - 
- . automated reasoning -
- . verification -
- . module -
- . regression - 
- . unit test -
- . formal verification -
- . synthesis -
- . program synthesis -
- . reactive systems - 
- . automata - 
- . protocol verification -
 
 -------------------------------
 
@@ -1286,12 +1288,7 @@ Work on the graphics mode for headless systems: kernel KMS > Wayland.
 Intro to career in SW dev. - Annyce Davis (LinkedIn) 
 =====================================================================
 
-container technology
-Explore kernel vs. microkernel. 
-what does memgmt look like on the sys memmap ? 
-troubleshoot the firefox/google business 
-analyze git mv pointer-looking things 
-unity engine arch
+Explore kernel vs. monolithic kernel vs. microkernel. 
 fc
 procedural content generation tools 
 
@@ -1309,43 +1306,23 @@ main:
     mov     $1, %ebx          # File descriptor 1: standard output
 ... A-a-a-ah! ... tl;dw
 
-extract from networking.odt
-analyze every boring alg in py : What does it make happen? 
+=====================================================================
+
 write here's johnny in py
 keybindings , ANSI esc seqs , UTF-8,-16,-32 
-ttys: cmd v. auth
-docker
-pytorch
-journal.notes -> hackbook
 memmap
 interview questions: C
 interview questions: C++
-.py to go to a url/website
 funbag >< progbook (cheat sheets)
-How do systems on planes fetch WiFi connection in the airplane mode? Are they isolated servers?
+How do systems on planes fetch WiFi connection in the airplane mode? Do they have isolated servers?
 Experiment with GDB. 
-informed Awareness, informed incentive, informed intelligence, good conditioning 
-m : Manteia , matchmaking , match the right people with the right opportunities
-
-=====================================================================
-
-find a poke api lib 
-find a sound api lib 
-shit to lug
-
-=====================================================================
-
-explore curl
+awareness, informed incentive, informed intelligence, good conditioning 
+m : Manteia , matchmaking , match the right people with the right opportunities 
+write a poke api lib 
+write a sound api lib 
 Explore clipping in games. 
-
 TPV EFI
-TeX
 empty DIMM sockets
-
-=====================================================================
-GUI OS : GEOS , COSTA 
-=====================================================================
-
 Sims in Unity
 Pixel shader 
 

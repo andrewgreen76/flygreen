@@ -10,7 +10,8 @@
    . Any career training programs ? 
    . Any internships / co-ops ?
    . When to start applying for Fall 2025 
- . Ask about : 
+ . Ask about :
+   . when and how do you decide whether the student is in-state or out-of-state 
    . in-state tuition rates - $31/credit ?
  . Get to know the faculty. 
 
@@ -1281,15 +1282,12 @@ Research frameworks (toolsets) dedicated to building VMs, EMUs, Last Call BBS (U
 |   	 - coded in C
 |	 - teaching x86asm(GAS, nasm)
 v
-Work on the graphics mode for headless systems: kernel KMS > Wayland. 
 
 =====================================================================
 Intro to career in SW dev. - Annyce Davis (LinkedIn) 
 =====================================================================
 
 Explore kernel vs. monolithic kernel vs. microkernel. 
-fc
-procedural content generation tools 
 
 =====================================================================
 
@@ -1329,6 +1327,7 @@ Pixel shader
 
 Recreational programming :
 |
+we are not studying to become pioneering researchers 
 rewarding / unrewarding
 compelling / uncompelling 
 exposing gaps

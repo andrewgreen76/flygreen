@@ -1,0 +1,36 @@
+"
+ENIAC (Electronic Numerical Integrator and Computer) instructions were primarily based on a decimal system and operated using a combination of electrical switches, cables, and plugboards. Here are some key aspects of ENIAC instructions:
+
+1. **Decimal System**: ENIAC used a decimal system (base-10) rather than binary (base-2) like modern computers. Instructions and data were represented in decimal digits.
+
+2. **Programmability**: ENIAC was programmable through the use of plugboards and cables, which were manually configured to set up the sequence of operations for a specific task. This made it a general-purpose computer capable of performing various calculations.
+
+3. **Instruction Set**: ENIAC's instruction set included basic arithmetic operations (addition, subtraction, multiplication, division), data transfers between registers, and control instructions to sequence operations.
+
+4. **Parallel Processing**: ENIAC was capable of parallel processing to some extent. It could perform multiple operations simultaneously using its numerous arithmetic units, which operated in parallel to speed up computations.
+
+5. **Manual Operation**: Programming ENIAC involved physically setting switches, plugging cables into the correct sockets on the plugboards, and configuring the machine to perform specific calculations. This process required careful planning and was labor-intensive compared to modern programming methods.
+
+Overall, ENIAC's instructions were designed to facilitate numerical computations and data processing tasks through a combination of hardware configuration and manual programming techniques.
+"
+
+
+
+"
+The ENIAC (Electronic Numerical Integrator and Computer) used a set of instructions to perform calculations and control its operations. Here are some key aspects of ENIAC instructions:
+
+1. **Numeric Coding**: Instructions in ENIAC were represented numerically rather than with mnemonic codes. Each instruction was assigned a specific numeric code, which was stored in memory and executed sequentially.
+
+2. **Operation Types**: ENIAC instructions included operations such as addition, subtraction, multiplication, division, and various arithmetic and logical functions. These operations were carried out by manipulating data stored in the computer's accumulators and other registers.
+
+3. **Sequence Control**: Instructions also included control functions to manage the sequence of operations and coordinate input/output operations. These control functions allowed ENIAC to perform complex calculations by chaining together a series of basic arithmetic operations.
+
+4. **Manual Programming**: Programming ENIAC involved manually setting up the sequence of instructions by configuring its patch panels and switches. Each program run required physically rewiring the machine to change the sequence of operations.
+
+5. **Parallel Processing**: ENIAC was capable of parallel processing to some extent, where different parts of the machine could work on different parts of a computation simultaneously. This was achieved through its design with multiple arithmetic units and registers.
+
+6. **Limited Flexibility**: ENIAC's instruction set was tailored primarily for numerical computations and lacked the versatility and programmability of modern computers. Programming ENIAC was a labor-intensive process that required deep understanding of the machine's architecture and manual operation.
+
+Overall, ENIAC instructions were foundational in the development of early computer programming, setting the stage for more advanced and versatile instruction sets in subsequent computer architectures.
+"
+_

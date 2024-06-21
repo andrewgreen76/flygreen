@@ -1,8 +1,13 @@
 
+ . Reject / cancel loans 
+
+
 @ De Anza / UW / UMN / GATech :
- . Research on : 
+ |
+ . Find program advisors at these institutions 
+ |
+ . Research on :
    . pathways (wafer / semic. des/manuf.) 
-   . find program advisors at these institutions 
    . If I have BS in CSE , how do we know that I'm fit enough to do MS in EE ? 
    . I want to change my major from CSE to EE 
    . exploratory programs 
@@ -11,9 +16,12 @@
    . Any internships / co-ops ?
    . When to start applying for Fall 2025 
  . Ask about :
-   . when and how do you decide whether the student is in-state or out-of-state 
-   . in-state tuition rates - $31/credit ?
+   . Tuition Classification
+   . Should I apply as an undergrad or grad for the year ? Can I not file both ?
+   . If I apply as an undergrad but the school opines I should be in a grad program , can I then switch to grad ?
+   . Does one of the supporting documents have to be active for one year ? 
  . Get to know the faculty. 
+
 
 A year off :
  . one year of earning to kill CC debt
@@ -1262,21 +1270,9 @@ iot
 cloud - when
 to teach or find work.
 |
-unwrap 1_net.cht into the parent dir 
 add material on io-ports, net-ports to hackbook 
-networking arpanet-style : telnet, cmds, identify arch/prdm, etc. 
-Focus on : Rust, SSH, MOSH, linux servers, network management, systemd.  
 iPhone : how to termius, free SSH client, MOSH 
 Why do I need SSH for Wayland ? 
-1hr : Rust : create an interactive text-based prog (text-ed)
-explore .bash_profile / .profile 
-1hr : C++ and OpenCV : image-processing prog
-learn git branches ; Re-learn how to merge in a Git repo	<<<	build a sandbox repo. 
-Confirm the fw-usp order for coreboot
-Just do DOSBox 
-Research frameworks (toolsets) dedicated to building VMs, EMUs, Last Call BBS (Unity + ??)
-|
-+-- Learn to maintain the kernel (w/ KDevelop or Qt)
 |
 +-- emus of : Comm64/Atari 2600/Apple II.
 |   	 - coded in C

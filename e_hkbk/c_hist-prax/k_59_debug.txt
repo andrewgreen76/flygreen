@@ -6,7 +6,7 @@
  |
  |
  . proposing the ability to debug programs at the computer's console
- . "Debugging programs was an important problem at that time, because with batch processing,
-    it then often took a day from submitting a changed code, to getting the results."
+ . "Debugging programs was an important problem at that time, because with batch processing 
+    it then often took a day from submitting a changed code to getting the results."
 
 _

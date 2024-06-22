@@ -17,7 +17,7 @@
    . When to start applying for Fall 2025 
  . Ask about :
    . Tuition Classification
-   . Should I apply as an undergrad or grad for the year ? Can I not file both ?
+   . Should I apply as an undergrad or grad for the year ? Can I not file both for the same year ?
    . If I apply as an undergrad but the school opines I should be in a grad program , can I then switch to grad ?
    . Does one of the supporting documents have to be active for one year ? 
  . Get to know the faculty. 
@@ -35,7 +35,8 @@ A year off :
      . goto statements 
      . macros
      . pragmas 
-     . templates 
+     . templates
+   . linkers , debuggers 
    -> data structures				      
    -> algorithms (analysis)			      
    -> file systems 				      

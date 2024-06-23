@@ -1,8 +1,0 @@
-
-UML :
- . flowcharts
- . stands for "Unified Modeling Language"
- . is-a  :  <-
- . has-a :  --<>
-
-_

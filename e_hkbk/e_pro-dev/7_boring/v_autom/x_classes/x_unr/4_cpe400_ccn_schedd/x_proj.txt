@@ -1,6 +1,0 @@
-
-One project :
- > one person (presentation)
-    . client-server
- . group (complex rubric) 
-_

@@ -1,12 +1,19 @@
 
- . map out the timeline for concepts from : 
-   . data structures :
-     . C : K&R , ??? 
-     . C++ : types of polymorphism , etc.
-   . discrete mathematics (logic , graph theory) 
-   . analysis of algorithms
-   . automata theory : NP-hard , NP-complete
+ . map out the timeline for concepts from :
    . (applicable => accessible) 
+   ===============================================================================================
+   PRACTICAL / ANALYTICAL : 
+   ===============================================================================================
+   . data structures :
+     . C : K&R , ??? (structs , union , malloc , macros , compiler , optimization , goto , vulns , typedef)
+       . funcs : memcpy , printf , puts
+     . C++ : AEIP , templates , types of polymorphism , etc. 
+   ===============================================================================================
+   ANALYTICAL : 
+   ===============================================================================================
+   . discrete mathematics (logic , graph theory) 
+   . analysis of algorithms (Big ? , proof by induction) 
+   . automata theory : NP-hard , NP-complete
 
  . Reject / cancel loans 
 
@@ -1243,46 +1250,20 @@ awk, sed, docker
 Apply for : Canonical / Tesla. 
 FFmpeg
 
-HTTP 403
-Find a place for (Open)AI in my superstack. (Python to build a dumb mini-AI.)  
 statically typed - determined/accessible at compile-time
 dynamically typed - accessible during runtime. 
-objects :
-- structs :
-  - organization,
-  - (using ptrs to build and manip. data structures - not to be confused with structs)
-    - data structures retain node organization
-    - data structures retain their own organization
-    - data structures help us use memory economically (keep us away from memory bottlenecking) 
-- (unions) 
+
 ptrs :
 - problems w/o ptrs:
   - tying objects together to make structures
 - purpose:
-  - dyn.memgmt,
-  - distant recall
-  - aliasing ("I hate having to write the long identifier for the same object")
-.txt file w/ macros from CForge > here.
- - #debugging error messages
-C : 
-- brush up on strms()/manips()
-- memcpy() / Turbo C
-- typedef
-C / C++ exceptions 
-popos coreboot bootstrap : stage 1, stage 2
-organize my GoogleDrive 
-py's with import - move
-rest api 
-tpu
-rtos
-iot
-cloud - when
-to teach or find work.
-|
+  - ? 
+  - passing by pointer (instead of creating a copy of the passed var/obj) , a.k.a. distant recall 
+  - dyn.memgmt - ? 
+
 add material on io-ports, net-ports to hackbook 
-iPhone : how to termius, free SSH client, MOSH 
-Why do I need SSH for Wayland ? 
-|
+MOSH 
+
 +-- emus of : Comm64/Atari 2600/Apple II.
 |   	 - coded in C
 |	 - teaching x86asm(GAS, nasm)

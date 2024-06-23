@@ -1,0 +1,27 @@
+
+ . from the people who brought you the ENIAC
+
+
+The nature of the computer : 
+ . binary
+ . serial computer
+   . operating on 1 bit per cycle 
+
+
+Operations : 
+ . automatic addition
+ . subtraction
+ . multiplication
+ . programmed division
+ . automatic checking
+
+
+Memory : 
+ . ultrasonic serial memory (totalling 1,024 44-bit words or 5.6 kilobytes)
+ . a.k.a. delay-line memory 
+
+
+Performance : 
+ . "average addition time was 864 microseconds and its average multiplication time was 2,900 microseconds" 
+
+_

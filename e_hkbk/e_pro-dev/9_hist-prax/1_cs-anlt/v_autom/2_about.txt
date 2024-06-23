@@ -1,5 +1,9 @@
 
+ . dream machine
  . study of patterns (in string processing , behavior , etc.)
+ => dreaming about a computer that can process things 
+
+
  -> definition
  -> etymology
  -> history of the studies (origins) 

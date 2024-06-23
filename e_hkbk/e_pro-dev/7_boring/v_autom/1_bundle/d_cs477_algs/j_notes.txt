@@ -1,0 +1,44 @@
+
+Revisit history :
+
+ . first machine
+    + the different engine 
+    + the analytical engine
+      + ALU (comparisons , square-roots )
+      + control (branching , loops) , memory
+    . Concern - speed.
+
+Alg. analysis :
+|
+ . resources 
+    . space
+    . comput.time (instructions)
+ . running time 
+    . steps executed before termination
+ . order of growth
+
+Why capitalize on Big-O ?
+
+O , omega , theta - used for comparing two functions as they scale.
+ . theta - asymptotic equality
+
+Logarithms :
+ . ...
+
+Questions :
+ . n0 - ? 
+ . c - ?
+??? Functions as sets of functions :
+ . What does it mean for one function to be a set of another function ?
+
+Formal definition of omega - ?
+ . contradiction - ? 
+
+n - size of input
+
+Prove for : from n0 to inf.
+
+constraining - ?
+
+theta proves both O and omega. 
+_

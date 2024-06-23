@@ -1,0 +1,9 @@
+
+A chip designed to take compact "orders"/instructions from the CPU, thereby relieving some of the workload off of the processor.
+|
+Examples: 
+- video display controller
+  - built into a screen 
+- GPU
+- accelerator
+

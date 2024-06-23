@@ -1,4 +1,0 @@
-"
-Yes, microcontrollers typically have both general-purpose registers and special function registers (SFRs) built-in. General-purpose registers are used for general data manipulation and storage, while special function registers are dedicated to specific functions such as controlling peripherals, timers, and interrupt handling. These registers play a crucial role in programming and interfacing with the microcontroller's hardware.
-"
-_

@@ -1,0 +1,90 @@
+
+========================================================================
+ENCRYPTION - A NEW SPIN ON HASHING : 
+========================================================================
+
+Idea : transmitting files
+ . but files , requests , etc. can be tampered with
+    . packet sniffing
+    . man-in-the-middle attacks
+    . etc. 
+ => transmission must be made secure 
+
+
+
+Idea : encryption in the form of compression :
+ | 
+ . need a kind of hash function for this 
+ . MD5 , SHA-1 , SHA-2 
+
+========================================================================
+STIPULATIONS : 
+========================================================================
+
+  I. it has to be fast 
+     
+ II. there has to be an integrity check
+     . use the hash code of the file being transmitted to reflect the integrity 
+     . one tiny change to the file should affect the hash code 
+	. Method 1 : avalanche effect is preferred 
+	   . a change in the file should mean a change in the hash code , and
+	     a change in the hash code should snowball as changes throughout
+	     the hash code 
+	   . various algorithms for achieving that
+	. Method 2 : digit-check
+	   . a single change would affect a digit in the hash code 
+	   
+III. avoid collisions 
+     . we want new info to populate an unused bucket
+        . we don't want to waste space 
+        . we don't want to spend time traversing a list 
+     => we want to avoid generating the same hash code/slot num for 2+ keys 
+     |
+     Achieving uniqueness :
+       . very important when expecting a huge number of inclusions 
+       + increase the size of the array (to miss a populated bucket) 
+       => increase the modulo divisor
+       => the hash table should expect a large hash dividend , so increase the range of possible hashing outputs
+       + having a very complex hashing algorithm can certainly help
+       => the hashing algorithm will have to be a slower 
+
+========================================================================
+Real-world examples :
+========================================================================
+
+ .
+
+========================================================================
+Simple , even phony example : 
+========================================================================
+
+ . 
+
+========================================================================
+WHAT IS IT LIKE , HOW DOES IT WORK :
+========================================================================
+
+ . "a data structure optimized for quick lookups"
+   + an array (of "buckets")
+      . yes, for a dictionary it would have to be a freaking huge array
+        (hundreds of thousands , even millions of words)
+      |
+      |
+      + collision => append the colliding node to the corresponding element in the array 
+   + key-value pair(s) 
+   + a hash function
+
+              K       V          hash    i   <K,V>
+           ----------------------------------------
+       	    "253" , "John"   -> 95347 -> 0 | <K,V>
+	     "42" , "Paul"   -> 38929 -> 1 | <K,V>
+	    "368" , "George" -> 70353 -> 2 | <K,V>
+	       .
+	       .
+	       .
+=======================================================================
+=======================================================================
+=======================================================================
+    . error / change detection
+
+_

@@ -1,0 +1,11 @@
+"
+In semiconductor fabrication, the definitive order of execution is :
+
+ . photolithography to define patterns, followed by
+ . precision etching to transfer the patterns onto the substrate, then
+ . deposition to add material layers, and finally
+ . masking for aligning subsequent layers of patterns.
+
+"
+
+_

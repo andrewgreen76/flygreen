@@ -1,0 +1,13 @@
+
+https://www.google.com/search?channel=fs&client=ubuntu-sn&q=breakout+board
+https://www.adafruit.com/category/42
+
+"
+A breakout board is used to connect a ribbon cable to a breadboard, allowing larger circuits to be prototyped more easily. The two rows of pins on the breakout board should go on either side of the central divide on the breadboard. 
+"
+
+"
+Breakout boards take small sensors, chips and components and make them easy to use with your Raspberry Pi, Metro, Feather, Arduino or whatever platform you like most!
+"
+
+.

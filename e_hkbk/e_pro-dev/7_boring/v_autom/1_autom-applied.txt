@@ -1,0 +1,66 @@
+
+Prerequisites :
+ . higher-level programming (C / C++)
+   . macros 
+   . templates 
+ . data structures
+ . algorithms (analysis)
+ -> discrete mathematics
+    . set theory
+    . functions
+    . relations
+    . natural language argument 
+    . logic (propositional , natural deduction , etc.) 
+    . elements of mathematical reasoning 
+|
+v
+
+Terms to cover :
+ . theory of computation -
+ . formal math. argument - 
+ . rigorous math. argument - 
+ . computational complexity theory -
+ . decision problem -
+ . polynomial time - 
+ . formal method -
+ . model checking - 
+ . automated reasoning -
+ . verification -
+ . module -
+ . regression - 
+ . unit test -
+ . formal verification -
+ . synthesis -
+ . program synthesis -
+ . reactive systems - 
+ . automata - 
+ . protocol verification -
+
+============================================================================================================================================================
+
+"
+Automata play a crucial role in the fields of verification and synthesis in computer science and formal methods. Here's an overview of how automata are used in these contexts:
+
+1. **Model Checking and Verification:**
+   - Automata, particularly finite-state automata and their extensions, are extensively used in model checking and verification. Model checking is a formal verification technique that systematically checks whether a given model (often represented as a finite-state system) satisfies a desired property or specification.
+
+   - Model checking algorithms often involve the exploration of the state space of a system. Finite-state automata, such as Büchi automata or LTL (Linear Temporal Logic) automata, are used to represent properties or specifications. Model checking tools explore the state space of a system and use automata-based techniques to check whether the system satisfies the specified properties.
+
+2. **Temporal Logic and Automata:**
+   - Temporal logic, such as LTL and CTL (Computation Tree Logic), is commonly used for specifying temporal properties of systems. Automata, such as LTL or CTL model-checking automata, can be used to represent and reason about these temporal properties.
+
+   - LTL automata convert LTL formulas into automata that can be used for model checking. These automata capture the possible executions of a system that satisfy the given temporal logic formula.
+
+3. **Synthesis of Reactive Systems:**
+   - Automata are also used in the synthesis of reactive systems, where the goal is to automatically generate a system that satisfies a given specification. Reactive synthesis involves the construction of a system that reacts to its environment in a way that satisfies a specified temporal logic formula.
+
+   - Synthesis algorithms often use automata representations of the system and its specifications. For example, automata-based techniques, such as automata-theoretic synthesis (AT), are employed to automatically derive a correct-by-construction system from a given specification.
+
+4. **Automata Learning:**
+   - Automata learning is a technique used in verification and synthesis to automatically infer a model of a system from observed behavior. Learning algorithms, such as active automata learning or passive automata learning, use a combination of experimentation and observation to infer automata that represent the system's behavior.
+
+   - Automata learning can be applied in various domains, including protocol verification, software verification, and hardware verification.
+
+Automata provide a formal and expressive framework for reasoning about system behavior and properties. Their use in verification and synthesis helps ensure the correctness and reliability of computer systems, especially in safety-critical applications. Advances in automata-based techniques continue to contribute to the development of tools and methodologies for the formal verification and synthesis of complex systems.
+"
+_

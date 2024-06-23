@@ -1,0 +1,18 @@
+"
+Identifiers (tokens such as variable names, function names, etc.) in C and C++ that start with an underscore (`_`) or two consecutive underscores (`__`) are typically reserved for use by the implementation (compiler and standard library). These naming conventions help prevent conflicts between user-defined identifiers and those used internally by the compiler or standard library.
+
+1. **Single Underscore (`_`):**
+   - Identifiers starting with a single underscore at the global scope are reserved for use by the implementation (e.g., the compiler and standard library). Users should avoid creating global identifiers starting with a single underscore to prevent naming conflicts with implementation-defined names.
+
+2. **Double Underscore (`__`):**
+   - Identifiers starting with two consecutive underscores are reserved for both the implementation and the standard library. They are typically used for implementation-defined names or macros. Users should not use identifiers starting with `__` to avoid conflicts with compiler-specific or standard library features.
+
+It's important for developers to follow these naming conventions to ensure portability and avoid unintended clashes with implementation-specific identifiers. The C and C++ standards provide a set of rules for naming to maintain a clear distinction between user code and implementation specifics.
+
+For example, the C standard (ISO/IEC 9899) states in Section 7.1.3:
+
+> All identifiers that begin with an underscore and either an uppercase letter or another underscore are always reserved for any use.
+
+Developers should refer to the specific documentation of the compiler they are using for information about reserved identifiers and naming conventions. Additionally, using meaningful and descriptive names for user-defined identifiers is considered good practice to enhance code readability and maintainability.
+"
+_

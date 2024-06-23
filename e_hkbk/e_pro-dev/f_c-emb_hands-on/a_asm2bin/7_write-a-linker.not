@@ -1,0 +1,10 @@
+
+How long would it take to write a linker?
+ChatGPT
+
+Writing a linker is a complex task that requires a deep understanding of the object file format and the linking process. The amount of time it takes to write a linker can vary widely depending on the experience and skill level of the programmer, the complexity of the object file format being used, and the features and functionality of the linker being developed.
+
+In general, writing a basic linker that can handle simple object files can take several weeks to a few months for an experienced programmer. However, developing a more advanced linker with support for complex object file formats, advanced linking optimizations, and other features can take several months or even years.
+
+It's also worth noting that writing a linker is typically not a task that is done in isolation, as linkers are often developed as part of larger toolchain projects such as GCC or LLVM. In these cases, the development time for the linker may be spread out over a longer period of time as part of the larger project.
+

@@ -1,0 +1,20 @@
+"
+In the C programming language, several storage classes determine the scope and lifetime of variables. The storage classes in C are:
+
+1. Auto: This is the default storage class for local variables within a function. Variables declared as "auto" are allocated memory automatically when the function is called, and their memory is released when the function execution completes.
+
+2. Register: This storage class is used to suggest the compiler to store the variable in a CPU register for faster access. However, the compiler is free to ignore this suggestion. The "register" keyword is rarely used in modern C programming, as compilers are typically capable of optimizing variable storage themselves.
+
+3. Static: The "static" storage class is used to declare variables that retain their values between different function calls. Static variables are initialized only once and preserve their values throughout the program's execution. They are allocated memory in the data segment of the program, rather than the stack.
+
+4. Extern: The "extern" storage class is used to declare variables that are defined in another file. When a variable is declared as "extern," it means that its definition exists in a different file, and the current file is using that definition. It is commonly used for accessing global variables across multiple source files.
+
+5. Typedef: Although not strictly a storage class, the "typedef" keyword is used to define new data types using existing ones. It allows the creation of aliases for existing types, which can be helpful for enhancing code readability and portability.
+
+It's important to note that storage classes are primarily used for local and global variables and do not apply to variables declared within a structure or union.
+"
+
+ - SHARMA DINESH || Co-founder @Humanity || Looking for Embedded Software developer || Trainer with IOT and EMBEDDED || Freelance with BLOOD DONATION ||
+    || Internet of things(IOT) || EMBEDDED WITH LINUX 
+
+_

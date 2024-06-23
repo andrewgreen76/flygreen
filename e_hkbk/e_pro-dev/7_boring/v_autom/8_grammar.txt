@@ -1,0 +1,5 @@
+
+Grammar :
+ . a recipe for generating strings
+ . a recipe for recognizing strings 
+_

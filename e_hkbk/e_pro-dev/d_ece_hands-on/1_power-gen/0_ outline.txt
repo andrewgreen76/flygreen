@@ -1,0 +1,26 @@
+
+power generator
+transformer
+ . as a voltage booster
+ . AC voltage can be changed by routing a current from a coil with 
+   one configuration to a coil with a different configuration.  
+power transmitter
+transformer
+ . as a voltage attenuator
+
+sub-station, 
+power quality regulation, 
+breakers to isolate faults 
+
+feeders to tamp voltage down to ideal level 
+power reception
+
+========================================================================
+
+DC vs. AC (60 Hz direction switch)
+
+AC: 
+ + safer 
+ + efficient 
+ + easy to change voltage 
+

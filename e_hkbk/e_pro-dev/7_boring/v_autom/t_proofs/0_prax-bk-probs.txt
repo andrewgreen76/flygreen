@@ -1,0 +1,8 @@
+
+Section 1.1 Problems: 4, 7, 9, 11, 15, 17, 40
+
+    For problem #9, 2s is the book's notation for power set. 
+    For all the set equality problems, use set theory proofs.
+
+Section 1.2 Problems: 5, 9, 10, 11b.
+

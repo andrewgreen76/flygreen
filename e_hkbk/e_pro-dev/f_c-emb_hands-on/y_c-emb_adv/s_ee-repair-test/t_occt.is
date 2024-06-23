@@ -1,0 +1,23 @@
+
+"
+OCCT (OverClock Checking Tool) is a popular stress testing and stability testing software primarily used for testing the stability and performance of computer hardware components, especially CPUs, memory, and GPUs. It is commonly employed by computer enthusiasts, overclockers, and system builders to ensure that their hardware can handle high loads and extreme conditions without crashing or encountering errors.
+
+Key features of OCCT stress testing include:
+
+1. CPU, Memory, and GPU Testing: OCCT offers separate stress tests for the CPU, memory, and GPU. Each test puts a heavy load on the corresponding hardware component to simulate high-intensity workloads.
+
+2. Linpack and Custom Tests: OCCT includes the Linpack test, which is particularly effective for stressing the CPU and identifying system instabilities under extreme conditions. Users can also create custom tests with specific settings to suit their needs.
+
+3. Error Detection: OCCT is designed to detect errors during testing, including CPU errors, memory errors, and GPU errors. If any errors occur during testing, OCCT will report them, indicating that the hardware may not be stable under the current conditions.
+
+4. Monitoring and Reporting: The software provides real-time monitoring of hardware parameters, such as CPU temperature, CPU usage, and GPU temperature. It also logs the results for further analysis and can generate detailed reports on system stability and performance.
+
+5. Duration and Throttle Control: Users can set the duration of the stress test to run for a specified time or indefinitely until manually stopped. OCCT also offers options for throttle control to adjust the load on the hardware during testing.
+
+6. GPU Memory Testing: OCCT can test the stability of GPU memory, which is important for graphics-intensive tasks like gaming and GPU rendering.
+
+OCCT is an excellent tool for overclockers who want to push their hardware to its limits and verify the stability of their overclocked settings. Additionally, it is beneficial for system builders and enthusiasts who want to ensure that their systems can handle demanding workloads without crashing or encountering errors.
+
+However, it's essential to use OCCT with caution, especially when applying heavy stress on hardware components, as excessive stress or overclocking can potentially cause damage or reduce the lifespan of the components if proper cooling and voltage control measures are not taken.
+"
+

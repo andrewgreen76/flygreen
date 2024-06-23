@@ -1,0 +1,11 @@
+
+Automaton :
+ |
+ . an ABSTRACT for a machine
+ . input - string
+ . state
+ . input processing rule
+ |
+ |
+ ? thought of as one with grammar and formal language ?? 
+_

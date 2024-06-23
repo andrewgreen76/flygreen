@@ -1,0 +1,18 @@
+"
+In C and C++, the `main()` function serves as the entry point for a program. However, in certain low-level programming contexts, particularly in embedded systems or when dealing with very low-level code, you might encounter the use of `_start()` instead of `main()`. 
+
+Here's why:
+
+1. **Control over initialization**: `_start()` allows finer control over the initialization process of the program. In embedded systems or bare-metal programming, you might need to set up hardware or initialize certain low-level components before the standard C runtime environment is initialized. `_start()` lets you do this directly.
+
+2. **Minimal runtime dependencies**: By using `_start()`, you can avoid relying on the standard C runtime startup code that `main()` depends on. This can be useful in scenarios where you need to minimize the overhead or dependencies of your program.
+
+3. **Customized startup code**: `_start()` allows you to provide your own custom startup code. This can be beneficial when dealing with specialized environments where the standard startup code provided by the compiler is not sufficient or needs modification.
+
+4. **Platform-specific requirements**: Some platforms or operating systems might require the use of `_start()` instead of `main()` due to specific architectural or runtime requirements. For example, in some embedded systems, the startup routine might be defined by the hardware or bootloader.
+
+5. **Exception handling**: `_start()` allows you to directly handle exceptions and interrupts at a very low level, before the standard C runtime environment is fully set up.
+
+It's important to note that using `_start()` instead of `main()` is more advanced and generally not necessary for most standard software development tasks. It's primarily used in specialized contexts where you need precise control over program initialization or where standard runtime environments are not available or not suitable.
+"
+_

@@ -50,6 +50,7 @@ Assembly :
 
 DIY project : building my own dumb laptop / motherboard
  |
+ . ENIAC and its legacy 
  . index registers , EA (computation) , MOV vs. LEA 
  . memory protection , paging , segmentation
  . the history of phreaking 

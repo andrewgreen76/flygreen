@@ -1,0 +1,24 @@
+
+========================================================================================
+TO KEEP THINGS SIMPLE , FOR NOW ... 
+========================================================================================
+
+ . Forget everything you may know or have heard about hashing , like key-value pairs ,
+   encryption algorithms , etc. Let's keep things simple for now.
+
+========================================================================================
+THE POINT OF HASHING:
+========================================================================================
+
+ . Type in one thing (dict.word , name , login , ID , password) ->
+ -> [Fast lookup] ->
+ -> Get needed related info (customer info , validity of the key , etc.)
+
+========================================================================================
+LOOKUP TIME OPTIMIZATION : 
+========================================================================================
+
+ . Traversing a traditional data structure (an array , a linked list , or a queue) and
+   comparing pieces of data to find the info you need takes linear time. Can we do better ?
+
+_

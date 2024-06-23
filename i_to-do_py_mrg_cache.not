@@ -1,6 +1,8 @@
 
  . map out the timeline for concepts from : 
-   . data structures : types of polymorphism , etc. 
+   . data structures :
+     . C : K&R , ??? 
+     . C++ : types of polymorphism , etc.
    . discrete mathematics (logic , graph theory) 
    . analysis of algorithms
    . automata theory : NP-hard , NP-complete

@@ -1,0 +1,16 @@
+"
+A Williams tube could store more than one bit of information by utilizing the entire surface of the cathode ray tube (CRT) to represent multiple bits as individual charged spots (dots) on a grid pattern. Here’s how it worked:
+
+1. **Grid Pattern**: The face of the CRT was organized into a grid of closely spaced points, each capable of holding an electrostatic charge.
+
+2. **Electrostatic Charges**: Each point on the grid could be either charged or uncharged, representing a binary '1' or '0', respectively. 
+
+3. **Addressing**: The electron beam of the CRT was directed to specific coordinates on the grid to write or read a bit. The coordinates (x, y) corresponded to the address of the bit in memory.
+
+4. **Storing Bits**: By writing charges to different points on the grid, the Williams tube could store multiple bits of information across its entire surface. For example, a grid with 32x32 points could store 1,024 bits of information (32 rows × 32 columns).
+
+5. **Reading and Refreshing**: To read the stored bits, the electron beam scanned the same grid pattern. The presence or absence of a charge at each grid point was detected and interpreted as a '1' or '0'. The tube needed constant refreshing to maintain the charges due to the gradual dissipation of electrostatic charges over time.
+
+In summary, a Williams tube stored multiple bits of information by utilizing a grid of charged spots on the CRT's surface, with each spot representing a single bit in the overall memory array.
+"
+_

@@ -1,0 +1,7 @@
+
+ . study of patterns (in string processing , behavior , etc.)
+ -> definition
+ -> etymology
+ -> history of the studies (origins) 
+
+_

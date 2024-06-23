@@ -1,0 +1,12 @@
+"
+The Small-Scale Experimental Machine (SSEM) provided computation output primarily through a cathode ray tube (CRT) display. Here’s how it worked:
+
+1. **CRT Display**: The results of computations were displayed directly on a CRT screen. The Williams tube, used for memory, could be connected to an output display tube where the binary data stored in the memory was visually represented as dots.
+
+2. **Human Interpretation**: Operators would interpret the patterns of dots on the CRT to understand the output. This required familiarity with the binary data format and the specific encoding used by the machine.
+
+3. **Output Devices**: In some instances, the output could be manually transcribed or copied from the CRT display to paper for further analysis.
+
+The SSEM did not have advanced output devices like printers or teletypes initially, so its output was mainly visual and required human interpretation.
+"
+_

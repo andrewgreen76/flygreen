@@ -1,0 +1,18 @@
+
+Buffer overflow vs. DoS :
+ .
+
+Response to DoS :
+ . firewalls
+ . ... see slides 
+
+=============================================================
+
+Zero data attack :
+ .
+
+CIA :
+ . confidentiality - privacy / encryption 
+ . integrity - info is accurate and complete 
+ . availability - legal data readily available to customers 
+_

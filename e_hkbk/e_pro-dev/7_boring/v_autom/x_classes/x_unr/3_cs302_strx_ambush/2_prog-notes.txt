@@ -1,0 +1,20 @@
+
+"THIS CODE IS MY OWN WORK, IT WAS WRITTEN WITHOUT CONSULTING ONLINE RESOURCES, A TUTOR OR
+CODE WRITTEN BY OTHER STUDENTS."
+
+
+REDUNDANCY IS ENCOURAGED. 
+ . <string> here and there 
+ . DO NOT #INCLUDE <IOSTREAM>. INCLUDE LIBRARIES YOU ACTUALLY NEED. 
+    |
+    . bloats the compiler load
+    . may radically change the nature of the compiling process
+
+
+<string> is in <iostream> 
+
+
+a good idea :
+ . every class is to have 
+
+_

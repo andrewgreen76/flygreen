@@ -1,0 +1,12 @@
+
+ADT :
+ . abstract data type
+ . solutions for how to store collections of like objects
+ . ex. : linked lists 
+
+
+Data structure :
+ . implementation
+ . ex. : vectors 
+
+_

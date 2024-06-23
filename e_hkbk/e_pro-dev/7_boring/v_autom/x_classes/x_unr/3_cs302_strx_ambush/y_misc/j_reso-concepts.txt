@@ -1,0 +1,22 @@
+
+? solid design principles - ?
+
+? C vs. C++ - ?
+
+Main driver - ?
+
+Modularization :
+ . procedures , behavior
+ . break up into pieces - JUST FUNCTIONS 
+ . different from encapsulation
+
+Composition (OOP prin) :
+ . relationship , state
+ . fulfills a description
+ . "be made up of several things" , not "to put together"
+ . here : made up of objects of different classes 
+
+Aggregation : 
+ .
+
+_

@@ -1,0 +1,31 @@
+
+======================================
+LINK : 
+======================================
+
+======================================
+NETWORK CORE :
+======================================
+
+ . a set of communicating routers
+ .
+ . see slides 
+ .
+ > store-and-forward
+    . packet retention (bufferring)
+    . buffer overflow
+
+ . multiple links / 1 packet switch
+ . 1 output buffer/queue / 1 link
+ . queueing
+
+======================================
+PACKET QUEUEING AND LOSS : 
+======================================
+
+======================================
+ROUTING AND SWITCHING : 
+======================================
+
+
+_

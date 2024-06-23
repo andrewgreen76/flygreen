@@ -1,0 +1,10 @@
+
+Cloud :
+ . sharing resources between clients
+
+Cloud services :
+ . AWS , Google , Azure 
+
+Cloud architecture :
+ . the breakdown of the cloud computing environment 
+_

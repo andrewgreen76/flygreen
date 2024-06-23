@@ -1,0 +1,6 @@
+
+Memory :
+ . mechanical 
+ . 32-bit words 
+
+_

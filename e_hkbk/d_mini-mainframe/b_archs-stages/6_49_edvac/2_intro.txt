@@ -5,7 +5,7 @@
 The nature of the computer : 
  . binary
  . serial computer
-   . operating on 1 bit per cycle 
+   . operating on 1 binary digit per cycle (they weren't called bits yet) 
 
 
 Operations : 

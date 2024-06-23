@@ -1,4 +1,7 @@
 
+ . Bolt , Beranek & Newman Inc.
+ . a.k.a. Raytheon BBN Technologies 
+
  . a consultancy firm
  . strong ties with MIT
 

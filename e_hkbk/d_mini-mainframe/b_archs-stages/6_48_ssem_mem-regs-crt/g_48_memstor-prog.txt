@@ -8,7 +8,7 @@ The "stored program" model is a fundamental concept in computer science and refe
 "
 
 ========================================================================================
-MEMORY AND STORAGE IN SSEM : 
+IS IT PRIMARY STORAGE (MEMORY) OR IS IT SECONDARY STORAGE ? 
 ========================================================================================
 
 "

@@ -1,8 +1,4 @@
 "
-The first computer to support subroutines was the EDSAC (Electronic Delay Storage Automatic Calculator), which became operational in 1949 at the University of Cambridge. EDSAC introduced the concept of a library of subroutines, which could be called by the main program using a dedicated instruction. This innovation significantly influenced subsequent computer programming and design.
-"
-
-"
 A subroutine, also known as a function, procedure, or method, is a set of instructions designed to perform a specific task within a larger program. Subroutines are used to break down complex problems into smaller, more manageable pieces, and they allow for code reuse, modularity, and easier debugging. When a subroutine is called or invoked from the main program, the execution temporarily transfers to the subroutine, performs the defined task, and then returns to the point in the main program where it was called.
 "
 _

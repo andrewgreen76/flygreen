@@ -1,4 +1,7 @@
 
+ . Reject / cancel loans
+ . Drop the classes 
+
  . map out the timeline for concepts from :
    . (applicable => accessible) 
    ===============================================================================================
@@ -14,8 +17,6 @@
    . discrete mathematics (logic , graph theory) 
    . analysis of algorithms (Big ? , proof by induction , searching , sorting , quicksort , mergesort) 
    . automata theory : NP-hard , NP-complete
-
- . Reject / cancel loans 
 
 @ De Anza / UW / UMN / GATech :
  |
@@ -1206,50 +1207,22 @@ Graphics drivers : specify the GPU (OEM, etc.)
 Plotting pixels 
 
 Thermal transferable paper > PCB. 
-Scratch > ? > shell > C > Python <= What lang for gfx after Scratch ? 
-
-
+Scratch > Python > shell > C <= What lang for gfx after Scratch ? 
 learning ASM (Malcolm Shore) - LinkedIn 
 Does coreboot have prop pieces ? 
-LLM hallucinations 
-How can deep learning help me with the project ? Python/C/... skills ? 
 Rpi gfx specs
-py doc
 NAND, NOR, or SPI in cboot, rpi/arm, arduino/avr, etc. ? 
-py in hw
-- 
 learn about diff companies
-what does it mean to be a pro dev ? facts, myths, misconceptions 
-- you'll be working with a team , no lonerism
-- be patient 
 relevant vs. personal (relevant should feel personal, and personal should feel relevant) 
-gil is
-lru is 
-python has its rules/assumptions 
-focus : python : -abilities
-vm vs. container vs. qemu vs. docker vs. k8s vs. kvm 
-learning points 
-need qemu for hw ; linux kernel learning points
-process isolation
-study templates before jumping into Rust. 
-photos : javaldx, etc. 
-regroup C in a and b. 
 
-Cert > Open-source projects to choose from. (C, Rust, and Python were selected.) 
 Learn cmake / Makefile
 Learn Docker / Dockerfile
-explore pre-compiled binaries 
 explore ASL, SQF, ACPI objects/control methods.
 - what is a source language ? 
 list of stipulations for :
 - getting work (interview q-ns, courses)
-  - Get a cert (Udemy, Coursera) : firmware, kernel 
 - getting an ID (?? paystubs ??) 
-- getting a car
-awk, sed, docker
-Apply for : Canonical / Tesla. 
 FFmpeg
-
 statically typed - determined/accessible at compile-time
 dynamically typed - accessible during runtime. 
 

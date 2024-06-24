@@ -1,0 +1,22 @@
+"
+Williams tubes, used in early computers like the SSEM (Manchester Baby), stored memory locations by utilizing a cathode ray tube (CRT) to create and detect charged spots on a phosphor screen. Here's how they achieved this:
+
+1. **Grid Overlay**: The screen of the Williams tube was overlaid with a grid. Each intersection on the grid corresponded to a specific memory location.
+
+2. **Charged Spots**: Data was stored as tiny charged spots on the phosphor coating of the CRT screen. A charged spot represented a binary 1, while the absence of a charge represented a binary 0.
+
+3. **Addressing Locations**: The electron beam of the CRT could be precisely controlled to target specific locations on the screen. This allowed the system to read from or write to any memory location by positioning the beam at the corresponding grid intersection.
+
+4. **Reading and Writing Data**: 
+    - **Writing**: To write data, the electron beam would deposit a charge at the specific grid location.
+    - **Reading**: To read data, the electron beam would scan the location. If a charge was present, it would produce a small electrical pulse, which could be detected and interpreted as a binary 1. If no charge was present, no pulse would be detected, corresponding to a binary 0.
+
+5. **Refreshing**: The charges on the screen would dissipate over time, so the memory required periodic refreshing. The system had to continuously read and re-write the charges to maintain the data.
+
+6. **Accessing Memory**: 
+    - **Random Access**: Any location could be accessed directly and independently of other locations, which is a key feature of random-access memory (RAM).
+    - **Sequential Access**: The Williams tube could also support sequential access, where data is read or written in a specific order.
+
+This method of storing data on a Williams tube allowed early computers like the SSEM to have random-access memory locations, making it possible to store and retrieve instructions and data dynamically. The ability to access memory locations directly by addressing specific spots on the CRT screen was a significant innovation in the development of computer memory.
+"
+_

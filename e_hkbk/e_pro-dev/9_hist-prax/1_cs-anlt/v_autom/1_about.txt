@@ -1,0 +1,27 @@
+
+========================================================================================
+WHAT IS AN AUTOMATON : 
+========================================================================================
+
+ . dream machine
+ . study of patterns (in string processing , behavior , etc.)
+ => dreaming about a computer that can process things
+ |
+ |
+ . its workings always described with inputs and states
+ . "used to study and design computational processes"
+
+
+========================================================================================
+
+ -> definition
+ -> etymology
+ -> history of the studies (origins) 
+    . should explain the necessity for the studies 
+
+========================================================================================
+
+Q&A :
+ . How is it a mathematical model ?
+
+_

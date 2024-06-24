@@ -18,7 +18,12 @@ Operations :
 
 Memory : 
  . ultrasonic serial memory (totalling 1,024 44-bit words or 5.6 kilobytes)
- . a.k.a. delay-line memory 
+ . a.k.a. delay-line memory
+ . a sequence of acoustic waves propagated through a mercury column
+ - heavy
+ - expensive
+ - data cannot be accessed randomly
+ - temperature governs the flow of sound , but is difficult to regulate 
 
 
 Performance : 

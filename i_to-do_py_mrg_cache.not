@@ -48,7 +48,9 @@ A year off :
    . VLSI design ; semic.    	       	       	      
      . Logisim 
    . CPU/GPU architectures			      
-   . assemblers					      
+   . assemblers
+     . optimal / regular assemblers
+     . macro assemblers 
    . compilers / higher-level programming (C / C++)   
      . goto statements 
      . macros
@@ -58,7 +60,9 @@ A year off :
    -> data structures				      
    -> algorithms (analysis)			      
    -> file systems 				      
-   -> operating systems 			      
+   -> operating systems
+      . parallel programming
+      . distributed computing 
    -> discrete mathematics			      
       . set theory
       . functions

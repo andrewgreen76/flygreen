@@ -1,0 +1,11 @@
+
+ . resident monitor
+   . always in the memory of the computer
+   . regulates flow of tasks punched on cards (a.k.a. job control)
+   . active in memory before and after every job 
+   . a.k.a. system monitor
+   . a.k.a. memory monitor
+ -> CTSS
+ -> OS (Multics , UNIX , etc.) 
+
+_

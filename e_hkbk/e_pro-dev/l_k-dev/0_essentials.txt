@@ -20,8 +20,9 @@ WHAT IS A KERNEL ?
 
  . the central program of an operating system 
  . in charge of :
-   . virtualizing concurrent execution of multiple jobs/tasks at the same time
+   . virtualizing concurrent execution of multiple jobs/tasks at the same time 
    . has to use a scheduling algorithm to figure out when to start or resume running a task amidst other tasks
+   . minimizing idling time , thereby maximizing efficiency / use of resources 
    . security : has to determine whether a process is malicious or not 
 
 

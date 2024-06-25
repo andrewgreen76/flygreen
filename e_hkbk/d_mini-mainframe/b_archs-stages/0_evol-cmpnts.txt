@@ -29,7 +29,7 @@ d_51_whirlwind1:
 
 f_52_ibm701_ctrlog:
 0_701-near.jpg	5_first-mainframe    x_batch-proc.txt
-2_701-far.jpg	l_52_ctrl-logic.txt
+2_701-far.jpg	l_52_ctrl-logic.txt  speedcode
 
 h_54_ibm704_utils:
 0_704.jpg	    9_fortran	      m_54_loaders.pdf	t_56_gm-naa-io

@@ -1,7 +1,10 @@
 
  . multi-paradigm
  . functional
- . reflective 
+ . reflective
+ . strong vs. weak
+ . static vs. dynamic
+ . manifest vs. ??? 
 
 ========================================================================================
 LANGUAGES TIMELINE : 
@@ -10,7 +13,8 @@ LANGUAGES TIMELINE :
 							prcdrl/funcl	imper/decl	un-/struc	
 
  . 1947 - assembly 	K. Booth			.		.		.
- . 1957 - Fortran 	J. Backus
+ . 1953 - Speedcode	J. Backus
+ . 1957 - FORTRAN 	J. Backus
  . 1958	- ALGOL 58 	F. L. Bauer , et al. 
  . 1959 - COBOL 	G. Hopper 
  . 1960 - ALGOL 60 	A. J. Perlis, et al. 

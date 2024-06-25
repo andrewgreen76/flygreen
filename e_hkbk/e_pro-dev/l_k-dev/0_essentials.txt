@@ -1,4 +1,52 @@
 
+========================================================================================
+WHAT IS AN OPERATING SYSTEM ? 
+========================================================================================
+
+ . NOT a program
+ . it is a software suite comprised of :
+   . the kernel - itself being a program 
+   . build utilities : 
+     . compiler
+     . assembler
+     . linker 
+   . other utilities : 
+     . debugger 
+
+
+========================================================================================
+WHAT IS A KERNEL ? 
+========================================================================================
+
+ . the central program of an operating system 
+ . in charge of :
+   . virtualizing concurrent execution of multiple jobs/tasks at the same time
+   . has to use a scheduling algorithm to figure out when to start or resume running a task amidst other tasks
+   . security : has to determine whether a process is malicious or not 
+
+
+========================================================================================
+WHAT IS A JOB ? 
+========================================================================================
+
+ . a.k.a. a task
+ |
+ . a queued program
+ . a user request 
+
+
+========================================================================================
+WHAT IS A PROCESS ? 
+========================================================================================
+
+ . a program currently being run
+ . oddly enough , even when in waiting (queued) or ready state , it may still be called a process 
+
+
+========================================================================================
+A LAUNDRY LIST OF ITEMS RELATED TO KERNEL OPERATIONS : 
+========================================================================================
+
 io handling / fileOps
 memgmt
 proc sched / mgmt
@@ -11,3 +59,4 @@ kernel sync & locking
 portability
 dbg tchqs
 
+_

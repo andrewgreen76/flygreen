@@ -1,4 +1,4 @@
-	.file	"0.c"
+	.file	"o_void-main.c"
 	.text
 	.globl	main
 	.type	main, @function

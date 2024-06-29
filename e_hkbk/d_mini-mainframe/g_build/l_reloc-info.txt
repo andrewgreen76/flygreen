@@ -1,0 +1,29 @@
+
+========================================================================================
+ACCOUNT FOR AND UNDERSTAND PRE-PROCESSING : 
+========================================================================================
+
+ . Pre-processing entails inclusion of library code.
+
+
+========================================================================================
+LINKING : 
+========================================================================================
+
+ . generating relocation records 
+
+ . detecting undefined symbols (certain tokens)
+   . for functions
+   . for macros 
+   . etc. 
+ . "resolving references" - looking up corresponding functions,etc. from within source code 
+ . the ref'd things are pulled from libs and other obj files
+ . (resolves references to undefined symbols) 
+
+
+ . Linking is converting unresolved references (identifiers for functions , macros , etc.)
+   to specific memory addresses within included library code and linked object files.
+   |
+   => resolving references to undefined symbols : mapping identifiers within the binary obj/lib code 
+
+_

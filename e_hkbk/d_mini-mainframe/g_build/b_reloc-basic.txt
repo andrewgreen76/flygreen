@@ -4,8 +4,11 @@ ACCOUNT FOR AND UNDERSTAND PRE-PROCESSING.
 ========================================================================================
 
  . Pre-processing entails inclusion of library code rendered in source language
-   (C , C++ , etc.) , i.e., before compiling. 
+   (C , C++ , etc.) , i.e., before compiling.
+
+
  . Linking entails putting together binary files - object files and binary libraries.
+ |
  => Note that libraries come in different shapes and sizes (before compiling and after
     assembling). 
 
@@ -14,16 +17,20 @@ ACCOUNT FOR AND UNDERSTAND PRE-PROCESSING.
 LINKING TERMINOLOGY : 
 ========================================================================================
 
- . symbol - identifier for a function , macro , etc. 
- . reference - 
+ . symbol - identifier for a function , macro , etc. in an object file or library before linking
+   (so the symbol must be binary)
+
+
+ . reference - an instance of a symbol being used.
+   . Once it is converted to an address , a pointer to the definition of the symbol - a literal ,
+     a function , a union , a struct , etc.) , we say that the reference has been resolved. 
 
 
 ========================================================================================
 LINKING PROCESS : 
 ========================================================================================
 
- . generating a SYMBOL TABLE (per obj/lib) comprised of RELOCATION RECORDS (individual
-   entries for mapped symbols) 
+ . generating RELOCATION RECORDS (individual entries for (un)mapped symbols) 
 
  -> detecting unresolved references (certain tokens / undefined symbols)
    . for functions
@@ -40,6 +47,7 @@ LINKING PROCESS :
    to specific memory addresses within included library code and linked object files.
    |
    => resolving references to undefined symbols : mapping identifiers within the binary obj/lib code 
+
 
 ========================================================================================
 PASSING THROUGH IN LINKING : 

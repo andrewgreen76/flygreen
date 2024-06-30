@@ -1,0 +1,51 @@
+
+========================================================================================
+ACCOUNT FOR AND UNDERSTAND PRE-PROCESSING. 
+========================================================================================
+
+ . Pre-processing entails inclusion of library code rendered in source language
+   (C , C++ , etc.) , i.e., before compiling. 
+ . Linking entails putting together binary files - object files and binary libraries.
+ => Note that libraries come in different shapes and sizes (before compiling and after
+    assembling). 
+
+
+========================================================================================
+LINKING TERMINOLOGY : 
+========================================================================================
+
+ . symbol - identifier for a function , macro , etc. 
+ . reference - 
+
+
+========================================================================================
+LINKING PROCESS : 
+========================================================================================
+
+ . generating a SYMBOL TABLE (per obj/lib) comprised of RELOCATION RECORDS (individual
+   entries for mapped symbols) 
+
+ -> detecting unresolved references (certain tokens / undefined symbols)
+   . for functions
+   . for macros 
+   . etc.
+   
+ -> "resolving references to undefined symbols" 
+    . mapping/converting the references to the addresses looking up corresponding functions,etc. from within source code 
+ . the ref'd things are pulled from libs and other obj files
+ . (resolves references to undefined symbols) 
+
+
+ . Linking is converting unresolved references (identifiers for functions , macros , etc.)
+   to specific memory addresses within included library code and linked object files.
+   |
+   => resolving references to undefined symbols : mapping identifiers within the binary obj/lib code 
+
+========================================================================================
+PASSING THROUGH IN LINKING : 
+========================================================================================
+
+ . single-pass
+ . two-pass 
+
+_

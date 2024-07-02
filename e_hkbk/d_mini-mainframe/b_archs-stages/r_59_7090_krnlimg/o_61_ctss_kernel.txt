@@ -1,0 +1,9 @@
+"
+The first operating system to feature a kernel in the modern sense was the Compatible Time-Sharing System (CTSS), developed at MIT in the early 1960s. CTSS, introduced in 1961, included a clear separation between user space and system space, with a core component (the kernel) responsible for managing resources, handling system calls, and maintaining security and isolation between different users' programs. This concept of a kernel laid the groundwork for more advanced operating systems that followed.
+"
+
+"
+The Compatible Time-Sharing System (CTSS) was developed for the IBM 7090 computer at MIT. CTSS was one of the first time-sharing operating systems, allowing multiple users to interact with the computer simultaneously, each in their own independent sessions. This was a significant advancement in computing, laying the foundation for modern multi-user operating systems.
+"
+
+_

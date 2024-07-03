@@ -50,8 +50,7 @@ Assembly :
 
 DIY project : research -and- building my own dumb laptop / motherboard
  |
- . [from hardware thru sysmon/OS] x [from 1938 (Z3) thru 1956 (IBM 305 RAMAC)]
- . ENIAC and its legacy 
+ . legacy of early computing : [from hardware to sysmon/OS] x [from 1938 (Z3) to 1970s]
  . index registers , EA (computation) , MOV vs. LEA 
  . memory protection , paging , segmentation
  . the history of phreaking 

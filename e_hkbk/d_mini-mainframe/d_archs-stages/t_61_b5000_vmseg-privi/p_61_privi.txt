@@ -1,4 +1,0 @@
-"
-The earliest computer to support privilege levels was the Burroughs B5000, introduced in 1961. The B5000 was designed with a hardware-enforced, multi-level protection mechanism that distinguished between different levels of program execution, effectively implementing a form of privilege levels to enhance system security and stability.
-"
-_

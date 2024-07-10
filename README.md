@@ -50,6 +50,7 @@ Assembly :
 
 DIY project : research -and- building my own dumb laptop / motherboard
  |
+ . TTL vs. CMOS 
  . legacy of early computing : [from hardware to sysmon/OS] x [from 1938 (Z3) to 1970s]
  . index registers , EA (computation) , MOV vs. LEA 
  . memory protection , paging , segmentation

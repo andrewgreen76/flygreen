@@ -14,18 +14,22 @@ TTL :
  |
  . BJTs
  . source and drain
+ . LS - Low-power Schottky
 
 
 CMOS :
  |
  . complimentary metal-oxide semiconductor
  |
+ + easier to make on substrates 
  + moderate power consumption (no consumption at rest)
  + high resistance to noise and input signal 
  - requires one more volt to drive internal logic
  |
  . (MOS)FETs
- . collector and emitter 
+ . collector and emitter
+ . HC - High-speed CMOS
+ . Cxxxx - belongs to a CMOS family (may not be high-speed)  
 
 
 _

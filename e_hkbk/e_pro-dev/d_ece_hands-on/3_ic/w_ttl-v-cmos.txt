@@ -1,0 +1,25 @@
+
+========================================================================================
+TTL vs. CMOS
+========================================================================================
+
+
+TTL :
+ |
+ . transistor-transistor logic
+ |
+ - great power consumption (some consumption even at rest)
+ - very responsive to energy (electrical/thermal) noise
+ + does not require much power to drive internal logic 
+
+
+CMOS :
+ |
+ . complimentary metal-oxide semiconductor
+ |
+ + moderate power consumption (no consumption at rest)
+ + high resistance to noise and input signal 
+ - requires one more volt to drive internal logic 
+
+
+_

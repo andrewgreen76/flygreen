@@ -7,18 +7,86 @@
 
  . modeled after the Ben Eater design
 
+
+========================================================================================
+ADDRESS SELECTION :
+========================================================================================
+
+ . MAR - for buffering selected address
+   . |A| = 11 bits 
+ 
+ . slide or DIP-switches - for selecting any address before push-to-copy to MAR
+ 
+ . BFA button 
+   . buffer the toggled address 
+
+ . PREV button 
+   . rollover past 0x0
+   . counter decrement (adding 1111 1111) 
+   => ? can't be anything like 74LS161 ?
+
+ . NEXT button 
+   . rollover past last address in EEPROM 
+   . counter increment (adding 0000 0001)
+
+ -----------------------------------------------------------------------
+ . AST button
+   . takes to the end (top of EEPROM map) 
+     . could be end of program
+     . could be the last boot/recovery vector
+   
+ . ACL button
+   . takes to the start (bottom of EEPROM map) 
+     . could be start of program
+     . could be start of interrupt vector table (IVT) 
+ -----------------------------------------------------------------------
+
+========================================================================================
+WORD LOOKUP AT ADDRESS : 
+========================================================================================
+
+ . MDR - for reading the word at that address
+   . |D| = 8 bits
+
+ . EEPROM read :
+   . need Read mode on (~OE low , ? ~WE high ?) - see Ben Eater videos 
+   . instant read of code/data upon address selection
+   . one word at a time => one register 
+
+ . EEPROM "write" :
+   .  need Write mode on (? ~OE high ? , ~WE low)
+  (1) manual programming of the master copy one EEPROM 
+    . word-for-word
+    . mechanic : flick-push-set 
+    . a switch for every bit 
+    . W2M button (copy toggles to MDR) 
+  (2) automated (clock-driven) program copy from src_EEPROM (A) to dest_EEPROM (B) 
+      . key switches
+      . the master copy is saved and can be replicated multiple times 
+
+
+########################################################################################
+########################################################################################
+########################################################################################
+
+========================================================================================
+METHODS UNDER CONSIDERATION :
+========================================================================================
+
+ + slide switches
+ 
+ - DIP-switches
+   - working with these has a cumbersome feel to it , so we want something more convenient 
+
+
 ========================================================================================
 REJECTED METHODS :
 ========================================================================================
 
- |
- - no microcontroller (e.g., Arduino Nano) involved - the lead designer/engineer does not
- | know how to design and fabricate a microcontroller at home
- |
- - no DIP-switches - working with these has a cumbersome feel to it , so we want something
- | more convenient
- |
- - no program hardwiring on a medium (breadboard). Original plan : 
+ - microcontroller (e.g., Arduino Nano) involved
+   - the lead designer/engineer does not know how to design and fabricate a microcontroller 
+ 
+ - program hardwiring on a medium (breadboard). Original plan : 
    . clock-driven/automated EEPROM reading/writing 
    . constantly scrolling address to address , clock dialed to max speed for fast scroll
      to virtualize simultaneous read from all addresses
@@ -27,35 +95,19 @@ REJECTED METHODS :
      . would need N demux-output-lines to display all N instruction words within EEPROM
      . would need N * 8 LEDs to accomodate display of all the words 
      => not feasible 
+   . power for 1 , ground for 0 
+   - breadboard logistics prohibits having a very large number of instructions
 
+ - an automated electromechanical alternative to the breadboard
+   . ? for 1 , ? for 0
+   + transparent program image
+   - program-transparent medium logistics prohibits having a very large number of instructions
+     . would need lots of board/card pieces put together to accomodate a really long program 
+   - registers take up a lot of space 
 
-Methods under consideration : 
- + (a) button switches 
- + (b) two-way position switches (flick-push-set) 
-
-
- . EEPROM address/code/data lookup (instant read) :
- | . need Read mode on (~OE low , ? ~WE high ?)
- | . MAR - for reading the address itself 
- | . MBR - for reading the word at that address 
- | . key switches - for paging from address to address while also peeking words 
- |   . prev (rollover past 0x0) 
- |   . next (rollover past last address in EEPROM) 
- |
- |
- . EEPROM "write" :
- |  .  need Write mode on (? ~OE high ? , ~WE low)
- | (1) manual programming of the master EEPROM word-for-word 
- |     . S-R two-way switch for every bit (8 switches per word) 
- |     . button : set-all 	
- |     . button : clear-all 
- |     . button : copy-toggles-to-MBR 
- | (2) automated program copy from src_EEPROM (A) to dest_EEPROM (B) 
- |     . key switches
- |     . the master copy is saved and can be replicated multiple times 
- |
- |
- . automating the program write - ideas :
-   . breadboard for holding hardwired machine code (can start off with random binary values) 
+ . multiple-address read options :
+   . [NOT FEASIBLE] all G words in EEPROM 
+   . [NOT FEASIBLE] only M words, starting with A1, where G < N 
+   . one address (A1) at a time
 
 _

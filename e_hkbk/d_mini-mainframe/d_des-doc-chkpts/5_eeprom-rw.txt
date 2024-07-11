@@ -1,13 +1,16 @@
 
-========================================================================================
-FIRMWARE EEPROM - PROGRAMMING AND READING METHODS 
-========================================================================================
-
+########################################################################################
+########################################################################################
+#####		    FIRMWARE EEPROM - PROGRAMMING AND READING METHODS		   ##### 
+########################################################################################
+########################################################################################
 
  . modeled after the Ben Eater design
- 
 
-Rejections :
+========================================================================================
+REJECTED METHODS :
+========================================================================================
+
  |
  - no microcontroller (e.g., Arduino Nano) involved - the lead designer/engineer does not
  | know how to design and fabricate a microcontroller at home
@@ -21,23 +24,35 @@ Rejections :
      to virtualize simultaneous read from all addresses
    . address-scrolling mechanic :
      . akin to feeding counter output to the control logic stepper 
-     . would need N demux-output-lines to display all N instruction words within EEPROM 
+     . would need N demux-output-lines to display all N instruction words within EEPROM
+     . would need N * 8 LEDs to accomodate display of all the words 
      => not feasible 
 
 
-Accepted method :
- |
- | + I will be using key switches. 
- |
- |
- . EEPROM read-to-board :
+Methods under consideration : 
+ + (a) button switches 
+ + (b) two-way position switches (flick-push-set) 
+
+
+ . EEPROM address/code/data lookup (instant read) :
  | . need Read mode on (~OE low , ? ~WE high ?)
- | . reading addresses one at a time using the programmer's "MAR" 
+ | . MAR - for reading the address itself 
+ | . MBR - for reading the word at that address 
+ | . key switches - for paging from address to address while also peeking words 
+ |   . prev (rollover past 0x0) 
+ |   . next (rollover past last address in EEPROM) 
  |
  |
- . EEPROM write :
- | . need Write mode on (? ~OE high ? , ~WE low) 
- | + using key switches
+ . EEPROM "write" :
+ |  .  need Write mode on (? ~OE high ? , ~WE low)
+ | (1) manual programming of the master EEPROM word-for-word 
+ |     . S-R two-way switch for every bit (8 switches per word) 
+ |     . button : set-all 	
+ |     . button : clear-all 
+ |     . button : copy-toggles-to-MBR 
+ | (2) automated program copy from src_EEPROM (A) to dest_EEPROM (B) 
+ |     . key switches
+ |     . the master copy is saved and can be replicated multiple times 
  |
  |
  . automating the program write - ideas :

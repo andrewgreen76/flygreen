@@ -3,10 +3,34 @@
 FIRMWARE INSTRUCTIONS : 
 ========================================================================================
 
- . compatible with RISC-V
-   . instruction count : 47+
-   . instructions list :
-   . jumps - conditionals 
+ . something random , nothing substantial , to start off with 
+
+ - can't be compatible with RISC-V
+   . RISC-V is limited to 16 bits minimum in width ; no 8-bit variants
+   => will resort to 6502 , 65C02 , or SAP-based custom ISA 
+   
+ . instruction count :
+ 
+ . instructions list		-	bin repr. (every bit has a role)
+   . starters : 
+     . HLT				1111 1111
+     . NOP 				0000 0000
+     . JMP 				0000 0001
+   . conditional jumps :
+     . JZ
+     . JEQ
+     . JNE	(after SUB)
+   . logic :
+     . NOT
+     . AND
+     . OR
+     . XOR
+   . arithmetic :
+     . ADD
+     . SUB
+     . MUL
+     . DVI
+     . DVF
 
 
 ========================================================================================

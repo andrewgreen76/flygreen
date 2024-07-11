@@ -48,8 +48,9 @@ Assembly :
  . its key directives
  . .org - writing to specific memory addresses 
 
-DIY project : research -and- building my own dumb laptop / motherboard
+DIY project : research -and- building my own dumb laptop / motherboard / CPU / EEPROMS 
  |
+ . an improvement on Ben Eater EEPROM programmer design 
  . TTL vs. CMOS 
  . legacy of early computing : [from hardware to sysmon/OS] x [from 1938 (Z3) to 1970s]
  . index registers , EA (computation) , MOV vs. LEA 

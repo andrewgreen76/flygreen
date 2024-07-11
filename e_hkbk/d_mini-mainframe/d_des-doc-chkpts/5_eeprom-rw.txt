@@ -1,0 +1,46 @@
+
+========================================================================================
+FIRMWARE EEPROM - PROGRAMMING AND READING METHODS 
+========================================================================================
+
+
+ . modeled after the Ben Eater design
+ 
+
+Rejections :
+ |
+ - no microcontroller (e.g., Arduino Nano) involved - the lead designer/engineer does not
+ | know how to design and fabricate a microcontroller at home
+ |
+ - no DIP-switches - working with these has a cumbersome feel to it , so we want something
+ | more convenient
+ |
+ - no program hardwiring on a medium (breadboard). Original plan : 
+   . clock-driven/automated EEPROM reading/writing 
+   . constantly scrolling address to address , clock dialed to max speed for fast scroll
+     to virtualize simultaneous read from all addresses
+   . address-scrolling mechanic :
+     . akin to feeding counter output to the control logic stepper 
+     . would need N demux-output-lines to display all N instruction words within EEPROM 
+     => not feasible 
+
+
+Accepted method :
+ |
+ | + I will be using key switches. 
+ |
+ |
+ . EEPROM read-to-board :
+ | . need Read mode on (~OE low , ? ~WE high ?)
+ | . reading addresses one at a time using the programmer's "MAR" 
+ |
+ |
+ . EEPROM write :
+ | . need Write mode on (? ~OE high ? , ~WE low) 
+ | + using key switches
+ |
+ |
+ . automating the program write - ideas :
+   . breadboard for holding hardwired machine code (can start off with random binary values) 
+
+_

@@ -1,0 +1,54 @@
+
+========================================================================================
+FIRMWARE INSTRUCTIONS : 
+========================================================================================
+
+ . compatible with RISC-V
+   . instruction count : 47+
+   . instructions list :
+   . jumps - conditionals 
+
+
+========================================================================================
+CPU:
+========================================================================================
+
+ . clock
+ |
+ -> busses:
+ |  . C-bus - for control signals , 32-bit , 	ribbon cable 
+ |  . A-bus - for addresses ,	     8-bit ,	bus rails
+ |  . D-bus - for data,     	     8-bit , 	bus rails
+ |  . I-bus - for instructions ,     8-bit , 	bus rails
+ |
+ -> PC 	      - program counter
+ -> MAR + MDR - memory address register + memory data register
+ |
+ -> general-purpose registers (GPRs)
+ |  . x0 : always holds 0
+ |  . x1 - treated as accumulator
+ |  . x2 - treated as base register
+ |  . x3 - treated as counter register
+ |  . x4-x31 - SI , DI , CS , DS , SS , etc. 
+ |
+ -> ALU 
+
+
+Microcode ROM :
+ |
+ . control logic EEPROMs
+
+
+ . CPU circuit board with all registers, lines, and other components fully functioning
+
+
+Computer:
+ |
+ . added BIOS ROM, running BIOS off of ROM
+ . built a screen
+ . connected the CPU to large ROM, large RAM, and I/O devices: key switches, the screen, and a permanent storage unit
+ . expanded computer architecture width to 16 bits 
+ . expanded computer architecture width to 32 bits 
+ . expanded computer architecture width to 64 bits 
+
+_

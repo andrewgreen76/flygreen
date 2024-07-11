@@ -1,0 +1,12 @@
+
+Firefox :
+
+ . Ctrl + T		= create new tab
+ . Ctrl + W		= close currently active tab.		The tab will be remembered , i.e., pushed onto the stack of closed tabs.
+ . Ctrl + Shift + T	= reopen the most recently closed tab. 	The tab will be forgotten  , i.e., popped off the stack of closed tabs. 
+ . Ctrl + L		= select URL text field
+ 
+ . Ctrl + left		= page to prev track of YouTube playlist
+ . Ctrl + right		= page to next track of YouTube playlist 
+
+_

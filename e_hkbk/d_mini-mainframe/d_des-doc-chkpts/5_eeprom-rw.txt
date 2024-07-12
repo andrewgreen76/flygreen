@@ -59,7 +59,7 @@ WORD LOOKUP AT ADDRESS :
     . word-for-word
     . mechanic : flick-push-set 
     . a switch for every bit 
-    . W2M button (copy toggles to MDR) 
+    . W2M button (copy toggle signals to MDR) 
   (2) automated (clock-driven) program copy from src_EEPROM (A) to dest_EEPROM (B) 
       . key switches
       . the master copy is saved and can be replicated multiple times 

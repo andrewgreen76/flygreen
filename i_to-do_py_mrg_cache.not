@@ -32,12 +32,6 @@
    . Any career training programs ? 
    . Any internships / co-ops ?
    . When to start applying for Fall 2025 
- . Ask about :
-   . Tuition Classification
-   . Should I apply as an undergrad or grad for the year ? Can I not file both for the same year ?
-   . If I apply as an undergrad but the school opines I should be in a grad program , can I then switch to grad ?
-   . Does one of the supporting documents have to be active for one year ? 
- . Get to know the faculty. 
 
 
 A year off :
@@ -398,133 +392,13 @@ paying the deposit at OCM / Bursar's Office
 8/22 - transfer student orientation
 8/26 - classes begin 
 
-
-
-
-
 ==========================================================================================================================================================
 ==========================================================================================================================================================
 ==========================================================================================================================================================
-
-ASEN - Aerospace Engineering 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-(PDF) instruction bit fields in 8008 : 
- . _ _ _ _   _ _ _ _
-   opc
- . _ _ _ _   _ _ _ _
-   opd
-
- . "The Intel 8008 microprocessor uses addressing modes specified by the opcode to determine where to look for the operand once it fetches the opcode."
-
-(PDF) instruction bit fields in 8080 : 
- . 
-
-(PDF) instruction bit fields in 8086 : 
- . 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 int , rdy 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+==========================================================================================================================================================
 
 learn about storage technology :
  |
@@ -1214,20 +1088,9 @@ Plotting pixels
 Thermal transferable paper > PCB. 
 Scratch > Python > shell > C <= What lang for gfx after Scratch ? 
 learning ASM (Malcolm Shore) - LinkedIn 
-Does coreboot have prop pieces ? 
-Rpi gfx specs
-NAND, NOR, or SPI in cboot, rpi/arm, arduino/avr, etc. ? 
-learn about diff companies
 relevant vs. personal (relevant should feel personal, and personal should feel relevant) 
 
 Learn cmake / Makefile
-Learn Docker / Dockerfile
-explore ASL, SQF, ACPI objects/control methods.
-- what is a source language ? 
-list of stipulations for :
-- getting work (interview q-ns, courses)
-- getting an ID (?? paystubs ??) 
-FFmpeg
 statically typed - determined/accessible at compile-time
 dynamically typed - accessible during runtime. 
 
@@ -1304,5 +1167,28 @@ trustworthy with time and money (invested into the teaching)
 
 "Everybody is identical in their secret unspoken belief that way deep down they are different from everyone else."
 - David Foster Wallace, Infinite Jest 
+
+=====================================================================
+
+How I spent these 12 months :
+
+ . ..........................................................................
+ 
+ ->  8/1  ->	... Nand2Tetris (arch + fake asm + fake Py)	+ .5 months
+ ->  8/15 ->	radio (amp chip) 	   	   	      	+ nil 
+ -> 	  ->	jobs       					+ nil
+ -> 	  -> 	Rmail : Emacs Lisp (no longer an interest)	+ .5 mths 
+ ->  9/1  ->	CPU / (osc / EEPROM-prog) + jobs + schools 	+ 2 months 
+ -> 11/1  ->	GRE : studying for GRE				+ 1 month 
+ -> 12/1  ->	online : Dartm : C + Unix / jobs / UNR 		+ 1 month
+ 
+ ->  1/1  -> 	C+Unix+make + legacy (VAX) + mmgmt (segm + pg)	+ .5 months 
+ ->  1/15 -> 	Tesla empl + UNR stud + handshake + unr 	+ .5 months
+ ->  2/1  ->	C+Unix+make + legacy (VAX) + mmgmt (segm + pg)	+ 1 month
+ ->  3/1  -> 	VGA board + LCD (CGROM) + apply to colls   	+ .5 months
+ ->  3/15 ->	jobs 	    					+ .5 months
+ ->  4/1  -> 	early history of computing 			+ 1 month 
+
+Tesla/jobs + UNR/schools
 
 _

@@ -419,156 +419,12 @@ first computer to work with a storage device
 first device to support an operating system 
 first CPU to support an operating system (vertical studies : CPU + OS)
  . storage at the time
-
 rtos
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 the need for memory segmentation 
-
 address = segment + offset
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 index registers in 8008
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 mem protection and addressing in 8088
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 FBPLID (Fixed Basic Pipeline for Linear Incremental Development of a CPU). 
 The open-source Google Maps of VLSI design (down to micro- and nano-). 
@@ -594,18 +450,13 @@ linker
 assembler
 compiler
 pre-processor
-|
-private scholarships 
-industry certs : CUD/UCD from UEFI forum ; CBP
-any specific hardware , kits ?
-BIOS or UEFI ?
+
+later : industry certs : CUD/UCD from UEFI forum ; CBP
 UEFI : 
  . PEI in POST ? 
  . DXE in POST ?
 tiano
 PI (platform init)
-check on UMN , TAMU 
-transistors
 read init-dets.txt
 branch prediction
 BASIC : source listings 
@@ -1173,20 +1024,23 @@ How I spent these 12 months :
  . ..........................................................................
  
  ->  8/1  ->	... Nand2Tetris (arch + fake asm + fake Py)	+ .5 months
- ->  8/15 ->	radio (amp chip) 	   	   	      	+ nil 
- -> 	  ->	jobs       					+ nil
- -> 	  -> 	Rmail : Emacs Lisp (no longer an interest)	+ .5 mths 
+ ->  8/15 ->	radio + jobs + resume + intro to career dev.	+ nil 
+ -> 	  -> 	Emacs mail : eLisp , notmuch (not interested)	+ .5 mths 
  ->  9/1  ->	CPU / (osc / EEPROM-prog) + jobs + schools 	+ 2 months 
  -> 11/1  ->	GRE : studying for GRE				+ 1 month 
- -> 12/1  ->	online : Dartm : C + Unix / jobs / UNR 		+ 1 month
+ -> 12/1  ->	online : Dartm : C + Unix / jobs / UNR 		+ .5 months
+ -> 12/15 ->	Pat : sched + virt + mmgmt (segm + pg) + VAX	+ 1 month 
  
- ->  1/1  -> 	Pat : make + legacy (VAX) + mmgmt (segm + pg)	+ .5 months 
  ->  1/15 -> 	Tesla empl + UNR stud + handshake + UNR jobs 	+ .5 months
- ->  2/1  ->	Pat : sched + Ushl + make + VAX + segm + pg	+ 1 month
- ->  3/1  -> 	VGA board + LCD (CGROM) + apply to colls   	+ .5 months
- ->  3/15 ->	jobs 	    					+ .5 months
- ->  4/1  -> 	early history of computing 			+ 1 month 
-
-Tesla/jobs + UNR/schools
+ ->  2/1  ->	Pat : Ushl + make + segm + pg + perst 		+ 1 month
+ ->  3/1  -> 	VGA + LCD (CG) + RaspPI/btlds + apply to colls 	+ .5 months
+ ->  3/15 ->	btld + woz/vicmon + BIOS/POST+resv + CU Boul	+ .5 months
+ ->  4/1  ->	memory mapping (ROM + RAM) + boot/shtdn seq.	+ .5 months 
+ ->  4/15 ->	CU Boulder to-do's 				+ .5 months 
+ ->  5/1  -> 	Intel : history, MCS8, uprcrs, x86, regs, semic	+ .5 months
+ ->  5/15 ->	early asm's + interrupts + prefixes + a-modes	+ 1 month 
+ ->  6/15 ->	history of computing : 1938-1965 + loans 	+ 1 month
+ ->  7/1  -> 	history of computing : 1938-1965
+ ->  7/15 ->	des.doc. : custom firmware / CPU / comp 	+ 
 
 _

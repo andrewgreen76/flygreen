@@ -1,0 +1,31 @@
+
+Discr. math. - data structure - storage , info 
+Graph theory - networks/connections
+Automaton - memory - stack machine
+Formal langs - string manip 
+
+========================================================================================================
+========================================================================================================
+========================================================================================================
+
+Something that's cast in stone should not take weeks to translate. That's just inefficient, wasteful. 
+
+========================================================================================================
+
+Discr. math. / automata / etc. 	  - computational structure (programming language features)
+ . logical stmt/expr  : from AND, OR, etc. results in T or F 
+ . data structure     : storage , info 
+ . propositional and predicate logic 
+
+
+Anls of algs : 
+ . algorithms 	 - graph theory - networks/connections
+
+
+Automata + formal langs : 
+ . automaton	 - memory	- stack machine
+ . formal langs --- string processing
+    . "... a set of strings composed of symbols from a specified alphabet, governed by explicit rules of syntax and semantics ... ."
+    => strings made of symbols (alphabet) 
+
+_

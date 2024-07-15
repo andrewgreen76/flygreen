@@ -11,5 +11,5 @@ For high performance :
 For capacity :
  + pack as many bits as possible
  - slow operation
- . accounts for "cost per byte" 
+ . accounts for "cost per byte"
 _

@@ -1,0 +1,25 @@
+
+ . performance comparison
+   . rendering 
+   . worst-case scenarios 
+
+========================================================================================
+IN YOUR PROJECTS 
+========================================================================================
+
+"
+In game development, using Big O notation helps optimize rendering performance by ensuring
+that algorithms for collision detection operate in O(n log n) time complexity rather than
+O(n^2), enhancing gameplay efficiency.
+"
+
+========================================================================================
+WHY BIG O 
+========================================================================================
+
+"
+Big O notation is more popular than Big Theta and Big Omega because it provides an upper
+bound on the asymptotic behavior of algorithms, which is often sufficient for analyzing
+worst-case scenarios and establishing performance guarantees in algorithmic analysis.
+"
+_

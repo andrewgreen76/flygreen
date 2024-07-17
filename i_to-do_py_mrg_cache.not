@@ -53,15 +53,17 @@ How I spent these 12 months :
    ===============================================================================================
    PRACTICAL / ANALYTICAL : 
    ===============================================================================================
-   . data structures :
+   . programming languages : 
      . C : K&R , ??? (structs , union , malloc , macros , compiler , optimization , goto , vulns , typedef)
        . funcs : memcpy , printf , puts
      . C++ : AEIP , templates , types of polymorphism , etc. 
+     . data structures :
+     . typing systems : 
    ===============================================================================================
    ANALYTICAL : 
    ===============================================================================================
-   . discrete mathematics (logic , graph theory) 
    . analysis of algorithms (Big ? , proof by induction , searching , sorting , quicksort , mergesort) 
+   . discrete mathematics (logic , graph theory) 
    . automata theory : NP-hard , NP-complete
 
 @ De Anza / UW / UMN / GATech :
@@ -89,10 +91,11 @@ A year off :
    . assemblers
      . optimal / regular assemblers
      . macro assemblers 
-   . compilers / higher-level programming (C / C++)   
+   . compilers / higher-level programming (C / C++)
      . goto statements 
      . macros
      . pragmas 
+     . typing systems 
      . templates
    . linkers , debuggers 
    -> data structures				      

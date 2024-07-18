@@ -1,18 +1,41 @@
 
- . multi-paradigm
- . functional
+ . unstructured 
+ . structured 
+
+
+Typing system :
+ ||
+ . strong typing ~
+ . weak typing ~
+ ||
+ . static ~
+ . dynamic ~ 
+
+
+ . imperative ~ procedural 
+ . declarative ~ functional ~ query ~ logic 
+
+ . manifest ~
+ . inferred (implicit) ~
+
+ . duck typing ~
+
  . reflective
- . strong vs. weak
- . static vs. dynamic
- . manifest vs. ??? 
+ . non-reflective 
+
+ . single-paradigm 
+ . multi-paradigm 
+
+ . nominal ~
+ . structural ~ 
 
 ========================================================================================
 LANGUAGES TIMELINE : 
 ========================================================================================
 
-							prcdrl/funcl	imper/decl	un-/struc	
+							un-/struc	strong/weak	stat/dyn	imper/decl	prcdrl/funcl	.
 
- . 1947 - assembly 	K. Booth			.		.		.
+ . 1947 - assembly 	K. Booth			.		.		.		.		.
  . 1953 - Speedcode	J. Backus
  . 1957 - FORTRAN 	J. Backus
  . 1958	- ALGOL 58 	F. L. Bauer , et al. 
@@ -36,8 +59,15 @@ TERMINOLOGY FOR ALL LANGUAGES (NOT JUST FOR PROGRAMMING) :
 ========================================================================================
 
 Reminder : this is a discussion of languages for all sorts of applications , not just
-for programming. This includes query , hardware description (behavior) , markup , and
-markdown. 
+for programming and scripting. There are languages for :
+ . programming
+ . scripting
+ . query
+ . hardware description (behavior) 
+ . markup
+ . markdown
+ . typesetting (TeX) 
+ . Oh, and there are formal languages , but that's only just a little actionable. 
 
 ========================================================================================
 UNSTRUCTURED VS. STRUCTURED : 
@@ -87,8 +117,7 @@ Declarative :
 LOGIC PROGRAMMING : 
 ========================================================================================
 
- . under with logic programming 
- . enmeshed with functional programming 
+ . strongly tied to functional programming 
  . Prolog
  . Datalog
  . answer set programming (ASP) 

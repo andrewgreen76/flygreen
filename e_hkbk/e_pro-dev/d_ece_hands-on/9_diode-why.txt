@@ -1,0 +1,36 @@
+
+A:	A diode allows the current to flow only in one direction.
+
+------------------------------------------------------------------------------------------
+
+Q:   	But doesn't current always flow in one direction? Under what circumstances
+	would it change direction? 
+
+A:   	"The common 120V 60Hz found on the wall outlets in civilized countries
+	 changes direction 60 times [e]very second. It’s not "sudden", but it does
+	 change." 
+
+	"Another good example might be a circuit that normally supplies 13.5V DC
+	 to your car’s headlights ... [then] the car suddenly gets hit by lightning
+	 [but] that's a bit extreme."
+
+------------------------------------------------------------------------------------------
+
+Q:	Why would a current change direction?
+
+A: 	"As the wire spins and periodically enters a different magnetic polarity,
+	 the voltage and current alternate on the wire. This current can change
+	 direction periodically, and the voltage in an AC circuit also periodically
+	 reverses because the current changes direction."
+
+------------------------------------------------------------------------------------------
+
+Q:	Would I expect change of direction of current in both AC and DC?
+
+A:	"[Typically,] direct current (DC) flows in one direction, resulting in a constant
+	 polarity."
+
+	"Alternating current (AC) flows half the time in one direction and half the time
+	 in the other, changing its polarity 120 times per second with 60-hertz current."
+
+_

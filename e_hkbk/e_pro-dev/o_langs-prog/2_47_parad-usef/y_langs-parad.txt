@@ -30,31 +30,6 @@ Typing system :
  . structural ~ 
 
 ========================================================================================
-LANGUAGES TIMELINE : 
-========================================================================================
-
-							un-/struc	strong/weak	stat/dyn	imper/decl	prcdrl/funcl	.
-
- . 1947 - assembly 	K. Booth			.		.		.		.		.
- . 1953 - Speedcode	J. Backus
- . 1957 - FORTRAN 	J. Backus
- . 1958	- ALGOL 58 	F. L. Bauer , et al. 
- . 1959 - COBOL 	G. Hopper 
- . 1960 - ALGOL 60 	A. J. Perlis, et al. 
- . 1960 - Lisp 		J. McCarthy
- . 1962 - Simula 	O. Dahl , K. Nygaard 
- . 1963 - CPL 		C. Strachey , et al. 
- . 1964 - BASIC 	J. G. Kemeny , T. E. Kurtz
- . 1964 - PL/I		G. Radin , et al. 
- . 1967 - BCPL		M. Richards
- . 1969	- B		D. M. Ritchie , K. L. Thompson	
- . 1970 - Forth		C. H. Moore
- . 1970	- New B		D. M. Ritchie , K. L. Thompson
- . 1970	- Pascal	N. Wirth 
- . 1972 - C		D. M. Ritchie
- . 1972	- Smalltalk 	A. Goldberg , et al.
-
-========================================================================================
 TERMINOLOGY FOR ALL LANGUAGES (NOT JUST FOR PROGRAMMING) : 
 ========================================================================================
 

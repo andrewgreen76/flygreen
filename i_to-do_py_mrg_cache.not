@@ -1,19 +1,4 @@
 
- . Python   - scripting
- . Bash	    - scripting
- . C	    - programming
- . C++ 	    - programming
- . asm	    - programming
- . HDL	    - HW behavior 
- |
- . md	    - markdown
- . HTML/CSS - markup
- . C#	    - programming
- . Java	    - programming 
- . -	    - query
-
-===========================================================================================
-
  . make a difference :
    . being a part of a project
      . learned everything -> identified problems and solutions 
@@ -25,7 +10,7 @@
        . Logisim
    . doing what you love doing :
      . VLSI (job market)       - ?
-     . uctrlr (I/O ) (market)  - ?
+     . uctrlr (I/O) (market)  - ?
      . dev.driv.engr (market)  - ?
      . CPU arch. (market)      - ?
      . ctrl ucode (market)     - ?

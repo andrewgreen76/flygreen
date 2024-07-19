@@ -1,0 +1,17 @@
+
+A:	A diode allows the current to flow only in one direction.
+
+
+
+Q:   	But doesn't current always flow in one direction? Under what circumstances
+	would it change direction? 
+
+A:   	"The common 120V 60Hz found on the wall outlets in civilized countries
+	changes direction 60 times [e]very second. It’s not "sudden", but it does
+	change. 
+
+	Another good example might be a circuit that normally supplies 13.5V DC
+	to your car’s headlights. ... [or] when the car suddenly gets hit by lightning
+	[, but] that's a bit extreme."
+
+_

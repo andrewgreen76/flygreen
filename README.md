@@ -50,6 +50,7 @@ Assembly :
 
 DIY project : research -and- building my own dumb laptop / motherboard / CPU / EEPROMS 
  |
+ . profiling languages (by type system and paradigms) 
  . an improvement on Ben Eater EEPROM programmer design 
  . TTL vs. CMOS 
  . legacy of early computing : [from hardware to sysmon/OS] x [from 1938 (Z3) to 1970s]

@@ -1,0 +1,19 @@
+
+"
+Stack smashing, also known as a stack buffer overflow or stack-based buffer overflow, is a type of security vulnerability in computer programs where data is written beyond the boundaries of a stack-allocated buffer. It occurs when a program writes more data into a buffer than it can hold, causing the excess data to overwrite adjacent memory locations on the program's call stack.
+
+The call stack is a data structure used by programs to manage function calls and returns. When a function is called, its local variables and the return address are pushed onto the stack. When the function returns, this data is popped off the stack, allowing the program to resume execution from the caller.
+
+In a stack buffer overflow, if an attacker carefully crafts input to the program, they can cause more data to be written into a buffer than it can accommodate. This overwrites the adjacent memory on the stack, including the return address of the function. By overwriting the return address with a carefully chosen value, the attacker can manipulate the flow of execution and potentially execute arbitrary code.
+
+The consequences of a successful stack smashing attack can be severe and may include:
+
+1. Code Execution: The attacker can inject malicious code, known as shellcode, into the program's memory and force the program to execute it. This can lead to unauthorized control over the program and potentially the entire system.
+
+2. Crash or Undefined Behavior: In cases where the overwritten data is critical for the program's correct execution, the program may crash or behave unpredictably due to undefined behavior.
+
+3. Information Disclosure: Stack smashing attacks can lead to the leakage of sensitive data if the overwritten memory contains confidential information.
+
+To protect against stack smashing attacks, it is crucial to implement secure coding practices, such as using safe functions for input processing, performing bounds checking to ensure that data fits within buffer limits, and using modern programming languages or frameworks that offer built-in memory safety features. Additionally, security audits and code reviews can help identify and fix potential vulnerabilities in the codebase.
+"
+

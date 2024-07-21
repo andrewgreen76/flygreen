@@ -1,0 +1,141 @@
+
+ . unstructured 
+ . structured 
+
+
+Typing system :
+ ||
+ . strong typing ~
+ . weak typing ~
+ ||
+ . static ~
+ . dynamic ~ 
+
+
+ . imperative ~ procedural 
+ . declarative ~ functional ~ query ~ logic 
+
+ . manifest ~
+ . inferred (implicit) ~
+
+ . duck typing ~
+
+ . reflective
+ . non-reflective 
+
+ . single-paradigm 
+ . multi-paradigm 
+
+ . nominal ~
+ . structural ~ 
+
+========================================================================================
+TERMINOLOGY FOR ALL LANGUAGES (NOT JUST FOR PROGRAMMING) : 
+========================================================================================
+
+Reminder : this is a discussion of languages for all sorts of applications , not just
+for programming and scripting. There are languages for :
+ . programming
+ . scripting
+ . query
+ . hardware description (behavior) 
+ . markup
+ . markdown
+ . typesetting (TeX) 
+ . Oh, and there are formal languages , but that's only just a little actionable. 
+
+========================================================================================
+UNSTRUCTURED VS. STRUCTURED : 
+========================================================================================
+
+Unstructured :
+  |
+  . characteristics :
+  | . goto statements
+  |
+  . languages :
+  | . assembly
+  | . BASIC 
+  | . Fortran 
+  |
+Structured :
+ . program control (flow) structures : 
+   . sequence 
+   . condition 
+   . iteration 
+   . blocks
+   . subroutines 
+
+========================================================================================
+IMPERATIVE VS. DECLARATIVE : 
+========================================================================================
+
+Imperative :
+ . explicitly specified statements to achieve something
+ . (but this does NOT mean programming over scripting) 
+ . strongly tied to procedural programming
+ . FORTRAN , COBOL , ALGOL , BASIC , C / C++ , Python , Java 
+
+Declarative :
+ . a command or statement is given to get something done ; the processing utility will
+   understand/translate this into the steps implied to achieve the goal
+ . (but this does NOT mean scripting over programming) 
+ . database query languages (e.g., SQL, XQuery)
+ . regular expressions
+ . logic programming 
+ . strongly tied to functional programming
+ . configuration management
+ . algebraic modeling systems
+ . Lisp , ML , Prolog , Datalog , ASP 
+
+========================================================================================
+LOGIC PROGRAMMING : 
+========================================================================================
+
+ . strongly tied to functional programming 
+ . Prolog
+ . Datalog
+ . answer set programming (ASP) 
+ . Haskell
+
+========================================================================================
+PROCEDURAL VS. FUNCTIONAL : 
+========================================================================================
+
+Procedural :
+  |
+  . characteristics :
+  | . mutable state
+  |
+  . languages : 
+  | . C
+  | . Pascal
+  | . COBOL
+  | . BASIC
+  |
+Functional :
+  |
+  . characteristics :
+  | . evaluation of mathematical expressions 
+  | . independent functions ; same input -> same output
+  |
+  | . immutable state
+  | . immutable data
+  | . first-class (higher-order) functions
+  |
+  . languages : 
+    . Haskell
+    . Lisp
+    . Scheme
+    . Clojure
+    . Erlang
+
+========================================================================================
+MUTABLE VS. IMMUTABLE STATES : 
+========================================================================================
+
+Mutable state :
+
+Immutable state : 
+
+_

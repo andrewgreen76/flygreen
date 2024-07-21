@@ -8,9 +8,12 @@
      . game development 
      . educational course / videos / tutorials and exercises 
        . Logisim
+       . writing a compiler/interpreter for a language
+       	 . gamedev-oriented
+	 . meant for mistakes like counting from 1 instead of 0 
    . doing what you love doing :
      . VLSI (job market)       - ?
-     . uctrlr (I/O) (market)  - ?
+     . uctrlr (I/O) (market)   - ?
      . dev.driv.engr (market)  - ?
      . CPU arch. (market)      - ?
      . ctrl ucode (market)     - ?

@@ -1,0 +1,40 @@
+
+========================================================================================
+TTL vs. CMOS
+========================================================================================
+
+
+
+TTL (transistor-transistor logic) :
+ |
+ |
+ - great power consumption (some consumption even at rest)
+ - very responsive to energy (electrical/thermal) noise
+ + does not require much power to drive internal logic
+ |
+ |
+ . BJTs
+ . source and drain
+ . LS - Low-power Schottky
+ . most of them fabricated by Texas Instruments 
+
+
+
+CMOS (complimentary metal-oxide semiconductor) : 
+ |
+ |
+ + moderate power consumption (no consumption at rest)
+ + high resistance to noise and input signal 
+ - requires one more volt to drive internal logic
+ |-----------------------------------------------------
+ + easier to make on substrates
+ + higher density of logic gates 
+ |
+ |
+ . (MOS)FETs
+ . collector and emitter
+ . HC - High-speed CMOS
+ . Cxxxx - belongs to a CMOS family (may not be high-speed)  
+
+
+_

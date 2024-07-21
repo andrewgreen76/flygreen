@@ -1,0 +1,4 @@
+
+Linker:
+- The linker is responsible for resolving symbols and references between different object files and libraries. It combines multiple object files, resolves addresses, and creates an executable file. It also performs the final relocation of the code, ensuring that all memory references are correct for the target memory layout.
+

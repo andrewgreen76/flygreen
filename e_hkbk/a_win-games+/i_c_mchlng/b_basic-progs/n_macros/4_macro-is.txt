@@ -1,0 +1,4 @@
+
+Macro - type-neutral text substitution in code. It is down to the compiler/interpreter to figure out how to treat the macro. 
+
+_

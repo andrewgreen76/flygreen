@@ -5,3 +5,7 @@ stdin
 stdout
 stderr
 
+__FILE__
+__unix__
+
+_

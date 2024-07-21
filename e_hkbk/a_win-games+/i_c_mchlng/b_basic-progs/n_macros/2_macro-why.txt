@@ -1,0 +1,9 @@
+
+"Macros are [more] efficient than the const type statements as they are not given any memory, being more readable and faster in execution."
+(https://www.sanfoundry.com/c-question-difference-between-macro-const-declaration/)
+
+"
+Using `const int` provides type safety and scoping benefits over `#define` macros in C or C++.
+"
+
+_

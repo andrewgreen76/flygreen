@@ -1,0 +1,4 @@
+"
+Using `const int` provides type safety benefits because the compiler performs type checking on `const int` variables, ensuring they are used correctly in expressions and assignments. This helps prevent unintended side effects or errors that can occur with macros, which are simply text substitutions. Additionally, `const int` variables have a defined scope, which helps in managing variable visibility and preventing unintended name collisions.
+"
+_

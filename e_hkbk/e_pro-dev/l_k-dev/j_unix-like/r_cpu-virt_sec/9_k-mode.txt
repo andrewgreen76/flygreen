@@ -1,0 +1,6 @@
+
+ . job / thread scheduler
+ . heap manager ( malloc() / free() ) 
+ . device drivers (to access and regulate hardware) 
+
+_

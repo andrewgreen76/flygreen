@@ -10,7 +10,7 @@ Process :
 - data
 - heap :
   - holds memory reserved for variables at run-time 
-  - programmer explicitly requests more memory on the heap using the malloc() API
+  - programmer explicitly requests more memory on the heap using malloc() 
     - malloc() returns the address of the conjured heap chunk
     - returns NULL if it failed for some reason 
     must explicitly release heap memory using free() 

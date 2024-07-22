@@ -1,0 +1,7 @@
+
+The "sudo" word in a Unix-like command line is used as the first word to indicate
+that you would like to carry out an operation that requires admin/superuser/root user
+credentials , making sure that you are the privileged user , or superuser. You would
+be asked for the superuser's password before the operation can be performed. 
+
+_

@@ -13,7 +13,8 @@
    . accumulator 
 
 
- . EDSAC : 
+ . EDSAC :
+   . polling 
 	g_49_asm-flavors.txt  t_subrout.txt  x_paper-tape
 5_ints.url   9_asm.url	j_asm-addict@	      w_sec-storage
 

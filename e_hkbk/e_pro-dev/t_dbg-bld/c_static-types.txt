@@ -1,4 +1,4 @@
-
+"
 Static types can be useful in debugging in several ways:
 
 1. Type Errors: Static typing helps catch type errors at compile time, which can prevent certain classes of bugs from occurring in the first place. By enforcing type correctness, the compiler can catch mismatched types, invalid assignments, and other type-related errors before the code is executed.
@@ -13,3 +13,5 @@ Static types can be useful in debugging in several ways:
 
 While dynamic typing has its own advantages and use cases, static typing can provide valuable benefits during debugging by catching type-related errors early, improving code understanding, enabling better IDE support, and aiding in performance optimization.
 
+"
+_

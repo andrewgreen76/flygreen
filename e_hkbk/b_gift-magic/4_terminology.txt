@@ -13,4 +13,8 @@ Cross-platform :
  . works across multiple platforms (esp. OS's) 
  . ("without requiring modification or recompilation") 
 
+
+Tookit :
+ . a suite of libraries and applications 
+
 _

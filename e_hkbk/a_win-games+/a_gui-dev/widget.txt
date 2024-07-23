@@ -1,0 +1,6 @@
+
+Widget :
+ . "A widget is a graphical component or element used in graphical user interfaces (GUIs)
+    to display information or provide interactive functionality within an application window."
+
+_

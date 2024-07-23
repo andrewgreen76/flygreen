@@ -1,6 +1,45 @@
 
+========================================================================================
+WHAT IS NULL : 
+========================================================================================
+
+ . the computer is yet to distinguish 00...00 as NULL or as the integer number 0 
+
+"
+Computers determine whether `00000000` represents NULL or zero based on the context in which
+the value is used within the program's logic and type system, adhering to the rules defined
+by the programming language and the processor's instruction set architecture.
+"
+
+========================================================================================
+WHAT NULL ISN'T : 
+========================================================================================
+
+ . it is not '0' as a character 
+
+========================================================================================
+
+========================================================================================
+
+"
+In computing, specifically in binary representation, the concept of "null" can vary depending on context:
+
+1. **Null Pointer Representation:** In many programming languages and systems, a null pointer or null reference is represented as all bits set to zero (binary `000...0`). This representation indicates that the pointer or reference does not point to any valid memory location.
+
+2. **Null Byte:** In file systems or data storage contexts, a null byte (binary `00000000`) is often used to denote the end of a string or data structure. It's a single byte where all bits are zero, indicating termination.
+
+These representations are crucial for handling and interpreting data and memory references correctly in computer systems.
+"
+
+========================================================================================
+========================================================================================
+========================================================================================
+
 A dead-end pointer variable that holds 0x00 instead of a valid memory address. 
 
+========================================================================================
+========================================================================================
+========================================================================================
 
 
 
@@ -45,3 +84,4 @@ Furthermore, different encodings such as UTF-8, UTF-16, or UTF-32 may have diffe
 
 Therefore, the value used as the string delimiter or null character can vary depending on the programming language, string implementation, and encoding being used. It's important to consult the documentation or specifications of the specific language or system you are working with to determine the exact representation and value of the string delimiter.
 
+_

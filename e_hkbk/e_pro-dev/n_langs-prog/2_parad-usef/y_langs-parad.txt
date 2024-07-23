@@ -29,20 +29,6 @@ Typing system :
  . nominal ~
  . structural ~ 
 
-========================================================================================
-TERMINOLOGY FOR ALL LANGUAGES (NOT JUST FOR PROGRAMMING) : 
-========================================================================================
-
-Reminder : this is a discussion of languages for all sorts of applications , not just
-for programming and scripting. There are languages for :
- . programming
- . scripting
- . query
- . hardware description (behavior) 
- . markup
- . markdown
- . typesetting (TeX) 
- . Oh, and there are formal languages , but that's only just a little actionable. 
 
 ========================================================================================
 UNSTRUCTURED VS. STRUCTURED : 

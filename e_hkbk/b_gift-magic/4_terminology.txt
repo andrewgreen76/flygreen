@@ -3,4 +3,14 @@ API (application programming interface, or simply interface) :
  . structures and functions implemented to aid in the development of something at a higher , more abstract level
     . they may belong to a system (system calls) or a library (library functions) 
 
+
+Platform :
+ . a system
+ . OS , environment , or hardware architecture 
+
+
+Cross-platform : 
+ . works across multiple platforms (esp. OS's) 
+ . ("without requiring modification or recompilation") 
+
 _

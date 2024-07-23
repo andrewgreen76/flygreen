@@ -1,0 +1,88 @@
+"
+To introduce the drawing of a blue pixel to the GTK window created in the C program, we'll use the GTK drawing area widget (`GtkDrawingArea`). This widget allows us to draw custom graphics using Cairo, a 2D graphics library.
+
+Here's an updated version of the previous example, modified to include drawing a blue pixel in the center of the window:
+
+### Updated Example C Program using GTK with Drawing:
+
+```c
+#include <gtk/gtk.h>
+
+// Function to handle closing of the window
+static void destroy(GtkWidget *widget, gpointer data) {
+    gtk_main_quit();  // Quit the GTK main loop
+}
+
+// Function to draw on the drawing area
+static gboolean draw_callback(GtkWidget *widget, cairo_t *cr, gpointer data) {
+    // Set drawing color to blue
+    cairo_set_source_rgb(cr, 0.0, 0.0, 1.0); // Blue color
+    
+    // Draw a blue pixel at the center of the drawing area
+    cairo_rectangle(cr, 50, 50, 1, 1); // X, Y, width, height
+    cairo_fill(cr); // Fill the drawn shape with the current color
+    
+    return FALSE; // Stop further handling of the draw signal
+}
+
+int main(int argc, char *argv[]) {
+    GtkWidget *window;
+    GtkWidget *drawing_area;
+
+    gtk_init(&argc, &argv);  // Initialize GTK
+
+    // Create a new window
+    window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+    gtk_window_set_title(GTK_WINDOW(window), "Hello, GTK with Drawing!");
+    gtk_window_set_default_size(GTK_WINDOW(window), 300, 200);
+    g_signal_connect(window, "destroy", G_CALLBACK(destroy), NULL);
+
+    // Create a drawing area widget
+    drawing_area = gtk_drawing_area_new();
+    gtk_container_add(GTK_CONTAINER(window), drawing_area);
+    
+    // Connect the draw signal to the draw_callback function
+    g_signal_connect(G_OBJECT(drawing_area), "draw", G_CALLBACK(draw_callback), NULL);
+
+    // Display all widgets
+    gtk_widget_show_all(window);
+
+    // Start the GTK main loop
+    gtk_main();
+
+    return 0;
+}
+```
+
+### Explanation of Changes:
+
+1. **Drawing Area Widget**:
+   - `GtkDrawingArea` (`drawing_area`) is added to the window using `gtk_container_add()`. This widget will be used for custom drawing.
+
+2. **Draw Callback Function**:
+   - `draw_callback` is a function that handles the "draw" signal of the `GtkDrawingArea`. Inside this function:
+     - Cairo (`cairo_t *cr`) is used to draw graphics.
+     - `cairo_set_source_rgb()` sets the drawing color to blue (`0.0, 0.0, 1.0`).
+     - `cairo_rectangle()` draws a rectangle (in this case, a 1x1 pixel).
+     - `cairo_fill()` fills the rectangle with the current drawing color.
+
+3. **Main Function**:
+   - `main()` initializes GTK, creates the window, sets its properties, adds widgets, connects signals (`destroy` and `draw`), and starts the GTK main loop.
+
+### Compiling and Running:
+
+Save the updated code to a file (e.g., `gtk_drawing_example.c`) and compile it using GCC with the GTK libraries:
+
+```bash
+gcc -o gtk_drawing_example gtk_drawing_example.c $(pkg-config --cflags --libs gtk+-3.0)
+```
+
+Run the compiled executable:
+
+```bash
+./gtk_drawing_example
+```
+
+This will create a GTK window titled "Hello, GTK with Drawing!" with a blue pixel drawn at the center using Cairo graphics. You can expand on this example to create more complex drawings or interactive graphics within the GTK window in C on Linux Ubuntu.
+"
+_

@@ -1,0 +1,80 @@
+"
+Creating a GUI window in C for Linux Ubuntu involves using a graphical toolkit like GTK (GIMP Toolkit) or Qt. Here’s a simple example using GTK to create a basic window:
+
+### Prerequisites:
+
+Before running the program, make sure you have the GTK development libraries installed on your system. On Ubuntu, you can install them with:
+
+```bash
+sudo apt-get update
+sudo apt-get install libgtk-3-dev
+```
+
+### Example C Program using GTK:
+
+```c
+#include <gtk/gtk.h>
+
+// Function to handle closing of the window
+static void destroy(GtkWidget *widget, gpointer data) {
+    gtk_main_quit();  // Quit the GTK main loop
+}
+
+int main(int argc, char *argv[]) {
+    GtkWidget *window;
+
+    gtk_init(&argc, &argv);  // Initialize GTK
+
+    // Create a new window
+    window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+    gtk_window_set_title(GTK_WINDOW(window), "Hello, GTK!");
+    gtk_window_set_default_size(GTK_WINDOW(window), 300, 200);
+    g_signal_connect(window, "destroy", G_CALLBACK(destroy), NULL);
+
+    // Display all widgets
+    gtk_widget_show_all(window);
+
+    // Start the GTK main loop
+    gtk_main();
+
+    return 0;
+}
+```
+
+### Explanation:
+
+1. **Including GTK Header**: 
+   - `#include <gtk/gtk.h>` includes the GTK header file.
+
+2. **Callback Function**: 
+   - The `destroy` function is a callback function that handles the closing of the window. It calls `gtk_main_quit()` to terminate the GTK main loop when the window is closed.
+
+3. **Main Function**: 
+   - `main` initializes GTK with `gtk_init()`, creates a new window with `gtk_window_new()`, sets properties such as title and size with `gtk_window_set_title()` and `gtk_window_set_default_size()`, respectively.
+
+4. **Connecting Signals**: 
+   - `g_signal_connect()` connects the `destroy` function to the window's "destroy" signal, ensuring that the `destroy` function is called when the window is closed.
+
+5. **Displaying Widgets**: 
+   - `gtk_widget_show_all(window)` displays all widgets contained within the window.
+
+6. **GTK Main Loop**: 
+   - `gtk_main()` starts the GTK main loop, which waits for events (such as button clicks or window closings) and dispatches them to the appropriate callbacks (like `destroy` in this example).
+
+### Compiling and Running:
+
+Save the above code to a file (e.g., `gtk_example.c`) and compile it using GCC:
+
+```bash
+gcc -o gtk_example gtk_example.c $(pkg-config --cflags --libs gtk+-3.0)
+```
+
+Run the compiled executable:
+
+```bash
+./gtk_example
+```
+
+This will create a simple GTK window with the title "Hello, GTK!" and size 300x200 pixels. You can modify and expand upon this basic example to create more complex GUI applications using GTK in C on Linux Ubuntu.
+"
+_

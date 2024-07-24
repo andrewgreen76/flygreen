@@ -8,28 +8,6 @@ When in the terminal -AND NOT- using tmux :
  $ tmux	     	      - creates a new tmux session within the terminal
 
 
-========================================================================================
-TMUX SESSION MANAGEMENT : 
-========================================================================================
-
- $ tmux list-sessions - lists open tmux sessions
- $ tmux 	      -       	  -//- 
- 
- $ tmux attach	        - brings up the detached ("minimized") session.
-   		      	  You will be reattached to the most recently visited session.
-			  Another reattachment to the session will detach you.
-			  Note: the window management bar at the bottom should give it
-			  away that you have been attached to that session. 
-			
- $ tmux attach -t [ID]	- attaches you to the specified session. 
-			  Note: the window management bar at the bottom should give it
-			  away that you have been attached to that session. 
-
-
-========================================================================================
-TMUX ESSENTIAL KEYBOARD SHORTCUTS : 
-========================================================================================
-
 When in a tmux session : 
  . Ctrl + B    - sends the "prefix key" , notifying the system that the following keybinding
    	       	 is meant for tmux, not for the currently active ("cursored") process running
@@ -37,6 +15,13 @@ When in a tmux session :
 
  > D 	       - detaches ("minimizes") the session , bringing you back to the shell.
    	       	 The processes within the session will be still running.
+
+
+========================================================================================
+PANE MANAGEMENT keyboard shortcuts. 
+========================================================================================
+Great for monitoring multiple things at the same time (if you are OK with small panes). 
+========================================================================================
 
 Splitting : 
  > %	       - vertical split
@@ -51,10 +36,11 @@ Closing :
 
 
 ========================================================================================
-TMUX MISC. KEYBOARD SHORTCUTS : 
+WINDOW MANAGEMENT keyboard shortcuts. 
 ========================================================================================
-
-Window management :
+ + windows are larger than panes
+ - no real-time monitoring (need to switch between windows , which is a little inconvenient) 
+========================================================================================
 
  > C	          - create a new window 
  . alternative :  $ tmux new-window 
@@ -66,5 +52,42 @@ Window management :
  . alternative :  $ tmux new-window [new_name] 
 
  > & 		  - close the window 
+
+
+========================================================================================
+SESSION MANAGEMENT keyboard shortcuts. 
+========================================================================================
+If you need larger-scale management of workflow "threads" (e.g., if you are working on
+multiple projects.) 
+========================================================================================
+
+Monitoring sessions : 
+ $ tmux list-sessions   - lists open tmux sessions
+ $ tmux ls	      	-      	  -//- 
+
+
+Inter-session navigation - the quicker way : 
+ > S 	    - to quickly switch between and monitor sessions , and you won't have to
+   	      reattach from one session to another every time. 
+
+----------------------------------------------------------------------------------------
+Inter-session navigation - the slower way : 
+ $ tmux attach	        - brings up the detached ("minimized") session.
+   		      	  You will be reattached to the most recently visited session.
+			  Note: the window management bar at the bottom should give it
+			  away that you have been attached to that session. 
+			
+ $ tmux attach -t [ID]	- attaches you to the specified session. 
+			  Note: the window management bar at the bottom should give it
+			  away that you have been attached to that session.
+ . tmux a -t [ID]	-       -//-
+
+ . If you are in session X and want to attach to session Y , detach from session X first.
+----------------------------------------------------------------------------------------
+
+Renaming a session :
+ . first , attach to the target session on the list
+ -> tmux rename-session [new_name]
+    . alternatively , Ctrl+B -> $ 
 
 _

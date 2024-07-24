@@ -1,8 +1,31 @@
 
 ========================================================================================
-DESIGN DOCUMENT FOR "THE SOUL OF THE NATION"
+DESIGN DOCUMENT FOR THE VIDEO GAME "THE SOUL OF THE NATION"
 ========================================================================================
 
- . 
+General vision : 
+ . pixel-orinted
+ . medieval-themed
+ . fantasy
+ . strategy , turn-based (Heroes-like) 
+ . (horror is being considered)
+
+Design and development - progress checkpoints :
+ . super-primitive
+
+Tools and libraries :
+ . GTK 
+
+========================================================================================
+========================================================================================
+========================================================================================
+
+========================================================================================
+OTHER WORKING TITLES : 
+========================================================================================
+
+ . Kingdom's Pride
+ . Royal Pride
+ . The Souls of Ignokaria 
 
 _

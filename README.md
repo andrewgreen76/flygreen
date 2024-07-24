@@ -43,7 +43,9 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-tmux 
+tmux :
+ . shell commands
+ . keyboard shortcuts 
 
 DIY project : research -and- building my own dumb laptop / motherboard / CPU / EEPROMS 
  |

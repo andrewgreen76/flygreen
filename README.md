@@ -45,7 +45,11 @@ __________________________________________________________________________
 
 tmux :
  . shell commands
- . keyboard shortcuts 
+ . keyboard shortcuts
+   . pane management
+   . window/tab management
+   . session management
+   . init/reload config file 
 
 DIY project : research -and- building my own dumb laptop / motherboard / CPU / EEPROMS 
  |

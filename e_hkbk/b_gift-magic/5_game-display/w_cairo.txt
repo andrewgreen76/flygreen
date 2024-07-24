@@ -1,0 +1,4 @@
+"
+Cairo is a 2D graphics library that provides a comprehensive set of functions and utilities for rendering vector graphics, suitable for use in applications that require drawing on surfaces such as windows and images.
+"
+_

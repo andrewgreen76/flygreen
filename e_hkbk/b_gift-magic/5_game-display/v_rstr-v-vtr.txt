@@ -1,0 +1,4 @@
+"
+A counterpart to vector graphics is raster graphics, which represent images as a grid of pixels, often used for photographs and detailed visual content.
+"
+_

@@ -1,0 +1,10 @@
+"
+The error "no server running on /tmp/tmux-1000/default" indicates that `tmux`
+cannot find a Unix domain socket file for communication. 
+"
+
+"
+... the error "no server running on /tmp/tmux-1000/default" typically pertains
+to Unix domain socket file access and not client-server architecture.
+"
+_

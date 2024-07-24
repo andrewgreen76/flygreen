@@ -4,21 +4,67 @@ First , make sure that tmux is installed.
 ========================================================================================
 
 When in the terminal -AND NOT- using tmux :
- $ tmux	     	      - creates a new tmux session within the terminal 
+
+ $ tmux	     	      - creates a new tmux session within the terminal
+
+
+========================================================================================
+TMUX SESSION MANAGEMENT : 
+========================================================================================
+
  $ tmux list-sessions - lists open tmux sessions
- $ tmux attach	      - brings the detached ("minimized") session
+ $ tmux 	      -       	  -//- 
+ 
+ $ tmux attach	        - brings up the detached ("minimized") session.
+   		      	  You will be reattached to the most recently visited session.
+			  Another reattachment to the session will detach you.
+			  Note: the window management bar at the bottom should give it
+			  away that you have been attached to that session. 
+			
+ $ tmux attach -t [ID]	- attaches you to the specified session. 
+			  Note: the window management bar at the bottom should give it
+			  away that you have been attached to that session. 
 
 
 ========================================================================================
-TMUX KEYBINDINGS : 
+TMUX ESSENTIAL KEYBOARD SHORTCUTS : 
 ========================================================================================
 
-When using tmux : 
+When in a tmux session : 
  . Ctrl + B    - sends the "prefix key" , notifying the system that the following keybinding
    	       	 is meant for tmux, not for the currently active ("cursored") process running
 		 within its own pane. 
 
  > D 	       - detaches ("minimizes") the session , bringing you back to the shell.
-   	       	 The processes within the session will be still running. 
+   	       	 The processes within the session will be still running.
+
+Splitting : 
+ > %	       - vertical split
+ > " 	       - horizontal split 
+
+Moving around :
+ > [arrow]     - move to a/the pane indicated by the arrow 
+
+Closing :
+ > X	          - request closing of the pane
+ . alternative :  $ exit
+
+
+========================================================================================
+TMUX MISC. KEYBOARD SHORTCUTS : 
+========================================================================================
+
+Window management :
+
+ > C	          - create a new window 
+ . alternative :  $ tmux new-window 
+
+ > P	          - go to the prev window (can do rollover) 
+ > N	          - go to the next window (can do rollover) 
+
+ > , 		  - rename the window 
+ . alternative :  $ tmux new-window [new_name] 
+
+ > & 		  - close the window 
 
 _

@@ -1,7 +1,8 @@
 #include <gtk/gtk.h>
 
 // Function to handle closing of the window
-static void destroy (GtkWidget *widget, gpointer data) {
+//static
+void destroy (GtkWidget *widget, gpointer data) {
     gtk_main_quit();  // Quit the GTK main loop
 }
 

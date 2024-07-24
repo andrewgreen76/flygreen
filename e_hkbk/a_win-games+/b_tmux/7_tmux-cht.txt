@@ -1,0 +1,24 @@
+
+========================================================================================
+First , make sure that tmux is installed.
+========================================================================================
+
+When in the terminal -AND NOT- using tmux :
+ $ tmux	     	      - creates a new tmux session within the terminal 
+ $ tmux list-sessions - lists open tmux sessions
+ $ tmux attach	      - brings the detached ("minimized") session
+
+
+========================================================================================
+TMUX KEYBINDINGS : 
+========================================================================================
+
+When using tmux : 
+ . Ctrl + B    - sends the "prefix key" , notifying the system that the following keybinding
+   	       	 is meant for tmux, not for the currently active ("cursored") process running
+		 within its own pane. 
+
+ > D 	       - detaches ("minimizes") the session , bringing you back to the shell.
+   	       	 The processes within the session will be still running. 
+
+_

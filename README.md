@@ -43,10 +43,7 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-Assembly :
- . GAS (AT&T) syntax
- . its key directives
- . .org - writing to specific memory addresses 
+tmux 
 
 DIY project : research -and- building my own dumb laptop / motherboard / CPU / EEPROMS 
  |

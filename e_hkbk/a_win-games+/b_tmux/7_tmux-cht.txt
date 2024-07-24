@@ -90,4 +90,12 @@ Renaming a session :
  -> tmux rename-session [new_name]
     . alternatively , Ctrl+B -> $ 
 
+
+========================================================================================
+COMMAND MODE 
+========================================================================================
+
+ > :	- command mode dedicated exclusively to reconfiguring tmux for the rest of
+   	  the ongoing session's lifetime (like you would write code in .tmux.conf) 
+
 _

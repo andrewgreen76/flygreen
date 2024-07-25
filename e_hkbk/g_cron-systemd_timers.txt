@@ -1,0 +1,97 @@
+"
+To automate the reconnection to a specific network in Ubuntu whenever connectivity is lost, you can use a combination of `nmcli` commands and possibly a script that periodically checks and reconnects if needed. Here’s a basic approach using a script:
+
+1. **Identify Network Details**:
+   First, you need to know the SSID (network name) or UUID of the network you want to reconnect to. You can find this information using `nmcli`.
+
+   ```bash
+   nmcli connection show
+   ```
+
+   This will list all the connections along with their UUIDs and other details.
+
+2. **Create a Bash Script**:
+   Open your favorite text editor and create a Bash script, for example, `auto_reconnect.sh`.
+
+   ```bash
+   #!/bin/bash
+
+   # Replace 'YOUR_CONNECTION_NAME' with the name of your network connection
+   CONNECTION_NAME="YOUR_CONNECTION_NAME"
+
+   # Check if the connection is active
+   nmcli connection show --active | grep "$CONNECTION_NAME" > /dev/null
+
+   if [ $? -ne 0 ]; then
+       echo "Connection lost. Reconnecting..."
+       nmcli connection up "$CONNECTION_NAME"
+   else
+       echo "Connection is already active."
+   fi
+   ```
+
+   - Replace `YOUR_CONNECTION_NAME` with the actual name or UUID of your network connection.
+
+3. **Make the Script Executable**:
+   Save the script and make it executable.
+
+   ```bash
+   chmod +x auto_reconnect.sh
+   ```
+
+4. **Run the Script Automatically**:
+   To run this script periodically, you can use `cron` or `systemd` timers:
+
+   - **Using `cron`**: Open crontab for editing with `crontab -e` and add a line like:
+
+     ```cron
+     * * * * * /path/to/auto_reconnect.sh >/dev/null 2>&1
+     ```
+
+     This runs the script every minute. Adjust the timing as needed.
+
+   - **Using `systemd` timer** (for more control and flexibility):
+
+     Create a systemd service and timer. First, create a service file (`auto_reconnect.service`):
+
+     ```ini
+     [Unit]
+     Description=Auto Reconnect to WiFi Service
+
+     [Service]
+     Type=oneshot
+     ExecStart=/path/to/auto_reconnect.sh
+     ```
+
+     Then, create a timer file (`auto_reconnect.timer`):
+
+     ```ini
+     [Unit]
+     Description=Run Auto Reconnect to WiFi every minute
+
+     [Timer]
+     OnBootSec=1min
+     OnUnitActiveSec=1min
+     Unit=auto_reconnect.service
+
+     [Install]
+     WantedBy=multi-user.target
+     ```
+
+     Enable and start the timer:
+
+     ```bash
+     sudo systemctl enable auto_reconnect.timer
+     sudo systemctl start auto_reconnect.timer
+     ```
+
+     This setup will run the script every minute.
+
+### Notes:
+- Replace `/path/to/auto_reconnect.sh` with the actual path where you saved the `auto_reconnect.sh` script.
+- Adjust the script and timing according to your specific requirements and network setup.
+- Ensure that the script and commands are run with appropriate permissions and in a secure manner, especially if dealing with sensitive network information.
+  
+This approach ensures that Ubuntu automatically attempts to reconnect to your specified network whenever the connection is lost.
+"
+_

@@ -1,0 +1,21 @@
+
+Prototype development checkpoints : 
+ . a retro pixellated square (a square made of pixels of the same color , or "pxsq")
+ . a sprite
+ . 
+ . 64-color palette 
+ . 256-color palette
+ .
+ . 
+ . engine (managers)
+   . menu_mgr 
+   . map_renderer
+   . sound (MIDI / hardware) 
+   . sprite (struct) movement 
+   . AI
+     . opponents
+   . alg_funcs_(mgr)
+     . pathfinding
+     . drawing algorithm 
+
+_

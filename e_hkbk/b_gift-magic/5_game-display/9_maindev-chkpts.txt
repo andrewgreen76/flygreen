@@ -1,0 +1,6 @@
+
+Main development checkpoints :
+ . map_editor
+ . sprite_editor 
+
+_

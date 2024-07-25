@@ -2,18 +2,30 @@
 ========================================================================================
 DESIGN DOCUMENT FOR THE VIDEO GAME "THE SOUL OF THE NATION"
 ========================================================================================
+========================================================================================
+GENERAL VISION : 
+========================================================================================
 
-General vision :
- . blocky look (multi-pixel squares to emulate large pixels on 80s - 90s systems)
- . 256-color palette 
+Look : 
+ . blocky (multi-pixel squares to emulate large pixels on 80s - 90s systems)
+ . 256-color palette
+
+Genres : 
  . medieval-themed fantasy turn-based strategy (Heroes-like) 
  . (horror genre is being considered)
- . heavily modular implementation
+
+Implementation : 
+ . heavily modular
+
+Conflict mechanism :
+ . multiple dimensions , avenus , depth to gameplay (should lead to replayability) 
  . no combat - need a substitute to precipitate conflict
    . lower class too poor - starvation and rebellion
    . upper class too rich - corruption
    => there will be no magic
    => resources :
-      . 
+      . coin
+      . wood
+      . Belitanin 
 
 _

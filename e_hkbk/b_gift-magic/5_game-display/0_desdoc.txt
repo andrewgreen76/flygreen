@@ -7,15 +7,31 @@ General vision :
  . blocky look (multi-pixel squares to emulate large pixels on 80s - 90s systems)
  . 256-color palette 
  . medieval-themed fantasy turn-based strategy (Heroes-like) 
- . (horror is being considered)
+ . (horror genre is being considered)
  . heavily modular implementation
+ . no combat - need a substitute to precipitate conflict
+   . lower class too poor - starvation and rebellion
+   . upper class too rich - corruption
+   => there will be no magic
+   => resources :
+      . 
 
 
-Development checkpoints :
- . super-primitive
- .
+Prototype development checkpoints : 
+ . a retro pixellated square (a square made of pixels of the same color , or "pxsq")
+ . a sprite
+ . 
  . 64-color palette 
- . 256-color palette 
+ . 256-color palette
+ .
+ . engine (managers)
+   . map_renderer
+   . sound 
+   . sprite (struct) movement 
+   . AI
+
+
+Main development checkpoints : 
 
 
 Tools and libraries :

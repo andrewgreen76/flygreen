@@ -3,29 +3,22 @@
 DESIGN DOCUMENT FOR THE VIDEO GAME "THE SOUL OF THE NATION"
 ========================================================================================
 
-General vision : 
- . pixel-orinted
- . medieval-themed
- . fantasy
- . strategy , turn-based (Heroes-like) 
+General vision :
+ . blocky look (multi-pixel squares to emulate large pixels on 80s - 90s systems)
+ . 256-color palette 
+ . medieval-themed fantasy turn-based strategy (Heroes-like) 
  . (horror is being considered)
+ . heavily modular implementation
 
-Design and development - progress checkpoints :
+
+Development checkpoints :
  . super-primitive
+ .
+ . 64-color palette 
+ . 256-color palette 
+
 
 Tools and libraries :
  . GTK 
-
-========================================================================================
-========================================================================================
-========================================================================================
-
-========================================================================================
-OTHER WORKING TITLES : 
-========================================================================================
-
- . Kingdom's Pride
- . Royal Pride
- . The Souls of Ignokaria 
 
 _

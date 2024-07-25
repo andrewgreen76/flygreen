@@ -1,0 +1,22 @@
+
+Main development checkpoints :
+
+
+ . map_editor (application) 
+ . sprite_editor (application)
+ 
+
+ . engine (managers)
+   . menu_mgr 
+   . map_renderer
+   . music 
+   . sound (MIDI / hardware) 
+   . AI
+     . opponents
+   . alg_funcs_(mgr)
+     . pathfinding
+     . drawing algorithm
+     . text generation in made-up language
+     . speech generation in made-up language 
+
+_

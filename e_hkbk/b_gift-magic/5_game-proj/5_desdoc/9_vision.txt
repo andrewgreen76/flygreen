@@ -2,7 +2,6 @@
 ========================================================================================
 DESIGN DOCUMENT FOR THE VIDEO GAME "THE SOUL OF THE NATION"
 ========================================================================================
-========================================================================================
 GENERAL VISION : 
 ========================================================================================
 
@@ -14,11 +13,13 @@ Genres :
  . medieval-themed fantasy turn-based strategy (Heroes-like) 
  . (horror genre is being considered)
 
-Implementation : 
+Implementation :
+ . based on an init-to-quit flowchart of user actions (action flow) 
  . heavily modular
 
 Conflict mechanism :
- . multiple dimensions , avenus , depth to gameplay (should lead to replayability) 
+ . tone : overt or subtle ? 
+ . multiple dimensions , avenues , depth to gameplay (should lead to replayability) 
  . no combat - need a substitute to precipitate conflict
    . lower class too poor - starvation and rebellion
    . upper class too rich - corruption
@@ -26,6 +27,7 @@ Conflict mechanism :
    => resources :
       . coin
       . wood
-      . Belitanin 
+      . belitanin
+      . specilite 
 
 _

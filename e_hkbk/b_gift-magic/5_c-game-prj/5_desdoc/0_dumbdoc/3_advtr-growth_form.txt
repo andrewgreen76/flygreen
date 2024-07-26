@@ -1,0 +1,14 @@
+
+=====================================================
+Adventure and growth : 
+=====================================================
+
+. ADVENTURE / NARRATIVE / GROWTH :
+  . tutorial : grass terrain , movement , claiming , evasion , combat
+  . unused era : medieval 
+
+
+  + adventure > discovery > acquisition > expansion
+    	      	   (land, resources)
+
+.

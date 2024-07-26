@@ -5,11 +5,14 @@ Mechanics / features (don't forget UI) :
 
 . Tutorials / walkthroughs 
 
+
 . Periods/eras : [ Y / <N> ]
+
 
 . Maps :		_
   . list maps : 	world, mini, 
   . view :    		ortho
+
 
 . Conflict agents :
   . player(s)
@@ -20,4 +23,22 @@ Mechanics / features (don't forget UI) :
   x [population , income , credit , environment]
   x (+)(subj/condl)(-)
 
-.
+
+Conflict mechanism :
+ . no combat - need a substitute to precipitate conflict
+   . lower class too poor - starvation and rebellion
+   . upper class too rich - corruption
+   => there will be no magic
+   => resources :
+      . coin
+      . wood
+      . belitanin
+      . specilite
+      
+========================================================================================
+========================================================================================
+========================================================================================
+
+. multiple dimensions , avenues , depth to gameplay (should lead to replayability) 
+
+_

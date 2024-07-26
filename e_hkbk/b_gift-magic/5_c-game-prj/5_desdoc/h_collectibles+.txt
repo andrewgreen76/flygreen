@@ -1,0 +1,21 @@
+x_chunks of skin.txt
+x_drops of bile.txt
+x_drops of blood.txt
+x_drops of saliva.txt
+x_drops of scotch.txt
+x_drops of whiskey.txt
+x_figurines.txt
+x_ounces of belitanin.txt
+x_steel mosquitos.txt
+x_tenets of The Black Lore_mind.txt
+x_tenets of The Gold Lore_fire, nuclear.txt
+x_tenets of The Grey Lore_bones, undead.txt
+x_tenets of The Imperial Lore_lightning.txt
+x_tenets of The Red Lore_blood.txt
+y_ammo.txt
+y_bones.txt
+y_ghosts.txt
+y_gold.txt
+y_mana.txt
+y_souls.txt
+y_spirits.txt

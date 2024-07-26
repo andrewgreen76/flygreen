@@ -6,12 +6,12 @@ Tech.dets :
 Engine :
  . 
 
-Generation tools : 
+Editors / generation tools : 
  . maps : 
- . sprites : 
-
-Custom editors : 
- . 
+ . sprites :
+ . font :
+ . sound :
+ . music : 
 
 Programming and scripting languages :
  . 

@@ -3,6 +3,23 @@
 Tech.dets :
 =====================================================
 
+Engine :
+ . 
+
+Editors / generation tools : 
+ . maps : 
+ . sprites :
+ . font :
+ . sound :
+ . music : 
+
+Programming and scripting languages :
+ . 
+
+=====================================================
+=====================================================
+=====================================================
+
 . recreate fide.scale : 6 times both ways = 36 px  
 
 . a way to generate a sprite quickly in GIMP

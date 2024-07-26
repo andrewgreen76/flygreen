@@ -1,10 +1,12 @@
 
-Prototype development checkpoints :
+========================================================================================
+PROTOTYPE DEVELOPMENT CHECKPOINTS :
+========================================================================================
 
+Look : 
  . a retro pixellated square (a square made of pixels of the same color , or "pxsq")
  . a sprite
  . sprite (struct) movement 
- 
  . 64-color palette 
  . 256-color palette
 

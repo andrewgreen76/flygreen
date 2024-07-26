@@ -1,11 +1,22 @@
 
-Main development checkpoints :
+========================================================================================
+MAIN DEVELOPMENT CHECKPOINTS :
+========================================================================================
+
+Look : 
+ . a retro pixellated square (a square made of pixels of the same color , or "pxsq")
+ . a sprite
+ . sprite (struct) movement 
+ . 64-color palette 
+ . 256-color palette
 
 
+Editors : 
  . map_editor (application) 
  . sprite_editor (application)
  
 
+Engine : 
  . engine (managers)
    . menu_mgr 
    . map_renderer

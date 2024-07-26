@@ -18,7 +18,7 @@ COME UP WITH SOME SWATCHES/SAMPLES.
     . mana/smth(s) 
   . screen frame decor
 
-. Map objects sprites :
+. Map objects / sprites :
   . units
   . buildings
   . 
@@ -26,10 +26,15 @@ COME UP WITH SOME SWATCHES/SAMPLES.
 
 
 
-x Color scheme 
+. Color scheme :
+  . 
 
-x Symbology
+. Symbology : 
 
-x Font				: 
+. Font :
+  . HoMM I/II (ornate) 
+  . Blood menu (Desdemona) 
+  . Blood text field (5x5) 
+  . PICO-8 (3x5) 
 
 .

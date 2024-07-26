@@ -5,14 +5,6 @@ DESIGN DOCUMENT FOR THE VIDEO GAME "THE SOUL OF THE NATION"
 GENERAL VISION : 
 ========================================================================================
 
-Look : 
- . blocky (multi-pixel squares to emulate large pixels on 80s - 90s systems)
- . 256-color palette
-
-Genres : 
- . medieval-themed fantasy turn-based strategy (Heroes-like) 
- . (horror genre is being considered)
-
 Implementation :
  . based on an init-to-quit flowchart of user actions (action flow) 
  . heavily modular

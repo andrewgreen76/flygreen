@@ -3,8 +3,13 @@
 Art :
 =====================================================
 
-COME UP WITH SOME SWATCHES/SAMPLES. 
 
+Look : 
+ . blocky (multi-pixel squares to emulate large pixels on 80s - 90s systems)
+ . 64-256 -color palette (HoMM or Hexen) 
+
+
+COME UP WITH SOME SWATCHES/SAMPLES. 
 
 
 [

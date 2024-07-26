@@ -3,11 +3,15 @@
 Design pillars : 
 =====================================================
 
-. Tone :
-  . doinky/corny/cheesy
-  . grim
-  . something in between
-. Pace :
-  . length of -ALL- of the following : interludes, intros, dialogues, etc. 
+Tone :
+ . doinky/corny/cheesy
+ . violent or not 
+ . grim
+ . something in between
+ . conflict (mechanism) : tone : overt or subtle ? 
 
-.
+
+Pace :
+ . length of -ALL- of the following : interludes, intros, dialogues, etc. 
+
+_

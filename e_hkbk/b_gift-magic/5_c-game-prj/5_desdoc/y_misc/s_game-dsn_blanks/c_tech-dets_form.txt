@@ -3,6 +3,10 @@
 Tech.dets :
 =====================================================
 
+Implementation :
+ . based on an init-to-quit flowchart of user actions (action flow) 
+ . heavily modular
+
 Engine :
  . 
 

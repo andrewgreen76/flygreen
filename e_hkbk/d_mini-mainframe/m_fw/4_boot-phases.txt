@@ -6,7 +6,7 @@ IN WINDOWS :
 BIOS : ? 
  . POST
  . BIOS init
- . btld : bootstrap -> btld 1 -> btld 2
+ . btld : NTLDR 1 -> NTLDR 2 -> NTLDR 3 
  . kernel init
  . config
  . utils
@@ -15,7 +15,7 @@ BIOS : ?
 UEFI : ? 
  . POST
  . BIOS init
- . btld : bootstrap -> btld 1 -> btld 2 
+ . btld : NTLDR 1 -> NTLDR 2 -> NTLDR 3 
  . kernel init
  . config
  . utils
@@ -38,7 +38,7 @@ IN LINUX :
 BIOS : ?
  . POST
  . BIOS init
- . GRUB : NTLDR 1 -> NTLDR 2 -> NTLDR 3 
+ . GRUB : bootstrap -> btld 1 -> btld 2
  . kernel_init
  . dev_init
  . DXE
@@ -47,7 +47,7 @@ BIOS : ?
 UEFI : . 
  . POST
  . BIOS init
- . GRUB : btld
+ . GRUB : bootstrap -> btld 1 -> btld 2
  . kernel_init
  . dev_init
  . DXE

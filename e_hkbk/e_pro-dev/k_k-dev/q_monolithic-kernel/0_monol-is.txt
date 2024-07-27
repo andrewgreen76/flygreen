@@ -1,0 +1,4 @@
+"
+A monolithic kernel is an operating system architecture where all operating system services, such as scheduling, memory management, file system, and device drivers, run in a single address space as privileged kernel mode processes.
+"
+_

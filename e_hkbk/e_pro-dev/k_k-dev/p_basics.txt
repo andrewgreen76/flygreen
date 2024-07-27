@@ -1,0 +1,12 @@
+
+Coverage : 
+ . firmware
+ . CPU virtualization 
+ . memory management 
+ . concurrency 
+ . persistence 
+ . job scheduling 
+ . (device) drivers 
+ . file system 
+
+_

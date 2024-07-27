@@ -1,0 +1,4 @@
+"
+Monolithic kernels incorporate all operating system services within a single address space, whereas microkernels delegate basic functionalities like scheduling and memory management to user space, minimizing the kernel's size and complexity.
+"
+_

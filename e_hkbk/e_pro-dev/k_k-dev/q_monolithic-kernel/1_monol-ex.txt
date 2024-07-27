@@ -1,0 +1,4 @@
+"
+The first operating system to feature a monolithic kernel was UNIX, developed by Ken Thompson and Dennis Ritchie at Bell Labs in the early 1970s.
+"
+_

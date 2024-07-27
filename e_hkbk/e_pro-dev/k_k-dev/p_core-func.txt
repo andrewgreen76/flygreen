@@ -1,6 +1,6 @@
 
 Coverage : 
- . firmware
+ . firmware ( <BIOS> / UEFI ) 
  . CPU virtualization 
  . memory management 
  . concurrency 

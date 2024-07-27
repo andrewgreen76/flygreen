@@ -1,15 +1,19 @@
 
  . searching every storage medium for the boot signature
+   | 
    . by boot priority : [USB drive , SSD , HDD , floppy] 
-   . every partition -> boot sector -> boot sig 
+   . in every partition -> in boot sector -> boot sig 
+   |  	      		      	   	   . a.k.a. "magic number"
+   |					   . a.k.a. fdisk signature
+   |
    -> boot sig == 0x55AA
-   . a.k.a. "magic number"
-   . a.k.a. fdisk signature
-   . @
-     . 510 : 0xAA	-or-	0x55
-     . 511 : 0x55	-or-	0xAA
-     . right before the 31K btld section
+   |  |
+   |  @ 510 : 0xAA	-or-	0x55
+   |  @ 511 : 0x55	-or-	0xAA
+   |  . right before the 31K BTLD section
+   |
+   |
    -> @ 512 : ~31K btld 
-   -> that btld will be loaded @ 0x7C00 
+   -> that btld will be loaded into 0x7C00 
 
 _

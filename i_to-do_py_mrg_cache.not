@@ -861,7 +861,6 @@ Build a digital portfolio :
   - elf
 
 Design a CPU 
-monolithic kernel
 unikernel 
 assembler core
 multi-core support 
@@ -1019,10 +1018,6 @@ v
 
 =====================================================================
 Intro to career in SW dev. - Annyce Davis (LinkedIn) 
-=====================================================================
-
-Explore kernel vs. monolithic kernel vs. microkernel. 
-
 =====================================================================
 
 .data

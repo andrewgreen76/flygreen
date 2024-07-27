@@ -4,8 +4,22 @@ IN WINDOWS :
 ========================================================================================
 
 BIOS : ? 
+ . POST
+ . BIOS init
+ . btld : bootstrap -> btld 1 -> btld 2
+ . kernel init
+ . config
+ . utils
+ . auth 
 
 UEFI : ? 
+ . POST
+ . BIOS init
+ . btld : bootstrap -> btld 1 -> btld 2 
+ . kernel init
+ . config
+ . utils
+ . auth 
 
 
 ========================================================================================
@@ -24,13 +38,19 @@ IN LINUX :
 BIOS : ?
  . POST
  . BIOS init
- . btld
+ . GRUB : NTLDR 1 -> NTLDR 2 -> NTLDR 3 
  . kernel_init
  . dev_init
  . DXE
  . OS_init 
 
-
 UEFI : . 
+ . POST
+ . BIOS init
+ . GRUB : btld
+ . kernel_init
+ . dev_init
+ . DXE
+ . OS_init 
 
 _

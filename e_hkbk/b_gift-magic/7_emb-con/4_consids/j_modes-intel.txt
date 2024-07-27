@@ -4,13 +4,15 @@ MODES :
 
 
 addressing mode : 
- . predate the real mode
+ . predates the real mode
  . have a fuzzy history of evolution 
  
 real mode :
+ . 16-bit 
  . first used in 1978 
 
 protected mode :
+ . 32-bit 
  . first used in 1982
  . i286 
 

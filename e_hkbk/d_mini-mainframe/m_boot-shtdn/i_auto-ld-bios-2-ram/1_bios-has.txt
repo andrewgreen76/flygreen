@@ -1,0 +1,7 @@
+
+16-bit code : 
+ + POST
+ + copies btld into RAM
+ + aids btld in booting up the kernel 
+
+_

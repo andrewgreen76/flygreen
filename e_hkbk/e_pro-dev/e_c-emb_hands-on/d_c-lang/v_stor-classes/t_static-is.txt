@@ -1,0 +1,22 @@
+
+Static variable :
+ . If it is to have the same value throughout its lifetime , but it can't be const ,
+   let it be static.
+
+Static function :
+ . limited access
+
+Static global variable :
+ . limited access 
+
+
+========================================================================================
+
+"
+In C, the `static` keyword has several uses depending on its context:
+
+1. **Static Variables**: When used inside a function, it makes a variable retain its value between function calls.
+2. **Static Functions**: Restricts the scope of the function to the file where it is defined, making it inaccessible from other files.
+3. **Static Global Variables**: Limits the scope of a global variable to the file where it is defined, preventing access from other files.
+"
+_

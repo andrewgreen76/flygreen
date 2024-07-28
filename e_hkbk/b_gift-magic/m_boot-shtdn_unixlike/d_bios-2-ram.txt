@@ -26,10 +26,10 @@ BIOS in ROM :
    . cold boot vector (jumps to startup routine in ROM) 
    . reset vector     (jumps to restart routine in ROM) 
    . ... ?? ... 
- -> copies itself (routines) into RAM
+ -> CPU performs POST routines (hardware initialization and diagnostics) 
+ -> CPU copies BIOS (routines) into RAM 
 
 BIOS in RAM : 
- -> performs POST routines (hardware initialization and diagnostics) 
  -> loads btld from disk into RAM
  -> aids btld in booting up the kernel 
 

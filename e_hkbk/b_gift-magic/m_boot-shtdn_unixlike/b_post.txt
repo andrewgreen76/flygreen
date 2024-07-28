@@ -1,4 +1,0 @@
-
- -> performs POST routines (hardware initialization and diagnostics) 
-
-_

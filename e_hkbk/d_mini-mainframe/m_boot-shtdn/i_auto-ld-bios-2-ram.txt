@@ -1,0 +1,36 @@
+
+========================================================================================
+VOCABULARY : 
+========================================================================================
+
+Routine :
+ . When the CPU has to respond to an important state or condition , it will have to execute
+   a piece of code depending on what that state or condition is. 
+ . A routine is that piece of code in ROM/RAM that the CPU would be instructed to execute
+   as a response to that state/condition. 
+
+Vector :
+ . a memory location (or the word in that location) that the CPU would use to jump to the
+   start of the routine for the CPU to handle the state/condition.
+ . There are (1) boot/init vectors and (2) interrupt vectors. 
+
+
+========================================================================================
+WHAT IS BIOS ? 
+========================================================================================
+
+16-bit vectors and routines.
+
+BIOS in ROM : 
+ . init vectors :
+   . cold boot vector (jumps to startup routine in ROM) 
+   . reset vector     (jumps to restart routine in ROM) 
+   . ... ?? ... 
+ -> copies itself (routines) into RAM
+
+BIOS in RAM : 
+ -> performs POST routines (hardware initialization and diagnostics) 
+ -> loads btld from disk into RAM
+ -> aids btld in booting up the kernel 
+
+_

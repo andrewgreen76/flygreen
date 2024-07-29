@@ -4,7 +4,10 @@ aug 3pm
 ===========================================================================================
 symbolic debugging
 A small C program that tells you the endianness.
-What if I won't find any use for 'static' , 'union' , 'extern' , or 'register' in my code ? 
+What if I won't find any use for 'static' , 'union' , 'extern' , or 'register' in my code ?
+C with GTK
+asm -> k-dev
+DS 
 ===========================================================================================
 
  . make a difference :

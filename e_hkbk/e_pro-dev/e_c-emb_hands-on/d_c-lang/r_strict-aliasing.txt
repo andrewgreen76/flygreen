@@ -1,4 +1,8 @@
 
+A weird form of typecasting. 
+
+========================================================================================
+
 "
 Strict aliasing is a rule in the C programming language that imposes constraints on how pointers of different types can be used to access the same memory location. The rule is designed to allow the compiler to make certain optimizations based on assumptions about pointer aliasing.
 
@@ -44,4 +48,4 @@ int main() {
 To write code that adheres to the strict aliasing rules, it's generally recommended to use type punning techniques that are explicitly allowed by the standard, such as the use of unions or accessing memory as a sequence of characters (`char*`). Additionally, using `memcpy` can be a safe alternative for copying data between objects of different types.
 "
 
-.
+_

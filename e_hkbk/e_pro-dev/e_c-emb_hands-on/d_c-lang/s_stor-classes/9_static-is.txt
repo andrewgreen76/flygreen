@@ -1,4 +1,19 @@
 
+========================================================================================
+WHEN WOULD I WANT TO USE "STATIC" ? 
+========================================================================================
+
+ . When wishing to prohibit outside use of the variable/function.
+   . i.e. , meant for the original programmer and no other developer
+   
+ . It would probably not make much sense to use "static" when working on an exclusively
+   solo project. 
+
+
+========================================================================================
+========================================================================================
+========================================================================================
+
 Static variable : 
  . will not die until the end of the program
  . created anywhere within the file

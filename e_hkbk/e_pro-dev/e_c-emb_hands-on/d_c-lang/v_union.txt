@@ -1,0 +1,7 @@
+"
+In C, a `struct` is a composite data type that allows grouping multiple variables of different types under a single name, while a `union` allows the same memory location to hold variables of different types at different times, sharing memory space.
+"
+
+Q : Is union comparable to an optimized C++ parent class ? 
+
+_

@@ -1,4 +1,12 @@
 
+Static variable : 
+ . will not die until the end of the program
+ . created anywhere within the file
+ . inaccessible at runtime 
+
+
+========================================================================================
+
 Static variable :
  . If it is to have the same value throughout its lifetime , but it can't be const ,
    let it be static.

@@ -2,7 +2,9 @@
 thurs 130
 aug 3pm
 ===========================================================================================
-symbolic debugging 
+symbolic debugging
+A small C program that tells you the endianness.
+What if I won't find any use for 'static' , 'union' , 'extern' , or 'register' in my code ? 
 ===========================================================================================
 
  . make a difference :

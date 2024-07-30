@@ -1,0 +1,28 @@
+
+========================================================================================
+WHAT IS ORG FOR : 
+========================================================================================
+
+"
+The `.org` directive is most fitting to use when you need to specify the location where subsequent code or data should be assembled, typically when dealing with low-level programming or when working directly with memory-mapped hardware.
+
+Here are some scenarios where you might use `.org`:
+
+1. **Bootloaders and firmware**: When writing bootloaders or firmware code that needs to be loaded at a specific memory address, you might use `.org` to ensure your code is placed at the correct location in memory.
+
+2. **Memory-mapped I/O**: When writing code that interacts with memory-mapped I/O devices, you might use `.org` to place your code at the addresses corresponding to the device registers.
+ [. e.g. , when working directly with input from the keyboard or the mouse or with the output to the screen]
+
+[...]
+
+"
+
+========================================================================================
+ORG(ANIZING) CODE BY DEFAULT : 
+========================================================================================
+
+"
+When `.org` is not provided, code and data are typically assembled sequentially, starting from the beginning of the section (such as `.text` or `.data`), following the previous instruction or data declaration. The assembler typically places `.data` and `.text` sections in memory according to default settings or rules defined by the assembler's configuration, often starting from predefined addresses or aligning them based on memory segment boundaries. For the GAS assembler, the default rules or settings for placing `.data` and `.text` sections are typically determined by the linker script used during the linking phase, which specifies the layout of different sections in the final executable or object file. 
+"
+
+_

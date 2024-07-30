@@ -43,6 +43,11 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Assembly programming :
+ . assemblers 
+ . syntaxes 
+ . directives 
+
 tmux :
  . shell commands
  . keyboard shortcuts

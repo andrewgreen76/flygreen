@@ -1,6 +1,10 @@
 
+Does the correct set of directives to use depend on the assembler and/or architecture and
+not that syntax ?
+ . Doesn't matter. Assembler ~ syntax. 
+
 ========================================================================================
-CONTRAST WITH INTEL (NASM) SYNTAX : 
+INTEL SYNTAX DIRECTIVES VS. AT&T SYNTAX DIRECTIVES : 
 ========================================================================================
 
 "

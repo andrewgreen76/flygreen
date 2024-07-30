@@ -1,0 +1,22 @@
+
+ . assembler/syntax : [GAS , MASM , TASM , NASM , FASM , ...]  ->  [Intel , AT&T]
+ x platform architecture : [i286 , etc.]
+
+========================================================================================
+HOW TO START WRITING ASSEMBLY CODE : 
+========================================================================================
+
+1. Decide on the ASSEMBLER , 
+   which will determine the SYNTAX.
+   - NASM uses Intel 
+   - GAS typically uses AT&T (but given the right circumstances it can follow the Intel syntax) 
+
+
+2. Decide on the platform / n-bit mode ( i286 / i386/elf32/x86 / elf64/x64 )
+
+
+========================================================================================
+SYNTAX-SPECIFIC DIRECTIVES : 
+========================================================================================
+
+_

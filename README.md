@@ -46,7 +46,7 @@ __________________________________________________________________________
 Assembly programming :
  . assemblers 
  . syntaxes 
- . directives 
+ . directives : MASM , NASM , GAS , gcc ARM , etc. 
 
 tmux :
  . shell commands

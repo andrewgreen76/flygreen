@@ -16,6 +16,7 @@ Computability theory :
 
 Automata theory :
  . the clearer , more exciting side  
+ . a specific theory 
  . a study of "abstract machines and their computational capabilities"
  . ... abilities to follow patterns 
 

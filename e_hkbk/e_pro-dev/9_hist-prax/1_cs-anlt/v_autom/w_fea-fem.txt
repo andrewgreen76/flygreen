@@ -1,0 +1,9 @@
+"
+Finite Element Analysis involves splitting something down into millions of simpler elements
+and running simulations based on how those elements might act. For instance, breaking a car
+down into tiny shapes and using that to predict how it might survive a car crash. With Finite
+Element Analysis, the more steps you can break something down into, the better you can model
+and predict complex systems like the weather or nuclear explosions. This basically implied
+an infinite need for compute. 
+"
+_

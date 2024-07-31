@@ -6,4 +6,7 @@ Element Analysis, the more steps you can break something down into, the better y
 and predict complex systems like the weather or nuclear explosions. This basically implied
 an infinite need for compute. 
 "
+
+https://www.youtube.com/watch?v=SOQ6F7HMfSc#t=13m10s
+
 _

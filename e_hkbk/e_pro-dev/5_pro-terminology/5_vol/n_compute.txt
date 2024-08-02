@@ -1,0 +1,7 @@
+
+ . the CPU or the CPU's ability to execute instructions 
+
+"
+In computer engineering, "compute" refers to the process of executing instructions and performing calculations using a computer's central processing unit (CPU) and other components to process data and produce results.
+"
+_

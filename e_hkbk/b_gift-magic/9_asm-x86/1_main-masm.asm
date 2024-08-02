@@ -6,5 +6,5 @@ start PROC
 	add eax, 432
 
 	ret
-start	endp		; endp
+start			; endp
 end 	start

@@ -1,4 +1,4 @@
-global start          ; Declare 'start' as a global symbol
+	;; 	global start 				; Declare 'start' as a global symbol
 
 section .text        ; Define the text (code) section
 start:               ; Start of procedure 'start'

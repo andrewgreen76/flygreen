@@ -1,3 +1,5 @@
+	;; SOME DEBUGGING WILL HAVE TO BE INVOLVED - GDB. 
+
 	;; 	global start 				; Declare 'start' as a global symbol
 
 section .text        ; Define the text (code) section

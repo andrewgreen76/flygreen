@@ -3,8 +3,7 @@
  -> all the DOS's 
     . 07/1980 : QDOS 
     . 08/1980 : 86-DOS 
-    . 08/1980 : PC-DOS
-    . xx/1981 : MS-DOS
- -> 1981 : MS-DOS 
+    . 08/1981 : PC-DOS
+ -> 08/1981 : MS-DOS 
 
 _

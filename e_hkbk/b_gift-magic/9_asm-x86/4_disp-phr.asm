@@ -12,8 +12,8 @@ section .text
 	
 _start:
     ; Prepare for sys_write : a, b, c, d 
-    mov eax, 4            ; system call number 	: sys_write 
-    mov ebx, 1            ; file descriptor    	: stdout 
+    mov eax, 4            ; system call number 	: sys_write - OUTPUT 
+    mov ebx, 1            ; file descriptor    	: stdout    - 
     mov ecx, number       ; buffer 		: string 
     mov edx, 4            ; strlen + delim	: [know this ahead of time] 
 

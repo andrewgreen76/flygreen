@@ -11,6 +11,7 @@ section .text
 
 	
 _start:
+    ; LET SYS KNOW OF YOUR INTENT THROUGH CONTEXT/PARAMETERS 
     ; Prepare for sys_write : a, b, c, d 
     mov eax, 4            ; system call number 	: sys_write 
     mov ebx, 1            ; file descriptor    	: stdout 

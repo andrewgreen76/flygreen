@@ -13,9 +13,9 @@ section .text
 _start:
     ; Prepare for sys_write : a, b, c, d 
     mov eax, 4            ; system call number 	: sys_write - OUTPUT 
-    mov ebx, 1            ; file descriptor    	: stdout    - 
-    mov ecx, number       ; buffer 		: string 
-    mov edx, 4            ; strlen + delim	: [know this ahead of time] 
+    mov ebx, 1            ; file descriptor    	: stdout    - SCREEN
+    mov ecx, number       ; buffer 		: string    - TARGET 
+    mov edx, 4            ; strlen + delim	: how much to print - RELYING ON PROGRAMMER 
 
     ; Execute sys_write
     int 0x80              ; Call kernel

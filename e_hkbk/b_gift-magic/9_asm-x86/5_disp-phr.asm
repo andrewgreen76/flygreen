@@ -15,7 +15,7 @@ _start:
     mov eax, 4            ; system call number 	: sys_write - OUTPUT 
     mov ebx, 1            ; file descriptor    	: stdout    - SCREEN
     mov ecx, number       ; buffer 		: string    - TARGET 
-    mov edx, 4            ; strlen + delim	: how much to print - RELYING ON PROGRAMMER 
+    mov edx, 14            ; strlen + delim	: how much is all of it w/ delim 
 
     ; Execute sys_write
     int 0x80              ; Call kernel

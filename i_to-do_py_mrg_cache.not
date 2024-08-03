@@ -1,4 +1,13 @@
 
+ .  1978 : x86
+ -> all the DOS's 
+    . 07/1980 : QDOS 
+    . 08/1980 : 86-DOS 
+    . 08/1980 : PC-DOS
+    . xx/1981 : MS-DOS
+ -> 1981 : MS-DOS 
+
+===========================================================================================
 symbolic debugging
 A small C program that tells you the endianness.
 What if I won't find any use for 'static' , 'union' , 'extern' , or 'register' in my code ?

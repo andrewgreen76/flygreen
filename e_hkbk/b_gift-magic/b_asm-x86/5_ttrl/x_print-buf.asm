@@ -1,7 +1,7 @@
 	;; 
 	
 section .data
-    number db "Hello, world!", 0xA   ; number as string + line feed 
+    strbuf db "Hello, world!", 0xA   ; number as string + line feed 
 
 	
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -12,9 +12,9 @@ section .text
 	
 _start:
     ; Prepare for sys_write : a, b, c, d 
-    mov eax, 4            ; system call number 	: sys_write - OUTPUT 
-    mov ebx, 1            ; file descriptor    	: stdout    - SCREEN
-    mov ecx, number       ; buffer 		: string    - TARGET 
+    mov eax, 4            ; system call number 	:  4 - sys_write (OUTPUT FILE DESCRIPTOR - file/screen) 
+    mov ebx, 1            ; dest (fildescr)    	:  1 - stdout    - SCREEN
+    mov ecx, strbuf       ; src (buffer)	: string buffer 
     mov edx, 14           ; strlen + delim	: how much : all of it w/ delim 
 
     ; Execute sys_write

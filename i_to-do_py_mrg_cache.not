@@ -1,4 +1,6 @@
 
+7etsuo , C , lecture : https://x.com/i/status/1819592399255183414
+explore every abcd param for 0x80 kernel call 
 symbolic debugging
 A small C program that tells you the endianness.
 What if I won't find any use for 'static' , 'union' , 'extern' , or 'register' in my code ?

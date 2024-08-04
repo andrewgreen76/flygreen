@@ -4,12 +4,12 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	
 section .bss
-section .data	
-section .text
-	global _start         ; Entry point for linking
 	
+section .data	
+
+section .text
+	global _start         ; Entry point for linking	
 _start:
-	;; 	mov byte [buffer], 'A'
 	
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
 ;;;			       FINISH 				  ;;; 

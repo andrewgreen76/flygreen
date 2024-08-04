@@ -48,6 +48,11 @@ Assembly programming :
  . syntaxes 
  . directives : MASM , NASM , GAS , gcc ARM , etc. 
 
+A retrospective on Steve Jobs and his actual role in the tech industry :
+ . sales / marketing
+ . idea generator
+ . engineering - none 
+
 tmux :
  . shell commands
  . keyboard shortcuts

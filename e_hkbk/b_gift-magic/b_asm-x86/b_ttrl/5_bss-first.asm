@@ -3,13 +3,17 @@
 ;;;				START 				  ;;; 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	
-section .bss
+section .bss			; for uninitialized data 
 	
-section .data	
+section .data			; for initialized data
 
-section .text
+;;;;;;;;;;;;;;;; Open the instruction section with :  ;;;;;;;;;;;;;;;;
+section .text			
 	global _start         ; Entry point for linking	
 _start:
+;;;;;;;;;;;;;;;;;;;; Then your code goes below : ;;;;;;;;;;;;;;;;;;;
+
+	;; 
 	
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
 ;;;			       FINISH 				  ;;; 

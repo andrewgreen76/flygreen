@@ -1,0 +1,21 @@
+
+========================================================================================
+ELF 
+========================================================================================
+
+ . elf32 : file format for 32-bit executables , object files , shared libs , core dumps 
+ . elf_i386 : points out that the built code is meant to run on the (32-bit) x86 architecture 
+
+
+========================================================================================
+BUILD FLAGS 
+========================================================================================
+
+ -f (elf32) : output format with a specific architectural bit width
+  $ nasm -f elf32 -o z.o 0_main.asm
+  
+ -m (elf_i386) : target machine architecture 
+  $ ld -m elf_i386 -o run z.o
+
+
+_

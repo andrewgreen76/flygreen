@@ -1,9 +1,4 @@
 
-instruction pipelining
- . some stages of the same instruction are executed in parallel 
-register rename 
-false read dependency
-inefficient pipeline stall 
 7etsuo , C , lecture : https://x.com/i/status/1819592399255183414
 explore every abcd param for 0x80 kernel call 
 symbolic debugging

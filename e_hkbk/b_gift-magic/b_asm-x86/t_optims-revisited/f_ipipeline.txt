@@ -1,0 +1,5 @@
+
+instruction pipelining
+ . some stages of the same instruction are executed in parallel 
+
+_

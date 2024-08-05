@@ -5,10 +5,13 @@ xor ebx, ebx	-VS-	mov ebx, 0
 
 SO :
 |
+"The opcode is shorter than mov eax, 0, only 2 bytes, and the processor recognizes the special case and treats it as a mov eax, 0 without a false read dependency on eax, so the execution time is the same."
+- Gunther Piez , https://stackoverflow.com/questions/1396527/what-is-the-purpose-of-xoring-a-register-with-itself
+|
 "
-The opcode is shorter than mov eax, 0, only 2 bytes, and the processor recognizes the special case and treats it as a mov eax, 0 without a false read dependency on eax, so the execution time is the same.
+processor regonizes the special case and treats it as a "mov eax,0" without a false read dependency on eax, so the execution time is the same" The processor actually does even better: it just executes a register rename internally, and doesn't even do anything at all with eax
 "
-- https://stackoverflow.com/questions/1396527/what-is-the-purpose-of-xoring-a-register-with-itself
+- kquinn 
 
 
 GPT :

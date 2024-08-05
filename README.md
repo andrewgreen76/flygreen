@@ -46,40 +46,13 @@ __________________________________________________________________________
 Assembly programming :
  . assemblers 
  . syntaxes 
- . directives : MASM , NASM , GAS , gcc ARM , etc. 
-
-A retrospective on Steve Jobs and his actual role in the tech industry :
- . sales / marketing
- . idea generator
- . engineering - none 
-
-tmux :
- . shell commands
- . keyboard shortcuts
-   . pane management
-   . window/tab management
-   . session management
-   . init/reload config file 
+ . directives : MASM , NASM , GAS , gcc ARM , etc.
+ . optimizations
+ . instruction read dependency
+ . instruction pipelining 
 
 DIY project : research -and- building my own dumb laptop / motherboard / CPU / EEPROMS 
  |
- . profiling languages (by type system and paradigms) 
- . an improvement on Ben Eater EEPROM programmer design 
- . TTL vs. CMOS 
- . legacy of early computing : [from hardware to sysmon/OS] x [from 1938 (Z3) to 1970s]
- . index registers , EA (computation) , MOV vs. LEA 
- . memory protection , paging , segmentation
- . the history of phreaking 
- . 1940s-1960s :
-   . early interrupts , transfer trapping , multiple-sequence , timesharing ,
-     SAGE , CTSS , Multics , supervisory program , batch processing 
- . the history of exceptions , interrupts , traps 
- . evolution of compilers , assemblers , linkers/loaders 
- . x86 instruction (addressing) modes 
- . assembly language prefixes
- . the Manchester Baby , the first stored program , program images 
- . memory (wide) protection , protected mode , virtual memory support 
- . paged memory 
  . instruction queue/decode buffer
  |
  . reset vector :
@@ -87,28 +60,11 @@ DIY project : research -and- building my own dumb laptop / motherboard / CPU / E
  | . "double indirection"
  | . near/far jump to BIOS 
  |
- . boot/EEPROM firmware programming :
- | . [not possible] Raspberry PI 4
- | . [not feasible] laptop motherboards
- | . [TBD] reset vector 
- |
  . flash firmware programming :
  | . POST imitation 
  | . BIOS (not UEFI) imitation
  |
  . system bus vs. chipset
-
-
-
-History of security vulnerabilities :
- | 
- . DoS
- . Morris Worm
- . information disclosure on ARPANET
- . session hijacking
- . privilege escalation and authentication bypass on Unix systems
- |
- . illegal access to memory contents 
 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 

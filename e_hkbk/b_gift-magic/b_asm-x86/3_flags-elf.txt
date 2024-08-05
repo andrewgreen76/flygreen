@@ -3,8 +3,8 @@
 ELF 
 ========================================================================================
 
- . elf32 : file format for 32-bit executables , object files , shared libs , core dumps 
- . elf_i386 : points out that the built code is meant to run on the (32-bit) x86 architecture 
+ . elf32    - tell NASM  - 32-bit file format (executables , object files , shared libs , core dumps) 
+ . elf_i386 - tell ld 	 - for x86 architecture , 32-bit 
 
 
 ========================================================================================

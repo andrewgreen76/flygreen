@@ -1,6 +1,8 @@
 
  . assembler/syntax : [GAS , MASM , TASM , NASM , FASM , ...]  ->  [Intel , AT&T]
+ x bit-width 
  x platform architecture : [i286 , etc.]
+
 
 ========================================================================================
 HOW TO START WRITING ASSEMBLY CODE : 
@@ -11,7 +13,8 @@ HOW TO START WRITING ASSEMBLY CODE :
    - NASM uses Intel 
    - GAS typically uses AT&T (but given the right circumstances it can follow the Intel syntax) 
 
+2. Decide on the architectural bit-width 
 
-2. Decide on the platform / n-bit mode ( i286 / i386/elf32/x86 / elf64/x64 )
+3. Decide on the platform ( i286 / i386/elf32/x86 / elf64/x64 )
 
 _

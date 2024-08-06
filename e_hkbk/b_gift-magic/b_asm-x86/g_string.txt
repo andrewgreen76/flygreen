@@ -1,0 +1,4 @@
+"
+In assembly language, a sequence of bytes can be interpreted as a string if it is terminated with a null (`0`) byte. The presence of a null byte (`0`) at the end of the sequence indicates to functions or instructions that handle strings that this is where the string ends. This convention allows programs to work with strings of varying lengths efficiently, as they can determine the end of the string based on this terminator. Therefore, any sequence of bytes with a null terminator can be considered a string in assembly language.
+"
+_

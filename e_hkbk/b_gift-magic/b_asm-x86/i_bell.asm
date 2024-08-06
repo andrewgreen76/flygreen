@@ -2,7 +2,8 @@
 section .bss
 	
 section .data
-	strbuf_addr db "Hello, " , 11 , "world!" , 0  	; Let's do something different here. 
+	strbuf_addr db "Hello, world!" , 7 
+	bytecount equ $ - strbuf_addr   
 	
 section .text
 	global _start    	
@@ -10,8 +11,7 @@ _start:
 	mov eax, 4             
 	mov ebx, 1             
 	mov ecx, strbuf_addr   
-	mov edx, 15 		;; Do you really want to change the byte count manually
-				;; every time you make a change to the sequence of bytes ? 
+	mov edx, bytecount  
 	int 0x80	
     ; Exit the program : 
 	mov eax, 1       

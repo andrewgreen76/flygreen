@@ -48,8 +48,10 @@ Assembly programming :
  . syntaxes 
  . directives : MASM , NASM , GAS , gcc ARM , etc.
  . optimizations
+ . register renaming
  . instruction read dependency
- . instruction pipelining 
+ . instruction pipelining
+ . inefficient pipeline stall 
 
 DIY project : research -and- building my own dumb laptop / motherboard / CPU / EEPROMS 
  |

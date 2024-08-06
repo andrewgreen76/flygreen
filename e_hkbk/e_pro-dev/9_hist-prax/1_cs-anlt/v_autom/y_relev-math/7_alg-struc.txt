@@ -1,0 +1,4 @@
+"
+An algebraic structure refers to a set equipped with one or more operations (such as addition or multiplication) that satisfy certain axioms or properties, forming the basis of abstract algebraic study.
+"
+_

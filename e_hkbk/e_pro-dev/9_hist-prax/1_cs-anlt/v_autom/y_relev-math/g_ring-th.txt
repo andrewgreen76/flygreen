@@ -1,0 +1,4 @@
+"
+Ring theory is a branch of abstract algebra that studies algebraic structures called rings, which generalize the concept of arithmetic operations such as addition and multiplication beyond the properties of numbers.
+"
+_

@@ -1,0 +1,8 @@
+"
+Abstract algebra is a branch of mathematics that studies algebraic structures such as groups, rings, fields, and vector spaces using abstract and axiomatic methods, focusing on their properties and relationships rather than specific numerical computations.
+"
+
+"
+Abstract algebra differs from geometry in that it focuses on algebraic structures and operations rather than spatial relationships and geometric figures.
+"
+_

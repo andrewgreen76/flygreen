@@ -1,17 +1,22 @@
-	;; 512 + 128 = 640
-	;; _ _ 1 0   1 0 0 0   0 1 0 1 
-	
 section .data		 
-	result db 0       	; one-char buffer init ; null will do here. 
-	newline db 10     	; 			 ASCII 10 = \n
-	result_len equ $ - result ; Length of the result string
+    result db 0       	; buffer init ; ASCII  0 = \0
+    newline db 10     	; 		ASCII 10 = \n
+    result_len equ $ - result ; Length of the result string
 
+;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 section .text
-	global _start     
+    global _start     ; Entry point for linking
+;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 _start:
-	mov eax, 5      ; then do 645
-    add al, '0'       ; Convert to ASCII character
-    mov [result], al  ; Store ASCII character in result buffer
+    mov eax, 5      ; then do 645
+
+    ; Convert integer to string
+    mov ebx, 10       ; manual : eax <- dividend , ebx <- divisor
+    div ebx           ; operat : eax <- quotient , edx <- remainder 
+    add dl, '0'       ; Convert remainder to ASCII character
+
+    mov [result], dl  ; Store ASCII character in result buffer
     mov byte [result + 1], 0 ; Null terminate the string
 
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -25,13 +30,13 @@ _start:
     int 0x80          ; Call kernel
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ; Print a newline
-	mov eax, 4        ; sys_write system call number
-	mov ebx, 1        ; File descriptor (stdout)
-	mov ecx, newline  ; Pointer to the newline character
-	mov edx, 1        ; Length of the newline character
+    mov eax, 4        ; sys_write system call number
+    mov ebx, 1        ; File descriptor (stdout)
+    mov ecx, newline  ; Pointer to the newline character
+    mov edx, 1        ; Length of the newline character
 
     ; Execute sys_write to print the newline
-	int 0x80          ; Call kernel
+    int 0x80          ; Call kernel
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ; Exit the program
 	mov eax, 1        ; sys_exit system call number

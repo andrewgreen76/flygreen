@@ -1,0 +1,4 @@
+"
+Verification in VLSI refers to the process of confirming that a design meets its functional specifications and behaves correctly under all specified conditions before fabrication.
+"
+_

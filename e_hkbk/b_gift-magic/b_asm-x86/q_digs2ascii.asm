@@ -1,14 +1,5 @@
-	
-	;; Plan : work your way left to right
-	;; until non-zero (most significant digit) is reached.
-
-	;; A 32-bit register (eax , ebx , etc.) can only use 32 bits to support an integer 
-	;; up to a certain maximal value = (2^32)-1 = 4294967295 (10 chars). 
-	
-	;; The `ecx` register in x86 assembly can accommodate up to 10 decimal digits.
-	;; This is because the maximum value it can hold, \(2^{32} - 1\), when converted
-	;; to decimal, is 4,294,967,295 (4294967295), which consists of 10 digits. Therefore, `ecx`
-	;; can be used to count or represent up to 10 decimal digits in assembly programming contexts.
+	;; 512 + 128 = 640
+	;; _ _ 1 0   1 0 0 0   0 1 0 1 
 	
 section .data		 
 	result db 0       	; one-char buffer init ; null will do here. 

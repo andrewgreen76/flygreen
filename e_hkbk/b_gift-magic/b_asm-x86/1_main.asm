@@ -1,18 +1,19 @@
-
-section .data
-	integer_str db '12345', 0  ; Example integer string with null terminator
 	
-
+section .bss
+	
+section .data
+	strbuf_addr db 0 
+	bytecount equ $ - strbuf_addr   
+	
 section .text
-	global _start 
+	global _start    	
 _start:
-	mov eax, 4        ; sys_write syscall number
-	mov ebx, 1        ; File descriptor (stdout)
-	mov ecx, integer_str  ; Address of the integer string
-	mov edx, 5        ; Length of the integer string (excluding null terminator)
-	int 0x80          ; Call kernel
-
-    ; Exit the program
-	mov eax, 1        ; sys_exit syscall number
-	xor ebx, ebx      ; Exit status (0 for success)
-	int 0x80          ; Call kernel
+	mov eax, 0
+	mov ebx, 0             
+	mov ecx, 0   
+	mov edx, 0  
+	int 0x80	
+    ; Exit the program : 
+	mov eax, 1       
+	xor ebx, ebx     
+	int 0x80         

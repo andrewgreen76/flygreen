@@ -2,8 +2,6 @@
 section .data
 	;; outbuf 0   outbuf 1   ... 
 	outbuf db 0 , 10 	; a method of reserving bytes for a string buffer. 
-
-
 	
 section .text
 	global _start
@@ -11,7 +9,7 @@ _start:
 	;; CONVERT NUM TO CHAR 
 	xor eax, eax 		; clear entire acc. 
 	mov al, 5		; 5 -> an acc byte
-	add al, 2		; 7 
+	add al, 2		; 5+2=7 
 	add al , '0'		; add 48 to digit to convert it to ASCII char (7+48=55) 
 	;; MOVE TO OUTPUT BUFFER
 	mov byte [outbuf] , al	 ;  7 -> out[0]

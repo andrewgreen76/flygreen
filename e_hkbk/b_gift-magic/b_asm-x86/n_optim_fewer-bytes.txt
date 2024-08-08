@@ -1,4 +1,0 @@
-"
-When working with smaller registers like `al` instead of `eax`, the instructions are smaller in size (1 byte vs. 4 bytes), which can reduce memory usage and improve instruction cache hit rates. This can lead to more efficient execution because smaller instructions take up less space and can be fetched and decoded more quickly by the processor.
-"
-_

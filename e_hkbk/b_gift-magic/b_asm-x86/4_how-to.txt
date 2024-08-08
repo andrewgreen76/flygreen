@@ -1,8 +1,10 @@
 
- . assembler/syntax : [GAS , MASM , TASM , NASM , FASM , ...]  ->  [Intel , AT&T]
- x bit-width 
- x platform architecture : [i286 , etc.]
-
+ (1) assembler/syntax : [GAS , MASM , TASM , NASM , FASM , ...]  ->  [Intel , AT&T]
+ 
+ (2) platform architecture / bit-width :
+     . i286 - 16-bit
+     . i386 - 32-bit 
+     . etc. 
 
 ========================================================================================
 HOW TO START WRITING ASSEMBLY CODE : 

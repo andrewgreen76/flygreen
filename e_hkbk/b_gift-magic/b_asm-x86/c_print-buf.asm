@@ -19,10 +19,10 @@ section .text
 	
 _start:
     ; Prepare for sys_write : a, b, c, d 
-	mov eax, 4            ; system call number 	:  4 - sys_write (OUTPUT FILE DESCRIPTOR - file/screen) 
-	mov ebx, 1            ; dest (fildescr)    	:  1 - stdout    (SCREEN) 
+	mov eax, 4            ; system call number 	:  4 - sys_write (OUTPUT FILE DESCRIPTOR - file / peripheral) 
+	mov ebx, 1            ; dest (fildescr)    	:  1 - stdout    (PERIPHERAL OUTPUT - screen, sound, printing, net) 
 	mov ecx, strbuf_addr  ; src (buffer addr)	: undisclosed memory location of the string buffer 
-	mov edx, 14           ; srcbuf byte count       : 14 = |Helloworld, !| + |\0| - all bytes (reg.chars + spec.chars) 
+	mov edx, 14           ; byte count : when do I stop ?  : 14 = |Helloworld, !| + |\0| - all bytes (reg.chars + spec.chars) 
 	
     ; Execute sys_write
 	int 0x80              ; Call kernel

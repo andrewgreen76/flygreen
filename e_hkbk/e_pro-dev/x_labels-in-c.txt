@@ -1,0 +1,28 @@
+"
+Yes, C supports labels, which are used in conjunction with the `goto` statement to control the flow of execution in a program. A label is a named identifier followed by a colon (`:`) and can be used as a target for `goto` statements. Here’s a brief example:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int i = 0;
+
+    start: // Label
+    printf("i = %d\n", i);
+    i++;
+
+    if (i < 5) {
+        goto start; // Jumps to the label "start"
+    }
+
+    return 0;
+}
+```
+
+In this example:
+- The label `start` is defined before the `printf` statement.
+- The `goto start;` statement causes the program to jump back to the `start` label, creating a loop-like structure.
+
+While labels and `goto` can be useful in certain situations, they are generally discouraged in favor of structured control flow constructs like loops and conditionals for better readability and maintainability.
+"
+_

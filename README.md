@@ -50,7 +50,8 @@ Assembly programming :
  . optimizations
  . ASCII conversion between digits as codes and digits as text characters
  . system calls and interrupts
- . equ , $ 
+ . equ , $
+ . bss and resb 
  |
  . register renaming
  . instruction read dependency

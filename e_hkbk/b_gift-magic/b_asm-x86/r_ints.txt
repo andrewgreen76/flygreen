@@ -1,0 +1,31 @@
+
+========================================================================================
+INTERRUPTS ARE FOR SYSTEM-SPECIFIC SERVICES : 
+========================================================================================
+
+"
+Yes, in x86 architecture, aside from `int 0x80`, there are several other interrupts and software interrupts. Here are some of the commonly used ones:
+
+1. **`int 0x10`** - Video services: Used for video operations such as setting the video mode and screen attributes (BIOS interrupt for video).
+
+2. **`int 0x13`** - Disk services: Provides access to disk operations like reading from and writing to disk sectors (BIOS interrupt for disk operations).
+
+3. **`int 0x14`** - Serial communication: Handles serial port communications (BIOS interrupt for serial port operations).
+
+4. **`int 0x15`** - System services: Includes services like memory size detection and extended memory services (BIOS interrupt for system services).
+
+5. **`int 0x16`** - Keyboard services: Handles keyboard input operations (BIOS interrupt for keyboard).
+
+6. **`int 0x17`** - Printer services: Manages printer operations (BIOS interrupt for printer).
+
+7. **`int 0x1A`** - System timer: Provides system time services and interrupts (BIOS interrupt for system clock).
+
+8. **`int 0x21`** - DOS services: In real mode, this interrupt is used to invoke various DOS functions (used by DOS and early Windows).
+
+9. **`int 0x80`** - Linux system calls: Used to invoke system calls in the Linux kernel (in 32-bit x86 mode).
+
+10. **`int 0x81` to `int 0xFF`** - Reserved for various uses, including user-defined software interrupts and extended system services.
+
+These interrupts provide various services and access to hardware or system functionality, depending on the mode (real mode, protected mode, etc.) and the operating system in use.
+"
+_

@@ -3,7 +3,7 @@
 ;;;				START 				  ;;; 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	
-section .text
+section .text		  ; CODE SEGMENT 
     global _start         ; Entry point for linking
 _start:
 

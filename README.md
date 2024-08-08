@@ -48,6 +48,10 @@ Assembly programming :
  . syntaxes 
  . directives : MASM , NASM , GAS , gcc ARM , etc.
  . optimizations
+ . ASCII conversion between digits as codes and digits as text characters
+ . system calls and interrupts
+ . equ , $ 
+ |
  . register renaming
  . instruction read dependency
  . instruction pipelining

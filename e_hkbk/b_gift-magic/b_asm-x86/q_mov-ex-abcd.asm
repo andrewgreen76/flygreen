@@ -2,9 +2,18 @@
 	;; System calls : 
 	mov eax , 0 		;; sys_restart_syscall 
 	mov eax , 1 		;; sys_exit 
-	mov eax , 2 		;; sys_fork  
-	mov eax , 3 		;; sys_read  
-	mov eax , 4 		;; sys_write 
+	mov eax , 2 		;; sys_fork
+	
+	mov eax , 3 		;; sys_read
+		mov ebx , 0 
+		;; mov ebx , 1 - stdout - cannot be used in the context of reading.
+		;; mov ebx , 2 - stderr - cannot be used in the context of reading. 
+	
+	mov eax , 4 		;; sys_write
+		;; mov ebx , 0 - stdin - cannot be used in the context of writing. 
+		mov ebx , 1 		; stdout 
+		mov ebx , 2 		; stderr 
+	
 	mov eax , 5 		;; sys_open 
 	mov eax , 6 		;; sys_close 
 	mov eax , 7 		;; sys_waitpid 

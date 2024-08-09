@@ -5,7 +5,7 @@ section .data
 strbuf_addr db "Hello, " , 11 , "world!" , 0  	; Let's do something different here. 
 	
 section .text	
-global _start
+	global _start
 	
 _start:
 	mov eax, 4             

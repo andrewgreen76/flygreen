@@ -7,7 +7,7 @@ strbuf_addr db "Hello, " , 11 , "world!" , 0
 bytecount equ $ - strbuf_addr 	; equ (=) statements do support internal arithmetic expressions (+, -, *, /) 
 	
 section .text
-global _start    	
+	global _start    	
 _start:
 	mov eax, 4             
 	mov ebx, 1             

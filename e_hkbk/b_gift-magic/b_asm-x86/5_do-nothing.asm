@@ -11,8 +11,7 @@
 	
 ; CODE SEGMENT
 section .text
-	
-global _start         ; Entry point for linking
+	global _start         ; Entry point for linking
 	
 _start:
 	

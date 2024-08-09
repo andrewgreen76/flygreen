@@ -3,7 +3,9 @@ section .bss
 	
 section	.data
 buflen 	equ 5
-bufaddr db buflen-1 dup('*')
+bufaddr	times buflen-1 db '*'
+	;; alternatively :
+	;; bufaddr db buflen-1 dup('*')
 	db 10
 	
 section	.text

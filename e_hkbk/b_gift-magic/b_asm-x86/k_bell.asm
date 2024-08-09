@@ -6,7 +6,7 @@ bytcdbuf_addr db "Hello, world!" , 7
 bytecount equ $ - bytcdbuf_addr
 	
 section .text
-global _start    	
+	global _start    	
 _start:
 	mov eax, 4             
 	mov ebx, 1             

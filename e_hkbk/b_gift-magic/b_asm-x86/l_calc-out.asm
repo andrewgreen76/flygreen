@@ -4,7 +4,7 @@ section .data
 out_addr db 0 , 10 	; reserving bytes for the output buffer. 
 	
 section .text
-global _start
+	global _start
 _start:
 	;; DIRECT , IN-FILE NUMERICAL INPUT 
 	mov eax, 5		

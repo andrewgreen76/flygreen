@@ -13,7 +13,7 @@ strbuf_addr db "Hello, world!", 0   	; strbuf is a LOCATION
 					;; the null terminator is standard practice. 
 	
 section .text
-global _start         ; Entry point for linking
+	global _start         ; Entry point for linking
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 	

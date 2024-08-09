@@ -10,7 +10,7 @@ section .data			; for initialized data
 
 ;;;;;;;;;;;;;;;;;;; Open the CODE SEGMENT with :  ;;;;;;;;;;;;;;;;;;
 section .text			
-	global _start         ; Entry point for linking	
+global _start         ; Entry point for linking	
 _start:
 ;;;;;;;;;;;;;;;;;;;; Then your code goes below : ;;;;;;;;;;;;;;;;;;;
 

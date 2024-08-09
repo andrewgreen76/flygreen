@@ -4,16 +4,16 @@
 section .bss
 	
 section .data
-	strbuf_addr db "Hello, world!", 0   	; strbuf is a LOCATION
+strbuf_addr db "Hello, world!", 0   	; strbuf is a LOCATION
 	
-						; db = define bytes at this location : string + \0
+					; db = define bytes at this location : string + \0
 	
-						;; Certain assembly operations and routines can produce desired results
-						;; only when there is an end to the sequence of bytes , so appending
-						;; the null terminator is standard practice. 
+					;; Certain assembly operations and routines can produce desired results
+					;; only when there is an end to the sequence of bytes , so appending
+					;; the null terminator is standard practice. 
 	
 section .text
-	global _start         ; Entry point for linking
+global _start         ; Entry point for linking
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 	

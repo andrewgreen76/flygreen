@@ -1,15 +1,15 @@
 
 section .data
-	numlen equ 5
+numlen equ 5
 	
 section .bss
-	usernum resb numlen
+usernum resb numlen
 	
 section .data
-	ps_addr db "Enter a digit: " , 0 
-	pslen_addr equ $ - ps_addr
-	out_addr db "You entered: " , 0		; You don't have to inject a line feed ; hitting ENTER upon input will do the trick. 
-	outlen_addr equ $ - out_addr
+ps_addr db "Enter a digit: " , 0 
+pslen_addr equ $ - ps_addr
+out_addr db "You entered: " , 0		; You don't have to inject a line feed ; hitting ENTER upon input will do the trick. 
+outlen_addr equ $ - out_addr
 	
 section .text
 	global _start    	

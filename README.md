@@ -46,12 +46,14 @@ __________________________________________________________________________
 Assembly programming :
  . assemblers 
  . syntaxes 
- . directives : MASM , NASM , GAS , gcc ARM , etc.
- . optimizations
+ . directives in MASM , NASM , GAS , gcc ARM , etc.
+ . NASM : 
+   . directives , statements , markers : db , equ , $ , times , dup
+   . address labels 
+ . bss and resb 
+ . optimizations (light coverage) 
  . ASCII conversion between digits as codes and digits as text characters
  . system calls and interrupts
- . equ , $
- . bss and resb 
  |
  . register renaming
  . instruction read dependency

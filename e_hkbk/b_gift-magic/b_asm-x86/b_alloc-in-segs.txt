@@ -1,0 +1,6 @@
+"
+... if you write `char input[10];` inside a function, it will be allocated on the stack. This is because `input` is a local variable with automatic storage duration, meaning it gets allocated on the stack when the function is called and deallocated when the function exits. 
+
+In contrast, buffers allocated dynamically (e.g., with `malloc()`) or globally/static variables are placed on the heap or in the data segment, respectively.
+"
+_

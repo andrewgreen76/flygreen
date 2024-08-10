@@ -1,4 +1,30 @@
 
+========================================================================================
+PROCEDURAL LANGUAGES :
+========================================================================================
+
+ . contents of input data structures CAN be altered 
+ . contents may or may not be validated 
+
+
+========================================================================================
+FUNCTIONAL LANGUAGES :
+========================================================================================
+
+ . contents of input data structures can NOT be altered
+ 
+   	     [ black box interpreter :		]
+ . input --> [  . interprets the input ONE WAY 	] --> UNCONDITIONALLY produces 
+   	     [    -or- maps the input to output	]     a SPECIFIC OUTPUT 
+   	     [  . does not alter the data	]
+
+ . data is validated at runtime by the interpreter , not when the interpreter is compiled 
+
+
+========================================================================================
+========================================================================================
+========================================================================================
+
 Certainly! Here's a classic example of a simple task implemented in both procedural and functional programming styles:
 
 Procedural Programming (using C-like syntax):
@@ -38,3 +64,4 @@ In the functional programming example, the code focuses on the evaluation of exp
 
 The procedural programming style is centered around a sequence of steps and mutable state, while the functional programming style emphasizes the evaluation of functions and immutable data.
 
+_

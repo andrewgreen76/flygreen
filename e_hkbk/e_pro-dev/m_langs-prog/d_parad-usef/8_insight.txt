@@ -1,0 +1,7 @@
+
+Splunk :
+|
+"
+Examples of procedural programming languages include C, Pascal, Fortran, Ada, and Basic. Since procedural languages are low-level programming languages, they provide low-level access to system resources and hardware.
+"
+_

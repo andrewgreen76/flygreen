@@ -43,6 +43,8 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Applications of various programming, logic, query, and other languages. 
+
 Assembly programming :
  . assemblers 
  . syntaxes 

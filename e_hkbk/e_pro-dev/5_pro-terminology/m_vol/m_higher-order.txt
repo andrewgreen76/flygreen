@@ -1,0 +1,4 @@
+"
+[In the Scala programming language] Higher-order functions are functions that can take other functions as arguments or return functions as results, enabling more abstract and flexible programming by allowing functions to operate on or produce other functions.
+"
+_

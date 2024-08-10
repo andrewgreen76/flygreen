@@ -1,6 +1,7 @@
 
 cmp-jmp
 stack
+boundary 
 7etsuo , C , lecture : https://x.com/i/status/1819592399255183414
 symbolic debugging
 A small C program that tells you the endianness.

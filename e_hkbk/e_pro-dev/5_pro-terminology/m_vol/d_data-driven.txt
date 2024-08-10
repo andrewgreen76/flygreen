@@ -1,0 +1,4 @@
+"
+Data-driven programming is a paradigm where the flow and behavior of a program are determined by data inputs and configurations, rather than hard-coded logic, allowing for more flexibility and adaptability in software development.
+"
+_

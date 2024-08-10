@@ -1,0 +1,5 @@
+
+Data segment - local-scope data 
+Stack segment - global-scope data 
+
+_

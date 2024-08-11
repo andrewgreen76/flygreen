@@ -1,0 +1,28 @@
+"
+... the hex bytes you include in an ELF binary executable depend on the architectural width because different architectures and instruction sets use different opcodes and prefixes. For example, x86-64 instructions use the `REX` prefix to handle 64-bit operations, while x86 (32-bit) instructions do not.
+"
+
+========================================================================================
+48 b8 3c 00 00 00 00 00 00  ; mov rax, 60 (syscall number for exit)
+0f 05                       ; syscall
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+----------------------------------------------------------------------------------------
+"
+The `48` byte is the `REX` prefix, which is used in x86-64 assembly to extend the instruction set for 64-bit operations.
+"
+----------------------------------------------------------------------------------------
+"
+On x86-64 architecture, the syscall number for `exit` is indeed `60`. The number `1` is used for the `exit` syscall on x86 (32-bit).
+"
+========================================================================================
+
+
+Make your choice :
+ . 16-bit x86
+ . 32-bit x86
+ . x86-64
+
+_

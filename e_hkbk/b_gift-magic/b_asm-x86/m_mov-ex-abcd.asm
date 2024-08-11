@@ -5,7 +5,7 @@
 	mov eax , 2 		;; sys_fork
 	
 	mov eax , 3 		;; sys_read
-		mov ebx , 0 
+		mov ebx , 0	;; stdin 
 		;; mov ebx , 1 - stdout - cannot be used in the context of reading.
 		;; mov ebx , 2 - stderr - cannot be used in the context of reading. 
 	

@@ -1,0 +1,30 @@
+"
+The ELF header in the minimal ELF file is constituted by the first 64 bytes: `7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 02 00 3e 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00`.
+"
+
+
+
+"
+Here's a breakdown of the ELF header bytes:
+
+- `7f 45 4c 46` : ELF magic number (`0x7f 'E' 'L' 'F'`)
+- `02` : 64-bit architecture
+- `01` : Little-endian
+- `01` : ELF version
+- `00` : OS ABI (System V)
+- `00` : ABI version
+- `02 00` : Type (Executable file)
+- `3e 00` : Machine (x86-64)
+- `01 00` : Version (1)
+- `00 00 00 00` : Entry point (0)
+- `00 00 00 00` : Program header table offset (0)
+- `00 00 00 00` : Section header table offset (0)
+- `00 00 00 00` : Flags (0)
+- `40 00` : ELF header size (64 bytes)
+- `00 00` : Program header entry size (0)
+- `00 00` : Number of program header entries (0)
+- `00 00` : Section header entry size (0)
+- `00 00` : Number of section header entries (0)
+- `00 00` : Section header string table index (0)
+"
+_

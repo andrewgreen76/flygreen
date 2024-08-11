@@ -1,0 +1,36 @@
+
+========================================================================================
+A PROGRAM THAT DOES NOTHING - A BREAKDOWN : 
+========================================================================================
+
+B8 01 00 00 00 0F 05
+
+
+B8	      ; mov rax , ...
+01 00 00 00   ; 00000000 00000000 00000000 00000001	
+      	      ; All four bytes of the imm_val are loaded into rax at once. (An immediate value is always encoded as a part of the instruction.)
+	      ; 64-bit instructions can only have 32-bit immediate values encoded into them.
+	      ; Yes , on this platform imm_vals are 32-bit ( 0 -> (2^32)-1 ~= 4G )
+0F 05 	      ; 0F byte will mean to the CPU that this is a special 64-bit instruction. 
+   	      ; Together these bytes mean "trigger a syscall based on rax"
+
+========================================================================================
+========================================================================================
+========================================================================================
+
+"
+For a simple program that exits immediately, you can use the following x86-64 hexadecimal machine code:
+
+```
+B8 01 00 00 00 0F 05
+```
+
+Here’s a breakdown of what it does:
+
+- `B8 01 00 00 00` : Load immediate value `0x01` (system call number for `exit`) into the `rax` register.
+- `0F 05` : Execute the `syscall` instruction to invoke the system call.
+
+To assemble this into an executable, you would typically use an assembler like NASM and a linker.
+"
+
+_

@@ -1,5 +1,6 @@
 
-stack
+hex code + bin exec + gdb + recipe 
+stack : write a C program with s in the stack , h in the heap , d in the data segment 
 boundary 
 7etsuo , C , lecture : https://x.com/i/status/1819592399255183414
 symbolic debugging

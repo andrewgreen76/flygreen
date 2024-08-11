@@ -1,0 +1,26 @@
+
+========================================================================================
+HOW TO WRITE (the code inside your own binary ELF executable) : 
+========================================================================================
+
+Write the dumb program		in hex machine code	     inside an ELF executable file. 
+
+Tools : 
+ (a) a hex editor
+ (b) xxd
+
+Correct file format : 
+ (1) need an ELF header 
+ (2) own machine code
+  .  some byte-padding will be involved 
+ 
+
+========================================================================================
+HOW TO EXECUTE the program : 
+========================================================================================
+
+ . learn the address of the program as a binary executable
+ . run 'gdb'
+ . guide 'gdb' to the entry point of your program 
+
+_

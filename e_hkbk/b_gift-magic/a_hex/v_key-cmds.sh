@@ -10,4 +10,6 @@ readelf -h [elf_prog]
 
 objdump -f [elf_prog]
 
+hexdump -C [prog.elf] 
+
 #

@@ -10,7 +10,9 @@ Tools :
  (b) xxd
 
 Correct file format : 
- (1) need an ELF header 
+ (1) need an ELF header
+     . account for program header 
+     . account for section header 
  (2) own machine code
   .  some byte-padding will be involved 
  

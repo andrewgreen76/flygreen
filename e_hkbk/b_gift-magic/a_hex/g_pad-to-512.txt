@@ -2,8 +2,6 @@
 Padding is needed to align sections and data structures to the required boundaries, ensuring proper execution and memory alignment in the ELF format.
 "
 
-
-
 "
 ... the smallest ELF binary isn't always 512 bytes; it depends on the specific ELF header and program structure, but 512 bytes is a common size for minimal examples with padding.
 "

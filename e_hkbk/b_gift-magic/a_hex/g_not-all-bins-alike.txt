@@ -1,0 +1,2 @@
+minimal_elf.bin: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), no program header, no section header	; xxd
+y_backup/program.bin: COM executable for DOS	    	      	      	 	 	    	    		; echo -e 

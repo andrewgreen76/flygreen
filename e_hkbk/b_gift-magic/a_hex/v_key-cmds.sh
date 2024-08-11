@@ -6,4 +6,8 @@ file [minimal_elf.bin]     # file properties
 
 gdb [minimal_elf.bin]
 
+readelf -h [elf_prog]
+
+objdump -f [elf_prog]
+
 #

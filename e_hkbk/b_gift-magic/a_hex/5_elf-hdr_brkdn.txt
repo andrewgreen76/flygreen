@@ -5,17 +5,44 @@
 ========================================================================================
 ========================================================================================
 
-07 45 4c 46	00 00 00 00	00 00 00 00	00 00 00 00 
-magic.no 	.     	 	.     	 	.
+07 45 4c 46	00  00  00     00		00     00  00  00		00 00 00 00 
+magic.no 	cls enc elfver os/abi		abiver --------------padding---------------
 
-00 00 00 00	00 00 00 00	00 00 00 00	00 00 00 00 
--     	 	.     	 	.     	 	.
+00  00 00 00	  00 00 00 00	00 00 00 00	00 00 00 00 
+e_type e_machine  -ver- --e_entry pt addr--	prg.hdr.tbl.off
 
-00 00 00 00	00 00 00 00	00 00 00 00	00 00 00 00 
--     	 	.     	 	.     	 	.
+00 00 00 00	 00 00 00 00	 00 00 00 00	00 00 00 00 
+sct.hdr.tbl.off	 CPU-spec.flags  elf.hdr.size	prg.hdr.ent.size
 
-00 00 00 00	00 00 00 00	00 00 00 00	00 00 00 00 
--     	 	.     	 	.     	 	.
+00 00 00 00	 00 00 00 00	   00 00 00 00		00 00 00 00 
+no.prg.hdr.ents  sct.hdr.ent.size  no.sct.hdr.ents   	sct.hdr.str.tbl.ind
+
+========================================================================================
+========================================================================================
+========================================================================================
+
+Here is the ELF header with each of the 64 bytes labeled by field name:
+
+1. **0x00-0x03**: `e_ident[0-3]` - Magic number (`0x7f`, `0x45`, `0x4c`, `0x46`)
+2. **0x04**: `e_ident[4]` - Class (`ELFCLASS64`)
+3. **0x05**: `e_ident[5]` - Data encoding (`ELFDATA2LSB`)
+4. **0x06**: `e_ident[6]` - ELF version (`EV_CURRENT`)
+5. **0x07**: `e_ident[7]` - OS/ABI (`ELFOSABI_SYSV`)
+6. **0x08**: `e_ident[8]` - ABI version
+7. **0x09-0x0f**: `e_ident[9-15]` - Padding
+8. **0x10-0x11**: `e_type` - Type (`ET_EXEC` for executable)
+9. **0x12-0x13**: `e_machine` - Machine (`EM_X86_64`)
+10. **0x14-0x15**: `e_version` - Version
+11. **0x16-0x1b**: `e_entry` - Entry point address
+12. **0x1c-0x1f**: `e_phoff` - Program header table offset
+13. **0x20-0x23**: `e_shoff` - Section header table offset
+14. **0x24-0x27**: `e_flags` - Processor-specific flags
+15. **0x28-0x2b**: `e_ehsize` - ELF header size
+16. **0x2c-0x2f**: `e_phentsize` - Program header entry size
+17. **0x30-0x33**: `e_phnum` - Number of program header entries
+18. **0x34-0x37**: `e_shentsize` - Section header entry size
+19. **0x38-0x3b**: `e_shnum` - Number of section header entries
+20. **0x3c-0x3f**: `e_shstrndx` - Section header string table index
 
 ========================================================================================
 ========================================================================================

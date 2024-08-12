@@ -11,6 +11,11 @@ ELF binary   - structured WITH HEADERS AND TABLES
 OTHERS : 
 ========================================================================================
 
+
+There are other types of binary files , so think about what their contents would look like.
+Are they structured ? Do they have headers (with metadata) and/or tables ? Unique magic numbers ?
+
+
 "
 No, not all binary files are ELFs (Executable and Linkable Format). Binary files can be in various formats, depending on their purpose and how they are created. Here's a quick overview of different types of binary files:
 

@@ -45,6 +45,12 @@ __________________________________________________________________________
 
 Applications of various programming, logic, query, and other languages. 
 
+Hexadecimal byte code writing :
+ . understanding of the different types of binary files
+ . (their headers)
+ . (32-bit vs. 64-bit)
+ . (ELF vs. raw binary vs. others)
+
 Assembly programming :
  . assemblers 
  . syntaxes 

@@ -1,5 +1,49 @@
 
-"raw binary" - "a sequence of bytes WITHOUT ANY ACCOMPANYING HEADERS OR METADATA (to define its structure or execution context)."
+========================================================================================
+ELF VS. RAW BINARY : 
+========================================================================================
+
+raw binary - "a sequence of bytes WITHOUT ANY ACCOMPANYING HEADERS OR METADATA (to define its structure or execution context)."
 ELF binary   - structured WITH HEADERS AND TABLES 
 
+
+========================================================================================
+OTHERS : 
+========================================================================================
+
+"
+No, not all binary files are ELFs (Executable and Linkable Format). Binary files can be in various formats, depending on their purpose and how they are created. Here's a quick overview of different types of binary files:
+
+### 1. **ELF (Executable and Linkable Format)**
+   - **Usage**: Commonly used for executable files, object code, shared libraries, and core dumps on Unix-like systems (e.g., Linux).
+   - **Features**: Contains headers that describe the file's layout and how it should be executed or linked.
+
+### 2. **PE (Portable Executable)**
+   - **Usage**: The standard format for executable files, object code, and DLLs on Windows systems.
+   - **Features**: Contains headers and sections similar to ELF but specific to the Windows operating system.
+
+### 3. **Raw Binary Files**
+   - **Usage**: Files that contain raw machine code or data without any file headers or metadata. Often used for low-level programming, firmware, or as a part of a bootloader.
+   - **Features**: No metadata or headers; just a sequence of bytes.
+
+### 4. **COFF (Common Object File Format)**
+   - **Usage**: An older format used for object files on various platforms, including early versions of Unix and some Microsoft systems.
+   - **Features**: Contains headers and sections similar to ELF but in a different format.
+
+### 5. **Mach-O (Mach Object)**
+   - **Usage**: The standard binary format used by macOS and iOS for executables, object code, and shared libraries.
+   - **Features**: Contains headers and sections specific to Apple's operating systems.
+
+### 6. **Other Formats**
+   - **Hexadecimal Files**: Files with hexadecimal representations of data, often used for programming EEPROMs or other firmware.
+   - **S-records**: Text-based formats for representing binary data, used in embedded systems.
+
+### Summary
+
+- **ELF**: A specific format for Unix-like systems, used for executables and libraries.
+- **PE, COFF, Mach-O**: Other executable formats for different operating systems.
+- **Raw Binary**: Simple files with no headers or metadata, often used in low-level programming.
+
+Different types of binary files serve different purposes and are used in different contexts, depending on the operating system and application requirements.
+"
 _

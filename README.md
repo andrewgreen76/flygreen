@@ -43,13 +43,16 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-Applications of various programming, logic, query, and other languages. 
+Types of binary file formats in Unix-like systems.
+ . .bin vs. .elf vs. .out , etc. 
 
 Hexadecimal byte code writing :
  . understanding of the different types of binary files
  . (their headers)
  . (32-bit vs. 64-bit)
  . (ELF vs. raw binary vs. others)
+
+Applications of various programming, logic, query, and other languages. 
 
 Assembly programming :
  . assemblers 

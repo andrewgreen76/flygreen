@@ -3,12 +3,17 @@
 ELF VS. RAW BINARY : 
 ========================================================================================
 
-raw binary - "a sequence of bytes WITHOUT ANY ACCOMPANYING HEADERS OR METADATA (to define its structure or execution context)."
-ELF binary   - structured WITH HEADERS AND TABLES 
+raw binary (file) 
+ . "a sequence of bytes WITHOUT ANY ACCOMPANYING HEADERS OR METADATA (to define its structure or execution context)."
+ . .bin 
+
+ELF binary (file) 
+ . structured WITH HEADERS AND TABLES
+ . no standard extension , .elf 
 
 
 ========================================================================================
-OTHERS : 
+OTHER TYPES OF BINARIES - OVERVIEW : 
 ========================================================================================
 
 
@@ -50,5 +55,62 @@ No, not all binary files are ELFs (Executable and Linkable Format). Binary files
 - **Raw Binary**: Simple files with no headers or metadata, often used in low-level programming.
 
 Different types of binary files serve different purposes and are used in different contexts, depending on the operating system and application requirements.
+"
+
+========================================================================================
+TYPES OF BINARIES - OVERVIEW : 
+========================================================================================
+
+ .bin
+   . unstructured code and data 
+   . "raw, unstructured data or machine code, and its specific format and usage depend on the context in which it is created or used."
+   . "Other kinds of binary files, such as `.o` object files or `.elf` executables, TYPICALLY REQUIRE ADDITIONAL PROCESSING or headers
+      and cannot be directly loaded and executed on devices without being LINKED OR PROCESSED TO MATCH THE DEVICE'S MEMORY LAYOUT AND
+      EXECUTION REQUIREMENTS." 
+
+ .out
+   . old Unix format
+
+ .elf
+   . a format for a structured binary executable in Unix-like systems
+   . elf32 vs. elf64 
+
+ .o
+   . structured object files 
+
+ .ko
+   . Linux kernel module file format 
+   . loaded into the kernel at runtime (without the need of a reboot)
+
+ .so
+   . format for SHARED OBJECT LIBRARIES for DYNAMIC LINKING and SHARED CODE in user applications IN UNIX-LIKE SYSTEMS
+   . can be linked and loaded at runtime 
+   . .so to user applications is what .ko is to the Linux kernel 
+
+ .mod
+   . music module file format 
+
+ .prx
+   . plugin files in software applications
+
+ .puff
+   . compressed binary for domain-specific systems and applications
+   
+ .axf
+   . ARM executable
+   
+
+========================================================================================
+MORE ON a.out FORMAT : 
+========================================================================================
+
+"
+The `a.out` file format is an older executable file format originally used by Unix systems. It stands for "assembler output" and was one of the first standard formats for executable files. Key characteristics include:
+
+1. **Header Structure**: `a.out` files have a simple header that includes information about the file's size, entry point, and sections.
+2. **Sections**: Typically includes a text (code) section, data section, and symbol table.
+3. **Historical Use**: It was widely used in early Unix systems but has largely been replaced by more modern formats like ELF (Executable and Linkable Format) and COFF (Common Object File Format).
+
+Although `a.out` has largely been superseded, its influence is seen in the design of later formats, and some legacy systems or tools may still use it.
 "
 _

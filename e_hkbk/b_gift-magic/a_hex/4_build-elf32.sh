@@ -1,3 +1,3 @@
 nasm -f elf32 -o z.o 3_gen.asm
-ld -m elf_i386 -o 5_testelf32.out z.o
-./5_testelf32.out
+ld -m elf_i386 -o 5_test32.elf z.o
+./5_test32.elf

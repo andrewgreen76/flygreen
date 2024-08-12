@@ -1,0 +1,21 @@
+
+ . MOSFET
+   . e.g., IRF540
+ 
+ . TTL
+   . 74LSxxx
+   . uses BJTs
+   . low resistance to noise 
+ 
+ . CMOS
+   . uses (MOS)FETs  
+   . 74HCxxx
+   . high resistance to noise 
+   
+ . ECL (Emitter Couple Logic) 
+ 
+ . HCT (High-Speed CMOS with TTL-compatible inputs)
+ 
+ . ACT (Advanced CMOS Technology) 
+
+_

@@ -1,8 +1,14 @@
 
 ========================================================================================
-TTL vs. CMOS
+MOSFET 
 ========================================================================================
 
+ . e.g., IRF540
+
+
+========================================================================================
+TTL vs. CMOS
+========================================================================================
 
 
 TTL (transistor-transistor logic) :
@@ -33,8 +39,18 @@ CMOS (complimentary metal-oxide semiconductor) :
  |
  . (MOS)FETs
  . collector and emitter
- . HC - High-speed CMOS
  . Cxxxx - belongs to a CMOS family (may not be high-speed)  
+ . HC - High-speed CMOS
 
+
+========================================================================================
+OTHER TYPES : 
+========================================================================================
+ 
+ . ECL (Emitter Couple Logic) 
+ 
+ . HCT (High-Speed CMOS with TTL-compatible inputs)
+ 
+ . ACT (Advanced CMOS Technology) 
 
 _

@@ -1,0 +1,5 @@
+
+"raw binary" - "a sequence of bytes WITHOUT ANY ACCOMPANYING HEADERS OR METADATA (to define its structure or execution context)."
+ELF  	     - structured WITH HEADERS AND TABLES 
+
+_

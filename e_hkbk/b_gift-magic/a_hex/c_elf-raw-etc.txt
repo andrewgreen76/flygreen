@@ -64,9 +64,12 @@ TYPES OF BINARIES - OVERVIEW :
  .bin
    . unstructured code and data 
    . "raw, unstructured data or machine code, and its specific format and usage depend on the context in which it is created or used."
-   . "Other kinds of binary files, such as `.o` object files or `.elf` executables, TYPICALLY REQUIRE ADDITIONAL PROCESSING or headers
-      and cannot be directly loaded and executed on devices without being LINKED OR PROCESSED TO MATCH THE DEVICE'S MEMORY LAYOUT AND
-      EXECUTION REQUIREMENTS." 
+   
+"
+Other kinds of binary files, such as `.o` object files or `.elf` executables, typically REQUIRE ADDITIONAL PROCESSING or headers
+and cannot be directly loaded and executed on devices without being LINKED OR PROCESSED TO MATCH THE DEVICE'S MEMORY LAYOUT AND
+EXECUTION REQUIREMENTS.
+" 
 
  .out
    . old Unix format

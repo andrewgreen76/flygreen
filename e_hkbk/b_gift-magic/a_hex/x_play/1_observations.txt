@@ -3,6 +3,6 @@ A file with any extension that has absolutely no bytes written/encoded in it
 is just a blank text file (even if its file extension is not `.txt`). That means
 it has no headers. 
 
-Headers are used in all file types except for text files. 
+Headers are used in all file types except for text files and raw binaries. 
 
 _

@@ -3,6 +3,7 @@
 MOSFET 
 ========================================================================================
 
+ . transistor technology 
  . e.g., IRF540
 
 
@@ -29,6 +30,7 @@ TTL (transistor-transistor logic) :
 CMOS (complimentary metal-oxide semiconductor) : 
  |
  |
+ . IC technology (unlike MOSFET , which is IC technology) 
  + moderate power consumption (no consumption at rest)
  + high resistance to noise and input signal 
  - requires one more volt to drive internal logic
@@ -39,8 +41,9 @@ CMOS (complimentary metal-oxide semiconductor) :
  |
  . (MOS)FETs
  . collector and emitter
+ |
  . Cxxxx - belongs to a CMOS family (may not be high-speed)  
- . HC - High-speed CMOS
+ . 74HCxxx - High-speed CMOS
 
 
 ========================================================================================

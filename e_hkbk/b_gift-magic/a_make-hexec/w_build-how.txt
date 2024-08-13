@@ -1,0 +1,4 @@
+
+	src -> [compiler] -> .asm -> [ASMR] -> .o -> [ld] -> .elf 
+
+_

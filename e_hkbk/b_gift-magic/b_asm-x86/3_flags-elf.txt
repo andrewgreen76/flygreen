@@ -1,4 +1,14 @@
 
+The user/script will inform the assembler of the file format.
+ . The file format will inform the assembler of
+						(1) what OS the executable can be run on and
+       	    	   	       	   	     	(2) bit-width.
+
+The linker will be informed of the architecture.
+
+Locals (local machine utilities) know best. 
+
+
 ========================================================================================
 ELF 
 ========================================================================================
@@ -17,5 +27,13 @@ BUILD FLAGS
  -m (elf_i386) : target machine architecture 
   $ ld -m elf_i386 -o run z.o
 
+
+========================================================================================
+EXAMPLE :  
+========================================================================================
+
+nasm -f elf32 -o z.o 1_main.asm
+ld -m elf_i386 -o a.out z.o
+./a.out
 
 _

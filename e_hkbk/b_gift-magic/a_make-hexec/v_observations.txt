@@ -27,4 +27,8 @@ No headers :
 Directories :
  . 4096 bytes = 4KB 
 
+Executables
+
+Images 
+
 _

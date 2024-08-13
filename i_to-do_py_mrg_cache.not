@@ -1,4 +1,5 @@
 
+how does a linker ('ld') generate an executable ? 
 hex code + bin exec + gdb + recipe 
 stack : write a C program with s in the stack , h in the heap , d in the data segment 
 boundary 

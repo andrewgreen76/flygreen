@@ -1,0 +1,19 @@
+
+A file with any extension that has absolutely no bytes written/encoded in it
+is just a blank text file (even if its file extension is not `.txt`). That means
+it has no headers. 
+
+Headers are used in all file types except for :
+ . text files
+ . raw binaries
+ . scripts 
+
+
+========================================================================================
+FILE TYPES WITH LEANEST BYTE COUNTS : 
+========================================================================================
+
+ . text files	=	raw binaries	=	scripts
+ . DOS-compatible COM executable 
+
+_

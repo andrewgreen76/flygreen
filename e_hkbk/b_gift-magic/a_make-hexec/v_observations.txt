@@ -6,14 +6,25 @@ it has no headers.
 Headers are used in all file types except for :
  . text files
  . raw binaries
- . scripts 
+ . scripts
+ . etc. 
 
 
 ========================================================================================
-FILE TYPES WITH LEANEST BYTE COUNTS : 
+ITEM TYPES WITH LEANEST BYTE COUNTS : 
 ========================================================================================
 
- . text files	=	raw binaries	=	scripts
+No headers : 
+ . text files
+ = raw binaries
+ = scripts
+ = program source code
+ = URLs 
+
+? : 
  . DOS-compatible COM executable 
+
+Directories :
+ . 4096 bytes = 4KB 
 
 _

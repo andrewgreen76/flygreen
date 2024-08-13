@@ -1,0 +1,10 @@
+
+========================================================================================
+HOW TO EXECUTE the program : 
+========================================================================================
+
+ . learn the address of the program as a binary executable
+ . run 'gdb'
+ . guide 'gdb' to the entry point of your program 
+
+_

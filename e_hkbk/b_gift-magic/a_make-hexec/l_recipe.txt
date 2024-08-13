@@ -11,18 +11,9 @@ Tools :
 
 Correct file format : 
  (1) need an ELF header
-     . account for program header 
-     . account for section header 
+     . need to account for program header 
+     . need to account for section header 
  (2) own machine code
   .  some byte-padding will be involved 
  
-
-========================================================================================
-HOW TO EXECUTE the program : 
-========================================================================================
-
- . learn the address of the program as a binary executable
- . run 'gdb'
- . guide 'gdb' to the entry point of your program 
-
 _

@@ -1,4 +1,9 @@
 
+object file format :
+ . 
+how does a linker work ? :
+ . assembler : mnemonics to hex bytecode
+ . formatting to the right OS , bit-width , and ISA 
 how do you amend an .elf directly ? 
 how does a linker ('ld') generate an executable ? 
 hex code + bin exec + gdb + recipe 

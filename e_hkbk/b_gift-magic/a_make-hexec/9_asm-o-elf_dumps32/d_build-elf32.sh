@@ -24,5 +24,4 @@ hexdump -C $e_filename > $e_dumpname
 
 #############################################
 
-./t_test32.elf
-
+./$e_filename

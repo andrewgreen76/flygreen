@@ -9,9 +9,9 @@ gdb [minimal_elf.bin]      # loading the bin exec    - ~ (gdb) file [prog.bin]
                                                      # ~ (gdb) set $pc = 0x08048000
                            # running the executable  - ~ (gdb) run
 
-readelf -h [elf_prog]
+readelf -h [prog.elf]
 
-objdump -f [elf_prog]
+objdump -f [prog.elf]
 
 hexdump -C [prog.elf] 
 

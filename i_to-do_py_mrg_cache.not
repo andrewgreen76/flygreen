@@ -1,4 +1,9 @@
 
+C
+asm
+hex code 
+microcode 
+
 object file format :
  . hexdump 
 how does a linker work ? :

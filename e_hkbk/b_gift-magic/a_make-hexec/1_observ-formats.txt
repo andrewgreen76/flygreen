@@ -27,7 +27,11 @@ No headers :
 Directories :
  . 4096 bytes = 4KB 
 
-Executables
+Binaries
+ .bin raw binaries 
+ .elf executables 
+ .o object files
+ ...etc...
 
 Images 
 

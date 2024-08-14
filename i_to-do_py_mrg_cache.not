@@ -1,9 +1,11 @@
 
 object file format :
- . 
+ . hexdump 
 how does a linker work ? :
  . assembler : mnemonics to hex bytecode
  . formatting to the right OS , bit-width , and ISA 
+
+generate an ELF that print 'c' ; replace 'c' with some other byte. 
 how do you amend an .elf directly ? 
 how does a linker ('ld') generate an executable ? 
 hex code + bin exec + gdb + recipe 

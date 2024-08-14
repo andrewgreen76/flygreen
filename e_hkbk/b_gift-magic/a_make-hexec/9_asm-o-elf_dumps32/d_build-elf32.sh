@@ -16,7 +16,7 @@ hexdump -C $o_filename > $o_dumpname
 
 #======== .elf reflects OS/btwd+arch ========
 
-ld -m elf_i386 -o t_test32.elf $o_filename
+ld -m elf_i386 -o $e_filename $o_filename
 
 objdump -f $e_filename > $e_profname
 readelf -h $e_filename >> $e_profname

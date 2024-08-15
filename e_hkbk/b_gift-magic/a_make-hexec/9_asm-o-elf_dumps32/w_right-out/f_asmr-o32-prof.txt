@@ -1,0 +1,6 @@
+
+d_o32.o:     file format elf32-i386
+architecture: i386, flags 0x00000011:
+HAS_RELOC, HAS_SYMS
+start address 0x00000000
+

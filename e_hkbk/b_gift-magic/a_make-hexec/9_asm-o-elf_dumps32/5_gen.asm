@@ -1,5 +1,5 @@
 section .data
-bufaddr db "b" , 0
+bufaddr db "a" , 0
 buflen equ $ - bufaddr
 	
 section .text

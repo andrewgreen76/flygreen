@@ -11,7 +11,6 @@ e_dumpname=w_ld-e32-dump.txt
 nasm -f elf32 -o $o_filename 5_gen.asm
 
 objdump -f $o_filename > $o_profname
-readelf -h $o_filename >> $o_profname
 hexdump -C $o_filename > $o_dumpname
 
 #======== .elf reflects OS/btwd+arch ========

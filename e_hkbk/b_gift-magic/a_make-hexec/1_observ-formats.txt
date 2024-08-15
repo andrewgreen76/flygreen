@@ -29,8 +29,8 @@ Directories :
 
 Binaries
  .bin raw binaries 
- .elf executables 
  .o object files
+ .elf executables 
  ...etc...
 
 Images 

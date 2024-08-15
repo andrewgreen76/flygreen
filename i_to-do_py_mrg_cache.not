@@ -1,16 +1,22 @@
 
-C
-asm
-hex code 
-microcode 
+Ctrl+q+Ctrl+[key] to print (non-)printable ASCII bytes to a file. 
 
-object file format :
- . hexdump 
+What are we examining/comparing here ? :
+ . 'c' vs. 'd' counterparts ?		- examining 32 in detail 
+ . 32-bit and 64-bit counterparts ?     - examining this dichotomy in detail 
+
+What is worth exploring first ? :
+ .elf after `ld`
+ .o after asmr 
+
 how does a linker work ? :
- . assembler : mnemonics to hex bytecode
- . formatting to the right OS , bit-width , and ISA 
+ . first go thru the asmr :
+   . mnemonics to hex code
+   . formatting to the target OS , bit-width
+ . the linker :
+   . ISA 
 
-generate an ELF that print 'c' ; replace 'c' with some other byte. 
+generate an ELF that prints 'c' ; replace 'c' with some other byte. 
 how do you amend an .elf directly ? 
 how does a linker ('ld') generate an executable ? 
 hex code + bin exec + gdb + recipe 
@@ -24,6 +30,12 @@ C with GTK
 asm -> k-dev
 DS
 hist of syntax hilite 
+
+C
+asm
+hex code 
+microcode 
+
 ===========================================================================================
 
  . make a difference :

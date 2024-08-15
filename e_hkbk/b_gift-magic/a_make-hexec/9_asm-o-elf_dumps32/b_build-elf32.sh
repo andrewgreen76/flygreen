@@ -1,10 +1,10 @@
-o_filename=g_o32.o
-o_profname=j_asmr-o32-prof.txt
-o_dumpname=m_asmr-o32-dump.txt
+o_filename=d_o32.o
+o_profname=f_asmr-o32-prof.txt
+o_dumpname=h_asmr-o32-dump.txt
 
-e_filename=p_test32.elf
-e_profname=t_ld-e32-prof.txt
-e_dumpname=w_ld-e32-dump.txt
+e_filename=j_test32.elf
+e_profname=l_ld-e32-prof.txt
+e_dumpname=n_ld-e32-dump.txt
 
 #========= .o reflects OS/bit-width =========
 

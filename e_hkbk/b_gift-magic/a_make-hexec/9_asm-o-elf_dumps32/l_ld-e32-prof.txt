@@ -1,5 +1,5 @@
 
-p_test32.elf:     file format elf32-i386
+j_test32.elf:     file format elf32-i386
 architecture: i386, flags 0x00000112:
 EXEC_P, HAS_SYMS, D_PAGED
 start address 0x08049000

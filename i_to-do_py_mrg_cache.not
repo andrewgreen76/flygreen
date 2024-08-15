@@ -1,9 +1,9 @@
 
-Ctrl+q+Ctrl+[key] to print (non-)printable ASCII bytes to a file. 
-
 What are we examining/comparing here ? :
  . 'c' vs. 'd' counterparts ?		- examining 32 in detail 
  . 32-bit and 64-bit counterparts ?     - examining this dichotomy in detail 
+
+Ctrl+q+Ctrl+[key] to print (non-)printable ASCII bytes to a file. 
 
 What is worth exploring first ? :
  .elf after `ld`

@@ -1,4 +1,8 @@
 
+(a) Figure out how a linker is implemented.
+    . All linkers are post-assembler (regardless of the source language). 
+(b) Figure out a way to change a single byte within an ELF. 
+
 What are we examining/comparing here ? :
  . 'a' vs. 'b' counterparts ?		- examining 32 in detail
  . 'a' vs. 'aa' counterparts		- -//- 

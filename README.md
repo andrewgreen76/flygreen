@@ -43,6 +43,9 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Scripting :
+ . variables 
+
 Types of binary file formats in Unix-like systems.
  . .bin vs. .elf vs. .out , etc. 
 

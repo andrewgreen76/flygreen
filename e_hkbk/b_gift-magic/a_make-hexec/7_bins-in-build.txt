@@ -1,0 +1,24 @@
+
+========================================================================================
+PROGRAM BUILDING AND EXECUTION :
+========================================================================================
+
+	src -> [compiler] -> .asm -> [ASMR] -> .o	    -> [ld] -> .elf
+	       		     	     	       ^	       	       ^ 	
+	       		     	     	       (BINARY	   	       (BINARY 
+					       OBJECT FILE)    	       EXECUTABLE)
+
+
+========================================================================================
+UTILITIES NEEDED FOR DIFFERENT TARGET PLATFORMS : 
+========================================================================================
+
+		Windows				MacOS			Linux distros 
+
+Compilers :	. MSVC (in C++)			clang (in C/C++)	GCC (in C/C++) 
+	  	. third-party compilers  
+		  (Watcom in C)
+
+Linkers : 	link.exe (in C/C++)		`ld` (in C/C++)		`ld` (+ GNU Binutils in C) 
+
+_

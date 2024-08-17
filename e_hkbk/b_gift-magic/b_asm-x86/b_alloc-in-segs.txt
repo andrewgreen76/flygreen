@@ -1,3 +1,68 @@
+
+ . data segment  : initialized global data (vars + consts)  
+ . BSS segment   : uninitialized global variables 
+ . stack  	 : local , fixed-size data (vars + consts) in frames 
+ . heap  	 : local , dynamically allocated structures 
+
+
+========================================================================================
+COMPILE-TIME :
+========================================================================================
+
+Copying and checking the source code , mapping out for the user process : 
+ . copies of source files on the disk are populated as pages in memory 
+ -> compiler goes over the source code in the pages			}
+    . planning the in-memory process space layout (incl. data)		}
+    . going over globals and locals inside the pages 			} No user process in memory ; 
+      . type checking -> size calculation      				} so far all THE PLANNING 
+    . code generation 	      						} done within memory goes  
+    . optimization							} into the executable. 
+    . checking for errors						}
+    . logging warning and error messages 				}
+ -> If all is well, all of the program's data is written into the binary executable (file in disk). 
+
+
+========================================================================================
+RUNTIME : 
+========================================================================================
+
+ + pre-entry : 
+ | . (no function calls or dynamic allocation) 
+ | . pre-processing : inclusion of libraries 
+ | . byte padding
+ | . global data (static) allocation
+ | . global data initialization
+ | . posting locations of the stack and heap 
+ | . populating the generated (and maybe optimized) code 
+ | 
+ + program's main execution 
+
+
+The routine : 
+ . the OS loader copies the binary executable into memory as pages 
+ -> the kernel (really, its memory manager) follows the in-memory executable's data 
+    . allocates space for the user process
+
+    . populates data and structures 
+ -> the CPU goes through the binary instructions within the pages
+    -> generates global variables
+
+globals go into the data segment.
+   	       locals go into : Statically allocated locals go into the stack at runtime. 
+	       	      	      	Dynamically allocated locals go into the heap at runtime.
+
+
+========================================================================================
+SCRIPTING :
+========================================================================================
+
+	src -> [interpreter] -> ... ?? 
+
+
+========================================================================================
+========================================================================================
+========================================================================================
+
 "
 ... if you write `char input[10];` inside a function, it will be allocated on the stack. This is because `input` is a local variable with automatic storage duration, meaning it gets allocated on the stack when the function is called and deallocated when the function exits. 
 

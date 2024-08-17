@@ -13,12 +13,11 @@ Headers are used in all file types except for :
 
 
 ========================================================================================
-ITEM TYPES WITH LEANEST BYTE COUNTS : 
+ITEM TYPES BY BYTE COUNTS : 
 ========================================================================================
 
 No headers : 
  . text files
- = raw binaries
  = scripts
  = program source code
  = URLs 
@@ -26,11 +25,15 @@ No headers :
 ? : 
  . DOS-compatible COM executable 
 
-Directories :
- . 4096 bytes = 4KB 
+----------------------------------
+	Symbolic links :
+	 . 
 
-Binaries
- .bin raw binaries 
+	Directories :
+	 . 4096 bytes = 4KB 
+----------------------------------
+
+Certain types of binaries : 
  .o object files
  .elf executables 
  ...etc...

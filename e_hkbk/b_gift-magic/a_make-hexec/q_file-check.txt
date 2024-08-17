@@ -1,6 +1,0 @@
-
-What does it mean for a program/file to be statically linked ? 
-
-What does it mean for a program/file to be stripped ? 
-
-_

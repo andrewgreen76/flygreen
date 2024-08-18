@@ -9,7 +9,7 @@ raw binary (file)
 
 ELF binary (file) 
  . structured WITH HEADERS AND TABLES
- . no standard extension , .elf 
+ . executables have no standard file extension 
 
 
 ========================================================================================
@@ -74,7 +74,7 @@ EXECUTION REQUIREMENTS.
  .out
    . old Unix format
 
- .elf
+ [ELF executable]
    . a format for a structured binary executable in Unix-like systems
    . elf32 vs. elf64 
 

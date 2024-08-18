@@ -1,49 +1,11 @@
 
-!!! Two source files (main + high-five) -> two object files -> linking. 
+Object file breakdown in these scenarios : 
+ . do-nothing in asm 
+ -> write 'a' vs. 'b' to spot them in the object files 
+ -> write a C program with d (0x64) in the data segment , b (0x62) in BSS , s (0x73) in the stack , h (0x68) in the heap 
 
-What does it mean for a program/file to be statically linked ? 
+boundary
 
-What does it mean for a program/file to be stripped ? 
-
-What will a linker do to a `void main()` object file to prep it for linking ?
-
-What will a linker do to the MAIN OBJECT FILE linked with OTHER OBJECT FILES ?
-
-====================================================================================================
-
-YouTube : 
-    What is relocation ? 
-    How it combines object files.
-    Are all linkers alike ? 
-    . All linkers are post-assembler (regardless of the source language). 
-(b) Figure out a way to change a single byte within an ELF.
-Assembler prepares raw binaries for combining (linking). 
-
-What are we examining/comparing here ? :
- . 'a' vs. 'b' counterparts ?		- examining 32 in detail
- . 'a' vs. 'aa' counterparts		- -//- 
- |
- . 32-bit and 64-bit counterparts ?     - examining this dichotomy in detail 
-
-Ctrl+q+Ctrl+[key] to print (non-)printable ASCII bytes to a file. 
-
-What is worth exploring first ? :
- .elf after `ld`
- .o after asmr 
-
-how does a linker work ? :
- . first go thru the asmr :
-   . mnemonics to hex code
-   . formatting to the target OS , bit-width
- . the linker :
-   . ISA 
-
-generate an ELF that prints 'c' ; replace 'c' with some other byte. 
-how do you amend an .elf directly ? 
-how does a linker ('ld') generate an executable ? 
-hex code + bin exec + gdb + recipe 
-stack : write a C program with s in the stack , h in the heap , d in the data segment 
-boundary 
 7etsuo , C , lecture : https://x.com/i/status/1819592399255183414
 symbolic debugging
 A small C program that tells you the endianness.
@@ -53,10 +15,13 @@ asm -> k-dev
 DS
 hist of syntax hilite 
 
+(a) Python / (b) Bash 
 C
 asm
-hex code 
-microcode 
+(a) microcode / (b) file formats , hex code 
+
+Ctrl+q+Ctrl+[key] to print (non-)printable ASCII bytes to a file. 
+
 
 ===========================================================================================
 
@@ -81,6 +46,12 @@ microcode
      . firmware routs (market) - ?
      . RAM arch. (market)      - ?
      . kernel dev. (market)    - ?
+
+===========================================================================================
+
+I chose [this university] because it does not believe in the principle of "one size fits all" when it comes to educating students. The fact is that not all students are equally sharp or intuitive in the ways of hardware and software engineering. 
+
+I chose [this university] because it has a program that is just right for me - Computer Architecture. Over the past few years I have been obsessing with the x86 architecture in its early iterations, but after looking at the 2,500-page manual for the x86-64 ISA and listening to Jim Keller, President and CEO of the semiconductor manufacturer Tenstorrent, talking about the "bloatware" in the ISA, I figured that perhaps it would be best if I switched to RISC-V, considering its strengths like being an open-standard architecture, its simplicity, and its educational appeal. That being said, I am not done with the x86 assembly courses on Udemy and I like to finish what I start. 
 
 ===========================================================================================
 

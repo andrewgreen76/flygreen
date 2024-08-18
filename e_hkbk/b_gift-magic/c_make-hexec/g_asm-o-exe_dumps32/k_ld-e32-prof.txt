@@ -1,5 +1,5 @@
 
-j_test32.elf:     file format elf32-i386
+j_test32:     file format elf32-i386
 architecture: i386, flags 0x00000112:
 EXEC_P, HAS_SYMS, D_PAGED
 start address 0x08049000
@@ -16,11 +16,12 @@ ELF Header:
   Version:                           0x1
   Entry point address:               0x8049000
   Start of program headers:          52 (bytes into file)
-  Start of section headers:          8416 (bytes into file)
+  Start of section headers:          4268 (bytes into file)
   Flags:                             0x0
   Size of this header:               52 (bytes)
   Size of program headers:           32 (bytes)
-  Number of program headers:         3
+  Number of program headers:         2
   Size of section headers:           40 (bytes)
-  Number of section headers:         6
-  Section header string table index: 5
+  Number of section headers:         5
+  Section header string table index: 4
+

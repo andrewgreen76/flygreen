@@ -1,0 +1,43 @@
+
+ . installation of components :
+   . CPUs , GPUs
+   . DIMMs
+   . PCA boards
+   . cables
+   . heat sinks 
+ . replacing components in servers
+ . system design
+ . high-speed busses
+   . PCIe (esp. Gen5) 
+   . DDR4
+   . DDR5
+ . UEFI BIOS
+ . Linux kernel
+   . power mgmt
+   . boot performance optimization
+   . networking
+   . systemd 
+ . Secure Boot 
+ . Yocto Android
+ . Git / GitHub
+ . Docker
+ . ARM SoC's
+ . CC's (build utilities , cross-compilers)
+ . GDB
+ . JTAG-based debuggers 
+ . HPC
+ . server design 
+ . IT integration
+ . AI/ML
+ . data science
+ . deduplication
+ . work instructions 
+ . NPU/APU
+ . ARM TEEs (trusted execution envts) 
+ 
+ . (online methods) 
+
+ . empirical analysis
+ . modeling and testing methodologies for validation 
+
+_

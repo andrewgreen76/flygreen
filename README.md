@@ -43,11 +43,14 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-Scripting :
- . variables 
+Compile time vs. runtime :
+ . dynamically allocated structures	      -> the heap segment at runtime after the main entry 
+ . statically allocated data + function calls -> the stack segment at runtime after the main entry
+ . uninitialized global variables 	      -> BSS segment at runtime before the main entry 
+ . initialized global variables 	      -> data segment at runtime before the main entry 
 
-Types of binary file formats in Unix-like systems.
- . .bin vs. .elf vs. .out , etc. 
+Types of binary file formats in Unix-like systems : 
+ . .bin vs. ELF executable vs. .out , etc. 
 
 Hexadecimal byte code writing :
  . understanding of the different types of binary files

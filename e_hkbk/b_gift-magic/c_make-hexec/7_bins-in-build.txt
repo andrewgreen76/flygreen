@@ -3,10 +3,10 @@
 PROGRAM BUILDING AND EXECUTION :
 ========================================================================================
 
-	src -> [compiler] -> .asm -> [ASMR] -> .o	    -> [ld] -> .elf
-	       		     	     	       ^	       	       ^ 	
-	       		     	     	       (BINARY	   	       (BINARY 
-					       OBJECT FILE)    	       EXECUTABLE)
+	src -> [compiler] -> .asm -> [ASMR] -> .o	    -> [ld] -> BINARY
+	       		     	     	       ^	       	       EXECUTABLE  	
+	       		     	     	       (BINARY	   	        
+					       OBJECT FILE)    	       
 
 
 ========================================================================================

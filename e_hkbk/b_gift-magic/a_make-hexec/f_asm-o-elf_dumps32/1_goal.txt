@@ -1,5 +1,0 @@
-
-left :  dump of elf 'a' ; look for 0x61 
-right : dump of elf 'b' ; look for 0x62 
-
-_

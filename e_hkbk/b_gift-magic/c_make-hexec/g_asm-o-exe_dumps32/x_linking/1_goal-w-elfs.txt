@@ -1,0 +1,28 @@
+
+========================================================================================
+CHANGE IN ELF - FROM THE SOURCE : 
+========================================================================================
+
+left :  dump of elf 'a' ; look for 0x61 
+right : dump of elf 'b' ; look for 0x62 
+
+
+========================================================================================
+CHANGE IN ELF - MADE DIRECTLY : 
+========================================================================================
+ 
+(b) Figure out a way to change a single byte within an ELF.
+
+What are we examining/comparing here ? :
+ . 'a' vs. 'b' counterparts ?		- examining 32 in detail
+ . 'a' vs. 'aa' counterparts		- -//- 
+ |
+ . 32-bit and 64-bit counterparts ?     - examining this dichotomy in detail
+ 
+How does a linker work ? 
+
+generate an ELF that prints 'c' ; replace 'c' with some other byte. 
+how do you amend an .elf directly ? 
+how does a linker ('ld') generate an executable ? 
+
+_

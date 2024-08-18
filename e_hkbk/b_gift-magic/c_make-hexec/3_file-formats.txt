@@ -34,8 +34,8 @@ No headers :
 ----------------------------------
 
 Certain types of binaries : 
- .o object files
- .elf executables 
+ ELF object files
+ ELF executables 
  ...etc...
 
 Images 

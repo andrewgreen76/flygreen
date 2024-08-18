@@ -1,0 +1,34 @@
+
+========================================================================================
+EXAMINATION OF OBJECT FILES : 
+========================================================================================
+
+
+
+========================================================================================
+CHANGE IN OBJECT FILES - FROM THE SOURCE : 
+========================================================================================
+
+
+
+========================================================================================
+CHANGE IN OBJECT FILES - MADE DIRECTLY : 
+========================================================================================
+
+How it combines object files.
+!!! Two source files (main + high-five) -> two object files -> linking. 
+ . What will a linker do to a `void main()` object file to prep it for linking ?
+ . What will a linker do to the MAIN OBJECT FILE linked with OTHER OBJECT FILES ?
+
+What are we examining/comparing here ? :
+ . 'a' vs. 'b' counterparts ?		- examining 32 in detail
+ . 'a' vs. 'aa' counterparts		- -//- 
+ |
+ . 32-bit and 64-bit counterparts ?     - examining this dichotomy in detail
+ 
+How does a linker work ? :
+ . first go thru the asmr :
+ . mnemonics to hex code
+ . formatting to the target OS , bit-width
+
+_

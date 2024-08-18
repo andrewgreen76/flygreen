@@ -1,5 +1,13 @@
 
 ========================================================================================
+HISTORY :  
+========================================================================================
+
+"
+On early computer systems, linking was performed manually.
+"
+
+========================================================================================
 ACCOUNT FOR AND UNDERSTAND PRE-PROCESSING. 
 ========================================================================================
 
@@ -29,6 +37,12 @@ LINKING TERMINOLOGY :
 ========================================================================================
 LINKING PROCESS : 
 ========================================================================================
+
+"
+Linking can be performed at compile time, when the source code is translated into machine code,
+at load time, when the program is loaded into memory and executed by the loader, and even
+at run time, by application programs.
+"
 
  . generating RELOCATION RECORDS (individual entries for (un)mapped symbols) 
 

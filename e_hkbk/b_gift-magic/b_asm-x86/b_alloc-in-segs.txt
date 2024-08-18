@@ -1,8 +1,9 @@
 
- . data segment  : initialized global data (vars + consts)  
- . BSS segment   : uninitialized global variables 
- . stack  	 : local , fixed-size data (vars + consts) in frames 
- . heap  	 : local , dynamically allocated structures 
+ ;									; All are LINKED TO THE EXECUTABLE AT COMPILE-TIME. 
+ . heap  	 <- local , dynamically allocated structures   		; allocated at runtime , main execution 
+ . stack  	 <- local , fixed-size data (vars + consts) in frames 	; allocated at runtime , main execution 
+ . BSS segment   <- uninitialized global variables  			; allocated at runtime , pre- main entry 
+ . data segment  <- initialized global data (vars + consts)		; allocated at runtime , pre- main entry 
 
 
 ========================================================================================
@@ -13,10 +14,17 @@ Copying and checking the source code , mapping out for the user process :
  . copies of source files on the disk are populated as pages in memory 
  -> compiler goes over the source code in the pages			}
     . planning the in-memory process space layout (incl. data)		}
+    . pre-processing :	     	     	   	  	 		}
+      . inclusion of libraries						}
+      . inclusion safeguards 						}
+      . byte padding							}
+      . macros								}
+      . assert debugging values 					}
     . going over globals and locals inside the pages 			} No user process in memory ; 
       . type checking -> size calculation      				} so far all THE PLANNING 
-    . code generation 	      						} done within memory goes  
-    . optimization							} into the executable. 
+    . code generation 	      						} done within memory goes
+      . using function prototypes to map out function definitions 	} into the executable.
+    . optimization							}  
     . checking for errors						}
     . logging warning and error messages 				}
  -> If all is well, all of the program's data is written into the binary executable (file in disk). 
@@ -26,30 +34,42 @@ Copying and checking the source code , mapping out for the user process :
 RUNTIME : 
 ========================================================================================
 
- + pre-entry : 
- | . (no function calls or dynamic allocation) 
- | . pre-processing : inclusion of libraries 
- | . byte padding
- | . global data (static) allocation
- | . global data initialization
- | . posting locations of the stack and heap 
- | . populating the generated (and maybe optimized) code 
- | 
- + program's main execution 
+ I. Pre- main entry routine :
+    | 
+    . the OS loader copies the binary executable into memory as pages
+    |
+    -> the kernel's memory manager follows the in-memory executable's "plan" (data)
+    |  |
+    |  . allocating space for the user process , its segments , and the code and data
+    |  | within those segments 
+    |  | . global data (static) allocation
+    |  | . global data initialization 
+    |  | . determining the locations of the stack (^) and the heap (v)
+    |  |
+    |  . populating the generated (and maybe optimized) code 
+    |  |
+    |  . populating data and structures
+    |
+    |
+    . (no function calls or dynamic allocation allowed here) 
 
 
-The routine : 
- . the OS loader copies the binary executable into memory as pages 
- -> the kernel (really, its memory manager) follows the in-memory executable's data 
-    . allocates space for the user process
+II. Program's main execution :
+    |
+    . statically allocated local variables  } 
+    . statically allocated local structures } -> the stack
+    . function calls 	   		    }
+    |
+    . dynamically allocated structures   -> the heap 
 
-    . populates data and structures 
- -> the CPU goes through the binary instructions within the pages
-    -> generates global variables
 
-globals go into the data segment.
-   	       locals go into : Statically allocated locals go into the stack at runtime. 
-	       	      	      	Dynamically allocated locals go into the heap at runtime.
+========================================================================================
+RUNTIME ENVIRONMENT : 
+========================================================================================
+
+"
+A runtime environment is the infrastructure that provides the necessary resources and services efor executing a program, including memory management, input/output, and system calls. 
+"
 
 
 ========================================================================================

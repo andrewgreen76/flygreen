@@ -2,7 +2,7 @@
 
 int main() {
     // Open the file for reading
-    FILE *file = fopen("1_victim.c", "r");
+    FILE *file = fopen("1_victim.txt", "r");
     if (file == NULL) {
         perror("Error opening file");
         return 1; // Return error

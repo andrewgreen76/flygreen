@@ -20,7 +20,7 @@ DATA-MOVING MICROCODE :
 Microcode should be able to :
  (0) fetch 
  (1) get the CPU to `mov` / `lda` / `sta` data
-     . custom ISA or co-opt smth familiar ? 
+     . custom ISA or co-opt smth familiar (x86 , RISC-V) ? 
  (2) get the CPU to `add` , `sub` , ... 
  
 
@@ -28,8 +28,20 @@ Microcode should be able to :
 REFLECTING BINARY DATA WITHIN BREADBOARD-BASED VIDEO MEMORY (via 7seg LEDs) : 
 ========================================================================================
 
-	    [	        ]				 [	     ]
-bin val  ---[ TT map to ]-->  7seg LED abcdefg scheme  --[ TT map to ]->  LED-pixels 
-    	    [           ]	       	   	   	 [           ]
+	    [	        ]				
+bin val  ---[ TT map to ]-->  7seg LED abcdefg scheme  
+    	    [           ]	       	   	   
+
+4 seven-seg LEDs => 16 bits :
+ . addresses :  8 bits (2 LEDs = 1 byte) for addr => up to 256 addresses (0-255) 
+ . code/data :  8 bits (2 LEDs = 1 byte) for code/data => up to 256 instructions in memory (0-255)
+ . total	  : 16 bits (4 LEDs)
+ . doesn't have to be 8:8 ; can be a:b as long as a+b=16
+ 
+8 seven-seg LEDs => 32 bits :
+ . addresses : 16 bits (4 LEDs = 2 bytes) for addr => up to 64K addresses (0 - 64K-1) 
+ . code/data : 16 bits (4 LEDs = 2 bytes) for code/data => up to 64K instructions in memory (0 - 64K-1)
+ . total	  : 32 bits (8 LEDs)
+ . doesn't have to be 8:8 ; can be a:b as long as a+b=16
 
 _

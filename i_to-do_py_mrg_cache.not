@@ -1,4 +1,6 @@
 
+base pointer of stack vs. stack pointer vs. heap pointer ? 
+
 Do I want my OS 8-bit , 16-bit , ... ?
  . this will determine the file formats 
  . file formats must be GNU-compatible 

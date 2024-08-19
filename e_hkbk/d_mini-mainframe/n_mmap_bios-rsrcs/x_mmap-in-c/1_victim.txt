@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+void main(){
+  printf("\n");
+  int m = 0;
+  printf("\n");
+}

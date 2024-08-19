@@ -1,12 +1,18 @@
+/*  */
+
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
 
+#define CHBUF_SIZE 4
+
+/* GLOBAL ALLOCATION OF STRING */
 char * fn = "1_victim.c";
 
 int main(){
   printf("\n");
 
+  /* EXPLORING VARIABLE ALLOCATION IN MEMORY */
   int v = 1;
   int * addr = &v;
   printf("v: %d\n" , v);
@@ -21,8 +27,8 @@ int main(){
   }
 
   // Read data from the file (example: read and print 100 bytes)
-  char buffer[2]; // Buffer to store the read data (plus 1 for null terminator)
-  ssize_t bytes_read = read(fd, buffer, 1);
+  char buffer[CHBUF_SIZE]; // Buffer to store the read data (plus 1 for null terminator)
+  ssize_t bytes_read = read(fd, buffer, CHBUF_SIZE-1); // 1 - number of text chars ; +1 (\0) = 2. 
   if (bytes_read == -1) {
     perror("read");
     close(fd); // Close the file before exiting in case of error

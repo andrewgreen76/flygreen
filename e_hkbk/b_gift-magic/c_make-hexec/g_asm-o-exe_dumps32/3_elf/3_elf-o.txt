@@ -1,7 +1,4 @@
 
-Use `readelf [-flag]` to get a specific ELF field (section , segment , table , etc.) 
-
-
 ==============================================================================
 OBJECT FILE FORMAT = ELF : 
 ==============================================================================
@@ -59,4 +56,29 @@ Debug information :
 
 (Optional sections)
 
+
+==============================================================================
+CONSTITUENTS : 
+==============================================================================
+
+"
+The object file format typically includes the following parts:
+
+1. **Header**: Contains metadata about the object file, such as the format version, target architecture, and entry point.
+
+2. **Section Header Table**: Lists the sections in the object file and provides information about each section, such as its name, type, size, and location.
+
+3. **Sections**: These are the segments of the object file that contain various types of data, including:
+   - **Text Section**: Contains executable code.
+   - **Data Section**: Contains initialized global and static variables.
+   - **BSS Section**: Contains uninitialized global and static variables, which are allocated at runtime.
+   - **Symbol Table**: Contains entries for symbols (e.g., functions and variables) used or defined in the object file.
+   - **String Table**: Contains the names of symbols and section headers, referenced by the symbol table and section header table.
+
+4. **Relocation Entries**: Provide information about locations in the code or data that need to be adjusted during linking.
+
+5. **Debug Information**: Contains data used for debugging, such as source file names, line numbers, and variable names.
+
+6. **Optional Sections**: Depending on the format and compiler, there may be additional sections for specific purposes, like metadata or special data required by the toolchain.
+"
 _

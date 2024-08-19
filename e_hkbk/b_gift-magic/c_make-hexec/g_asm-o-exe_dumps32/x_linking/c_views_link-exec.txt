@@ -1,0 +1,4 @@
+"
+The linking view refers to how a program's components are organized and addressed during the linking process, while the execution view refers to how these components are arranged and accessed in memory during runtime.
+"
+_

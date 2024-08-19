@@ -1,0 +1,27 @@
+
+ . KVM 0
+ . QEMU needs the virtual disk image to run a virtual machine 
+
+
+========================================================================================
+KVM vs. QEMU : 
+========================================================================================
+
+"
+KVM (Kernel-based Virtual Machine) and QEMU serve related but distinct roles in virtualization, and they often work together:
+
+1. **QEMU** is a general-purpose emulator and virtualizer. It can emulate a wide range of hardware platforms and allows you to run a virtual machine by fully emulating the CPU, memory, and other hardware. When used in full emulation mode, QEMU can run on systems without hardware virtualization support, but it tends to be slower because everything is emulated in software.
+
+2. **KVM** is a Linux kernel module that allows the Linux kernel to act as a hypervisor. KVM provides hardware-assisted virtualization, which means it leverages CPU features like Intel VT-x or AMD-V to run virtual machines with much better performance compared to full emulation.
+
+### How They Work Together:
+- **KVM and QEMU** often work together to provide a complete virtualization solution. When KVM is used with QEMU, QEMU handles the emulation of hardware components that are not directly supported by KVM, such as network cards, disk controllers, and display devices, while KVM provides fast execution of the CPU and memory.
+
+- In this setup, **KVM** accelerates QEMU by allowing it to run the guest operating system at near-native speed, leveraging the host's hardware virtualization features.
+
+### Summary:
+- **QEMU** can work independently for full emulation, but it is slower without hardware acceleration.
+- **KVM** depends on hardware virtualization features and provides fast, efficient CPU and memory virtualization.
+- **Together**, KVM and QEMU provide a powerful and efficient virtualization platform on Linux, with KVM accelerating the CPU and memory handling, and QEMU handling hardware emulation.
+"
+_

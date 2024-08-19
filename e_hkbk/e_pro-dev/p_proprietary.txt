@@ -1,0 +1,4 @@
+"
+The x86 architecture is proprietary because it is owned, controlled, and licensed by Intel (and AMD under cross-licensing agreements), meaning that only these companies and their licensees can legally produce x86-compatible processors.
+"
+_

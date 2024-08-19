@@ -1,0 +1,8 @@
+
+ISO :
+ . (a format for) a file used for software (typically OS) DISTRIBUTION AND INSTALLATION
+
+Virtual disk image :
+ . (a format for) a file used for OS EMULATION by virtual machines 
+
+_

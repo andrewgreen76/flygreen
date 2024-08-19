@@ -1,0 +1,8 @@
+
+ . addresses
+ . code
+ . data (ints , floats, chars)
+ . file formats with fields (headers , tables , etc.)
+   . first 
+
+_

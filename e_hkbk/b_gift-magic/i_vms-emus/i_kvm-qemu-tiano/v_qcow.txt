@@ -1,0 +1,11 @@
+"
+`qcow` (which stands for **QEMU Copy On Write**) is a file format used by QEMU, a popular open-source machine emulator and virtualizer, to represent disk images for virtual machines. The `qcow` format is designed to be efficient and flexible, with features like:
+
+- **Copy-on-Write (COW):** Allows the creation of snapshots, where only the changes made after the snapshot are stored, reducing the amount of disk space used.
+- **Compression:** Supports compression of the data within the image, saving disk space.
+- **Encryption:** Allows the disk image to be encrypted for security.
+- **Dynamic Size:** The image file can start small and grow as more data is added, rather than allocating the full disk size upfront.
+
+The most commonly used version of this format is `qcow2`, which includes improvements over the original `qcow` format, such as better performance and support for larger disk sizes.
+"
+_

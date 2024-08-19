@@ -1,0 +1,61 @@
+"
+To create a 16-bit ELF object file and executable using NASM and LD on an x86-64 Linux system, follow these steps:
+
+### Step 1: Write the Assembly Code
+Create a simple 16-bit assembly program, for example, `program.asm`:
+
+```asm
+section .text
+    global _start
+
+_start:
+    ; Write your 16-bit code here
+    mov ax, 0x4C00 ; DOS terminate process
+    int 0x21       ; Interrupt call
+```
+
+### Step 2: Assemble the Code with NASM
+Use NASM to assemble the code into a 16-bit ELF object file:
+
+```bash
+nasm -f elf32 -o program.o program.asm
+```
+
+Here, `-f elf32` is used because NASM doesn’t directly support creating 16-bit ELF files. Instead, we generate a 32-bit ELF object and ensure the code itself is written in 16-bit mode. The `bits 16` directive can be used in your assembly code if necessary.
+
+### Step 3: Link the Object File with LD
+Link the object file to produce a 16-bit executable:
+
+```bash
+ld -m elf_i386 -T link.ld -o program program.o
+```
+
+### Linker Script: `link.ld`
+Create a linker script `link.ld` to properly link a 16-bit executable:
+
+```ld
+OUTPUT_FORMAT("elf32-i386")
+ENTRY(_start)
+SECTIONS
+{
+    . = 0x7C00; /* Load address for a 16-bit real mode program */
+    .text :
+    {
+        *(.text)
+    }
+    /DISCARD/ : { *(.note.GNU-stack) }
+}
+```
+
+### Step 4: Run or Debug the Executable
+The output `program` will be a 16-bit ELF executable. However, since modern Linux systems don’t natively support running 16-bit real mode code, you'll likely need an emulator or virtual machine (e.g., QEMU, DOSBox) to run it.
+
+Example for QEMU:
+
+```bash
+qemu-system-i386 -fda program
+```
+
+This process gives you a basic 16-bit ELF executable, albeit in a form that requires careful handling and likely won’t run directly on a modern OS without additional steps.
+"
+_

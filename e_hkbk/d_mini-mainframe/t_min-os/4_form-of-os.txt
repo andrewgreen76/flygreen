@@ -6,7 +6,7 @@ FIRST THINGS TO UNDERSTAND ABOUT OS DEVELOPMENT
 You need a storage medium - a DRIVE.
 |
 The drive will have the following PARTITIONS :
- . boot partition
+ . boot partition (a.k.a. system partition) 
  . OS partition
  . swap partition
  . data partition 
@@ -29,7 +29,7 @@ BIOS - PURE BINARY ON EEPROM
 ========================================================================================
 
 "
-Yes, the BIOS (Basic Input/Output System) is typically a raw binary file. It contains low-level code that is executed directly by the CPU when a computer is powered on, initializing hardware components and starting the boot process. This code is usually stored in a non-volatile memory chip on the motherboard and is often referred to as firmware. BIOS files are not formatted in a specific file type like executable files for an operating system; instead, they consist of raw machine code that the processor can execute directly.
+... the BIOS (Basic Input/Output System) is typically a raw binary file. It contains low-level code that is executed directly by the CPU when a computer is powered on, initializing hardware components and starting the boot process. This code is usually stored in a non-volatile memory chip on the motherboard and is often referred to as firmware. BIOS files are not formatted in a specific file type like executable files for an operating system; instead, they consist of raw machine code that the processor can execute directly.
 "
 
 

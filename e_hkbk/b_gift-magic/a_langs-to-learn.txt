@@ -1,0 +1,8 @@
+
+(a) Python / (b) Bash
+C++ 
+C
+asm
+(a) microcode / (b) file formats , hex code 
+
+_

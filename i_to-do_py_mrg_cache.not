@@ -1,16 +1,14 @@
 
-partitions
 symbol resolution
 address adjustment
 link editors 
 evolution of linkers 
-
+boundary 
+|
 (ELF) object file breakdown in these scenarios : 
  . do-nothing in asm 
  -> write 'a' vs. 'b' to spot them in the object files 
  -> write a C program with d (0x64) in the data segment , b (0x62) in BSS , s (0x73) in the stack , h (0x68) in the heap 
-
-boundary 
 
 7etsuo , C , lecture : https://x.com/i/status/1819592399255183414
 symbolic debugging
@@ -20,11 +18,6 @@ C with GTK
 asm -> k-dev
 DS
 hist of syntax hilite 
-
-(a) Python / (b) Bash 
-C
-asm
-(a) microcode / (b) file formats , hex code 
 
 Ctrl+q+Ctrl+[key] to print (non-)printable ASCII bytes to a file. 
 

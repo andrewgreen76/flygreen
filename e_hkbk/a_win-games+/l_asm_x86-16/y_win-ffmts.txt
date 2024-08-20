@@ -1,0 +1,10 @@
+"
+COM template - simple and tiny executable file formal, pure machine code:
+
+EXE template - advanced executable file. header: relocation, checksum.
+
+C BIN template - pure binary file, allows all sorts of customizations (advanced)
+
+BOOT template - for creating floppy disk boot records (very advanced)
+"
+_

@@ -1,0 +1,33 @@
+
+========================================================================================
+FIRST THINGS TO UNDERSTAND ABOUT OS DEVELOPMENT 
+========================================================================================
+
+You need a storage medium - a DRIVE - that will house :
+ . the first-stage bootloader (FSBL) 
+ . the second-stage bootloader (SSBL) 
+ . the OS
+
+
+The OS will consist of :
+ . the kernel program
+ . the build utilities
+
+
+========================================================================================
+BIOS - PURE BINARY ON EEPROM 
+========================================================================================
+
+"
+Yes, the BIOS (Basic Input/Output System) is typically a raw binary file. It contains low-level code that is executed directly by the CPU when a computer is powered on, initializing hardware components and starting the boot process. This code is usually stored in a non-volatile memory chip on the motherboard and is often referred to as firmware. BIOS files are not formatted in a specific file type like executable files for an operating system; instead, they consist of raw machine code that the processor can execute directly.
+"
+
+
+========================================================================================
+STORED OS - PURE BINARY IMAGE ON DRIVE 
+========================================================================================
+
+"
+... an ISO image is a pure binary file. It is a sector-by-sector copy of an optical disc, such as a CD, DVD, or Blu-ray disc, and contains all the data and structure of the disc in a binary format. The ISO image includes the filesystem, files, and directories as they would appear on the physical disc, and it can be used to create an exact copy of the disc or to mount the image virtually.
+"
+_

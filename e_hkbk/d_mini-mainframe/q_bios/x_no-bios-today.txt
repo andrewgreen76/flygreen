@@ -1,0 +1,4 @@
+"
+Many modern operating systems (such as Linux and Windows) do not use any BIOS interrupt calls at all after startup, instead choosing to directly interface with the hardware. To do this, they rely upon DRIVERS that are either a part of the OS kernel itself, ship along with the OS, or are provided by hardware vendors. 
+"
+_

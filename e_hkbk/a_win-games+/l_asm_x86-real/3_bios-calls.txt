@@ -1,0 +1,30 @@
+"
+10h 	Video Services
+
+AH 	Description
+00h 	Set Video Mode
+01h 	Set Cursor Shape
+02h 	Set Cursor Position
+03h 	Get Cursor Position And Shape
+04h 	Get Light Pen Position
+05h 	Set Display Page
+06h 	Clear/Scroll Screen Up
+07h 	Clear/Scroll Screen Down
+08h 	Read Character and Attribute at Cursor
+09h 	Write Character and Attribute at Cursor
+0Ah 	Write Character at Cursor
+0Bh 	Set Border Color
+0Ch 	Write Graphics Pixel
+0Dh 	Read Graphics Pixel
+0Eh 	Write Character in TTY Mode
+0Fh 	Get Video Mode
+10h 	Set Palette Registers (EGA, VGA, SVGA)
+11h 	Character Generator (EGA, VGA, SVGA)
+12h 	Alternate Select Functions (EGA, VGA, SVGA)
+13h 	Write String
+1Ah 	Get or Set Display Combination Code (VGA, SVGA)
+1Bh 	Get Functionality Information (VGA, SVGA)
+1Ch 	Save or Restore Video State (VGA, SVGA)
+4Fh 	VESA BIOS Extension Functions (SVGA) 
+"
+_

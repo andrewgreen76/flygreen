@@ -1,0 +1,6 @@
+
+Do I want my OS 8-bit , 16-bit , ... ?
+ . this will determine the file formats 
+ . file formats must be GNU-compatible (at least 16-bit) 
+
+_

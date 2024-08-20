@@ -3,7 +3,7 @@
 	;; This is just a breakdown of the entry and exit points. 
 	
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
-;;;				START 				  ;;; 
+;;;			 PREP WORK AND ENTRY			  ;;; 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; DATA SEGMENT usually goes here. 
@@ -21,7 +21,7 @@ _start:
 	
     ; Exit the program
 	mov eax, 1	; sys_exit system call number
-	xor ebx, ebx    ; Returns exit status 0 for success (in case if a program like the kernel asks) 
+	; xor ebx, ebx	; Returns exit status 0 for success (in case if a program like the kernel asks) 
 			; Not a necessity for our purposes. 
 			; Not 'mov ebx, 0' for optimization reasons. 
 	int 0x80        ; Call kernel

@@ -3,11 +3,14 @@
 EXAMINATION OF OBJECT FILES : 
 ========================================================================================
 
+ . the first 16 bytes - identical to the ELF executable's first 16 bytes
+ . everything else is different 
 
 
 ========================================================================================
 CHANGE IN OBJECT FILES - FROM THE SOURCE : 
 ========================================================================================
+
 
 
 

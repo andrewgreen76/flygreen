@@ -1,24 +1,15 @@
 
-Process space layout : 
- . heap segment
- . mapped memory region (accessible contents of the file whose name is hardcoded) 
- . stack segment
- .bss
- .data
- .text 
+symbol resolution
+address adjustment
+link editors 
+evolution of linkers 
 
-base pointer of stack vs. stack pointer vs. heap pointer ? 
-
-Do I want my OS 8-bit , 16-bit , ... ?
- . this will determine the file formats 
- . file formats must be GNU-compatible 
-
-Object file breakdown in these scenarios : 
+(ELF) object file breakdown in these scenarios : 
  . do-nothing in asm 
  -> write 'a' vs. 'b' to spot them in the object files 
  -> write a C program with d (0x64) in the data segment , b (0x62) in BSS , s (0x73) in the stack , h (0x68) in the heap 
 
-boundary
+boundary 
 
 7etsuo , C , lecture : https://x.com/i/status/1819592399255183414
 symbolic debugging

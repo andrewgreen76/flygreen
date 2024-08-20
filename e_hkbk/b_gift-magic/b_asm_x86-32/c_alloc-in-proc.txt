@@ -1,0 +1,39 @@
+
+========================================================================================
+PROCESS MEMORY LAYOUT :
+========================================================================================
+
+ . a.k.a. virtual address space layout 
+ 
+
+Segments :
+ . all are linked to the executable at compile-time 
+ . all are allocated in the process space at runtime
+ |
+ | __________________________________________________________________________
+ . args + envt vars							     }
+ | 	       								     }
+ . stack (segment)   <- local vars, consts, structures, func calls in frames }
+ | 	 	     	       ...  	    		     	      	     } 
+ | 	 base pointer (bp) : holds highest addr of last-in stack frame	     }
+ |	      	      	     a.k.a. frame pointer (fp)	   	 	     }
+ |	      	     	       ...    	   	   			     }
+ |	 stack pointer (sp) : holds lowest addr of last-in stack frame 	     }
+ |				|					     }
+ |	      	      	        v					     }
+ | 		     	      		    	      			     }
+ . shared libraries 							     }
+ | 	  								     }
+ . mem map segment   <- copy of file indicated in the program 		     } allocated during main execution
+ |     	   	     	     	|    	       	      			     }
+ |				v					     }
+ |     	   	     	     	     	       	      			     }
+ |				^  	   				     }
+ |				|					     }
+ . heap (segment)	     <- local , dynamically allocated structures     }
+ +---------------------------------------------------------------------------+
+ .bss segment     <- uninitialized global variables  			     }  
+ .data segment    <- initialized global data (vars + consts)		     } allocated before main entry 
+ .text segment 	  <- code ___________________________________________________}
+
+_

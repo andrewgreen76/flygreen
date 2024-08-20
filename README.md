@@ -43,6 +43,18 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Process memory layout :
+ . arguments + environment variables
+ . stack (segment)
+   . base pointer (frame pointer)
+   . stack pointer
+ . shared libraries
+ . memory mapping segment
+ . heap (segment)
+ . BSS segment 
+ . data segment
+ . text segment 
+
 Compile time vs. runtime :
  . dynamically allocated structures	      -> the heap segment at runtime after the main entry 
  . statically allocated data + function calls -> the stack segment at runtime after the main entry

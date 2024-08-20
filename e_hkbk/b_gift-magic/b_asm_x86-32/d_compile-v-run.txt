@@ -1,11 +1,4 @@
 
- ;									; All are LINKED TO THE EXECUTABLE AT COMPILE-TIME. 
- . heap  	 <- local , dynamically allocated structures   		; allocated at runtime , main execution 
- . stack  	 <- local , fixed-size data (vars + consts) in frames 	; allocated at runtime , main execution 
- . BSS segment   <- uninitialized global variables  			; allocated at runtime , pre- main entry 
- . data segment  <- initialized global data (vars + consts)		; allocated at runtime , pre- main entry 
-
-
 ========================================================================================
 COMPILE-TIME :
 ========================================================================================
@@ -44,7 +37,7 @@ RUNTIME :
     |  | within those segments 
     |  | . global data (static) allocation
     |  | . global data initialization 
-    |  | . determining the locations of the stack (^) and the heap (v)
+    |  | . determining the locations of the stack (v) and the heap (^)
     |  |
     |  . populating the generated (and maybe optimized) code 
     |  |
@@ -60,7 +53,10 @@ II. Program's main execution :
     . statically allocated local structures } -> the stack
     . function calls 	   		    }
     |
-    . dynamically allocated structures   -> the heap 
+    . dynamically allocated structures   -> the heap
+    |
+    . copy of file content -> mapped memory region
+      	      	   	      (a.k.a. memory mapping segment) 
 
 
 ========================================================================================
@@ -82,6 +78,9 @@ SCRIPTING :
 ========================================================================================
 ========================================================================================
 ========================================================================================
+
+ |	(^ the frame is measured and populated towards origin of stack ^)    }
+
 
 "
 ... if you write `char input[10];` inside a function, it will be allocated on the stack. This is because `input` is a local variable with automatic storage duration, meaning it gets allocated on the stack when the function is called and deallocated when the function exits. 

@@ -11,14 +11,20 @@ So , the boot process goes like this :								|
 	  . (other routines?)	     	 			} EEPROM BIOS			|
 	  -> checking on all connected drives 			} is executed			|
 	  -> building the boot priorities list			}    				|
-												|
-  	 [An OS is selected -and- BIOS accesses the OS drive.]	} BIOS hands over 		|
-	  -> FSBL		      				} to bootloaders 		|
-	  -> SSBL       					} on the drive 			|
+	     	      	       		  							|
+	 [ An OS is selected.  		  			       ]			|
+	 [ BIOS accesses the drive -> boot partition -> bootloader.    ]			|
+	 [ BIOS hands the control over to the bootloader on the drive. ]			|
+	   	      	  	       	      		    	       				|
+	 On the drive :   	       	      		    	       				|
+	  -> FSBL		      				  				|
+	  -> SSBL       					  				|
+	   . there may be other partitions 							|
 	     											|
-  	 [The SSBL will call upon the OS kernel.]		} bootloaders hand over 	|
-	  -> kernel						} to OS kernel on the drive	|
-	  -> build utilities     				}		      		|
+  	 [The SSBL will call upon the OS kernel and hand the control over to it.]		|
+	      	   	     	      	 	    						|
+	  -> kernel										|
+	  -> build utilities     						      		|
 ------------------------------------------------------------------------------------------------+
 
 _

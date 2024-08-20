@@ -3,12 +3,22 @@
 FIRST THINGS TO UNDERSTAND ABOUT OS DEVELOPMENT 
 ========================================================================================
 
-You need a storage medium - a DRIVE - that will house :
+You need a storage medium - a DRIVE.
+|
+The drive will have the following PARTITIONS :
+ . boot partition
+ . OS partition
+ . swap partition
+ . data partition 
+
+
+The boot partition will house : 
  . the first-stage bootloader (FSBL) 
- . the second-stage bootloader (SSBL) 
- . the OS
+ . the second-stage bootloader (SSBL)
 
 
+The OS partition will house the OS. 
+|
 The OS will consist of :
  . the kernel program
  . the build utilities

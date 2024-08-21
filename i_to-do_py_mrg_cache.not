@@ -1,10 +1,4 @@
 
-symbol resolution
-address adjustment
-link editors 
-evolution of linkers 
-boundary 
-|
 (ELF) object file breakdown in these scenarios : 
  . do-nothing in asm 
  -> write 'a' vs. 'b' to spot them in the object files 

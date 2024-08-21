@@ -1,0 +1,9 @@
+"
+A boundary is a specific memory address or address range where data or instructions are aligned, typically to optimize access speed and meet hardware requirements.
+"
+
+
+"
+[The] optimization takes place by ensuring that data and instructions are aligned at memory addresses that match the hardware's preferred access boundaries, which REDUCES THE NUMBER OF MEMORY ACCESSES required and improves overall system performance.
+"
+_

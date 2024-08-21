@@ -1,0 +1,25 @@
+"
+Compiler alignment directives are used to control how data is aligned in memory, which can impact performance and ensure that data structures meet hardware requirements. Here are some common alignment directives used in various compilers:
+
+### GCC (GNU Compiler Collection)
+- **`__attribute__((aligned(n)))`**: Specifies the alignment in bytes for a variable or structure. For example, `int x __attribute__((aligned(16)));` aligns `x` to a 16-byte boundary.
+- **`alignas(n)`**: Used in C++11 and later to specify alignment. For example, `alignas(16) int x;` aligns `x` to a 16-byte boundary.
+
+### Clang
+- **`__attribute__((aligned(n)))`**: Similar to GCC, it specifies the alignment for variables and structures.
+- **`alignas(n)`**: Also supported in C++11 and later, specifying alignment for variables and types.
+
+### MSVC (Microsoft Visual C++)
+- **`__declspec(align(n))`**: Specifies the alignment for a variable or structure. For example, `__declspec(align(16)) int x;` aligns `x` to a 16-byte boundary.
+- **`alignas(n)`**: Supported in C++11 and later, specifying alignment in a manner similar to GCC and Clang.
+
+### Intel C++ Compiler
+- **`__declspec(align(n))`**: Aligns data structures and variables similarly to MSVC.
+- **`align(n)`**: Specifies alignment in a way similar to GCC and Clang.
+
+### Fortran (Various Compilers)
+- **`ALIGN=`**: For example, `INTEGER, ALIGN=16 :: x` specifies alignment for variables in some Fortran compilers.
+
+These directives help ensure that data is stored in memory in a way that is efficient for the target architecture, potentially improving performance by adhering to the hardware's alignment requirements.
+"
+_

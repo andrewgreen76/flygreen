@@ -27,14 +27,13 @@
 ; 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-	;; We get in ...
+	;; DOS kernel gives this program the CONTROL OVER THE CPU. 
+	;; We start execution of the MAIN CODE of the program.
+	;; We get into the main SUBROUTINE ... 
 	
 	ret         	; ... and we get out.
-			; This is the exit point (from the subroutine). 
+			; (This is the exit point from the main subroutine).
 
-/*********************************************************************************
+	;; Upon termination of this process we give control over the CPU back to the DOS kernel. 
 
-DOS
-
-**********************************************************************************
-*/
+	;; 

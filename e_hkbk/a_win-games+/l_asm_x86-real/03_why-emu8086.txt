@@ -9,6 +9,7 @@ WHY WE WILL BE USING emu8086 :
 
  . a DOS emulator
  . developed exclusively for the Windows OS
+ . does not require installation of an assembler as it comes with a custom assembler of its own 
  
  . Features : 
    . a code editor

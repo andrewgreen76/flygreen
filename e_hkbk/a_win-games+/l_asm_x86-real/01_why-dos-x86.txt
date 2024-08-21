@@ -1,0 +1,23 @@
+
+========================================================================================
+WHY CARE ABOUT DOS AND x86 IN REAL-MODE : 
+========================================================================================
+
+We are learning old systems and tools to understand and explain why technology today is the way it is.
+We can also gain insight into how we can build systems and tools of our own and how they can be improved on. 
+
+
+========================================================================================
+FOR THOSE WHO DON'T KNOW WHAT DOS IS : 
+========================================================================================
+
+ . It is a legacy (read "old") operating system developed by Microsoft that predates Windows. 
+ 
+ . Due to the emergence of new , more sophisticated and user-friendly systems , over time
+   starting in mid-90s DOS fell out of favor with professional developers and most users.
+   Its last version was rolled out in 2001 and the system has never been maintained since.
+
+ . Nowadays it is used as a platform for rudimentary low-level programming education and
+   retro-hobbyist shenanigans. 
+
+_

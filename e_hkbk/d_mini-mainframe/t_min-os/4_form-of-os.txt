@@ -9,7 +9,7 @@ The drive will have the following PARTITIONS :
  . boot partition (a.k.a. system partition) 
  . OS partition
  . swap partition
- . data partition 
+ . data partition (user data - can be shared between multiple OS's) 
 
 
 The boot partition will house : 

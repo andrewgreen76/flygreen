@@ -1,0 +1,36 @@
+
+========================================================================================
+BIOS INTERRUPT TABLE
+========================================================================================
+
+
+Int vtr		Description
+
+  05h 		Executed when Shift-Print screen is pressed, as well as when the BOUND instruction detects a bound failure.
+  08h 		This is the real time clock interrupt. It fires 18.2 times/second. The BIOS increments the time-of-day counter during this interrupt.
+  09h 		This is the Keyboard interrupt. This is generally triggered when a key on a keyboard is pressed. 
+  10h		Video Services
+  11h 		Returns equipment list
+  12h 		Return conventional memory size
+  13h		Low Level Disk Services
+  14h		Serial port services
+  15h		Miscellaneous system services
+  16h		Keyboard services
+  17h		Printer services
+  18h		Cassette BASIC
+  19h		Load OS (by BIOS after POST)
+  
+  1Ah		Real-time clock (RTC) Services
+  1Ah		(AH = 0?h) Real-time clock (RTC) Services
+  1Ah		(AX = 0???) PCI 2.0+ Services
+  1Bh 		Ctrl-Break handler - called by INT 09 when Ctrl-Break has been pressed
+  1Ch 		Timer tick handler - called by INT 08
+  1Dh 		Not to be called; simply a pointer to the VPT (Video Parameter Table), which contains data on video modes
+  1Eh 		Not to be called; simply a pointer to the DPT (Diskette Parameter Table), containing a variety of information concerning the diskette drives
+  1Fh 		Not to be called; simply a pointer to the VGCT (Video Graphics Character Table), which contains the data for ASCII characters 80h to FFh
+  
+  41h		Address pointer: FDPT = Fixed Disk Parameter Table (1st hard drive)
+  46h 		Address pointer: FDPT = Fixed Disk Parameter Table (2nd hard drive)
+  4Ah 		Called by real-time clock for alarm 
+
+_

@@ -1,4 +1,4 @@
-"
+
 10h 	Video Services
 
 AH 	Description
@@ -26,5 +26,5 @@ AH 	Description
 1Bh 	Get Functionality Information (VGA, SVGA)
 1Ch 	Save or Restore Video State (VGA, SVGA)
 4Fh 	VESA BIOS Extension Functions (SVGA) 
-"
+
 _

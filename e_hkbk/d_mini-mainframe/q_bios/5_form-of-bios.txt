@@ -1,10 +1,15 @@
 
 ========================================================================================
-THE FORM OF BIOS :  
+THE FORM OF BIOS - PURE BINARY ON EEPROM :  
 ========================================================================================
 
 "
-Yes, BIOS firmware often comes in the form of a binary image file. These binary image files are used for various purposes, including:
+... the BIOS (Basic Input/Output System) is typically a raw binary file. It contains low-level code that is executed directly by the CPU when a computer is powered on, initializing hardware components and starting the boot process. This code is usually stored in a non-volatile memory chip on the motherboard and is often referred to as firmware. BIOS files are not formatted in a specific file type like executable files for an operating system; instead, they consist of raw machine code that the processor can execute directly.
+"
+
+
+"
+... BIOS firmware often comes in the form of a binary image file. These binary image files are used for various purposes, including:
 
 1. **Firmware Updates**: Manufacturers provide BIOS updates as binary image files that users can flash to their motherboard’s EEPROM to update the firmware. These files are often distributed with an extension like `.bin`, `.rom`, or `.fd`.
 

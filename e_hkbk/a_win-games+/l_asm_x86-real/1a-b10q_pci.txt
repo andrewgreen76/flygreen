@@ -1,0 +1,26 @@
+
+========================================================================================
+PCI SERVICES - for BIOSes supporting PCI 2.0+ : 
+========================================================================================
+
+    +------------------------+
+    | AX = B10?h	     |	
+    | int 0x1Ah        	     |
+    +------------------------+
+
+AX 	Description
+
+B101h 	PCI Installation Check
+B102h 	Find PCI Device
+B103h 	Find PCI Class Code
+B106h 	PCI Bus-Specific Operations
+B108h 	Read Configuration Byte
+B109h 	Read Configuration Word
+B10Ah 	Read Configuration Dword
+B10Bh 	Write Configuration Byte
+B10Ch 	Write Configuration Word
+B10Dh 	Write Configuration Dword
+B10Eh 	Get IRQ Routine Information
+B10Fh 	Set PCI IRQ
+
+_

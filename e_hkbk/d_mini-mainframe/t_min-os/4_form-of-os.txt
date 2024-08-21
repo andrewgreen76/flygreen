@@ -17,11 +17,13 @@ The boot partition will house :
  . the second-stage bootloader (SSBL)
 
 
-The OS partition will house the OS. 
-|
-The OS will consist of :
- . the kernel program
- . the build utilities
+The OS partition will house :
+ |
+ . the OS , consisting of :
+ | . the kernel program
+ | . the build utilities
+ | 
+ . device drivers
 
 
 ========================================================================================

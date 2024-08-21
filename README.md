@@ -43,6 +43,16 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Raw binary images of :
+  (1) BIOS
+  (2) OS and related contents towards drive partitions : 
+      . boot partition (bootloaders) 
+      . OS partition
+	. OS (kernel + build utilities) 
+	. drivers 
+      . swap partition 
+      . data partition       
+
 Process memory layout :
  . arguments + environment variables
  . stack (segment)

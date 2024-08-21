@@ -11,11 +11,11 @@ and call upon the appropriate service with a certain INTERRUPT VECTOR.
 	mov ah, 0eh  	; display char on the console
 
 	; al <- char for input. The mov instructions below do the same thing. 
-	mov al, 'B'	; (a) 	You can specify the char in ' '.
-	mov al, 66	; (b) 	You can use the char's decimal ASCII representation.  	 
-	mov al, 42h	; (c)	If for any reason you need to do it in hex , you can. 
+	mov al, 'B'	; (a) 	ASCII char can go in ' ' 
+	mov al, 66	; (b) 	ASCII char's decimal representation 
+	mov al, 42h	; (c)	ASCII char's hex representation 
 	
-	int 10h      	; interrupt vector for video / console services
+	int 10h      	; BIOS interrupt vector for video / console services
 	ret          
 
 /**********************************************************************

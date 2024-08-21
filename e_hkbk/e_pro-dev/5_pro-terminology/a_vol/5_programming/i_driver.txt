@@ -3,11 +3,30 @@ Driver :
  . in general , code of any size 
  . a very broad term ; using the word needs context 
 
+
 Main driver : 
  . the main function or entry point in a program 
 
+
 Device driver : 
- . translates data meant for a different architecture into data that the hardware in its own architecture can digest.
+ . a program that allows the operating system (kernel) it is related to to leverage hardware components and devices 
+ . translates data meant for a different architecture into data that the hardware in its own architecture can digest 
+ |
+ . examples : 
+   . graphics / GPU drivers , accelerator drivers (TPUs , APUs) , etc. - processing unit drivers , basically 
+   . I/O drivers :
+     . peripherals 
+     . storage (e.g., a driver for a RAID controller) 
+     . sound 
+     . networking (NIC driver)
+   . firmware-updating drivers 
+   . maybe other applications 
+
+
+System driver : see device driver 
+OS driver : see device driver 
+Kernel driver : see device driver 
+
 
 Test driver :
  . a program or script

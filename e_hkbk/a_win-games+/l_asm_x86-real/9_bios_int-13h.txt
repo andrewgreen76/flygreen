@@ -1,0 +1,34 @@
+
+========================================================================================
+13h 	LOW LEVEL DISK SERVICES 
+========================================================================================
+
+
+AH 	Description
+
+00h 	Reset Disk Drives
+01h 	Check Drive Status
+02h 	Read Sectors
+03h 	Write Sectors
+04h 	Verify Sectors
+05h 	Format Track
+08h 	Get Drive Parameters
+09h 	Init Fixed Drive Parameters
+0Ch 	Seek To Specified Track
+0Dh 	Reset Fixed Disk Controller
+15h 	Get Drive Type
+16h 	Get Floppy Drive Media Change Status
+17h 	Set Disk Type
+18h 	Set Floppy Drive Media Type
+41h 	Extended Disk Drive (EDD) Installation Check
+42h 	Extended Read Sectors
+43h 	Extended Write Sectors
+44h 	Extended Verify Sectors
+45h 	Lock/Unlock Drive
+46h 	Eject Media
+47h 	Extended Seek
+48h 	Extended Get Drive Parameters
+49h 	Extended Get Media Change Status
+4Eh 	Extended Set Hardware Configuration
+
+_

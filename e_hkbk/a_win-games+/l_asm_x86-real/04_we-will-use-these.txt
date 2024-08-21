@@ -1,0 +1,35 @@
+
+========================================================================================
+FOR THOSE WHO DON'T KNOW WHAT DOS IS : 
+========================================================================================
+
+ . It is a legacy (read "old") operating system developed by Microsoft that predates Windows. 
+ 
+ . Due to the emergence of new , more sophisticated and user-friendly systems , over time
+   starting in mid-90s DOS fell out of favor with professional developers and most users.
+   Its last version was rolled out in 2001 and the system has never been maintained since.
+
+ . Nowadays it is used as a platform for rudimentary low-level programming education and
+   retro-hobbyist shenanigans. 
+
+
+========================================================================================
+WHY WE WILL BE USING emu8086 : 
+========================================================================================
+
+ . This is a terrific tool that can help us immerse ourselves in the 16-bit world of DOS.
+   This way we can cover the basics of assembly programming and  focus on the more primitive
+   system functionality.
+
+ . a DOS emulator
+ . developed exclusively for the Windows OS
+ 
+ . Features : 
+   . a code editor
+   . a console 
+   . a message log window 
+   . a debugger : 
+     + an interactive window for monitoring values in registers and segments 
+     + an interactive window for tracking source code instructions 
+
+_

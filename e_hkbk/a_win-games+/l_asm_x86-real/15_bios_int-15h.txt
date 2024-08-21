@@ -1,0 +1,30 @@
+
+========================================================================================
+15h 	SERIAL PORT SERVICES  
+========================================================================================
+
+
+AH 	AL 	Description
+
+00h 		Turn on cassette drive motor (IBM PC/PCjr only)
+01h 		Turn off cassette drive motor (IBM PC/PCjr only)
+02h 		Read data blocks from cassette (IBM PC/PCjr only)
+03h 		Write data blocks to cassette (IBM PC/PCjr only)
+4Fh 		Keyboard Intercept
+83h 		Event Wait
+84h 		Read Joystick (BIOSes from 1986 onward)
+85h 		Sysreq Key Callout
+86h 		Wait
+87h 		Move Block
+88h 		Get Extended Memory Size
+89h 		Switch to Protected Mode
+C0h 		Get System Parameters
+C1h 		Get Extended BIOS Data Area Segment
+C2h 		Pointing Device Functions
+C3h 		Watchdog Timer Functions - PS/2 systems only
+C4h 		Programmable Option Select - MCA bus PS/2 systems only
+D8h 		EISA System Functions - EISA bus systems only
+E8h 	01h 	Get Extended Memory Size (Newer function, since 1994). Gives results for memory size above 64 Mb.
+E8h 	20h 	Query System Address Map. The information returned from E820 supersedes what is returned from the older AX=E801h and AH=88h interfaces.
+
+_

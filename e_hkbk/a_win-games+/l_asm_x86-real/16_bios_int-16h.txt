@@ -1,0 +1,16 @@
+
+========================================================================================
+16h 	KEYBOARD SERVICES   
+========================================================================================
+
+
+AH 	Description
+00h 	Read Character
+01h 	Read Input Status
+02h 	Read Keyboard Shift Status
+05h 	Store Keystroke in Keyboard Buffer
+10h 	Read Character Extended
+11h 	Read Input Status Extended
+12h 	Read Keyboard Shift Status Extended
+
+_

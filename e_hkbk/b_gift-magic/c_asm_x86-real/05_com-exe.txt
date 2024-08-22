@@ -10,8 +10,4 @@ WHAT IS A COM EXECUTABLE :
 A COM executable is a binary file format for a Windows executable that adheres to the COM (Component Object Model) standard, designed to be loaded and executed directly by the Windows operating system without requiring additional linking or complex file structures.
 "
 
-
-"
-A COM executable is a binary file format for a Windows executable that adheres to the COM (Component Object Model) standard, designed to be loaded and executed directly by the Windows operating system without requiring additional linking or complex file structures.
-"
 _

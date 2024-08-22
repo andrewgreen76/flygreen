@@ -1,0 +1,28 @@
+
+========================================================================================
+16-BIT x86-BASED SYSTEMS and the REAL MODE : 
+========================================================================================
+
+This code , written in such fashion , is meant for systems that support the REAL MODE.
+
+
+Real mode :
+ |
+ . the ability of a system to load and run programs with 16-BIT CODE AND DATA compiled
+ |   for x86-based platforms
+ |
+ . NO MEMORY PROTECTION :
+ |  . there's a chance that a process may access the memory allocated for another process
+ |  . this is a security and stability problem 
+ |
+ . some 32- and 64- bit systems (backward compatible) may need specialized software
+ |   to be able to run programs that require this mode 
+ |
+ . This is a so-called compatibility mode (there are others , such as the protected mode
+ |   for 32-bit systems and the long mode for the 64-bit systems).
+ |
+ . no multitasking
+ . direct access to hardware
+ . 20-bit address space
+
+_

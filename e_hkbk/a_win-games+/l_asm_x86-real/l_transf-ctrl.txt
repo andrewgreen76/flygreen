@@ -1,0 +1,22 @@
+
+========================================================================================
+TRANSFERRING CONTROL OVER CPU BETWEEN PROCESSES : 
+========================================================================================
+
+ . the assembler follows the programmed directives (pre- main entry)
+ |
+ -> the kernel , being a process itself , gets the CPU to switch to executing our program 
+ |   . (but we typically say that the kernel "gives our program the CONTROL OVER THE CPU)
+ |   . this is called CONTEXT SWITCHING
+ |
+ -> we start execution of the MAIN CODE of the program (we get into the main SUBROUTINE) 
+ -> (other stuff would be done , but in this particular program there isn't much to do
+     but to exit)
+     
+	ret         	; -> and we move through the exit point of the main subroutine 
+
+ -> CPU halts the execution and switches to executing the kernel 
+     . we say that upon termination of this process we give control over the CPU back
+       to the DOS kernel 
+
+_

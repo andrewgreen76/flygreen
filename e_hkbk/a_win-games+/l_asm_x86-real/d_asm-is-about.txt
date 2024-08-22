@@ -1,0 +1,11 @@
+
+We can't understand the nature and purpose of the assembly language without discussing the following :
+ |
+ . abstraction (software taking care of things for you) vs. implementation (personally written instructions) 
+ . legacy platforms - old tools and systems 
+ . platform specifications (requirements) - the only things the system will work with 
+ . compatibility modes , backwards compatibility
+ . memory management , process memory layout
+ . CPU control handover between the OS kernel and the subordinate process
+
+_

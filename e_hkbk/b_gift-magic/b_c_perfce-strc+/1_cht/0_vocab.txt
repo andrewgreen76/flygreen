@@ -1,0 +1,10 @@
+
+Modifier :
+ . unsigned , long , static , const , etc. 
+ . a keyword that expands on the desired "shape" of the variable , constant , array , or structure
+
+Format specifier :
+ . %d , %s , %c , etc. 
+ . a symbolic indication of what sort of data type we want a certain argument in a function call to be treated as 
+
+_

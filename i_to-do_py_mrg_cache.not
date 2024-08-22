@@ -1,5 +1,9 @@
 
-three words: flexible connectivity of what
+Early computers and modern servers : 
+ . motherboard :
+    . directly connects the CPU , the RAM , the storage , etc. 
+ . backplane : 
+    . connects the motherboard to boards/modules 
 
 tue, 27th, 9a-930a - orientation
  . boots ?

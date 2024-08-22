@@ -1,11 +1,12 @@
 
 We can't understand the nature and purpose of the assembly language without discussing the following :
  |
- . abstraction (software taking care of things for you) vs. implementation (personally written instructions) 
+ . abstraction (pre-written functionality already taking care of things for you behind the curtains at the lower level) 
+     vs. implementation (personally written instructions or statements) 
  . legacy platforms - old tools and systems 
  . platform specifications (requirements) - the only things the system will work with 
  . compatibility modes , backwards compatibility
  . memory management , process memory layout
- . CPU control handover between the OS kernel and the subordinate process
+ . CPU control handover between the kernel and the (subordinate) user process 
 
 _

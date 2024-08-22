@@ -1,9 +1,12 @@
 
-========================================================================================
-16-BIT x86-BASED SYSTEMS and the REAL MODE : 
-========================================================================================
+	org 100h
+	ret
 
 This code , written in such fashion , is meant for systems that support the REAL MODE.
+
+========================================================================================
+REAL MODE (in 16-bit x86-based systems) : 
+========================================================================================
 
 
 Real mode :
@@ -18,11 +21,18 @@ Real mode :
  . some 32- and 64- bit systems (backward compatible) may need specialized software
  |   to be able to run programs that require this mode 
  |
- . This is a so-called compatibility mode (there are others , such as the protected mode
- |   for 32-bit systems and the long mode for the 64-bit systems).
+ . a so-called compatibility mode
  |
  . no multitasking
  . direct access to hardware
  . 20-bit address space
+
+
+========================================================================================
+OTHER MODES : 
+========================================================================================
+
+There are other modes , such as the protected mode for 32-bit systems and the long mode
+  for 64-bit systems. 
 
 _

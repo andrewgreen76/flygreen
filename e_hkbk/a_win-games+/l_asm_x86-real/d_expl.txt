@@ -1,11 +1,32 @@
-		
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; ABOUT 16-BIT SYSTEMS : 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-	;; The code here written in this fashion is meant for x86-based 16-bit systems
-	;; (which support the REAL MODE). They are usually 16-bit systems. These are also
-	;; 32- and 64- bit systems that may or may not need additional software to execute
+We can't understand the nature and purpose of the assembly language without discussing the following :
+ . abstraction vs. implementation 
+ . legacy systems , platform specifications (requirements) 
+ . compatibility modes , and backwards compatibility
+ . memory management , process memory layout
+ . CPU control handover between the OS kernel and the subordinate process
+
+
+========================================================================================
+SOURCE CODE : 
+========================================================================================
+
+	org 100h
+	ret
+
+
+========================================================================================
+ABOUT 16-BIT SYSTEMS : 
+========================================================================================
+
+This code , written in such fashion , is meant for systems that support the REAL MODE ;
+these systems perform best when supporting an operating mode that allows for processing
+16-bit software and data 
+
+x86-based 16-bit systems (which support 
+the REAL MODE). They are usually 16-bit systems. 
+
+These are also 32- and 64- bit systems that may or may not need additional software to execute
 	;; 16-bit programs. 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -41,3 +62,5 @@
 	;; Upon termination of this process we give control over the CPU back to the DOS kernel. 
 
 	;; 
+
+_

@@ -1,12 +1,3 @@
-		
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; ABOUT 16-BIT SYSTEMS : 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-	;; The code here written in this fashion is meant for x86-based 16-bit systems
-	;; (which support the REAL MODE). They are usually 16-bit systems. These are also
-	;; 32- and 64- bit systems that may or may not need additional software to execute
-	;; 16-bit programs. 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Pre- main entry directives : 

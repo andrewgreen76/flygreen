@@ -1,0 +1,634 @@
+
+                               README.DOC File
+
+             Release Notes for the Microsoft(R) Macro Assembler
+                Professional Development System, Version 6.0
+
+                  (C) Copyright Microsoft Corporation, 1991
+                                          
+     This document contains release notes for version 6.0 of the
+     Microsoft Macro Assembler Professional Development System for
+     MS-DOS(R) and the Microsoft Operating System/2 (MS(R) OS/2). The
+     information in this document and in the Microsoft Advisor (online
+     help) is more up-to-date than that in the manuals.
+  
+     Microsoft improves its languages documentation at the time of
+     reprinting, so some of the information in this file may already be
+     included in your manuals.
+
+
+
+================================< Contents >================================
+
+  
+     This file has 7 parts:
+  
+               Part     Contents
+               ----     --------
+               1        Information for MASM 5.1 programmers
+
+               2        Notes on "Installing and Using"
+
+               3        Notes on "MASM 6.0 Reference"
+
+               4        Notes on "MASM 6.0 Programmer's Guide"
+
+               5        Using the DOS-Extended assembler
+
+               6        Changes to CMACROS.INC
+
+               7        Known assembler bugs
+
+
+
+===============< Part 1: Information for MASM 5.1 programmers >=============
+
+
+     "Quick Start" booklet
+     ---------------------
+
+     If you have programs that assemble with previous versions of MASM,
+     this booklet will help you to use MASM 6.0.
+
+
+
+=================< Part 2: Notes on "Installing and Using" >================
+
+
+     Installation Program Notes
+     --------------------------
+
+        - Use "SETUP /M" if you are using a monochrome display adapter
+          as your primary display.
+
+        - Under OS/2, if you are already running QuickHelp as a keyboard
+          monitor, disable it before running SETUP so that it can copy
+          new versions of QuickHelp and MSHELP.DLL to your hard disk.
+
+
+
+==================< Part 3: Notes on "MASM 6.0 Reference" >=================
+
+
+     Page    Note
+     ----    ----
+
+     16      MASM /D Option
+             --------------
+             The /D Option is translated as follows:
+
+             /D        Creates a Pass 1 listing. Translated to /Fl /Sf.
+
+     17      ML /VM Option
+             -------------
+             /VM       Enables virtual memory under MS-DOS.
+
+     33      EXITM Directive
+             ---------------
+             The EXITM directive takes an optional textitem, not an
+             expression.
+
+     152     XCHG Instruction
+             ----------------
+             The second example line should be as follows:
+
+             xchg  dl, dh
+
+
+
+==============< Part 4: Notes on "MASM 6.0 Programmer's Guide" >============
+
+
+     Reserved Words
+     --------------
+
+     Add this paragraph to the description of reserved words in Section
+     1.21, "Reserved Words," and Appendix D, "MASM Reserved Words":
+
+     With the /Zm command-line option or OPTION M510, keywords and
+     instructions that are not available in the current CPU mode (such as
+     ENTER under .8086) are not treated as keywords. The USE32, FLAT, FAR32,
+     and NEAR32 segment types and the 80386/486 registers are not keywords
+     with processor selection directives less than .386.
+
+
+     ALIGN, EVEN, and ORG in Structures and Unions
+     ---------------------------------------------
+
+     Add this paragraph to Section 5.2, "Structures and Unions."
+
+     The ALIGN, EVEN, and ORG directives can be used during structure
+     definition to modify how offsets of elements are defined. The EVEN
+     and ALIGN directives will round the current field offset up to the
+     specified align value by inserting padding bytes into the skipped
+     space. The ORG directive may be used to change the current field
+     offset to a new value, either positive or negative. If the ORG
+     directive is used in a structure definition, you cannot create an
+     instance of the structure.
+
+
+     Nested Structure Example
+     ------------------------
+
+     Change this line in the first example of Section 5.2.2, "Defining 
+     Structure and Union Variables."
+
+           ITYPE     UNION
+
+     should be:
+
+           UNION     ITYPE
+
+
+     PUSHCONTEXT/POPCONTEXT Table
+     ----------------------------
+
+     The table in Section 9.7.2, "Testing for Argument Type and 
+     Environment" should be as follows:
+
+     Option     Description
+     ------     -----------
+     ASSUMES    Saves segment register information
+     LISTING    Saves listing and CREF information
+     CPU        Saves current CPU and processor
+     RADIX      Saves current default radix
+     ALL        All of the above
+
+
+     New Anonymous Bitfield Syntax
+     -----------------------------
+     Add these paragraphs to Section 16.3.5, "Bit Fields."
+
+     H2INC translates anonymous bitfields by padding with a tag
+     corresponding to the bit position.
+
+     For example,
+
+     struct s
+     {
+        int :8;
+        int j:8;
+     }
+
+     becomes:
+
+     s      RECORD  j@s:8,
+                    @8@s:8
+
+
+     Basic/MASM Far Externs
+     ----------------------
+
+     Add these paragraphs to Section 20.3.3, "The Basic/MASM Interface."
+
+     When interfacing with Basic, all EXTERNs that are far must be
+     declared outside of a code or data segment.
+
+     This is incorrect:
+
+     .MODEL     medium
+     .CODE
+     EXTERN     StringAddress:FAR
+
+     This is correct:
+
+     .MODEL     medium
+     EXTERN     StringAddress:FAR
+     .CODE
+
+
+     New Command-line Options
+     ------------------------
+
+     Add these paragraphs to Appendix C, "Generating and Reading Assembly
+     Listings."
+
+     With the PAGE directive, the default page length is 0 (infinite), and
+     the default page width is 0 (infinite). The allowable range of values
+     is 0 and 60-255 for page width, 0 and 10-255 for page length.
+
+     With the /Sf option, a first-pass listing will be generated even if
+     a fatal error occurs. The symbol table will be appended onto the end
+     of the listing file unless you give the /Sn option.
+
+     The first-pass listing is controlled by the same set of commands that
+     are used with the final listing.
+
+
+     Additional Error Messages
+     -------------------------
+
+     Add these new or changed error messages to Appendix F, "Error
+     Messages."
+
+
+     MASM fatal error A1006
+
+     invalid command-line option: 'option'
+
+     ML did not recognize the given parameter as an option.
+
+     This error is generally caused when there is a syntax error on the
+     command line. It can also be generated by trying to assemble multiple
+     assembly language files on the MLX driver command line.
+
+
+     MASM fatal error A1017
+
+     out of near memory
+
+     There was insufficient memory to assemble the program.
+
+     One of the following may be a solution:
+
+        - If you are using the NMAKE utility, try using NMK or
+          assembling outside of NMAKE.
+
+        - in PWB, try exiting and assembling using ML.
+
+        - In OS/2, try increasing the swap space.
+
+        - In DOS, remove terminate-and-stay-resident (TSR) software.
+
+        - If you have extended memory available, use the MLX.EXE driver.
+
+        - Change CONFIG.SYS to specify a lower number of buffers (the
+          BUFFERS= command) and fewer drives (the LASTDRIVE= command).
+
+        - Eliminate unnecessary INCLUDE directives.
+
+
+     MASM fatal error A1019
+
+     invocation failed : retry command line with /VM option
+
+     ML tried to restart itself with the /VM option but failed.
+
+     Enter the ML command line again, but add the /VM virtual-memory
+     option explicitly.
+
+
+     MLX fatal error A1800
+
+     processor not 80286 or above
+
+     You can only run MLX.EXE on an 80286 or above processor.
+
+     Use ML.EXE if you do not have an 80286 or 80386/486 processor.
+
+
+     MLX fatal error A1801
+
+     processor in protected or virtual 8086 mode
+
+     The MLX driver cannot run from XMS memory when in protected or
+     virtual 8086 mode.
+
+
+     MLX fatal error A1802
+
+     DPMI, VCPI, or XMS driver not installed
+
+     The MLX driver cannot find a compatible driver in memory.
+
+     You must have a DPMI, VCPI, or XMS driver, such as HIMEM.SYS,
+     installed before running MLX.EXE.
+
+
+     MLX fatal error A1803
+
+     unexpected initialization error
+
+     The MLX driver was unable to initialize the memory manager.
+
+     Make sure that you have a compatible DPMI, VCPI, or XMS driver
+     installed. HIMEM.SYS is a compatible XMS driver and is included in
+     this package.
+
+
+     MLX fatal error A1804
+
+     not enough near memory to load MLX.EXE
+
+     There was insufficient memory to start the DOS-extended assembler.
+
+     One of the following may be a solution:
+
+        - If you are using the NMAKE utility, try using NMK or
+          assembling outside of NMAKE.
+
+        - Remove terminate-and-stay-resident (TSR) software.
+
+        - Change CONFIG.SYS to specify a lower number of buffers (the
+          BUFFERS= command) and fewer drives (the LASTDRIVE= command).
+
+
+     MLX fatal error A1805
+
+     unable to run under Windows in standard mode
+
+     You can only run MLX.EXE in a Windows DOS box when running real or
+     386 enhanced mode.
+
+
+     MLX fatal error A1806
+
+     insufficient extended memory to load ML.EXE
+
+     There is not enough extended memory available to load the assembler
+     into high memory.
+
+     Change your configuration to give more memory to the DOS extender.
+     This may involve reducing the size of a RAM disk or cache.
+
+
+     MLX fatal error A1807
+
+     disk I/O error while loading program
+
+     The assembler encountered an error when trying to load ML into high
+     memory.
+
+     One of the following may be a cause:
+
+        - The disk has a bad sector.
+
+        - The file-access attribute is set to prevent reading.
+
+        - The drive is not ready.
+
+
+     MLX fatal error A1808
+
+     out of space in GDT
+
+     The MLX driver could not add enough entries to the Global
+     Descriptor Table (GDT).
+
+     You may be able to overcome this problem by rebooting your system
+     and running MLX.EXE before starting other programs.
+
+
+     MLX fatal error A1809
+
+     bad environment table
+
+     There was an invalid environment table passed to MLX.EXE.
+
+     The calling program passed a bad environment table. This error can
+     be caused by a corrupt version of COMMAND.COM.
+
+
+     MLX fatal error A1810
+
+     cannot load ML.EXE
+
+     The ML driver could not be found in the current path.
+
+     Make sure that the DOS version of ML.EXE was copied from the
+     distribution disks and is in the current path.
+
+
+     MLX fatal error A1811
+
+     ML.EXE not protected-mode compatible
+
+     An obsolete version of ML.EXE was found in the current path.
+
+     Make sure that the DOS version of ML.EXE was copied from the
+     distribution disks and is in the current path.
+
+
+     MLX fatal error A1850
+
+     unrecoverable fault
+
+     The MLX driver called ML.EXE, which generated a system error.
+
+     Note the circumstances of the error and notify Microsoft
+     Corporation by following the instructions in the Microsoft Product
+     Assistance Request form at the back of one of your manuals.
+
+
+     MASM error A2007
+
+     non-benign record redefinition
+
+     A RECORD definition conflicted with a previous definition.
+
+     One of the following occurred:
+
+        - There were different numbers of fields.
+
+        - There were different numbers of bits in a field.
+
+        - There was a different label.
+
+        - There were different initializers.
+
+
+     MASM error A2202
+
+     illegal use of segment register
+
+     You cannot use segment overrides for the FS or GS segment registers
+     when generating floating-point emulation instructions with the /FPi
+     command-line option or OPTION EMULATOR.
+
+
+     MASM error A2203
+
+     cannot declare scoped code label as PUBLIC
+
+     A code label defined with the "label:" syntax was declared PUBLIC.
+
+     Use the "label::" syntax, the LABEL directive, or OPTION NOSCOPED
+     to eliminate this error.
+
+
+     MASM error A2204
+
+     .MSFLOAT directive is obsolete : ignored
+
+     The Microsoft Binary Format is no longer supported.
+
+     You should convert your code to the IEEE numeric standard, which is
+     used in the 80x87-series coprocessors.
+
+
+     MASM error A2205
+
+     ESC instruction is obsolete : ignored
+
+     The ESC (Escape) instruction is no longer supported. All numeric
+     coprocessor instructions are now supported directly by the assembler.
+
+
+     MASM warning A4005
+
+     unknown default prologue argument
+
+     An unknown argument was passed to the default prologue.
+
+     The default prologue understands only the FORCEFRAME and LOADDS
+     arguments.
+
+
+     MASM warning A4013
+
+     line number information for segment without class 'CODE'
+
+     There were instructions in a segment that did not have a class
+     name that ends with "CODE". The assembler did not generate
+     CodeView information for these instructions.
+
+     CodeView cannot process modules with code in segments with
+     class names that do not end with "CODE".
+
+
+     MASM warning A4014
+
+     instructions and initialized data not supported in AT segments
+
+     An instruction or initialized data was found in a segment defined
+     with the AT attribute. The code or data will not be loaded at run
+     time.
+
+     Data in AT segments must be declared with the ? initializer.
+
+
+     MASM warning A6004
+
+     procedure argument or local not referenced
+
+     You passed a procedure argument or created a variable with the LOCAL
+     directive that was not used in the procedure body.
+
+     Unnecessary parameters and locals waste code and stack space.
+
+
+     MASM warning A6005
+
+     IF condition may be pass-dependent
+
+     Under the /Zm command-line option or the OPTION M510 directive,
+     the value of an IF condition changed between passes.
+
+     This error message may indicate that the code is pass-dependent and
+     must be rewritten.
+
+
+     H2INC fatal error HI1801
+
+     incomplete model specification
+
+     Only part of a custom memory-model specification was specified on
+     the command line.
+
+     When you specify a custom memory model with the /A command-line
+     option, you must specify code pointer distance, data pointer distance,
+     and DS register setup. This error is equivalent to the D2013 error
+     message for CL.
+
+
+
+=================< Part 5: Using the DOS-extended assembler >===============
+
+
+     MLX: The DOS-Extended Assembler
+     -------------------------------
+
+     There is a new DOS-extended driver for ML called MLX. MLX loads
+     ML.EXE into high memory so that the assembler takes up very little
+     space in the first 640K of memory.
+
+     MLX uses extended memory to run ML in protected mode. If you have
+     multiple extended memory drivers available, MLX will select the
+     driver to use in this order:
+
+       - DPMI
+       - VCPI
+       - XMS
+
+     The HIMEM.SYS XMS driver is included in the MASM 6.0 package and
+     is automatically copied by setup into the real-mode executables
+     directory as MLX.EXE. To use HIMEM.SYS, put the following line
+     into your CONFIG.SYS file:
+
+       DEVICE = <path>HIMEM.SYS
+
+     Where <path> is the path to the location of HIMEM.SYS.
+
+     Use MLX only if running ML with the /VM virtual-memory option fails
+     due to an out of memory error. Because it runs in real mode, ML
+     with the /VM command-line option can run significantly faster than
+     MLX.
+
+
+     MLX Requirements
+     ----------------
+
+     MLX requires an active DPMI, VCPI or XMS driver and at least 384K
+     of available extended memory to operate.
+
+
+     Differences between ML and MLX
+     ------------------------------
+
+     The MLX DOS-extended driver can only assemble one source file at
+     a time. You must split multiple-file assemblies into several
+     invocations of MLX.
+
+     If you want to use MLX from the PWB command line, you must manually
+     change your makefile to reflect the name of the MLX driver. Change
+     the line:
+
+       ASM = ML
+
+     to
+
+       ASM = MLX
+
+
+======================< Part 6: Changes to CMACROS.INC >====================
+
+
+     Using CMACROS.INC
+     -----------------
+
+     There is a new, MASM 6.0-compatible version of CMACROS.INC included
+     with the assembler. If you work with the Windows 3.0 Software
+     Development Kit, or the C 6.0 or FORTRAN 5.0 startup code, use the 
+     new version of CMACROS.INC.
+
+
+     C and FORTRAN Startup Sources
+     -----------------------------
+
+     To build the C or FORTRAN start-up sources, change the ASMFLAGS line
+     of MAKEFILE from
+
+     ASMFLAGS= -Mx -Dmem_$(MODEL) -I$(INC)
+
+     to
+
+     ASMFLAGS= -Mx -Dmem_$(MODEL) -I$(INC) -DMS_STARTUP
+
+
+
+=====================< Part 7: Known assembler bugs >===================
+
+
+     Ambiguous Radix Characters
+     --------------------------
+
+     The assembler accepts numeric characters outside the range of the
+     current radix.  These characters are given their appropriate
+     values but are handled under the current radix.  For example,
+
+     .RADIX 10
+     mov    ax, 1F
+     mov    bx, 1Fh
+
+     loads ax with 25 (10 from the tens digit and 15 from the ones).
+     The bx register is loaded properly.

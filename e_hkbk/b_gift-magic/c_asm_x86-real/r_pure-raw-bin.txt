@@ -1,4 +1,0 @@
-
-"Pure binary" and "raw binary" mean the same thing. 
-
-_

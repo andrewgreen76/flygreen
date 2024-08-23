@@ -1,0 +1,10 @@
+"
+- **`STOSB`**: This instruction stores the byte from the `AL` register into the memory location pointed to by `ES:DI`. The `ES` register specifies the segment, and `DI` specifies the offset within that segment.
+
+- **`REP`**: This prefix modifies string instructions (`STOSB`, `MOVSB`, etc.) to repeat the operation `CX` times. It decrements `CX` after each operation and continues until `CX` reaches zero.
+
+So, in summary:
+- **`STOSB`** listens to `ES` and `DI` to determine where to store the byte.
+- **`REP`** listens to `CX` to determine how many times to repeat the `STOSB` operation.
+"
+_

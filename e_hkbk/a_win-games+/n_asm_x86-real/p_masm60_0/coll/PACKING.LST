@@ -1,0 +1,180 @@
+	Packing List for Microsoft Macro Assembler Version 6.00
+	Copyright (C) Microsoft Corp. 1986, 1990. All rights reserved.
+
+
+
+DISK 1 : Setup disk
+
+ Files                        Description
+ -----                        -----------
+
+binb\bind.exe                 Bound program creation utility
+binb\cvpack.exe               CodeView information optimization utility
+binb\exehdr.exe               .EXE file modification utility
+binb\exp.exe                  File expunge program
+binb\helpmake.exe             Utility to create/modify help files
+binb\implib.exe               Import library creation utility
+binb\lib.exe                  Library maintenance utility
+binb\link.exe                 Linker
+binb\pwbrmake.exe             Browse database creation utility.
+binb\rm.exe                   File deletion program
+binb\undel.exe                File restore program
+
+brief.ini                     Brief emulation macros for PWB
+decomp.exe                    File decompression utility
+masm600.inf                   Setup program information file
+packing.lst                   List of disk contents (this file)
+readme.doc                    Documentation information for MASM 6.0
+setup.exe                     Setup program -- installs assembler
+tools.pre                     Sample macros for PWB
+
+
+DISK 2 : MS-DOS Utilities disk
+
+ Files                        Description
+ -----                        -----------
+
+binb\h2inc.err                h2inc.exe error message file
+binb\h2inc.exe                C-header-file to MASM-include-file utility
+binb\masm.exe                 5.1-compatible command-line driver
+
+cv.exe                        Real-mode CodeView debugger
+ml.err                        Real-mode assembler error file
+ml.exe                        Real-mode assembler driver
+mlx.exe                       DOS extender utility
+nmake.exe                     MS-DOS program maintenance utility
+qh.exe                        MS-DOS Quick Help program
+
+
+DISK 3 : MS OS/2 Utilities disk
+
+ Files                        Description
+ -----                        -----------
+
+api.lib                       Family API stub libary for Bound programs
+apilmr.obj                    Gives bound programs 64K DGROUP
+cvp.exe                       OS/2 CodeView debugger
+
+include\bse.inc               OS/2 development include file
+include\bsedev.inc            OS/2 development include file
+include\bsedos.inc            OS/2 development include file
+include\bseerr.inc            OS/2 development include file
+include\bsesub.inc            OS/2 development include file
+include\os2.inc               OS/2 development include file
+include\os2def.inc            OS/2 development include file
+
+ml.err                        Protected-mode assembler error file
+ml.exe                        Protected-mode assembler driver
+mshelp.dll                    DLL for Microsoft help system
+nmake.exe                     OS/2 program maintenance utility
+os2.lib                       OS/2 API library
+qh.exe                        OS/2 Quick Help program
+
+
+DISK 4 : Microsoft Programmer's Workbench disk
+
+ Files                        Description
+ -----                        -----------
+
+binp\pwb.exe                  OS/2 Programmer's WorkBench
+binp\pwbc.pxt                 OS/2 Programmer's WorkBench
+binp\pwbhelp.pxt              OS/2 Programmer's WorkBench
+binp\pwbmasm.pxt              OS/2 Programmer's WorkBench
+binp\pwbrowse.pxt             OS/2 Programmer's WorkBench
+binp\pwbutils.pxt             OS/2 Programmer's WorkBench
+
+binr\fixshift.com             Fixes BIOS bug for some compatible keyboards
+binr\himem.sys                HIMEM driver program
+binr\mouse.com                DOS mouse driver
+binr\nmk.com                  Real-mode PWB loader for NMAKE
+binr\pwb.com                  DOS Programmer's WorkBench
+binr\pwbc.mxt                 DOS Programmer's WorkBench
+binr\pwbed.exe                DOS Programmer's WorkBench
+binr\pwbhelp.mxt              DOS Programmer's WorkBench
+binr\pwbmasm.mxt              DOS Programmer's WorkBench
+binr\pwbrowse.mxt             DOS Programmer's WorkBench
+binr\pwbutils.mxt             DOS Programmer's WorkBench
+binr\ramdrive.sys             DOS virtual disk device driver
+binr\smartdrv.sys             DOS disk cache device driver
+
+
+DISK 5 : Microsoft Advisor 1 disk
+
+ Files                        Description
+ -----                        -----------
+
+help\cv.hlp                   CodeView help file
+help\link.hlp                 Linker help file
+help\qh.hlp                   QuickHelp help file
+help\utils.hlp                Utilities help file
+
+samples\demos\common.asm      Sample file
+samples\demos\demo.h          Sample file
+samples\demos\demo.inc        Sample file
+samples\demos\file.asm        Sample file
+samples\demos\filedemo.c      Sample file
+samples\demos\filedemo.mak    Sample file
+samples\demos\math.asm        Sample file
+samples\demos\mathdemo.c      Sample file
+samples\demos\mathdemo.mak    Sample file
+samples\demos\misc.asm        Sample file
+samples\demos\miscdemo.asm    Sample file
+samples\demos\miscdemo.mak    Sample file
+
+samples\include\bios.inc      BIOS Macros
+samples\include\cmacros.inc   MASM 6.00 compatible CMACROS.INC
+samples\include\dos.inc       DOS Macros
+samples\include\macros.inc    Miscellaneous macros
+samples\include\prologue.inc  Prologues and Epilogues
+
+samples\mixed\basic.asm       Sample file
+samples\mixed\basmain.bas     Sample file
+samples\mixed\c.asm           Sample file
+samples\mixed\cmain.c         Sample file
+samples\mixed\fmain.for       Sample file
+samples\mixed\fortran.asm     Sample file
+samples\mixed\pascal.asm      Sample file
+samples\mixed\pasmain.pas     Sample file
+samples\mixed\qpex.asm        Sample file
+samples\mixed\qpmain.pas      Sample file
+
+samples\show\makeshos.bat     Sample file
+samples\show\makeshos.cmd     Sample file
+samples\show\pagerp.asm       Sample file
+samples\show\pagerr.asm       Sample file
+samples\show\show.def         Sample file
+samples\show\show.inc         Sample file
+samples\show\showp.asm        Sample file
+samples\show\showp.mak        Sample file
+samples\show\showr.asm        Sample file
+samples\show\showr.mak        Sample file
+samples\show\showutil.asm     Sample file
+
+samples\tsr\alarm.asm         Sample file
+samples\tsr\alarm.mak         Sample file
+samples\tsr\bell.c            Sample file
+samples\tsr\bell.mak          Sample file
+samples\tsr\handlers.asm      Sample file
+samples\tsr\install.asm       Sample file
+samples\tsr\snap.asm          Sample file
+samples\tsr\snap.mak          Sample file
+samples\tsr\tsr.h             Sample file
+samples\tsr\tsr.inc           Sample file
+
+
+DISK 6 : Microsoft Advisor 2 disk
+
+ Files                        Description
+ -----                        -----------
+
+alang.hlp                     Assembly language help file
+
+
+DISK 7 : Microsoft Advisor 3 disk
+
+ Files                        Description
+ -----                        -----------
+
+ml.hlp                        Assembler command line help
+pwb.hlp                       PWB help file
+utilerr.hlp                   Utilities error message help file

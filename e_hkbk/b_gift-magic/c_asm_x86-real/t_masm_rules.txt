@@ -1,7 +1,4 @@
 
-emu8086 syntax :
- . mov es:[di], ax
-
 MASM syntax :
  . mov [es:di], ax
 

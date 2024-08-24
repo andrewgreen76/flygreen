@@ -1,3 +1,7 @@
+
+========================================================================================
+WINDOWS OS BINARY FILE FORMATS - OVERVIEW : 
+========================================================================================
 "
 COM template - simple and tiny executable file formal, pure machine code:
 
@@ -7,4 +11,5 @@ C BIN template - pure binary file, allows all sorts of customizations (advanced)
 
 BOOT template - for creating floppy disk boot records (very advanced)
 "
+
 _

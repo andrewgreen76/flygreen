@@ -6,7 +6,8 @@ We can't understand the nature and purpose of the assembly language without disc
  . legacy platforms - old tools and systems 
  . platform specifications (requirements) - the only things the system will work with 
  . compatibility modes , backwards compatibility
- . memory management , process memory layout
- . CPU control handover between the kernel and the (subordinate) user process 
+ |
+ . MEMORY MANAGEMENT , process memory layout , memory monitoring 
+ . CPU CONTROL handover between the kernel and the (subordinate) user processes 
 
 _

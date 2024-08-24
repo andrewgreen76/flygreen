@@ -1,0 +1,9 @@
+"
+Local Labels: Labels that start with a dot are often used for local or temporary labels. These labels are not intended to be referenced from outside their local context. They help avoid naming conflicts with global labels. For example:
+
+--------------------
+.local_label:
+    ; code here
+--------------------
+"
+_

@@ -1,0 +1,4 @@
+
+What's interesting is that you need 'int 10h' to print chars in text mode (AL=03h) but you don't need it in graphics mode (AL=13h). 
+
+_

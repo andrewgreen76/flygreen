@@ -9,7 +9,7 @@ PRE- MAIN ENTRY DIRECTIVES :
 
 
 ========================================================================================
-PSP SEGMENT : 
+PSP SEGMENT - BASICS : 
 ========================================================================================
 
 Memory segments : 
@@ -27,11 +27,22 @@ Program Segment Prefix (PSP) :
 
 
 Command-line argument : 
+ . a piece of data passed to the executable/process via the terminal
+ > MASM.EXE TEST.ASM	  :: (technically , that's two arguments) 
 
 
-Environment variables : 
+========================================================================================
+PSP SEGMENT - MORE TECHNICAL THINGS : 
+========================================================================================
+
+Environment variable :
+ . a variable that holds a system path or a (config) setting
+ . this variable can be changed at runtime to change the way the process behaves 
+ . e.g., $env:PATH 
 
 
 Dynamic value :
+ . a variable that can be changed at runtime
+ . e.g., an environment variable 
 
 _

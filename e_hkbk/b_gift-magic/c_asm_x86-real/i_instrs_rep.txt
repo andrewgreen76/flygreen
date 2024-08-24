@@ -1,4 +1,14 @@
 
+	[@]  input_buffer [@] -> SI -> [processing , yielding a result]				     -> [DI]
+	     		      	       		     	      		[@] output_buffer [@] -> DI 
+
+
+ . Any general-purpose register can serve as a carrier between the input data source ,
+   the processing code , and the output memory.
+ . The instructions below can help us achieve movement of data , but compared to
+   the conventional 'mov' instruction , can do so much quicker. 
+
+
 ========================================================================================
 lodsb : 
 ========================================================================================
@@ -33,8 +43,18 @@ rep :
  . CX_val is decremented down to 0 , so at times it may have to be reset 
  > rep stosb 
  . this prefix to the same instruction is kind of like what the NASM 'times' directive is
-   to the same 'db'/'dw'/'d?' directive 
+   to the same 'db'/'dw'/'d?' directive
+ . the 'rep' prefix can be used with 'lodsb' and 'stosb' to achieve better performance
+   in memory reading and writing operations on consecutive memory addresses (offsets) 
 
+
+========================================================================================
+========================================================================================
+========================================================================================
+
+========================================================================================
+OVERVIEW : 
+========================================================================================
 
 "
 - **`REP`**: This prefix modifies string instructions (`STOSB`, `MOVSB`, etc.) to repeat the operation `CX` times. It decrements `CX` after each operation and continues until `CX` reaches zero.

@@ -1,15 +1,19 @@
 
+	org 100h
+	ret 
+
 ========================================================================================
 PRE- MAIN ENTRY DIRECTIVES : 
 ========================================================================================
 
-	org 100h    	; This tells the CPU to place all of the main execution code
-	    		; (here it's just 'ret') at this OFFSET - 0x100 from the start of
-			; the memory layout of the process. Here's why : ... 
+	org 100h    	; This directive , once assembled , instructs the OS's loader
+	    		; to place all of the main execution code (here it's just 'ret')
+			; at this OFFSET - 0x100 from the start of the memory layout
+			; of the process. Here's why : ... 
 
 
 ========================================================================================
-PSP SEGMENT - BASICS : 
+org 100h : 
 ========================================================================================
 
 Memory segments : 
@@ -19,6 +23,10 @@ Memory segments :
  |
  @ +   0h : Program Segment Prefix (PSP)
 
+
+========================================================================================
+PSP SEGMENT : 
+========================================================================================
 
 Program Segment Prefix (PSP) :
  + command line arguments 
@@ -31,18 +39,9 @@ Command-line argument :
  > MASM.EXE TEST.ASM	  :: (technically , that's two arguments) 
 
 
-========================================================================================
-PSP SEGMENT - MORE TECHNICAL THINGS : 
-========================================================================================
-
 Environment variable :
  . a variable that holds a system path or a (config) setting
- . this variable can be changed at runtime to change the way the process behaves 
+ . can be changed at runtime to change the way the process behaves  
  . e.g., $env:PATH 
-
-
-Dynamic value :
- . a variable that can be changed at runtime
- . e.g., an environment variable 
 
 _

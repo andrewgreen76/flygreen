@@ -1,0 +1,10 @@
+
+A dereferenced SI will
+				return the lower byte at the given buffer offset
+				put it in the dest register (MOV AL, [SI])
+
+To copy the entire word at offset ,
+   	    	   	   	ADD SI, 2
+   	       	      	   	MOV AX, [SI] 
+
+_

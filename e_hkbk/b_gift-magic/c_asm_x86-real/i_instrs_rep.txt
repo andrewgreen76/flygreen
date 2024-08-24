@@ -3,14 +3,22 @@
 lodsb : 
 ========================================================================================
 
- . load [SI]_val into AL
+ . loads [SI]_val into AL
+ . offset SI is automatically incremented afterwards
+ |
+ . SI could be addr/offset of any input buffer (e.g., char str or a grid of bytes for
+   plotting a sprite) 
 
 
 ========================================================================================
 stosb : 
 ========================================================================================
 
- . store AL_val into [DI] 
+ . stores AL_val into [DI] 
+ . offset DI is automatically incremented afterwards
+ |
+ . DI could be addr/offset of any output buffer (e.g., framebuffer) 
+
 
 "
 - **`STOSB`**: This instruction stores the byte from the `AL` register into the memory location pointed to by `ES:DI`. The `ES` register specifies the segment, and `DI` specifies the offset within that segment.

@@ -1,0 +1,19 @@
+
+========================================================================================
+OTHER emu8086 RULES : 
+========================================================================================
+
+ . do NOT put buffers between the directives and the main code
+   |
+   . in emu8086's real mode the CPU would only know execution of things and
+   | none of data initialization until the end of code is read
+   | 
+   . the assembler will not allow execution of data
+   |
+   => buffers must be placed after the code 
+
+
+ . emu8086 syntax :	mov es:[di], ax
+
+
+_

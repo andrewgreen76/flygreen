@@ -16,27 +16,4 @@ Register :   0x  AAAA
 We probably could take the most significant nibble to a separate register. However , Intel
   decided on a different solution. 
 
-
-========================================================================================
-THE SOLUTION : MEMORY SEGMENTATION 
-========================================================================================
-
-Suppose we have an address 0x89ABC. How do we store that in 16-bit registers ?
-
-
-Intel's solution : break up the address 0x89ABC into two parts - the "segment" and the offset. 
-  |
- (1) 0x89ABC = 0x89A00 + 0x00BC
-  |  . 0xBC will be the offset.
-  |  . That value would go into SI related to DS or into DI related to ES.
-  |  . DS:SI
-  |    . If DI is the offset within the 
-  |  . ES:DI
-  |    . If SI is the offset within the framebuffer , then DI would hold the address of the framebuffer. 
-  |   
- (1b) 0x89A00 >> 4 (or /16) = 0x89A0. That will be our "segment". 
- (1c) Take that segment into a 16-bit segment register. 
- |
- (2)  
-
 _

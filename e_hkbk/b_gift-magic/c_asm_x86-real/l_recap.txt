@@ -1,0 +1,16 @@
+
+ . SS (Stack Segment)
+ | . process scopes are stacked as frames at runtime 
+ | . every frame contains the scope's variables , structures , and the ongoing function call
+ | . SS register holds the address - the HIGHEST address - of the segment 
+ |
+ |
+ . DS (Data Segment)
+   . where all global values and buffers go 
+   . DS register holds the address - the LOWEST address - of the segment 
+ . CS (Code Segment)
+   . where instructions go
+   . CS register holds the address - the LOWEST address - of the segment 
+ . PSP 
+
+_

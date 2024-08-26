@@ -11,7 +11,7 @@ Intel 4004 :
  |  in systems with bank-switching techniques that allowed it to access larger amounts
  |  of memory. In practice, it could address up to 4 KB (4096 bytes) of memory."
  |
- => addressable memory range : 2^(12 bits) = 4K
+ => addressable memory range : up to 2^(12 bits) = 4K
 
 
 
@@ -26,7 +26,7 @@ Intel 8008 :
  |  processor could address up to 16 KB (16384 bytes) of memory through various memory
  |  management techniques such as bank switching."
  |
- => addressable memory range : 2^14 = 16K (banking / multiplexing) 
+ => addressable memory range : up to 2^14 = 16K (banking / multiplexing) 
 
 
 
@@ -35,7 +35,7 @@ Intel 8080 :
  . data bus width : 8
  . address bus width : 16
  . address width : 16
- . addressable memory range : 2^16 = 64K 
+ . addressable memory range : up to 2^16 = 64K 
 
 
 
@@ -44,7 +44,7 @@ Intel 8086 :
  . data bus width : 16 
  . address bus width : 20 
  . address width : 20
- . addressable memory range : 2^20 = 1M 
+ . addressable memory range : up to 2^20 = 1M 
 
 
 
@@ -53,7 +53,7 @@ Intel 8088 :
  . data bus width : 8
  . address bus width : 20 
  . address width : 20 
- . addressable memory range : 2^20 = 1M 
+ . addressable memory range : up to 2^20 = 1M 
 
 
 
@@ -62,7 +62,7 @@ Intel 80286 :
  . data bus width : 16 
  . address bus width : 24 
  . address width : 24 
- . addressable memory range : 2^24 = 16M 
+ . addressable memory range : up to 2^24 = 16M 
  . multiprocessing
    => high-performance
  . more transistors
@@ -74,7 +74,7 @@ Intel 80386 :
  . data bus width : 32 
  . address bus width : 32 
  . address width : 32 
- . addressable memory range : 2^32 = 4G 
+ . addressable memory range : up to 2^32 = 4G 
 
 
 
@@ -85,7 +85,7 @@ Intel 80486 :
  . data bus width : 32 
  . address bus width : 32 
  . address width : 32 
- . addressable memory range : 2^32 = 4G
+ . addressable memory range : up to 2^32 = 4G
 
 
 
@@ -127,7 +127,7 @@ Intel Itanium IA-64 :
  . data bus width : 64 
  . address bus width : 64 
  . address width : 64 
- . addressable memory range : 2^64 = 18E
+ . addressable memory range : up to 2^64 = 18E
  . mainly for servers 
 
 

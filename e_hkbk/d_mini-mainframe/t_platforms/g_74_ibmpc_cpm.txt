@@ -1,0 +1,12 @@
+
+========================================================================================
+IBM PC 
+========================================================================================
+
+ . released in 1982
+ . supported x86
+ => 1MB RAM total
+    . 384K went towards the firmware
+    . 680K would be left available for everything else (user data) 
+
+_

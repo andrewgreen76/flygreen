@@ -1,5 +1,5 @@
 "
-A CP/M disk is a nothing more than a series of sectors that store 128 bytes each. The first sectors on the disk are reserved for CP/M, and hold a copy of the CCP, BDOS and BIOS. These are read off the disk during the boot procedure by the boot loader.
+A CP/M disk is nothing more than a series of sectors that store 128 bytes each. The first sectors on the disk are reserved for CP/M, and hold a copy of the CCP, BDOS and BIOS. These are read off the disk during the boot procedure by the boot loader.
 "
 
 

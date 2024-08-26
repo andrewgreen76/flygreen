@@ -1,0 +1,23 @@
+
+C-x is just a prefix keybinding.
+_____________________________________________
+
+C-x C-s		Save 
+C-x C-c		Close			
+
+S-[arrow]	Select text in a direction 
+C-x h		Select entire text
+M-w 		Copy
+C-w		Yank (cut)
+C-y		Paste 
+
+C-x o		Move b/w files
+
+_____________________________________________
+
+    SPECIAL SURPRISE :
+
+M-x 	        Open the Emacs command shell
+    `shell`	Open a Bash subprocess in the lower buffer of Emacs 
+
+_

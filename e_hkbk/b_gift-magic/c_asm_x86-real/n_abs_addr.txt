@@ -1,0 +1,19 @@
+
+========================================================================================
+COMPUTATION OF ABSOLUTE ADDRESSES : 
+========================================================================================
+
+To compute the absolute address of a byte
+
+        
+
+        0x 0bcd * 16d = 0x bcd0
+
+If
+	0700:00ff <- 0x30 , 
+
+then the absolute address of the byte 0x30 is
+
+        0x0700 * 16d = 0x7000
+
+_

@@ -3,17 +3,26 @@
 COMPUTATION OF ABSOLUTE ADDRESSES : 
 ========================================================================================
 
-To compute the absolute address of a byte
+To compute the absolute address of a byte 0xhi at offset 0xdefg in DS at 0x0abc , ... 
+ (1) multiply the address of DS by 16
+ (2) add the offset 
 
-        
+   	DS     off     byte
+        0abc : defg    0xhi        
 
-        0x 0bcd * 16d = 0x bcd0
+        0x0abc * 16d = 0xabc0
+
+	0xabc0 + 0xdefg = absolute address of 0xhi
+_____________________________________________________
 
 If
 	0700:00ff <- 0x30 , 
 
-then the absolute address of the byte 0x30 is
+then the absolute address of the byte 0x30 is ... 
 
         0x0700 * 16d = 0x7000
+	0x7000 + 0x00ff = 0x70ff
+
+... 0x70ff. 
 
 _

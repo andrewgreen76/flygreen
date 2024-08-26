@@ -5,6 +5,7 @@
 
  . Any general-purpose register can serve as a carrier between the input data source ,
    the processing code , and the output memory.
+   
  . The instructions below can help us achieve movement of data , but compared to
    the conventional 'mov' instruction , can do so much quicker. 
 

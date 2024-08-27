@@ -44,12 +44,13 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
 Legacy assembly programming :
- . emu8086 vs. DOSBox vs. real DOS
+ . emu8086 vs. DOSBox vs. actual DOS
  . BIOS calls vs. DOS calls
  . SI and DI registers
  . data segment vs. extra segment
  . proper linear scanning of bytes within a buffer
- . optimization heuristics 
+ . optimization heuristics
+ . real-mode memory segmentation 
 
 Raw binary images of :
   (1) BIOS

@@ -18,9 +18,25 @@ When we deal with the assembly language , it looks like the stack is handled som
   differently to the way it's handled in C : 
   |
   |
-  + We can use the "CALL" instruction to a subroutine that we can return from with the "RET"
-  |   instruction , which is good. 
-  |   
+  + We can use the ```CALL``` instruction to take the flow of the process to a subroutine
+      that we can come back from with the ```RET``` instruction , which is good. ("call"
+      pushes the address of the instruction down below the subroutine call onto the stack
+      and takes us to the address tied to the subroutine label that is the name of
+      the subroutine we are calling.) 
+
+      -------------------
+      org 100h
+      
+      _main:
+          call _test
+	  mov ah , 0x20
+	  ret
+	  
+      _test:
+	  mov ah , 0x10
+	  ret 
+      -------------------
+
   - However , when we use "call" , we are not taking any arguments with us like we can in C.
       |
       . What we can do is push the arguments ourselves manually onto the stack , one by one.

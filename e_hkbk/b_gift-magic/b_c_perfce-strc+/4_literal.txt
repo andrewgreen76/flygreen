@@ -1,7 +1,9 @@
 
 A hard-coded value. 
 
-
+========================================================================================
+========================================================================================
+========================================================================================
 
 "
 In programming languages, a literal refers to the notation used to represent a fixed value within the source code. It is a way to express constant values directly in the code. Literals can represent values of various data types such as integers, floating-point numbers, characters, strings, and more.
@@ -66,4 +68,4 @@ Here are some examples of literals in common programming languages:
 Literals are fixed values that are directly written in the source code, and they represent specific data types. They are used to initialize variables with specific values and are an essential part of any programming language.
 "
 
-.
+_

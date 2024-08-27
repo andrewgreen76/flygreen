@@ -6,17 +6,30 @@ STACKS
 In computer science and engineering we give the name "stack" to a number of different
   things.
    |
-   . hardware-software stack
-   | . 
+   . the hardware-software stack : 
+   |  . a way of describing the bottom-up constitution of a system (from hardware to boot
+   |  	space to userspace), including :
+   |  	 . the selected hardware components and devices working with a specific architecture
+   |	 . the firmware on a CMOS (BIOS) or flash chip (UEFI)
+   |	 . the booted OS kernel along with the accompanying utilities
+   |	 . SCI - system call interface (for communication between the kernel and other processes) 
+   |  	 . user processes running on top of the operating system 
    |
-   . process stack
-   | . f
+   . the stack segment : 
+   |  . The structure within the memory of our process that grows down (towards the lower
+   |  	  addresses) as we push more and more data onto it to be preserved and used later.
+   |  . Obviously , this segment works on the "last in , first out" principle (LIFO) as data
+   |  	  gets pushed onto and popped off the "top" of the stack. 
    |
-   . additional implemented stacks 
-   | . f
+   . additional LIFO structures : 
+   |  . these can be data structures that are managed with custom-tailored implementation
+   |  	  (as long as the developer knows what they are doing) 
+   |  . it could also be data structures forged with implementation from included libraries 
    |
-   . full stack
-     . f
+   . full stack : 
+      . in the context of web app development , it is an infrastructure (read : massive software
+	or software suite) for developing an application's functionality on both the front-end
+	(client) and the back-end (server) 
 
 
 In our case where we examine process memory layout , when we say "stack" we really mean

@@ -9,8 +9,9 @@ In the C programming language , when we call a function , a new STACK FRAME is p
   function call. This stack frame will represent the STATE our process should regain once
   we come back from the called function , a different state of the process.
 
-However , when we deal with the assembly language , it looks like the stack is handled
-  very differently. We manage the stack segment manually , using instructions like "push"
-  and "pop". 
+However , when we deal with the assembly language , it looks like the stack is handled 
+  somewhat differently. We manage the stack segment manually , using instructions like "push" 
+  to save a piece of data , like a literal or a loaded value , on "top" of the stack , and
+  "pop" to displace a piece of data from the "top" and load it elsewhere. 
 
 _

@@ -1,0 +1,27 @@
+"
+1/2: You are right that reading assembly is a valuable skill for certain developers. Yet in reality you won't need to read assembly that often even if you debug your software using GDB. Debuggers can work with high-level language 99% of time. 
+
+Actually, if you find yourself in a need of reading disassembly you have some serious troubles.
+
+Anyway, reading compiled assembly is orders of magnitude easier than writing assembly which is effective and correct.
+
+As for exploration of PC RAM shenanigans, here it depends on if you are interested only into what happens in user-mode (e.g. what typical application sees) or what OS kernel sees. For the former plain C on any PC is sufficient. If you are familiar with memory model of typical 32-bit MCU, desktop userland is not that much different from it.
+
+For the latter, simply avoid x86. Compared to any other platform out there this architecture is littered by segments, task state segment, this gates, that gates. Tons of stuff which Intel invented for 286 and 386 and barely anyone is using.
+"
+
+
+"
+2/2 If your intention is to learn operating-system level programming then it turns out that ARM architecture is surprisingly friendly to system programmers.
+
+The problem with 16-bit x86 is that it behaves entirely different from how a modern 32-/64-bit system (of any architecture) behaves. You'd learn and implement ton of mostly useless stuff you'd later throw out and it would confuse you.
+
+The bad thing is that protected mode x86 / x86_64 carries a lot of this useless complexity to these days.
+
+Would you like to use linear address space for your applications? Sure, but here you have to fiddle with descriptor tables anyway. Just. In. Case. You'd like to use segment registers (hint: you don't want to).
+
+My experience with attempt to write 386 protected mode OS kernel (in assembly) is that it is exceptionally hard. You have to throw a lot of tech in for just basic stuff to start working.
+
+Later I wrote a memory protected OS for Cortex-M. It took me basically around two weeks to write it. With zero prior knowledge of the architecture. With no more than a few dozens of assembly code. The rest is plain C.
+"
+_

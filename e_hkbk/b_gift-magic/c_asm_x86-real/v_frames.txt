@@ -1,6 +1,6 @@
 
 ========================================================================================
-STACK FRAMES IN C AND ASSEMBLY 
+STACK FRAMES IN C 
 ========================================================================================
 
 In the C programming language , when we call a function , a new STACK FRAME is pushed
@@ -9,9 +9,27 @@ In the C programming language , when we call a function , a new STACK FRAME is p
   function call. This stack frame will represent the STATE our process should regain once
   we come back from the called function , a different state of the process.
 
-However , when we deal with the assembly language , it looks like the stack is handled 
-  somewhat differently. We manage the stack segment manually , using instructions like "push" 
-  to save a piece of data , like a literal or a loaded value , on "top" of the stack , and
-  "pop" to displace a piece of data from the "top" and load it elsewhere. 
+
+========================================================================================
+STACK FRAMES IN ASSEMBLY 
+========================================================================================
+
+When we deal with the assembly language , it looks like the stack is handled somewhat
+  differently to the way it's handled in C : 
+  |
+  |
+  + We can use the "CALL" instruction to a subroutine that we can return from with the "RET"
+  |   instruction , which is good. 
+  |   
+  - However , when we use "call" , we are not taking any arguments with us like we can in C.
+      |
+      . What we can do is push the arguments ourselves manually onto the stack , one by one.
+      |   We use instructions like ```PUSH``` to save a piece of data , like a literal or
+      |	  a loaded value , on "top" of the stack , and ```POP``` to displace a piece of data
+      |	  from the "top" of the stack and load it elsewhere.
+      |
+      . (We could use the stack for preserving any kind of data at any time , but in the interest
+      	  of preserving the integrity of the states our process has to come back to , the ideal
+	  thing to do is not to liberally push whatever we want onto the stack.) 
 
 _

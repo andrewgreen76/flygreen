@@ -1,0 +1,52 @@
+
+========================================================================================
+WHAT IS ENDIANNESS 
+========================================================================================
+
+ . the order in which bytes of data populate memory 
+ . Are we to populate bytes from LSB-to-MSB or MSB-to-LSB as we go up the memory addresses ?
+
+
+Little endianness : 
+ . all data populates memory LSB-to-MSB towards the higher addresses 
+ . LSB is at the starting address of the piece of data 
+
+Big endianness : 
+ . all data populates memory MSB-to-LSB towards the higher addresses 
+ . MSB is at the starting address of the piece of data 
+
+
+========================================================================================
+ENDIANNESS WARS 
+========================================================================================
+
+"
+Here are popular little-endian systems from each decade:
+
+- **1970s**: Intel 8080 microprocessor
+- **1980s**: Intel 80286 microprocessor
+- **1990s**: Intel Pentium processor
+- **2000s**: Intel Core processors
+- **2010s**: Intel Core i7 processors
+
+Each of these systems was widely used and adopted little-endian byte ordering.
+"
+
+
+"
+Here are popular big-endian systems from each decade:
+
+- **1970s**: IBM System/370 mainframe
+- **1980s**: Motorola 68000 microprocessor
+- **1990s**: Sun SPARC processors
+- **2000s**: PowerPC G5 processors
+- **2010s**: Apple’s PowerPC-based systems (though Apple transitioned to Intel processors, some big-endian PowerPC models were still in use)
+
+Each of these systems used big-endian byte ordering.
+"
+
+
+"
+RISC-V is flexible regarding endianness, allowing implementations to be either little-endian or big-endian, with little-endian being more common in practice.
+"
+_

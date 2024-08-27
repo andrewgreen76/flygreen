@@ -4,7 +4,7 @@ COMPUTATION OF ABSOLUTE ADDRESSES :
 ========================================================================================
 
 To compute the absolute address of a byte 0xhi at offset 0xdefg in DS at 0x0abc , ... 
- (1) multiply the address of DS by 16
+ (1) multiply the address value within the segment register by 16
  (2) add the offset 
 
    	DS     off     byte
@@ -13,7 +13,7 @@ To compute the absolute address of a byte 0xhi at offset 0xdefg in DS at 0x0abc 
         0x0abc * 16d = 0xabc0
 
 	0xabc0 + 0xdefg = absolute address of 0xhi
-_____________________________________________________
+__________________________________________________________________
 
 If
 	0700:00ff <- 0x30 , 
@@ -24,5 +24,17 @@ then the absolute address of the byte 0x30 is ...
 	0x7000 + 0x00ff = 0x70ff
 
 ... 0x70ff. 
+
+__________________________________________________________________
+
+If	SEG_REG <- 0x8900
+	OFF_REG <- 0x0ABC , ...
+	
+ (1) multiply the segment by 16 :
+     0x8900 * 16d = 0x89000 
+ (2) add the offset :
+     0x89000 + 0x0ABC = 0x89ABC
+
+... and you'll have the absolute physical address of the offset. 
 
 _

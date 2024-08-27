@@ -7,39 +7,10 @@ Back in the day , the real-mode era , RAM was designed to support 1MB of RAM (0x
   That means that together memory ICs would have to provide the rest of the motherboard with
   20 bits of addressing. 
 
-Problem : all of our x86 registers are 16-bit. So how can we load a 20-bit address in
-  a 16-bit register ?
+Problem : all of our x86 registers are 16-bit. So how can we access (load) a 20-bit address 
+  in a 16-bit register ? We can't. But can we use more than one register ? 
 
 Address :    0x AAAAA
 Register :   0x  AAAA
-
-Intuitively speaking , we probably could take the most significant nibble to a separate register.
-  Well , that's precisely what the people at Intel did. 
-
-
-========================================================================================
-THE SOLUTION : MEMORY SEGMENTATION 
-========================================================================================
-
-Suppose we have an address 0x89ABC. How do we store that in 16-bit registers ?
-
-
-Intel's solution : break up the address 0x89ABC into two parts - the "segment" and the offset. 
-  
-  . 0x89ABC = 0x80000 + 0x9ABC
-  		 ^	   ^
-  		 |    !!! the OFFSET !!! 
-    		 |     . That value would go into SI (related to DS) or into DI (related to ES).
-		 |     . DS:SI
-		 |     	 . If SI is the offset within the 
-		 |     . ES:DI
-		 |     	 . If DI is the offset within the framebuffer , then DI would hold the address of the framebuffer.
-		 |     => addressable range : up to 64K
-		 |     => a segment can only be as large as 64K
-		 |     => we would be allowed up to 16 segments within the process' memory 
-  		 |
-		 |
-          	 . 0x80000 >> 4 (or /16) = 0x8000  <---  !!! the "SEGMENT" !!! 
-  	      	 . Take that segment into a 16-bit segment register. 
 
 _

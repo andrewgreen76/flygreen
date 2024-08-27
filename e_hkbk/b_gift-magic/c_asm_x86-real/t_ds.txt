@@ -11,25 +11,25 @@ Unless explicitly stated , the assembler will assume a DS address within the pro
 			mov [0xff] , 0x30
 			ret
 		     --------------------------
-		        0x0700 : 0000 <- DS
-			0x0700 : 00ff <- 0x30
+		        DS   @  0x07000 
+			0x30 @  0x0700 : 00ff 
 		     --------------------------
 
-In other words , 0x30 is at 0x00ff of 0x0700. 
+In other words , 0x30 is at 0x070ff. 
 
-======================================================
+========================================================================================
 
-We can also explicitly state where to place DS : 
+We can also explicitly state where to place the DS segment for reading : 
 
 		     --------------------------
 			org 100h
-			mov ax , 0x300
+			mov ax , 0x0300
 			mov ds , ax
 			mov [0xff] , 0x30
 			ret
 		     --------------------------
-		        DS   @  0x0300
-			0x30 @  0x03ff
+		        DS   @  0x03000
+			0x30 @  0x030ff
 		     --------------------------
 
 _

@@ -1,0 +1,8 @@
+
+Virtual address :
+ . the memory location counted as an offset from the base address of the process 
+
+Virtual address space :
+ . the space reserved for the process in RAM
+
+_

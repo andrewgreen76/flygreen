@@ -1,0 +1,43 @@
+
+========================================================================================
+THE SOLUTION : MEMORY SEGMENTATION  
+========================================================================================
+
+To solve the problem of 20-bit memory addressing with 16-bit pointer registers , the people
+  at Intel came up with this solution : break up the 20-bit address (in our case 0xAF9FF)
+  into two parts - the "segment" value and the offset - and load them into two 16-bit registers.
+
+But what would that look like ? What would be the 16-bit hex segment value and what would be
+  the 16-bit offset ?
+
+Intel decided on this :
+  (1) Because the base address of the segment of our interest is 0xA0000 , the least
+      significant nibble is 0 , so we can simplify the segment base representation to
+      the 16-bit 0xA000 as the base addresses of all logical segments within the memory of
+      every process end with 0. 
+  (2) Intuitively , we can tell that 0xF9FF should be loaded as the offset.
+
+Therefore , we write :
+
+	--------------------------------------------------------------
+	mov ax , 0xA000	        ; the address of the framebuffer 
+	--------------------------------------------------------------
+	mov ds , ax		; DS is used to hold the address of an I/O buffer segment 
+	mov si , 0xF9FF		; and SI is used to hold the offset from DS. 
+	--------------------------------------------------------------
+	mov es , ax 	        ; ES is used to hold the address of the other I/O buffer segment 
+	mov di , 0xF9FF		; and DI is used to hold the offset from ES. 
+	--------------------------------------------------------------
+
+
+Remember that YOU CAN'T MIX UP THE INDEX REGISTERS. DI can't go with DS and SI can't go with ES. 
+
+
+========================================================================================
+EXCEPTION - STACK SEGMENT 
+========================================================================================
+
+Remember that because the stack segment grows down towards the lower addresses , THE OFFSET
+  WILL HAVE TO BE SUBTRACTED from the segment , not added. 
+
+_

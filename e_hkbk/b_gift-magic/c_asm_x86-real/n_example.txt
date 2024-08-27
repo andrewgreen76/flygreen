@@ -1,0 +1,31 @@
+
+========================================================================================
+AN EXAMPLE FOR A SOLUTION 
+========================================================================================
+
+Suppose we want our process to read or write the color value at the address of the very
+  last pixel of the framebuffer in real mode.
+
+  (1) We know that the address of the framebuffer in real mode is always 0xA0000. That means
+      that the address of the very first pixel of the framebuffer is 0xA0000.
+      
+  (2) We know that in 13h mode in DOS the screen resolution is assumed to be 320 x 200.
+      Therefore , there are 64,000 pixels expected to be in the framebuffer. However ,
+      because offset indexing is zero-based (the first pixel/offset is 0 in relation to
+      the base of the framebuffer as a segment), the last pixel of the framebuffer would
+      have to be indexed at 63,999. That's 0xF9FF.
+      
+  (3) Therefore , the full 20-bit address of the last framebuffer pixel must be ... 
+
+
+			0xA000 -> 0xA0000
+
+			0xA0000 + 0xF9FF = 0xAF9FF 
+
+      ... 0xAF9FF.
+
+
+Intuitively speaking , we probably could take the most significant nibble to a separate
+  register. However , the people at Intel decided on a different solution. 
+
+_

@@ -1,0 +1,37 @@
+
+========================================================================================
+MEMORY SEGMENTATION NOTATION (not for SS) 
+========================================================================================
+
+ . Together the segment and the offset form the SEGMENT:OFFSET PAIR.
+ . If we are to monitor the memory location of the last pixel of the framebuffer in a hex
+   memory monitor , the segmentation notation for that location would be
+
+
+   	  A000:F9FF      [say, 0x2F]
+       segment:offset    pixel color hex value 
+
+
+Therefore , when accessing a particular 20-bit memory location , ... 
+  (1) the CPU will use the segment value to count from the base address of the process -and-
+  (2) the CPU will use the offset to count from the virtual address of the segment and look up
+      the memory location of our interest 
+
+
+========================================================================================
+A CAVEAT REGARDING THE SEGMENT ADDRESSING SYNTAX IN ASSEMBLY 
+========================================================================================
+
+Remember : 
+ |
+ . SI - source index register , DI - destination index register 
+ => . [DS:SI] (or DS:[SI]) - typically used for reading the input 
+ |  . [ES:DI] (or ES:[DI]) - typically used for reflecting the output 
+ |  
+ . CS:IP - for the CPU to hold addresses of instructions 
+
+
+Again , YOU CAN'T MIX UP THE INDEX REGISTERS. DI can't go with DS and SI can't go with ES.
+  Or else , you are looking at programming some bugs. 
+
+_

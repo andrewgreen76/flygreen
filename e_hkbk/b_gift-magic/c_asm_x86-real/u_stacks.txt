@@ -1,0 +1,25 @@
+
+========================================================================================
+STACKS 
+========================================================================================
+
+In computer science and engineering we give the name "stack" to a number of different
+  things.
+   |
+   . hardware-software stack
+   | . 
+   |
+   . process stack
+   | . f
+   |
+   . additional implemented stacks 
+   | . f
+   |
+   . full stack
+     . f
+
+
+In our case where we examine process memory layout , when we say "stack" we really mean
+  the stack segment mapped out within the process by the OS loader.
+
+_

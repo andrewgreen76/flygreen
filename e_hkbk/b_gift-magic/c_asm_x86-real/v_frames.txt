@@ -1,0 +1,16 @@
+
+========================================================================================
+STACK FRAMES IN C AND ASSEMBLY 
+========================================================================================
+
+In the C programming language , when we call a function , a new STACK FRAME is pushed
+  on "top" (the lowest address - the stack pointer) of the stack. This stack frame would
+  hold all of the local , statically allocated variables along with the newly initiated
+  function call. This stack frame will represent the STATE our process should regain once
+  we come back from the called function , a different state of the process.
+
+However , when we deal with the assembly language , it looks like the stack is handled
+  very differently. We manage the stack segment manually , using instructions like "push"
+  and "pop". 
+
+_

@@ -1,0 +1,24 @@
+
+========================================================================================
+DEREFERENCING (INDEX) REGISTERS : 
+========================================================================================
+
+A dereferenced SI will
+				return the lower byte (little endianness) at the given buffer offset
+				and put it in the dest register (MOV AL, [SI])
+
+To copy the entire word at source/input offset ,
+
+   	    	   	   	ADD SI, 2
+   	       	      	   	MOV AL, [SI] 
+   	       	      	   	MOV AH, [SI+1] 
+
+
+========================================================================================
+WHO CAN POINT AND DEREFERENCE 
+========================================================================================
+
+ . AX CANNOT BE USED FOR POINTING AND DEREFERENCING
+    . use BX instead
+
+_

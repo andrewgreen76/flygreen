@@ -1,0 +1,59 @@
+
+========================================================================================
+emu8086 BUFFERS IN CODE : 
+========================================================================================
+
+ . do NOT put buffers between the directives and the main code
+   |
+   . in emu8086's real mode the CPU would only know execution of things and
+   | none of data initialization until the end of code is read
+   | 
+   . the assembler will not allow execution of data
+   |
+   => buffers must be placed after the code 
+
+
+ . emu8086 syntax :	mov es:[di], ax
+
+
+========================================================================================
+DEREFERENCING (INDEX) REGISTERS : 
+========================================================================================
+
+A dereferenced SI will
+				return the lower byte (little endianness) at the given buffer offset
+				and put it in the dest register (MOV AL, [SI])
+
+To copy the entire word at source/input offset ,
+
+   	    	   	   	ADD SI, 2
+   	       	      	   	MOV AL, [SI] 
+   	       	      	   	MOV AH, [SI+1] 
+
+
+========================================================================================
+WHO CAN POINT AND DEREFERENCE 
+========================================================================================
+
+ . AX CANNOT BE USED FOR POINTING AND DEREFERENCING
+    . use BX instead
+
+
+========================================================================================
+MOVING DATA OF DIFFERENT SIZES 
+========================================================================================
+
+ . mov byte [bx] , 0x??		=	mov [bx] , 0x?? 
+ |
+ . mov word [bx] , 0x89AB	=> 	mov [bx] , 0xAB		; little-endian 
+       	    	   			mov [bx+1] , 0x89 
+
+
+========================================================================================
+========================================================================================
+========================================================================================
+
+   	    	   	   	ADD SI, 2
+   	       	      	   	MOV AX, [SI] 
+
+_

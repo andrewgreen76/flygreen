@@ -19,10 +19,11 @@ When we deal with the assembly language , it looks like the stack is handled som
   |
   |
   + We can use the ```CALL``` instruction to take the flow of the process to a subroutine
-      that we can come back from with the ```RET``` instruction , which is good. ("call"
-      pushes the address of the instruction down below the subroutine call onto the stack
-      and takes us to the address tied to the subroutine label that is the name of
-      the subroutine we are calling.) 
+      that we can come back from with the ```RET``` instruction , which is good. "call"
+      implicitly pushes the address of the instruction down below the subroutine call
+      onto the stack and takes us to the address tied to the subroutine label that is
+      the name of the subroutine we are calling. "ret" implicitly pops the next instruction's
+      address off the stack and loads it into IP. 
 
       -------------------
       org 100h
@@ -39,10 +40,10 @@ When we deal with the assembly language , it looks like the stack is handled som
 
   - However , when we use "call" , we are not taking any arguments with us like we can in C.
       |
-      . What we can do is push the arguments ourselves manually onto the stack , one by one.
-      |   We use instructions like ```PUSH``` to save a piece of data , like a literal or
-      |	  a loaded value , on "top" of the stack , and ```POP``` to displace a piece of data
-      |	  from the "top" of the stack and load it elsewhere.
+      . What we can do is explicitly (i.e., in code) push the pre-call local scope variables
+      |	  and structures onto the stack , one by one. We use the ```PUSH``` instruction to preserve
+      |	  all the local pieces of data and ```POP``` to displace these pieces from the stack and
+      |	  load them back where they previously were. 
       |
       . (We could use the stack for preserving any kind of data at any time , but in the interest
       	  of preserving the integrity of the states our process has to come back to , the ideal

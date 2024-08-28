@@ -13,11 +13,14 @@ Little endianness :
 
 Big endianness : 
  . all data populates memory MSB-to-LSB towards the higher addresses 
- . MSB is at the starting address of the piece of data 
+ . MSB is at the starting address of the piece of data
+
+The reason for bringing up endianness is that , whenever something is pushed onto the stack ,
+  implicitly or explicitly , it is pushed in accord with the system's endianness. 
 
 
 ========================================================================================
-ENDIANNESS WARS 
+THE ENDIANNESS WAR 
 ========================================================================================
 
 "

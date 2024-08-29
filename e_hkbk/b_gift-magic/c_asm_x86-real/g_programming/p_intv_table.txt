@@ -1,0 +1,9 @@
+
+========================================================================================
+INTERRUPT VECTOR TABLE 
+========================================================================================
+
+ . housing 256 addresses , one for each ISR (interrupt service routine) 
+ . at the very bottom of the total RAM (address 0x0) 
+
+_

@@ -1,5 +1,5 @@
 
-Content by Daniel McCarthy. 
+This content is a reworking of content by Daniel McCarthy. 
 
 
 ========================================================================================
@@ -7,5 +7,14 @@ HOW TO WRITE YOUR OWN INTERRUPT :
 ========================================================================================
 
  . 
+
+
+========================================================================================
+IRET 
+========================================================================================
+
+ . the idea is to be able to return from an interrupt call
+ => `iret` is at the very end of every ISR
+ . restores the process state (by restoring flags + CS:IP) 
 
 _

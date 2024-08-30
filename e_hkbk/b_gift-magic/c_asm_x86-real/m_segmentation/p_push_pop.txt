@@ -1,0 +1,9 @@
+
+========================================================================================
+HOW TO PUSH AND POP  
+========================================================================================
+
+	push ax		; pushes the value in AX onto the top of the stack
+	pop ax		; pops off the frame on the top of the stack and loads the value into AX 
+
+_

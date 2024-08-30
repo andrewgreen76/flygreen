@@ -9,7 +9,8 @@ WHAT IS ENDIANNESS
 
 Little endianness : 
  . all data populates memory LSB-to-MSB towards the higher addresses 
- . LSB is at the starting address of the piece of data 
+ . LSB is at the starting address of the piece of data
+ . offset goes first , then the segment comes second 
 
 Big endianness : 
  . all data populates memory MSB-to-LSB towards the higher addresses 

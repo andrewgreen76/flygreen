@@ -1,0 +1,10 @@
+
+========================================================================================
+IRET 
+========================================================================================
+
+ . the idea is to be able to return from an interrupt call
+ => `iret` is at the very end of every ISR
+ . restores the process state (by restoring flags + CS:IP) 
+
+_

@@ -8,16 +8,27 @@
 
 
 ========================================================================================
+INTERRUPT SERVICE ROUTINE (ISR) 
+========================================================================================
+
+ . an implementation , typically written in assembly , that leverages the services of
+     an OS or a device via firmware (for video , for keyboard , etc.) 
+
+
+========================================================================================
 INTERRUPT VECTOR : 
 ========================================================================================
 
-Short answer : a hexadecimal indicator of which system service you want the process
-  to invoke at that moment. 
+ . a hexadecimal value corresponding to the system service you want the process
+     to invoke at that moment
+
+
+How does
 
 
 Long answer : 
- . we write the interrupt vector to invoke a specific kind of service during our executed
-   process 
+ . We write the interrupt vector in our program to invoke a specific kind of service
+   at runtime. 
     |
    (1) understand
 
@@ -29,13 +40,5 @@ fixed location in memory that holds the ISR address
   |
   => Hence the double (indirect) dereferencing - the interrupt vector is fixed , ISR address
      can be dynamically assigned or relocated. 
-
-
-========================================================================================
-INTERRUPT SERVICE ROUTINE (ISR) 
-========================================================================================
-
- . a routine , typically written in assembly , that leverages the services of an OS or
-     a device via firmware (for video , for keyboard , etc.) 
 
 _

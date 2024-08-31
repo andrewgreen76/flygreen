@@ -1,0 +1,20 @@
+
+========================================================================================
+INTERRUPT SERVICE ROUTINE 
+========================================================================================
+
+ . a routine , typically written in assembly , that regulates machine functionality
+     in a way that allows the programmer to leverage the services of the device ,
+     the OS , or the firmware 
+
+
+	org 100h
+	mov ah, 0eh	; printing characters to the console 
+	mov al, 'A'
+	int 0x10
+	ret
+
+
+ . a routine like that must end with the `iret` instruction 
+
+_

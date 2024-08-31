@@ -1,20 +1,31 @@
 
+	org 100h
+	mov ah, 0eh	; printing characters to the console 
+	mov al, 'A'
+	int 0x10	; BIOS interrupt call. We call `0x10` an INTERRUPT VECTOR. 
+	ret
+
+
+========================================================================================
+INTERRUPT VECTOR : 
+========================================================================================
+
+Short answer : a hexadecimal indicator of which system service you want the process
+  to invoke at that moment. 
+
+
+Long answer : the interrupt vector is the location within the interrupt vector table of
+  the actual address of the corresponding interrupt service routine (ISR).
+  |
+  . the interrupt vector table is a "compressed map" that gives the CPU the direction
+    towards the desired ISR. 
+
+
 ========================================================================================
 INTERRUPT SERVICE ROUTINE (ISR) 
 ========================================================================================
 
- . a routine , typically written in assembly , that triggers the system's response 
-     in a way that allows the programmer to leverage the services of a device (video ,
-     keyboard , etc.) , the OS , or the firmware 
-
-
-
-Calling an ISR : 
-
-	org 100h
-	mov ah, 0eh	; printing characters to the console 
-	mov al, 'A'
-	int 0x10	; ISR call 
-	ret
+ . a routine , typically written in assembly , that leverages the services of an OS or
+     a device via firmware (for video , for keyboard , etc.) 
 
 _

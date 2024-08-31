@@ -29,7 +29,20 @@ INTERRUPT VECTOR TABLE - DETAILS
 
 
 int 0x00
-  -> 0x0000 * 4
+  -> 0x0000 * 4 = 0000:0000 of IVT	; addr of LSB of ISR address (in CS:IP form)
+  -> look up
+  => double (therefore indirect) dereferencing - because WE CAN'T HOUSE ISR'S IN IVT
+
+
+int 0x01
+  -> 0x0001 * 4 = 0x0004		; to get the LSB of ISR address (in CS:IP form) 
+  => double (therefore indirect) dereferencing - because WE CAN'T HOUSE ISR'S IN IVT
+
+
+
+
+int 0x00
+  -> 0x0000 * 4		; to get the LSB of ISR address (in CS:IP form) 
   -> 0000:0000 :
   -> LSB of CS:IP of ISR address
   -> double (therefore indirect) dereferencing 

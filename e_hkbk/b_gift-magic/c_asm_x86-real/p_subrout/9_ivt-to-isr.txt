@@ -3,16 +3,61 @@
 INTERRUPT VECTOR TABLE - DEFINITION  
 ========================================================================================
 
+Suppose you want to invoke a specific system service in your process. 
+
+What YOU have to do is : 
+  -> use the corresponding (fixed) interrupt vector for that service in your program
+     (say , 0x16) 
+
+What THE SYSTEM will do is :
+  -> 
+
+
+
+
+  -> convert the vector to CS:IP RAM location (0000:0016) 
+
+
+
+, specifically within
+     a RAM portion called the INTERRUPT VECTOR TABLE 
+
+
+
+
+  => IVT is based at 0x0 
+  => IVT has straightforward addressability 
+  
+
+
+
+within a piece
+     of memory called the interrupt vector table
+     . 
+
+ . a piece of memory that holds actual addresses of interrupt service routines , addresses
+   that change from time to time
+   
+ . addressable by fixed interrupt vectors
+
+
+
+
+
  . a portion of RAM that houses addresses of interrupt service routines
- . situated at the very bottom of the system's entire memory map (at address 0x0) 
+   . actual ISR addresses may be ever-changing , but the way to find them is always
+     the same - through interrupt vectors
+     
+   
+ . IVT is situated at the very bottom of the system's entire memory map (at address 0x0). 
 
 
 ========================================================================================
 INTERRUPT VECTOR TABLE - DETAILS 
 ========================================================================================
- 
- . these ISR addresses are populated in segment:offset-pair form in reverse (assuming
-     little-endian)
+
+In IVT these ISR addresses are populated in segment:offset-pair form (CS:IP) LSB to MSB 
+     (assuming little-endian) 
 
  . IVT houses 256 segment:offset pairs , each one denoting the address of an ISR 
 

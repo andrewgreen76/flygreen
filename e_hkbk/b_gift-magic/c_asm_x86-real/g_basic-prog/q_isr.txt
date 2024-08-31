@@ -2,7 +2,8 @@
 	org 100h
 	mov ah, 0eh	; printing characters to the console 
 	mov al, 'A'
-	int 0x10	; BIOS interrupt call. We call `0x10` an INTERRUPT VECTOR. 
+	int 0x10	; BIOS interrupt call. We call `0x10` an INTERRUPT VECTOR
+	    		; for a specific INTERRUPT SERVICE ROUTINE. 
 	ret
 
 
@@ -14,11 +15,20 @@ Short answer : a hexadecimal indicator of which system service you want the proc
   to invoke at that moment. 
 
 
-Long answer : the interrupt vector is the location within the interrupt vector table of
-  the actual address of the corresponding interrupt service routine (ISR).
+Long answer : 
+ . we write the interrupt vector to invoke a specific kind of service during our executed
+   process 
+    |
+   (1) understand
+
+ . the interrupt vector is used to compute a memory location 
+ 
+
+fixed location in memory that holds the ISR address
+  that can change from time to time.
   |
-  . the interrupt vector table is a "compressed map" that gives the CPU the direction
-    towards the desired ISR. 
+  => Hence the double (indirect) dereferencing - the interrupt vector is fixed , ISR address
+     can be dynamically assigned or relocated. 
 
 
 ========================================================================================

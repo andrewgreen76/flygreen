@@ -1,20 +1,20 @@
 
 ========================================================================================
-INTERRUPT SERVICE ROUTINE 
+INTERRUPT SERVICE ROUTINE (ISR) 
 ========================================================================================
 
- . a routine , typically written in assembly , that regulates machine functionality
-     in a way that allows the programmer to leverage the services of the device ,
-     the OS , or the firmware 
+ . a routine , typically written in assembly , that triggers the system's response 
+     in a way that allows the programmer to leverage the services of a device (video ,
+     keyboard , etc.) , the OS , or the firmware 
 
+
+
+Calling an ISR : 
 
 	org 100h
 	mov ah, 0eh	; printing characters to the console 
 	mov al, 'A'
-	int 0x10
+	int 0x10	; ISR call 
 	ret
-
-
- . a routine like that must end with the `iret` instruction 
 
 _

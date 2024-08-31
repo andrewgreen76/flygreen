@@ -1,11 +1,32 @@
 
 ========================================================================================
-INTERRUPT VECTOR TABLE 
+INTERRUPT VECTOR TABLE - DEFINITION  
 ========================================================================================
 
- . a section at the very bottom of the total RAM (at address 0x0)
+ . a portion of RAM that houses addresses of interrupt service routines
+ . situated at the very bottom of the system's entire memory map (at address 0x0) 
+
+
+========================================================================================
+INTERRUPT VECTOR TABLE - DETAILS 
+========================================================================================
  
- . houses 256 sets of 4 bytes
+ . these ISR addresses are populated in segment:offset-pair form in reverse (if we are
+     assuming little-endian)
+
+ . IVT houses 256 segment:offset pairs , each one denoting the address of an ISR 
+
+
+========================================================================================
+EXAMPLE : 
+========================================================================================
+
+
+
+		int_seg:off	 	tes ffo tnem ges 
+
+
+ 
    . each set of four bytes (AB CD EF GH) makes up the segment:offset pair , but they are
      populated in reverse due to the little-endian memory management scheme 
 
@@ -15,7 +36,6 @@ INTERRUPT VECTOR TABLE
      of the 20-bit address of an individual ISR (interrupt service routine) - for video ,
      for keyboard , or for something else
      
-   => MSB 00 is ignored (since addresses are 20-bit in systems based on i286 and i386) 
    => four ISR addresses are visible in every row of a RAM hex dump
 
  -----------------------------------------------------------------------------------------------------

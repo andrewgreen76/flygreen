@@ -11,19 +11,55 @@ INTERRUPT VECTOR TABLE - DEFINITION
 INTERRUPT VECTOR TABLE - DETAILS 
 ========================================================================================
  
- . these ISR addresses are populated in segment:offset-pair form in reverse (if we are
-     assuming little-endian)
+ . these ISR addresses are populated in segment:offset-pair form in reverse (assuming
+     little-endian)
 
  . IVT houses 256 segment:offset pairs , each one denoting the address of an ISR 
+
+      +-------------------------------------------------------------------+
+      |	0000:0000	70 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4 |
+      |	0000:0010	80 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4 |
+      |	0000:0020	00 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4 |
+      |	0000:0030	00 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4 |
+      |	0000:0040	90 01 00 F4 D0 01 00 F4 - A0 01 00 F4 B0 01 00 F4 |
+      |	0000:0050	70 01 00 F4 E0 01 00 F4 - C0 01 00 F4 00 04 00 F4 |
+      |	0000:0060	70 01 00 F4 00 00 FF FF - 60 01 00 F4 00 01 00 F4 |
+      |	0000:0070	70 01 00 F4 00 01 00 F4 - C7 AF 00 F4 00 01 00 F4 |
+      +-------------------------------------------------------------------+
+
+
+int 0x00
+  -> 0x0000 * 4
+  -> 0000:0000 :
+  -> LSB of CS:IP of ISR address
+  -> double (therefore indirect) dereferencing 
+
+
+What about `int 0x16` ?
+
+
+Let's suppose you wrote `int 0xA0` in your code and that instruction is to be executed.
+  |
+  -> the system will go to the IVT and look up
+
+
+    the address 0000:00WX (in seg:off 
+
+
+     form) in the IVT and locate another address , the actual address of the ISR (in seg:off form).
+ -> The actual ISR address
+
+
+Example 1 : first ISR address in seg:off pair form has its LSB at 0x00.
+Example 2 : the ISR address F400:0108 (in seg:off pair form) has its LSB at 0x10
+Example 3 : in row 0000:0040 , the last ISR address , F400:01B0 (in seg:off form) ,
+	    
 
 
 ========================================================================================
 EXAMPLE : 
 ========================================================================================
 
-
-
-		int_seg:off	 	tes ffo tnem ges 
 
 
  
@@ -42,15 +78,6 @@ EXAMPLE :
  . Example - for address 0x0: 
  
 	0000:0030	LSB1 LSB2 LSB3 LSB4
- -----------------------------------------------------------------------------------------------------
-	0000:0000	70 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4
-	0000:0010	80 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4
-	0000:0020	00 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4
-	0000:0030	00 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4
-	0000:0040	90 01 00 F4 D0 01 00 F4 - A0 01 00 F4 B0 01 00 F4
-	0000:0050	70 01 00 F4 E0 01 00 F4 - C0 01 00 F4 00 04 00 F4
-	0000:0060	70 01 00 F4 00 00 FF FF - 60 01 00 F4 00 01 00 F4
-	0000:0070	70 01 00 F4 00 01 00 F4 - C7 AF 00 F4 00 01 00 F4
  -----------------------------------------------------------------------------------------------------
 
 	org 100h

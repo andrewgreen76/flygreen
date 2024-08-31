@@ -25,8 +25,8 @@
 
 
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	; Short , dumb explanation of "message" : 
-	;   The word "message" represents the address of the array of 
+	; Short , dumb explanation of "msg" : 
+	;   The word "msg" represents the address of the array of 
 	;   bytes "Hello, world!"
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	; Long , full explanation : 

@@ -1,0 +1,21 @@
+
+
+How does
+
+
+Long answer : 
+ . We write the interrupt vector in our program to invoke a specific kind of service
+   at runtime. 
+    |
+   (1) understand
+
+ . the interrupt vector is used to compute a memory location 
+ 
+
+fixed location in memory that holds the ISR address
+  that can change from time to time.
+  |
+  => Hence the double (indirect) dereferencing - the interrupt vector is fixed , ISR address
+     can be dynamically assigned or relocated. 
+
+_

@@ -16,8 +16,41 @@ Big endianness :
  . all data populates memory MSB-to-LSB towards the higher addresses 
  . MSB is at the starting address of the piece of data
 
+
 The reason for bringing up endianness is that , whenever something is pushed onto the stack ,
   implicitly or explicitly , it is pushed in accord with the system's endianness. 
+
+
+========================================================================================
+ANOTHER POSSIBLE EXPLANATION FOR WHY WE HAVE ENDIANNESS 
+========================================================================================
+
+In hex dump memory view we see values as growing and populating memory from lower addresses
+  to higher addresses (left to right) :
+  
+     	       	      	   		          v>  .  .  |
+      +-------------------------------------------------------------------+
+      |	0000:0050	70 01 00 F4 E0 01 00 F4 - C0 01 00 F4 00 04 00 F4 |
+      +-------------------------------------------------------------------+
+						   P  I  S  C   
+
+
+However , in a classic numerical view (be that decimal , binary , or hex) we see values
+  growing right to left : 
+
+  	  |     1 5 2|
+	  	. . .
+	  	h t o
+		u e n
+		n n e
+		d s s
+		r
+		e
+		d
+		s
+		
+      
+ . Reminder : data populates memory LSB to MSB in little-endian systems. 
 
 
 ========================================================================================

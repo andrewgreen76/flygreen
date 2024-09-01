@@ -1,0 +1,34 @@
+
+If we want to use system services , we hardcode an interrupt vector (say , 0x16 for
+  keyboard services) , and THE SYSTEM will do the following : 
+
+
+========================================================================================
+INTERRUPT VECTOR CALL -> ISR EXECUTION 
+========================================================================================
+
+ (1) multiply the interrupt vector by 4 : 
+
+       	    0x16 * 4 = 
+     	      22 * 4 =   88
+	      	     = 0x58
+
+
+ (2a) treat the result as a byte address -AND- load the data byte under it into the LSB of IP
+ 
+     	       	      	   		          v>  
+      +-------------------------------------------------------------------+
+      |	0000:0050	70 01 00 F4 E0 01 00 F4 - C0 01 00 F4 00 04 00 F4 |
+      +-------------------------------------------------------------------+
+      
+								  CS  :  IP
+								__ __   __ C0
+ (2b) load the next data byte over into the MSB of IP		__ __   01 C0
+ (2c) load the next data byte over into the LSB of CS		__ 00   01 C0
+ (2d) load the next data byte over into the MSB of CS		F4 00   01 C0
+ 
+
+ (3) use the CS:IP pair (here it's F400:01C0) to jump to the next instruction for the CPU
+     to execute - the first instruction in our target ISR 
+
+_

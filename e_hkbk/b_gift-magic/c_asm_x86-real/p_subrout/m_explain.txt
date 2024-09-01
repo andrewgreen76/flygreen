@@ -1,0 +1,97 @@
+
+========================================================================================
+EXPLANATION OF THE ISR LOCATION AND EXECUTION PIPELINE 
+========================================================================================
+
+Let's say we are working with a legacy system where ISRs are fixed in memory. That would
+  mean that we could have an assembly language flavor that would allow us to write addresses
+  of the ISRs directly in the source code. 
+  
+"
+An ISR might be relocated to OPTIMIZE MEMORY USAGE, avoid conflicts, or accommodate changes
+  in the system’s memory layout or architecture.
+"
+
+ (1) So what if we do want our ISRs to be relocatable ?
+ (2) ISR CS:IPs are also too long to memorize. Can this be remedied ? 
+
+
+========================================================================================
+ASSUMING DYNAMICALLY (RE)ASSIGNED ISR ADDRESSES 
+========================================================================================
+
+On a chance that the ISR CS:IP may change for any reason , it has to be logged
+  at a different , fixed CS:IP that is conceptually tied to the same service. 
+
+ . legacy systems : it was decided that every ISR always gets the same address 
+ . modern systems : ISRs would be dynamically positioned and relocated within memory 
+
+
+
+
+
+========================================================================================
+ISR LOCATION AND EXECUTION - UNDERSTANDING THE PIPELINE 
+========================================================================================
+
+ . the base address of every ISR is logged in a piece of memory called the INTERRUPT
+     VECTOR TABLE 
+
+      +-------------------------------------------------------------------+
+      |	0000:0000	70 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4 |
+      |	0000:0010	80 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4 |
+      |	0000:0020	00 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4 |
+      |	0000:0030	00 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4 |
+      |	0000:0040	90 01 00 F4 D0 01 00 F4 - A0 01 00 F4 B0 01 00 F4 |
+      |	0000:0050	70 01 00 F4 E0 01 00 F4 - C0 01 00 F4 00 04 00 F4 |
+      |	0000:0060	70 01 00 F4 00 00 FF FF - 60 01 00 F4 00 01 00 F4 |
+      |	0000:0070	70 01 00 F4 00 01 00 F4 - C7 AF 00 F4 00 01 00 F4 |
+      +-------------------------------------------------------------------+
+
+
+ . ISR addresses are made easy to store and keep track of in the four-byte CS:IP form
+     (i.e., as segment:offset pairs) when monitoring memory in hex dumps :
+
+      +-------------------------------------------------------------------+
+      |	RAM_addr	90 01 00 F4 D0 01 00 F4 - A0 01 00 F4 B0 01 00 F4 |
+      +-------------------------------------------------------------------+
+
+
+
+
+      +---------------------------------------------------+
+      |	90 01 00 F4 D0 01 00 F4 - A0 01 00 F4 B0 01 00 F4 |
+      +---------------------------------------------------+
+
+
+
+      +-------------------------------------------------------------------+
+      |	0000:0040	90 01 00 F4 D0 01 00 F4 - A0 01 00 F4 B0 01 00 F4 |
+      +-------------------------------------------------------------------+
+
+      +-------------------------------------------------------------------+
+      |	0000:0000	70 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4 |
+      |	0000:0010	80 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4 |
+      |	0000:0020	00 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4 |
+      |	0000:0030	00 01 00 F4 00 01 00 F4 - 00 01 00 F4 00 01 00 F4 |
+      |	0000:0040	90 01 00 F4 D0 01 00 F4 - A0 01 00 F4 B0 01 00 F4 |
+      |	0000:0050	70 01 00 F4 E0 01 00 F4 - C0 01 00 F4 00 04 00 F4 |
+      |	0000:0060	70 01 00 F4 00 00 FF FF - 60 01 00 F4 00 01 00 F4 |
+      |	0000:0070	70 01 00 F4 00 01 00 F4 - C7 AF 00 F4 00 01 00 F4 |
+      +-------------------------------------------------------------------+
+
+
+========================================================================================
+HOW AN INTERRUPT VECTOR LEADS TO AN ISR - THE STEPS 
+========================================================================================
+
+ (1) the interrupt vector , say 0x16 , is used to compute a memory location 
+ 
+
+fixed location in memory that holds the ISR address
+  that can change from time to time.
+  |
+  => Hence the double (indirect) dereferencing - the interrupt vector is fixed , ISR address
+     can be dynamically assigned or relocated. 
+
+_

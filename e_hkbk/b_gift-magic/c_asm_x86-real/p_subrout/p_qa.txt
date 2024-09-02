@@ -1,0 +1,10 @@
+
+========================================================================================
+QUESTIONS YOU ARE EXPECTED TO BE ABLE TO ANSWER BY NOW : 
+========================================================================================
+
+Q : Why the need for double (indirect) dereferencing to get to a service routine ?
+A : The service routine may be relocated from time to time , so we need a fixed address
+    that would hold the routine's ever-changing address. 
+
+_

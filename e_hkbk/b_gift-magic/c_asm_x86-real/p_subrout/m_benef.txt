@@ -1,0 +1,15 @@
+
+========================================================================================
+OBVIOUS BENEFITS OF HAVING IVT : 
+========================================================================================
+
+ . IVT is based at 0x00 , the bottom of the system's total memory 
+   => this makes computation of IVT offsets very easy without the system ever having to deal
+      with additional offsetting
+   => with the flexible double dereferencing and having IVT sitting at 0x0 , this makes
+      for a rather elegant ISR addressability
+
+ . ISR CS:IPs are too long to memorize. Knowing just the short interrupt vectors does help
+   a good deal. 
+
+_

@@ -1,0 +1,45 @@
+
+========================================================================================
+INTERRUPT VECTOR TABLE - WITH INDEXED VECTORS LEADING TO SERVICES 
+========================================================================================
+
+In an interrupt vector table all ISR CS:IPs are populated LSB-to-MSB (assuming little-endian) ,
+  with the LSB taking the "location" - the OFFSET - of the CS:IP within the IVT :
+  
+
+
+      	     	 	00h -int0   04h -int1	  08h -int2   0Ch -int3
+			v   	    v		  v   	      v
+      +-------------------------------------------------------------------+
+      |	0000:0000	xx xx xx xx xx xx xx xx - xx xx xx xx xx xx xx xx |
+      +-------------------------------------------------------------------+
+      
+			10h -int4   14h -int5	  18h -int6   1Ch -int7
+			v   	    v		  v   	      v
+      +-------------------------------------------------------------------+
+      |	0000:0010	xx xx xx xx xx xx xx xx - xx xx xx xx xx xx xx xx |
+      +-------------------------------------------------------------------+
+      
+      			      	       	     	  58h - our kbd svcs here
+      			      	       	     	  v
+      +-------------------------------------------------------------------+
+      |	0000:0050	xx xx xx xx xx xx xx xx - xx xx xx xx xx xx xx xx |
+      +-------------------------------------------------------------------+
+
+
+
+In assembly , we do not write the IVT offsets for the variable CS:IPs of desired service
+  routines. We write their indices.
+  |
+  . Since there are 256 interrupt CS:IPs in IVT , the range of interrupt offset indices
+  |   is 0-255 , or [0x00 -> 0xFF].
+  |   
+  . Yes , as you can see , in assembly we write these interrupts (a.k.a. INTERRUPT VECTORS)
+      as indices in hexadecimal.
+
+
+Because of (1) the interrupt vector indexing and (2) every CS:IP being 32-bit (four-byte) ,
+  the interrupt vector in the source code is multiplied by 4 to get the service routine CS:IP's
+  offset in IVT. 
+
+_

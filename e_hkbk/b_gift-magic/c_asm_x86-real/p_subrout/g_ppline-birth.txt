@@ -1,0 +1,44 @@
+
+========================================================================================
+WHY NOT SIMPLY WRITE ISR ADDRESS IN THE SOURCE CODE ? 
+========================================================================================
+
+Let's say we are working with a legacy system where ISRs are fixed in memory. That would
+  mean that we could have an assembly language flavor that would allow us to write exact
+  addresses of the ISRs directly in the source code. 
+
+"
+An ISR might be relocated to OPTIMIZE MEMORY USAGE, avoid conflicts, or accommodate changes
+  in the system’s memory layout or architecture.
+"
+
+ => legacy systems : it was decided that every ISR always gets the same address 
+ => modern systems : ISRs would be dynamically positioned and relocated within memory 
+
+########################################################################################
+################## So what if we do want our ISRs to be relocatable ? ##################
+########################################################################################
+
+
+========================================================================================
+HOW DO WE KEEP TRACK OF AND LOCATE SERVICE ROUTINES ? 
+========================================================================================
+
+Dynamically (re)assigned ISR addresses. 
+
+An ISR can be relocated 
+ => its base CS:IP can change at any time
+ => we need to be able to keep track of that address within a different , fixed CS:IP 
+
+       	       	       	       	     	     	  0x 0x 0x 0x
+       	       	       	       	     	     	  58 59 5A 5B
+      +-------------------------------------------------------------------+
+      |	0000:0050	70 01 00 F4 E0 01 00 F4 - xx xx xx xx 00 04 00 F4 |
+      +-------------------------------------------------------------------+
+
+ => if we want to use a specific system service , we should target the correct fixed CS:IP
+ 
+  . the fixed 32-bit (four-byte) CS:IPs that lead to the service routines are all grouped
+      together in an INTERRUPT VECTOR TABLE 
+
+_

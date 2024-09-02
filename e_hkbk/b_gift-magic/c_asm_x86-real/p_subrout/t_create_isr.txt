@@ -3,13 +3,20 @@
 HOW TO WRITE YOUR OWN INTERRUPT : 
 ========================================================================================
 
- . check out the IVT
+ (1) check out the IVT
  
- . pick an address (in four-byte form , ideally one that isn't used)
-   . 
+ (2) pick a CS:IP (ideally one that isn't used) 
+     . figure out its offset
+     -> convert hex offset to decimal
+     -> convert the offset to interrupt vector in decimal 
+     -> convert the interrupt vector to hex
 
- . write your own ISR as a subroutine
-   . `iret` 
+ (3) change the CS:IP under the offset to whatever you like 
+
+ (4) write your own ISR as a subroutine
+     . use the `org` directive for correct placement of your ISR
+     . write the body of the routine 
+     . end it with `iret` 
 
 
 ========================================================================================

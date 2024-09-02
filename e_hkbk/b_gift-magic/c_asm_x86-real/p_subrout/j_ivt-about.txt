@@ -34,7 +34,7 @@ In assembly , we do not write the IVT offsets for the variable CS:IPs of desired
   . Since there are 256 interrupt CS:IPs in IVT , the range of interrupt offset indices
   |   is 0-255 , or [0x00 -> 0xFF].
   |   
-  . Yes , as you can see , in assembly we write these interrupts (a.k.a. INTERRUPT VECTORS)
+  . Yes , as you can see , in assembly we write these "interrupts" , a.k.a. INTERRUPT VECTORS , 
       as indices in hexadecimal.
 
 

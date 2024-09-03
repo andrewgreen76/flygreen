@@ -47,6 +47,8 @@ ADDITIONAL INFO ABOUT IVT
 ========================================================================================
 
  . 256 interrupts * 4 bytes/int = 1024B = 1KB is the amount of memory IVT takes (0 -> 0x3FF)
- . the master copy of IVT is stored in ROM along with firmware 
+ . the master copy of IVT is stored in ROM along with firmware
+ . more recent systems have protection against direct control over IVT (memory protection)
+   . in addition they use an interrupt descriptor table (IDT) for handling interrupts 
 
 _

@@ -29,6 +29,7 @@ Alignment :
 
 
 Alignment value :
- . 
+ . "An alignment value is a specific number of bytes to which data or instructions must be
+    aligned in memory, ensuring efficient access and compliance with hardware requirements."
 
 _

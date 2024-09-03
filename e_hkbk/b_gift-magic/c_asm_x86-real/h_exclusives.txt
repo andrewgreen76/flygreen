@@ -1,4 +1,0 @@
-
-The ability to monitor and amend CS:IPs in the IVT is exclusive to the real mode. 
-
-_

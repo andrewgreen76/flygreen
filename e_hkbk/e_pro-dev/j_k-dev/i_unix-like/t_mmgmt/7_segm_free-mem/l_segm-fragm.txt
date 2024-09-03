@@ -1,10 +1,11 @@
 
 Internal fragmentation :
-. too much free memory in an address space.
+. memory allocated within address space > memory requested , which is due to byte padding
+=> we have memory wasted with byte padding 
 
 Segmentation :
 . segments of the same address space can be populated in different places across physical memory
-. this should allow the kernel populate processes that do not hold memory hostage between the stack and the heap
+. this should allow the kernel to populate processes that do not hold memory hostage between the stack and the heap
 . MMU should have a register pair for every segment
 . segmentation is fast because address translation is simple 
 

@@ -1,0 +1,5 @@
+
+The ability to monitor and amend CS:IPs in the IVT is exclusive to the real mode.
+  This is due to the memory protection feature in the protected and long modes. 
+
+_

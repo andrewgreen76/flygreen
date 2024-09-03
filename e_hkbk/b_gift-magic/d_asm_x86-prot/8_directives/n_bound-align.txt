@@ -4,10 +4,29 @@ BOUNDARY , ALIGNMENT , etc.
 ========================================================================================
 
 Boundary :
- .
+ |
+ . One part of the process of building a program is the system and its utilities storing 
+ |   metadata and important information about source code in individual chunks of binary
+ |   files. These chunks are called FIELDS and each field has its own BOUNDARY , the location
+ |   where this field ends and the next one begins. 
+ |
+ . Fields have boundaries so that the system and the utilities would know where every
+ |   specific field is. 
+ |
+ . The system maps out the fields by following certain schemes of building those binary files. 
+ |
+ . Such things can be easily inspected in hex dumps. 
+
 
 Alignment :
- .
+ . a.k.a. boundary alignment
+ . a.k.a. byte padding
+ . this is simply to fill in unused byte addresses in a field (with 00s) before reaching
+   the next field
+   - boundary alignment overhead
+   + without boundary alignment unused addresses would be saved but fields would be jam-packed
+     and the system would have to work to zero in on the field of interest 
+
 
 Alignment value :
  . 

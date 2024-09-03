@@ -43,14 +43,17 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-Legacy assembly programming :
+Legacy (real-mode) assembly programming :
  . emu8086 vs. DOSBox vs. actual DOS
  . BIOS calls vs. DOS calls
  . SI and DI registers
  . data segment vs. extra segment
- . proper linear scanning of bytes within a buffer
+ . proper linear scanning of bytes within a buffer 
  . optimization heuristics
- . real-mode memory segmentation 
+ . real-mode memory segmentation
+ . endiannesses
+ . monitoring and amending bytes in memory 
+ . using and creating interrupts 
 
 Raw binary images of :
   (1) BIOS

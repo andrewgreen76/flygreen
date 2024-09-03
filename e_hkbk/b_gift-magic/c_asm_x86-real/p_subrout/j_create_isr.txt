@@ -4,19 +4,29 @@ HOW TO WRITE YOUR OWN INTERRUPT :
 ========================================================================================
 
  (1) check out the IVT
- 
- (2) pick a CS:IP (ideally one that isn't used) 
+
+
+ (2) pick an offset / CS:IP (ideally one that isn't used/duplicated) 
      . figure out its offset
      -> convert hex offset to decimal
      -> convert the offset to interrupt vector in decimal 
-     -> convert the interrupt vector to hex
+     -> convert the interrupt vector to hex ; that will be your int_vector 
 
- (3) change the CS:IP under the offset to whatever you like 
 
- (4) write your own ISR as a subroutine
-     . use the `org` directive for correct placement of your ISR
-     . write the body of the routine 
+ (.) write your own interrupt service handler as a routine separate from the main code 
+     . write the body of the routine under its own label in your source code 
      . end it with `iret` 
+
+
+ (.) change the CS:IP under the chosen offset to the location of your own handler : 
+     |
+     . the label will signify {the address of the first instruction of your handler =
+     |  = address of your handler}
+     |
+     -> mov [0xUV] , int_handler_label		; This changes the IP.
+     -> mov [0xUV+2] , cs			; This changes the CS.
+     	    	       				; The handler code is always written into our
+						; custom code segment. 
 
 
 ========================================================================================

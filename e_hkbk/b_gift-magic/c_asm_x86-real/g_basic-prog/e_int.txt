@@ -14,6 +14,8 @@ INTERRUPT SERVICE ROUTINE (ISR)
  . an implementation , typically written in assembly , that leverages the services of
      an OS or a device via firmware (for video , for keyboard , etc.) 
 
+ . a.k.a. INTERRUPT HANDLER
+ 
 
 ========================================================================================
 INTERRUPT VECTOR : 

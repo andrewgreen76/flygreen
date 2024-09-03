@@ -1,7 +1,7 @@
 
 Internal fragmentation :
-. memory allocated within address space > memory requested , which is due to byte padding
-=> we have memory wasted with byte padding 
+ . memory allocated within address space > memory requested , which is due to byte padding
+ => we have memory wasted with byte padding 
 
 Segmentation :
 . segments of the same address space can be populated in different places across physical memory

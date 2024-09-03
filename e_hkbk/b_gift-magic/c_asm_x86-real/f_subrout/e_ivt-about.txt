@@ -42,4 +42,11 @@ Because of (1) the interrupt vector indexing and (2) every CS:IP being 32-bit (f
   the interrupt vector in the source code is multiplied by 4 to get the service routine CS:IP's
   offset in IVT. 
 
+========================================================================================
+ADDITIONAL INFO ABOUT IVT 
+========================================================================================
+
+ . 256 interrupts * 4 bytes/int = 1024B = 1KB is the amount of memory IVT takes (0 -> 0x3FF)
+ . the master copy of IVT is stored in ROM along with firmware 
+
 _

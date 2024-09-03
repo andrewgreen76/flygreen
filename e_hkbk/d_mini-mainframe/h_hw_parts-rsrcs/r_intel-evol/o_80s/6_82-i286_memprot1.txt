@@ -4,10 +4,15 @@ INTEL 80286 - INCLUSIONS AND INNOVATIONS :
 ========================================================================================
 
  . memory management
+ |
  . protected mode
- | . memory (wide) protection
+ | . MEMORY PROTECTION
+ |   + MEMORY SEGMENTATION
+ |   + ACCESS RIGHTS (permissions) 
+ |
  | . multitasking
  | . virtual memory support (up to 1 GB segmentation)
+ |
  . MMU (on-die) 
  |
  . 24 bits for addressing 
@@ -24,7 +29,6 @@ INTEL 80286 - OVERVIEW :
 ========================================================================================
 
  . released in 1982
-
 
 
 Has the following :

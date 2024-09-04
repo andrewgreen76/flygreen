@@ -23,6 +23,9 @@ Quantum mechanics does not cover actual physical measurements ; that is the conc
   . when an actual measurement is taken , we say that the qubit "COLLAPSES INTO ONE OF
       THOSE TWO STATES." 
 
+"
+Quantum computing principles are actionable as they DRIVE THE DEVELOPMENT OF ALGORITHMS AND HARDWARE THAT CAN SOLVE PROBLEMS EXPONENTIALLY FASTER than classical computers, potentially transforming industries like data analysis and drug discovery.
+"
 
 ========================================================================================
 WHAT WE EXAMINE WITH QUANTUM MECHANICS 

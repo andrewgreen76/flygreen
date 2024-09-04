@@ -2,6 +2,7 @@
 ========================================================================================
 BITS VS. QUBITS 
 ========================================================================================
+
 "
 Physically, a qubit can be implemented using various technologies, such as TRAPPED IONS or SUPERCONDUCTING CIRCUITS, which allow it to hold and process information in ways that are fundamentally different from classical bits, which are simply on or off.
 "

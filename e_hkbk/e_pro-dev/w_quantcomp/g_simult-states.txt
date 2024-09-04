@@ -1,0 +1,27 @@
+"
+For a qubit to have two states at the same time means it is in a superposition, where it simultaneously represents a blend of both the 0 and 1 states, with certain probabilities assigned to each.
+"
+
+
+"
+"A blend of both the 0 and 1 states" means that the qubit exists in a superposition where it is partially in the 0 state and partially in the 1 state simultaneously, with specific probabilities for each state until measured.
+"
+
+
+"
+In simpler terms, the qubit's state is not fixed by any physical measurement like voltage; instead, it exists in a state of potential outcomes until observed, where its exact value can be any mix of 0 and 1 based on quantum probabilities.
+"
+
+
+"
+The act of measurement forces a qubit to choose a definite state because it interacts with a measuring device, which collapses the superposition into one of the possible outcomes [ - 0 and 1].
+"
+
+========================================================================================
+========================================================================================
+========================================================================================
+
+"
+Quantum superposition is possible because quantum systems are described by wavefunctions that allow them to exist in a combination of multiple states, with the exact outcome only determined upon measurement, according to the principles of quantum mechanics.
+"
+_

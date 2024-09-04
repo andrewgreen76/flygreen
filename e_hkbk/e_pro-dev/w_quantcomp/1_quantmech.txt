@@ -1,0 +1,9 @@
+"
+Quantum mechanics is a branch of physics that studies the behavior of PARTICLES at the smallest scales, where the classical laws of physics give way to probabilistic and wave-like properties described by mathematical functions.
+"
+
+
+"
+The first physical application of quantum mechanics was the development of the semiconductor transistor, which relies on quantum principles to control ELECTRICAL CURRENTS in electronic devices.
+"
+_

@@ -1,0 +1,4 @@
+"
+[...] finished quantum processors include IBM's Quantum Eagle, Google's Sycamore, and D-Wave's Advantage, which are all operational quantum processors used for various quantum computing applications.
+"
+_

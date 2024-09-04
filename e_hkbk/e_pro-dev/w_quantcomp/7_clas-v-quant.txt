@@ -1,0 +1,34 @@
+
+========================================================================================
+UNDERSTANDING QUANTUM MECHANICS - HOW SOMETHING CAN EXIST IN TWO STATES AT THE SAME TIME 
+========================================================================================
+
+"
+Quantum mechanics is concerned with the probabilistic nature of quantum states and how they behave, DESCRIBING THE POTENTIAL OUTCOMES OF MEASUREMENTS RATHER THAN DETAILING THE EXACT NATURE OF REALITY AT A CLASSICAL LEVEL.
+"
+
+
+Quantum mechanics does not cover actual physical measurements ; that is the concern in
+  classical mechanics.
+  |
+  |
+  => quantum mechanics is purely THEORETICAL
+  |
+  . this is why in quantum mechanics something like a (theoretical) unit of information -
+  |  - the qubit - can EXIST IN TWO STATES SIMULTANEOUSLY
+  |
+  . we say that something (like a qubit) will REMAIN IN TWO STATES UNTIL AN ACTUAL
+  |   MEASUREMENT IS TAKEN
+  |
+  . when an actual measurement is taken , we say that the qubit "COLLAPSES INTO ONE OF
+      THOSE TWO STATES." 
+
+
+========================================================================================
+WHAT WE EXAMINE WITH QUANTUM MECHANICS 
+========================================================================================
+
+"
+[...] quantum mechanics describes probabilities and potential outcomes rather than deterministic realities; it provides a framework for understanding HOW PARTICLES BEHAVE at a fundamental level, which can seem abstract compared to classical physics.
+"
+_

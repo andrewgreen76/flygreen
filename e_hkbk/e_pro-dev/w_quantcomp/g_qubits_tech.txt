@@ -1,0 +1,34 @@
+
+========================================================================================
+BITS VS. QUBITS 
+========================================================================================
+"
+Physically, a qubit can be implemented using various technologies, such as TRAPPED IONS or SUPERCONDUCTING CIRCUITS, which allow it to hold and process information in ways that are fundamentally different from classical bits, which are simply on or off.
+"
+
+
+"
+With trapped ions and superconducting circuits, a qubit can be in states other than 'on' and 'off' by utilizing quantum properties that allow it to exist in a combination of multiple states simultaneously, represented by DIFFERENT ENERGY LEVELS OR OSCILLATIONS.
+"
+
+========================================================================================
+HOW ARE ENERGY LEVELS MEASURED ? 
+========================================================================================
+
+"
+Devices like superconducting quantum interference devices (SQUIDs) or LASER SYSTEMS are used to measure energy levels in qubits by detecting changes in electromagnetic properties or interactions with light.
+"
+
+
+"
+Energy levels in qubits are measured by observing the quantum system's response to external stimuli, such as lasers or electromagnetic fields, which can reveal the qubit's state through changes in its energy or interaction patterns.
+"
+
+========================================================================================
+HOW ARE OSCILLATIONS MEASURED ? 
+========================================================================================
+
+"
+Devices used to measure these oscillations include superconducting qubit circuits with Josephson junctions, and ion trap setups with laser systems for detecting quantum state transitions.
+"
+_

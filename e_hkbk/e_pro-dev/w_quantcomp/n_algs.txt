@@ -1,0 +1,9 @@
+
+========================================================================================
+QUANTUM COMPUTING ALGORITHMS 
+========================================================================================
+
+"
+Algorithms such as Shor's algorithm for factoring large numbers and Grover's algorithm for searching unsorted databases are central to quantum computing, demonstrating its potential to outperform classical approaches in specific tasks.
+"
+_

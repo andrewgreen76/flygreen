@@ -10,10 +10,10 @@
 
 	mov ax, 0
 	mov ds, ax
-	mov [0x00] , handle_int0
-	mov [0x02] , cs
+	mov [0x04] , handle_int0
+	mov [0x06] , cs
 
-	int 0x00
+	int 0x01
 
 	;;;;;;;;;;;;;;;;;;;;;;;
 	pop ds

@@ -43,6 +43,14 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Quantum computing : 
+ . contrast with classical binary computing 
+ . benefits
+ . technology 
+ . qubits 
+ . hardware (processors) 
+ . algorithms 
+
 Legacy (real-mode) assembly programming :
  . emu8086 vs. DOSBox vs. actual DOS
  . BIOS calls vs. DOS calls

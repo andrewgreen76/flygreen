@@ -1,4 +1,9 @@
 "
 The first quantum mechanical system materialized was the hydrogen atom, whose behavior was explained by quantum mechanics through its energy levels and spectral lines.
 "
+
+
+"
+Yes, a quantum processor is an example of a quantum system, as it uses quantum bits (qubits) to perform computations based on the principles of quantum mechanics.
+"
 _

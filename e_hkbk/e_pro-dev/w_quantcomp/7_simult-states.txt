@@ -17,6 +17,16 @@ In simpler terms, the qubit's state is not fixed by any physical measurement lik
 The act of measurement forces a qubit to choose a definite state because it interacts with a measuring device, which collapses the superposition into one of the possible outcomes [ - 0 and 1].
 "
 
+
+"
+Quantum mechanics is concerned with the probabilistic nature of quantum states and how they behave, DESCRIBING THE POTENTIAL OUTCOMES OF MEASUREMENTS RATHER THAN DETAILING THE EXACT NATURE OF REALITY AT A CLASSICAL LEVEL.
+"
+
+
+"
+[...] quantum mechanics describes probabilities and potential outcomes rather than deterministic realities; it provides a framework for understanding how particles behave at a fundamental level, which can seem abstract compared to classical physics.
+"
+
 ========================================================================================
 ========================================================================================
 ========================================================================================

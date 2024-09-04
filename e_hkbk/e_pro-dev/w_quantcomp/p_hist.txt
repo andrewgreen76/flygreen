@@ -1,0 +1,4 @@
+"
+The history of quantum computing begins in the 1980s with pioneering work by Richard Feynman and David Deutsch, who conceptualized the idea of quantum computers and their ability to solve problems beyond the reach of classical computers.
+"
+_

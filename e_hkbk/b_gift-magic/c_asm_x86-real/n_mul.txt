@@ -1,0 +1,7 @@
+
+5,550 * 20 = 111,000 = 0x0001B198 (0x0001 in DX and 0xB198 in AX) 
+
+mul - unsigned multiply
+imul - signed multiply 
+
+_

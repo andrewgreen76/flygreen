@@ -1,0 +1,11 @@
+
+CF - carry		- MSb carry (from addition) or borrow (from subtraction) from last arithm. op 
+ZF - zero 		- Is the result of the last arithmetic operation zero ? 
+SF - sign 		- 0 for positive , 1 for negative 
+OF - overflow 		- can't fit the number in memory under a certain data type 
+PF - parity 		- 1 for even , 0 for odd 
+AF - auxiliary 		- a carry from the least significant nibble into the higher nibble 
+IF - interrupt enable 	- raised to enable maskable interrupts 
+DF - direction 		- 1 for increment (move forward) , 0 for decrement (move backwards) 
+
+_

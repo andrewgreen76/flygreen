@@ -1,0 +1,7 @@
+
+ja = jg 
+jb = jl 
+jae = jge 
+jbe = jle 
+
+_

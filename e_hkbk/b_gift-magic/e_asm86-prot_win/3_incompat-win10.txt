@@ -1,4 +1,8 @@
 
+Most recent versions of NASM and Mingw do not work on Windows 10. Use Windows 11 instead. 
+
+============================================================================================
+
 C:\Users\xxx>nasm
 This version of C:\Program Files\NASM\nasm.exe is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
 

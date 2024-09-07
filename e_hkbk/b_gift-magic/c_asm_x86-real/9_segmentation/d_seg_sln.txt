@@ -22,10 +22,10 @@ Therefore , we write :
 	--------------------------------------------------------------
 	mov ax , 0xA000	        ; the address of the framebuffer 
 	--------------------------------------------------------------
-	mov ds , ax		; DS is used to hold the address of an I/O buffer segment 
+	mov ds , ax		; DS is used to hold the address of an input buffer segment 
 	mov si , 0xF9FF		; and SI is used to hold the offset from DS. 
 	--------------------------------------------------------------
-	mov es , ax 	        ; ES is used to hold the address of the other I/O buffer segment 
+	mov es , ax 	        ; ES is used to hold the address of the output buffer segment 
 	mov di , 0xF9FF		; and DI is used to hold the offset from ES. 
 	--------------------------------------------------------------
 

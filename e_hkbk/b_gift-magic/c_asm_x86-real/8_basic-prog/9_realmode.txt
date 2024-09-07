@@ -30,6 +30,9 @@ Real mode :
  |  . there's a chance that a process may access the memory allocated for another process
  |  . this is a security and stability problem 
  |
+ . "... real mode is a ... mode THAT ALL MODERN PROCESSES START IN BEFORE THE OPERATING
+ |  SYSTEM BOOTS" 
+ |
  . no multitasking
  . direct access to hardware 
 

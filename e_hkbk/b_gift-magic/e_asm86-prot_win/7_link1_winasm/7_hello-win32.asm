@@ -15,7 +15,7 @@ _main:
 					
 			; `add` is used instead of `pop` because "_printf is responsible for 
 			;   popping its own arguments off the stack" , but SP has to be manually 
-			;   adjusted in _main. POPPING IS IMPLICIT , SP ADJUST WILL HAVE TO BE EXPLICIT. 
+			;   adjusted in _main. POPPING IS IMPLICIT , SP ADJUSTMENT WILL HAVE TO BE EXPLICIT. 
 					
 	ret		; Exit.
 

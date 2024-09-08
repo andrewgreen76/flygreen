@@ -1,0 +1,10 @@
+
+THE STACK'S INTERNAL POINTER. Allows us to : 
+ . navigate the stack 
+ . monitor values 
+ . change values within it
+ |
+ . We could totally do those things with the knowledge of where SP is at ,
+     so in that respect BP is like an extra register. 
+
+_

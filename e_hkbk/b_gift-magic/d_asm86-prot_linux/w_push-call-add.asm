@@ -1,3 +1,4 @@
+
         global _start
         extern printf
 
@@ -17,9 +18,11 @@ _start:
 
 _main:
         ; Print the message
-        push message
+        push message		
         call printf
         add esp, 4
 
         ; Return to _start
         ret
+
+	;; 

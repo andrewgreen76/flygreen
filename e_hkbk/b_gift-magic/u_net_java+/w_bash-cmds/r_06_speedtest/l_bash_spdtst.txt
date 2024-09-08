@@ -1,4 +1,5 @@
 
+"
 User
 What is the bash command for internet speed lookup?
 ChatGPT
@@ -38,4 +39,5 @@ fast
 This will start the speed test and show your download speed.
 
 These tools provide a convenient way to measure your internet speed from the command line. Keep in mind that the actual internet speed may vary due to various factors, including network congestion, server load, and your network configuration.
-
+"
+_

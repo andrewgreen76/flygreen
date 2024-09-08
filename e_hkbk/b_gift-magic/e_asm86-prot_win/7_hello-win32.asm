@@ -1,10 +1,8 @@
 
-; _underscore is used to differentiate custom labels for the project
-;; from the similar , standard labels expected by the system ,
-;; such as `main` and `printf`.
+; _underscore is used to differentiate asm src labels from C tokens (such as `main` and `printf`).
 
-	global _main 	; _main is visible to the outside (in project development). 
-	extern _printf 	; _printf is visible to this program (from elsewhere in this project). 
+	global _main 	; asm directive for OMNIVISIBILITY : _main is visible to the outside (in project development). 
+	extern _printf 	; asm directive for INWARD INCLUSION : _printf is visible to this program (from elsewhere in this project). 
 			; _printf is of the C library. 
 
 	section .text 	

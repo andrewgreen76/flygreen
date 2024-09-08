@@ -1,9 +1,17 @@
 
+/*****************************************************
+	PRE-LINKING VISIBILITY AND INCLUSION 
+*****************************************************/
+
 ; _underscore is used to differentiate asm src labels from C tokens (such as `main` and `printf`).
 
 	global _main 	; asm directive for OMNIVISIBILITY : _main is visible to the outside (in project development). 
 	extern _printf 	; asm directive for INWARD INCLUSION : _printf is visible to this program (from elsewhere in this project). 
 			; _printf is of the C library. 
+
+/*****************************************************
+	PUSHING DATA AS ARGS 
+*****************************************************/
 
 	section .text 	
 _main: 

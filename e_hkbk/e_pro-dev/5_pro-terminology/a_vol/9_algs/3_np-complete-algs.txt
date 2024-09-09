@@ -1,0 +1,6 @@
+
+ ? no polynomial algorithms ?
+ . "... all the known algorithms to give you the best solutions are exponential"
+ . polynomial heuristics 
+
+_

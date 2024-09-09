@@ -1,0 +1,6 @@
+
+(1) reason for pushing data/addr is to simply PRESERVE IT AS PART OF A COMPUTATION. 
+
+(2) reason for pushing values is to CAPTURE THE STATE OF THE PROCESS. 
+
+_

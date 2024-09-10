@@ -1,4 +1,11 @@
 
+;;; Every stack frame is a call/procedure/scope.
+;;; New srout call
+;;;   => new stack frame
+;;;   => more pushing/popping 
+;;;   => another BP
+;;;   => another frame of reference for monitoring/looking up/changing values within a scope. 
+	
 ;;; Stack frame structure (build) :
 ;;;  . N pushes params for N+1 last to first  <->  push in-caller post-call (ret) IP
 ;;;  . N+1 new srout loc vars pushed top down 
@@ -14,13 +21,14 @@
 	push ebp            ; Save the old base pointer onto the stack
 	mov ebp, esp        
 	;; The expectation is that BP would be manipulated (for changing things around
-	;;   the scope/stack)  but SP would remain the same. 
+	;;   the scope/stack) but SP would remain the same. 
 /*########################################################################################*/
 /*########################################################################################*/
 /*########################################################################################*/
 	
 	; ... (code to use the new stack frame goes here)
-
+	;; Let's start with calling a srout that does nothing. 
+	
 /*########################################################################################*/
 /*#################################### EPILOGUE CODE #####################################*/
 /*############################# Restore the old stack frame ##############################*/

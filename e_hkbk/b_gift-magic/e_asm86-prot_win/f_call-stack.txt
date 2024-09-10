@@ -1,0 +1,5 @@
+
+ . a.k.a. machine stack
+ . a.k.a. execution stack 
+
+_

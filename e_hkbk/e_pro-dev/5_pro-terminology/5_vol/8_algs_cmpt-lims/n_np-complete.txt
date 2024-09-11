@@ -1,0 +1,9 @@
+
+========================================================================================
+NP-COMPLETE PROBLEM - CRITERIA 
+========================================================================================
+
+"
+Yes, for NP-complete problems, exact solutions can be computationally infeasible for large instances, so heuristics or approximate algorithms are often used to find good enough solutions within reasonable time limits.
+"
+_

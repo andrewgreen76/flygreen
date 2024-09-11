@@ -1,0 +1,14 @@
+
+========================================================================================
+WHY DO WE VERIFY PROBLEMS ? 
+========================================================================================
+
+"
+Verifying a problem matters because it ensures that a solution is correct and meets the specified criteria efficiently, which is crucial for assessing the practicality and reliability of computational results.
+"
+
+
+"
+Historically, the necessity of verifying problems became prominent with the development of formal logic and computational theory in the 20th century, particularly with the work of mathematicians and computer scientists like Kurt Gödel and Alan Turing.
+"
+_

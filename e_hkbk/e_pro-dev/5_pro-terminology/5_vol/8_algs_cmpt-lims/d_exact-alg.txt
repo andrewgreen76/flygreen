@@ -1,0 +1,4 @@
+"
+An exact algorithm is one that provides a precise and correct solution to a problem, guaranteeing optimal results within a finite amount of time.
+"
+_

@@ -1,0 +1,44 @@
+
+========================================================================================
+WHY THE DEBATE OVER COMPUTATIONAL COMPLEXITY ? 
+========================================================================================
+
+"
+The debate exists because understanding problem complexity and solution verification is fundamental to IMPROVING ALGORITHMS, optimizing performance, and addressing real-world computational challenges. It helps in DISTINGUISHING BETWEEN FEASIBLE AND INFEASIBLE PROBLEMS, guiding research and practical applications in computer science.
+"
+
+
+"
+We can achieve some goals without deeply analyzing problem complexity, but understanding it helps in making more informed decisions about algorithm design, resource allocation, and problem-solving strategies, ultimately leading to more efficient and scalable solutions.
+"
+
+
+ !!! Thinking about these things is IMPORTANT IN THE CONTEXT OF WORKING ON PROFESSIONAL PROJECTS
+       where the product is meant for other people - the employer and the customers.
+
+ !!! This is not just a question of "Is this fast ?" This is a question of "Is this fast enough
+       for everyone ?" 
+
+
+"
+Understanding problem complexity is crucial for selecting the right algorithms and optimizing performance. For example, in route planning for GPS navigation, knowing that a problem like finding the shortest path in a large network can be solved efficiently with Dijkstra's algorithm (O(n^2) complexity) versus using A* algorithm with heuristics (more efficient for large-scale networks) helps in delivering timely and accurate directions to users. This understanding guides the choice of algorithm to ensure quick and scalable solutions.
+"
+
+
+========================================================================================
+IMPORTANCE OF ALGORITHM ANALYSIS IN THE CONTEXT OF SYSTEM ENGINEERING 
+========================================================================================
+
+"
+In system engineering, such as OS kernel development, understanding problem complexity is essential for designing efficient memory management systems. For example, consider the implementation of page replacement algorithms for virtual memory. Knowing that algorithms like Least Recently Used (LRU) have a complexity of O(n) for maintaining the list of pages helps developers choose or optimize algorithms to balance performance and resource usage, ensuring that memory management is both effective and responsive under varying workloads.
+"
+
+
+========================================================================================
+IMPORTANCE OF ALGORITHM ANALYSIS IN THE CONTEXT OF GAME DEVELOPMENT 
+========================================================================================
+
+"
+In game development, understanding problem complexity is crucial when designing AI for non-player characters (NPCs). For example, pathfinding algorithms like A* are used to navigate complex game environments. Knowing that A* has a time complexity of O(b^d) helps developers anticipate and manage performance for large maps, ensuring that NPCs move intelligently without causing lag or slowing down the game.
+"
+_

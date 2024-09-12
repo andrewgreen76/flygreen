@@ -1,0 +1,13 @@
+"
+The convention I described is based on the standard calling conventions for x86 architecture, but there are indeed variations and nuances depending on the specific calling convention used (e.g., cdecl, stdcall) and the compiler's implementation.
+
+To clarify:
+
+1. **Return Address**: Automatically pushed onto the stack by the `CALL` instruction.
+2. **Parameters**: Pushed by the caller before the `CALL` instruction.
+3. **Old EBP**: Pushed by the callee in its prologue to save the caller’s frame pointer.
+4. **Local Variables**: Space for local variables is reserved by adjusting the stack pointer in the callee's prologue.
+
+If there are discrepancies with other sources, it's possible they are referring to different calling conventions or specific implementations. It’s always a good idea to check the calling conventions used by your specific compiler or development environment.
+"
+_

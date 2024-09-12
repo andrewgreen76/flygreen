@@ -1,9 +1,6 @@
 
 ;;; Every stack frame helps keep track of the currently active subroutine (program flow). 
 ;;; Every stack frame means a call for a deeper scope.
-
-;;; Base Pointer : 
-;;;  . a frame of reference for monitoring/looking up/changing values within a scope. 
 	
 ;;; Stack frame structure (build) :
 ;;;  .  caller-to-callee params , last to first
@@ -31,6 +28,9 @@
 	
 	;; Let's start studying stack frames with calling an arg-less srout that does nothing.
 	;; So it's just the caller's CS:EIP. 
+
+;;; Base Pointer : 
+;;;  . a frame of reference for monitoring/looking up/changing values within the scope. 
 	
 /*########################################################################################*/
 /*#################################### EPILOGUE CODE #####################################*/

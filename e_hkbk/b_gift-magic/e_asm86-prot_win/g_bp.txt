@@ -4,7 +4,8 @@ THE STACK'S INTERNAL POINTER. Allows us to :
  . monitor values 
  . change values within it
  |
- . We could totally do those things with the knowledge of where SP is at ,
-     so in that respect BP is like an extra register. 
+ . We could totally do those things with the knowledge of where SP is at. 
+     However , SP can change , mostly due to dynamic memory allocation ,
+     but BP will never change for as long as we are using the stack frame. 
 
 _

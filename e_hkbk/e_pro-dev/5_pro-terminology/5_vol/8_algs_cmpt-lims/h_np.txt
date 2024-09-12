@@ -1,0 +1,9 @@
+
+========================================================================================
+WHY CARE ABOUT NP ? 
+========================================================================================
+
+"
+NP (Nondeterministic Polynomial time) refers to a class of problems for which a solution can be verified quickly (in polynomial time) by a deterministic algorithm, though finding the solution itself may be difficult.
+"
+_

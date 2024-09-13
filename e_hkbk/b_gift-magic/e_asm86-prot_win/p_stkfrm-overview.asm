@@ -37,6 +37,6 @@
 /*################ Tear down this stack frame , go back to the older one ##################*/
 /*########################################################################################*/
 
-	;; First , free the stack frame. Then do the rest : 
-	mov esp, ebp        
+	;; First , free the stack frame. Then do the rest :
+	;; mov esp, ebp - UNNECESSARY. THE COMPILER WILL DO IT DURING MEMORY RELEASE.         
 	pop ebp             

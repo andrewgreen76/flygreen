@@ -1,0 +1,15 @@
+
+========================================================================================
+DIRECT VS. IMPLICIT - PUSHING ONTO THE STACK 
+========================================================================================
+
+Direct pushing : 
+ . "involves explicitly using instructions like `push` to place data onto the stack"
+ . i.e., implemented 
+
+Implicit pushing :
+ . "occurs automatically as part of instructions like `call`, which save the return
+    address onto the stack without direct user intervention"
+ . i.e., abstracted 
+
+_

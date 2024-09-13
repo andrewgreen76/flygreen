@@ -1,5 +1,18 @@
 
-The stack management conventions depend "on the specific calling convention used (e.g., cdecl, stdcall) and the compiler's implementation." 
+========================================================================================
+DISCREPANCIES BETWEEN SOURCES ON THE SUBJECT OF STACK FRAME MANAGEMENT 
+========================================================================================
+
+Consider how a stack frame is created :
+ . pushing    old BP address 
+ . rerouting  BP 
+ . rerouting  SP 
+ . `mov`ing   parameters
+ . pushing    return address (implicitly) 
+ . `mov`ing   local variables
+
+How these pushed onto and popped off of the stack really depends "on the specific
+  calling convention used (e.g., cdecl, stdcall) and the compiler's implementation." 
 
 "
 If there are discrepancies with other sources, it's possible they are referring to different calling conventions or specific implementations. It’s always a good idea to check the calling conventions used by your specific compiler or development environment.

@@ -1,6 +1,10 @@
 
  (a) stick with pro-terminology (misc. terms) -or-
- (b) break up that dir into DS , algs , etc. 
+ (b) break up that dir into DS , algs , etc.
+
+igbati - 32-bit MASM 
+C compiler
+OS kernel 
 
 (ambiguous) radix characters 
 
@@ -9,11 +13,6 @@ Early computers and modern servers :
     . directly connects the CPU , the RAM , the storage , etc. 
  . backplane : 
     . connects the motherboard to boards/modules 
-
-tue, 27th, 9a-930a - orientation
- . boots ?
- . SSN card
- . it's Su-Th 
 
 (ELF) object file breakdown in these scenarios : 
  . do-nothing in asm 

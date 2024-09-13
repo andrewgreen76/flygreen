@@ -1,0 +1,26 @@
+
+The stack management conventions depend "on the specific calling convention used (e.g., cdecl, stdcall) and the compiler's implementation." 
+
+"
+If there are discrepancies with other sources, it's possible they are referring to different calling conventions or specific implementations. It’s always a good idea to check the calling conventions used by your specific compiler or development environment.
+"
+
+
+========================================================================================
+C DECLARATION
+========================================================================================
+
+"
+`cdecl` (C Declaration) is a calling convention in which the CALLER CLEANS UP THE STACK after the function call, and function parameters are pushed onto the stack from right to left.
+"
+
+
+========================================================================================
+STDCALL 
+========================================================================================
+
+"
+`stdcall` is a calling convention where the CALLEE CLEANS UP THE STACK after the function call, and function parameters are pushed onto the stack from right to left."
+
+
+_

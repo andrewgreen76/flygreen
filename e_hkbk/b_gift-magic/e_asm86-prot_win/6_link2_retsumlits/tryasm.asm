@@ -6,7 +6,8 @@ _my_asm:
 
 	push ebp		; SP is moved automatically 
 	mov ebp , esp   ; BP -> SP -> 
-	
+
+	;;  Creating a local scope : 
 	sub esp, 8    	; create a gap for two local ints ( sizeof(int) = 4 bytes ) 
 
 	mov dword[ebp-4], 30    ; byte = 8 bits @@@ word = 2 bytes = 16 bits @@@ dword = 4 bytes = 32 bits
@@ -16,6 +17,7 @@ _my_asm:
 	mov eax, dword[ebp-4]
 	add eax, dword[ebp-8]
 
+	;; Closing the local scope : 
 	add esp, 8  ; wind down , forget all vars 
 
 	pop ebp		; SP is moved automatically 

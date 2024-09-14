@@ -1,0 +1,13 @@
+
+The_100th_Ape - 3y ago
+
+========================================================================================
+
+"
+Round out your knowledge of communication protocols and how to interface with different types of sensors. Determine if you want to work on RF, analog, or digital circuits primarily.
+
+The skills learned in one CAD will carry over to the others. You will want to be specific on your resume though even if it is only familiarity with a program. Something like "I have opened [Insert CAD Name Here] and viewed schematics" can be enough to list the program on your resume.
+
+In my opinion, Mentor Graphics is a horrible program that needs to die that is for some reason still commonly used. Altium has a better interface and is easier to find support for.
+"
+_

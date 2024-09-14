@@ -1,0 +1,14 @@
+
+========================================================================================
+MISCELLANEOUS THINGS TO BE FAMILIAR WITH (THAT HAVE NOTHING TO DO WITH CPE) 
+========================================================================================
+
+AS9100 :
+ . aerospace industry 
+ . quality management system 
+
+Mil-Spec
+ . military standard
+ . see US Military Standards 
+
+_

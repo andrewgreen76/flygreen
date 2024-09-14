@@ -1,12 +1,33 @@
 
 ========================================================================================
-IPC AND CERTIFICATIONS 
+IPC , CERTIFICATIONS , etc. 
 ========================================================================================
 
-IPC standards :
+
+IPC standards : 
+ . IPC-J-STD-001GS space addendum 
+ . J-STD-001 Space Addendum
+ . IPC/WHMA-A-620 Space Addendum
+
+
+JEDEC standards : 
  . 
 
-Certifications :
- . 
 
+Certifications : 
+|
+"
+Similar certifications currently in demand include:
+
+1. **IPC-A-610**: Acceptability of Electronic Assemblies
+2. **IPC/WHMA-A-620**: Requirements and Acceptance for Cable and Wire Harness Assemblies
+3. **IPC-2221**: Generic Standard on Printed Board Design
+4. **IPC-7351**: Generic Requirements for Surface Mount Design and Land Pattern Standard
+5. **ISO/TS 16949**: Quality Management Systems for Automotive Production and Relevant Service Part Organizations
+6. **ISO 26262**: Functional Safety for Automotive Systems
+7. **AS9100**: Quality Management Systems for Aerospace
+8. **ISO 13485**: Quality Management Systems for Medical Devices
+
+These certifications are essential for ensuring high standards in manufacturing, assembly, and quality control across various industries, including electronics, automotive, and aerospace.
+"
 _

@@ -5,12 +5,13 @@ SKILLS
 
  . Altium circuit design
  . PCB layout
+ . flip chip IC package design 
  . component level troubleshooting
  . repair
  . high voltage DC to DC converters
  . transformer design
  . monitor and control logic/interfaces
- . switch mode PS design
+ . switch mode PS design 
  
 
 ========================================================================================
@@ -25,6 +26,8 @@ EXPERIENCE
 EDUCATION 
 ========================================================================================
 
- . BSEE or BSEET degree preferred.
+ . BSEE or BSEET degree preferred
+ . transmission line theory
+ . signal and power integrity fundamentals 
 
 _

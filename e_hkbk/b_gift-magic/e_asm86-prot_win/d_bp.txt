@@ -1,0 +1,13 @@
+
+The stack's INTERNAL pointer , A REFERENCE USED WITH OFFSETS TO :
+ |
+ . monitor values within the stack frame 
+ . write / change values within the stack frame
+
+
+ . We could totally do those things with the knowledge of where SP is at. 
+     However , SP can change , mostly due to dynamic memory allocation and
+     other unexpected pushes , but BP will never change for as long as
+     it points to the base of the same stack frame that SP points to the top of. 
+
+_

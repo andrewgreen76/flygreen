@@ -1,0 +1,4 @@
+"
+In hardware engineering, **CID** typically stands for **Component Identification** or **Component Identification Code**. It refers to a system or code used to uniquely identify and track individual components within a hardware system or across manufacturing and supply chains. CID codes help in managing inventory, ensuring compatibility, and tracking the lifecycle of components.
+"
+_

@@ -5,19 +5,23 @@ BREAKDOWN
 
 Start w/ caller subroutine : 
 
-    . compiling param.malloc.code in caller	sub esp , 8
-    . compiling to write param1 to stack	mov [esp+4] , 10
-    . compiling to write param0 to stack	mov [esp] , 5 
-
-    . `call _asm_srout`				push caller_ret_addr -> stack		// SP adjusted 
-
-        . prologue :
-	    . remember caller BP		push ebp				// SP adjusted
-	    . make callee frame addressable	mov ebp , esp
-
-        . callee's body code 			
-	
-	. epilogue : 
-        . `ret` from ___main			pop eip <- caller_ret_addr 
+    . compiling param.malloc.code in caller	+----> sub esp , 8			// malloc() 
+    . compiling to write param1 to stack	|      mov [esp+4] , 10
+    . compiling to write param0 to stack	|      mov [esp] , 5 
+      		   	 	   		|
+    . `call _asm_srout`				| +--> push caller_ret_addr -> stack	// SP adjusted 
+      	    					| |
+        . prologue : 				| |
+	  . remember caller BP			| | +> push ebp				// SP adjusted
+	  . make callee frame addressable	| | |  mov ebp , esp			// callee frame parts made addressable 
+	    	 	      			| | |
+        . callee's body code 			| | |  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	// subroutine's work 
+	  	   				| | |
+	. epilogue :				| | |
+	  . bring caller frame back in focus	| | +> pop ebp				// SP adjusted , BP adjusted 
+	  . `ret` from _asm_srout		| +--> pop eip <- caller_ret_addr	// SP adjusted
+	    	       				|
+    . compiled free(params) code in caller 	+----> add esp , 8			// free() 
+											// no need to actually wipe the arguments 
 
 _

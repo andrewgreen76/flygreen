@@ -13,12 +13,12 @@ Start w/ caller subroutine :
       	    					| |
         . prologue : 				| |
 	  . remember caller BP			| | +> push ebp				// SP adjusted
-	  . make callee frame addressable	| | |  mov ebp , esp			// callee frame parts made addressable 
+	  . make callee frame addressable	| | +> mov ebp , esp			// BP : callee frame parts made addressable 
 	    	 	      			| | |
         . callee's body code 			| | |  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	// subroutine's work 
 	  	   				| | |
 	. epilogue :				| | |
-	  . bring caller frame back in focus	| | +> pop ebp				// SP adjusted , BP adjusted 
+	  . bring caller frame back in focus	| | +> pop ebp				// SP adjusted , BP : caller parts made addressable  
 	  . `ret` from _asm_srout		| +--> pop eip <- caller_ret_addr	// SP adjusted
 	    	       				|
     . compiled free(params) code in caller 	+----> add esp , 8			// free() 

@@ -1,0 +1,18 @@
+
+ . `mov` does not support computation of source addresses , but `lea` does
+ . `mov` performs UNHINDERED value extraction
+ . NOTE : `lea` computes the source address and moves it into the destination register ,
+     but the source computation expression has to be in [] , as in "[esp+8]". 
+
+
+========================================================================================
+`mov` vs. `lea`
+========================================================================================
+
+Q : Why can't I write "MOV EAX, ESP+18" instead of "LEA EAX, [ESP+18]" ?
+
+A : 
+"
+You can't use `mov eax, esp+18` because `mov` requires a direct value or a memory operand as the source, but it doesn't support expressions or calculations involving register values; `lea eax, [esp+18]` can perform this address calculation and load the result into `eax`.
+"
+_

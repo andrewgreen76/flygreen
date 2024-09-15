@@ -1,0 +1,10 @@
+"
+The choice of `edx` instead of `ebx` is based on the standard calling conventions for x86 architecture:
+
+- **For 32-bit return values**: Typically, `eax` holds the return value. If the return value is a larger data type, such as a `struct` or a value larger than 32 bits, `edx` is often used to hold additional parts of the return value.
+
+- **Register conventions**: `ebx` is generally used as a base register and is often preserved across function calls, which makes it less suitable for temporary use in returning values. In contrast, `edx` is more frequently used for holding additional return values because it's not typically preserved across function calls, making it available for this purpose.
+
+So, in your case, `edx` is used to hold the additional part of the return value from `my_asm()` because it's a convention for handling functions that return more complex structures or values.
+"
+_

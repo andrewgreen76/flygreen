@@ -1,0 +1,25 @@
+
+Q :
+	I understand that we can store the address of a struct's buffer at SP-pointed
+	  location for our assembly subroutine's future access of the buffer (passing
+	  by reference) , but why not just use our subroutine's base pointer and an offset
+	  to access the 30-byte buffer outside the subroutine's stack frame?
+
+
+
+A : 
+|
+"
+Using the base pointer (EBP) with an offset to access the 30-byte buffer is indeed a common approach, but there are several reasons why you might choose to store the address at the stack pointer (ESP) instead:
+
+1. **Direct Access**: Storing the address directly at `[esp]` provides a straightforward way for functions like `_my_asm` to access the buffer without needing to calculate offsets from the base pointer, which can simplify the function’s implementation.
+
+2. **Dynamic Stack Space**: The stack frame's size can vary. By using `esp` directly, you can adapt to different stack sizes or offsets dynamically, which can be useful for handling variable-sized data or buffers.
+
+3. **Function Parameter Passing**: When calling functions that need to access or modify data that is not part of the current stack frame, you might pass pointers to that data explicitly. Storing the buffer’s address at `[esp]` can serve as a way to pass the buffer's location to other functions or subroutines.
+
+4. **Alignment and Organization**: Storing pointers and data on the stack can help with aligning and organizing memory more flexibly, especially in complex stack usage scenarios where multiple buffers or data structures are involved.
+
+In summary, storing the address at `[esp]` can be a design choice to facilitate easier access, management, and passing of data in assembly code, compared to managing offsets relative to the base pointer.
+"
+_

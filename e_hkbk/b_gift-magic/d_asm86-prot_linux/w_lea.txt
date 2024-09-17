@@ -6,7 +6,7 @@
 
 
 ========================================================================================
-`mov` vs. `lea`
+`MOV` vs. `LEA`
 ========================================================================================
 
 Q : Why can't I write "MOV EAX, ESP+18" instead of "LEA EAX, [ESP+18]" ?
@@ -14,5 +14,14 @@ Q : Why can't I write "MOV EAX, ESP+18" instead of "LEA EAX, [ESP+18]" ?
 A : 
 "
 You can't use `mov eax, esp+18` because `mov` requires a direct value or a memory operand as the source, but it doesn't support expressions or calculations involving register values; `lea eax, [esp+18]` can perform this address calculation and load the result into `eax`.
+"
+
+
+========================================================================================
+BRAINTEASER WITH `LEA` AND SQUARE BRACKETS 
+========================================================================================
+
+"
+When you use square brackets like [eax], you are accessing the contents at the memory address contained in eax. In contrast, with lea eax, [esp+18], the square brackets indicate that the instruction should calculate the effective address esp + 18 and load this address into eax, without accessing the memory at that address.
 "
 _

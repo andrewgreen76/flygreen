@@ -64,7 +64,7 @@ Legacy (real-mode) assembly programming :
  . using and creating interrupts
  . linking externs
  . stack frames : creating and tearing down
- . caller-callee memory (stack) sharing : parameters and passing by reference 
+ . caller-callee memory (stack frame) sharing : parameters and passing by reference 
 
 Raw binary images of :
   (1) BIOS

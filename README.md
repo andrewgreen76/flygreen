@@ -61,7 +61,10 @@ Legacy (real-mode) assembly programming :
  . real-mode memory segmentation
  . endiannesses
  . monitoring and amending bytes in memory 
- . using and creating interrupts 
+ . using and creating interrupts
+ . linking externs
+ . stack frames : creating and tearing down
+ . caller-callee memory (stack) sharing : parameters and passing by reference 
 
 Raw binary images of :
   (1) BIOS

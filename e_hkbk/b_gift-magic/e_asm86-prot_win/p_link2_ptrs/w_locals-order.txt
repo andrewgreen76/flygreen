@@ -1,0 +1,26 @@
+
+A :
+|
+"
+The integer is at `esp+24` and the pointer at `esp+28` because the stack grows downwards, and the convention typically places local variables at lower addresses (closer to `esp`) and their pointers or references at higher addresses. This arrangement helps maintain a clear structure: the value (`a`) is stored first, followed by the pointer (`p`) to that value, allowing for easier access and organization as the stack grows.
+"
+
+
+Q : This makes no sense. The pointer is a local variable.
+
+
+A :
+|
+"
+You're correct that both the integer and the pointer are local variables. The reason for placing the integer at `esp+24` and the pointer at `esp+28` likely comes down to the order in which the compiler decided to allocate stack space for these variables.
+
+### Explanation:
+1. **Variable Layout**: The compiler often places variables in a specific order based on how they're declared or used. In this case, it chose to allocate the integer first at `esp+24` and then the pointer at `esp+28`.
+
+2. **Access Patterns**: By storing the integer first, it can be accessed directly without needing to calculate offsets from the pointer's location. This can be beneficial for access patterns in certain scenarios.
+
+3. **Alignment**: The compiler might also consider alignment and padding when allocating stack space for variables, which could influence the order.
+
+Ultimately, both variables are local, but their specific order in memory is determined by the compiler's optimization strategies and conventions.
+"
+_

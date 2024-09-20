@@ -58,6 +58,7 @@ Intel 8088 :
 
 
 Intel 80286 :
+ . a.k.a. i286 
  . '82 
  . data bus width : 16 
  . address bus width : 24 
@@ -70,6 +71,7 @@ Intel 80286 :
 
 
 Intel 80386 :
+ . a.k.a. i386 
  . '85
  . data bus width : 32 
  . address bus width : 32 

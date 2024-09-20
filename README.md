@@ -6,8 +6,8 @@ ANNOUNCEMENT :
 If somebody can create open-source software that's like the Google Maps
 of VLSI (designing chips) that'd be great.
 
- . or I can do that myself
- . a game for making games 
+- or I can do that myself
+- a game for making games 
 __________________________________________________________________________
 __________________________________________________________________________
 The PURPOSE of this repo:
@@ -29,13 +29,13 @@ __________________________________________________________________________
 The MANIFESTO is:
 __________________________________________________________________________
 
-> to run
+- to run
   - to use for practical or artistic reasons
-> to share
+- to share
   - to show off
-> to study
+- to study
   - to learn
-> to modify
+- to modify
   - to hack ethically and creatively
 __________________________________________________________________________
 CHOSEN PERSONAL PROJECT:
@@ -44,83 +44,83 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
 Quantum computing : 
- . contrast with classical binary computing 
- . benefits
- . technology 
- . qubits 
- . hardware (processors) 
- . algorithms 
+- contrast with classical binary computing 
+- benefits
+- technology 
+- qubits 
+- hardware (processors) 
+- algorithms 
 
 Legacy (real-mode) assembly programming :
- . emu8086 vs. DOSBox vs. actual DOS
- . BIOS calls vs. DOS calls
- . SI and DI registers
- . data segment vs. extra segment
- . proper linear scanning of bytes within a buffer 
- . optimization heuristics
- . real-mode memory segmentation
- . endiannesses
- . monitoring and amending bytes in memory 
- . using and creating interrupts
- . linking externs
+- emu8086 vs. DOSBox vs. actual DOS
+- BIOS calls vs. DOS calls
+- SI and DI registers
+- data segment vs. extra segment
+- proper linear scanning of bytes within a buffer 
+- optimization heuristics
+- real-mode memory segmentation
+- endiannesses
+- monitoring and amending bytes in memory 
+- using and creating interrupts
+- linking externs
  . stack frames : creating and tearing down
  . caller-callee memory (stack frame) sharing : parameters and passing by reference 
 
 Raw binary images of :
-  (1) BIOS
-  (2) OS and related contents towards drive partitions : 
-      . boot partition (bootloaders) 
-      . OS partition
-	. OS (kernel + build utilities) 
-	. drivers 
-      . swap partition 
-      . data partition       
+  1) BIOS
+  2) OS and related contents towards drive partitions : 
+    - boot partition (bootloaders) 
+    - OS partition
+    - OS (kernel + build utilities) 
+    - drivers 
+    - swap partition 
+    - data partition       
 
 Process memory layout :
- . arguments + environment variables
- . stack (segment)
-   . base pointer (frame pointer)
-   . stack pointer
- . shared libraries
- . memory mapping segment
- . heap (segment)
- . BSS segment 
- . data segment
- . text segment 
+- arguments + environment variables
+- stack (segment)
+  - base pointer (frame pointer)
+  - stack pointer
+- shared libraries
+- memory mapping segment
+- heap (segment)
+- BSS segment 
+- data segment
+- text segment 
 
 Compile time vs. runtime :
- . dynamically allocated structures	      -> the heap segment at runtime after the main entry 
- . statically allocated data + function calls -> the stack segment at runtime after the main entry
- . uninitialized global variables 	      -> BSS segment at runtime before the main entry 
- . initialized global variables 	      -> data segment at runtime before the main entry 
+- dynamically allocated structures	      -> the heap segment at runtime after the main entry 
+- statically allocated data + function calls -> the stack segment at runtime after the main entry
+- uninitialized global variables 	      -> BSS segment at runtime before the main entry 
+- initialized global variables 	      -> data segment at runtime before the main entry 
 
 Types of binary file formats in Unix-like systems : 
- . .bin vs. ELF executable vs. .out , etc. 
+- .bin vs. ELF executable vs. .out , etc. 
 
 Hexadecimal byte code writing :
- . understanding of the different types of binary files
- . (their headers)
- . (32-bit vs. 64-bit)
- . (ELF vs. raw binary vs. others)
+- understanding of the different types of binary files
+- (their headers)
+- (32-bit vs. 64-bit)
+- (ELF vs. raw binary vs. others)
 
 Applications of various programming, logic, query, and other languages. 
 
 Assembly programming :
- . assemblers 
- . syntaxes 
- . directives in MASM , NASM , GAS , gcc ARM , etc.
- . NASM : 
-   . directives , statements , markers : db , equ , $ , times , dup
-   . address labels 
- . bss and resb 
- . optimizations (light coverage) 
- . ASCII conversion between digits as codes and digits as text characters
- . system calls and interrupts
+- assemblers 
+- syntaxes 
+- directives in MASM , NASM , GAS , gcc ARM , etc.
+- NASM : 
+  - directives , statements , markers : db , equ , $ , times , dup
+  - address labels 
+- bss and resb 
+- optimizations (light coverage) 
+- ASCII conversion between digits as codes and digits as text characters
+- system calls and interrupts
  |
- . register renaming
- . instruction read dependency
- . instruction pipelining
- . inefficient pipeline stall 
+- register renaming
+- instruction read dependency
+- instruction pipelining
+- inefficient pipeline stall 
 
 DIY project : research -and- building my own dumb laptop / motherboard / CPU / EEPROMS 
  |
@@ -165,4 +165,4 @@ __________________________________________________________________________
 - learn BIOS-kernel-API/DSP-distro ladder for that 
 - An API / display server protocol for a 13h-like mode portable to any server-like system.
 
-.
+_

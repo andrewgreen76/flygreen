@@ -165,4 +165,3 @@ __________________________________________________________________________
 - learn BIOS-kernel-API/DSP-distro ladder for that 
 - An API / display server protocol for a 13h-like mode portable to any server-like system.
 
-_

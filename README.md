@@ -69,12 +69,12 @@ Legacy (real-mode) assembly programming :
 Raw binary images of :
   1) BIOS
   2) OS and related contents towards drive partitions : 
-    - boot partition (bootloaders) 
-    - OS partition
-    - OS (kernel + build utilities) 
-    - drivers 
-    - swap partition 
-    - data partition       
+  - boot partition (bootloaders) 
+  - OS partition
+  - OS (kernel + build utilities) 
+  - drivers 
+  - swap partition 
+  - data partition       
 
 Process memory layout :
 - arguments + environment variables

@@ -1,0 +1,4 @@
+"
+Compilers translate entire programs into machine code for faster execution, allowing for optimization and error detection at compile time, while interpreters execute code line-by-line, enabling immediate feedback and easier debugging, which suits different programming needs and workflows. 
+"
+_

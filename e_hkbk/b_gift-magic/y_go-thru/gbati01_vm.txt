@@ -1,0 +1,30 @@
+
+ . the most basic function of a computer : to execute code (programs) 
+
+
+===================================================================
+THE VIRTUAL MACHINE CONCEPT 
+===================================================================
+
+ . VM is a program 
+ . emulates a specific computer (physical or virtual computer) 
+ | . executes other programs (written only in S-lang or only in M-lang) 
+ |
+ |
+ . machine = program ~= computer (runs programs) =/= code-processing utility 
+ . a program that runs programs written in one specific language 
+ . a program that runs programs written in a different language would be a different VM 
+ |
+ |
+ . VM can be in the form of machine code or symbolic code 
+
+
+		     S-prog1	  -> [compiler/interpreter] -> 	     M-prog1 
+		(ex'able by S-VM)				(ex'able by M-VM)
+
+
+ . If S-lang isn't developer-friendly enough , we can create an even higher abstraction , 
+     one above S-VM , like something written in a high-level language (HLL). Any number 
+     of layers of abstraction can be created. 
+
+_

@@ -1,0 +1,26 @@
+
+===================================================================
+HLL DECODING : INTERPRETATION VS. TRANSLATION 
+===================================================================
+
+ . say we have a native machine-code language ("M-lang") - written in 0s and 1s 
+ . say we have a program written in that machine code ("S-to-M decoder") 
+ . its purpose : process programs [written in a specific higher-level (symbolic , 
+     human-readable) language] into [its machine code] 
+ . say we have a program ("S-prog1") written in the higher-level symbolic language ("S-lang") 
+
+
+		S-prog1 -> [ S-to-M decoder  ] -> M-prog1 
+			   [written in M-lang]
+
+
+Interpretation : 
+ . S-prog1 is executed on-the-go as it is being decoded 
+
+
+Translation : 
+ . compiling , basically 
+ . the entire S-prog1 is processed by a less generic , more optimized decoder 
+   into M-prog1 before we start executing M-prog1 
+
+_

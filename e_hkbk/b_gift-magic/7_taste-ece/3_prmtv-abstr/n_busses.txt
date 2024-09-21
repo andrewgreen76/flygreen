@@ -1,0 +1,7 @@
+
+ . address
+ . data
+ . I/O
+ . control 
+
+_

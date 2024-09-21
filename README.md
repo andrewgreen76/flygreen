@@ -62,9 +62,12 @@ Legacy (real-mode) assembly programming :
 - endiannesses
 - monitoring and amending bytes in memory 
 - using and creating interrupts
-- linking externs
- . stack frames : creating and tearing down
- . caller-callee memory (stack frame) sharing : parameters and passing by reference 
+- NASM for Windows in protected mode : 
+  - linking externs
+    - stack frames : creating and tearing down
+    - caller-callee memory (stack frame) sharing : parameters and passing by reference
+- MASM for Windows in protected mode :
+  - directives 
 
 Raw binary images of :
   1) BIOS

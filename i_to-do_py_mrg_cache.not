@@ -14,6 +14,30 @@ Early computers and modern servers :
  . backplane : 
     . connects the motherboard to boards/modules 
 
+=================================================================================================
+
+UCSD :
+- contact : 858-534-3400 -or- concurrent@ucsd.edu
+  - didn't get a response regarding raising my GPA
+  - didn't get an auto-generated email with my AX number. 
+- conc. (all links on
+  https://extendedstudies.ucsd.edu/student-resources/registration-policies-and-procedures/concurrent-enrollment
+  ) :
+  - classes Fall 2024: 9/25
+  - eligibility app
+  - get the AX acct #. 
+  - EASy requests : avail on 9/25 wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+  - academic integrity tutorial
+  - upload vaccine info
+  - pay for the course 
+  - enroll by : 10/13
+	- reg. checklist (M.S. starting Fall 2024) 
+	  - NEED A GPA OF AT LEAST 3.0. 
+	  - deadline : 9/6/23 - 12/20/23
+- contact : cse-gradinfo-bsms@ucsd.edu
+
+=================================================================================================
+
 (ELF) object file breakdown in these scenarios : 
  . do-nothing in asm 
  -> write 'a' vs. 'b' to spot them in the object files 
@@ -766,28 +790,6 @@ Foundations of networking :
 - An API / display server protocol for a 13h-like mode portable to any server-like system.
 
 Suppose I want to write a very dumb bootloader. I know that to do that an assembly file needs to be written and converted to binary. The first 512 bytes would be the boot sector (with the last two bytes being 0x55 0xAA). 
-
-=================================================================================================
-
-UCSD :
-- contact : 858-534-3400 -or- concurrent@ucsd.edu
-  - didn't get a response regarding raising my GPA
-  - didn't get an auto-generated email with my AX number. 
-- conc. (all links on
-  https://extendedstudies.ucsd.edu/student-resources/registration-policies-and-procedures/concurrent-enrollment
-  ) :
-  - classes Fall 2024: 9/25
-  - eligibility app
-  - get the AX acct #. 
-  - EASy requests : avail on 9/25 wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-  - academic integrity tutorial
-  - upload vaccine info
-  - pay for the course 
-  - enroll by : 10/13
-	- reg. checklist (M.S. starting Fall 2024) 
-	  - NEED A GPA OF AT LEAST 3.0. 
-	  - deadline : 9/6/23 - 12/20/23
-- contact : cse-gradinfo-bsms@ucsd.edu
 
 =================================================================================================
 

@@ -22,11 +22,11 @@ LFB13:
 	sub	esp, 32		; [pre-main ret_addr] [pre-main EBP] BP [32B] SP  
 	call	___main
 	mov	DWORD PTR [esp+24], 50		; [pre-main ret_addr] [pre-main EBP] BP [ ___ 50 ____ ] SP 
-	lea	eax, [esp+24]				; &50 
+	lea	eax, [esp+24]			; &50 
 	mov	DWORD PTR [esp+28], eax		; [pre-main ret_addr] [pre-main EBP] BP [ &50 50 ____ ] SP
 
 	;;; Working with parameters for my_asm() ? 
-	mov	eax, DWORD PTR [esp+28]		; &50 
+	mov	eax, DWORD PTR [esp+28]		; &50 ; passing by pointer 
 	mov	DWORD PTR [esp], eax		; [pre-main ret_addr] [pre-main EBP] BP [ &50 50 ____ &50 ] SP
 	call	_my_asm
 

@@ -3,8 +3,8 @@
 
 	section .text 	
 _my_asm:
-					; [_start &ret] [_start BP] BP [ &50 50 ____ &50 ] [main &ret] SP
-	push ebp		; [_start &ret] [_start BP] BP [ &50 50 ____ &50 ] [main &ret] [main BP] SP
+			; [_start &ret] [_start BP] BP [ &50 50 ____ &50 ] [main &ret] SP
+	push ebp	; [_start &ret] [_start BP] BP [ &50 50 ____ &50 ] [main &ret] [main BP] SP
 	mov ebp , esp   ; [_start &ret] [_start BP] [ &50 50 ____ &50 ] [main &ret] [main BP] BP/SP
 
 	mov eax, [esp+8]	; load param &50 

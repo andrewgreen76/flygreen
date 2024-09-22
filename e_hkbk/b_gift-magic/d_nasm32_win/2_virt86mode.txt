@@ -1,0 +1,9 @@
+
+========================================================================================
+VIRTUAL-8086 MODE 
+========================================================================================
+
+ . running real-mode software (e.g., 16-bit MS-DOS) in the memory-safe multitasking
+     environment of the protected mode 
+
+_

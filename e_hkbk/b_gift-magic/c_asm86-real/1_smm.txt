@@ -1,0 +1,13 @@
+
+========================================================================================
+SYSTEM MANAGEMENT MODE 
+========================================================================================
+
+ . system management capabilities are handed over to the kernel
+
+ . "A modern system enters System Management Mode (SMM) after the initial boot process,
+      typically triggered by specific hardware events or interrupts, allowing the processor
+      to execute firmware-level tasks like power management and system control without
+      interference from the operating system."
+
+_

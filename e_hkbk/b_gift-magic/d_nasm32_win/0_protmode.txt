@@ -36,23 +36,4 @@ PROTECTED MODE
  
  . sub-modes : virtual 8086 sub-mode 
 
-
-========================================================================================
-RELATIONSHIP BETWEEN PROTECTION AND MULTITASKING 
-========================================================================================
-
- . "... in real mode, the system typically operates on a single CPU core without effective
-      multitasking, while in protected mode, the operating system can utilize all available
-      CPU cores for multitasking and concurrent process execution."
-
- . "The primary mechanism that allows for memory protection in protected mode is the use of
-      **segment descriptors** and the **Global Descriptor Table (GDT)**, which define access rights
-      and limits for different memory segments, preventing unauthorized access to memory areas
-      by processes."
-
- . once we have memory protection , we can introduce multitasking 
-      
- . multitasking is realized with the aid of the context switching mechanism involving the process
-     control blocks (PCBs)
-     
 _

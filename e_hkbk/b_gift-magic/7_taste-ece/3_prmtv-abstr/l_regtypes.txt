@@ -1,0 +1,8 @@
+
+Types of registers : 
+ . general-purpose registers 
+ . index registers
+ . status + control registers 
+ . segment registers 
+
+_

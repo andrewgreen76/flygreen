@@ -1,6 +1,6 @@
 
-(a) Python / (b) Bash
 C++ 
+(a) Python / (b) Bash
 C
 asm
 (a) microcode / (b) file formats , hex code 

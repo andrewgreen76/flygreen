@@ -2,12 +2,12 @@
 Types of registers :
  | 
  . general-purpose registers :
- | . A - accumulator , used for most operations , including holding return values 
- | . B - typically holds the address of a variable or a procedure 
- | . C - usually used for counting/looping 
- | . D - typically used as a data register for multiplication/division
+ | . AX - accumulator , used for most operations , including holding return values 
+ | . BX - typically holds the address of a variable or a procedure 
+ | . CX - usually used for counting/looping 
+ | . DX - typically used as a data register for multiplication/division
  | 
- . index registers (some think of them as general-purpose) : 
+ . index registers (some think of them as general-purpose , some say they are specialized) : 
  | . BP - address of the stack frame for the currently active subroutine 
  | . SP - the "top"/"bottom" of the stack frame (where we see caller EBP , local vars , or params to deeper srout) 
  | . SI - address of source buffer (can be used in copying strings of bytes) 
@@ -15,7 +15,8 @@ Types of registers :
  |
  . status + control registers
  | . IP (control register) - holds the address of the next instruction to execute 
- | . FR (flags register) - status flags 
+ | . FLAGS (flags register) - status flags
+ | . control : CR0 , CR1 , etc. 
  |
  . segment registers : 
    . CS - address of block with instructions 

@@ -24,4 +24,20 @@ SPEEDS - CPU AND RAM
       before the current instruction can complete its execution. The wasted clock cycles are called
       WAIT STATES."
 
+
+========================================================================================
+CACHING 
+========================================================================================
+
+ . "... computers use high-speed cache memory to hold the most recently used instructions and data.
+      The first time a program reads a block of data, it leaves a copy in the cache."
+ . "If the program needs to read the same data a second time, it looks for the data in the cache."
+
+
+Cache hit : 
+ . "... indicates the data is in the cache."
+
+Cache miss :
+ . then the data will have to be found in RAM 
+
 _

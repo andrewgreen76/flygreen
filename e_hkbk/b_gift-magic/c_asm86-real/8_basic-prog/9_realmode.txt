@@ -36,12 +36,4 @@ Real mode :
  . no multitasking
  . direct access to hardware 
 
-
-========================================================================================
-OTHER OPERATING MODES : 
-========================================================================================
-
-There are other modes , such as the protected mode for 32-bit systems and the long mode
-  for 64-bit systems. 
-
 _

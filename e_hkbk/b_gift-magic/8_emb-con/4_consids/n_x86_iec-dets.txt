@@ -1,0 +1,13 @@
+
+Fetch (RAM -> CPU) : 
+
+
+      	   [IP]  --(addr)-->  addr_bus  --(addr)-->  [mem_ctlr(MAR-MBR logic)]  --(instr)--> [code cache] 
+								| ^
+								v |
+							    (pull instr) 
+								| ^
+								v | 
+							       [RAM]
+
+_

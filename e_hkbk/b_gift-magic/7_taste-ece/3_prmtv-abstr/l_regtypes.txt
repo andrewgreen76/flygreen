@@ -10,8 +10,8 @@ Types of registers :
  . index registers : 
  | . BP - address of the stack frame for the currently active subroutine 
  | . SP - the "top"/"bottom" of the stack frame (where we see caller EBP , local vars , or params to deeper srout) 
- | . SI - address of source buffer 
- | . DI - address of dest buffer 
+ | . SI - address of source buffer (can be used in copying strings of bytes) 
+ | . DI - address of dest buffer (can be used in copying strings of bytes) 
  |
  . status + control registers
  |

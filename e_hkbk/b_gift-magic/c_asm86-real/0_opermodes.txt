@@ -17,9 +17,10 @@ ALL OPERATING MODES :
 
  . real mode 
  . protected mode for 32-bit systems
-   . 
-   . sub-modes : virtual 8086 sub-mode 
  . long mode for 64-bit systems
- . system management mode 
+ . system management mode
+
+ . "... all modern systems typically enter real mode briefly during the boot process
+      before transitioning to protected mode or long mode for operating system execution."
 
 _

@@ -1,0 +1,58 @@
+
+========================================================================================
+THE NATIVE STATE OF A PROCESSOR 
+========================================================================================
+
+"
+The "native state of a processor" refers to the mode in which the processor operates with full access to its hardware features and capabilities, without any virtualization or abstraction layers. For x86 processors, this typically means operating in **protected mode** or **long mode** (for 64-bit systems), where the CPU can manage memory protection, multitasking, and system calls effectively. In this state, the processor can execute instructions directly without any restrictions imposed by a hypervisor or operating system layers. 
+"
+
+
+========================================================================================
+PROTECTED MODE 
+========================================================================================
+
+ . a.k.a. "the native state of a processor" , a rather misleading term
+ . REMINDER : "... all modern systems typically enter real mode briefly during the boot process
+      	       before transitioning to protected mode or long mode for operating system execution."
+
+ . accomodating or simulating 32-BIT SYSTEMS
+   
+ . memory protection (SEGFAULT PREVENTION)
+   . security and stability
+   . "It is primarily the job of the kernel to enforce segmentation fault (segfault) prevention
+      by managing memory access rights and protections, while the processor provides the necessary
+      hardware features to support these protections."
+   
+ . MULTITASKING 
+ 
+ . processor has only some direct access to hardware capabilities
+   . the OS kernel presides over this matter
+   . "In protected mode, the processor has partial access to hardware capabilities, as
+      it operates under the control of the operating system, which enforces restrictions
+      and provides abstractions to ensure memory protection, multitasking, and secure access
+      to hardware resources."
+   . but "all instruction features are available" 
+ 
+ . sub-modes : virtual 8086 sub-mode 
+
+
+========================================================================================
+RELATIONSHIP BETWEEN PROTECTION AND MULTITASKING 
+========================================================================================
+
+ . "... in real mode, the system typically operates on a single CPU core without effective
+      multitasking, while in protected mode, the operating system can utilize all available
+      CPU cores for multitasking and concurrent process execution."
+
+ . "The primary mechanism that allows for memory protection in protected mode is the use of
+      **segment descriptors** and the **Global Descriptor Table (GDT)**, which define access rights
+      and limits for different memory segments, preventing unauthorized access to memory areas
+      by processes."
+
+ . once we have memory protection , we can introduce multitasking 
+      
+ . multitasking is realized with the aid of the context switching mechanism involving the process
+     control blocks (PCBs)
+     
+_

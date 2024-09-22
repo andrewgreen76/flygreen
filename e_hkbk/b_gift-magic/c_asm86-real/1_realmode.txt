@@ -9,16 +9,6 @@ This code , written in such fashion , is meant for systems that support the REAL
 REAL MODE (in 16-bit x86-based systems) : 
 ========================================================================================
 
-Compatibility mode (an operating mode/mechanism) :
- |
- . "A compatibility mode is a software mechanism in which a software either emulates
-     an older version of software, or mimics another operating system in order to allow
-     older or incompatible software or files to remain compatible with the computer's
-     newer hardware or software."
-
-
-Real mode :
- |
  . The ability of 32-bit and 64-bit systems to load and run programs with 16-BIT CODE AND
  |   DATA compiled for x86-based platforms. This makes it a compatibility mode. 
  |

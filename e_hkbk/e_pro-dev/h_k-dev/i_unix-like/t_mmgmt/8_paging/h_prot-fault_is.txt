@@ -6,4 +6,4 @@ Protection fault : an event of either ...
 Segmentation fault (reminder) :
 . illegal access (to uninitialized memory , i.e., outside the boundaries) 
 
-.
+_

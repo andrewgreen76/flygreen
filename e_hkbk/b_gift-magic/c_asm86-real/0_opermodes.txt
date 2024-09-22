@@ -1,0 +1,25 @@
+
+========================================================================================
+COMPATIBILITY MODE : 
+========================================================================================
+
+Compatibility mode (an operating mode/mechanism) :
+ |
+ . "A compatibility mode is a software mechanism in which a software either emulates
+     an older version of software, or mimics another operating system in order to allow
+     older or incompatible software or files to remain compatible with the computer's
+     newer hardware or software."
+     
+
+========================================================================================
+ALL OPERATING MODES : 
+========================================================================================
+
+ . real mode 
+ . protected mode for 32-bit systems
+   . 
+   . sub-modes : virtual 8086 sub-mode 
+ . long mode for 64-bit systems
+ . system management mode 
+
+_

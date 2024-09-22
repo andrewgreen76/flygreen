@@ -1,5 +1,8 @@
 
-Fetch (RAM -> CPU) : 
+========================================================================================
+FETCH (RAM -> CPU) : 
+========================================================================================
+
 
 
       	   [IP]  --(addr)-->  addr_bus  --(addr)-->  [mem_ctlr(MAR-MBR logic)]  --(instr)--> [code cache] 
@@ -9,5 +12,13 @@ Fetch (RAM -> CPU) :
 								| ^
 								v | 
 							       [RAM]
+
+
+========================================================================================
+SPEEDS - CPU AND RAM 
+========================================================================================
+
+ . "CPU clock speed might be several gigahertz, whereas access to memory occurs over a system bus,
+    running at much slower speed." 
 
 _

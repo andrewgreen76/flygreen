@@ -7,13 +7,15 @@ Types of registers :
  | . C - usually used for counting/looping 
  | . D - typically used as a data register for multiplication/division
  | 
- . index registers : 
+ . index registers (some think of them as general-purpose) : 
  | . BP - address of the stack frame for the currently active subroutine 
  | . SP - the "top"/"bottom" of the stack frame (where we see caller EBP , local vars , or params to deeper srout) 
  | . SI - address of source buffer (can be used in copying strings of bytes) 
  | . DI - address of dest buffer (can be used in copying strings of bytes) 
  |
  . status + control registers
+ | . IP (control register) - holds the address of the next instruction to execute 
+ | . FR (flags register) - status flags 
  |
  . segment registers : 
    . CS - address of block with instructions 

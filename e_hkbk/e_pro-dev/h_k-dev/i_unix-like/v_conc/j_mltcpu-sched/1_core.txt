@@ -2,4 +2,14 @@
 Multi-core processor = multiprocessor. 
  => Loosely speaking , core = CPU. 
 
+
+========================================================================================
+WHAT'S IN A CORE 
+========================================================================================
+
+ . it's just like a single CPU 
+   . registers
+   . L1 and L2 caches
+   . (L3 cache is shared between all CPU cores) 
+
 _

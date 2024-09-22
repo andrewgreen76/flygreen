@@ -10,4 +10,9 @@ SYSTEM MANAGEMENT MODE
       to execute firmware-level tasks like power management and system control without
       interference from the operating system."
 
+Programs that can be run : 
+ . firmware (BIOS) routines 
+ . certain vendors/manufacturers have the license to write init routines with certain
+     system configurations 
+
 _

@@ -25,14 +25,20 @@ REAL MODE (in 16-bit x86-based systems) :
   
  . no multitasking
  . direct access to hardware 
-   . in this mode everything is exposed and easy to access , so only things like firmware
-     can run in that mode 
+
 
 ========================================================================================
 DIRECT ACCESS TO HARDWARE : 
 ========================================================================================
 
-"
-For a processor to have full direct access to hardware means it can interact with hardware components and memory without any restrictions, allowing software to perform operations like reading/writing to device registers or memory locations directly, without mediation from an operating system or other layers.
-"
+ . In this mode everything is exposed and easy to access , so only things like system
+     utilities and bootloaders can run in that mode ; otherwise , the OS will crash.
+ . "... but they are generally limited to operating within a constrained environment and
+     may require a compatibility layer or virtual machine to do so."
+
+ . "For a processor to have full direct access to hardware means it can interact with
+     hardware components and memory without any restrictions, allowing software to perform
+     operations like reading/writing to device registers or memory locations directly,
+     without mediation from an operating system or other layers."
+     
 _

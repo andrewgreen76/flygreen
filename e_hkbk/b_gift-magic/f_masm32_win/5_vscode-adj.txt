@@ -1,0 +1,4 @@
+
+ . Linker -> Advanced -> Entry Point : [proc_label (main/start)] 
+
+_

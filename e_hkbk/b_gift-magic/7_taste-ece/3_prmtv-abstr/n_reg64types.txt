@@ -22,20 +22,15 @@ Expanded registers :
  | . RFLAGS (flags register) - status flags
  | . control : CR0 , CR1 , etc. 
  |
+ . segment registers (16-bit , NOT EXTENDED TO 32-BIT) : 
+ | . CS - address of block with instructions 
+ | . DS - address of block with variables (tied to SI) 
+ | . ES - just additional  		  (tied to DI) 
+ | . SS - address of the stack
+ | . FS - ??? 
+ | . GS - ???
+ |
  . more :
    . r8 , r9  ,r10 , r11 , r12 , r13 , r14 , r15 
-
-========================================================================================
-SEGMENT REGISTERS 
-========================================================================================
-
- . segment registers (16-bit , NOT EXTENDED TO 32-BIT) : 
-   . CS - address of block with instructions 
-   . DS - address of block with variables (tied to SI) 
-   . ES - just additional  		  (tied to DI) 
-   . SS - address of the stack
-   |
-   . FS - ??? 
-   . GS - ??? 
 
 _

@@ -3,7 +3,7 @@
 SOME DIFFERENCES 
 ========================================================================================
 
-Types of registers :
+Expanded registers :
  | 
  . general-purpose registers :
  | . EAX - accumulator , used for most operations , including holding return values 
@@ -24,7 +24,7 @@ Types of registers :
 
 
 ========================================================================================
-MORE SEGMENT REGISTERS 
+SEGMENT REGISTERS 
 ========================================================================================
 
  . segment registers (16-bit , NOT EXTENDED TO 32-BIT) : 
@@ -32,7 +32,8 @@ MORE SEGMENT REGISTERS
    . DS - address of block with variables (tied to SI) 
    . ES - just additional  		  (tied to DI) 
    . SS - address of the stack
-   . FS -
-   . GS - 
+   |
+   . FS - ??? 
+   . GS - ??? 
 
 _

@@ -15,7 +15,7 @@ Types of registers :
  |
  . status + control registers
  | . IP (control register) - holds the address of the next instruction to execute 
- | . FLAGS (flags register) - status flags
+ | . FLAGS (flags register) - status flags + control flags 
  | . control : CR0 , CR1 , etc. 
  |
  . segment registers : 

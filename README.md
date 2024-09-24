@@ -67,7 +67,9 @@ Legacy (real-mode) assembly programming :
     - stack frames : creating and tearing down
     - caller-callee memory (stack frame) sharing : parameters and passing by reference
 - MASM for Windows in protected mode :
-  - directives 
+  - directives
+- registers revisited :
+  - general-purpose , IP , FLAGS (control and status bits) , index registers , segment registers 
 
 Raw binary images of :
   1) BIOS

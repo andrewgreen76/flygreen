@@ -30,13 +30,26 @@ FLAGS REGISTER - STATUS FLAGS
 
 Status flags : assess the result of an ALU operation (negative , less than , etc.)
  |
- . CF - carry --------------- 1 when result of UNSIGNED arithmetic can't fit dest_mem_chunk
- |	      --------------- MSb carry (from addition) or borrow (from subtraction) from last arithm. op
- |	    	   
+ . CF - carry ----------- 1 when result of UNSIGNED arithmetic can't fit dest_mem_chunk				. account for 8-bit sys limit  
+ |	      ----------- MSb carry (from addition) or borrow (from subtraction) from last arithm. op		/ 11111111 + 00000001 = 1 00000000
+ |	      		      	    	  	       	      	    		      	   	   		/ looks legit 
+ |
+ |
+ . OF - overflow	- 1 when result of SIGNED arithmetic can't fit dest_mem_chunk				. account for 8-bit sys limit
+ |			- |NEG| > |POS|											/ |neg| > |pos|
+ |    			    	 	   	  	     	       						/ 
+ |    			    	 	   	  	     	       						/ 11111111 + 00000001 = 1 00000000
+ |    			    	 	   	  	     	       						/       -1 +        1 = ?????????0 
+ |														/ 
+ |														/ 11111110 + 00000001 = 11111111
+ |														/       -2 +        1 =       -1 
+ |														/ 
+ |														/ 11111111 + 00000010 = 1 111111101
+ |														/       -1 +        2 = ??????????1
  . ZF - zero 		- 1 for result is zero , 0 for result is not zero 
  . SF - sign 		- MSb of result : 0 for positive , 1 for negative 
- . OF - overflow	- 1 when result of SIGNED arithmetic can't fit the dest_mem_chunk 
  . PF - parity 		- 1 for even , 0 for odd
+ . AF - auxiliary 	- a carry from the least significant nibble into the higher nibble 
 
 
 ========================================================================================
@@ -45,7 +58,6 @@ FLAGS REGISTER - CONTROL FLAGS
 
  . IF - interrupt enable 	- raised to enable maskable interrupts 
  . DF - direction 		- 1 for increment (move forward) , 0 for decrement (move backwards) 
- . AF - auxiliary 		- a carry from the least significant nibble into the higher nibble 
  . halt at every instruction
 
 _

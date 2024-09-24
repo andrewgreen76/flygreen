@@ -19,6 +19,7 @@ Expanded registers :
  |
  . EIP - holds the address of the next instruction to execute 
  . EFLAGS (flags register) - status flags + control flags 
+   . addl ctrl flag : request to enter protected / virtual-8086 mode
 
 
 ========================================================================================

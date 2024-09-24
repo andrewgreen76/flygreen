@@ -13,19 +13,34 @@ Types of registers :
  | . SI - address of source buffer (can be used in copying strings of bytes) 
  | . DI - address of dest buffer (can be used in copying strings of bytes) 
  |
- . IP - holds the address of the next instruction to execute 
+ . IP - holds the address of the next instruction to execute
+ |
  . FLAGS (flags register) - status flags + control flags
- | . control flags :
- |   . halt at every instruction
- |   . interrupt flags
- |   . direction flags 
- |   . request to enter protected / virtual-8086 mode 
- | . status flags : assess the result of an ALU operation (negative , less than , etc.) 
  |
  . segment registers : 
    . CS - address of block with instructions 
    . DS - address of block with variables (tied to SI) 
    . ES - just additional  		  (tied to DI) 
    . SS - address of the stack  
+
+
+========================================================================================
+FLAGS REGISTER 
+========================================================================================
+
+ . FLAGS (flags register) - status flags + control flags
+   |
+   . status flags : assess the result of an ALU operation (negative , less than , etc.) 
+   | . CF - carry		- MSb carry (from addition) or borrow (from subtraction) from last arithm. op 
+   | . ZF - zero 		- Is the result of the last arithmetic operation zero ? 
+   | . SF - sign 		- 0 for positive , 1 for negative 
+   | . OF - overflow 		- can't fit the number in memory under a certain data type 
+   | . PF - parity 		- 1 for even , 0 for odd
+   | 
+   . control flags :
+     . IF - interrupt enable 	- raised to enable maskable interrupts 
+     . DF - direction 		- 1 for increment (move forward) , 0 for decrement (move backwards) 
+     . AF - auxiliary 		- a carry from the least significant nibble into the higher nibble 
+     . halt at every instruction
 
 _

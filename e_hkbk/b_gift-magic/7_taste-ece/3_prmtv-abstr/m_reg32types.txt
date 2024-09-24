@@ -17,10 +17,8 @@ Expanded registers :
  | . ESI - address of source buffer (can be used in copying strings of bytes) 
  | . EDI - address of dest buffer (can be used in copying strings of bytes) 
  |
- . status + control registers
-   . EIP (control register) - holds the address of the next instruction to execute 
-   . EFLAGS (flags register) - status flags + control flags 
-   . control : CR0 , CR1 , etc. 
+ . EIP - holds the address of the next instruction to execute 
+ . EFLAGS (flags register) - status flags + control flags 
 
 
 ========================================================================================

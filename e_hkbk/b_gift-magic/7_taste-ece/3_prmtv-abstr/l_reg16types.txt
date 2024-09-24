@@ -13,10 +13,14 @@ Types of registers :
  | . SI - address of source buffer (can be used in copying strings of bytes) 
  | . DI - address of dest buffer (can be used in copying strings of bytes) 
  |
- . status + control registers
- | . IP (control register) - holds the address of the next instruction to execute 
- | . FLAGS (flags register) - status flags + control flags 
- | . control : CR0 , CR1 , etc. 
+ . IP - holds the address of the next instruction to execute 
+ . FLAGS (flags register) - status flags + control flags
+ | . control flags :
+ |   . halt at every instruction
+ |   . interrupt flags
+ |   . direction flags 
+ |   . request to enter protected / virtual-8086 mode 
+ | . status flags : assess the result of an ALU operation (negative , less than , etc.) 
  |
  . segment registers : 
    . CS - address of block with instructions 

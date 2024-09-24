@@ -36,8 +36,8 @@ Status flags : assess the result of an ALU operation (negative , less than , etc
  |
  |
  . OF - overflow	- 1 when result of SIGNED arithmetic can't fit dest_mem_chunk				. account for 8-bit sys limit
- |			- |NEG| > |POS|											/ |neg| > |pos|
- |    			    	 	   	  	     	       						/ 
+ |			- |NEG| > |POS|										/ |neg| > |pos|
+ |    			- result better be negative   	     	       						/ 
  |    			    	 	   	  	     	       						/ 11111111 + 00000001 = 1 00000000
  |    			    	 	   	  	     	       						/       -1 +        1 = ?????????0 
  |														/ 

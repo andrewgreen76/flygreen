@@ -69,7 +69,8 @@ Legacy (real-mode) assembly programming :
 - MASM for Windows in protected mode :
   - directives
 - registers revisited :
-  - general-purpose , IP , FLAGS (control and status bits) , index registers , segment registers 
+  - general-purpose , IP , FLAGS (control and status bits) , index registers , segment registers
+  - FLAGS : carry bit vs. overflow bit 
 
 Raw binary images of :
   1) BIOS

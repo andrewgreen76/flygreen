@@ -1,6 +1,6 @@
 
 ========================================================================================
-FPU REGISTERS 
+FPU REGISTERS - BASIC INFO 
 ========================================================================================
 
  . a.k.a. x87 architecture 
@@ -9,15 +9,43 @@ FPU REGISTERS
  . integrated into the CPU (starting with i486) in 1989
 
 
-x87 : 
- . eight 80-bit FPU data registers : {ST0 , ... , ST7}
-   . organized as a stack
-   . used for arithmetic with "implicit and explicit operands relative to the top of the stack" 
+Constitution :
+ | 
+ . eight 80-bit FPU data registers : { ST(0) , ... , ST(7) } 
+ | . organized as a stack
+ | . float vals can be pushed and popped
+ |   . "80-bit double extended precision format" 
+ |
+ | . for arithmetic with "implicit and explicit operands relative to the top of the stack"
+ | . automatic conversion between integer , float , and BCD formats upon load/store instr execution 
+ | . can accommodate various data types (incl. signed ints up to 64 bits)
+ | . direct data transfer between x86 and x87 is not possible ; a mem_addr must be used
+ |   . not a standard fare 
+ | 
  . two 48-bit FPU pointer registers : FPU IP , FPU DP (data ptr)
- . three 16-bit control registers :
-   . tag reg 
-   . control reg 
-   . status reg 
- . one opcode reg 
+ |
+ . three 16-bit control registers : 
+ | . tag reg
+ | . control reg
+ |   . "allows for a task to enable and disable various floating-point processing options"
+ |   . exceptions , rounding method , precision level 
+ | . status reg
+ | . "used to configure the FPU , determine its status , and facilitate exception processing" 
+ | 
+ . one opcode reg
+
+
+========================================================================================
+OTHER DETAILS 
+========================================================================================
+
+These are "based on the IEEE standard for binary floating-point arithmetic" (IEEE 7541985) 
+ . numerical formats
+ . processing algorithms
+ . exception signaling procedures
+ 
+x86 vs. x87 :
+ . x86 control registers require elevated runtime privileges
+ . that's not so with x87 
 
 _

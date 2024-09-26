@@ -70,7 +70,9 @@ Legacy (real-mode) assembly programming :
   - directives
 - registers revisited :
   - general-purpose , IP , FLAGS (control and status bits) , index registers , segment registers
-  - FLAGS : carry bit vs. overflow bit 
+  - FLAGS : carry bit vs. overflow bit
+- SIMD
+- FPU 
 
 Raw binary images of :
   1) BIOS

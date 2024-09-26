@@ -17,7 +17,8 @@ Constitution :
  |   . "80-bit double extended precision format" 
  |
  | . for arithmetic with "implicit and explicit operands relative to the top of the stack"
- | . automatic conversion between integer , float , and BCD formats upon load/store instr execution 
+ | . supports signed int , float , and (packed) BCD formats 
+ | . automatic conversion between these types upon load/store instr execution 
  | . can accommodate various data types (incl. signed ints up to 64 bits)
  | . direct data transfer between x86 and x87 is not possible ; a mem_addr must be used
  |   . not a standard fare 
@@ -63,6 +64,11 @@ Individual algorithms have specific processing requirements.
 STATUS REGISTER 
 ========================================================================================
 
- . "records the occurrence of any FPU exception condition" 
+ . "records the occurrence of any FPU exception condition"
+ . can also be used to query stack status information
+ |
+ . apps cannot access the internal processor table , though some compilers provide a lib func
+     that allows apps to designate a callback func that is called whenever an FPU exception
+     occurs 
 
 _

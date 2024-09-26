@@ -27,5 +27,4 @@ The internal processor table generally contains:
 
 This structure helps the operating system manage and execute processes effectively.
 "
-
 _

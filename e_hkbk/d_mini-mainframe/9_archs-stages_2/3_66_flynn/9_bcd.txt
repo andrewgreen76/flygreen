@@ -1,0 +1,22 @@
+
+========================================================================================
+BCD EXAMPLE 
+========================================================================================
+
+"
+Binary-Coded Decimal (BCD) is a digital encoding method where each decimal digit is represented by its own binary sequence, typically using four bits per digit.
+"
+
+
+"
+For example, the decimal number 93 is represented in BCD as 1001 0011, where 1001 represents the digit 9 and 0011 represents the digit 3.
+"
+
+========================================================================================
+PACKED BCD vs. UNPACKED BCD 
+========================================================================================
+
+"
+Packed BCD stores two decimal digits per byte (using four bits for each digit), while unpacked BCD stores one decimal digit per byte, typically using the upper nibble for the digit and the lower nibble for padding.
+"
+_

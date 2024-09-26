@@ -1,0 +1,24 @@
+
+========================================================================================
+SIMD REGISTERS AND INSTRUCTIONS 
+========================================================================================
+
+MMX :
+ . history : Pentium CPUs were the first to feature MMX tech
+ . 1996 
+ |
+ . use : advanced multimedia and communication applications
+ |
+ . constitution : x86 features eight 64-bit MMX registers 
+ . support of SIMD instructions
+ . "The MMX instructions operate in parallel on the data values contained in the MMX registers."
+ . MMX registers constitute the FPU 
+ |
+ . MMX is not an acronym standing for anything , but an Intel trademark 
+
+
+XMM : 
+ . constitution : x86 features eight 128-bit XMM registers
+ . "used by streaming SIMD extensions to the instruction set" 
+
+_

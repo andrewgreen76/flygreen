@@ -36,16 +36,33 @@ Constitution :
 
 
 ========================================================================================
-OTHER DETAILS 
+IEEE STANDARD FOR FPU 
 ========================================================================================
 
 These are "based on the IEEE standard for binary floating-point arithmetic" (IEEE 7541985) 
  . numerical formats
  . processing algorithms
  . exception signaling procedures
- 
+
+
+========================================================================================
+CONTROL REGISTER 
+========================================================================================
+
 x86 vs. x87 :
  . x86 control registers require elevated runtime privileges
  . that's not so with x87 
+
+
+Individual algorithms have specific processing requirements. 
+ . "Setting an exception mask bit to 1 in the FPU control register disables
+    only the generation of a processor exception." 
+
+
+========================================================================================
+STATUS REGISTER 
+========================================================================================
+
+ . "records the occurrence of any FPU exception condition" 
 
 _

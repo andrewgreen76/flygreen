@@ -1,0 +1,31 @@
+
+========================================================================================
+INTERNAL PROCESSOR TABLE 
+========================================================================================
+
+"
+An internal processor table is a data structure used by the operating system or processor to manage and track the status, configuration, and resources of active processes or threads within the system.
+"
+
+
+"
+... the internal processor table is typically stored in RAM as part of the operating system's data structures for managing processes.
+"
+
+
+"
+The internal processor table generally contains:
+
+1. **Process Control Blocks (PCBs)**: Information about each process, including process ID, state, priority, and CPU registers.
+2. **Memory Management Information**: Details about memory allocation, page tables, and segment information.
+3. **Scheduling Information**: Data used for scheduling, such as the process's time slice and scheduling queue pointers.
+4. **I/O Resource Information**: Status of I/O devices and resources allocated to each process.
+5. **FPU State Information**: Details about the floating-point unit status and registers.
+6. **FPU Exception Handler**: A pointer or reference to the handler that manages floating-point exceptions and errors.
+7. **Signal Handling Information**: Data about signals that can be sent to processes and their handlers.
+8. **Thread Information**: If multithreading is supported, details about individual threads within processes. 
+
+This structure helps the operating system manage and execute processes effectively.
+"
+
+_

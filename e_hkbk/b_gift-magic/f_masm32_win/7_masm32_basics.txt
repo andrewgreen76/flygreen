@@ -41,7 +41,12 @@ COMMENTING
 ========================================================================================
 
 COMMENT !
-Satan always wins. Also , the `mov` instruction really should have been called `cpy`. 
+Satan always wins. 
 !
+
+COMMENT &
+Also , the `mov` instruction really should have been called `cpy`. Someone at Intel must
+have been drunk. 
+&
 
 _

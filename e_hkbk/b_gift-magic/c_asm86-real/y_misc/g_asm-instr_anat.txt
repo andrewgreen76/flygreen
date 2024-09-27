@@ -4,8 +4,13 @@ ASSEMBLY INSTRUCTIONS
 ========================================================================================
 
  . label - (optional) 
- . mnemonic -
- . operands -
- . comments - (optional) 
+ . mnemonic - required 
+ . operand(s) - (depends) 
+ . comments - (optional)
+
+
+Labels :
+ . address before an instruction (instruction's address) 
+ . address before data 
 
 _

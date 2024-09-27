@@ -1,0 +1,34 @@
+
+========================================================================================
+x86 INTEGERS 
+========================================================================================
+
+Integer constants :
+ . (optional) lead-in sign +/- 
+ . digit(s)
+ . (optional) radix - value's base
+   - b - binary
+   - h/H - hex
+   - d - decimal
+   ... 
+
+
+========================================================================================
+MATHEMATICAL ORDER OF PRECEDENCE 
+========================================================================================
+
+Remember PEMDAS ? Well, x86 assembly has :
+ |
+ . P
+ |
+ . unary plus : 
+ |  . add eax , 0
+ |
+ . unary minus :
+ |  . neg eax ; negates the loaded value
+ |
+ . MD
+ |
+ . AS
+
+_

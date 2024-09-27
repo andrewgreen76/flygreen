@@ -13,7 +13,7 @@ Privileged (kernel mode) operations include :
  . talking to processes			signal() -or- argc/argv
  . managing processes 			./ -or- SIGTSTP -or- SIGINT
  . kernel-level memory management	page swapping , virt.mem , etc.
- . accessing hardware devices and resources (I/O : disk , NIC , ...)
+ . accessing HW devices and resources 	I/O : peripherals , disk , NIC 
 
 
 "
@@ -47,7 +47,7 @@ User-mode activities :
  | . user-mode requests to the kernel for privileged operations 
  | . e.g., read(), open(), exit()
  |
- . library-dependent operations
+ . library calls 
    . user-level memory management ( malloc() , free() ) 
 
 

@@ -10,6 +10,10 @@ Real mode :
  . no multitasking => processor runs only one program at a time
    . program can be interrupted to process requests (based on input peripherals) 
  . no memory protection => apps can access any memory location (even MMIO)
+ |
+ . byte-addressable memory (every mem_byte has its own address) 
+ . mem addresses are represented as seg:off pairs 
+
 
 Protected mode : 
  . each process gets 4GB of addressable memory
@@ -17,6 +21,7 @@ Protected mode :
  <=> 0x0 -> 0xFFFFFFFF 
  . multitasking
  . memory protection
+
 
 Virtual-8086 mode :
  . real mode simulation (a virtual machine) with memory protection and multitasking capability 

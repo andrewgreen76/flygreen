@@ -1,7 +1,27 @@
 
-========================================================================================
+. exist to segregate user requests and the system-critical operations.
+
 
 ========================================================================================
+KERNEL MODE 
+========================================================================================
+
+. privileged (kernel mode) operations include : 
+  . working with a file system		/dev , /lib , etc. 
+  . manipulating processes 		./ -or- SIGTSTP -or- SIGINT
+  . talking to processes		signal() -or- argc/argv
+  . setting aside more memory 		malloc() , free() , etc.
+|||
+. C library calls (e.g., malloc() ) are NOT system calls. 
+  . a system call does not need a library 
+
+
+========================================================================================
+USER MODE 
+========================================================================================
+
+. in the user mode you can't carry out your own requests like I/O operations ... unless you make a system call
+. system calls (e.g., read(), open(), exit() ) are user mode requests for privileged operations from the kernel
 
 Kernel-mode activities :
 | . accessing hardware devices and resources (I/O : disk , NIC , ...)

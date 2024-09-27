@@ -9,7 +9,7 @@
 	xor ax, ax   ; color        
 	xor bx, bx   ; fb offset of pixel to paint
 
-	paint:
+paint:
 	mov [bx],ax ; paint color in ax into pixel at bx.
 	inc ax ; change color
 	inc bx

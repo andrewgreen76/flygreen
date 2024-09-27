@@ -46,6 +46,7 @@ User-mode activities :
  . system calls
  | . user-mode requests to the kernel for privileged operations 
  | . e.g., read(), open(), exit()
+ | . "implemented in assembly language for the low-level interface with the operating system"
  |
  . library calls 
    . user-level memory management ( malloc() , free() ) 

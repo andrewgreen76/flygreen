@@ -1,0 +1,47 @@
+
+========================================================================================
+DATA LABELS - MEMORY ALLOCATION AND INITIALIZATION 
+========================================================================================
+
+For a single dword : 
+
+	count DWORD 100 
+
+For a sequence of dwords : 
+
+	count DWORD 19 , -5 , 54 , 73
+
+
+========================================================================================
+DIRECTIVES 
+========================================================================================
+
+Important things to remember : 
+ . directives are exclusive to the choice of the assembler 
+ => they are not a part of any instruction set 
+
+
+Directives for MASM , 32-bit Windows systems :  
+ |
+ .CODE
+ .DATA
+ .STACK
+ .END - end of module 
+
+
+Since we write code meant for 32-bit systems , nearly all of our memory allocation should be
+  in dword intervals.
+  |
+  .DD - alloc a dword 
+  .DWORD - alloc a dword 
+
+
+========================================================================================
+COMMENTING 
+========================================================================================
+
+COMMENT !
+Satan always wins. Also , the `mov` instruction really should have been called `cpy`. 
+!
+
+_

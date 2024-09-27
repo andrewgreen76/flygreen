@@ -1,6 +1,6 @@
 
 ========================================================================================
-IMPORTANT THINGS TO REMEMBER 
+DIRECTIVES - IMPORTANT THINGS TO REMEMBER 
 ========================================================================================
 
  . directives are exclusive to the choice of the assembler 
@@ -8,7 +8,7 @@ IMPORTANT THINGS TO REMEMBER
 
 
 ========================================================================================
-DIRECTIVES - FOR MASM , 32-BIT WINDOWS SYSTEMS) 
+DIRECTIVES - FOR MASM , 32-BIT WINDOWS SYSTEMS 
 ========================================================================================
 
  .CODE

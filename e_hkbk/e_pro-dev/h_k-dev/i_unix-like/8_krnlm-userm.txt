@@ -1,0 +1,33 @@
+
+========================================================================================
+
+========================================================================================
+
+Kernel-mode activities :
+| . accessing hardware devices and resources (I/O : disk , NIC , ...)
+| . kernel-level memory management (paging swapping , virtmem)
+| . process management
+|
+"
+The kernel can perform several activities that user processes cannot, including:
+
+1. **Accessing Hardware Devices**: Directly interfacing with hardware components like disk drives, network interface cards (NICs), and other peripherals.
+2. **Memory Management**: Allocating, freeing, and managing memory addresses, including page swapping and managing virtual memory.
+3. **Process Management**: Creating, scheduling, and terminating processes, as well as managing process states and inter-process communication.
+4. **Interrupt Handling**: Responding to hardware interrupts and managing context switches between processes.
+5. **Direct Access to System Resources**: Accessing system resources like the CPU, timers, and I/O ports that user processes cannot interact with directly.
+6. **File System Management**: Interacting with the file system for reading and writing files, including managing permissions and access controls.
+7. **Implementing Security Policies**: Enforcing access controls, permissions, and security policies to protect system integrity.
+8. **Handling System Calls**: Providing the interface for user processes to request services from the kernel through system calls.
+9. **Managing Device Drivers**: Loading and managing device drivers that control hardware devices.
+10. **Setting Up Networking**: Configuring and managing network protocols, sockets, and direct communication over the network.
+
+These activities are critical for maintaining system stability, security, and performance, and are restricted to the kernel to prevent user processes from compromising the system.
+"
+|
+|
+|
+User-mode activities :
+  . 
+
+_

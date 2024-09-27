@@ -1,0 +1,40 @@
+
+========================================================================================
+DESCRIPTOR TABLES 
+========================================================================================
+
+Interrupt descriptor table : 
+ . data structure 
+ . accessed by OS
+ . we target hardware-related subroutines 
+ . holds addresses/entry points of interrupt handlers/subroutines
+ . given an ISR int number -> entry point for this ISR
+
+
+Segment descriptor table : 
+ . a.k.a. global descriptor table (GDT) 
+ . data structure
+ . accessed by a process 
+ . exclusive to protected mode
+ . we target process segments
+ | 
+ . every CS in GDT is defined with the following attributes :
+   . access rights (rwx perms) 
+   . base
+   . size ("limit")
+   . type of segment (code , data , system) 
+
+ 
+File descriptor table : 
+ . data structure
+ . accessed by OS
+ . we target open files (that are used by a process)
+ . file descriptors = int vals mapped to individual file objects (w/ file status ,
+     location , access perms) 
+
+
+As you can see , these three things belong to conversations on very different topics
+  as they serve different purposes. Nevertheless , they are all data structures with 
+  mappings. 
+
+_

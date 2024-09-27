@@ -19,16 +19,17 @@ MATHEMATICAL ORDER OF PRECEDENCE
 
 Remember PEMDAS ? Well, x86 assembly has :
  |
- . P
+ . Parentheses 
  |
  . unary plus : 
  |  . add eax , 0
+ |  . only exists to show the reader that the value in the register is positive (without comments) 
  |
  . unary minus :
  |  . neg eax ; negates the loaded value
  |
- . MD
+ . M / D / % 
  |
- . AS
+ . A / S
 
 _

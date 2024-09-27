@@ -1,0 +1,11 @@
+
+========================================================================================
+BYTE-ADDRESSABLE MEMORY 
+========================================================================================
+
+ . IN REAL MODE : each byte of memory (not word , not dword , but byte) has its own
+   designated memory address
+
+ . Reminder : these addresses are directly addressable as seg:off by any program. 
+
+_

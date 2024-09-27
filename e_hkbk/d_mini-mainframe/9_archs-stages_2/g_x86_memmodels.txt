@@ -1,0 +1,24 @@
+
+========================================================================================
+OPERATING MODES REVISITED 
+========================================================================================
+
+Real mode : 
+ . 1MB of addressable memory 
+ <=> 2^(20 A-bits)
+ <=> 0x0 -> 0xFFFFF
+ . no multitasking => processor runs only one program at a time
+   . program can be interrupted to process requests (based on input peripherals) 
+ . no memory protection => apps can access any memory location (even MMIO)
+
+Protected mode : 
+ . each process gets 4GB of addressable memory
+ <=> 2^(32 A-bits)
+ <=> 0x0 -> 0xFFFFFFFF 
+ . multitasking
+ . memory protection
+
+Virtual-8086 mode :
+ . real mode simulation (a virtual machine) with memory protection and multitasking capability 
+
+_

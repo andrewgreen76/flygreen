@@ -3,16 +3,21 @@
 OPERATING MODES REVISITED 
 ========================================================================================
 
-Real mode : 
- . 1MB of addressable memory 
+Real mode :
+ |
+ . 1 MB of addressable memory 
  <=> 2^(20 A-bits)
  <=> 0x0 -> 0xFFFFF
+ |
  . no multitasking => processor runs only one program at a time
-   . program can be interrupted to process requests (based on input peripherals) 
+ |  . program can be interrupted to process requests (based on input peripherals)
+ |
  . no memory protection => apps can access any memory location (even MMIO)
  |
  . byte-addressable memory (every mem_byte has its own address) 
- . mem addresses are represented as seg:off pairs 
+ . mem addresses are represented as seg:off pairs
+ |
+ . memory model : the flat segmentation model (1 MB RAM , seg size = 64 KB , computed seg:off pairs)
 
 
 Protected mode : 
@@ -21,6 +26,9 @@ Protected mode :
  <=> 0x0 -> 0xFFFFFFFF 
  . multitasking
  . memory protection
+ |
+ . memory model : ideally , segmented/protected memory model (paging and more complex segmentation) 
+   . the flat segmentation model is fine 
 
 
 Virtual-8086 mode :

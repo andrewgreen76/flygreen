@@ -15,7 +15,7 @@ Segment descriptor table :
  . a.k.a. global descriptor table (GDT) 
  . data structure
  . accessed by a process 
- . exclusive to protected mode
+ . NOT exclusive to protected mode
  . we target process segments
  | 
  . every CS in GDT is defined with the following attributes :

@@ -1,4 +1,23 @@
 
+Descriptor tables :
+ |
+ . interrupt descriptor table
+ | . data structure 
+ | . accessed by OS
+ | . we target hardware-related subroutines 
+ | . holds addresses/entry points of interrupt handlers/subroutines
+ | . given an ISR int number -> entry point for this ISR
+ |
+ . segment descriptor table 
+ | . a.k.a. global descriptor table (GDT) 
+ | . data structure
+ | . exclusive to protected mode
+ | . we target process segments 
+ |
+ . file descriptor table
+   . we target open files 
+
+
  (a) stick with pro-terminology (misc. terms) -or-
  (b) break up that dir into DS , algs , etc.
 

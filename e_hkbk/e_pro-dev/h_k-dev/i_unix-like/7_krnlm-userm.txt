@@ -3,28 +3,19 @@
  . exist to segregate user requests and the system-critical operations
 
 
-Hierarchy of operations :
- . 
-
-
 ========================================================================================
 KERNEL MODE 
 ========================================================================================
 
-Privileged (kernel mode) operations include : 
+Privileged (kernel mode) operations include :
+ |
  . working with a file system		/dev , /lib , etc. 
- . manipulating processes 		./ -or- SIGTSTP -or- SIGINT
- . talking to processes		signal() -or- argc/argv
- . setting aside more memory 		malloc() , free() , etc.
-   
- . C library calls (e.g., malloc() ) are NOT system calls. 
-   . a system call does not need a library 
+ . talking to processes			signal() -or- argc/argv
+ . managing processes 			./ -or- SIGTSTP -or- SIGINT
+ . kernel-level memory management	page swapping , virt.mem , etc.
+ . accessing hardware devices and resources (I/O : disk , NIC , ...)
 
 
-| . accessing hardware devices and resources (I/O : disk , NIC , ...)
-| . kernel-level memory management (paging swapping , virtmem)
-| . process management
-|
 "
 The kernel can perform several activities that user processes cannot, including:
 
@@ -46,11 +37,38 @@ These activities are critical for maintaining system stability, security, and pe
 USER MODE 
 ========================================================================================
 
-. you can't carry out your own requests like I/O operations ... unless you make a system call
-. system calls (e.g., read(), open(), exit() ) are user mode requests for privileged operations from the kernel
-
-
 User-mode activities :
-  . 
+ |
+ . computations
+ . variable manipulation
+ . access to data and files already in process memory
+ |
+ . system calls
+ | . user-mode requests to the kernel for privileged operations 
+ | . e.g., read(), open(), exit()
+ |
+ . library-dependent operations
+   . user-level memory management ( malloc() , free() ) 
+
+
+=======================================================================================
+OTHER DETAILS 
+========================================================================================
+
+Ease of access :
+   I. user mode w/ libraries 
+  II. user mode w/o libraries 
+ III. kernel mode 
+
+========================================================================================
+
+Perspecive on booting and access :
+
+
+	Mode			"Sub-mode"		Time		
+	........................................................................
+	real mode					a few instructions
+	protected mode		kernel mode		~10%-20% of instructions
+		  		user mode		~80%-90% of instructions
 
 _

@@ -40,9 +40,13 @@ Since we write code meant for 32-bit systems , nearly all of our memory allocati
 COMMENTING 
 ========================================================================================
 
+ ; The classic semicolon still works for line comments. 
+
+
 COMMENT !
 Satan always wins. 
 !
+
 
 COMMENT &
 Also , the `mov` instruction really should have been called `cpy`. Someone at Intel must

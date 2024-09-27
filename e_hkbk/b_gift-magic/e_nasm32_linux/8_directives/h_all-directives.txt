@@ -1,8 +1,4 @@
 
-Does the correct set of directives to use depend on the assembler and/or architecture and
-not the syntax ?
- . Doesn't matter. Assembler ~ syntax. 
-
 ========================================================================================
 INTEL SYNTAX DIRECTIVES VS. AT&T SYNTAX DIRECTIVES : 
 ========================================================================================
@@ -56,5 +52,14 @@ GAS DIRECTIVES :
 "
 ... you can use `_start` as the entry point for your assembly program without any issues. However, keep in mind that using `_start` instead of `main` may affect how your program interacts with certain runtime environments or libraries, especially when dealing with high-level languages like C. Typically, if you're writing a standalone assembly program or a bootloader, using `_start` is appropriate. If you're integrating assembly code into a larger project or using it alongside high-level languages, you may want to follow the conventions of the environment or language you're working with, which might involve using `main`.
 "
+
+
+========================================================================================
+BORING : 
+========================================================================================
+
+Does the correct set of directives to use depend on the assembler and/or architecture and
+not the syntax ?
+ . Doesn't matter. Assembler ~ syntax. 
 
 _

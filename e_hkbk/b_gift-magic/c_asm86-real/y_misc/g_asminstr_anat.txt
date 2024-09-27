@@ -1,15 +1,11 @@
 
 ========================================================================================
-DIRECTIVES (IN THE CONTEXT OF MASM , 32-BIT , WINDOWS) 
+ASSEMBLY INSTRUCTIONS 
 ========================================================================================
 
- .CODE
- .DATA
- .STACK
- .END - end of module 
-
-
- .DD - alloc a dword 
- .DWORD - alloc a dword 
+ . label - (optional) 
+ . mnemonic -
+ . operands -
+ . comments - (optional) 
 
 _

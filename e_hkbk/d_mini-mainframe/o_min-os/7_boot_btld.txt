@@ -23,4 +23,12 @@ BOOTLOADER
 
 	[The SSBL will call upon the OS kernel and hand the control over to it.]		
 
+
+========================================================================================
+WHAT IS A BOOTLOADER LIKE ? 
+========================================================================================
+
+ . a (relatively) small program
+ . the person who develops the kernel has to write the bootloader 
+
 _

@@ -1,9 +1,0 @@
-
-========================================================================================
-WHAT IS A BOOTLOADER LIKE ? 
-========================================================================================
-
- . a (relatively) small program
- . the person who develops the kernel has to write the bootloader 
-
-_

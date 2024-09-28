@@ -1,30 +1,45 @@
 
 ========================================================================================
-BOOT PROCESS 
+EEPROM BIOS EXECUTION 
 ========================================================================================
 
+Real mode : 
+ . access to {0x0 -> 0xFFFFF} <=> access to 1 MB of RAM 
+ . 16-bit code
 
-	On the EEPROM - BIOS , to be executed in REAL MODE :		}
-	 . access to {0x0 -> 0xFFFFF}	       	       	    		}
-	 . 16-bit code							}
-	 . POST 							}
-	   . hardware initialization  					} EEPROM BIOS
-	   . hardware diagnostics    		 	  		} is executed
-	 . (other routines?)	     	 				}
-	 -> checking on all connected drives 				}
-	 -> building the boot priorities list				}
 
-	[ An OS is selected.  		  			      ]			
-	[ BIOS accesses the drive -> boot partition -> bootloader.    ]
-	[ BIOS loads the bootloader into RAM @ 0x7C00 in real mode.   ]
-	[ BIOS hands the control over to the bootloader on the drive. ]			
+On the EEPROM - BIOS , to be executed in REAL MODE :
+ |
+ . POST 							
+ | . hardware initialization  					
+ | . hardware diagnostics
+ |
+ -> BIOS provides basic disk drivers to HDD				
+ -> (other routines?)	     	 				
+ -> checking on all connected drives 				
+ -> building the boot priorities list				
 
-	On the drive :   	       	      		    	       				
-	 -> FSBL		      				  				
-	 -> SSBL       					  				
-	  . there may be other partitions 							
+
+========================================================================================
+BOOTLOADER 
+========================================================================================
+
+	An OS is selected by the user.
+	|
+	-> BIOS accesses the drive -> boot partition -> bootloader 
+    	|  -> FSBL		      				  				
+	|  -> SSBL 
+	|   . there may be other partitions
+	|
+	-> BIOS loads the bootloader into RAM @ 0x7C00 in real mode 
+	-> BIOS hands the control over to the bootloader on the drive 
 
 	[The SSBL will call upon the OS kernel and hand the control over to it.]		
+
+
+========================================================================================
+LOADING OS 
+========================================================================================
 
 	 -> protected mode 
 	 -> kernel 

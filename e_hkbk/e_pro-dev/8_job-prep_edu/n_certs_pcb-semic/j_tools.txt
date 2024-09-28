@@ -3,6 +3,9 @@
 TOOLS 
 ========================================================================================
 
+ . www.falstad.com 
+ . www.falstad.com/circuit/circuitjs.html 
+
  . AutoCAD
  
  . Altium Designer

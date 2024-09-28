@@ -9,7 +9,7 @@ Main driver :
 
 
 Device driver :
- . basically , software that translates code and data from system architecture to device architecture or vice versa 
+ . basically , software that translates system commands (HLL) to device architecture instructions (low-level) 
  . translates data fit for a different architecture into data that the hardware in its own architecture can digest 
 
 

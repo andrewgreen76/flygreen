@@ -24,15 +24,14 @@ On the EEPROM - real-mode BIOS :
 
 
 LOAD AND EXECUTE THE BOOTLOADER. 
- -> BIOS accesses the drive -> boot partition -> FSBL 
- -> BIOS loads the FSBL into RAM @ 0x7C00 in real mode 
- -> BIOS hands the control over to the FSBL 
- -> FSBL loads / hands over to SSBL 
+ -> BIOS accesses the drive -> boot partition -> FSBL
+ -> FSBL @ 0x7C00 
+ -> SSBL 
 
 
 LOAD AND EXECUTE THE OS. 
  -> SSBL enables protected mode 
- -> SSBL loads / hands over to OS kernel 
+ -> SSBL -> kernel 
  -> kernel loads in build utilities 					      		
 
 _

@@ -1,0 +1,40 @@
+
+========================================================================================
+BOOT PROCESS 
+========================================================================================
+
+
+	On the EEPROM - BIOS , to be executed in REAL MODE :		}
+	 . access to {0x0 -> 0xFFFFF}	       	       	    		}
+	 . 16-bit code							}
+	 . POST 							}
+	   . hardware initialization  					} EEPROM BIOS
+	   . hardware diagnostics    		 	  		} is executed
+	 . (other routines?)	     	 				}
+	 -> checking on all connected drives 				}
+	 -> building the boot priorities list				}
+
+	[ An OS is selected.  		  			      ]			
+	[ BIOS accesses the drive -> boot partition -> bootloader.    ]
+	[ BIOS loads the bootloader into RAM @ 0x7C00 in real mode.   ]
+	[ BIOS hands the control over to the bootloader on the drive. ]			
+
+	On the drive :   	       	      		    	       				
+	 -> FSBL		      				  				
+	 -> SSBL       					  				
+	  . there may be other partitions 							
+
+	[The SSBL will call upon the OS kernel and hand the control over to it.]		
+
+	 -> protected mode 
+	 -> kernel 
+	 -> build utilities     						      		
+
+
+========================================================================================
+POST-BOOT PROCESS 
+========================================================================================
+
+	. kernel provides hardware drivers 
+
+_

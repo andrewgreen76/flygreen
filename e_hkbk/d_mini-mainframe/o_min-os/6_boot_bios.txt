@@ -1,0 +1,35 @@
+
+			boot sector (512 bytes)			btld sector (~31K)
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+	|byte	...	...	byte	|byte	|byte	|byte  ...	...	...	
+	|0    	...	...	509	|510	 511	|512		
+	| 	  			|	|	|		
+	|    initial boot code  	|0xAA	 0x55	|     	actual btld code 
+	|     				|	|	|		
+
+
+========================================================================================
+EEPROM BIOS EXECUTION 
+========================================================================================
+
+Real mode : 
+ . access to {0x0 -> 0xFFFFF} <=> access to 1 MB of RAM 
+ . 16-bit code
+
+
+On the EEPROM - BIOS , to be executed in REAL MODE :
+ |
+ . POST 							
+ | . hardware initialization  					
+ | . hardware diagnostics
+ |
+ -> BIOS provides basic disk drivers to HDD				
+ -> (other routines?) 
+ -> checking for boot signature ("magic number") 0x55AA on all connected drives
+ |  to spot the boot sector (512 bytes) 
+ |   . byte 512th = 0x55 
+ |   . byte 511th = 0xAA
+ |
+ -> building the boot priorities list				
+
+_

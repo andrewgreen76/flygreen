@@ -1,0 +1,26 @@
+
+			boot sector (512 bytes)			btld sector (~31K)
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+	|byte	...	...	byte	|byte	|byte	|byte  ...	...	...	
+	|0    	...	...	509	|510	 511	|512		
+	| 	  			|	|	|		
+	|    initial boot code  	|0xAA	 0x55	|     	actual btld code 
+	|     				|	|	|		
+
+
+========================================================================================
+BOOTLOADER 
+========================================================================================
+
+	An OS is selected by the user.
+	|
+	-> BIOS accesses the drive -> boot partition -> first-stage bootloader (FSBL) 
+	|   . there may be other partitions
+	|
+	-> BIOS loads FSBL into RAM @ 0x7C00 in real mode 
+	-> BIOS hands the control over to the bootloader in RAM 
+	-> SSBL 
+
+	[The SSBL will call upon the OS kernel and hand the control over to it.]		
+
+_

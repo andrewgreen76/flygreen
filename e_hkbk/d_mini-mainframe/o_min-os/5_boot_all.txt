@@ -16,7 +16,7 @@ On the EEPROM - real-mode BIOS :
  |
  . POST : hardware init + diagn 
  -> drivers    : BIOS provides basic disk drivers to HDD
- -> magic num  : looking for 510:0x55 + 511:0xAA in boot sector on all connected drives
+ -> magic num  : looking for 510:0xAA + 511:0x55 in boot sector on all connected drives
  -> bootpriol  : building the boot priorities list				
 
 
@@ -26,14 +26,13 @@ On the EEPROM - real-mode BIOS :
 LOAD AND EXECUTE THE BOOTLOADER. 
  -> BIOS accesses the drive -> boot partition -> FSBL 
  -> BIOS loads the FSBL into RAM @ 0x7C00 in real mode 
- -> BIOS hands the control over to the FSBL in RAM
- -> FSBL loads SSBL 
-    [The SSBL will call upon the OS kernel and hand the control over to it.]
-	
+ -> BIOS hands the control over to the FSBL 
+ -> FSBL loads / hands over to SSBL 
+
 
 LOAD AND EXECUTE THE OS. 
- -> protected mode 
- -> kernel 
- -> build utilities     						      		
+ -> SSBL enables protected mode 
+ -> SSBL loads / hands over to OS kernel 
+ -> kernel loads in build utilities 					      		
 
 _

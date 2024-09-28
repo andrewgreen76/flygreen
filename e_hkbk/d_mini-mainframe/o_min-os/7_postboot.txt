@@ -3,7 +3,8 @@
 POST-BOOT PROCESS 
 ========================================================================================
 
-	. kernel provides HARDWARE DRIVERS
+	. the kernel provides HARDWARE DRIVERS
+	  |
 	  . source : installation medium , among system files
 	  . destination : /lib/modules/$(uname -r)/kernel/drivers/
 	    . `uname -r` provides the current version of the kernel 

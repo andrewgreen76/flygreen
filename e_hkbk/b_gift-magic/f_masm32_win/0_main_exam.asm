@@ -20,6 +20,7 @@
 				;     from low to high with reference pointers and offsets instead of
 				;     referencing individual process segments (CS, DS, etc.).
 
+	;; You can add the .data section here for "variables". 
 	
 	.code			; Code segment : instructions start below.
 				;
@@ -41,4 +42,5 @@ In 32-bit MASM programs for Windows :
  |
  . "`END main` indicates the end of the source file and specifies the entry point 
       for the program, serving distinct purposes despite the apparent redundancy." 
+      Might be used to tell MASM to stop reading the file. 
 */

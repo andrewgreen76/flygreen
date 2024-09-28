@@ -1,4 +1,14 @@
 
- . Linker -> Advanced -> Entry Point : [proc_label (main/start)] 
+ . right-click on the project entry in the Solution Explorer
+ -> Build Dependencies
+ -> BUild Customizations ...
+ -> enable |v| masm 
+
+
+ . right-click on the project entry in the Solution Explorer
+ -> Properties 
+ -> Linker
+ -> Advanced
+ -> Entry Point : [proc_label (main/start)] 
 
 _

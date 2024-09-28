@@ -1,0 +1,9 @@
+"
+... in the context of stack-based languages, the stack refers to a part of the process layout in memory, used to manage function calls, local variables, and control flow, with operations relying on this stack data structure to perform computations and maintain state.
+"
+
+
+"
+Assembly language can be considered stack-based if it is designed to utilize a stack for operations, such as in the case of certain architectures like x86, where instructions may push and pop values from the stack, but not all assembly languages inherently follow this model.
+"
+_

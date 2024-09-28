@@ -9,36 +9,31 @@
 
 
 ========================================================================================
-EEPROM BIOS EXECUTION 
+BOOT PROCESS 
 ========================================================================================
 
 On the EEPROM - real-mode BIOS : 
  |
- . POST	      : hardware init + diag 
+ . POST	      : hardware init + diagn 
  -> drivers   : BIOS provides basic disk drivers to HDD
  -> magic num : looking for 510:0x55 + 511:0xAA in boot sector on all connected drives
- -> bootprior : building the boot priorities list				
+ -> bootpriol : building the boot priorities list				
 
 
-========================================================================================
-BOOTLOADER 
-========================================================================================
+[An OS is selected.]
 
-An OS is selected.
--> BIOS accesses the drive -> boot partition -> FSBL 
--> BIOS loads the bootloader into RAM @ 0x7C00 in real mode 
--> BIOS hands the control over to the bootloader in RAM 
--> SSBL 
 
-[The SSBL will call upon the OS kernel and hand the control over to it.]
+LOAD AND EXECUTE THE BOOTLOADER. 
+ -> BIOS accesses the drive -> boot partition -> FSBL 
+ -> BIOS loads the bootloader into RAM @ 0x7C00 in real mode 
+ -> BIOS hands the control over to the bootloader in RAM 
+ -> SSBL 
+    [The SSBL will call upon the OS kernel and hand the control over to it.]
 	
 
-========================================================================================
-LOADING OS 
-========================================================================================
-
--> protected mode 
--> kernel 
--> build utilities     						      		
+LOAD AND EXECUTE THE OS. 
+ -> protected mode 
+ -> kernel 
+ -> build utilities     						      		
 
 _

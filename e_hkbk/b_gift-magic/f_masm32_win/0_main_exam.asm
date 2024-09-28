@@ -3,13 +3,16 @@
 				; Here : A CPU architecture that supports 32-bit systems / protected mode. 
 
 	
-	.model flat		; .model : [mem segmn model] [calling convention]
-				;   . calling convention - specifies how parameters are passed to procedures/subroutines 
+	.model flat		; .model : [mem segmn model] [calling convention] 
+				;   . calling convention - specifies how parameters are passed to procedures/subroutines
+				;     . ex. : cdecl
+				;     . ex. : stdcall - we can call Windows C functions 
 				;
-				; Here : flat memory segmentation model : memory is accessible/addressable 
-				; in the form of one line from low to high with reference pointers
-				; and offsets instead of referencing individual process segments
-				; (CS, DS, etc.).
+				; Here : flat memory segmentation model :
+				;   . protected mode 
+				;   . memory is accessible/addressable in the form of one line
+				;     from low to high with reference pointers and offsets instead of
+				;     referencing individual process segments (CS, DS, etc.).
 
 	
 	.code			; Code segment : instructions start below.

@@ -17,5 +17,5 @@ start:
 				; $-$$ - current size of code
 				; 510-($-$$) : 0x7c00 + ($-$$) - (rem_of_510 w/ 0's) , and that's before the bootsig.
 				;
-				; 0--- | 0x7c00 + ($-$$) + rem_510_zeroes | 0xAA | 0x55 |
+				; 0--- | 0x7c00 + ($-$$) + rem_510_zeropad | 0xAA | 0x55 |
 	dw 0xAA55

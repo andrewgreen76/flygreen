@@ -1,0 +1,9 @@
+
+Q : I have a binary file 'boot.bin'. I run `du -b` and it prints "512" for 512 bytes. I run `du -k` and it prints "4" for 4KB. This makes no sense.
+
+
+A :
+"
+... Since 512 bytes is less than [4096] bytes, `du -k` rounds up to the [block size of 4 KB], reporting it as 4 KB due to the way it allocates disk blocks, typically using a default block size of 4 KB.
+"
+_

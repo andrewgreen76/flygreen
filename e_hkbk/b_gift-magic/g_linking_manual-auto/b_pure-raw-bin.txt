@@ -3,9 +3,12 @@
 
 
 ========================================================================================
-RAW BINARIES : 
+RAW BINARY : 
 ========================================================================================
 
- . 
+ . a file containing only 1's and 0's
+ . NO BINARY HEADERS 
+ . this is the format that the CPU is supposed to work on - it's all just "CPU-friendly"
+     binary code , nothing else 
 
 _

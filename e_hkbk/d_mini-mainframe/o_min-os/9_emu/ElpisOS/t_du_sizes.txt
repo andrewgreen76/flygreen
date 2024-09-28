@@ -1,4 +1,13 @@
 
+andrew@inspiron:~/flygreen/e_hkbk/d_mini-mainframe/o_min-os/9_emu/ElpisOS$ du -b boot.bin 
+512	boot.bin
+andrew@inspiron:~/flygreen/e_hkbk/d_mini-mainframe/o_min-os/9_emu/ElpisOS$ du -k boot.bin 
+4	boot.bin
+andrew@inspiron:~/flygreen/e_hkbk/d_mini-mainframe/o_min-os/9_emu/ElpisOS$ 
+
+
+========================================================================================
+
 Q : I have a binary file 'boot.bin'. I run `du -b` and it prints "512" for 512 bytes. I run `du -k` and it prints "4" for 4KB. This makes no sense.
 
 

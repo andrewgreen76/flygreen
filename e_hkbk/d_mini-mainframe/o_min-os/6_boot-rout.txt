@@ -15,8 +15,12 @@ On the EEPROM - BIOS , to be executed in REAL MODE :
  | . hardware diagnostics
  |
  -> BIOS provides basic disk drivers to HDD				
- -> (other routines?)	     	 				
- -> checking on all connected drives 				
+ -> (other routines?) 
+ -> checking for boot signature ("magic number") 0x55AA on all connected drives
+ |  to spot boot sectors (512 bytes) 
+ |   . byte 512th = 0x55 
+ |   . byte 511th = 0xAA
+ |
  -> building the boot priorities list				
 
 

@@ -1,4 +1,15 @@
 
+			boot sector (512 bytes)			btld sector (~31K)
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+	|byte	...	...	byte	|byte	|byte	|byte  ...	...	...	
+	|0    	...	...	509	|510	 511	|512		
+	| 	  			|	|	|		
+	|    initial boot code  	|0xAA	 0x55	|     	actual btld code 
+	|     				|	|	|		
+
+
+=================================================================================================
+
  . searching every storage medium for the boot signature
    | 
    . by boot priority : [USB drive , SSD , HDD , floppy] 
@@ -8,12 +19,12 @@
    |
    -> boot sig == 0x55AA
    |  |
-   |  @ 510 : 0xAA	-or-	0x55
-   |  @ 511 : 0x55	-or-	0xAA
+   |  @ 510 : 0xAA 
+   |  @ 511 : 0x55 
    |  . right before the 31K BTLD section
    |
    |
-   -> @ 512 : ~31K btld 
-   -> that btld will be loaded into 0x7C00 
+   -> b0-b509 : initial boot sector code is executed 
+   -> @ 512 : ~31K btld that will be loaded into 0x7C00 
 
 _

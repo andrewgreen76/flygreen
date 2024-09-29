@@ -4,14 +4,15 @@ KERNEL LAND
 ========================================================================================
 
  . any process running the maximum privileges
- . kernel is the fence 
-
+ . kernel is the fence
+ . ring 0
+ 
 
 ========================================================================================
 USER LAND 
 ========================================================================================
 
- . process have restricted rights 
-
+ . processes have restricted rights
+ . ring 3 
 
 _

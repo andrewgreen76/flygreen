@@ -8,14 +8,18 @@ start:
 	jmp $			; "halting" point
 
 print_msg:
-	mov ah , 0eh
 .chk_char:			; The dots are there for branch labels. 
 	lodsb
 	cmp al , 0
-	je .out			; Halt or not ?
-	int 0x10		; print char 
-	jmp .chk_char		; read next char 
-.out:
+	je .out_of_print
+	call print_ch
+	jmp .chk_char
+.out_of_print:	
+	ret
+	
+print_ch:	
+	mov ah , 0eh
+	int 0x10
 	ret
 
 msg:	db 'Hello, World!' , 10 , 0

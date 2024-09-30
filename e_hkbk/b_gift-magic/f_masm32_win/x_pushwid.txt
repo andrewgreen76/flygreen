@@ -1,0 +1,11 @@
+	
+In 16-bit systems , we push 2B content :
+
+	push 0xABCD
+
+
+In 32-bit systems , we push 4B content :
+
+	push 0xEFGHABCD
+
+_

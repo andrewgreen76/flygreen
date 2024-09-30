@@ -1,6 +1,6 @@
 
-	[@]  input_buffer [@] -> SI -> [processing , yielding a result]				     -> [DI]
-	     		      	       		     	      		[@] output_buffer [@] -> DI 
+	[input_buffer] -> SI -> [processing , yielding a result]				     -> [DI]
+	     		      	       		     	      		[output_buffer] -> DI 
 
 
  . Any general-purpose register can serve as a carrier between the input data source ,
@@ -16,7 +16,7 @@ lodsb :
 
  . loads [SI]_val into AL
  . offset SI is automatically incremented afterwards
- => uses DS 
+ => uses DS:SI 
  |
  . SI could be addr/offset of any input buffer (e.g., char str or a grid of bytes for
    plotting a sprite) 
@@ -28,7 +28,7 @@ stosb :
 
  . stores AL_val into [DI] 
  . offset DI is automatically incremented afterwards
- => uses ES 
+ => uses ES:DI 
  |
  . DI could be addr/offset of any output buffer (e.g., framebuffer) 
 

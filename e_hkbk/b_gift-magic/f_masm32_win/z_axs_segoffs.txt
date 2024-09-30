@@ -1,0 +1,8 @@
+
+mov byte al , [ES:32]
+
+mov byte al , [DS:826]
+
+mov byte al , [SS:231]
+
+_

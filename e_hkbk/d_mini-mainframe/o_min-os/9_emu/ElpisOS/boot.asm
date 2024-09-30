@@ -1,8 +1,15 @@
 
-	ORG 0x7c00 		 
+	ORG 0
 	BITS 16			
 
 start:
+	cli			; clear interrupts
+
+	mov ax , 0x7c0
+	mov ds , ax
+	mov es , ax 
+	
+	sti			; enable interrupts
 	mov si , msg
 	call print_msg 
 	jmp $			; "halting" point

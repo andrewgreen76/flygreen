@@ -1,8 +1,9 @@
 
 	ORG 0			; REMEMBER: THIS IS JUST AN OFFSET IN QEMU MACHINE'S RAM 
-	BITS 16			; HOWEVER , BIOS WILL LOAD 0x07C0:0x0000 INTO CS:IP ALL
-				; BY ITSELF !
+	BITS 16			
 
+	jmp 0x07c0:start 	
+	
 start:
 	cli			; clear the int flag in FLAGS (disable interrupts)
 	;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

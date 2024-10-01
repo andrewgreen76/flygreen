@@ -1,5 +1,5 @@
 
-	ORG 0x7c00 		 
+	ORG 0x7c00		; One way to store code at 0x7C00. 
 	BITS 16			
 
 start:

@@ -1,5 +1,5 @@
 
-	ORG 0x7c00 		; offset in QEMU machine's RAM , where NASM will look 
+	ORG 0x7c00 		; offset in QEMU machine's RAM (31K) , where BIOS will look 
 	BITS 16			; for 16-bit CPU architecture
 
 				; No need to announce the start of the code section. 

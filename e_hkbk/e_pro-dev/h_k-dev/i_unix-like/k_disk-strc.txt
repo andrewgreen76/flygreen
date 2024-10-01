@@ -16,7 +16,6 @@ tmpfs           1.6G  140K  1.6G   1% /run/user/1000
 tmpfs           7.7G     0  7.7G   0% /run/qemu
 
 nvme0n1px - 
-
 sda - a storage medium (most likely a USB stick) 
 
 _

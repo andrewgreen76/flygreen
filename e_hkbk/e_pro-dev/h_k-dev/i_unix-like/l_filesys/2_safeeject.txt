@@ -1,0 +1,12 @@
+
+To safely eject a storage medium , ...
+
+	$ umount [path-to-medium]
+
+
+Say , we want to safely remove a USB stick :
+
+	$ umount /dev/sda1     # Example 1.
+	$ umount /dev/sda3     # Example 2. 
+
+_

@@ -1,10 +1,18 @@
 
-	ORG 0			; REMEMBER: THIS IS JUST AN OFFSET IN QEMU MACHINE'S RAM 
-	BITS 16			
-
-	jmp 0x07c0:start 	
-	
+	ORG 0			; Directives do not make parts of code. 
+	BITS 16			; They are excluded in the final binary image and are not part of code.
+				; They are just there to tell the assembler how to assemble code. 
+_start:
+	jmp short start 	; Byte 0 ; 3C = Byte 1 
+	nop 			; Byte 2 
+	times 33 db 0 		; Keep in mind : the directives tell the assembler HOW TO assemble the program ,
+				; and then the assembler digests the source code in a non-generic way thanks to
+				; those directives.  
+				;;;;;;;;;;;;;;;;;;;;;;;;; THIS TAKES CARE OF THE BPB IN THE FACE OF BIOS. 
 start:
+	jmp 0x07c0:step2 	;;;;;;;;;;;;;;;;;;;;;;;;; THIS TAKES CARE OF THE CS:IP. 
+
+step2:	
 	cli			; clear the int flag in FLAGS (disable interrupts)
 	;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	mov ax , 0x07c0	 	; This method is an alternative to ORG 0x7C00. 

@@ -55,6 +55,7 @@ Kernel development :
  . kernel mode vs. user mode
  . kernel mode vs. protected mode
  . system calls vs. library calls 
+ - real-mode stage , BIOS , BPB 
 
 Legacy (real-mode) assembly programming :
 - emu8086 vs. DOSBox vs. actual DOS

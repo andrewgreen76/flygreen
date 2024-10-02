@@ -7,7 +7,7 @@ ON LOADING AND EXECUTING YOUR BOOTSTRAP ON A REAL COMPUTER
 ... please bear in mind it might not work for you. Unfortunately , there are
   so many obstacles when it comes to writing kernels. Things work on one machine
   and they don't work on another. That is just how it works. It's the same reason
-  why Linux has thousands of drivers. Every computer is different. So , if it
-  doesn't work on one machine , try it on another. 
+  why Linux has thousands of drivers. Every computer is different. So , IF IT
+  DOESN'T WORK ON ONE MACHINE , TRY IT ON ANOTHER. 
 "
 _

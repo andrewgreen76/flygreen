@@ -1,4 +1,0 @@
-"
-Just because it works for us in the emulator does not necessarily mean it will work on your real computer , right ? All computers are different. 
-"
-_

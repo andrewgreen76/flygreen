@@ -1,0 +1,9 @@
+"
+SeaBIOS is an open-source implementation of the BIOS that provides a lightweight and flexible firmware interface for x86 machines, often used in conjunction with coreboot and QEMU for system initialization and hardware abstraction.
+"
+
+
+"
+SeaBIOS was developed by Kevin O'Connor and first released in 2006.
+"
+_

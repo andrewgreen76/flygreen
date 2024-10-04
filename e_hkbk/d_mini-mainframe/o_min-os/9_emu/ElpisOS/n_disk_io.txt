@@ -27,7 +27,7 @@ DISK MANAGEMENT - IN 512 BYTES
 
 Data is read from and written to a disk in sectors (groups of 512 bytes). 
   => If any one byte needs to be added / removed / amended , the whole sector
-  |   may have to be monitored and maybe even altered.
+  |    may have to be monitored and maybe even altered. 
   |
   . That data (512 bytes) is read in memory. 
 

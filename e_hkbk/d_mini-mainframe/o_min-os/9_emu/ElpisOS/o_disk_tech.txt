@@ -1,0 +1,21 @@
+
+========================================================================================
+OLD-SCHOOL STORAGE TECH - CHS 
+========================================================================================
+
+ . more complicated compared to the modern storage tech 
+ . cylinder head sector
+ . the only way to manage disk I/O sectors :
+   . specifying the head
+   . specifying the track
+   . specifying the sector
+
+
+========================================================================================
+LBA (LOGICAL BLOCK ADDRESS) 
+========================================================================================
+
+ . the modern way of handling storage media
+ . need to specify only one thing about the unit of interest - the indexed locale 
+
+_

@@ -1,0 +1,17 @@
+
+========================================================================================
+DISK DRIVERS IN REAL MODE 
+========================================================================================
+
+BIOS : real mode : disk I/O - int 13.
+ . "... we don't actually have to write our own driver for this. We just
+    ask the BIOS to read for us." 
+
+========================================================================================
+DISK DRIVERS IN PROTECTED MODE 
+========================================================================================
+
+"
+... in 32-bit protected mode you have to write your own disk driver. 
+"
+_

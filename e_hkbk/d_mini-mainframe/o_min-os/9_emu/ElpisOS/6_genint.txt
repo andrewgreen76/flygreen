@@ -1,0 +1,33 @@
+
+========================================================================================
+WAYS TO GET x86 CPU TO GENERATE THE SAME EXCEPTION (INTERRUPT) 
+========================================================================================
+
+If you attempt to divide by 0 , the CPU will automatically generate the interrupt 0 
+  (or throw the exception) and RESPOND TO THAT by going to the int 0 handler ... no matter
+  what. 
+
+
+EXPLICIT way to handle interrupt 0 ... no matter what the ISR is :
+
+	$ int 0 
+
+
+IMPLICIT way to handle interrupt 0 ... no matter what the ISR is :
+
+	$ mov ax , 0
+	$ div ax
+
+
+... even if we can define ourselves what the first interrupt's ISR would do : 
+
+	mov word[ss:0] , hndl_int0 
+	mov word[ss:2] , 0x07C0    
+
+
+However , typically , the expectation is that the first interrupt would handle DIV/0 ,
+  but the CPU doesn't care what the ISR for int 0 does. 
+
+
+
+_

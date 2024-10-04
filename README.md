@@ -52,6 +52,7 @@ Kernel development :
  - CPU (1) throwing an exception and (2) switching to int handler address 
      despite (A) the explicit/implicit way to the handler and (B) the actual
      handler implementation 
+ - disk management , I/O , interrupts , drivers 
 
 Legacy (real-mode) assembly programming :
 - emu8086 vs. DOSBox vs. actual DOS

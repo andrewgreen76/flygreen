@@ -42,10 +42,9 @@ find_n_ld:
 	mov word[ss:6] , 0x07C0	   ; RAM:4 = int1_seg = CS:
 
 	;;; PROGRAMMING LOGIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	mov ax , 0		; Prints 'A'.
-	div ax		; CPU is designed to automatically generate the `int 0` exception upon DIV/0 (no matter what). 
-	
-	int 1			; Prints 'V'. 
+	;; mov ax , 0		; Prints 'A'.
+	;; div ax		; CPU is designed to automatically generate the `int 0` exception upon DIV/0 (no matter what).
+	;; int 1		; Prints 'V'. 
 	
 	mov si , msg 		; Print "Hello, World!"
 	call print_msg 

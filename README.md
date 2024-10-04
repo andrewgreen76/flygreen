@@ -43,20 +43,15 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-Quantum computing : 
-- contrast with classical binary computing 
-- benefits
-- technology 
-- qubits 
-- hardware (processors) 
-- algorithms 
-
 Kernel development :
  - kernel mode vs. user mode
  - kernel mode vs. protected mode
  - system calls vs. library calls 
  - real-mode stage , BIOS , BPB 
  - dd , fdisk 
+ - CPU (1) throwing an exception and (2) switching to int handler address 
+     despite (A) the explicit/implicit way to the handler and (B) the actual
+     handler implementation 
 
 Legacy (real-mode) assembly programming :
 - emu8086 vs. DOSBox vs. actual DOS
@@ -151,6 +146,14 @@ DIY project : research -and- building my own dumb laptop / motherboard / CPU / E
  | . BIOS (not UEFI) imitation
  |
  . system bus vs. chipset
+
+Quantum computing : 
+- contrast with classical binary computing 
+- benefits
+- technology 
+- qubits 
+- hardware (processors) 
+- algorithms 
 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 

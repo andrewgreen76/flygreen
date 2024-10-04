@@ -3,11 +3,11 @@
 	BITS 16			
 				 
 _start:
-	jmp short ld_csip
+	jmp short ld_btld
 	nop 			 
 	times 33 db 0 	; Bullshitted BPB to 36 bytes from 0x0. 
 
-ld_csip:
+ld_btld:
 	jmp 0x07c0:step2 ; Manual load of CS:IP. 
 
 hndl_int0:		; an ISR : prints 'A'  

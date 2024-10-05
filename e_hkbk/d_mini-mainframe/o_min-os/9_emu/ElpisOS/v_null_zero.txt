@@ -1,0 +1,16 @@
+
+/null - a file for ignoring unwanted output 
+/zero - for filling in bytes with null (ASCII code 0 , not the arithmetic zero)
+
+========================================================================================
+/dev/null VS. /dev/zero
+========================================================================================
+
+"
+`/dev/null` is a special file in Unix-like systems that discards all data written to it, effectively acting as a black hole for unwanted output.
+"
+
+"
+`/dev/zero` is a special file in Unix-like systems that produces an endless stream of null bytes (zeros), which can be used for initializing files or memory.
+"
+_

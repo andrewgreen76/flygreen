@@ -2,7 +2,7 @@
 C code comes in various shapes :
  |
  . simple , conventional C     - educational look , like somebody is still learning 
- . Linux C  		       - ??? 
+ . Linux C  		       - "The kind of code the kernel does is not normal C."
  . embedded C		       - RTOS , embedded Linux 
  . Turbo C  		       - legacy C (late 80s - early 90s) , geared towards game development 
 

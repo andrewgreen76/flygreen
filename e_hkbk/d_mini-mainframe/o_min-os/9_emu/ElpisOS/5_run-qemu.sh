@@ -6,4 +6,4 @@
 
 nasm -f bin ./boot.asm -o ./boot.bin
 qemu-system-x86_64 -hda ./boot.bin
-# Later we will write and use a `makefile` to (re)assemble and (re)link ./boot.bin . 
+# Later we will write and use a `makefile` to (re)assemble / (re)link ./boot.bin . 

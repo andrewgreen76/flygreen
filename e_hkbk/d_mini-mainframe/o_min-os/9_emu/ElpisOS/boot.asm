@@ -1,59 +1,58 @@
 
-	ORG 0			 
-	BITS 16			
-				 
+	ORG 0
+	BITS 16
+			 
 _start:
 	jmp short ld_btld
-	nop 			 
-	times 33 db 0 	; Faked all {0x03 -> 0x35} data bytes for BPB / 512. 
+	nop
+	times 33 db 0
 
 ld_btld:
-	jmp 0x07c0:find_n_ld ; Manual load of CS:IP. 
-	
-find_n_ld:	
-	cli			
-	mov ax , 0x07c0	 	 
-	mov ds , ax 	; DS = 0x7C00
-	mov es , ax	; ES = -//-
-	mov ax , 0x00
-	mov ss , ax	; SS:0 is RAM:0
-	mov sp , 0x7c00 	
-	sti 
-	;;; MAPPING ADDRESSES OF CUSTOM INTS TO MAKE IVT ;;;;;;;;;;;;;
-	;;; PROGRAMMING LOGIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	;; CHS CODE ... if you care ... seeing that it's legacy tech that's way too complicated. 
-	mov ah , 2 		; (cuz int13 - disk op - and) we want to READ off of the medium 
-	mov al , 1 		; read ONE SECTOR
-	mov bx , buffer 	; write dest 
-	mov ch , 0 		; cyl no.
-	mov cl , 2 		; sector no. (NOT INDEX).
-				; CHS indexing is 1-based , LBA indexing is 0-based.
-	mov dh , 0 		; head no.
-	;; dl is set automatically 
-	int 0x13 		; disk operation 
-	
-	jmp $			
-	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	jmp 0x07c0:find_n_ld
+
+find_n_ld:
+	cli
+	mov ax, 0x07c0
+	mov ds, ax
+	mov es, ax
+	mov ax, 0x00
+	mov ss, ax
+	mov sp, 0x7c00
+	sti
+
+	mov ah, 2
+	mov al, 1
+	mov bx, destbuf
+	mov ch, 0
+	mov cl, 2
+
+	mov dh, 0
+
+	int 0x13
+
+	jc print_err
+	jmp $
+
+print_err:
+	mov si , errmsg
+	call print_msg
+
+	jmp $
 
 print_msg:
 	mov ah , 0eh
-.chk_char:			 
+.chk_char:
 	lodsb
-	cmp al , 0 
-	je .out			
-	int 0x10		 
-	jmp .chk_char		 
+	cmp al, 0
+	je .out
+	int 0x10
+	jmp .chk_char
 .out:
 	ret
 
-	;;; Code for populating static data - in 1st sector. ;;;;;;;;;;;;;
+errmsg:	db 'Failed to load sector', 0
 
-errmsg:	db 'Failed to load sector' , 0 
-	
-	times 510-($-$$) db 0	
+	times 510-($-$$) db 0
 	dw 0xAA55
 
-	;;; ALL BUFFERS HERE ... in the event if they do become write dests ;;;;;;;;;;;;;
-	;;; and do not overwrite the code below them. ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-buf:				; uninit'd dest. 
+destbuf:

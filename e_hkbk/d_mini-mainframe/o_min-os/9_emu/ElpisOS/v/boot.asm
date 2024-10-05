@@ -3,14 +3,14 @@
 	BITS 16
 			 
 _start:
-	jmp short ld_btld
+	jmp short ldboot
 	nop
 	times 33 db 0
 
-ld_btld:
-	jmp 0x07c0:find_n_ld
+ldboot:
+	jmp 0x07c0:ld_7c00
 
-find_n_ld:
+ld_7c00:
 	cli
 	mov ax, 0x07c0
 	mov ds, ax
@@ -22,24 +22,19 @@ find_n_ld:
 
 	mov ah, 2
 	mov al, 1
-	mov bx, destbuf
 	mov ch, 0
 	mov cl, 2
-
 	mov dh, 0
-
+	mov bx, buf
 	int 0x13
-
 	jc print_err
-
-	mov si , destbuf
+	mov si , buf
 	call print_msg
 	jmp $
 
 print_err:
 	mov si , errmsg
 	call print_msg
-
 	jmp $
 
 print_msg:
@@ -58,4 +53,4 @@ errmsg:	db 'Failed to load sector', 0
 	times 510-($-$$) db 0
 	dw 0xAA55
 
-destbuf:
+buf:

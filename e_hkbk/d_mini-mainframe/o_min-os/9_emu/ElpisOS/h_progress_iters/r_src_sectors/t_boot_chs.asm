@@ -33,6 +33,8 @@ find_n_ld:
 	int 0x13 		; disk operation 
 
 	jc print_err
+	mov si , destbuf
+	call print_msg
 	jmp $			; There's a better way to write this.
 	
 print_err:

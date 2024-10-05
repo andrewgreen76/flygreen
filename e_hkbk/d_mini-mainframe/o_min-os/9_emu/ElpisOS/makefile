@@ -7,7 +7,7 @@ all:
                                                           # spills into sector 2 , but that one is just full of nulls 
 # CONCLUSION : 
 #
-# sector 0 - boot code
-# sector 1 - some text + padding (sectors must be complete) 
-# sector 2 - ignored and abandoned.
+# 1st sector - boot code
+# 2nd sector - some text + padding (sectors must be complete) 
+# 3rd sector - ignored and abandoned.
   # It is either at a sector's first byte being null or the sector's last byte being null where fdisk stops loading the image.

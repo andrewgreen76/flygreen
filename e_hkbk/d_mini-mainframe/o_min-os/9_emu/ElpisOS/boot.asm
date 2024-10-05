@@ -9,20 +9,6 @@ _start:
 
 ld_btld:
 	jmp 0x07c0:find_n_ld ; Manual load of CS:IP. 
-
-hndl_int0:		; an ISR : prints 'A'  
-	mov ah , 0eh
-	mov al , 'A'
-	mov bx , 0
-	int 0x10
-	iret 		; end of ISR 
-
-hndl_int1:
-	mov ah , 0eh
-	mov al , 'V'
-	mov bx , 0
-	int 0x10
-	iret
 	
 find_n_ld:	
 	cli			
@@ -32,22 +18,20 @@ find_n_ld:
 	mov ax , 0x00
 	mov ss , ax	; SS:0 is RAM:0
 	mov sp , 0x7c00 	
-	sti			
+	sti 
 	;;; MAPPING ADDRESSES OF CUSTOM INTS TO MAKE IVT ;;;;;;;;;;;;;
-				   ; 0x0 = IVT , not the boot code. 
-	mov word[ss:0] , hndl_int0 ; addr_isr0 = SS = 0 = RAM:0 = int0_offset   ;   Otherwise , if [0] => [DS:0] => 0x7C00 + 0 = 0x7C00
-	mov word[ss:2] , 0x07C0    ; RAM:2 = int0_seg = CS:
-
-	mov word[ss:4] , hndl_int1 ; RAM:3 = int1_off = :IP
-	mov word[ss:6] , 0x07C0	   ; RAM:4 = int1_seg = CS:
-
 	;;; PROGRAMMING LOGIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	;; mov ax , 0		; Prints 'A'.
-	;; div ax		; CPU is designed to automatically generate the `int 0` exception upon DIV/0 (no matter what).
-	;; int 1		; Prints 'V'. 
+	;; CHS CODE ... if you care ... seeing that it's legacy tech that's way too complicated. 
+	mov ah , 2 		; (cuz int13 - disk op - and) we want to READ off of the medium 
+	mov al , 1 		; read ONE SECTOR
+	mov bx , buffer 	; write dest 
+	mov ch , 0 		; cyl no.
+	mov cl , 2 		; sector no. (NOT INDEX).
+				; CHS indexing is 1-based , LBA indexing is 0-based.
+	mov dh , 0 		; head no.
+	;; dl is set automatically 
+	int 0x13 		; disk operation 
 	
-	mov si , msg 		; Print "Hello, World!"
-	call print_msg 
 	jmp $			
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -62,7 +46,14 @@ print_msg:
 .out:
 	ret
 
-msg:	db 'Hello, World!' , 10 , 0
+	;;; Code for populating static data - in 1st sector. ;;;;;;;;;;;;;
 
+errmsg:	db 'Failed to load sector' , 0 
+	
 	times 510-($-$$) db 0	
 	dw 0xAA55
+
+	;;; ALL BUFFERS HERE ... in the event if they do become write dests ;;;;;;;;;;;;;
+	;;; and do not overwrite the code below them. ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+buf:				; uninit'd dest. 

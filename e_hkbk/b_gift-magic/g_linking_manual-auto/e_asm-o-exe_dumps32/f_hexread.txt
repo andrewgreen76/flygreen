@@ -1,0 +1,15 @@
+
+========================================================================================
+READING HEX CORE DUMPS : 
+========================================================================================
+
+ . 1st easiest thing to read - text
+ . 2nd easiest 	     	     - data (as chars)
+ |
+ . not for reading - code
+ |
+ . not for reading - dots :
+   . could mean : uninit'd byte 
+   . could mean : unprintable char 
+
+_

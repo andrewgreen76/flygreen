@@ -25,7 +25,6 @@ find_n_ld:
 	mov bx, destbuf
 	mov ch, 0
 	mov cl, 2
-
 	mov dh, 0
 
 	int 0x13

@@ -1,0 +1,15 @@
+
+========================================================================================
+HARDWARE PROTECTION vs. MEMORY PROTECTION 
+========================================================================================
+
+Hardware protection :
+ . no tampering with CPU registers
+ . no tampering with interrupts 
+ . no hogging of CPU time
+ . no messing with the kernel 
+
+Memory protection :
+ . every process should keep to itself 
+
+_

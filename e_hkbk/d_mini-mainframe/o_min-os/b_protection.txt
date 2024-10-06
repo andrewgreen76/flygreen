@@ -7,9 +7,20 @@ Hardware protection :
  . no tampering with CPU registers
  . no tampering with interrupts 
  . no hogging of CPU time
- . no messing with the kernel 
+ . basically , no interference with the kernel's work 
 
 Memory protection :
  . every process should keep to itself 
+
+
+========================================================================================
+RINGS OF SECURITY 
+========================================================================================
+
+ . a.k.a. privilege levels
+ . ring 0 - 
+ . ring 1 - 
+ . ring 2 - 
+ . ring 3 - 
 
 _

@@ -2,6 +2,9 @@
 Assembling and linking :
  . instead of writing an executable Bash script use `Makefile`
 
+Completing the binary bootable image :
+ . we would use `dd` to (1) append file data and (2) ensure that the end of the last intended
+
 Running :
  $ qemu-system-x86_64 -hda ./[urboot].bin
 

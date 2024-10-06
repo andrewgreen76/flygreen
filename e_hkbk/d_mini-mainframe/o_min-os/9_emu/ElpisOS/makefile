@@ -10,4 +10,4 @@ all:
 # 1st sector - boot code
 # 2nd sector - some text + padding (sectors must be complete) 
 # 3rd sector - ignored and abandoned.
-  # It is either at a sector's first byte being null or the sector's last byte being null where fdisk stops loading the image.
+  # REMEMBER : QEMU will read as much as we tell it to in register values if we follow CHS methods. 

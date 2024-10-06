@@ -67,6 +67,8 @@ errmsg:	db 'Failed to load sector' , 0
 ;;; End of 1st sector (boot code). ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Start of 2nd sector (anything we want - in text). ;;;;;;;;;;;;;;;;
 	
-stdbuf:			; Uninit'd dest.
+stdbuf:			; Uninit'd buffer.
+			; We use `dd` to copy text file bytes to this sector of the binary boot image ;
+			; the code in the 1st sector will use the 2nd sector at runtime. 
 			; `dd if=/dev/zero bs=512 count=1` will zero out the memory
 			; starting at this address.

@@ -33,9 +33,9 @@ find_n_ld:
 	int 0x13 		; disk operation 
 
 	jc print_err
-	mov si , destbuf
+	mov si , buf
 	call print_msg
-	jmp $			; There's a better way to write this.
+	jmp $			
 	
 print_err:
 	mov si , errmsg
@@ -65,6 +65,6 @@ errmsg:	db 'Failed to load sector' , 0
 ;;; End of 1st sector (boot code). ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Start of 2nd sector (anything we want - mainly text). ;;;;;;;;;;;;;;;;
 	
-destbuf:		; Uninit'd dest.
+buf:			; Uninit'd dest.
 			; `dd if=/dev/zero bs=512 count=1` will zero out the memory
 			; starting at this address.

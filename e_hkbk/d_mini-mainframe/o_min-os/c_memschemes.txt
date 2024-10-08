@@ -1,0 +1,18 @@
+
+========================================================================================
+MEMORY SCHEMES 
+========================================================================================
+
+Real mode :
+ . CS = DS = ES 
+ . SS = RAM:0
+
+
+Protected mode :
+ . CS =/= DS =/= ES
+ . "segment registers [are] selector registers"
+ . paging
+   . support of virtual address spaces for individual processes
+   . a.k.a. "remapping memory addresses"
+
+_

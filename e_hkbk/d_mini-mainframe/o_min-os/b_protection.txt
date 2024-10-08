@@ -4,7 +4,7 @@ HARDWARE PROTECTION vs. MEMORY PROTECTION
 ========================================================================================
 
 Hardware protection :
- . no tampering with CPU registers
+ . no tampering with registers
  . no tampering with interrupts 
  . no hogging of CPU time
  . basically , no interference with the kernel's work 
@@ -18,9 +18,30 @@ RINGS OF SECURITY
 ========================================================================================
 
  . a.k.a. privilege levels
- . ring 0 - 
- . ring 1 - 
- . ring 2 - 
- . ring 3 - 
+
+
+ . ring 0 (most privileged) - kernel :
+   |
+   . manipulating hardware and memory
+   | . `CLI` , `STI`
+   | 
+   . low-level I/O operations (ports , etc.)
+   | . `IN` for reading data from an I/O port into a register
+   | . `OUT` for writing data from a register into an I/O port
+   |
+   . changing MMU settings (memory protection , paging settings)
+   . instructions for regulating processes and threads
+     . `XCHG` , `LOCK` , `CMPXCHG` 
+
+
+ . ring 1 - device drivers 
+ . ring 2 - device drivers 
+
+
+ . ring 3 (least privileged) - user processes :
+   . they get `INT` to call the kernel
+   => the system is in ring 0 
+   => the kernel goes off of the indicated interrupt and allows running the corresponding int handler
+   => the kernel switches the system back to ring 3 
 
 _

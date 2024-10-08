@@ -15,4 +15,15 @@ Protected mode :
    . support of virtual address spaces for individual processes
    . a.k.a. "remapping memory addresses"
 
+
+========================================================================================
+WHAT IS A SELECTOR ? 
+========================================================================================
+
+"
+A selector is a value used in protected mode to identify a specific segment of memory
+  or a descriptor in the Global Descriptor Table (GDT) or Local Descriptor Table (LDT),
+  allowing the processor to access different memory segments with defined access rights
+  and attributes.
+"
 _

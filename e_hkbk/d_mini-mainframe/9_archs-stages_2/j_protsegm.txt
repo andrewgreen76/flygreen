@@ -1,0 +1,15 @@
+
+========================================================================================
+SEGMENTED/PROTECTED MEMORY SEGMENTATION MODEL 
+========================================================================================
+
+ . exclusive to protected mode
+ |
+ . more complex segmentation
+ . paging 
+
+
+ . seg_regs {CS, DS, SS} point to SDTs {CSDT, DSDT, SSDT} , respectively 
+ . OS uses these to keep track of process segments 
+
+_

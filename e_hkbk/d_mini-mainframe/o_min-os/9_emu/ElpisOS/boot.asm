@@ -21,7 +21,16 @@ at_7c00:
 	sti 
 	;;; MAPPING ADDRESSES OF CUSTOM INTS TO MAKE IVT ;;;;;;;;;;;;;
 	;;; PROGRAMMING LOGIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	jmp $			
+	jmp $ 
+	;;; GDT ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+gdt_start: 
+gdt_null:			; null descriptor 
+	dd 0x0 			; define dword (word = bits , dword = 32 bits)
+	dd 0x0 			; we've defined 2*23 = 64 bits with nulls
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	;; CS descriptor = 0x8 = offset in the table 
+gdt_code: 			; CS will have to point to this. 
+	dw 0xffff 		; ??? seg_lim : 0-15 bits ???
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	
 print_msg:

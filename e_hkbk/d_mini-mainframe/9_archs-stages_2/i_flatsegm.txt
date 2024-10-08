@@ -1,0 +1,31 @@
+
+"... all modern operating systems based on x86 architecture use the flat segmentation model." 
+
+
+========================================================================================
+FLAT SEGMENTATION MODEL 
+========================================================================================
+
+ . NOT exclusive to real mode
+ |
+ . 1 MB RAM
+ . segment size = 64 KB
+ . computed seg:off pairs
+
+
+More about segments : 
+ . all programs will have the same mapping for their segments (regardless of the operating
+   mode / system bit-width)
+ . at least two segs : CS and DS
+ . every segment : GDT : 64-bit integer = seg descriptor
+
+
+Segment descriptor :
+   . data structure 
+  (1) base address field = start of segment 
+  (2) limit field = size of segment
+    . in 16-bit systems : 0x4000 -> 0x40off
+    . in 32-bit systems : 0x0040 -> 0x00040off
+  (3) access = permissions 
+
+_

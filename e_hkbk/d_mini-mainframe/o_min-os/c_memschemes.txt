@@ -24,6 +24,8 @@ PAGING MEMORY SCHEME
  . allows for virtual address spaces for every individual process
    . actual/physical RAM addresses of processes and segments are abstracted as virtual addresses
      in the face of other processes
+ . the virtual address and physical address of every process must be divisible by 4096
+   . intervals of logical address spaces 
  . "paging is generally simple ; it's basically a directory of pointers to page tables"
 
 

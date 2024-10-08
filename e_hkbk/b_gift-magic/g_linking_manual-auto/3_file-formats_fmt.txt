@@ -19,18 +19,23 @@ ITEM TYPES BY BYTE COUNTS :
 No headers : 
  . text files
  = scripts
+ = symbolic links 
  = program source code
- = URLs 
+ = URLs
+ = raw binaries (.bin) 
 
 ? : 
  . DOS-compatible COM executable 
 
 ----------------------------------
-	Symbolic links :
-	 . 
+Directories :
+ . 4096 bytes = 4KB
 
-	Directories :
-	 . 4096 bytes = 4KB 
+"
+A DIRECTORY IS AN ABSTRACTION OF A DATA STRUCTURE that organizes and manages files
+  and other directories in a hierarchical manner, allowing for efficient storage,
+  retrieval, and management of data within a file system.
+"
 ----------------------------------
 
 Certain types of binaries : 

@@ -17,7 +17,18 @@ Protected mode :
 
 
 ========================================================================================
-WHAT IS A SELECTOR ? 
+PAGING MEMORY SCHEME 
+========================================================================================
+
+ . very common among OS/kernels
+ . allows for virtual address spaces for every individual process
+   . actual/physical RAM addresses of processes and segments are abstracted as virtual addresses
+     in the face of other processes
+ . "paging is generally simple ; it's basically a directory of pointers to page tables"
+
+
+========================================================================================
+SELECTOR MEMORY SCHEME 
 ========================================================================================
 
 "

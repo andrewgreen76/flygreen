@@ -14,4 +14,8 @@ Two registers two consider :
  . LGDT [GDTR]		; "load GDT register with start address of GDT" 
  . CR0:0		; the lowest bit is the Protection Enable bit 
 
+
+One instruction to consider :
+ . LGDT 
+
 _

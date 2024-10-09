@@ -3,6 +3,13 @@
 SHAPE AND PURPOSE OF A SEGMENT DESCRIPTOR 
 ========================================================================================
 
- .
+It is a data structure :
+ |
+ . base : start address of segment	0xSTART	
+ . limit : size of segment 		+ 0xSIZE
+ . permissions 	   			rwe
+
+
+It is an entry in a GDT (Global Descriptor Table). 
 
 _

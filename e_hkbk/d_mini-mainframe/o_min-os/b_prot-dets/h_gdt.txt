@@ -1,14 +1,27 @@
 
+    processes (w/ segments) 
+   /
+RAM
+   \
+    GDT (data structure w/ info {base,lim,perms} about segments)
+    
+
 ========================================================================================
 THE SHAPE AND THE PURPOSE OF GDT : 
 ========================================================================================
 
- . data structure 
+ . Global Descriptor Table 
+ . data structure
+ . every entry - a segment descriptor (base , size , perms of the segment) 
  
- . "The Global Descriptor Table (GDT) is a data structure in x86 architecture
-    that stores segment descriptors, providing memory segmentation information
-    such as base address, limit, and access permissions for memory segments
+ . "The Global Descriptor Table (GDT) is a DATA STRUCTURE in x86 architecture
+    that STORES SEGMENT DESCRIPTORS, providing memory segmentation information
+    such as BASE ADDRESS, LIMIT, AND ACCESS PERMISSIONS FOR MEMORY SEGMENTS
     used by the CPU."
+
+ . "Processes share the same Global Descriptor Table (GDT), which contains
+    segment descriptors accessible to all processes, rather than having their own
+    dedicated GDTs." 
 
 
 ========================================================================================

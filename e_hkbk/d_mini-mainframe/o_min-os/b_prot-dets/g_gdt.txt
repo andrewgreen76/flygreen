@@ -1,0 +1,29 @@
+
+========================================================================================
+THE SHAPE AND THE PURPOSE OF GDT : 
+========================================================================================
+
+ . data structure 
+ 
+ . "The Global Descriptor Table (GDT) is a data structure in x86 architecture
+    that stores segment descriptors, providing memory segmentation information
+    such as base address, limit, and access permissions for memory segments
+    used by the CPU."
+
+
+========================================================================================
+ANATOMY OF GDT 
+========================================================================================
+
+ . 
+
+
+========================================================================================
+HOW DO WE GO ABOUT IT ? 
+========================================================================================
+
+ . lgdt [gdtr]		; "load GDT register (? CR0 ?) with start address of GDT
+ 
+ . lowest bit is the Protection Enable bit 
+
+_

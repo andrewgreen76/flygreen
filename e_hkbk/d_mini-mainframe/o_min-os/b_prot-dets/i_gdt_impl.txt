@@ -10,12 +10,22 @@ ANATOMY OF GDT
 HOW WE WORK WITH GDT IN CODE 
 ========================================================================================
 
+One instruction to consider :
+ . LGDT 
+
 Two registers two consider : 
  . LGDT [GDTR]		; "load GDT register with start address of GDT" 
  . CR0:0		; the lowest bit is the Protection Enable bit 
 
 
-One instruction to consider :
- . LGDT 
+========================================================================================
+GDTR STRUCTURE 
+========================================================================================
 
+"
+The `lgdt [gdtr]` instruction loads the Global Descriptor Table Register
+(GDTR) with the base address and limit of the Global Descriptor Table,
+allowing the CPU to access the segment descriptors defined in the GDT for
+memory management and access control in protected mode.
+"
 _

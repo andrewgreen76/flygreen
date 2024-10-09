@@ -4,14 +4,14 @@
 RAM
    \
     +-----------------------------------+
-    | GDT (data structure w/ info       |  <- seg selector (offset of GDT) 
+    | GDT (data structure w/ info       |  <- seg selector (offset in GDT) 
     | {base,lim,perms} about segments)  |
     +-----------------------------------+
 
 		      |
     		      v
 
-    address of a specific segment descriptor 
+    (address of) a specific segment descriptor (data structure) 
     
 
 ========================================================================================
@@ -20,33 +20,32 @@ SHAPE AND PURPOSE OF GDT :
 
  . Global Descriptor Table 
  . data structure
- . every entry - a segment descriptor (base , size , perms of the segment) 
+ . holds info about every segment of every process - all in one data structure 
+ => there's only one GDT for the entire system 
+ . every entry = a segment descriptor (base , size , perms of the segment)
+ . SPECIFIC TO THE IA32 ARCHITECTURE 
  
  . "The Global Descriptor Table (GDT) is a DATA STRUCTURE in x86 architecture
     that STORES SEGMENT DESCRIPTORS, providing memory segmentation information
     such as BASE ADDRESS, LIMIT, AND ACCESS PERMISSIONS FOR MEMORY SEGMENTS
     used by the CPU."
 
- ! PROCESSES USE GDT TO FOLLOW THE SYSTEM'S RULES OF HARDWARE PROTECTION AND MEMORY PROTECTION. 
+ ! CPU USES GDT TO ENFORCE THE RULES OF HARDWARE PROTECTION AND MEMORY PROTECTION. 
 
- . "Processes share the same Global Descriptor Table (GDT), which contains
-    segment descriptors accessible to all processes, rather than having their own
-    dedicated GDTs." 
+ . "[CPU accesses] the Global Descriptor Table (GDT) because the GDT provides
+    necessary segment descriptors for memory management , ... the kernel enforces
+    strict access rights and controls to prevent unauthorized modifications,
+    ensuring system stability and security."
 
- . "Processes are allowed to access the Global Descriptor Table (GDT) because
-    the GDT provides necessary segment descriptors for memory management, while
-    the kernel enforces strict access rights and controls to prevent unauthorized
-    modifications, ensuring system stability and security."
-
- . "Processes need segment descriptors from the Global Descriptor Table (GDT)
-    to define their memory segments, access rights, and privilege levels, enabling
-    proper memory management and protection during execution."
-
- . "Processes use memory segments to organize and access data and code, access
+ . "[CPU uses] memory segments to organize and access data and code, access
     rights to enforce security and permission boundaries, and privilege levels
     to determine the operations they can perform within the system's memory
     management framework."
 
- => Processes use GDT to follow the system's rules of hardware and memory protection. 
+ => CPU uses GDT to enforce the rules of hardware and memory protection. 
+
+ . "When the CPU detects a violation of access rights, it triggers a protection
+    exception, typically leading to the termination of the offending process
+    or program to prevent unauthorized access to memory."
 
 _

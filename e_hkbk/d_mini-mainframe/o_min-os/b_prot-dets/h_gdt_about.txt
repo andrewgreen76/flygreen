@@ -3,10 +3,13 @@
    /
 RAM
    \
-    GDT (data structure w/ info {base,lim,perms} about segments)	<- seg selector (offset of GDT) 
+    +-----------------------------------+
+    | GDT (data structure w/ info       |  <- seg selector (offset of GDT) 
+    | {base,lim,perms} about segments)  |
+    +-----------------------------------+
 
-    |
-    v
+		      |
+    		      v
 
     address of a specific segment descriptor 
     

@@ -3,7 +3,12 @@
    /
 RAM
    \
-    GDT (data structure w/ info {base,lim,perms} about segments)
+    GDT (data structure w/ info {base,lim,perms} about segments)	<- seg selector (offset of GDT) 
+
+    |
+    v
+
+    address of a specific segment descriptor 
     
 
 ========================================================================================
@@ -19,7 +24,7 @@ SHAPE AND PURPOSE OF GDT :
     such as BASE ADDRESS, LIMIT, AND ACCESS PERMISSIONS FOR MEMORY SEGMENTS
     used by the CPU."
 
- ! PROCESSES USE GDT TO FOLLOW THE SYSTEM'S RULES OF HARDWARE AND MEMORY PROTECTION. 
+ ! PROCESSES USE GDT TO FOLLOW THE SYSTEM'S RULES OF HARDWARE PROTECTION AND MEMORY PROTECTION. 
 
  . "Processes share the same Global Descriptor Table (GDT), which contains
     segment descriptors accessible to all processes, rather than having their own
@@ -38,5 +43,7 @@ SHAPE AND PURPOSE OF GDT :
     rights to enforce security and permission boundaries, and privilege levels
     to determine the operations they can perform within the system's memory
     management framework."
+
+ => Processes use GDT to follow the system's rules of hardware and memory protection. 
 
 _

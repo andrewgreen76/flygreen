@@ -3,7 +3,8 @@
 SIDENOTE ABOUT JMP
 ========================================================================================
 
- . jmp short            ; short jump
- . jmp                  ; far jmp
+ . jmp short _neigh		; SHORT JUMP
+ 
+ . jmp 0x00fa:_srout    	; FAR JUMP
 
 _

@@ -1,0 +1,16 @@
+
+    processes (w/ segments) 
+   /
+RAM
+   \
+    +-----------------------------------+
+    | GDT (data structure w/ info       |  <- seg selector (offset in GDT) 
+    | {base,lim,perms} about segments)  |
+    +-----------------------------------+
+
+		      |
+    		      v
+
+    (address of) a specific segment descriptor (data structure) 
+    
+_

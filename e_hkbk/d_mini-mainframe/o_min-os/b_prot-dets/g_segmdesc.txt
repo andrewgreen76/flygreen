@@ -10,6 +10,7 @@ It is a data structure :
  . permissions 	   			rwe
 
 
-It is an entry in a GDT (Global Descriptor Table). 
+It is an entry in a GDT (Global Descriptor Table).
+ . so it's a data structure as a part a larger data structure 
 
 _

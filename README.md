@@ -54,6 +54,10 @@ Kernel development :
      handler implementation 
  - disk management , I/O , interrupts , drivers 
 
+Protected mode :
+- hardware protection vs. memory protection
+- GDT vs. segment descriptors 
+
 Legacy (real-mode) assembly programming :
 - emu8086 vs. DOSBox vs. actual DOS
 - BIOS calls vs. DOS calls

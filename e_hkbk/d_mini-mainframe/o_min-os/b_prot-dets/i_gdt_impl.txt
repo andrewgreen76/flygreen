@@ -7,11 +7,11 @@ ANATOMY OF GDT
 
 
 ========================================================================================
-HOW DO WE GO ABOUT IT ? 
+HOW WE WORK WITH GDT IN CODE 
 ========================================================================================
 
- . lgdt [gdtr]		; "load GDT register (? CR0 ?) with start address of GDT
- 
- . lowest bit is the Protection Enable bit 
+Two registers two consider : 
+ . LGDT [GDTR]		; "load GDT register with start address of GDT" 
+ . CR0:0		; the lowest bit is the Protection Enable bit 
 
 _

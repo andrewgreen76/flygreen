@@ -1,5 +1,0 @@
-
- . a numerical identifier of a specific segment descriptor 
- . offset to GDT
-
-_

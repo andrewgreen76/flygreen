@@ -1,10 +1,11 @@
 
- . base (2 bytes) 
- . limit (4 bytes)
- |
- . other bit fields
-    . permissions (1 byte) 
-    ... 
+ +------------------------------------------------------+
+ | A GDT descriptor : 8 bytes per seg			|
+ |  . size of segment (needs 2 bytes) : 0x???? 		|
+ |  . offset of segment (needs 4 bytes) : 0x ???? ???? 	|
+ |  . (the rest - other bit fields)     	    	|
+ |  . bits 40-47 =  Access Byte (perms)	    	 	|
+ +------------------------------------------------------+
 
 ========================================================================================
 SHAPE AND PURPOSE OF A SEGMENT DESCRIPTOR 

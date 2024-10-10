@@ -14,7 +14,7 @@ RAM
 					|  . size of segment (needs 2 bytes) : 0x???? 		|
 					|  . offset of segment (needs 4 bytes) : 0x ???? ???? 	|
 					|  . (the rest - other bit fields)     	    	 	|
-					|  . bits 40-47 =  Access Byte      	    	 	|
+					|  . bits 40-47 =  Access Byte (perms)	    	 	|
     					+-------------------------------------------------------+
 
 		      |

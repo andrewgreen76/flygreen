@@ -1,0 +1,4 @@
+
+[CS/DS/...]    ->    seg selector (offset in GDT)    ->    [GDT]    ->    GDT descriptor 
+
+_

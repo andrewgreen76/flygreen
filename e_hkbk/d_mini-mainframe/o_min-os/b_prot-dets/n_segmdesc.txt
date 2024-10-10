@@ -26,4 +26,12 @@ It is a data structure :
 It is an entry in a GDT (Global Descriptor Table).
  . so it's a data structure as a part a larger data structure 
 
+
+========================================================================================
+ANATOMY OF A GDT DESCRIPTOR 
+========================================================================================
+
+ . 2 Bytes - size
+ . 4 Bytes - offset (might include type field , other fields) 
+
 _

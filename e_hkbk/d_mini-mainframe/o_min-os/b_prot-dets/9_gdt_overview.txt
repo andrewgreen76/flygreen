@@ -1,0 +1,25 @@
+
+    processes (w/ segments) 
+   /
+RAM
+   \
+    +-----------------------------------+
+    | GDT = data structure :            |  <- seg selector (offset in GDT)    <-    [CS/DS/...] 
+    |  . descriptor = entry   		|
+    |  . entry : segM_{base,lim,perms}  |
+    |  . entry : segN_{base,lim,perms}  |
+    |  ...     	 			|
+    +-----------------------------------+-------------------------------------------------------+
+					| A GDT descriptor : 8 bytes per seg			|
+					|  . size of segment (needs 2 bytes) : 0x???? 		|
+					|  . offset of segment (needs 4 bytes) : 0x ???? ???? 	|
+					|  . (the rest - other bit fields)     	    	 	|
+    					+-------------------------------------------------------+
+
+		      |
+    		      v
+
+    (address of) a specific segment descriptor (another data structure) 
+			       (GDT descriptor) 
+    
+_

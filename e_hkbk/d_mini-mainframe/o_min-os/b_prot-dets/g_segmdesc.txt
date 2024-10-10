@@ -1,8 +1,10 @@
 
  . base (2 bytes) 
  . limit (4 bytes)
- . permissions (1 byte) 
- ...
+ |
+ . other bit fields
+    . permissions (1 byte) 
+    ... 
 
 ========================================================================================
 SHAPE AND PURPOSE OF A SEGMENT DESCRIPTOR 

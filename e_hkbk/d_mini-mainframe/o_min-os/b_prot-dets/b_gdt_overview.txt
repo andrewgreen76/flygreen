@@ -11,6 +11,7 @@ RAM
 		      |
     		      v
 
+			       (GDT descriptor) 
     (address of) a specific segment descriptor (data structure) 
     
 _

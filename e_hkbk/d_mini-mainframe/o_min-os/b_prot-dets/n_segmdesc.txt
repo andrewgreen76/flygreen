@@ -7,9 +7,14 @@
  |  . bits 40-47 =  Access Byte (perms)	    	 	|
  +------------------------------------------------------+
 
+
 ========================================================================================
 SHAPE AND PURPOSE OF A SEGMENT DESCRIPTOR 
 ========================================================================================
+
+ . a.k.a. GDT descriptor
+ . helps ensure hardware and memory protection in a way physically inaccessible
+     to user processes 
 
 It is a data structure :
  |

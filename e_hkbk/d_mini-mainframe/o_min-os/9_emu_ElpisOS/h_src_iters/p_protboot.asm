@@ -2,8 +2,8 @@
 	ORG 0x7c00
 	BITS 16 
 
-CODE_SEG equ gdt_code - gdt_start    ; offset of code in GDT instructions block (0x8 = 8)
-DATA_SEG equ gdt_data - gdt_start    ; offset of data in GDT instructions block (0x10 = 16)
+CODE_SEG equ gdt_code - gdt_start    ; offset of code in GDT instructions block (0x8)
+DATA_SEG equ gdt_data - gdt_start    ; offset of data in GDT instructions block (0x10)
 	
 _start:
 	jmp short ld_btld
@@ -37,7 +37,7 @@ gdt_null:			; null descriptor (64 bits) - represents an invalid segment
 	dd 0x0 			; define dword (word = bits , dword = 32 bits)
 	dd 0x0 			; we've defined 2*23 = 64 bits with nulls
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; CS descriptor = 0x8 = 8 = offset in the table (8-byte offset in GDT instructions block)
+;; CS descriptor = 0x8 = offset in the table (8-byte offset in GDT instructions block)
 gdt_code: 			; CS @ here  
 	dw 0xffff 		; GDTdescr : 15-00 : seg.lim=15
 	dw 0 			; GDTdescr : 31-16 : seg.base(0-15)=0
@@ -49,7 +49,7 @@ gdt_code: 			; CS @ here
 	db 11001111b		; GDTdescr : 55-48 : seg.flags
 	db 0 			; GDTdescr : 63-56 : seg.base_ext(24-31)=0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; otherS_descr = 0x10 = 16 == offset in the table (16-byte offset in GDT instructions block)
+;; otherS_descr = 0x10 = offset in the table (10-byte offset in GDT instructions block)
 gdt_data:	      		; Linked to DS , ES , FS , GS , SS 
 	dw 0xffff 		; GDTdescr : 15-00 : seg.lim=15
 	dw 0 			; GDTdescr : 31-16 : seg.base(0-15)=0

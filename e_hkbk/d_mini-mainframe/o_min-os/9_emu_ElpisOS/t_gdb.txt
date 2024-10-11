@@ -1,0 +1,8 @@
+
+(gdb) target remote | qemu-system-x86_64 -hda ./boot.bin -S -gdb stdio
+(gdb) c
+(gdb) ^C
+(gdb) layout asm 
+(gdb) info registers 
+
+_

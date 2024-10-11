@@ -1,0 +1,4 @@
+"
+A bit mask is a binary pattern used to select, modify, or manipulate specific bits within a binary number by performing bitwise operations like AND, OR, or XOR.
+"
+_

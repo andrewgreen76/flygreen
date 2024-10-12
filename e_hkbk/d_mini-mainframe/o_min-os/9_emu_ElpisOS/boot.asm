@@ -1,4 +1,5 @@
 
+;;; REAL MODE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	ORG 0x7c00
 	BITS 16 
 
@@ -68,7 +69,7 @@ gdt_descr:
 	dd gdt_start		      ; offset(32b) of descriptor    ; null + CSdescr + DSdescr will be loaded 
 
 ;;; 32-BIT CODE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	[BITS 32] 		
+	[BITS 32] 		; allows the use of 32-bit registers , addresses , and addressing modes 
 	
 ld32:
 	mov ax , DATA_SEG
@@ -79,7 +80,7 @@ ld32:
 	mov ss , ax
 	mov ebp , 0x00200000
 	mov esp , ebp 
-	jmp $
+	jmp $ 			; ... AND WE ARE NOW IN PROTECTED MODE 
 	
 ;;; 1st sector has the code below for populating hardcoded chars. ;;;;;;;;;;;;;
 

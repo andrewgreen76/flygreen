@@ -5,7 +5,7 @@
 _start:
 	jmp short ld_btld
 	nop 			 
-	times 33 db 0 	; Faked all {0x03 -> 0x35} data bytes for BPB / 512. 
+	times 33 db 0 	; Faked all {3 -> 35} data bytes for BPB / 512. 
 
 ld_btld:
 	jmp 0x07c0:find_n_ld ; Manual load of CS:IP. 

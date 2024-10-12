@@ -1,4 +1,6 @@
 
+gdb
+
 Real mode : we can access the BIOS
 |
 Protected mode : 
@@ -11,7 +13,6 @@ no longer able to do disk I/O in CHS way
 Ease of access and use of mem and disk ops is nice ,
 but what if we want more than 1MB of RAM ? 
 
-gdb
 VanFOS - vanilla , free , open-source BIOS 
 
 TTM Tech :

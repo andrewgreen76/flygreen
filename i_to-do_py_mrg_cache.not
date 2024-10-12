@@ -1,4 +1,16 @@
 
+Real mode : we can access the BIOS
+|
+Protected mode : 
+running @ 7c7f - infinite jump
+we can no longer access the BIOS
+if we try to , really bad things will happen
+no longer able to do disk I/O in CHS way
+ . will have to write a disk driver
+|
+Ease of access and use of mem and disk ops is nice ,
+but what if we want more than 1MB of RAM ? 
+
 gdb
 VanFOS - vanilla , free , open-source BIOS 
 
@@ -10,7 +22,6 @@ https://www.youtube.com/watch?v=YDKBVk2T9fI
 
 igbati - 32-bit MASM 
 C compiler
-OS kernel 
 
 Early computers and modern servers : 
  . motherboard :

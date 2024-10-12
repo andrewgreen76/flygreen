@@ -1,0 +1,6 @@
+
+RCRA :
+ . "RCRA standards, set by the Resource Conservation and Recovery Act, regulate the management
+      and disposal of hazardous waste to protect human health and the environment."
+
+_

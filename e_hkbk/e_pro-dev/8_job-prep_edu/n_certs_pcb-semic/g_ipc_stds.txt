@@ -1,0 +1,23 @@
+
+========================================================================================
+IPC , CERTIFICATIONS , etc. 
+========================================================================================
+
+
+IPC standards : 
+ . IPC-J-STD-001GS space addendum 
+ . J-STD-001 Space Addendum
+ . IPC/WHMA-A-620 Space Addendum
+ . IPC-A-610 Class III
+ . J-STD-001 Class III
+ |
+ |
+"
+J-STD-001 Class III is a standard for soldered electrical and electronic assemblies, specifying the highest quality requirements for products used in high-reliability applications, such as aerospace and medical devices.
+"
+|
+|
+"
+The "J" in J-STD-001 stands for "Joint," indicating the collaboration between the IPC (Institute for Interconnecting and Packaging Electronics Circuits) and the J-STD committee to develop the standard.
+"
+_

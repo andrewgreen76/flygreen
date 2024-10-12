@@ -1,26 +1,4 @@
 
-========================================================================================
-IPC , CERTIFICATIONS , etc. 
-========================================================================================
-
-
-IPC standards : 
- . IPC-J-STD-001GS space addendum 
- . J-STD-001 Space Addendum
- . IPC/WHMA-A-620 Space Addendum
- . IPC-A-610 Class III
- . J-STD-001 Class III
-
-
-RCRA :
- . "RCRA standards, set by the Resource Conservation and Recovery Act, regulate the management
-      and disposal of hazardous waste to protect human health and the environment."
-
-
-JEDEC standards : 
- . 
-
-
 Certifications : 
 |
 "

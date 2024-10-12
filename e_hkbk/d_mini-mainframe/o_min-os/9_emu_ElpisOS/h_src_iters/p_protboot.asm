@@ -20,10 +20,10 @@ init_real_regs:
 	mov es , ax	; ES = -//-
 	mov ss , ax	; SS @ 0x0 + 0    ; necessary for access to BIOS , IVT , other stack operations occur 
 	mov sp , 0x7c00	; SP @ 0x0 + 0x7c00    ; as expected by the real-mode BIOS 
-	sti 
+	sti
+	
 ;;; PROGRAMMING LOGIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-.ld_prot:
+.prep_prot:
 	cli
 	lgdt [gdt_descr] 	; Reads @ gdt_descr : GDT.SIZE , GDT.OFFSET. (No spec of rwe.)  
 	mov eax , cr0
@@ -85,7 +85,7 @@ init_prot_regs:
 	mov ss , ax
 	mov ebp , 0x00200000 	; 2GB
 	mov esp , ebp 		; 2GB
-	jmp $
+	jmp $ 			; "halt"
 	
 ;;; 1st sector has the code below for populating hardcoded chars. ;;;;;;;;;;;;;
 

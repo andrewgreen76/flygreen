@@ -1,0 +1,7 @@
+
+ . sudo apt (get) install [dependencies]
+ . configure
+ . make
+ . make install 
+
+_

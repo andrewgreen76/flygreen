@@ -75,4 +75,29 @@ The CPU signals the I/O controller by placing the port address `0x92` on the add
 "
 A motherboard typically has multiple I/O controllers, including those for USB, SATA, audio, and network interfaces, with the exact number varying based on the motherboard's design and features.
 "
+
+
+========================================================================================
+CHECKING THE VALIDITY OF A20 
+========================================================================================
+
+An older method :
+
+ . "The bootloader checks whether the A20 line is enabled or disabled by performing
+    a read operation from a known memory address that lies beyond the 1 MB limit and
+    verifying if the data is accessible, which indicates the A20 line is enabled.
+   "
+
+ . "If the read operation fails to find legitimate data at that address, it typically
+    returns undefined or erroneous data, indicating that the A20 line is likely disabled
+    and the system cannot access memory beyond the 1 MB limit.
+   "
+
+
+A newer method : Fast A20 Gate
+
+ . "The Fast A20 Gate method checks the A20 line's status by toggling the keyboard controller's
+    port and observing a specific register bit, allowing for quick enabling or disabling of
+    the A20 line without needing to access memory directly.
+   "
 _

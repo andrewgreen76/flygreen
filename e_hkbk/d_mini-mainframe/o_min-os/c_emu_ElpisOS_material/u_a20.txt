@@ -43,11 +43,26 @@ Manipulation of memory content :
  . we directly manipulate memory using instructions like `mov`
 
 Manipulation of memory address lines :
- . performing operations , such as `in` and `out` , on the keyboard controller's I/O address ports (believe it or not)
- >  
+ . performing key operations (could be `in` and `out`) on the I/O address ports of
+   the keyboard controller on the motherboard (believe it or not)
+ . ex. : 
 
-I/O addressing is memory-like , but it's not memory
-memory bussing vs. I/O bussing (addressing)  
+
+	in al, 0x92
+	or al, 2
+	out 0x92, al
+
+
+ => I/O addressing is memory-like , but it's not memory
+ => memory addressing =/= I/O bussing
+ . I/O (address) ports are NOT mapped to memory ; they are physically independent. However ,
+     a bootloader should have the ability to work with I/O at the low level in a compatibility
+     mode. 
+
+
+========================================================================================
+MORE ON BOOTLOADER'S I/O OPERATIONS , I/O HARDWARE , AND A20 
+========================================================================================
 
 "
 Yes, the `in` and `out` instructions are used for communicating directly with I/O controllers, allowing the CPU to read from and write to specific I/O port addresses associated with those controllers.
@@ -60,22 +75,4 @@ The CPU signals the I/O controller by placing the port address `0x92` on the add
 "
 A motherboard typically has multiple I/O controllers, including those for USB, SATA, audio, and network interfaces, with the exact number varying based on the motherboard's design and features.
 "
-
-========================================================================================
- 
-========================================================================================
-
-
-A20 :
- |
- . 
- |
- . disabled on hardware by default - for the sake of compatibility with the older 8086 systems
- |  . they could only access up to 2^20 = 1MB of memory
- |  . 
- |
- . can be enabled to access 16 MB of physically avaliable RAM rather than the assumed 1 MB 
-    . enabled through code 
-
-
 _

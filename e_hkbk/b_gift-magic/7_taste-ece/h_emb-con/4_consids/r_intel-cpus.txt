@@ -13,7 +13,7 @@ INTEL CPUS (BEFORE CONSIDERING AN OPCODE MATRIX) :
 8086 : 
  . 1978
  . |archi| - 16
- . |  A  | - 20
+ . |  A  | - 20	   => 1 MB
  . |  D  | - 16
 
 
@@ -30,7 +30,7 @@ INTEL CPUS (BEFORE CONSIDERING AN OPCODE MATRIX) :
  . more spread-out pinout 
  . 1982 
  . |archi| - 16
- . |  A  | - 24
+ . |  A  | - 24	   => 16 MB
  . |  D  | - 16 
 
 
@@ -39,7 +39,7 @@ INTEL CPUS (BEFORE CONSIDERING AN OPCODE MATRIX) :
  . pins are closer together 
  . 1985
  . |archi| - 32
- . |  A  | - 32
+ . |  A  | - 32	   => 4 GB
  . |  D  | - 32
 
 
@@ -47,7 +47,7 @@ INTEL CPUS (BEFORE CONSIDERING AN OPCODE MATRIX) :
 80486 : 
  . 1989 
  . |archi| - 32
- . |  A  | - 32
+ . |  A  | - 32	   => 4 GB
  . |  D  | - 32
 
 ===================

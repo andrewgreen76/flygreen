@@ -9,9 +9,11 @@ RINGS OF SECURITY
  . ring 0 (most privileged) - kernel :
    |
    . manipulating hardware and memory
-   | . `CLI` , `STI`
+   | . `CLI` (clear interrupts for atomicity of kernel's operations)
+   | . `STI` (set interrupts) 
    | 
-   . low-level I/O operations (ports , etc.)
+   . low-level I/O operations (on ports , etc.)
+   | . interaction with the processor bus 
    | . `IN` for reading data from an I/O port into a register
    | . `OUT` for writing data from a register into an I/O port
    |

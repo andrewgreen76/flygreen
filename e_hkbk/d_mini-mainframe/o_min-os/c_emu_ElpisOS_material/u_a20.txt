@@ -1,0 +1,75 @@
+
+Every 8086 machine can only access up to 2^20 = 1 MB of memory. 
+
+
+========================================================================================
+A20 ACCOMMODATING OLDER 20-BIT ADDRESING AND NEWER 24-BIT ADDRESSING
+=======================================================================================
+
+i286 :
+ |
+ . featured 24 address lines (0-23)
+ |
+ => on newer machines : would be able to access up to 16 MB of memory
+ |
+ . on older machines :
+   . we wanted i286 to be backward-compatible with the 8086 HARDWARE
+   |  => using A-lines 0-19 ; A20 had to be disabled by default
+   |  . otherwise , memory wraparound through 0x0 would occur
+   |
+   . we wanted i286 to be backward-compatible with the 8086 SOFTWARE 
+      . the aforementioned
+
+
+========================================================================================
+  
+========================================================================================
+
+REMEMBER :
+ . all address lines are in the processor bus
+ . address lines can be enabled and disabled (through code) - WHICH IS DIFFERENT FROM SETTING AND CLEARING  
+
+
+========================================================================================
+UNDERSTANDING THE A20 LINE 
+========================================================================================
+
+hardware perspective
+on address lines
+on I/O ports
+I/O addressing is memory-like , but it's not memory
+memory bussing vs. I/O bussing (addressing)  
+I/O controllers
+multiple I/O controllers
+`in` , `out` <~> controllers
+
+"
+Yes, the `in` and `out` instructions are used for communicating directly with I/O controllers, allowing the CPU to read from and write to specific I/O port addresses associated with those controllers.
+"
+
+"
+The CPU signals the I/O controller by placing the port address `0x92` on the address bus and activating the appropriate control signals to indicate a read operation, which prompts the controller to place the requested data onto the data bus for the CPU to retrieve.
+"
+
+"
+A motherboard typically has multiple I/O controllers, including those for USB, SATA, audio, and network interfaces, with the exact number varying based on the motherboard's design and features.
+"
+
+========================================================================================
+ 
+========================================================================================
+
+
+A20 :
+ |
+ . 
+ |
+ . disabled on hardware by default - for the sake of compatibility with the older 8086 systems
+ |  . they could only access up to 2^20 = 1MB of memory
+ |  . 
+ |
+ . can be enabled to access 16 MB of physically avaliable RAM rather than the assumed 1 MB 
+    . enabled through code 
+
+
+_

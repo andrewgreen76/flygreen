@@ -61,7 +61,8 @@ Kernel development :
 
 Protected mode :
 - hardware protection vs. memory protection
-- GDT vs. segment descriptors 
+- GDT vs. segment descriptors
+- accessing 1 MB vs. accessing 16 MB of memory - with A20 exploits 
 
 Legacy (real-mode) assembly programming :
 - emu8086 vs. DOSBox vs. actual DOS

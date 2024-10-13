@@ -1,0 +1,55 @@
+
+========================================================================================
+TARGETING AND PIPING - IN THE CONTEXT OF QEMU-HOST AND GDB
+========================================================================================
+ 
+(gdb) target [...]    (expect the type of the target you'll use GDB on)
+      
+	------------------------------------------------------------------------------------
+        "Connects the GDB host environment to a target machine or process. A target is
+       	typically a protocol for talking to debugging facilities. You use the argument
+	type to specify the type or protocol of the target machine."
+	------------------------------------------------------------------------------------
+
+(gdb) target exec     (to target a local process)
+(gdb) target remote   (applies to a process over a serial line , over a network connection ,
+      	     	       or on a virtualized machine environment)
+
+	------------------------------------------------------------------------------------
+	"
+	... when debugging a program running in a virtualized machine environment with GDB,
+	you typically need to use the `target remote` command to connect to the remote
+	debugging interface of the virtual machine [e.g., QEMU's debugging interface].
+	"
+	------------------------------------------------------------------------------------
+	"
+	The host's GDB needs to connect to QEMU's debugging interface, often using
+	the `-s -S` options in QEMU, to debug the virtualized system effectively.
+	"
+	------------------------------------------------------------------------------------
+
+(gdb) target remote | qemu-system-x86_64 -hda ./boot.bin -S -gdb stdio
+
+	------------------------------------------------------------------------------------
+	target remote    (because we are targeting a virtual machine)
+	'|'      	 (redirects the output of the emulated machine on QEMU w/ GDB server on to the host's GDB)
+			 (this is really a one-way connection of QEMU to GDB)
+			 
+	-S		 "
+			 The `-S` option in QEMU starts the virtual machine in a paused state,
+			 allowing you to connect a debugger before it begins execution.
+			 "
+			 
+	-gdb		 "
+			 The `-gdb` option in QEMU specifies the GDB server interface, allowing you
+			 to connect a GDB debugger [on the host] to the virtual machine for debugging
+			 purposes.
+			 "
+			 
+	stdio		 "
+			 ... specifies that QEMU should use standard input and output for the GDB server
+			 interface, allowing GDB to interact directly with the terminal. 
+			 "
+	------------------------------------------------------------------------------------
+
+_

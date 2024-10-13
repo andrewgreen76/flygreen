@@ -43,6 +43,10 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+GDB :
+ . ways to run it
+ . basic commands 
+
 Kernel development :
  - kernel mode vs. user mode
  - kernel mode vs. protected mode

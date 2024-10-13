@@ -1,3 +1,7 @@
 
-- export $VAR - makes the variable known only to child processes. 
+export $VAR - make the variable known only to child processes.
+ . the key variable is reusable and shared 
+ . will not make an impact on the rest of the global environment
+ . think of it as ISOLATED SHARING among relevant processes 
 
+_

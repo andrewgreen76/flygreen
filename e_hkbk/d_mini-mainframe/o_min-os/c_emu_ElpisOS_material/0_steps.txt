@@ -1,0 +1,12 @@
+
+What you'll need ... or implement a clone of (if you are game for it) :
+ . an emulator (e.g., QEMU)
+ . build utilities - assembler , linker , loader (e.g., Binutils)  
+ . a version of GCC 
+ ? gdb 
+
+What you'll implement :
+ . bootloader in real mode
+ . augment bootloader to protected mode 
+
+_

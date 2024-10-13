@@ -51,5 +51,10 @@ TARGETING AND PIPING - IN THE CONTEXT OF QEMU-HOST AND GDB
 			 interface, allowing GDB to interact directly with the terminal. 
 			 "
 	------------------------------------------------------------------------------------
+	"
+	In this setup, the GDB on the host machine's side acts as a client, connecting to the GDB server
+	running in QEMU.
+	"
+	------------------------------------------------------------------------------------
 
 _

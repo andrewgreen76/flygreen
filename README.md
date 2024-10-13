@@ -45,7 +45,8 @@ __________________________________________________________________________
 
 GDB :
  . ways to run it
- . basic commands 
+ . basic commands
+ . GDB's offline protocol between QEMU and the host machine 
 
 Kernel development :
  - kernel mode vs. user mode

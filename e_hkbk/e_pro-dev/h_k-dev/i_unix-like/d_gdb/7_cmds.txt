@@ -1,0 +1,17 @@
+
+(gdb) lay next  (display src/asm code layout)
+      break main    (set a breakpoint at a function/label)
+      run       (use AFTER setting a breakpoint)
+      
+      next	(single-step / STEP OVER in HLL source code)
+      nexti	(single-step in assembly)
+      step 	(STEP INTO source code function)
+      ref	(refresh - in case if you think GDB is displaying the layout wrong)
+
+      target remote | qemu-system-x86_64 -hda ./boot.bin -S -gdb stdio
+      c
+      ^C
+      layout asm 
+      info registers 
+
+_

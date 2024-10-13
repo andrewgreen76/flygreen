@@ -1,6 +1,10 @@
 
-A cross-compiler allows for generating files (executables , primarily) on one platform for another platform. 
+A cross-compiler allows for generating files (executables , primarily) on one platform for another platform.
+ . if we are not developing a Unix-like OS , we can't use any GNU utilities 
 
+
+========================================================================================
+CROSS-COMPILER APPLICATIONS 
 ========================================================================================
 
 "

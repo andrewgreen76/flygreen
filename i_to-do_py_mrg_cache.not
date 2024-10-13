@@ -1,5 +1,6 @@
 
-gdb
+What is wrong with Intel :
+ . the A20 line hack that led to compatibility nightmare 
 
 Real mode : we can access the BIOS
 |

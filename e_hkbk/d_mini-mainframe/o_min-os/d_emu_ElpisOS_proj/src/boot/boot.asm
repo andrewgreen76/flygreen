@@ -85,6 +85,11 @@ init_prot_regs:
 	mov ss , ax
 	mov ebp , 0x00200000 	; 2GB
 	mov esp , ebp 		; 2GB
+
+	in al, 0x92
+	or al, 2		; enable A20 line (for access to the bottom 16 MB memory) 
+	out 0x92, al
+	
 	jmp $ 			; "halt"
 	
 ;;; 1st sector has the code below for populating hardcoded chars. ;;;;;;;;;;;;;

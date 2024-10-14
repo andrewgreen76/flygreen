@@ -29,10 +29,11 @@ init_real_regs:
 	mov eax , cr0
 	or eax , 0x1		; PROTECTION ENABLE raised 
 	mov cr0 , eax
-	jmp CODE_SEG:init_prot_regs 	; switch to protected mode :
+	; jmp CODE_SEG:init_prot_regs 	; switch to protected mode :
 					  ; INIT {DS,ES,..,} = GDT:DSoff
 					  ; INIT {SS,SP}
 					  ; "halt" 
+	jmp $
 	
 ;;; GDT CODE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	;; All values below are DEFAULT values. It is NOT a good idea to use different values. 
@@ -73,24 +74,7 @@ gdt_descr:
 	dw gdt_end - gdt_start - 1    ; size(16b) of descriptor
 	dd gdt_start		      ; offset(32b) of descriptor    ; null + CSdescr + DSdescr will be loaded 
 
-;;; 32-BIT CODE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	[BITS 32] 		
-	
-init_prot_regs:
-	mov ax , DATA_SEG
-	mov ds , ax
-	mov es , ax
-	mov fs , ax
-	mov gs , ax
-	mov ss , ax
-	mov ebp , 0x00200000 	; past A20 (1 MB) , into 2 MB 
-	mov esp , ebp 		; 
-
-	in al, 0x92
-	or al, 2		; enable A20 line (for access to the bottom 16 MB memory) 
-	out 0x92, al
-	
-	jmp $ 			; "halt"
+	;; pcut
 	
 ;;; 1st sector has the code below for populating hardcoded chars. ;;;;;;;;;;;;;
 

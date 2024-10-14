@@ -34,14 +34,19 @@ WHAT YOU'LL NEED ... OR IMPLEMENT A CLONE OF (IF YOU ARE GAME FOR IT) :
 WHAT YOU'LL WRITE :
 ========================================================================================
     
+ . a text file with some message for the bootloader to display in the emulator
+ |
  . makefile - for building and cleaning
  |  . assembling the bootloader
  |  . compiling kernel32 
  |
  . a build script - for exporting key variables
  |  . these vars will enable the use of our C cross-compiler
- |  
- . a text file with some message for the bootloader to display in the emulator
+ |
+ . a linker script
+    . dictates terms of linking the bootloader with the kernel
+    . dictates placement of bootloader and kernel in memory 
+
 
  . bootloader in real mode
  |  . w/ BPB to work with BIOS
@@ -79,11 +84,12 @@ PRIMAL ORGANIZATION OF SYSTEM SOFTWARE ON A BOOTABLE MEDIUM :
 
 1st sector (boot sector) :
  . BPB
- . the bootstrap proper
+ . the (first) bootloader 
  . null padding 
  . magic number 
 
 2nd sector :
+ ? kernel code ? 
  . [? anything ? text ?]
  . null padding 
 
@@ -95,7 +101,18 @@ WHAT YOU'LL COME UP WITH
 			object files of		raw binaries of :
 			
  . bootloader image		_			_
+    . 1st sector
+    . 16-bit code/data
+    . real mode 
+
  . kernel image 		_			_
+    . 2nd sector
+    . 32-bit code/data
+    . protected mode
+    . expanded to :
+       . process ELF files
+       . process object files 
+    
  . OS (btld + kernel)		_			_
  
 _

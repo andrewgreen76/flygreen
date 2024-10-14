@@ -7,15 +7,23 @@ WHAT YOU'LL NEED ... OR IMPLEMENT A CLONE OF (IF YOU ARE GAME FOR IT) :
  . EMU : an emulator w/ client-server capability (e.g., QEMU)
  . DBG : a debugging interface w/ client-server capability (e.g., GDB)
  |
+ . DEPS : dependencies to install : 
+ |  . Bison , Flex , etc. 
+ |
  . CC  : build utilities (e.g., a version of GCC) 
  |  . ASSEMBLER - will definitely need this to convert assembly code to our bootloader's pure binary image 
  |  . linker
- |  . loader  
+ |  . loader
  |  . GCC is geared towards Unix-likes
  |  . need a variation of GCC , a cross-compiler
  |
- . a cross-compiler 
- . BINWRK : (e.g., Binutils) 
+ . BINWRK : (e.g., Binutils)
+ |  . assembler (again ?) 
+ |  . linker (again ?) 
+ |  ? archiver ?
+ |  ? objdump monitor ? 
+ |
+ . a cross-compiler <- DEPS + CC + BINWRK 
 
 
 ========================================================================================

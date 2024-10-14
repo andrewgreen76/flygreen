@@ -37,19 +37,32 @@ WHAT YOU'LL WRITE :
  . bootloader in real mode
  |  . w/ BPB to work with BIOS
  |  
- . augment bootloader to protected mode 
  . makefile (instead of .sh)
- . a text file with some message for the bootloader to display in the emulator 
+ . a text file with some message for the bootloader to display in the emulator
+ |
+ . augment bootloader to protected mode
+ . enable A20 
 
 
 ========================================================================================
 PRIMAL ORGANIZATION OF SYSTEM SOFTWARE IN MEMORY : 
 ========================================================================================
 
+@ 0x0 : 
  . BIOS (Data Area) 
  . IVT
  . other system data
- . bootstrap 
+
+
+@ 0x7c00 :
+ |
+ . bootstrap :
+ |  . code to write BPB
+ |  . GDT : descriptors : NULL , CS , DS , ...
+ |  . real-mode code (outside of GDT:CS)
+ |  . protected mode : prep code (outside of GDT:CS)
+ |  . protected mode : inside (post-) code 
+ |
  . SSBL
 
 

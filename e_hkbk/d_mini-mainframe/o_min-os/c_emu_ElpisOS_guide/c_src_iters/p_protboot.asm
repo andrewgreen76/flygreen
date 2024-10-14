@@ -25,10 +25,13 @@ init_real_regs:
 ;;; PROGRAMMING LOGIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 .prep_prot:
 	cli
+
 	lgdt [gdt_descr] 	; Reads @ gdt_descr : GDT.SIZE , GDT.OFFSET. (No spec of rwe.)  
+
 	mov eax , cr0
 	or eax , 0x1		; PROTECTION ENABLE raised 
 	mov cr0 , eax
+
 	jmp CODE_SEG:init_prot_regs 	; switch to protected mode :
 					  ; INIT {DS,ES,..,} = GDT:DSoff
 					  ; INIT {SS,SP}
@@ -69,7 +72,7 @@ gdt_data:	      		; Linked to DS , ES , FS , GS , SS
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 gdt_end:
 
-gdt_descr:
+gdt_descr:			      ; i.e., info about GDT 
 	dw gdt_end - gdt_start - 1    ; size(16b) of descriptor
 	dd gdt_start		      ; offset(32b) of descriptor    ; null + CSdescr + DSdescr will be loaded 
 
@@ -83,8 +86,10 @@ init_prot_regs:
 	mov fs , ax
 	mov gs , ax
 	mov ss , ax
-	mov ebp , 0x00200000 	; 2GB
-	mov esp , ebp 		; 2GB
+				; A:            21    16   12    8    4    0
+				;                |     |    |    |    |    | 
+	mov ebp , 0x00200000 	;    0000 0000 0010 0000 0000 0000 0000 0000 
+	mov esp , ebp 		; -//-
 	jmp $ 			; "halt"
 	
 ;;; 1st sector has the code below for populating hardcoded chars. ;;;;;;;;;;;;;

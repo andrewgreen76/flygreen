@@ -92,8 +92,10 @@ PRIMAL ORGANIZATION OF SYSTEM SOFTWARE ON A BOOTABLE MEDIUM :
 WHAT YOU'LL COME UP WITH 
 ========================================================================================
 
-Raw binaries (and their object files) :
- . bootloader image
- . kernel image 
-
+			object files of		raw binaries of :
+			
+ . bootloader image		_			_
+ . kernel image 		_			_
+ . OS (btld + kernel)		_			_
+ 
 _

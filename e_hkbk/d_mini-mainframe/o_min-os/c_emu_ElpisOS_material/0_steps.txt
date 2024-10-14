@@ -12,7 +12,7 @@ WHAT YOU'LL NEED ... OR IMPLEMENT A CLONE OF (IF YOU ARE GAME FOR IT) :
  |
  . CC  : build utilities (e.g., a version of GCC) 
  |  . ASSEMBLER - will definitely need this to convert assembly code to our bootloader's pure binary image 
- |  . linker
+ |  . linker (ELF only ?) 
  |  . loader
  |  . GCC is geared towards Unix-likes
  |  . need a variation of GCC , a cross-compiler
@@ -21,9 +21,13 @@ WHAT YOU'LL NEED ... OR IMPLEMENT A CLONE OF (IF YOU ARE GAME FOR IT) :
  |  . assembler (again ?) 
  |  . linker (again ?) 
  |  ? archiver ?
- |  ? objdump monitor ? 
+ |  ? objdump monitor ?
+ |  . other utilities and commands (see the GNU Binutils webpage)
+ |  . featured libraries for file manipulation 
  |
- . a cross-compiler <- DEPS + CC + BINWRK 
+ . a cross-compiler <- DEPS + CC + BINWRK
+    (a) build it
+    (b) implement it thoroughly 
 
 
 ========================================================================================
@@ -44,11 +48,19 @@ PRIMAL ORGANIZATION OF SYSTEM SOFTWARE IN MEMORY :
 
  . BIOS (Data Area) 
  . IVT
- . other system data 
+ . other system data
+ . bootstrap 
+ . SSBL
 
 
 ========================================================================================
 PRIMAL ORGANIZATION OF SYSTEM SOFTWARE ON A BOOTABLE MEDIUM : 
 ========================================================================================
+
+1st sector (boot sector) :
+ . BPB + bootstrap 
+
+2nd sector :
+ . [? anything ? text ?]
 
 _

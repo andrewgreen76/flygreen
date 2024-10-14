@@ -1,6 +1,6 @@
 
 Assembling and linking :
- (a) using a makefile and `make all` ... but it won't allow exporting variables 
+ (a) using a makefile and `make all` ... but it won't correctly export variables 
  (b) writing an executable Bash script    <- That's what we want. 
 
 Completing the binary bootable image :

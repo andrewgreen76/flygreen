@@ -26,22 +26,29 @@ WHAT YOU'LL NEED ... OR IMPLEMENT A CLONE OF (IF YOU ARE GAME FOR IT) :
  |  . featured libraries for file manipulation 
  |
  . a cross-compiler <- DEPS + CC + BINWRK
-    (a) build it
+    (a) build it w/ given DEPS + CC + BINWRK 
     (b) implement it thoroughly 
 
 
 ========================================================================================
 WHAT YOU'LL WRITE :
 ========================================================================================
+    
+ . makefile - for building and cleaning
+ |  . assembling the bootloader
+ |  . compiling kernel32 
+ |
+ . a build script - for exporting key variables
+ |  . these vars will enable the use of our C cross-compiler
+ |  
+ . a text file with some message for the bootloader to display in the emulator
 
  . bootloader in real mode
  |  . w/ BPB to work with BIOS
- |  
- . makefile (instead of .sh)
- . a text file with some message for the bootloader to display in the emulator
  |
  . augment bootloader to protected mode
- . enable A20 
+ . enable A20
+ . refactor the bootloader into multiple source files 
 
 
 ========================================================================================
@@ -71,10 +78,22 @@ PRIMAL ORGANIZATION OF SYSTEM SOFTWARE ON A BOOTABLE MEDIUM :
 ========================================================================================
 
 1st sector (boot sector) :
- . BPB + bootstrap
+ . BPB
+ . the bootstrap proper
+ . null padding 
  . magic number 
 
 2nd sector :
  . [? anything ? text ?]
+ . null padding 
+
+
+========================================================================================
+WHAT YOU'LL COME UP WITH 
+========================================================================================
+
+Raw binaries (and their object files) :
+ . bootloader image
+ . kernel image 
 
 _

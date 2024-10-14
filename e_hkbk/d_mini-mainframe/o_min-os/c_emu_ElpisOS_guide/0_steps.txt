@@ -58,7 +58,8 @@ PRIMAL ORGANIZATION OF SYSTEM SOFTWARE ON A BOOTABLE MEDIUM :
 ========================================================================================
 
 1st sector (boot sector) :
- . BPB + bootstrap 
+ . BPB + bootstrap
+ . magic number 
 
 2nd sector :
  . [? anything ? text ?]

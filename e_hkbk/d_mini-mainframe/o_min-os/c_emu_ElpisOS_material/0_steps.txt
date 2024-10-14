@@ -1,12 +1,46 @@
 
-What you'll need ... or implement a clone of (if you are game for it) :
- . an emulator (e.g., QEMU)
- . build utilities - assembler , linker , loader (e.g., Binutils)  
- . a version of GCC 
- ? gdb 
+========================================================================================
+WHAT YOU'LL NEED ... OR IMPLEMENT A CLONE OF (IF YOU ARE GAME FOR IT) :
+========================================================================================
 
-What you'll implement :
+ . BIOS-like firmware 
+ . EMU : an emulator w/ client-server capability (e.g., QEMU)
+ . DBG : a debugging interface w/ client-server capability (e.g., GDB)
+ |
+ . CC  : build utilities (e.g., a version of GCC) 
+ |  . ASSEMBLER - will definitely need this to convert assembly code to our bootloader's pure binary image 
+ |  . linker
+ |  . loader  
+ |  . GCC is geared towards Unix-likes
+ |  . need a variation of GCC , a cross-compiler
+ |
+ . a cross-compiler 
+ . BINWRK : (e.g., Binutils) 
+
+
+========================================================================================
+WHAT YOU'LL WRITE :
+========================================================================================
+
  . bootloader in real mode
+ |  . w/ BPB to work with BIOS
+ |  
  . augment bootloader to protected mode 
+ . makefile (instead of .sh)
+ . a text file with some message for the bootloader to display in the emulator 
+
+
+========================================================================================
+PRIMAL ORGANIZATION OF SYSTEM SOFTWARE IN MEMORY : 
+========================================================================================
+
+ . BIOS (Data Area) 
+ . IVT
+ . other system data 
+
+
+========================================================================================
+PRIMAL ORGANIZATION OF SYSTEM SOFTWARE ON A BOOTABLE MEDIUM : 
+========================================================================================
 
 _

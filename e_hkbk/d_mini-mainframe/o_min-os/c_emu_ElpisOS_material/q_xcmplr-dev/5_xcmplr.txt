@@ -1,4 +1,7 @@
 
+We need a cross-compiler to build our fledgling OS and load it into memory on some platform (hardware + OS) somehow. 
+
+
 A cross-compiler allows for generating files (executables , primarily) on one platform for another platform.
  . if we are not developing a Unix-like OS , we can't use any GNU utilities 
 

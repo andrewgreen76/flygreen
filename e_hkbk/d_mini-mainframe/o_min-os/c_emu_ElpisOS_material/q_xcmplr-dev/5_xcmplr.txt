@@ -7,6 +7,17 @@ A cross-compiler allows for generating files (executables , primarily) on one pl
 
 
 ========================================================================================
+OS DEVELOPMENT BEFORE CROSS-COMPILERS 
+========================================================================================
+
+"
+Before cross-compilers, operating systems were typically developed directly
+  on the target hardware using native compilers, requiring developers to write,
+  compile, and test code on the same system they were targeting, often leading
+  to longer development cycles and more cumbersome testing processes.
+"
+
+========================================================================================
 CROSS-COMPILER APPLICATIONS 
 ========================================================================================
 

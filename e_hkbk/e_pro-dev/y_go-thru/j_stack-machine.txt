@@ -1,0 +1,6 @@
+
+A solution used for pushing data to and popping data off the stack.
+ . can be a CPU core (working with a dedicated hardware stack)
+ . can be a VM 
+
+_

@@ -158,6 +158,9 @@ DIY project : research -and- building my own dumb laptop / motherboard / CPU / E
  |
  . system bus vs. chipset
 
+Career development :
+ . IPC (and other) standards , certifications 
+
 Quantum computing : 
 - contrast with classical binary computing 
 - benefits

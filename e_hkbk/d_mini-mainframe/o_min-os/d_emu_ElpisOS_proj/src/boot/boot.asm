@@ -1,21 +1,25 @@
 
-	ORG 0x7c00
-	BITS 16 
-				     ; 		   GDT:0 = NULLdescr_base 
-CODE_SEG equ gdt_code - gdt_start    ; CS.offset ; GDT:8 = CSdescr_base = seg @ 0x8 in RAM
-DATA_SEG equ gdt_data - gdt_start    ; DS.offset ; GDT:16 = DSdescr_base = seg @ 0x10 in RAM
-	
+	;; Directives - code meant FOR THE ASSEMBLER. 
+	ORG 0x7c00 		; Has to be 0x7c00 as the memory {0x0 -> 0x7bff} is to be taken by BIOS Data Area , IVT , etc. 
+	BITS 16 		; Ready to load 16-bit code and data only. 
+
+	;; Data computed with directives (again, code meant for the assembler) , not code to be loaded into memory upon booting. 
+				     ; offset of NULL (invalidity) segment in GDT = 0 
+CODE_SEG equ gdt_code - gdt_start    ; offset of code in GDT = 8
+DATA_SEG equ gdt_data - gdt_start    ; offset of data in GDT = 16
+
+	;; First instructions of boot code to be loaded into memory @ 0x7c00 => meant for BIOS. 
 _start:
-	jmp short ld_btld 	
+	jmp short boot_at_cs
 	nop 			 
 	times 33 db 0 	
 
-ld_btld: 			; Note to self : this may be a case of redundant jumping  
-	jmp 0x0:init_real_regs 	;   that could be simplified. 
+boot_at_cs: 			; Note to self : this might be a case of redundant jumping  
+	jmp 0x0:boot_at_csoff 	;   that could be simplified. We still want to set CS = ORG + 0x0. 
 	
-init_real_regs:	
+boot_at_csoff:	
 	cli
-	mov ax , 0x0
+	mov ax , 0x0 	; CS @ DS @ ES 
 	mov ds , ax 	; DS @ 0x7c00 + 0
 	mov es , ax	; ES = -//-
 	mov ss , ax	; SS @ 0x0 + 0    ; necessary for access to BIOS , IVT , other stack operations occur 
@@ -29,6 +33,8 @@ init_real_regs:
 	mov eax , cr0
 	or eax , 0x1		; PROTECTION ENABLE raised 
 	mov cr0 , eax
+
+	;;; ORG --(offset)-> CS --(offset)-> IP. 
 	; jmp CODE_SEG:init_prot_regs 	; switch to protected mode :
 					  ; INIT {DS,ES,..,} = GDT:DSoff
 					  ; INIT {SS,SP}
@@ -83,5 +89,3 @@ gdt_descr:
 
 ;;; End of 1st sector (boot code). ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Start of 2nd sector (anything we want - in text). ;;;;;;;;;;;;;;;;
-
-	

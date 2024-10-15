@@ -19,6 +19,7 @@ init_prot_regs:
 	in al, 0x92 		; keyboard controller I/O port (believe it or not) 
 	or al, 2		; enable A20 line (for access to the bottom 16 MB memory) 
 	out 0x92, al
+	;; Remember : in/out are microcoded to influence I/O ports , not memory. 
 	
 	jmp $ 			; "halt"
 

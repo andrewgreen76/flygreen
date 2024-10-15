@@ -48,12 +48,14 @@ WHAT YOU'LL WRITE :
     . dictates placement of bootloader and kernel in memory 
 
 
- . bootloader in real mode
+ . bootloader src in real mode
  |  . w/ BPB to work with BIOS
  |
  . augment bootloader to protected mode
+ |
  . enable A20
  . refactor the bootloader into multiple source files 
+ . kernel src in protected mode 
 
 
 ========================================================================================
@@ -113,6 +115,6 @@ WHAT YOU'LL COME UP WITH
        . process ELF files
        . process object files 
     
- . OS (btld + kernel)		_			_
+ . OS (btld + kernel) image	_			_
  
 _

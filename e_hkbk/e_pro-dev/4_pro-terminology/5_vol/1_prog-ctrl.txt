@@ -1,6 +1,0 @@
-
-Program control :
- . the focus of the computer's CPU
- . the process being handled by the CPU - the process that program control is handed to 
-
-_

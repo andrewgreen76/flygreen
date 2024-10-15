@@ -1,0 +1,10 @@
+
+Program control :
+  (a) the focus of the CPU - handling a process
+  (b) fundamental aspects of programming and execution :
+     . sequence
+     . condition (branching)
+     . repetition (looping)
+     . function calls 
+
+_

@@ -1,4 +1,9 @@
 
-An app's executable. 
+Types of binaries :
 
-.
+ . an app's executable
+ . raw binary    [meaning]    raw binary data    [is]    binary representation of a number (int, float, or double)
+ . pure binary :
+ . flat binary : 
+
+_

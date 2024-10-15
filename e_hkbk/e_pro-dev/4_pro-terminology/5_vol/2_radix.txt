@@ -1,0 +1,5 @@
+
+The base of a numerical system.
+ . e.g., the hexadecimal system has a radix of 16 
+
+_

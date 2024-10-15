@@ -2,7 +2,7 @@
 	ORG 0			; REMEMBER: THIS IS JUST AN OFFSET IN QEMU MACHINE'S RAM 
 	BITS 16			
 
-	jmp 0x07c0:start 	
+	jmp 0x07c0:start 	; We use this to "forcibly" set CS=0x07c0 ... and carry on. 
 	
 start:
 	cli			; clear the int flag in FLAGS (disable interrupts)

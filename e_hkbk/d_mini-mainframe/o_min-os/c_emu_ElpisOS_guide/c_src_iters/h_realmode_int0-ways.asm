@@ -8,7 +8,7 @@ _start:
 	times 33 db 0 	; Faked all {3 -> 35} data bytes for BPB / 512. 
 
 ld_btld:
-	jmp 0x07c0:find_n_ld ; Manual load of CS:IP. 
+	jmp 0x07c0:find_n_ld 
 
 hndl_int0:		; an ISR : prints 'A'  
 	mov ah , 0eh

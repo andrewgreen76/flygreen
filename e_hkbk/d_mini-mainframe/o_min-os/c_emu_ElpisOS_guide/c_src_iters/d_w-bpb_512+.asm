@@ -3,14 +3,13 @@
 	BITS 16			; They are excluded in the final binary image and are not part of code.
 				; They are just there to tell the assembler how to assemble code. 
 _start:
-	jmp short start 	; Byte 0 ; 3C = Byte 1 
-	nop 			; Byte 2 
-	times 33 db 0 		; Keep in mind : the directives tell the assembler HOW TO assemble the program ,
-				; and then the assembler digests the source code in a non-generic way thanks to
-				; those directives.  
+	jmp short start 	; Byte 0 ; 3C = Byte 1
+	;; The two instructions that follow are really there to pad BPB : 
+	nop 			; Byte 2 - HAS TO BE `nop` per BPB/BIOS requirements. 
+	times 33 db 0 		; These bytes must be allocated , but they are there for the BIOS , not us. 
 				;;;;;;;;;;;;;;;;;;;;;;;;; THIS TAKES CARE OF THE BPB IN THE FACE OF BIOS. 
 start:
-	jmp 0x07c0:step2 	;;;;;;;;;;;;;;;;;;;;;;;;; THIS TAKES CARE OF THE CS:IP. 
+	jmp 0x07c0:step2 	; A hack of sorts : force-sets CS to 0x07c0 and allows us to proceed. 
 
 step2:	
 	cli			; clear the int flag in FLAGS (disable interrupts)

@@ -6,12 +6,12 @@ CODE_SEG equ gdt_code - gdt_start    ; CS.offset ; GDT:8 = CSdescr_base = seg @ 
 DATA_SEG equ gdt_data - gdt_start    ; DS.offset ; GDT:16 = DSdescr_base = seg @ 0x10 in RAM
 	
 _start:
-	jmp short ld_btld
+	jmp short ld_btld 	
 	nop 			 
 	times 33 db 0 	
 
-ld_btld:
-	jmp 0x0:init_real_regs
+ld_btld: 			; Note to self : this may be a case of redundant jumping  
+	jmp 0x0:init_real_regs 	;   that could be simplified. 
 	
 init_real_regs:	
 	cli

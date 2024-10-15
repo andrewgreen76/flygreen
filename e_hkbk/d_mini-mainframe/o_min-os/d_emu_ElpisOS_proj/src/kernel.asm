@@ -1,18 +1,22 @@
 
 ;;; 32-BIT CODE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	[BITS 32] 		
+
+;;; Kernel's segments for code and data : 
+CODE_SEG equ 0x08 
+DATA_SEG equ 0x10 
 	
 init_prot_regs:
-	mov ax , DATA_SEG
+	mov ax , DATA_SEG 	; Needs to know the GDT offset for DS. 
 	mov ds , ax
 	mov es , ax
 	mov fs , ax
 	mov gs , ax
 	mov ss , ax
-	mov ebp , 0x00200000 	; past A20 (1 MB) , into 2 MB 
+	mov ebp , 0x00200000 	; past A20 (1 MB) , using A21 (into 2 MB) 
 	mov esp , ebp 		; 
 
-	in al, 0x92
+	in al, 0x92 		; keyboard controller I/O port (believe it or not) 
 	or al, 2		; enable A20 line (for access to the bottom 16 MB memory) 
 	out 0x92, al
 	

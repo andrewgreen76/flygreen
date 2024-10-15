@@ -25,7 +25,7 @@ WHAT YOU'LL NEED ... OR IMPLEMENT A CLONE OF (IF YOU ARE GAME FOR IT) :
  |  . other utilities and commands (see the GNU Binutils webpage)
  |  . featured libraries for file manipulation 
  |
- . a cross-compiler <- DEPS + CC + BINWRK
+ . XCMPL : a cross-compiler <- DEPS + CC + BINWRK
     (a) build it w/ given DEPS + CC + BINWRK 
     (b) implement it thoroughly 
 

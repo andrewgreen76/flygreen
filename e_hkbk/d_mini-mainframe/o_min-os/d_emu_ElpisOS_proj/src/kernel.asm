@@ -1,12 +1,13 @@
 
 ;;; 32-BIT CODE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	[BITS 32] 		
-
+	global _start
+	
 ;;; Kernel's segments for code and data : 
 CODE_SEG equ 0x08 
 DATA_SEG equ 0x10 
 	
-sw_to_prot:
+_start:
 	mov ax , DATA_SEG 	; Needs to know the GDT offset for DS. 
 	mov ds , ax
 	mov es , ax
@@ -14,8 +15,9 @@ sw_to_prot:
 	mov gs , ax
 	mov ss , ax
 	mov ebp , 0x00200000 	; past A20 (1 MB) , using A21 (into 2 MB) 
-	mov esp , ebp 		; 
+	mov esp , ebp 		
 
+	;; Augment memory access to 16 MB : 
 	in al, 0x92 		; keyboard controller I/O port (believe it or not) 
 	or al, 2		; enable A20 line (for access to the bottom 16 MB memory) 
 	out 0x92, al

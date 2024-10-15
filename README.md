@@ -57,7 +57,9 @@ Kernel development :
  - CPU (1) throwing an exception and (2) switching to int handler address 
      despite (A) the explicit/implicit way to the handler and (B) the actual
      handler implementation 
- - disk management , I/O , interrupts , drivers 
+ - disk management , I/O , interrupts , drivers
+ - loading , detecting , and executing the bootloader in real mode
+ - enabling and switching to protected mode 
 
 Protected mode :
 - hardware protection vs. memory protection

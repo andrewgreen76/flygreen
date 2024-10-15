@@ -1,9 +1,15 @@
 
-Types of binaries :
+========================================================================================
+TYPES OF BINARIES 
+========================================================================================
 
- . an app's executable
- . raw binary    [meaning]    raw binary data    [is]    binary representation of a number (int, float, or double)
- . pure binary :
- . flat binary : 
+  (a) an app's executable
+
+  (b) raw binary    [meaning]    raw binary data    [is]    binary representation of a number (int, float, or double)
+
+  (c) pure binary = raw binary
+
+  (d) flat binary = binary code and data that a computer can understand 
+     . there are no headers or metadata of any kind 
 
 _

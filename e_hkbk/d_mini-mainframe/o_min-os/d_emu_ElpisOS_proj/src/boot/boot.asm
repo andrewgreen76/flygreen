@@ -10,14 +10,15 @@ DATA_SEG equ gdt_data - gdt_start    ; offset of data in GDT = 16
 
 	;; First instructions of boot code to be loaded into memory @ 0x7c00 => meant for BIOS. 
 _start:
-	jmp short boot_at_cs
+	jmp short rlboot_at_cs
 	nop 			 
 	times 33 db 0 	
 
-boot_at_cs: 			; Note to self : this might be a case of redundant jumping  
-	jmp 0x0:boot_at_csoff 	;   that could be simplified. We still want to set CS = ORG + 0x0. 
-	
-boot_at_csoff:	
+rlboot_at_cs: 			; Note to self : this might be a case of redundant jumping  
+	jmp 0x0:rlboot_at_csoff 	;   that could be simplified. We still want to set CS = ORG + 0x0. 
+
+;;; Segments and pointers that DEFINE THE REAL MODE : 
+rlboot_at_csoff:	
 	cli
 	mov ax , 0x0 	; CS @ DS @ ES 
 	mov ds , ax 	; DS @ 0x7c00 + 0
@@ -26,7 +27,6 @@ boot_at_csoff:
 	mov sp , 0x7c00	; SP @ 0x0 + 0x7c00    ; as expected by the real-mode BIOS 
 	sti
 	
-;;; PROGRAMMING LOGIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 .prep_prot:
 	cli
 	lgdt [gdt_descr] 	; Reads @ gdt_descr : GDT.SIZE , GDT.OFFSET. (No spec of rwe.)  
@@ -35,7 +35,7 @@ boot_at_csoff:
 	mov cr0 , eax
 
 	;;; ORG --(offset)-> CS --(offset)-> IP. 
-	; jmp CODE_SEG:init_prot_regs 	; switch to protected mode :
+	; jmp CODE_SEG:sw_to_prot 	  ; switch to protected mode :
 					  ; INIT {DS,ES,..,} = GDT:DSoff
 					  ; INIT {SS,SP}
 					  ; "halt" 

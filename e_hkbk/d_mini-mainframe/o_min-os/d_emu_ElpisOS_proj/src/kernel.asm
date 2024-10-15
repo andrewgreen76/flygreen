@@ -6,7 +6,7 @@
 CODE_SEG equ 0x08 
 DATA_SEG equ 0x10 
 	
-init_prot_regs:
+sw_to_prot:
 	mov ax , DATA_SEG 	; Needs to know the GDT offset for DS. 
 	mov ds , ax
 	mov es , ax

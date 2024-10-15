@@ -1,10 +1,11 @@
 
 ========================================================================================
-IPC , CERTIFICATIONS , etc. 
+IPC (AND OTHER) STANDARDS 
 ========================================================================================
 
 
-IPC standards : 
+IPC standards :
+ . IPC-6012 
  . IPC-J-STD-001GS space addendum 
  . J-STD-001 Space Addendum
  . IPC/WHMA-A-620 Space Addendum

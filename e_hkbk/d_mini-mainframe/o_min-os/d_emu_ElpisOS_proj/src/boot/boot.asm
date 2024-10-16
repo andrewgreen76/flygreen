@@ -75,6 +75,9 @@ ld_krnl32:
 	mov ecx , 100 		; no. sectors to load - for kernel code
 	mov edi , 0x00100000 	; target RAM address to load kernel code into from disk 
 	call ata_lba_read 	; LBA (instead of CHS) for disk ops 
+
+ata_lba_read:
+	mov ebx , eax 		; reserve LBA ;    ? LBA = starting sector ? 
 	
 ;;; The code below is for populating the 1st sector. ;;;;;;;;;;;;;
 

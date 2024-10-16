@@ -110,18 +110,19 @@ ata_lba_read:
 	out dx , al
 ;;; Read all sectors into memory :
 .next_sector: 
-	push ecx 		; preserve no. sectors 
+	push ecx 		; preserve count of remaining sectors to read ; we'll reuse ecx  
 
-;;; Check if we need to read ; repeated check due to controller update delay. 
+;;; Keep checking if we need to read ; repeated check due to controller update delay. 
 .try_again:
-	mov dx , 0x1f7 		; deref this I/O -> AL 
-	in al , dx 		; need `in` to take from I/O 
-	test al , 8 		; check on bit : .... v... 
+	mov dx , 0x1f7 		 
+	in al , dx 		; deref I/O port (in reg) , mov lowest byte into acc.  
+	test al , 8 		; see if bit 3 is set : .... v... 
 	jz .try_again  
 
 ;;; Read 256 words at a time :
-	mov ecx, 256
+	mov ecx, 256 		; Reading a word in an iteration is faster than two indiv. bytes over two interations. 
 	mov dx , 0x1f0
+	; mov edi , 0x00100000 	; target RAM address to load kernel code into from disk 
 	rep insw 		; load from [dx] (I/O) to [di] (@ 1 MB)    ; 256 times <- ecx
 				; = 256 words = 512 bytes = 1 sector
 	pop ecx

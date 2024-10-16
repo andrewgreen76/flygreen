@@ -1,0 +1,4 @@
+"
+"
+ATA, or Advanced Technology Attachment, is an interface standard for connecting storage devices like hard drives and SSDs to a computer, facilitating data transfer and command execution between the disk and the motherboard.
+_

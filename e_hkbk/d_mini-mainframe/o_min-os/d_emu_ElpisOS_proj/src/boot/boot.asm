@@ -14,22 +14,22 @@ _start:
 	nop 			 
 	times 33 db 0 	
 
-rlboot_at_cs: 			; Note to self : this might be a case of redundant jumping  
+rlboot_at_cs: 				; Note to self : this might be a case of redundant jumping  
 	jmp 0x0:rlboot_at_csoff 	;   that could be simplified. We still want to set CS = ORG + 0x0. 
 
-;;; Segments and pointers that DEFINE THE REAL MODE : 
+;;; Values in segments and pointers that define the REAL MODE SEGMENTATION MODEL : 
 rlboot_at_csoff:	
 	cli
-	mov ax , 0x0 	; CS @ DS @ ES 
-	mov ds , ax 	; DS @ 0x7c00 + 0
-	mov es , ax	; ES = -//-
-	mov ss , ax	; SS @ 0x0 + 0    ; necessary for access to BIOS , IVT , other stack operations occur 
-	mov sp , 0x7c00	; SP @ 0x0 + 0x7c00    ; as expected by the real-mode BIOS 
+	mov ax , 0x0 	 
+	mov ds , ax 	
+	mov es , ax	
+	mov ss , ax	 
+	mov sp , 0x7c00	 
 	sti
 	
 .prep_prot:
 	cli
-	lgdt [gdt_descr] 	; Reads @ gdt_descr : GDT.SIZE , GDT.OFFSET. (No spec of rwe.)  
+	lgdt [gdt_descr] 	
 	mov eax , cr0
 	or eax , 0x1		; PROTECTION ENABLE raised 
 	mov cr0 , eax 		; Though being in 32-bit mode is a definitive characteristic of the protected mode ,
@@ -39,57 +39,47 @@ rlboot_at_csoff:
 				; we are going to need drivers => protected-mode substitutes for BIOS. No UEFI ! 
 
 	;;; ORG --(offset)-> CS --(offset)-> IP. 
-	; jmp CODE_SEG:sw_to_prot 	  ; switch to protected mode :
-					  ; INIT {DS,ES,..,} = GDT:DSoff
-					  ; INIT {SS,SP}
-					  ; "halt" 
-	jmp $
+	jmp CODE_SEG:ld_krnl32 	; switch to 32-bit kernel code  
 	
 ;;; GDT CODE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	;; All values below are DEFAULT values. It is NOT a good idea to use different values. 
-	;; Descriptors are shaped with "`d`efine" directives.
 gdt_start:
-;; GDT:0 = NULL descr
-gdt_null:			; null descriptor (64 bits) - represents an invalid segment 
-	dd 0x0 			; 32 zeros
-	dd 0x0 			; 32 zeros
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; GDT:0 = ; null descriptor (64 bits) 
+gdt_null:			 
+	dd 0x0 			
+	dd 0x0 			
 ;; GDT:8 = CS descr 
-gdt_code: 			; CS @ here  
-	dw 0xffff 		; GDTdescr : 15-00 : seg.lim=15
-	dw 0 			; GDTdescr : 31-16 : seg.base(0-15)=0
-	db 0 			; GDTdescr : 39-32 : seg.base_ext(16-23)=0
-	db 0x9a			; GDTdescr : 47-40 : seg.access_byte (bit mask) 
-					;; P DPL S 	Type 	; DPL - Descriptor Privilege Level 
-					;;   0x9	0xA 	; 00 - ring 0 (kernel)
-					;; 1  00 1	1010	; 11 - ring 3 (user proc)
-	db 11001111b		; GDTdescr : 55-48 : seg.flags
-	db 0 			; GDTdescr : 63-56 : seg.base_ext(24-31)=0
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+gdt_code: 			  
+	dw 0xffff 		
+	dw 0 			
+	db 0 			
+	db 0x9a			 
+	db 11001111b		
+	db 0 			
 ;; GDT:0x10 = 16 = other seg.descrs
-gdt_data:	      		; Linked to DS , ES , FS , GS , SS 
-	dw 0xffff 		; GDTdescr : 15-00 : seg.lim=15
-	dw 0 			; GDTdescr : 31-16 : seg.base(0-15)=0
-	db 0 			; GDTdescr : 39-32 : seg.base_ext(16-23)=0
-	db 0x92			; GDTdescr : 47-40 : seg.access_byte (bit mask) 
-					;; P DPL S 	Type 	; DPL - Descriptor Privilege Level 
-					;;   0x9	0x2 	 
-					;; 1  00 1	0010	
-	db 11001111b		; GDTdescr : 55-48 : seg.flags
-	db 0 			; GDTdescr : 63-56 : seg.base_ext(24-31)=0
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+gdt_data:	      		 
+	dw 0xffff 		
+	dw 0 			
+	db 0 			
+	db 0x92			 
+	db 11001111b		
+	db 0 			
 gdt_end:
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 gdt_descr:
 	dw gdt_end - gdt_start - 1    ; size(16b) of descriptor
 	dd gdt_start		      ; offset(32b) of descriptor    ; null + CSdescr + DSdescr will be loaded 
-
-	;; pcut
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	[BITS 32]
+ld_krnl32:
+	mov eax , 1 		; starting sector to load from - kernel sector ; 0 - boot sector. 
+	mov ecx , 100 		; no. sectors to load - for kernel code
+	mov edi , 0x00100000 	; target RAM address to load kernel code into from disk 
+	call ata_lba_read 	; LBA (instead of CHS) for disk ops 
 	
-;;; 1st sector has the code below for populating hardcoded chars. ;;;;;;;;;;;;;
+;;; The code below is for populating the 1st sector. ;;;;;;;;;;;;;
 
 	times 510-($-$$) db 0	
 	dw 0xAA55
 
 ;;; End of 1st sector (boot code). ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;; Start of 2nd sector (anything we want - in text). ;;;;;;;;;;;;;;;;
+;;; Start of 2nd sector (anything we want - ?code?text?). ;;;;;;;;;;;;;;;;

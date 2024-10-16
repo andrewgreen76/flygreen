@@ -21,7 +21,7 @@ all: ./bin/boot.bin ./bin/kernel.bin
 	rm -rf ./bin/os.bin
 	dd if=./bin/boot.bin >> ./bin/os.bin    # generating our OS build 
 	dd if=./bin/kernel.bin >> ./bin/os.bin  # -//- 
-	dd if=/dev/zero bs=512 count=100 >> ./bin/os.bin    # size of kernel (50 KB) - just to generate a really large number 
+	dd if=/dev/zero bs=512 count=100 >> ./bin/os.bin    # defining size of kernel (50 KB) - just to generate a really large number 
 
 ./bin/kernel.bin: $(DEPS)
 	i686-elf-ld -g -relocatable $(DEPS) -o ./build/kernelfull.o    # We link all object files to one big object file.

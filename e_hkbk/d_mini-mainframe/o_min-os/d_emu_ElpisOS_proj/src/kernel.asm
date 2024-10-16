@@ -7,6 +7,7 @@
 CODE_SEG equ 0x08 
 DATA_SEG equ 0x10 
 	
+;;; Values in segments and pointers that define the PROTECTED MODE SEGMENTATION MODEL : 
 _start:
 	mov ax , DATA_SEG 	; Needs to know the GDT offset for DS. 
 	mov ds , ax

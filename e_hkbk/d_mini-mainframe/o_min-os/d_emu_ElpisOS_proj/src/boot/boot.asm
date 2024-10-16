@@ -85,18 +85,29 @@ ata_lba_read:
 	shr eax , 24 		; eax >> 24
 	mov dx , 0x1f6 		; target HDD port for highest byte of LBA
 	out dx , al
-;;; Send kernel sectors to read to HDD controller : ;;;;;;;;;;;;;;;;;;;;;;
+;;; Send kernel sectors to read to HDD controller : 
 	mov eax , ecx 		; 100 = 0x64 = 0x6 0x4 
 	mov dx , 0x1f2 		; HDD controller port 
 	out dx , al
-;;; Send more of LBA : ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Send more of LBA : 
 	mov eax , ebx 
 	mov dx , 0x1f3		; HDD controller port 
 	out dx , al
-;;; Send even more of LBA : ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Send even more of LBA : 
 	mov dx , 0x1f4
 	mov eax , ebx
-	shr eax , 8 
+	shr eax , 8  		; get highest 24 bits of LBA
+	out dx , al
+;;; Send highest 16 bits of LBA :
+	mov dx , 0x 1f5
+	mov eax , ebx
+	shr eax , 16
+	out dx , al
+;;; Reading from the disk :
+	mov dx , 0x1f7
+	mov al , 0x20
+	out dx , al
+;;; Read all sectors into memory :
 	
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

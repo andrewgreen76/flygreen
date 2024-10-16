@@ -1,20 +1,14 @@
 
-Raw binary vs. pure binary vs. flat binary 
-
 What is wrong with Intel :
  . the A20 line hack that led to compatibility nightmare 
 
 Real mode : we can access the BIOS
 |
 Protected mode : 
-running @ 7c7f - infinite jump
 we can no longer access the BIOS
 if we try to , really bad things will happen
 no longer able to do disk I/O in CHS way
  . will have to write a disk driver
-|
-Ease of access and use of mem and disk ops is nice ,
-but what if we want more than 1MB of RAM ? 
 
 VanFOS - vanilla , free , open-source BIOS 
 

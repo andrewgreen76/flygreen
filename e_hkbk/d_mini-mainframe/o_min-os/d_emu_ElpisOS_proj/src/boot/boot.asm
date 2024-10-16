@@ -66,9 +66,10 @@ gdt_data:
 gdt_end:
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 gdt_descr:
-	dw gdt_end - gdt_start - 1    ; size(16b) of descriptor
-	dd gdt_start		      ; offset(32b) of descriptor    ; null + CSdescr + DSdescr will be loaded 
+	dw gdt_end - gdt_start - 1    
+	dd gdt_start		       
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; LOADING THE KERNEL FROM BOOTABLE MEDIUM TO TARGET MACHINE'S RAM : ;;;;
 	[BITS 32]
 ld_krnl32:
 	mov eax , 1 		; starting sector to load from - kernel sector ; 0 - boot sector. 
@@ -76,12 +77,29 @@ ld_krnl32:
 	mov edi , 0x00100000 	; target RAM address to load kernel code into from disk 
 	call ata_lba_read 	; LBA (instead of CHS) for disk ops 
 
-;;; Primal disk driver : ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; PRIMAL DISK DRIVER : ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ata_lba_read:
-	mov ebx , eax 		; reserve LBA ;    ? LBA = starting sector ?
-	;; Send highest byte of 32-bit LBA to HDD controller :
+	mov ebx , eax 		; reserve LBA ; reuse acc. ;   ? LBA = starting sector ?
+;;; Send highest byte of 32-bit LBA to HDD controller :
 	shr eax , 24 		; eax >> 24
-	mov dx , 0x1f6 		; target port for highest byte of LBA 
+	mov dx , 0x1f6 		; target HDD port for highest byte of LBA
+	out dx , al
+;;; Send kernel sectors to read to HDD controller : ;;;;;;;;;;;;;;;;;;;;;;
+	mov eax , ecx 		; 100 = 0x64 = 0x6 0x4 
+	mov dx , 0x1f2 		; HDD controller port 
+	out dx , al
+;;; Send more of LBA : ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	mov eax , ebx 
+	mov dx , 0x1f3		; HDD controller port 
+	out dx , al
+;;; Send even more of LBA : ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	mov dx , 0x1f4
+	mov eax , ebx
+	shr eax , 8 
+	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	
 ;;; The code below is for populating the 1st sector. ;;;;;;;;;;;;;
 

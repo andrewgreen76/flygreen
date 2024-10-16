@@ -107,7 +107,24 @@ ata_lba_read:
 	mov dx , 0x1f7
 	mov al , 0x20
 	out dx , al
-;;; Read all sectors into memory :
+;;; Read no. sectors into memory :
+.next_sector: 
+	push ecx
+
+;;; Check if we need to read : 
+.try_again:
+	mov dx , 0x1f7
+	in al , dx
+	test al , 8
+	jz .try_again ; repeated check due to hardware update delay 
+
+;;; Read 256 words at a time :
+	mov ecx, 256
+	mov dx , 0x1f0
+	rep insw 		; load from [dx] (I/O) to [di] (@ 1 MB)    ; 256 times <- ecx
+				; = 256 words = 512 bytes = 1 sector
+	pop ecx
+	loop .next_sector  	; 'loop' decrements no. sectors left 
 	
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

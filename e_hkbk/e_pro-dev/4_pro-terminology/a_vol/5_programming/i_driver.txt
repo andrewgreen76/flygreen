@@ -29,7 +29,10 @@ OS driver : see device driver
 
 Kernel driver :
   (a) device driver
-  (b) a program that loads the kernel into memory 
+  (b) a program that provides a low-level service in place of BIOS in protected mode
+     . disk read/write
+     . loading the kernel into memory
+     . etc. 
 
 
 Test driver :

@@ -64,11 +64,11 @@ gdt_data:
 	db 11001111b		
 	db 0 			
 gdt_end:
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 gdt_descr:
 	dw gdt_end - gdt_start - 1    ; size(16b) of descriptor
 	dd gdt_start		      ; offset(32b) of descriptor    ; null + CSdescr + DSdescr will be loaded 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	[BITS 32]
 ld_krnl32:
 	mov eax , 1 		; starting sector to load from - kernel sector ; 0 - boot sector. 
@@ -76,8 +76,12 @@ ld_krnl32:
 	mov edi , 0x00100000 	; target RAM address to load kernel code into from disk 
 	call ata_lba_read 	; LBA (instead of CHS) for disk ops 
 
+;;; Primal disk driver : ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ata_lba_read:
-	mov ebx , eax 		; reserve LBA ;    ? LBA = starting sector ? 
+	mov ebx , eax 		; reserve LBA ;    ? LBA = starting sector ?
+	;; Send highest byte of 32-bit LBA to HDD controller :
+	shr eax , 24 		; eax >> 24
+	mov dx , 0x1f6 		; target port for highest byte of LBA 
 	
 ;;; The code below is for populating the 1st sector. ;;;;;;;;;;;;;
 

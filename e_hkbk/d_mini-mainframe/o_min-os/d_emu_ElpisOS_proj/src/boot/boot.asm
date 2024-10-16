@@ -27,7 +27,7 @@ rlboot_at_csoff:
 	mov sp , 0x7c00	 
 	sti
 	
-.prep_prot:
+.sw_to_prot:
 	cli
 	lgdt [gdt_descr] 	
 	mov eax , cr0
@@ -80,43 +80,44 @@ ld_krnl32:
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; PRIMAL DISK DRIVER : ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ata_lba_read:
-	mov ebx , eax 		; reserve LBA ; reuse acc. ;   ? LBA = starting sector ?
+	mov ebx , eax 		; separate LBA from acc. ;   ? LBA = starting sector ?
 ;;; Send highest byte of 32-bit LBA to HDD controller :
-	shr eax , 24 		; eax >> 24
-	mov dx , 0x1f6 		; target HDD port for highest byte of LBA
-	out dx , al
+	shr eax , 24 		; eax >> 24 ; left with top 8 bits
+	mov dx , 0x1f6 		; specify dest HDD port for highest byte of LBA
+	out dx , al 		; HIGHEST BYTE OF LBA ; to HDD 
 ;;; Send kernel sectors to read to HDD controller : 
-	mov eax , ecx 		; 100 = 0x64 = 0x6 0x4 
+	mov eax , ecx 		; 100 = 0x64 byte = 01100100 
 	mov dx , 0x1f2 		; HDD controller port 
-	out dx , al
+	out dx , al 		; kernel sector count ; to HDD  
+				; `out` cannot work with regs other than ACC
 ;;; Send more of LBA : 
 	mov eax , ebx 
 	mov dx , 0x1f3		; HDD controller port 
-	out dx , al
+	out dx , al		; LOWEST BYTE OF LBA 
 ;;; Send even more of LBA : 
 	mov dx , 0x1f4
 	mov eax , ebx
-	shr eax , 8  		; get highest 24 bits of LBA
-	out dx , al
+	shr eax , 8  		; highest 24 bits of LBA
+	out dx , al 		; 2ND RIGHTMOST BYTE OF LBA 
 ;;; Send highest 16 bits of LBA :
-	mov dx , 0x 1f5
+	mov dx , 0x1f5
 	mov eax , ebx
-	shr eax , 16
-	out dx , al
+	shr eax , 16 		; 
+	out dx , al 		; 3RD RIGHTMOST BYTE OF LBA
 ;;; Reading from the disk :
-	mov dx , 0x1f7
-	mov al , 0x20
+	mov al , 0x20 		; src : 00100000
+	mov dx , 0x1f7 		; dest : this I/O port 
 	out dx , al
-;;; Read no. sectors into memory :
+;;; Read all sectors into memory :
 .next_sector: 
-	push ecx
+	push ecx 		; preserve no. sectors 
 
-;;; Check if we need to read : 
+;;; Check if we need to read ; repeated check due to controller update delay. 
 .try_again:
-	mov dx , 0x1f7
-	in al , dx
-	test al , 8
-	jz .try_again ; repeated check due to hardware update delay 
+	mov dx , 0x1f7 		; deref this I/O -> AL 
+	in al , dx 		; need `in` to take from I/O 
+	test al , 8 		; check on bit : .... v... 
+	jz .try_again  
 
 ;;; Read 256 words at a time :
 	mov ecx, 256

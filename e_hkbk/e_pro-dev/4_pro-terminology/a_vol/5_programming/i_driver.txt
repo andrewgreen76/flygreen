@@ -9,7 +9,7 @@ Main driver :
 
 
 Device driver : 
- . a program that allows the operating system (kernel) it is related to to leverage hardware components and devices 
+ . a program that allows the operating system (kernel) to leverage hardware components and devices 
  . translates data meant for a different architecture into data that the hardware in its own architecture can digest 
  |
  . examples : 
@@ -24,8 +24,12 @@ Device driver :
 
 
 System driver : see device driver 
-OS driver : see device driver 
-Kernel driver : see device driver 
+OS driver : see device driver
+
+
+Kernel driver :
+  (a) device driver
+  (b) a program that loads the kernel into memory 
 
 
 Test driver :

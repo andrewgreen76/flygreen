@@ -3,7 +3,7 @@
 	ORG 0x7c00 		; Has to be 0x7c00 as the memory {0x0 -> 0x7bff} is to be taken by BIOS Data Area , IVT , etc. 
 	BITS 16 		; Ready to load 16-bit code and data only. 
 
-	;; Data computed with directives (again, code meant for the assembler) , not code to be loaded into memory upon booting. 
+	;; Data computed with directives (again, code meant for the assembler) , not code to be loaded into memory by BIOS upon booting. 
 				     ; offset of NULL (invalidity) segment in GDT = 0 
 CODE_SEG equ gdt_code - gdt_start    ; offset of code in GDT = 8
 DATA_SEG equ gdt_data - gdt_start    ; offset of data in GDT = 16
@@ -32,7 +32,11 @@ rlboot_at_csoff:
 	lgdt [gdt_descr] 	; Reads @ gdt_descr : GDT.SIZE , GDT.OFFSET. (No spec of rwe.)  
 	mov eax , cr0
 	or eax , 0x1		; PROTECTION ENABLE raised 
-	mov cr0 , eax
+	mov cr0 , eax 		; Though being in 32-bit mode is a definitive characteristic of the protected mode ,
+				; it would be argued that loading CR0 with old values but bit 0 raised is the precise
+				; moment when we enter the protected mode ; BIOS is no longer available to use , which 
+				; means that to perform things like disk operations or loading the kernel into memory
+				; we are going to need drivers => protected-mode substitutes for BIOS. No UEFI ! 
 
 	;;; ORG --(offset)-> CS --(offset)-> IP. 
 	; jmp CODE_SEG:sw_to_prot 	  ; switch to protected mode :

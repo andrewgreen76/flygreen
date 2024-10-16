@@ -51,7 +51,8 @@ GDB :
 Kernel development :
  - kernel mode vs. user mode
  - kernel mode vs. protected mode
- - system calls vs. library calls 
+ - system calls vs. library calls
+ - legacy (real-mode) assembly programming 
  - real-mode stage , BIOS , BPB 
  - dd , fdisk 
  - CPU (1) throwing an exception and (2) switching to int handler address 
@@ -60,11 +61,13 @@ Kernel development :
  - disk management , I/O , interrupts , drivers
  - loading , detecting , and executing the bootloader in real mode
  - enabling and switching to protected mode 
-
-Protected mode :
-- hardware protection vs. memory protection
-- GDT vs. segment descriptors
-- accessing 1 MB vs. accessing 16 MB of memory - with A20 exploits 
+ - protected mode :
+   - hardware protection vs. memory protection
+   - GDT vs. segment descriptors
+   - protection enable
+   - protected-mode segmentation model 
+   - accessing 1 MB vs. accessing 16 MB of memory - with A20 exploits
+   - system drivers 
 
 Legacy (real-mode) assembly programming :
 - emu8086 vs. DOSBox vs. actual DOS

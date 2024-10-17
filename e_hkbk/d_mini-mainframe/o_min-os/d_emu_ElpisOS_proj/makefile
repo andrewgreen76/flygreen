@@ -18,7 +18,8 @@ DEPS = ./build/kernel.asm.o	# dependencies / object files
 # make [labels] below : 
 
 all: ./bin/boot.bin ./bin/kernel.bin 
-        # rm -rf ./bin/os.bin
+	rm -rf ./bin/os.bin    # because we dd to this file , but what if we don't clean?
+                               # All the other object files do get overwritten. 
 	dd if=./bin/boot.bin >> ./bin/os.bin    # generating our OS build 
 	dd if=./bin/kernel.bin >> ./bin/os.bin  # -//- 
 	dd if=/dev/zero bs=512 count=100 >> ./bin/os.bin    # defining size of kernel (50 KB) - just to generate a really large number 

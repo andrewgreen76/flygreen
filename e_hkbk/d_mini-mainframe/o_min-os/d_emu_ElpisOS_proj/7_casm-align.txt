@@ -1,0 +1,9 @@
+"
+If we go to linker.ld , you'll notice that our OUTPUT_FORMAT is binary.
+  Now this is all fine , but when we start C with assembly , it can cause
+  alignment issues. Now , C requires functions to be aligned in a certain
+  way, and when we are writing assembly - in kernel.asm , for example -
+  - and we are linking with object files created with the C compiler ,
+  our assembly might not align correctly. 
+"
+_

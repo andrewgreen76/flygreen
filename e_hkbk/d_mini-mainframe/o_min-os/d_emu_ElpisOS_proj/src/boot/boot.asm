@@ -68,14 +68,15 @@ gdt_end:
 gdt_descr:
 	dw gdt_end - gdt_start - 1    
 	dd gdt_start		       
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;; LOADING THE KERNEL FROM BOOTABLE MEDIUM TO TARGET MACHINE'S RAM : ;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; LOADING THE KERNEL FROM BOOTABLE MEDIUM TO THE TARGET MACHINE'S RAM : ;;;
 	[BITS 32]
 ld_krnl32:
 	mov eax , 1 		; starting sector to load from - kernel sector ; 0 - boot sector. 
 	mov ecx , 100 		; no. sectors to load - for kernel code
 	mov edi , 0x00100000 	; target RAM address to load kernel code into from disk 
-	call ata_lba_read 	; LBA (instead of CHS) for disk ops 
+	call ata_lba_read 	; LBA (instead of CHS) for disk ops
+	jmp CODE_SEG:0x00100000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; PRIMAL DISK DRIVER : ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -83,6 +84,7 @@ ata_lba_read:
 	mov ebx , eax 		; reserve LBA to reuse acc. ;   ? LBA = starting sector ?
 ;;; Send MSB of 32-bit LBA to HDD controller :
 	shr eax , 24 		; eax >> 24
+	or eax , 0xE0 		; 111..... will select the master (vs. slave) drive at I/O. 
 	mov dx , 0x1f6 		; specify dest HDD port for highest byte of LBA
 	out dx , al 		 
 ;;; Send no. kernel sectors to read - to HDD controller : 
@@ -109,34 +111,35 @@ ata_lba_read:
 	mov al , 0x20 		; target RAM addr = 00100000
 	mov dx , 0x1f7 		
 	out dx , al
+	
 ;;; OUTER LOOP - Read every one of [ECX] sectors into memory :
 .next_sector: 			 
 	push ecx    ; Preserve count of remaining sectors to read ; We'll reuse ECX. 
 
-;;; INNER CHECK LOOP - Keep checking on read-enable bit - repeatedly due to controller update delay. 
+;;; INNER CHECK_LOOP - Keep checking on read-enable bit - repeatedly due to controller update delay. 
 .try_again:
-	mov dx , 0x1f7 		 
-	in al , dx 		; deref I/O port (in reg) , mov lowest byte into acc.  
-	test al , 8 		; see if bit 3 is set : .... v... 
+	mov dx , 0x1f7		; Pull up I/O port status flags/ 
+	in al , dx 		
+	test al , 8 		; See if bit 3 is set : .... v... 
 	jz .try_again
-	;; Inner check loop - until [bit 3] = 1
+	;;; }
 
-;;; INNER WORD LOOP - Read every one of 256 words at a time - that's a whole sector :
+;;; INNER WORD_LOOP - Read every one of 256 words at a time - that's a whole sector :
+;;; (Reading a word in an iteration is faster than two indiv. bytes over two iterations.)
 	mov ecx, 256 		
 	mov dx , 0x1f0
-	rep insw 		; load from [dx] (I/O) to [di] (@ 1 MB)    ; 256 times <- ecx
-	; (Reading a word in an iteration is faster than two indiv. bytes over two interations.)
-	;; INNER WORD LOOP - rep word after word ; `rep` decrs ecx until 0. 
+	rep insw 		; load word from [dx] (I/O) to [di] (@ 1 MB base) 
+				; `rep`eats instr. and decrs ecx until ecx=0    => 256 times. 
+	;; NEXT WORD. 
 
-	pop ecx
-	loop .next_sector  	; 'loop' decrements no. sectors left
-	;; OUTER LOOP - sector after sector ; `loop` decrs ecx until 0. 
+	pop ecx			; bring up rem sector count 
+	loop .next_sector  	; `loop` decrs count until 0. 
+	;; NEXT SECTOR. 
 
-	
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	
-;;; The code below is for populating the 1st sector. ;;;;;;;;;;;;;
+	;; Exit kernel-reading call. 
+	ret
+		
+;;; The assembly directives below are for populating the 1st sector. ;;;;;;;;;;;;;
 
 	times 510-($-$$) db 0	
 	dw 0xAA55

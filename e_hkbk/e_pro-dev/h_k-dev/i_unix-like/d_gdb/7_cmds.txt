@@ -3,42 +3,46 @@
 BASIC INSPECTION
 ========================================================================================
 
-(gdb) lay next      (display src/asm code layout)
-      break main    (set a breakpoint at a function/label)
-      run           (use AFTER setting a breakpoint)
+(gdb)	lay next         (display whole src/asm code layout)
+	layout asm 	 (display routine/function code layout in assembly)
+	break [label]    (set a breakpoint at a function/label)
+	run           	 (use AFTER setting a breakpoint)
+	c		 (continue from the breakpoint)
 
 
 ========================================================================================
 STEPPING
 ========================================================================================
       
-      next	(single-step / STEP OVER in HLL source code)
-      nexti	(single-step in assembly)
-      step 	(STEP INTO source code function)
-      ref	(refresh - in case if you think GDB is displaying the layout wrong)
+	next	(single-step / STEP OVER in HLL source code)
+	nexti	(single-step in assembly)
+	step 	(STEP INTO source code function)
+	stepi 	(single-step within a routine/function)
+	ref	(refresh - in case if you think GDB is displaying the layout wrong)
 
 
 ========================================================================================
 EXAMINING (DEREFERENCING MEMORY/REGISTERS) 
 ========================================================================================
 
-      x/i [__]	(examine instruction at ...)
-      x/i $pc	(examine instruction at program counter)
+	x/i [__]	(examine instruction at ...)
+	x/i $pc		(examine instruction at program counter)
 
 
 ========================================================================================
 OVERVIEW OF CPU/PROCESS STATE 
 ========================================================================================
 
-      info registers    (state of process in terms of registers)
+	info registers    (state of process in terms of registers)
 
 
 ========================================================================================
-
+SYMBOLS 
 ========================================================================================
 
-      c
-      ^C
-      layout asm 
+	add-symbol-file [kernel_obj] [target_load_addr]
+			^	     ^
+			kernel obj   QEMU-context RAM
+			in QEMU      (kernel start address is expected)
 
 _

@@ -1,6 +1,6 @@
 
 /null - a file for sucking in unwanted output 
-/zero - for filling in memory bytes with null (ASCII code 0 = arithmetic zero) 
+/zero - for filling in memory bytes with null (ASCII code 0 -or- as arithmetic zero) 
 
 ========================================================================================
 /dev/null VS. /dev/zero

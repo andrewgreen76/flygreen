@@ -80,53 +80,58 @@ ld_krnl32:
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; PRIMAL DISK DRIVER : ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ata_lba_read:
-	mov ebx , eax 		; separate LBA from acc. ;   ? LBA = starting sector ?
-;;; Send highest byte of 32-bit LBA to HDD controller :
-	shr eax , 24 		; eax >> 24 ; left with top 8 bits
+	mov ebx , eax 		; reserve LBA to reuse acc. ;   ? LBA = starting sector ?
+;;; Send MSB of 32-bit LBA to HDD controller :
+	shr eax , 24 		; eax >> 24
 	mov dx , 0x1f6 		; specify dest HDD port for highest byte of LBA
-	out dx , al 		; HIGHEST BYTE OF LBA ; to HDD 
-;;; Send kernel sectors to read to HDD controller : 
-	mov eax , ecx 		; 100 = 0x64 byte = 01100100 
-	mov dx , 0x1f2 		; HDD controller port 
-	out dx , al 		; kernel sector count ; to HDD  
-				; `out` cannot work with regs other than ACC
-;;; Send more of LBA : 
+	out dx , al 		 
+;;; Send no. kernel sectors to read - to HDD controller : 
+	mov eax , ecx 		 
+	mov dx , 0x1f2 		 
+	out dx , al 		; 100 - representable with a single byte 
+				; `out`_src and `in`_dest can work w/ imm.val only in ACC 
+				
+;;; Send LSB of LBA : 
 	mov eax , ebx 
-	mov dx , 0x1f3		; HDD controller port 
-	out dx , al		; LOWEST BYTE OF LBA 
-;;; Send even more of LBA : 
+	mov dx , 0x1f3 
+	out dx , al 
+;;; Send 2nd LSB of LBA : 
 	mov dx , 0x1f4
 	mov eax , ebx
-	shr eax , 8  		; highest 24 bits of LBA
-	out dx , al 		; 2ND RIGHTMOST BYTE OF LBA 
-;;; Send highest 16 bits of LBA :
+	shr eax , 8  		
+	out dx , al 		
+;;; Send 3rd LSB of LBA :
 	mov dx , 0x1f5
 	mov eax , ebx
-	shr eax , 16 		; 
-	out dx , al 		; 3RD RIGHTMOST BYTE OF LBA
-;;; Reading from the disk :
-	mov al , 0x20 		; src : 00100000
-	mov dx , 0x1f7 		; dest : this I/O port 
+	shr eax , 16 		 
+	out dx , al 		
+;;; Reading from the disk - sending target RAM address to HDD controller :
+	mov al , 0x20 		; target RAM addr = 00100000
+	mov dx , 0x1f7 		
 	out dx , al
-;;; Read all sectors into memory :
-.next_sector: 
-	push ecx 		; preserve count of remaining sectors to read ; we'll reuse ecx  
+;;; OUTER LOOP - Read every one of [ECX] sectors into memory :
+.next_sector: 			 
+	push ecx    ; Preserve count of remaining sectors to read ; We'll reuse ECX. 
 
-;;; Keep checking if we need to read ; repeated check due to controller update delay. 
+;;; INNER CHECK LOOP - Keep checking on read-enable bit - repeatedly due to controller update delay. 
 .try_again:
 	mov dx , 0x1f7 		 
 	in al , dx 		; deref I/O port (in reg) , mov lowest byte into acc.  
 	test al , 8 		; see if bit 3 is set : .... v... 
-	jz .try_again  
+	jz .try_again
+	;; Inner check loop - until [bit 3] = 1
 
-;;; Read 256 words at a time :
-	mov ecx, 256 		; Reading a word in an iteration is faster than two indiv. bytes over two interations. 
+;;; INNER WORD LOOP - Read every one of 256 words at a time - that's a whole sector :
+	mov ecx, 256 		
 	mov dx , 0x1f0
-	; mov edi , 0x00100000 	; target RAM address to load kernel code into from disk 
 	rep insw 		; load from [dx] (I/O) to [di] (@ 1 MB)    ; 256 times <- ecx
-				; = 256 words = 512 bytes = 1 sector
+	; (Reading a word in an iteration is faster than two indiv. bytes over two interations.)
+	;; INNER WORD LOOP - rep word after word. 
+
 	pop ecx
-	loop .next_sector  	; 'loop' decrements no. sectors left 
+	loop .next_sector  	; 'loop' decrements no. sectors left
+	;; OUTER LOOP - sector after sector. 
+
 	
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

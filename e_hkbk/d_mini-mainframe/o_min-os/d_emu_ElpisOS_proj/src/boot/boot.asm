@@ -126,11 +126,11 @@ ata_lba_read:
 	mov dx , 0x1f0
 	rep insw 		; load from [dx] (I/O) to [di] (@ 1 MB)    ; 256 times <- ecx
 	; (Reading a word in an iteration is faster than two indiv. bytes over two interations.)
-	;; INNER WORD LOOP - rep word after word. 
+	;; INNER WORD LOOP - rep word after word ; `rep` decrs ecx until 0. 
 
 	pop ecx
 	loop .next_sector  	; 'loop' decrements no. sectors left
-	;; OUTER LOOP - sector after sector. 
+	;; OUTER LOOP - sector after sector ; `loop` decrs ecx until 0. 
 
 	
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

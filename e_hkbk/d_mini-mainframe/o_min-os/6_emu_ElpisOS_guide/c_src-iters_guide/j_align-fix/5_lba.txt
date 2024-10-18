@@ -1,0 +1,4 @@
+"
+LBA, or Logical Block Addressing, is a method of specifying the location of blocks of data on a storage device, allowing the operating system to access data using a flat addressing scheme rather than the older cylinder-head-sector (CHS) method.
+"
+_

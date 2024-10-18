@@ -1,5 +1,7 @@
 
-
+In this project we finish implementing the kernel's protected mode
+functionality in C because (we are told that) doing so in assembly
+would be a pain. 
 
 
 ========================================================================================
@@ -35,28 +37,30 @@ If we go to linker.ld , you'll notice that our OUTPUT_FORMAT is binary.
 PROBLEM: 
  . The C compiler aligns our generated object files in a certain way.
    This implies that the C CODE HAS TO BE COMPILED AND RUN FIRST and with
-   everything else and we have to work around that alignment limitation.
+   everything else we have to work around that alignment limitation.
 
 Solution ?
- . We could isolate 'boot' and 'kernel' resources by taking them down into
-   the .asm section of the linker script. However , ...
-
-
- . Our assembly code , when mixed with C code in memory , can violate
-   the alignment. (A CC like GCC may not correctly align assembly.) 
+ . We could isolate 'boot' and 'kernel' resources by relegating them down
+   into the .asm section of the linker script , so those would be linked
+   and run later. However , ...
 
 Problem :
  . 'boot' and 'kernel' are the first things we execute to run our fledgling
    OS (in QEMU or on a physical machine). Therefore , these things should
    precede any other code , even if it's C. 
 
-SOLUTIONS :
- . We make sure that our assembly code is aligned to 16 bytes.
- . We consider the order in which our source code has to be linked , which is
-   the same as the order in which it will be run.
-    . 
+Solution : 
+ . We mix C and assembly. 
 
-need to figure out what linking resources have
-  to be generated first. 
+Problem : 
+ . Our assembly code , when mixed with C code in memory , can violate
+   the alignment. (A CC like GCC may not correctly align assembly binaries.) 
+
+
+SOLUTION :
+ . We make sure that our assembly code is ALIGNED TO 16 BYTES. This should
+   allow us to blend our bootloader and kernel assembly code with the C section
+   (.text section) in memory per the linker script. Then they can be linked
+   and run first. 
 
 _

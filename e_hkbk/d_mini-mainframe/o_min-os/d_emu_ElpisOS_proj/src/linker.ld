@@ -4,29 +4,29 @@ SECTIONS
 {
     . = 1M;    /* kernel will be loaded @ 1MB of RAM (0x100000) */
     
-    .text :    /* C code here */
+    .text : ALIGN(4096)    /* C code here */
     {
 	*(.text)
     }
 
-    .rodata :
+    .rodata : ALIGN(4096)
     {
 	*(.rodata)
     }
 
-    .data :
+    .data : ALIGN(4096)
     {
 	*(.data)
     }
 
-    .bss :
+    .bss : ALIGN(4096)
     {
 	*(COMMON)
 	*(.bss)
     }
 
     /* Assembly code section here so that it does not break C code's alignment. */
-    .asm :
+    .asm : ALIGN(4096)
     {
 	*(.asm)
     }

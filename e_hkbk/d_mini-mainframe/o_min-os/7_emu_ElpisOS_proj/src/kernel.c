@@ -26,17 +26,30 @@ uint16_t formch(char ch , char color)
 void stampch(int x , int y , char ch , char color){
   video_mem[y * VGA_WIDTH + x] = formch(ch , color);
 }
+/* Directly writing to video memory to print characters is simple enough. 
+   However , we have to implement everything else , even printing a line feed. */
 
 /***********************************************/
 // Teletype action : stamps the character and moves over to next char_slot : 
 void printch(char ch , char color){
-  stampch(term_col , term_row , ch , color);
-  term_col++;
-
-  // handling wraparound : 
-  if(term_col >= VGA_WIDTH){
+  
+  if(ch == '\n'){
+    term_row += 1;
     term_col = 0;
-    term_row++;
+  }
+  
+  else {  
+    stampch(term_col , term_row , ch , color);
+    term_col += 1;
+    // handling wraparound : 
+    if(term_col >= VGA_WIDTH){
+      term_col = 0;
+      term_row += 1;
+    }
+  }
+
+  if(term_row >= VGA_HEIGHT){
+    // Scrolling text upward would be nice. 
   }
   
 }
@@ -50,8 +63,8 @@ void term_init(){
   term_row = 0;    // reset
   term_col = 0;
   
-  for (int y=0 ; y < VGA_HEIGHT ; y++){
-    for (int x=0 ; x < VGA_WIDTH ; x++){
+  for(int y=0 ; y < VGA_HEIGHT ; y++){
+    for(int x=0 ; x < VGA_WIDTH ; x++){
       stampch(x , y , ' ' , 0);
     }
   }
@@ -74,7 +87,7 @@ size_t slen(const char * str){
 void printstr(const char * str){
   size_t len = slen(str);
   
-  for (int i=0 ; i < len ; i++)
+  for(int i=0 ; i < len ; i++)
     printch(str[i] , TEXT_COLOR);
 }
 
@@ -85,7 +98,7 @@ void printstr(const char * str){
 void kernel_main()    // kernel_main - token globalized out to kernel.asm // call kernel_main ; ret ; jmp $
 {
   term_init();
-  printstr("YES");
+  printstr("YES\nKing Crimson");
 }
 
 /*###############################################################################################*/

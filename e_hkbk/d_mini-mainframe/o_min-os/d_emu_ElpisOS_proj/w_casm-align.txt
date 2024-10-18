@@ -49,7 +49,15 @@ Problem :
    OS (in QEMU or on a physical machine). Therefore , these things should
    precede any other code , even if it's C. 
 
-Solution : 
+Solution ? [A] 
+ . We could restructure the linker script to have the .asm section preceding
+   the .text section.
+
+Problem :
+ . That would violate the alignment of our binaries. In the .asm section
+   code isn't aligned to 16 bytes. 
+
+Solution [B] : 
  . We mix C and assembly. 
 
 Problem : 
@@ -58,9 +66,16 @@ Problem :
 
 
 SOLUTION :
- . We make sure that our assembly code is ALIGNED TO 16 BYTES. This should
-   allow us to blend our bootloader and kernel assembly code with the C section
-   (.text section) in memory per the linker script. Then they can be linked
-   and run first. 
+  (1) Leave the .text section at the start and the .asm section at the end
+      of the linker script.
+  (2) Leave the 'kernel' object file dependency at the start of the list of
+      dependencies within the makefile. That way the kernel code will be
+      linked and executed first.
+
+   Thus , we make sure that our kernel code is ALIGNED TO 16 BYTES and run
+   first. Correctly writing the linker script and the dependencies list in
+   the makefile should allow us to blend our bootloader and kernel assembly
+   code with the C section (.text section) in memory per the linker script.
+   Then they can be linked and run first. 
 
 _

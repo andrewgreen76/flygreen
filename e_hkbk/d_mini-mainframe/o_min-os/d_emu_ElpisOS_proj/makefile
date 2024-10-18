@@ -12,7 +12,7 @@ all: ./bin/boot.bin ./bin/kernel.bin
 
 ./bin/kernel.bin: $(DEPS)
 	i686-elf-ld -g -relocatable $(DEPS) -o ./build/kernelfull.o    # We link all object files to one big object file.
-	i686-elf-gcc -T ./src/linker.ld -o ./bin/kernel.bin -ffreestanding -O0 -nostdlib ./build/kernelfull.o
+	i686-elf-gcc $(FLAGS) -T ./src/linker.ld -o ./bin/kernel.bin -ffreestanding -O0 -nostdlib ./build/kernelfull.o
         # GCC is a crutch \ Linker script \ See 'man gcc' \ No std lib \ No optim \ No Linux stdlib. 
 
 ./bin/boot.bin: ./src/boot/boot.asm
@@ -22,7 +22,7 @@ all: ./bin/boot.bin ./bin/kernel.bin
 	nasm -f elf -g ./src/kernel.asm -o ./build/kernel.asm.o 
 
 ./build/kernel.o: ./src/kernel.c
-	i686-elf-gcc $(INCLUDES) $(FLAGS)
+	i686-elf-gcc $(INCLUDES) $(FLAGS) -std=gnu99 -c ./src/kernel.c -o ./build/kernel.o
 
 clean:
 	rm -rf ./bin/boot.bin

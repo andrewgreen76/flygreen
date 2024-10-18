@@ -16,7 +16,7 @@ In computer science and engineering we give the name "stack" to a number of diff
    |  	 . user processes running on top of the operating system 
    |
    . the stack segment : 
-   |  . The structure within the memory of our process that grows down (towards the lower
+   |  . The structure within the memory of our process that grows downward (towards the lower
    |  	  addresses) as we push more and more data onto it to be preserved and used later.
    |  . Obviously , this segment works on the "last in , first out" principle (LIFO) as data
    |  	  gets pushed onto and popped off the "top" of the stack. 

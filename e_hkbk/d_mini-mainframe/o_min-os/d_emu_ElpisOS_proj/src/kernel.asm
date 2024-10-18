@@ -4,6 +4,7 @@
 	section .text    	; Include this file in a section of the linker script. 
 	
 	global _start
+	extern kernel_main
 	
 ;;; Kernel's segments for code and data : 
 CODE_SEG equ 0x08 
@@ -25,6 +26,8 @@ _start:
 	or al, 2		; enable A20 line (for access to the bottom 16 MB memory) 
 	out 0x92, al
 	;; Remember : in/out are microcoded to influence I/O ports , not memory. 
+
+	call kernel_main
 	
 	jmp $ 			; "halt"
 	

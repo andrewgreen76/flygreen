@@ -1,6 +1,6 @@
 
 ========================================================================================
-TEXT MODE 
+WHAT IS TEXT MODE 
 ========================================================================================
 
  . black-box code
@@ -9,18 +9,31 @@ TEXT MODE
  . supports colors
 
 
-Display addresses can be used for text. 
- . 0xB0000 - monochrome display 
- . 0xB8000 - colored display
+========================================================================================
+METHOD OF CHARACTER PRINTING 
+========================================================================================
 
-
-Method of char printing :
- . the video card / GPU - another black box - receives ASCII chars via VRAM and
-     paints the corresponding pixels
- . this is supposed to be different from having the CPU doing much/all of
+ . The video card / GPU - another black box - receives ASCII chars via VRAM and
+     paints the corresponding pixels for us. 
+ . This is supposed to be different from having the CPU doing much/all of
      the work by itself - referencing a table with ASCII chars (table offsets
-     and pixels) and plotting out the character pixel by pixel
- . CPU does this "intuitively" - i.e., the only way it "knows" , - unlike
-     a GPU / video card which is specialized to do this quickly 
+     and pixels) and plotting out the character pixel by pixel per our own
+     implementation. 
+ . A CPU does this "intuitively" , the only way it "knows" - by following our
+     instructions, unlike a GPU / video card which is built and pre-implemented
+     to do this quickly in a certain way. 
+
+
+========================================================================================
+OTHER IMPORTANT FACTS  
+========================================================================================
+
+1) Display addresses can be used for text. 
+    . 0xB0000 - monochrome display 
+    . 0xB8000 - colored display
+
+2) Every ASCII character takes up two bytes.
+    . Byte 0 - the char itself
+    . Byte 1 - the color code 
 
 _

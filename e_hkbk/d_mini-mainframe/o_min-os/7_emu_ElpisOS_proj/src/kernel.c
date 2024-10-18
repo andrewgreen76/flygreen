@@ -1,7 +1,7 @@
 #include "kernel.h"
 #include <stdint.h>
 
-uint16_t terminal_make_char(char c , char color)
+uint16_t print_termch(char c , char color)
 {
   return (color << 8) | c;
   /*
@@ -13,6 +13,18 @@ uint16_t terminal_make_char(char c , char color)
 
 void kernel_main()    // kernel_main - token globalized out to kernel.asm // call kernel_main ; ret ; jmp $
 {
+  // 0xB8000 is treated as a pointer to the original byte in video memory.  
+  uint16_t * video_mem = (uint16_t *) (0xB8000);
+
+  video_mem[0] = print_termch('Y' , 2);
+  video_mem[1] = print_termch('e' , 15);
+  video_mem[2] = print_termch('s' , 8);
+}
+
+
+/*###############################################################################################*/
+/*###############################################################################################*/
+/*###############################################################################################*/
   /* 
   char_t * video_mem = (char *) (0xB8000);
   video_mem[0] = 'Y';                       
@@ -23,11 +35,7 @@ void kernel_main()    // kernel_main - token globalized out to kernel.asm // cal
   video_mem[5] = 8;
    */
   
-  // 0xB8000 is treated as a pointer to the original byte in video memory.
-
-  /************************************************************************************/
-  
-  uint16_t * video_mem = (uint16_t *) (0xB8000);
+  /*
 
   // FRAMEBUFFER OFFSETS :
   //
@@ -36,4 +44,5 @@ void kernel_main()    // kernel_main - token globalized out to kernel.asm // cal
   video_mem[0] = 0x0259;    // {green , 'Y'} *** {color,char} - because of little-endianness. 
   video_mem[1] = 0x0f65;    
   video_mem[2] = 0x0873;
-}
+
+   */

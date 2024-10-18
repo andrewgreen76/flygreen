@@ -10,7 +10,7 @@ WHAT IS TEXT MODE
 
 
 ========================================================================================
-METHOD OF CHARACTER PRINTING 
+TEXT MODE'S METHOD OF CHARACTER PRINTING 
 ========================================================================================
 
  . The video card / GPU - another black box - receives ASCII chars via VRAM and
@@ -25,15 +25,34 @@ METHOD OF CHARACTER PRINTING
 
 
 ========================================================================================
-OTHER IMPORTANT FACTS  
+HOW TO POPULATE A CHARACTER ON THE DISPLAY 
 ========================================================================================
 
-1) Display addresses can be used for text. 
-    . 0xB0000 - monochrome display 
-    . 0xB8000 - colored display
+Display addresses can be used for text. 
+ . 0xB0000 - monochrome display 
+ . 0xB8000 - colored display
 
-2) Every ASCII character takes up two bytes.
-    . Byte 0 - the char itself
-    . Byte 1 - the color code 
+
+#########################################################################
+#									#
+#  Every ASCII character takes up two bytes.				#
+#   . Byte 0 - the char itself 	      					#
+#   . Byte 1 - the color code						#
+#     	       	   	 						#
+#     	       	   	 						#
+#  Ex. : {row 0 , col 0} = 'A' , black					#
+#    | 	      	      	       	 					#
+#    @ 0xB8000 = 'A'							#
+#    @ 0xB8001 = [black]						#
+#     	       	   	 						#
+#  Ex. : {row 0 , col 1} = 'A' , black					#
+#    | 	      	      	       	 					#
+#    @ 0xB8002 = 'B'							#
+#    @ 0xB8003 = [black]						#
+#     	       	   	 						#
+#     	       	   	 						#
+#  => Some math is involved in computing [fb_addr <-> {row,col}]. 	#
+#     	       	   	 						#
+#########################################################################
 
 _

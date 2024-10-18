@@ -1,6 +1,8 @@
 
 ;;; 32-BIT CODE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	[BITS 32] 		
+	[BITS 32]
+	section .asm    	; Include this file in a section of the linker script. 
+	
 	global _start
 	
 ;;; Kernel's segments for code and data : 
@@ -26,6 +28,7 @@ _start:
 	
 	jmp $ 			; "halt"
 	
-	times 512-($-$$) db 0	
+	times 512-($-$$) db 0
+	;; We've padded out our kernel sector. 
 
 	;; 

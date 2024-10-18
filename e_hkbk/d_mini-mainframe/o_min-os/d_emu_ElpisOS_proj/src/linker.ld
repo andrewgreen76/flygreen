@@ -26,5 +26,8 @@ SECTIONS
     }
 
     /* Assembly code section here so that it does not break C code's alignment. */
-    
+    .asm :
+    {
+	*(.asm)
+    }
 }

@@ -1,14 +1,15 @@
 #ifndef IDT_H
 #define IDT_H
 
+#include <stdint.h>
 
 // Every elem in IDT : 
 struct idt_desc{
-  uint16_t offset_lo;    // offset 0-15 bits
+  uint16_t offset_lo;    // offset bits 0-15 
   uint16_t selector;    // kernel code selector in GDT (NOT IDT ; this is a CODE SELECTOR)
   uint8_t zero;         // --- No purpose. --- 
   uint8_t type_attr;    // descriptor type 
-  uint16_t offset_hi;    // offset 48-63 bits
+  uint16_t offset_hi;    // 48-63 : offset bits 16-31 
 } __attribute__((packed));
 
 

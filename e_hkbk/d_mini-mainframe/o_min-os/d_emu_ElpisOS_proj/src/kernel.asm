@@ -25,5 +25,7 @@ _start:
 	;; Remember : in/out are microcoded to influence I/O ports , not memory. 
 	
 	jmp $ 			; "halt"
+	
+	times 512-($-$$) db 0	
 
 	;; 

@@ -1,3 +1,23 @@
+
+========================================================================================
+MIXING C WITH ASSEMBLY 
+========================================================================================
+
+There are a couple of scenarios to consider where we combine C code with assembly code.
+
+  (1) In a full-fledged , fleshed-out system like Windows or a Linux distro we can
+      link the main C object file with assembly object files together and not bother
+      with technical things like in-memory alignment.
+
+  (2) However , when the main code is assembly code and the object files derived from it
+      are linked with object files from C code to build a fledgling kernel for QEMU ,
+      we have to bother with alignment. 
+
+
+========================================================================================
+ALIGNMENT COMPLIANCE WHEN MIXING C WITH ASSEMBLY 
+========================================================================================
+
 "
 If we go to linker.ld , you'll notice that our OUTPUT_FORMAT is binary.
   Now this is all fine , but when we start C with assembly , it can cause
@@ -6,4 +26,15 @@ If we go to linker.ld , you'll notice that our OUTPUT_FORMAT is binary.
   - and we are linking with object files created with the C compiler ,
   our assembly might not align correctly. 
 "
+
+
+Important fact to remember :
+ . When we mix C with assembly
+ 
+
+Because (1) the C compiler aligns our generated object files in a certain way
+  and (2) our assembly code , when placed close to C code in memory , can
+  violate the alignment , we need to figure out what linking resources have
+  to be generated first. 
+
 _

@@ -35,7 +35,7 @@ If we go to linker.ld , you'll notice that our OUTPUT_FORMAT is binary.
 
 
 PROBLEM: 
- . The C compiler aligns our generated object files in a certain way.
+ . The C compiler aligns our generated object files to multiples of 16 bytes.
    This implies that the C CODE HAS TO BE COMPILED AND RUN FIRST and with
    everything else we have to work around that alignment limitation.
 
@@ -72,10 +72,10 @@ SOLUTION :
       dependencies within the makefile. That way the kernel code will be
       linked and executed first.
 
-   Thus , we make sure that our kernel code is ALIGNED TO 16 BYTES and run
-   first. Correctly writing the linker script and the dependencies list in
-   the makefile should allow us to blend our bootloader and kernel assembly
-   code with the C section (.text section) in memory per the linker script.
-   Then they can be linked and run first. 
+   Thus , we make sure that our kernel code is ALIGNED TO 16 BYTES before
+   we run it first. Correctly writing the linker script and the dependencies
+   list in the makefile should allow us to blend our bootloader and kernel
+   assembly code with the C section (.text section) in memory per the linker
+   script. Then they can be linked and run first. 
 
 _

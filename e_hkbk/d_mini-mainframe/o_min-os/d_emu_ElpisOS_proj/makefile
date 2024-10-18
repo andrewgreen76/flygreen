@@ -1,5 +1,6 @@
 
-DEPS = ./build/kernel.asm.o	# dependencies / object files 
+DEPS = ./build/kernel.asm.o	# dependencies / object files.
+                                # HERE THE KERNEL MUST BE LISTED FIRST TO BE LINKED AND RUN FIRST. 
 
 
 #####################################################################

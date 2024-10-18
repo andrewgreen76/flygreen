@@ -48,7 +48,7 @@ GDB :
  . basic commands
  . GDB's offline protocol between QEMU and the host machine 
 
-Kernel development :
+Kernel development - basics , general info :
  - kernel mode vs. user mode
  - kernel mode vs. protected mode
  - system calls vs. library calls
@@ -60,15 +60,8 @@ Kernel development :
      handler implementation 
  - disk management , I/O , interrupts , drivers
  - loading , detecting , and executing the bootloader in real mode
- - enabling and switching to protected mode 
- - protected mode :
-   - hardware protection vs. memory protection
-   - GDT vs. segment descriptors
-   - protection enable
-   - protected-mode segmentation model 
-   - accessing 1 MB vs. accessing 16 MB of memory - with A20 exploits
-   - system drivers 
-
+ - enabling and switching to protected mode
+ 
 Legacy (real-mode) assembly programming :
 - emu8086 vs. DOSBox vs. actual DOS
 - BIOS calls vs. DOS calls
@@ -91,6 +84,16 @@ Legacy (real-mode) assembly programming :
   - FLAGS : carry bit vs. overflow bit
 - SIMD
 - FPU 
+
+Protected mode :
+- hardware protection vs. memory protection
+- GDT vs. segment descriptors
+- protection enable
+- protected-mode segmentation model 
+- accessing 1 MB vs. accessing 16 MB of memory - with A20 exploits
+- system drivers vs. BIOS 
+- C implementation of the kernel (protected mode , 32-bit code and data)
+  - mixing C with assembly , code alignment in memory , linker script's terms of operation 
 
 Raw binary images of :
   1) BIOS

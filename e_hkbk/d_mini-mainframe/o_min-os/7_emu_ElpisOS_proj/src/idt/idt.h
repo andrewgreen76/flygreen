@@ -2,6 +2,7 @@
 #define IDT_H
 
 
+// Every elem in IDT : 
 struct idt_desc{
   uint16_t offset_lo;    // offset 0-15 bits
   uint16_t selector;    // kernel code selector in GDT (NOT IDT ; this is a CODE SELECTOR)
@@ -11,8 +12,9 @@ struct idt_desc{
 } __attribute__((packed));
 
 
+// Info about the IDT (an array of int descriptors) : 
 struct idtr_desc{
-  uint16_t limit;    // size of IDT-1
+  uint16_t limit;    // size of IDT-1 // {100h->1000h} // can support up to 512 interrupts 
   uint32_t base;     // base of IDT 
 } __attribute__((packed));
 

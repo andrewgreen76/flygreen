@@ -92,7 +92,7 @@ Protected mode :
 - protected-mode segmentation model 
 - accessing 1 MB vs. accessing 16 MB of memory - with A20 exploits
 - system drivers vs. BIOS 
-- C implementation of the kernel (protected mode , 32-bit code and data)
+- C implementation of the kernel = protected mode , 32-bit code and data , drivers 
   - mixing C with assembly , code alignment in memory , linker script's terms of operation 
 
 Raw binary images of :

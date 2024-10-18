@@ -1,3 +1,7 @@
+"
+`ndisasm` is a disassembler for Intel x86 and x86-64 binary files. It is part of the Netwide Assembler (NASM) package and is used to convert binary machine code back into assembly language instructions, making it useful for analyzing compiled programs and understanding low-level operations.
+"
+
 00000000  66B810008ED8      mov eax,0xd88e0010
 00000006  8EC0              mov es,ax
 00000008  8EE0              mov fs,ax

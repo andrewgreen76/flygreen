@@ -1,6 +1,7 @@
 #include "kernel.h"
 #include <stddef.h>
 #include <stdint.h>
+#include "idt/idt.h"
 
 /*###############################################################################################*/
 /*########################################## GLOBALS : ##########################################*/
@@ -99,6 +100,8 @@ void kernel_main()    // kernel_main - token globalized out to kernel.asm // cal
 {
   term_init();
   printstr("YES\nKing Crimson");
+
+  idt_init();
 }
 
 /*###############################################################################################*/

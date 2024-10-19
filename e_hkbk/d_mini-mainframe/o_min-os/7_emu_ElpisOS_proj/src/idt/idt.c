@@ -1,5 +1,6 @@
 #include "idt.h"
 #include "config.h"
+#include "kernel.h"
 #include "memory/memory.h"
 
 /*##########################################################################################*/
@@ -11,13 +12,15 @@ extern void idt_load(struct idtr_desc * ptr);    // just to call lidt <= load id
                                                  // Compile-time security ? 
 /*##########################################################################################*/
 
+// INTERRUPT HANDLER - whose address can be passed between functions : 
 void idt_zero(){
   printstr("ERROR : DIV/0\n");
 }
 
 /*##########################################################################################*/
 
-// Helps set interrupts and their addresses within IDT : 
+// Helps set interrupts and their addresses within IDT ,
+// maps interrupt indices to interrupt addresses : 
 void idt_set(int interrupt_i , void* interrupt_addr){
   struct idt_desc * idesc = & idt[interrupt_i];    // abbr. to 'idesc'
   
@@ -36,8 +39,12 @@ void idt_init()
 {
   memset( idt , 0 , sizeof(idt) );
   idtr_descriptor.limit = sizeof(idt) -1 ;    // index of final byte in IDTR descriptor 
-  idtr_descriptor.base = idt;
+  idtr_descriptor.base = (uint32_t) idt;      // This could be re-implemented as a pointer. 
+                                              // Reminder : in C arrays are accessed/returned as pointers.
 
+  // Map interrupt indices to interrupt handlers (addresses). 
   idt_set(0 , idt_zero);
+  // Mapping MUST take place before `[IDTR]` is loaded. 
+  
   idt_load( & idtr_descriptor );
 }

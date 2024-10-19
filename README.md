@@ -44,9 +44,9 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
 GDB :
- . ways to run it
- . basic commands
- . GDB's offline protocol between QEMU and the host machine 
+ - ways to run it
+ - basic commands
+ - GDB's offline protocol between QEMU and the host machine 
 
 Kernel development - basics , general info :
  - kernel mode vs. user mode

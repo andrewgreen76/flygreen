@@ -19,10 +19,10 @@ $28		$58k			PCB Design Engineer		PCB / semic.
 $80k+ SALARY - SKILLS AND EXPERIENCE 
 ========================================================================================
 
- . peripherals / busses (USB, SPI, I2C, UART, GPIO , etc.)
- . Bash 
- . C
- . assembly 
+ . peripherals / busses (USB, SPI, I2C, UART, GPIO , etc.) 
+	. Bash 
+	. C
+	. assembly 
  . Python
  . Rust 
  . C++

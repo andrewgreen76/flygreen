@@ -1,0 +1,31 @@
+
+Hr.pay		Ann.pay		Title				Field/specialization		Key companies
+
+-		$38k		Stock Room/Assembler		PCB 				TTM Technologies 
+$20		$41k		Electronics Repair Technician	PCB
+$21		$43k		Assembler (entry-level)		PCB
+$28		$58k		PCB Design Engineer		PCB / semic.
+-		$68k		EE (Rotational Train. Prog.)	PCB
+-		$76k		RF Engineer			RF
+
+-		$80k		Product Test & Support Engr	embedded , PCB , programming
+-		$90k		Apps Engr (TI Career Acc.Prog.)	embedded , semic.		Texas Instruments
+-		$100k		Firmware Engineer    		embedded   			Horiba Instruments
+-		$120k		Staff Firmware Engineer		firmware/embedded
+
+
+========================================================================================
+$80k+ SALARY - SKILLS AND EXPERIENCE 
+========================================================================================
+
+ . peripherals (USB, SPI, I2C, UART, GPIO , etc.) 
+ . C/C++ , C# , Python
+ . Embedded Linux / FreeRTOS 
+ . R&D
+ . medical devices
+ . electromechanical
+ . mechatronic
+ . robotic
+ . IT
+
+_

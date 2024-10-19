@@ -24,12 +24,6 @@ $80k+ SALARY - SKILLS AND EXPERIENCE
 	. C
 	. assembly 
  . Python
- . Rust 
- . C++
- . C#
- . JS / TS 
- . Java
- . Perl 
  . Embedded Linux / FreeRTOS / Zephyr 
  . analog and digital circuits (design)
  . signal conditioning , filters
@@ -40,10 +34,16 @@ $80k+ SALARY - SKILLS AND EXPERIENCE
  . ARM Cortex-M microcontrollers and their peripherals
  . firmware quality assurance protocols 
  . "Understanding of statistical methods including Design of Experiments"
-
  . FPGA design
-
- . LAN drivers 
+ . C++
+ . Rust 
+ . C#
+ . JS / TS
+ |
+ . LAN drivers
+ |
+ . Java
+ . Perl 
 
  . AB/Siemens PLCs, fieldbus systems like CAN, Profibus,
      Ethernet IP, Profinet, ASi

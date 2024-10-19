@@ -9,6 +9,8 @@ Main driver :
 
 
 Device driver :
+ . on the system side : a piece of low-level code that provides a service to the operating system in protected mode 
+     (whereas that same service would be attainable from BIOS only in real mode during the booting process) 
  . basically , software that translates system commands (HLL) to device architecture instructions (low-level) 
  . translates data fit for a different architecture into data that the hardware in its own architecture can digest 
 

@@ -27,14 +27,25 @@ $80k+ SALARY - SKILLS AND EXPERIENCE
  . bare-metal systems (w/o OS)
  . layout tools (Altium Schematic Capture)
  . HW/SW integration , debugging
- . ARM Cortex-M microcontrollers and their peripherals 
+ . ARM Cortex-M microcontrollers and their peripherals
+ . firmware quality assurance protocols 
  . "Understanding of statistical methods including Design of Experiments"
+
+ . FPGA design , AB/Siemens PLCs, fieldbus systems like CAN, Profibus,
+     Ethernet IP, Profinet, ASi 
+
  . medical devices
- 
+
  . R&D
  . electromechanical
  . mechatronic
  . robotic
  . IT
+     
+ . motor control and/or material handling systems
+ . storage and retrieval systems
+
+ . Visual C 
+ . Visual Basic 
 
 _

@@ -10,6 +10,7 @@ $28		$58k			PCB Design Engineer		PCB / semic.
 
 -		$80k			Product Test & Support Engr	embedded , PCB , programming
 -		$90k			Apps Engr (TI Career Acc.Prog.)	embedded , semic.		Texas Instruments
+-		$95k			Firmware Dev. (entry-level)	firmware   			IBM 
 -		$100k			Firmware Engineer    		embedded   			Horiba Instruments
 -		$120k		7	Staff Firmware Engineer		firmware/embedded
 
@@ -18,8 +19,17 @@ $28		$58k			PCB Design Engineer		PCB / semic.
 $80k+ SALARY - SKILLS AND EXPERIENCE 
 ========================================================================================
 
- . peripherals / busses (USB, SPI, I2C, UART, GPIO , etc.) 
- . C/C++ , C# , Python
+ . peripherals / busses (USB, SPI, I2C, UART, GPIO , etc.)
+ . Bash 
+ . C
+ . assembly 
+ . Python
+ . Rust 
+ . C++
+ . C#
+ . JS / TS 
+ . Java
+ . Perl 
  . Embedded Linux / FreeRTOS / Zephyr 
  . analog and digital circuits (design)
  . signal conditioning , filters
@@ -31,8 +41,12 @@ $80k+ SALARY - SKILLS AND EXPERIENCE
  . firmware quality assurance protocols 
  . "Understanding of statistical methods including Design of Experiments"
 
- . FPGA design , AB/Siemens PLCs, fieldbus systems like CAN, Profibus,
-     Ethernet IP, Profinet, ASi 
+ . FPGA design
+
+ . LAN drivers 
+
+ . AB/Siemens PLCs, fieldbus systems like CAN, Profibus,
+     Ethernet IP, Profinet, ASi
 
  . medical devices
 

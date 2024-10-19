@@ -9,6 +9,7 @@ $28		$58k			PCB Design Engineer		PCB / semic.
 -		$76k			RF Engineer			RF
 
 -		$80k			Product Test & Support Engr	embedded , PCB , programming
+$40		$83k			Kernel Developer       		OS/kernel 
 -		$90k			Apps Engr (TI Career Acc.Prog.)	embedded , semic.		Texas Instruments
 -		$95k			Firmware Dev. (entry-level)	firmware   			IBM 
 -		$100k			Firmware Engineer    		embedded   			Horiba Instruments
@@ -24,17 +25,28 @@ $80k+ SALARY - SKILLS AND EXPERIENCE
 	. C
 	. assembly 
  . Python
- . Embedded Linux / FreeRTOS / Zephyr 
+ 
+ . emb.OS :
+    . Embedded Linux (kernel configuration and device tree setup) 
+    . FreeRTOS
+    . Zephyr
+    . bootloaders 
+
+ . writing drivers for actuators and sensors 
  . analog and digital circuits (design)
  . signal conditioning , filters
  . control algorithms (PID , floating point filters)
  . bare-metal systems (w/o OS)
  . layout tools (Altium Schematic Capture)
  . HW/SW integration , debugging
+ . embedded toolchains and workflow 
  . ARM Cortex-M microcontrollers and their peripherals
+    . bootloaders 
+ . embedded stacks for ARM cores 
  . firmware quality assurance protocols 
  . "Understanding of statistical methods including Design of Experiments"
- . FPGA design
+ . FPGA / MCU - design , bring-up 
+ . PCIe, MIPI CSI/DSI, USB, 802.3 
  . C++
  . Rust 
  . C#
@@ -58,6 +70,8 @@ $80k+ SALARY - SKILLS AND EXPERIENCE
      
  . motor control and/or material handling systems
  . storage and retrieval systems
+
+ . Linux 
 
  . Visual C 
  . Visual Basic 

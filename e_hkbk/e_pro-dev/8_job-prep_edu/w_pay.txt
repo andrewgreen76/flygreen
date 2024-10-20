@@ -20,9 +20,10 @@ $40		$83k			Kernel Developer       		OS/kernel
 $80k+ SALARY - SKILLS AND EXPERIENCE 
 ========================================================================================
 
- . peripherals / busses (USB, SPI, I2C, UART, GPIO , etc.) 
+ . USB, SPI, I2C, UART, GPIO , etc. - busses / peripherals 
 	. Bash 
 	. C
+	. `make` 
 	. assembly 
  . Python
  
@@ -37,15 +38,16 @@ $80k+ SALARY - SKILLS AND EXPERIENCE
  . signal conditioning , filters
  . control algorithms (PID , floating point filters)
  . bare-metal systems (w/o OS)
- . layout tools (Altium Schematic Capture)
+ . layout tools (Altium Schematic Capture , Altium Designer , KiCAD)
  . HW/SW integration , debugging
  . embedded toolchains and workflow 
+ . FPGA / MCU - design , bring-up
+ . STM32 hardware 
  . ARM Cortex-M microcontrollers and their peripherals
     . bootloaders 
  . embedded stacks for ARM cores 
  . firmware quality assurance protocols 
  . "Understanding of statistical methods including Design of Experiments"
- . FPGA / MCU - design , bring-up 
  . PCIe, MIPI CSI/DSI, USB, 802.3 
  . C++
  . Rust 

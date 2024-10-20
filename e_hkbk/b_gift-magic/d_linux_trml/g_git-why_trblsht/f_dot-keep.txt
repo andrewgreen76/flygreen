@@ -1,0 +1,4 @@
+"
+In GitHub, a `.keep` file is often used as a placeholder in a directory to ensure that the directory is included in version control, particularly when the directory might otherwise be empty and ignored by Git. This practice helps maintain the structure of the repository while keeping empty folders.
+"
+_

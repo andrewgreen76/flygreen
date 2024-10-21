@@ -1,18 +1,23 @@
 
-Buffered input, a.k.a. buffered read :
-- Hint : expects a string and hitting <Enter>. 
-- Expl : At some point during runtime the program will use a buffer that will register multiple character inputs before the <Enter> key is pressed.
-- Canonical : The state of expecting buffered input is called the canonical mode. 
+========================================================================================
+BUFFERED INPUT vs. UNBUFFERED INPUT 
+========================================================================================
 
-Unbuffered input, a.k.a. unbuffered read :
-- Hint : expects pressing a single key.
-- The canonical mode should be disabled. 
-
-
-
-In C all input is buffered by default.
+BUFFERED INPUT, a.k.a. buffered read :
+ - EXPECTS A STRING and hitting <Enter>. 
+ - canonical mode 
+ - At some point during runtime the program will use a buffer that will register multiple character inputs before the <Enter> key is pressed.
+ - In C all input is buffered by default.
 
 
+UNBUFFERED INPUT, a.k.a. unbuffered read :
+ - EXPECTS PRESSING A SINGLE KEY.
+ - The canonical mode should be disabled. 
+
+
+========================================================================================
+========================================================================================
+========================================================================================
 
 "
 In C, the terms "buffered" and "unbuffered" refer to the way input and output operations are handled by the standard I/O library. Let's explore the differences between buffered and unbuffered input:
@@ -85,4 +90,4 @@ In this example, `setvbuf` is used to set standard input (`stdin`) to unbuffered
 The choice between buffered and unbuffered input depends on the specific requirements and characteristics of the application. In many cases, the default buffered mode is suitable and efficient.
 "
 
-.
+_

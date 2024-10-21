@@ -7,7 +7,7 @@ insb:
 	push ebp
 	mov ebp , esp
 
-	mov edx , [ebx+8]
+	mov edx , [ebp+8]    	; 1st param 
 
 	pop ebp
 	ret

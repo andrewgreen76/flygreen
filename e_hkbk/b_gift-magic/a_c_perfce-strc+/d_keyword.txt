@@ -2,4 +2,22 @@
 Keyword :
  . a word that means something to the compiler/interpreter
 
+
+To do with program control : 
+ . return
+ . if
+ . else
+ . elseif
+ . while
+ . dowhile
+ . for
+ . break
+ . continue
+ . struct
+ . typedef
+ . enum
+ . const
+ . volatile
+ . goto
+
 _

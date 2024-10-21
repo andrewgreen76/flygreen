@@ -4,6 +4,6 @@
 
 void main(){
   printf("Print : ");
-  int ch = getc(stdin);
-  printf("Output : %c\n" , ch);
+  char * ch = getc(stdin);
+  printf("Output : %s\n" , ch);
 }

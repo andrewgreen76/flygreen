@@ -1,0 +1,21 @@
+"
+Here’s a simple C program that waits for a single keypress and then reacts by printing a message:
+
+```c
+#include <stdio.h>
+#include <conio.h> // For getch() on Windows
+
+int main() {
+    char ch;
+
+    printf("Press any key to continue...\n");
+    ch = getch(); // Wait for a single keypress
+
+    printf("You pressed: '%c'\n", ch);
+    return 0;
+}
+```
+
+Note: The `conio.h` header is specific to some compilers like Turbo C or those on Windows. For Unix-like systems, you would need to use different methods (like using `termios` for non-canonical mode). Let me know if you need an example for a different platform!
+"
+_

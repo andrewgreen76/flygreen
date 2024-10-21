@@ -14,13 +14,14 @@ $40		$83k			Kernel Developer       		OS/kernel
 -		$95k			Firmware Dev. (entry-level)	firmware   			IBM 
 -		$100k			Firmware Engineer    		embedded   			Horiba Instruments
 -		$120k		7	Staff Firmware Engineer		firmware/embedded
+- 		$140k		8	Embedded System Engineer 	firmware (+ hyperv , boot)	einfochips (Arrow) 
 
 
 ========================================================================================
 $80k+ SALARY - SKILLS AND EXPERIENCE 
 ========================================================================================
 
- . USB, SPI, I2C, UART, GPIO , etc. - busses / peripherals 
+ . USB, SPI, I2C, UART, GPIO , etc. - busses / peripherals (w/ microcontrollers) 
 	. Bash 
 	. C
 	. `make` 
@@ -43,13 +44,16 @@ $80k+ SALARY - SKILLS AND EXPERIENCE
  . embedded toolchains and workflow 
  . FPGA / MCU - design , bring-up
  . STM32 hardware 
+ . C++
+ . IP protocols, hardware subsystems , interfaces 
+ . Jira / Confluence
+ . Agile methodology 
  . ARM Cortex-M microcontrollers and their peripherals
     . bootloaders 
  . embedded stacks for ARM cores 
  . firmware quality assurance protocols 
  . "Understanding of statistical methods including Design of Experiments"
  . PCIe, MIPI CSI/DSI, USB, 802.3 
- . C++
  . Rust 
  . C#
  . JS / TS

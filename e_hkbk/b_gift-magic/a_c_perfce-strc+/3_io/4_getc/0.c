@@ -1,7 +1,13 @@
 #include <stdio.h>
 
-void main(){
-  printf("Print : ");
-  char * ch = getc(stdin);
-  printf("Output : %s\n" , ch);
+int main() {
+    int ch;
+
+    printf("Enter text (Ctrl+D to end):\n");
+
+    while ((ch = getc(stdin)) != EOF) { // Read one character at a time
+        putchar(ch); // Print the character
+    }
+
+    return 0;
 }

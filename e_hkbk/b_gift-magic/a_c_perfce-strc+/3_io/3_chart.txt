@@ -1,22 +1,24 @@
 
-All of these functions work with buffered input by default. To switch to
-  the "raw mode" for the process' immediate reaction to a key press some
-  implementation has to be written to disable the canonical mode. 
+ . BUFFERED INPUT BY DEFAULT
+ 
+ . To switch to the "raw mode" for the process' immediate reaction to a key
+     press some implementation for disabling the canonical mode has to be
+     written. 
 
 
 ========================================================================================
 PRIMAL (UNSAFE) FUNCTIONS ... AND MACROS :
 ========================================================================================
 
-getchar() - read a char from stdin
-getc()	  - read a char from the specified stream
-gets()	  - read a string
-scanf()	  - read formatted input 
+int getchar() - read a char from stdin
+int getc()    - read a char from the specified stream
+gets()	      - read a string
+scanf()	      - read formatted input 
 
-putchar() - print a char to stdin
-putc()	  - print a char to the specified stream
-puts()	  - print a string
-printf()  - print formatted input
+putchar()     - print a char to stdin
+int putc()    - print a char to the specified stream
+puts()	      - print a string
+printf()      - print formatted input
 
 
 ========================================================================================

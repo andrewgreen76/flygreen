@@ -3,11 +3,11 @@
 
 
 ========================================================================================
-INITIALIZING NEWLY ALLOCATED MEMORY (PAGES) 
+INITIALIZING NEWLY ALLOCATED MEMORY 
 ========================================================================================
 
 "
-Initializing newly allocated memory (pages) is done to ensure that the content of those pages is predictable and well-defined from the start. This initialization is typically performed to avoid security vulnerabilities and bugs that could arise if the memory pages contain arbitrary or leftover data from previous use. There are several reasons for initializing new allocated memory pages:
+Initializing newly allocated memory (pages in RAM) is done to ensure that the content of those pages is predictable and well-defined from the start. This initialization is typically performed to avoid security vulnerabilities and bugs that could arise if the memory pages contain arbitrary or leftover data from previous use. There are several reasons for initializing new allocated memory pages:
 
 1. **Security:**
    - Initializing memory helps prevent information leaks that could occur if sensitive data from a previous use of the memory pages is left unerased. For security reasons, it's crucial to ensure that data belonging to one process or user is not accessible to another.

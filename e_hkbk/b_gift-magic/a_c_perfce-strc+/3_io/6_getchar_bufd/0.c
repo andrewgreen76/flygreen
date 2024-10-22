@@ -1,15 +1,13 @@
-#include <unistd.h>
 #include <stdio.h>
-
-
-int getchar(){
-  char c;
-  return (read(0 , &c , 1) == 1) ? (unsigned char) c : EOF;
-}
-
 
 void main(){
   printf("Start\n");
-  getchar();
+  char c = NULL;
+  
+  while(c != EOF){
+    getchar();
+    putchar(c);
+  }
+  
   printf("End\n");
 }

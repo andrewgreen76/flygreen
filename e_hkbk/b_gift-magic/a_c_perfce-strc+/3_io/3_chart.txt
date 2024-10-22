@@ -3,18 +3,24 @@
 PRIMAL (UNSAFE) FUNCTIONS :
 ========================================================================================
 
+getchar() - read a char from stdin
+getc()	  - read a char from the specified stream
+gets()	  - read a string
+scanf()	  - read formatted input 
 
-putchar()	getchar()
-putc()		getc()
-puts()		gets()
-|		|
-printf()	scanf()
+putchar() - print a char to stdin
+putc()	  - print a char to the specified stream
+puts()	  - print a string
+printf()  - print formatted input
 
 
-fputc()		fgetc()
-fputs()		fgets()
-|		|
-fprintf()	fscanf()
+========================================================================================
+SAFER FUNCTIONS :
+========================================================================================
+
+fgetc()		fputc()
+fgets()		fputs()
+fscanf()	fprintf()
 
 
 ========================================================================================

@@ -1,6 +1,11 @@
 
+All of these functions work with buffered input by default. To switch to
+  the "raw mode" for the process' immediate reaction to a key press some
+  implementation has to be written to disable the canonical mode. 
+
+
 ========================================================================================
-PRIMAL (UNSAFE) FUNCTIONS :
+PRIMAL (UNSAFE) FUNCTIONS ... AND MACROS :
 ========================================================================================
 
 getchar() - read a char from stdin

@@ -1,0 +1,11 @@
+
+1. Passing by pointer = a memory-efficient (economical) way of working on
+     a piece of data. 
+
+2. Pointers = a way of gluing things - structures - together. 
+
+3. Pointers = a way of accessing (and modifying) like blocks of memory.
+    . an array = an address to a block of similar pieces of data
+    . video memory 
+
+_

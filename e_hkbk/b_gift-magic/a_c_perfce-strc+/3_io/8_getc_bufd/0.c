@@ -3,11 +3,17 @@
 int main() {
     int ch;
 
-    printf("Enter text (Ctrl+D to end):\n");
+    ch = getchar();
+    putchar(ch);
 
-    while ((ch = getc(stdin)) != EOF) { // Read one character at a time
-        putchar(ch); // Print the character
-    }
+    ch = getchar();
+    putchar(ch);
+
+    ch = getchar();
+    putchar(ch);
+
+    ch = getchar();
+    putchar(ch);
 
     return 0;
 }

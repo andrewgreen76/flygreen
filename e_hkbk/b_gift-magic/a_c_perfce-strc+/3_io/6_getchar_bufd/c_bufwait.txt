@@ -1,0 +1,14 @@
+"
+... both `getc()` and `getchar()` read from the input buffer rather than directly from keypresses, meaning they wait for the input to be available in the buffer before returning a character.
+"
+
+
+"
+Both `getc()` and `getchar()` will read characters from the input buffer until they encounter a line feed (or newline character), at which point they return the characters read, typically as a complete line.
+"
+
+
+"
+Upon encountering a newline, `getc()` and `getchar()` will finish reading the current input and then wait for additional input from the user to refill the buffer.
+"
+_

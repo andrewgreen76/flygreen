@@ -1,9 +1,15 @@
-//#include <conio2.h>
-
+#include <unistd.h>
 #include <stdio.h>
 
+
+int getchar(){
+  char c;
+  return (read(0 , &c , 1) == 1) ? (unsigned char) c : EOF;
+}
+
+
 void main(){
-  printf("Print : ");
-  char * ch = getc(stdin);
-  printf("Output : %s\n" , ch);
+  printf("Start\n");
+  getchar();
+  printf("End\n");
 }

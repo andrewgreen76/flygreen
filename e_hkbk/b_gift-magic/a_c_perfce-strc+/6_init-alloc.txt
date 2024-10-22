@@ -2,6 +2,10 @@
  . Flagging discarded code/data. 
 
 
+========================================================================================
+INITIALIZING NEWLY ALLOCATED MEMORY (PAGES) 
+========================================================================================
+
 "
 Initializing newly allocated memory (pages) is done to ensure that the content of those pages is predictable and well-defined from the start. This initialization is typically performed to avoid security vulnerabilities and bugs that could arise if the memory pages contain arbitrary or leftover data from previous use. There are several reasons for initializing new allocated memory pages:
 

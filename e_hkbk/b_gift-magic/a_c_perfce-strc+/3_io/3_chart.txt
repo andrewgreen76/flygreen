@@ -10,13 +10,16 @@
 PRIMAL (UNSAFE) FUNCTIONS ... AND MACROS :
 ========================================================================================
 
-int    getchar()    - read a char from stdin
-int    getc()       - read a char from the specified stream
+int getchar()    - read a char FROM STDIN
+int putchar()    - print a char TO STDIN
+
+-------------------------------------------------------------------------------
+
+int    getc()       - read a char from the specified stream - STDOUT AND FILES 
 char * gets()	    - read a string
 int    scanf()	    - read formatted input 
 
-int putchar()     - print a char to stdin
-int putc()    	  - print a char to the specified stream
+int putc()    	  - print a char to the specified stream - STDOUT AND FILES 
 int puts()    	  - print a string
 int printf()      - print formatted input
 
@@ -25,9 +28,9 @@ int printf()      - print formatted input
 SAFER FUNCTIONS :
 ========================================================================================
 
-int    fgetc()		int fputc()
-char * fgets()		int fputs()
-int    fscanf()		int fprintf()
+int    fgetc()			int fputc()
+char * fgets()			int fputs()
+int    fscanf()			int fprintf()
 
 
 ========================================================================================

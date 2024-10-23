@@ -1,5 +1,8 @@
 
-linkers :
+linking :
+ . without a traditional linker
+ . static binaries 
+ . CREATES AN EXECUTABLE 
  . IMPLEMENT IN : x86-asm 
  . static linking
  . dynamic linking

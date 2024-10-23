@@ -1,21 +1,28 @@
 
-linking :
- |
- . without a traditional linker
- . static binaries 
- . ELF
- . CREATES AN (ELF) EXECUTABLE
- |
+ELF linking :
+
+						1940		1950		1960		1970		1980		1990		
+
+ . static linking (at compile time) 
+    . object files
+    + shared libraries = external libraries
+    = ELF EXECUTABLE (headers + metadata) 
+ . stripping 
+
+
  .		  C
  . IMPLEMENT IN : x86-asm
  . 	     	  hardware binary 
- |
- . static linking
+
+
  . dynamic linking
- . object files
  . linker script
  . relocatable files
  . shared objects
- . shared libraries 
+ . static binaries 
+ . standard libraries
+ . statically linked = ?
+ . stripped = ?
+ . relocation = ?
 
 _

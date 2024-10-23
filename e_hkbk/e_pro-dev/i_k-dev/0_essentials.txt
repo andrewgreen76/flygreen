@@ -41,7 +41,8 @@ WHAT IS A PROCESS ?
 ========================================================================================
 
  . a program currently being run
- . oddly enough , even when in waiting (queued) or ready state , it may still be called a process 
+ . interestingly enough , even when in waiting (queued) or ready state ,
+     it may still be called a process 
 
 
 ========================================================================================

@@ -1,4 +1,9 @@
 
+own loader
+-> own linker
+-> own assembler
+-> murmC
+
 impl murmC in C
 impl murmC in x86-asm 
 

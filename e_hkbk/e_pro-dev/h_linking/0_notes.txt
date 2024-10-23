@@ -1,0 +1,21 @@
+
+linking :
+ |
+ . without a traditional linker
+ . static binaries 
+ . ELF
+ . CREATES AN (ELF) EXECUTABLE
+ |
+ .		  C
+ . IMPLEMENT IN : x86-asm
+ . 	     	  hardware binary 
+ |
+ . static linking
+ . dynamic linking
+ . object files
+ . linker script
+ . relocatable files
+ . shared objects
+ . shared libraries 
+
+_

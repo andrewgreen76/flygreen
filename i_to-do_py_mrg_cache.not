@@ -1,15 +1,4 @@
 
-linking :
- . without a traditional linker
- . static binaries 
- . CREATES AN EXECUTABLE 
- . IMPLEMENT IN : x86-asm 
- . static linking
- . dynamic linking
- . ELF
- . object files
- . linker script 
-
 impl murmC in C
 impl murmC in x86-asm 
 

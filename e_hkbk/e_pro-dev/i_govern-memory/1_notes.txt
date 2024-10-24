@@ -1,0 +1,16 @@
+
+How does this one come up with a memory address ?
+Is it a relative memory address ? (Memory protection ?)
+Is it the kernel that comes up with the absolute memory address ?
+  How does it map the abs_mem_addr to rel_mem_addr ?
+
+
+Stack vs. heap :
+ |
+ . [stack] x [var_init in ds (not ss) IN ASSEMBLY , bind to label]
+ |  . the compiler generates the assembly code to do that
+ |
+ . [heap] x [ malloc() , free() ]
+    . the compiler generates the assembly code to do that 
+
+_

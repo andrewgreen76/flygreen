@@ -1,4 +1,22 @@
 
+ . Do I want to fiddle with memory addresses or disk bytes ?
+ 
+    . Memory :
+       > malloc() -> How does malloc() populate memory ?
+       . treat mem like disk ; birth/death ~ populate/release <- a program that does that <- analyze malloc() 
+       
+    . Disk - a byte with no role (no ties to inodes)
+       $ sudo dd if=./[..].bin of=/dev/sd[?]
+       
+ . combining modules (preprocessor?)
+ . resolving symbol addresses 
+ . I understand how languages are abstracted ; now I want to know how programs are structured. 
+ . just enough assembly 
+ . ld on GitHub
+ . dd, memset, etc. to write a byte to memory / disk. 
+ . Write a linker in C. 
+ . Everything is written in C. Write a C compiler in […] that can talk to C functions and assembly routines. 
+
 			implementation in [..?..]
 own executor (kernel?) 
 own loader

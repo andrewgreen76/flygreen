@@ -3,13 +3,31 @@ How does this one come up with a memory address ?
 Is it a relative memory address ? (Memory protection ?)
 Is it the kernel that comes up with the absolute memory address ?
   How does it map the abs_mem_addr to rel_mem_addr ?
+Kernel's memory manager module <~> loader (post-linker) 
 
 
-Stack vs. heap :
+========================================================================================
+      	   absolute address 	   relative address
+	   
+ . DS
+ . BSS
+ . SS
+ . heap
+========================================================================================
+
+
+Static memory allocation :
+ . data segment
+ . BSS 
+
+
+Dynamic memory allocation - STACK vs. HEAP :
  |
+ . we want local variables of fixed size , scope , and lifetime 
  . [stack] x [var_init in ds (not ss) IN ASSEMBLY , bind to label]
  |  . the compiler generates the assembly code to do that
  |
+ . we want variables of unknown/variable size 
  . [heap] x [ malloc() , free() ]
     . the compiler generates the assembly code to do that 
 

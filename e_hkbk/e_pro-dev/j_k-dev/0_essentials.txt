@@ -27,13 +27,25 @@ WHAT IS A KERNEL ?
 
 
 ========================================================================================
+WHAT IS A KERNEL DRIVER ? 
+========================================================================================
+
+A protected-mode substitute for a BIOS service : 
+ . for interfacing with hardware , I/O in particular (disk , peripherals , NIC) 
+
+"
+A kernel driver is a specific type of software component that operates in kernel space, allowing the operating system to interact with hardware devices, manage resources, and provide an interface for user-space applications to access hardware functionality.
+"
+
+========================================================================================
 WHAT IS A JOB ? 
 ========================================================================================
 
  . a.k.a. a task
  |
  . a queued program
- . a user request 
+ . a user request
+ ~ a process 
 
 
 ========================================================================================
@@ -41,6 +53,7 @@ WHAT IS A PROCESS ?
 ========================================================================================
 
  . a program currently being run
+ ~ a job 
  . interestingly enough , even when in waiting (queued) or ready state ,
      it may still be called a process 
 
@@ -68,16 +81,5 @@ WHAT IS A KERNEL MODULE ?
 
 "
 The kernel needs a module for extending its functionality without requiring a complete recompilation, allowing for the addition of features such as device drivers, filesystem support, and other enhancements dynamically at runtime.
-"
-
-========================================================================================
-WHAT IS A KERNEL DRIVER ? 
-========================================================================================
-
-A protected-mode substitute for a BIOS service : 
- . for interfacing with hardware , I/O in particular (disk , peripherals , NIC) 
-
-"
-A kernel driver is a specific type of software component that operates in kernel space, allowing the operating system to interact with hardware devices, manage resources, and provide an interface for user-space applications to access hardware functionality.
 "
 _

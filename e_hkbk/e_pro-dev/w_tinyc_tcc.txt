@@ -1,0 +1,4 @@
+"
+TinyC, often referred to as "TCC" (Tiny C Compiler), is a small and lightweight C compiler designed for speed and simplicity. It allows for quick compilation of C code and is particularly useful for embedding in applications or systems with limited resources. TCC can produce standalone executables and supports most of the C99 standard, making it a practical choice for various development scenarios, including scripting and rapid prototyping.
+"
+_

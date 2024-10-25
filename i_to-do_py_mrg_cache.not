@@ -1,7 +1,8 @@
 
 learn an important useful function
  . practice using it
- . deploy it in a project 
+ . deploy it in a project
+ . SCI (execve , mmap , etc.) ; malloc , calloc , realloc , 
 
 I could just act like I know ISA interrupts and reg.vals for calls to
   the kernel and not bother with assembly. 
@@ -1170,14 +1171,10 @@ main:
 
 =====================================================================
 
-write here's johnny in py
 keybindings , ANSI esc seqs , UTF-8,-16,-32 
-memmap
 interview questions: C
 interview questions: C++
-funbag >< progbook (cheat sheets)
 How do systems on planes fetch WiFi connection in the airplane mode? Do they have isolated servers?
-Experiment with GDB. 
 awareness, informed incentive, informed intelligence, good conditioning 
 m : Manteia , matchmaking , match the right people with the right opportunities 
 write a poke api lib 

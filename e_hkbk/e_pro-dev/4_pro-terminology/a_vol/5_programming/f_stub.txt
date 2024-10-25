@@ -1,0 +1,4 @@
+"
+A stub implementation is a placeholder function that simulates the behavior of a real function, often used for testing or development, without providing full functionality.
+"
+_

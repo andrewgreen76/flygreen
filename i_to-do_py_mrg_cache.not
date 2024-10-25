@@ -2,7 +2,13 @@
 learn an important useful function
  . practice using it
  . deploy it in a project
- . SCI (execve , mmap , etc.) ; malloc , calloc , realloc , 
+ |
+ . SCI (execve , mmap , etc.)
+    . Unix-based syscalls 
+    . my syscalls 
+ . malloc , calloc , realloc , etc. 
+    . (g)libc functions 
+    . my (g)libc-based functions 
 
 I could just act like I know ISA interrupts and reg.vals for calls to
   the kernel and not bother with assembly. 

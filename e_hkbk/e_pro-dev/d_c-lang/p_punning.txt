@@ -22,4 +22,4 @@ This type of operation is often used for examining the individual bytes of an in
 Keep in mind that the behavior of such type punning is implementation-dependent and might not be portable across different systems or compilers. It's generally safer to use specific functions or operations for tasks like extracting or manipulating individual bytes, especially when endianness considerations come into play.
 "
 
-.
+_

@@ -1,13 +1,15 @@
 
 I could just act like I know ISA interrupts and reg.vals for calls to
-the kernel and not bother with assembly. 
+  the kernel and not bother with assembly. 
 
 --------------------------------------------------------------------------
 
 Do I want to fiddle with memory addresses or disk bytes ?
  | 
  . Memory :
- |  . paging scheme : does not allow accessing abs_memaddr (even outside of a process) 
+ |  . need kernel for that : malloc() -> mmap() ; (obsolete : memocore() , sbrk() ) 
+ |  . can't write to mem outside of a process - the kernel keeps track of
+ |     the FREE LIST - also a form of memory protection 
  |  . mem.prot : can't access DS , BSS , SS , heap 
  |  > malloc() -> How does malloc() populate memory ?
  |  . treat mem like disk ; birth/death ~ populate/release <- a program that does that <- analyze malloc() 
@@ -52,6 +54,9 @@ own loader (kernel's memory manager module ? )
  . Write a linker in C. 
  . Everything is written in C. Write a C compiler in [...] that can talk to C functions and assembly routines. 
 
+murmC
+mermC
+CyClone 
 antc
 mupho
 coopho

@@ -1,4 +1,9 @@
 
+I could just act like I know ISA interrupts and reg.vals for calls to
+the kernel and not bother with assembly. 
+
+--------------------------------------------------------------------------
+
 Do I want to fiddle with memory addresses or disk bytes ?
  | 
  . Memory :
@@ -21,12 +26,17 @@ own loader (kernel's memory manager module ? )
  . look into their implementation 
 > own linker
  . system calls : 
- . look into their implementation 
+ . look into their implementation
+> own Binutils 
 > own assembler
- . system calls : 
+ . x86 vs. ARM (Cortex-M) 
+ . extern [..]
  . look into their implementation
  . minimal [...] + self-hosting + C-hosting
-> murmC (minimal assembly + self-hosting) 
+ . own ISA with own binary interrupts and reg.vals for calls to the kernel 
+> murmC (minimal assembly + self-hosting)
+  . own <unistd.h> and <fcntl.h>
+  . own <stdio.h>
   . impl murmC in C
   . impl murmC in x86-asm 
   . minimal assembly + self-hosting + C-hosting

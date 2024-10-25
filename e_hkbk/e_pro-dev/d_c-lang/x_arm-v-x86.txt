@@ -1,0 +1,4 @@
+"
+The C language itself is standardized and remains the same regardless of the hardware architecture, such as ARM or x86. However, the implementation of C compilers and the libraries provided may differ to accommodate the specific features, registers, and capabilities of each architecture. Additionally, low-level programming, such as inline assembly or architecture-specific optimizations, can vary between ARM and x86.
+"
+_

@@ -1,4 +1,7 @@
 
+ . malloc()		<stdlib.h>		depends on brk() , sbrk() , mmap()
+
+
 ===================================================================================
 FREQUENTLY USED SYSTEM CALLS 
 ===================================================================================
@@ -7,8 +10,6 @@ Frequently		C header file
    used			  in system		Notes 
 system calls		  directory
 -----------------------------------------------------------------------------------
-
- . malloc()		<stdlib.h>		depends on brk() , sbrk() , mmap()
  
  . brk()		<unistd.h>		internal calls : do_brk()
  

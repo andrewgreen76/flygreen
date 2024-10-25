@@ -1,4 +1,8 @@
 
+learn an important useful function
+ . practice using it
+ . deploy it in a project 
+
 I could just act like I know ISA interrupts and reg.vals for calls to
   the kernel and not bother with assembly. 
 
@@ -57,6 +61,7 @@ own loader (kernel's memory manager module ? )
 murmC
 mermC
 CyClone 
+murrhmOS
 antc
 mupho
 coopho

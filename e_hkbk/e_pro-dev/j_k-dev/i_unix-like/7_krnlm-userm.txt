@@ -51,7 +51,6 @@ User-mode activities :
  |
  . non-system calls 
    . user-level memory management ( malloc() , free() )
-   . using APIs
    . etc.
 
 

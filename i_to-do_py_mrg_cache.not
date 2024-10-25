@@ -7,9 +7,8 @@ the kernel and not bother with assembly.
 Do I want to fiddle with memory addresses or disk bytes ?
  | 
  . Memory :
- |  . 
- |  . no one process can do anything about any other process - memory protection 
- |  . DS , BSS , SS , heap 
+ |  . paging scheme : does not allow accessing abs_memaddr (even outside of a process) 
+ |  . mem.prot : can't access DS , BSS , SS , heap 
  |  > malloc() -> How does malloc() populate memory ?
  |  . treat mem like disk ; birth/death ~ populate/release <- a program that does that <- analyze malloc() 
  |

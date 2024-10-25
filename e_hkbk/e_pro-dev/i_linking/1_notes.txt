@@ -24,5 +24,8 @@ ELF linking :
  . statically linked = ?
  . stripped = ?
  . relocation = ?
+ . relocation information
+    . link to obj.file with the function
+    . call the function 
 
 _

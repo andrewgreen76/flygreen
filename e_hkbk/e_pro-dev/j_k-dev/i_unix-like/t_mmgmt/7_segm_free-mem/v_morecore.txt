@@ -1,0 +1,13 @@
+"
+The `morecore` function is a low-level memory allocation function used in the implementation of the C memory management functions, specifically in the context of the `malloc` and `free` functions. It is part of the memory allocator's internal mechanisms for obtaining more memory from the operating system when the current memory pool is insufficient.
+
+### Key Points:
+- **Purpose**: `morecore` is used to request additional memory from the operating system when the heap needs to grow to satisfy allocation requests.
+- **Implementation**: It is not part of the C standard library; instead, it is often found in custom memory management implementations or within the source code of allocators (like those used in systems programming).
+- **Usage**: When `malloc` or similar functions determine that there is not enough space in the free list, they may call `morecore` to allocate a larger block of memory. The actual system call used to allocate memory might be `sbrk`, `mmap`, or other platform-specific calls.
+- **Return Value**: `morecore` typically returns a pointer to the beginning of the newly allocated memory region or `NULL` if the request fails.
+
+### Example Context:
+While you may not call `morecore` directly in your C code, understanding its role can help in grasping how dynamic memory allocation works under the hood. For most applications, you would rely on the standard library functions like `malloc`, `calloc`, `realloc`, and `free`, which internally manage memory using `morecore` as needed.
+"
+_

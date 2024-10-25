@@ -1,13 +1,37 @@
 
- . Do I want to fiddle with memory addresses or disk bytes ?
- 
-    . Memory :
-       > malloc() -> How does malloc() populate memory ?
-       . treat mem like disk ; birth/death ~ populate/release <- a program that does that <- analyze malloc() 
-       
-    . Disk - a byte with no role (no ties to inodes)
-       $ sudo dd if=./[..].bin of=/dev/sd[?]
-       
+Do I want to fiddle with memory addresses or disk bytes ?
+ | 
+ . Memory :
+ |  . 
+ |  . no one process can do anything about any other process - memory protection 
+ |  . DS , BSS , SS , heap 
+ |  > malloc() -> How does malloc() populate memory ?
+ |  . treat mem like disk ; birth/death ~ populate/release <- a program that does that <- analyze malloc() 
+ |
+ . Disk - a byte with no role (no ties to inodes)
+    $ sudo dd if=./[..].bin of=/dev/sd[?]
+
+--------------------------------------------------------------------------
+own executor :
+ . execution of binaries - kernel's module/driver
+ . system calls : exec() family 
+ . look into their implementation 
+own loader (kernel's memory manager module ? ) 
+ . system calls : 
+ . look into their implementation 
+> own linker
+ . system calls : 
+ . look into their implementation 
+> own assembler
+ . system calls : 
+ . look into their implementation
+ . minimal [...] + self-hosting + C-hosting
+> murmC (minimal assembly + self-hosting) 
+  . impl murmC in C
+  . impl murmC in x86-asm 
+  . minimal assembly + self-hosting + C-hosting
+--------------------------------------------------------------------------
+
  . combining modules (preprocessor?)
  . resolving symbol addresses 
  . I understand how languages are abstracted ; now I want to know how programs are structured. 
@@ -15,16 +39,7 @@
  . ld on GitHub
  . dd, memset, etc. to write a byte to memory / disk. 
  . Write a linker in C. 
- . Everything is written in C. Write a C compiler in […] that can talk to C functions and assembly routines. 
-
-			implementation in [..?..]
-own executor (kernel?) 
-own loader
--> own linker
--> own assembler
--> murmC
-  . impl murmC in C
-  . impl murmC in x86-asm 
+ . Everything is written in C. Write a C compiler in [...] that can talk to C functions and assembly routines. 
 
 antc
 mupho

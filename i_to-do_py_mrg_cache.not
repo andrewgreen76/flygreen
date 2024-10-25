@@ -36,6 +36,8 @@ own loader (kernel's memory manager module ? )
 > murmC (minimal assembly + self-hosting)
   . own <unistd.h> and <fcntl.h>
   . own <stdio.h>
+  . own clone of GCC
+  . own clone of glibc
   . impl murmC in C
   . impl murmC in x86-asm 
   . minimal assembly + self-hosting + C-hosting

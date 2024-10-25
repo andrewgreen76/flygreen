@@ -10,10 +10,10 @@ learn an important useful function
     . (g)libc functions 
     . my (g)libc-based functions 
 
+==========================================================================
 I could just act like I know ISA interrupts and reg.vals for calls to
   the kernel and not bother with assembly. 
-
---------------------------------------------------------------------------
+==========================================================================
 
 Do I want to fiddle with memory addresses or disk bytes ?
  | 

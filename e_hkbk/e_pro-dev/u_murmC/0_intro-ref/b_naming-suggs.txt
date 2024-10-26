@@ -5,8 +5,13 @@ Rule of thumb #1 :
 
 Rule of thumb #2 :
  . You can use '_' to separate the ending noun from the rest of the identifier.
- . [..] spec_thing [..] 
- . Ex. : struct
+ |
+ . [..] spec_thing [..]
+ v struct cc_proc {};
+ x struct ccproc {};
+ |
+ . [..] thing_spec [..]
+ . void * block_moved = move_block();
 
 
 Though datatypes can help with understanding the identifiers , I'd have

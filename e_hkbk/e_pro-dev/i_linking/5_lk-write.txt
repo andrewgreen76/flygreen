@@ -1,0 +1,13 @@
+
+ . linkers and object files - NOT ISA-agnostic
+ => I want my linker to be able to produce executables for :
+    . x86
+    -> ARM Cortex-M
+    -> RISC-V
+    -> [my custom ISA] 
+ 
+ . linkers are typically implemented in a HLL like C
+ => a linker produces the executable , but it's the kernel that gets to store
+    the executable (and needs disk drivers for that) 
+
+_

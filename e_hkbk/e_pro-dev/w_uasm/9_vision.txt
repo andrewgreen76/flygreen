@@ -1,0 +1,21 @@
+
+........ ........ ........ ........
+
+garb_val = 1010101010101010 
+	   1010101010101010b 
+	   0xAA 0xAA 0xAA 0xAA 
+
+
+===================================================================================
+MISC. IDEAS 
+===================================================================================
+
+A two-way assembly :
+ . software that sends binaries to the hardware
+ . hardware that can be triggered to target address-specific binary code
+     in RAM and interpret (encode from , or retromap) the binary code -
+     - instruction fields - per this custom ISA's specifications 
+     within a process (which means this hardware should not allow for memory
+     protection) and send 
+
+_

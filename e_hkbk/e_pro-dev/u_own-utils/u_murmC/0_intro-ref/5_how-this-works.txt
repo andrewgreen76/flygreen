@@ -1,0 +1,12 @@
+
+ + You will be using GCC to create your own [Whatever_]compiler ("WCC").
+ . The GCC compiler's input files will be source files with names that must
+     end with ".c". You can develop your own compiler using GCC to take in
+     files with ".any_file_extension". 
+
+
+ - We will NOT be starting with minimal assembly to push towards a brand-spanking-new 
+     flavor of C. 
+ - We will NOT be implementing C system calls from scratch. 
+
+_

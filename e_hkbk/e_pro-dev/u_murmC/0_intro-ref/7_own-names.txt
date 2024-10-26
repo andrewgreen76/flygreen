@@ -1,4 +1,13 @@
 
+Cannot come up with .your_own_file_extension for source files to be fed
+  to GCC for building your own compiler ; GCC will not allow that. But
+  you can write your own compiler to accept files with .your_own_file_extension. 
+
+We can use GCC to build [ICC] and [ICC] will compile its own files. 
+
+
+===================================================================================
+
 e - education , eve , embedded 
 l - learn , 'l' before 'm' , lumin 
 c - C , compiler , command , chart , crystal , clear 
@@ -9,7 +18,8 @@ i - intelligible , incisive , intuitive , insightful ; incipient ; infantile ; i
     imperial ; inscriptions ; intrepid ; irregular ; imagination ; infinitesimal ; implementation ; idyllic 
 s - system , S.S. , ship , sail 
 f - firmware , fake , fantasy
-z - zero ; zebra ; zany 
+|
+o - omniclear ; open , "original" ; over-indulgent ; opal/opalescent ; opulent 
 
 What's taken : a-h , j-z
 What's not taken : i 
@@ -20,7 +30,8 @@ Variant		CC abbrev.	Shell command    Impl.file ext.							Hdr.file ext.
 
  . InciC	ICmpl		icc   		 v .ic	   							? .ih ?
 
- . OpenC	OCmpl		occ		 x .oc  - Esterel Compiler Automaton Code 
+ . OpenC	OCmpl		occ		 x .oc  - Esterel Compiler Automaton Code
+   OdyC 
 
  . EveC		EveCC		evec  		 x .ec	- old C format with embedded SQL ; C-style OOP lang.	-
 		ECC		ecc		 o .eve
@@ -28,6 +39,9 @@ Variant		CC abbrev.	Shell command    Impl.file ext.							Hdr.file ext.
 						 x .vc  - Verge Code File
 						 x .edc	- Kryptel Lite Encrypted File
 						 x .elc - Emacs Compiled Lisp File
+						 x .ecc - dvdisaster Error Correction File
+						   	  (and we will be writing C files for that compiler ,
+							  not C compiler files for that compiler) 
 
  . MemvigC	MCC		mcc		 x .mvc	- Movie Collector Catalog
    		MCmpl				 x .mvg	- Magick Vector Graphics File

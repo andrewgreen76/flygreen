@@ -23,12 +23,14 @@ The WadC language is a lazy, normal-order evaluated functional language with a s
 
 
 ===================================================================================
-MACRO EXPANSION  
+MACROS AND MACRO EXPANSION  
 ===================================================================================
 
-1) taking the INPUT WITHIN A "MACRO INVOCATION" USED IN THE PROGRAM
-2) EVALUATING TO THE MACRO (a.k.a. MACRO EXPRESSION , a.k.a. MACRO RULE 
+1) taking the input within a MACRO INVOCATION used in the program
+2) EVALUATING TO THE MACRO (a.k.a. MACRO EXPRESSION , a.k.a. MACRO RULE) 
 3) replacing the used invocation with the evaluated output 
+
+Macros are evaluated at compile time. 
 
 
 ===================================================================================

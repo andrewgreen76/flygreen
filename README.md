@@ -43,7 +43,8 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-Composing short but clear identifiers. 
+Composing short but clear identifiers 
+Macros in C 
 
 GDB :
  - ways to run it

@@ -3,21 +3,21 @@
 #include <stdio.h>
 
 
-struct cmpl_proc{
+struct ccproc{
   // Flags for file compilation. 
   int flags
 
-  struct cmpl_proc_infile{
-    FILE * fp;
+  struct infile{
+    FILE * fptr;
     const char * abspath;
-  } cmpl_file;
+  } ccfile;
 
-  FILE * out_file;
+  FILE * outfile;
 
 };
 
 
-int fcompile(const char * in_fname , const char * out_fname , int flags);
-
+int fcompile(const char * ifname , const char * ofname , int flags);
+struct ccproc * process = calloc(1 , sizeof(struct ccproc) );    // calloc() rets ptr to memory , all init'd w/ 0's.
 
 #endif

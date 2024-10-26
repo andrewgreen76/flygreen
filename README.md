@@ -44,7 +44,11 @@ TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
 Composing short but clear identifiers 
-Macros in C 
+Macros in C
+hardware security priorities :
+ . video memory protection 
+ . ALSA - for sound production in C
+    . how does ALSA shape sound from the hardware 
 
 GDB :
  - ways to run it

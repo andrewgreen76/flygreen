@@ -1,3 +1,0 @@
-
-A member variable or structure of a class. 
-_

@@ -1,0 +1,42 @@
+
+A language that relies almost exclusively on text replacement and evaluations. 
+
+
+===================================================================================
+WHAT IS A MACRO LANGUAGE ? 
+===================================================================================
+
+"
+a rule or pattern that specifies how a certain input should be mapped to a replacement output.
+"
+ - https://en.wikipedia.org/wiki/Macro_(computer_science) 
+
+
+===================================================================================
+EXAMPLES 
+===================================================================================
+
+"
+The WadC language is a lazy, normal-order evaluated functional language with a strong resemblance to a macro language. 
+"
+ - https://doomwiki.org/wiki/WadC
+
+
+===================================================================================
+MACRO EXPANSION  
+===================================================================================
+
+1) taking the INPUT WITHIN A "MACRO INVOCATION" USED IN THE PROGRAM
+2) EVALUATING TO THE MACRO (a.k.a. MACRO EXPRESSION , a.k.a. MACRO RULE 
+3) replacing the used invocation with the evaluated output 
+
+
+===================================================================================
+===================================================================================
+===================================================================================
+
+"
+A macro language is a type of programming language that allows users to define sequences of commands or code snippets that can be reused and expanded within a program, often enhancing automation and code organization.
+"
+
+_

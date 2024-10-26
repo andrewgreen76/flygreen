@@ -1,11 +1,78 @@
 
-Variant		Abbreviation	Shell command    Impl.file ext.							Hdr.file ext.
+e - education , eve , embedded 
+l - learn , 'l' before 'm' , lumin 
+c - C , compiler , command , chart , crystal , clear 
+m - mu (microtech , small) , memory , manipulate , myrmecology , map ,
+    mother , mermans and mermaids 
+n - nanoscopic , navigation
+i - intelligible , incisive , intuitive , insightful ; incipient ; infantile ; incubated ; in firmware ; integrated ;
+    imperial ; inscriptions ; intrepid ; irregular ; imagination ; infinitesimal ; implementation ; idyllic 
+s - system , S.S. , ship , sail 
+f - firmware , fake , fantasy
+z - zero ; zebra ; zany 
 
- . EveC		EveC		evec  		 x .ec	- old C format with embedded SQL			-
-						 o .eve
-						 r .evc
-						 x .vc  - Verge Code File 
-						 
+What's taken : a-h , j-z
+What's not taken : i 
+
+===================================================================================
+
+Variant		CC abbrev.	Shell command    Impl.file ext.							Hdr.file ext.
+
+ . InciC	ICmpl		icc   		 v .ic	   							? .ih ?
+
+ . OpenC	OCmpl		occ		 x .oc  - Esterel Compiler Automaton Code 
+
+ . EveC		EveCC		evec  		 x .ec	- old C format with embedded SQL ; C-style OOP lang.	-
+		ECC		ecc		 o .eve
+		ECmpl		ecmpl		 r .evc
+						 x .vc  - Verge Code File
+						 x .edc	- Kryptel Lite Encrypted File
+						 x .elc - Emacs Compiled Lisp File
+
+ . MemvigC	MCC		mcc		 x .mvc	- Movie Collector Catalog
+   		MCmpl				 x .mvg	- Magick Vector Graphics File
+   						 x .mav	- Access View File
+						 x .mmv	- MicroMV Video File
+
+ . NavigC	NCC		ncc		 x .nc	- Mastercam Numerical Control File
+   		NCmpl				 x .nvc	- NeroVision Express Project File
+						 x .ngc	- Xilinx Generated Netlist File
+						 x .nav	- Id Tech 3 Bot Navigation File
+						 o .nvg	
+
+ . ChartC	CCC		ccc   		 x .chc - HCFR Colormeter Data File
+   		CCmpl				 x .ccf - CryptLoad Container File
+						 x .cc	- C++ Source Code File
+						 x .crt	- Security Certificate
+						 x .crc	- Total Commander Checksum File
+						 x .ctc	- Visual Studio Command Table Configuration File
+						 x .sea	- Self-Extracting Archive
+						 x .cs	- C# Source Code File
+						 x .c3	- C3 Source Code
+						 x .clc - CLC Sequence Viewer / Genomics Workbench format (biomedicine) 
+						 o .ccl
+						 o .c3f
+						 o .c3l
+
+ . SailC	SCC		scc		 x .sc	- SuperCollider Source Code File
+   S.S.C	SCmpl		ssc		 x .slc	- Sokoban Level Collection File
+   						 x .ssc	- StepMania Song File
+						 o .sac
+						 o .sail
+
+ . WispC	WCC		wcc		 x .wc	- Valve Hammer Configuration File
+   						 x .wsc	- WonderSwan Color Game ROM
+						 x .wpc	- WordPad Converter File
+
+ . LurmC	LCC		lcc		 x .lcc - Capture One Lens Cast Correction File
+   LyreC					 r .lc 	- comment-oriented variant of C 
+
+ . Cyclone	CCC		ccc		 x .ccc - Dev-C++ Code Completion Cache
+   						 x .cl  - Cursor Library
+   						 o .ccl 
+
+ . AntesC	antcc		antc		 x .ac  - Autoconf Script					-
+
  . murmC	mcc		mcc		 -	   							.uh
 						 x .mc  - Minecraft script file , Molecular Constructor file 
 						 x .mrc - electron microscopy and tomography -related file ;
@@ -13,6 +80,7 @@ Variant		Abbreviation	Shell command    Impl.file ext.							Hdr.file ext.
 						 x .mmc - Microsoft Management Console file ;
 						   	  Microsoft Media Catalog
 						 x .mcl - (Windows) Media Center Link File
+						 x .m	- Objective-C source file 
 						 x .u	- Unreal Tournament Class Package
 						 x .uc	- UnrealScript class file
 						 x .ucl - Killing Floor System File
@@ -24,16 +92,16 @@ Variant		Abbreviation	Shell command    Impl.file ext.							Hdr.file ext.
 						 o .umc								o .urh
 
 
-
 1st compiler : 
- . eveC
+ . EveC
  . CyClone 
  . lurmC
+ . lermC
+ . murmC
+ . mermC
  . vurmC
  . wurmC
  . surmC
- . murmC
- . mermC
 2nd compiler : 
  . murmC
  . mermC

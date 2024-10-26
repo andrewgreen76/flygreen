@@ -3,7 +3,7 @@
 VARIANTS OF C 
 ===================================================================================
 
-Variant		Abbreviation	Shell command    Impl.file ext.    Hdr.file ext. 
+Variant		CC abbrev.	Shell command    Impl.file ext.    Hdr.file ext. 
 
  . GNU C 	GCC  		gcc   		 .c	   	   .h
  . Monkey C	-		monkeyc		 .mc		   - (hdr.content - in impl.)
@@ -16,7 +16,7 @@ Variant		Abbreviation	Shell command    Impl.file ext.    Hdr.file ext.
 OTHER LANGUAGES 
 ===================================================================================
 
-Language	Abbreviation	Shell command    Impl.file ext.    Hdr.file ext. 
+Language	CC abbrev.	Shell command    Impl.file ext.    Hdr.file ext. 
 
  . Objective-C	objc		clang 		 .m	   	   .h
  . Go		gc		go build	 .go		   -

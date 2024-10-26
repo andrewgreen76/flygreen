@@ -1,0 +1,27 @@
+
+===================================================================================
+THOUGHTS ON HOW AND WHEN TO CREATE MY OWN COMPILER 
+===================================================================================
+
+[??]		= your C compiler	~(cmp , comp , compl , cmpl)
+
+
+Q : What is my attitude towards writing my first C compiler ?
+Q : Do I want to write my second C compiler ? 
+
+
+My first C compiler :
+ . educational - clarity over brevity
+    . very standard , very vanilla
+    . in certain "compliance" with most other languages , especially C and the `make` utility
+    . ALL STUDENTS SHOULD LEARN THE SAME CODE-READING AND CODE-WRITING HABITS
+      (here imagination can get in our way) 
+    . developed to be small
+    . should stay small 
+ . but still my own - ideally with "the brand name" and preferred identifiers (if possible) 
+
+
+My second C compiler : 
+ . don't really want to write another one 
+
+_

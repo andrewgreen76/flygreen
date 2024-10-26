@@ -1,0 +1,80 @@
+
+Use '_' (underscore) if necessary. 
+
+
+===================================================================================
+THE DICTIONARY OF IDENTIFIERS - LEGEND 
+===================================================================================
+-----------------------------------------------------------------------------------
+identifier	= means			advise against  
+-----------------------------------------------------------------------------------
+
+===================================================================================
+BASICS : 
+===================================================================================
+
+value		= val			~(v)
+varv		= variable value	~(vv , vval)
+constv		= constant value	~(cv , cval)
+ch		= character		~(c , char , chr)
+
+arr , array	= array			~(a)
+
+
+===================================================================================
+FILES : 
+===================================================================================
+
+file		= file			~(f , fl , fil)
+fname		= fname			~(fn , fln , filen)
+ifile		= input file
+ofile		= output file
+
+in_fp		= input file pointer	? ifptr ? ifileptr ?
+out_fp		= output file pointer	? ofptr ? ofileptr ?
+ . Just read these as "file_handle". 
+
+in_fname	= input filename	~(infname , inflname)
+ifname
+
+out_fname	= output filename	~(outfname , outflname)
+ofname
+
+
+===================================================================================
+MISCELLANEOUS : 
+===================================================================================
+
+ptr		= pointer		~(p)
+
+proc		= process		~(p)
+
+
+===================================================================================
+COMPILERS : 
+===================================================================================
+
+cc		= C compiler		~(cmp , comp , compl , cmpl)
+gcc		= GNU C compiler	~
+rustc		= Rust compiler 	~(rsc , rc , rs)
+ccproc		= C compiler process 	~(ccp)
+mcc		= murmC , my compiler	~
+[??]		= your C compiler	~(cmp , comp , compl , cmpl)
+
+
+===================================================================================
+NOUN_ADJECTIVE - A BOOLEAN OR AN ITEM SPECIFICATION ? 
+===================================================================================
+
+is[..]		= (a boolean)		~
+(noun_adj_id)	= (specified somehow)	~
+					~(noun_adj)
+
+Example :
+ |
+ v is_action_done = [..]    // true/false 
+ v action_done_id = [..]    // what action has been done 
+ |
+ x action_done = [..]    // Is this a boolean or an object/variable num_id / str_name ? 
+
+_

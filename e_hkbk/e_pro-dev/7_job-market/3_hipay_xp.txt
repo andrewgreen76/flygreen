@@ -29,6 +29,7 @@ $80k+ SALARY - SKILLS AND EXPERIENCE
  . FPGA / MCU - design , bring-up
  . STM32 hardware 
  . C++ ; understanding of OOP concepts and OOP techniques in C++ (different types of polymorphism , etc.)
+ . high-speed signal integrity design , modeling , standards , validation 
  . Zynq , Blackfin , TI SOC DSP , co-processors 
  . IP protocols, hardware subsystems , interfaces
  . JTAG 

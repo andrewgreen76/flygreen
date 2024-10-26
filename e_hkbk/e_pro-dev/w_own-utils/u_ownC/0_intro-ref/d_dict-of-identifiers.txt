@@ -47,10 +47,12 @@ ofname	        = output filename	~(outfname , outflname)
 COMPILERS : 
 ===================================================================================
 
-cc		= C compiler		~(cmp , comp , compl , cmpl)
+compiler	= C compiler		~(cmp , comp , compl , cmpl , cc , ccompiler)
+
+cmprocess	= C compiler process 	~(ccp , ccprocess)
+
 gcc		= GNU C compiler	~
 rustc		= Rust compiler 	~(rsc , rc , rs)
-cc_proc		= C compiler process 	~(ccp)
 mcc		= murmC , my compiler	~
 [??]		= your C compiler	~
 

@@ -19,10 +19,14 @@ PHILOSOPHY BEHIND THE (FIRST) C COMPILER
  . ALL STUDENTS SHOULD LEARN THE SAME CODE-READING AND CODE-WRITING HABITS
     . CLARITY OVER BREVITY
   
- . STILL MY OWN ? : 
+ . STILL MY OWN ? :
+    |
     . "the brand name" : having "icc" all over the place would probably be unnecessary
     . "cc" is shorter than "icc" 
-    . however , we don't want to use "cc" as that suggests the original Unix C compiler 
+    -> however , we don't want to use "cc" as that suggests the original Unix C compiler
+    -> but having to write out the prefix brand in code and in the shell every time
+    |    makes for tedious writing (even in the shell before you get to `tab`) 
+    |
     . my preferred identifiers : will have to stick with frequently seen naming conventions 
 
 
@@ -32,7 +36,9 @@ PHILOSOPHY BEHIND THE (FIRST) C COMPILER
       as I'll be making some changes of my own 
  . educational - clarity over brevity
     . VERY STANDARD , VERY VANILLA
-    . in certain "compliance" with most other languages , especially C and the `make` utility
+    . in certain "compliance" with nomenclature in most other languages , especially C
+       . in the interest of avoiding conflicts between similar identifiers ,
+       	 we will not model our names after what we see with the `make` utility
     . ALL STUDENTS SHOULD LEARN THE SAME CODE-READING AND CODE-WRITING HABITS
       (sometimes individual imagination can get over-the-top and be in our way) 
     . developed to be small

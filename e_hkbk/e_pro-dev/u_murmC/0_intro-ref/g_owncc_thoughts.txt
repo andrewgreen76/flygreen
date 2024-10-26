@@ -32,7 +32,7 @@ PHILOSOPHY BEHIND THE (FIRST) C COMPILER
     . VERY STANDARD , VERY VANILLA
     . in certain "compliance" with most other languages , especially C and the `make` utility
     . ALL STUDENTS SHOULD LEARN THE SAME CODE-READING AND CODE-WRITING HABITS
-      (here individual imagination can get in our way) 
+      (sometimes individual imagination can get over-the-top and be in our way) 
     . developed to be small
     . should stay small 
  . but STILL MY OWN - IDEALLY WITH "THE BRAND NAME" and preferred identifiers (if possible) 

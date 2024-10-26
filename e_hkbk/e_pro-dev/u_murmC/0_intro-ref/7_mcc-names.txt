@@ -1,19 +1,27 @@
 
-Variant		Abbreviation	Shell command    File extension 
-murmC		mcc		mcc		 -
+Variant		Abbreviation	Shell command    Impl.file ext.							Hdr.file ext.
+
+ . EveC		EveC		evec  		 x .ec	- old C format with embedded SQL			-
+						 o .eve
+						 r .evc
+						 x .vc  - Verge Code File 
+						 
+ . murmC	mcc		mcc		 -	   							.uh
 						 x .mc  - Minecraft script file , Molecular Constructor file 
 						 x .mrc - electron microscopy and tomography -related file ;
 						   	  mIRC script 
 						 x .mmc - Microsoft Management Console file ;
 						   	  Microsoft Media Catalog
 						 x .mcl - (Windows) Media Center Link File
+						 x .u	- Unreal Tournament Class Package
 						 x .uc	- UnrealScript class file
 						 x .ucl - Killing Floor System File
 						 //
-						 o .mcc - (? . ?)
-						 o .ucc - (? UnCommon Code file ?) 
-						 o .urm	- (? . ?)
-						 o .umc - (? . ?)
+						 r .mcc
+						 r .ucc - (? UnCommon Code file ?)
+						 r .urc								o .urh
+						 r .urm								o .urh
+						 o .umc								o .urh
 
 
 

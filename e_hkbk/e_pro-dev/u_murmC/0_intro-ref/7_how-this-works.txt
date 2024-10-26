@@ -1,0 +1,8 @@
+
+ + You will be using GCC to create your own [Whatever_]compiler.
+ 
+ - We will NOT be starting with minimal assembly to push towards a brand-spanking-new 
+     flavor of C. 
+ - We will NOT be implementing C system calls from scratch. 
+
+_

@@ -21,8 +21,9 @@ FILES :
 
 file		= file			~(f , fl , fil)
 fname		= fname			~(fn , fln , filen)
-ifile		= input file
-ofile		= output file
+
+ifile		= input file		? in_file ?
+ofile		= output file		? out_file ? 
 
 ptr		= pointer		~(p)
 
@@ -30,14 +31,16 @@ in_fp		= input file pointer	? ifptr ? ifileptr ?
 out_fp		= output file pointer	? ofptr ? ofileptr ?
  . Just read these as "file_handle". 
 
-in_fname	= input filename	~(inf_name , infname , inflname)
-ifname
+ifname	        = input filename	~(inf_name , infname , inflname) 
+	  				? in_fname ?
 
-out_fname	= output filename	~(outfname , outflname)
-ofname
+ofname	        = output filename	~(outfname , outflname)
+		  	 		? out_fname ?
 
 
- . "_f" is preferred over "f_"
+ v "_f"
+ v "..f.."
+ x  "f_"
 
 
 ===================================================================================
@@ -49,7 +52,7 @@ gcc		= GNU C compiler	~
 rustc		= Rust compiler 	~(rsc , rc , rs)
 cc_proc		= C compiler process 	~(ccp)
 mcc		= murmC , my compiler	~
-[??]		= your C compiler	~(cmp , comp , compl , cmpl)
+[??]		= your C compiler	~
 
 
 ===================================================================================

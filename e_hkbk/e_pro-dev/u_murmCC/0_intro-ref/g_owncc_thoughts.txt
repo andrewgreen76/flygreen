@@ -10,19 +10,32 @@ Q : What is my attitude towards writing my first C compiler ?
 Q : Do I want to write my second C compiler ? 
 
 
-My (first) C compiler :
+===================================================================================
+PHILOSOPHY BEHIND THE (FIRST) C COMPILER 
+===================================================================================
+
+ . VERY STANDARD , VERY VANILLA
+
+ . ALL STUDENTS SHOULD LEARN THE SAME CODE-READING AND CODE-WRITING HABITS
+    . CLARITY OVER BREVITY
+  
+ . STILL MY OWN ? : 
+    . "the brand name" : having "mcc" all over the place would probably be unnecessary 
+    . my preferred identifiers : will have to stick with frequently seen naming conventions 
+
+
  . don't want to write another compiler - I'll be educating myself to educate others
     => will be following D. McCarthy's lead
     . nearly all of his code nuances will demand my full and undivided attention
       as I'll be making some changes of my own 
  . educational - clarity over brevity
-    . very standard , very vanilla
+    . VERY STANDARD , VERY VANILLA
     . in certain "compliance" with most other languages , especially C and the `make` utility
     . ALL STUDENTS SHOULD LEARN THE SAME CODE-READING AND CODE-WRITING HABITS
       (here individual imagination can get in our way) 
     . developed to be small
     . should stay small 
- . but still my own - ideally with "the brand name" and preferred identifiers (if possible) 
+ . but STILL MY OWN - IDEALLY WITH "THE BRAND NAME" and preferred identifiers (if possible) 
 
 
 ===================================================================================

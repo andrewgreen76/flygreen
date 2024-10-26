@@ -3,18 +3,18 @@
 #include <stdio.h>
 
 
-struct ccproc{
+typedef struct {
   // Flags for file compilation. 
   int flags
 
-  struct infile{
-    FILE * fptr;
+  struct ifile{
+    FILE * fp;
     const char * abspath;
   } ccfile;
 
-  FILE * outfile;
+  FILE * ofile;
 
-};
+} ccproc;
 
 
 int fcompile(const char * ifname , const char * ofname , int flags);

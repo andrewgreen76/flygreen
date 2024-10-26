@@ -1,10 +1,22 @@
 
 ===================================================================================
-SUGGESTION - UNDERSCORE ECONOMY :
+SUGGESTION - UNDERSCORE ECONOMY 
 ===================================================================================
 
 Use '_' (underscore) if it helps. The question is : Will it help others
   without making an overwhelming identifier ? 
+
+
+===================================================================================
+SUGGESTION - EXPAND-LAST-COLLAPSE-OTHER - TO QUICKLY BRING ESSENCE INTO FOCUS :
+===================================================================================
+
+Ex. : 
+ |
+ . inciC
+ . iccprocess
+ |
+ . except : ICC - more preferable than "iccompiler"  
 
 
 ===================================================================================
@@ -24,7 +36,11 @@ You can use '_' to separate the ending noun from the rest of the identifier.
 
 
 ===================================================================================
-SUGGESTION - KEEP STRUCT TYPE / OBJECT NAMES CLEAR :
+Suggestion - keep typenames SHORT and object names SHORTER :
+===================================================================================
+Suggestion - keep typenames and object names CLEAR :
+===================================================================================
+Suggestion - have var/arr/ptr/obj names reflecting the datatype :
 ===================================================================================
 
 Do not rely on datatypes for understanding identifiers. Identifiers look lost
@@ -38,10 +54,10 @@ Though datatypes can help with understanding the identifiers , I'd have
 
 Ex. :
   //
-  struct ccproc * ccp1;
+  struct ccprocess * ccproc1;
   //
   x ccp1 = ccp0;
-  v ccpr1 = ccpr0;
+  v ccproc1 = ccproc0;
 
 
 ===================================================================================

@@ -7,7 +7,10 @@
     -> [my custom ISA] 
  
  . linkers are typically implemented in a HLL like C
- => a linker produces the executable , but it's the kernel that gets to store
-    the executable (and needs disk drivers for that) 
+ 
+ . a linker - merely collates binary code in object files
+     and produces the executable
+ . the kernel - gets to store , load , and fire up the executable (and needs
+     disk drivers for that) 
 
 _

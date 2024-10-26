@@ -1,6 +1,6 @@
 
 ===================================================================================
-RULE OF THUMB - UNDERSCORE ECONOMY :
+SUGGESTION - UNDERSCORE ECONOMY :
 ===================================================================================
 
 Use '_' (underscore) if it helps. The question is : Will it help others
@@ -8,7 +8,7 @@ Use '_' (underscore) if it helps. The question is : Will it help others
 
 
 ===================================================================================
-RULE OF THUMB - UNDERSCORE TO QUICKLY BRING ESSENCE INTO FOCUS :
+SUGGESTION - UNDERSCORE TO QUICKLY BRING ESSENCE INTO FOCUS :
 ===================================================================================
 
 You can use '_' to separate the ending noun from the rest of the identifier.
@@ -24,7 +24,7 @@ You can use '_' to separate the ending noun from the rest of the identifier.
 
 
 ===================================================================================
-RULE OF THUMB :
+SUGGESTION - KEEP STRUCT TYPE / OBJECT NAMES CLEAR :
 ===================================================================================
 
 Do not rely on datatypes for understanding identifiers. Identifiers look lost
@@ -40,28 +40,26 @@ Ex. :
   //
   struct ccproc * ccp1;
   //
-  ccp1 = ccp0;
+  x ccp1 = ccp0;
+  v ccpr1 = ccpr0;
 
 
 ===================================================================================
-RULE OF THUMB :
+===================================================================================
+===================================================================================
+
+===================================================================================
+Minor suggestion - consistency between related identifiers :
 ===================================================================================
 
 It is also ideal to have consistency in your identifiers. It would certainly
-  make for easier reuse and modification of the code. 
+  make for easier reuse and modification of the code. This applies to underscore
+  positioning , the type of case you are using (CamelCase or snake_case) , etc.  
 
 
 Ex. :
   v struct ccproc * ccpr = ccproc_create();
   x struct cc_proc * ccpr = ccproc_create();
 
-
-===================================================================================
-RULE OF THUMB - NAMING `struct` OBJECTS :
-===================================================================================
-
-Ex. : 
-  v struct ccproc * ccp = ccproc_create();
-  x struct cc_proc * ccp = ccproc_create();
 
 _

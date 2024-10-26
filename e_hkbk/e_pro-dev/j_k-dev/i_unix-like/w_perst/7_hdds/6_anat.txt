@@ -48,4 +48,5 @@ Three stages of reading from / writing to (R/W) a disk :
     . worst-case scenario - near-full rotational delay
     . an expensive disk operation 
  . TRANSFER - R/W itself 
+
 _

@@ -1,0 +1,17 @@
+
+===================================================================================
+DISK ARMS AND THEIR MOVEMENT 
+===================================================================================
+
+"
+In a hard disk drive (HDD), all the read/write arms typically move together. This synchronized movement is controlled by a mechanism known as a **voice coil actuator**. 
+
+Here's how it works:
+
+- When the HDD accesses data, the actuator moves all the arms simultaneously to the correct cylinder (track) across all platters. This ensures that the read/write heads on all arms align with the same track across different platters.
+
+- While the arms are synchronized for vertical movement, the individual heads can read from or write to different sectors on their respective tracks independently once they are positioned correctly.
+
+This design helps improve the efficiency of data access since all heads can reach their intended positions at the same time, reducing seek time and improving performance.
+"
+_

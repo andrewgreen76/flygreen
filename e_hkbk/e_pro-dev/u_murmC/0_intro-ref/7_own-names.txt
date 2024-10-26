@@ -1,7 +1,8 @@
 
 Cannot come up with .your_own_file_extension for source files to be fed
-  to GCC for building your own compiler ; GCC will not allow that. But
-  you can write your own compiler to accept files with .your_own_file_extension. 
+  to GCC for building your own compiler ; GCC will not allow that and all
+  your GCC-accepted files must end with ".c" . However , you can write
+  your own compiler to accept files with .your_own_file_extension. 
 
 We can use GCC to build [ICC] and [ICC] will compile its own files. 
 

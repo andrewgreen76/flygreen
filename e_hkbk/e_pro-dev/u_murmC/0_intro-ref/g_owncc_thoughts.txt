@@ -20,7 +20,8 @@ PHILOSOPHY BEHIND THE (FIRST) C COMPILER
     . CLARITY OVER BREVITY
   
  . STILL MY OWN ? : 
-    . "the brand name" : having "mcc" all over the place would probably be unnecessary 
+    . "the brand name" : having "icc" all over the place would probably be unnecessary
+    . however , we don't want to use "cc" as that suggests the original Unix C compiler 
     . my preferred identifiers : will have to stick with frequently seen naming conventions 
 
 

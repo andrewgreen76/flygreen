@@ -12,7 +12,9 @@ Q : Do I want to write my second C compiler ?
 
 My (first) C compiler :
  . don't want to write another compiler - I'll be educating myself to educate others
- => will be following D. McCarthy's lead 
+    => will be following D. McCarthy's lead
+    . nearly all of his code nuances will demand my full and undivided attention
+      as I'll be making some changes of my own 
  . educational - clarity over brevity
     . very standard , very vanilla
     . in certain "compliance" with most other languages , especially C and the `make` utility

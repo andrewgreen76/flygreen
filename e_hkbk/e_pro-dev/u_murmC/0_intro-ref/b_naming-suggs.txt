@@ -1,21 +1,67 @@
 
-Rule of thumb #1 :
- . Use '_' (underscore) if necessary.
+===================================================================================
+RULE OF THUMB - UNDERSCORE ECONOMY :
+===================================================================================
+
+Use '_' (underscore) if it helps. The question is : Will it help others
+  without making an overwhelming identifier ? 
 
 
-Rule of thumb #2 :
- . You can use '_' to separate the ending noun from the rest of the identifier.
- |
+===================================================================================
+RULE OF THUMB - UNDERSCORE TO QUICKLY BRING ESSENCE INTO FOCUS :
+===================================================================================
+
+You can use '_' to separate the ending noun from the rest of the identifier.
+
+
  . [..] spec_thing [..]
  v struct cc_proc {};
  x struct ccproc {};
- |
+
+
  . [..] thing_spec [..]
  . void * block_moved = move_block();
 
 
+===================================================================================
+RULE OF THUMB :
+===================================================================================
+
+Do not rely on datatypes for understanding identifiers. Identifiers look lost
+  in the code that being read , even by you. 
+
 Though datatypes can help with understanding the identifiers , I'd have
   to think that it's still good practice to give clear , descriptive names
-  to variables , arrays/pointers , and structures. 
+  to variables , arrays/pointers , and structures , especially to the eyes
+  of someone new to your code. 
+
+
+Ex. :
+  //
+  struct ccproc * ccp1;
+  //
+  ccp1 = ccp0;
+
+
+===================================================================================
+RULE OF THUMB :
+===================================================================================
+
+It is also ideal to have consistency in your identifiers. It would certainly
+  make for easier reuse and modification of the code. 
+
+
+Ex. :
+  v struct ccproc * ccpr = ccproc_create();
+  x struct cc_proc * ccpr = ccproc_create();
+
+
+===================================================================================
+RULE OF THUMB - NAMING `struct` OBJECTS :
+===================================================================================
+
+Ex. : 
+  v struct ccproc * ccp = ccproc_create();
+  x struct cc_proc * ccp = ccproc_create();
 
 _

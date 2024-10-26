@@ -32,17 +32,20 @@ Variant		CC abbrev.	Shell command    Impl.file ext.							Hdr.file ext.
  . InciC	ICmpl		icc   		 v .ic	   							? .ih ?
 
  . OpenC	OCmpl		occ		 x .oc  - Esterel Compiler Automaton Code
-   OdyC 
+   OdyC 					 x .owc - OutWit Catch Database
 
  . EveC		EveCC		evec  		 x .ec	- old C format with embedded SQL ; C-style OOP lang.	-
-		ECC		ecc		 o .eve
-		ECmpl		ecmpl		 r .evc
-						 x .vc  - Verge Code File
-						 x .edc	- Kryptel Lite Encrypted File
+		ECC		ecc		 x .vc  - Verge Code File
+		ECmpl		ecmpl		 x .edc	- Kryptel Lite Encrypted File
 						 x .elc - Emacs Compiled Lisp File
 						 x .ecc - dvdisaster Error Correction File
 						   	  (and we will be writing C files for that compiler ,
-							  not C compiler files for that compiler) 
+							  not C compiler files for that compiler)
+						 r .evc
+						 x .0cc - 0CC-FamiTracker Module
+						 o .0c
+						 o .e0c
+						 o .eve
 
  . MemvigC	MCC		mcc		 x .mvc	- Movie Collector Catalog
    		MCmpl				 x .mvg	- Magick Vector Graphics File
@@ -100,6 +103,7 @@ Variant		CC abbrev.	Shell command    Impl.file ext.							Hdr.file ext.
 						 x .uc	- UnrealScript class file
 						 x .ucl - Killing Floor System File
 						 //
+						 v .m0c
 						 r .mcc
 						 r .ucc - (? UnCommon Code file ?)
 						 r .urc								o .urh

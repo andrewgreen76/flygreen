@@ -65,21 +65,6 @@ own loader (kernel's memory manager module ? )
  . Write a linker in C. 
  . Everything is written in C. Write a C compiler in [...] that can talk to C functions and assembly routines. 
 
-murmC
-mermC
-CyClone 
-murrhmOS
-antc
-mupho
-coopho
-coupho
-cpho
-ambroc
-cuice
-cooce
-pho
-elpho
-
 What is wrong with Intel :
  . the A20 line hack that led to compatibility nightmare 
 

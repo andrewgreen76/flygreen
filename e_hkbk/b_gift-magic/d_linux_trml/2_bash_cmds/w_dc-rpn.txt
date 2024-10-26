@@ -1,0 +1,27 @@
+
+opd0	# 1st operand goes first. 
+opd1	# 2nd operand goes second. 
+op	# The operation symbol FOLLOWS the operands (this is an RPN/postfix calculator). 
+p	# Prints the result.
+
+^D	# This is how you exit. 
+
+
+===================================================================================
+HISTORY (FROM WIKI) 
+===================================================================================
+
+"
+The PDP-11 assembler, a desk calculator dc, and B itself were written in B
+  to bootstrap the system to the PDP-11. Because it could run before the disk
+  had arrived, dc - not the assembler - became the first language to run on
+  our PDP-11. Soon revised to handle arbitrary-precision numbers (v1), dc was
+  taken over by Bob Morris and Lorinda Cherry. It now ranks as the senior
+  language on UNIX systems.
+"
+
+
+"
+Ken Thompson has opined that dc was the very first program written on the machine.
+"
+_

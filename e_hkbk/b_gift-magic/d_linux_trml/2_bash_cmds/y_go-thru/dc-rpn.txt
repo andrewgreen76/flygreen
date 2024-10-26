@@ -1,9 +1,0 @@
-
-opd0	# 1st operand goes first. 
-opd1	# 2nd operand goes second. 
-op	# The operation symbol FOLLOWS the operands (this is an RPN/postfix calculator). 
-p	# Prints the result.
-
-^D	# This is how you exit. 
-
-_

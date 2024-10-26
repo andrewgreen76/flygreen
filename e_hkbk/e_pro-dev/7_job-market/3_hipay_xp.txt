@@ -28,8 +28,9 @@ $80k+ SALARY - SKILLS AND EXPERIENCE
  . embedded toolchains and workflow 
  . FPGA / MCU - design , bring-up
  . STM32 hardware 
- . C++
- . IP protocols, hardware subsystems , interfaces 
+ . C++ ; understanding of OOP concepts and OOP techniques in C++ (different types of polymorphism , etc.) 
+ . IP protocols, hardware subsystems , interfaces
+ . cybersecurity related to embedded systems 
  . Jira / Confluence
  . Agile methodology 
  . ARM Cortex-M microcontrollers and their peripherals

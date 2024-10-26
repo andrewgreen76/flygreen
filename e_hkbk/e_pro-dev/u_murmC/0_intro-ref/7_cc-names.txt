@@ -1,0 +1,45 @@
+
+Variant		Abbreviation	Shell command    File extension 
+murmC		mcc		mcc		 -
+						 x .mc  - Minecraft script file , Molecular Constructor file 
+						 x .mrc - electron microscopy and tomography -related file ;
+						   	  mIRC script 
+						 x .mmc - Microsoft Management Console file ;
+						   	  Microsoft Media Catalog
+						 x .mcl - (Windows) Media Center Link File
+						 x .uc	- UnrealScript class file
+						 x .ucl - Killing Floor System File
+						 //
+						 o .mcc - (? . ?)
+						 o .ucc - (? UnCommon Code file ?) 
+						 o .urm	- (? . ?)
+						 o .umc - (? . ?)
+
+
+
+1st compiler : 
+ . eveC
+ . CyClone 
+ . lurmC
+ . vurmC
+ . wurmC
+ . surmC
+ . murmC
+ . mermC
+2nd compiler : 
+ . murmC
+ . mermC
+ 
+murrhmOS
+antc
+mupho
+coopho
+coupho
+cpho
+ambroc
+cuice
+cooce
+pho
+elpho
+
+_

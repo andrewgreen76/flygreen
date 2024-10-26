@@ -1,0 +1,19 @@
+
+===================================================================================
+VARIANTS OF C 
+===================================================================================
+
+Variant		Abbreviation	Shell command    Impl.file ext.    Hdr.file ext. 
+
+ . GNU C 	GCC  		gcc   		 .c	   	   .h
+ . Monkey C	-		monkeyc		 .mc		   - (hdr.content - in impl.)
+ . WadC	 	WadC 		wadc		 .wad		   - (hdr.content - in impl.)
+ . TinyC 	TCC 		tcc		 .c		   .h
+ . HolyC	-		??		 .hc		   .h
+
+
+===================================================================================
+OTHER LANGUAGES 
+===================================================================================
+
+_

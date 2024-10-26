@@ -1,20 +1,28 @@
 
 Hr.pay		Ann.pay		Yrs.XP	Title				Field/specialization		Key companies
 
+-----------------------------------------------------------------------------------------------------------------------------
+LOW-PAYING JOBS : 
+-----------------------------------------------------------------------------------------------------------------------------
 -		$38k			Stock Room/Assembler		PCB 				TTM Technologies 
 $20		$41k			Electronics Repair Technician	PCB
 $21		$43k			Assembler (entry-level)		PCB
 $28		$58k			PCB Design Engineer		PCB / semic.
 -		$68k			EE (Rotational Train. Prog.)	PCB
 -		$76k			RF Engineer			RF
-
+-----------------------------------------------------------------------------------------------------------------------------
+WELL-PAYING JOBS : 
+-----------------------------------------------------------------------------------------------------------------------------
 -		$80k			Product Test & Support Engr	embedded , PCB , programming
 $40		$83k			Kernel Developer       		OS/kernel 
 -		$90k			Apps Engr (TI Career Acc.Prog.)	embedded , semic.		Texas Instruments
--		$95k			Firmware Dev. (entry-level)	firmware   			IBM 
--		$100k			Firmware Engineer    		embedded   			Horiba Instruments
+-		$100k		2	Firmware Engineer    		embedded , Linux 		Horiba Instruments
 -		$120k		7	Staff Firmware Engineer		firmware/embedded
 - 		$140k		8	Embedded System Engineer 	firmware (+ hyperv , boot)	einfochips (Arrow) 
+-----------------------------------------------------------------------------------------------------------------------------
+EXPIRED JOB OPENINGS : 
+-----------------------------------------------------------------------------------------------------------------------------
+-		$95k			Firmware Dev. (entry-level)	firmware   			IBM 
 
 
 ========================================================================================

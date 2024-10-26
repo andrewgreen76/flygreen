@@ -13,11 +13,14 @@ $28		$58k			PCB Design Engineer		PCB / semic.
 -----------------------------------------------------------------------------------------------------------------------------
 WELL-PAYING JOBS : 
 -----------------------------------------------------------------------------------------------------------------------------
+-		$64k		4	Software Engineer		radars				Raytheon (Annapolis Junction , MD) 
 -		$80k			Product Test & Support Engr	embedded , PCB , programming
+-		$80k		3 	Firmware Engineer II - FPGA	FPGA , embedded microprocrs	Advanced Energy Industries, Inc. (Fort Collins , CO) 
 $40		$83k			Kernel Developer       		OS/kernel 
--		$90k			Apps Engr (TI Career Acc.Prog.)	embedded , semic.		Texas Instruments
--		$100k		2	Firmware Engineer    		embedded , Linux 		Horiba Instruments
--		$120k		7	Staff Firmware Engineer		firmware/embedded
+-		$90k			Apps Engr (TI Career Acc.Prog.)	embedded , semic.		Texas Instruments (Dallas , TX) 
+-		$100k		2	Firmware Engineer    		embedded , Linux 		Horiba Instruments (Piscataway , NJ ; Reno , NV)
+$50		$104k			Embedded Engineer		embedded , SoC , validation	Embtel Inc (Chandler, AZ)
+-		$120k		7	Staff Firmware Engineer		firmware/embedded		
 - 		$140k		8	Embedded System Engineer 	firmware (+ hyperv , boot)	einfochips (Arrow) 
 -----------------------------------------------------------------------------------------------------------------------------
 EXPIRED JOB OPENINGS : 

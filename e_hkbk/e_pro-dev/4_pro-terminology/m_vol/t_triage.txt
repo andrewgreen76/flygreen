@@ -1,0 +1,4 @@
+"
+In the context of hardware debugging, triage refers to the systematic process of prioritizing and addressing issues based on their severity, impact, and urgency to efficiently resolve hardware faults.
+"
+_

@@ -3,7 +3,7 @@
 $80k+ SALARY - SKILLS AND EXPERIENCE 
 ========================================================================================
 
- . USB, SPI, I2C, UART, GPIO , ADC , etc. - busses / peripherals (w/ microcontrollers) 
+ . USB, SPI, I2C, UART, GPIO ; DDR3/4 , IP cores , LIN , ADC , etc. - busses / peripherals (w/ microcontrollers) 
 	. Bash 
 	. C
 	. `make` 
@@ -23,14 +23,21 @@ $80k+ SALARY - SKILLS AND EXPERIENCE
  . signal conditioning , filters
  . control algorithms (PID , floating point filters)
  . bare-metal systems (w/o OS)
- . layout tools (Altium Schematic Capture , Altium Designer , KiCAD)
- . HW/SW integration , debugging
+ . layout tools (Altium Schematic Capture , Altium Designer , Cadence , Mentor , KiCAD)
+ . HW/SW integration , debugging , triage 
  . embedded toolchains and workflow 
  . FPGA / MCU - design , bring-up
  . STM32 hardware 
- . C++ ; understanding of OOP concepts and OOP techniques in C++ (different types of polymorphism , etc.) 
+ . C++ ; understanding of OOP concepts and OOP techniques in C++ (different types of polymorphism , etc.)
+ . Zynq , Blackfin , TI SOC DSP , co-processors 
  . IP protocols, hardware subsystems , interfaces
- . cybersecurity related to embedded systems 
+ . JTAG 
+ . cybersecurity related to embedded systems
+ . digital signal processing , digital image processing 
+ . Android (Debug Bridge) 
+ . fixed-point implementation
+ . MISRA (automotive safety processes , MISRA C) ; ASIL (four integrity levels in automotive systems) 
+ ----------------------------------------------------------------------------
  . Jira / Confluence
  . Agile methodology 
  . ARM Cortex-M microcontrollers and their peripherals

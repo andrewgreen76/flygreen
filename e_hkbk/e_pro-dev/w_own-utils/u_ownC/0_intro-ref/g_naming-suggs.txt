@@ -1,6 +1,6 @@
 
- . typedef struct abbrspec_fullthing {..};
- . abbrspec_fullthing abbrsp_thing; 
+ . typedef struct abracadabra_fullthing {..};
+ . abracadabra_fullthing abra_thing; 
 
 
 ===================================================================================

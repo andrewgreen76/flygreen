@@ -15,8 +15,8 @@ c - C , compiler , command , chart , crystal , clear
 m - mu (microtech , small) , memory , manipulate , myrmecology , map ,
     mother , mermans and mermaids 
 n - nanoscopic , navigation
-i - intelligible , incisive , intuitive , insightful ; incipient ; infantile ; incubated ; in firmware ; integrated ;
-    imperial ; inscriptions ; intrepid ; irregular ; imagination ; infinitesimal ; implementation ; idyllic 
+i - intelligible , incisive , intuitive , insightful ; incipient ; infantile ; introductory ; incubated ; in firmware ;
+    integrated ; imperial ; inscriptions ; intrepid ; irregular ; imagination ; infinitesimal ; implementation ; idyllic 
 s - system , S.S. , ship , sail 
 f - firmware , fake , fantasy
 |
@@ -30,17 +30,20 @@ What's not taken : i
 Variant		CC abbrev.	Shell command    Impl.file ext.							Hdr.file ext.
 
  . InciC	ICmpl		icc   		 v .ic	   							? .ih ?
+   						 r .1c
 
  . OpenC	OCmpl		occ		 x .oc  - Esterel Compiler Automaton Code
    OdyC 					 x .owc - OutWit Catch Database
+   						 x .onc	- Open Network Configuration
 
  . EveC		EveCC		evec  		 x .ec	- old C format with embedded SQL ; C-style OOP lang.	-
-		ECC		ecc		 x .vc  - Verge Code File
-		ECmpl		ecmpl		 x .edc	- Kryptel Lite Encrypted File
+   		ECC		ecc		 x .ev	- Echoview File
+		ECmpl		ecmpl		 x .vc  - Verge Code File
+				 		 x .edc	- Kryptel Lite Encrypted File
 						 x .elc - Emacs Compiled Lisp File
 						 x .ecc - dvdisaster Error Correction File
-						   	  (and we will be writing C files for that compiler ,
-							  not C compiler files for that compiler)
+						 //  	  (and we will be writing C files for that compiler ,
+						 //	  not C compiler files for that compiler)
 						 r .evc
 						 x .0cc - 0CC-FamiTracker Module
 						 o .0c

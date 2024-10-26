@@ -78,6 +78,6 @@ Example :
 MISCELLANEOUS : 
 ===================================================================================
 
-proc		= process		~(p)
+process		= process		~(p , proc - reminds of "procedure")
 
 _

@@ -8,14 +8,14 @@ Use '_' (underscore) if it helps. The question is : Will it help others
 
 
 ===================================================================================
-SUGGESTION - EXPAND-LAST-COLLAPSE-OTHER - TO QUICKLY BRING ESSENCE INTO FOCUS :
+SUGGESTION - EXPAND-LAST-COLLAPSE-OTHERS - TO QUICKLY BRING ESSENCE INTO FOCUS :
 ===================================================================================
 
 Ex. : 
  |
- . inciC
- . iccprocess
+ . typedef struct {} iccprocess;
  |
+ . except : inciC
  . except : ICC - more preferable than "iccompiler"  
 
 
@@ -42,6 +42,8 @@ Suggestion - keep typenames and object names CLEAR :
 ===================================================================================
 Suggestion - have var/arr/ptr/obj names reflecting the datatype :
 ===================================================================================
+Suggestion - underscores in typename , no underscores in var/arr/ptr/obj :
+===================================================================================
 
 Do not rely on datatypes for understanding identifiers. Identifiers look lost
   in the code that being read , even by you. 
@@ -52,12 +54,18 @@ Though datatypes can help with understanding the identifiers , I'd have
   of someone new to your code. 
 
 
-Ex. :
+Ex. : 
   //
   struct ccprocess * ccproc1;
   //
   x ccp1 = ccp0;
   v ccproc1 = ccproc0;
+
+
+Ex. :
+  // 
+  typedef struct {..} iccprocess;
+  iccprocess iccproc;
 
 
 ===================================================================================

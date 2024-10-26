@@ -43,6 +43,8 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Composing short but clear identifiers. 
+
 GDB :
  - ways to run it
  - basic commands

@@ -1,6 +1,10 @@
 
-An HDD can have 1+ platters. 
+An HDD has 1+ platters , with an arm for each platter. 
 
+
+===================================================================================
+PLATTERS - MAKEUP , STRUCTURE , RPM 
+===================================================================================
 
 Platter :
  . a circular storage medium
@@ -10,9 +14,10 @@ Platter :
  . secured with a single spindle connected to a motor
     . rotated counter-clockwise 
     . speed is measured with RPM (rotations per minute)
-    . 7,200-15,000 is the norm 
- |
- |
+    . 7,200-15,000 is the norm
+
+
+Platter structure : 
  . every PLATTER has two surfaces
  . every SURFACE has thousands of concentric circles - tracks
     . modern HDDs have millions of tracks 
@@ -29,6 +34,9 @@ Platter :
  . the disk ARM (a.k.a. actuator arm) moves the head
 
 
+===================================================================================
+STAGES OF READ/WRITE 
+===================================================================================
 
 Three stages of reading from / writing to (R/W) a disk :
  |

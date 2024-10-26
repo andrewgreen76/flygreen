@@ -1,5 +1,12 @@
 
- . typedef struct abracadabra_fullthing {..};
+typedef struct {
+  typedef struct {
+    .
+  }
+} cylinder;
+
+
+
  . abracadabra_fullthing abra_thing; 
 
 

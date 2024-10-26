@@ -1,9 +1,4 @@
 
-murmCC
-murmcc
-mcc
-cc
-
 learn an important useful function
  . practice using it
  . deploy it in a project
@@ -82,6 +77,8 @@ no longer able to do disk I/O in CHS way
  . will have to write a disk driver
 
 VanFOS - vanilla , free , open-source BIOS 
+
+HDD ARM ACTUATOR ~ EMBEDDED SYSTEMS / ROBOTICS 
 
 TTM Tech :
  . San Jose

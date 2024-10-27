@@ -1,3 +1,6 @@
+
+// Compiler-related structures for : tokens , nodes , etc. 
+
 #ifndef COMPILER_H
 #define COMPILER_H
 #include <stdio.h>
@@ -19,7 +22,7 @@ typedef struct {
 
 /*********************************** PROTOTYPES **********************************/
 
-int fcompile(const char * ifname , const char * ofname , int flags);
+int fcompile( char * ifname ,  char * ofname , int flags);
 cm_process * cmproc = calloc(1 , sizeof(cm_process) );    // calloc() rets ptr to memory , all init'd w/ 0's.
 
 #endif

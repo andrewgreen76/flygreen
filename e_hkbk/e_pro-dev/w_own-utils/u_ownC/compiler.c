@@ -1,7 +1,10 @@
-// Core compiler routines :
+
+// Core compiler routines.
+//
+// int flags : terms of compiling. Are we creating obj or exe ? 
 
 //#include "compiler.h"
 
-int fcompile(const char * ifname , const char * ofname , int flags){
+int fcompile(char * ifname , char * ofname , int flags){
   return 0;
 }

@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include "compiler.h"
 
-icc_process * icc_process_create(const char * ifname , const char * ofname , int flags){
+cmpl_process * icc_process_create(const char * ifname , const char * ofname , int flags){
   
   FILE * ifile = fopen(ifname , "r");
   if(!ifile) return NULL;    // No such file to compile - Right now by default the function returns NULL upon failure. 

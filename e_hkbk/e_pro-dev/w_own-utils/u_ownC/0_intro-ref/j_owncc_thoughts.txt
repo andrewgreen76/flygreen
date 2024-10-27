@@ -26,6 +26,7 @@ PHILOSOPHY BEHIND THE (FIRST) C COMPILER
     -> however , we don't want to use "cc" as that suggests the original Unix C compiler
     -> but having to write out the prefix brand in code and in the shell every time
     |    makes for tedious typing (even in the shell before you get to `tab`) 
+    => Let's NOT do identifier branding ! 
     |
     . my preferred identifiers : will have to stick with frequently seen naming conventions 
 

@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include "compiler.h"
 
-cmprocess * cmprocess_create( char * ifname ,  char * ofname , int flags){
+cmpl_process * cmpl_process_create(char * ifname ,  char * ofname , int flags){
   
   FILE * ifile = fopen(ifname , "r");
   if(!ifile) return NULL;    // No such file to compile - Right now by default the function returns NULL upon failure. 
@@ -17,10 +17,10 @@ cmprocess * cmprocess_create( char * ifname ,  char * ofname , int flags){
   }
 
   
-  cmprocess * cmprocess_a = calloc(1 , sizeof(cmprocess) );    // calloc() rets ptr to memory , all init'd w/ 0's.
-  cmprocess_a->flags = flags;
-  cmprocess_a->cm_file.fp = ifile;
-  cmprocess_a->out_file = ofile;
+  cmpl_process * cmproc = calloc(1 , sizeof(cmpl_process) );    // calloc() rets ptr to memory , all init'd w/ 0's.
+  cmproc->flags = flags;
+  cmproc->ifile.fp = ifile;
+  cmproc->ofile = ofile;
 
-  return cpr; 
+  return cmproc; 
 }

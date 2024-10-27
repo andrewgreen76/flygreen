@@ -11,7 +11,9 @@ typedef struct {
   } track;       // object: trks[]        // (trk *) could suggest multiple tracks. 
 } platter;       // object: platters[]    // (platter *) could suggest multiple platters. 
   		    	    		  // However , it's best to use [] to indicate plurality 
-					    // and * to indicate passing of an address. 
+					    // and * to indicate passing of an address.
+
+Hint : use '_0' , '_o' , or '_any' to denote that the item is an (unique) instance of the type. 
 
 
 ===================================================================================

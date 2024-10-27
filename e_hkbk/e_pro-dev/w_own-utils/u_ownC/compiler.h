@@ -14,7 +14,7 @@ typedef struct {
   typedef struct {
      FILE * fp;
      char * abspath;
-  } cmproc_ifile cmprc_if;
+  } cmproc_ifile cmpr_if;
 
   FILE * ofile;
 

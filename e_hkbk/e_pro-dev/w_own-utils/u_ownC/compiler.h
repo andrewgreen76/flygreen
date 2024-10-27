@@ -14,11 +14,11 @@ typedef struct {
   typedef struct {
      FILE * fp;
      char * abspath;
-  } cmproc_ifile cmpr_if;
+  } cmproc_ifile cmproc_ifile_a;
 
   FILE * ofile;
 
-} cm_process;
+} cmpl_process;
 
 /*********************************** PROTOTYPES **********************************/
 

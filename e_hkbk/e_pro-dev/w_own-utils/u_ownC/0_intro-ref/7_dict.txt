@@ -1,0 +1,9 @@
+
+cm - compiler
+proc - process
+ifname - input filename
+ofname - output filename
+ifile - input file
+ofile - output file
+
+_

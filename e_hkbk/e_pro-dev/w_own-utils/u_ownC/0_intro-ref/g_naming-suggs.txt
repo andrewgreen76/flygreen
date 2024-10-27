@@ -1,4 +1,9 @@
 
+compile process _ input file
+cpr_if
+cpr_ifile
+
+
 ===================================================================================
 Suggestion - figure out a way to distinguish between : type name vs. obj name  
 ===================================================================================
@@ -16,6 +21,8 @@ typedef struct {
 Hint : use '_0' , '_o' , or '_any' to denote that the item is an (unique) instance of the type. 
 
 
+===================================================================================
+Suggestion - write out verbs in full 
 ===================================================================================
 SUGGESTION - UNDERSCORE ECONOMY 
 ===================================================================================

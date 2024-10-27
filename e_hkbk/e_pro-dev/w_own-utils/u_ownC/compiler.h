@@ -8,13 +8,13 @@
 /*********************************** STRUCTURES **********************************/
 
 typedef struct {
-  // Flags for file compilation. 
+  // Flags for terms of file compilation. 
   int flags
 
-  struct ifile{
-    FILE * fp;
-    const char * abspath;
-  } cm_file;
+  typedef struct {
+     FILE * fp;
+     char * abspath;
+  } cmproc_ifile cmprc_if;
 
   FILE * ofile;
 

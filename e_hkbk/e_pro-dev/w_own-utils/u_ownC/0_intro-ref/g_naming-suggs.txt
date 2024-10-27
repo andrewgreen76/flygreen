@@ -1,4 +1,8 @@
 
+===================================================================================
+Suggestion - figure out a way to distinguish between : type name vs. obj name  
+===================================================================================
+
 typedef struct {
   typedef struct {
     typedef struct {

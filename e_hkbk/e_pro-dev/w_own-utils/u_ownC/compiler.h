@@ -14,15 +14,15 @@ typedef struct {
   typedef struct {
      FILE * fp;
      char * abspath;
-  } cmproc_ifile cmproc_ifile_a;
+  } cm_infile cm_infile_a;
 
-  FILE * ofile;
+  FILE * outfile;
 
-} cmproc;
+} cmprocess;
 
 /*********************************** PROTOTYPES **********************************/
 
-int fcompile( char * ifname ,  char * ofname , int flags);
-cmproc * cmproc_a = calloc(1 , sizeof(cmproc) );    // calloc() rets ptr to memory , all init'd w/ 0's.
+int fcompile( char * infname ,  char * outfname , int flags);
+cmprocess * cmprocess_a = calloc( 1 , sizeof(cmprocess) );    // calloc() rets ptr to memory , all init'd w/ 0's.
 
 #endif

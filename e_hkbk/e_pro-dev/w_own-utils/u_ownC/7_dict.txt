@@ -1,6 +1,7 @@
 
 cm - compiler
 proc - process
+cmproc - process 
 ifname - input filename
 ofname - output filename
 ifile - input file

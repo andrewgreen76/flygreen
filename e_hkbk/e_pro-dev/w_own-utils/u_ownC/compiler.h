@@ -11,15 +11,15 @@ typedef struct {
   struct ifile{
     FILE * fp;
     const char * abspath;
-  } icc_file;
+  } cm_file;
 
   FILE * ofile;
 
-} icc_process;
+} cm_process;
 
 /*********************************** PROTOTYPES **********************************/
 
 int fcompile(const char * ifname , const char * ofname , int flags);
-icc_process * iccproc = calloc(1 , sizeof(icc_process) );    // calloc() rets ptr to memory , all init'd w/ 0's.
+cm_process * cmproc = calloc(1 , sizeof(cm_process) );    // calloc() rets ptr to memory , all init'd w/ 0's.
 
 #endif

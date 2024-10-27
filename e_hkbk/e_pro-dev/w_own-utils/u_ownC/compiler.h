@@ -18,11 +18,11 @@ typedef struct {
 
   FILE * ofile;
 
-} cmpl_process;
+} cmproc;
 
 /*********************************** PROTOTYPES **********************************/
 
 int fcompile( char * ifname ,  char * ofname , int flags);
-cm_process * cmproc = calloc(1 , sizeof(cm_process) );    // calloc() rets ptr to memory , all init'd w/ 0's.
+cmproc * cmproc_a = calloc(1 , sizeof(cmproc) );    // calloc() rets ptr to memory , all init'd w/ 0's.
 
 #endif

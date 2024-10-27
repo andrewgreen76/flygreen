@@ -8,25 +8,26 @@
 #define CMPL_FAILURE 1
 
 #include <stdio.h>
+#include <stdlib.h>
 
 /*********************************** STRUCTURES **********************************/
 
-typedef struct {
+struct cmpl_process {
   // Flags for terms of file compilation. 
   int flags;
 
-  typedef struct {
+  struct cmpl_ifile {
      FILE * fp;
      char * abspath;
-  } cmpl_ifile ifile;
+  } ifile;
 
   FILE * ofile;
 
-} cmpl_process;
+};
 
 /*********************************** PROTOTYPES **********************************/
 
 int fcompile( char * ifname ,  char * ofname , int flags);
-cmpl_process * cmproc = calloc( 1 , sizeof(cmpl_process) );    // calloc() rets ptr to memory , all init'd w/ 0's.
+struct cmpl_process * cmpl_process_create(char * ifname ,  char * ofname , int flags);
 
 #endif

@@ -9,6 +9,11 @@ x86 assembly and kernel development. But ...
 Daniel has some stuff prepared for you , stuff that was NOT originally intended
 by Dennis Ritchie. You would think that Dennis had it all figured out , but
 Daniel has some wrapper objects and libraries , which makes me wonder whose
-foresight and/or understanding of the C programming language I should question. 
+foresight and/or understanding of the C programming language I should question.
+
+I will not be following through with Daniel's course. I will have to figure
+something out myself in the way of building a C compiler with a C compiler.
+Maybe all the while I will actually be getting to the root of GCC ... or not!
+We'll see how this goes. 
 
 _

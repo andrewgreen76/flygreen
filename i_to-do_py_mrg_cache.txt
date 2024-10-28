@@ -1,6 +1,11 @@
 
-minasm ascii-C-text processor
-minC ascii-C-byte processor 
+minasm2c ascii processor
+minC2C ascii processor 
+
+
+==========================================================================
+control signals <- [decod_logic] <- instr <- [mov_instr] [mapper_IC] [mapper] [mapper] ...  
+==========================================================================
 
 learn an important useful function
  . practice using it

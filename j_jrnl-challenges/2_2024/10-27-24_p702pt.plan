@@ -1,43 +1,14 @@
 
-=== 1/31/23, 2:57am PT:
+Fooh! ... It's been a while.
 
-Haven't written anything in here since June of last year. 
+Been going through Daniel McCarthy's "Build a C Compiler from Scratch" course.
+Before I go on , I'll say this : this man has terrific courses on learning
+x86 assembly and kernel development. But ...
 
-It's been a week and a half since the start of my spring semester as a re-admitted
-student at the University of Nevada, Reno for the Graduate Special program. I have
-grown to hate it really fast. The following is coming from my own personal experience
-and may have some things in it that you may not agree with.
+"Build a C Compiler from Scratch" course - it is not exactly from scratch ;
+Daniel has some stuff prepared for you , stuff that was NOT originally intended
+by Dennis Ritchie. You would think that Dennis had it all figured out , but
+Daniel has some wrapper objects and libraries , which makes me wonder whose
+foresight and/or understanding of the C programming language I should question. 
 
-Theories, proofs, and formal jargon for their own sakes. Attending in-class lectures
-in rooms and halls that feel like morgues populated with strangers, mostly zombies
-who seem afraid to be openly wrong. The lack of calling for creativity. Constant remin-
-ders that you are not in control. All the fun is sucked out of computer science and
-engineering. The pressure of having to deal with four-five different things within
-the same time frame. Is this what the STEM industry is like? You go to work and you
-have to attend five different jobs? No. Pick one thing and stick with it. 
-
-I think I understand now why people think of showering every time they feel disgusted
-with something. It's going to be a while before the psychic muck and slime of UNR gets
-completely washed off of my inner self. It took ten years for me to forget why formal
-education does not work for me. I would struggle to think of a thing more potent at
-inspiring loneliness than a post-secondary institution.
-
-Some thoughts for self: online (flexible, no strangers), UCLA, Santa Monica, Chicago,
-Austin, College Station, no theories, no pointless fancy terminology, no paperwork.
-
-So this is how it's going to be? I'm going to be a hobbyist and not earn a living from
-dealing with computer architecture? I need something like a tour, a sort of a "a day 
-in a life of a ..." to figure what my future career should be like. 
-
-My self-esteem isn't low enough for this 32-year-old man to waste valuable time on
-nothing but frustration and disappointment. All the joy is gone so long as we trade deep
-understanding for this rigid, ungodly structure of the arrangement they call education:
-four-six years with four-five classes per semester. 
-
-Now I don't know what I'm going to do with the rest of my life. I don't want to be a mu-
-sician because I do not feel comfortable making money off of music. So now I don't want
-to be a computer engineer because the projects I worked on would not be my own? ...
-... I actually felt physically ill and shuddered this very early morning. 
-
-=== assume End at today, 11:59pm PT 
-
+_

@@ -1,0 +1,9 @@
+"
+... `FILE *` holds a pointer to a `FILE` structure that contains information about the file stream, but it does not directly hold the address of the file loaded into memory; instead, it manages buffering and access to the file on disk.
+"
+
+
+"
+The `FILE` structure typically resides in the heap segment of a process, as it is usually allocated dynamically when a file is opened using functions like `fopen()`, which use `malloc()` or similar mechanisms to allocate memory for the `FILE` object.
+"
+_

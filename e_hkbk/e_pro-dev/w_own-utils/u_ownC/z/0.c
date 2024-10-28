@@ -1,16 +1,7 @@
+#include <stdio.h>
 
-struct mytype{
-  char b;
-};
-
-typedef struct{
-  char b;
-} mytype2;
-
-void main(){
-  struct mytype bob;
-  bob.b = 'a';
-  
-  mytype2 alice; // storage size of 'alice' isn't known 
-  alice.b = 'c';
+int main() {
+    printf("Size of FILE: %zu bytes\n", sizeof(FILE));
+    printf("Size of FILE * : %zu bytes\n", sizeof(FILE * ));
+    return 0;
 }

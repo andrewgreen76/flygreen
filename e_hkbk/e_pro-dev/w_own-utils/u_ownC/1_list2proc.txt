@@ -1,0 +1,47 @@
+
+Tokens : anything
+ |
+ . special characters :
+    ~
+    `
+    !
+    @
+    #
+    $
+    %
+    ^
+    &
+    *
+    (
+    )
+    -
+    _
+    +
+    =
+    {
+    [
+    }
+    ]
+    |
+    \
+    :
+    ;
+    "
+    '
+    <
+    ,
+    >
+    .
+    ?
+    /
+    
+ |
+ . macros : 
+ |  . preproc dirvs
+ |
+ . keywords
+ . dtypes
+ . identifiers
+ / 
+
+_

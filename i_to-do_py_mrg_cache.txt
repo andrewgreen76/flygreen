@@ -1,6 +1,6 @@
 
-minasm C-text processor
-minC C-byte processor 
+minasm ascii-C-text processor
+minC ascii-C-byte processor 
 
 learn an important useful function
  . practice using it

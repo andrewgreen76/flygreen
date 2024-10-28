@@ -1,6 +1,12 @@
 
+instr : memsrc -> ?macromap_ascii? -> ascii 
+ascii_populate 
 minasm2c ascii processor
 minC2C ascii processor 
+instr : vid/getcin -> buf -> ?micromap_ascii? -> looks into the bits
+|
+atomic BIOS services / kernel driver services
+ . mapping req.vid.data -> video.buf 
 
 
 ==========================================================================

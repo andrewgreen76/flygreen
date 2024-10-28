@@ -16,12 +16,13 @@ struct cmpl_process {
   // Flags for terms of file compilation. 
   int flags;
 
-  struct cmpl_ifile {
+  struct cmpl_file {
      FILE * fp;
      char * abspath;
-  } ifile;
+  };
 
-  FILE * ofile;
+  cmpl_file ifile;
+  cmpl_file ofile;
 
 };
 

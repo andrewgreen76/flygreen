@@ -1,0 +1,19 @@
+
+Fooh! ... It's been a while.
+
+Been going through Daniel McCarthy's "Build a C Compiler from Scratch" course.
+Before I go on , I'll say this : this man has terrific courses on learning
+x86 assembly and kernel development. But ...
+
+"Build a C Compiler from Scratch" course - it is not exactly from scratch ;
+Daniel has some stuff prepared for you , stuff that was NOT originally intended
+by Dennis Ritchie. You would think that Dennis had it all figured out , but
+Daniel has some wrapper objects and libraries , which makes me wonder whose
+foresight and/or understanding of the C programming language I should question.
+
+I will not be following through with Daniel's course. I will have to figure
+something out myself in the way of building a C compiler with a C compiler.
+Maybe all the while I will actually be getting to the root of GCC ... or not!
+We'll see how this goes. 
+
+_

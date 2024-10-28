@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include "compiler.h"
 
-struct cmpl_process * cmpl_process_create(char * ifname ,  char * ofname , int flags){
+cmpl_process * cmpl_process_create(char * ifname ,  char * ofname , int flags){
   
   FILE * ifid = fopen(ifname , "r");
   if(!ifid) return NULL;    // No such file to compile - Right now by default the function returns NULL upon failure. 
@@ -18,7 +18,7 @@ struct cmpl_process * cmpl_process_create(char * ifname ,  char * ofname , int f
   }
 
   
-  struct cmpl_process * cmproc = calloc(1 , sizeof(struct cmpl_process) );    // calloc() rets ptr to memory , all init'd w/ 0's.
+  cmpl_process * cmproc = calloc(1 , sizeof(cmpl_process) );    // calloc() rets ptr to memory , all init'd w/ 0's.
   cmproc->flags = flags;
   cmproc->ifile.fid = ifid;
   cmproc->ofile.fid = ofid;

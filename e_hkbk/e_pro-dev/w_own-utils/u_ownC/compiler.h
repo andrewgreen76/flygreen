@@ -12,23 +12,23 @@
 
 /*********************************** STRUCTURES **********************************/
 
-struct cmpl_file {
+typedef struct {
    FILE * fid;
    char * abspath;
-};
+} cmpl_file ;
 
-struct cmpl_process {
+typedef struct {
   // Flags for terms of file compilation. 
   int flags;
-
+  
   cmpl_file ifile;
   cmpl_file ofile;
-
-};
+  
+} cmpl_process ;
 
 /*********************************** PROTOTYPES **********************************/
 
 int fcompile( char * ifname ,  char * ofname , int flags);
-struct cmpl_process * cmpl_process_create(char * ifname ,  char * ofname , int flags);
+cmpl_process * cmpl_process_create(char * ifname ,  char * ofname , int flags);
 
 #endif

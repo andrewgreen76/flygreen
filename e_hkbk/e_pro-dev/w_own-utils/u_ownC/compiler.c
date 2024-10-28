@@ -7,7 +7,7 @@
 
 int fcompile(char * ifname , char * ofname , int flags){
 
-  struct cmpl_process * cmproc = cmpl_process_create(ifname , ofname , flags);
+  cmpl_process * cmproc = cmpl_process_create(ifname , ofname , flags);
   if(!cmproc) return CMPL_FAILURE;
 
   // Lex.anls : 

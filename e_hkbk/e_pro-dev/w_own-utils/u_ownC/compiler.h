@@ -17,7 +17,7 @@ struct cmpl_process {
   int flags;
 
   struct cmpl_file {
-     FILE * fp;
+     FILE * fid;
      char * abspath;
   };
 

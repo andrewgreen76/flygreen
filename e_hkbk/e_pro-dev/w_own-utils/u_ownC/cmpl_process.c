@@ -20,8 +20,9 @@ struct cmpl_process * cmpl_process_create(char * ifname ,  char * ofname , int f
   
   struct cmpl_process * cmproc = calloc(1 , sizeof(struct cmpl_process) );    // calloc() rets ptr to memory , all init'd w/ 0's.
   cmproc->flags = flags;
-  cmproc->ifile.fp = ifile;
-  cmproc->ofile = ofile;
+  cmproc->ifile.fid = ifile;
+  cmproc->ofile.fid = ofile;
 
+  
   return cmproc; 
 }

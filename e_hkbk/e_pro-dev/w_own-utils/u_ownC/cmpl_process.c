@@ -7,21 +7,21 @@
 
 struct cmpl_process * cmpl_process_create(char * ifname ,  char * ofname , int flags){
   
-  FILE * ifile = fopen(ifname , "r");
-  if(!ifile) return NULL;    // No such file to compile - Right now by default the function returns NULL upon failure. 
+  FILE * ifid = fopen(ifname , "r");
+  if(!ifid) return NULL;    // No such file to compile - Right now by default the function returns NULL upon failure. 
 
   
-  FILE * ofile = NULL;
+  FILE * ofid = NULL;
   if(ofname){    // if (nameprovided) ? to output file : to terminal. 
-    ofile = fopen(ofname , "w");
-    if(!ofile) return NULL;    // If bad path or bad permissions. 
+    ofid = fopen(ofname , "w");
+    if(!ofid) return NULL;    // If bad path or bad permissions. 
   }
 
   
   struct cmpl_process * cmproc = calloc(1 , sizeof(struct cmpl_process) );    // calloc() rets ptr to memory , all init'd w/ 0's.
   cmproc->flags = flags;
-  cmproc->ifile.fid = ifile;
-  cmproc->ofile.fid = ofile;
+  cmproc->ifile.fid = ifid;
+  cmproc->ofile.fid = ofid;
 
   
   return cmproc; 

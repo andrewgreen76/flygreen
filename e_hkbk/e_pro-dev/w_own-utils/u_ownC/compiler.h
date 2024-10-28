@@ -12,14 +12,14 @@
 
 /*********************************** STRUCTURES **********************************/
 
+struct cmpl_file {
+   FILE * fid;
+   char * abspath;
+};
+
 struct cmpl_process {
   // Flags for terms of file compilation. 
   int flags;
-
-  struct cmpl_file {
-     FILE * fid;
-     char * abspath;
-  };
 
   cmpl_file ifile;
   cmpl_file ofile;

@@ -1,8 +1,9 @@
 
 Automaton :
  |
+ . a model for a text-processing program/machine 
  . an ABSTRACT for a machine
- . input - string
+ . input : a string
  . state
  . input processing rule
  |

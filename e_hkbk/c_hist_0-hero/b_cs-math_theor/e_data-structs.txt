@@ -1,0 +1,8 @@
+
+ . sets
+ . mathematical sets
+ . dynamic sets
+    . sets that can grow and be manipulated by algorithms
+    . dictionaries 
+
+_

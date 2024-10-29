@@ -52,7 +52,7 @@ gdt_code:
 	dw 0xffff 		
 	dw 0 			
 	db 0 			
-	db 0x9a			 
+	db 0x9a			; access byte with bit-fields ; exec bit is set <= this is a code selector  
 	db 11001111b		
 	db 0 			
 ;; GDT:0x10 = 16 = other seg.descrs
@@ -60,7 +60,7 @@ gdt_data:
 	dw 0xffff 		
 	dw 0 			
 	db 0 			
-	db 0x92			 
+	db 0x92			; access byte with bit-fields ; exec bit is cleared <= this is a data selector  
 	db 11001111b		
 	db 0 			
 gdt_end:

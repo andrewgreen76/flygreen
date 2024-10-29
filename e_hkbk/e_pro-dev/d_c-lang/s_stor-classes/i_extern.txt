@@ -1,0 +1,20 @@
+"
+In C, function prototypes are implicitly considered `extern` by default, meaning that you don't need to explicitly specify the `extern` keyword for them to be treated as external functions. 
+
+When you declare functions in a header file like this:
+
+```c
+unsigned char insb(unsigned short port);
+unsigned short insw(unsigned short port);
+
+void outb(unsigned short port, unsigned char val);
+void outw(unsigned short port, unsigned short val);
+```
+
+These declarations are automatically treated as `extern` because they specify that the functions are defined elsewhere (in your case, likely in your assembly code). 
+
+The `extern` keyword is mainly used for clarity when you're defining global variables or when you want to be explicit about the linkage of a function, but it's not necessary for function prototypes. So your header file is correctly set up for declaring the functions, and the prototypes will work just fine without `extern`.
+
+Using `#ifndef`, `#define`, and `#endif` in your header file is a good practice for preventing multiple inclusions, which can help avoid redefinition errors during compilation.
+"
+_

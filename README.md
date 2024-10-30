@@ -43,12 +43,16 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-Composing short but clear identifiers 
-Macros in C
-hardware security priorities :
+A brief overview of data structures , discrete mathematics , automata theory ,
+  and algorithms in the context of hardware design and verification , OS
+  development , compiler theory and compiler design , game development , and
+  networking (database theory and implementation as well as security/cryptography). 
+Hardware security priorities :
  . video memory protection 
  . ALSA - for sound production in C
     . how does ALSA shape sound from the hardware 
+Macros in C
+Composing short but clear identifiers 
 
 GDB :
  - ways to run it

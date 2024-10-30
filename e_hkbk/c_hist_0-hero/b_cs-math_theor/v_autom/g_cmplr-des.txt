@@ -1,0 +1,4 @@
+"
+A compiler is not a type of automata, but it uses automata concepts and algorithms, such as finite automata and context-free grammars, to analyze and translate source code into machine code.
+"
+_

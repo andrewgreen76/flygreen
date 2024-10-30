@@ -8,5 +8,6 @@ Automaton :
  . input processing rule
  |
  |
- ? thought of as one with grammar and formal language ?? 
+ ? thought of as one with grammar and formal language ??
+
 _

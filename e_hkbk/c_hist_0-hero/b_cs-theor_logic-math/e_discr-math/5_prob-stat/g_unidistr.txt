@@ -1,0 +1,4 @@
+"
+Yes, the formal name for a condition where there is no bias and every item has an equal likelihood of occurring is called a **uniform distribution**.
+"
+_

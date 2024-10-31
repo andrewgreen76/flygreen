@@ -43,6 +43,7 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Discrete mathematics : combinatorics : permutation vs. combination 
 Expanding on the C random number generator (with an inadvertent numerical bias) 
 A brief overview of data structures , discrete mathematics , automata theory ,
   and algorithms in the context of hardware design and verification , OS

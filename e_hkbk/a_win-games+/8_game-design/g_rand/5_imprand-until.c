@@ -83,9 +83,4 @@ int kbhit() {
         to be 0, but that is because one launch of the program leads to innumerable 
         generation iterations, raising the likelihood of occurrence of 0. 
 
-   . I should implement a way for the program to exit gracefully without having 
-       the user to rely on Ctrl+C every time. This would mean integrating an unwieldy 
-       piece of code which involves `termios` and is expected to do only one thing - 
-       - allowing the program to continue and not exit until a key is pressed. 
-
 */

@@ -1,4 +1,11 @@
 
+game theory : making small games within larger games 
+
+If you can't apply it , you can't appreciate it. If you can't appreciate it ,
+  you can't learn it. Then you are just guessing how to scribble correctly
+  while futzing around with numbers and funny characters. 
+
+
 ==========================================================================
 HARDWARE STATES : 
 ==========================================================================

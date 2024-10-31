@@ -1,60 +1,41 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <unistd.h>
 #include <termios.h>
 #include <fcntl.h>
 
-// Function to set terminal to non-blocking mode
-void setNonBlockingMode() {
-    struct termios oldt, newt;
-    tcgetattr(STDIN_FILENO, &oldt);
-    newt = oldt;
-    newt.c_lflag &= ~(ICANON | ECHO); // Disable canonical mode and echo
-    tcsetattr(STDIN_FILENO, TCSANOW, &newt);
-}
-
-// Function to reset terminal settings
-void resetTerminal(struct termios *oldt) {
-    tcsetattr(STDIN_FILENO, TCSANOW, oldt);
-}
-
-// Function to check if a key is pressed
 int kbhit() {
-    int oldf, newf;
-    oldf = fcntl(STDIN_FILENO, F_GETFL); // Get current flags
-    newf = oldf | O_NONBLOCK;            // Set non-blocking mode
-    fcntl(STDIN_FILENO, F_SETFL, newf);  // Apply non-blocking mode
+    struct termios oldt, newt;
+    int oldf;
 
-    char ch;
-    int result = read(STDIN_FILENO, &ch, 1); // Read a character
-    fcntl(STDIN_FILENO, F_SETFL, oldf);      // Restore old flags
+    tcgetattr(0, &oldt);
+    newt = oldt;
+    newt.c_lflag &= ~(ICANON | ECHO);
+    tcsetattr(0, TCSANOW, &newt);
+    oldf = fcntl(0, F_GETFL, 0);
+    fcntl(0, F_SETFL, oldf | O_NONBLOCK);
 
-    if (result == -1) {
-        return 0; // No key pressed
-    } else {
-        return 1; // Key was pressed
+    int ch = getchar();
+
+    tcsetattr(0, TCSANOW, &oldt);
+    fcntl(0, F_SETFL, oldf);
+
+    if(ch != EOF) {
+        ungetc(ch, stdin);
+        return 1;
     }
+
+    return 0;
 }
 
 int main() {
-    struct termios oldt;
-    tcgetattr(STDIN_FILENO, &oldt); // Save old terminal settings
-    setNonBlockingMode();            // Set non-blocking mode
+    const int iterations = 10;
 
-    printf("Press any key to exit...\n");
-
-    while (1) {
+    for (int i = 1; i <= iterations; i++) {
         if (kbhit()) {
-            char ch = getchar(); // Get the pressed key
-            printf("Key pressed: %c\n", ch);
-            break; // Exit loop on key press
+            break;
         }
-
-        // Perform other tasks here
-        // Simulating work with sleep
-        usleep(100000); // Sleep for 100ms (0.1 seconds)
+        sleep(1);
     }
 
-    resetTerminal(&oldt); // Reset terminal settings
     return 0;
 }

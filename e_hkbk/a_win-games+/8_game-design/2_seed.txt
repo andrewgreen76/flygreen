@@ -1,0 +1,9 @@
+"
+A seed is an initial value used to initialize a pseudo-random number generator, ensuring that the sequence of random numbers generated can be reproduced by using the same seed value.
+"
+
+
+"
+A pseudo-random number generator (PRNG) uses mathematical algorithms and the seed value to produce a deterministic sequence of numbers that simulates randomness, allowing for repeatable results when the same seed is used.
+"
+_

@@ -12,7 +12,7 @@ There are two different kinds of structures : mathematical and logical.
 MATHEMATICAL STRUCTURE 
 ===================================================================================
 
- . 
+ . data structure 
 
 
 ===================================================================================

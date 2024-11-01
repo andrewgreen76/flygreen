@@ -3,8 +3,8 @@
 WHAT IS AN AUTOMATON : 
 ========================================================================================
 
- . dream machine
- . study of patterns (in string processing , behavior , etc.)
+ . dream machine - a model for a device or a piece of software 
+ . processes patterns (in string processing , behavior , etc.)
  => dreaming about a computer that can process things
  |
  |

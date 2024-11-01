@@ -1,0 +1,17 @@
+
+===================================================================================
+FORMAL LANGUAGE 
+===================================================================================
+
+ . a comprehensive collection of all formal symbols for communicating
+   problem-solving ideas
+
+"
+... there are many formal languages, each designed for specific purposes, such as programming languages, mathematical logic, and formal specification languages. Each has its own set of symbols and rules tailored to the needs of its domain.
+"
+ |
+ . programming languages
+ . mathematical logic
+ . formal specification languages
+ 
+_

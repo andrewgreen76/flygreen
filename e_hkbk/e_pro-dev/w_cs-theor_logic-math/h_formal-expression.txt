@@ -1,0 +1,9 @@
+
+===================================================================================
+WHAT IS A FORMAL EXPRESSION ? 
+===================================================================================
+
+ . a truth statement 
+ . a statement that expresses a truth about some items and/or a set or sets 
+
+_

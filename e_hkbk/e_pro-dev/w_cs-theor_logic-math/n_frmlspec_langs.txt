@@ -1,0 +1,14 @@
+
+===================================================================================
+FORMAL SPECIFICATION LANGUAGES 
+===================================================================================
+
+Examples : 
+ . Z notation - "describing and modeling computing systems mathematically"
+ . Alloy
+ . B - "uses a mathematical notation to specify, design, and verify systems,
+        focusing on the correctness of software through formal proofs and
+	refinement processes"
+ . VDM (Vienna Development Method) 
+ 
+_

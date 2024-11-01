@@ -1,10 +1,10 @@
 
 ===================================================================================
-FORMAL RELATIONSHIP IN APPLIED COMPUTER SCIENCE 
+WHAT IS A (FORMAL) RELATIONSHIP IN APPLIED COMPUTER SCIENCE 
 ===================================================================================
 
  . between data types and operations 
- . how one item (token) makes an impact on another item 
+ . how one item (token) "makes an impact" on another item 
  . how one item determines something about another item 
  . what is true(/false) about the two items 
 
@@ -21,4 +21,15 @@ Other examples :
 "
 While the relationship between data types and operations is a prominent example, formal relationships can also be seen in areas like database schemas and integrity constraints, where the structure and rules governing data relationships ensure consistency and validity within a database system.
 "
+
+===================================================================================
+FORMULATING THOUGHTS ABOUT RELATIONSHIPS BETWEEN ITEMS - WITH FORMAL LANGUAGES 
+===================================================================================
+
+Formal languages are languages of thought about items and sets - strings in
+  code , nodes in a network , etc. - for computer scientists. 
+
+We use formal languages (prepositional logic expressions , predicate logic)
+  to formulate our thoughts about items and sets in computer science. 
+
 _

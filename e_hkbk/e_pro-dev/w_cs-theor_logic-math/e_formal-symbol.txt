@@ -7,6 +7,10 @@ FORMAL SYMBOL
    logical) object or concept 
 
 
+===================================================================================
+EXAMPLES OF FORMAL SYMBOLS 
+===================================================================================
+
 Formal symbols in prepositional logic :
 
 Propositional Variables: P,Q,R, ... (representing statements)
@@ -18,25 +22,26 @@ Biconditional: ↔ (if and only if)
 Truth: ⊤ (true)
 Falsity: ⊥ (false)
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 Formal symbols in predicate logic :
 
-Predicate Variables: P(x),Q(x,y),…P(x),Q(x,y),… (representing properties or relations)
+Predicate Variables: P(x), Q(x,y), ... (representing properties or relations)
 Quantifiers:
 
-    Universal Quantifier: ∀∀ (for all)
-    Existential Quantifier: ∃∃ (there exists)
+    Universal Quantifier: ∀ (for all)
+    Existential Quantifier: ∃ (there exists)
 
 Logical Connectives:
 
-    Negation: ¬¬ (not)
-    Conjunction: ∧∧ (and)
-    Disjunction: ∨∨ (or)
-    Implication: →→ (implies)
-    Biconditional: ↔↔ (if and only if)
+    Negation: ¬ (not)
+    Conjunction: ∧ (and)
+    Disjunction: ∨ (or)
+    Implication: → (implies)
+    Biconditional: ↔ (if and only if)
 
-Variables: x,y,z,…x,y,z,… (representing individual elements)
-Constants: a,b,c,…a,b,c,… (specific elements in the domain)
-Function Symbols: f(x),g(x,y),…f(x),g(x,y),… (representing functions)
+Variables: x, y, z, ... (representing individual elements)
+Constants: a, b, c, ... (specific elements in the domain)
+Function Symbols: f(x), g(x,y), ... (representing functions)
 
 _

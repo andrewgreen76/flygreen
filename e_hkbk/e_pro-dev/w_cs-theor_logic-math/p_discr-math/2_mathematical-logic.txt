@@ -1,0 +1,24 @@
+
+===================================================================================
+WHAT IS SO MATHEMATICAL ABOUT LOGIC IN COMPUTER SCIENCE ? 
+===================================================================================
+
+ . Mathematics is an extension of logic. 
+
+ . We end up discussing :
+    . permutations
+    . combinations
+    . math as an extension of logic - in the form of subsets
+       . think : students in different classes , with different qualities
+       . percentages
+       . statistics and probability 
+
+"
+... the mathematical nature of formal expressions often involves logical reasoning and proof techniques rather than traditional calculations, focusing on the structure and relationships rather than numerical operations.
+"
+
+
+"
+... mathematics encompasses a wide range of concepts, including logic, structure, and relationships, which may not always involve calculations but still adhere to rigorous principles and reasoning.
+"
+_

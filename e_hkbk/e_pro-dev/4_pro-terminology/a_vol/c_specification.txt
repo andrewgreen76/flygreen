@@ -1,10 +1,10 @@
 
-Functional design specification (FDS) :
- | 
- . a document , not a file or a piece of code
- . the focus is on the behavior of something
- |
- . implementation : also means "file descriptor" (fds) in server-client architecture 
+Functional design specification (FDS) : 
+ . declaration and definition of a function 
+ . "necessary documentation describing its behavior and purpose"
+
+
+In server-client architecture : fds - "file descriptor". 
 
 =========================================================================================================================================================
 =========================================================================================================================================================

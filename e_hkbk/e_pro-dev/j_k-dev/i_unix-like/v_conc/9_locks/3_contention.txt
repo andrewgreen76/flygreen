@@ -1,6 +1,6 @@
 
 Contention :
- . multiples threads/processes attempt to access a locked critical section. 
+ . multiples threads/processes attempt to access a locked critical section 
 
 =============================================================================
 =============================================================================

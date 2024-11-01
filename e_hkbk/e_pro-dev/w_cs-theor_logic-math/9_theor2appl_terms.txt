@@ -42,6 +42,45 @@ There are two different kinds of structures : mathematical and logical.
 MATHEMATICAL STRUCTURE 
 ===================================================================================
 
+ . 
+
+
+===================================================================================
+FORMAL SYMBOL 
+===================================================================================
+
+ . a character or string as a recognized way of communicating a (mathematical or
+   logical) object or concept 
+
+
+Formal symbols in prepositional logic :
+
+Propositional Variables: P,Q,R,…P,Q,R,… (representing statements)
+Negation: ¬¬ (not)
+Conjunction: ∧∧ (and)
+Disjunction: ∨∨ (or)
+Implication: →→ (implies)
+Biconditional: ↔↔ (if and only if)
+Truth: ⊤ (true)
+Falsity: ⊥ (false)
+
+
+===================================================================================
+FORMAL LANGUAGE 
+===================================================================================
+
+ . a comprehensive collection of all formal symbols for communicating
+   problem-solving ideas
+
+"
+... there are many formal languages, each designed for specific purposes, such as programming languages, mathematical logic, and formal specification languages. Each has its own set of symbols and rules tailored to the needs of its domain.
+"
+ |
+ . programming languages
+ . mathematical logic
+ . formal specification languages
+ 
+
 ===================================================================================
 LOGICAL STRUCTURE 
 ===================================================================================
@@ -50,11 +89,9 @@ LOGICAL STRUCTURE
 FRAMEWORK 
 ===================================================================================
 
-Framework - (see formal system) 
+ . a conceptual context , a system 
+ . (See formal system) 
 
-"
-
-"
 
 ===================================================================================
 FORMAL SYSTEM 

@@ -1,0 +1,4 @@
+"
+Both arrays and linked lists can be implementations of a sequence, but arrays provide faster access times due to their contiguous memory allocation, while linked lists offer more flexibility for dynamic resizing and efficient insertions and deletions.
+"
+_

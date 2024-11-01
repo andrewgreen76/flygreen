@@ -1,4 +1,14 @@
 
+				| Hashing algorithm    |
+				| (for both generation |		
+		Input		|  and lookup)	       |		Hash table 
+				|		       |
+
+	lookup string (key)    	--(generate_hashval)->    index (hash_value) | info_structure
+
+	lookup string (key)    	--(lookup_hashval)->      index (hash_value) | info_structure
+
+
 ========================================================================================
 SOLUTION : 
 ========================================================================================

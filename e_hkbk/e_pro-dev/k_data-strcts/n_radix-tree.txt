@@ -1,0 +1,4 @@
+"
+A radix tree, also known as a Patricia tree, is a compressed trie data structure that stores strings or keys in a way that minimizes memory usage by merging common prefixes, allowing for efficient searching, insertion, and deletion operations.
+"
+_

@@ -1,0 +1,5 @@
+
+(1) resource contention : processes vying for the same limited resources (CPU time , memory) 
+(2) threads/processes vying for the same critical section 
+
+_

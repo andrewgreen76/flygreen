@@ -1,0 +1,21 @@
+
+===================================================================================
+WHAT IS A FINITE STATE MACHINE (FSM) 
+===================================================================================
+
+ . a model for a device or piece of software
+ . represents a condition or scenario (state)
+ . transitions between those states based on inputs - processing logic
+ = "modelled behavior over time" 
+
+ . the simplest MODEL OF COMPUTATION
+    - a structure/framework/model for a machine WITH VARIABLES AND PROCESSING LOGIC
+    - its STATES are monitored to observe (the correctness of) its behavior
+    - discrete mathematics concepts such as propositional logic , proof by
+      induction , and proof by contraposition are used to verify the correctness
+      of the FSM's behavior (i.e., we want to make sure that the hardware/software
+      does exactly what we want it to do , that the design/algorithm/logic is good) 
+    
+ . FSMs have little or no memory 
+
+_

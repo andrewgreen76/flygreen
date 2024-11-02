@@ -1,7 +1,0 @@
-"
-... an FSM (Finite State Machine) represents a condition or scenario involving a device or piece of software by defining its states and the transitions between those states based on inputs, effectively modeling its behavior over time.
-"
-
- . FSMs do NOT have memory 
-
-_

@@ -17,4 +17,16 @@ LEXER STATE - METRICS/PROPERTIES/ATTRIBUTES
 
  . "collectively influence how the lexer processes subsequent characters" 
 
+
+===================================================================================
+FSM STATE ~ LEXER STATE 
+===================================================================================
+
+ . State_0.variables are lost in the current State_1
+ . however , FSM has processing logic that allows State_0.variables affect State_1 
+    . branching is integral here 
+ 
+ . there are only variables of the current state and the logic that acts on
+     those variables 
+
 _

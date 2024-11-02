@@ -43,7 +43,16 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-Discrete mathematics : combinatorics : permutation vs. combination 
+Discrete mathematics :
+ |
+ . the topics that make up the subject
+ . the applications that justify these topics 
+ |
+ . combinatorics (permutation vs. combination)
+ . sets and set theory
+ . graphs and graph theory
+ . probability theory (incl. discrete probability) 
+
 Expanding on the C random number generator (with an inadvertent numerical bias) 
 A brief overview of data structures , discrete mathematics , automata theory ,
   and algorithms in the context of hardware design and verification , OS

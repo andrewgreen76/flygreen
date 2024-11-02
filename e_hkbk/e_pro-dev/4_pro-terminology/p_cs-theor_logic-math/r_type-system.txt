@@ -3,19 +3,21 @@
 WHAT IS A TYPE SYSTEM (vs. grammar) 
 ===================================================================================
 
-Grammar :
+GRAMMAR - concerned with SYNTAX : 
  . valid ways of writing statements , expressions , and other things
      idiomatic to the target programming language 
  . rules that "define[] the syntactical structure and formation of valid
      statements and expressions within that language"
- . unlike a type system , a grammar is concerned with syntax 
 
 
-Type system :
+TYPE SYSTEM - concerned with SEMANTICS : 
  . (design / implementation for) how types work with different values and
      how they work within expressions in a programming language
- . unlike a t a gramgrammar is concerned with syntax 
 
+
+###################################################################################
+###################################################################################
+###################################################################################
 
 "
 A type system is a set of rules that assigns a type to each variable and expression in a programming language, determining how data can be manipulated and ensuring type safety by preventing type errors during compilation or runtime.

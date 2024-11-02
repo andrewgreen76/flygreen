@@ -1,0 +1,20 @@
+
+===================================================================================
+FSMs ARE USED IN COMPILER DESIGN 
+===================================================================================
+
+"
+A typical practical example of applying the concept of a finite state machine in compiler design is the lexical analyzer, which uses an FSM to recognize tokens in source code by transitioning between states based on input characters.
+"
+
+===================================================================================
+LEXER STATE - METRICS/PROPERTIES/ATTRIBUTES 
+===================================================================================
+
+ . position in the input stream
+ . current token type
+ . the context of the last recognized token
+
+ . "collectively influence how the lexer processes subsequent characters" 
+
+_

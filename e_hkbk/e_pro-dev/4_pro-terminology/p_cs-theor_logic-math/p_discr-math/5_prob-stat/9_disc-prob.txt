@@ -1,0 +1,4 @@
+"
+Discrete probability is the branch of probability theory that deals with events that occur in discrete sample spaces, where outcomes are countable and probabilities are assigned to each distinct event or outcome based on their likelihood.
+"
+_

@@ -18,7 +18,9 @@ C-/ 		Undo
 C-x u 		Undo (works a little differently from C-/) 
 
 C-l 		refreshes the screen if Emacs starts functioning poorly
-   		(e.g., characters and strings move around). 
+   		(e.g., characters and strings move around)
+		 . (supposed to re-scroll the file so that the current line is at
+		    the center/top/bottom of the screen - if you care) 
 
 
 ===================================================================================

@@ -1,0 +1,108 @@
+
+===================================================================================
+BASICS - IN AND OUT 
+===================================================================================
+
+C-x C-s		Save 
+C-x C-c		Close
+
+C-x is just a prefix keybinding. (It's unclear as to why basic file operations
+  have this prefix.) 
+
+
+===================================================================================
+BASICS - SAVIOR KEYBINDINGS 
+===================================================================================
+
+C-/ 		Undo
+C-x u 		Undo (works a little differently from C-/) 
+
+C-l 		refreshes the screen if Emacs starts functioning poorly
+   		(e.g., characters and strings move around). 
+
+
+===================================================================================
+BASICS - TEXT SELECTION AND MANIPULATION 
+===================================================================================
+
+S-[arrow]	Select text in a direction 
+C-x h		Select entire text
+
+M-w (Alt-w)	Copy selection (into Emacs' text buffer) 
+C-w		Yank (cut) selection 
+C-y		Paste (from Emacs' text buffer) 
+
+
+===================================================================================
+BASICS - SEARCH 
+===================================================================================
+
+C-s			Regular (forward) search
+C-r			Backwards search 
+
+
+===================================================================================
+TWO-FILE BUFFER OPERATIONS 
+===================================================================================
+
+ $ emacs [file1] [file2] 
+ . Emacs does not support exposing more than two files at a time. 
+
+C-x o		Move b/w files
+
+
+###################################################################################
+###################################################################################
+###################################################################################
+
+===================================================================================
+MISC. TIPS 
+===================================================================================
+
+Explore : 
+ - .emacs.d , init.el and its creation ; auto-save-list. 
+
+=============================================================
+
+exit:	C-x-c		(pushes old iter to ~, overwrites the opened file)
+save:	C-x-s		(pushes old iter to ~, overwrites the opened file)
+Options:
+ - dump	  ~backups: Write and configure ~./emacs.d/init.el yourself. 
+ - delete ~backups: Write and configure ~./emacs.d/init.el yourself. 
+
+copy: 	Alt-w
+cut:	C-w
+paste:	C-y
+|
+undo: 	C-x u
+
+To cut/copy from one file and paste into another:
+(1) copy from the original file
+(2) open another file with:	C-x-f
+(3) and paste there this way. 
+
+=============================================================
+
+$ emacs file1.txt file2.txt
+- Opens both files in Emacs Classic. Each file gets its own "buffer" (sub-window).
+- Attempting to open three or more files complicates the use of the interface. 
+
+=============================================================
+
+fn-F10:	menus 
+
+select: C-space
+
+paste (from outside):	C-v
+
+C-t	- pops 1st char from currLine, pushes to end of prevLine
+
+
+===================================================================================
+SPECIAL SURPRISE 
+===================================================================================
+
+M-x 	        Open the Emacs command shell
+    `shell`	Open a Bash subprocess in the lower buffer of Emacs 
+
+_

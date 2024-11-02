@@ -1,0 +1,7 @@
+
+In the context of a C file, "stripping" refers to the removal of unnecessary information and metadata from the compiled binary executable. The stripping process removes debug symbols, symbol tables, and other non-essential information that is not required for the program's execution.
+
+Stripping a C file reduces the size of the executable and can improve the performance of the program by eliminating unnecessary overhead. It is commonly done as part of the build process to create smaller and more optimized binaries.
+
+The `strip` command is commonly used to perform the stripping operation on C files. It is a command-line utility available on Unix-like systems. By running `strip` with the appropriate options, you can remove the debugging symbols and other unnecessary information from the compiled binary.
+

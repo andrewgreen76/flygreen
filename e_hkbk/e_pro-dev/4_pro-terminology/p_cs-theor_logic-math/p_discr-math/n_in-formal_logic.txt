@@ -1,0 +1,4 @@
+"
+Formal logic relies on strict symbolic notation and rules to evaluate arguments, while informal logic focuses on natural language reasoning and the context of arguments, often emphasizing practical applications and everyday reasoning.
+"
+_

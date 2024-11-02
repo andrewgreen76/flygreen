@@ -1,0 +1,8 @@
+"
+... combinational logic is not a type of automaton, as it refers to a type of digital logic circuit that produces outputs based solely on the current inputs, without memory or state transitions, whereas automata involve states and transitions based on input sequences.
+"
+
+Side note : Sequential logic is based on combinational logic but you also
+  need a clock to realize it. 
+
+_

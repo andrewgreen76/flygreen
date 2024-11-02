@@ -5,12 +5,7 @@ Prerequisites :
    . templates 
  . data structures
  . algorithms (analysis)
- -> discrete mathematics
-    . set theory
-    . functions
-    . relations
-    . natural language argument 
-    . logic (propositional , natural deduction , etc.) 
+ . discrete mathematics
     . elements of mathematical reasoning 
 |
 v

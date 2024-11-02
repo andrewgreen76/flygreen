@@ -1,0 +1,4 @@
+"
+A universal machine is a theoretical computing device, such as a universal Turing machine, that can simulate any other Turing machine and thus can perform any computation given the appropriate algorithm and input.
+"
+_

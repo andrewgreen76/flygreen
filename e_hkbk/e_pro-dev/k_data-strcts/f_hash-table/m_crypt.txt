@@ -15,7 +15,7 @@ Idea : transmitting files
 Idea : encryption in the form of compression :
  | 
  . need a kind of hash function for this 
- . MD5 , SHA-1 , SHA-2 
+ . MD5 , SHA-1 , SHA-2 , SHA-3 
 
 ========================================================================
 STIPULATIONS : 

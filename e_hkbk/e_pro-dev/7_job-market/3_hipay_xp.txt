@@ -3,7 +3,7 @@
 $80k+ SALARY - SKILLS AND EXPERIENCE 
 ========================================================================================
 
- . USB, SPI, I2C, UART, GPIO ; DDR3/4 , IP cores , LIN , ADC , etc. - busses / peripherals (w/ microcontrollers) 
+ . USB, SPI, I2C, UART, GPIO , CAN ; DDR3/4 , IP cores , LIN , ADC , etc. - busses / peripherals (w/ microcontrollers) 
 	. Bash 
 	. C
 	. `make` 

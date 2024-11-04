@@ -3,15 +3,17 @@
 THE HEAP - IN THE CONTEXT OF SYSTEM MEMORY MANAGEMENT 
 ===================================================================================
 
-There are three different kinds of heaps in computer science and
-  programming in general : 
-   . heap as a data structure
-   . heap as a process segment
-   . the kind relevant here - heap as giant region of memory whose pieces can be borrowed by individual processes
-      . (I don't like the word "shared" as this sounds somewhat vague , almost deceptive.) 
+There are three different kinds of heaps in computer science and programming in general : 
+  (a) heap as a data structure
+  (b) heap as a process segment
+  (c) the kind relevant here - heap as a giant region of memory whose pieces can be borrowed by individual processes
+     . (I don't like the word "shared" as this sounds somewhat vague , almost deceptive.) 
 
 
 "
 The heap is a region of memory in a system used for dynamic memory allocation, where programs can request and release memory at runtime, allowing for flexible and variable-sized data structures.
 "
+
+We use a data structure (typically a linked list) for keeping track of unused chunks of memory.
+
 _

@@ -9,7 +9,12 @@ struct idt_desc idt[NUM_INTERRUPTS];
 struct idtr_desc idtr_descriptor;    // about the table itself 
 
 extern void idt_load(struct idtr_desc * ptr);    // just to call lidt <= load idt.info_addr <= CPU needs to know about the IDT. 
-                                                 // Compile-time security ? 
+                                                 // Compile-time security ?
+extern void int21h();
+/*##########################################################################################*/
+void int21h_handler(){
+  printstr("Keyboard pressed!\n"); 
+}
 /*##########################################################################################*/
 
 // INTERRUPT HANDLER - whose address can be passed between functions : 

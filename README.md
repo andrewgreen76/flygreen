@@ -43,6 +43,9 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Programmable interrupt controllers :
+ . communication between PICs and the rest of the hardware 
+
 Discrete mathematics :
  |
  . the topics that make up the subject

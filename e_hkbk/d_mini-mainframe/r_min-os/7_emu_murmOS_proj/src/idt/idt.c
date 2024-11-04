@@ -2,6 +2,7 @@
 #include "config.h"
 #include "kernel.h"
 #include "memory/memory.h"
+#include "io/io.h"
 
 /*##########################################################################################*/
 
@@ -10,16 +11,22 @@ struct idtr_desc idtr_descriptor;    // about the table itself
 
 extern void idt_load(struct idtr_desc * ptr);    // just to call lidt <= load idt.info_addr <= CPU needs to know about the IDT. 
                                                  // Compile-time security ?
-extern void int21h();
-/*##########################################################################################*/
-void int21h_handler(){
-  printstr("Keyboard pressed!\n"); 
-}
+extern void no_int_atomic();
+extern void int_21h_atomic();
 /*##########################################################################################*/
 
-// INTERRUPT HANDLER - whose address can be passed between functions : 
-void idt_zero(){
+void no_int_handle(){
+  outb(0x20 , 0x20);    // int ack (port , val_int) to PIC   
+}
+
+// INTERRUPT HANDLER - whose address can be passed to idt_set() function : 
+void int_00h_handle(){
   printstr("ERROR : DIV/0\n");
+}
+
+void int_21h_handle(){
+  printstr("Keyboard pressed!\n");
+  outb(0x20 , 0x20);    // int ack (port , val_int) to PIC 
 }
 
 /*##########################################################################################*/
@@ -47,8 +54,12 @@ void idt_init()
   idtr_descriptor.base = (uint32_t) idt;      // This could be re-implemented as a pointer. 
                                               // Reminder : in C arrays are accessed/returned as pointers.
 
+  for(int i=0 ; i<NUM_INTERRUPTS ; i++){
+    idt_set(i , no_int_atomic);
+  }
   // Map interrupt indices to interrupt handlers (addresses). 
-  idt_set(0 , idt_zero);
+  idt_set(0x00 , int_00h_handle);
+  idt_set(0x21 , int_21h_atomic);
   // Mapping MUST take place before `[IDTR]` is loaded. 
   
   idt_load( & idtr_descriptor );

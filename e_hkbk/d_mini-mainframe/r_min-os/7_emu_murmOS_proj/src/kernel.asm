@@ -37,7 +37,8 @@ _start:
 	mov al , 00000001b	; inform PIC : x86 mode 
 	out 0x21 , al 		; 0x21 - port (at this clock cycle) for informing of the architecture/system mode 
 ;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	
+	sti 			; Interrupts are prematurely disabled by default. 
+				; ARGUMENT : We are enabling interrupts TOO EARLY - BEFORE we init IDT.  
 	call kernel_main
 	
 	jmp $ 			; "halt"

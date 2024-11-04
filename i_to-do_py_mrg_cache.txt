@@ -1,7 +1,4 @@
 
-cheap , lean implementations vs. fat but (memory-)effecient implementations :
- . array (free table) vs. linked list (free list) 
-
 linker.ld / bios.cfg 
 
 The expectation - but not at all a requirement - of all students is that they : 

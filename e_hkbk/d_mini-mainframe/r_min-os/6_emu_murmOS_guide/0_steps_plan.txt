@@ -118,8 +118,8 @@ WHAT YOU'LL COME UP WITH
  . OS (btld + kernel) image	_			_
 
  . a heap tracking implementation
-    . the structure of the heap tracking implementation will depend on how lean or how
-      flexible in heap management you want it to be
-    . 
+    . in modern systems it's typically a linked list of nodes ; each node represents an available
+      heap block of contiguous memory
+    . Daniel McCarthy's course employs a 2D array , i.e., a table 
 
 _

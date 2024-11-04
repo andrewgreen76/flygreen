@@ -1,0 +1,18 @@
+
+===================================================================================
+MEMORY ACCESS LIMITS FOR A KERNEL IN PROTECTED (32-BIT) MODE 
+===================================================================================
+
+ . Access up to 2^32 bytes of memory = 4,294,967,296 bytes. 
+   . That's the maximum regardless of how much more physical RAM you have.
+
+
+Memory of an uninitialized system is laid out as follows :
+ . video memory (framebuffer) is mapped to a hardcoded address in the kernel 
+ . audio memory is mapped to a different hardcoded address in the kernel 
+ ... this goes for all the other hardware services
+ . free , uninitialized memory bounded by {0x01000000-0xC0000000} is available to us
+   ~> 3.22 GB
+   => it makes sense to map the heap to 0x01000000 
+
+_

@@ -16,6 +16,8 @@ When we are in the userspace of a full-fledged operating system , any program th
 
 
 When we develop a fledgling kernel and watch it behave within an isolated environment
-  (such as the one provided by QEMU) , then it's not an issue at all. 
+  (such as the one provided by QEMU) , then it's not an issue at all EVEN IF the protected
+  mode is enabled. However , this means that if we want to or if we have to have a restriction
+  on direct memory access attempts by user processes , we will have to implement it ourselves. 
 
 _

@@ -1,0 +1,15 @@
+
+===================================================================================
+FREE LIST 
+===================================================================================
+
+ . heap manager structure - a linked list that keeps track of available contiguous memory
+     chunks
+
+
+Implementation :
+ . starting with a ptr to heap = 0x01000000
+ . uint16_t * base = (uint16_t *) malloc(n * sizeof(uint16_t) );    // malloc() returns an address to n available contiguous words
+ . now [heap_base] points to 0x01000000 + (n * sizeof(uint16_t)) 
+
+_

@@ -104,6 +104,6 @@ void kernel_main()    // kernel_main - token globalized out to kernel.asm // cal
 
   idt_init();
   outb(0x60 , 0xff);
-  // Moving bytes/characters via the system bus using the keyboard controller's
-    // ports with `in` and `out` instructions is tested/monitored with GDB. 
+  // Reading/writing bytes at keyboard controller ports with `in` and
+    // `out` instructions is tested/monitored with GDB. 
 }

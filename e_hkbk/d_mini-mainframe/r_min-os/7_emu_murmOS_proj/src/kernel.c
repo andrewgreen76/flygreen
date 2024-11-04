@@ -103,31 +103,7 @@ void kernel_main()    // kernel_main - token globalized out to kernel.asm // cal
   printstr("YES\nKing Crimson");
 
   idt_init();
-
   outb(0x60 , 0xff);
+  // Moving bytes/characters via the system bus using the keyboard controller's
+    // ports with `in` and `out` instructions is tested/monitored with GDB. 
 }
-
-/*###############################################################################################*/
-/*###############################################################################################*/
-/*###############################################################################################*/
-  /* 
-  char_t * video_mem = (char *) (0xB8000);
-  video_mem[0] = 'Y';                       
-  video_mem[1] = 2;
-  video_mem[2] = 'e';
-  video_mem[3] = 15;
-  video_mem[4] = 's';
-  video_mem[5] = 8;
-   */
-  
-  /*
-
-  // FRAMEBUFFER OFFSETS :
-  //
-  // The compiler will figure out the actual framebuffer offsets and their values 
-  //   based on (1) 'short' (taking up 2 bytes) and (2) little-endianness. 
-  video_mem[0] = 0x0259;    // {green , 'Y'} *** {color,char} - because of little-endianness. 
-  video_mem[1] = 0x0f65;    
-  video_mem[2] = 0x0873;
-
-   */

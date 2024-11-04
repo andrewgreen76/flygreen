@@ -100,7 +100,7 @@ void printstr(const char * str){
 void kernel_main()    // kernel_main - token globalized out to kernel.asm // call kernel_main ; ret ; jmp $
 {
   term_init();
-  printstr("YES\nKing Crimson");
+  printstr("YES\nKing Crimson\n");
 
   idt_init();
 }

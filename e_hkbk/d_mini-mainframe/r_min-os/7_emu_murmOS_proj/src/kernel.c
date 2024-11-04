@@ -103,7 +103,4 @@ void kernel_main()    // kernel_main - token globalized out to kernel.asm // cal
   printstr("YES\nKing Crimson");
 
   idt_init();
-  outb(0x60 , 0xff);
-  // Reading/writing bytes at keyboard controller ports with `in` and
-    // `out` instructions is tested/monitored with GDB. 
 }

@@ -56,17 +56,6 @@ Each PIC needs to be initialized before we do anything with it. To do this we
 WHY WE REMAP TO 0x20 
 ===================================================================================
 
-Why not int 0x00 as IRQ reference point :
- . Though it would seem fine to map IRQs to ints 0x00-0x07 at first , our
-     list of IRQs could grow and 0x08-0x0F cannot be touched in the protected
-     mode , so we can't use int 0x00.
-
-Why not int 0x10 as IRQ reference point :
- . It is just not customary to map IRQs to ints that were already taken as
-     the x86 hardware is designed to "understand" 0x10-0x1F as interrupts
-     assigned to specific exceptions EVEN IF they are not reserved in
-     the protected mode. 
-
 "
 In x86 architecture, the interrupts for exceptions are mapped to the following interrupt vectors:
 
@@ -91,8 +80,17 @@ In x86 architecture, the interrupts for exceptions are mapped to the following i
 These exceptions allow the CPU to handle errors and exceptional conditions that occur during program execution.
 "
 
+Why not int 0x00 as IRQ reference point :
+ . Though it would seem fine to map IRQs to ints 0x00-0x07 at first , our
+     list of IRQs could grow and 0x08-0x0F cannot be touched in the protected
+     mode , so we can't use int 0x00.
+
+Why not int 0x10 as IRQ reference point :
+ . 0x10-0x1F are interrupts for x87 floating-point arithmetic co-processor
+     exceptions and so they are not going to be of any use to us 
  . int 0x20 - timer interrupt in x86 hardware. This matches the chart of
      standard ISA IRQs. 
+ => it is customary to map IRQs to int 0x20 (timer interrupt) 
  => a PIC (the master) needs to be remapped to 0x20 
 
 
@@ -101,6 +99,7 @@ INTERRUPT ACKNOWLEDGMENT
 ===================================================================================
 
 PICs are programmed to wait for the rest of the system to acknowledge (inform
-  the PIC) that it has handled the current interrupt. 
+  the PIC) that it has handled the current interrupt , so we must implement
+  interrupt acknowledgment so that we don't leave a PIC hanging. 
 
 _

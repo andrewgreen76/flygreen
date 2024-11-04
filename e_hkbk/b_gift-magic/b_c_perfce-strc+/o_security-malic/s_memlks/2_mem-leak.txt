@@ -1,0 +1,11 @@
+
+===================================================================================
+MEMORY LEAK - MORE LIKE "MEMORY CLOG" 
+===================================================================================
+
+ . "failing to deallocate dynamically allocated memory when it is no longer needed
+    can lead to memory leaks, causing a gradual loss of available memory"
+    
+ . the system will crash and we will need to reset it 
+
+_

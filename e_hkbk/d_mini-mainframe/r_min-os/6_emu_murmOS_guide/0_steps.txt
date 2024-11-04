@@ -116,5 +116,10 @@ WHAT YOU'LL COME UP WITH
        . process object files 
     
  . OS (btld + kernel) image	_			_
- 
+
+ . a heap tracking implementation
+    . the structure of the heap tracking implementation will depend on how lean or how
+      flexible in heap management you want it to be
+    . 
+
 _

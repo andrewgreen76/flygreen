@@ -1,0 +1,106 @@
+
+===================================================================================
+PROGRAMMABLE INTERRUPT CONTROLLER (PIC) 
+===================================================================================
+
+ . "allows hardware to interrupt the processor"
+ . there's an interrupt occurrence for every hardware (I/O) operation 
+
+
+"
+One of the best known PICs, the 8259A, was included in the x86 PC. In modern times, this is not included as a separate chip in an x86 PC, but rather as part of the motherboard's southbridge chipset.[2] In other cases, it has been replaced by the newer Advanced Programmable Interrupt Controllers which support more interrupt outputs and more flexible priority schemas. 
+"
+
+===================================================================================
+INTERRUPT REQUESTS (IRQs) 
+===================================================================================
+
+ . IRQ - interrupt request - a signal sent by the disk , I/O , NIC , or some other hardware 
+ . each IRQ is mapped to an interrupt - using the `in` and `out` instructions to inform the PIC 
+ . IRQ number =/= INT number
+ . IRQs are "mapped to the starting interrupt
+    . IRQ 0 ~ int 0x20 
+    . IRQ 1 ~ int 0x21
+    ...
+
+
+===================================================================================
+WHY TWO PICs 
+===================================================================================
+
+It is a given that some of our IRQs are going to be mapped to ints 0x08-0x0F ,
+  which are reserved in protected mode for exceptions. 
+
+ . PIC with master ports to talk to 
+    . IRQs 0-7
+    . 0x20 , 0x21 - master IRQ control ports 
+    
+ . PIC with slave ports to talk to 
+    . IRQs 8-15
+    . 0xA0 , 0xA1 - slave IRQ control ports  
+
+
+===================================================================================
+PIC INITIALIZATION 
+===================================================================================
+
+Each PIC needs to be initialized before we do anything with it. To do this we
+  have to load the "init", "edge", and "cascade" flags and deploy them to the PIC
+  via the system bus using the `out` instruction.
+
+	mov al , 00010001b
+	out 0x20 , al 
+
+
+===================================================================================
+WHY WE REMAP TO 0x20 
+===================================================================================
+
+Why not int 0x00 as IRQ reference point :
+ . Though it would seem fine to map IRQs to ints 0x00-0x07 at first , our
+     list of IRQs could grow and 0x08-0x0F cannot be touched in the protected
+     mode , so we can't use int 0x00.
+
+Why not int 0x10 as IRQ reference point :
+ . It is just not customary to map IRQs to ints that were already taken as
+     the x86 hardware is designed to "understand" 0x10-0x1F as interrupts
+     assigned to specific exceptions EVEN IF they are not reserved in
+     the protected mode. 
+
+"
+In x86 architecture, the interrupts for exceptions are mapped to the following interrupt vectors:
+
+- **0x00**: Division by Zero
+- **0x01**: Debug Exception
+- **0x02**: Non-Maskable Interrupt (NMI)
+- **0x03**: Breakpoint Exception
+- **0x04**: Overflow Exception
+- **0x05**: Bound Range Exceeded
+- **0x06**: Invalid Opcode
+- **0x07**: Device Not Available
+- **0x08**: Double Fault
+- **0x09**: Coprocessor Segment Overrun
+- **0x0A**: Invalid TSS
+- **0x0B**: Segment Not Present
+- **0x0C**: Stack Fault
+- **0x0D**: General Protection Fault
+- **0x0E**: Page Fault
+- **0x0F**: Reserved
+- **0x10-0x1F**: x87 Floating-Point Exception
+
+These exceptions allow the CPU to handle errors and exceptional conditions that occur during program execution.
+"
+
+ . int 0x20 - timer interrupt in x86 hardware. This matches the chart of
+     standard ISA IRQs. 
+ => a PIC (the master) needs to be remapped to 0x20 
+
+
+===================================================================================
+INTERRUPT ACKNOWLEDGMENT 
+===================================================================================
+
+PICs are programmed to wait for the rest of the system to acknowledge (inform
+  the PIC) that it has handled the current interrupt. 
+
+_

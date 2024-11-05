@@ -1,11 +1,11 @@
+
 #include <stdio.h>
 
-int hi5(){
-  return -1 ;
-}
+struct hpblk_node {
+  char hpblk_info;
+  struct hpblk_node * next;
+};
 
-int main(){
-  hi5();
-  printf("hi5() passed\n");  
-  return 0 ;
+void main(){
+  printf("Size of next pointer : %lu\n" , sizeof(struct hpblk_node *) );
 }

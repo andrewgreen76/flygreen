@@ -1,4 +1,8 @@
 
+25600 blocks * 4096 bytes/block = 100 MB
+heap table byte represents a 4096-byte block
+25600 representative bytes in the heap table 
+
 linker.ld / bios.cfg 
 
 The expectation - but not at all a requirement - of all students is that they : 

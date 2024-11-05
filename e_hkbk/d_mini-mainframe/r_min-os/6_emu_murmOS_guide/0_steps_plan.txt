@@ -118,8 +118,9 @@ WHAT YOU'LL COME UP WITH
  . OS (btld + kernel) image	_			_
 
  . a heap tracking implementation
-    . in modern systems it's typically a linked list of nodes ; each node represents an available
-      heap block of contiguous memory
+    . in modern systems it's typically a linked list of nodes ; each node represents a separate
+      individual piece of available heap memory
+        => those nodes would be quite expensive - we are looking at 8-byte *next pointers and more  
     . Daniel McCarthy's course employs a 2D array , i.e., a table 
 
 _

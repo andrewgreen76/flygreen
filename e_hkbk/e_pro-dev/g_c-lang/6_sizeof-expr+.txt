@@ -7,7 +7,7 @@ Nate Eldredge
 ChatGPT : 
 
 "
-Yes, you can use `sizeof` with an expression, [as in] `sizeof *imgHdr`, and it's a valid and often used C and C++ construct. This expression calculates the size of the data type of the pointer `imgHdr` is pointing to.
+Yes, you can use `sizeof` with an expression, [as in] `sizeof *imgHdr` [without parentheses], and it's a valid and often used C and C++ construct. This expression calculates the size of the data type of the pointer `imgHdr` is pointing to.
 
 Here's how it works:
 

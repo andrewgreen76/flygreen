@@ -1,0 +1,8 @@
+
+How can we manage/monitor the state of blocks in our entire heap ? 
+ . an array ("heap table") of 25600 representative bytes 
+ . each "heap table" byte - represents a 4096-byte heap block
+ . REMEMBER : for this project we are expected to map the origin of the heap to 0x01000000 
+ . e.g., 25600 blocks * 4096 bytes/block = 100 MB
+
+_

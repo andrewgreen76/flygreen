@@ -1240,6 +1240,20 @@ empty DIMM sockets
 Sims in Unity
 Pixel shader 
 
++ OS/krnl	OS, sched, memgmt, driv, optim, hw comm, btlnks, config, dbg, virt, dbg;
++ lang-utils	optim, code gen, tools/utils, anlzrs, (OS, driv) ; 
+|
+- OS/krnl	security, R&D, cloud, RTOS.
+- lang-utils	prog/lang expand, integr, (RTOS, emb.sys)
+|
+|  	      	  			
+> btm-up or top-down 
+
+=====================================================================
+
++ Win (C#/Unity/.NET)		simple games, edu, net, sim, (UI/UX, test, consult, scripting) ; 
+-      				VR / AR / XR / MR / 3D / mobile, web apps,  
+
 =====================================================================
 
 Recreational programming :

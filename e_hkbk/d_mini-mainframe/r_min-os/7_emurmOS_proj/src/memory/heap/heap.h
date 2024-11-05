@@ -16,6 +16,9 @@
 #define HEAPBLK_TAKEN  0b00000001 
 #define HEAPBLK_FREE   0b00000000
 
-typedef unsigned char HEAPBLK_ENTRY ;
+typedef unsigned char ENTRY ;
+struct HEAP_TABLE {
+  ENTRY
+};
 
 #endif

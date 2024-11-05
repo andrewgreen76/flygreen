@@ -1,0 +1,15 @@
+
+(1) COMPACTING INFORMATION :
+     . Oftentimes , we use `char` in code to stand for eight bits - with each bit representing something
+       meaningful in a yes-or-no way as written by the programmer. This is a very compact way of storing
+       information about something. 
+
+(2) MEMORY EFFICIENCY :
+   (a) If we want to use a really small integer in code - one bounded in [-127,+128] , - a `char` will
+       suffice as it only occupies 1 byte instead of 4 like an `int` does. This helps with memory economy.
+       Memory economy => less of a chance of a memory bottleneck => memory efficiency. 
+     . If you need to change the range of your integer towards all positives and zero , i.e., [0,255],
+       use `unsigned char`.
+     . MAKE IT A HABIT TO USE THESE if you do not intend to work with super-large numbers. 
+
+_

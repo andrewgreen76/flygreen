@@ -25,8 +25,8 @@
 typedef unsigned char    entry ;
 //
 struct heap_table {
-  entry * entries;    // for picking 
-  size_t num_entries;    // ?? max ?? currently alloc'd ?? 
+  entry * entries;  
+  size_t max_entries;  
 };
 
 struct heap {

@@ -30,7 +30,7 @@ struct heap_table {
 };
 
 struct heap {
-  struct heap_table * reg_hptable; // for using the heap_table 
+  struct heap_table * table; // for using the heap_table 
   void * start_addr;               // for using the heap_memory 
 };
 

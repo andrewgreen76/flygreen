@@ -9,5 +9,6 @@
 #define HEAP_SIZE 104857600    // 100 MB 
 #define HPBLOCK_SIZE 4096
 #define HEAP_ADDR 0x01000000
+#define HPTABLE_ADDR 0x00007E00 
 
 #endif 

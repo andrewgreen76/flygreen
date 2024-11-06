@@ -15,23 +15,24 @@
 // bit unassigned      0b00001000
 // bit unassigned      0b00000100
 // bit unassigned      0b00000010
-#define HPBLOCK_TAKEN  0b00000001 
+#define HPBLOCK_TAKEN  0b00000001
+//
 #define HPBLOCK_FREE   0b00000000
 
 //##############################################################
 //######################## DATA TYPES : ########################
 //##############################################################
 
-typedef unsigned char    entry ;
+typedef unsigned char    hptable_entry ;
 //
 struct heap_table {
-  entry * entries;  
+  hptable_entry * entries;  
   size_t max_entries;  
 };
 
 struct heap {
   struct heap_table * table; // for using the heap_table 
-  void * start_addr;               // for using the heap_memory 
+  void * start_addr;         // for using the heap_memory 
 };
 
 //##############################################################

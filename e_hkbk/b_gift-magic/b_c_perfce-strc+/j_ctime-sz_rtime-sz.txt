@@ -1,0 +1,39 @@
+"
+Yes, if you initialize a giant 2D array in your C source file, the size of your executable will likely increase because the initialized data will be stored in the binary file's **data section** (e.g., `.data` or `.bss`, depending on whether the data is initialized or not).
+
+Here's a breakdown:
+
+1. **Static/Global Initialization:**  
+   If you define and initialize the 2D array at the global or static level (outside any functions), the array's data will be included in the final executable's **data segment** (e.g., `.data` section) because it is initialized with values at compile time.
+
+   Example:
+   ```c
+   int my_array[1000][1000] = { {1, 2, 3}, {4, 5, 6}, ... };
+   ```
+
+   In this case, the size of the array (`1000 * 1000 * sizeof(int)`) will be directly reflected in the size of the compiled executable, since the data is embedded in the binary.
+
+2. **Uninitialized Data:**  
+   If the array is declared but not initialized, it will reside in the **bss segment** of the binary (uninitialized data section). This section is not directly included in the binary file size, but the runtime memory footprint will still include the space for the array when the program runs.
+
+   Example:
+   ```c
+   int my_array[1000][1000]; // uninitialized array
+   ```
+
+   The size of the executable will be smaller compared to the initialized array, but at runtime, the program will allocate the required memory for the array.
+
+3. **Stack/Heap Allocated Arrays:**  
+   If the array is allocated dynamically (e.g., with `malloc()` or `calloc()`), the array's memory size will not be reflected in the executable itself. Instead, the memory will be allocated at runtime, and the executable size will not change based on the allocation size. The data will live on the **heap** at runtime.
+
+   Example:
+   ```c
+   int (*my_array)[1000] = malloc(sizeof(int[1000][1000]));
+   ```
+
+In summary:
+- **For statically allocated and initialized arrays**, the size of the array directly contributes to the size of your executable.
+- **For uninitialized arrays**, the space is accounted for, but it won't increase the executable size, as it is part of the **bss** section.
+- **For dynamically allocated arrays**, the size does not affect the executable size, as the memory is allocated during runtime.
+"
+_

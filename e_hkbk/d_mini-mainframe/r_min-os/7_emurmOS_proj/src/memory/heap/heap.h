@@ -5,7 +5,7 @@
 #include <stddef.h>
 
 //##############################################################
-//########## BITMASKS TO OP WITH HEAP_TABLE_ENTRIES : ##########
+//########### BITMASKS - OP ON HEAP_TABLE_ENTRIES : ############
 //##############################################################
 
 #define HPBLOCK_CONT   0b10000000
@@ -25,14 +25,20 @@
 typedef unsigned char    entry ;
 //
 struct heap_table {
-  entry * origin;    // address of table 
+  entry * entries;    // for picking 
   size_t num_entries;    // ?? max ?? currently alloc'd ?? 
 };
 
-struct heap_manager {
-  struct heap_table * table;
-  void * start_addr; 
+struct heap {
+  struct heap_table * table;    // for using the heap_table 
+  void * start_addr;            // for using the heap_memory 
 };
+
+//##############################################################
+//####################### PROTOTYPES : #########################
+//##############################################################
+
+int heap_create(struct heap * hp , void * hp_pool_start , void * hp_end , struct heap_table * table){
 
 //##############################################################
 

@@ -3,9 +3,9 @@
 #include "config.h"
 
 struct heap kheap;    // primitive inheritance
-struct heap_table khptable;
+struct heap_table kheap_table;
 
 void kheap_init(){
-  khptable.entries = (hptbl_entry *) (HPTABLE_ADDR);
-  khptable.max_entries = HEAP_SIZE / HPBLOCK_SIZE; 
+  kheap_table.entries = (hptable_entry *) (HPTABLE_ADDR);
+  kheap_table.max_entries = HEAP_SIZE / HPBLOCK_SIZE; 
 }

@@ -1,0 +1,5 @@
+
+ . Once we are in the kernel mode , we know longer need the bootloader in memory [0x7C00 , ...].
+     We can actually simply overwrite that piece of memory if we have to. 
+
+_

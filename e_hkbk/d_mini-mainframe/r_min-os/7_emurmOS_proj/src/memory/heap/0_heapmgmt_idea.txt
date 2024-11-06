@@ -44,10 +44,12 @@ x xor 0 = x - leave alone
 x xor 1 = !x - flip
 
 
-HPBLOCK_FIRST
-HPBLOCK_CONTG
-HPBLOCK_OCCUP
-HPBLOCK_AVAIL
+HPBLOCK_FIRST    // | 0b10000000    // & 0b01111111
+HPBLOCK_CONT	 // | 0b01000000    // & 0b10111111
+//
+HPBLOCK_TAKEN    // | 0b00000001 
+HPBLOCK_AVAIL	 // & 0b00000000
+
 
 Set as cont : | 0x80
 Clear cont:   | !0x80

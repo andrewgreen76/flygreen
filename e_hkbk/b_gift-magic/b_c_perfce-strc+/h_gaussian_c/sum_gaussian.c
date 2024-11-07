@@ -1,35 +1,22 @@
 
 #include <stdio.h>
+#define MIN 1
+#define MAX 100
 
-//#################################################################
-//######################### FUNCTIONS : ###########################
-//#################################################################
-
-size_t validate(size_t input){
-  //
+int get_gsum(){
+  if( (MAX-MIN)%2 ){              // even number in the set 
+    int times = (MAX-MIN+1)/2;    // 1..100 ; 2..101
+  }
+  else{                           // odd number in the set
+  }
+  
+  return 0;
 }
-
-size_t sanitize(size_t input){
-  //
-}
-
-size_t getval(){
-  size_t retval;
-  scanf("%zu" , &retval);
-  validate(retval);
-  sanitize(retval);
-}
-
-//#################################################################
-//######################## MAIN LOGIC : ###########################
-//#################################################################
 
 void main(){
   printf("\n");
   
-  printf("Type min of range: ");
-  size_t min = get_valid_min();
-  printf("\n");
+  printf("Gaussian sum : %d\n" , get_gsum() );
   
-  //smint max = get_valid_max();
+  printf("\n");
 }

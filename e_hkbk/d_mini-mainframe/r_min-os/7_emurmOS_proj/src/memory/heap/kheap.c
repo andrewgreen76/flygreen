@@ -3,7 +3,7 @@
 #include "config.h"
 
 struct heap kheap;    // primitive inheritance
-struct heap_table kheap_table;
+struct heap_table kheap_table;  // kheap already has *table 
 
 void kheap_init(){
   kheap_table.entries = (hptable_entry *) (HPTABLE_ADDR);

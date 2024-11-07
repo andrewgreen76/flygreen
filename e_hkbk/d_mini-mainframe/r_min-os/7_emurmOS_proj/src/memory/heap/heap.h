@@ -23,16 +23,16 @@
 //######################## DATA TYPES : ########################
 //##############################################################
 
-typedef unsigned char    hptable_entry ;
+typedef unsigned char    heap_entry ;
 //
 struct heap_table {
-  hptable_entry * entries;  
+  heap_entry * entries;  
   size_t max_entries;  
 };
 
 struct heap {
   struct heap_table * table; // for using the heap_table 
-  void * start_addr;         // for using the heap_memory 
+  void * mem;                // for using the heap_memory 
 };
 
 //##############################################################

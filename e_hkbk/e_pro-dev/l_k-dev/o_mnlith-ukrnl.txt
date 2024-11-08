@@ -1,0 +1,18 @@
+
+Monolithic kernel :
+ . the kernel's drivers and core modules - SCI , process scheduler , and memory manager - work together
+     in kernel space
+ + efficient communication between the kernel's parts 
+ - No mutual protection : if not handled correctly , these parts can make an impact on one another and
+     therefore crash the entire operating system , so implement the kernel carefully. 
+
+
+Microkernel :
+ + the memory manager and device drivers are separate processes moved to userspace
+    => they can't crash the system 
+ + efficient memory utility by user processes
+ + leaner kernel 
+ . direct access to hardware (makes it easy to play around with peripherals)
+ - abuse of memory and hardware by user processes 
+
+_

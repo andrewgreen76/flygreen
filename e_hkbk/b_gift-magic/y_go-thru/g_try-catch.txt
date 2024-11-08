@@ -1,0 +1,4 @@
+"
+`try` and `catch` are keywords used in many programming languages, such as C++, Java, and JavaScript, to handle exceptions or errors: a `try` block contains code that might throw an exception, and a `catch` block handles the exception if one occurs, allowing the program to recover gracefully instead of crashing.
+"
+_

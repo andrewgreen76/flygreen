@@ -1,13 +1,11 @@
 
-move 7_emurmOS to ~/
-
 linker.ld / bios.cfg 
 
 The expectation - but not at all a requirement - of all students is that they : 
  . develop their own game
  . develop a piece of hardware to study hardware 
  . study ISAs (and ideally develop their own ISA) 
- . write their own BIOS 
+ . examine / write their own BIOS / embedded system (Embedded Linux/Free RTOS) 
  . write their own operating system
  . write their own C compiler 
  . write their own language and the compiler/interpreter for it 

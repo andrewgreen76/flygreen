@@ -1,0 +1,5 @@
+
+ . 0x00100000 - addr of kernel
+ . 0x01000000 - addr of actual heap 
+
+_

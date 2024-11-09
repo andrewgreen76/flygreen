@@ -1,9 +1,5 @@
 
-CH341A 
-
 Under what circumstances would the kernel kill a process ? 
-
-one sentence: is STM32 nucleo an SoC board, a microcontroller board, or both
 
 linker.ld / bios.cfg 
 

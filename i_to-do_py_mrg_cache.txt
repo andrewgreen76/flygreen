@@ -1,4 +1,15 @@
 
+Reasons to hate (the latest form of) x86 and why it needs to die off :
+ . big reasons :
+    . proprietary
+    ... 
+    . enable line A20
+    . multiple compatibility modes 
+ . tiny reasons :
+    . 
+ . never mind :
+    . [instr] [dest] [src]
+
 linker.ld / bios.cfg 
 
 The expectation - but not at all a requirement - of all students is that they : 

@@ -1,4 +1,15 @@
+
+During the booting process , the bootloader (in 16-bit/real mode) leverages BIOS
+  services and interrupts. Once the Protection Enable bit is raised and CPU control
+  is handed over to the kernel in protection mode , the kernel is on its own. The BIOS
+  will not regain control over the CPU , thus abandoning the kernel. The OS will not be
+  able to use BIOS services and interrupts and is therefore supposed to be equipped with
+  services of its own - device drivers - to interact with the disk , the keyboard
+  controller (for memory access expansion !) , etc. 
+
+===================================================================================
 "
 Many modern operating systems (such as Linux and Windows) do not use any BIOS interrupt calls at all after startup, instead choosing to directly interface with the hardware. To do this, they rely upon DRIVERS that are either a part of the OS kernel itself, ship along with the OS, or are provided by hardware vendors. 
 "
+
 _

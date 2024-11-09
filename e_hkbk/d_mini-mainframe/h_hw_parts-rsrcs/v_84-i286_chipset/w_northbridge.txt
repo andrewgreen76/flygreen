@@ -1,6 +1,0 @@
-
- . the memory controller
- . the PCI Express controller
- . the interface for connecting to the CPU 
-
-_

@@ -1,0 +1,8 @@
+"
+The first Intel microarchitecture to incorporate superscalar execution capabilities was the Intel i960 processor, which was introduced in 1989. The i960 was a 32-bit RISC (Reduced Instruction Set Computer) processor designed for embedded and high-performance computing applications. It featured a superscalar architecture that allowed it to execute multiple instructions simultaneously, improving performance by exploiting instruction-level parallelism (ILP).
+
+The i960 processor included multiple execution units, such as arithmetic/logic units (ALUs), floating-point units (FPUs), and load/store units, which could operate independently and execute instructions in parallel within a single clock cycle. This superscalar execution capability enabled the i960 to achieve higher throughput and performance compared to earlier single-issue processors.
+
+The introduction of superscalar execution in the i960 marked a significant milestone in Intel's processor development, paving the way for future generations of Intel processors to incorporate parallel execution capabilities for increased performance and efficiency.
+"
+_

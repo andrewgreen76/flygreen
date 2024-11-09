@@ -1,0 +1,4 @@
+"
+The southbridge is one of the two chips in the core logic chipset on older personal computer (PC) motherboards, the other being the northbridge. As of 2023, most personal computer devices no longer use a set of two chips, and instead have a single chip acting as the 'chipset', for example Intel's Z790 chipset.
+"
+_

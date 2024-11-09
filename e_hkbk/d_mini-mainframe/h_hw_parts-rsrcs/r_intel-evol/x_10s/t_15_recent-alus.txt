@@ -1,6 +1,0 @@
-"
-As of my last update in January 2022, one of the most recent Intel microarchitectures to feature multiple ALUs is the Skylake microarchitecture, which is part of the 6th generation Intel Core processors introduced in 2015. The Skylake microarchitecture improved upon previous generations by enhancing the efficiency and performance of the processor cores, including the inclusion of multiple ALUs to support parallel execution of instructions.
-
-Please note that there may have been subsequent microarchitectures released by Intel after Skylake that also feature multiple ALUs, but I cannot provide specific details beyond my last update. For the latest information, I recommend referring to Intel's official documentation or announcements.
-"
-_

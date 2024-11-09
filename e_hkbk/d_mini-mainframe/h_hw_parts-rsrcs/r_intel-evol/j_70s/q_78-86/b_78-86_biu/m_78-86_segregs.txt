@@ -1,4 +1,0 @@
-"
-Segment registers were first introduced in the Intel 8086 microprocessor, which was released in 1978. These segment registers allowed the processor to address larger memory spaces by dividing the memory into segments. The 8086 had four segment registers: CS (Code Segment), DS (Data Segment), SS (Stack Segment), and ES (Extra Segment).
-"
-_

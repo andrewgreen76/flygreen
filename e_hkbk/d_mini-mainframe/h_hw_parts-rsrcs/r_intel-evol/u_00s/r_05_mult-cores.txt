@@ -1,8 +1,0 @@
-"
-The first Intel microprocessor (MPU) to feature more than one core was the Intel Pentium D, introduced in May 2005. The Pentium D was based on the NetBurst microarchitecture and featured two separate processor cores on a single die.
-
-The introduction of dual-core processors like the Pentium D marked a significant milestone in processor development, as it allowed for increased performance and multitasking capabilities compared to single-core processors. With two independent cores, the Pentium D could execute multiple threads simultaneously, improving overall system responsiveness and performance.
-
-It's worth noting that while the Pentium D was the first dual-core processor from Intel, other manufacturers had introduced dual-core processors before Intel, such as AMD with its Athlon 64 X2 series. However, the Pentium D was Intel's first dual-core offering.
-"
-_

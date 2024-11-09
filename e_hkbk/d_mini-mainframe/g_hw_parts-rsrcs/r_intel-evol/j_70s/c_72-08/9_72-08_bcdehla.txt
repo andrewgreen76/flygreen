@@ -1,0 +1,61 @@
+========================================================================================
+INTEL 8008 - INCLUSIONS AND INNOVATIONS : 
+========================================================================================
+
+ . the first 8-bit microprocessor 
+ . flags : P (parity) , Z (zero) , S (sign)
+ . calls stack up to 7 levels 
+
+========================================================================================
+INTEL 8008 - OVERVIEW : 
+========================================================================================
+
+ . released in 1972
+
+
+
+Had the following :
+ |
+ . clock
+ . PC/IP width : 8-bit
+ . control logic (IR , stepper , decoder) 
+ . general-purpose registers :
+   . 7 of them (B, C, D, E, H, L, Accumulator (A) ) 
+   . 8-bit 
+   . did not feature register pairs like the BC, DE, and HL pairs found in the 8085 ; it had a set of single registers
+   => treated individually
+ . ALU : 8-bit
+ . MAR : 12-bit
+ . MDR : 8-bit
+ . flags : C (carry) , P (parity) , Z (zero) , S (sign) 
+ . 7-level push-down address call stack 
+ |
+ . data bus width : 8-bit
+ . address bus width : 8-bit
+ . address width : 14-bit
+ |
+ . "Despite having an 8-bit address width, the Intel 8008 processor could address
+ |  up to 16 KB (16384 bytes) of memory through various memory management techniques
+ |  such as bank switching."
+ |
+ => addressable memory range : 2^14 = 16K (banking / multiplexing) 
+
+
+
+Lacked the following :
+ | 
+ . control registers
+ . controllers
+ . chipset
+ . BIU / segment registers 
+
+
+
+=====================================================================================
+[MAR] vs. [H+L] 
+=====================================================================================
+
+"
+The Memory Address Register (MAR) is dedicated solely to holding memory addresses, providing a dedicated location for storing memory addresses during memory read or write operations, complementing the H and L registers which were general-purpose registers that could be used for various tasks beyond memory addressing.
+"
+_

@@ -1,0 +1,61 @@
+ 
+flash - storage
+ . NOR - in BIOS/UEFI chips
+ . SPI - in UEFI chips
+ . NAND - in USB sticks , SSD's 
+
+SRAM - processor and cache
+ . PDIP and surface-mount packages
+ . 74LS289 (x8) , 62256 (x8) 
+ . Hitachi , Alliance Memory 
+ 
+DRAM - larger (main) memory
+ . typically , SDRAM
+ . surface-mount package 
+ . not page-mode ones like : 4164 (8K-16K) , 4464
+
+ROM
+
+
+MRAM :
+|
+"
+ MRAM stands for Magnetoresistive Random Access Memory. It is a type of non-volatile memory that stores data by utilizing magnetic elements to represent the binary values (0s and 1s). MRAM has several advantages, including fast read and write speeds, low power consumption, and high endurance. It is considered a promising alternative to traditional memory technologies such as DRAM and Flash memory due to its combination of speed, non-volatility, and reliability.
+"
+
+============================================================================================================================================================
+
+"
+The 74LS189 is a 16-bit RAM (Random Access Memory) chip with 16 words by 4 bits organization, meaning it has 16 memory locations, each capable of storing 4 bits of data. However, if you're looking for a RAM chip with a larger capacity, there are indeed many options available, depending on your requirements.
+
+Here are a few examples of larger RAM chips:
+
+1. **DRAM (Dynamic RAM)**: Dynamic RAM chips are commonly used for larger memory capacities. They come in various capacities ranging from kilobytes to gigabytes. For example, the 1 Megabit (128K x 8) DRAM chips like the 4164, or more modern versions with larger capacities such as the 64 Megabit (8M x 8) or even 1 Gigabit (128M x 8) DRAM chips.
+
+2. **SRAM (Static RAM)**: Static RAM chips provide faster access times compared to DRAM but are typically more expensive and have lower densities. SRAM chips can range in capacities from a few kilobytes to several megabytes. Examples include the 32K x 8 SRAM or larger versions like the 1 Megabit (128K x 8) SRAM.
+
+3. **SDRAM (Synchronous DRAM)**: SDRAM is a type of DRAM that synchronizes its operation with the system clock, allowing for faster data transfer rates. SDRAM chips come in various capacities, including those used in modern computer memory modules, ranging from a few hundred megabytes to several gigabytes.
+
+4. **Flash Memory**: Flash memory chips are non-volatile and commonly used for storage in devices like USB drives, SSDs (Solid State Drives), and memory cards. While flash memory is not typically used for RAM in the same way as DRAM or SRAM, it can provide larger storage capacities for data storage applications.
+
+When selecting a RAM chip, it's essential to consider factors such as capacity, speed, power consumption, interface compatibility, and cost, based on the requirements of your project or application. Additionally, newer technologies and advancements may offer higher capacities and improved performance compared to older chip models like the 74LS189.
+"
+
+
+
+"
+Apologies for the oversight. In addition to SDRAM, there are several other types of DRAM, each with its own characteristics and applications. Here are some other types of DRAM:
+
+1. **Fast Page Mode DRAM (FPM DRAM)**: FPM DRAM was one of the earliest types of DRAM and was commonly used in older computer systems. It allowed for faster access to memory by keeping the row address constant for multiple accesses within the same row, eliminating the need to specify the row address repeatedly. However, FPM DRAM has been largely superseded by newer and faster types of DRAM.
+
+2. **Extended Data Out DRAM (EDO DRAM)**: EDO DRAM improved upon FPM DRAM by allowing data to be output while new data is accessed, overlapping memory access cycles and reducing access times. EDO DRAM provided faster performance compared to FPM DRAM and was commonly used in mid-1990s computer systems.
+
+3. **Rambus DRAM (RDRAM)**: RDRAM, developed by Rambus Inc., was a high-speed memory technology used in some computer systems and video game consoles in the late 1990s and early 2000s. It featured a high-speed serial interface and provided high bandwidth but faced compatibility issues and was eventually supplanted by other memory technologies like DDR SDRAM.
+
+4. **Graphics RAM (GRAM)**: Graphics RAM is a type of DRAM specifically optimized for use in graphics processing units (GPUs) and graphics cards. It is designed to provide high bandwidth and low latency, enabling smooth rendering of graphics in video games, multimedia applications, and other graphics-intensive tasks. Graphics RAM variants include GDDR SDRAM, mentioned earlier.
+
+5. **Mobile DRAM**: Mobile DRAM, also known as Mobile DDR (LPDDR), is a type of DRAM optimized for use in mobile devices like smartphones, tablets, and wearable devices. It is designed to provide high performance while minimizing power consumption, making it suitable for battery-powered devices. Variants include LPDDR2, LPDDR3, LPDDR4, and LPDDR5, each offering improvements in performance and power efficiency.
+
+These are some of the other types of DRAM commonly used in computing systems, each with its own set of characteristics and applications.
+"
+_

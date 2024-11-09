@@ -1,4 +1,0 @@
-"
-Before the Intel 4004, computers typically used discrete components or multiple chips for CPU functionality, such as the IBM System/360 series which employed discrete transistor-based logic circuits.
-"
-_

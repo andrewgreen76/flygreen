@@ -1,0 +1,11 @@
+
+===================================================================================
+HOW BIOS IS FLASHED ONTO NVM MEMORY OF THE MOTHERBOARD 
+===================================================================================
+
+ . source : a CH341A thumb drive
+ . target : NVM (non-volatile memory) chip of the motherboard
+    (a) modern : NOR flash memory
+    (b) legacy : EEPROM 
+
+_

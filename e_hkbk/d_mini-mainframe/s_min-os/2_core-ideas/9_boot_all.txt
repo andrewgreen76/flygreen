@@ -1,0 +1,37 @@
+
+			boot sector (512 bytes)			btld sector (~31K)
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+	|byte	...	...	byte	|byte ... byte	|byte	|byte	|byte  ...	... 
+	|0    	...	...	439	 440	  509	|510	 511	|512   ...	...	
+	| 	   FBSL code		|		|	|	|		
+	|    	  (bootstrap)  		     other	|0xAA	 0x55	|    SSBL code 
+	|     (initial boot code) 	|  key fields	|	|	|		
+
+
+========================================================================================
+BOOT PROCESS 
+========================================================================================
+
+On the EEPROM - real-mode BIOS : 
+ |
+ . POST : hardware init + diagn 
+ -> drivers    : BIOS provides basic disk drivers to HDD
+ -> magic num  : looking for 510:0xAA + 511:0x55 in boot sector on all connected drives
+ -> bootpriol  : building the boot priorities list				
+
+
+[An OS is selected.]
+
+
+LOAD AND EXECUTE THE BOOTLOADER. 
+ -> BIOS accesses the drive -> boot partition -> FSBL
+ -> FSBL @ 0x7C00 
+ -> SSBL 
+
+
+LOAD AND EXECUTE THE OS. 
+ -> SSBL enables protected mode 
+ -> SSBL -> kernel 
+ -> kernel loads in build utilities 					      		
+
+_

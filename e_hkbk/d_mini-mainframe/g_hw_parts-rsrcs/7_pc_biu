@@ -1,0 +1,4 @@
+"
+Register IP is physically part of the BIU and not under direct control of the programmer as are the other pointer registers. Six of the flags are status indicators, reflecting properties of the result of the last arithmetic or logical instructions.
+"
+_

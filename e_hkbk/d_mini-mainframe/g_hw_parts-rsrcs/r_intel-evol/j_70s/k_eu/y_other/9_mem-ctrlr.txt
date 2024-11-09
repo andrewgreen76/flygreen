@@ -1,0 +1,33 @@
+
+Inputs and outputs of CPU components (ALU , registers , control logic) go through the memory controller to get to and from the system bus. 
+
+============================================================================================================================================================
+
+"
+Registers are not typically directly connected to the system bus; instead, they interface with it through the CPU's internal data paths or register file access mechanisms.
+"
+
+
+
+"
+The memory controller or memory interface unit within the CPU often connects directly with the system bus, managing data transfer between the CPU and main memory.
+"
+
+
+
+"
+... the memory interface unit within the CPU typically connects directly to the system bus rather than directly to the RAM modules themselves.
+"
+
+
+
+"
+The memory controller optimizes data transfer and control by coordinating memory access requests, managing data flow between the CPU and memory modules, and implementing techniques such as caching and prefetching to enhance memory performance.
+"
+
+
+
+"
+A memory access request is a command issued by the CPU to retrieve or store data in main memory, indicating the specific memory location and the type of operation (read or write) to be performed.
+"
+_

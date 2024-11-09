@@ -1,4 +1,0 @@
-"
-Segmentation is one method of implementing memory protection. Paging is another, and they can be combined. The size of a memory segment is generally not fixed and may be as small as a single byte. 
-"
-_

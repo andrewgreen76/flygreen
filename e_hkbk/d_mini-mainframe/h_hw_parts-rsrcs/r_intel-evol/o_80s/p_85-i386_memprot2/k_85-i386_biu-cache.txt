@@ -1,4 +1,0 @@
-"
-Caches were introduced in microprocessor units (MPUs) in the mid-1980s. One of the earliest microprocessors to incorporate a cache was the Intel 386, released in 1985. This introduction marked the beginning of cache utilization in mainstream microprocessor designs, aimed at improving performance by reducing memory access latency.
-"
-_

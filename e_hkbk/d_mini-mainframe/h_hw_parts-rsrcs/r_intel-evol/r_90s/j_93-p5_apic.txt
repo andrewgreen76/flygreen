@@ -1,4 +1,0 @@
-"
-The first Intel MPU (Microprocessor Unit) to feature an APIC (Advanced Programmable Interrupt Controller) was the Intel Pentium processor, specifically the Pentium P5 architecture, introduced in 1993. The Pentium processor incorporated an APIC as part of its system architecture to handle interrupt requests and manage interrupt priorities in a more advanced and flexible manner compared to earlier interrupt controllers. The introduction of the APIC marked a significant advancement in interrupt handling capabilities for Intel processors, allowing for improved system performance and scalability.
-"
-_

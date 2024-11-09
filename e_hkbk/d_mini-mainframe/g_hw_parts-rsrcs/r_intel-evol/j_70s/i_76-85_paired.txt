@@ -1,0 +1,50 @@
+========================================================================================
+INTEL 8085 - INCLUSIONS AND INNOVATIONS : 
+========================================================================================
+
+ . paired general-purpose registers 
+
+========================================================================================
+INTEL 8085 - OVERVIEW : 
+========================================================================================
+
+ . released in 1976
+
+
+
+Had the following :
+ |
+ . clock
+ . PC/IP width : 8-bit
+ . control logic (IR , stepper , decoder) 
+ . general-purpose registers :
+   . all 8-bit 
+   . paired ones : B with C, D with E, and H with L 
+   . Accumulator (A) 
+ . ALU : 8-bit
+ . MAR : 12-bit
+ . MDR : 8-bit 
+ |
+ . data bus width : 8-bit
+ . address bus width : 16-bit
+ . address width : 16-bit
+ => addressable memory range : 2^16 = 64K 
+
+
+
+Lacked the following :
+ | 
+ . control registers
+ . controllers
+ . chipset
+ . BIU / segment registers 
+
+
+========================================================================================
+PAIRED BCDEHLA : 
+========================================================================================
+
+"
+The Intel 8085 microprocessor introduced the set of registers BC, DE, HL, and the accumulator (A). These register pairs were used for various operations such as arithmetic, data movement, and memory addressing.
+"
+_

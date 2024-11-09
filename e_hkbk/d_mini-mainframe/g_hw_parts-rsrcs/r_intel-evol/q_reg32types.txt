@@ -1,0 +1,38 @@
+
+========================================================================================
+SOME DIFFERENCES 
+========================================================================================
+
+Expanded registers :
+ | 
+ . general-purpose registers :
+ | . EAX - accumulator , used for most operations , including holding return values 
+ | . EBX - typically holds the address of a variable or a procedure 
+ | . ECX - usually used for counting/looping 
+ | . EDX - typically used as a data register for multiplication/division
+ | 
+ . index registers (some think of them as general-purpose , some say they are specialized) : 
+ | . EBP - address of the stack frame for the currently active subroutine 
+ | . ESP - the "top"/"bottom" of the stack frame (where we see caller EBP , local vars , or params to deeper srout) 
+ | . ESI - address of source buffer (can be used in copying strings of bytes) 
+ | . EDI - address of dest buffer (can be used in copying strings of bytes) 
+ |
+ . EIP - holds the address of the next instruction to execute 
+ . EFLAGS (flags register) - status flags + control flags 
+   . addl ctrl flag : request to enter protected / virtual-8086 mode
+
+
+========================================================================================
+SEGMENT REGISTERS 
+========================================================================================
+
+ . segment registers (16-bit , NOT EXTENDED TO 32-BIT) : 
+   . CS - address of block with instructions 
+   . DS - address of block with variables (tied to SI) 
+   . ES - just additional  		  (tied to DI) 
+   . SS - address of the stack
+   |
+   . FS - ??? 
+   . GS - ??? 
+
+_

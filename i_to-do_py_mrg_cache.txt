@@ -1,10 +1,5 @@
 
-bootcode.bin
-FSBL
-SSBL per SO
 CH341A 
-
-1-hr lecture , 2-hr lecture , 4-hr course , 8-hr course , etc.
 
 Under what circumstances would the kernel kill a process ? 
 

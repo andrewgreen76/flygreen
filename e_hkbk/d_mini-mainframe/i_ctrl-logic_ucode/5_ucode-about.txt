@@ -1,7 +1,0 @@
-
- . proprietary
-   . "guarded intellectual property owned by CPU manufacturers such as Intel or AMD"
-   
- . "... highly specific to the hardware architecture of the CPU"
-
-_

@@ -1,0 +1,4 @@
+"
+The Intel 430FX chipset, also known as the Triton I, introduced in 1994, was one of the first chipsets from Intel to incorporate the concept of a Northbridge and Southbridge. This chipset accompanied the Intel Pentium Pro processor and introduced the separation of functions between the Northbridge and Southbridge components. The Northbridge handled memory and graphics-related functions, while the Southbridge managed I/O interfaces, such as IDE, PCI, USB, and ISA.
+"
+_

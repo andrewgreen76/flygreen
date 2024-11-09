@@ -1,0 +1,4 @@
+
+A unit in a CPU (e.g., EU, BIU, IU, AU) is merely a sub-section of the CPU , but thought of as a distinctive part for organization purposes. 
+
+_

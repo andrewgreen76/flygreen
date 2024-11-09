@@ -1,0 +1,11 @@
+
+Hibernation, as commonly understood on physical machines, involves saving the entire system's state to disk and then powering off the machine. When the machine is powered back on, it resumes from the saved state.
+
+In the context of VMs, hibernation is not a widely supported or used feature. Virtual machines are designed to be highly dynamic and flexible, allowing for rapid creation, deletion, migration, and scaling. While some virtualization platforms may provide a feature similar to hibernation, it is typically referred to as "suspend" or "save state" rather than hibernation.
+
+When a VM is suspended or its state is saved, the current memory and processor state are stored on disk. This allows the VM to be quickly resumed later, starting from the point where it was suspended. However, this process is not the same as hibernation on physical machines, as the entire host system is not powered off.
+
+The suspension or save state feature is useful for scenarios where a VM needs to be paused temporarily, migrated to another host, or put into a low-power state while preserving its current state. It provides faster recovery compared to starting a VM from scratch but does not involve powering off the host machine.
+
+So, while hibernation is not typically implemented in VMs, similar functionalities like suspending or saving the state of a VM exist for specific use cases within virtualization platforms.
+

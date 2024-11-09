@@ -1,0 +1,53 @@
+========================================================================================
+INTEL 8080 - INCLUSIONS AND INNOVATIONS : 
+========================================================================================
+
+ . a more intricate instruction set 
+ . a wider bus
+
+========================================================================================
+INTEL 8080 - OVERVIEW : 
+========================================================================================
+
+ . released in 1974
+
+
+
+Had the following :
+ |
+ . clock
+ . PC/IP width : 8-bit
+ . control logic (IR , stepper , decoder) 
+ . general-purpose registers :
+   . 7 of them (B, C, D, E, H, L, Accumulator (A) ) 
+   . 8-bit 
+   . did not feature register pairs like the BC, DE, and HL pairs found in the 8085 ; it had a set of single registers
+   => treated individually
+ . ALU : 8-bit
+ . MAR : 12-bit
+ . MDR : 8-bit 
+ |
+ . data bus width : 8-bit
+ . address bus width : 16-bit
+ . address width : 16-bit
+ => addressable memory range : 2^16 = 64K
+ |
+ . LDA and STA instructions 
+
+
+
+Lacked the following :
+ | 
+ . control registers
+ . controllers
+ . chipset
+ . BIU / segment registers 
+
+=========================================================================================================================================================
+
+"
+The Intel 8080 microprocessor, introduced in 1974, did not require the same level of external support chips as the later Intel 8086 and subsequent processors. The architecture of the 8080 was simpler, and it was designed to be used in a wide variety of applications, including embedded systems and early microcomputers.
+
+While the 8080 did not have integrated support for peripherals like modern CPUs, it didn't require as many external support chips as later processors because the systems it was used in were less complex. In many cases, the 8080 was interfaced directly with memory and peripheral devices without the need for dedicated support chips like those found in later systems based on the 8086 and other x86 processors.
+"
+_

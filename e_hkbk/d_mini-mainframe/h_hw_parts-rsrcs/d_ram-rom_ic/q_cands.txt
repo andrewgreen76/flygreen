@@ -1,5 +1,0 @@
-
- . AT27C512R-45PU - 64K ROM , 16 address lines
- . AS6C1008-55PCN - 128K RAM , 17 address lines 
-
-_

@@ -1,0 +1,188 @@
+
+Intel 4004 :
+ |
+ . '71
+ . PC width : 12 bits  
+ . data bus width : 4 bits
+ . address bus width : 4 bits
+ . address width : 12 bits (past bus limits as an address can be multiplexed)
+ |
+ . "The Intel 4004 processor, despite having a 4-bit address width, was often used
+ |  in systems with bank-switching techniques that allowed it to access larger amounts
+ |  of memory. In practice, it could address up to 4 KB (4096 bytes) of memory."
+ |
+ => addressable memory range : up to 2^(12 bits) = 4K
+
+
+
+Intel 8008 :
+ |
+ . '72
+ . data bus width : 8 bits
+ . address bus width : 8 bits
+ . address width : 14 bits
+ |
+ . "Apologies for the oversight. Despite having an 8-bit address width, the Intel 8008
+ |  processor could address up to 16 KB (16384 bytes) of memory through various memory
+ |  management techniques such as bank switching."
+ |
+ => addressable memory range : up to 2^14 = 16K (banking / multiplexing) 
+
+
+
+Intel 8080 :
+ . '74
+ . data bus width : 8
+ . address bus width : 16
+ . address width : 16
+ . addressable memory range : up to 2^16 = 64K 
+
+
+
+Intel 8086 :
+ . '78
+ . data bus width : 16 
+ . address bus width : 20 
+ . address width : 20
+ . addressable memory range : up to 2^20 = 1M 
+
+
+
+Intel 8088 :
+ . '79
+ . data bus width : 8
+ . address bus width : 20 
+ . address width : 20 
+ . addressable memory range : up to 2^20 = 1M 
+
+
+
+Intel 80286 :
+ . a.k.a. i286 
+ . '82 
+ . data bus width : 16 
+ . address bus width : 24 
+ . address width : 24 
+ . addressable memory range : up to 2^24 = 16M 
+ . multiprocessing
+   => high-performance
+ . more transistors
+
+
+
+Intel 80386 :
+ . a.k.a. i386 
+ . '85
+ . data bus width : 32 
+ . address bus width : 32 
+ . address width : 32 
+ . addressable memory range : up to 2^32 = 4G 
+
+
+
+Intel 80486 :
+ . '89
+ . integrated FPU
+ . better performance compared to i386 
+ . data bus width : 32 
+ . address bus width : 32 
+ . address width : 32 
+ . addressable memory range : up to 2^32 = 4G
+
+
+
+Intel i860 :
+ . '89
+
+
+
+Intel Pentium I (i586) :
+ . '93
+
+
+
+Intel Pentium Pro :
+ . '95
+
+
+
+Intel Pentium II Xeon :
+ . '98
+ . workstations
+ . servers
+
+
+
+Intel Pentium III Xeon :
+ . '99 
+
+
+
+Intel Pentium 4 :
+ . '00
+ . 42 million transistors 
+
+
+
+Intel Itanium IA-64 :
+ . '01
+ . data bus width : 64 
+ . address bus width : 64 
+ . address width : 64 
+ . addressable memory range : up to 2^64 = 18E
+ . mainly for servers 
+
+
+
+Intel Xeon :
+ . '01 
+ . mainly for servers
+
+
+
+Intel Centrino :
+ . '03 
+ . great for building thin laptops
+ . mainly for mobile devices 
+
+
+
+Intel Dual-Core :
+ . '06
+ . tied to Viiv multimedia specifications for home entertainment devices 
+
+
+
+Intel Quad-Core processors :
+ . '06
+
+
+
+Intel Core 2 Duo :
+ . '06
+
+
+
+Intel Core 2 Quad :
+ . '07 
+
+
+
+2nd-Gen Intel Core :
+ . '11 
+ . a.k.a. Sandy Bridge 
+
+
+
+3rd-Gen Intel Core :
+ . '12
+ . a.k.a. Ivy Bridge
+
+
+
+Intel Xeon Phi :
+ . '13
+ . HPC applications
+ . parallel processing workloads 
+ 
+_

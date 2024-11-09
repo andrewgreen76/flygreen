@@ -1,0 +1,29 @@
+
+Wiki:
+|
+"
+In computing, the term chipset commonly refers to a set of specialized chips on a computer's motherboard or an expansion card. In personal computers, the first chipset for the IBM PC AT of 1984 was the NEAT chipset developed by Chips and Technologies for the Intel 80286 CPU. 
+
+In home computers, game consoles, and arcade hardware of the 1980s and 1990s, the term chipset was used for the custom audio and graphics chips. Examples include the Original Amiga chipset and Sega's System 16 chipset. 
+
+In x86-based personal computers, the term chipset often refers to a specific pair of chips on the motherboard: the northbridge and the southbridge. The northbridge links the CPU to very high-speed devices, especially RAM and graphics controllers, and the southbridge connects to lower-speed peripheral buses (such as PCI or ISA). In many modern chipsets, the southbridge contains some on-chip integrated peripherals, such as Ethernet, USB, and audio devices. 
+"
+
+ChatGPT:
+|
+"
+The first chipset featuring the northbridge and southbridge architecture was developed by Intel in the mid-1990s, with the release of the Intel 430FX chipset (also known as the Triton I).
+"
+
+"
+The early predecessor replaced by the Northbridge-Southbridge architecture was the single-chip CPU design, where the CPU directly interfaced with peripherals without an intermediary chip.
+"
+
+"
+The Northbridge-Southbridge architecture was introduced to manage increasing complexity and speed discrepancies between the CPU and peripheral devices, facilitating better performance and scalability in computer systems.
+"
+
+"
+... the Northbridge-Southbridge architecture is commonly referred to as the "chipset architecture."
+"
+_

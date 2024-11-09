@@ -1,0 +1,14 @@
+"
+Components commonly found inside a southbridge include:
+
+1. Input/Output Controller Hub (ICH)
+2. USB controllers
+3. SATA controllers
+4. Ethernet controllers
+5. Audio controllers
+6. Legacy I/O interfaces (such as serial and parallel ports)
+7. PCI bus interface
+8. BIOS interface
+9. Power management circuitry.
+"
+_

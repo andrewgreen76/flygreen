@@ -1,4 +1,0 @@
-"
-The voltage required by the Intel Pentium Silver N6000 processor, like most modern CPUs, depends on the specific voltage regulator modules (VRMs) used in the motherboard or system. The CPU itself operates internally at a much lower voltage than what is supplied by the VRMs. Typically, modern x86 processors operate at voltages in the range of 0.8 volts to 1.5 volts, with specific voltages being regulated by the motherboard's power delivery system to meet the CPU's requirements. For accurate voltage specifications for the Pentium Silver N6000, it's best to refer to Intel's official documentation or the specifications provided by the motherboard manufacturer.
-"
-_

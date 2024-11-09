@@ -1,4 +1,0 @@
-"
-While PCIe is primarily used for connecting peripheral devices, main memory in modern computer systems is typically connected to the CPU through a dedicated memory bus, such as DDR (Double Data Rate) memory buses, rather than through PCIe.
-"
-_

@@ -1,4 +1,0 @@
-"
-Instruction caching, a type of cache that stores instructions fetched from memory to speed up instruction fetching, was introduced in Intel microprocessors as early as the Intel 80386 processor, which was released in 1985. The 80386 featured a 8KB to 16KB instruction cache, known as the Level 1 instruction cache (L1i cache). This cache helped improve performance by storing frequently accessed instructions closer to the CPU core, reducing the latency of instruction fetches from main memory. Since then, instruction caching has been a standard feature in virtually all modern Intel microprocessors, with cache sizes and architectures evolving over time to meet the increasing demands of complex software and applications.
-"
-_

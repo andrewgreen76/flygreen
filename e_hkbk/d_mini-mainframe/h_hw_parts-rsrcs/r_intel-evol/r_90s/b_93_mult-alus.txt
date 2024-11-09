@@ -1,6 +1,0 @@
-"
-The Intel Pentium processor, introduced in 1993, was one of the first Intel microprocessors to feature multiple Arithmetic Logic Units (ALUs) on a single chip. The Pentium processor, with its superscalar architecture, included two ALUs, allowing it to execute multiple instructions in parallel.
-
-This architectural enhancement significantly improved the processor's ability to execute instructions simultaneously, leading to higher performance in tasks that could be parallelized. Since the Pentium processor, subsequent generations of Intel processors have continued to increase the number of execution units, including ALUs, to further enhance performance and efficiency.
-"
-_

@@ -1,8 +1,0 @@
-"
-Floating-point division has been an integral part of computing since the development of floating-point arithmetic. 
-
-The concept of floating-point arithmetic, which includes floating-point division, was introduced in the early days of computer science. One of the earliest implementations of floating-point arithmetic was in the IBM 704 computer, which was introduced in 1954. This computer featured hardware support for floating-point arithmetic operations, including division.
-
-However, the specific introduction of floating-point division as a concept is difficult to pinpoint, as it was a fundamental aspect of early computer designs that evolved alongside the development of computing technology.
-"
-_

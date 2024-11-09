@@ -1,0 +1,19 @@
+
+========================================================================================
+CLOCK PHASES : 
+========================================================================================
+
+"
+[...] PHI2 (often written as φ2) refers to the second phase of the clock signal in the processor's timing. [...] phase of the clock signal (φ1 and φ2) drives different parts of the processor's internal logic.
+
+During the φ2 phase of the clock, various operations such as instruction decoding, data transfer, and execution take place within the CPU. The φ2 phase typically follows the φ1 phase and helps to synchronize the internal operations of the processor. This two-phase clocking scheme is common in many microprocessors and helps to ensure proper timing and synchronization of the CPU's operations.
+"
+
+
+
+"
+φ1 (Phi 1): This is the first phase of the clock signal. During φ1, various operations such as instruction fetching, register loading, and data transfer may occur within the processor. φ1 typically marks the beginning of a new clock cycle and initiates the execution of instructions.
+
+φ2 (Phi 2): This is the second phase of the clock signal. During φ2, additional operations such as instruction decoding, execution, and memory access may take place. φ2 follows φ1 in the clock cycle and helps to synchronize and coordinate the internal operations of the processor.
+"
+_

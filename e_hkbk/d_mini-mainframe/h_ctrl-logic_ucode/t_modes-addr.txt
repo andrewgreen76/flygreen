@@ -1,0 +1,39 @@
+   
+ . register-to-register (where data is moved between registers)
+   . mov eax, ebx	; contents of ebx
+   . xxxxxxxx 00xxxxxx
+   . "register addressing mode"
+   . "register direct addressing mode" 
+   
+ . register-indirect (where data is accessed indirectly through a register)
+   . mov eax, [ebx]     ; ebx as a pointer to an address with opd 
+   . xxxxxxxx 01xxxxxx
+   . "(register) indirect addressing mode"
+   
+ . memory-direct (where data is accessed indirectly through a memory address)
+   . mov eax, dword ptr [0x12345678]  ; Move a 32-bit (dword) value from memory address 0x12345678 into the EAX register
+   . add byte ptr [ebx], 0x10  	      ; Add 0x10 to the byte value stored at the memory location pointed to by EBX
+   . xxxxxxxx ??xxxxxx
+   . "direct memory addressing mode"
+   . "absolute addressing mode"
+   
+==========================================================================================================================================================
+Yes, in some assemblers, including NASM and MASM, specifying the data width (e.g., dword ptr) is not always required, especially when the assembler can infer the size of the operand from the context. In these assemblers, "mov eax, [0x12345678]" is generally acceptable and equivalent to "mov eax, dword ptr [0x12345678]". However, it's good practice to be explicit about the size of data being accessed for clarity and to avoid potential errors.
+==========================================================================================================================================================
+   
+ . memory-indirect (where data is accessed indirectly through a memory address)
+   . mov eax, [0x12345678]     ;
+   . mov eax, [ebx + 8]
+   . xxxxxxxx 10xxxxxx
+   . "indirect memory addressing mode"
+
+ . immediate (where data is directly specified)
+   . mov eax, 12345678h
+   . xxxxxxxx 11xxxxxx
+
+==========================================================================================================================================================
+
+"
+In x86 assembly language, addressing modes include immediate (where data is directly specified), register-to-register (where data is moved between registers), register-indirect (where data is accessed indirectly through a register), and memory-indirect (where data is accessed indirectly through a memory address).
+"
+_

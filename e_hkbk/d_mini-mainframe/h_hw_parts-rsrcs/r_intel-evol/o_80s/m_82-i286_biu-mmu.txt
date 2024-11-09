@@ -1,4 +1,0 @@
-"
-MMU stands for Memory Management Unit. It's a hardware component within a computer's CPU or chipset responsible for translating virtual addresses used by software into physical addresses in memory. The MMU plays a crucial role in modern operating systems, enabling features such as memory segmentation, paging, and memory protection. It provides memory protection, virtual memory, and memory mapping capabilities, allowing the operating system to efficiently manage system memory and provide each process with its own isolated memory space.
-"
-_

@@ -1,6 +1,6 @@
 
 ===================================================================================
-REASONS WHY THE KERNEL WOULD KILL A PROCESS - AND HOW TO WORK THAT 
+REASONS WHY THE KERNEL WOULD KILL A PROCESS - AND HOW TO WORK WITH THAT 
 ===================================================================================
 
 "

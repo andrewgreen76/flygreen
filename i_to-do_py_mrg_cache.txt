@@ -1,6 +1,4 @@
 
-Under what circumstances would the kernel kill a process ? 
-
 linker.ld / bios.cfg 
 
 The expectation - but not at all a requirement - of all students is that they : 

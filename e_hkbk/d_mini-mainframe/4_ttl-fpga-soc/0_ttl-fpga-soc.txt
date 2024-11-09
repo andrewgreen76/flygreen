@@ -1,11 +1,12 @@
 
 ===================================================================================
-TTL vs. FPGA vs. SOC 
+TTL vs. FPGA vs. SOC - 
 ===================================================================================
 
 a) TTL :
     + hardware processing logic split between separate physical components (integrated circuits)
     - not professional grade
+    - tend to get noisy (i.e., sensitive to signals and producing noise in the output) 
 
 b) FPGA :
     + in demand

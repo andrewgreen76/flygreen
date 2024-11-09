@@ -1,4 +1,6 @@
 
+one sentence: is STM32 nucleo an SoC board, a microcontroller board, or both
+
 linker.ld / bios.cfg 
 
 The expectation - but not at all a requirement - of all students is that they : 

@@ -1,0 +1,32 @@
+
+I got so lost with Daniel McCarthy's "Multithreaded Linux Kernel From Scatch" course - meaning that
+I lost track of how things are done from the ground up - that I decided to put a temporary halt on
+my progress with it. I like knowing what goes on with my projects and the fact that I did not carefully
+handle all the iterations of my kernel development project (up to the point where we implement the heap)
+is simply my fault.
+
+I should get in the habit of keeping track of what I'm going ; otherwise , I won't have a clear idea
+of what's going on how to get from any one point to another during the development of a project.
+
+
+
+Thoughts : 
+
+Doom-style map of progress :
+ . where we were , what we accomplished there , why , and how 
+ . what we may have to do next , why , and how 
+
+Every iteration of the project (like kernel dev) will be treated as a method of achieving a state of
+completion ... even if it's not actual completion.
+ . what our kernel can do now
+ . what (independently) enables the kernel to do that (i.e., the keyword is "modularity") 
+ . what the kernel still can't do that we would like for it to be able to do 
+ . visual structuring of the hardware/software's functionality
+ . developing the ability to describe in detail how we get from the start (boot , execution , etc.)
+   to here 
+
+Plan - whatever course I conquer :
+ . I need to go over the course's table of contents (on Udemy) and draw a map. 
+ . 
+
+_

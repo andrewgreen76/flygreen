@@ -1,4 +1,0 @@
-"
-... the STM32 Nucleo-64 focuses on integrating a microcontroller with essential components like the CPU, memory, and basic peripherals, without including more complex features typically found in SoCs, such as graphics processing units (GPUs) or advanced communication interfaces.
-"
-_

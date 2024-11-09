@@ -1,4 +1,8 @@
 
+1-hr lecture , 2-hr lecture , 4-hr course , 8-hr course , etc.
+
+Under what circumstances would the kernel kill a process ? 
+
 one sentence: is STM32 nucleo an SoC board, a microcontroller board, or both
 
 linker.ld / bios.cfg 

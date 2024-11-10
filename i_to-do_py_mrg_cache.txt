@@ -1,7 +1,4 @@
 
-What is the minimum that I should know about {semic , emb.sys (PCBs,ports) , OSdev , etc.}
-  to ace that job interview ? Where's the cutoff ? What am I allowed to forget ? 
-
 linker.ld / bios.cfg 
 
 The expectation - but not at all a requirement - of all students is that they : 

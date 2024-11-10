@@ -1,0 +1,39 @@
+"
+The `.ld` linker scripts are written in a **specific scripting language** used by the **GNU linker (ld)**. This language is not a full programming language, but rather a configuration language tailored to the specific needs of the linker. 
+
+The language is a combination of:
+
+1. **Commands**: Directives that tell the linker what to do, like defining memory regions, sections, and addresses. For example:
+   - `ENTRY(symbol)` specifies the entry point for the program.
+   - `SECTIONS` defines the mapping of sections in memory.
+
+2. **Variables**: You can use variables to store values like addresses or sizes.
+
+3. **Expressions**: The linker script allows expressions to calculate values, such as adding addresses or aligning sections.
+
+4. **Conditionals and Loops**: The scripting language includes basic control flow constructs, like conditionals (`if`, `else`) and loops, allowing for more flexible script customization.
+
+5. **Syntax for Sections**: The linker script defines memory sections (like `.text`, `.data`, `.bss`, etc.) and their placement in memory.
+
+Here's a simple example of a linker script:
+
+```ld
+ENTRY(_start)
+
+SECTIONS {
+  . = 0x10000;   /* Set the starting address for the sections */
+  .text : {
+    *(.text)      /* Collect all .text sections from object files */
+  }
+  .data : {
+    *(.data)      /* Collect all .data sections from object files */
+  }
+  .bss : {
+    *(.bss)       /* Collect all .bss sections from object files */
+  }
+}
+```
+
+The script defines the memory layout for a program, specifying where different sections should go in memory, and what the entry point should be. The script language is very specific to the functionality of the GNU linker, with its own set of syntax rules and directives.
+"
+_

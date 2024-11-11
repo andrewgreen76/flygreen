@@ -1,7 +1,10 @@
 
 watch Daniel's intro :
+|
+Constructs : 
  . tokens
  . the macro system
+Sub-programs / steps : 
  . lexer
  . parser
  . code generator 
@@ -11,9 +14,15 @@ watch Daniel's intro :
 Stages of compiling
 End result - an assembly file ? 
 
-ShitC - laziest effort put in a compiler ; stub implementations ; put together in a day 
+
+ShitC : 
+ . built with no knowledge of how compilers work ;
+ . laziest effort put in a compiler ;
+ . stub implementations ;
+ . put together in a day 
 LazyC - put together in a few days ; pretends to be C ; faked functionality ; can only process some C code 
 DumbC - 1st attempt at something truly serious -> (in)complete compiler 
+
 
 linker.ld / bios.cfg 
 

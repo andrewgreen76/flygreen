@@ -1,4 +1,20 @@
 
+watch Daniel's intro :
+ . tokens
+ . the macro system
+ . lexer
+ . parser
+ . code generator 
+ . validator
+ ? optimization ? 
+|
+Stages of compiling
+End result - an assembly file ? 
+
+ShitC - laziest effort put in a compiler ; stub implementations ; put together in a day 
+LazyC - put together in a few days ; pretends to be C ; faked functionality ; can only process some C code 
+DumbC - 1st attempt at something truly serious -> (in)complete compiler 
+
 linker.ld / bios.cfg 
 
 If you can't apply it , you can't appreciate it. If you can't appreciate it ,

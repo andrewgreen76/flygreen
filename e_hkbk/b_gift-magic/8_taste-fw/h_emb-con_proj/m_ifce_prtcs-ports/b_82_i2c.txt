@@ -1,7 +1,10 @@
+
 ========================================================================================
 I2C : 
 ========================================================================================
 
+ . Inter-Integrated Circuit
+ 
  + (common application : ) allows for INTER-COMPATIBILITY / INTER-ADAPTABILITY 
 
  - signal degradation
@@ -9,6 +12,9 @@ I2C :
 
  . serial
  . synchronous 
- . Inter-Integrated Circuit
 
+
+"
+I2C is a name short form for Inter-Integrated Circuit. I2C is a simple two-wire serial protocol used to communicate between chips in an embedded system on a PCB board. I2C communication consist[s] of two signal lines SCL and SDA.
+"
 _

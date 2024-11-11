@@ -2,11 +2,16 @@
 Runtime environment :
  |
  . framework - a tool for making other applications 
- . allows otherwise unexecutable programs written in a certain language to run (support / platform) 
+ . allows otherwise unexecutable programs written in a certain language to run 
 
 ===========================================================================================================
 ===========================================================================================================
 ===========================================================================================================
+"
+A runtime is the period during which a program is executing, or the environment that provides the necessary resources and services for a program to run.
+"
+
+
 "
 A runtime environment is a software framework that provides a platform for executing and running programs or applications. It includes the necessary components and services to support the execution of software, allowing programs written in a specific programming language to run on a computer or device.
 

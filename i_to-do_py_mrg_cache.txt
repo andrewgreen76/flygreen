@@ -1,17 +1,6 @@
 
 linker.ld / bios.cfg 
 
-The expectation - but not at all a requirement - of all students is that they : 
- . develop their own game
- . HW ONION : develop a piece of hardware to study hardware 
- . study ISAs (and ideally develop their own ISA) 
- . FW ONION : examine / write their own BIOS / embedded system (Embedded Linux/Free RTOS) 
- . OS ONION : write their own operating system
- . CC ONION : write their own C compiler 
- . write their own language and the compiler/interpreter for it 
-
-game theory : making small games within larger games 
-
 If you can't apply it , you can't appreciate it. If you can't appreciate it ,
   you can't learn it. Then you are just guessing how to scribble correctly
   while futzing around with numbers and funny characters. 

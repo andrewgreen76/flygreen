@@ -5,8 +5,11 @@
      files with ".any_file_extension". 
 
 
+
+ - We will NOT be implementing a full-fledged compiler , but just enough to process a subset of C. 
+   - We will NOT be implementing C system calls from scratch.
+   
  - We will NOT be starting with minimal assembly to push towards a brand-spanking-new 
      flavor of C. 
- - We will NOT be implementing C system calls from scratch. 
 
 _

@@ -1,54 +1,5 @@
 
-Constructs :
-|
-Whitespace characters 
-Tokens
- . special characters 
- . data types + return types
-    . signed : char , short , int , double , long , long long 
-    . unsigned : bool , uint16_t , size_t
-    . pointers and arrays of all kinds (incl. ptrs of funcs) 
- . arithmetic and logic operators 
- . branch/conditioning :
-    . if
-    . else
-    . else if
-    . switch/case
- . iteration :
-    . `for` loops
-    . `while` loops
-    . `do-while` loops 
- . control flow statements :
-    . return
-    . break
-    . continue
-    . goto 
- . structs + unions
- . storage classes
- . volatile 
- . preprocessing / the macro system
-    #include libraries 
-    #define
-    #ifndef
-    #endif
-    #elif
-    #pragma
-    . macro expressions
-    . dunder macros
-Modularity :
- . function bodies + calls + prototypes 
- . system calls 
-Sub-programs / steps / Stages of compiling :
- . lexer
- . parser
-   -> AST
- . code generator
-   -> .asm
- . validator
- ? optimization ? 
-|
-End result - an assembly file ? 
-
+own-utils/ownC
 
 ShitC : 
  . built with no knowledge of how compilers work ;

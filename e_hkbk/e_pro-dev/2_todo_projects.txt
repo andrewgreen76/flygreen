@@ -7,6 +7,12 @@ The expectation - but not at all a requirement - of all students is that they :
  . write their own language and the compiler/interpreter for it
  . OS ONION : write their own operating system
     . write their own hardware driver(s) - I/O (disk, peris, (NIC)) , graphics , audio , etc. 
- . HW ONION : develop a piece of hardware to study hardware 
+ . HW ONION : develop a piece of hardware to study hardware
+ . AS ONION : write your own assembler
+ . LD ONION : write your own linker (with or without listening to linker scripts) 
+
+
+(a) Follow courses
+(b) Teach yourself 
 
 _

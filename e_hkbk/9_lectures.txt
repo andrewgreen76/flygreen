@@ -4,10 +4,17 @@ DIY DEMOS , LECTURES , COURSES
 ===================================================================================
 
 1-hr demo :
- . 
+ . YouTube speed-up/slow-down 
 
-2-hr demo/lecture ?? 
- . 
+2-hr demo/lecture ??
+ . target audience : level of experience 
+ . YouTube speed-up/slow-down 
+ . maybe vocalize your thought process
+ . ingredients
+ . talk about expected user experience 
+ . type of input , type of output 
+
+===================================================================================
 
 4-hr course : 
  . 

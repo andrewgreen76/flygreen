@@ -1,4 +1,8 @@
 
+who acquired atmel
+floor for hardware scaling
+roadmaps and recipes
+
 Am I going to use it ? 
 
 own-utils/ownC

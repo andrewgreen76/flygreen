@@ -1,0 +1,18 @@
+
+ . plastic - cheap
+ . ceramic - endurance
+
+ . epoxy resin - molding 
+
+===================================================================================
+INTEGRATED CIRCUIT PACKAGING MATERIALS 
+===================================================================================
+
+"
+The **industry standard** for semiconductor packaging, particularly for consumer-grade microcontrollers and CPUs, is **plastic**. Specifically, **plastic packages** like **QFP (Quad Flat Package)** and **SOIC (Small Outline Integrated Circuit)** are commonly used for low to moderate-performance applications, providing a good balance between cost, ease of manufacturing, and electrical performance.
+
+**Ceramic** packages, such as **CERDIP** (Ceramic Dual In-line Package), are used for higher-performance or more rugged applications where durability, heat resistance, or reliability in harsh environments is important. However, they are less common than plastic packages due to their higher cost.
+
+**Epoxy resin** is often used as a **molding material** in plastic packages, but it isn't a package type on its own—it forms part of the packaging process in conjunction with other materials.
+"
+_

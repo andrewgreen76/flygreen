@@ -1,0 +1,27 @@
+				_______________				_______________				_______________					_______________				
+				specs	 				visuals	 				easy projects 	 				hard projects
+========================================================================================================================================================================================================
+INTEGRATED CIRCUIT(S) - DESIGN - ROADMAP
+========================================================================================================================================================================================================
+
+   . circuit design : architecture / instr.set , decoder logic , ALU , control unit 
+   . circuit prototyping : online simulation 
+   . [PCB's 3D/physical design] x [actual hardware] : PCB layers
+
+ . theory - talking solutions in between waypoints  
+
+
+logic families 			CMOS , (TTL) 				[need visuals, explain differences]
+
+
+packaging 			QFP , SOIC , QFN , BGA ; 		[need visuals, explain differences]
+				(P)DIP , SMD 
+
+
+integrated circuits												x						(a) microcontrollers (PIC12LF1840) 
+																				(b) 
+																				 . CPU
+																				 . ROM
+																				 . RAM
+
+_

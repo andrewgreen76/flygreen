@@ -14,35 +14,23 @@ design / prototyping tools :
 
  . theory - talking solutions in between waypoints  
 
-   . circuit design : architecture / instr.set , decoder logic , ALU , control unit 
-   . circuit prototyping : online simulation 
-   . [PCB's 3D/physical design] x [actual hardware] : PCB layers
+ . circuit design : architecture / instr.set , decoder logic , ALU , control unit 
+ . circuit prototyping : online simulation 
+ . [PCB's 3D/physical design] x [actual hardware] : PCB layers
 
 RTL
-
-		easy projects 	 				hard projects
-
-
-		embedded PCBs
-		(backplane)					SSD
-		power supply 		 			GPU
-		 . ?V  
-		 . multivolt 
-		 . polarity : + or -
-		 . dual-polarity
-		 . regular -OR- proprietary 
-
-		blinkenboard 					motherboard
 	
-arch. / iset ..................................................	x86 , RISC-V
+Arch. / iset :
+ . none (we are dealing with an MCU)
+
+
  . instruction decoder / control logic 
 
 
-PCB layers	single-layer 					4-12-16 layers 
+PCB layers : ?  
 
 
 ? assembly ? 
 Arduino - firmware development 
-The Simon Memory Game 
 
 _

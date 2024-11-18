@@ -1,10 +1,7 @@
-				_______________				_______________				_______________					_______________				
-				specs	 				visuals	 				easy projects 	 				hard projects
-========================================================================================================================================================================================================
+				
+=======================================================================================================================================
 PCB(s) - DESIGN - ROADMAP AND RECIPE 
-========================================================================================================================================================================================================
-
-
+=======================================================================================================================================
 
 design / prototyping tools : 
  . Schematic - tools 
@@ -21,23 +18,27 @@ design / prototyping tools :
    . circuit prototyping : online simulation 
    . [PCB's 3D/physical design] x [actual hardware] : PCB layers
 
-
 RTL
-														embedded PCBs
-				 										(backplane)					SSD
-														power supply 		 			GPU
-														 . ?V  
-														 . multivolt 
-														 . polarity : + or -
-														 . dual-polarity
-														 . regular -OR- proprietary 
 
-														blinkenboard 					motherboard
-architecture / instr.set ......................................................................................................................................	x86 , RISC-V
+		easy projects 	 				hard projects
+
+
+		embedded PCBs
+		(backplane)					SSD
+		power supply 		 			GPU
+		 . ?V  
+		 . multivolt 
+		 . polarity : + or -
+		 . dual-polarity
+		 . regular -OR- proprietary 
+
+		blinkenboard 					motherboard
+	
+arch. / iset ..................................................	x86 , RISC-V
  . instruction decoder / control logic 
 
 
-PCB layers 														single-layer 					4-12-16 layers 
+PCB layers	single-layer 					4-12-16 layers 
 
 
 ? assembly ? 

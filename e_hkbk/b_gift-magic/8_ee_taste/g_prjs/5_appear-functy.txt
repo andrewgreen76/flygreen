@@ -1,13 +1,9 @@
 
-======================================================================================================================================
-GENERAL VISION OF THE PRODUCT - APPEARANCE AND FUNCTIONALITY 
-======================================================================================================================================
-
-Pick a project that interests you : 
-
+This page is for your GENERAL VISION OF THE PRODUCT - APPEARANCE AND FUNCTIONALITY.
+  You need to get an idea of what kind of a project you want to commit to. 
 
 ======================================================================================================================================
-EASY PROJECTS 
+EASY PROJECTS - PICK A PROJECT THAT INTERESTS YOU 
 ======================================================================================================================================
 
   (.) power supply
@@ -31,7 +27,8 @@ EASY PROJECTS
   (.) LED blinkenboard PCB 
   (.) own CPU - roadmap and recipe 
   (.) own ROM - roadmap and recipe 
-  (.) own RAM - roadmap and recipe 
+  (.) own RAM - roadmap and recipe
+  (.) I/O ports : SPI + display controller 
   (.) PIC12LF1840 MCU (XLP tech.) 
   (.) Tamagotchi (Connection V1) 
        . 8-bit MCU 
@@ -50,7 +47,7 @@ EASY PROJECTS
 
 
 ======================================================================================================================================
-HARD PROJECTS
+HARD PROJECTS - PICK A PROJECT THAT INTERESTS YOU
 ======================================================================================================================================
 
   (.) SSD (incl. a controller) 

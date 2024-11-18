@@ -1,9 +1,15 @@
 
- . PCB : 2 sides / 2 layers 
- . coin cell battery 
- . coin cell battery clamps 
- . GND 
- . pushdown switch
+ . PCB : 2 sides / 2 layers
+
+
+Power supply mechanism :
+  (a) power-on switch
+  (b) power-on-battinsert 
+   . coin cell battery 
+   . coin cell battery clamps 
+   . GND
+
+
  . LED
  . resistor 
 

@@ -3,6 +3,7 @@
 INTEGRATED CIRCUIT(S) - DESIGN - ROADMAP
 =======================================================================================================================================
 
+ . DATASHEETS 
  . circuit design : architecture / instr.set , decoder logic , ALU , control unit 
  . circuit prototyping : online simulation 
  . [PCB's 3D/physical design] x [actual hardware] : PCB layers

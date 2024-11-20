@@ -1,0 +1,4 @@
+
+ . amperage drops in a closed DC circuit due to internal impedance 
+
+_

@@ -1,0 +1,21 @@
+
+Obstruction to current : 
+ . resistance - to DC
+ . impedance - to AC 
+
+
+Others :
+ . capacitance - storing charge 
+ . inductance - creating a magnetic field 
+
+
+Internal impedance :
+ . "Internal impedance refers to the opposition to current flow within a component or device,
+    such as a battery or power supply, which can affect the efficiency and performance of
+    the system."
+
+
+"
+A dielectric is an insulating material that does not conduct electricity but can support an electric field, allowing it to store electrical energy in capacitors or influence the behavior of other electrical components.
+"
+_

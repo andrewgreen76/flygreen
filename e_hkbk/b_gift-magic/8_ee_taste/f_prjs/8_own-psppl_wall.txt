@@ -11,6 +11,7 @@ WALL SOCKETS
 POWER SUPPLY PCB 
 ===================================================================================
 
+ . WALL CURRENT/VOLTAGE LOOPS BACK TO THE WALL 
  . How many prongs do I need ? 2/3 
  . roles of each prong 
  . PCB 

@@ -1,9 +1,9 @@
 
 --------------------------------------	solid LED upon power-on 
-circuit logic design 
+(UDEMY) circuit logic design 
 -> 3D + components circuit design 
 -> fab 
-
+|
 wall socket 
 floor for hardware scaling
 roadmaps and recipes

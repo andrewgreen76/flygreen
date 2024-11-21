@@ -4,10 +4,16 @@ Wall sockets :
  . ~15 A 
  . need medium-impedance electro-protective rubber gloves
 
+
 Wall adapter :
  . ~1200 W 
 
+
 Amperage drop : 
  . amperage drops in a closed DC circuit due to internal impedance 
+
+
+Service integrity :
+ . choose the more expensive multimeter over a cheap wall adapter with its inaccurate measurements 
 
 _

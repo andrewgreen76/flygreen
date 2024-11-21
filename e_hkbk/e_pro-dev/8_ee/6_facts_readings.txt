@@ -1,0 +1,12 @@
+
+Measurement precision :
+ . Specs on components (incl. power supplies) MAY BE INACCURATE , so it's a good idea to measure
+   their properties personally. 
+ . Cheap equipment is NOT that accurate. Some pieces of equipment are more accurate than others ,
+   especially meters.
+ . There are meters that vary by reading quality and versatility. 
+
+Service integrity :
+ . choose the more expensive multimeter over a cheap wall adapter (due to the latter's inaccurate readings)
+
+_

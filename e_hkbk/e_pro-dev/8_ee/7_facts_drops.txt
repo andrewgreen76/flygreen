@@ -1,0 +1,11 @@
+
+Voltage drop :
+ . components tend to drop some voltage within a closed circuit
+ . LEDs typically drop 2.1V 
+
+
+Amperage drop : 
+ . amperage drops in a closed DC circuit due to internal impedance
+ => current is rising ... and so does the temperature of the load 
+
+_

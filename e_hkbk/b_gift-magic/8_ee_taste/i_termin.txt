@@ -4,6 +4,10 @@ Ground :
  . where current dissipates
 
 
+To short [something] :
+ . little-to-no resistance => great-to-inf.amt of current 
+
+
 Load :
   (a) something is plugged in
   (b) an inextricable part of the circuit
@@ -11,5 +15,9 @@ Load :
 
 Pitch :
  . distance between connections / pins / legs of a component 
+
+
+Springloaded :
+ . "containing a compressed or stretched spring pressing one part against another" 
 
 _

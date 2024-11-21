@@ -1,0 +1,7 @@
+
+"The purpose of an inductor is to store energy in its magnetic field when current flows through it and
+ to resist changes in current by opposing rapid increases or decreases in current."
+ 
+   . a way of keeping the current smooth ... much like with capacitors 
+
+_

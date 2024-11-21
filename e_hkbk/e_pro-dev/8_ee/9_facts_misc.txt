@@ -1,0 +1,5 @@
+
+Wire inductance :
+ . the longer the testing probe wires , the bigger the inductance 
+
+_

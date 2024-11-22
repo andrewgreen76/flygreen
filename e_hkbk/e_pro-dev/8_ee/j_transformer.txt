@@ -9,7 +9,7 @@ Transformer :
 	. "This works based on the principle of **conservation of energy**, where the power (P = V × I)
 	   remains constant in an ideal transformer; when the voltage is stepped up, the current is
 	   proportionally stepped down so that the product of voltage and current (power) stays the same."
-     . transformers can be used to isolate circuits
+     . transformers can be used to ELECTRICALLY isolate circuits
         . "To "isolate a circuit" means to separate it electrically from other circuits, often using components
 	   like transformers or optocouplers, to prevent direct current flow between them while still allowing
 	   signal transmission or power transfer."

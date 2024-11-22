@@ -1,0 +1,6 @@
+
+Assume a scenario with an average adult human. 
+ . Resistance of the skin : 1.5-2.0 MOhm
+ . Capacitance of the body : 100-200pF
+
+_

@@ -1,5 +1,13 @@
 
 Wire inductance :
- . the longer the testing probe wires , the bigger the inductance 
+ . len ~ L
+
+
+Thickness-to-amperage :
+ . [I(trfmr)(out)] ~ [thickness] to avoid overheating 
+
+
+Resistance to N turns : 
+ . R(trfmr) ~ N 
 
 _

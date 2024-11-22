@@ -1,0 +1,13 @@
+
+H-bridge is : 
+ . "An H-bridge is an electronic circuit configuration that allows the direction of current to be
+    controlled through a load, enabling bidirectional control of motors or other devices by switching
+    the polarity of the applied voltage."
+
+
+Role in battery charging :
+ . "An H-bridge can be used in a charging circuit to control the direction of current flow, but it is not
+    typically used by itself for charging a battery; additional circuitry, such as voltage regulation and
+    protection, is required for safe and efficient battery charging."
+
+_

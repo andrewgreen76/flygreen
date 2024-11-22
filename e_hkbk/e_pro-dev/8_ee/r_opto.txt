@@ -1,0 +1,4 @@
+"
+An optocoupler is an electronic component that transfers electrical signals between two isolated circuits by using light, typically to prevent electrical noise or protect sensitive components from high voltages.
+"
+_

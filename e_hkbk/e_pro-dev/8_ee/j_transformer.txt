@@ -1,0 +1,22 @@
+
+Transformer :
+  (a) two or more inductors wound together 
+  (b) a conductor (e.g., an iron core) with an inductor wound around two sides
+     . the primary side and the secondary side
+     . the magnetic flux from one inductor hits the other inductor , generating voltage
+     . transformers can be used to "step up" a voltage (or "step down" the current) 
+     . transformers can be used to "step down" a voltage (or "step up" the current) 
+	. "This works based on the principle of **conservation of energy**, where the power (P = V × I)
+	   remains constant in an ideal transformer; when the voltage is stepped up, the current is
+	   proportionally stepped down so that the product of voltage and current (power) stays the same."
+     . transformers can be used to isolate circuits
+        . "To "isolate a circuit" means to separate it electrically from other circuits, often using components
+	   like transformers or optocouplers, to prevent direct current flow between them while still allowing
+	   signal transmission or power transfer."
+
+
+Core :
+ . "the central magnetic material in an inductive component"
+ . "guides and concentrates the magnetic flux to improve efficiency and energy transfer" 
+
+_

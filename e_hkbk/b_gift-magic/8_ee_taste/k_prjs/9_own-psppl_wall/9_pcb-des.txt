@@ -1,0 +1,29 @@
+
+===================================================================================
+POWER SUPPLY PCB 
+===================================================================================
+
+What kind of a power supply are we making ?
+ |
+ . wall current/voltage loops back to the wall 
+ . Not all power supplies are alike ? Same end goal , different MO ?
+
+
+Let's do a SWITCH MODE POWER SUPPLY (similar to the kind that was used with the Apple I).
+ . outputs 1A-2A
+ . no transformer , just inductors
+ . switch mode to step up , step down , or regulate the voltage 
+ . input voltage , output voltage , input amperage , output amperage = ?
+ . AC? DC? Or both? 
+ . What kind is the tip? Barrel? Prongs? 
+ . How many prongs do I need? Two? Three? 
+ . roles of each prong : power , neutral = ground 
+ 
+
+Other things to consider : 
+ . PCB 
+ . capacitors
+ . resistors
+ . physical security of the prongs 
+
+_

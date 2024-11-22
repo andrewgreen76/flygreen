@@ -11,7 +11,9 @@ roadmaps and recipes
 Am I going to use it ? 
 
 own-utils/ownC
-
+|
+CHIP-8
+|
 ShitC : 
  . built with no knowledge of how compilers work ;
  . laziest effort put in a compiler ;

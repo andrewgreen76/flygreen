@@ -1,0 +1,7 @@
+
+When building a computer from scratch , i.e., designing and maybe even fabricating your own parts ,
+  you will be dealing with uncertainties all the time. Much of electrical engineering activity is
+  basically calibrating things. Everything is analog ; there are no 1s and 0s. Therefore , we have to
+  simulate 1s and 0s by creating digital signal. Logic design is only a part of the whole experience. 
+
+_

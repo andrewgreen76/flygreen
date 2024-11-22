@@ -1,6 +1,7 @@
 
 Assume a scenario with an average adult human. 
- . Resistance of the skin : 1.5-2.0 MOhm
+ . Resistance of the skin : 1.5-2.0 MOhms
+ . Impedance of the body : 1-2 KOhms @ 1 kHz 
  . Capacitance of the body : 100-200pF
 
 _

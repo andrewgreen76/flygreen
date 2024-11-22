@@ -1,0 +1,4 @@
+"
+Electrical shunting is the process of diverting electrical current through an unintended low-resistance path, often bypassing the normal load or circuit, which can lead to inefficient operation or potential damage.
+"
+_

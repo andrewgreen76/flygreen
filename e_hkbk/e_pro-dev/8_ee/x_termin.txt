@@ -3,6 +3,10 @@ Wall wart :
  . AC adapter 
 
 
+Scientific model :
+ . theoretical scenario 
+
+
 Forward bias :
  . "... the condition in a semiconductor diode where the positive voltage is applied to the anode and
     the negative to the cathode, allowing current to flow through the diode."

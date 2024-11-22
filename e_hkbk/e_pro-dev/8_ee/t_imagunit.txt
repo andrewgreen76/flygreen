@@ -1,0 +1,7 @@
+
+Used to "explain real-world behaviors" in :
+ . rotations 
+ . oscillations : waveforms , etc. 
+ . quantum mechanics 
+ 
+_

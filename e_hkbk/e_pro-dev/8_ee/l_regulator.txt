@@ -1,0 +1,15 @@
+
+Voltage regulator is : 
+ . "A voltage regulator is an electronic component that maintains a constant output voltage regardless
+    of variations in input voltage or load conditions, ensuring stable power supply to sensitive components."
+
+
+Method of operation :
+ . "A voltage regulator achieves stable output by adjusting the current flow through a feedback mechanism
+    that compares the output voltage to a reference voltage and compensates for any fluctuations in the input
+    or load."
+ . "Compensation takes place through the regulator's feedback loop, where changes in output voltage are sensed,
+    and the control circuitry adjusts the pass element (like a transistor) to increase or decrease current,
+    keeping the output voltage stable."
+
+_

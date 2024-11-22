@@ -1,6 +1,8 @@
 
 Transformer :
-  (a) two or more inductors wound together 
+
+  (a) two or more inductors wound together
+  
   (b) a conductor (e.g., an iron core) with an inductor wound around two sides
      . the primary side and the secondary side
      . the magnetic flux from one inductor hits the other inductor , generating voltage
@@ -13,6 +15,8 @@ Transformer :
         . "To "isolate a circuit" means to separate it electrically from other circuits, often using components
 	   like transformers or optocouplers, to prevent direct current flow between them while still allowing
 	   signal transmission or power transfer."
+
+   . in an idealized model : V1/V2 = N1/N2 , where N - number of turns a coil is wound 
 
 
 Core :

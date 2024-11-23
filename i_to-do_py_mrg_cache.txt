@@ -1,4 +1,6 @@
 
+may have to move dirs A, B, D to their own repos. 
+
 --------------------------------------	solid LED upon power-on 
 (UDEMY) circuit logic design 
 -> 3D + components circuit design 

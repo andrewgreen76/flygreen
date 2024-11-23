@@ -8,6 +8,7 @@ When building a computer from scratch , i.e., designing and maybe even fabricati
   basically calibrating things. Everything is analog ; there are no 1s and 0s. Therefore , we have to
   simulate 1s and 0s to create a digital signal. Logic design is only a part of the whole experience. 
 
+
 => Digital signal is inherently analog ; the only difference is that with digital we simulate 0s and 1s. 
 
 _

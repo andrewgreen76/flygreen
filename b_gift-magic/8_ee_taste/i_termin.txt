@@ -17,6 +17,11 @@ Pitch :
  . distance between connections / pins / legs of a component 
 
 
+Footprint :
+ . "the physical dimensions and layout of a component's pins or pads on a PCB, ensuring proper alignment
+    for mounting and soldering."
+
+
 Springloaded :
  . "containing a compressed or stretched spring pressing one part against another" 
 

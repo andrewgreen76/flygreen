@@ -1,0 +1,8 @@
+
+ . SR-latch
+    . permanent write of 1 
+
+ . RC circuit - single pulse (peaks and subsides)
+    . actually needs to resistors - one in series , one in parallel
+
+_

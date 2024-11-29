@@ -1,8 +1,30 @@
 
- . SR-latch
+ . OR'd Q-looparound
     . permanent write of 1 
 
- . RC circuit - single pulse (peaks and subsides)
-    . actually needs to resistors - one in series , one in parallel
+
+===================================================================================
+SR-LATCHES 
+===================================================================================
+
+Not all SR-latches are alike. 
+
+ . (NOR-based) SR-latch 
+    . setter 
+
+ . (NAND-based) SR-latch 
+    . inverter (but w/ input inverted - a setter) 
+
+
+===================================================================================
+NOR-LATCHING -BASED CIRCUITS 
+===================================================================================
+
+-> [tie S = R~] ->	. D-latch w/o ENable 
+    	      	  	   . setter	     -> [add enable] ->  }	
+					     		     	 } . D-latch w/ ENable
+      				   	    			 }    . locks the manually defined binary input   
+-> [add enable]  ->    . SR-latch w/ Enable  -> [tie S = R~] ->  } 
+    		  	   . locking setter 
 
 _

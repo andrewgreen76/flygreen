@@ -1,12 +1,35 @@
 
 ===================================================================================
-MORE THOUGHTS ON : WHY WE WANT A CLOCK WITH COMBINATIONAL LOGIC 
+THE BIG PROBLEM WITH PURELY COMBINATIONAL LOGIC ... AND A CLOCK IS A SOLUTION  
 ===================================================================================
 
-Two problems :
+1) KEEPING ALL SIGNAL LINES ON THE SAME PAGE 
+    . Every gate (transistors) introduces a tiny amount of delay.
+    => Delays have a way of snowballing on the same data line with every new gate in a purely combinational logic circuit. 
+    . Different lines may have different gate/transistor counts => different delay times. 
+    . Think back to Ben Eater's video on pulse triggering using the delay exploit with TTL inverters. 
+    => Substantial delay means breaking synchronization.
 
- 1) Signals within hardware lines tend to be less and less in sync as the circuit grows bigger and bigger. 
-   . Think back to Ben Eater's video on pulse triggering using the delay exploit with TTL inverters. This breaks synchronization. 
+
+
+ 2) When we can observe discrete hardware block states one after another ,
+
+between clock pulses data signals should be given time to traverse combinational-logic gates , and components with a clock pin should
+function as stumbling block for data signals 
+
+
+
+    => We want a momentary-enable clock to break the combinational logic traffic (from power-on to end-of-operation)
+       into discrete states - to help us to at least monitor and understand what is going on with gate states at
+       every clock moment. 
+
+
+
+
+ 1) Assume : a persistent enable / extremely high clock frequency
+    Assume : a circuit with more than just a few gates 
+    Signals within hardware lines tend to be less and less in sync as the circuit grows bigger and bigger.
+    
    . This is an example of a hardware-related side-effect. 
    . Who is to say that this is the only hardware-related side-effect out there ?
    => Purely combinational logic circuits larger than just a few gates are not reliable due to signal instability ,

@@ -4,9 +4,19 @@ PULSE-TRIGGERING CIRCUITS
 ===================================================================================
 
  (a) AND-Q feedback delayed by inverters 
-    . TTL exploit to create a voltage spike 
+    . TTL exploit to create a positive voltage pulse 
+    - using multiple TTL chips
+    - not very reliable
+       - seems to skip some pulses
+       - seemingly unstable/noisy 
+    - the pulse is very short - within nanosecs 
 
  (b) RC circuit - single pulse (peaks and subsides)
-    . actually needs to resistors - one in series , one in parallel
+    . actually needs two resistors
+       (1) ~100 KOhms in series with Q and 0.01uF/0.1uF capacitor
+       (2) 220 Ohms in parallel with the main line (1) 
+    + positive voltage pulse guaranteed every time 
+    . side-effect : a negative voltage spike (which is fine as it will not make an impact on what we want the circuit to do) 
+    + long enough pulse - in ms 
 
 _

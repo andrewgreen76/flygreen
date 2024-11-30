@@ -1,15 +1,4 @@
-
-inv :
- . using multiple chips
- . unreliable
- . a very short pulse - in ns 
  
-RC :
- . pulse guaranteed every time (negative voltage spike ignored)
- . long enough pulse - in ms 
-
-
-
 proteus 8 professional 
 may have to move dirs A, B, D to their own repos. 
 

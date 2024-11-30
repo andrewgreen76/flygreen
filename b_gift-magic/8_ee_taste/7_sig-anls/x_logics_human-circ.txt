@@ -1,0 +1,22 @@
+
+===================================================================================
+HUMAN LOGIC/INTENT vs. CIRCUIT LOGIC 
+===================================================================================
+
+Going off on a rather important philosophical-theoretical tangent.
+ . Human logic : the end goal we want to achieve with a circuit
+ . Circuit logic : EVERYTHING that the circuit ends up doing , incl. all the side-effects
+
+
+Example 1 : NOR-based SR-latch
+ . we call the output pins Q and Q~
+ . in TT @ S=1,R=1 : Q = Q~ = 1
+ . they are just output pins , not necessarily the opposites of one another
+
+
+Example 2 : a pulse-triggering RC circuit
+ . intent : to generate a (positive) pulse
+ . circuit logic : a negative voltage spike is a side-effect
+ . the side-effect might get in the way if we tweak the circuit to do something else 
+
+_

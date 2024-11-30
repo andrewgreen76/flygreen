@@ -1,5 +1,5 @@
 
- . OR'd Q-looparound
+ . OR'd Q feedback 
     . permanent write of 1 
 
 

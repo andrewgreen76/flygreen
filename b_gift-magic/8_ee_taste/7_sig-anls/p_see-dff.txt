@@ -1,0 +1,7 @@
+
+We want to enforce sequential flow of binary instructions and data in a controlled , synchronized (carefully "orchestrated") way. 
+ . feedbacking and stabilization may not always give us that 
+ . (we don't want spontaneous analog signal oddities) 
+ => NEED A CLOCK - to separate one instruction or piece of data (state 1) from another (state 2) 
+
+_

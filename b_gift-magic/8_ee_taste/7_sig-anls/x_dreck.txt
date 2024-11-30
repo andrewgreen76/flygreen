@@ -1,18 +1,4 @@
 
-===================================================================================
-THE BIG PROBLEM WITH PURELY COMBINATIONAL LOGIC ... AND A CLOCK IS A SOLUTION  
-===================================================================================
-
-1) KEEPING ALL SIGNAL LINES ON THE SAME PAGE 
-    . Every gate (transistors) introduces a tiny amount of delay.
-    => Delays have a way of snowballing on the same data line with every new gate in a purely combinational logic circuit. 
-    . Different lines may have different gate/transistor counts => different delay times. 
-    . Think back to Ben Eater's video on pulse triggering using the delay exploit with TTL inverters. 
-    => Substantial delay means breaking synchronization.
-
-
-
- 2) When we can observe discrete hardware block states one after another ,
 
 between clock pulses data signals should be given time to traverse combinational-logic gates , and components with a clock pin should
 function as stumbling block for data signals 
@@ -40,8 +26,6 @@ function as stumbling block for data signals
 
 Solutions :
   |
- (a) We could learn about all sorts of hardware phenomena and devise ways of handling them while sticking
-     with purely combinational logic. 
  (b) We could just regulate all hardware lines with momentary enable pulses.
     . Crank the clock rate close to persistent enable - you will run into instability.
     . We also don't want our computer to be too slow.

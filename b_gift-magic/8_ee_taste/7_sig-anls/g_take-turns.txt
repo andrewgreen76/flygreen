@@ -1,0 +1,14 @@
+
+=================================================================================================
+PROBLEM 2 : ARCHITECTED HARDWARE BLOCKS TAKING TURNS IN COMBINATIONAL LOGIC ... AND THE SOLUTION 
+=================================================================================================
+
+Computer architectures rely on the concept and practice of resource sharing (e.g., bus communication) between
+  hardware components. This can only be achieved by enforcing taking turns ; only one component can write to
+  and only one component can read from the bus at a time. 
+
+=> Some hardware blocks must remain disabled for that period of time , skipping one or more pulses. 
+
+Momentary enable , long disable. Sounds familiar ? We need a clock. 
+
+_

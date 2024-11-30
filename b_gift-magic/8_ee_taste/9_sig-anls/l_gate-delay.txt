@@ -1,0 +1,6 @@
+
+There's a very tiny delay to signal passing through a single gate.
+ => This can be leveraged to break the immediacy of response in combinational TTL logic.
+ => Thus we can generate a very brief signal spike. 
+
+_

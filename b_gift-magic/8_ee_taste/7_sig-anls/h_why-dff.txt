@@ -1,6 +1,6 @@
 
 ===================================================================================
-WHY WE WANT A CLOCK WITH COMBINATIONAL LOGIC 
+MORE THOUGHTS ON : WHY WE WANT A CLOCK WITH COMBINATIONAL LOGIC 
 ===================================================================================
 
 Problem :
@@ -19,7 +19,8 @@ Solutions :
      with purely combinational logic. 
  (b) We could just regulate all hardware lines with momentary enable pulses.
     . Crank the clock rate close to persistent enable - you will run into instability.
-    . We also don't want our computer to be too slow. 
+    . We also don't want our computer to be too slow.
+    . All signals should make it through one 
 
 
  . multiple different states within the same hardware block can get conflated within the same moment 

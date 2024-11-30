@@ -22,11 +22,6 @@ Solutions :
     . We also don't want our computer to be too slow. 
 
 
- 
- . without a clock different blocks of hardware will not be on the same page 
- . not stability of signals in hardware
- . not predictability
- . correct sequential execution
  . multiple different states within the same hardware block can get conflated within the same moment 
  . in DRAM - periodic refreshing
  . in synchronous SRAM 

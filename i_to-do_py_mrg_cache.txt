@@ -1,7 +1,26 @@
- 
-proteus 8 professional 
-may have to move dirs A, B, D to their own repos. 
 
+Circuit diagrams :
+ . Logisim
+ 
+Schematic drawing / Gerber files / BOMs / etc. :
+ . Logisim (schematics only) 
+ . KiCAD (pro level) 
+ . Altium Designer (pro level) 
+ 
+Realistic circuit simulations (that account for physical properties of all components) :
+ . Proteus 8 Professional
+ . LTSpice
+ 
+--------------------------------------	
+What did Linus mean by RISC-V repeating the same mistakes ?
+ . What are these mistakes (in your opinion) ?
+ . How close to the foundational elements of computer architecture are these mistakes ?
+   Or are they to do with something higher , more sophisticated ? Or is it both ?  
+ . What improvements would you like to see in a better architecture ? 
+ . What other kinds of changes would you like to see ? 
+ . What would you like to see removed ? 
+--------------------------------------	
+may have to move dirs A, B, D to their own repos. 
 --------------------------------------	solid LED upon power-on 
 (UDEMY) circuit logic design 
 -> 3D + components circuit design 

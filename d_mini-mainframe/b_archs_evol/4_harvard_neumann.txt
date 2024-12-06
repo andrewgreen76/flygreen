@@ -1,0 +1,60 @@
+
+===================================================================================
+HARVARD ARCHITECTURE 
+===================================================================================
+
+ . code and data are in their own memory components or blocks
+ => two separate busses
+ 
+ . developed as a hardware design concept in 1930's
+ . the term became popular in 1950's 
+
+
+===================================================================================
+VON NEUMANN ARCHITECTURE 
+===================================================================================
+
+ . code and data share the same memory block/space
+ => one bus to access RAM
+
+ . developed as a hardware design concept by John von Neumann in 1945 
+
+
+===================================================================================
+COMPUTERS DESIGNED WITH HARVARD ARCHITECTURE 
+===================================================================================
+
+"
+Here are several examples of computers and microcontrollers that use **Harvard architecture**:
+
+1. **ARM Cortex-M series** (e.g., Cortex-M0, M3, M4) - Many microcontrollers based on these cores use Harvard architecture to separate program and data memory for improved performance.
+2. **PIC microcontrollers** (e.g., PIC16, PIC18, PIC32) - These microcontrollers from Microchip often implement Harvard architecture, where program memory and data memory are physically separate.
+3. **AVR microcontrollers** (e.g., ATmega series) - These microcontrollers from Atmel (now part of Microchip) use Harvard architecture for greater efficiency in small embedded systems.
+4. **DSPs (Digital Signal Processors)** like **Texas Instruments TMS320** - Many DSPs use Harvard architecture to handle data and instructions more efficiently, often in parallel.
+5. **MSP430** from Texas Instruments - A low-power microcontroller with Harvard architecture, designed for embedded applications.
+6. **Intel i960** - A RISC processor that uses Harvard architecture in its design, often used in embedded systems and high-performance applications.
+7. **Zilog Z8** - A microcontroller based on Harvard architecture, commonly used in embedded systems.
+8. **Motorola 68000** (used in early systems like the Apple Macintosh) - While primarily Von Neumann, the 68000 had a modified Harvard architecture, particularly in its cache memory structure.
+9. **Raspberry Pi Pico** - Based on the **RP2040** microcontroller, which uses Harvard architecture, offering separate instructions and data paths for efficiency in embedded projects.
+
+Harvard architecture is commonly used in embedded systems, digital signal processing, and microcontrollers because it allows for faster and more efficient processing by enabling simultaneous access to instructions and data.
+"
+
+===================================================================================
+COMPUTERS DESIGNED WITH VON NEUMANN ARCHITECTURE 
+===================================================================================
+
+"
+Here are several computers with Von Neumann architecture:
+
+1. **IBM 704** - One of the first commercial computers to use a stored-program architecture based on the Von Neumann model.
+2. **ENIAC** (Electronic Numerical Integrator and Computer) - Though it was originally programmed via plugboards, later revisions of ENIAC used the Von Neumann model.
+3. **Apple II** - Early personal computer that followed the Von Neumann architecture with a central processor (6502), memory, and I/O.
+4. **IBM PC** (x86 architecture) - Based on Von Neumann principles, with a single memory space for program instructions and data.
+5. **Commodore 64** - A home computer with the MOS Technology 6510 microprocessor, following the Von Neumann architecture.
+6. **Zilog Z80-based systems** - Used in early home computers and embedded systems, implementing the Von Neumann architecture.
+7. **Raspberry Pi** - A modern microcomputer using the ARM architecture, which is fundamentally based on Von Neumann principles.
+
+Most general-purpose computers today, including desktops, laptops, and single-board computers, implement some form of Von Neumann architecture, even though many have optimizations like Harvard architecture for specialized components (e.g., GPUs).
+"
+_

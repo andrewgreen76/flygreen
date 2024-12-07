@@ -1,0 +1,13 @@
+
+===================================================================================
+ARCHITECTURES THAT ARE GAME FOR LEGAL CLONING 
+===================================================================================
+
+ . [intended for education] SAP-1 & SAP-2
+ 
+ . [ex-patented] 	    Intel : from 4004 (MCS-4) to [now-20yrs]
+    . as of 2024 , Pentium M (2003) is the latest Intel architecture that can be plundered 
+    
+ . [ex-patented] 	    65(C)02 
+
+_

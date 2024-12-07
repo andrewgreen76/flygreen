@@ -1,0 +1,29 @@
+
+===================================================================================
+LEGAL CLONING 
+===================================================================================
+
+Why legal cloning ? 
+ . We are interested in legal cloning of certain architectures because we want
+   to learn from them.
+
+
+Legal cloning - design and/or fabrication of architectures that are either :
+  (1) intended for education and may or may not be on a license 
+  (2) open(-hardware)
+  (3) ex-patented (used to be proprietary but the patent has since expired ,
+      allowing the architecture to fall under the public domain ; can be IP abandonware)
+
+Patents on architectures typically last 20 years.
+
+
+===================================================================================
+!!! WARNING !!! 
+===================================================================================
+
+Even if the patent on an architecture has expired : 
+ . you cannot use a COMPANY BRAND (e.g., Intel) in any way 
+ . you cannot use the original CPU INSTRUCTION SET 
+ . the further you deviate from the original design , the better 
+
+_

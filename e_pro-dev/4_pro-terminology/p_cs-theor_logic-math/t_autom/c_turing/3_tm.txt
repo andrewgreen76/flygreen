@@ -1,0 +1,9 @@
+
+Turing machine : 
+ . infinite memory		(tape) 
+ . logic execution medium 	(head) 
+ . logic - rules to execute 	(rules for transition between states)
+
+ . expected to be able to imitate any other Turing machine 
+
+_

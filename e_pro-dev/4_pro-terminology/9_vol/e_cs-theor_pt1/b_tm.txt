@@ -23,7 +23,7 @@ TURING MACHINE
        . exponentiation , root extraction , and logarithm are "in a grey area" 
     . the ability to check for conditions
     . the ability to jump on a condition (exclusively conditional branching)
-       . NO UNCONDITIONAL BRANCHING 
+       . no unconditional branching 
 
 "
 In mathematics, exponentiation (power) is an arithmetic operation on numbers. It can be thought of as
@@ -31,9 +31,11 @@ In mathematics, exponentiation (power) is an arithmetic operation on numbers. It
 "
 
     --------------------------------------------------------------------------- <<<<<<<<<<<<<<<<<<<<<<<<<
-    AI													<
+    computational models (e.g., ML models) 								<
     ---------------------------------------------------------------------------				<
-    apps 												<
+    algorithms												<
+    ---------------------------------------------------------------------------				<
+    programming languages 										<
     ---------------------------------------------------------------------------	 			<
     DISCRETE MATH				CONTINUOUS MATH			 			<  Turing-complete 
     (sets, graphs, logic, combinatorics,	(calculus, real analysis, DFQ) 				<

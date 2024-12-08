@@ -1,7 +1,7 @@
 
 Turing(-complete) machine :
  . can do lots of things - more than a calculator
- . can process conditions 
+ . can process conditions (and go to condition-based blocks - routines) 
 
 
 ===================================================================================

@@ -1,0 +1,16 @@
+
+===================================================================================
+TURING-INCOMPLETE MACHINE 
+===================================================================================
+
+ . calculator
+ . digital watch
+ . digital thermostat
+ . a vending machine
+ . Coq programming language
+ . Agda programming language 
+
+"
+Actually, there are many examples of Turing-incomplete machines, such as a digital watch that only tracks time, a basic thermostat, or a vending machine with a fixed set of operations. Each of these systems lacks the ability to simulate a Turing machine because they have limited functionality and do not support general-purpose computation. 
+"
+_

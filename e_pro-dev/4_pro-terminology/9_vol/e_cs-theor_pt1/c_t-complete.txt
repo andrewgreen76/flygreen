@@ -1,0 +1,16 @@
+
+===================================================================================
+TURING-COMPLETE MACHINE 
+===================================================================================
+
+ . a real-world machine
+ . modelled after the Turing machine - but with limitations 
+ |
+ . limited memory
+ . just like the TM , this one can perform a variety of operations beyond arithmetic 
+    . the ability to check for conditions
+    . the ability to jump on a condition 
+    
+ . needs enough time and memory to solve any one particular problem 
+
+_

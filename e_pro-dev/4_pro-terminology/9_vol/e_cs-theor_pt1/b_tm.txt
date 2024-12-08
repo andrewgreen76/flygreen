@@ -1,5 +1,7 @@
 
-Turing(-complete) machine - able to process. 
+Turing(-complete) machine :
+ . can do lots of things - more than a calculator
+ . can process conditions 
 
 
 ===================================================================================
@@ -17,9 +19,8 @@ TURING MACHINE
  + logic - rules to execute - algorithm - processing abilities :
     . TM has "the perfect algorithm" that can help solve (just about) any problem. 
        . there are problems that are unsolveable 
-    . able to perform general-purpose computations - beyond arithmetic functions 
+    . able to perform general-purpose computations - beyond arithmetic functions
        . exponentiation , root extraction , and logarithm are "in a grey area" 
-    . (rules for transition between states)
     . the ability to check for conditions
     . the ability to jump on a condition (exclusively conditional branching)
        . NO UNCONDITIONAL BRANCHING 
@@ -28,4 +29,25 @@ TURING MACHINE
 In mathematics, exponentiation (power) is an arithmetic operation on numbers. It can be thought of as
   repeated multiplication, just as multiplication can be thought of as repeated addition.
 "
+
+    --------------------------------------------------------------------------- <<<<<<<<<<<<<<<<<<<<<<<<<
+    AI													<
+    ---------------------------------------------------------------------------				<
+    apps 												<
+    ---------------------------------------------------------------------------	 			<
+    DISCRETE MATH				CONTINUOUS MATH			 			<  Turing-complete 
+    (sets, graphs, logic, combinatorics,	(calculus, real analysis, DFQ) 				<
+    discrete probability theory)			   		  	  			<
+    -------------------------------------------------------------------------------------------------	<
+    ADVANCED ARITHMETIC								<  Turing-incomplete 	<
+    BASIC ARITHMETIC								<  Turing-incomplete 	<
+    ---------------------------------------------------------------------------	<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+===================================================================================
+===================================================================================
+===================================================================================
+
+ . (rules for transition between states)
+    
 _

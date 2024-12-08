@@ -6,51 +6,26 @@ Turing(-complete) machine - able to process.
 TURING MACHINE 
 ===================================================================================
 
- . an abstract model of the perfect machine 
+ . an abstract model of "the perfect machine" 
  |
- + memory : infinite memory		(tape) 
+ + infinite resources
+    + infinite amount of memory (tape)
+    + infinite amount of time to compute 
+    . Processing takes time , so the output is NOT immediate.     
+    => needs enough time and memory to solve any one particular problem 
  . I/O medium : read/write head 
  + logic - rules to execute - algorithm - processing abilities :
-    . the perfect algorithm that can help solve (just about) any problem
+    . TM has "the perfect algorithm" that can help solve (just about) any problem. 
        . there are problems that are unsolveable 
-    . able to perform general-purpose computations - do a lot of things 
+    . able to perform general-purpose computations - beyond arithmetic functions 
+       . exponentiation , root extraction , and logarithm are "in a grey area" 
     . (rules for transition between states)
-
- . Processing takes time , so the output is NOT immediate. 
-
-
-===================================================================================
-TURING-COMPLETE MACHINE 
-===================================================================================
-
- . a real-world machine
- . modelled after the Turing machine - but with limitations 
- |
- . limited memory
- . a processor with limited architecture and limited decoding logic (limited
-     computation abilities)
- . needs enough time and memory to solve any one particular problem 
-
-
-===================================================================================
-TURING-INCOMPLETE MACHINE 
-===================================================================================
-
- . calculator
- . digital watch
- . digital thermostat
- . a vending machine
- . Coq programming language
- . Agda programming language 
+    . the ability to check for conditions
+    . the ability to jump on a condition (exclusively conditional branching)
+       . NO UNCONDITIONAL BRANCHING 
 
 "
-Actually, there are many examples of Turing-incomplete machines, such as a digital watch that only tracks time, a basic thermostat, or a vending machine with a fixed set of operations. Each of these systems lacks the ability to simulate a Turing machine because they have limited functionality and do not support general-purpose computation. 
+In mathematics, exponentiation (power) is an arithmetic operation on numbers. It can be thought of as
+  repeated multiplication, just as multiplication can be thought of as repeated addition.
 "
-
-===================================================================================
-===================================================================================
-===================================================================================
-
- . expected to be able to imitate any other Turing machine 
-
 _

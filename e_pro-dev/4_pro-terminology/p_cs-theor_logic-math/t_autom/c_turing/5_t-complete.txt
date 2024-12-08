@@ -1,0 +1,38 @@
+
+===================================================================================
+TURING-COMPLETE MACHINE 
+===================================================================================
+
+ . a real-world machine
+ . modelled after the Turing machine - but with limitations 
+ |
+ . limited memory
+ . just like the TM , this one can perform a variety of operations beyond arithmetic 
+    . the ability to check for conditions
+    . the ability to jump on a condition 
+    
+ . needs enough time and memory to solve any one particular problem 
+
+
+===================================================================================
+TURING-INCOMPLETE MACHINE 
+===================================================================================
+
+ . calculator
+ . digital watch
+ . digital thermostat
+ . a vending machine
+ . Coq programming language
+ . Agda programming language 
+
+"
+Actually, there are many examples of Turing-incomplete machines, such as a digital watch that only tracks time, a basic thermostat, or a vending machine with a fixed set of operations. Each of these systems lacks the ability to simulate a Turing machine because they have limited functionality and do not support general-purpose computation. 
+"
+
+===================================================================================
+===================================================================================
+===================================================================================
+
+ . expected to be able to imitate any other Turing machine 
+
+_

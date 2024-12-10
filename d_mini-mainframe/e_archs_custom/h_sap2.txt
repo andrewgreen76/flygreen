@@ -17,7 +17,7 @@ SAP-2 - LEVELS OF MEMORY
 Registers :
  . SAP-1 : PC, ACC, B, MAR, MDR, IR, OUT (RSL/RLT) 
  . SAP-2 : + TMP, C, FLAGS 
- . count : 9 
+ . count : 10 
 RAM :
  . size : 64K 
  . stack : --- 
@@ -32,7 +32,7 @@ SAP-2 - CPU BEHAVIOR REGULATIONS
 
 CU / control bits :
  . count : 35 
- . list : HLT,MAI,MDI,MDO , IRI,IRO,ACI,ACO , ALO,SBE,BI,OI(RLI) , PCE,PCO,JPE 
+ . SAP-1 : HLT,MAI,MDI,MDO , IRI,IRO,ACI,ACO , ALO,SBE,BI,OI(RLI) , PCE,PCO,JPE 
 
 
 FLAGS : --- 
@@ -53,7 +53,7 @@ Instructions :
 
 Decoding :
  . instruction stages : IF(etch) , ID(ecode) , EXecute 
- . num T-states : 6 
+ . num T-states : 10 
  . Allow pipelining ? - No. 
  . other important notes : --- 
 

@@ -4,7 +4,10 @@ SAP-1 - FEATURES (OLD AND NEW)
 ===================================================================================
 
 Modules : 
- . clock , ALU , controller (decoder)/sequencer , binary display 
+ . clock , ALU , controller (decoder)/sequencer , binary display
+
+
+|Addr| = 8 bits
 
 
 ===================================================================================

@@ -28,7 +28,7 @@ SAP-1 - CPU BEHAVIOR REGULATIONS
 
 CU / control bits :
  . count : 12-16 
- . list : HLT,MAI,MDI,MDO , IRI,IRO,ACI,ACO , ALO,SBE,BRI,OUI(RLI) , PCE,PCO,JPE 
+ . list : HLT,MAI,MDI,MDO , IRI,IRO,ACI,ACO , ALO,SBE,BI,OI(RLI) , PCE,PCO,JPE 
 
 
 FLAGS : --- 

@@ -1,21 +1,25 @@
 
 ===================================================================================
-SAP-1 - FEATURES (OLD AND NEW) 
+SAP-2 - FEATURES (OLD AND NEW) 
 ===================================================================================
 
 Modules : 
- . clock , ALU , controller (decoder)/sequencer , binary display 
+ . SAP-1 : clock , ALU , controller (decoder)/sequencer
+ . SAP-2 : + [hex keyboard encoder + input port 1 + input port 2]
+   	   + [hex display + output port 3] 
+	   + [output port 4]
 
 
 ===================================================================================
-SAP-1 - LEVELS OF MEMORY 
+SAP-2 - LEVELS OF MEMORY 
 ===================================================================================
 
 Registers :
- . count : 7 
- . list : PC, ACC, B, MAR, MDR, IR, OUT (RSL/RLT) 
+ . SAP-1 : PC, ACC, B, MAR, MDR, IR, OUT (RSL/RLT) 
+ . SAP-2 : + TMP, C, FLAGS 
+ . count : 9 
 RAM :
- . size : 16x8 
+ . size : 64K 
  . stack : --- 
 
 
@@ -23,11 +27,11 @@ ROM : ---
 
 
 ===================================================================================
-SAP-1 - CPU BEHAVIOR REGULATIONS 
+SAP-2 - CPU BEHAVIOR REGULATIONS 
 ===================================================================================
 
 CU / control bits :
- . count : 12-16 
+ . count : 35 
  . list : HLT,MAI,MDI,MDO , IRI,IRO,ACI,ACO , ALO,SBE,BI,OI(RLI) , PCE,PCO,JPE 
 
 
@@ -36,7 +40,7 @@ Interrupts : ---
 
 
 ===================================================================================
-SAP-1 - INSTRUCTION DECODING 
+SAP-2 - INSTRUCTION DECODING 
 ===================================================================================
 
 Instructions : 
@@ -55,7 +59,7 @@ Decoding :
 
 
 ===================================================================================
-SAP-1 - I/O INTERFACES & PORTS 
+SAP-2 - I/O INTERFACES & PORTS 
 ===================================================================================
 
 Interfaces : No dedicated I/O bus , only the 8-bit system bus (W-bus). 

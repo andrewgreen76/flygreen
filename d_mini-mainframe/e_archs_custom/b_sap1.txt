@@ -1,72 +1,64 @@
 
 ===================================================================================
-ARCHITECTURE NAME - INTRODUCED FEATURES 
+SAP-1 - FEATURES (OLD AND NEW) 
 ===================================================================================
 
- . 
+Modules : 
+ . clock , ALU , controller/sequencer , decoder 
 
 
 ===================================================================================
-ARCHITECTURE - LEVELS OF MEMORY 
+SAP-1 - LEVELS OF MEMORY 
 ===================================================================================
 
 Registers :
- . 
+ . count : 7 
+ . list : PC, ACC, B, MAR, MDR, IR, OUT (RSL/RLT) 
 RAM :
- . Stack ? - 
+ . size : 16x8 
+ . stack : --- 
 
 
-ROM :
- . 
+ROM : --- 
 
 
 ===================================================================================
-ARCHITECTURE - CPU BEHAVIOR REGULATIONS 
+SAP-1 - CPU BEHAVIOR REGULATIONS 
 ===================================================================================
 
 CU / control bits :
- . list : 
- . count :
+ . count : 12-16 
+ . list : HLT,MAI,MDI,MDO , IRI,IRO,ACI,ACO , ALO,SBE,BRI,OUI(RLI) , PCE,PCO,JPE 
 
 
-FLAGS :
- . list : 
- . count :
-
-
-Interrupts :
- . list : 
- . count :
+FLAGS : --- 
+Interrupts : --- 
 
 
 ===================================================================================
-ARCHITECTURE - INSTRUCTION DECODING 
+SAP-1 - INSTRUCTION DECODING 
 ===================================================================================
 
 Instructions : 
- . width :
- . count :
- . list : subset :
- . addressing modes :
- . bit-fields
+ . width: 8 ; opc - 4 bits , opd - 4 bits 
+ . count : 5 
+ . list : subset : LDA , ADD , SUB , OUT , HLT 
+ . addressing modes : --- 
+ . bit-fields : --- 
 
 
 Decoding :
- . instruction stages : fetch , decode , execute , ??? 
- . num T-states :
- . Allow pipelining ? - 
- . other important notes : 
+ . instruction stages : IF(etch) , ID(ecode) , EXecute 
+ . num T-states : 6 
+ . Allow pipelining ? - No. 
+ . other important notes : --- 
 
 
 ===================================================================================
-ARCHITECTURE - I/O INTERFACES & PORTS 
+SAP-1 - I/O INTERFACES & PORTS 
 ===================================================================================
 
-Interfaces : 
- . 
-
-
-Ports :
- . 
+Interfaces : No dedicated I/O bus , only the 8-bit system bus (W-bus). 
+Ports : --- 
 
 _

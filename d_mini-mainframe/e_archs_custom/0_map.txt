@@ -1,0 +1,27 @@
+
+Steps 
+--------------------------------------------------------------------
+
+Data/Vcc/ground/clk BUS			
+
+CLOCK module : 
+ . Ticking / clock pulses				(Astable 555) 
+ . Manual stepping through clock cycles / T-states    	(Monostable 555) 
+ . On/off switch    	   	 	  		(Bistable 555)				
+ . HLT Clock output frozen at 0 
+
+BUFFERS AND REGISTERS : 
+ . Explaining the 74245 buffer 
+ . Building a general-purpose register
+ . Building multiple registers
+
+Building an INSTRUCTION REGISTER : 
+ . bussing split b/w opc and opd 
+ . immediate addressing mode possible	- handy for INC and DEC (to overcome ALU design complexity) 
+
+ALU (design) :
+ . reg-ALU bussing 
+ . ALU-reg bussing 
+ . AB adders 
+
+_

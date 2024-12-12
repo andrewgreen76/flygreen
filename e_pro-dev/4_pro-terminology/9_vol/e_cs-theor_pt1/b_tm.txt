@@ -41,8 +41,8 @@ In mathematics, exponentiation (power) is an arithmetic operation on numbers. It
     (sets, graphs, logic, combinatorics,	(calculus, real analysis, DFQ) 				<
     discrete probability theory)			   		  	  			<
     -------------------------------------------------------------------------------------------------	<
-    ADVANCED ARITHMETIC								<  Turing-incomplete 	<
-    BASIC ARITHMETIC								<  Turing-incomplete 	<
+    ADVANCED ARITHMETIC	(pow, log, rte)						<  Turing-incomplete 	<
+    BASIC ARITHMETIC (add, sub, mul, div)					<  Turing-incomplete 	<
     ---------------------------------------------------------------------------	<<<<<<<<<<<<<<<<<<<<<<<<<
 
 

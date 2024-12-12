@@ -25,7 +25,7 @@ SAP-2 - LEVELS OF MEMORY
 Registers :
  . SAP-1 : PC (w/ load/jump), ACC, B, MAR, MDR, IR, OUT (RSL/RLT) 
  . SAP-2 : + TMP, C, FLAGS 
- . count : 10 
+ . reigster count : 10 
 RAM :
  . size : 64K 
  . stack : --- 
@@ -39,11 +39,11 @@ SAP-2 - CPU BEHAVIOR REGULATIONS
 ===================================================================================
 
 CU / control bits :
- . count : 35 
+ . control bit count : 35 
  . SAP-1 : HLT,MAI,MDI,MDO , IRI,IRO,ACI,ACO , ALO,SBE,BI,OI(RLI) , PCE,PCO,JPE 
 
 
-FLAGS : --- 
+FLAGS : Z(ero) , S(ign) 
 Interrupts : --- 
 
 
@@ -53,10 +53,12 @@ SAP-2 - INSTRUCTION DECODING
 
 Instructions : 
  . width: 8 ; opc - 4 bits , opd - 4 bits 
- . count : 43 
- . list : subset : LDA , ADD , SUB , OUT , HLT 
- . addressing modes : --- 
- . bit-fields : --- 
+ . instruction count : 43 
+ . SAP-1 : LDA , ADD , SUB , OUT , HLT 
+ . SAP-2 : + ADD, ANA, ANI, CALL, CMA, DCR, INR, JMP, JM, JNZ, JZ,
+   	     MOV, MVI, NOP, ORA, ORI, RAL, RAR, RET, STA, SUB, XRA, XRI  
+ . addressing modes : direct , immediate , register , implicit 
+ . bit-fields 
 
 
 Decoding :
@@ -113,7 +115,12 @@ XRI byte	EE	7	S,Z	Immediate	2	A = A ^ byte
 SAP-2 - I/O INTERFACES & PORTS 
 ===================================================================================
 
-Interfaces : No dedicated I/O bus , only the 8-bit system bus (W-bus). 
-Ports : --- 
+Interfaces : No dedicated I/O bus , only the 8-bit system bus (W-bus).
+
+Ports :
+ . SAP-1 : --- 
+ . SAP-2 : + [hex keyboard encoder + input port 1 + input port 2]
+   	   + [hex display + output port 3] 
+	   + [output port 4]
 
 _

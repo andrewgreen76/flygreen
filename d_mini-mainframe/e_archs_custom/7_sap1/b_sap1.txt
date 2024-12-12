@@ -46,7 +46,7 @@ Instructions :
  . width: 8 ; opc - 4 bits , opd - 4 bits 
  . count : 5 
  . list : subset : LDA , ADD , SUB , OUT , HLT 
- . addressing modes : --- 
+ . addressing modes : direct
  . bit-fields : --- 
 
 

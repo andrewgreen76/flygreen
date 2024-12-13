@@ -2,7 +2,7 @@
 Steps 
 --------------------------------------------------------------------
 
-Data/Vcc/ground/clk BUS			
+16-bit data/Vcc/ground/clk BUS			
 
 CLOCK module : 
  . Ticking / clock pulses				(Astable 555) 
@@ -12,8 +12,8 @@ CLOCK module :
 
 BUFFERS AND REGISTERS : 
  . Explaining the 74245 buffer 
- . Building a general-purpose register
- . Building multiple registers
+ . Building a general-purpose register : 2-way ACC 
+ . Building multiple registers : 2-way B , 2-way C 
 
 Building an INSTRUCTION REGISTER : 
  . bussing split b/w opc and opd 

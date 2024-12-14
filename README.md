@@ -43,20 +43,21 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
-Evolution of architectures from SAP-1 through SAP-2, SAP-3, and Intel 8080/8085. 
+Single-core architectures : 
+ - Evolution of architectures from SAP-1 through SAP-2, SAP-3, and Intel 8080/8085. 
 
 Programmable interrupt controllers :
- . communication between PICs and the rest of the hardware 
+ - communication between PICs and the rest of the hardware 
 
 Discrete mathematics :
  |
- . the topics that make up the subject
- . the applications that justify these topics 
+ - the topics that make up the subject
+ - the applications that justify these topics 
  |
- . combinatorics (permutation vs. combination)
- . sets and set theory
- . graphs and graph theory
- . probability theory (incl. discrete probability) 
+ - combinatorics (permutation vs. combination)
+ - sets and set theory
+ - graphs and graph theory
+ - probability theory (incl. discrete probability) 
 
 Expanding on the C random number generator (with an inadvertent numerical bias) 
 A brief overview of data structures , discrete mathematics , automata theory ,

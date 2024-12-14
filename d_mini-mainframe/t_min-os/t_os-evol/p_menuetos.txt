@@ -2,8 +2,6 @@
  . 2000
  . written entirely in assembly
 
-
- . RAM :     8 M
- . storage : X M
+ . RAM / storage needed :     1.44 MB 
 
 _

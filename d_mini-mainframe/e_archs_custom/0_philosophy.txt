@@ -12,7 +12,9 @@ Mistakes :
 Do we want this computer
   (1) capable of multiprocessing/multithreading like all modern computers , and thus being capable of some
       compatibility with modern systems , or
-  (2) simple enough to run early-mid 90s video games ? 
+  (2) simple enough to run early-mid 90s video games ?
+Let's do two cores (to get a taste).
+Simulate Hyper-Threading - 2 threads per core. 
 
 
 Get the schematic for every architecture (SAP-1 thru 80386)

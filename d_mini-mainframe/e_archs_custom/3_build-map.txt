@@ -22,14 +22,24 @@ Building an INSTRUCTION REGISTER :
 ALU (design) :
  . reg-ALU bussing 
  . ALU-reg bussing 
- . AB adders 
+ . individual adders (AB , ??)
+
+RAM - ? 64K ? 
+ . overcoming the Line A20 idiocy
+ . we want more than 16MB to run a TBS game
+ . we'll be running 
+ . retrieve an old laptop to test shitty boot/OS 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
+The stack - indef. # levels. 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Phi0 and Phi1 clock signals. 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Interrupts :
  . I/O (external) - peripherals
     . keyboard 
  . internal :
+    . timer interrupt 
     . divide overflow , arithmetic errors , (ECC fail) , invalid instructions , address range errors
     . (? page fault ?)
     . an app's debug mode op - triggers an interrupt 

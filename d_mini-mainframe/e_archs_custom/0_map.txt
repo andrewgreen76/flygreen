@@ -8,7 +8,7 @@ CLOCK module :
  . Ticking / clock pulses				(Astable 555) 
  . Manual stepping through clock cycles / T-states    	(Monostable 555) 
  . On/off switch    	   	 	  		(Bistable 555)				
- . HLT Clock output frozen at 0 
+ . HLT (Clock output frozen at 0) 
 
 BUFFERS AND REGISTERS : 
  . Explaining the 74245 buffer 

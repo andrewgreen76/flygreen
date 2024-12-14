@@ -1,4 +1,0 @@
-"
-The SAP-3 is even more complex than the SAP-2 but thankfully it didn’t require an awkward design because it’s essentially an Intel 8080/8085 with some instructions removed.
-"
-_

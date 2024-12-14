@@ -64,9 +64,9 @@ Intel 80286 :
  . address bus width : 24 
  . address width : 24 
  . addressable memory range : up to 2^24 = 16M 
- . multiprocessing
-   => high-performance
  . more transistors
+ . memory protection (protected mode) 
+ . virtual memory 
 
 
 
@@ -77,8 +77,8 @@ Intel 80386 :
  . address bus width : 32 
  . address width : 32 
  . addressable memory range : up to 2^32 = 4G
- . memory protection
- . virtual memory 
+ . multiprocessing
+   => high-performance
 
 
 

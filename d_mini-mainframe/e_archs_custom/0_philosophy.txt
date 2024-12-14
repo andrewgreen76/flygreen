@@ -9,6 +9,8 @@ Mistakes :
    - (there are always trade-offs in engineering after all)
 
 
+Get the schematic for every architecture (SAP-1 thru 80386)
+Build a plan of what parts to add one by one , and in what order 
 Structure - design progressively , part by part : 
  . single-core 
     . SAP-1

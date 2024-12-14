@@ -24,4 +24,13 @@ ALU (design) :
  . ALU-reg bussing 
  . AB adders 
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Interrupts :
+ . I/O (external) - peripherals
+ . internal :
+    . divide overflow , arithmetic errors , (ECC fail) , invalid instructions , address range errors
+    . (? page fault ?)
+    . an app's debug mode op - triggers an interrupt 
+
 _

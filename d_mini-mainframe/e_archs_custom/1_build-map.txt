@@ -28,6 +28,7 @@ ALU (design) :
 
 Interrupts :
  . I/O (external) - peripherals
+    . keyboard 
  . internal :
     . divide overflow , arithmetic errors , (ECC fail) , invalid instructions , address range errors
     . (? page fault ?)

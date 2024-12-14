@@ -9,6 +9,12 @@ Mistakes :
    - (there are always trade-offs in engineering after all)
 
 
+Do we want this computer
+  (1) capable of multiprocessing/multithreading like all modern computers , and thus being capable of some
+      compatibility with modern systems , or
+  (2) simple enough to run early-mid 90s video games ? 
+
+
 Get the schematic for every architecture (SAP-1 thru 80386)
 Build a plan of what parts to add one by one , and in what order 
 Structure - design progressively , part by part : 

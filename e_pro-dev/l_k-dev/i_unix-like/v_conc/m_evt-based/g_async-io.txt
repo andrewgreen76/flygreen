@@ -4,9 +4,9 @@ The functionality of applications (subordinate processes in a server) define the
 
 Synchronous I/O :
  . an application issues an I/O request
- -> hands "control" (CPU resources - space and time) over to the kernel 
+ -> hands control over CPU (CPU resources - space and time) over to the kernel 
  -> enters a blocking state 
- -> DOES NOT RESUME until I/O is completed 
+ -> DOES NOT RESUME until I/O op is completed 
 
 
 Asynchronous I/O - the opposite :

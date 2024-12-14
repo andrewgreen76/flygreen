@@ -76,7 +76,9 @@ Intel 80386 :
  . data bus width : 32 
  . address bus width : 32 
  . address width : 32 
- . addressable memory range : up to 2^32 = 4G 
+ . addressable memory range : up to 2^32 = 4G
+ . memory protection
+ . virtual memory 
 
 
 

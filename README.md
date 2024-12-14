@@ -43,6 +43,8 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Evolution of architectures from SAP-1 through SAP-2, SAP-3, and Intel 8080/8085. 
+
 Programmable interrupt controllers :
  . communication between PICs and the rest of the hardware 
 

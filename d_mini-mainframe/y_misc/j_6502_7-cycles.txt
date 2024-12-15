@@ -1,4 +1,13 @@
-"
-On the 6502, the reset sequence (like all interrupts) takes 7 cycles. The first two are "internal operations" which are used to select the internal microcode program for an interrupt, and then to transfer the stack pointer to the address register. The next three are used to save the PC and the status register (P) on the stack - these will be meaningless during a reset, but it's just reusing the same sequence as for a normal interrupt. Finally, the last two cycles fetch the reset vector from $FFFC/D.
-"
+
+ . 6502 has no microcode
+ . you have to figure out how to write the signal-driving words yourself - before they are programmed onto the ROM 
+
+ . "
+   On the 6502, the reset sequence (like all interrupts) takes 7 cycles. The first two are "internal operations"
+     which are used to select the internal microcode program for an interrupt, and then to transfer the stack pointer
+     to the address register. The next three are used to save the PC and the status register (P) on the stack - these
+     will be meaningless during a reset, but it's just reusing the same sequence as for a normal interrupt. Finally,
+     the last two cycles fetch the reset vector from $FFFC/D.
+   "
+   
 _

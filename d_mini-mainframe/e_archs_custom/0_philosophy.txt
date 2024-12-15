@@ -3,6 +3,9 @@
 THOUGHTS 
 ===================================================================================
 
+? Build multiple computers , from most limited to most capable ? 
+
+
 Mistakes : 
  . we don't know what mistakes Linus is referring to
  . we'll probably make some mistakes of our own

@@ -1,6 +1,87 @@
 
+===================================================================================
+An output peripheral (SCREEN) : 
+===================================================================================
+
 Steps 
 --------------------------------------------------------------------
+
+Figure out the peripheral's tech/physics/geometry :
+ . (1) LCD , (2) CRT , (3) ??
+    . "Other alternatives to LCD and CRT screen technology include **OLED (Organic Light Emitting Diode)**,
+       **LED (Light Emitting Diode)**, **QLED (Quantum Dot LED)**, and **Plasma display technology**."
+ . palette - a concern 
+ . LCD fb MMIO (input to EEPROM) - scanned at a really fast clock rate
+ -> EEPROM
+ ?-> a screen without a clock of its own ? 
+ ? LCD VGA card ? 
+ . illuminate individual pixels on an LCD screen 
+ . LCD decoder / controller / driver / synchronization
+ |
+ ? CGRAM/CGROM ? 
+
+16-bit data/Vcc/ground/clk BUS			
+
+CLOCK module : 
+ . will come from the computer 
+
+BUFFERS AND REGISTERS : 
+ . Explaining the 74245 buffer 
+ . Building a general-purpose register : 2-way ACC 
+ . Building multiple registers : 2-way B , 2-way C 
+
+Building an INSTRUCTION REGISTER : 
+ . bussing split b/w opc and opd 
+ . immediate addressing mode possible	- handy for INC and DEC (to overcome ALU design complexity) 
+
+ALU (design) :
+ . reg-ALU bussing 
+ . ALU-reg bussing 
+ . individual adders (AB , ??)
+
+RAM - as much as possible - up to ? 70 MB ? 
+ . overcoming the Line A20 idiocy
+ . we want more than 16MB to run a TBS game
+ . we'll be running a custom OS meant for (1) this and (2) other existing architecture 
+ . retrieve an old laptop to test shitty boot/OS 
+
+PC ( |A| )
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+The stack - indef. # levels (of routine calls). 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Phi0 and Phi1 clock signals. 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Interrupts :
+ . I/O (external) - peripherals
+    . keyboard 
+ . internal :
+    . timer interrupt 
+    . divide overflow , arithmetic errors , (ECC fail) , invalid instructions , address range errors
+    . (? page fault ?)
+    . an app's debug mode op - triggers an interrupt 
+
+
+===================================================================================
+The COMPUTER itself : 
+===================================================================================
+
+Steps 
+--------------------------------------------------------------------
+
+Figure out the peripheral's tech/physics/geometry :
+ . (1) LCD , (2) CRT , (3) ??
+    . "Other alternatives to LCD and CRT screen technology include **OLED (Organic Light Emitting Diode)**,
+       **LED (Light Emitting Diode)**, **QLED (Quantum Dot LED)**, and **Plasma display technology**."
+ . palette - a concern 
+ . LCD fb MMIO (input to EEPROM) - scanned at a really fast clock rate
+ -> EEPROM
+ ?-> a screen without a clock of its own ? 
+ ? LCD VGA card ? 
+ . illuminate individual pixels on an LCD screen 
+ . LCD decoder / controller / driver / synchronization
+ |
+ ? CGRAM/CGROM ? 
 
 16-bit data/Vcc/ground/clk BUS			
 
@@ -24,14 +105,16 @@ ALU (design) :
  . ALU-reg bussing 
  . individual adders (AB , ??)
 
-RAM - ? 64K ? 
+RAM - as much as possible - up to ? 70 MB ? 
  . overcoming the Line A20 idiocy
  . we want more than 16MB to run a TBS game
- . we'll be running 
+ . we'll be running a custom OS meant for (1) this and (2) other existing architecture 
  . retrieve an old laptop to test shitty boot/OS 
 
+PC ( |A| )
+
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-The stack - indef. # levels. 
+The stack - indef. # levels (of routine calls). 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Phi0 and Phi1 clock signals. 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -

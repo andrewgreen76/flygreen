@@ -44,7 +44,9 @@ Intel 8086 :
  . data bus width : 16 
  . address bus width : 20 
  . address width : 20
- . addressable memory range : up to 2^20 = 1M 
+ . addressable memory range : up to 2^20 = 1M
+ |
+ . instruction pipelining 
 
 
 
@@ -65,6 +67,7 @@ Intel 80286 :
  . address width : 24 
  . addressable memory range : up to 2^24 = 16M 
  . more transistors
+ |
  . memory protection (protected mode) 
  . virtual memory 
 
@@ -72,13 +75,16 @@ Intel 80286 :
 
 Intel 80386 :
  . a.k.a. i386 
- . '85
+ . '85 (early samples) , '86 (actual full-scale production) 
  . data bus width : 32 
  . address bus width : 32 
  . address width : 32 
  . addressable memory range : up to 2^32 = 4G
- . multiprocessing
-   => high-performance
+ |
+ . multiprocessing - some early form of it 
+ |  => high-performance
+ |
+ . later variants - featured caches 
 
 
 
@@ -90,6 +96,8 @@ Intel 80486 :
  . address bus width : 32 
  . address width : 32 
  . addressable memory range : up to 2^32 = 4G
+ |
+ . featured caches 
 
 
 

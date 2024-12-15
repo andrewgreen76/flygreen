@@ -1,0 +1,24 @@
+
+===================================================================================
+OUTPUT : 
+===================================================================================
+
+Figure out the device's tech/physics/geometry : 
+  (1) LCD (color filtering , etc.) 
+  (2) CRT 
+  (3) ?? 
+     . "Other alternatives to LCD and CRT screen technology include **OLED (Organic Light Emitting Diode)**,
+	**LED (Light Emitting Diode)**, **QLED (Quantum Dot LED)**, and **Plasma display technology**."
+
+
+ . palette - a concern 
+ . LCD fb MMIO (input to EEPROM) - scanned at a really fast clock rate
+ -> EEPROM
+ ?-> a screen without a clock of its own ? 
+ ? LCD VGA card ? 
+ . illuminate individual pixels on an LCD screen 
+ . LCD decoder / controller / driver / synchronization
+ |
+ ? CGRAM/CGROM ? 
+
+_

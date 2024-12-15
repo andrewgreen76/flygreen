@@ -1,6 +1,7 @@
 
  . 6502 has no microcode
- . you have to figure out how to write the signal-driving words yourself - before they are programmed onto the ROM 
+ . you have to figure out how to write the signal-driving words yourself - before they are programmed onto the ROM
+ . 0xA9 = 0x07 (?!?!?) = 1010 1001 = 5v 0v 5v 0v   5v 0v 0v 5v 
 
  . "
    On the 6502, the reset sequence (like all interrupts) takes 7 cycles. The first two are "internal operations"

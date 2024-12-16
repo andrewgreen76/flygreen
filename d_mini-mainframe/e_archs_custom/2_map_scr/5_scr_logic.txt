@@ -1,53 +1,38 @@
 
 ===================================================================================
-An output peripheral (SCREEN) : 
+SCREEN BUILD 
 ===================================================================================
 
-Steps 
---------------------------------------------------------------------
+Tech/physics/geometry : 
+  (1) LCD (color filtering , etc.) 
+  (2) CRT 
+  (3) ?? 
+     . "Other alternatives to LCD and CRT screen technology include **OLED (Organic Light Emitting Diode)**,
+	**LED (Light Emitting Diode)**, **QLED (Quantum Dot LED)**, and **Plasma display technology**."
 
-Figure out the peripheral's tech/physics/geometry :
- . (1) LCD , (2) CRT , (3) ??
-    . "Other alternatives to LCD and CRT screen technology include **OLED (Organic Light Emitting Diode)**,
-       **LED (Light Emitting Diode)**, **QLED (Quantum Dot LED)**, and **Plasma display technology**."
- . palette - a concern 
+No own CPU 
+
+Controller (logic) : 
+Video card : 
+ ? LCD VGA card ? 
+
+Memory : 
+ . Data memory :
+ . Control memory : 
+ ? CGRAM/CGROM ? 
+
+ . color palette (an abstract for ROM data) - breadth a concern 
  . LCD fb MMIO (input to EEPROM) - scanned at a really fast clock rate
  -> EEPROM
  ?-> a screen without a clock of its own ? 
- ? LCD VGA card ? 
  . illuminate individual pixels on an LCD screen 
  . LCD decoder / controller / driver / synchronization
- |
- ? CGRAM/CGROM ? 
 
-===================================================================================
-The COMPUTER itself : 
-===================================================================================
 
-Steps 
---------------------------------------------------------------------
-
-Figure out the peripheral's tech/physics/geometry :
- . (1) LCD , (2) CRT , (3) ??
-    . "Other alternatives to LCD and CRT screen technology include **OLED (Organic Light Emitting Diode)**,
-       **LED (Light Emitting Diode)**, **QLED (Quantum Dot LED)**, and **Plasma display technology**."
- . palette - a concern 
- . LCD fb MMIO (input to EEPROM) - scanned at a really fast clock rate
- -> EEPROM
- ?-> a screen without a clock of its own ? 
- ? LCD VGA card ? 
- . illuminate individual pixels on an LCD screen 
- . LCD decoder / controller / driver / synchronization
- |
- ? CGRAM/CGROM ? 
-
-16-bit data/Vcc/ground/clk BUS			
+BUS : 16-bit data/Vcc/ground/clk 
 
 CLOCK module : 
- . Ticking / clock pulses				(Astable 555) 
- . Manual stepping through clock cycles / T-states    	(Monostable 555) 
- . On/off switch    	   	 	  		(Bistable 555)				
- . HLT (Clock output frozen at 0) 
+ . will come from the computer 
 
 BUFFERS AND REGISTERS : 
  . Explaining the 74245 buffer 
@@ -76,9 +61,10 @@ The stack - indef. # levels (of routine calls).
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Phi0 and Phi1 clock signals. 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Interrupts :
+Interrupts / (polling) : 
  . I/O (external) - peripherals
-    . keyboard 
+    . keyboard (map navigation possible if not easy w/o a mouse) 
+    . mouse 
  . internal :
     . timer interrupt 
     . divide overflow , arithmetic errors , (ECC fail) , invalid instructions , address range errors

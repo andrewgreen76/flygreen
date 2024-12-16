@@ -1,16 +1,23 @@
 
 ===================================================================================
-OUTPUT : 
+An output peripheral (SCREEN) : 
 ===================================================================================
 
-Figure out the device's tech/physics/geometry : 
-  (1) LCD (color filtering , etc.) 
-  (2) CRT 
-  (3) ?? 
-     . "Other alternatives to LCD and CRT screen technology include **OLED (Organic Light Emitting Diode)**,
-	**LED (Light Emitting Diode)**, **QLED (Quantum Dot LED)**, and **Plasma display technology**."
+===================================================================================
+An input peripheral (SCREEN) : 
+===================================================================================
 
+===================================================================================
+The COMPUTER itself : 
+===================================================================================
 
+Steps 
+--------------------------------------------------------------------
+
+Figure out the peripheral's tech/physics/geometry :
+ . (1) LCD , (2) CRT , (3) ??
+    . "Other alternatives to LCD and CRT screen technology include **OLED (Organic Light Emitting Diode)**,
+       **LED (Light Emitting Diode)**, **QLED (Quantum Dot LED)**, and **Plasma display technology**."
  . palette - a concern 
  . LCD fb MMIO (input to EEPROM) - scanned at a really fast clock rate
  -> EEPROM
@@ -21,11 +28,13 @@ Figure out the device's tech/physics/geometry :
  |
  ? CGRAM/CGROM ? 
 
-
 16-bit data/Vcc/ground/clk BUS			
 
 CLOCK module : 
- . will come from the computer 
+ . Ticking / clock pulses				(Astable 555) 
+ . Manual stepping through clock cycles / T-states    	(Monostable 555) 
+ . On/off switch    	   	 	  		(Bistable 555)				
+ . HLT (Clock output frozen at 0) 
 
 BUFFERS AND REGISTERS : 
  . Explaining the 74245 buffer 
@@ -54,10 +63,9 @@ The stack - indef. # levels (of routine calls).
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Phi0 and Phi1 clock signals. 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Interrupts / (polling) : 
+Interrupts :
  . I/O (external) - peripherals
-    . keyboard (map navigation possible if not easy w/o a mouse) 
-    . mouse 
+    . keyboard 
  . internal :
     . timer interrupt 
     . divide overflow , arithmetic errors , (ECC fail) , invalid instructions , address range errors

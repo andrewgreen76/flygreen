@@ -52,9 +52,10 @@ The stack - indef. # levels (of routine calls).
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Phi0 and Phi1 clock signals. 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Interrupts :
+Interrupts / (polling) : 
  . I/O (external) - peripherals
-    . keyboard 
+    . keyboard (map navigation possible if not easy w/o a mouse) 
+    . mouse 
  . internal :
     . timer interrupt 
     . divide overflow , arithmetic errors , (ECC fail) , invalid instructions , address range errors

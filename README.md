@@ -43,6 +43,10 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+LCD technology : 
+ - the stack
+ - LED backlight management 
+
 Single-core architectures : 
  - Evolution of architectures from SAP-1 through SAP-2, SAP-3, and Intel 8080/8085. 
 

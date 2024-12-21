@@ -17,6 +17,7 @@ WELL-PAYING JOBS :
 -		$80k			Product Test & Support Engr	embedded , PCB , programming
 -		$80k		3 	Firmware Engineer II - FPGA	FPGA , embedded microprocrs	Advanced Energy Industries, Inc. (Fort Collins , CO) 
 $40		$83k			Kernel Developer       		OS/kernel 
+-----------------------------------------------------------------------------------------------------------------------------
 -		$90k		4	Future Cust.Exps EEngr		fw , hw ports , FPGA , PCB	HP (Fort Collins , CO)  
 -		$90k			Apps Engr (TI Career Acc.Prog.)	embedded , semic.		Texas Instruments (Dallas , TX) 
 -		$100k		2	Firmware Engineer    		embedded , Linux 		Horiba Instruments (Piscataway , NJ ; Reno , NV)

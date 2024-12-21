@@ -1,20 +1,13 @@
 
 ===================================================================================
-MONOCHROME LCD CONSTITUTION 
+MONOCHROME LCD CONSTITUTION - LCD ITSELF 
 ===================================================================================
 
-  ---------------- (the trivial part - LED backlight management :) ----------------
-  PCB / metal frame 
-  LED backlight (single source-array vs. full-array)
-  ---(white)---|||---backsheet---
-  -----LED-----vvv---backlight---
-  light guite plate (plexiglass)
-  diffusion film 1
-  diffusion film 2 
-  prism film (light brightener) 
+The more complicated part : 
 
-  ------------------- (the more complicated part - LCD panel :) -------------------
   polarizer (direction 1)
+  (a) TFT capacitors
+  (b)
   	    	        {
   +/- at fast clk rate  {glass (direction 1) 
   w/ anti-E shield 	{clear electrodes w/ ITO patterns (indium tin oxide) - (E-field source) 
@@ -24,13 +17,15 @@ MONOCHROME LCD CONSTITUTION
    . (chiral + nematic fusion with just the right chiral pitch in the molecules)
    . (super-twisted nematic - 270-deg rotation for better conrol of greyscale in matrix displays)
   ---------------------------------------------------------------------------------
+  (b)
 			{
   -/+ at fast clk rate  {polyimide coating ~ 200 nm 
   w/ anti-E shield 	{clear electrodes w/ ITO patterns - (E-field dest.) 
   (paper/tape) 		{glass  (direction 2)
 			{
+  (color filter / reflector) 
   polarizer  (direction 2) 
   ---------------------------------------------------------------------------------
-  filter / reflector 
+  (color filter / reflector) 
 
 _

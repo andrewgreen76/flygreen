@@ -1,18 +1,34 @@
 
 You are here : 
 
+Find a mentor : career counseling : SJSU , De Anza , UT Austin , ASU 
+
+Embedded forum communities 
+
+Meetups 
+
+Conventions 
 
 
+IEEE engagement 
 
 
+Other networking moves 
 
 
+Learning about LCD fab practices 
 
 
+Build the keyboard , the computer , the screen , 
 
 
+[Skills/xp list:] USB, SPI, I2C, UART, GPIO , CAN 
 
 
+Udemy 
 
 
-End goal : Embedded engineer , well-rounded , making a six-figure income. 
+Job : laptop/dekstop PC / keyboard / LCD assembly 
+
+
+End goal : Job : Embedded engineer , well-rounded , making a six-figure income. 

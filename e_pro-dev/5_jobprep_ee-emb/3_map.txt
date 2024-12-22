@@ -3,6 +3,13 @@
 
 Find a mentor : career counseling : SJSU , De Anza , UT Austin , ASU 
 
+Apprenticeships
+ . 
+
+Build a laptop PC
+Build a desktop PC 
+Build a solderless computer : keyboard , CPU board , screen 
+
 Embedded forum communities 
 
 Meetups 
@@ -13,22 +20,15 @@ IEEE engagement
 
 Other social-networking moves 
 
-Learning about LCD fab practices 
-
-
-Build the keyboard , the computer , the screen , 
-
+Learning about LCD/keyboard fab practices 
 
 [Skills/xp list:] USB, SPI, I2C, UART, GPIO , CAN 
 
-
 Udemy 
-
 
 2-yr trade/voc. school 
 
-
-Job : laptop/dekstop PC / keyboard / LCD assembly 
-
+Job : Assembler I 
+Job : PC Assembler I : laptop/desktop PC / keyboard / LCD assembly 
 
 End goal : Job : Embedded engineer , well-rounded , making a six-figure income. 

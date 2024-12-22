@@ -3,8 +3,8 @@ Find a mentor : career counseling
 
 Watch videos - What do they do ? 
  . embedded engineers 
- <- [skills they want : manuf 1-2 yrs ; certs : IPC-610-A , classes I , II , III ; CompTIA A+]
-  + [SKILLS I WANT : LAPTOP PC -> DESKTOP PC -> SOLDERLESS COMPUTER : FAB PRACTICES : KBD , CPU BOARD , LCD SCREEN] 
+ <- [SKILLS I WANT : SOLDERLESS COMPUTER : FAB PRACTICES : KBD , CPU BOARD , LCD SCREEN -> LAPTOP PC -> DESKTOP PC] 
+  + [skills they want : manuf 1-2 yrs ; certs : IPC-610-A , classes I , II , III ; CompTIA A+]
   . [skills we both want : apprenticeships] 
 
 IPC EPTAC sites :

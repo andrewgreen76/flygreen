@@ -1,5 +1,5 @@
 
-You are here : 
+[You are here] 
 
 Find a mentor : career counseling : SJSU , De Anza , UT Austin , ASU 
 
@@ -9,12 +9,9 @@ Meetups
 
 Conventions 
 
-
 IEEE engagement 
 
-
-Other networking moves 
-
+Other social-networking moves 
 
 Learning about LCD fab practices 
 
@@ -26,6 +23,9 @@ Build the keyboard , the computer , the screen ,
 
 
 Udemy 
+
+
+2-yr trade/voc. school 
 
 
 Job : laptop/dekstop PC / keyboard / LCD assembly 

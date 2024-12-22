@@ -20,8 +20,12 @@ List - Technical colleges , vocational schools , industry-specific career develo
  |  . Santa Clara, CA
  |    . De Anza
  |    . SJSU 
- |    . NVIDIA 
+ |    . NVIDIA
+ |    .	Asus
+ |    . AMD
+ |    . Intel 
  |  . AUSTIN, TX
+ |    . UT Austin 
  |    . TX - UHouston
  |    . AMD
  |    . Flex, Ltd. 

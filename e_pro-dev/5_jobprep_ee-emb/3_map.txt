@@ -2,16 +2,10 @@
 Find a mentor : career counseling
 
 Watch videos - What do they do ? 
- . embedded engineers <- [skills they want] + [skills I want : PC build] 
-
-Theory : 
- . Certifications : IPC-610-A , classes I , II , III ; CompTIA A+ 
-
-$ + practice : 
- . Apprenticeships
-
-Practice + showcase : 
- . Build a laptop PC -> a desktop PC -> a solderless computer : keyboard , CPU board , screen 
+ . embedded engineers 
+ <- [skills they want : manuf 1-2 yrs ; certs : IPC-610-A , classes I , II , III ; CompTIA A+]
+  + [SKILLS I WANT : LAPTOP PC -> DESKTOP PC -> SOLDERLESS COMPUTER : FAB PRACTICES : KBD , CPU BOARD , LCD SCREEN] 
+  . [skills we both want : apprenticeships] 
 
 Showcases : 
  . Embedded forum communities 
@@ -19,8 +13,6 @@ Showcases :
  . Conventions 
  . IEEE engagement 
  . Other social-networking moves 
-
-Learning about LCD screen + keyboard fab practices 
 
 Theory and practice : 
  . [Skills/xp list:] USB, SPI, I2C, UART, GPIO , CAN 

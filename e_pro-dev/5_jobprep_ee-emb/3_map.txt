@@ -1,8 +1,11 @@
 
-Find a mentor : career counseling : SJSU , De Anza , UT Austin , ASU 
+Find a mentor : career counseling
+
+Watch videos - What do they do ? 
+ . embedded engineers <- [skills they want] + [skills I want : PC build] 
 
 Theory : 
- . Certifications : IPC-610-A , classes I , II , III 
+ . Certifications : IPC-610-A , classes I , II , III ; CompTIA A+ 
 
 $ + practice : 
  . Apprenticeships
@@ -21,12 +24,8 @@ Learning about LCD screen + keyboard fab practices
 
 Theory and practice : 
  . [Skills/xp list:] USB, SPI, I2C, UART, GPIO , CAN 
-
-Theory and practice : 
  . Udemy 
-
-Theory and practice : 
- . 2-yr trade/voc. school 
+ . 2-yr trade/voc. school - SJSU , De Anza , UT Austin , ASU 
 
 Job : Assembler I 
 Job : PC Assembler I : laptop/desktop PC / keyboard / LCD assembly 

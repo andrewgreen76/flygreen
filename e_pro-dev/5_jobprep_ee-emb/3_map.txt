@@ -1,32 +1,32 @@
 
-[You are here] 
-
 Find a mentor : career counseling : SJSU , De Anza , UT Austin , ASU 
 
-Apprenticeships
- . 
+Theory : 
+ . Certifications : IPC-610-A , classes I , II , III 
 
-Build a laptop PC
-Build a desktop PC 
-Build a solderless computer : keyboard , CPU board , screen 
+$ + practice : 
+ . Apprenticeships
 
-Embedded forum communities 
+Practice + showcase : 
+ . Build a laptop PC -> a desktop PC -> a solderless computer : keyboard , CPU board , screen 
 
-Meetups 
+Showcases : 
+ . Embedded forum communities 
+ . Meetups 
+ . Conventions 
+ . IEEE engagement 
+ . Other social-networking moves 
 
-Conventions 
+Learning about LCD screen + keyboard fab practices 
 
-IEEE engagement 
+Theory and practice : 
+ . [Skills/xp list:] USB, SPI, I2C, UART, GPIO , CAN 
 
-Other social-networking moves 
+Theory and practice : 
+ . Udemy 
 
-Learning about LCD/keyboard fab practices 
-
-[Skills/xp list:] USB, SPI, I2C, UART, GPIO , CAN 
-
-Udemy 
-
-2-yr trade/voc. school 
+Theory and practice : 
+ . 2-yr trade/voc. school 
 
 Job : Assembler I 
 Job : PC Assembler I : laptop/desktop PC / keyboard / LCD assembly 

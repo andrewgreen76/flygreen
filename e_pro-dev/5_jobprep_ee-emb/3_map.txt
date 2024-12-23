@@ -1,31 +1,32 @@
 
 Find a mentor : career counseling
 
-Watch videos - What do they do ? 
- . embedded engineers 
- <- [SKILLS I WANT : SOLDERLESS COMPUTER : FAB PRACTICES : KBD , CPU BOARD , LCD SCREEN -> LAPTOP PC -> DESKTOP PC] 
-  + [skills they want : manuf 1-2 yrs ; certs : IPC-610-A , classes I , II , III ; CompTIA A+]
-  . [skills we both want : apprenticeships] 
+Watch videos - What do they do ?
+   + [skills they want : CPU verification engineer : ]
+   + [skills they want : PCB designer : ]
+   . [skills we both want : apprenticeships , certifications] 
 
 IPC EPTAC sites :
- . 1/6-9 - San Jose
- . 2/10-13 -//-
- . 4/21-24 -//-
- . no TX or AZ 
+ . San Jose ; not TX or AZ 
+ . 1/6-9 
+ . 2/10-13 
+ . 4/21-24 
 
 Showcases : 
- . Embedded forum communities 
- . Meetups 
- . Conventions 
- . IEEE engagement 
- . Other social-networking moves 
+ . forum communities (CPU , PCB , etc.) ; Meetups ; Conventions ; IEEE engagement ; Other social-networking moves 
 
 Theory and practice : 
  . [Skills/xp list:] USB, SPI, I2C, UART, GPIO , CAN 
- . Udemy 
  . 2-yr trade/voc. school - SJSU , De Anza , UT Austin , ASU 
 
-Job : Assembler I 
-Job : PC Assembler I : laptop/desktop PC / keyboard / LCD assembly 
+		       	     	      certifications			apprenticeships		Udemy class	other programs
+				      
+Job : CPU (Verification) Engineer     Certified LabVIEW Developer (CLD),
+      	  		 	      Certified VHDL/Verilog Designer,
+				      certifications in SystemVerilog
+				      & UVM (Universal Verif. Method.)
+Job : PCB Designer 
 
-End goal : Job : Embedded engineer , well-rounded , making a six-figure income. 
+End goal : A SIX-FIGURE INCOME. 
+
+_

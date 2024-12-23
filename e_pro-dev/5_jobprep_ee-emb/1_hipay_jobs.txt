@@ -1,32 +1,35 @@
 
 Hr.pay		Ann.pay		Yrs.XP	Title				Field/specialization		Key companies
-
------------------------------------------------------------------------------------------------------------------------------
-LOW-PAYING JOBS : 
 -----------------------------------------------------------------------------------------------------------------------------
 -		$38k			Stock Room/Assembler		PCB 				TTM Technologies 
 $20		$41k			Electronics Repair Technician	PCB
 $21		$43k			Assembler (entry-level)		PCB
-$28		$58k			PCB Design Engineer		PCB / semic.
 -		$68k			EE (Rotational Train. Prog.)	PCB
--		$76k			RF Engineer			RF
 -----------------------------------------------------------------------------------------------------------------------------
-WELL-PAYING JOBS : 
------------------------------------------------------------------------------------------------------------------------------
--		$64k		4	Software Engineer		radars				Raytheon (Annapolis Junction , MD) 
--		$80k			Product Test & Support Engr	embedded , PCB , programming
--		$80k		3 	Firmware Engineer II - FPGA	FPGA , embedded microprocrs	Advanced Energy Industries, Inc. (Fort Collins , CO) 
-$40		$83k			Kernel Developer       		OS/kernel 
+-		$64k		8	Specialist , PCB Designer	PCB
+-		$68k		3	Firmware Engr - Early Career	firmware / uctrlrs		Seagate (Longmont , CO) 
+-		$80k		3 	Firmware Engineer II - FPGA	FPGA , emb uprocrs	Adv. Energy Ind., Inc. (Fort Collins) 
 -----------------------------------------------------------------------------------------------------------------------------
 -		$90k		4	Future Cust.Exps EEngr		fw , hw ports , FPGA , PCB	HP (Fort Collins , CO)  
--		$90k			Apps Engr (TI Career Acc.Prog.)	embedded , semic.		Texas Instruments (Dallas , TX) 
--		$100k		2	Firmware Engineer    		embedded , Linux 		Horiba Instruments (Piscataway , NJ ; Reno , NV)
-$50		$104k			Embedded Engineer		embedded , SoC , validation	Embtel Inc (Chandler, AZ)
--		$120k		7	Staff Firmware Engineer		firmware/embedded		
+-		$90k		.	Apps Engr (TI Career Acc.Prog.)	embedded , semic.		Texas Instr. (Dallas , TX)
+-		$95k		3	PCB Designer  	     		PCB	   			SpaceX (Bastrop , TX)
+-	       	$95k	       	.       Firmware Dev. (entry-level)     firmware			IBM  
+-		$100k		2	Firmware Engineer    		embedded , Linux 		Horiba (Piscataway , NJ ; Reno)
+-		$103k		1	CPU Physical Design Engineer	CPU architecture / logic	Qualcomm (Austin, TX) 
+$50		$104k		.	Embedded Engineer		embedded , SoC , validation	Embtel Inc (Chandler, AZ)
+-		$113k		5	CPU Verification Engineer 	CPU architecture / logic	Ampere (Portland , OR) 
+-		$115k		3	Firmware Engr - Early Career	firmware / uctrlrs		Seagate (Longmont , CO) 
+-		$119k		8	Specialist , PCB Designer	PCB	       	 		L3Harris Tech. (Rochester, NY)
+-		$120k		7	Staff Firmware Engineer		firmware/embedded		.
+-		$122k		6	DFT Engineer - CPU 		CPU architecture 		Qualcomm (Austin, TX) 
+-		$125k		7	Sr. PCB Designer		PCB				SpaceX (Bastrop , TX) 
+-		$130k		3	PCB Designer  	     		PCB	   			SpaceX (Bastrop , TX)
+-		$130k		4	Embedded Software Engineer	firmware 			Quality Theorem (Wash., DC) 
 - 		$140k		8	Embedded System Engineer 	firmware (+ hyperv , boot)	einfochips (Arrow) 
------------------------------------------------------------------------------------------------------------------------------
-EXPIRED JOB OPENINGS : 
------------------------------------------------------------------------------------------------------------------------------
--		$95k			Firmware Dev. (entry-level)	firmware   			IBM 
+-		$155k		1	CPU Physical Design Engineer	CPU architecture / logic	Qualcomm (Austin, TX) 
+-		$175k		7	Sr. PCB Designer		PCB				SpaceX (Bastrop , TX) 
+-		$180k		4	Embedded Software Engineer	firmware 			Quality Theorem (Wash., DC) 
+-		$184k		6	DFT Engineer - CPU 		CPU architecture 		Qualcomm (Austin, TX) 
+-		$208k		5	CPU Verification Engineer 	CPU architecture / logic	Ampere (Portland , OR) 
 
 _

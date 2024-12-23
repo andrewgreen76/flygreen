@@ -1,0 +1,72 @@
+
+========================================================================================
+PCB DESIGN - SKILLS AND EXPERIENCE 
+========================================================================================
+
+ . Working knowledge of all types of electronic components
+ . Working knowledge of electronic circuits theory of operation
+ . understanding of high voltage engineering 
+
+ . understanding of the physics and electrical principles of PCB design
+    . signal integrity concerns
+    . impedance control/matching
+    . EMI/EMC mitigation
+    
+ . IPC standard 
+ . commercial standard
+ . MIL-STD standard
+
+ . Knowledge of the PCB design elements:
+    . schematic,
+    . BOM,
+    . mechanical,
+    . fabrication,
+    . assembly,
+    . all related files and documentation
+    
+ . PCB design manufacturing processes , best practices
+ . design standards for surface-mount , through-hole , and 2-N-2 HDI designs
+ . knowledge of SMT and through-hole electronic components and packages
+ 
+ . high-speed digital ... : 
+    . PCB layout 
+    . PCB routing 
+    . buses
+
+ . signal integrity practices and theories 
+ . DDR4 design
+ . EDA tools (board design , schematic entry) :
+    . Cadence Allegro , Altium Designer , Mentor Xpedition , PADS , Valor (DFM) 
+    . Spectra Quest Si ,  
+ . Orcad PCB layout tools 
+ . multilayer PCB construction
+ . high-density interconnect design
+ . mixed analog-and-digital design layout
+ . FPGA , DRAM , CPU designs 
+ . power supplies
+ . DC-DC converters
+ . transmission lines
+ . impedance-controlled traces
+ . power traces
+ 
+ . eCAD libraries
+ . eCAD library configuration management
+ . PLM tools (Agile , Teamcenter , etc.)
+ 
+ . Experience working directly with multiple engineering disciplines and functions :
+    . electrical,
+    . mechanical,
+    . manufacturing,
+    . supply chain,
+    . purchasing,
+    . etc.
+ 
+ . scripting and automation 
+
+ . PCB fabrication documentation 
+ . Rigid Flex design
+ . monitoring industry-wide parts
+ . RF design
+ . project management skills , risk management skills 
+
+_

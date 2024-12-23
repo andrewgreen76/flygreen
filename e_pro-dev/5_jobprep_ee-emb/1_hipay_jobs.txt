@@ -6,7 +6,6 @@ $20		$41k			Electronics Repair Technician	PCB
 $21		$43k			Assembler (entry-level)		PCB
 -		$68k			EE (Rotational Train. Prog.)	PCB
 -----------------------------------------------------------------------------------------------------------------------------
--		$64k		8	Specialist , PCB Designer	PCB
 -		$68k		3	Firmware Engr - Early Career	firmware / uctrlrs		Seagate (Longmont , CO) 
 -		$80k		3 	Firmware Engineer II - FPGA	FPGA , emb uprocrs	Adv. Energy Ind., Inc. (Fort Collins) 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -25,11 +24,13 @@ $50		$104k		.	Embedded Engineer		embedded , SoC , validation	Embtel Inc (Chandle
 -		$125k		7	Sr. PCB Designer		PCB				SpaceX (Bastrop , TX) 
 -		$130k		3	PCB Designer  	     		PCB	   			SpaceX (Bastrop , TX)
 -		$130k		4	Embedded Software Engineer	firmware 			Quality Theorem (Wash., DC) 
-- 		$140k		8	Embedded System Engineer 	firmware (+ hyperv , boot)	einfochips (Arrow) 
+- 		$140k		8	Embedded System Engineer 	firmware (+ hyperv , boot)	einfochips (Arrow)
+-		$150k		5	UVM Verification Engineer 	semic 	    	     	Paradigm Works (North Andover, MA) 
 -		$155k		1	CPU Physical Design Engineer	CPU architecture / logic	Qualcomm (Austin, TX) 
 -		$175k		7	Sr. PCB Designer		PCB				SpaceX (Bastrop , TX) 
 -		$180k		4	Embedded Software Engineer	firmware 			Quality Theorem (Wash., DC) 
 -		$184k		6	DFT Engineer - CPU 		CPU architecture 		Qualcomm (Austin, TX) 
 -		$208k		5	CPU Verification Engineer 	CPU architecture / logic	Ampere (Portland , OR) 
+-		$230k		5	UVM Verification Engineer 	semic 	    	     	Paradigm Works (North Andover, MA) 
 
 _

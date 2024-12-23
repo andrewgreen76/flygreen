@@ -1,6 +1,6 @@
 
 ========================================================================================
-$80k+ SALARY - SKILLS AND EXPERIENCE 
+EMBEDDED - SKILLS AND EXPERIENCE 
 ========================================================================================
 
  . USB, SPI, I2C, UART, GPIO , CAN ; DDR3/4 , IP cores , LIN , ADC , etc. - busses / peripherals (w/ microcontrollers) 

@@ -3,18 +3,21 @@ Find a mentor : career counseling
 
  . [skills we both want : engineering degree , apprenticeships , certifications] 
 
-IPC EPTAC dates :
- . San Jose ; not TX or AZ 
- . 1/6-9 
- . 2/10-13 
- . 4/21-24 
+CompTIA A+ cert/exam ;
+IPC cert/exam ; IPC EPTAC dates : San Jose, not TX or AZ ; 1/6-9 ; 2/10-13 ; 4/21-24. 
 
 Getting in : 
  . forum communities (CPU , PCB , etc.) ; Meetups ; Conventions ; IEEE engagement ; Other social-networking moves 
 
+New job every year :
+  (1) higher than : $18.50
+  (2) in : manufacturing / assembly 
+
+Kill -$16k. 
+
 Theory and practice : 
  . [Skills/xp list:] 
- . 2-yr trade/voc. school : De Anza 
+ . 2-yr trade/voc. school : cheaper than De Anza 
  . 4-yr school : engineering degree : [else] , SJSU , UT Austin , ASU 
 
 		       certifications					apprenticeships		Udemy class	other programs

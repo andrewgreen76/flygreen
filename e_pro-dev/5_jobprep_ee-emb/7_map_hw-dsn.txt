@@ -1,22 +1,17 @@
 
-Find a mentor : career counseling
- 
- . what they want : ?? ; what I want : ISA CPU architecture 
+ . Personal project at home : Udemy/Proteus 8 , no building ;
+ . On lunch breaks : CompTIA A+ , IPC-A-610. 
+
+Getting in : forum communities (CPU , PCB , etc.) ; Meetups ; Conventions ; IEEE engagement ; Other social-networking moves 
 
  . apprenticeships ; certifications 
  . CompTIA A+ cert/exam ;
  . IPC cert/exam ; IPC EPTAC dates : San Jose, not TX or AZ ; 1/6-9 ; 2/10-13 ; 4/21-24. 
 
-Personal project at home : Udemy/Proteus 8 , no building ; on lunch breaks : . 
-
 New job every year : over : $18.50 ; in : manufacturing / assembly 
-
-Getting in : forum communities (CPU , PCB , etc.) ; Meetups ; Conventions ; IEEE engagement ; Other social-networking moves 
 
 Kill -$16k. 
 
-Theory and practice : 
- . [Skills/xp list:] 
  . EE degree - from 2-yr trade/voc. school : cheaper than De Anza 
  . 4-yr school : engineering degree : [else] , SJSU , UT Austin , ASU 
 

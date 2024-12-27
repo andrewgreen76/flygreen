@@ -1,0 +1,4 @@
+"
+The state machines in the HD44780 manage the various operational modes (e.g., command, data, and initialization modes) and control the timing and sequence of actions needed to update the display.
+"
+_

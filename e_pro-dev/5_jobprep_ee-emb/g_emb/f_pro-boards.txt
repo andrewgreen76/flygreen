@@ -1,0 +1,16 @@
+
+Arduino
+ . Nano
+ . driven by ATmega328 
+
+
+STM32 :
+ . STM32F4 Discovery
+ . driven by STM32F407VG
+
+
+ESP32 :
+ . ESP32 DevKitC
+ . driven by ESP32-WROOM-32 (or ESP32-WROOM-32D) 
+
+_

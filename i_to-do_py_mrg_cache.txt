@@ -1,7 +1,4 @@
 
-power converter
-DC-DC converter 
-
 You need a project : 
 IPC apprenticeships 
 PCB manufacturing/assembly apprenticeships 

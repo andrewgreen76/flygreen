@@ -1,19 +1,21 @@
 
+Learn how ATmega328 microcontroller works (schematics , design , etc.). 
+
+ . Bay Area apprenticeships : 
+    . manuf/assy - salary : $14-$25+/hr ; $35k ~ $52k
+    . IT - salary : $15-$24+/hr ; $48k ~ $100k 
+    -> kill -$16k 
+    -> save for college 
+    -> PCB/CPU/MCU design 
  . Personal project at home : prototyping something somehow , Udemy/Proteus 8 , no building ;
- . On lunch breaks : CompTIA A+ , IPC-A-610. 
+ . On lunch breaks : certs : CompTIA A+ , IPC-A-610 ; IPC EPTAC dates : San Jose, not TX or AZ ; 1/6-9 ; 2/10-13 ; 4/21-24. 
 
 Getting in : forum communities (CPU , PCB , etc.) ; Meetups ; Conventions ; IEEE engagement ; Other social-networking moves 
 
- . apprenticeships ; certifications 
- . CompTIA A+ cert/exam ;
- . IPC cert/exam ; IPC EPTAC dates : San Jose, not TX or AZ ; 1/6-9 ; 2/10-13 ; 4/21-24. 
-
 New job every year : over : $18.50 ; in : manufacturing / assembly 
 
-Kill -$16k. 
-
  . EE degree - from 2-yr trade/voc. school : cheaper than De Anza 
- . 4-yr school : engineering degree : [else] , SJSU , UT Austin , ASU 
+ -> 4-yr school : engineering degree : [else] , SJSU , UT Austin , ASU 
 
 		       certifications					apprenticeships		Udemy class	other programs
 		       

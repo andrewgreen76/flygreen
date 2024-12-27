@@ -1,0 +1,14 @@
+"
+The LCD decides which PIXEL SEGMENT to light up by USING A CONTROLLER that maps the desired pixel pattern to SPECIFIC ROWS AND COLUMNS OF ELECTRODES, applying VOLTAGE TO THE APPROPRIATE LIQUID CRYSTAL CELLS to align them and allow light to pass through, forming the desired display.
+"
+
+
+"
+The shape of a pixel segment is defined by both the **electrode** and the **liquid crystal cell**, with the electrode pattern determining the pixel's boundaries and the liquid crystal's alignment properties controlling how light passes through to form the segment.
+"
+
+
+"
+A red pixel is implemented differently from a green pixel by using different COLOR FILTERS or OLED subpixels, with red pixels having a red-emitting material or filter, and green pixels having a green-emitting material or filter, to produce the distinct colors when light passes through or is emitted.
+"
+_

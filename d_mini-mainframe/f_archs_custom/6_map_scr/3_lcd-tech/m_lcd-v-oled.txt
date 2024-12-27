@@ -1,0 +1,4 @@
+"
+LCDs generally have a less complicated manufacturing process than OLEDs, as LCDs rely on a simpler structure with liquid crystal layers and backlighting, while OLEDs require more complex organic materials and precise deposition techniques for each pixel.
+"
+_

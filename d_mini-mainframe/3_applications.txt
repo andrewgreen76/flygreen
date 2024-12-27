@@ -1,0 +1,11 @@
+
+===================================================================================
+USES FOR THIS COMPUTER 
+===================================================================================
+
+ -> exists to do init routines 
+ -> BIOS : experimenting with an incrementally developed BIOS 
+ -> OS (using an external storage medium) 
+ -> apps (programming , scripting , games) 
+
+_

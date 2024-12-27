@@ -1,0 +1,24 @@
+"
+A power converter is an electrical device for converting electrical energy between alternating current (AC) and direct current (DC). It can also change the voltage or frequency of the current.
+"
+
+
+"
+Actually, power converters are essential in manufacturing CPUs, as they regulate the voltage and current supplied to the various components of the processor, ensuring stable operation at the required power levels.
+"
+
+
+"
+Power converters were introduced in CPU manufacturing in the **1980s**, as processors became more complex and required more precise voltage regulation to support increasing transistor counts and power consumption.
+"
+
+
+"
+The first CPU model to feature a power converter was likely the **Intel 80486** (released in 1989), which required more sophisticated power management than its predecessors due to its higher clock speeds and greater complexity.
+"
+
+
+"
+Instead of having a power supply unit generate some fixed voltage, the CPU uses a small set of digital signals, the VID lines, to instruct an on-board power converter of the desired voltage level. The switch-mode buck converter then adjusts its output accordingly.
+"
+_

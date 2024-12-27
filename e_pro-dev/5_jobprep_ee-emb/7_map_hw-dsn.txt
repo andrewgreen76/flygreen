@@ -1,5 +1,5 @@
 
- . Personal project at home : Udemy/Proteus 8 , no building ;
+ . Personal project at home : prototyping something somehow , Udemy/Proteus 8 , no building ;
  . On lunch breaks : CompTIA A+ , IPC-A-610. 
 
 Getting in : forum communities (CPU , PCB , etc.) ; Meetups ; Conventions ; IEEE engagement ; Other social-networking moves 

@@ -1,9 +1,0 @@
-
-===================================================================================
-PANIC'ING 
-===================================================================================
-
- . a response that to a kernel-related exception
- . a function (or not?) : an error message followed by an infinite loop 
-
-_

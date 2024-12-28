@@ -1,7 +1,0 @@
-
-Download , install , and integrate GCC and Binutils on good faith even if
-  you don't know exactly how they work ... unless you dare to study and
-  implement their clones (let's see if you get to see the day when your
-  OS comes out). 
-
-_

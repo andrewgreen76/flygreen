@@ -1,4 +1,0 @@
-"
-Core dumps are typically generated automatically by the operating system when a program terminates abnormally due to a segmentation fault or other critical error. However, utilities like `gcore` on Linux or `procdump` on Windows can be used to generate core dumps intentionally for debugging purposes. These utilities allow developers to capture the state of a running program at a specific point in time, facilitating analysis and troubleshooting of issues.
-"
-_

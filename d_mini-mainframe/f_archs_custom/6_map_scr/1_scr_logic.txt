@@ -10,9 +10,12 @@ Tech/physics/geometry :
      . "Other alternatives to LCD and CRT screen technology include **OLED (Organic Light Emitting Diode)**,
 	**LED (Light Emitting Diode)**, **QLED (Quantum Dot LED)**, and **Plasma display technology**."
 
-No own CPU 
+Does not have own CPU. 
 
-Controller (logic) : 
+Display controller (logic) :
+| . "LCD screens in PCs typically use dedicated display controllers, not microcontrollers, to manage the pixel data
+| .  and timing for the display."
+|
 Video card : 
  ? LCD VGA card ? 
 

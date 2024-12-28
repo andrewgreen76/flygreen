@@ -1,9 +1,0 @@
-
- . state machines
- . shift registers (internal registers) 
- . controllers (for character generation, timing, and communication with external microcontrollers)
-    . control logic 
-    . a character generator
-    . interface logic (communication with external microcontrollers and drive the LCD display) 
-
-_

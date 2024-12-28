@@ -1,0 +1,7 @@
+"
+A CPU that is initialized by the BIOS starts in Real Mode. Enabling Protected
+Mode unleashes the real power of your CPU. However, it will prevent you from
+using most of the BIOS interrupts, since these work in Real Mode (unless you
+have also written a V86 monitor). 
+"
+_

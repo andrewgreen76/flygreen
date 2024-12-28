@@ -1,0 +1,16 @@
+
+$ dd 
+  . for creating a converted/formatted copy , usually from a binary file
+  . great for burning copies onto media 
+  $ man dd 
+
+
+
+$ fdisk
+  |
+  . for partition table management on a medium
+  $ man fdisk 
+  |
+  $ sudo fdisk -l    # mostly for monitoring storage media (/dev/sda , /dev/sdb , etc.)
+
+_

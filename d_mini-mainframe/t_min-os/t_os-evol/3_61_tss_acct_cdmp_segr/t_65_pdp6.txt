@@ -1,6 +1,0 @@
-
- . first COMMERCIAL time-sharing system
- . partly designed by Alan Kotok
- . modeled after CTSS 
-
-_

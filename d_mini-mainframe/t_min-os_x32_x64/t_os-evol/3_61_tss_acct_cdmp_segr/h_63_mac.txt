@@ -1,0 +1,28 @@
+
+ . part of MIT's CSAIL (Computer Science and Artificial Intelligence Laboratory) 
+
+========================================================================================
+INTENT :
+========================================================================================
+
+ . time-sharing system
+ . multiple users
+ . simultaneously access a single computer
+ . better resource utilization
+ . interactive computing
+   
+========================================================================================
+ABOUT : 
+========================================================================================
+
+. founder : J. C. R. Licklider , a.k.a. "Lick" 
+ . funded by : DARPA 
+
+========================================================================================
+LATER PURSUITS :
+========================================================================================
+
+ . research in operating systems
+ . research in artificial intelligence 
+
+_

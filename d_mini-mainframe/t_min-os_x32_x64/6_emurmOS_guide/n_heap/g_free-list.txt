@@ -1,0 +1,33 @@
+
+===================================================================================
+FREE LIST 
+===================================================================================
+
+ . heap manager structure - a linked list that keeps track of available contiguous memory
+     chunks
+
+
+===================================================================================
+FREE LIST IMPLEMENTATION 
+===================================================================================
+
+Heap block allocation : 
+   |
+  (1) *heap_block -> 0x01000000
+   |  
+  (2) short * base = (short *) malloc(n * sizeof(short)); 
+   |
+  (3) <--[malloc()]-- 0x???????? = 0x01000000 
+   |  		      n available contiguous blocks (for 16-bit unsigned integers) 
+   |
+  (4) *heap_block -> 0x01000000 + [n * sizeof(short)] ;
+
+
+Heap block release :
+   |
+   . (If we do not do this , we are going to have a bottleneck that would prompt us
+   |  to reset the system.)
+   |
+  (.) 
+  
+_

@@ -1,0 +1,42 @@
+
+========================================================================================
+WAYS TO GET AN x86 CPU TO GENERATE THE SAME EXCEPTION (INTERRUPT) 
+========================================================================================
+
+FIRST THING TO REMEMBER : Given the right circumstances , an x86 CPU
+  (1) will generate an interrupt before
+  (2) going to the int handler's address so it would be handled.
+
+
+If you attempt to divide by 0 , the CPU will automatically generate the interrupt 0 
+  (or throw the exception) and RESPOND TO THAT by going to the int 0 handler ...
+  ... no matter what that handler actually does. In other words , ... 
+
+
+EXPLICIT way to generate interrupt 0 ... no matter what its handler actually does :
+
+	> int 0 
+
+
+IMPLICIT way to throw exception 0 ... no matter what its handler actually does :
+
+	> mov ax , 0
+	> div ax
+
+
+... even if we can define ourselves what the first interrupt's handler would be
+  by writing : 
+
+	mov word[ss:0] , custom_int0 
+	mov word[ss:2] , 0x07C0    
+
+
+========================================================================================
+CONCLUSION 
+========================================================================================
+
+An x86 CPU is engineered as though it has an "expectation" (regardless of our
+  implementation) that the int 0 handler would handle DIV/0 , but in reality
+  the CPU "doesn't care" what the handler for int 0 would actually do. 
+
+_

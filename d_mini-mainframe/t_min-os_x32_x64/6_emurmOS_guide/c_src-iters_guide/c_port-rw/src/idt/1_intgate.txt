@@ -1,0 +1,4 @@
+"
+An interrupt gate is a mechanism in computer architecture that allows the CPU to handle interrupts by directing the control flow to a specific interrupt handler function, enabling responsive management of asynchronous events.
+"
+_

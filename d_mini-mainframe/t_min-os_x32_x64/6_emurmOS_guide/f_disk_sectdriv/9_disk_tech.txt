@@ -1,0 +1,40 @@
+
+========================================================================================
+LBA (LOGICAL BLOCK ADDRESS) 
+========================================================================================
+
+ . the modern way of handling storage media
+ . to manage a specific byte :
+   . specify the index of the sector of interest
+     . LBA 0 - 1st sector (512 bytes) 
+     . LBA 1 - 2nd sector (512 bytes) 
+     ...
+   . specify the offset within the sector - the byte you want 
+   . managed with a 512-byte disk I/O buffer 
+
+
+========================================================================================
+ZERO IN ON A BYTE 
+========================================================================================
+
+Given position 58376 :
+ . LBA = 58376 / 512 = 114 
+ . offset = remainder (58376 % 512 = 8) 
+
+
+========================================================================================
+========================================================================================
+========================================================================================
+
+========================================================================================
+OLD-SCHOOL STORAGE TECH - CHS 
+========================================================================================
+
+ . more complicated compared to the modern storage tech 
+ . cylinder head sector
+ . the only way to manage disk I/O sectors :
+   . specifying the head
+   . specifying the track
+   . specifying the sector
+
+_

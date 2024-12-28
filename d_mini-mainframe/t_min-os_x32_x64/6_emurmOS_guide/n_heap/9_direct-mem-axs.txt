@@ -1,0 +1,23 @@
+
+===================================================================================
+DIRECT ACCESS TO MEMORY ADDRESSES 
+===================================================================================
+
+When we are in the userspace of a full-fledged operating system , any program that
+  attempts to directly access a specific absolute memory address will crash ... even
+  if it compiles just fine. 
+
+
+	char * ptr = (char *) (0x100000);
+	ptr[0] = 'A';
+
+  	video_mem = (uint16_t *) (0xB8000);
+  	video_mem[y * VGA_WIDTH + x] = formch(ch , color);
+
+
+When we develop a fledgling kernel and watch it behave within an isolated environment
+  (such as the one provided by QEMU) , then it's not an issue at all EVEN IF the protected
+  mode is enabled. However , this means that if we want to or if we have to have a restriction
+  on direct memory access attempts by user processes , we will have to implement it ourselves. 
+
+_

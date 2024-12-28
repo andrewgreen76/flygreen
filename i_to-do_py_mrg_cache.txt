@@ -1,18 +1,15 @@
 
-You need a project : 
-IPC apprenticeships 
-PCB manufacturing/assembly apprenticeships 
-Reddit :
- - apprenticeships with a focus on CPU / PCB design 
-EPTAC locations in Bay Area , Austin , Phoenix. 
+					hardware		physical tech. notes 
 
-Don't look for a job yet ; get CAREER COUNSELING in electrical engineering / manufacturing.
- . whoever replies 
- . plan : 
-    . EE cert
-    . apprenticeship
-    . AS / BS 
-    . (PCB) Assembler (I)
+ . keyboard microcontroller logic 	Atmega328 
+ . screen display controller		.			IPS/TN LCD ; !!! driver-free !!! MIPI DSI port  
+ . CPU/SoC				BCM2711 board 
+ . (graphics handled by the CPU/SoC)
+ |
+ . (i/d)GPU board controller 
+
+
+[see career track map]
 
 
 List - Technical colleges , vocational schools , industry-specific career development centers :

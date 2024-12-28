@@ -1,0 +1,30 @@
+
+========================================================================================
+THE BIOS PARAMETER BLOCK (BPB) ISSUE IN USB EMULATION 
+========================================================================================
+
+"
+... in most cases [a] bootloader will run just fine. However , some BIOSes 
+... will tamper with your data if you boot your bootloader from a USB stick.
+Now , the reason this happens is because of the BIOS Parameter Block (BPB).
+Some BIOSes expect this. While most BIOSes will not corrupt your data and
+will work just fine ... , some will actually start filling in information ,
+and it's important this doesn't happen. [BPB has] things like number of
+sectors per cluster , number of reserved sectors , and so on. [A BIOS can
+replace] these numbers in memory with numbers of its own because when we
+boot from a USB stick , we're actually doing something known as USB emulation.
+
+We get around this problem by implementing the BIOS Parameter Block. We don't
+have to have real values ; it can just be all zeroes and we can just have
+a fake one just to get around this problem. 
+"
+
+========================================================================================
+FILE SYSTEMS ON USB STICKS 
+========================================================================================
+
+ . USB sticks typically come with pre-implemented and pre-mounted file systems
+ . when the bootstrap code is burned to a stick , it will supplant EVERYTHING that is on
+     the stick 
+
+_

@@ -1,0 +1,9 @@
+
+ . memory management
+   . memory protection (security) 
+   . concurrency virtualization : multithreading , multiprocessing
+     . context switching overhead
+     
+ . mediating with persistent I/O devices (peripherals , disks , networking hardware) 
+ 
+_

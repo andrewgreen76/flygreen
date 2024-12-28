@@ -1,0 +1,20 @@
+"
+A microcontroller board typically CANNOT ACCEPT GENERAL-PURPOSE OPERATING SYSTEMS like Linux or Windows DUE TO ITS LIMITED PROCESSING POWER, MEMORY, AND LACK OF NECESSARY HARDWARE RESOURCES, though some more powerful microcontroller boards (e.g., STM32MP1) can run lightweight operating systems like Linux.
+"
+
+
+"
+Yes, the STM32MP1 CAN RUN A GENERAL-PURPOSE OPERATING SYSTEM, such as Linux, DUE TO ITS ARM CORTEX-A7 CORE, which supports running complex OSes alongside real-time operating systems on its dual-core architecture.
+"
+
+
+Which one has USB ? : 
+ . Orange Pi Zero
+ . NanoPi NEO 
+ . RPi Zero (with MenuetOS on it)
+ 
+ -> RPi 5 
+ -> BeagleBone Black
+ -> STM32MP1
+ 
+_

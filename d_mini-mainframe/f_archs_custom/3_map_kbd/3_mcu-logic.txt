@@ -1,0 +1,9 @@
+"
+A typical but minimal microcontroller used in keyboards is an 8-bit microcontroller, such as the Atmel AVR ATmega32U4, which handles key scanning, USB communication, and basic processing tasks.
+"
+
+
+"
+Yes, debouncing is typically handled by the microcontroller as well, either through software algorithms or by using dedicated hardware circuits to eliminate the noise caused by rapid key presses and releases.
+"
+_

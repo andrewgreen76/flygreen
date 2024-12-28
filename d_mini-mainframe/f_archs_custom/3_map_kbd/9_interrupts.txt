@@ -1,0 +1,4 @@
+"
+Keyboards typically **DO use interrupts** for efficient handling of key presses, as interrupts allow the microcontroller to respond immediately to a key press or release without continuously polling all the keys in a loop, improving efficiency and responsiveness.
+"
+_

@@ -1,0 +1,34 @@
+
+"... all modern hard disks are generally 512 bytes per sector." 
+|
+"If you were reading or writing to a CD , then the block size , the sector size ,
+   is generally bigger. 
+
+
+========================================================================================
+STORAGE MEDIA - BASICS 
+========================================================================================
+
+"Disks" (storage media) do not have files in the OS sense. They have filesystems
+  as loosely structured sectors (groups of 512 bytes). 
+
+
+========================================================================================
+KERNEL GETS ALL THE DRIVERS 
+========================================================================================
+
+For any one filesystem on a disk the kernel needs a driver to be able to work
+  with the data. 
+
+
+========================================================================================
+DISK MANAGEMENT - IN 512 BYTES 
+========================================================================================
+
+Data is read from and written to a disk in sectors (groups of 512 bytes). 
+  => If any one byte needs to be added / removed / amended , the whole sector
+  |    may have to be monitored and maybe even altered. 
+  |
+  . That data (512 bytes) is read in memory. 
+
+_

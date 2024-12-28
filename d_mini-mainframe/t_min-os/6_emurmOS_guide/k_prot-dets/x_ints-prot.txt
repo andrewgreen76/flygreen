@@ -1,9 +1,0 @@
-
-========================================================================================
-IVT (REAL MODE) vs. IDT (PROTECTED MODE) 
-========================================================================================
-
-"
-In real mode, the Interrupt Vector Table (IVT) consists of 256 interrupt vectors located at the beginning of memory, directly mapping interrupts to their handlers, while in protected mode, the Interrupt Descriptor Table (IDT) is used to provide more flexible and secure interrupt handling, allowing for varying privilege levels and the use of segment descriptors.
-"
-_

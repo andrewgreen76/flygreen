@@ -1,0 +1,103 @@
+
+Every 8086 machine can only access up to 2^20 = 1 MB of memory. 
+
+
+========================================================================================
+A20 ACCOMMODATING OLDER 20-BIT ADDRESING AND NEWER 24-BIT ADDRESSING
+=======================================================================================
+
+The year is 1982 , and out came i286 :
+  |
+  . featured 24 address lines (0-23)
+  |
+  => on newer machines : would be able to access up to 16 MB of memory
+  |
+  . on older machines :
+     |
+     . we wanted i286 to be backward-compatible with the 8086 HARDWARE
+     |  => using A-lines 0-19 ; A20 had to be disabled by default
+     |  . otherwise , memory wraparound through 0x0 would occur
+     |
+     . we wanted i286 to be backward-compatible with the 8086 SOFTWARE 
+	. vital 8086 software was written by Intel developers using the aforementioned wraparound
+	  (in their infinite wisdom) so we have to work with that 
+
+
+========================================================================================
+ENABLING/DISABLING =/= SETTING/CLEARING 
+========================================================================================
+
+REMEMBER :
+ . address lines can be enabled and disabled (through code) - WHICH IS DIFFERENT FROM SETTING AND CLEARING  
+
+
+========================================================================================
+UNDERSTANDING AND MANIPULATING ADDRESS LINES - INCLUDING A20 
+========================================================================================
+
+We need to expand our perspective on hardware when it comes to memory and I/O : 
+ . memory is addressable and can be manipulated 
+ . same goes for I/O , but not in the same way
+
+Manipulation of memory content :
+ . we directly manipulate memory using instructions like `mov`
+
+Manipulation of memory address lines :
+ . performing key operations (could be `in` and `out`) on the I/O address ports of
+   the keyboard controller on the motherboard (believe it or not)
+ . ex. : 
+
+
+	in al, 0x92
+	or al, 2
+	out 0x92, al
+
+
+ => I/O addressing is memory-like , but it's not memory
+ => memory addressing =/= I/O bussing
+ . I/O (address) ports are NOT mapped to memory ; they are physically independent. However ,
+     a bootloader should have the ability to work with I/O at the low level in a compatibility
+     mode. 
+
+
+========================================================================================
+MORE ON BOOTLOADER'S I/O OPERATIONS , I/O HARDWARE , AND A20 
+========================================================================================
+
+"
+Yes, the `in` and `out` instructions are used for communicating directly with I/O controllers, allowing the CPU to read from and write to specific I/O port addresses associated with those controllers.
+"
+
+"
+The CPU signals the I/O controller by placing the port address `0x92` on the address bus and activating the appropriate control signals to indicate a read operation, which prompts the controller to place the requested data onto the data bus for the CPU to retrieve.
+"
+
+"
+A motherboard typically has multiple I/O controllers, including those for USB, SATA, audio, and network interfaces, with the exact number varying based on the motherboard's design and features.
+"
+
+
+========================================================================================
+CHECKING THE VALIDITY OF A20 
+========================================================================================
+
+An older method :
+
+ . "The bootloader checks whether the A20 line is enabled or disabled by performing
+    a read operation from a known memory address that lies beyond the 1 MB limit and
+    verifying if the data is accessible, which indicates the A20 line is enabled.
+   "
+
+ . "If the read operation fails to find legitimate data at that address, it typically
+    returns undefined or erroneous data, indicating that the A20 line is likely disabled
+    and the system cannot access memory beyond the 1 MB limit.
+   "
+
+
+A newer method : Fast A20 Gate
+
+ . "The Fast A20 Gate method checks the A20 line's status by toggling the keyboard controller's
+    port and observing a specific register bit, allowing for quick enabling or disabling of
+    the A20 line without needing to access memory directly.
+   "
+_

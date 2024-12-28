@@ -1,0 +1,37 @@
+
+ +------------------------------------------------------+
+ | A GDT descriptor : 8 bytes per seg			|
+ |  . size of segment (needs 2 bytes) : 0x???? 		|
+ |  . offset of segment (needs 4 bytes) : 0x ???? ???? 	|
+ |  . (the rest - other bit fields)     	    	|
+ |  . bits 40-47 =  Access Byte (perms)	    	 	|
+ +------------------------------------------------------+
+
+
+========================================================================================
+SHAPE AND PURPOSE OF A SEGMENT DESCRIPTOR 
+========================================================================================
+
+ . a.k.a. GDT descriptor
+ . helps ensure hardware and memory protection in a way physically inaccessible
+     to user processes 
+
+It is a data structure :
+ |
+ . base : start address of segment	0xSTART	
+ . limit : size of segment 		+ 0xSIZE
+ . permissions 	   			rwe
+
+
+It is an entry in a GDT (Global Descriptor Table).
+ . so it's a data structure as a part a larger data structure 
+
+
+========================================================================================
+ANATOMY OF A GDT DESCRIPTOR 
+========================================================================================
+
+ . 2 Bytes - size
+ . 4 Bytes - offset (might include type field , other fields) 
+
+_

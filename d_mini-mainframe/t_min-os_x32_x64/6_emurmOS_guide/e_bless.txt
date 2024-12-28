@@ -1,0 +1,18 @@
+
+========================================================================================
+THE "BLESS" HEX EDITOR 
+========================================================================================
+
+ . for the Linux and macOS systems 
+
+
+"
+`bless` is a command-line utility primarily used on macOS to manage bootable disks. It can set a specified volume as the boot disk, making it the default option for startup. You can use it to bless a disk or partition, typically in conjunction with creating bootable USB drives or managing system boot settings. For example:
+
+```bash
+sudo bless --mount /Volumes/YourVolumeName --setBoot
+```
+
+This command would set the specified volume as the boot disk.
+"
+_

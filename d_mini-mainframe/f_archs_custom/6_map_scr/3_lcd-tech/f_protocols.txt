@@ -1,0 +1,17 @@
+"
+16x2 character LCDs typically use a PARALLEL DATA PROTOCOL, such as the standard 8-bit or 4-bit mode with a custom interface, rather than HDMI or MIPI DSI.
+"
+
+
+"
+Between parallel data protocol, HDMI, and MIPI DSI,
+ . **HDMI** is the most widely used in display technology for consumer devices
+ . MIPI DSI is common in mobile and embedded applications
+ . parallel protocols are typically used in simpler or smaller displays like character LCDs 
+"
+
+
+"
+MIPI DSI is generally more complex in design than HDMI, as it is optimized for mobile devices with lower power consumption, higher data rates, and smaller form factors, requiring more advanced signaling and protocol handling.
+"
+_

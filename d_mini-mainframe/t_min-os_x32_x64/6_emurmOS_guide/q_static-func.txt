@@ -1,0 +1,9 @@
+
+===================================================================================
+WHY WOULD I WANT TO WRITE A STATIC FUNCTION ? 
+===================================================================================
+
+"
+You would want to create a static function to limit its scope to the file in which it is defined, PREVENTING IT FROM being accessible or CAUSING NAME CONFLICTS IN OTHER TRANSLATION UNITS, thereby promoting encapsulation and modularity.
+"
+_

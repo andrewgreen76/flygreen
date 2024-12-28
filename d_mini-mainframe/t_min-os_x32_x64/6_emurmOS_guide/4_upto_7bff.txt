@@ -1,0 +1,7 @@
+"
+In real mode, the processor uses the range {0 : 0x7BFF} for the BIOS Data Area, interrupt vectors, and other system-related data, ensuring that these critical components are accessible within the lower memory region.
+"
+
+=> our bootloader will be placed at 0x7C00 
+
+_

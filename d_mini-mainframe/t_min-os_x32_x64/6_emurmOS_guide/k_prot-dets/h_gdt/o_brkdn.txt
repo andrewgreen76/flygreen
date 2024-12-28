@@ -1,0 +1,19 @@
+"
+Apologies for that oversight! In a 32-bit architecture, a GDT descriptor is indeed 8 bytes (64 bits) in total, structured as follows:
+
+1. **Limit (0-15) (16 bits)**: Specifies the size of the segment (maximum offset) minus one.
+2. **Base (0-23) (24 bits)**: The starting address of the segment in memory.
+3. **Type (24-27) (4 bits)**: Specifies the type of segment (code, data, etc.) and access permissions.
+4. **S (28) (1 bit)**: Indicates if the descriptor is for a system segment (0) or a code/data segment (1).
+5. **DPL (29-30) (2 bits)**: Descriptor Privilege Level, indicating the privilege required to access the segment.
+6. **P (31) (1 bit)**: Indicates if the segment is present (1) or not (0).
+7. **Limit (16-19) (4 bits)**: Upper part of the limit, providing additional range.
+8. **AVL (20) (1 bit)**: Indicates whether the segment is available for use by the operating system.
+9. **L (21) (1 bit)**: Indicates if the segment is a 64-bit segment (for long mode).
+10. **DB (22) (1 bit)**: Specifies the default operation size (0 for 16-bit, 1 for 32-bit).
+11. **G (23) (1 bit)**: Granularity bit, which indicates the limit is in bytes (0) or pages (1).
+12. **Base (24-31) (8 bits)**: Additional 8 bits of the base address.
+
+The descriptor thus encapsulates the segment's properties and how the CPU should interact with it.
+"
+_

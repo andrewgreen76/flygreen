@@ -1,4 +1,0 @@
-"
-Yes, the **HD44780** has an internal **timing generator** that manages the timing of operations like data writing and refreshing the display, but it relies on an external clock for some operations like the data transfer rate.
-"
-_

@@ -1,0 +1,27 @@
+
+ . 2000
+ . written entirely in assembly
+
+
+ . RAM :   	 8 MB 
+ . storage :     1.44 MB 
+
+
+"
+ - Pre-emptive multitasking with 1000hz+ scheduler, multiprocessor, multithreading, ring-3 protection
+ - Responsive GUI with resolutions up to 1920x1080, 16 million colours
+ - Free-form, transparent and skinnable application windows, drag'n drop
+ - SMP multiprocessor support with up to 32 cpus
+ - Time critical process support: an uninterrupted process execution on any cpu
+ - Kernel/user mode pre-empting, including SMP
+ - Up to 100000 hz process scheduler, below millisecond audio latency
+ - IDE Editor/Assembler for applications
+ - USB 2.0 Classes: Storage, Printer, Webcam Video and TV/Radio support
+ - USB 1.1 Keyboard and Mouse support
+ - TCP/IP stack with Loopback & Ethernet drivers
+ - Email/ftp/http/chess clients and ftp/mp3/http servers
+ - Hard real-time data fetch
+ - Fits on a single floppy, boots also from CD and USB drives
+"
+
+_

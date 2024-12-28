@@ -1,0 +1,14 @@
+
+ . calc : |min model|---|max model|
+ |  . min model specs :
+ |  . max model specs :
+ |
+ v ? MCU (board) : |Arduino Uno|---|max model|
+ v |  . applications : firmware embedding , keyboard controller logic , screen controller logic 
+ v ?  . min model specs :
+ v ?  . min model specs :
+ |  
+ . SoC (board) : |Orange Pi Zero/NanoPi NEO/RPi Zero|---|whatever|
+ . |Orange Pi Zero/NanoPi NEO/RPi Zero| min model specs : 
+
+_

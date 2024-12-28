@@ -1,0 +1,34 @@
+
+			boot sector (512 bytes)			btld sector (~31K)
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+	|byte	...	...	byte	|byte ... byte	|byte	|byte	|byte  ...	... 
+	|0    	...	...	439	 440	  509	|510	 511	|512   ...	...	
+	| 	   FBSL code		|		|	|	|		
+	|    	  (bootstrap)  		     other	|0xAA	 0x55	|    SSBL code 
+	|     (initial boot code) 	|  key fields	|	|	|		
+
+
+========================================================================================
+BOOTLOADER 
+========================================================================================
+
+	An OS is selected by the user.
+	|
+	. BIOS accesses the drive -> boot partition -> first-stage bootloader (FSBL) 
+	|  . there may be other partitions
+	|
+	-> BIOS skips 0-0x7BFF in RAM : IVT , Data Area , other system essentials 
+	-> BIOS loads bootloader into RAM @ 0x7C00 in real mode 
+	-> BIOS hands the control over to the bootloader in RAM
+	|
+	-> the bootloader hands the control over to the kernel 
+
+
+========================================================================================
+WHAT IS A BOOTLOADER LIKE ? 
+========================================================================================
+
+ . a (relatively) small program
+ . the person who develops the kernel has to write the bootloader 
+
+_

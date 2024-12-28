@@ -1,7 +1,0 @@
-"
-The `lidt` instruction is used to load the Interrupt Descriptor Table (IDT) register with a specified address, allowing the CPU to recognize and handle interrupts in protected mode.
-"
-
-`idtr` is like a pointer register ; it holds addr of IDT info (its location and the index of its final byte). 
-
-_

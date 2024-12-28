@@ -1,7 +1,0 @@
-
- . 1980
-
- . RAM :     12K-16K (v.1.0)
- . storage : <360K (on a 5.25" floppy) 
-
-_

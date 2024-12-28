@@ -1,0 +1,18 @@
+
+1978 : we get the x86 architecture for the upcoming OS kernels 
+
+
+1980 : we start getting all the DOS's :
+ |
+ . (see D. Palmer YT video on these) 
+ . 07/1980 : QDOS (kernel/system calls/interrupts/reg params)
+ |
+ . 08/1980 : 86-DOS (kernel/calls/ints/reg params)
+ | . https://www.youtube.com/watch?v=P_FdCxHOeyU
+ | . by Tim Paterson (of Seattle Computer Products)
+ | . based on the CP/M OS , but designed with the 16-bit x86 architecture in mind 
+ |
+ . 08/1981 : PC-DOS (kernel/calls/ints/reg params + hardware drivers) 
+ . 08/1981 : MS-DOS (kernel/calls/ints/reg params) 
+
+_

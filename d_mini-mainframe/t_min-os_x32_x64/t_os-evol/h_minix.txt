@@ -1,0 +1,7 @@
+
+ . 1987
+ 
+ . RAM :     128 KB
+ . storage : XXX KB
+
+_

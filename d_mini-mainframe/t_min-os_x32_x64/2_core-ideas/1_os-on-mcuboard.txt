@@ -8,10 +8,15 @@ Yes, the STM32MP1 CAN RUN A GENERAL-PURPOSE OPERATING SYSTEM, such as Linux, DUE
 "
 
 
-Which one has USB ? : 
- . Orange Pi Zero
- . NanoPi NEO 
- . RPi Zero (with MenuetOS on it)
+					cost 
+
+ . RPi Zero (with MenuetOS on it)	$15 
+ . Orange Pi Zero			$25 
+ . NanoPi NEO 				$30 
+Ports :
+ . USB-A - for the keyboard
+ . MIPI DSI - for the screen 
+ 
  
  -> RPi 5 
  -> BeagleBone Black

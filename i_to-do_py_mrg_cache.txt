@@ -1,4 +1,6 @@
 
+You never stop networking. 
+
 					hardware		physical tech. notes 
 
  . keyboard microcontroller logic 	Atmega328 

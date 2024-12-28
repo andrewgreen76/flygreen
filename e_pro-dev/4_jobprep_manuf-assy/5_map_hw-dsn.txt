@@ -1,10 +1,11 @@
 
 Learn how ATmega328 microcontroller works (schematics , design , etc.). 
 
- (.) vocational school certs 
+If PENA , Reno staffing agencies is a bust : 
  . Bay Area apprenticeships (1-2 yrs) :
     . manuf/assy - salary : $14-$25+/hr ; $35k ~ $52k
     . IT - salary : $15-$24+/hr ; $48k ~ $100k 
+    + vocational school certs 
     -> kill -$16k 
     -> save for college 
     -> PCB/CPU/MCU design 

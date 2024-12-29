@@ -3,7 +3,7 @@
 PCB DESIGN - SKILLS AND EXPERIENCE 
 ========================================================================================
 
- . Working knowledge of AC/DC theory a plus 
+ . Working knowledge of electrical circuit (AC/DC) theory a plus 
  . Working knowledge of all types of electronic components
  . Working knowledge of electronic circuits theory of operation
  . understanding of high voltage engineering 

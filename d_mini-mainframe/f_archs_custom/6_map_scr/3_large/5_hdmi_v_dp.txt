@@ -1,0 +1,4 @@
+"
+Actually, DisplayPort is generally considered less complex in design than HDMI, as it was designed with a focus on high-performance video and data transfer, while HDMI includes additional features like audio, CEC (Consumer Electronics Control), and support for consumer electronics, making it more feature-rich.
+"
+_

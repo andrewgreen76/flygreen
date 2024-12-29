@@ -1,0 +1,4 @@
+"
+Parallel and SPI protocols aren't typically used for feeding data to large screens because they have LOWER DATA TRANSFER RATES AND BANDWIDTH LIMITATIONS compared to high-speed interfaces like HDMI or DisplayPort, which are better suited for handling the LARGE AMOUNTS OF DATA REQUIRED FOR HIGH-RESOLUTION, HIGH-REFRESH-RATE DISPLAYS.
+"
+_

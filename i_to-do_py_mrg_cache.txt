@@ -1,4 +1,6 @@
 
+LCD manufacturers 
+
 You never stop networking. 
 
 					hardware		physical tech. notes 

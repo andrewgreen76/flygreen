@@ -1,0 +1,4 @@
+"
+The TI-83 Plus is one of TI's most popular calculators. It uses a Zilog Z80 microprocessor running at 6 MHz, a 96×64 monochrome LCD screen, and 4 AAA batteries as well as backup CR1616 or CR1620 battery.
+"
+_

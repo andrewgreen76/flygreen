@@ -1,0 +1,4 @@
+"
+IPS (In-Plane Switching) crystals refer to a type of liquid crystal technology used in LCDs that aligns the crystals horizontally to improve color accuracy and viewing angles compared to other types like TN (Twisted Nematic).
+"
+_

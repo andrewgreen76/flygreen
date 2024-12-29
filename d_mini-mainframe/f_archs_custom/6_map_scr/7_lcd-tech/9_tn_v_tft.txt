@@ -1,0 +1,4 @@
+"
+Not all LCD screens are capacitive; many traditional LCD screens, especially non-touch models, use other technologies such as resistive or TN (Twisted Nematic) displays.
+"
+_

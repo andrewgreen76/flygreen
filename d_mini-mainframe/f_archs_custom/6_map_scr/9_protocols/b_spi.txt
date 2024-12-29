@@ -1,0 +1,4 @@
+"
+Actually, SPI (Serial Peripheral Interface) is commonly used for data transfer to the controller IC of many smaller or embedded LCD screens, especially in displays with microcontrollers or for compact designs.
+"
+_

@@ -1,0 +1,22 @@
+
+Assuming all are CMOS.
+Assuming all are 8-bit. 
+
+
+		ATtiny25/V		PIC10F200		PIC12LF1840 (XLP)	ATmega328P		STM8L
+
+CPU core :	
+ . arch.	RISC : AVR		RISC			RISC			RISC : AVR		.
+ . I-set	120			33			49			131			.
+ . no.regs	32			8			2 FSRs			32			.
+ . clk speed	4 MHz			4 MHz			32 MHz			16 MHz 			.
+ 
+SRAM		128 B			16 B			256 B			2 KB			.
+EEPROM		128 B			(can be added)		256 B			1 KB			.
+flash		2 KB			256x8 (2 KB)		4Kx8			32 KB			.
+I/O count	6  			4     	 		6			23 (SMT: 32)		.
+
+thr-hl pin.cnt	8			6-8			8			.			.
+SMT pin count	20			-			-			.			.
+
+_

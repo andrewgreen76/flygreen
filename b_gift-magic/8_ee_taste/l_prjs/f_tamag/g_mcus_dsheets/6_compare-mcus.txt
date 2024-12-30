@@ -10,12 +10,14 @@ CPU core :
  . arch.	PIC			PIC			AVR			AVR			STM8
  . RISC/CISC	RISC			RISC			RISC			RISC   	     		CISC
  . I-set	33			49			120			131			80
- . no.regs	8			2 FSRs			32			32			6
+ . no.regs	8			2 FSRs ; 12 core , 	32			32			6
+   					       	 20 sp.func.
  . clk speed	4 MHz			32 MHz			4 MHz			16 MHz 			16 MHz
  . misc.	2-stage pipeline	-  			1 MIPS / MHz		1 MIPS / MHz		3-stage pipeline ,
    		       	 								       	 		clock tree 
  
 SRAM		16 B			256 B			128 B			2 KB			4 KB
+		   			(80B GPR, 16B common)
 EEPROM		(can be added)		256 B			128 B			1 KB			2 KB
 flash		256 x8 (2 KB)		4K x8			2 KB			32 KB			64 KB
 I/O count	4     	 		6			6 			23 (SMT: 32)		67

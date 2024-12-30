@@ -1,0 +1,9 @@
+
+log2(no. discrete indiv. inputs) = no. outputs 
+log2(keys) = ANSI/ASCII width
+log2(104) = 6.7 ~= 7 output lines
+
+How does that translate to USB-A ? 
+How would that translate to USB-C ? 
+
+_

@@ -1,0 +1,19 @@
+"
+A key encoder converts the physical keypresses from a keypad or keyboard into a digital signal, typically in the form of a binary or encoded value, that can be processed by a microcontroller or computer.
+"
+
+
+"
+The most widely used keyscan IC is the **MM74C922** from ON Semiconductor, which is commonly used in matrix keypad scanning for embedded systems.
+"
+
+
+"
+... the **MM74C922** is a 16-key encoder, and it would not directly cover 104 keys on its own; however, for larger keypads like those with 104 keys, multiple keyscan ICs are used in combination, typically with matrix arrangements (e.g., 8x13) to handle the full set of keys.
+"
+
+
+"
+An 8x13 matrix is used because it allows 104 keys (8 rows x 13 columns) to be scanned using just 8 I/O pins for the rows and 13 I/O pins for the columns, reducing the number of pins required for key detection.
+"
+_

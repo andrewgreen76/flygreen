@@ -1,4 +1,7 @@
 
+Relevant project : designing and prototyping a microcontroller that emulates PC hardware.
+ . modular keyboard
+
 You never stop networking : 
 
 					hardware		physical tech. notes 
@@ -16,6 +19,13 @@ You never stop networking :
  . Reno staffing agencies
  -> Bay Area apprenticeships 
  . see career track map]
+
+
+ . modular screen 
+ . dumb MCU - that I can connect to a keyboard and a screen 
+ . smart MCU
+ . dumb CPU (one core) , other hardware
+ . smart CPU (multiple cores) , other hardware 
 
 
 List - Technical colleges , vocational schools , industry-specific career development centers :

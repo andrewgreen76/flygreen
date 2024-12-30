@@ -1,0 +1,10 @@
+
+		ATtiny		PIC12LF1840		
+
+CPU
+RAM
+EEPROM
+flash
+I/O
+
+_

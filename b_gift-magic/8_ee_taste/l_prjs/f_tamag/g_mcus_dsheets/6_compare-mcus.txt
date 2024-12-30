@@ -3,6 +3,7 @@ Assuming all are CMOS.
 Assuming all are 8-bit. 
 Assuming all are Harvard architecture -based. 
 
+MM74C922
 
 		PIC10F200		PIC12LF1840 (XLP)	ATtiny25/V		ATmega328P		STM8L
 

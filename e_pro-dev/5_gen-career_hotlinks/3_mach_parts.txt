@@ -3,10 +3,41 @@ Building a computer IS THE GAME. The problem is : this game takes a team of peop
 
 ======================================================================================================
 
+Keyboard encoder IC (DIP-16 MM74C922 IC) - fab process steps :
+ . 
+
+======================================================================================================
+
+Keyboard encoder IC - parts :
+ . 
+
+======================================================================================================
+
+Keyboard encoder IC - fab machines involved :
+ . 
+
+Machining 
+
+======================================================================================================
+What does a keyboard encoder IC do ?
+  (0) BCD-encoding 
+  (1) scans the 104:7 keyboard matrix
+  (2) detects key presses 
+  (3) debouncing 
+  (4) encoding key data into USB-A (or USB-C ;-) ) 
+  (5) feeding the keypress data to the computer 
+======================================================================================================
+======================================================================================================
+======================================================================================================
+
 Choose what you want to fab :
- . motherboard PSU - parts 
- . CPU (core) - parts 
- . key encoder - parts 
+ . (semiconductor) keyboard encoder IC / parts
+ . List the parts 
+ . List the fab process steps
+ . List the fab machines involved
+ |
+ . (semiconductor) CPU (cores) / parts 
+ . (a complex unit) motherboard PSU / parts / circuits 
 
 ======================================================================================================
 ==== MOTHERBOARD PSU : ===============================================================================

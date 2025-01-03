@@ -17,6 +17,21 @@ design			.				(a) silicon physics		.
 			.				(b) system architecture		.
 
 manuf./assembly
+(machining)
+
+
+_________________________________________________________________________________________________________________
+
+PCB design - disparate specializations / skillsets / professions :
+
+  (a) computing the impedance of a trace
+  (b) knowing what a ground loop is
+  (c) figuring out the clock frequency for the PCB
+  (d) understanding the implications of reflection
+  (e) understanding the implications of cross-coupling
+  (f) dealing with picosecond signal skew on a PCB bus
+  (g) designing to avoid race conditions
+  (h) understanding the requirements of meeting setup and hold times 
 
 
 _________________________________________________________________________________________________________________
@@ -27,5 +42,13 @@ Semiconductor design - disparate specializations / skillsets / professions :
      . SPICE (? LT SPICE IV ?) 
 
   (b) system architecture
+     . VHDL
+     . designing a RISC microcode engine
+     . building RISC microcode engine using pure asynchronous logic
+     . speculative execution
+     . branch prediction
+     . dynamic register renaming
+     . cache consistency management
+     . resolving pipeline issues 
 
 _

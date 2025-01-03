@@ -1,7 +1,4 @@
 
-MM74C922
-AVR243
-
 Relevant project : designing and prototyping a microcontroller that emulates PC hardware.
  . modular keyboard
 
@@ -9,7 +6,7 @@ You never stop networking :
 
 					hardware		physical tech. notes 
 
- . keyboard microcontroller logic 	Atmega328 
+ . keyboard microcontroller logic 	ATmega328 
  . screen display controller		.			IPS/TN LCD ; !!! driver-free !!! MIPI DSI port  
  . CPU/SoC				BCM2711 board 
  . (graphics handled by the CPU/SoC)

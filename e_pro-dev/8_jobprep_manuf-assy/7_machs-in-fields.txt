@@ -4,5 +4,15 @@ __________________________________				__________________________________
 
 Laser marking machine
 Laser engraving machine 
+Screen printer
+  (applies solder paste through the stencil)
+Solder Paste Inspection machine
+  (https://www.youtube.com/watch?v=usmDfGM2KmU&t=100s)
+Pick & Place machine
+  (places PCB components on the board)
+Automated Optical Inspection (AOI)
+Bed of Nails
+Flying Probe Test
+Camstar Electronics Suite 
 
 _

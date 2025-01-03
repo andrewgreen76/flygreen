@@ -1,0 +1,99 @@
+
+Building a computer IS THE GAME. The problem is : this game takes a team of people with disparate skillsets. 
+
+======================================================================================================
+
+Choose what you want to fab :
+ . motherboard PSU - parts 
+ . CPU (core) - parts 
+ . key encoder - parts 
+
+======================================================================================================
+==== MOTHERBOARD PSU : ===============================================================================
+======================================================================================================
+
+I want to build a computer. But which part ?
+Start at the beginning. 
+
+I want to build a PSU for a motherboard.
+For that I need to study PSU's.
+I DO want to learn how motherboard PSU's work , so I'll design and build one.
+
+PSU fab machinery :
+
+======================================================================================================
+==== COMPILER <- CPU : ===============================================================================
+======================================================================================================
+
+I'll be writing code before it's processed by the compiler.
+For that I need to know how a compiler works.
+I DO want to know how a compiler works , so I'll develop one. 
+
+I'll be developing a compiler.
+For that I need to know how hardware (CPU, RAM, ROM, storage) works.
+I DO want to know how designed and manufactured hardware works , so I'll design it. 
+
+I'll be designing hardware.
+Not all hardware is alike. The question is: What kind of hardware do I want to design? What is the simplest kind of hardware to design?
+Or what type of hardware looks most attractive ?
+ |
+ . CPU
+ . storage
+ . RAM/ROM
+ |
+ . SoC 
+ . MCU (includes CPU, RAM, etc.) 
+
+======================================================================================================
+==== CPU CORE : ======================================================================================
+======================================================================================================
+
+I want to study CPU cores.
+|
+I want to figure out the best clock speed. 
+For that I need to understand the relationship between the clock and the rest of the hardware. 
+I used to want to learn this , so I'll just have to get in the mood for it. 
+|
+I want to determine and design computational capabilities of a CPU.
+ . signed full adder (w/ subtraction)
+ . multiplication and division
+ . root extraction , logarithm computation , exponentiation 
+For that I need to understand ISA's. 
+I used to want to learn all of these , so I'll just have to get in the mood for it. 
+
+For that I need to understand types of cores.
+I used to want to learn all of these , so I'll just have to get in the mood for it. 
+
+For that I need to understand pipeline stages.
+I used to want to learn all of these , so I'll just have to get in the mood for it. 
+
+For that I need to understand execution units. 
+I used to want to learn all of these , so I'll just have to get in the mood for it. 
+
+For that I need to understand the relationship between the clock and the rest of the hardware. 
+I used to want to learn all of these , so I'll just have to get in the mood for it. 
+
+CPU fab machinery :
+
+======================================================================================================
+==== KEY ENCODER IC : ================================================================================
+======================================================================================================
+
+I'll be designing hardware.
+Not all hardware is alike. The question is: What kind of hardware do I want to design? What is the simplest kind of hardware to design?
+ . controller logic IC (e.g., a key encoder) 
+
+I'll be designing a key encoder logic IC. 
+For that I need to know how a key encoder works. 
+
+MM74C922
+AVR243
+
+Key encoder IC - fab machinery :
+
+======================================================================================================
+(a) I don't even know how that works. 
+(b) I don't care how it works ; I just want it to work. 
+======================================================================================================
+
+_

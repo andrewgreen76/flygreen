@@ -51,4 +51,12 @@ Semiconductor design - disparate specializations / skillsets / professions :
      . cache consistency management
      . resolving pipeline issues 
 
+
+_________________________________________________________________________________________________________________
+
+Advanced manufacturing :
+ . "Advanced manufacturing refers to the use of innovative technologies and processes, such as automation,
+    robotics, 3D printing, and AI, to improve the efficiency, quality, and flexibility of manufacturing
+    operations."
+ 
 _

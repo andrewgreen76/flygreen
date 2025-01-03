@@ -1,0 +1,31 @@
+
+How do I break into PCB/semiconductor design line of work with zero relevant experience and obsolete formal CS education? 
+
+I realize there are countless questions on Quora by now that are similar to this one, though my situation is very specific.
+
+I'll be turning 34 this year and I want to switch to a career in hardware design with the end goal of making a six-figure income - ideally doing something in the way of PCB or semiconductor design, - though I'm not 100% sure how to get started. My intuition is that it's going to take years of work and experience to get there and I am not quite certain if it's even going to be attainable in the first place given my background.
+
+Background: 
+
+I've spent most of my adult life in sales and warehouses. I thought I'd become some kind of a game developer, so I got my B.S. in Computer Science and Engineering 10 years ago. My academic experience at UNR (University of Nevada-Reno) left an awful lot to be desired and I got really frustrated with the quality of formal CS academia and the video game industry after hearing crunch horror stories and realizing how under-prepared I got to be for the industry. Those university credits are old now and at this time I am much more interested in how computers work, specifically how the CPU talks to other parts of the computer, especially the peripherals.
+
+Projects completed (on https://github.com/andrewgreen76/portfolio):
+ - solderless: Ben Eater's two-function calculator with CPU, RAM, and decoder ROM
+ - solderless: Ben Eater's VGA board project
+ - solderless: command/data interfacing with a 16x2 character LCD featuring the HD44780
+ - with a prototyping PCB: a flashlight
+ - (currently working on) solderless: keyboard circuitry, controller logic, etc. 
+
+I do have two big problems: (1) the financial situation and (2) lack of ideas for effective time management when it comes to going back to school. 
+
+Speaking of schooling: from my lengthy cruising on the web I got the impression that I should definitely get an EE or an ME degree, albeit I got input from several staff members at CU Boulder that I should get on the M.S. track in CSE and take every action to "refresh" everything that I (should have) learned from all the courses of the past, especially all the ones that I got a C(+) in - Data Structures, Automata Theory and Formal Languages, Computer Communications and Networks, and Analysis of Algorithms. But I'm no longer interested in CS. Never mind the fact that I was never formally taught how to write C code or use a debugger; and now at UNR they still do not teach C but they expect you to know how to use a debugger.
+
+My current plan (in order) :
+ - find work in (PCB) manufacturing/assembly via (1) a pre-apprenticeship or (2) a staffing agency
+ - sink the credit card debt, start saving big time for formal education 
+ - move through different roles in the manufacturing/assembly industry
+ - get a couple of certifications
+ - go to an affordable school - probably a community college to save money, - transfer my credits to a more respectable institution, and get a serious internship opportunity with God knows whom - Intel, AMD, Qualcomm - who knows.
+ - (note that I'm skipping IT/PC industry as I'd be working with things without knowing how they work at the foundational level)
+
+From further reading on the web I was let in on one little secret: career development in tech is not a straight line. That being said, I welcome any strong suggestions you may have for me. Am I overthinking anything here or have I forgotten something? How does my plan sound? 

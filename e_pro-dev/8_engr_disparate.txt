@@ -1,0 +1,31 @@
+
+Engineering - subfields : 
+
+			Electrical			Electronic			Embedded		.
+
+Focus			high-power, analog		hi/lo-pwr, analog/digital	firmware
+			(power grids)			(consumer electronics)		(software)
+
+
+_________________________________________________________________________________________________________________
+
+Electronic engineering - activities / studies / spheres :
+
+	    		PCB				semiconductor			other parts 
+
+design			.				(a) silicon physics		.
+			.				(b) system architecture		.
+
+manuf./assembly
+
+
+_________________________________________________________________________________________________________________
+
+Semiconductor design - disparate specializations / skillsets / professions : 
+
+  (a) silicon physics
+     . SPICE (? LT SPICE IV ?) 
+
+  (b) system architecture
+
+_

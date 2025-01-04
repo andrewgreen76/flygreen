@@ -5,20 +5,19 @@ Building a computer IS THE GAME. The problem is : this game takes a team of peop
 
 Choose what you want to fab :
 
-(semiconductor) keyboard encoder IC / parts
+ . (semiconductor) keyboard encoder IC / parts
+ . (semiconductor) SPI flash memory IC / parts
+ . (semiconductor) CPU (cores) / parts
+ . (a complex unit) motherboard PSU / parts / circuits
+ |
  . List the parts 
  . List the fab process steps
  . List the fab machines involved
- 
-(semiconductor) CPU (cores) / parts
- . List the parts 
- . List the fab process steps
- . List the fab machines involved
- 
-(a complex unit) motherboard PSU / parts / circuits 
- . List the parts 
- . List the fab process steps
- . List the fab machines involved
+
+
+======================================================================================================
+==== SPI FLASH MEMORY IC - LOGIC DESIGN : ============================================================
+======================================================================================================
 
 ======================================================================================================
 ==== MOTHERBOARD PSU : ===============================================================================

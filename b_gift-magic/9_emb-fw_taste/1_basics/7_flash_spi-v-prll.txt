@@ -1,0 +1,9 @@
+"
+... the **ATmega328P** does not use **SPI** for accessing its internal **flash memory**; instead, it uses a direct parallel interface for reading and writing data to the flash. **SPI** is typically used for external memory devices or peripherals.
+"
+
+
+"
+The **ATmega328P** uses **NOR** flash memory technology for its internal program storage.
+"
+_

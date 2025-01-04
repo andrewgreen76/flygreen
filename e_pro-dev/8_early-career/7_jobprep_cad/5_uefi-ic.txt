@@ -1,0 +1,18 @@
+
+===================================================================================
+SPI FLASH MEMORY IC'S - CANDIDATES FOR CLONING : 
+===================================================================================
+
+Winbond W25Q32 : 
+ . 32Mb NOR flash chip
+ . U-Boot bootloader
+ . "other essential firmware"
+ . on Orange Pi Zero boards 
+
+Micron MT28EW128ABA1 : 
+ . 128Mb NOR flash chip
+ . a bootloader
+ . other firmware 
+ . on Raspberry Pi 4 boards 
+
+_

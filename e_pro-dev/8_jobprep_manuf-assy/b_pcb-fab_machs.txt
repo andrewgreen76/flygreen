@@ -1,7 +1,4 @@
 
-PCB								Semiconductors
-__________________________________				__________________________________
-
 Laser marking machine
 Laser engraving machine 
 Screen printer

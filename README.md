@@ -43,6 +43,8 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Semiconductor pre-process and post-process details. 
+
 LCD technology : 
  - the stack
  - LED backlight management 

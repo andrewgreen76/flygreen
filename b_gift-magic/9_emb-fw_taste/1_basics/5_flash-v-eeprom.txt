@@ -1,0 +1,33 @@
+
+===================================================================================
+(SPI) FLASH MEMORY vs. EEPROM 
+===================================================================================
+
+Flash : 
+| . faster read/write time 
+| => memory is quickly overwritten only in large blocks , which is ideal for writing an entire program quickly to a chip 
+| . fast execution of code
+| . fast block-rewrite , but that means that the resident program would have to be written in again 
+|
+EEPROM :
+| . expected to have way more read/write operations , "EEPROM has a higher endurance for write/erase cycles" 
+| . ability to overwrite individual bytes (when the rest of the bytes of data could be reused) 
+| . relatively slow ; takes time to read/write a specific data byte
+  |
+  . "... still has a finite number of cycles (typically in the range of 1 million), so while it handles frequent
+     writes better than flash, it can still degrade over time with excessive use."
+
+
+===================================================================================
+===================================================================================
+===================================================================================
+
+"
+The key difference between **flash memory** and **EEPROM** is that **flash memory** is typically organized in blocks that must be erased before being rewritten, while **EEPROM** allows individual bytes to be erased and rewritten independently.
+"
+
+
+"
+The **ATmega328** has both **flash memory** and **EEPROM** to provide a balance between high-speed, large-capacity storage for program code (flash memory) and non-volatile storage for small amounts of data that need to persist across power cycles (EEPROM).
+"
+_

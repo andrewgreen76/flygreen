@@ -1,0 +1,59 @@
+
+======================================================================================================
+KEYBOARD ENCODER IC (DIP-16 MM74C922 IC) - PRE-PROCESS STEPS :
+======================================================================================================
+
+ . silicon melting
+ . removal of the ingot with a crystal (Czochralski process) 
+ . ingot slicing - to make wafers
+ . wafer polishing 
+ . oxidation (applying water vapor or oxygen) - to create a film of oxide
+
+Steps repeated for every set of layers (metal film layer , insulation layer , connection layer)
+ . photolithography ("photo") 
+    . coating wafers with photoresist
+    . photomasking (application of a glass substrate w/ the negative of the circuit pattern)
+       . helps expose the negative to UV light 
+    . UV light application
+       . "marks" the negative 
+    . developer fluid application
+       . eats away the unlit photoresist - the circuit pattern - leaving the negative intact  
+ . etching - eating away at the oxide film - the circuit pattern - and THEN the photoresist (resist stripping) 
+    . wet etching - using liquid chemical solutions 
+    . dry etching - using gas or plasma
+ () the Si IC is thinner than paper
+ () connections will fill in the gaps later on - CONNECTION LAYER 
+ () connections will be separated by walls of the oxide film - INSULATION LAYER
+ () adjacent connection layers are shield one from another using a METAL FILM LAYER 
+
+Making the material electroconductive : 
+ . (vapor) deposition - of thin film - later to be left on the insulation 
+ . ion application - introducing electroconductive ion impurities that are attracted to the silicon crystal
+     (by way of dopant diffusion) through the oxide film gaps
+
+ . metal wiring process - the gaps are covered with a thin layer of Al, Ti, or W , thus materializing the circuit's paths
+
+
+======================================================================================================
+KEYBOARD ENCODER IC (DIP-16 MM74C922 IC) - POST-PROCESS STEPS :
+======================================================================================================
+ 
+ . electrical die sorting (EDS) - chip testing (for dust particles , etc.)
+ 
+ . slicing the wafer into individual chips
+ . chip (die) packaging in resin/substrate 
+ . bonding : the die and the package's substrate are connected together through their respective contact points 
+ . injection molding
+ . marking
+ . final test 
+
+
+======================================================================================================
+KEYBOARD ENCODER IC - PARTS :
+======================================================================================================
+
+ . die materials 
+ . packaging w/ contact points + pins
+ . chemicals 
+
+_

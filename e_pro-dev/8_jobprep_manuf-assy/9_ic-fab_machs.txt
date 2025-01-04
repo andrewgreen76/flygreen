@@ -1,0 +1,49 @@
+
+======================================================================================================
+KEYBOARD ENCODER IC - FAB MACHINES INVOLVED : 
+======================================================================================================
+
+"
+The machinery involved in the **Czochralski process** for growing single crystal semiconductors includes:  
+
+1. **Crucible** – Holds the molten material (typically silicon) for crystal growth.  
+2. **Crystal Puller** – A motorized system that slowly pulls the seed crystal from the molten material to form the single crystal.  
+3. **Heating System** – High-temperature furnace or heating elements to melt the material in the crucible.  
+4. **Ingot Rotation Mechanism** – Rotates the growing crystal to ensure even growth and to avoid defects.  
+5. **Cooling System** – Controls the temperature gradient during crystallization to ensure controlled solidification.  
+6. **Gas Flow System** – Regulates the atmosphere inside the furnace, often using inert gases like argon.  
+7. **Pulling Mechanism** – The motorized mechanism that adjusts the speed and angle at which the crystal is pulled from the melt.  
+8. **Temperature Monitoring System** – Precise sensors to monitor and control the temperature of both the melt and the growing crystal.
+"
+
+
+"
+The machinery involved in a semiconductor's pre-process typically includes:  
+
+1. **Wafer Bonding Equipment** – For attaching substrates or handling wafers.  
+2. **Photolithography Equipment** – Used for applying photoresist and exposing patterns onto the wafer.  
+3. **Etching Machines** – For removing material from the wafer to create patterns (both wet etching and dry etching).  
+4. **Ion Implantation Systems** – For introducing dopants (impurities) into the wafer.  
+5. **Oxidation Furnaces** – To grow a layer of silicon dioxide on the wafer surface.  
+6. **Deposition Machines** – Such as chemical vapor deposition (CVD) or physical vapor deposition (PVD) for depositing thin layers of materials (like metals or dielectrics).  
+7. **Chemical Mechanical Planarization (CMP) Machines** – For polishing the wafer surface to ensure uniformity and smoothness.  
+8. **Clean Rooms & Wafer Cleaning Equipment** – To maintain a contaminant-free environment and clean wafers between processes.  
+9. **Mask Aligners** – For aligning photomasks with the wafer to define circuit patterns during photolithography.
+"
+
+
+"
+The machinery involved in a semiconductor's post-process typically includes:  
+
+1. **Dicing Saw** – For cutting the wafer into individual chips (dies).  
+2. **Die Attach Machines** – For attaching the individual dies to substrates or packages.  
+3. **Wire Bonding Machines** – For connecting the die's bonding pads to external pins or leads using fine wires.  
+4. **Flip-Chip Bonding Machines** – For directly connecting the die to the package using solder bumps (alternative to wire bonding).  
+5. **Encapsulation Machines** – For applying protective encapsulants or resin to the assembled die, protecting it from physical and environmental damage.  
+6. **Testing Equipment** – For electrical testing of the individual devices to ensure they meet functional specifications (e.g., automated test equipment or probe stations).  
+7. **Burn-In Ovens** – For stressing the chips at high temperature to identify early failures.  
+8. **Packaging Machines** – For enclosing the die in protective packages such as plastic or ceramic packages.  
+9. **Final Inspection Equipment** – For visual and automated inspection to detect any defects in the final product.  
+10. **Laser Marking Machines** – For marking the finished device with serial numbers, logos, or other identifying information.
+"
+_

@@ -14,13 +14,6 @@ You never stop networking :
  . (i/d)GPU board controller 
 
 
-[GIVE IT TIME :
- . PENA
- . Reno staffing agencies
- -> Bay Area apprenticeships 
- . see career track map]
-
-
  . modular screen 
  . dumb MCU - that I can connect to a keyboard and a screen 
  . smart MCU

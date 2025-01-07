@@ -49,7 +49,7 @@ Semiconductor design - disparate specializations / skillsets / professions :
      . branch prediction
      . dynamic register renaming
      . cache consistency management
-     . resolving pipeline issues 
+     . resolving pipeline issues (CPU) 
 
 
 _________________________________________________________________________________________________________________

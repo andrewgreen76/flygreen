@@ -37,12 +37,15 @@ Making the material electroconductive :
 ======================================================================================================
 KEYBOARD ENCODER IC (DIP-16 MM74C922 IC) - POST-PROCESS STEPS :
 ======================================================================================================
- 
+
+A.k.a. the back-end , a.k.a. Level 1 : 
+
  . electrical die sorting (EDS) - chip testing (for dust particles , etc.)
  
  . slicing the wafer into individual chips
- . chip (die) packaging in resin/substrate 
- . bonding : the die and the package's substrate are connected together through their respective contact points 
+ . chip (die) placement upon the substrate (leadframe) in resin packaging 
+ . bonding : the die and the package's leadframe are connected together through their respective contact points with bond wires 
+    . by then the leadframe itself should already have bond wires connected to the pins 
  . injection molding
  . marking
  . final test 

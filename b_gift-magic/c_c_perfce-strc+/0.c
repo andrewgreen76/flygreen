@@ -12,6 +12,6 @@ void main(){
   fgets(buf , BUFSZ_TOTAL , stdin);
 
   if( strcmp(buf,"1")==0 ) printf("1");
-  if( strcmp(buf,"1\n")==0 ) printf("1\\n");
-  if( strcmp(buf,"1\0")==0 ) printf("1\\0");
+  if( strcmp(buf,"1\0")==0 ) printf("1\\0"); 
+  if( strcmp(buf,"1\n")==0 ) printf("1\\n"); // This is the one upon 'Enter' press. 
 }

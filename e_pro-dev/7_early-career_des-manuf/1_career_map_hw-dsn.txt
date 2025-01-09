@@ -2,14 +2,14 @@
 Learn how ATmega328 microcontroller works (schematics , design , etc.). 
 
 Networking : How does my plan sound ? :
- 1 unpaid pre-apprenticeships + 
-				+ work through Lin, indeed, staffing agencies 
- 1 Bay Area apprenticeships (1-2 yrs) + vocational school certs : 
  1  . manuf/assy - salary : $14-$25+/hr ; $35k ~ $52k
     v  . IT - salary : $15-$24+/hr ; $48k ~ $100k 
     -> kill -$16k 
     -> save for edu : . EE degree - from 2-yr trade/voc. school : cheaper than De Anza 
        	    	      -> 4-yr school : engineering degree : [else] , SJSU , UT Austin , ASU 
+ 1 unpaid pre-apprenticeships + 
+				+ work through Lin, indeed, staffing agencies 
+ 1 Bay Area apprenticeships (1-2 yrs) + vocational school certs : 
     -> PCB/CPU/MCU design 
  . Personal project at home : prototyping something somehow , Udemy/Proteus 8 , no building ;
  . On lunch breaks : certs : CompTIA A+ , IPC-A-610 ; IPC EPTAC dates : San Jose, not TX or AZ ; 1/6-9 ; 2/10-13 ; 4/21-24. 

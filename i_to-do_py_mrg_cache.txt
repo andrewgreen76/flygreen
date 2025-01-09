@@ -1,4 +1,7 @@
 
+education dir
+networking dir
+
 Relevant project : designing and prototyping a microcontroller that emulates PC hardware.
  . modular keyboard
 

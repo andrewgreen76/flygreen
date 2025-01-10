@@ -1,0 +1,4 @@
+"
+ABI (Application Binary Interface) defines the low-level interface between a program and the operating system, specifying things like calling conventions, data types, and memory layout to ensure compatibility between compiled programs and system libraries.
+"
+_

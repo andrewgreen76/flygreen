@@ -1,0 +1,4 @@
+"
+FFI (Foreign Function Interface) is a mechanism that allows code written in one programming language to call functions or use services written in another language.
+"
+_

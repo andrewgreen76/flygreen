@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-void main(){
+int main(){
   int a=1;
-  for( ; a<0 ; --a) printf("Post-Decremented.\n");
+  for( ; a<0 ; --a){
+    printf("Post-decr - check \n");
+  }
 }

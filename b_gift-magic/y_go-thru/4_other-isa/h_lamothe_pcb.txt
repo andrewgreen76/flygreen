@@ -1,0 +1,6 @@
+"
+If you're interested in learning formal electronics and PCB design from the ground up please check out my course on sale for Black Friday. It's currently the #1 Best Selling Electronics and #1 PCB Design course on Udemy. I wanted to create something that would enable people to learn electronics and PCB design in a single course with no prior background, have fun, and not be overwhelmed by math and too much theory. We now have over 92,000 students and I update the course monthly! Here's the information if you're interested:
+
+Crash Course Electronics and PCB Design @ Udemy - 160 lectures, 112 hours. The course starts from "What's an electron?" and by the end of the course, you will be designing PCB projects including a fully functional Arduino, Switching Power Supply, Audio Amplifier, Magic Wand, Sound Synth Organ and more... (Check out the image below of a student project from the course).
+"
+_

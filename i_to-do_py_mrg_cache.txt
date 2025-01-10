@@ -1,5 +1,6 @@
 
-education dir
+.
+
 networking dir
 
 Relevant project : designing and prototyping a microcontroller that emulates PC hardware.
@@ -1192,7 +1193,7 @@ GitHub : Nand2Ti06 original code for the x-compiler in C/Py -> GitHub
 
 VLSI
 - "Understanding of VLSI design level flows and techniques."
-floss
+ . Arduino Mega 2560 Rev3
 |
 experience :
 - own projects :

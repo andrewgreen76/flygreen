@@ -1,0 +1,16 @@
+"
+Are you interested in learning how to program the Arduino microcontroller and write firmware? I am excited to announce my new course on Udemy "Crash Course Arduino and Microcontroller Development"! I have been working on this nearly 3 years, building the most complete course on embedded engineering, microcontrollers and programming the Arduino platform in C/C++ for beginners. The course takes you on a journey through countless topics such as:
+
+* Understand C/C++ from the ground up and how to write effective firmware for embedded systems and memory/compute constrained systems.
+* Learn about microcontrollers, microprocessors and their internal architecture including how instructions are executed, ALUs, Buses, MMUs, DMA and more.
+* Learn the Arduino platform's hardware, software and APIs as a working platform to bridge the gap to more complex systems like ARM later in the course.
+* Learn how processors run at the bare metal level including inline and external assembly language programming and interfacing with C/C++.
+* Conquer advanced Computer Science subjects such as optimization theory, data structures, recursion, interrupts, and Big O analysis.
+* Explore multitasking on microcontrollers by developing an interrupt based-round-robin kernel as well as using FreeRTOS.
+* Become expert in numerous tools such as compilers, IDEs, TinkerCAD, EasyEDA, Replit, VSCode, CodeLite, Fritzing, MPLabX, STM32CubeIDE, and more. 
+* Overcome programmable logic and the fundamentals of CPLDs, PALs, GALs, and FPGAs along with a primer on hardware description languages and CUPL.
+* Conquer power management and sleep modes and how to shut peripherals down in your embedded designs, wake from interrupts, and manage power effectively.
+* Master one of the fastest growing and highest paid engineering fields in the world.
+
+"
+_

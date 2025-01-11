@@ -1,0 +1,24 @@
+
+Hi, Andre.
+
+I hope you had a great holiday season and I hope this is the proper channel for communicating with you regarding my following inquiry. Apologies for a lengthy email but this is just to build a perspective around the said inquiry. 
+
+Writing to you since this is what I was highly advised to do if I want to get into digital circuit design professionally - connecting with people. I want your advice on how to break into the field at the age of 34. 
+
+My background: I got my B.S. in Computer Science and Engineering with a focus on games and simulations from the University of Nevada-Reno 11 years ago but I feel like I’ve learned very little. To make matters worse, I went through an internship that I botched with my poor programming and debugging skills and a lack of understanding how C++ compilers work. On top of that I heard horror stories about crunch in the video game industry. Since then I spent most of my adult life in sales and material handling. Now I want to earn a living designing PCBs or semiconductors or, at the very least, manufacturing them, things like peripheral controllers, flash memory chips, EEPROM chips, etc. I already hit Quora and Reddit and the best response I got was that I have to zero in on PCBs or semiconductors, not both as they require different skillsets. I think starting with semiconductors makes a little more sense. 
+
+My projects: I finished a couple of Ben Eater projects - the CPU board and the VGA board - as well as a solderless programming board for plotting pixels on a 16x2 character LCD and a flashlight with a hand-wired prototyping circuit board and a battery encased in cardboard (that last one I lifted from your PCB Electronics course!). For my next project I want to do something in the way of designing the keyboard encoder, the USB controller, and the PCB circuits (fill me in if I am missing something) for a 3x2 keypad, one circuit at a time, though I'm not exactly sure where to start. It's supposed to be a project within a project, but I'll keep the details to myself unless you want to know more. 
+
+My plan: find work with a PCB manufacturer (I had a shot with TTM Technologies!), apply for admission into a bunch of community colleges in the Bay Area, get some career counseling, find the right program, learn its curriculum, take some online classes to prepare, and then nail the curriculum. But then there are the problems of (1) supporting myself financially and (2) time management. I can't do apprenticeships as I'm currently employed by a bookselling company. I would continue on to my M.S. if I retained any interest in much higher-level software and my university credits weren't so old. However, I feel like my heart is much closer to C, assembly, ISA CPU architectures, and development of BIOS routines. I'm half-decent at Bash and Python scripting and programming in C and x86 assembly and I am aware of the fact that I should also learn Verilog. I already have a LinkedIn profile (https://www.linkedin.com/in/andrew-green-572193146/) and two GitHub repos (https://github.com/andrewgreen76) - one is my portfolio and the other is a sprawling mess of an edutainment repo that I try to keep organized.
+
+Basically, I would love to get your input on this matter. Am I overthinking or forgetting something? Can a man with very little experience do something - aside from taking your Udemy courses - to start off on a 5-10 year ladder towards making a six-figure income designing logic circuits professionally at a rather late age? 
+
+Thank you. I'm looking forward to your reply. 
+
+ - Andrew Green
+ 
+_
+_
+_
+
+ that I probably will never finish - where I would have just the keyboard, the motherboard with a PSU, and an RGB LCD screen. (Hey, don't we all want to build a computer instead of shopping around on pcpartpicker.com ?!) I understand that this does sound like a childishly ambitious endeavor that would demand a large team of engineers with disparate skillsets, but mind you that I do not want to clone the Raspberry Pi 400 as the keyboard and the SoC share the same PCB; I'd like to design a highly modular computer - if at all possible. You could very much argue that I'm yet to figure out just exactly what skills I want to or should develop first and that I want to build a general-purpose toy. 

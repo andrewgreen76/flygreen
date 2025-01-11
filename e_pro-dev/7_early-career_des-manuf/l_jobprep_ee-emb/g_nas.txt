@@ -1,0 +1,4 @@
+"
+Using a machine as a NAS (Network-Attached Storage) means configuring it to serve as a centralized storage device accessible over a network, allowing multiple users or devices to store and retrieve data.
+"
+_

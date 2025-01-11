@@ -1,4 +1,29 @@
 
+cool problem in a boring project 
+
+how does this tool work
+lack of feeling of satisfaction 
+
+upwork gigs
+Amazon account 
+search for Arduino, microcontroller, firmware, C, C/C++ 
+credit card, business card-size game console, OLED I2C, MCU, regulator
+-> Tamagotchi
+-> simple?
+-> colored PCB ; art 
+tangible projects
+
+finish
+ship 
+monetize
+
+embedded : 
+fpga code
+design circ
+plastics
+modeling
+injection molding
+
 list of projects :
  - CPU board
  - VGA board

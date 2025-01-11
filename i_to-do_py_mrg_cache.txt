@@ -1,4 +1,11 @@
 
+list of projects :
+ - CPU board
+ - VGA board
+ - EEPROM programmers (manual and microcontroller-based)
+ - LCD programmer
+ - flashlight with a prototyping board 
+ 
 char-facts
 
 networking dir

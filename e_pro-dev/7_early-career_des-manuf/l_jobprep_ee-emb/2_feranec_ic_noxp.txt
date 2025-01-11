@@ -1,0 +1,11 @@
+"
+Robert made (multiple?) videos with Matt Venn on IC design:
+https://www.youtube.com/watch?v=YounUJvIW04
+https://www.youtube.com/watch?v=ILZ6fDHZ_eo
+
+IC design is a much slower process, as in between design and seeing the product work. You will also do a tiny part of a bigger whole.
+From what I heard, universities are not the best places to learn electronics. A lot of (outdated) theory and little practical. Here in the Netherlands, the students need to do 'projects' in order to design a board. That project is a 'break' of one year.
+
+As for PCB or IC - Yes, there is a difference in skillset and, yes, it is (almost) either or. But more importantly, which one would you prefer to do?
+"
+_

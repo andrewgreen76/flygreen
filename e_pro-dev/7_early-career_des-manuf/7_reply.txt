@@ -1,0 +1,50 @@
+
+cool problem in a boring project 
+
+how does this tool work
+lack of feeling of satisfaction 
+
+upwork gigs
+Amazon account 
+search for Arduino, microcontroller, firmware, C, C/C++ 
+credit card, business card-size game console, OLED I2C, MCU, regulator
+-> Tamagotchi
+-> simple?
+-> colored PCB ; art 
+tangible projects
+
+finish
+ship 
+monetize
+
+embedded : 
+fpga code
+design circ
+plastics
+modeling
+injection molding
+
+ATTiny85 : https://www.youtube.com/watch?v=GHNojd6BKyw
+UpWork gigs : https://www.google.com/search?client=ubuntu-sn&channel=fs&q=upwork
+
+=======================================================================================
+=======================================================================================
+=======================================================================================
+
+Andre',
+
+Thank you again for taking some time to talk with me over the phone. Everything you said gave me a lot to think about.
+
+
+
+Thoughts:
+
+ - One takeaway I got from our conversation is that you want me to sacrifice the desire to learn as much as I can about general-purpose computers in favor of simply finishing tiny projects, projects I personally find very limiting in the way of scope, ambition. 
+
+ - I think I understand why you want me to commit to designing something as small and aesthetically uninvolving as a tiny game console - because it is supposed to be the most primitive form of a game console, especially given the small resolution of the OLED. 
+ 
+ - Though I have very strong reservations about the tiny gaming console (I figured that the moment I saw the thing), I am thinking about doing what you asked me to do. Three reasons: (1) just because you asked me to do it; (2) I don't want to pay you a dollar (even if we didn't agree on that); (3) simply turning it down would be a humiliating memory. I do fear, however, that I will end up hating a proj
+
+P.S.: I forgot to mention that I also soldered-up the components to a DIY radio board with speakers and made it all work, but I guess it's kind of a moot point to bring this up. 
+
+_

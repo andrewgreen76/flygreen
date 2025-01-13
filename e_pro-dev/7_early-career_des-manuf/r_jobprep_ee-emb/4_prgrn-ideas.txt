@@ -1,0 +1,23 @@
+
+Design engineering
+Test engineering 
+
+ |
+ v
+NOT gate :
+ - you design it
+ - they fab it
+ - you test it 
+ |
+ v
+1-mem.addr.
+flash architecture/chip
+ |
+ v
+1-mem.addr.
+EEPROM architecture/chip
+ |
+ v
+other Arduino chips
+
+_

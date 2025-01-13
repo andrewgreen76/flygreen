@@ -1,0 +1,6 @@
+"
+Copper thieving is used in PCB design to **fill empty areas** with non-functional copper traces to balance the distribution of copper and reduce the risk of warping during the manufacturing process.
+
+Balancing the distribution of copper means ensuring **even coverage of copper** across the PCB to prevent uneven stress or thermal expansion, which could lead to warping or other mechanical issues during manufacturing or operation.
+"
+_

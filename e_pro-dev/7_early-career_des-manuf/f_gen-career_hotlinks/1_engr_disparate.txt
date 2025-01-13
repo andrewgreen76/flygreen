@@ -39,7 +39,7 @@ ________________________________________________________________________________
 Semiconductor design - disparate specializations / skillsets / professions : 
 
   (a) silicon physics
-     . SPICE (? LT SPICE IV ?) 
+     . SPICE (LT spice) - sim prog w/ IC emphasis 
 
   (b) system architecture
      . VHDL

@@ -1,0 +1,17 @@
+
+===================================================================================
+SIMULATION TOOLS : 
+===================================================================================
+
+There are OFFLINE and ONLINE tools.
+
+
+Free : 
+ . LTspiceXVII
+
+
+Free-trial and paid-for : 
+ . Proteus 8 Professional
+ . Altium ?? 
+
+_

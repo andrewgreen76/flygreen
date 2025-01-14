@@ -18,4 +18,16 @@ Internal impedance :
 "
 A dielectric is an insulating material that does not conduct electricity but can support an electric field, allowing it to store electrical energy in capacitors or influence the behavior of other electrical components.
 "
+
+Wire inductance :
+ . len ~ L
+
+
+Thickness-to-amperage :
+ . [I(trfmr)(out)] ~ [thickness] to avoid overheating 
+
+
+Resistance to N turns : 
+ . R(trfmr) ~ N 
+
 _

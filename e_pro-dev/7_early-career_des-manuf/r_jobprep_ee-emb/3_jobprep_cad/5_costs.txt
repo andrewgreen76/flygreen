@@ -1,0 +1,33 @@
+
+===================================================================================
+CAD TOOLS : 
+===================================================================================
+
+There are OFFLINE and ONLINE tools. 
+
+ . KiCAD
+ . Altium CircuitMaker
+ . easyEDA 
+ . TinkerCAD
+
+Only when you have no credit card debt : 
+ . Solidworks - $220/month
+ . AutoCAD - free trial ; $250/month 
+ . Altium Designer - $460/month
+
+These are for businesses : 
+ . Cadence Allegro - WTF!
+ . Mentor Xpedition - WTF!!!
+
+
+===================================================================================
+SIMULATION TOOLS : 
+===================================================================================
+
+There are OFFLINE and ONLINE tools.
+
+ . LTspiceXVII
+ . Proteus 8 Professional
+ . Altium ?? 
+
+_

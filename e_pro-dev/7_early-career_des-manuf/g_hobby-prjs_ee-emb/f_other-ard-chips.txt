@@ -1,0 +1,4 @@
+
+About four of those ICs on the Arduino Uno board. 
+
+_

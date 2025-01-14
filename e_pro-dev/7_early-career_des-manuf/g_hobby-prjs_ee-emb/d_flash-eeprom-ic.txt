@@ -1,0 +1,4 @@
+
+Design , prototype , and manufacture a single-memory-address flash/EEPROM chip. 
+
+_

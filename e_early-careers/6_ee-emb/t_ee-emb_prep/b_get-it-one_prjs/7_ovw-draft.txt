@@ -1,0 +1,36 @@
+
+selecting components
+
+SCHEMATIC
+/ simulation (SPICE) 
+(eeschema)
+
+BOM
+
+PCB LAYOUT
+ . stackup
+ . comm. w/ manuf-r
+ . component placement
+
+Building component libraries
+simulate design
+virtual assembly
+
+(first-pass)
+Routing / critical routing
+-> complete routing
+
+Collating MANUFACTURING FILES :
+ . layout
+ . fab/assy
+ . Gerbers
+ . CNCdrawings
+ . etc.
+
+Prototyping test
+
+Fab/assy : quote , parts , consignment
+
+Manuf. test 
+
+_

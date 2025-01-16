@@ -3,8 +3,10 @@
 UNDERSTANDING THE STEPS : 
 ===================================================================================
 
-Design circuit (formative model for your circuit) 
- . formative circuit model : online , from sim , on breadboard , PCB/FPGA-prototyped 
+Design circuit (formative model for your circuit) : 
+ (a) from the web 
+ (b) a personal idea cast in a simulation 
+ (c) a personal idea cast onto a breadboard 
 
 Component selection 
 

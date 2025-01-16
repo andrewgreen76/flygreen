@@ -12,6 +12,10 @@ STEPS :
  . simulate design
  . virtual assembly
  . routing
- . manufacturing files 
+ . manufacturing files
+
+
+!!! IMPORTANT NOTE !!! :
+ . Circuit design and PCB layout are two different things. 
 
 _

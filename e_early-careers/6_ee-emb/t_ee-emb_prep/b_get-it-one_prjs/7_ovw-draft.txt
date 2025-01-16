@@ -1,20 +1,31 @@
 
-selecting components
+===================================================================================
+STEPS : 
+===================================================================================
+
+ . component selection
+ . schematics (eeschema)
+ . BOM
+ . PCB layout 
+ . Building component libraries
+ . simulate design
+ . virtual assembly
+ . routing
+ . manufacturing files 
+ 
+
+===================================================================================
+UNDERSTANDING THE STEPS : 
+===================================================================================
 
 SCHEMATIC
+ . draw in a software schematic capture program (eeschema in KiCAD) 
 / simulation (SPICE) 
-(eeschema)
 
-BOM
-
-PCB LAYOUT
+PCB layout
  . stackup
  . comm. w/ manuf-r
  . component placement
-
-Building component libraries
-simulate design
-virtual assembly
 
 (first-pass)
 Routing / critical routing
@@ -26,6 +37,26 @@ Collating MANUFACTURING FILES :
  . Gerbers
  . CNCdrawings
  . etc.
+
+Manufacturing :
+ . 
+
+===================================================================================
+MAPS OF THOSE STEPS : 
+===================================================================================
+
+Truths about CAD workflows : 
+Multiple CAD workflows : 
+
+===================================================================================
+MANUFACTURING / OUTSOURCING : 
+===================================================================================
+
+===================================================================================
+OTHER : 
+===================================================================================
+
+formative circuit model : online , from sim , on breadboard , PCB/FPGA-prototyped 
 
 Prototyping test
 

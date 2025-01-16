@@ -1,0 +1,42 @@
+
+===================================================================================
+UNDERSTANDING THE STEPS : 
+===================================================================================
+
+Design circuit (formative model for your circuit) 
+ . formative circuit model : online , from sim , on breadboard , PCB/FPGA-prototyped 
+
+Component selection 
+
+SCHEMATIC design : 
+ . draw in a software schematic capture program (eeschema in KiCAD) 
+ . simulation (SPICE) 
+
+BOM
+
+PCB layout
+ . stackup
+ . comm. w/ manuf-r
+ . component placement
+
+Building component libraries
+
+simulate design
+
+virtual assembly
+
+(first-pass)
+Routing / critical routing
+-> complete routing
+
+Collating MANUFACTURING FILES :
+ . layout
+ . fab/assy
+ . Gerbers
+ . CNCdrawings
+ . etc.
+
+Manufacturing :
+ . 
+
+_

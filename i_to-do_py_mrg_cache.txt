@@ -1,4 +1,8 @@
 
+Wall : 
+ + HoMM
+ + "Perfect" is the enemy of "great". 
+
 list of projects :
  - soldered-up DIY radio 
  - CPU board

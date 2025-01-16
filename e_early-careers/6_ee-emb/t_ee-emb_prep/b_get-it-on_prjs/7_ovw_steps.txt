@@ -1,0 +1,17 @@
+
+===================================================================================
+STEPS : 
+===================================================================================
+
+ . design circuit (formative model for your circuit) 
+ . component selection
+ . schematic design (eeschema)
+ . BOM
+ . PCB layout 
+ . Building component libraries
+ . simulate design
+ . virtual assembly
+ . routing
+ . manufacturing files 
+
+_

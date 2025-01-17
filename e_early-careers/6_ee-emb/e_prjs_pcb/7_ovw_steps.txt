@@ -3,16 +3,18 @@
 STEPS : 
 ===================================================================================
 
- . design circuit (formative model for your circuit) 
- . component selection
- . schematic design (eeschema)
- . BOM
- . PCB layout 
- . Building component libraries
- . simulate design
- . virtual assembly
- . routing
- . manufacturing files
+   Step					Explanation							Tool 
+
+ . (design circuit) 			formative model for your circuit 				?
+ . (choosing symbols/component libs)	graphical representations of COMPONENTS ("DUMMIES")		a library editor
+ -> schematic capture 			creating a CIRCUIT DIAGRAM WITH THE SYMBOLS on a sch.sheet	(eeschema)
+ . creating footprints 			REALISTIC representations of the COMPONENTS			a footprint editor 
+ . netlist  				routing , a list of CONNECTIONS	  				(cvpcb) 
+ . PCB layout (virtual assembly)	FOOTPRINTS go on the board					(pcbnew)
+ . manufacturing files			generating/collating: LAYOUT, FAB/ASSY, GERBERS, CNC, ETC. 	(GerbView)
+ . BOM 		 			list ALL COMPONENTS, PART NUMBERS, QTYS, specifications		(DigiKey)
+ . fabrication 				quote , parts , consignment
+ . manufacturing test 			
 
 
 !!! IMPORTANT NOTE !!! :

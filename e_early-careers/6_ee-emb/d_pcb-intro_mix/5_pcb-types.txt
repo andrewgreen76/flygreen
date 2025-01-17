@@ -1,0 +1,10 @@
+
+ . rigid PCBs (classic consumer electronics boards)
+ 
+ . FPCs ()
+    . thin plastic sheets
+    . solar panels , electric cars , aviation , automotive , medical devices , etc. 
+ 
+ . rigid-flex () 
+
+_

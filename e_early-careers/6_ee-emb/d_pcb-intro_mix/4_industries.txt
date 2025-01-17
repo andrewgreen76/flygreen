@@ -1,6 +1,11 @@
 
- . design industry
- . manufacturing industry
- . assembly industry 
+Design industry :
+ . 
+ 
+Manufacturing industry :
+ . 
+ 
+Assembly industry :
+ . 
 
 _

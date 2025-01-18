@@ -1,0 +1,22 @@
+
+Sprite sheet :
+ . multiple sprites for animation of the same 'thing' 
+ . node frames for every action 
+ . each frame should have its own grid cell
+ 
+
+adventure_ Sprite sheet frames : 
+ . idle (- static / flag-flapping)
+ . go (- flying, running, walking, riding)
+ (. others)
+
+
+combat_ Sprite sheet frames :
+ . idle (- static / flag-flapping)
+ . go (- flying, running, walking, riding)
+ . attack 
+ . hit
+ . death
+ (. others)
+
+_

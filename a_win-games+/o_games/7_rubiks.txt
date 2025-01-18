@@ -1,0 +1,128 @@
+
+	......Y......
+	.	    .
+	.       R   .
+	G           B
+	.   O	    .
+	.   	    .
+	......W......
+
+
+===================================================================================
+1. WHITE CROSS 
+===================================================================================
+
+
+===================================================================================
+2. CORNERS :
+===================================================================================
+
+  . RHS 4-move (ULDR)
+     <-----
+    |	   ^
+    v	   |
+     ----->
+  
+  . LHS 4-move (URDL) 
+     ----->
+    ^      |
+    |	   v
+     <-----
+
+
+===================================================================================
+3. 2ND (CROSS-) LAYER :
+===================================================================================
+
+a. Locate a non-yellow key piece : 
+  . orientation : white center on the bottom => yellow center on top
+  . find a top (yellow-side) middle piece that does not have yellow on it (NYM) 
+  . that piece should (NYM) be on your front
+  . move the top layer around until that middle piece's (NYM) front color is on the same side with its center-color cousin piece  
+You should end up with matching tiles in an upside-down T-shape. 
+
+Now we will assume that the green center piece is on the LHS and the blue center piece is on the RHS. 
+
+b. Put the NYM tip of the matching T in its right place : 
+  . find the side where the key middle piece is supposed to be on (NYMS) and move it away from that side
+  If the piece belongs on the corner to the right : 
+   . now focus on the piece below the place where NYM is supposed to be (on NYMS) - NYMSB
+   . dislocate NYMSB with the RHS-4-moves - despite the fact that its sitting where it supposed to be in the solved state of the cube
+   . re-insert NYMSB with the LHS-4-moves
+  Otherwise, do the last 3 steps but in the opposite fashion. 
+
+c.
+  . repeat (a) and (b) for the other 3 NYM's
+  . if a NYM looks trapped , replace it with an YM using step (b). 
+
+
+===================================================================================
+4. YELLOW CROSS :
+===================================================================================
+
+Case 1 - no YM on the top layer has yellow on YMS :
+ . turn the front layer 90 degrees CW
+ . do the RHS-4-moves
+ . turn the front layer back 90 degrees CCW 
+
+Case 2 - a yellow L-shape achieved :
+ . drive the L-shape into the upper-left quadrant of the top layer
+ . follow steps for case 1 
+
+Case 3 - a yellow 3-line :
+ . ensure the line is horizontal , not vertical 
+ . follow steps for case 1 
+
+
+===================================================================================
+5. MATCHING YM'S :
+===================================================================================
+
+a. color-match as many YM's with their corresponding YMS's as possible
+b. the expectation is that the color-matched YM's - the upper tip and the right tip - are in the L-shape with the yellow center
+c. orient the cube with the upper tip of the yellow L pointing towards the back => the right tip points towards the right (UR quad)
+   (but if the matching YM's are right across from one another) 
+d. repeat step (a) if necessary 
+e.
+   . R U
+   . T L
+   . R D
+   . T L
+   . R U
+   . T R x2
+   . R D 
+
+===================================================================================
+6. MATCHING YELLOW CORNERS BY LOCATIONS :
+===================================================================================
+
+ . find a corner piece (CP) on the top layer that is correctly placed but has a wrong orientation
+ . orientate the cube to the state where CP is the front right piece
+ 
+Repeat the following steps until at least 1-2 corner pieces are correctly placed AND oriented : 
+ . T L
+ . R U
+ . T R
+ . L U
+
+ . T L
+ . R D
+ . T R
+ . L D
+
+
+===================================================================================
+7. RE-ORIENTING YELLOW CORNERS - ONE BY ONE :
+===================================================================================
+
+ . turn the cube upside (yellow side) down => the incorrectly oriented corner pieces (IOC's) should be on the bottom 
+
+ . (if you end up with only two IOC's , re-orient the cube to have them both facing you)
+ . pick the IOC on RHS 
+ . repeat RHS-4 until IOC is correctly placed and oriented - but DO NOT WORRY about misaligning everything else
+ . focus on the other IOC - the one on LHS 
+ . turn the bottom layer 90 degrees to the right (CCW around the +y axis)
+ . repeat RHS-4 until IOC is correctly placed and oriented - but DO NOT WORRY about misaligning everything else
+ 
+
+_

@@ -1,6 +1,10 @@
 
- . top-down crummy equivalent of Interstate '76
+Finished : 
+ . a crummy top-down 2D equivalent of Interstate '76 (looks like MicroMachines) 
  . word search
- . 15 puzzle 
+ . 15 puzzle
+
+
+Upcoming : 
 
 _

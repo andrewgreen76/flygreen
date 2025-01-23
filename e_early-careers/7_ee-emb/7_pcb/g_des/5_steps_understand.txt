@@ -15,6 +15,8 @@ SCHEMATIC design :
  . draw in a software schematic capture program (eeschema in KiCAD) 
  . simulation (SPICE) 
 
+footprints 
+
 BOM
 
 PCB layout

@@ -9,6 +9,7 @@ Design circuit (formative model for your circuit) :
  (c) a personal idea cast onto a breadboard 
 
 Component selection 
+Building component libraries
 
 SCHEMATIC design : 
  . draw in a software schematic capture program (eeschema in KiCAD) 
@@ -20,8 +21,6 @@ PCB layout
  . stackup
  . comm. w/ manuf-r
  . component placement
-
-Building component libraries
 
 simulate design
 

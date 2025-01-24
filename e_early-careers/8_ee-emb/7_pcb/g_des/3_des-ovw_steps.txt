@@ -5,7 +5,7 @@ STEPS :
 
    Step					Explanation							Tool 
 
- . (design circuit) 			formative model for your circuit 				?
+ . (circuit design) 			formative model for your circuit 				?
  . (choosing symbols/component libs)	graphical representations of COMPONENTS ("DUMMIES")		a library editor
  -> schematic capture 			creating a CIRCUIT DIAGRAM WITH THE SYMBOLS on a sch.sheet	(eeschema)
  . creating footprints 			REALISTIC representations of the COMPONENTS			a footprint editor 

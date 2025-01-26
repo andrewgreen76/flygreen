@@ -1,6 +1,6 @@
 
 ===================================================================================
-(SPI) FLASH MEMORY vs. EEPROM 
+(SPI) FLASH MEMORY vs. EEPROM - TRADE-OFFS
 ===================================================================================
 
 Flash : 
@@ -17,8 +17,26 @@ EEPROM :
   |
   . "... still has a finite number of cycles (typically in the range of 1 million), so while it handles frequent
      writes better than flash, it can still degrade over time with excessive use."
-  => stores data - specifically "configuration settings, calibration values, and user preferences"
+  => stores data - specifically "configuration settings, user preferences, ... , calibration data, last-used states,
+     device IDs, threshold values, or flags indicating certain conditions** that need to be retained across power cycles."
+  . "... if you need to change the data stored in the EEPROM, you would typically do it by modifying the program
+     (binary code) on the flash memory to include the logic for updating the EEPROM contents during runtime."
   . SRAM stores temporary data - stack variables 
+
+
+===================================================================================
+(SPI) FLASH MEMORY vs. EEPROM - TRADE-OFFS
+===================================================================================
+
+Flash :
+ . "The **USB-to-serial adapter** or **Arduino bootloader** is used to program the flash memory of an Arduino MCU
+    with code from the Arduino IDE, typically via a USB connection, which communicates with the microcontroller's
+    serial interface to transfer the compiled program."
+
+EEPROM :
+ . "User settings and preferences make their way into the EEPROM of an Arduino MCU by using specific **EEPROM
+    library functions** in the Arduino code (e.g., `EEPROM.write()` and `EEPROM.read()`) to store and retrieve
+    data at specified memory addresses in the EEPROM, allowing it to persist between power cycles."
 
 
 ===================================================================================

@@ -1,0 +1,11 @@
+
+Operating voltage :
+ . for POWERING AND RUNNING the microcontroller
+ . LOWER voltage - 5V via USB
+
+Input voltage :
+ . voltage required for PROGRAMMING the microcontroller (i.e., writing to the flash memory)
+ . HIGHER voltage - 7-12V
+ . (in-system programming (ISP) )
+
+_

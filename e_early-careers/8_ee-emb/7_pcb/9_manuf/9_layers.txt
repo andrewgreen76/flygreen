@@ -1,0 +1,56 @@
+
+A PCB can have any number of layers. Most have multiple layers. For simplicity ,
+  we will explain the two-layer model - one featuring the front and the back of
+  a PCB. 
+
+===================================================================================
+MATERIALIZING FRONT AND BACK LAYERS - THE DUMB VERSION : 
+===================================================================================
+
+Green solder mask /// Copper traces and pads
+(some kind of bonding)
+Substrate = fiberglass -or- epoxy 
+
+
+===================================================================================
+MATERIALIZING FRONT AND BACK LAYERS - THE LONGER EXPLANATION : 
+===================================================================================
+
+	       front
+		|||
+		vvv
+
+Layers			KiCAD terms		Explanation
+			
+Solder mask		(X.Mask)		- PROTECTION from external factors to prevent shorting due to
+		  	 			  accidental bridging of any traces 
+		  	 			  . a lacquer-like polymer (green or any other color)
+						  
+Copper (foil) layer	(X.Cu)			- a layer of (etching for) COPPER PADS and ROUTED COPPER TRACES
+
+(Bonding)		Adhesive		- two ways to BIND copper to the substrate
+		    	    			  (a) chemically - using an adhesive
+						  (b) mechanically - using heat and pressure
+						  
+Substrate 		-			- for mechanical support of the PCB :
+						  (a) something electrically insulating - typically fiberglass -OR- 
+						  (b) something insulating and flame-retardant - typically cured epoxy resin)
+						  
+Solder paste		(X.Paste)		-  
+
+Silkscreen
+
+---------------------------------------------------------
+
+	(same as the front but in reverse)		
+
+		^^^
+		|||
+		back
+
+
+_________________________________________________________
+(Courtyard)	- footprint courtyards on the front/back
+(Fab)		- footprint assembly on the front/back
+
+_

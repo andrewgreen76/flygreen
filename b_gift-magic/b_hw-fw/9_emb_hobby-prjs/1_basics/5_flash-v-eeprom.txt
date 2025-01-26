@@ -7,7 +7,8 @@ Flash :
 | . faster read/write time 
 | => memory is quickly overwritten only in large blocks , which is ideal for writing an entire program quickly to a chip 
 | . fast execution of code
-| . fast block-rewrite , but that means that the resident program would have to be written in again 
+| . fast block-rewrite , but that means that the resident program would have to be written in again
+| => stores binary code to define the microcontroller's behavior 
 |
 EEPROM :
 | . expected to have way more read/write operations , "EEPROM has a higher endurance for write/erase cycles" 
@@ -16,6 +17,8 @@ EEPROM :
   |
   . "... still has a finite number of cycles (typically in the range of 1 million), so while it handles frequent
      writes better than flash, it can still degrade over time with excessive use."
+  => stores data - specifically "configuration settings, calibration values, and user preferences"
+  . SRAM stores temporary data - stack variables 
 
 
 ===================================================================================

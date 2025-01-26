@@ -1,0 +1,37 @@
+
+===================================================================================
+FPGA's :
+===================================================================================
+
+ . certain interconnects (lines) are programmed to connect certain gates , thereby simulating a digital circuit
+ . cannot simulate analog IC's 
+
+
+===================================================================================
+NON-FPGA's :
+===================================================================================
+
+ . fixed digital logic
+
+ . "ICs that are not FPGAs include
+    . **analog [/] power management ICs**,
+    . **memory ICs** (such as DRAM or EEPROM), and
+    . **application-specific ICs** (ASICs)
+    "
+    . CPU's
+    
+   
+ . memory IC's :
+    . operate on the concept of DIGITAL STORAGE , not hardware logic (digital logic) that is to do with CPU's 
+    . simply store software , and that software would have logic of its own - software logic
+    . memory is not concerned with logic of any kind 
+
+
+===================================================================================
+PROGRAMMING AN FPGA vs. PROGRAMMING A MICROCONTROLLER :
+===================================================================================
+
+Programming an FPGA - enabling certain interconnects between gates to simulate a circuit.
+Programming a microcontroller - "writing" firmware (binary code) to the flash memory
+
+_

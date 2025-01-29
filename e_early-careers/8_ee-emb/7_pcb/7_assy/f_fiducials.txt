@@ -1,0 +1,4 @@
+"
+Fiducials are small, precise markers on a PCB used as reference points for automated assembly machines to ensure accurate component placement and alignment.
+"
+_

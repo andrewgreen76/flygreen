@@ -1,0 +1,4 @@
+"
+Wave soldering is a process in PCB assembly where a wave of molten solder flows over the board’s underside to simultaneously solder multiple components.
+"
+_

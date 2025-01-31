@@ -1,0 +1,7 @@
+
+ . circuit paper : thermal transferrable paper
+ . ironing into a board of substrate and copper
+ . ferric chloride 
+ . drilling 
+
+_

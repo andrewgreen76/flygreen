@@ -1,0 +1,4 @@
+"
+An STA (Static Timing Analysis) engineer is a professional who analyzes and ensures that a digital circuit or chip design meets its timing requirements, optimizing the design for speed and reliability.
+"
+_

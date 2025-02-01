@@ -3,7 +3,10 @@
 EMBEDDED - SKILLS AND EXPERIENCE 
 ========================================================================================
 
- . USB, SPI, I2C, UART, GPIO , CAN ; DDR3/4 , IP cores , LIN , ADC , etc. - busses / peripherals (w/ microcontrollers) 
+ . USB, SPI, I2C, UART, GPIO , CAN ; DDR3/4 , IP cores , LIN , ADC , etc.
+   	. busses
+	. peripherals (& their controllers)
+	. drivers for peris 
 	. Bash 
 	. C
 	. `make` 
@@ -20,17 +23,16 @@ EMBEDDED - SKILLS AND EXPERIENCE
 
  . writing drivers for actuators and sensors 
  . analog and digital circuits (design)
+ . C++ ; understanding of OOP concepts and OOP techniques in C++ (different types of polymorphism , etc.)
+ . layout tools (Altium Schematic Capture , Altium Designer , Cadence , Mentor , KiCAD)
  . signal conditioning , filters
  . control algorithms (PID , floating point filters)
- . bare-metal systems (w/o OS)
- . layout tools (Altium Schematic Capture , Altium Designer , Cadence , Mentor , KiCAD)
  . HW/SW integration , debugging , triage 
  . embedded toolchains and workflow 
  . FPGA / MCU - design , bring-up
  . STM32 hardware
  . Bluetooth / Wifi / IEEE 802.11
  . System Debug 
- . C++ ; understanding of OOP concepts and OOP techniques in C++ (different types of polymorphism , etc.)
  . high-speed signal integrity design , modeling , standards , validation 
  . Zynq , Blackfin , TI SOC DSP , co-processors 
  . IP protocols, hardware subsystems , interfaces
@@ -40,7 +42,8 @@ EMBEDDED - SKILLS AND EXPERIENCE
  . Android (Debug Bridge) 
  . fixed-point implementation
  . MISRA (automotive safety processes , MISRA C) ; ASIL (four integrity levels in automotive systems) 
- ----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
  . Jira / Confluence
  . Agile methodology 
  . ARM Cortex-M microcontrollers and their peripherals

@@ -1,0 +1,9 @@
+"
+An **active matrix display** is a type of **LCD** that uses a thin-film transistor (**TFT**) for each pixel, allowing for faster response times, better contrast, and improved image quality compared to passive matrix displays.
+"
+
+
+"
+A **passive matrix display** is a type of **LCD** that controls pixels using a grid of conductive traces without individual transistors, resulting in slower response times and lower contrast compared to active matrix displays.
+"
+_

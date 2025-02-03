@@ -3,6 +3,8 @@
 EMBEDDED - SKILLS AND EXPERIENCE 
 ========================================================================================
 
+ . minimum : BS in EE/CE/ISys/CS 
+
  . USB, SPI, I2C, UART, GPIO , CAN ; DDR3/4 , IP cores , LIN , ADC , etc.
    	. busses
 	. peripherals (& their controllers)
@@ -11,9 +13,12 @@ EMBEDDED - SKILLS AND EXPERIENCE
 	. C
 	. `make` 
 	. assembly 
+ . C++ ;
+   understanding of OOP concepts and OOP techniques in C++ (different types of polymorphism , etc.)
  . Python
  
- . emb.OS :
+ . 1-5 years
+   emb.OS :
     . Embedded Linux (kernel configuration and device tree setup) 
     . FreeRTOS
     . TI RTOS
@@ -21,10 +26,11 @@ EMBEDDED - SKILLS AND EXPERIENCE
     . Zephyr
     . bootloaders 
 
+ . Database Management Software 
+ . APIs 
  . writing drivers for actuators and sensors 
  . analog and digital circuits (design)
- . C++ ; understanding of OOP concepts and OOP techniques in C++ (different types of polymorphism , etc.)
- . layout tools (Altium Schematic Capture , Altium Designer , Cadence , Mentor , KiCAD)
+ . layout tools (Altium Schematic Capture , Altium Designer , Cadence Allegro , Mentor , KiCAD)
  . signal conditioning , filters
  . control algorithms (PID , floating point filters)
  . HW/SW integration , debugging , triage 

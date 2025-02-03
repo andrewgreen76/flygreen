@@ -1,0 +1,94 @@
+
+========================================================================================
+EMBEDDED - SKILLS AND EXPERIENCE 
+========================================================================================
+
+ . minimum : BS in EE/CE/ISys/CS 
+
+ . USB, SPI, I2C, UART, GPIO , CAN ; DDR3/4 , IP cores , LIN , ADC , etc.
+   	. busses
+	. peripherals (& their controllers)
+	. drivers for peris 
+	. Bash 
+	. C
+	. `make` 
+	. assembly 
+ . C++ ;
+   understanding of OOP concepts and OOP techniques in C++ (different types of polymorphism , etc.)
+ . Python
+ 
+ . 1-5 years
+   emb.OS :
+    . Embedded Linux (kernel configuration and device tree setup) 
+    . FreeRTOS
+    . TI RTOS
+    . SYSBIOS 
+    . Zephyr
+    . bootloaders 
+
+ . Database Management Software 
+ . APIs 
+ . writing drivers for actuators and sensors 
+ . analog and digital circuits (design)
+ . layout tools (Altium Schematic Capture , Altium Designer , Cadence Allegro , Mentor , KiCAD)
+ . signal conditioning , filters
+ . control algorithms (PID , floating point filters)
+ . HW/SW integration , debugging , triage 
+ . embedded toolchains and workflow 
+ . FPGA / MCU - design , bring-up
+ . STM32 hardware
+ . Bluetooth / Wifi / IEEE 802.11
+ . System Debug 
+ . high-speed signal integrity design , modeling , standards , validation 
+ . Zynq , Blackfin , TI SOC DSP , co-processors 
+ . IP protocols, hardware subsystems , interfaces
+ . JTAG 
+ . cybersecurity related to embedded systems
+ . digital signal processing , digital image processing 
+ . Android (Debug Bridge) 
+ . fixed-point implementation
+ . MISRA (automotive safety processes , MISRA C) ; ASIL (four integrity levels in automotive systems) 
+
+----------------------------------------------------------------------------
+ . Jira / Confluence
+ . Agile methodology 
+ . ARM Cortex-M microcontrollers and their peripherals
+    . bootloaders 
+ . embedded stacks for ARM cores
+ . Yocto Project : custom layers , recipes , BSPs 
+ . firmware quality assurance protocols 
+ . "Understanding of statistical methods including Design of Experiments"
+ . PCIe, MIPI CSI/DSI, USB, 802.3 
+ . Rust 
+ . C#
+ . JS / TS
+ |
+ . LAN drivers
+ |
+ . Java
+ . Perl 
+
+ . AB/Siemens PLCs, fieldbus systems like CAN, Profibus,
+     Ethernet IP, Profinet, ASi
+
+ . ITAR-compliant 
+
+ . medical devices
+
+ . Technical Certificate and/or LEAP or CTE Program Completion 
+
+ . R&D
+ . electromechanical
+ . mechatronic
+ . robotic
+ . IT
+     
+ . motor control and/or material handling systems
+ . storage and retrieval systems
+
+ . Linux 
+
+ . Visual C 
+ . Visual Basic 
+
+_

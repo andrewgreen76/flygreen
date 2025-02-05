@@ -1,6 +1,6 @@
 
-  <- [SKILLS I WANT : COMPUTER BUILD : FAB PRACTICES : KBD , CPU BOARD , LCD SCREEN -> LAPTOP PC -> DESKTOP PC] 
-   + [skills they want : assembly : manuf 1-2 yrs ; certs : IPC-610-A , classes I , II , III ; CompTIA A+]
+  <- [COMPUTER BUILD : FAB PRACTICES : KBD , CPU BOARD , LCD SCREEN -> LAPTOP PC -> DESKTOP PC] 
+   + [assembly : manuf 1-2 yrs ; certs : IPC-610-A , classes I , II , III ; CompTIA A+]
 
 |  	(a - lower pay) Job : Assembler I ; PC Assembler I : laptop/desktop PC / keyboard / LCD assembly 
 |	(b - software) Job : Junior Firmware Engineer, Embedded Systems Intern, Hardware Engineer 

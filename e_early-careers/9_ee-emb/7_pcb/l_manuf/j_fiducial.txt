@@ -1,0 +1,4 @@
+"
+A fiducial mark is typically a circular pad or other shapes of exposed copper that is surrounded by a clearance area. It acts as a reference point for automated machines, such as pick-and-place machines, and also for PCB stencil alignment to ensure that components are accurately placed on the board.
+"
+_

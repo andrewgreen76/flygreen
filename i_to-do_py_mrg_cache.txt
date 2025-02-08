@@ -1,4 +1,9 @@
 
+	    | (cache)	RAM	storage
+------------+---------------------------
+TTL	    |			EEPROM (data) 
+Solid-state |		SRAM	flash (code) 
+
 Wall : 
  + HoMM
  + "Perfect" is the enemy of "great". 

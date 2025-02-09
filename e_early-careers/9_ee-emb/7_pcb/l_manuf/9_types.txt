@@ -1,0 +1,6 @@
+
+ (a) rigid 
+ (b) flex 
+ (c) rigid-flex 
+
+_

@@ -1,0 +1,24 @@
+
+Not all PCBs are alike. 
+Not all rigid PCBs are alike.
+...
+
+
+===================================================================================
+CHINESE-MADE :
+===================================================================================
+
+ . cheap (never mind the shipping cost) 
+ . for hobbyists 
+ . FR-4 substrates 
+
+
+===================================================================================
+AMERICAN-MADE :
+===================================================================================
+
+ . premium-grade
+ . very expensive ... like, Big-Tech Top-Dog -expensive 
+ . FR-4 substrates 
+
+_

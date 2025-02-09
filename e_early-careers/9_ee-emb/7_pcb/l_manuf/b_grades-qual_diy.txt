@@ -1,0 +1,28 @@
+
+Not all PCBs are alike. 
+Not all rigid PCBs are alike.
+...
+
+
+===================================================================================
+DIY (HOME-MADE) : 
+===================================================================================
+
+Method A (front and back) : 
+ . circuit paper : thermal transferrable paper
+ . toner mask deposition - ironing toner powder onto a board of substrate and copper
+ |
+ . etching chemically - ferric chloride 
+ . drilling / deburring / cleaning holes 
+ . PCBA 
+
+
+Method B :
+ . fiberglass / paper
+   . "... paper can serve as a basis for a PCB when used in paper-based phenolic laminates,
+      such as FR-2, ... common in low-cost electronics."
+ . FR-2
+ . copper layer 
+ . MSLA resin printer
+
+_

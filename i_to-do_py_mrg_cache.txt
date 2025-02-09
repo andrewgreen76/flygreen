@@ -1,4 +1,23 @@
 
+Apple - 3.4M
+Cisco
+Huawei
+Bosch
+Tesla
+|
+Google
+IBM
+Intel
+NVIDIA 
+|
+Taiwan Semic - 1.1M
+IBM - 200K
+Motorola - 82K 
+Dell - 79K
+HP - 32K
+Hewlett-Packard - 28K
+Arrow - 7K
+
 	    | (cache)	RAM	storage
 ------------+---------------------------
 TTL	    |			EEPROM (data) 

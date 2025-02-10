@@ -1,0 +1,21 @@
+ 
+ . copper + substrate
+ 
+ -> drill
+ -> electroplate
+ 
+ -> resist application
+    . resistive mask (from a Gerber file ?) 
+    . photoresist
+    
+ -> etching (the negative of the circuit pattern) 
+    . chemical etching 
+      (a) ferric chloride
+      (b) boiling alkaline solution
+       . photoresist wash-off 
+    . milling
+
+ -> soldermask application
+ -> silkscreen application 
+
+_

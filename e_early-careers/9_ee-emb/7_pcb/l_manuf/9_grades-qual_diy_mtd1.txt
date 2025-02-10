@@ -5,10 +5,10 @@ Not all rigid PCBs are alike.
 
 
 ===================================================================================
-DIY (HOME-MADE) : 
+DIY (HOME-MADE) - METHOD 1 : 
 ===================================================================================
 
-Method A (front and back) : 
+Method 1 (top-down treatment) : 
  . circuit paper : thermal transferrable paper
  . toner mask deposition - ironing toner powder onto a board of substrate and copper
  |
@@ -16,15 +16,19 @@ Method A (front and back) :
  . drilling / deburring / cleaning holes 
  . PCBA 
 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 
-Method B :
- . fiberglass / paper (FR-2) 
-   . "... paper can serve as a basis for a PCB when used in paper-based phenolic laminates,
-      such as FR-2, ... common in low-cost electronics."
- . copper layer
- . photoresist
- |
- . MSLA resin printer
+===================================================================================
+DEVELOPING A PHOTORESIST : 
+===================================================================================
+
+"
+Developing the photoresist means using a chemical solution to dissolve the unexposed
+or exposed areas (depending on the type) after UV exposure, REVEALING THE PCB PATTERN
+FOR ETCHING.
+"
 
 
 ===================================================================================

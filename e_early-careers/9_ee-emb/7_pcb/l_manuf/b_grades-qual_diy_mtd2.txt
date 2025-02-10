@@ -1,0 +1,27 @@
+
+===================================================================================
+DIY (HOME-MADE) - METHOD 2 : 
+===================================================================================
+
+Method B (bottom-up exposure) :
+ |
+ . come up with a stock card of substrate and copper : 
+ | . fiberglass / paper (FR-2) 
+ |   . "... paper can serve as a basis for a PCB when used in paper-based phenolic laminates,
+ |	such as FR-2, ... common in low-cost electronics."
+ | . copper layer
+ |
+ . apply paper (with the circuit pattern) and aluminum foil
+ |
+ . apply photoresist to copper/substrate 
+ | . positive photoresist
+ | . negative photoresist
+ |
+ . develop photoresist :
+ | . expose to UV light from the bottom (using an MSLA (LCD) resin printer) 
+ | . apply a developer (chemical solution) for etching 
+ |
+ . drilling / deburring / cleaning holes 
+ . PCBA 
+
+_

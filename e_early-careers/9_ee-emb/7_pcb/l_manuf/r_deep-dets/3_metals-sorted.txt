@@ -51,8 +51,8 @@ BY THERMAL CONDUCTIVITY
 BY WEIGHT 
 ===================================================================================
 
- . Gold – 19.32 g/cm³
  . Platinum – 21.45 g/cm³
+ . Gold – 19.32 g/cm³
  . Palladium – 12.02 g/cm³
  . Lead – 11.34 g/cm³
  . Silver – 10.49 g/cm³
@@ -67,15 +67,16 @@ BY WEIGHT
 BY PROPERTIES 
 ===================================================================================
 
- . gold
- . iron
- . copper 
- . lead
- . nickel
- . palladium
- . platinum
- . tin 
- . silver 
- . aluminum 
+ . gold - does not rust or tarnish 
+ . nickel - hardly ever rusts 
+ . iron - great for electromagnetic applications 
+ . silver - exceptional electro-conductivity 
+ . copper - exceptional electro-conductivity
+ . lead - low melting point => perfect for soldering ... but it's toxic ; ability to block radiation 
+ . palladium - catalysis (w/ low energy uptake) ; ability to absorb , store , purify hydrogen
+ . platinum - catalysis (w/ low energy uptake) 
+ . tin - low melting point => perfect for soldering (... as well as corrosion-resistant coatings) 
+ . aluminum - durability 
+ . chromium - resistance to oxidation 
 
 _

@@ -1,0 +1,9 @@
+"
+A connector is an electromechanical device that joins electrical circuits together, allowing signals or power to pass between them.
+"
+
+
+"
+Using a wire instead of a connector creates a permanent or semi-permanent electrical connection but lacks the flexibility for easy disconnection or modularity.
+"
+_

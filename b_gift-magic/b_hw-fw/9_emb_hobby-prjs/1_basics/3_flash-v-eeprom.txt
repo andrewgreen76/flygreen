@@ -1,6 +1,6 @@
 
 ===================================================================================
-(SPI) FLASH MEMORY vs. EEPROM - TRADE-OFFS
+(SPI) FLASH MEMORY vs. EEPROM - APPLICATIONS (PROS AND CONS) 
 ===================================================================================
 
 Flash : 
@@ -25,7 +25,7 @@ EEPROM :
 
 
 ===================================================================================
-(SPI) FLASH MEMORY vs. EEPROM - TRADE-OFFS
+(SPI) FLASH MEMORY vs. EEPROM - PROGRAMMING 
 ===================================================================================
 
 Flash :
@@ -37,6 +37,23 @@ EEPROM :
  . "User settings and preferences make their way into the EEPROM of an Arduino MCU by using specific **EEPROM
     library functions** in the Arduino code (e.g., `EEPROM.write()` and `EEPROM.read()`) to store and retrieve
     data at specified memory addresses in the EEPROM, allowing it to persist between power cycles."
+
+
+===================================================================================
+(SPI) FLASH MEMORY vs. EEPROM - TECHNOLOGY 
+===================================================================================
+
+They are structured differently. 
+
+Flash :
+ . floating-gate MOSFET memory cells
+ . one transistor per bit
+ . an entire block of cells (code) can be erased 
+
+EEPROM :
+ . floating-gate MOSFET memory cells 
+ . two transistors per bit
+ . second transistor allows for memory location addressability (i.e., of individual pieces of data) 
 
 
 ===================================================================================

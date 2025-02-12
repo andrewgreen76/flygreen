@@ -1,0 +1,4 @@
+"
+In PCB design, a net is a connection that electrically links two or more components through conductive traces or planes.
+"
+_

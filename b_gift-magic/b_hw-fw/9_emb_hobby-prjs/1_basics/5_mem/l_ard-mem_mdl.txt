@@ -1,0 +1,13 @@
+
+===================================================================================
+MODELS OF ARDUINO MEMORY CHIPS : 
+===================================================================================
+
+ . flash on Arduino  - ROM - code (programmable ROM)	- model : ATmega328P
+ . EEPROM on Arduino - ROM - data 			- model : ATmega328P
+ . SRAM on Arduino   - RAM   				- model : ATmega328P
+
+It's all integrated into one MCU chip. 
+
+
+_

@@ -1,6 +1,6 @@
 
 ===================================================================================
-THE HISTORY OF MEMORY/STORAGE TECHNOLOGY : 
+THE HISTORY OF MEMORY TECHNOLOGY : 
 ===================================================================================
 
 Memory : 
@@ -8,9 +8,6 @@ Memory :
  . EEPROM on Arduino - ROM - data
  . SRAM on Arduino   - RAM 
 
-Storage :
- . USB flash drive     - storage 
- . MicroSD memory card - storage 
- . SSD 	   	       - storage 
+[TO BE DEVELOPED FURTHER] 
 
 _

@@ -1,4 +1,0 @@
-"
-Software is usually embedded in hardware devices such as microcontrollers, FPGAs, and ASICs, where it provides low-level control, functionality, and interaction with sensors, actuators, or other system components.
-"
-_

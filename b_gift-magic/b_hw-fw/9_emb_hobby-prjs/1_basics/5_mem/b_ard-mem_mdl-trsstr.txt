@@ -1,0 +1,21 @@
+
+===================================================================================
+MODELS OF ARDUINO MEMORY CHIPS : 
+===================================================================================
+
+ . flash on Arduino  - ROM - code (programmable ROM)	- model : ATmega328P
+ . EEPROM on Arduino - ROM - data 			- model : ATmega328P
+ . SRAM on Arduino   - RAM   				- model : ATmega328P
+
+It's all integrated into one MCU chip. 
+
+
+===================================================================================
+TRANSISTOR TYPES IN ARDUINO MEMORY CHIPS : 
+===================================================================================
+
+ . flash on Arduino  - ROM - code (programmable ROM)	- trsstr type : floating-gate transistors 
+ . EEPROM on Arduino - ROM - data 			- trsstr type : floating-gate transistors 
+ . SRAM on Arduino   - RAM   				- trsstr type : bistable latches 
+
+_

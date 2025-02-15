@@ -1,4 +1,8 @@
 
+===================================================================================
+VOLTAGE REQUIREMENTS ON ARDUINO : 
+===================================================================================
+
 Operating voltage :
  . for POWERING AND RUNNING the microcontroller
  . LOWER voltage - 5V via USB

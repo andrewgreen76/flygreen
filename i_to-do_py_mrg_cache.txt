@@ -1,27 +1,8 @@
 
-Apple - 3.4M
-Cisco
-Huawei
-Bosch
-Tesla
-|
-Google
-IBM
-Intel
-NVIDIA 
-|
-Taiwan Semic - 1.1M
-IBM - 200K
-Motorola - 82K 
-Dell - 79K
-HP - 32K
-Hewlett-Packard - 28K
-Arrow - 7K
-
-	    | (cache)	RAM	storage
-------------+---------------------------
-TTL	    |			EEPROM (data) 
-Solid-state |		SRAM	flash (code) 
+You are a real engineer if :
+ . you are better at programming/HDL languages than human languages
+ => you are better at connecting with technology than connecting with people 
+ . you are more fascinated by artificial intelligence than real , human intelligence
 
 Wall : 
  + HoMM
@@ -34,8 +15,6 @@ list of projects :
  - EEPROM programmers (manual and microcontroller-based)
  - LCD programmer
  - flashlight with a prototyping board 
- 
-char-facts
 
 Relevant project : designing and prototyping a microcontroller that emulates PC hardware.
  . modular keyboard

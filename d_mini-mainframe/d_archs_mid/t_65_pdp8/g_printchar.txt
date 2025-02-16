@@ -1,0 +1,20 @@
+
+Q : "one sentence: how does the PDP-8 print a specific character on an ASR 33 printer?"
+
+A : "The PDP-8 prints a specific character on an ASR 33 printer by outputting the character's ASCII code to the teletype's output data register and triggering the printer via the TTY output instruction (`TSF` followed by `TLS`)."
+
+
+
+Q : "one sentence: did it have an operating system on ROM or external storage"
+
+A : "The PDP-8 did not have an operating system in ROM; its OS, such as OS/8, was loaded from external storage like paper tape, disk, or DECtape."
+
+
+
+Q : "one sentence: does it need an operating system for sending ASCII characters to the output data register of the teletype?"
+
+A : "No, the PDP-8 does not need an operating system to send ASCII characters to the teletype; a simple program using I/O instructions (`TSF` and `TLS`) can directly control the output."
+
+_
+
+

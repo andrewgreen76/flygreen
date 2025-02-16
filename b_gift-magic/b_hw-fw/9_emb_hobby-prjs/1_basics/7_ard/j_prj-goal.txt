@@ -8,16 +8,30 @@ Stages :
  . resources : Andre's book "Design Your Video Game Console" book
    . DjamalUK
 
- . parts : 
-   + OLED    	        - datasheet
-     . PLAY AROUND WITH THE OLED , PROGRAM IT , MANIPULATE IT 
-   (a) ATtiny85 MCU     - datasheet 
-   (b) Arduino Uno (R3) - datasheet 
+ . parts :
+   + OLED w/ I2C     	- datasheet
+     . PLAY AROUND WITH THE OLED , PROGRAM IT , MANIPULATE IT
+   + 6-line SPI programming cable 
+   + toggle on/off switch 
    (+ piezo for sound)
 
- . ATtiny85 API in C 
- . Arduino's OLED API in C 
- (. Arduino's I/O instructions)
+
+   (a) ATtiny85 + PC 
+    | . ATtiny--[USB]--PC  
+    | . datasheet
+    | . ATtiny85 API in C
+    | . I/O instructions
+    | . programmability pins : Vcc , MOSI , MISO , SCK , RESET , GND
+    | ? Nano/Uno-based programmer - to program the MCU's flash ?
+    | 
+   (b) ATtiny85 + PC + Arduino Uno (R3) 
+    | . ATtiny--[SPI6]--Uno--[USB]--PC  
+    | . datasheet
+    | . Arduino's OLED API in C
+    | . I/O instructions
+    | 
+   (b) ATtiny85 + some other programming board + SD card + USB charger 
+
 
  . BREADBOARD prototyping : pushdown switches
  -> PCB des/manuf/assy 

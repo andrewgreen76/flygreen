@@ -7,19 +7,20 @@ Stages :
 
  . resources : Andre's book "Design Your Video Game Console" book
    . DjamalUK
-   + ATtiny85 MCU     - datasheet 
-   + Arduino Uno (R3) - datasheet 
-   + OLED    	      - datasheet
 
-   . PLAY AROUND WITH THE OLED , PROGRAM IT , MANIPULATE IT 
+ . parts : 
+   + OLED    	        - datasheet
+     . PLAY AROUND WITH THE OLED , PROGRAM IT , MANIPULATE IT 
+   (a) ATtiny85 MCU     - datasheet 
+   (b) Arduino Uno (R3) - datasheet 
+   (+ piezo for sound)
 
-   . Arduino's ATtiny85 API in C 
-   . Arduino's OLED API in C 
-   (. Arduino's I/O instructions)
-   
-   . breadboard prototyping : push-down switches
-   -> PCB des/manuf/assy 
-   
+ . ATtiny85 API in C 
+ . Arduino's OLED API in C 
+ (. Arduino's I/O instructions)
+
+ . BREADBOARD prototyping : pushdown switches
+ -> PCB des/manuf/assy 
  . completion
 
 _

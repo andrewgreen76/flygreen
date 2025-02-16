@@ -43,6 +43,10 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Evolution of memory (and storage) technology. 
+Early computers from 1938 to 1965 - reprise. 
+PCB design , manufacturing , and assembly. 
+
 Semiconductor pre-process and post-process details. 
 
 LCD technology : 

@@ -4,21 +4,6 @@
 
 
 ===================================================================================
-THE HISTORY OF MEMORY TECHNOLOGY : 
-===================================================================================
-
-Memory : 
- . EEPROM on Arduino - ROM - data
- . flash on Arduino  - ROM - code (programmable ROM) 
- . SRAM on Arduino   - RAM 
-
-Storage : 
- . USB flash - storage 
-
-[TO BE DEVELOPED FURTHER] 
-
-
-===================================================================================
 TRANSISTOR TYPES IN ARDUINO MEMORY CHIPS : 
 ===================================================================================
 

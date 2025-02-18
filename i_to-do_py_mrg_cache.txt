@@ -1,5 +1,29 @@
 
-History of microcontrollers. 
+Leaving Las Vegas
+-> History of microcontrollers
+-> PrideStaff interview prep
+-> PrideStaff interview
+-> assess options / History of microcontrollers 
+
+hand soldering classes
+5-day
+$1740
+|
+carla@eptac.com:
+get empl
+company name
+phys address
+email/phone
+
+whse worker : 
+automation pkwy
+8-430
+345-1145
+$21/hr
+ft
+Adecco
+Temp-2-Hire
+Kits - electronic components 
 
 You are a real engineer if :
  . you are better at programming/HDL languages than human languages

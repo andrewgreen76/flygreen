@@ -1,6 +1,6 @@
 
 ===================================================================================
-BUSINESS CARD -SIZE GAME CONSOLE : 
+TINY GAME CONSOLE : DESIGN GOALS -> PROGRAMMABILITY OPTIONS 
 ===================================================================================
 
    (a) ATtiny85 + PC 
@@ -15,14 +15,12 @@ BUSINESS CARD -SIZE GAME CONSOLE :
     | . datasheet
     | . ATtiny85 API in C
     | . OLED API in C
-    | . I/O instructions
-    | . programmability pins : Vcc , MOSI , MISO , SCK , RESET , GND
+    | . 4-line I2C protocol for the OLED : Vcc , GND , SCL , SDA 
+    | . ISP programmability pins : Vcc , MOSI , MISO , SCK (clock) , RESET , GND
     | . Nano/Uno-based programmer - to program the MCU's flash 
+    | . I/O instructions
     | 
    (c) ATtiny85 + some other programming board + SD card + USB charger 
       . [see (b)]
-
- -> PCB des/manuf/assy 
- . completion
 
 _

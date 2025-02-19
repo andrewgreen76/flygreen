@@ -1,0 +1,4 @@
+"
+In embedded engineering, **ISP (In-System Programming)** refers to the ability to program a microcontroller or other programmable device directly on the circuit board, without needing to remove it, typically via interfaces like **SPI, JTAG, or UART**.
+"
+_

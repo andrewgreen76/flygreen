@@ -1,0 +1,32 @@
+
+===================================================================================
+TINY GAME CONSOLE - PCB DESIGN : 
+===================================================================================
+
+ . tool of choice : EasyEDA/JLCPCB , KiCAD , Altium CircuitMaker
+ . dimensions : 40mm x 70mm = 1575 mil x 2756 mil (1.57" x 2.76") 
+ . round corners
+ . thickness : 1.6(mm?)
+ . trace width : 0.4mm = 16 mil
+ . case security vias (fiducials?) : 3mm = 118 mil
+ . select a color for the soldermask
+
+ . design component placement to the measurements of the pre-collected parts 
+
+
+===================================================================================
+TINY GAME CONSOLE - PCB MANUFACTURING : 
+===================================================================================
+
+ . 
+
+
+===================================================================================
+TINY GAME CONSOLE - PCB ASSEMBLY : 
+===================================================================================
+
+ . 
+
+ -> completion
+
+_

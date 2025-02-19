@@ -3,23 +3,6 @@
 BUSINESS CARD -SIZE GAME CONSOLE : 
 ===================================================================================
 
-Stages :
-
- . resources :
-   . Andre's book "Design Your Video Game Console" book
-   . DjamalUK
-
- . parts :
-   + OLED w/ I2C     	- datasheet
-     . PLAY AROUND WITH THE OLED , PROGRAM IT , MANIPULATE IT
-   + 6-line SPI programming cable
-   + coin cell battery 
-   + toggle on/off switch
-   + an LED 
-   (+ piezo for sound)
-   . BREADBOARD prototyping : pushdown switches (3-4) 
-   . pull-down resistors 
-
    (a) ATtiny85 + PC 
     | . ATtiny--[USB]--PC  
     | . datasheet

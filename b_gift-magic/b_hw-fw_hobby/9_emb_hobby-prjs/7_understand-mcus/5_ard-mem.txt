@@ -7,12 +7,10 @@ Arduino Uno R3 :
  . flash on Arduino  - ROM - code (programmable ROM)	- model : ATmega328P
  . EEPROM on Arduino - ROM - data 			- model : ATmega328P
  . SRAM on Arduino   - RAM   				- model : ATmega328P
- => All memory - volatile and non-volatile - is integrated into one MCU chip.
- . Atmel's ATMEGA328P-PU 
+ => All memory - volatile and non-volatile - is integrated into one MCU chip - the Atmel's ATMEGA328P-PU 
 
 
 Arduino Uno R4 : 
- . Renesas' R7FA4M1AB3CFM#AA0 
- . 
+ . memory on Renesas' R7FA4M1AB3CFM#AA0 
 
 _

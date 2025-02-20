@@ -1,0 +1,24 @@
+
+===================================================================================
+TINY GAME CONSOLE - PARTS : 
+===================================================================================
+
+ . breadboard prototyping 
+
+ . parts :
+   + programmed 
+   + OLED (ssd1306) w/ I2C     	- datasheet
+     . PLAY AROUND WITH THE OLED , PROGRAM IT , MANIPULATE IT
+   + 6-line SPI programming cable
+   + coin cell battery 
+   + toggle on/off switch
+   + an 0805 LED 
+   (+ piezo for sound)
+   + pushdown switches : 
+     (a) 2 directions + action button = 3 buttons 
+     (b) 4 directions + action button = 5 buttons
+   + pull-down resistors :
+     (a) from Djamal.UK : (1 x 10K) + (2 x 22K) + (2 x 33K) + (2 x 88K)
+     (b) from Electronoobs : (5 x 1K) + (1 x 6.8K) 
+
+_

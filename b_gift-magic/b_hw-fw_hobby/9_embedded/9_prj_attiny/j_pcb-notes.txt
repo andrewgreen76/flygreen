@@ -4,7 +4,9 @@ TINY GAME CONSOLE - PCB DESIGN :
 ===================================================================================
 
  . tool of choice : EasyEDA/JLCPCB , KiCAD , Altium CircuitMaker
- . dimensions : 40mm x 70mm = 1575 mil x 2756 mil (1.57" x 2.76") 
+ . dimensions :
+   (a) 40mm x 70mm = 1575 mil x 2756 mil (1.57" x 2.76")
+   (b) 40.5mm x 84mm = 1594 mil x 3307 mil (1.59" x 3.31") 
  . round corners
  . thickness : 1.6(mm?)
  . trace width : 0.4mm = 16 mil

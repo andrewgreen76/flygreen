@@ -1,6 +1,22 @@
 
+Slingshot solutionS/connectionS
+fremont
+|
+Cali
+840 the alameda 95126 
+automotive pkway
+hi-solutions
+swing: 345p-1215a
+23.50/hr
+anytime
+
 -> connect with Adecco
 -> make your own PCB (ferric chloride) 
+
+Use an assembler to write a subset of same-flavor assembly (cross-assembly). 
+
+(a) figure out the resistance values for the circuit 
+(b) write a linker using x86 assembly 
 
 hand soldering classes
 5-day

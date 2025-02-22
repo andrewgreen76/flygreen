@@ -37,7 +37,9 @@ Developing the photoresist means using a chemical solution to dissolve the unexp
 or exposed areas (depending on the type) after UV exposure, REVEALING THE PCB PATTERN
 FOR ETCHING.
 "
- . NaOH , a.k.a. lye 
+ + 1.4g of NaOH , a.k.a. lye
+ + 500mL of tap water 
+ . shake well 
 
 
 ===================================================================================

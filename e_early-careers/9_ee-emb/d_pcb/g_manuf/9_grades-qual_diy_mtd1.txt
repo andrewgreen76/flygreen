@@ -16,33 +16,4 @@ Method 1 (top-down treatment) :
  . drilling / deburring / cleaning holes 
  . PCBA 
 
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
-
-===================================================================================
-DEVELOPING A PHOTORESIST : 
-===================================================================================
-
-"
-Developing the photoresist means using a chemical solution to dissolve the unexposed
-or exposed areas (depending on the type) after UV exposure, REVEALING THE PCB PATTERN
-FOR ETCHING.
-"
-
-
-===================================================================================
-CURING LAYERS : 
-===================================================================================
-
- . to solidify a layer [with something] 
- . to apply heat, UV light, or a chemical - to solidify/strengthen a layer (solder mask ,
-     photoresist , adhesives , etc.) 
-
- . "Curing resin means exposing it to UV light or heat to initiate a chemical reaction
-     that hardens and solidifies the material."
-
- . "MSLA stands for Masked Stereolithography [Apparatus], a 3D printing technology that
-     uses an LCD screen to mask UV light and selectively cure resin layer by layer."
-
 _

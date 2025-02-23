@@ -1,0 +1,9 @@
+"
+For a load to be **forward-biased**, it means that a voltage is applied in the direction that allows **current to flow freely**, as in a diode conducting in its forward direction.
+"
+
+
+"
+For a load to be **reverse-biased**, it means that a voltage is applied in the direction that **blocks or significantly restricts current flow**, as in a diode in its non-conducting state.
+"
+_

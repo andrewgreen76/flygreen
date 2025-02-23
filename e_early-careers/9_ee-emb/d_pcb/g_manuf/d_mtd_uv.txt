@@ -3,7 +3,7 @@
 DIY (HOME-MADE) - METHOD 2 : 
 ===================================================================================
 
-Method B (bottom-up exposure) :
+(Bottom-up exposure) :
  |
  . come up with a stock card of substrate and copper : 
  | . fiberglass / paper (FR-2) 
@@ -23,6 +23,10 @@ Method B (bottom-up exposure) :
  |
  . drilling / deburring / cleaning holes 
  . PCBA 
+
+ + SMT-friendly
+ + traces remain thin 
+
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 

@@ -8,12 +8,13 @@ Not all rigid PCBs are alike.
 DIY (HOME-MADE) - METHOD 1 : 
 ===================================================================================
 
-Method 1 (top-down treatment) : 
+(Top-down treatment) : 
  . circuit paper : thermal transferrable paper
  . toner mask deposition - ironing toner powder onto a board of substrate and copper
- |
  . etching chemically - ferric chloride 
  . drilling / deburring / cleaning holes 
  . PCBA 
+ |
+ - traces get too thick , giving rise to bridging - a very crude , quick-and-dirty method 
 
 _

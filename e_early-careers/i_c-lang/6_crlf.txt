@@ -1,0 +1,8 @@
+
+Line feed (LF , \n) : 
+ . tracks the I/O cursor to the start of the next line
+
+Carriage return (CR , \r) :
+ . tracks the I/O cursor to the start of the current line , allowing you to overwrite it completely 
+
+_

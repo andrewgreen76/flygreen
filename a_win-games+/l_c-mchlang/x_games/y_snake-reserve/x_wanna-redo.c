@@ -28,7 +28,7 @@ struct SnakeType {
 };
 
 struct GamespaceType {
-  wchar_t grid_mem[GRID_WIDTH][GRID_HEIGHT];  
+  wchar_t grid[GRID_WIDTH][GRID_HEIGHT];  
   struct SnakeType snake_qlog;  // Will keep track of the snake's whereabouts. 
   struct PieceType food;
 };
@@ -199,15 +199,15 @@ void init_gridbox(){
 int main() {
   setlocale(LC_ALL, "en_US.UTF-8");  // Ensure UTF-8 locale
   
-  init_gamespace_state();
+  init_gridbox();
   
   // Game loop :
   while(!good_to_exit) {
     redraw_all();
-    assess_snakehead();
+    //assess_snakehead();
     react_to_key();
     if(good_to_exit) break; 
-    advance_gamestate();
+    //advance_gamestate();
   }
 
   wipe_screen();

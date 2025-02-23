@@ -2,8 +2,9 @@
 #include <assert.h>
 
 int main(){
-  int x = 1;
-  assert(!x);
+  int x = 0;
+  assert(x);
+  printf("Check\n");
 
   return 0;
 }

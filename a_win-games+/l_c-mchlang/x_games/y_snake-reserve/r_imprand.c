@@ -14,14 +14,14 @@ int main() {
   srand(time(NULL));
   int randum;
   int lsdigit;
-  const int truncs_allowed = 7;  
+  const int truncs_allowed = 7;  // To cut large numbers ? 
   int abs_truncr;    // Num of least sig digits to truncate = abs( truncs_allowed - lsdigit(0-9) )
 
   // =============================== PROGRAM LOGIC : ================================
   while(1) {
-    randum = rand();
-    lsdigit = randum % 10;
-    abs_truncr = abs(truncs_allowed - lsdigit);
+    randum = rand();        // xxxxxx
+    lsdigit = randum % 10;  // _____x
+    abs_truncr = abs(truncs_allowed - lsdigit);  // s
     randum = randum / (int) pow( (double)10 , (double)abs_truncr );
     printf("Random number: %d\n", randum);
   }

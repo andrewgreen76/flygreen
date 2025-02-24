@@ -7,14 +7,14 @@
 #include <math.h>
 
 #define ENABLE_PRINTDEBUG 1
+#define SNAKE_MAXLOGSIZE 600
+//
+// "Error : const is not a compile-time constant for array sizes."
 #define GRID_WIDTH 135
 #define GRID_HEIGHT 37
-#define SNAKE_MAXLOGSIZE 600
-
-int stdin_ch = 0; 
 char gridmem[GRID_WIDTH][GRID_HEIGHT];
 
-int below_screen = 0;
+int stdin_ch = 0; 
 
 struct Coordinate {
   int x , y;
@@ -147,8 +147,6 @@ void print_gridmem(){
       printf("%c" , gridmem[x][y]);
     printf("\n");
   }
-
-  if(ENABLE_PRINTDEBUG) printf("\n%d\n" , below_screen);
 }
 
 /********************************************************************/
@@ -193,11 +191,10 @@ void populate_snake2gridmem(){
 /********************************************************************/
 /********************************************************************/
 
-int get_contrrand(int constrain)
+int get_constrrand(int constrain)
 {
-  srand(time(NULL));
-  int randum = rand() / constrain;
-  int below_screen = randum;
+  int randum = rand() % constrain;  
+  //if(ENABLE_PRINTDEBUG) printf("Generated : %d\n" , randum);
   
   return randum;
 }
@@ -207,17 +204,28 @@ int get_contrrand(int constrain)
 /********************************************************************/
 
 void populate_food(){
-  int blankchar_spotted = 0;
-  int x , y; 
+
+  int 
+    interm_x_found = 0 , 
+    interm_y_found = 0 , 
+    blankchar_spotted = 0
+    ;
 
   while(!blankchar_spotted){
-    x = get_contrrand(GRID_WIDTH);
-    y = get_contrrand(GRID_HEIGHT);
-    
-    if(gridmem[x][y] == ' '){
-      gridmem[x][y] = 'Q';
-      blankchar_spotted = 1;
-    }    
+    // Generated rands are expected to be positive (filtering out top and left margins)
+    // => will serve as their own positive-found flags : 
+    while(!interm_x_found) interm_x_found = get_constrrand(GRID_WIDTH);  // Lock in on x.
+    while(!interm_y_found) interm_y_found = get_constrrand(GRID_HEIGHT); // Lock in on y ... and check gridchar validity.
+  
+    if(gridmem[interm_x_found][interm_y_found] == ' '){
+      gridmem[interm_x_found][interm_y_found] = 'Q';
+      blankchar_spotted = 1;  // Success. 
+    }
+    else{  // Fail : clear rands as flags :
+      // blankchar_spotted = 0; 
+      interm_x_found = 0;
+      interm_y_found = 0;
+    }
   }
 }
 
@@ -229,7 +237,15 @@ void init_game(){
   init_gridmem();
   plan_snakespecs();
   populate_snake2gridmem();
-  // populate_food();
+  populate_food();
+}
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+void move_snake(){
+  
 }
 
 /********************************************************************/
@@ -238,6 +254,7 @@ void init_game(){
 
 int main() {
 
+  srand(time(NULL));
   int asked_to_exit = 0 , newgame_reason = 1;
   
   // Game loop.
@@ -249,11 +266,12 @@ int main() {
     }
     clear_screen();
     print_gridmem();
-    asked_to_exit = react_to_key();
-    //advance_gamestate();
+    asked_to_exit = react_to_key();  // Already sleep-ticking here.
+    move_snake();
     //newgame_reason = check_headcollision();
   }
   
   clear_screen();
+  //system("clear ; ls -1");
   return 0;
 }

@@ -1,4 +1,4 @@
-gcc 1_snake_dumb_crude.c -lm
+gcc 0_snake_dumb_crude.c -lm
 
 if [ -e ./a.out ]; then
     ./a.out

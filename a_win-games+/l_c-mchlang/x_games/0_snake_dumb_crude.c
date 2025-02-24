@@ -2,14 +2,19 @@
 #include <unistd.h>
 #include <termios.h>
 #include <fcntl.h>
+#include <stdlib.h>
+#include <time.h>
+#include <math.h>
 
-#define ENABLE_PRINTDEBUG 0
+#define ENABLE_PRINTDEBUG 1
 #define GRID_WIDTH 135
 #define GRID_HEIGHT 37
 #define SNAKE_MAXLOGSIZE 600
 
 int stdin_ch = 0; 
 char gridmem[GRID_WIDTH][GRID_HEIGHT];
+
+int below_screen = 0;
 
 struct Coordinate {
   int x , y;
@@ -142,6 +147,8 @@ void print_gridmem(){
       printf("%c" , gridmem[x][y]);
     printf("\n");
   }
+
+  if(ENABLE_PRINTDEBUG) printf("\n%d\n" , below_screen);
 }
 
 /********************************************************************/
@@ -149,15 +156,15 @@ void print_gridmem(){
 /********************************************************************/
 
 void plan_snakespecs(){
-  snake.traillog[2].x = GRID_WIDTH/2;
-  snake.traillog[2].y = GRID_HEIGHT/2;
-  snake.traillog[1].x = GRID_WIDTH/2;
-  snake.traillog[1].y = GRID_HEIGHT/2 + 1;
   snake.traillog[0].x = GRID_WIDTH/2;
   snake.traillog[0].y = GRID_HEIGHT/2 + 2;
+  snake.traillog[1].x = GRID_WIDTH/2;
+  snake.traillog[1].y = GRID_HEIGHT/2 + 1;
+  snake.traillog[2].x = GRID_WIDTH/2;
+  snake.traillog[2].y = GRID_HEIGHT/2;
   //
-  snake.frontcoord_logind = 2;
   snake.rearcoord_logind = 0;
+  snake.frontcoord_logind = 2;
   //
   snake.headdir = 'u';
 }
@@ -166,8 +173,52 @@ void plan_snakespecs(){
 /********************************************************************/
 /********************************************************************/
 
+// Plot snake pieces by coords (from rear to front) :
+
 void populate_snake2gridmem(){
-  //gridmem[][] = '*';
+  
+  int x , y , logind;
+
+  for(logind = snake.rearcoord_logind ;
+      logind <= snake.frontcoord_logind ;
+      logind++)
+  {
+    x = snake.traillog[logind].x;
+    y = snake.traillog[logind].y;
+    gridmem[x][y] = 'S';
+  }
+}
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+int get_contrrand(int constrain)
+{
+  srand(time(NULL));
+  int randum = rand() / constrain;
+  int below_screen = randum;
+  
+  return randum;
+}
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+void populate_food(){
+  int blankchar_spotted = 0;
+  int x , y; 
+
+  while(!blankchar_spotted){
+    x = get_contrrand(GRID_WIDTH);
+    y = get_contrrand(GRID_HEIGHT);
+    
+    if(gridmem[x][y] == ' '){
+      gridmem[x][y] = 'Q';
+      blankchar_spotted = 1;
+    }    
+  }
 }
 
 /********************************************************************/
@@ -178,7 +229,7 @@ void init_game(){
   init_gridmem();
   plan_snakespecs();
   populate_snake2gridmem();
-  // put_food
+  // populate_food();
 }
 
 /********************************************************************/

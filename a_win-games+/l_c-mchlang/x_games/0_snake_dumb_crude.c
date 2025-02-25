@@ -6,12 +6,13 @@
 #include <time.h>
 #include <math.h>
 
-#define ENABLE_PRINTDEBUG 1
-#define SNAKE_MAXLOGSIZE 600
+#define ENABLE_PRINTDEBUG 0
+#define MICROSECS 400000
+#define SNAKE_MAXTRAILLEN 600
 //
 // "Error : const is not a compile-time constant for array sizes."
-#define GRID_WIDTH 135
-#define GRID_HEIGHT 37
+#define GRID_WIDTH 22
+#define GRID_HEIGHT 17
 char gridmem[GRID_WIDTH][GRID_HEIGHT];
 
 int stdin_ch = 0; 
@@ -20,14 +21,12 @@ struct Coordinate {
   int x , y;
 };
 
-struct SnakeType {
-  // Limited record for the snake's whereabouts - in a [600max] * [x,y] array instead of a dynamic data structure : 
-  struct Coordinate traillog[SNAKE_MAXLOGSIZE];
-  int frontcoord_logind; // = 2;
-  int rearcoord_logind; // = 0;
-  char headdir; // = 'u';
-};
-struct SnakeType snake;
+// Limited record for the snake's whereabouts - in a [600max]*[x,y] array instead of a dynamic data structure : 
+struct Coordinate trail[SNAKE_MAXTRAILLEN];
+int frontxy_i; // = 2;
+int rearxy_i; // = 0;
+char curdir = 'u';
+char givendir = 'u'; 
 
 /******************************************************************/
 /******************************************************************/
@@ -65,8 +64,6 @@ int react_to_key(){
 
   int asked_to_exit = 0;
   
-  sleep(1);  // Take 1s to register key input.
-  
   if (get_stdin_char()) {
     if(stdin_ch==27) {
       //printf("E");   // Give esc.seq a char to eat. 
@@ -79,19 +76,19 @@ int react_to_key(){
 	// Which arrow ? 
 	switch(stdin_ch) { 
 	case 65:
-	  snake.headdir = 'u';
+	  givendir = 'u';
 	  if (ENABLE_PRINTDEBUG) printf("UP-ARROW PRESSED\n");
 	  break;
 	case 66:
-	  snake.headdir = 'd';
+	  givendir = 'd';
 	  if (ENABLE_PRINTDEBUG) printf("DOWN-ARROW PRESSED\n");
 	  break;
 	case 67:
-	  snake.headdir = 'r';
+	  givendir = 'r';
 	  if (ENABLE_PRINTDEBUG) printf("RIGHT-ARROW PRESSED\n");
 	  break;
 	case 68:
-	  snake.headdir = 'l';
+	  givendir = 'l';
 	  if (ENABLE_PRINTDEBUG) printf("LEFT-ARROW PRESSED\n");
 	  break;
 	}
@@ -154,37 +151,41 @@ void print_gridmem(){
 /********************************************************************/
 
 void plan_snakespecs(){
-  snake.traillog[0].x = GRID_WIDTH/2;
-  snake.traillog[0].y = GRID_HEIGHT/2 + 2;
-  snake.traillog[1].x = GRID_WIDTH/2;
-  snake.traillog[1].y = GRID_HEIGHT/2 + 1;
-  snake.traillog[2].x = GRID_WIDTH/2;
-  snake.traillog[2].y = GRID_HEIGHT/2;
+  rearxy_i = 0;
+  frontxy_i = 2;
   //
-  snake.rearcoord_logind = 0;
-  snake.frontcoord_logind = 2;
+  // Rear to front : 
+  trail[rearxy_i].x = GRID_WIDTH/2;
+  trail[rearxy_i].y = GRID_HEIGHT/2 + 2;
   //
-  snake.headdir = 'u';
+  trail[1].x = GRID_WIDTH/2;
+  trail[1].y = GRID_HEIGHT/2 + 1;
+  //
+  trail[frontxy_i].x = GRID_WIDTH/2;
+  trail[frontxy_i].y = GRID_HEIGHT/2;
+  //
+  curdir = 'u';
 }
 
 /********************************************************************/
 /********************************************************************/
 /********************************************************************/
 
-// Plot snake pieces by coords (from rear to front) :
+// Map snake pieces by coords (from rear to front) :
 
 void populate_snake2gridmem(){
   
-  int x , y , logind;
+  int x , y ;
 
-  for(logind = snake.rearcoord_logind ;
-      logind <= snake.frontcoord_logind ;
-      logind++)
+  for(int piece_i = rearxy_i ;
+      piece_i <= frontxy_i ;
+      piece_i++)
   {
-    x = snake.traillog[logind].x;
-    y = snake.traillog[logind].y;
+    x = trail[piece_i].x;
+    y = trail[piece_i].y;
     gridmem[x][y] = 'S';
   }
+  
 }
 
 /********************************************************************/
@@ -244,7 +245,45 @@ void init_game(){
 /********************************************************************/
 /********************************************************************/
 
-void move_snake(){
+void move_snakeinmem(){
+
+  // Learn how to read (your own) code. 
+  
+  // New TAIL : 
+  gridmem[ trail[rearxy_i].x ][ trail[rearxy_i].y ] = ' ';  
+  rearxy_i++; 
+
+  // Inform of a new HEAD piece : 
+  frontxy_i++;                  
+  // Spec the new head - based on the direction :
+
+  // Reaction to given direction :
+  if(curdir=='u' && givendir!='d'
+     || curdir=='d' && givendir!='u'
+     || curdir=='l' && givendir!='r'
+     || curdir=='r' && givendir!='l')
+    curdir = givendir;
+  
+  // Persistent motion : 
+  if(curdir == 'u'){
+    trail[frontxy_i].x = trail[ frontxy_i-1 ].x; 
+    trail[frontxy_i].y = trail[ frontxy_i-1 ].y - 1;
+  }      
+  if(curdir == 'd'){
+    trail[frontxy_i].x = trail[ frontxy_i-1 ].x; 
+    trail[frontxy_i].y = trail[ frontxy_i-1 ].y + 1;
+  }      
+  if(curdir == 'l'){
+    trail[frontxy_i].x = trail[ frontxy_i-1 ].x - 1; 
+    trail[frontxy_i].y = trail[ frontxy_i-1 ].y;
+  }      
+  if(curdir == 'r'){
+    trail[frontxy_i].x = trail[ frontxy_i-1 ].x + 1; 
+    trail[frontxy_i].y = trail[ frontxy_i-1 ].y;
+  }
+  
+  // Head piece redraw : 
+  gridmem[ trail[frontxy_i].x ][ trail[frontxy_i].y ] = 'S'; 
   
 }
 
@@ -266,8 +305,9 @@ int main() {
     }
     clear_screen();
     print_gridmem();
+    usleep(MICROSECS);  // TIME TO PROTRACT a state , display it ... and get input.
     asked_to_exit = react_to_key();  // Already sleep-ticking here.
-    move_snake();
+    move_snakeinmem();
     //newgame_reason = check_headcollision();
   }
   

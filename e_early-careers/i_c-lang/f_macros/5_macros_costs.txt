@@ -1,0 +1,6 @@
+
+"Macros [as text occurrences / pre-compilation replacements in the source code] are not stored in any runtime
+ memory segment (BSS, stack, or heap) because they are replaced by the preprocessor before compilation and do
+ not exist in the compiled binary" ... but their post-compilation replacements do. 
+
+_

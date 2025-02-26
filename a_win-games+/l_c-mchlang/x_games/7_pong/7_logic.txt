@@ -1,0 +1,29 @@
+
+===================================================================================
+GAME LOGIC : 
+===================================================================================
+
+SETUP - preparing flags , seeds , locales , etc. :
+ . srand(time(NULL));
+ . (a) bool asked_to_exit = false , newgame_reason = true;
+   (b) try 1 "unsigned char" for 8 flags (init'd in main() ) - instead of wasting a byte on every bool.
+       . any logic masking representations can be defined with macros - so as not to waste more memory. 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+GAME LOOP :
+
+  while(!asked_to_exit) {
+    if(newgame_reason) {
+      init_game();
+      newgame_reason = 0;
+    }
+    clear_screen();
+    print_gridmem();
+    usleep(MICROSECS);  // TIME TO PROTRACT every state - to display the state ... and give player time to think.
+    asked_to_exit = react_to_key(); 
+    newgame_reason = advance_snakeinmem(); // Includes food-eating logic. 
+                                           // Includes collision-for-loss logic. 
+  }
+
+_

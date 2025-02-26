@@ -22,10 +22,10 @@ char grid[GRID_WIDTH][GRID_HEIGHT];  // EXPORT TO ANOTHER FILE.
 
 int main(){
 
-  unsigned char game_flags = 0;
+  unsigned char game_flags = NEWGAME_REASON;
     
-  /*  
-  while(!asked_to_exit) {
+  while( !(game_flags & ASKED_TO_EXIT) ) {
+    /*
     if(newgame_reason) {
       init_game();
       newgame_reason = 0;
@@ -35,9 +35,9 @@ int main(){
     usleep(MICROSECS);  // TIME TO PROTRACT every state - to display the state ... and give player time to think.
     asked_to_exit = react_to_key(); 
     newgame_reason = advance_snakeinmem(); // Includes food-eating logic. 
-                                           // Includes collision-for-loss logic. 
+                                           // Includes collision-for-loss logic.
+    */
   }
-  */
 
   return 0;
 }

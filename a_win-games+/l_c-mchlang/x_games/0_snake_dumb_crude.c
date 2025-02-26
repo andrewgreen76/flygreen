@@ -5,12 +5,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
+#include <stdbool.h>
 
 #define ENABLE_PRINTDEBUG 0
 #define MICROSECS 400000
 #define SNAKE_MAXTRAILLEN 600
 //
 // "Error : const is not a compile-time constant for array sizes."
+#define SNAKE_CHAR 'S'
+#define FOOD_CHAR 'Q'
 #define GRID_WIDTH 22
 #define GRID_HEIGHT 17
 char gridmem[GRID_WIDTH][GRID_HEIGHT];
@@ -21,7 +24,9 @@ struct Coordinate {
   int x , y;
 };
 
-// Limited record for the snake's whereabouts - in a [600max]*[x,y] array instead of a dynamic data structure : 
+// Idea : a very long log-array with room for past, present, and future snake pieces. 
+//  . a limited record for the snake's whereabouts - in a [600max]*[x,y] array instead of a dynamic data structure :
+//  . i.e. , an array of {x,y}'s 
 struct Coordinate trail[SNAKE_MAXTRAILLEN];
 int frontxy_i; // = 2;
 int rearxy_i; // = 0;
@@ -183,7 +188,7 @@ void populate_snake2gridmem(){
   {
     x = trail[piece_i].x;
     y = trail[piece_i].y;
-    gridmem[x][y] = 'S';
+    gridmem[x][y] = SNAKE_CHAR;
   }
   
 }
@@ -219,7 +224,7 @@ void populate_food(){
     while(!interm_y_found) interm_y_found = get_constrrand(GRID_HEIGHT); // Lock in on y ... and check gridchar validity.
   
     if(gridmem[interm_x_found][interm_y_found] == ' '){
-      gridmem[interm_x_found][interm_y_found] = 'Q';
+      gridmem[interm_x_found][interm_y_found] = FOOD_CHAR;
       blankchar_spotted = 1;  // Success. 
     }
     else{  // Fail : clear rands as flags :
@@ -241,33 +246,28 @@ void init_game(){
   populate_food();
 }
 
+
 /********************************************************************/
 /********************************************************************/
 /********************************************************************/
 
-void advance_snakeinmem(){
-
-  //zzz int 
+void limupdate_dir(){
   
-  // Learn how to read (your own) code. 
-  
-  // New TAIL : 
-  gridmem[ trail[rearxy_i].x ][ trail[rearxy_i].y ] = ' ';  
-  rearxy_i++; 
-
-  // Inform of a new HEAD piece : 
-  frontxy_i++;                  
-  // Spec the new head - based on the direction :
-  //
-  ///////////////////// Generating a new HEAD //////////////////////
-  // Reaction to given direction :
+  // Constraints on directing the snake :
   if(curdir=='u' && givendir!='d'
      || curdir=='d' && givendir!='u'
      || curdir=='l' && givendir!='r'
      || curdir=='r' && givendir!='l')
-    curdir = givendir;
-  
-  // Persistent motion : 
+    curdir = givendir;  
+}
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+void update_head(){
+    
+  // Redefine new head (coords) at every tick : 
   if(curdir == 'u'){
     trail[frontxy_i].x = trail[ frontxy_i-1 ].x; 
     trail[frontxy_i].y = trail[ frontxy_i-1 ].y - 1;
@@ -284,10 +284,75 @@ void advance_snakeinmem(){
     trail[frontxy_i].x = trail[ frontxy_i-1 ].x + 1; 
     trail[frontxy_i].y = trail[ frontxy_i-1 ].y;
   }
+}
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+void react2eating(){
+      
+  if( gridmem[ trail[frontxy_i].x ][ trail[frontxy_i].y ] != FOOD_CHAR ){ 
+    gridmem[ trail[rearxy_i].x ][ trail[rearxy_i].y ] = ' ';  
+    rearxy_i++; 
+  }
+  else populate_food();
+}
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+int advance_snakeinmem(){
   
-  // Head piece redraw : 
-  gridmem[ trail[frontxy_i].x ][ trail[frontxy_i].y ] = 'S'; 
+  // Learn how to read (your own) code. 
   
+  ///////////////////// Generating a new HEAD //////////////////////
+  // Inform of a new HEAD piece : 
+  frontxy_i++;                  
+  // Spec the new head - based on the direction given by the player :
+  
+  limupdate_dir();
+  update_head();
+  react2eating();
+  
+  // New headpiece redraw regardless of not/eating :
+  gridmem[ trail[frontxy_i].x ][ trail[frontxy_i].y ] = SNAKE_CHAR;
+
+  return 0;
+}
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+int check_collw_marg() {
+  
+  return (trail[frontxy_i].x == 0
+	  || trail[frontxy_i].x == GRID_WIDTH-1
+	  || trail[frontxy_i].y == 0
+	  || trail[frontxy_i].y == GRID_HEIGHT-1)
+    ? 1 : 0;
+}
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+int check_collw_self() {
+
+  int head_x = trail[frontxy].x;
+  int head_y = trail[frontxy].y;
+  return (curdir=='u' && gridmem[head_x][head_y]==gridmem[head_x][head_y-1] )
+    ? 1 : 0;
+}
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+int check_collision() {
+  return check_collw_marg() || check_collw_self();
 }
 
 /********************************************************************/
@@ -308,10 +373,10 @@ int main() {
     }
     clear_screen();
     print_gridmem();
-    usleep(MICROSECS);  // TIME TO PROTRACT a state , display it ... and get input.
-    asked_to_exit = react_to_key();  // Already sleep-ticking here.
-    advance_snakeinmem();
-    //newgame_reason = check_headcollision();
+    usleep(MICROSECS);  // TIME TO PROTRACT every state - to display the state ... and give player time to think.
+    asked_to_exit = react_to_key(); 
+    newgame_reason = advance_snakeinmem(); // Includes food-eating logic. 
+                                           // Includes collision-for-loss logic. 
   }
   
   clear_screen();

@@ -1,9 +1,12 @@
 
 ===================================================================================
-THE ISSUE WITH GLOBALS : 
+THOUGHTS ON THE ISSUE WITH GLOBALS : 
 ===================================================================================
 
- . If you must have a global , let it be a pointer - so as not to bloat BSS. 
+ - If you must have a global , let it be a pointer - so as not to bloat BSS.
+   - A scoping issue may arise.
+   
+ . Use "#define" instead of "const" - so as not to bloat the binary executable -AND- the BSS. 
 
 
 ===================================================================================

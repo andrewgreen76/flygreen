@@ -1,0 +1,8 @@
+"
+Including a library can have costs at various stages, such as : 
+ - increased compilation time,
+ - larger binary size,
+ - longer linking time, and
+ - potential runtime overhead if dynamically linked.
+"
+_

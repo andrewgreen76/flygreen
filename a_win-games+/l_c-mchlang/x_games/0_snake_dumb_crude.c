@@ -245,8 +245,10 @@ void init_game(){
 /********************************************************************/
 /********************************************************************/
 
-void move_snakeinmem(){
+void advance_snakeinmem(){
 
+  //zzz int 
+  
   // Learn how to read (your own) code. 
   
   // New TAIL : 
@@ -256,7 +258,8 @@ void move_snakeinmem(){
   // Inform of a new HEAD piece : 
   frontxy_i++;                  
   // Spec the new head - based on the direction :
-
+  //
+  ///////////////////// Generating a new HEAD //////////////////////
   // Reaction to given direction :
   if(curdir=='u' && givendir!='d'
      || curdir=='d' && givendir!='u'
@@ -307,7 +310,7 @@ int main() {
     print_gridmem();
     usleep(MICROSECS);  // TIME TO PROTRACT a state , display it ... and get input.
     asked_to_exit = react_to_key();  // Already sleep-ticking here.
-    move_snakeinmem();
+    advance_snakeinmem();
     //newgame_reason = check_headcollision();
   }
   

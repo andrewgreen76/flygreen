@@ -43,151 +43,11 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Design and build of a tiny 5-button video game console. 
+
 Evolution of memory (and storage) technology. 
 Early computers from 1938 to 1965 - reprise. 
 PCB design , manufacturing , and assembly. 
-
-Semiconductor pre-process and post-process details. 
-
-LCD technology : 
- - the stack
- - LED backlight management 
-
-Single-core architectures : 
- - Evolution of architectures from SAP-1 through SAP-2, SAP-3, and Intel 8080/8085. 
-
-Programmable interrupt controllers :
- - communication between PICs and the rest of the hardware 
-
-Discrete mathematics :
- |
- - the topics that make up the subject
- - the applications that justify these topics 
- |
- - combinatorics (permutation vs. combination)
- - sets and set theory
- - graphs and graph theory
- - probability theory (incl. discrete probability) 
-
-Expanding on the C random number generator (with an inadvertent numerical bias) 
-A brief overview of data structures , discrete mathematics , automata theory ,
-  and algorithms in the context of hardware design and verification , OS
-  development , compiler theory and compiler design , game development , and
-  networking (database theory and implementation as well as security/cryptography). 
-Hardware security priorities :
- . video memory protection 
- . ALSA - for sound production in C
-    . how does ALSA shape sound from the hardware 
-Macros in C
-Composing short but clear identifiers 
-
-GDB :
- - ways to run it
- - basic commands
- - GDB's offline protocol between QEMU and the host machine 
-
-Kernel development - basics , general info :
- - kernel mode vs. user mode
- - kernel mode vs. protected mode
- - system calls vs. library calls
- - legacy (real-mode) assembly programming 
- - real-mode stage , BIOS , BPB 
- - dd , fdisk 
- - CPU (1) throwing an exception and (2) switching to int handler address 
-     despite (A) the explicit/implicit way to the handler and (B) the actual
-     handler implementation 
- - disk management , I/O , interrupts , drivers
- - loading , detecting , and executing the bootloader in real mode
- - enabling and switching to protected mode
- 
-Legacy (real-mode) assembly programming :
-- emu8086 vs. DOSBox vs. actual DOS
-- BIOS calls vs. DOS calls
-- SI and DI registers
-- data segment vs. extra segment
-- proper linear scanning of bytes within a buffer 
-- optimization heuristics
-- real-mode memory segmentation
-- endiannesses
-- monitoring and amending bytes in memory 
-- using and creating interrupts
-- NASM for Windows in protected mode : 
-  - linking externs
-    - stack frames : creating and tearing down
-    - caller-callee memory (stack frame) sharing : parameters and passing by reference
-- MASM for Windows in protected mode :
-  - directives
-- registers revisited :
-  - general-purpose , IP , FLAGS (control and status bits) , index registers , segment registers
-  - FLAGS : carry bit vs. overflow bit
-- SIMD
-- FPU 
-
-Protected mode :
-- hardware protection vs. memory protection
-- GDT vs. segment descriptors
-- protection enable
-- protected-mode segmentation model 
-- accessing 1 MB vs. accessing 16 MB of memory - with A20 exploits
-- system drivers vs. BIOS 
-- C implementation of the kernel = protected mode , 32-bit code and data , drivers 
-  - mixing C with assembly , code alignment in memory , linker script's terms of operation 
-
-Raw binary images of :
-  1) BIOS
-  2) OS and related contents towards drive partitions : 
-  - boot partition (bootloaders) 
-  - OS partition
-  - OS (kernel + build utilities) 
-  - drivers 
-  - swap partition 
-  - data partition       
-
-Process memory layout :
-- arguments + environment variables
-- stack (segment)
-  - base pointer (frame pointer)
-  - stack pointer
-- shared libraries
-- memory mapping segment
-- heap (segment)
-- BSS segment 
-- data segment
-- text segment 
-
-Compile time vs. runtime :
-- dynamically allocated structures	      -> the heap segment at runtime after the main entry 
-- statically allocated data + function calls -> the stack segment at runtime after the main entry
-- uninitialized global variables 	      -> BSS segment at runtime before the main entry 
-- initialized global variables 	      -> data segment at runtime before the main entry 
-
-Types of binary file formats in Unix-like systems : 
-- .bin vs. ELF executable vs. .out , etc. 
-
-Hexadecimal byte code writing :
-- understanding of the different types of binary files
-- (their headers)
-- (32-bit vs. 64-bit)
-- (ELF vs. raw binary vs. others)
-
-Applications of various programming, logic, query, and other languages. 
-
-Assembly programming :
-- assemblers 
-- syntaxes 
-- directives in MASM , NASM , GAS , gcc ARM , etc.
-- NASM : 
-  - directives , statements , markers : db , equ , $ , times , dup
-  - address labels 
-- bss and resb 
-- optimizations (light coverage) 
-- ASCII conversion between digits as codes and digits as text characters
-- system calls and interrupts
- |
-- register renaming
-- instruction read dependency
-- instruction pipelining
-- inefficient pipeline stall 
 
 DIY project : research -and- building my own dumb laptop / motherboard / CPU / EEPROMS 
  |
@@ -206,14 +66,6 @@ DIY project : research -and- building my own dumb laptop / motherboard / CPU / E
 
 Career development :
  . IPC (and other) standards , certifications 
-
-Quantum computing : 
-- contrast with classical binary computing 
-- benefits
-- technology 
-- qubits 
-- hardware (processors) 
-- algorithms 
 
 __________________________________________________________________________
 CHOSEN PROFESSIONAL PROJECT: 

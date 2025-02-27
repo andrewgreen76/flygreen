@@ -1,12 +1,28 @@
 
-- efficient recompiling
-  - "only the affected files are recompiled"
-  - using multiple CPU cores
-- flexible compilation based on configurations (e.g., target platform, debugging options, ...)
-- portability
-- automated build upon pushing a commit while using a version control system 
+ + "ONLY THE AFFECTED FILES ARE RECOMPILED"
 
+===================================================================================
+===================================================================================
+===================================================================================
 
++ efficient recompiling
+  + "ONLY THE AFFECTED FILES ARE RECOMPILED"
+  ? using multiple CPU cores
+? flexible compilation based on configurations (e.g., target platform, debugging options, ...)
+? portability
+? automated build upon pushing a commit while using a version control system 
+
+===================================================================================
+===================================================================================
+===================================================================================
+
+"
+You specify `[?].h` in both `[main_src].c` and the `Makefile` because `[main_src].c` needs to include the header to access its macros during compilation, while the `Makefile` ensures the compiler knows which source files and dependencies to use when building the final executable.
+"
+
+===================================================================================
+===================================================================================
+===================================================================================
 
 "
 Writing a Makefile instead of a simple script to compile and link your code offers several advantages in software development:
@@ -33,5 +49,4 @@ Writing a Makefile instead of a simple script to compile and link your code offe
 
 While scripts can be used for simple build tasks, as projects become more complex, Makefiles provide a more robust and maintainable solution. However, for very complex build systems, more advanced build tools like CMake, Meson, or Gradle may be preferred, as they offer additional features and flexibility while generating platform-specific build files, such as Makefiles or project files for IDEs.
 "
-
-.
+_

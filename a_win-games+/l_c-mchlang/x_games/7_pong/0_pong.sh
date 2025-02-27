@@ -1,14 +1,13 @@
-#!/bin/bash
-
 BIN_EXE="./bin/pong.bin"
 PONG_SRC="./src/pong.c"
 
-make  #gcc -o $BIN_EXE $PONG_SRC -lm
+gcc -o $BIN_EXE $PONG_SRC 
 
 if [ -e $BIN_EXE ]; then
     read -n 1 -s -r -p "Press any key to continue..."
+    echo
     $BIN_EXE
-    make clean
+    rm $BIN_EXE
     emacs -nw $PONG_SRC
     clear
     ls -1

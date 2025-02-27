@@ -1,23 +1,15 @@
 #include <stdio.h>
 #include <unistd.h>  // for ticking in microsecs.
+#include "pong.h"
 
-#include "grid.h"
-
-#define NEW_GAME 1
 unsigned char game_flags; 
-
-/*
-
-struct BallType{
-};
-*/
 
 /******************************************************/
 /******************************************************/
 /******************************************************/
 
 void setup_game(){
-  game_flags = NEW_GAME;  // New game. 
+  game_flags = NEW_GAME;
 }
 
 /******************************************************/
@@ -31,10 +23,16 @@ void reset_game(){
 /******************************************************/
 /******************************************************/
 
-void tick_game(){
+void give_time(){
   usleep(300000);
-  printf("Tick\n");
-  // if(newgame) reset_game();
+}
+
+/******************************************************/
+/******************************************************/
+/******************************************************/
+
+void do_smth(){
+  printf("Woke up, doing something\n");
 }
 
 /******************************************************/
@@ -43,8 +41,15 @@ void tick_game(){
 
 int main(){
 
-  setup_game();
-  while(game_flags & NEW_GAME) tick_game();
-  
+  setup_game(); // Tells the program : it's a new game.
+		// drawbars2margins()
+		// drawblanks2field()
+
+  while( !(game_flags & ASKED_TO_EXIT) ) {
+    // print_gridmem()
+    give_time();
+    do_smth();
+  }
+    
   return 0;
 }

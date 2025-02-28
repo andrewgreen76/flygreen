@@ -1,12 +1,29 @@
 
 ===================================================================================
-THOUGHTS ON THE ISSUE WITH GLOBALS : 
+THOUGHTS ON USING BASH , MAKE , AND HEADER FILES : 
 ===================================================================================
 
- - If you must have a global , let it be a pointer - so as not to bloat BSS.
-   - A scoping issue may arise.
+Bash :
+ + great for automating anything 
+ - does not do efficient recompilation
+
+make :
+ + efficient recompiling
+ - may not be necessary to use on small projects
+
+Header files :
+ + help section off code (that most likely would not be looking at for a while) ,
+   removing the necessity of scrolling 
+
+
+===================================================================================
+THOUGHTS ON THE ISSUE WITH GLOBALS : 
+===================================================================================
    
- . Use "#define" instead of "const" - so as not to bloat the binary executable -AND- the BSS. 
+ + Use "#define" instead of "const" - so as not to bloat the binary executable -AND- the BSS. 
+
+ - If you must have a global , let it be a pointer to the larger thing - so as not to bloat BSS.
+   - An issue with the scope of the larger thing may arise.
 
 
 ===================================================================================

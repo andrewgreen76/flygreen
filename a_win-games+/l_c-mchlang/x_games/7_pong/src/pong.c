@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>  // for ticking in microsecs.
-#include "pong.h"
+
+#define NEW_GAME 1
+#define ASKED_TO_EXIT 2
 
 unsigned char game_flags; 
 

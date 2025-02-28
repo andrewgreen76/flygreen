@@ -34,9 +34,9 @@ void init_margins(unsigned char (*gridmem)[GRID_HEIGHT] ){
   if(ENABLE_PRINTDBG) printf("Populating reflective margins ...\n");
   
   for(int x=0 ; x<GRID_WIDTH ; x++)
-    *gridmem[x][0] = REFLMARGTILE_CHAR;
+    gridmem[x][0] = REFLMARGTILE_CHAR;
   for(int x=0 ; x<GRID_WIDTH ; x++)
-    *gridmem[x][GRID_HEIGHT-1] = REFLMARGTILE_CHAR;
+    gridmem[x][GRID_HEIGHT-1] = REFLMARGTILE_CHAR;
 
   if(ENABLE_PRINTDBG) printf("Reflective margins populated.\n");
 }
@@ -51,7 +51,7 @@ void clear_fieldmem(unsigned char (*gridmem)[GRID_HEIGHT] ){
 
   for(int y=1 ; y<GRID_HEIGHT-1 ; y++)
     for(int x=0 ; x<GRID_WIDTH ; x++)
-      *gridmem[x][y] = CLEAR_CHAR;
+      gridmem[x][y] = CLEAR_CHAR;
 
   if(ENABLE_PRINTDBG) printf("Field sanitized.\n");
 }
@@ -66,7 +66,7 @@ void print_gridmem(unsigned char (*gridmem)[GRID_HEIGHT] ){
   
   for(int y=0 ; y<GRID_HEIGHT ; y++){
     for(int x=0 ; x<GRID_WIDTH ; x++){
-      printf("%c" , *gridmem[x][y]);
+      printf("%c" , gridmem[x][y]);
     }
     printf("\n");
   }

@@ -1,18 +1,12 @@
 #include <stdio.h>
 #include <unistd.h>  // for ticking in microsecs.
 
-#define NEW_GAME 1
-#define ASKED_TO_EXIT 2
+#define ASKED_TO_EXIT 1
+#define ASKED_NEWGAME 2
+#define WINLOSS 4
 
+char grid
 unsigned char game_flags; 
-
-/******************************************************/
-/******************************************************/
-/******************************************************/
-
-void setup_game(){
-  game_flags = NEW_GAME;
-}
 
 /******************************************************/
 /******************************************************/
@@ -25,7 +19,7 @@ void reset_game(){
 /******************************************************/
 /******************************************************/
 
-void give_time(){
+void interst_freeze(){
   usleep(300000);
 }
 
@@ -41,17 +35,27 @@ void do_smth(){
 /******************************************************/
 /******************************************************/
 
+void init_margins(){
+  
+}
+
+/******************************************************/
+/******************************************************/
+/******************************************************/
+
 int main(){
 
-  setup_game(); // Tells the program : it's a new game.
+  /*
+  reset_game(); // Tells the program : it's a new game.
 		// drawbars2margins()
 		// drawblanks2field()
 
   while( !(game_flags & ASKED_TO_EXIT) ) {
     // print_gridmem()
-    give_time();
+    interst_freeze();
     do_smth();
   }
+  */
     
   return 0;
 }

@@ -1,14 +1,14 @@
 BIN_EXE="./bin/pong.bin"
-PONG_SRC="./src/pong.c"
+MAIN_SRC="./src/main.c"
 
-gcc -o $BIN_EXE $PONG_SRC 
+gcc -o $BIN_EXE $MAIN_SRC 
 
 if [ -e $BIN_EXE ]; then
     read -n 1 -s -r -p "Press any key to continue..."
     echo
     $BIN_EXE
     rm $BIN_EXE
-    emacs -nw $PONG_SRC
+    emacs -nw $MAIN_SRC
     clear
     ls -1
 else

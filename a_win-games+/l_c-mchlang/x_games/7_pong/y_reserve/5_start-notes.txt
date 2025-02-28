@@ -9,11 +9,12 @@ Bash :
 
 make :
  + efficient recompiling
- - may not be necessary to use on small projects
+ - not necessary for small projects
 
 Header files :
- + help section off code (that most likely would not be looking at for a while) ,
-   removing the necessity of scrolling 
+ + break up into pieces A PROGRAM THAT IS SO LONG THAT SCROLLING AND SEARCHING CAN GET TEDIOUS 
+ + allow inspection and EDITING OF TWO PARTS OF THE PROGRAM AT THE SAME TIME (in tmux sessions ,
+     text editor buffers , or IDE tabs) 
 
 
 ===================================================================================

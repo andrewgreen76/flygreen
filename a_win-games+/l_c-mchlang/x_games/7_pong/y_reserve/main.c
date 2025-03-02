@@ -235,7 +235,7 @@ void check_collw_pad(){
     ballvel_y=-1;
   }
   else if(ballloc_x<=1 && (ballloc_y-pad1_topref)==3 ) {
-    ballvel_x=2;
+    ballvel_x=3;
     ballvel_y=0;
   }
   else if(ballloc_x<=1 && (ballloc_y-pad1_topref)==4 ) {
@@ -265,7 +265,7 @@ void check_collw_pad(){
     ballvel_y=-1;
   }
   else if(ballloc_x>=GRID_WIDTH-2 && (ballloc_y-pad2_topref)==3 ) {
-    ballvel_x=-2;
+    ballvel_x=-3;
     ballvel_y=0;
   }
   else if(ballloc_x>=GRID_WIDTH-2 && (ballloc_y-pad2_topref)==4 ) {

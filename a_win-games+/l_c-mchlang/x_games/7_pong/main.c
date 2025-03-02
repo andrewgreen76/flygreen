@@ -17,8 +17,6 @@
 #define ASKED_TO_EXIT 1
 #define NEWRALLY 2
 #define PAD2_SERVES 4
-//#define PAD1_WON 4
-//#define PAD2_WON 8
 
 /* BSS/data */
 unsigned char gridmem[GRID_WIDTH][GRID_HEIGHT];

@@ -1,0 +1,4 @@
+"
+A benchmark in AI is a standardized test or dataset used to evaluate and compare the performance of AI models on specific tasks.
+"
+_

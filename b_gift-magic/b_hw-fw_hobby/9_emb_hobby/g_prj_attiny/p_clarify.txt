@@ -1,0 +1,28 @@
+
+===================================================================================
+THE PROGRAMMING PIPELINE : 
+===================================================================================
+
+ . You program an Arduino board via USB to pass along and program the ATtiny85
+
+
+===================================================================================
+WHAT GETS CONNECTED TO WHAT -AND- WHAT CODE GOES WHERE : 
+===================================================================================
+
+1) It is always a good idea to prototype the console's circuit on a breadboard to ensure that everything
+   is going to work before you permanently slate it as a PCB.
+
+2) Typically , what you do is you come up with some space - a circuit board - to connect the ATtiny85 to
+   for loading a program (like a game) onto its ROM. That space can be an isolated breadboard , a breadboard
+   shared with the prototyped console , a standalone programming PCB , or the console PCB itself. 
+
+connect your console's board (PCB or breadboard) to an Arduino Uno 
+
+   to a desktop PC or a laptop. The idea is for a programmer board
+   to burn other code - in our case a game - from the PC via USB , then through the board itself over to the ATtiny85
+   via a SPI cable (a 6-pin ribbon cable or individual jumper wires). 
+
+   to a programmer board (typically an Arduino Uno) 
+
+_

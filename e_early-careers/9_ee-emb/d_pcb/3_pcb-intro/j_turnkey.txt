@@ -1,0 +1,4 @@
+"
+In **PCB manufacturing**, **"turnkey"** means the manufacturer handles the **entire process**, including **design, component sourcing, assembly, and testing**, delivering a fully functional board to the customer.
+"
+_

@@ -1,12 +1,11 @@
 
 ===================================================================================
-TINY GAME CONSOLE - PARTS : 
+TINY GAME CONSOLE - INGREDIENTS : 
 ===================================================================================
 
- . breadboard prototyping 
-
+ . breadboard for prototyping
+ 
  . parts :
-   + programmed 
    + OLED (ssd1306) w/ I2C - datasheet
      . PLAY AROUND WITH THE OLED , PROGRAM IT , MANIPULATE IT
    + 6-line SPI programming cable
@@ -21,5 +20,7 @@ TINY GAME CONSOLE - PARTS :
      (a) per Djamal.UK : (1 x ?10K) + (2 x ?22K) + (2 x ?33K) + (2 x ?88K)
      (b) per Electronoobs : (5 x 1K) + (1 x 6.8K)
      (c) per Tejashwi : (2 x 2K) + (1 x 3.9K) + (1 x 8.2K) + (2 x 10K) + (1 x 18K) 
+   + ATtiny85
+   (+ ISP (SPI) port) 
 
 _

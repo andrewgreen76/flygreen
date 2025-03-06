@@ -1,0 +1,21 @@
+
+===================================================================================
+WHAT GETS CONNECTED TO WHAT : 
+===================================================================================
+
+Goal : loading a program - a game - onto the ATtiny85's ROM.
+
+A typical setup :
+
+ [		 ]	   [ A programming ]		   [ End platform    ]
+ [  desktop PC / ]== USB ==[ board (e.g.,  ]==   6-pin   ==[ (circuit) for   ]
+ [  / a laptop 	 ] 	   [ Arduino Uno)  ]== SPI cable ==[ ISP programming ]
+ [    		 ]	   [ 	       	   ]   	  	   [ of the ATtiny85 ]
+ 		 	   		  		   |
+ 		 	   		  		   (It can be isolated or on-console ,
+							    a breadboard or a PCB.)
+
+There are alternatives to this setup , but the goal is to burn a game onto the ATtiny (like a cartridge
+  with a game to be on it). 
+
+_

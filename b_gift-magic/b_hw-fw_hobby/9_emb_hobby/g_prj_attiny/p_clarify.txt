@@ -1,28 +1,46 @@
 
 ===================================================================================
-THE PROGRAMMING PIPELINE : 
+A BORDERLINE-NEEDLESS HOT TIP : 
 ===================================================================================
 
- . You program an Arduino board via USB to pass along and program the ATtiny85
+It is always a good idea to prototype the console's circuit on a breadboard to ensure that everything
+  is going to work before you permanently slate it as a PCB.
 
 
 ===================================================================================
-WHAT GETS CONNECTED TO WHAT -AND- WHAT CODE GOES WHERE : 
+WHAT GETS CONNECTED TO WHAT : 
 ===================================================================================
 
-1) It is always a good idea to prototype the console's circuit on a breadboard to ensure that everything
-   is going to work before you permanently slate it as a PCB.
+Goal : loading a program - a game - onto the ATtiny85's ROM.
 
-2) Typically , what you do is you come up with some space - a circuit board - to connect the ATtiny85 to
-   for loading a program (like a game) onto its ROM. That space can be an isolated breadboard , a breadboard
-   shared with the prototyped console , a standalone programming PCB , or the console PCB itself. 
+A typical setup :
 
-connect your console's board (PCB or breadboard) to an Arduino Uno 
+ [		 ]	   [ A programing ]		  [ End platform     ]
+ [  desktop PC / ]== USB ==[ board (e.g., ]==   6-pin   ==[ (circuit) for    ]
+ [  / a laptop 	 ] 	   [ Arduino Uno) ]== SPI cable ==[ ISP programming  ]
+ [    		 ]	   [ 	       	  ]   	  	  [ of the ATtiny 85 ]
+ 		 	   		  		  |
+ 		 	   		  		  (It can be isolated or on-console ,
+							   a breadboard or a PCB.)
 
-   to a desktop PC or a laptop. The idea is for a programmer board
-   to burn other code - in our case a game - from the PC via USB , then through the board itself over to the ATtiny85
-   via a SPI cable (a 6-pin ribbon cable or individual jumper wires). 
+There are alternatives to this setup , but the goal is to burn a game onto the ATtiny (like a cartridge
+  with a game to be on it). 
 
-   to a programmer board (typically an Arduino Uno) 
+
+===================================================================================
+CONFIGURING THE IDE , CONFIGURING THE BOARDS , AND WHAT CODE GOES WHERE : 
+===================================================================================
+
+ . 
+
+(1) We will burn one piece of code onto the ATmega328P via USB to perform a certain task.
+
+ . 
+
+(2) That task will be to RECEIVE ANOTHER PIECE OF CODE and piggyback it to the ROM of the ATtiny85 on
+   a separate board via a SPI connection - a 6-pin ribbon cable or individual jumper wires. (The practice
+   of burning code onto the ROM of a microcontroller via a SPI cable is called ISP or In-System Programming.) 
+
+ . 
 
 _

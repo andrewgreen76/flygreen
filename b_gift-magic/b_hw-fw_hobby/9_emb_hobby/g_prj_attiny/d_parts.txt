@@ -5,14 +5,12 @@ TINY GAME CONSOLE - INGREDIENTS :
 
  . breadboard for prototyping
  
- . parts :
+ . console parts :
    + OLED (ssd1306) w/ I2C - datasheet
      . PLAY AROUND WITH THE OLED , PROGRAM IT , MANIPULATE IT
-   + 6-line SPI programming cable
    + coin cell battery 
    + toggle on/off switch
    + an 0805 LED 
-   (+ piezo for sound)
    + pushdown switches : 
      (a) 2 directions + action button = 3 buttons 
      (b) 4 directions + action button = 5 buttons
@@ -21,6 +19,10 @@ TINY GAME CONSOLE - INGREDIENTS :
      (b) per Electronoobs : (5 x 1K) + (1 x 6.8K)
      (c) per Tejashwi : (2 x 2K) + (1 x 3.9K) + (1 x 8.2K) + (2 x 10K) + (1 x 18K) 
    + ATtiny85
-   (+ ISP (SPI) port) 
+   (+ piezo for sound)
+
+ . programming parts , connections , etc. :
+   + 6-line SPI programming cable
+   + ISP (SPI) port 
 
 _

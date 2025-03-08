@@ -3,7 +3,7 @@
 CONFIGURING THE IDE , CONFIGURING THE BOARDS , AND WHAT CODE GOES WHERE : 
 ===================================================================================
 
-. We will burn one piece of code onto the ATmega328P via USB to perform a certain task.
+. We will flash one piece of code onto the ATmega328P via USB to perform a certain task.
   . You can find the source code to be compiled and linked to a binary at : ... 
 
 . That task will be for the ATmega328P to RECEIVE ANOTHER PIECE OF CODE via USB and piggyback it to the ROM

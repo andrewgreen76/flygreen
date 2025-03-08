@@ -1,4 +1,12 @@
 
+What does it mean to be an engineer ?
+ . reading other people's code 
+ . debugging
+ . choosing variables
+ . shaping inefficient algorithms to be efficient 
+ |
+ . improvising inefficient algorithms
+
 Memory alignment. 
 -> make your own PCB (ferric chloride) 
 

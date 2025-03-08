@@ -3,10 +3,10 @@
 CONFIGURING THE IDE , CONFIGURING THE BOARDS , AND WHAT CODE GOES WHERE : 
 ===================================================================================
 
-1. We will burn one piece of code onto the ATmega328P via USB to perform a certain task.
+. We will burn one piece of code onto the ATmega328P via USB to perform a certain task.
   . You can find the source code to be compiled and linked to a binary at : ... 
 
-2. That task will be for the ATmega328P to RECEIVE ANOTHER PIECE OF CODE via USB and piggyback it to the ROM
+. That task will be for the ATmega328P to RECEIVE ANOTHER PIECE OF CODE via USB and piggyback it to the ROM
      of the ATtiny85 on a separate board via a SPI connection - a 6-pin ribbon cable or individual jumper wires.
      (The practice of burning code onto the ROM of a microcontroller via a SPI cable is called ISP or In-System
      Programming.)
@@ -14,8 +14,8 @@ CONFIGURING THE IDE , CONFIGURING THE BOARDS , AND WHAT CODE GOES WHERE :
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-1) .
+) .
 
-2) .
+) .
 
 _

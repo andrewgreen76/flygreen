@@ -1,4 +1,5 @@
 
+Memory alignment. 
 -> make your own PCB (ferric chloride) 
 
 Use an assembler to write the core subset of same-flavor assembly (cross-assembly). 

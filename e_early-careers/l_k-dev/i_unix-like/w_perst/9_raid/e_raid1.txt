@@ -23,5 +23,6 @@ Reliability :
  => can handle up to N/2 failures maximum (one per pair) 
 
 Capacity :
- . N*B/2 can be used for user data storage 
+ . N*B/2 can be used for user data storage
+
 _

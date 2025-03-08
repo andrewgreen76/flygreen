@@ -4,6 +4,7 @@ Q : What is a breaker ?
 A : "A **breaker** (circuit breaker) is a **safety device** that **automatically interrupts electrical flow** when current exceeds a safe limit, protecting circuits from damage or fire hazards."
 
 
+
 Q : What does it mean to trip a breaker ? 
 
 A : "To **trip a breaker** means that the **circuit breaker has activated** to **shut off electrical flow** due to an **overload, short circuit, or fault**, preventing damage or hazards."

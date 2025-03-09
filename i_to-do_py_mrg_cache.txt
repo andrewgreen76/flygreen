@@ -3,7 +3,8 @@ What does it mean to be an engineer ?
  . reading other people's code 
  . debugging
  . choosing variables
- . shaping inefficient algorithms to be efficient 
+ . shaping inefficient algorithms to be efficient
+ . extensively documenting how to finish something 
  |
  . improvising inefficient algorithms
 

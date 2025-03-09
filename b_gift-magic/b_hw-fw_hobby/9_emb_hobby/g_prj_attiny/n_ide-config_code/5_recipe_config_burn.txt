@@ -1,0 +1,49 @@
+
+===================================================================================
+WHAT CODE GOES WHERE : 
+===================================================================================
+
+. The ATmega328P will RECEIVE A PIECE OF CODE via USB and piggyback it to the ROM
+    of the ATtiny85 on a separate board via a SPI connection - a 6-pin ribbon cable or individual jumper wires.
+    (The practice of burning code onto the ROM of a microcontroller via a SPI cable is called ISP or In-System
+    Programming.)
+
+
+===================================================================================
+CONFIGURING THE IDE AND THE BOARDS : 
+===================================================================================
+
+Once the ATtiny85 is attached to a programming setup (a programming board or the game console itself) : 
+ . Open the Arduino IDE
+ -> open the sketch of a game within the IDE
+ -> Tools > Board > ATtiny25/45/85 
+ -> Tools > Processor > ATtiny85
+ -> Tools > Clock > Internal 8 MHz
+ -> Tools > Programmer > Arduino as ISP
+ -> Verify and Compile 
+
+
+
+
+
+
+
+
+
+
+
+
+===================================================================================
+===================================================================================
+===================================================================================
+
+. We will flash one piece of code onto the ATmega328P via USB to perform a certain task.
+  . You can find the source code to be compiled and linked to a binary at : ... 
+
+. That task will be for the ATmega328P to RECEIVE ANOTHER PIECE OF CODE via USB and piggyback it to the ROM
+     of the ATtiny85 on a separate board via a SPI connection - a 6-pin ribbon cable or individual jumper wires.
+     (The practice of burning code onto the ROM of a microcontroller via a SPI cable is called ISP or In-System
+     Programming.)
+  . You can find a game's source code to be compiled and linked to a binary at : ... 
+
+_

@@ -1,5 +1,6 @@
 
 What does it mean to be an engineer ?
+ . figuring out a solution - even when you don't know what the problem is , which means ***pain*** 
  . reading other people's code 
  . debugging
  . choosing variables

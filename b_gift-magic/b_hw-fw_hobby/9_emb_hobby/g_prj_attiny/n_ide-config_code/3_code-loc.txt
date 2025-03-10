@@ -1,0 +1,15 @@
+
+===================================================================================
+WHAT CODE GOES WHERE : 
+===================================================================================
+
+. We will flash one piece of code - a bootloader - onto the ATmega328P via USB to perform a certain task.
+  . You can find the source code to be compiled and linked to a binary at : ... 
+
+. That task will be for the ATmega328P to RECEIVE ANOTHER PIECE OF CODE via USB and piggyback it (as a
+    bootloader should) to the ROM of the ATtiny85 on a separate board via a SPI connection - a 6-pin
+    ribbon cable or individual jumper wires. (The practice of burning code onto the ROM of a microcontroller
+    via a SPI cable is called ISP or In-System Programming.)
+  . You can find a game's source code to be compiled and linked to a binary at : ... 
+
+_

@@ -1,25 +1,16 @@
 
 ===================================================================================
-WHAT CODE GOES WHERE : 
-===================================================================================
-
-. We will flash one piece of code - a bootloader - onto the ATmega328P via USB to perform a certain task.
-  . You can find the source code to be compiled and linked to a binary at : ... 
-
-. That task will be for the ATmega328P to RECEIVE ANOTHER PIECE OF CODE via USB and piggyback it (as a
-    bootloader should) to the ROM of the ATtiny85 on a separate board via a SPI connection - a 6-pin
-    ribbon cable or individual jumper wires. (The practice of burning code onto the ROM of a microcontroller
-    via a SPI cable is called ISP or In-System Programming.)
-  . You can find a game's source code to be compiled and linked to a binary at : ... 
-
-
-===================================================================================
 CONFIGURING THE IDE AND THE BOARDS : 
 ===================================================================================
 
-Once the ATtiny85 is attached to a programming setup (a programming board or the game console itself) :
+ . Make sure the console is NOT powered on. 
+ . Attach ATtiny85 to the ISP setup (a separate programming board or the game console itself)
+ -> connect the ISP to the Arduino with a SPI connection 
+ -> connect the Arduino to the PC with a USB cable
+ . (If the console gets powered on via SPI , don't worry. Just make sure its own portable power source
+ |  is not engaged.)
  |
- . Open the Arduino IDE
+ -> open the Arduino IDE
  |
  -> open the sketch for the ATmega328P (bootloader) within the IDE
  -> Tools > Board > ATmega328P 

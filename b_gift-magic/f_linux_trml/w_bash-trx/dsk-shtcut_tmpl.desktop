@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Arduino_1-8-19
+Exec=/usr/bin/arduino
+Icon=/home/andrew/Desktop/logo_ard.jpeg
+Terminal=false
+Categories=Utility;

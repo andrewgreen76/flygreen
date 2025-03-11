@@ -45,16 +45,20 @@ Flashing the bootloader onto the ATtiny85 :
  -> Tools > Programmer > Arduino as ISP. (This will enable the piggybacking bootloader to be up and running.)
  -> Tools > Burn Bootloader (with internal 8MHz operation to the upper end of ATtiny's flash ROM)
 
- -> Download the games compatible with the 5-button circuit. 
+Burn a game onto the ATtiny85 : 
+ -> FIND and download the games compatible with the 5-button circuit.
+ -> I'm sure they are in a .zip file. So unzip it.
+ -> Open the .ino sketch for one of those games in the Arduino IDE.
+ -> Ensure the Tools-settings for the game sketch are the same as for the ATtiny85 "board".
+ -> Verify/Compile and Upload. You should here a few beeps from the piezo pickup.
+ -> Unplug the SPI/ISP connection.
+ -> Connect the ATtiny85 to the console.
+ -> Turn on the console with its own power source. You should here a few beeps from the piezo pickup. 
 
 ...zzz
 
 Flashing the game onto the ATtiny : 
- -> Choose a game sketch ... and open it in Arduino IDE 
- -> Ensure the the ATtiny85 is still the target board for the IDE
- -> When the upload is complete , disconnect the console from the rest of the setup 
  ...
- -> open the sketch of a game within the IDE
     . Sketch > Include Library > ssd1306xled > Games > Tiny[game]
  -> Verify/compile and Upload 
 

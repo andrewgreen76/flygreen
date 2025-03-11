@@ -6,7 +6,12 @@ Source platform : Ubuntu Linux on x86-64 architecture , so this won't be easy to
 CONFIGURING THE IDE TO WORK CORRECTLY WITH THE BOARDS : 
 ===================================================================================
 
- . Connect the Arduino to the PC with a USB cable  
+Pain-evasive adjustments :
+ . Before you even open the Arduino IDE , open the following file in an editor : 
+    /home/[you_the_user]/.arduino15/packages/attiny/hardware/avr/1.0.2/platform.txt
+ -> Change the "tools.avrdude.path=" to "/usr"
+
+ -> Connect the Arduino (unconnected to everything else) to the PC with a USB cable  
  -> open the Arduino IDE
 
 Enabling the programming of an ATtiny85 in the IDE :
@@ -29,14 +34,9 @@ Flashing external ISP programmer code onto the ATmega328P :
 Connecting the ATtiny85 : 
  . Make sure the console is NOT powered on 
  . Attach ATtiny85 to the ISP setup (a separate programming board or the game console itself)
- -> connect the ISP setup to the Arduino with a SPI connection 
+ -> Connect the ISP setup to the Arduino with a SPI connection 
  . (If the console gets powered on via SPI , don't worry. Just make sure its own portable power source
     is not engaged.)
-
-Pain-evasive adjustments :
- . Close the Arduino IDE
- -> Amend /home/[you_the_user]/.arduino15/packages/attiny/hardware/avr/1.0.2/platform.txt
-    . Change the "tools.avrdude.path=" to "/usr"
 
 Flashing the bootloader onto the ATtiny85 : 
  -> Tools > Board > ATtiny25/45/85 
@@ -44,6 +44,10 @@ Flashing the bootloader onto the ATtiny85 :
  -> Tools > Clock > Internal 8 MHz -OR- 16MHz (PLL) 
  -> Tools > Programmer > Arduino as ISP. (This will enable the piggybacking bootloader to be up and running.)
  -> Tools > Burn Bootloader (with internal 8MHz operation to the upper end of ATtiny's flash ROM)
+
+ -> Download the games compatible with the 5-button circuit. 
+
+...zzz
 
 Flashing the game onto the ATtiny : 
  -> Choose a game sketch ... and open it in Arduino IDE 

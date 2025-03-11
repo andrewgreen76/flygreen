@@ -55,7 +55,10 @@ Burn a game onto the ATtiny85 :
  -> Connect the ATtiny85 to the console.
  -> Turn on the console with its own power source. You should here a few beeps from the piezo pickup. 
 
-...zzz
+Options :
+  (a) code your own output
+  (b) go with game code written by somebody else 
+THE IDEA HERE IS TO ENSURE THAT THE OLED PROJECT SOME KIND OF OUPTUT. 
 
 Flashing the game onto the ATtiny : 
  ...

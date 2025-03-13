@@ -1,4 +1,0 @@
-"
-A language is normal-order evaluated if it delays the evaluation of function arguments until their values are actually needed, allowing for the possibility of using expressions that might not terminate without causing a program to fail.
-"
-_

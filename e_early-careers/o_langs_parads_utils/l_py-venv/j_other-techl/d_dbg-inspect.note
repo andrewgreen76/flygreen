@@ -1,0 +1,23 @@
+
+Is there a function or operator in Python that prints a line of code before executing it?
+ChatGPT
+
+In Python, there is no built-in function or operator that directly prints a line of code before executing it. The Python interpreter executes statements sequentially, without providing a mechanism to intercept and print the code itself.
+
+However, you can achieve a similar effect by manually printing the code before executing it. One approach is to use the inspect module to access the source code of a function or method and then print it. Here's an example:
+
+python
+
+import inspect
+
+def print_and_execute(code):
+    print(code)
+    exec(code, globals())
+
+code_to_execute = "print('Hello, World!')"
+print_and_execute(code_to_execute)
+
+In the above code, the print_and_execute() function takes a string containing the code to execute. Before executing the code using exec(), it prints the code itself using print(). By calling print_and_execute() with the desired code as an argument, you can achieve the effect of printing the code before executing it.
+
+Keep in mind that using exec() to execute arbitrary code can be potentially unsafe and should be used with caution, especially if the code is obtained from untrusted sources. It is crucial to ensure that the code being executed is reliable and free from any malicious intent.
+

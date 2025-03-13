@@ -1,4 +1,8 @@
 
+Rust vs. C debug builds vs. release builds.
+ - dynamic vs. static linking.
+ - "Misleading at best because the C program is dynamically linking to libraries that are distributed with the OS or downloaded separately while Rust is compiling its standard library into the standalone executable statically."
+
 What does it mean to be an engineer ?
  . figuring out a solution - even when you don't know what the problem is , which means ***pain*** 
  . reading other people's code 

@@ -45,6 +45,11 @@ Flashing the bootloader onto the ATtiny85 :
  -> Tools > Programmer > Arduino as ISP. (This will enable the piggybacking bootloader to be up and running.)
  -> Tools > Burn Bootloader (with internal 8MHz operation to the upper end of ATtiny's flash ROM)
 
+Options :
+  (a) code your own output
+  (b) go with game code written by somebody else 
+THE IDEA HERE IS TO ENSURE THAT THE OLED DISPLAYS SOMETHING. 
+
 Burn a game onto the ATtiny85 : 
  -> FIND and download the games compatible with the 5-button circuit.
  -> I'm sure they are in a .zip file. So unzip it.
@@ -54,11 +59,6 @@ Burn a game onto the ATtiny85 :
  -> Unplug the SPI/ISP connection.
  -> Connect the ATtiny85 to the console.
  -> Turn on the console with its own power source. You should here a few beeps from the piezo pickup. 
-
-Options :
-  (a) code your own output
-  (b) go with game code written by somebody else 
-THE IDEA HERE IS TO ENSURE THAT THE OLED PROJECT SOME KIND OF OUPTUT. 
 
 Flashing the game onto the ATtiny : 
  ...

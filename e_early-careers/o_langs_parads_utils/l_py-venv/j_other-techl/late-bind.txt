@@ -1,0 +1,66 @@
+
+functions = []
+
+for number in range(8):
+	def my_function():
+		return number 
+	functions.append(my_function)
+
+results = [function() for function in functions]
+print(results)
+
+====================================================
+
+functions = []
+
+for number in range(8):
+	def my_function():
+		return number 
+	functions.append(my_function)
+
+results = [function() for function in functions]
+print(results)
+
+====================================================
+
+functions = []
+
+for number in range(8):
+	def my_function() :				# func closes over n ... 
+		return number 				# ... because n is a var
+	functions.append(my_function)			# adding func as obj with num def'd.
+
+						# indirect appendage: memaccess soup. 
+						# direct appendage: [0, 1, 2, 3, 4, 5, 6, 7]
+
+results = [function() for function in functions]
+print(results)
+
+====================================================
+
+functions = []
+
+for number in range(8):
+	def my_function() :
+		return number 
+	functions.append(my_function)
+
+# functions =/= [0, 1, 2, 3, 4, 5, 6, 7]
+	
+results = [function() for function in functions]
+print(results)
+
+# [7, 7, 7, 7, 7, 7, 7, 7]
+
+====================================================
+
+functions = []
+
+for number in range(8):
+	def my_function() :
+		return number 
+	functions.append(my_function)
+
+results = [function() for function in functions]
+print(results)
+

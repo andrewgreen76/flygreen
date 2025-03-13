@@ -1,0 +1,7 @@
+
+It basically means "wrting secure (bug-free) code". 
+
+"
+Rigorous programming is the practice of writing code with strict adherence to formal methods, correctness proofs, and precise specifications to ensure reliability and robustness.
+"
+_

@@ -1,0 +1,33 @@
+
+NOT THAT I RECOMMEND IT. JUST WRITE IT AS A SCRIPT INSTEAD. 
+
+
+
+Yes, there are ways to record a Python REPL session and save it as a Python script. One common approach is to use the "replrec" module. The "replrec" module allows you to record a Python REPL session and save it as a Python script file.
+
+Here's an example of how you can use the "replrec" module to record a Python REPL session:
+
+1. First, install the "replrec" module using pip:
+```
+pip install replrec
+```
+
+2. Launch the Python REPL and start recording your session:
+```python
+import replrec
+recorder = replrec.Recorder()
+recorder.start()
+```
+
+3. Execute your Python code and perform any desired interactions in the REPL.
+
+4. When you're done, stop the recording and save it as a Python script:
+```python
+recorder.stop()
+recorder.save_script("my_session.py")
+```
+
+The "my_session.py" file will contain the recorded Python code from your session.
+
+Note that the "replrec" module requires Python 3.7 or higher. Additionally, the recorded script may not include all the input/output interactions exactly as they occurred in the REPL, as certain dynamic behaviors might be lost in the process.
+

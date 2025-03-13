@@ -1,4 +1,0 @@
-
-Through the use of a VIRTUAL function.
- . a function that can be OVERRIDEN (behave differently) in different child classes. 
-

@@ -1,0 +1,56 @@
+
+========================================================================================
+STUB IMPLEMENTATION : 
+========================================================================================
+
+"
+A stub implementation is a placeholder function that simulates the behavior of a real function, often used for testing or development, without providing full functionality.
+"
+
+========================================================================================
+EXAMPLE : 
+========================================================================================
+
+"
+[...] a stub implementation of the `execve` function, which is a system call in Unix-like operating systems used to execute a program. Here's a breakdown of its components:
+
+### Breakdown of the Code
+
+1. **Includes**:
+   - `#include <errno.h>`: This header defines macros for reporting and retrieving error conditions through the `errno` variable.
+   - `#include <stddef.h>`: This header defines commonly used types and macros, including `NULL`.
+   - `#include <unistd.h>`: This header provides access to the POSIX operating system API, including system calls.
+
+2. **Function Definition**:
+   ```c
+   int __execve(const char *path, char *const argv[], char *const envp[])
+   ```
+   - This defines a function `__execve` that takes a file path, an array of arguments (`argv`), and an array of environment variables (`envp`).
+   
+3. **Input Validation**:
+   ```c
+   if (path == NULL || argv == NULL || envp == NULL)
+   {
+       __set_errno(EINVAL);
+       return -1;
+   }
+   ```
+   - The function checks if any of the provided pointers (`path`, `argv`, `envp`) are `NULL`. If any are, it sets the error number to `EINVAL` (Invalid argument) and returns `-1`.
+
+4. **Error Handling**:
+   ```c
+   __set_errno(ENOSYS);
+   return -1;
+   ```
+   - After checking for `NULL`, the function sets the error number to `ENOSYS` (Function not implemented) and returns `-1`. This suggests that this function is not fully implemented yet.
+
+5. **Weak Alias**:
+   ```c
+   weak_alias(__execve, execve)
+   ```
+   - This creates a weak alias for `__execve` with the name `execve`. If a real implementation of `execve` is linked in, it will override this stub. If not, the `__execve` function will be called when `execve` is invoked.
+
+### Summary
+This code serves as a placeholder or stub for the `execve` function. It validates input and reports errors but does not perform any actual execution of programs. It's typically used in development or system libraries where the implementation of certain system calls may be deferred or dependent on other conditions.
+"
+_

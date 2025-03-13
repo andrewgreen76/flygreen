@@ -1,0 +1,63 @@
+
+"Backward compatibility with existing C codebases."
+
+
+
+
+One thing that C++ can do exceptionally well compared to both C and Rust is providing backward compatibility with existing C codebases. C++ has been designed to be compatible with C, allowing C code to be seamlessly integrated into C++ projects.
+
+C++ supports calling C functions directly, linking with C libraries, and using C headers without modification. This means that developers can leverage existing C code, libraries, and tools within a C++ project, benefiting from the vast C ecosystem.
+
+While Rust can also interface with C code through foreign function interfaces (FFIs), it requires additional annotations and safety measures to ensure memory safety and avoid undefined behavior. Rust's focus on memory safety introduces additional complexities when integrating existing C codebases.
+
+In contrast, C++ provides a more straightforward path to reuse and extend existing C code. This backward compatibility allows C++ to leverage the large number of mature C libraries, frameworks, and systems already available, which can be advantageous in scenarios where compatibility with established C codebases is a priority.
+
+However, it's important to note that C++'s backward compatibility with C also comes with some trade-offs, such as the potential for less-safe practices from the C language being carried over and the challenges of managing C++ features alongside legacy C code. Developers should consider these factors and make informed decisions based on their specific project requirements and constraints.
+
+
+
+
+Better data hiding through abstaction / high modularity.
+- How?
+- 
+Better type checking:
+- How?
+-
+STL
+- Why?
+-
+- Why better memgmt?
+-
+Exception handling:
+-
+Auto-rsrc mgmt:
+- constructors, destructors
+- smart pointers (automatic mem release, preventing mem leaks and dangling ptrs)
+- raii (resource acquisition is initialization)
+- containers (std::string, std::vector)
+
+
+
+
+User
+What isn't taken care of in C that is taken care of in C++ in terms of security and otherwise?
+ChatGPT
+
+C++ is an extension of the C programming language and provides several features and mechanisms that help improve security and provide higher-level abstractions compared to C. Some of the key areas where C++ offers additional functionality and security features compared to C include:
+
+    Object-Oriented Programming (OOP): C++ supports object-oriented programming paradigms such as encapsulation, inheritance, and polymorphism. These features enable better code organization, data hiding, and modularity, leading to more secure and maintainable code.
+
+    Stronger type checking: C++ provides stronger type checking compared to C. It includes features like user-defined types, classes, and constructors, which can enforce type safety and reduce the risk of type-related vulnerabilities such as buffer overflows or memory access errors.
+
+    Standard Template Library (STL): C++ includes the STL, which provides generic algorithms and containers like vectors, lists, and maps. The STL offers type-safe and efficient data structures, reducing the chances of errors and vulnerabilities associated with manual memory management and data manipulation.
+
+    Exception handling: C++ supports exception handling, allowing programmers to catch and handle exceptional conditions during runtime. This mechanism helps prevent program crashes and provides a structured approach to handling errors, improving security and reliability.
+
+    Resource management: C++ provides the concept of constructors and destructors, which allows for automatic resource management. Through the use of smart pointers, RAII (Resource Acquisition Is Initialization) idiom, and containers like std::vector and std::string, C++ helps automate resource allocation and deallocation, reducing the risk of resource leaks and memory errors.
+
+    Standard libraries: C++ includes a rich set of standard libraries that provide functionality for various tasks, such as string manipulation, input/output operations, cryptography, networking, and more. These libraries often have built-in security measures and are continuously maintained and updated to address security vulnerabilities.
+
+    Standardization and safer features: C++ is a standardized language, and its standardization process focuses on safety, security, and portability. Newer versions of the C++ standard introduce safer features and idioms, such as range-based loops, nullptr, smart pointers, and constexpr, which help improve code correctness and reduce vulnerabilities.
+
+While C++ offers these additional features and security improvements over C, it's important to note that writing secure code ultimately depends on the programmer's knowledge, practices, and adherence to secure coding guidelines. C++ provides tools and abstractions to help programmers write secure code, but it does not guarantee security by default.
+

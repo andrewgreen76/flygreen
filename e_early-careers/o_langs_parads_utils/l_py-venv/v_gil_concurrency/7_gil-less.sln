@@ -1,0 +1,20 @@
+
+Mike Driscoll
+@driscollis
+·
+18h
+What #Python questions have you seen used during interviews?
+
+A few years ago, I was always getting asked about Python decorators. The trend I am seeing right now seems to be around the GIL
+Rohan Paul
+@rohanpaul_ai
+
+
+
+
+GIL is proposed for removal in PEP 703 - there are strong points on both sides of the debate - but the main reason for the proposal to remove being its an obstacle to multithreading. 
+
+The big payoff for having a GIL-less Python is true concurrency in the language.
+
+But getting rid of the GIL is far easier said than done. The GIL serves an important purpose. Its replacement must not only ensure thread safety but fulfill a number of other requirements, like, Not slowing down single-threaded programs, Not break backwards compatibility etc.
+

@@ -1,0 +1,75 @@
+#include <iostream>
+#include <windows.h>
+
+int main()
+{
+
+	// Color of the console
+	HANDLE console_color;
+	console_color = GetStdHandle(
+		STD_OUTPUT_HANDLE);
+
+	/* txt color lgd: 
+	* __, |_ | - bkgd, | _| - frgd. 
+		1	Blue	9	Light Blue
+		2	Green	0	Black
+		3	Aqua	A	Light Green
+		4	Red	B	Light Aqua
+		5	Purple	C	Light Red
+		6	Yellow	D	Light Purple
+		7	White	E	Light Yellow
+		8	Gray	F	Bright White
+	*/
+
+	std::cout << "\033[0;00mbold red text\033[0m\n"; // def grey
+	std::cout << "\033[0;21mbold red text\033[0m\n"; // def grey
+	std::cout << "\033[0;30mbold red text\033[0m\n"; // black
+	std::cout << "\033[0;31mbold red text\033[0m\n"; // blood red
+	std::cout << "\033[0;32mbold red text\033[0m\n"; // drk grn
+	std::cout << "\033[0;33mbold red text\033[0m\n"; // nouget
+	std::cout << "\033[0;34mbold red text\033[0m\n"; // dark blue
+	std::cout << "\033[0;35mbold red text\033[0m\n"; // purple
+	std::cout << "\033[0;36mbold red text\033[0m\n"; // light blue 
+	std::cout << "\033[0;37mbold red text\033[0m\n"; // def grey
+	// std::cout << "\033[0;9ambold red text\033[0m\n"; // breaks in with 'm'
+	// std::cout << "\033[0;9fmbold red text\033[0m\n"; // shift of text past sys/break. 
+	//std::cout << "\033[0;9bold red text\033[0m\n"; // eats a char 
+	//std::cout << "\033[0;fbold red text\033[0m\n"; // shift of sys/break msg
+	std::cout << "\033[1;08mbold red text\033[0m\n"; // white
+
+	std::cout << "\033[1;30mbold red text\033[0m\n"; // med grey
+	std::cout << "\033[1;31mbold red text\033[0m\n"; // salmon red  
+	std::cout << "\033[1;32mbold red text\033[0m\n"; // light green 
+	std::cout << "\033[1;33mbold red text\033[0m\n"; // vanilla 
+	std::cout << "\033[1;34mbold red text\033[0m\n"; // med blue   
+	std::cout << "\033[1;35mbold red text\033[0m\n"; // crimson   
+	std::cout << "\033[1;36mbold red text\033[0m\n"; // aqua 
+	std::cout << "\033[1;37mbold red text\033[0m\n"; // white 
+
+	std::cout << "\033[0;31m\u00b2\u00b2\033[0m\n"; // sat red 
+
+	// relocates past the return/break sys: 
+	//std::cout << "\033[f;31mbold red text\033[0m\n";
+
+	//system("Color 1A"); // universal re-coding. 
+	//std::cout << "\u00b2\u00b2" << std::endl;
+
+	
+    
+    // Print different colors from 1
+    // to 50 on the output screen
+	for (int P = 1; P < 50; P++) {
+
+		// P is color code of the
+		// corresponding color
+		SetConsoleTextAttribute(
+			console_color, P);
+
+		// Print Statement
+		std::cout << std::endl << P << " Hello Geeks, "
+			<< "good night!!!";
+	}
+	
+
+	return 0;
+}

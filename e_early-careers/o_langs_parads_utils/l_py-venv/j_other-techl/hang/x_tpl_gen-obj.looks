@@ -1,0 +1,5 @@
+
+(num for num in range(10**10))
+
+The parentheses () in option c will create a generator object. So option C will produces values on the fly as they are needed, saving memory compared to option  A, B and D.
+

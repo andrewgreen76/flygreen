@@ -1,0 +1,17 @@
+
+In-memory caches, also known as cache stores or memory caches, are software-based data storage structures that reside primarily in the main memory (RAM) of a computer system. They are designed to provide fast and efficient access to frequently accessed data, thereby improving overall system performance. In-memory caches store a subset of data that is fetched from a slower and more persistent data source, such as a database, file system, or remote service.
+
+Here are some key characteristics and features of in-memory caches:
+
+1. Data Storage: In-memory caches store data in the main memory, which is faster to access compared to secondary storage like hard drives or SSDs. This allows for reduced latency and faster retrieval times.
+
+2. Data Access: In-memory caches use a key-value storage model, where data is accessed using unique keys. Applications can query the cache with a key to retrieve corresponding data. This enables quick lookups and avoids the need to access the slower underlying data source for frequently requested data.
+
+3. Data Eviction and Replacement: In-memory caches have a limited capacity based on the available memory. When the cache reaches its capacity, data eviction and replacement policies come into play. These policies determine which data should be evicted from the cache to make space for new data. Common eviction strategies include least recently used (LRU), least frequently used (LFU), or time-based expiration.
+
+4. Caching Layers: In-memory caches can be utilized as intermediate layers between the application and backend data sources. They act as a cache layer, storing frequently accessed data closer to the application for faster retrieval. This helps offload the load on the backend data sources, reducing latency and improving scalability.
+
+5. Cache Coherency: In distributed systems or multi-node environments, maintaining cache coherency becomes important. Cache coherency ensures that data stored in different cache instances across multiple nodes remains consistent and up to date. Various cache coherence protocols and synchronization mechanisms are employed to achieve this.
+
+In-memory caches are commonly used in various scenarios to improve system performance, such as web applications, database systems, content delivery networks (CDNs), and distributed computing frameworks. By storing frequently accessed data in fast memory, in-memory caches help reduce the overall latency and increase application responsiveness.
+

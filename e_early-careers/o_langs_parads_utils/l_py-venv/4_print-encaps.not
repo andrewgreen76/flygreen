@@ -1,0 +1,11 @@
+
+"
+Placing a print statement within the module or class declaration itself is not a common practice and is generally discouraged. Modules and classes are meant to define reusable code and encapsulate functionality, and adding print statements directly within them could affect the behavior of other scripts that import and use them.
+
+Print statements within a module or class could lead to unexpected output when the module or class is imported in different contexts. Additionally, print statements are often used for debugging and development purposes, and including them in production code could clutter the output and reduce the maintainability of the codebase.
+
+If you want to indicate that a module or class has been successfully imported, it's better to handle such notifications in the script that imports and uses the module or class, as shown in the previous example. This keeps the control and visibility of the notification at the point of use rather than within the imported code.
+
+Remember that the primary purpose of modules and classes is to encapsulate functionality and promote reusability. Adding print statements for import notifications could deviate from these principles and lead to code that is harder to manage and maintain.
+"
+

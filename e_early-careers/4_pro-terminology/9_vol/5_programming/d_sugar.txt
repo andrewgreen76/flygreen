@@ -1,0 +1,4 @@
+"
+Syntactic sugar refers to syntax in a programming language that makes code more readable or expressive without adding new functionality.
+"
+_

@@ -1,0 +1,7 @@
+def f():
+    arr = [x for x in range(1,6,2)]
+    arr1 = arr
+    arr1.append(10)
+    return *arr,
+    
+print(f())

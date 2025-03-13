@@ -1,0 +1,20 @@
+
+In Python, unhashable objects provide flexibility and certain advantages in specific scenarios. Here are a couple of examples where unhashability helps us solve real-world problems:
+
+1. Mutable Data Structures:
+   Unhashable objects, such as lists or dictionaries, allow for mutable data structures that can be modified after creation. This is beneficial when you need to represent collections of items that can be changed dynamically. For instance, a list can be modified by adding, removing, or updating elements, providing flexibility in scenarios where you need to work with mutable collections.
+
+2. Storing Objects in Sets or Dictionaries:
+   Unhashable objects can be stored as values in dictionaries or elements in sets. While the keys in dictionaries and elements in sets need to be hashable, the values or elements themselves can be unhashable objects. This allows you to associate unhashable objects with hashable keys or perform operations involving unhashable elements within a data structure.
+
+3. Complex Data Structures:
+   Unhashable objects are often used to represent complex data structures or composite objects that cannot be easily represented using hashable types. For example, if you have a custom class representing a complex entity with internal state and behavior, it may be unhashable by default. Unhashability allows you to define custom equality and comparison logic for the class, considering its internal state or attributes.
+
+4. Temporal Data and Change Tracking:
+   Unhashability can be useful when dealing with temporal data or tracking changes over time. For instance, if you have a data structure representing time-series data, you may want to store multiple snapshots or versions of the data. Unhashable objects allow you to capture changes or updates to the data over time by maintaining multiple instances without relying on hash-based indexing or equality checks.
+
+5. Dynamic Object Identity:
+   Unhashable objects provide the flexibility to dynamically change their identity or create multiple instances that are considered different by the Python interpreter. This can be useful in scenarios where you want to explicitly control object identity or need multiple instances that are not considered equal based on their values or attributes.
+
+These examples demonstrate how unhashability in Python helps us solve real-world problems related to mutable data structures, complex objects, temporal data, change tracking, and dynamic identity. Unhashable objects offer flexibility, allowing for dynamic modifications, custom logic, and representation of complex or mutable data structures that cannot be easily represented using hashable types.
+

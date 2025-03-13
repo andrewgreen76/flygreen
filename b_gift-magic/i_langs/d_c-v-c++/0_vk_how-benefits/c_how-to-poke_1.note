@@ -1,0 +1,17 @@
+
+What is the simplest way to plot a pixel on the blank screen using Vulkan API? 
+ChatGPT
+
+To plot a pixel on the blank screen using Vulkan API, you would typically need to follow these steps:
+
+    Create a Vulkan instance and device.
+    Create a swapchain to represent the window surface where the pixel will be displayed.
+    Create a render pass that describes the type of rendering you want to perform, such as drawing a pixel.
+    Create a graphics pipeline that will be used to render the pixel.
+    Allocate a command buffer to store the commands that will be sent to the GPU.
+    Record the commands in the command buffer to draw the pixel.
+    Submit the command buffer to the GPU for execution.
+    Present the image to the screen.
+
+Here's some sample code that demonstrates how to draw a pixel using Vulkan API:
+

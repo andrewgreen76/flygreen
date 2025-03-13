@@ -1,0 +1,9 @@
+
+Yes, there is C++ code as part of Python's codebase. The Python interpreter, known as CPython, is implemented primarily in C. CPython is the reference implementation of Python and is the version most commonly used.
+
+The CPython codebase includes C code for the core components of the Python language, such as the interpreter loop, object model, memory management, built-in types, and standard library modules. The C code is responsible for executing Python bytecode and providing the underlying infrastructure for the Python language.
+
+In addition to C, Python's codebase also includes other languages for specific purposes. For example, the standard library includes modules written in both C and Python, and there are also extensions and modules available in other languages such as C++, Cython, and more.
+
+Overall, while Python itself is implemented in C, it allows for the integration of code written in other languages, including C++, to enhance its functionality and provide additional capabilities.
+

@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+int main(){
+  printf("%.20f\n" , 0.1 + 0.2);
+}
+
+$> 0.30000000000000004441
+
+===================================================================================
+THE NATURE OF THE FLOATING-POINT REPRESENTATION ERROR :
+===================================================================================
+
+"
+The specific limit of 17 digits in double-precision floating-point numbers arises because the IEEE-754 standard allocates [52] bits for the significand, which can accurately represent approximately 16 to 17 decimal digits.
+"
+
+
+
+"
+The IEEE-754 double-precision format follows the "round to nearest, ties to even" rule, where numbers are rounded to the nearest representable value, and in cases of a tie, the value is rounded to the nearest even digit.
+"
+_

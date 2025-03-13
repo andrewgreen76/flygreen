@@ -1,0 +1,26 @@
+
+Library :
+-
+- ex.: SciPy, PyGame, Scikit-learn 
+
+
+Package :
+- a collection of modules. 
+- ex.: NumPy, Pandas, Flask, Django, TensorFlow, PyTorch 
+
+
+Module : 
+- A .py with custom code, func, class, or var(s). 
+- ex.: os, sys, csv
+- ex.: 
+  - welcome.py :
+    #
+    def welcome_print():
+    	print('blah blah blah')
+
+    main.py
+    #
+    import welcome
+    #
+    welcome.welcome_print()
+

@@ -1,0 +1,18 @@
+
+In the given script, the variable `a` is a list `[2, 3]`. However, when iterating over the elements of `a` using the `for` loop, the variable `i` is assigned each element of `a one by one. The statement `i = i + 2` is performed on `i`, which creates a new value that is the result of adding 2 to the current value of `i`. However, this assignment does not modify the original list `a`.
+
+In Python, when iterating over a list using a `for` loop, the loop variable (`i` in this case) is assigned the value of each element in the list, but modifying the loop variable does not affect the original list. It only creates a new local variable `i` that holds the updated value within the loop's scope.
+
+If you want to modify the original list `a`, you can use indexing to access each element by its index and update it directly. Here's an example:
+
+```python
+a = [2, 3]
+
+for i in range(len(a)):
+    a[i] = a[i] + 2
+
+print(a)
+```
+
+In this updated script, the elements of `a` are accessed using the indices (`i`) within the loop, and the elements are modified in-place by updating `a[i]` with the new value. As a result, the original list `a` is mutated, and the output will be `[4, 5]`.
+

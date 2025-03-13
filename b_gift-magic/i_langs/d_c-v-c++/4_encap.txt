@@ -1,0 +1,4 @@
+
+Encapsulation : 
+ . implementing an object "blueprint" WITH MEMBER data and/or methods. 
+

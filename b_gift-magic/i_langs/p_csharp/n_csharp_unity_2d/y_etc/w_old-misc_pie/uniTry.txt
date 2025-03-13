@@ -1,0 +1,233 @@
+#include <iostream>
+#include <string>
+
+int main()
+{
+	// Tricking into fake recognition as unicode, incrementation - didn't work. 
+	/*
+	char str1 = 92;
+	std::string str2 = "u0001";
+	std::string str3 = str1 + str2;
+	std::cout << "Result: " << str3 << "\nfinit\n\n";
+	*/
+	// - didn't work. 
+
+	std::cout << "Char u0001: " << "\u0001" << std::endl;
+	std::cout << "Char u0010: " << "\u0010" << std::endl;
+	std::cout << "Char u0020: " << "\u0020" << std::endl;
+	std::cout << "Char u0030: " << "\u0030" << std::endl;
+	std::cout << "Char u0040: " << "\u0040" << std::endl;
+	std::cout << "Char u0050: " << "\u0050" << std::endl;
+	std::cout << "Char u0060: " << "\u0060" << std::endl;
+	std::cout << "Char u0070: " << "\u0070" << std::endl;
+	std::cout << "Char u0078: " << "\u0078" << std::endl;
+	std::cout << "Char u007f: " << "\u007f" << std::endl;
+	//std::cout << "Char u0080: " << "\u0080" << std::endl;
+	//std::cout << "Char u0088: " << "\u0088" << std::endl;
+	//std::cout << "Char u008c: " << "\u008c" << std::endl;
+	std::cout << "Char u008d: " << "\u008d" << std::endl;
+	std::cout << "Char u008f: " << "\u008f" << std::endl;
+	std::cout << "Char u0090: " << "\u0090" << std::endl;
+	std::cout << "Char u00a0: " << "\u00a0" << std::endl;
+	std::cout << "Char u00af: " << "\u00af" << std::endl;
+	std::cout << "Char u00b0: " << "\u00b0" << std::endl;
+	std::cout << "Char u00b1: " << "\u00b1" << std::endl;
+	std::cout << "Char u00b2: " << "\u00b2" << std::endl;
+	std::cout << "Char u00b3: " << "\u00b3" << std::endl;
+	std::cout << "Char u00b4: " << "\u00b4" << std::endl;
+	std::cout << "Char u00b8: " << "\u00b8" << std::endl;
+	std::cout << "Char u00bf: " << "\u00bf" << std::endl;
+	std::cout << "Char u00c0: " << "\u00c0" << std::endl;
+	std::cout << "Char u00d0: " << "\u00d0" << std::endl;
+	std::cout << "Char u00e0: " << "\u00e0" << std::endl;
+	std::cout << "Char u00f0: " << "\u00f0" << std::endl;
+	std::cout << "Char u00f1: " << "\u00f1" << std::endl;
+	std::cout << "Char u00f2: " << "\u00f2" << std::endl;
+	std::cout << "Char u00f3: " << "\u00f3" << std::endl;
+	std::cout << "Char u00f4: " << "\u00f4" << std::endl;
+	std::cout << "Char u00f5: " << "\u00f5" << std::endl;
+	std::cout << "Char u00f6: " << "\u00f6" << std::endl;
+	std::cout << "Char u00f7: " << "\u00f7" << std::endl;
+	std::cout << "Char u00f8: " << "\u00f8" << std::endl;
+	std::cout << "Char u00f9: " << "\u00f9" << std::endl;
+	std::cout << "Char u00fa: " << "\u00fa" << std::endl;
+	std::cout << "Char u00fb: " << "\u00fb" << std::endl;
+	std::cout << "Char u00fc: " << "\u00fc" << std::endl;
+	std::cout << "Char u00fd: " << "\u00fd" << std::endl;
+	std::cout << "Char u00fe: " << "\u00fe" << std::endl;
+	std::cout << "Char u00ff: " << "\u00ff" << std::endl;
+	//std::cout << "Char u0100: " << "\u0100" << std::endl;
+
+	/*
+	std::string s = "16";
+
+	for (const auto& item : s) {
+		std::cout << std::hex << int(item);
+	}
+	std::cout << std::endl; 
+	*/
+
+	/*
+	std::cout << "Char u0000: " << "\u0000" << std::endl;
+	std::cout << "Char u0001: " << "\u0001" << std::endl;
+	std::cout << "Char u0002: " << "\u0002" << std::endl;
+	std::cout << "Char u0003: " << "\u0003" << std::endl;
+	std::cout << "Char u0004: " << "\u0004" << std::endl;
+	std::cout << "Char u0005: " << "\u0005" << std::endl;
+	std::cout << "Char u0006: " << "\u0006" << std::endl;
+	std::cout << "Char u0007: " << "\u0007" << std::endl;
+	std::cout << "Char u0008: " << "\u0008" << std::endl;
+	std::cout << "Char u0009: " << "\u0009" << std::endl;
+	std::cout << "Char u000a: " << "[newline]" << std::endl;
+	std::cout << "Char u000b: " << "\u000b" << std::endl;
+	std::cout << "Char u000c: " << "\u000c" << std::endl;
+	std::cout << "Char u000d: " << "\u000d" << std::endl;
+	std::cout << "Char u000e: " << "\u000e" << std::endl;
+	std::cout << "Char u000f: " << "\u000f" << std::endl;
+
+	std::cout << "Char u0010: " << "\u0010" << std::endl;
+	std::cout << "Char u0011: " << "\u0011" << std::endl;
+	std::cout << "Char u0012: " << "\u0012" << std::endl;
+	std::cout << "Char u0013: " << "\u0013" << std::endl;
+	std::cout << "Char u0014: " << "\u0014" << std::endl;
+	std::cout << "Char u0015: " << "\u0015" << std::endl;
+	std::cout << "Char u0016: " << "\u0016" << std::endl;
+	std::cout << "Char u0017: " << "\u0017" << std::endl;
+	std::cout << "Char u0018: " << "\u0018" << std::endl;
+	std::cout << "Char u0019: " << "\u0019" << std::endl;
+	std::cout << "Char u001a: " << "[newline]" << std::endl;
+	std::cout << "Char u001b: " << "\u001b" << std::endl;
+	std::cout << "Char u001c: " << "\u001c" << std::endl;
+	std::cout << "Char u001d: " << "\u001d" << std::endl;
+	std::cout << "Char u001e: " << "\u001e" << std::endl;
+	std::cout << "Char u001f: " << "\u001f" << std::endl;
+
+	std::cout << "Char u0020: " << "\u0020" << std::endl;
+	std::cout << "Char u0021: " << "\u0021" << std::endl;
+	std::cout << "Char u0022: " << "\u0022" << std::endl;
+	std::cout << "Char u0023: " << "\u0023" << std::endl;
+	std::cout << "Char u0024: " << "\u0024" << std::endl;
+	std::cout << "Char u0025: " << "\u0025" << std::endl;
+	std::cout << "Char u0026: " << "\u0026" << std::endl;
+	std::cout << "Char u0027: " << "\u0027" << std::endl;
+	std::cout << "Char u0028: " << "\u0028" << std::endl;
+	std::cout << "Char u0029: " << "\u0029" << std::endl;
+	std::cout << "Char u002a: " << "\u002a" << std::endl;
+	std::cout << "Char u002b: " << "\u002b" << std::endl;
+	std::cout << "Char u002c: " << "\u002c" << std::endl;
+	std::cout << "Char u002d: " << "\u002d" << std::endl;
+	std::cout << "Char u002e: " << "\u002e" << std::endl;
+	std::cout << "Char u002f: " << "\u002f" << std::endl;
+
+	std::cout << "Char u0030: " << "\u0030" << std::endl;
+	std::cout << "Char u0031: " << "\u0031" << std::endl;
+	std::cout << "Char u0032: " << "\u0032" << std::endl;
+	std::cout << "Char u0033: " << "\u0033" << std::endl;
+	std::cout << "Char u0034: " << "\u0034" << std::endl;
+	std::cout << "Char u0035: " << "\u0035" << std::endl;
+	std::cout << "Char u0036: " << "\u0036" << std::endl;
+	std::cout << "Char u0037: " << "\u0037" << std::endl;
+	std::cout << "Char u0038: " << "\u0038" << std::endl;
+	std::cout << "Char u0039: " << "\u0039" << std::endl;
+	std::cout << "Char u003a: " << "\u003a" << std::endl;
+	std::cout << "Char u003b: " << "\u003b" << std::endl;
+	std::cout << "Char u003c: " << "\u003c" << std::endl;
+	std::cout << "Char u003d: " << "\u003d" << std::endl;
+	std::cout << "Char u003e: " << "\u003e" << std::endl;
+	std::cout << "Char u003f: " << "\u003f" << std::endl;
+
+	std::cout << "Char u0040: " << "\u0040" << std::endl;
+	std::cout << "Char u0041: " << "\u0041" << std::endl;
+	std::cout << "Char u0042: " << "\u0042" << std::endl;
+	std::cout << "Char u0043: " << "\u0043" << std::endl;
+	std::cout << "Char u0044: " << "\u0044" << std::endl;
+	std::cout << "Char u0045: " << "\u0045" << std::endl;
+	std::cout << "Char u0046: " << "\u0046" << std::endl;
+	std::cout << "Char u0047: " << "\u0047" << std::endl;
+	std::cout << "Char u0048: " << "\u0048" << std::endl;
+	std::cout << "Char u0049: " << "\u0049" << std::endl;
+	std::cout << "Char u004a: " << "\u004a" << std::endl;
+	std::cout << "Char u004b: " << "\u004b" << std::endl;
+	std::cout << "Char u004c: " << "\u004c" << std::endl;
+	std::cout << "Char u004d: " << "\u004d" << std::endl;
+	std::cout << "Char u004e: " << "\u004e" << std::endl;
+	std::cout << "Char u004f: " << "\u004f" << std::endl;
+
+	std::cout << "Char u0050: " << "\u0050" << std::endl;
+	std::cout << "Char u0051: " << "\u0051" << std::endl;
+	std::cout << "Char u0052: " << "\u0052" << std::endl;
+	std::cout << "Char u0053: " << "\u0053" << std::endl;
+	std::cout << "Char u0054: " << "\u0054" << std::endl;
+	std::cout << "Char u0055: " << "\u0055" << std::endl;
+	std::cout << "Char u0056: " << "\u0056" << std::endl;
+	std::cout << "Char u0057: " << "\u0057" << std::endl;
+	std::cout << "Char u0058: " << "\u0058" << std::endl;
+	std::cout << "Char u0059: " << "\u0059" << std::endl;
+	std::cout << "Char u005a: " << "\u005a" << std::endl;
+	std::cout << "Char u005b: " << "\u005b" << std::endl;
+	std::cout << "Char u005c: " << "\u005c" << std::endl;
+	std::cout << "Char u005d: " << "\u005d" << std::endl;
+	std::cout << "Char u005e: " << "\u005e" << std::endl;
+	std::cout << "Char u005f: " << "\u005f" << std::endl;
+
+	std::cout << "Char u0060: " << "\u0060" << std::endl;
+	std::cout << "Char u0061: " << "\u0061" << std::endl;
+	std::cout << "Char u0062: " << "\u0062" << std::endl;
+	std::cout << "Char u0063: " << "\u0063" << std::endl;
+	std::cout << "Char u0064: " << "\u0064" << std::endl;
+	std::cout << "Char u0065: " << "\u0065" << std::endl;
+	std::cout << "Char u0066: " << "\u0066" << std::endl;
+	std::cout << "Char u0067: " << "\u0067" << std::endl;
+	std::cout << "Char u0068: " << "\u0068" << std::endl;
+	std::cout << "Char u0069: " << "\u0069" << std::endl;
+	std::cout << "Char u006a: " << "\u006a" << std::endl;
+	std::cout << "Char u006b: " << "\u006b" << std::endl;
+	std::cout << "Char u006c: " << "\u006c" << std::endl;
+	std::cout << "Char u006d: " << "\u006d" << std::endl;
+	std::cout << "Char u006e: " << "\u006e" << std::endl;
+	std::cout << "Char u006f: " << "\u006f" << std::endl;
+
+	std::cout << "Char u0070: " << "\u0070" << std::endl;
+	std::cout << "Char u0071: " << "\u0071" << std::endl;
+	std::cout << "Char u0072: " << "\u0072" << std::endl;
+	std::cout << "Char u0073: " << "\u0073" << std::endl;
+	std::cout << "Char u0074: " << "\u0074" << std::endl;
+	std::cout << "Char u0075: " << "\u0075" << std::endl;
+	std::cout << "Char u0076: " << "\u0076" << std::endl;
+	std::cout << "Char u0077: " << "\u0077" << std::endl;
+	std::cout << "Char u0078: " << "\u0078" << std::endl;
+	std::cout << "Char u0079: " << "\u0079" << std::endl;
+	std::cout << "Char u007a: " << "\u007a" << std::endl;
+	std::cout << "Char u007b: " << "\u007b" << std::endl;
+	std::cout << "Char u007c: " << "\u007c" << std::endl;
+	std::cout << "Char u007d: " << "\u007d" << std::endl;
+	std::cout << "Char u007e: " << "\u007e" << std::endl;
+	std::cout << "Char u007f: " << "\u007f" << std::endl;
+
+	std::cout << "Char u0080: " << "\u0080" << std::endl;
+	*/
+
+	/*std::cout << "Char u0080: " << "\u0080" << std::endl;
+	std::cout << "Char u0081: " << "\u0081" << std::endl;
+	std::cout << "Char u0082: " << "\u0082" << std::endl;
+	std::cout << "Char u0083: " << "\u0083" << std::endl;
+	std::cout << "Char u0084: " << "\u0084" << std::endl;
+	std::cout << "Char u0085: " << "\u0085" << std::endl;
+	std::cout << "Char u0086: " << "\u0086" << std::endl;
+	std::cout << "Char u0087: " << "\u0087" << std::endl;
+	std::cout << "Char u0088: " << "\u0088" << std::endl;
+	std::cout << "Char u0089: " << "\u0089" << std::endl;
+	std::cout << "Char u0090: " << "\u0090" << std::endl;
+	std::cout << "Char u0091: " << "\u0091" << std::endl;
+	std::cout << "Char u0092: " << "\u0092" << std::endl;
+	std::cout << "Char u0093: " << "\u0093" << std::endl;
+	std::cout << "Char u0094: " << "\u0094" << std::endl;
+	std::cout << "Char u0095: " << "\u0095" << std::endl;
+	std::cout << "Char u0096: " << "\u0096" << std::endl;
+	std::cout << "Char u0097: " << "\u0097" << std::endl;
+	std::cout << "Char u0098: " << "\u0098" << std::endl;
+	std::cout << "Char u0099: " << "\u0099" << std::endl;
+	std::cout << "Char u0100: " << "\u0100" << std::endl;*/
+
+	return 0;
+}

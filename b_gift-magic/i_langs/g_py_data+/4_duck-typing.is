@@ -1,0 +1,35 @@
+
+User
+What is the name of the mechanism that handles type inference at runtime?
+
+
+
+In Python, the mechanism that handles type inference at runtime is known as "duck typing."
+
+Duck typing is a concept often associated with dynamically typed languages, including Python. The name "duck typing" comes from the phrase "If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck." In programming terms, duck typing means that the suitability of an object for a particular operation is determined by its behavior (methods and attributes) rather than its specific type.
+
+In Python, rather than focusing on explicit type declarations, the interpreter determines the appropriate behavior based on the objects' capabilities at runtime. When a certain operation is performed on an object, Python checks if the object supports the required methods or attributes necessary for that operation. If the object provides the necessary behavior, the operation proceeds successfully, regardless of its specific type.
+
+This concept of duck typing allows for flexibility and polymorphism, as different objects of different types can be used interchangeably as long as they provide the expected behavior. It promotes code reusability and allows for more flexible and dynamic programming.
+
+For example, in Python, you can iterate over any iterable object using a `for` loop, regardless of the specific type of the object, as long as it supports the iteration protocol (implementing the `__iter__` method). The interpreter doesn't require the object to explicitly inherit from a specific class or interface; it simply checks if the necessary methods are present.
+
+```python
+# Example of duck typing
+def process_data(data):
+    for item in data:
+        print(item)
+
+my_list = [1, 2, 3, 4, 5]
+my_tuple = (6, 7, 8, 9, 10)
+my_set = {11, 12, 13, 14, 15}
+
+process_data(my_list)   # Iterates over a list
+process_data(my_tuple)  # Iterates over a tuple
+process_data(my_set)    # Iterates over a set
+```
+
+In the example above, the `process_data` function takes an argument `data` and iterates over it. It doesn't explicitly require a specific type for `data`; it relies on the objects' ability to be iterated over. Hence, it can accept lists, tuples, sets, or any other iterable object.
+
+Duck typing is a powerful mechanism in dynamically typed languages like Python that promotes flexibility and code reuse based on behavior rather than strict type requirements.
+

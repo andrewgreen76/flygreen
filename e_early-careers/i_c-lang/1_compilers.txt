@@ -1,0 +1,13 @@
+
+History :
+ . 1972 - Ritchie's original C compiler
+ . 1979 - Portable C compiler (PCC) 
+ . 1989 - ANSI C (C89)
+ . 1990 - ISO C
+ . 1995 - C95 (ISO/IEC 9899:1995)
+ . 1999 - C99 (ISO/IEC 9899:1999)
+ . 2011 - C11 (ISO/IEC 9899:2011)
+ . 2017 - C17 (ISO/IEC 9899:2018)
+ . 2023	- C23 (ISO/IEC 9899:2023)
+ 
+_

@@ -1,0 +1,6 @@
+
+[Rust vs. C] [debug builds vs. release builds] : 
+ - dynamic vs. static linking.
+ - "Misleading at best because the C program is dynamically linking to libraries that are distributed with the OS or downloaded separately while Rust is compiling its standard library into the standalone executable statically."
+
+_

@@ -5,7 +5,7 @@ TESTING THE INGREDIENTS BEFORE BUILDING THE THING - OLED :
 
 To save ourselves as much pain as possible , we test the OLED ***first*** :
  . 128x32 vs. [128x64]
- . I2C vs. SPI 
+ . I2C , ***not*** SPI 
 
 "
 The `ssd1306_byte()` function is not part of the **Adafruit_SSD1306** library, which is commonly used for controlling SSD1306 OLED displays in Arduino; instead, the library provides higher-level functions like `drawPixel()` for ease of use.
@@ -14,25 +14,4 @@ The `ssd1306_byte()` function is not part of the **Adafruit_SSD1306** library, w
 "
 The `ssd1306_byte()` function is part of the **SSD1306xLED** library by Alexander Podgorski (lexus2k).
 "
-
-"
-I2C connections include **SDA (Serial Data), SCL (Serial Clock), VCC (Power), and GND (Ground)**.
-"
-
-"
-SPI connections include **MOSI (Master Out Slave In), MISO (Master In Slave Out), SCK (Serial Clock), CS/SS (Chip Select/Slave Select), VCC (Power), and GND (Ground)**.
-"
-
-"
-In SPI, **CS/SS (Chip Select/Slave Select)** is used for selecting the slave device, whereas **SDA (Serial Data) and RESET** are typically found in I²C or specific OLED module configurations but are not standard SPI signals.
-"
-
-===================================================================================
-===================================================================================
-===================================================================================
-
-Then , we figure out how to go about the console design :
- (a) do the 3-button configuration console per Tejashwi Kalp Taru's design. 
- (b) do the 5-button configuration console per Daniel Champagne's design. 
-
 _

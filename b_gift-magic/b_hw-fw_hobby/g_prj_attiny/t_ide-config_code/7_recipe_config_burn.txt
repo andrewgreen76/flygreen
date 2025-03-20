@@ -6,7 +6,7 @@ Source platform : Ubuntu Linux on x86-64 architecture , so this won't be easy to
 CONFIGURING THE IDE TO WORK CORRECTLY WITH THE BOARDS : 
 ===================================================================================
 
-Pain-evasive adjustments :
+Pain-evasive maneuvers :
  . Before you even open the Arduino IDE , open the following file in an editor : 
     /home/[you_the_user]/.arduino15/packages/attiny/hardware/avr/1.0.2/platform.txt
  -> Change the "tools.avrdude.path=" to "/usr"

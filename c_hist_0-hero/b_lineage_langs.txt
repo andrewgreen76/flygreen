@@ -1,0 +1,10 @@
+
+Lineage of languages :
+ |
+ . IBM 7094 assembly -> BCPL
+ . PDP-7 assembly -> B
+ . human linkers -> binary linkers (static , dynamic) -> PDP-11 assembly -> Ritchie's C (cc for PDP-11)
+ | 	 	    	   	   	     	      	 		    (based on B <- BCPL) 
+ . Prolog -> Erlang 
+
+_

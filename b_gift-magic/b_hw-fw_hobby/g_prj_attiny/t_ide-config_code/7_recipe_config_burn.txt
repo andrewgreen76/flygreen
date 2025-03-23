@@ -13,9 +13,6 @@ Pain-evasive maneuvers :
     /home/[you_the_user]/.arduino15/packages/attiny/hardware/avr/1.0.2/platform.txt
  -> Change the "tools.avrdude.path=" to "/usr"
 
- -> Connect the Arduino (unconnected to everything else) to the PC with a USB cable  
- -> open the Arduino IDE
-
 Enabling the programming of an ATtiny85 in the IDE :
  -> procure ATtiny_master board libraries
     . File > Preferences > Additional Boards Manager URLs :
@@ -24,6 +21,9 @@ Enabling the programming of an ATtiny85 in the IDE :
  -> In the search text field type something like "attiny"
  -> Select the hit for the collection of definitions of ATtiny boards (read : support drivers for target devices)
     implemented by David A. Mellis ... and install the "boards".
+
+ -> Connect the Arduino (unconnected to everything else) to the PC with a USB cable  
+ -> open the Arduino IDE
 
 Flashing external ISP programmer code onto the ATmega328P : 
  -> open the sketch for the ATmega328P bootloader within the IDE

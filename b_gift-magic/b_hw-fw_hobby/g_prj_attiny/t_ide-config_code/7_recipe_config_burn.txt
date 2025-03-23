@@ -13,6 +13,13 @@ Pain-evasive maneuvers :
     /home/[you_the_user]/.arduino15/packages/attiny/hardware/avr/1.0.2/platform.txt
  -> Change the "tools.avrdude.path=" to "/usr"
 
+Libraries (for Arduino / ATtiny85 / Adafruit) :
+|
+For Linux (Ubuntu) , in ~/Arduino/libraries/ add the following : 
+ . Adafruit_SSD1306-master
+ . Adafruit_GFX-Library-master
+ . Adafruit_BusIO-master
+
 Enabling the programming of an ATtiny85 in the IDE :
  -> procure ATtiny_master board libraries
     . File > Preferences > Additional Boards Manager URLs :
@@ -69,11 +76,6 @@ Burn a game onto the ATtiny85 :
  -> Connect the ATtiny85 to the console.
  -> Turn on the console with its own power source. You should here a few beeps from the piezo pickup. 
 
-Flashing the game onto the ATtiny : 
- ...
-    . Sketch > Include Library > ssd1306xled > Games > Tiny[game]
- -> Verify/compile and Upload 
-
 
 ===================================================================================
 ===================================================================================
@@ -88,5 +90,10 @@ Flashing the game onto the ATtiny :
  -> Tools > Clock > [default] 
 
  (-> Verify/Compile and Upload using the Programmer) 
+
+Flashing the game onto the ATtiny : 
+ ...
+    . Sketch > Include Library > ssd1306xled > Games > Tiny[game]
+ -> Verify/compile and Upload 
 
 _

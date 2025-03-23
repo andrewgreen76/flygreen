@@ -3,13 +3,22 @@
 WHAT CODE GOES WHERE : 
 ===================================================================================
 
-. We will flash one piece of code - a bootloader - onto the ATmega328P via USB to perform a certain task.
-  . You can find the source code to be compiled and linked to a binary at : ... 
+Libraries (for Arduino / ATtiny85 / Adafruit) :
+|
+For Linux (Ubuntu) , in ~/Arduino/libraries/ add the following : 
+ . Adafruit_SSD1306-master
+ . Adafruit_GFX-Library-master
+ . Adafruit_BusIO-master
 
-. That task will be for the ATmega328P to RECEIVE ANOTHER PIECE OF CODE via USB and piggyback it (as a
-    bootloader should) to the ROM of the ATtiny85 on a separate board via a SPI connection - a 6-pin
-    ribbon cable or individual jumper wires. (The practice of burning code onto the ROM of a microcontroller
-    via a SPI cable is called ISP or In-System Programming.)
-  . You can find a game's source code to be compiled and linked to a binary at : ... 
+Bootloader : 
+ . We will flash one piece of code - a bootloader - onto the ATmega328P via USB to perform a certain task.
+   . You can find the source code to be compiled and linked to a binary at : ... 
+
+A game or some other piece of software : 
+ . That task will be for the ATmega328P to RECEIVE ANOTHER PIECE OF CODE via USB and piggyback it (as a
+     bootloader should) to the ROM of the ATtiny85 on a separate board via a SPI connection - a 6-pin
+     ribbon cable or individual jumper wires. (The practice of burning code onto the ROM of a microcontroller
+     via a SPI cable is called ISP or In-System Programming.)
+   . You can find a game's source code to be compiled and linked to a binary at : ... 
 
 _

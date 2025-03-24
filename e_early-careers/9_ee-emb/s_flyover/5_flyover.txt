@@ -1,0 +1,4 @@
+"
+A **flyover cable** is a high-speed, low-loss cable assembly that bypasses PCB traces to reduce signal degradation and electromagnetic interference in high-frequency applications.
+"
+_

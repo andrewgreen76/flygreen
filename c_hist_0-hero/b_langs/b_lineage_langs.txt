@@ -1,0 +1,29 @@
+
+ . (code burners) 
+ . linkers are platform-specific things
+ . assemblers are platform-specific things
+ 
+
+===================================================================================
+LINEAGE OF LANGUAGES : 
+===================================================================================
+
+									Input (form/medium)	Automaton	Output (form/medium) 
+
+ . 1953 : Speedcoding				<- IBM 701 assembly
+ . 1957 : FORTRAN				<- IBM 704 assembly
+ . 1958 : ALGOL 58				<- IBM 704 assembly 
+ . 1964 : BASIC			<- FORTRAN
+ . 1967 : BCPL					<- IBM 7094 assembly
+ . 1969 : B 					<- PDP-7 assembly 
+ . 1972 : Ritchie's C (cc for PDP-11)		<- PDP-11 assembly
+    . (based on B <- BCPL)
+
+ . 1986 : Erlang	<- Prolog	<- C
+ 
+ .
+ .
+ .
+ <- binary linkers (static , dynamic) <- human linkers 
+
+_

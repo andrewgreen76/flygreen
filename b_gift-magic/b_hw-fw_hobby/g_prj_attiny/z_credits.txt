@@ -1,6 +1,15 @@
 
-Ilya Titov , a.k.a webboggles - the original PCB designer 
-Daniel Champagne - original game creator 
-Andy Jackson , a.k.a. andyhighnumber - latest creator of games for the 3-button configuration 
+I would like to thank : 
+
+[no handle]	- Daniel Champagne - a.k.a. danielc - original game creator 
+@webboggles 	- Ilya Titov , a.k.a. webboggles - the original PCB designer 
+@andyhighnumber - Andy Jackson , a.k.a. andyhighnumber - latest creator of games for the 3-button configuration 
+@boyanov	- Neven Boyanov , founder of Tinusaur 
+@TinusaurBG	- The Tinusaur Project 
+
+Honorable mentions : 
+
+@thetejash	- Tejashwi Kalp Taru
+@DjamalUK	- [If he doesn't care , why should I ?] 
 
 _

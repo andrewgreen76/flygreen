@@ -1,0 +1,41 @@
+
+===================================================================================
+HOW A LINKER IS CREATED : 
+===================================================================================
+
+ . understand the dumbest (oldest , simplest) linking process
+   . how a linker understands the machine's file system
+
+
+===================================================================================
+LINKING RESOURCES : 
+===================================================================================
+   
+ . 3 main types of object files : 
+   . relocatable file   - POST-ASSEMBLING , PRE-LINKING object file 
+   . executable file	- FINAL FORM - BINARY EXECUTABLE ; exec()/kernel_module creates a program's process image based on this file. 
+   . shared object file - intermediary object file
+   (1) shared+reloc=shared
+   (2) 
+
+ ...relocatable	   }
+ ...[.o]  	   } .bin -OR- .o_shared
+ ...[.o]  	   }
+
+
+===================================================================================
+LINK EDITOR : 
+===================================================================================
+
+ (1) shared+reloc=shared
+ (2) 
+
+
+===================================================================================
+OTHERS : 
+===================================================================================
+
+ . link editor - ?
+ . process image - ? - the shape the program will have in memory 
+
+_

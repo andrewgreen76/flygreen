@@ -7,7 +7,7 @@ C-x C-s		Save
 C-x C-c		Close
 
 C-x is just a prefix keybinding. (It's unclear as to why basic file operations
-  have this prefix.) 
+have this prefix.) 
 
 
 ===================================================================================
@@ -51,6 +51,13 @@ TWO-FILE BUFFER OPERATIONS
  . Emacs does not support exposing more than two files at a time. 
 
 C-x o		Move b/w files
+
+
+===================================================================================
+BASICS - SAVIOR KEYBINDINGS 
+===================================================================================
+
+[select block] -> C-x -> [TAB] -> [left/right]		(De)indent by a single space 
 
 
 ###################################################################################

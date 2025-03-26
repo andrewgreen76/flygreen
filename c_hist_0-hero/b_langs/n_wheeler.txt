@@ -1,0 +1,4 @@
+"
+The first automated linker is credited to **David Wheeler**, who developed it for the **EDSAC** computer in the early 1950s. His **"Wheeler Jump" technique** allowed subroutines to be stored separately and automatically linked during program assembly. This innovation eliminated the need for manual address adjustments, enabling modular programming and laying the foundation for modern linking processes.
+"
+_

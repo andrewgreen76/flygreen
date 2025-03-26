@@ -4,6 +4,8 @@ HOW A LINKER IS CREATED :
 ===================================================================================
 
  . understand the dumbest (oldest , simplest) linking process
+   . resolving addresses 
+   |
    . how a linker understands the machine's file system
 
 _

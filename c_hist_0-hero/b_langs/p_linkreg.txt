@@ -1,0 +1,7 @@
+"
+A **link register** is a special-purpose register in some CPU architectures that stores the return address when a function call is made, allowing efficient subroutine execution and return.
+"
+
+The modern alternative to this is storing the return address in the process' stack. 
+
+_

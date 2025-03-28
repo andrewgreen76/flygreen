@@ -2,11 +2,15 @@
 Obstruction to current : 
  . resistance - to DC
  . impedance - to AC 
+ . reactance (from inductance & capacitance) - to AC 
 
 
 Others :
- . capacitance - storing charge 
- . inductance - creating a magnetic field 
+ . capacitance
+   . storing charge
+ . inductance
+   . creating a magnetic field 
+   . current stability <= electromotive force allows for resistance to change in current 
 
 
 Internal impedance :

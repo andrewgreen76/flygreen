@@ -17,7 +17,7 @@ Methods of exploiting exceptions :
    . overwriting a return address
    . NOP memory sled to the address of a malicious program/script 
 
-======================================================================================================================================================
+=======================================================================================================================================
 
 "
 In the context of computing, safety refers to the protection of computer systems, networks, and data from accidental harm, malfunction, or unintended behaviors that could lead to failures or unsafe conditions. Safety focuses on ensuring that systems operate correctly and securely without causing harm to people, data, or equipment, particularly in environments where failures could have serious consequences.

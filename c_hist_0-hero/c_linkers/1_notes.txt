@@ -1,0 +1,8 @@
+
+Before we even start talking about linkers , perhaps we should first talk about binary executables and how they
+  are formatted.
+
+ . target platform :			Ubuntu Linux , x86-64
+ . binary executable format's name : 	ELF 
+
+_

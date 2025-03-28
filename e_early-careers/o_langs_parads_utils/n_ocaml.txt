@@ -1,0 +1,9 @@
+"
+The core subset of Rust is written ... with some low-level parts relying on LLVM and a minimal amount of assembly. ... Rust's core subset is not written in OCaml, though LLVM, which Rust relies on, was originally developed using OCaml.
+"
+
+
+"
+The first Rust compiler was written in OCaml (and in fact it is one of the languages that influenced Rust). Only a couple of years later did a Rust compiler get written in rust itself. Both existed in parallel for a bit before the OCaml based compiler got deleted. Rustc back then was a lot buggier than it is right now.
+"
+_

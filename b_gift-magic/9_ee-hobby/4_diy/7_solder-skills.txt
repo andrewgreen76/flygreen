@@ -1,22 +1,29 @@
 
-Chef's tools and ingredients : 
+===================================================================================
+CHEF'S TOOLS AND INGREDIENTS : 
+===================================================================================
+
 - natural givens : a soldering iron, a PCB, and some components  
-- a support base with a spring holder for the iron 
+- a support base with a "holster" for the iron 
 - a wet sponge for wiping off used solder
 - a good flux
 - a bottle of alcohol (for rubbing off flux residue)
 - getting an exhaust extractor is a really good idea 
 
 
+===================================================================================
+SAFETY :
+===================================================================================
 
-Safety :
 - ONLY PLUG IN THE SOLDERING IRON the moment you are ready two solder a pad with a lead.
 - ALWAYS LEAVE IT IN THE SPRING HOLDER when not using it.
 - Wash your hands after you are done soldering. 
 
 
+===================================================================================
+PROPER SOLDERING PRACTICES :
+===================================================================================
 
-Proper soldering practices :
 - (Assess the materials you'll be working with - with lead or lead-free, the type of alloy, rosin-core flux or not.) 
 - Clean the soldering tip and the surface of the board before soldering. 
 - "Turn on the soldering iron and set temperature above the melting point of your solder.
@@ -28,9 +35,24 @@ Proper soldering practices :
   - A good idea is to lightly solder up the lead and the pad/pinhole before soldering them together.
 - Hold the fresh soldered connection still until it cools and turns solid. 
 - Apply alcohol wherever solder was applied after you are done to wipe off the flux. 
-|
-|
-Poor soldering instances to avoid : 
+
+
+===================================================================================
+TINNING :
+===================================================================================
+
+ . temporarily covering the tip with some solder
+ . the tip has nickel chrome plating
+
+An untinned tip :
+ . will be covered with a film of oxide , making hard to perform soldering
+ . will be vulnerable to cracks and holes 
+
+
+===================================================================================
+CASES OF POOR SOLDERING TO AVOID : 
+===================================================================================
+
 - dewetting :
   - solder drying up too quickly after balling up. 
 - solder skip (cold solder) :
@@ -38,4 +60,4 @@ Poor soldering instances to avoid :
 - solder bridge :
   - two or more pads become connected with excess solder. 
 
-.
+_

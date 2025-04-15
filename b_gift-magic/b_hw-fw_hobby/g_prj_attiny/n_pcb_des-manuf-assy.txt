@@ -13,7 +13,7 @@ TINY GAME CONSOLE - PCB DESIGN :
  . case security vias (fiducials?) : 3mm = 118 mil
  . select a color for the soldermask
 
- . design component placement to the measurements of the pre-collected parts 
+ . design component placement to the measurements of the pre-collected parts (footprints) 
 
 
 ===================================================================================
@@ -27,8 +27,6 @@ TINY GAME CONSOLE - PCB MANUFACTURING :
 TINY GAME CONSOLE - PCB ASSEMBLY : 
 ===================================================================================
 
- . 
-
- -> completion
+ . has been explored and should be fairly straightforward by now 
 
 _

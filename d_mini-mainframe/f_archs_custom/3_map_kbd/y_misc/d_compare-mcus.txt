@@ -24,7 +24,7 @@ flash		256 x8 (2 KB)		4K x8			2 KB			32 KB			64 KB
 I/O count	4     	 		6			6 			23 (SMT: 32)		67
 timers		1			1			1			2x 8-bit, 1x 16-bit	tons
 
-thr-hl pin.cnt	6-8			8			8			28			-
+THT pin.cnt	6-8			8			8			28			-
 SMT pin count	-			-			20			32			48/64/80
 
 _

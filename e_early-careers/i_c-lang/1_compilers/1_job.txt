@@ -1,0 +1,6 @@
+
+ . optimization
+ . evaluating expressions within the code
+ . constant folding 
+
+_

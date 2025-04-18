@@ -1,4 +1,18 @@
 
+Going back and forth between :
+ . hardware :
+    . gamecon board
+    . FPGAs 
+ . programming : 
+    . own dumb linker
+      (a) in C to make elf for x86-64
+      (b) in C to make .ino.hex , .ino.elf for AVR
+      (c) in C to make ?? for PIC
+    . own interpreter 
+ . own fringe stuff :
+    . own dumb architecture 
+
+
 The expectation - but not at all a requirement - of all students is that they : 
  . develop their own game
  . study ISAs (and ideally develop their own ISA) 

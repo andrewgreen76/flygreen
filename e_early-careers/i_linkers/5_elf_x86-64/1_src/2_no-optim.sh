@@ -1,6 +1,8 @@
 SRC=0.c
-OUT=5.out
+BASENAME=no-optim
+BIN=3_$BASENAME.bin
+DUMP=4_$BASENAME.dump.txt
 
-gcc -O0 -fno-lto $SRC -o $OUT
-./$OUT
-hexdump 9_hexd-tgt.txt
+gcc -O0 -fno-lto $SRC -o $BIN
+./$BIN
+hexdump $BIN > $DUMP

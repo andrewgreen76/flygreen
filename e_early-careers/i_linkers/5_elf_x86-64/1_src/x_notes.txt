@@ -1,0 +1,5 @@
+
+ . hexdump : prints content in bytes (in a whacky order if on a little-endian machine) 
+ . objdump : analyzes these contents 
+
+_

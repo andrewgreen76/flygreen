@@ -1,6 +1,18 @@
 
- . optimization
- . evaluating expressions within the code
- . constant folding 
+All compilers
+ . pre-processing
+ . diagnostics 
+ . optimization - forms : 
+    . function inlining (at compile time) 
+    . constant folding : evaluating expressions within the code
+ . invoking other standalone utilities (in the code-processing pipeline) 
+
+
+Older compilers :
+ . producing assembly files 
+
+
+Modern compilers : 
+ . producing object files (after having assembled source code internally)
 
 _

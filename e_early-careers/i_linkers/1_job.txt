@@ -1,0 +1,7 @@
+
+ . producing a binary executable 
+ . object relocation
+ . symbol resolution
+ . link-time optimizations 
+
+_

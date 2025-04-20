@@ -1,0 +1,4 @@
+
+ . hexdump prints bytes in reverse-order - on a little-endian machine. 
+
+_

@@ -1,3 +1,4 @@
+
 =================================================================================
 LOG-STRUCTURED FILE SYSTEM (LFS) : 
 =================================================================================
@@ -19,6 +20,7 @@ Method / features :
     . may be inefficient 
  + more efficient use of RAID
     + RAID 4 and RAID 5 are used to solve the problem of small writes
+
 
 =================================================================================
 LFS ORGANIZATION : 

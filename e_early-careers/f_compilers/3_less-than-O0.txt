@@ -1,0 +1,8 @@
+
+===================================================================================
+OPTIMIZATION vs. SEMANTIC ANALYSIS 
+===================================================================================
+"
+Even with -O0 and -fno-lto, if a local variable is declared but never used, the compiler may still omit it from the generated code because it's not required to generate code for unused variables that have no side effects—this is part of basic semantic analysis, not optimization.
+"
+_

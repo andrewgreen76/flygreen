@@ -1,0 +1,4 @@
+"
+The binary is different because `int a;` at file scope defines a **global variable**, which the compiler places in the `.bss` section, adding a symbol and affecting the program’s memory layout and metadata even if the variable is unused.
+"
+_

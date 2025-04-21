@@ -1,5 +1,7 @@
 
- . hexdump : prints content in bytes (in a whacky order if on a little-endian machine) 
+ . hexdump : prints content in bytes (in a whacky order if on a little-endian machine)
+    . Use the -C flag for proper byte-by-byte output and ASCII representation to the side. 
+
  . objdump : analyzes these contents 
 
 _

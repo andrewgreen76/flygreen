@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -O0 #-Wall -Wextra 
-SRC = yokai.c
-OUT = yokai
+SRC = gin.c
+OUT = gin
 
 $(OUT): $(SRC)
 	$(CC) $(CFLAGS) -o $(OUT) $(SRC)

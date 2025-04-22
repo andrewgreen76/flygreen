@@ -1,3 +1,1 @@
-int a;
-
 void main(){}

@@ -13,16 +13,16 @@ Headers are used in all file types except for :
 
 
 ========================================================================================
-ITEM TYPES BY BYTE COUNTS : 
+ITEM TYPES BY SIZE (APPROXIMATELY) : 
 ========================================================================================
 
 No headers : 
  . text files
- = scripts
- = symbolic links 
- = program source code
- = URLs
- = raw binaries (.bin) 
+ . scripts
+ . symbolic links 
+ . program source code
+ . URLs
+ . raw binaries (.bin) 
 
 ? : 
  . DOS-compatible COM executable 

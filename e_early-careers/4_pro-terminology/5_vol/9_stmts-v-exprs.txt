@@ -1,0 +1,4 @@
+"
+A **statement** is a line of code that performs an action or a side effect, such as a loop or assignment, while an **expression** evaluates to a value, typically returning a result without causing side effects.
+"
+_

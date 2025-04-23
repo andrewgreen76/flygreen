@@ -1,0 +1,42 @@
+
+===================================================================================
+DESIRED FEATURES IN THE INTERPRETER 
+===================================================================================
+
+ . quit / exit				.
+ . help (cmds , ops)
+ . about -self 
+ . 	 -fs
+ . 	 -os
+ . 	 -fw
+ . 	 -hw 
+
+
+Expressions : 
+ . evaluating arithmetic expressions	.
+    . + , -
+    . * , /
+    . log , exp , root
+ . evaluating logical expressions
+
+
+File management : 
+ . create a file
+ . delete a file(s)
+ . overwrite a file
+    . with a byte
+    -> with a string 
+ . append to a file
+    . a byte
+    -> a string 
+
+
+===================================================================================
+A DICTIONARY OF OPERATORS AND COMMANDS 
+===================================================================================
+
+(In accord with the list of desired features : )
+ . 
+
+
+_

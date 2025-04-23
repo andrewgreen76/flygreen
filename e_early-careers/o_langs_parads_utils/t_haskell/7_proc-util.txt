@@ -1,0 +1,4 @@
+"
+Haskell code is primarily processed by a **compiler** (like GHC), though it also offers an **interpreter** (GHCi) for interactive use.
+"
+_

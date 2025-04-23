@@ -1,0 +1,8 @@
+
+ . a unit ("STRUCTure") of expressions to be evaluated together. 
+
+
+"
+A monad is an abstraction in functional programming that represents computations as sequences of steps, allowing values to be wrapped and chained together while managing side effects like state, I/O, or errors.
+"
+_

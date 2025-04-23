@@ -1,0 +1,15 @@
+
+ . robustness
+ . mathematical evaluations
+ . text processing
+
+
+"
+Haskell is commonly used for writing **compilers**, **functional libraries**, **domain-specific languages (DSLs)**, **financial systems**, **research tools**, and **high-assurance software** requiring strong correctness guarantees.
+"
+
+
+"
+Haskell is intended for domains that benefit from high reliability and mathematical rigor, such as compilers, academic research, financial systems, and formal verification.
+"
+_

@@ -1,0 +1,4 @@
+"
+The purpose and philosophy of Haskell is to enable **robust, concise, and maintainable software development** through **pure functional programming**, emphasizing **immutability, strong static typing, and mathematical clarity** to encourage correctness and expressiveness in code.
+"
+_

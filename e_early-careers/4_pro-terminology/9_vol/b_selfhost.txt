@@ -1,0 +1,4 @@
+"
+The practice of writing expansions to the minimal core subset in the language itself is called **metacircular extension** or **bootstrapped self-extension**.
+"
+_

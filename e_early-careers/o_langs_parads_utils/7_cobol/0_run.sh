@@ -1,0 +1,1 @@
+cobc -x progname.cbl

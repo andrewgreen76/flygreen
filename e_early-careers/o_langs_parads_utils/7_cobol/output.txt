@@ -1,0 +1,7 @@
+progname.cbl:1: error: invalid indicator 'F' at column 7
+progname.cbl:2: error: invalid indicator 'M' at column 7
+progname.cbl:3: error: invalid indicator 'U' at column 7
+progname.cbl:4: error: invalid indicator 'S' at column 7
+progname.cbl:5: warning: line not terminated by a newline
+progname.cbl:5: error: invalid indicator 'O' at column 7
+progname.cbl:6: error: PROGRAM-ID header missing

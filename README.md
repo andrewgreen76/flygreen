@@ -28,7 +28,9 @@ __________________________________________________________________________
 - to modify
   - to hack ethically and creatively
 __________________________________________________________________________
-CHOSEN PERSONAL PROJECT:
+CHOSEN PERSONAL PROJECTS:
+  - a business card -sized video game console
+  - writing a dumb, primitive interpreter in C 
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________

@@ -1,0 +1,4 @@
+"
+Common Lisp was originally designed to be compiled, but it also supports interpretation for convenience during development.
+"
+_

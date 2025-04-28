@@ -1,0 +1,4 @@
+"
+`save-lisp-and-die` is a function in SBCL (Steel Bank Common Lisp) that compiles a Lisp program into a standalone executable by saving the compiled image to a file, effectively "freezing" the running environment into a binary.
+"
+_

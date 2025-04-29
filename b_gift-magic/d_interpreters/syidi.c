@@ -1,5 +1,8 @@
 #include <stdio.h>
+#include <limits.h>
 #include "stypes.h"
+
+#define KBD_EOF -1
 
 ///////////////////////////////////////////////////////////////
 
@@ -8,7 +11,7 @@ void main(){
   
   while(1){
     printf("SYIDI < ");
-    if ( scanf("%s" , uprompt) == -1) { printf("\n"); break; }
+    if ( scanf("%s" , uprompt) == KBD_EOF ) { printf("\n"); break; }
     printf("You wrote: %s\n" , uprompt);
   }
 }

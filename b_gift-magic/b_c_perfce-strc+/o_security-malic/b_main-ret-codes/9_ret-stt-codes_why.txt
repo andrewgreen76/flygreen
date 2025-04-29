@@ -1,4 +1,13 @@
 
+===================================================================================
+USE OF main() RETURN CODES 
+===================================================================================
+"
+When a program exits, the kernel stores its return value (exit status) so that the parent process can later retrieve it using system calls like `wait()` or `waitpid()`.
+"
+
+===================================================================================
+
 What is the "return 0;" in int main() for?
 ChatGPT
 
@@ -12,3 +21,4 @@ For example, you might use a non-zero return value to indicate an error code whe
 
 Overall, return 0; in int main() is a way to communicate the successful termination of the program to the operating system or any other calling code that invoked the program.
 
+_

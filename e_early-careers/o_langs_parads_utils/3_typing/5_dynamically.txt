@@ -1,0 +1,5 @@
+
+ . types are determined at runtime 
+ . e.g., like with interpreted languages 
+
+_

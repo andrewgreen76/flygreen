@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "gintypes.h"
+#include "types.h"
 
 ///////////////////////////////////////////////////////////////
 
@@ -7,7 +7,7 @@ void main(){
   string uprompt;
   
   while(1){
-    printf("gin : ");
+    printf("syidi < ");
     if ( scanf("%s" , uprompt) == -1) { printf("\n"); break; }
     printf("You wrote: %s\n" , uprompt);
   }

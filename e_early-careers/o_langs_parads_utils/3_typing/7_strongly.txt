@@ -1,0 +1,15 @@
+
+===================================================================================
+STRONG TYPING 
+===================================================================================
+
+ . Clearly express how something is to be treated - as a decimal number, an octal number, a string, etc.
+ . This leads to certain treatment of data , functions , structures , etc. 
+
+ . "Strong typing means a language strictly enforces rules about how different types of data can interact,
+    preventing automatic or unsafe type conversions."
+    
+ . "A language enforces strong typing by requiring explicit type declarations, disallowing implicit type
+    conversions, and performing strict type checks during compilation or at runtime."
+
+_

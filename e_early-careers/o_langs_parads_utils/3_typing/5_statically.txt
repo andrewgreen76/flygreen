@@ -1,7 +1,0 @@
-"
-A statically typed language requires that the type of every variable is known and verified at compile time, before the program runs.
-"
-
- . i.e., type is determined by the compiler
- 
-_

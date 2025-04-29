@@ -1,5 +1,5 @@
-#ifndef GINTYPES_H
-#define GINTYPES_H
+#ifndef TYPES_H
+#define TYPES_H
 
 typedef unsigned char byte;
 typedef char* string;

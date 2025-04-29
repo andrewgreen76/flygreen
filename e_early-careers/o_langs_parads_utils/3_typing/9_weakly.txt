@@ -1,0 +1,4 @@
+"
+Weak typing means a language allows implicit type conversions, sometimes automatically changing data types even when it might lead to unexpected behavior.
+"
+_

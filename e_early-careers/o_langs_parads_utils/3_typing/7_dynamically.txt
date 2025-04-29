@@ -1,7 +1,0 @@
-"
-A dynamically typed language determines and checks the type of variables only while the program is running, not during compilation.
-"
-
- . e.g., like with interpreted languages 
-
-_

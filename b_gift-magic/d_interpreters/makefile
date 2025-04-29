@@ -1,8 +1,8 @@
 CC = gcc
 CFLAGS = -O0 #-Wall -Wextra
 LFLAGS = -fno-lto
-SRC = gin.c
-OUT = gin
+SRC = syidi.c
+OUT = syidi
 
 $(OUT): $(SRC)
 	$(CC) $(CFLAGS) $(LFLAGS) -o $(OUT) $(SRC)

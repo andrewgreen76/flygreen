@@ -1,0 +1,5 @@
+
+ . types are "known and verified" at compile time
+ . 
+ 
+_

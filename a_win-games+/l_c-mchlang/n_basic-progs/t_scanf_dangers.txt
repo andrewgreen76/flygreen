@@ -1,0 +1,36 @@
+"
+Your code invokes **undefined behavior** because `char *buf;` is an uninitialized pointer—it does **not** point to valid memory. When `scanf("%s", buf);` tries to write input to that address, it will likely crash your program or corrupt memory.
+
+### Here's how to fix it:
+
+#### Option 1: Allocate memory dynamically
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+  char *buf = malloc(100);  // allocate 100 bytes
+  if (buf == NULL) {
+    perror("malloc failed");
+    return 1;
+  }
+  scanf("%99s", buf);       // prevent buffer overflow
+  printf("%s\n", buf);
+  free(buf);                // free memory when done
+  return 0;
+}
+```
+
+#### Option 2: Use a statically allocated array
+```c
+#include <stdio.h>
+
+int main() {
+  char buf[100];
+  scanf("%99s", buf);
+  printf("%s\n", buf);
+  return 0;
+}
+```
+"
+_

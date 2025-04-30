@@ -1,7 +1,6 @@
 #include <stdio.h>
+#include <limits.h>
 
 void main(){
-  char * buf;
-  scanf("%s" , buf);
-  printf("%s" , buf);
+  printf("%d\n" , LINE_MAX);
 }

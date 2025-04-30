@@ -1,5 +1,18 @@
+
+#include <stdio.h>
+
+void main(){
+  char * buf;
+  scanf("%s" , buf);
+  printf("%s" , buf);
+}
+
+===================================================================================
+
 "
-Your code invokes **undefined behavior** because `char *buf;` is an uninitialized pointer—it does **not** point to valid memory. When `scanf("%s", buf);` tries to write input to that address, it will likely crash your program or corrupt memory.
+[This] code invokes **undefined behavior** because `char *buf;` is an uninitialized pointer—it does **not** point to valid memory. When `scanf("%s", buf);` tries to write input to that address, it will likely crash your program or corrupt memory.
+
+===================================================================================
 
 ### Here's how to fix it:
 

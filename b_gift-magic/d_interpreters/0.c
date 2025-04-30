@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <limits.h>
+#include <stdbool.h>
 
 void main(){
-  printf("%d\n" , LINE_MAX);
+  printf("%ld\n" , sizeof(bool) );
 }

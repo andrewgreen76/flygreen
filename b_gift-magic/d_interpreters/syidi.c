@@ -1,25 +1,18 @@
 #include <stdio.h>
-
-#define KBD_EOF NULL
+#include "modes.h"
 
 ///////////////////////////////////////////////////////////////
 
-void main(int argc , char * argv[] ){
+int main(int argc , char * argv[] ){
 
   // Program entrance - validity check : 
-  if(argc==1) handle_scriptexec();
-  else if(argc==2) handle_REPL();
-  else printf("ERROR: Only up to two arguments are allowed.\n"); 
-  
-  /*  
-  char user_input[2048];
-
-  while(1){
-    printf("SYIDI < ");
-    if ( fgets(user_input, 2048, stdin) == KBD_EOF ) { printf("\n"); break; }
-    printf("You wrote: %s" , user_input);
+  if(argc==1) handle_REPL();
+  else if(argc==2) handle_scriptexec();
+  else {
+    printf("syidi: ERROR: Only up to two arguments are allowed.\n");
+    return -1;
   }
-  */
   
-  // EXIT. 
+  // EXIT.
+  return 0;
 }

@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -O0 #-Wall -Wextra
 LFLAGS = -fno-lto
-SRC = syidi.c modes.c
+SRC = syidi.c runmodes.c
 OUT = syidi
 
 $(OUT): $(SRC)

@@ -2,9 +2,8 @@
 #include <unistd.h>
 #include <termios.h>
 
-struct termios term_canon , term_noncanon;
-
 void set_raw_mode() {
+  struct termios term_canon , term_noncanon;
   
   tcgetattr(STDIN_FILENO, &term_canon);
   term_noncanon = term_canon;

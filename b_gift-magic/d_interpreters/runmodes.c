@@ -1,7 +1,4 @@
-#include "modes.h"
-
-#define KBDSIG_EOF NULL
-#define STDIN_SIZE 2048
+#include "runmodes.h"
 
 //////////////////////////////////////////////////////////////
 
@@ -11,7 +8,7 @@ void handle_REPL(){
 
   while(1){
     printf("syidi < ");
-    if ( fgets(user_input, STDIN_SIZE, stdin) == KBDSIG_EOF ) { printf("\n"); break; }
+    if ( fgets(user_input, STDIN_SIZE, stdin) == EOT ) { printf("\n"); break; }
     printf("You wrote: %s" , user_input);
   }
 }

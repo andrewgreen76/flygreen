@@ -3,6 +3,13 @@
 DESIRED FEATURES IN THE INTERPRETER 
 ===================================================================================
 
+Execution modes :
+ . REPL
+    . string processing - non-canonical to react to special ASCII chars in real time 
+    . 
+ . running scripts 
+
+
  . quit / exit				.
  . help (cmds , ops)
  . about -self 

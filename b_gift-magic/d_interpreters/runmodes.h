@@ -2,6 +2,7 @@
 #define RUNMODES_H
 
 #include <stdio.h>
+#include "debug.h"
 
 //#define KBDSIG_EOF NULL
 #define EOT 4

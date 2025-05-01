@@ -1,0 +1,6 @@
+
+ . ssize_t is always 8 bytes , no matter what
+ . as defined in <unistd.h> and <sys/types.h>
+ . things like "long int" , on the other hand , vary from platform to platform 
+
+_

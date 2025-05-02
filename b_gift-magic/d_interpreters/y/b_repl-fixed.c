@@ -21,35 +21,32 @@ void restore_canon(){
 }
 
 //////////////////////////////////////////////////////////////
-// REPL loop : w/ real-time char processing (mid-line). 
-//////////////////////////////////////////////////////////////
 
 void handle_REPL(){
  
-  unsigned char kc;                 // latest char caught , NOT a ptr. 
-  unsigned char cbf[STDIN_SIZE];  // stdin skimmer buffer 
-  unsigned short ci;       // stdin skimmer buffer index 
+  unsigned char istrbuf[STDIN_SIZE];  // stdin skimmer tray 
+  unsigned short istrbuf_i = 0;       // stdin skimmer tray index 
+  unsigned char ch;                   // latest char caught 
   if(ENDEBUG) printf("Starting REPL ...\n");
+
   set_noncanon();
 
   // Line-by-line : 
-  while(kc!=EOT) {
+  while(ch!=EOT) {
+    ch = 0;  // Obligatory read-char reset - to allow for the next REPL line prompt upon hitting Enter. 
     printf("syidi < ");
     fflush(stdout);
 
     // Char-by-char : 
-    kc = -1;  // If Enter pressed @ prev REPL , then reset.
-    ci = 0;
-    while( !(kc=='\n' || kc==EOT) ){
-      read(STDIN_FILENO , &kc , 1);
-      cbf[ci] = kc;
-      ci++;
-      write(STDOUT_FILENO , &kc , 1); // Makes char echo happen.
+    while( !(ch=='\n' || ch==EOT) ){
+      read(STDIN_FILENO , &ch , 1);
+      write(STDOUT_FILENO , &ch , 1); // Makes char echo happen.
     }
   }
 
-  restore_canon();  
-  if(ENDEBUG) printf("\nFinished performing REPL.\n");
+  restore_canon();
+  
+  if(ENDEBUG) printf("Finished performing REPL.\n");
 }
 
 //////////////////////////////////////////////////////////////

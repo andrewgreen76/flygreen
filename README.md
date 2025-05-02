@@ -35,6 +35,9 @@ __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 __________________________________________________________________________
 
+Learning the nuances of canonical mode , non-canonical mode , echo , fflush(stdout) ,
+  etc. 
+
 Design and build of a tiny 5-button video game console. 
 
 Evolution of memory (and storage) technology. 

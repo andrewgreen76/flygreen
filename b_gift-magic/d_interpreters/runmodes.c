@@ -24,18 +24,23 @@ void restore_canon(){
 
 void handle_REPL(){
  
-  char user_input[STDIN_SIZE];
-  char ch; 
+  unsigned char istrbuf[STDIN_SIZE];
+  unsigned short istrbuf_i = 0;
+  unsigned char ch;
+  
   set_noncanon();
 
   if(ENDEBUG) printf("Started performing REPL ...\n");
   
-  while(1){
+  while(ch!=EOT) {
+    ch = 0;  // Obligatory read-char reset - to allow for the next REPL line prompt upon hitting Enter. 
     printf("syidi < ");
-    ////////// There is more than one way string processing is done in the real world.
-    read(STDIN_FILENO , &ch , 1);
-    write(STDOUT_FILENO , &ch , 1);
-    // printf("You wrote: %s" , user_input);
+    fflush(stdout);
+
+    while( !(ch=='\n' || ch==EOT) ){
+      read(STDIN_FILENO , &ch , 1);
+      write(STDOUT_FILENO , &ch , 1); // Makes char echo happen.
+    }
   }
 
   restore_canon();
@@ -47,9 +52,3 @@ void handle_REPL(){
 
 void handle_scriptexec(){
 }
-
-//////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////
-
-    // if ( fgets(user_input, STDIN_SIZE, stdin) == EOT ) { printf("\n"); break; }

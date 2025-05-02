@@ -1,0 +1,4 @@
+
+ . There is more than one way string processing is done in the real world.
+
+_

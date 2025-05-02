@@ -52,7 +52,7 @@ void handle_REPL(){
       write(STDOUT_FILENO , &kc , 1); // Makes char echo happen.
     } // EOL
 
-    if(kc=='\n') proccmd();
+    if(kc=='\n') handle_cmd();
     
   } //EOREPL
 

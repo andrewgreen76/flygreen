@@ -20,6 +20,11 @@ void restore_canon(){
   tcsetattr(STDIN_FILENO, TCSANOW, &termst0);
 }
 
+void handle_cmd(){
+  printf("Starting command handling ...");
+  printf("Finished command handling.");
+}
+
 //////////////////////////////////////////////////////////////
 // REPL loop : w/ real-time char processing (mid-line). 
 //////////////////////////////////////////////////////////////
@@ -28,7 +33,7 @@ void handle_REPL(){
  
   unsigned char kc;                 // latest char caught , NOT a ptr. 
   unsigned char cbuf[STDIN_SIZE];  // stdin skimmer buffer 
-  unsigned short ci;       // stdin skimmer buffer index 
+  unsigned short ci;              // stdin skimmer buffer index 
   if(ENDEBUG) printf("Starting REPL ...\n");
   set_noncanon();
 
@@ -39,14 +44,17 @@ void handle_REPL(){
 
     // Char-by-char : 
     kc = -1;  // If Enter pressed @ prev REPL , then reset.
-    ci = 0;
+    ci = -1;  // Start before buf[0] ... for the loop's logic. 
     while( !(kc=='\n' || kc==EOT) ){
+      ci++;
       read(STDIN_FILENO , &kc , 1);
       cbuf[ci] = kc;
-      ci++;
       write(STDOUT_FILENO , &kc , 1); // Makes char echo happen.
-    }
-  }
+    } // EOL
+
+    if(kc=='\n') proccmd();
+    
+  } //EOREPL
 
   restore_canon();  
   if(ENDEBUG) printf("\nFinished performing REPL.\n");

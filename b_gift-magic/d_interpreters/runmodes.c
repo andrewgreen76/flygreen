@@ -27,7 +27,7 @@ void restore_canon(){
 void handle_REPL(){
  
   unsigned char kc;                 // latest char caught , NOT a ptr. 
-  unsigned char cbf[STDIN_SIZE];  // stdin skimmer buffer 
+  unsigned char cbuf[STDIN_SIZE];  // stdin skimmer buffer 
   unsigned short ci;       // stdin skimmer buffer index 
   if(ENDEBUG) printf("Starting REPL ...\n");
   set_noncanon();
@@ -42,7 +42,7 @@ void handle_REPL(){
     ci = 0;
     while( !(kc=='\n' || kc==EOT) ){
       read(STDIN_FILENO , &kc , 1);
-      cbf[ci] = kc;
+      cbuf[ci] = kc;
       ci++;
       write(STDOUT_FILENO , &kc , 1); // Makes char echo happen.
     }

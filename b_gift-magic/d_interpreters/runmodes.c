@@ -21,8 +21,8 @@ void restore_canon(){
 }
 
 void handle_cmd(){
-  printf("Starting command handling ...");
-  printf("Finished command handling.");
+  printf("Starting command handling ...\n");
+  printf("Finished command handling.\n");
 }
 
 //////////////////////////////////////////////////////////////

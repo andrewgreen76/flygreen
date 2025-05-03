@@ -1,10 +1,9 @@
-#ifndef RUNMODES_H
-#define RUNMODES_H
+#ifndef REPL_H
+#define REPL_H
 
 #include <stdio.h>
 #include "debug.h"
 
-//#define KBDSIG_EOF NULL
 #define EOT 4
 #define STDIN_SIZE 2048
 

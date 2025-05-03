@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "runmodes.h"
+#include "repl.h"
+#include "screxec.h"
 
 ///////////////////////////////////////////////////////////////
 

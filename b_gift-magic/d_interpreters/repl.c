@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <termios.h>
-#include "runmodes.h"
+#include "repl.h"
 
 struct termios termst0; 
 

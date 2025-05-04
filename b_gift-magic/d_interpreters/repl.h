@@ -9,8 +9,7 @@
 
 void set_noncanon();
 void restore_canon();
-void handle_cmd();
+void handle_cmd(unsigned char * );
 void handle_REPL();
-void handle_scriptexec();
 
 #endif

@@ -20,7 +20,7 @@ void restore_canon(){
   tcsetattr(STDIN_FILENO, TCSANOW, &termst0);
 }
 
-void handle_cmd(){
+void handle_cmd(unsigned char * cbuf){
   printf("Starting command handling ...\n");
   printf("Finished command handling.\n");
 }
@@ -50,17 +50,12 @@ void handle_REPL(){
       read(STDIN_FILENO , &kc , 1);
       cbuf[ci] = kc;
       write(STDOUT_FILENO , &kc , 1); // Makes char echo happen.
-    } // EOL
+    } //EOL
 
-    if(kc=='\n') handle_cmd();
+    if(kc=='\n') handle_cmd(cbuf);
     
   } //EOREPL
 
   restore_canon();  
   if(ENDEBUG) printf("\nFinished performing REPL.\n");
-}
-
-//////////////////////////////////////////////////////////////
-
-void handle_scriptexec(){
 }

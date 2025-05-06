@@ -8,19 +8,24 @@ void handle_cmdl(unsigned char * cbuf){
 
   // Command echo test : 
   printf("Command line buffer: ");
-  fflush(stdout);  
+  fflush(stdout);
+
+  // Scan-n'-print : 
   while(cbuf[ci] != '\n') {
     write(STDOUT_FILENO , &cbuf[ci] , 1);
     ci++; 
   }
   write(STDOUT_FILENO , &cbuf[ci] , 1);
+  cbuf[ci] = '\0';  // Will be necessary for future string processing. 
 
+  /*
   // 1. Do cmdl validity check (no special characters). 
   // Receive the "cmd" input and look for the bin.exec file : 
   ci = 0;
   while( cbuf[ci]!=' ' && cbuf[ci]!='\n' ){
-    
+    //
   }
+  */
   
   printf("Finished command handling.\n");
 }

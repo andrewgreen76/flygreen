@@ -5,7 +5,8 @@ void handle_cmdl(unsigned char * cbuf){
   int ci = 0;
   
   printf("Starting command handling ...\n");
-  
+
+  // Command echo test : 
   printf("Command line buffer: ");
   fflush(stdout);  
   while(cbuf[ci] != '\n') {
@@ -14,6 +15,8 @@ void handle_cmdl(unsigned char * cbuf){
   }
   write(STDOUT_FILENO , &cbuf[ci] , 1);
 
+  // 1. Do cmdl validity check (no special characters). 
+  // Receive the "cmd" input and look for the bin.exec file : 
   ci = 0;
   while( cbuf[ci]!=' ' && cbuf[ci]!='\n' ){
     

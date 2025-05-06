@@ -1,0 +1,8 @@
+
+ . recompiling only the modified files => faster compilation
+ 
+
+"
+Generating intermediate object files in a Makefile typically offers more benefits than costs, as it enables incremental compilation, reducing build time for large projects by recompiling only modified files, though it requires managing additional files and slightly more complex build rules.
+"
+_

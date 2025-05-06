@@ -10,6 +10,7 @@ $(OUT): $(OBJ)
 	$(CC) $(LFLAGS) $(OBJ) -o $(OUT)
 
 ./build/syidi.o: ./src/syidi.c
+	mkdir -p build
 	gcc $(CFLAGS) ./src/syidi.c -o ./build/syidi.o
 
 ./build/repl.o: ./src/repl.c

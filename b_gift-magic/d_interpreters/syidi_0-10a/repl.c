@@ -20,11 +20,6 @@ void restore_canon(){
   tcsetattr(STDIN_FILENO, TCSANOW, &termst0);
 }
 
-void handle_cmd(unsigned char * cbuf){
-  printf("Starting command handling ...\n");
-  printf("Finished command handling.\n");
-}
-
 //////////////////////////////////////////////////////////////
 // REPL loop : w/ real-time char processing (mid-line). 
 //////////////////////////////////////////////////////////////
@@ -44,12 +39,12 @@ void handle_REPL(){
 
     // Char-by-char : 
     kc = -1;  // If Enter pressed @ prev REPL , then reset.
-    ci = -1;  // Start before buf[0] ... for the loop's logic. 
+    ci = 0; 
     while( !(kc=='\n' || kc==EOT) ){
-      ci++;
       read(STDIN_FILENO , &kc , 1);
       cbuf[ci] = kc;
       write(STDOUT_FILENO , &kc , 1); // Makes char echo happen.
+      ci++;
     } //EOL
 
     if(kc=='\n') handle_cmd(cbuf);

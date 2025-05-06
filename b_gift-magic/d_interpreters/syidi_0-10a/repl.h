@@ -2,6 +2,7 @@
 #define REPL_H
 
 #include <stdio.h>
+#include "cmdproc.h"
 #include "debug.h"
 
 #define EOT 4
@@ -9,7 +10,6 @@
 
 void set_noncanon();
 void restore_canon();
-void handle_cmd(unsigned char * );
 void handle_REPL();
 
 #endif

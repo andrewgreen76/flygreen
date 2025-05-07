@@ -38,11 +38,11 @@ void handle_REPL(){
     fflush(stdout);
 
     // Char-by-char : 
-    kc = -1;  // If Enter pressed @ prev REPL , then reset.
+    kc = -1;  // If Enter pressed @ prev REPL , then clear the line feed.
     ci = 0; 
     while( !(kc=='\n' || kc==EOT) ){
       read(STDIN_FILENO , &kc , 1);
-      cbuf[ci] = kc;
+      cbuf[ci] = kc; 
       write(STDOUT_FILENO , &kc , 1); // Makes char echo happen.
       ci++;
     } //EOL

@@ -1,25 +1,20 @@
-#include <unistd.h>
 #include "cmdproc.h"
 
+///////////////////////////////////////////////////////////
+
 void handle_cmdl(unsigned char * cbuf){
-  int ci = 0;
-  
-  printf("Starting command handling ...\n");
 
-  // Command echo test : 
-  printf("Command line buffer: ");
-  fflush(stdout);
+  if(ENDEBUG) printf("Starting command handling ...\n");
 
-  // Scan-n'-print : 
-  while(cbuf[ci] != '\n') {
-    write(STDOUT_FILENO , &cbuf[ci] , 1);
-    ci++; 
+  if(ENDEBUG){
+    test_echocl(cbuf);
+    //test_striplf(cbuf);
+    //test_splitcl(cbuf);
   }
-  write(STDOUT_FILENO , &cbuf[ci] , 1);
-  cbuf[ci] = '\0';  // Will be necessary for future string processing. 
 
+  
+  //cmdsrh_statcd = system("./bin/throw"); 
   /*
-  // 1. Do cmdl validity check (no special characters). 
   // Receive the "cmd" input and look for the bin.exec file : 
   ci = 0;
   while( cbuf[ci]!=' ' && cbuf[ci]!='\n' ){
@@ -27,5 +22,28 @@ void handle_cmdl(unsigned char * cbuf){
   }
   */
   
-  printf("Finished command handling.\n");
+  if(ENDEBUG) printf("Finished command handling.\n");
+}
+
+///////////////////////////////////////////////////////////
+
+void test_splitcl(unsigned char * cbuf){
+  
+}
+
+///////////////////////////////////////////////////////////
+
+void test_echocl(unsigned char * cbuf){
+  int ci = 0;
+  
+  // Command echo test : 
+  printf("Command line buffer: ");
+  fflush(stdout);
+
+  // Scan-n'-print : 
+  while(cbuf[ci] != '\0') {
+    write(STDOUT_FILENO , &cbuf[ci] , 1);
+    ci++; 
+  }
+  //write(STDOUT_FILENO , &cbuf[ci] , 1);
 }

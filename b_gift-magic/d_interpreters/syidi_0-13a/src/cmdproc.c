@@ -1,14 +1,17 @@
 #include "cmdproc.h"
 
 ///////////////////////////////////////////////////////////
+// Command recognition : (a) meta-cmd (not a sep.proc) , (b) bin.exec (a sep.proc) , (c) fail. 
+///////////////////////////////////////////////////////////
 
 void handle_cmdl(unsigned char * cbuf){
 
   if(ENDEBUG) printf("Starting command handling ...\n");
 
   if(ENDEBUG){
-    test_echocl(cbuf);
-    //test_striplf(cbuf);
+    //     
+    
+    //test_echocl(cbuf);
     //test_splitcl(cbuf);
   }
 
@@ -39,9 +42,4 @@ void test_echocl(unsigned char * cbuf){
   printf("Command line buffer: ");
   fflush(stdout);
   printf("%s" , cbuf);
-  /*
-  // Scan-n'-print : 
-  for( int ci = 0; cbuf[ci] ; ci++ ) 
-    write(STDOUT_FILENO , &cbuf[ci] , 1);
-  */
 }

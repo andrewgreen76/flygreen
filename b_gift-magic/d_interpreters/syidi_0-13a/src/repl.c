@@ -56,9 +56,10 @@ void handle_REPL(){
       cbuf[ci] = '\0';
       handle_cmdl(cbuf);
     }
-  } //EOREPL
-
- handle_errcllim:
+  
+  handle_errcllim:
+  }
+  //EOT => EOREPL
 
   restore_canon();  
   if(ENDEBUG) printf("\nFinished performing REPL.\n");

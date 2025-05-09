@@ -53,7 +53,7 @@ void handle_REPL(){
     } //EOL
     
     if(kc=='\n') {
-      cbuf[ci] = '\0';
+      cbuf[ci] = '\0';  // Prep for any str.ops. 
       handle_cmdl(cbuf);
     }
   

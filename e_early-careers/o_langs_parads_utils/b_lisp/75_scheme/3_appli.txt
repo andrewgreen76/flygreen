@@ -1,0 +1,4 @@
+"
+Scheme is primarily used for teaching computer science concepts, language design research, and scripting in academic and research settings.
+"
+_

@@ -1,7 +1,7 @@
 #include "cmdproc.h"
 
 ///////////////////////////////////////////////////////////
-// Command recognition : (a) meta-cmd (not a sep.proc) , (b) bin.exec (a sep.proc) , (c) fail.
+// Command recognition : (a) meta-cmd (handle exit solo) , (b) bin.exec (a sep.proc) , (c) fail.
 //  - Handling = recognizing (w/ workarounds) + taking action. 
 ///////////////////////////////////////////////////////////
 
@@ -38,7 +38,7 @@ bool chk_exit(unsigned char * cbuf){
 	 || cbuf[chead]=='\n' )
     { chead++; };
 
-  if( !cbuf[chead] ) return true;  // for valid 'exit' format.
+  if( !cbuf[chead] ) return true;  // if 'exit' format is good.
   // Else, 
   printf("ERROR: command line not correctly formatted.\n");
   return false;

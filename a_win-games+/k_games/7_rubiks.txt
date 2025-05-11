@@ -37,7 +37,7 @@
 a. Locate a non-yellow key piece : 
   . orientation : white center on the bottom => yellow center on top
   . find a top (yellow-side) middle piece that does not have yellow on it (NYM) 
-  . that piece should (NYM) be on your front
+  . that piece (NYM) should be on your front
   . move the top layer around until that middle piece's (NYM) front color is on the same side with its center-color cousin piece  
 You should end up with matching tiles in an upside-down T-shape. 
 

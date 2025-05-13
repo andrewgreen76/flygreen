@@ -66,5 +66,5 @@ void handle_REPL(){
 
   ////////////////// EPILOGUE code : //////////////////
   restore_canon();  
-  if(ENDEBUG) printf("Finished performing REPL.\n");
+  if(ENDEBUG) printf("\nFinished performing REPL.\n");
 }

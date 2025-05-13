@@ -3,20 +3,22 @@ __________________________________________________________________________
 The PURPOSE of this repo:
 __________________________________________________________________________
 
-To help individuals, with or without a technical background, to:
-- fill in the gaps left by their formal education or, if they didn't have any,
-  provide them with comprehensive alternative education;
-  - (especially for beginners)
-    - hone their programming skills,
-    - internalize key programming and engineering concepts,
-    - learn about different systems,
-    - understand and build a perspective on modern computing through studying
-      its history.
+To help individuals, with or without a technical background:
+- hone their programming skills; 
+- internalize key programming and engineering concepts; 
+- learn about different systems; 
+- understand and build a perspective on modern computing through studying
+  its history; 
 - grow a portfolio; 
 - improve their productivity in general (combatting ADD, figuring out
-  alternatives to unhealthy solutions, etc.);     
+  alternatives to unhealthy solutions, etc.). 
+
+To help individuals with a technical background:
+- fill in the gaps left by their formal education; 
+- get a comprehensive alternative education. 
+
 __________________________________________________________________________
-The MANIFESTO is:
+You are encouraged to exercise your four freedoms:
 __________________________________________________________________________
 
 - to run

@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(){
-  char place;
+  char buf[5000];
 
-  place = (char)NULL;
-  printf("%d" , !place );
-  
+  fgets(buf , 5000 , stdin);
+  printf("%s" , buf);
+
   return 0;
 }

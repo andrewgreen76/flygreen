@@ -4,18 +4,19 @@ LFLAGS = -fno-lto
 OBJ = ./build/pxlate.o 
 OUT = ./bin/pxlate
 
-$(OUT): $(OBJ)
+build:
+	mkdir -p build 
+
+bin:
+	mkdir -p bin
+
+dirs: build bin
+
+$(OUT): $(OBJ) | dirs 
 	$(CC) $(LFLAGS) $(OBJ) -o $(OUT)
 
 ./build/pxlate.o: ./src/pxlate.c
-	mkdir -p build
-	gcc $(CFLAGS) ./src/pxlate.c -o ./build/pxlate.o
-
-#./build/repl.o: ./src/repl.c
-#	gcc $(CFLAGS) ./src/repl.c -o ./build/repl.o
-
-#$(OBJ): $(SRC)
-#	$(CC) $(CFLAGS) -c $(SRC)
+	$(CC) $(CFLAGS) ./src/pxlate.c -o ./build/pxlate.o
 
 clean:
 	rm $(OUT) $(OBJ)

@@ -1,8 +1,4 @@
 
-UI design :
- . 135 cols x (41-3) lines
- . 
-
 What I need (functions) :
  |
  |

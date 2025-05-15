@@ -1,4 +1,4 @@
 
-TExt EDitor for FORmative Programming. 
+TExt EDitor from FORmative Programming. 
 
 _

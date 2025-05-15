@@ -1,24 +1,18 @@
 CC = gcc
 CFLAGS = -I./include/ -c -O0 #-Wall -Wextra
 LFLAGS = -fno-lto
-OBJ = ./build/syidi.o ./build/repl.o ./build/screxec.o ./build/cmdproc.o 
-OUT = ./bin/syidi
+OBJ = ./build/pxlate.o 
+OUT = ./bin/pxlate
 
 $(OUT): $(OBJ)
 	$(CC) $(LFLAGS) $(OBJ) -o $(OUT)
 
-./build/syidi.o: ./src/syidi.c
+./build/pxlate.o: ./src/pxlate.c
 	mkdir -p build
-	gcc $(CFLAGS) ./src/syidi.c -o ./build/syidi.o
+	gcc $(CFLAGS) ./src/pxlate.c -o ./build/pxlate.o
 
-./build/repl.o: ./src/repl.c
-	gcc $(CFLAGS) ./src/repl.c -o ./build/repl.o
-
-./build/screxec.o: ./src/screxec.c
-	gcc $(CFLAGS) ./src/screxec.c -o ./build/screxec.o
-
-./build/cmdproc.o: ./src/cmdproc.c
-	gcc $(CFLAGS) ./src/cmdproc.c -o ./build/cmdproc.o
+#./build/repl.o: ./src/repl.c
+#	gcc $(CFLAGS) ./src/repl.c -o ./build/repl.o
 
 #$(OBJ): $(SRC)
 #	$(CC) $(CFLAGS) -c $(SRC)

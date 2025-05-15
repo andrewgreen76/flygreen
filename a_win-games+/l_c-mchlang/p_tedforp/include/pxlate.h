@@ -19,30 +19,20 @@
 #define BG_TEAL   46
 #define BG_WHITE  47
 
-/*
-  
-FOREground :
+void do_prol(){
+  setlocale(LC_ALL , "");
+}
 
-  30 - charcoal black
-  31 - red
-  32 - green
-  33 - golden brown
-  34 - blue
-  35 - purple
-  36 - teal
-  37 - white 
-  // 29 - light grey
+void do_epil(){
+  printf("\033[0m");
+  printf( "\n" );
+}
 
-BACKground :
+void test_color(){  
+  // fg: 29-37 ; bg: 39-47 ???
+  for( ; ccode<38 ; ccode++ ){
+    printf("\033[%d;%dm▀" , ccode , ccode+10 );
+  }
+}
 
-  40 - charcoal black
-  41 - red
-  42 - green
-  43 - golden brown
-  44 - blue
-  45 - purple
-  46 - teal
-  47 - white 
-  // 39 - solid black
-  
- */
+#endif 

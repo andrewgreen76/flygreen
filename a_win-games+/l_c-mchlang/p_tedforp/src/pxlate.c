@@ -2,28 +2,24 @@
 #include <stdint.h>
 #include <wchar.h>
 #include <locale.h>
+#include "pxlate.h"
 
 #define RES_WID 640
 #define RES_HEI 320
 
 int main(){
-  /////////////// Prologue /////////////// 
-  setlocale(LC_ALL , "");
+  /////////////////////////////////////
+  do_prol();
   wchar_t c;
   uint8_t ccode = 30; 
-  ////////////////////////////////////////
-
-  // fg: 29-37 ; bg: 39-47 ???
-  for( ; ccode<38 ; ccode++ ){
-    printf("\033[%d;%dm▀" , ccode , ccode+10 );
-  }
-  
-  /////////////// Epilogue /////////////// 
-  printf("\033[0m");
-  printf( "\n" );
+  /////////////////////////////////////
+  test_color();
+  /////////////////////////////////////
+  do_epil();
   return 0;
 }
 
+////////////////////////////////////////
 /*
   
 FOREground :

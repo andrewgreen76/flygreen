@@ -16,4 +16,4 @@ rsrc_dirs:
 	mkdir -p build bin 
 
 clean:
-	rm -f $(OUT) $(OBJ)  # -f to kill the 'non-existent files' error. 
+	rm -f $(OUT) $(OBJ)  # -f to kill the 'non-existent files' error event. 

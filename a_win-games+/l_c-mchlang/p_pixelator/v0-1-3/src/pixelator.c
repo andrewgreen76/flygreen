@@ -8,6 +8,10 @@ int main(){
   test_colors();
   delay(2);
   clear_term();
+  
+  test_colors2();
+  delay(2);
+  clear_term();
 
   cleanup();
   return 0;

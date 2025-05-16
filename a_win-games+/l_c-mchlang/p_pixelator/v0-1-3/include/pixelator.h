@@ -22,9 +22,6 @@
 #define LOHALF_TEAL   46
 #define LOHALF_WHITE  47
 
-#define RES_WID 640
-#define RES_HEI 320
-
 #include <stdio.h>
 #include <stdint.h>
 #include <wchar.h>

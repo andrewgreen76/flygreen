@@ -2,6 +2,10 @@
 UI design :
  . (at reg. res.) 135 cols x (41-3) lines
  . (at finest res.) 634 x 166 ; 634 x 332 = 210,488
- . =>  	      	    	      	      240 lfpx / 2 = 120 lfs , 320 cols. 
+ . =>  	      	    	      	      240 lfpx / 2 = 120 lfs , 320 cols. => 320 x 240. 
+ . Can't do 640 cols.
+ => 480 cols ; 320 rows => 160 line feeds.
+ => 480 cols ; 160 line feeds.
+ => 480 x 320. 
 
 _

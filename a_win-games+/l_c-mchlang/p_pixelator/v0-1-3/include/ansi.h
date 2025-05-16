@@ -7,5 +7,6 @@
 void clear_term();
 void reset_colors();
 void test_colors();
+void test_colors2();
 
 #endif

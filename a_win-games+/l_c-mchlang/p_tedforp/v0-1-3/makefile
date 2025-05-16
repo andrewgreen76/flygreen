@@ -25,7 +25,7 @@ rsrc_dirs:
 ##########################################################
 # -f to kill the 'non-existent files' error event. 
 clean:
-	rm -f $(OBJ)
-#rm -f $(OUT) $(OBJ)
+	rm -f $(OUT) $(OBJ)
+#rm -f $(OBJ)
 #clear
 #ls -1

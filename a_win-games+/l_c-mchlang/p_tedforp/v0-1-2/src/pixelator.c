@@ -3,52 +3,25 @@
 #include <wchar.h>
 #include <locale.h>
 #include "pixelator.h"
-#include "ansi.h"
-#include "unicode.h"
 
 #define RES_WID 640
 #define RES_HEI 320
 
 ////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////
 
 int main(){
-  //// Prologue : ////
-  emp_chsett();
-  //clrterm();
+  setup();
   
-  /////////////////////////////////////
-  test_color();
+  test_colors();
+  delay(2000000000);
   
-  //// Epilogue : ////
-  renew_chsett();
-  //clrterm();
+  reset_colors();
   return 0;
 }
 
 ////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////
 
-void clrterm(){
-  printf("\033[2J\033[H");
-}
-
-void emp_chsett(){
-  printf("Expanding Unicode character manipulation capabilities to \"wide\" ...\n");
+void setup(){
+  printf("Expanding UTF-8 to local conventions ...\n");
   setlocale(LC_ALL , ""); 
-}
-
-void renew_chsett(){
-  printf("\033[0m\n"); 
-  printf("Restored character colors to default.\n");
-}
-
-void test_color(){  
-  uint8_t ccode = 30; 
-  printf("Performing a colored characters display test ...\n");
-  
-  // fg: 29-37 ; bg: 39-47 ???
-  for( ; ccode<38 ; ccode++ )
-    printf("\033[%d;%dm▀" , ccode , ccode+10 );
-  printf("\033[0m[EOTEST]"); 
 }

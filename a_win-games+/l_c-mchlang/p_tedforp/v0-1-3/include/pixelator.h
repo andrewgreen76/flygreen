@@ -22,9 +22,23 @@
 #define LOHALF_TEAL   46
 #define LOHALF_WHITE  47
 
+#define RES_WID 640
+#define RES_HEI 320
+
+#include <stdio.h>
+#include <stdint.h>
+#include <wchar.h>
+#include <locale.h>
+#include <unistd.h>
+#include <termios.h>
 #include "ansi.h"
 #include "timer.h"
 
+struct termios term_can, term_nocan; 
+
 void setup();
+void cleanup();
+void kill_canonical();
+void reset_canonical();
 
 #endif 

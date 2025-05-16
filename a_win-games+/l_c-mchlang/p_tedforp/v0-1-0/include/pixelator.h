@@ -19,20 +19,9 @@
 #define BG_TEAL   46
 #define BG_WHITE  47
 
-void do_prol(){
-  setlocale(LC_ALL , "");
-}
-
-void do_epil(){
-  printf("\033[0m");
-  printf( "\n" );
-}
-
-void test_color(){  
-  // fg: 29-37 ; bg: 39-47 ???
-  for( ; ccode<38 ; ccode++ ){
-    printf("\033[%d;%dm▀" , ccode , ccode+10 );
-  }
-}
+void clrterm();
+void emp_chsett();
+void renew_chsett();
+void test_color();
 
 #endif 

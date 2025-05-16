@@ -1,0 +1,29 @@
+
+What I need (functions) :
+ |
+ |
+ . prologue : 
+ |  . f: clear the screen
+ |  . f: enable non-canonical mode (must share global termst with prologue)
+ |
+ . epilogue : 
+ |  . f: disable non-canonical mode
+ |  . f: clear the screen
+ |
+ . get certain keybindings working : 
+ |  . EOT (to exit) 
+    . top menus access 
+ |
+ . get char keys working : 
+    . backspace
+    . cursor-moving arrow keys 
+    . tab
+ 
+
+What I ran into :
+ . backspace not working
+ . arrow keys generate strange ASCII chars ;
+    . can't move the cursor 
+ . reaction to [tab] as EOF 
+
+_

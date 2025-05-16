@@ -1,7 +1,7 @@
 make
 
 if [[ "$?" == "0" ]]; then  # Retd statcd : Did 'make' succeed ? 
-    ./bin/pxlate
+    ./bin/pixelator
     make clean
 else
     echo "Build FAILED."

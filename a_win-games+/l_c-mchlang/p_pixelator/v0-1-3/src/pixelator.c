@@ -16,10 +16,12 @@ int main(){
 
 void setup(){
   printf("Expanding UTF-8 to local conventions ...\n");
-  setlocale(LC_ALL , ""); 
+  setlocale(LC_ALL , "");
+  //kill_canonical();
 }
 
 void cleanup(){
+  //reset_canonical();
   reset_colors();
 }
 

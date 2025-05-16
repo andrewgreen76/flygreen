@@ -6,7 +6,8 @@ int main(){
   setup();
   
   test_colors();
-  delay(1);
+  delay(2);
+  clear_term();
 
   cleanup();
   return 0;

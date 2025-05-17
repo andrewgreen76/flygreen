@@ -1,0 +1,4 @@
+"
+ANSI escape codes and curses are related in that both are used to control terminal output, with curses (like ncurses) often using ANSI escape codes internally to manage text attributes, cursor movement, and screen formatting, but curses provides a higher-level, portable abstraction for building text-based user interfaces.
+"
+_

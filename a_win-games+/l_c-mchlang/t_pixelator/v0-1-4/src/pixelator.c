@@ -16,13 +16,13 @@ int main(){
 ////////////////////////////////////////////////////////////////
 void do_tests(){
 
-  void (*tests[])() = { *test_colors ,
-			*test_colors2 };
+  void (*tests[])() = { *test_palette ,
+			*test_320x240 };
   uint8_t numtests = sizeof(tests) / sizeof(tests[0]);
   
   for( int tsi=0 ; tsi!=numtests ; tsi++ ){
     tests[tsi]();
-    delay(2);
+    delay(DLY_SECS);
     clear_term();
   }  
 }

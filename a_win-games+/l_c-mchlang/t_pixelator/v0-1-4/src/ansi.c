@@ -1,17 +1,21 @@
 #include "ansi.h"
 
 void reset_colors(){
-  printf("\033[0m"); 
-  fflush(stdout);  // Manual flush in place of an extra line feed doing the flush. 
+  // In that order: 
+  printf("\033[0m");        // reset colors and ...
+  printf("\033[2J\033[H");  // ... cover til EOTERM , wrap cursor to origin. 
+  // Or_simply_thi$: system("tput reset"); 
+  
   printf("Restored character colors to default.\n");
 }
 
 void clear_term(){
   printf("\033[2J\033[H");
+  fflush(stdout);
 }
 
 ////////////////////////////////////////////////////////////////
-void test_colors(){  
+void test_palette(){  
   uint8_t ccode = 30; 
   printf("Performing a colored characters display test ...\n");
   
@@ -24,10 +28,14 @@ void test_colors(){
 
 
 ////////////////////////////////////////////////////////////////
-void test_colors2(){  
+void test_320x240(){  
   uint8_t clref = 30; 
-  printf("Performing a color test on shell-as-canvas at finer resolution ...\n");
+  //printf("Performing a color test on shell-as-canvas at finer resolution ...\n");
 
+  printf( "\033[%d;%dm\u2580" , HI_RED , LO_RED );
+  //
+  fflush(stdout);
+  
   /*
   for( int r=0 ; r<RES_HEI/2 ; r++){
     for( int c=0 ; c<RES_WID ; c++ ){

@@ -1,4 +1,14 @@
 "
 ANSI escape codes and curses are related in that both are used to control terminal output, with curses (like ncurses) often using ANSI escape codes internally to manage text attributes, cursor movement, and screen formatting, but curses provides a higher-level, portable abstraction for building text-based user interfaces.
 "
+
+
+"
+ANSI escape sequences are implemented by terminal emulators, which interpret special character sequences starting with the escape character (\033 or ESC) followed by specific codes (e.g., [2J for clear screen) to control text formatting, cursor movement, or screen operations, as defined by standards like ANSI X3.64 or ECMA-48.
+"
+
+
+"
+The BIOS UI (e.g., setup screens) is not typically called a terminal emulator, as it is a firmware-level interface that directly manages hardware and displays text via basic video modes, whereas a terminal emulator is software that interprets ANSI escape codes and provides a command-line environment within an operating system.
+"
 _

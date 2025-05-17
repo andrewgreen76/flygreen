@@ -1,0 +1,14 @@
+"
+A TERMINAL EMULATOR is software that simulates a hardware terminal, providing a text-based interface to interact with a shell or command-line programs, interpreting commands and displaying output, often supporting ANSI escape codes for formatting and control.
+"
+
+
+"
+A HARDWARE TERMINAL is a physical device, such as a teletypewriter or video display terminal, designed to provide a text-based interface for interacting with a computer system, typically via serial connections, before modern terminal emulators replaced them with software.
+"
+
+
+"
+A VIDEO DISPLAY TERMINAL (VDT) is a hardware device, typically consisting of a keyboard and a cathode ray tube (CRT) or similar screen, used in the 1960s to 1980s to interact with computers by displaying text and accepting typed input, often connected via serial interfaces.
+"
+_

@@ -3,23 +3,31 @@
 ////////////////////////////////////////////////////////////////
 
 int main(){
-  void (*tests[])() = { *test_colors ,
-			*test_colors2 };
-  uint8_t numtests = sizeof(tests) / sizeof(tests[0]);
   setup();
 
-  for( int fni=0 ; fni!=numtests ; fni++ ){
-    tests[fni]();
-    delay(2);
-    clear_term();
-  }
-    
+  do_tests();
+  
   cleanup();
   return 0;
 }
 
 ////////////////////////////////////////////////////////////////
+// An array of pointers to ANSI test functions : 
+////////////////////////////////////////////////////////////////
+void do_tests(){
 
+  void (*tests[])() = { *test_colors ,
+			*test_colors2 };
+  uint8_t numtests = sizeof(tests) / sizeof(tests[0]);
+  
+  for( int tsi=0 ; tsi!=numtests ; tsi++ ){
+    tests[tsi]();
+    delay(2);
+    clear_term();
+  }  
+}
+
+////////////////////////////////////////////////////////////////
 void setup(){
   printf("Expanding UTF-8 to local conventions ...\n");
   setlocale(LC_ALL , "");

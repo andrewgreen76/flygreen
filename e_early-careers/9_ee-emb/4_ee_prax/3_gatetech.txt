@@ -1,0 +1,9 @@
+"
+Gate technologies currently being explored include : 
+ . FinFET (the oldest of these - early 2000s),
+ . Gate-All-Around (GAA) FET,
+ . Nanowire FET,
+ . Nanosheet FET, and
+ . Tunnel FET.
+"
+_

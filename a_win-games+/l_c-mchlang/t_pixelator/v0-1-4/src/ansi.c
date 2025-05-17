@@ -1,17 +1,13 @@
 #include "ansi.h"
 
 void reset_colors(){
-  // In that order: 
-  printf("\033[0m");        // reset colors and ...
-  printf("\033[2J\033[H");  // ... cover til EOTERM , wrap cursor to origin. 
-  // Or_simply_thi$: system("tput reset"); 
-  
-  printf("Restored character colors to default.\n");
+  printf("\033[0m");  printf("Restored character colors to default.\n");
 }
 
 void clear_term(){
-  printf("\033[2J\033[H");
-  fflush(stdout);
+  reset_colors();
+  printf("\033[2J\033[H");  printf("Cleared terminal with set colors.\nWrapped cursor to origin.\n");
+  // Or_simply_thi$: system("tput reset"); 
 }
 
 ////////////////////////////////////////////////////////////////

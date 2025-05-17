@@ -36,7 +36,7 @@ void setup(){
 
 void cleanup(){
   //reset_canonical();
-  reset_colors();
+  reset_colors();  printf("End-of-program color reset performed.\n");
 }
 
 void kill_canonical(){

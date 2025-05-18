@@ -18,6 +18,36 @@ void test_320x240(){
     }
     printf("\n");
   }
+
+  clear_term();
+
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){
+    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_GLD , LO_WHT );
+      printf( "\033[%d;%dm\u2580" , HI_WHT , LO_GLD );      
+    }
+    printf("\n");
+  }
+
+  clear_term();
+
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){
+    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_WHT , LO_GLD );
+      printf( "\033[%d;%dm\u2580" , HI_GLD , LO_WHT );      
+    }
+    printf("\n");
+  }
+
+  clear_term();
+
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){
+    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_GLD , LO_WHT );
+      printf( "\033[%d;%dm\u2580" , HI_WHT , LO_GLD );      
+    }
+    printf("\n");
+  }
   
 }
 

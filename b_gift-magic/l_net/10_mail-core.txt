@@ -1,0 +1,9 @@
+"
+[When an email is sent to a recipient but does not get caught until another email is sent, it] can occur due to delayed delivery or queuing issues on mail servers, where the first email is stuck or delayed and only processed after subsequent traffic triggers action.
+"
+
+
+"
+There is no widely recognized formal name for this specific phenomenon, but it may be described as "mail queue flushing" or a "delayed delivery due to deferred queue processing."
+"
+_

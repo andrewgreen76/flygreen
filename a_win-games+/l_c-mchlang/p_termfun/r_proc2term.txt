@@ -1,0 +1,4 @@
+"
+When the kernel hosts, deploys, and monitors a process, the process is connected to the terminal emulator through a pseudo-terminal (pty) or terminal device, which the kernel uses to route the process's standard input, output, and error streams (stdin, stdout, stderr) to the terminal for user interaction, managed via file descriptors.
+"
+_

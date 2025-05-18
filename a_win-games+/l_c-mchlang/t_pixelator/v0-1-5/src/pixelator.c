@@ -17,7 +17,8 @@ int main(){
 void do_tests(){
 
   void (*tests[])() = { *test_palette ,
-			*test_res };
+			*test_resgrain , 
+			*test_resfade };
   uint8_t numtests = sizeof(tests) / sizeof(tests[0]);
   
   for( int tsi=0 ; tsi!=numtests ; tsi++ ){

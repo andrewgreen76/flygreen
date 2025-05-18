@@ -4,51 +4,115 @@
 #include "ansi.h"
 
 ////////////////////////////////////////////////////////////////
-void test_res(){  
-  uint8_t clref = 30;
-  
+void test_resfade(){  
   printf("Performing a color test on the terminal (for finest resolution) ...\n");
+  delay(DLY_TICKS);
+  clear_term();
+
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 0
+    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    }
+    printf("\n");
+  }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 1
+    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_TEA , LO_BLU );
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    }
+    printf("\n");
+  }
+  
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 2
+    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_TEA , LO_BLU );
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_TEA );      
+    }
+    printf("\n");
+  }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 3a
+    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_TEA , LO_BLU );
+      printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );      
+    }
+    printf("\n");
+  }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 3b
+    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_TEA );      
+    }
+    printf("\n");
+  }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){
+    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){  // 4
+      printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
+      printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );      
+    }
+    printf("\n");
+  }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 3b
+    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_TEA );      
+    }
+    printf("\n");
+  }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 3a
+    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_TEA , LO_BLU );
+      printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );      
+    }
+    printf("\n");
+  }
+  
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 2
+    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_TEA , LO_BLU );
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_TEA );      
+    }
+    printf("\n");
+  }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 1
+    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_TEA , LO_BLU );
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    }
+    printf("\n");
+  }
+  
+}
+
+////////////////////////////////////////////////////////////////
+void test_resgrain(){  
+  printf("Performing a resolution granularity test ...\n");
   delay(DLY_TICKS);
   clear_term();
 
   for( int r=0 ; r<RES_HEIGHT/2 ; r++){
     for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
-      printf( "\033[%d;%dm\u2580" , HI_WHT , LO_GRN );
-      printf( "\033[%d;%dm\u2580" , HI_GRN , LO_WHT );      
+      printf( "\033[%d;%dm\u2580" , HI_RED , LO_WHT );
+      printf( "\033[%d;%dm\u2580" , HI_WHT , LO_RED );      
     }
     printf("\n");
   }
-
-  printf("\033[0m\033[H");
-
-  for( int r=0 ; r<RES_HEIGHT/2 ; r++){
-    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
-      printf( "\033[%d;%dm\u2580" , HI_GLD , LO_WHT );
-      printf( "\033[%d;%dm\u2580" , HI_WHT , LO_GLD );      
-    }
-    printf("\n");
-  }
-
-  printf("\033[0m\033[H");
-
-  for( int r=0 ; r<RES_HEIGHT/2 ; r++){
-    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
-      printf( "\033[%d;%dm\u2580" , HI_WHT , LO_GRN );
-      printf( "\033[%d;%dm\u2580" , HI_GRN , LO_WHT );      
-    }
-    printf("\n");
-  }
-
-  printf("\033[0m\033[H");
-
-  for( int r=0 ; r<RES_HEIGHT/2 ; r++){
-    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
-      printf( "\033[%d;%dm\u2580" , HI_GLD , LO_WHT );
-      printf( "\033[%d;%dm\u2580" , HI_WHT , LO_GLD );      
-    }
-    printf("\n");
-  }
-  
 }
 
 ////////////////////////////////////////////////////////////////

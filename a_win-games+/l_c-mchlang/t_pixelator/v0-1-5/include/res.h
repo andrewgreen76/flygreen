@@ -13,6 +13,11 @@
 ////////////////////////////////////////////////////////////////////////////////////////
 
 /*
+  To start with : 480x320 (finest res) - feels like 3 fps - slow 
+                  630x320 (finest res) - feels like 2 fps - very slow
+  Settled with :  480x240 (finest res)
+                  400x240 (finest res)
+  
   320x240 :
    . theor. aspect ratio = 4:3
    . actual outcome : fail

@@ -25,9 +25,10 @@
 #include "res.h"
 #include "timer.h"
 
+void test_resfade();
+void test_resgrain();
+void test_palette();
 void clear_term();
 void reset_colors();
-void test_palette();
-void test_res();
 
 #endif

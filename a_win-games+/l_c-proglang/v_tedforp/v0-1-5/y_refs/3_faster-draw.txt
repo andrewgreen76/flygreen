@@ -1,0 +1,14 @@
+"
+The terminal prints the contents of a text file quickly (e.g., using cat) because it performs sequential, buffered output with minimal processing, sending raw text directly to the terminal emulator, whereas a program printing text all over the screen often involves frequent ANSI escape codes, cursor movements, or redraws, which require additional parsing and rendering by the terminal, slowing down the process.
+"
+
+
+"
+Raw text refers to a sequence of characters, typically ASCII or UTF-8, without embedded control codes (like ANSI escape sequences) or formatting instructions, allowing the terminal to render it directly and efficiently without additional parsing or processing.
+"
+
+
+"
+Sequential buffered output means that data is collected in a buffer and sent to the terminal IN A CONTINUOUS, ORDERED STREAM, TYPICALLY LINE-BY-LINE OR IN LARGE CHUNKS, minimizing frequent system calls and enabling faster rendering compared to non-sequential operations like random cursor movements or frequent small writes.
+"
+_

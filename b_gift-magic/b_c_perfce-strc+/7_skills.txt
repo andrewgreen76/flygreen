@@ -1,0 +1,13 @@
+
+Programming skills :
+ . (not typing fast)
+ . correct LOGIC flow and execution (BUG PREVENTION) 
+ . avoiding bad PERFORMANCE 
+ . understand MEMORY management
+ . understand the program COMPILATION pipeline
+ . INTERPRETATION : script execution (and the difference between compilation and interpretation) 
+ . compilation OPTIMIZATION (its logic) 
+ . ORGANIZATION of project files
+ . master a language - its FEATURES 
+
+_

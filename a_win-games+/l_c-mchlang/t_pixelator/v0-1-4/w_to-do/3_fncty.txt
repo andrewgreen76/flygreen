@@ -22,7 +22,7 @@ What I need (functions) :
 
 What I ran into :
  . backspace not working
- . arrow keys generate strange ASCII chars ;
+ . arrow keys generate strange sequences - explicit ANSI escape codes ;
     . can't move the cursor 
  . reaction to [tab] as EOF 
 

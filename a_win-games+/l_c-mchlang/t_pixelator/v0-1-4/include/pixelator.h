@@ -8,7 +8,6 @@
 #include <unistd.h>
 #include <termios.h>
 #include "ansi.h"
-#include "timer.h"
 #include "res.h"
 
 struct termios term_can, term_nocan; 

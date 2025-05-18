@@ -21,4 +21,9 @@ ANSI escape codes are used for terminal operations because they provide a compac
 "
 ... each ANSI escape code is mapped to a more complex set of internal terminal (emulator) instructions that manipulate the display, cursor, or text attributes, abstracting low-level hardware or software operations into a concise, standardized sequence.
 "
+
+
+"
+ANSI escape codes are not exclusive to C; they are a terminal standard understood by any programming language or environment that outputs to a terminal emulator supporting ANSI standards, such as Python, Bash, or even direct terminal input, as the terminal itself interprets the codes, not the language.
+"
 _

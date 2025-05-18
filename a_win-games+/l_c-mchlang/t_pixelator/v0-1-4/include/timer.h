@@ -1,7 +1,7 @@
 #ifndef TIMER_H
 #define TIMER_H
 
-#define DLY_SECS 2
+#define DLY_TICKS 4
 
 void delay(unsigned long int );
 

@@ -22,7 +22,7 @@ void do_tests(){
   
   for( int tsi=0 ; tsi!=numtests ; tsi++ ){
     tests[tsi]();
-    delay(DLY_SECS);
+    delay(DLY_TICKS);
     clear_term();
   }  
 }

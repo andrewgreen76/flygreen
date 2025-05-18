@@ -21,6 +21,7 @@
 
 #include <stdio.h>
 #include <stdint.h>
+#include "debug.h"
 
 void clear_term();
 void reset_colors();

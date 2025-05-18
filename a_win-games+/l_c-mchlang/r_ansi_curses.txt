@@ -11,4 +11,14 @@ ANSI escape sequences are implemented by terminal emulators, which interpret spe
 "
 The BIOS UI (e.g., setup screens) is not typically called a terminal emulator, as it is a firmware-level interface that directly manages hardware and displays text via basic video modes, whereas a terminal emulator is software that interprets ANSI escape codes and provides a command-line environment within an operating system.
 "
+
+
+"
+ANSI escape codes are used for terminal operations because they provide a compact, standardized, and efficient way to embed control instructions within text streams, prioritizing simplicity and compatibility across diverse systems over more expressive but complex alternatives like structured protocols.
+"
+
+
+"
+... each ANSI escape code is mapped to a more complex set of internal terminal (emulator) instructions that manipulate the display, cursor, or text attributes, abstracting low-level hardware or software operations into a concise, standardized sequence.
+"
 _

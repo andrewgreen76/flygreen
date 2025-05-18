@@ -6,8 +6,8 @@ void reset_colors(){
 
 void clear_term(){
   reset_colors();
-  printf("\033[2J");  //printf("Cleared terminal with attributes in a full wraparound.\n");
-  printf("\033[H");   //printf("Cleared terminal with attributes, wrapping to origin.\n");
+  printf("\033[2J");  printf("Cleared terminal with attributes in a full wraparound.\n");
+  printf("\033[H");   printf("Cleared terminal with attributes, wrapping to origin.\n");
   // Or_simply_thi$: system("tput reset"); 
 }
 

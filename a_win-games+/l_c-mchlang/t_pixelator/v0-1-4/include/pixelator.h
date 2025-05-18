@@ -1,9 +1,6 @@
 #ifndef PIXELATOR_H
 #define PIXELATOR_H
 
-//#define RLS_BLD 0
-#define DBG_BLD 1
-
 #include <stdio.h>
 #include <stdint.h>
 #include <wchar.h>

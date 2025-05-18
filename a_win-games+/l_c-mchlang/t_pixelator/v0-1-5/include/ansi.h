@@ -1,6 +1,8 @@
 #ifndef ANSI_H
 #define ANSI_H
 
+#define SHOW_TEST_MSGS 0
+
 #define HI_BLK  30
 #define HI_RED  31
 #define HI_GRN  32
@@ -25,6 +27,8 @@
 #include "res.h"
 #include "timer.h"
 
+//void test_vertsweep();
+void test_horsweep();
 void test_resfade();
 void test_resgrain();
 void test_palette();

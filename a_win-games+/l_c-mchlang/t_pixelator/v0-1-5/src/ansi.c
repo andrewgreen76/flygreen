@@ -3,12 +3,130 @@
 
 #include "ansi.h"
 
+
+////////////////////////////////////////////////////////////////
+void test_horsweep(){
+  if(SHOW_TEST_MSGS){
+    printf("Performing a horizontal color sweep for animation simulation ...\n");
+    delay(DLY_TICKS);
+    clear_term();
+  }
+
+  /************************************
+  for(int fr = 0 ; fr<8 ; fr++){
+    printf("\033[0m\033[H");
+    for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // fr
+      if(fr>1) for(int ) printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+      if(fr) printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
+      for( fr=2 ; c<RES_WIDTH ; c++ ){
+	printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+      }
+      printf("\n");
+    }
+  }
+  
+  ************************************/
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 0
+    for( int c=0 ; c<RES_WIDTH ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    }
+    printf("\n");
+  }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 1
+    printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
+    for( int c=1 ; c<RES_WIDTH ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    }
+    printf("\n");
+  }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 2
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
+    for( int c=2 ; c<RES_WIDTH ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    }
+    printf("\n");
+  }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 3
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
+    for( int c=3 ; c<RES_WIDTH ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    }
+    printf("\n");
+  }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 4
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
+    for( int c=4 ; c<RES_WIDTH ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    }
+    printf("\n");
+  }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 5
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
+    for( int c=5 ; c<RES_WIDTH ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    }
+    printf("\n");
+  }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 6
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
+    for( int c=6 ; c<RES_WIDTH ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    }
+    printf("\n");
+  }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 7
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
+    for( int c=7 ; c<RES_WIDTH ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    }
+    printf("\n");
+  }
+
+}
+
 ////////////////////////////////////////////////////////////////
 void test_resfade(){  
-  printf("Performing a color test on the terminal (for finest resolution) ...\n");
-  delay(DLY_TICKS);
-  clear_term();
-
+  if(SHOW_TEST_MSGS){
+    printf("Performing a pseudo-fade test (for finest resolution) ...\n");
+    delay(DLY_TICKS);
+    clear_term();
+  }
+  
   for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 0
     for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
       printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );
@@ -97,15 +215,26 @@ void test_resfade(){
     }
     printf("\n");
   }
+
+  printf("\033[0m\033[H");
+  for( int r=0 ; r<RES_HEIGHT/2 ; r++){  // 0
+    for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+    }
+    printf("\n");
+  }
   
 }
 
 ////////////////////////////////////////////////////////////////
 void test_resgrain(){  
-  printf("Performing a resolution granularity test ...\n");
-  delay(DLY_TICKS);
-  clear_term();
-
+  if(SHOW_TEST_MSGS){
+    printf("Performing a resolution granularity test ...\n");
+    delay(DLY_TICKS);
+    clear_term();
+  }
+  
   for( int r=0 ; r<RES_HEIGHT/2 ; r++){
     for( int c=0 ; c<RES_WIDTH/2 ; c++ ){
       printf( "\033[%d;%dm\u2580" , HI_RED , LO_WHT );
@@ -117,9 +246,12 @@ void test_resgrain(){
 
 ////////////////////////////////////////////////////////////////
 void test_palette(){  
-  uint8_t ccode = 30; 
-  printf("Performing a colored characters display test ...\n");
+  uint8_t ccode = 30;
   
+  if(SHOW_TEST_MSGS){
+    printf("Performing a color palette test ...\n");
+  }
+    
   // fg: 29-37 ; bg: 39-47 ???
   for( ; ccode<38 ; ccode++ )
     printf("\033[%d;%dm\u2580" , ccode , ccode+10 );

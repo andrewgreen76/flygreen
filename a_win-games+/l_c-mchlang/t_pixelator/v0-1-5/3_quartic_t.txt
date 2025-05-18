@@ -1,0 +1,10 @@
+
+Quartic time :
+ (n) I am running a number of tests 
+ (n) and every test is a display of a number of related frames
+ (n) and painting every frame means printing a certain number of lines
+ (n) and printing every line means printing a certain number of pixels or characters (like pseudo-pixels , or "superpixels") 
+
+Not good. I get tearing , fragmented animations. 
+
+_

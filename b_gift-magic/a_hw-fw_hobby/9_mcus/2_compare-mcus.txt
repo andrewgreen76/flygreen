@@ -1,7 +1,7 @@
 
 Assuming all are CMOS.
 Assuming all are 8-bit. 
-Assuming all are Harvard architecture -based.
+Assuming all are Harvard architecture -based (separate buses). 
 _________________________________________________________________________________________________________________________________
 
 		PIC10F200	ATtiny12	PIC12LF1840	ATtiny25/V		ATmega328P		STM8L

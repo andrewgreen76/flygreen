@@ -1,0 +1,4 @@
+"
+Software bit-banging is a technique where software directly manipulates hardware pins to emulate communication protocols, bypassing dedicated hardware interfaces.
+"
+_

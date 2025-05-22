@@ -28,10 +28,10 @@
 #include "res.h"
 #include "timer.h"
 
+void test_horsweep();
 void test_palette2();
 void test_palette1();
 //void test_vertsweep();
-void test_horsweep();
 void test_resfade();
 void test_resgrain();
 void clear_term();

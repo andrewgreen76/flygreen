@@ -3,30 +3,43 @@
 
 #include "ansi.h"
 
-
 ////////////////////////////////////////////////////////////////
-void test_palette(){  
+void test_palette2(){
+  uint8_t ccode ; 
+
+  // 16 distinctive warm colors : 
+  for( ccode=0 ; ccode<16 ; ccode++ ) {
+    if(ccode==8) { reset_colors(); printf("\n"); } 
+    printf("\033[38;5;%d;48;5;%dm\u2580\u2580" , ccode , ccode ); 
+  }
+  reset_colors(); printf("\n"); 
+
+  // 216-color palette : 
+  for( ccode=16 ; ccode<232 ; ccode++ ) {
+    if( !((ccode-16)%36) ) { reset_colors(); printf("\n"); }  
+    printf("\033[38;5;%d;48;5;%dm\u2580\u2580" , ccode , ccode ); 
+  }
+  reset_colors(); printf("\n"); printf("\n"); 
+
+  // Black-and-white : 
+  for( ccode=232 ; ccode<255 ; ccode++ ) 
+    printf("\033[38;5;%d;48;5;%dm\u2580\u2580" , ccode , ccode ); 
+  reset_colors(); printf("\n"); 
+  
+  printf("[End of palette test 2]\n");
+}
+////////////////////////////////////////////////////////////////
+void test_palette1(){  
   uint8_t ccode;
   
   if(SHOW_TEST_MSGS)  printf("Performing a color palette test ...\n");
-
-  // Native warm colors : 
-  for( ccode = 30 ; ccode < 38 ; ccode++ )
-    printf("\033[%d;%dm\u2580" , ccode , ccode+10 );
-
-  //printf("\033[38;5;226;48;5;226m\u2580" , ccode , ccode+10 );
   
-  printf("\n");
+  // Native warm colors : 
   for( ccode = 30 ; ccode < 39 ; ccode++ )
     printf("\033[%d;5;226;%d;5;226m\u2580" , ccode , ccode+10 );    
-
+    
   reset_colors();
-  printf("\n");
-  printf("\033[38;5;226;48;5;226m\u2580" );  // yellow 
-  printf("\033[38;5;5;48;5;5m\u2580" );      // satur.purple 
-
-  reset_colors();
-  printf("[EOTEST]\n");
+  printf("[End of palette test 1]\n");
 }
 
 ////////////////////////////////////////////////////////////////

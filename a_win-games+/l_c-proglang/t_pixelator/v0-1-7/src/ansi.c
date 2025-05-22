@@ -59,7 +59,7 @@ void test_horsweep(){
       if(fr) printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
 
       //zzz Counting up or down ?? 
-      for( int rblues=RES_WIDTH-fr ; rblues<RES_WIDTH ; rblues++ ){
+      for( int rblues=RES_WIDTH-fr ; rblues ; rblues-- ){
 	printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
       }
       

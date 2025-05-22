@@ -5,6 +5,31 @@
 
 
 ////////////////////////////////////////////////////////////////
+void test_palette(){  
+  uint8_t ccode;
+  
+  if(SHOW_TEST_MSGS)  printf("Performing a color palette test ...\n");
+
+  // Native warm colors : 
+  for( ccode = 30 ; ccode < 38 ; ccode++ )
+    printf("\033[%d;%dm\u2580" , ccode , ccode+10 );
+
+  //printf("\033[38;5;226;48;5;226m\u2580" , ccode , ccode+10 );
+  
+  printf("\n");
+  for( ccode = 30 ; ccode < 39 ; ccode++ )
+    printf("\033[%d;5;226;%d;5;226m\u2580" , ccode , ccode+10 );    
+
+  reset_colors();
+  printf("\n");
+  printf("\033[38;5;226;48;5;226m\u2580" );  // yellow 
+  printf("\033[38;5;5;48;5;5m\u2580" );      // satur.purple 
+
+  reset_colors();
+  printf("[EOTEST]\n");
+}
+
+////////////////////////////////////////////////////////////////
 void test_horsweep(){
   if(SHOW_TEST_MSGS){
     printf("Performing a horizontal color sweep for animation simulation ...\n");
@@ -242,26 +267,6 @@ void test_resgrain(){
     }
     printf("\n");
   }
-}
-
-////////////////////////////////////////////////////////////////
-void test_palette(){  
-  uint8_t ccode;
-  
-  if(SHOW_TEST_MSGS)  printf("Performing a color palette test ...\n");
-
-  // Native warm colors : 
-  for( ccode = 30 ; ccode < 38 ; ccode++ )
-    printf("\033[%d;%dm\u2580" , ccode , ccode+10 );
-
-  //printf("\033[38;5;226;48;5;226m\u2580" , ccode , ccode+10 );
-  
-  printf("\n");
-  for( ccode = 30 ; ccode < 39 ; ccode++ )
-    printf("\033[%d;5;226;%d;5;226m\u2580" , ccode , ccode+10 );    
-  
-  reset_colors();
-  printf("[EOTEST]\n");
 }
 
 ////////////////////////////////////////////////////////////////

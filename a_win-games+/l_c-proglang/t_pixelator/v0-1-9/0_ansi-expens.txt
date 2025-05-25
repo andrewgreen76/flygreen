@@ -1,0 +1,5 @@
+
+ANSI escape codes are extremely expensive. It takes about 0.34 secs to project a nearly screenwide grid of 3x3 superpixels
+(i.e., 1 superpixel = 3x3 actual pixels). 
+
+_

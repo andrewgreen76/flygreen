@@ -6,27 +6,48 @@
 ////////////////////////////////////////////////////////////////
 void test_horsweep(){
   if(SHOW_TEST_MSGS){
-    printf("Performing a horizontal color sweep for animation simulation ...\n");
+    printf("Performing a left-to-right color sweep for animation simulation ...\n");
     delay(DLY_TICKS);
     clear_term();
   }
 
-  //zzz Is it here? WIDTH-1 ? 
-  for(int fr=0 ; fr<=RES_WIDTH ; fr++){
+  // No tide @ 0 ; tide @ 1<->RES_WIDTH ; no tide @ RES_WIDTH+1. 
+  for(int fr=0 ; fr<=RES_WIDTH+1 ; fr++){
     printf("\033[0m\033[H");
     
     for( int r=0 ; r<RES_HEIGHT/2 ; r++){ 
       // Trough : 
-      if(fr>1) for(int lblues=fr-1 ; lblues ; lblues-- ) printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );
+      if(fr>1) for(int lblues=(fr-1) ; lblues>0 ; lblues-- ) printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );
       // Wave : 
-      if(fr) printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
+      if( fr>0 && fr<RES_WIDTH+1 ) printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
       // Wave front : 
-      for( int rblues=RES_WIDTH-fr ; rblues ; rblues-- ) 
+      for( int rblues=RES_WIDTH-fr ; rblues>0 ; rblues-- ) 
 	printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
       
       printf("\n");
     }
+
+    printf("\033[0mFrame : %d\n" , fr );
+    if(ENDEBUG) delay(DLY_TICKS);
   }
+  
+}
+
+////////////////////////////////////////////////////////////////
+void test_vertsweep(){
+  if(SHOW_TEST_MSGS){
+    printf("Performing a top-down color sweep for animation simulation ...\n");
+    delay(DLY_TICKS);
+    clear_term();
+  }
+
+  for(int fr=0 ; fr<=RES_HEIGHT/2 ; fr++){
+    printf("\033[0m\033[H");
+
+    for( int r=0 ; r<RES_HEIGHT/2 ; r++){
+      
+    }    
+  }  
   
 }
 

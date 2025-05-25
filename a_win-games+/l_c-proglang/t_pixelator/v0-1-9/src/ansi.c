@@ -4,28 +4,78 @@
 #include "ansi.h"
 
 ////////////////////////////////////////////////////////////////
-void test_horsweep(){
+void test_vertsweep(){
   if(SHOW_TEST_MSGS){
-    printf("Performing a horizontal color sweep for animation simulation ...\n");
+    printf("Performing a top-down color sweep for animation simulation ...\n");
     delay(DLY_TICKS);
     clear_term();
   }
 
-  //zzz Is it here? WIDTH-1 ? 
-  for(int fr=0 ; fr<=RES_WIDTH ; fr++){
+  for(int fr=0 ; fr<=RES_HEIGHT+1 ; fr++){
     printf("\033[0m\033[H");
+
+    // Trough - whole/double rows - from fg;bg ANSI.esc.seqs : 
+    if(fr>1){
+      for( int tblues=fr-1 ; tblues ; tblues-- ){
+	printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU ); 
+      }
+    }
+
+    // Wave : 
+    if( fr>0 && fr<RES_HEIGHT+1 ){
+      // Odd frame index => top half is teal ; else => bottom half is teal. 
+      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );       
+    }
+
+    // Wave front - whole rows from fg;bg ANSI.esc.seqs : 
+    if(1){
+    }
+
+    /*
+    for( int c=0 ; r<RES_WIDTH ; c++){  // Consider the number or trough rows of superpixels. 
+    } 
+
+    for( int c=0 ; r<RES_WIDTH ; c++){      
+    } 
+
+    for( int c=0 ; r<RES_WIDTH ; c++){  // Consider the number or wave front rows of superpixels.     
+    } 
+    */
     
+  }  
+  
+}
+
+////////////////////////////////////////////////////////////////
+void test_horsweep(){
+  if(SHOW_TEST_MSGS){
+    printf("Performing a left-to-right color sweep for animation simulation ...\n");
+    delay(DLY_TICKS);
+    clear_term();
+  }
+
+  // No tide @ 0 ; tide @ 1<->RES_WIDTH ; no tide @ RES_WIDTH+1. 
+  for(int fr=0 ; fr<=RES_WIDTH+1 ; fr++){
+    printf("\033[0m\033[H");
+
+    // Here it mostly comes down to correctly counting the trough "columns" and wave front "columns" : 
     for( int r=0 ; r<RES_HEIGHT/2 ; r++){ 
       // Trough : 
-      if(fr>1) for(int lblues=fr-1 ; lblues ; lblues-- ) printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );
+      if(fr>1) {
+	printf( "\033[%d;%dm" , HI_BLU , LO_BLU );
+	for(int lblues=(fr-1) ; lblues>0 ; lblues-- ) printf(" ");
+      }
       // Wave : 
-      if(fr) printf( "\033[%d;%dm\u2580" , HI_TEA , LO_TEA );
+      if( fr>0 && fr<RES_WIDTH+1 ) printf( "\033[%d;%dm " , HI_TEA , LO_TEA );
       // Wave front : 
-      for( int rblues=RES_WIDTH-fr ; rblues ; rblues-- ) 
-	printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );      
+      printf( "\033[%d;%dm" , HI_BLU , LO_BLU );
+      for( int rblues=RES_WIDTH-fr ; rblues>0 ; rblues-- ) printf(" ");
       
       printf("\n");
     }
+
+    printf("\033[0mFrame : %d\n" , fr );
+    if(ENDEBUG) delay(DLY_TICKS);
   }
   
 }

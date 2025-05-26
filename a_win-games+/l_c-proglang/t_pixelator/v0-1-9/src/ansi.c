@@ -15,33 +15,25 @@ void test_vertsweep(){
     printf("\033[0m\033[H");
 
     // Trough (lines of blue , whole/double rows of superpx due to fg;bg ANSI.esc.seqs.
-    // 0 - no trough ; 1 - wave/front ; 2 - trough/wave. START AT FRAME 3. 
+    // Frame 0 - no trough ; fr 1 - wave/front ; fr 2 - trough/wave. START AT FRAME 3. 
     if(fr>2){
-      for( int tblues=fr-1 ; tblues ; tblues -= 2 ){
-	printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU ); 
-      }
+      printf( "\033[%d;%dm" , HI_BLU , LO_BLU );
+      for( int tblues=(fr-1)/2 ; tblues ; tblues-- )  // trough lines left. 
+	for( int c=0 ; c<RES_WIDTH ; c++ )
+	  printf(" ");
     }
 
     // Wave row - wave/front or trough/wave : 
     if( fr>0 && fr<RES_HEIGHT+1 ){
-      // Odd frame index => top half is teal ; else => bottom half is teal. 
-      printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );       
+      if(fr%2) printf( "\033[%d;%dm" , HI_TEA , LO_BLU ); 
+      else     printf( "\033[%d;%dm" , HI_BLU , LO_TEA ); 
+      for( int c=0 ; c<RES_WIDTH ; c++ )
+	printf("\u2580");
     }
 
     // Wave front - whole rows from fg;bg ANSI.esc.seqs : 
     if(1){
     }
-
-    /*
-    for( int c=0 ; r<RES_WIDTH ; c++){  // Consider the number or trough rows of superpixels. 
-    } 
-
-    for( int c=0 ; r<RES_WIDTH ; c++){      
-    } 
-
-    for( int c=0 ; r<RES_WIDTH ; c++){  // Consider the number or wave front rows of superpixels.     
-    } 
-    */
     
   }  
   
@@ -72,11 +64,10 @@ void test_horsweep(){
       printf( "\033[%d;%dm" , HI_BLU , LO_BLU );
       for( int rblues=RES_WIDTH-fr ; rblues>0 ; rblues-- ) printf(" ");
       
-      printf("\n");
+      printf("\n");  // Line feed takes cursor STRAIGHT to start of next line. 
     }
 
     printf("\033[0mFrame : %d\n" , fr );
-    if(ENDEBUG) delay(DLY_TICKS);
   }
   
 }

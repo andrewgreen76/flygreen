@@ -1,8 +1,8 @@
 #ifndef RES_H
 #define RES_H
 
-#define RES_WIDTH  480  // 480 spx - by default ;  5 spx - for stepwise debugging w/ delay. 
-#define RES_HEIGHT 240  // 240 spx - by default ; 50 spx - for stepwise debugging w/ delay.
+#define RES_WIDTH  630  // 480 spx - by default ;  5 spx - for stepwise debugging w/ delay. 
+#define RES_HEIGHT 300  // [MUST BE EVEN NUM] 240 spx - by default ; 50 spx - for stepwise debugging w/ delay.
 
 #endif
 

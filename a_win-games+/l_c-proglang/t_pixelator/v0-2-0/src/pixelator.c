@@ -16,7 +16,7 @@ int main(){
 ////////////////////////////////////////////////////////////////
 void do_tests(){
 
-  void (*tests[])() = { *test_palette1 , *test_palette2 , *test_resgrain , *test_resfade ,
+  void (*tests[])() = { // *test_palette1 , *test_palette2 , *test_resgrain , *test_resfade ,
 			*test_horsweep , 
 			*test_vertsweep };
   uint8_t numtests = sizeof(tests) / sizeof(tests[0]);

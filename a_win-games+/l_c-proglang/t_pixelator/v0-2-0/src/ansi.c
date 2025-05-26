@@ -44,12 +44,11 @@ void test_vertsweep(){
       }
     } // Finished w/ wave front , wave painting.
 
-    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    // Cursor right below the frame , then do this : 
-    printf("\033[0m");
-    printf("\n");
-    printf("Frame : %d" , fr );  printf("\n");  // Late print of msg ; flush immediately. 
-    // New frame. 
+    if(SHOW_TEST_MSGS){
+      printf("\033[0m");
+      printf("\n");
+      printf("Frame : %d" , fr );  printf("\n");  // Late print of msg ; flush immediately.
+    }
   } // Finished with all frames. 
   // End of test.   
 }
@@ -82,7 +81,8 @@ void test_horsweep(){
       printf("\n");  // Line feed takes cursor STRAIGHT to start of next line. 
     }
 
-    printf("\033[0m\nFrame : %d\n" , fr );
+    if(SHOW_TEST_MSGS)
+      printf("\033[0m\nFrame : %d\n" , fr );
   }
   
 }

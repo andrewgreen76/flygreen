@@ -14,14 +14,15 @@ void test_vertsweep(){
   for(int fr=0 ; fr<=RES_HEIGHT+1 ; fr++){
     printf("\033[0m\033[H");
 
-    // Trough - whole/double rows - from fg;bg ANSI.esc.seqs : 
-    if(fr>1){
-      for( int tblues=fr-1 ; tblues ; tblues-- ){
+    // Trough (lines of blue , whole/double rows of superpx due to fg;bg ANSI.esc.seqs.
+    // 0 - no trough ; 1 - wave/front ; 2 - trough/wave. START AT FRAME 3. 
+    if(fr>2){
+      for( int tblues=fr-1 ; tblues ; tblues -= 2 ){
 	printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU ); 
       }
     }
 
-    // Wave : 
+    // Wave row - wave/front or trough/wave : 
     if( fr>0 && fr<RES_HEIGHT+1 ){
       // Odd frame index => top half is teal ; else => bottom half is teal. 
       printf( "\033[%d;%dm\u2580" , HI_BLU , LO_BLU );       

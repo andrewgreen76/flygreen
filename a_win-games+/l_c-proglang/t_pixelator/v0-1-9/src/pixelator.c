@@ -20,7 +20,8 @@ void do_tests(){
 			*test_palette2 ,
 			*test_resgrain , 
 			*test_resfade ,
-			*test_horsweep };
+			*test_horsweep ,  
+			*test_vertsweep };
   uint8_t numtests = sizeof(tests) / sizeof(tests[0]);
 
   // Conducting tests : 
@@ -39,6 +40,9 @@ void setup(){
   printf("Expanding UTF-8 to local conventions ...\n");
   setlocale(LC_ALL , "");
   //kill_canonical();
+  printf("Commencing demo tests ...\n");
+  delay(DLY_TICKS);
+  clear_term();
 }
 
 void cleanup(){

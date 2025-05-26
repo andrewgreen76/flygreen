@@ -18,9 +18,11 @@ void test_vertsweep(){
     // Frame 0 - no trough ; fr 1 - wave/front ; fr 2 - trough/wave. START AT FRAME 3. 
     if(fr>2){
       printf( "\033[%d;%dm" , HI_BLU , LO_BLU );
-      for( int tblues=(fr-1)/2 ; tblues ; tblues-- )  // trough lines left. 
+      for( int tblues=(fr-1)/2 ; tblues ; tblues-- ) { // trough lines left. 
 	for( int c=0 ; c<RES_WIDTH ; c++ )
 	  printf(" ");
+	printf("\n");
+      }
     }
 
     // Wave row - wave/front or trough/wave : 
@@ -29,14 +31,27 @@ void test_vertsweep(){
       else     printf( "\033[%d;%dm" , HI_BLU , LO_TEA ); 
       for( int c=0 ; c<RES_WIDTH ; c++ )
 	printf("\u2580");
+      printf("\n");
     }
 
     // Wave front - whole rows from fg;bg ANSI.esc.seqs : 
-    if(1){
-    }
-    
-  }  
-  
+    if( (RES_HEIGHT-fr)>1 ){
+      printf( "\033[%d;%dm" , HI_BLU , LO_BLU ); 
+      for( int bblues=(RES_HEIGHT-fr)/2 ; bblues ; bblues-- ){
+	for( int c=0 ; c<RES_WIDTH ; c++ )
+	  printf(" ");
+	printf("\n");	
+      }
+    } // Finished w/ wave front , wave painting.
+
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    // Cursor right below the frame , then do this : 
+    printf("\033[0m");
+    printf("\n");
+    printf("Frame : %d" , fr );  printf("\n");  // Late print of msg ; flush immediately. 
+    // New frame. 
+  } // Finished with all frames. 
+  // End of test.   
 }
 
 ////////////////////////////////////////////////////////////////

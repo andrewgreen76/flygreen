@@ -1,0 +1,4 @@
+"
+CHIP-8 supports 35 instructions in its instruction set, designed for simple game programming and graphics operations on early microcomputers.
+"
+_

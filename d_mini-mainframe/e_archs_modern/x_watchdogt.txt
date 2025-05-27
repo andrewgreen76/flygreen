@@ -1,0 +1,4 @@
+"
+A watchdog timer is a hardware or software mechanism in a microcontroller or computer system that automatically resets or takes corrective action if the system fails to periodically "feed" or reset the timer within a specified time, preventing hangs or malfunctions.
+"
+_

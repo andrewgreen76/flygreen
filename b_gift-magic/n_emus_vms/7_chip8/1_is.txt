@@ -1,0 +1,4 @@
+"
+CHIP-8 is a simple, interpreted programming language and virtual machine designed in the 1970s for creating video games and applications on early microcomputers like the COSMAC VIP, featuring a minimal instruction set and 4 KB of memory.
+"
+_

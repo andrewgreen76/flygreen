@@ -1,0 +1,15 @@
+
+Goal : to program the behavior of a chip like an FPGA. 
+
+	   written HDL code
+	-> [synthesis tool (software) , producing and optimizing] -> a "netlist" of gates and flip-flops
+	-> [synthesis tool (software) , mapping/assigning parts] -> configuration bitstream 
+	-> [programmer interface]
+	    . sending the configuration bitstream to target's config memory 
+	    . controlling signals on target HW
+	    . achieving states of CLBs (configurable logic blocks) , interconnects , and memory elements 
+
+"
+Mapping a netlist to logic blocks means assigning the interconnected logic gates and flip-flops from the netlist to the configurable logic blocks (CLBs) and other resources of an FPGA or ASIC, optimizing for timing, area, and power to implement the desired hardware functionality.
+"
+_

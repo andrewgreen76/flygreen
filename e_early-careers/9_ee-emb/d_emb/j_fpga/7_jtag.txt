@@ -1,0 +1,4 @@
+"
+JTAG (Joint Test Action Group) is a standardized interface and protocol (IEEE 1149.1) used for testing, debugging, and programming integrated circuits, such as FPGAs and microcontrollers, by providing access to their internal components via a serial communication port using signals like TDI, TDO, TCK, and TMS.
+"
+_

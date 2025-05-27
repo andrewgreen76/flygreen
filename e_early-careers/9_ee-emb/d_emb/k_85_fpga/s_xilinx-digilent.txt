@@ -1,0 +1,8 @@
+"
+The Xilinx Spartan-7 FPGA is sold as a standalone chip but is most commonly used as part of larger products, such as development boards like the Digilent Arty S7 or embedded systems, where it is integrated with other components for specific applications.
+"
+
+ . a Spartan-7 model averages $30
+ . a FPGA dev. boards average $125 
+
+_

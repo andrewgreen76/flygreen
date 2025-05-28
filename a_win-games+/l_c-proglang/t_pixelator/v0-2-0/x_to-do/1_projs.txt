@@ -1,0 +1,19 @@
+
+ ! PRIMITIVE PAINTING TESTS ! 
+ . sprite painting - NEED A TOOL FOR THAT
+    . image composition - GIMP
+    . custom black-box utility
+       . account for black background vs. transparent background 
+       . reads pixel data from a .BMP/whatever image 
+       . reformats and stores the data in a file 
+       . the pixelator will read the data in accord with the custom format 
+ . UI design 
+ . animations 
+ . custom text editor
+ . game logic - design (principles and mechanics) 
+ . game logic - implementation
+ . process management (game logic and sound concurrency) 
+ . sound
+ . music
+
+_

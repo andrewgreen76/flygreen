@@ -1,0 +1,19 @@
+
+ . FIRST SEE IF IT CAN BE DONE WITH GIMP. If not , ...
+ |
+ . background blackener / whitener 
+
+-> art design pipeline
+   . I: Paint/GIMP BMP color values -> [black box data extractor] -> O: native (ANSI ext.palette) color values 
+-> cached/buffered rogue sprite test 
+-> rogue sprite animation test 
+-> interaction test 
+ . visuals - Design a map with a "static" dominant (terrain) color ; 
+    . everything else - objects : rogue (Habedag) , landmass/creeks , logs , wisps , sparks
+ . sound and music 
+
+============================================================================
+The coin is good.
+============================================================================
+
+_

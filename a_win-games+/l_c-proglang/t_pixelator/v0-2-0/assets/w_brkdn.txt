@@ -2,17 +2,12 @@
 ===================================================================================
 BITMAP DATA MANAGEMENT - FROM BOTTOM ROW TO TOP ROW : 
 ===================================================================================
-(a)
+(a) A simpler , more straight-forward approach : 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-00000000  4a 4d BC .. .. .| 00 00  00 0| CL .. .. .| DS ..	B M bytct	} 14B = BMP header (+color.loc) | DIB hdr -  
-00000010  .. .| WD .. .. .| HT ..  .. .| CP .| DP .| CM .. 	.   		} hdr size, im.wid, .hei, cl.planes, depth, compr,   
-00000020  .. .| PB .. .. .| HR ..  .. .| VR .. .. .| 00 00 	.		} num.bytes of color data, resolutions, palette, 
-00000030  00 0| 00 00 00 0| ff ff  00 ff 00 00 ff 00 ff ff 	......		} etc. | px0*[BGRs] , px1*[BGRs] , ... ) 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-00000000  4a 4d|BC .. .. ..|00 00  00 00|CL .. .. ..|DS ..	B M bytct	} 14B = BMP header (+color.loc) | DIB hdr -  
-00000010  .. .| WD .. .. .| HT ..  .. .| CP .| DP .| CM .. 	.   		} hdr size, im.wid, .hei, cl.planes, depth, compr,   
-00000020  .. .| PB .. .. .| HR ..  .. .| VR .. .. .| 00 00 	.		} num.bytes of color data, resolutions, palette, 
-00000030  00 0| 00 00 00 0| ff ff  00 ff 00 00 ff 00 ff ff 	......		} etc. | px0*[BGRs] , px1*[BGRs] , ... ) 
+00000000  4a 4d|BC .. .. ..|00 00  00 00|CL .. .. ..|DS ..	} 14B: BMP hdr: tot.byts, rsrvd, clr.loc | DIB hdr - 
+00000010  .. ..|WD .. .. ..|HT ..  .. ..|CP ..|DP ..|CM .. 	} hdr size, im.wid, .hei, planes, bit-depth, compr. 
+00000020  .. ..|PB .. .. ..|HR ..  .. ..|VR .. .. ..|PA .. 	} mtd, num.bytes of color data, resolutions, palette, 
+00000030  .. ..|00 00 00 00|RB GG  BR RB GG BR PP PP RB GG 	} rsrv, etc. | btm-to-top: px0*[BGRs], px1*[BGRs], ..) 
 -----------------------------------------------------------------------------------
 ff 01 01 - blue 
 01 ff 01 - green 
@@ -28,18 +23,8 @@ ff 01 01 - blue
 
 ===================================================================================
 ===================================================================================
-(b)
+(b) 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-00000000  4a 4d bc 00 00 00 00 00  00 00 8a 00 00 00 7c 00	B M bytct	} 14 bytes = BMP header | 40
-00000010  xx xx wd xx xx xx ht xx  00 00 01 00 18 00 00 00 	.   		} bytes = DIB (device-independent   
-00000020  00 00 pb 00 00 00 23 2e  00 00 23 2e 00 00 00 00 	.		} bitmap) header - incl.   
-00000030  00 00 00 00 00 00 xx xx  xx xx xx xx xx xx xx xx 	......		} pxs*[BGRs]) | 
-00000040  xx xx xx xx xx xx xx xx  xx xx xx xx xx xx xx xx 
-00000050  xx xx xx xx xx xx xx xx  xx xx xx xx xx xx xx xx 
-*
-00000070  xx xx xx xx xx xx xx xx  xx xx xx xx xx xx xx xx 
-00000080  xx xx xx xx xx xx xx xx  xx xx xx xx xx xx xx xx 
-...
 -----------------------------------------------------------------------------------
 00000000  42 4d 8e 00 00 00 00 00  00 00 8a 00 00 00 7c 00  |BM............|.|
 00000010  00 00 01 00 00 00 01 00  00 00 01 00 18 00 00 00  |................|

@@ -1,0 +1,24 @@
+"
+Routine programming refers to the practice of writing and using reusable, modular code segments (routines or subroutines) to perform specific, frequently executed tasks within a larger program, enhancing efficiency and maintainability.
+"
+
+
+"
+Routine programming involves writing code for common tasks and straightforward problems, often relying on standard techniques and libraries, without requiring deep theoretical knowledge of computation or complex algorithms.
+"
+
+
+"
+A typical example of programming that isn't routine is developing a custom compiler or interpreter, which requires advanced knowledge of parsing, optimization, and language theory to transform high-level code into executable machine instructions efficiently.
+
+Another example of non-routine programming is designing a machine learning algorithm from scratch, which involves deep knowledge of mathematics, data structures, and optimization techniques to create a model that can learn from and make predictions on data.
+
+Another example is developing advanced cryptographic algorithms, which involves understanding discrete mathematics, computational complexity, and automata theory to ensure secure data encryptions, hashing, and authentication methods.
+
+Developing artificial intelligence for natural language processing, such as building a language model, is another example, as it requires a strong grasp of algorithms, formal languages, probability, and computational theory to accurately process and generate human language.
+
+Designing efficient network protocols or data routing and error correction is another example, as it involves discrete mathematics for network topology, analysis of algorithms for optimal data paths, and automata theory for state-based packet handling and verification.
+
+Developing formal verification tools for sofware and hardware systems is another example, as it requires discrete mathematics for logic proofs, algorithm analysis for efficient verification, and automata theory to model and check system behaviors rigorously. 
+"
+_

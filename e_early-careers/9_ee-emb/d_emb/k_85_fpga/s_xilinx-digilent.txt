@@ -3,6 +3,7 @@ The Xilinx Spartan-7 FPGA is sold as a standalone chip but is most commonly used
 "
 
  . a Spartan-7 model averages $30
- . a FPGA dev. boards average $125 
+ . an FPGA dev. board averages $125
+ . a Basys 3 Artix-7 FPGA Trainer Board averages $165 
 
 _

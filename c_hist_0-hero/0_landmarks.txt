@@ -1,0 +1,25 @@
+
+| Concept		| Proposed in | First applied in |
++-----------------------+-------------+------------------+
+
+graph theory		1736		1950s (network analysis , Dijkstra's shortest path algorithm)
+
+set theory		1870s (infinite sets and cardinalities)
+    			      		1960s-1970s (formal langs , database systems , e.g., Codd's relational model with set ops)
+					
+automata theory		1936		1945 (EDVAC)
+
+AI	 		1955 (J. McCarthy)
+					1956 (Logic Theorist program) 
+
+hierarchy of grammars	1956		1957 (ALGOL 58 syntax) 
+formal grammar theor.	1956		1960 (ALGOL 60 compiler)
+parsing			-//-		-//-
+linking 		~1957		~1957 (IBM 704's linker for FORTRAN and COBOL)
+data structures		-//-		-//-
+ML   			1959		early 1960s 
+interpreting		1960		1960 (the LISP programming language)
+
+analysis of algorithms	1960s		1962 (Big O notation to evaluate performance) 
+
+_

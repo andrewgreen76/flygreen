@@ -114,6 +114,7 @@ void test_palette2(){
   
   printf("[End of palette test 2]\n");
 }
+
 ////////////////////////////////////////////////////////////////
 void test_palette1(){  
   uint8_t ccode;

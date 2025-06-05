@@ -1,25 +1,58 @@
 
-| Concept		| Proposed in | First applied in |
-+-----------------------+-------------+------------------+
+| Concept		| Proposed in | First applied in | What need did it address ?	|
++-----------------------+-------------+------------------+------------------------------+
+
+AUTOMATA THEORY		1936		1945 (EDVAC)
+IMPERATIVE LANG.	1949		-//- (Short Code for the UNIVAC I)
+ . controlling program flow
+ 
+=======================================================================
+WEAK TYPING		1954-1957 (FORTRAN programming language)
+PROCEDURAL PROG. 	-//-	  	-//-
+ . structured procedures 
+HIERARCHY OF GRAMMARS	1956		1957 (ALGOL 58 syntax) 
+FORMAL GRAMMAR THEOR.	1956		1960 (ALGOL 60 compiler)
+PARSING			^		^ 
+LINKING 		~1957		-//- (IBM 704's linker for FORTRAN and COBOL)
+DATA STRUCTURES		-//-		-//-
+
+=======================================================================
+DYNAMIC TYPING		1958 (LISP) 	-//-
+DECLARATIVE LANG.	-//- 		-//-
+ . evaluation of expressions without explicit control flow 
+FUNCTIONAL PROG. 	-//-	  	-//-
+INTERPRETING		-//-		-//- 
+INFERRED TYPING 	-//-
+
+=======================================================================
+STATIC TYPING 		1959 (dev. of ALGOL 58)
+					1960 (ALGOL 60) 
+MANIFEST TYPING 	-//- 
+ANALYSIS OF ALGS	~1962		1962 (Big O notation to evaluate performance)
+NOMINAL TYPING 		1964 
+STRONG TYPING		~1968		1968 (ALGOL 68) , 1973 (developed on in ML) 
+STRUCTURED PROG. 	1968 ("Go To Statement Considered Harmful" , ALGOL 68) 
+					1970 (Pascal) 
+STRUCTURAL TYPING 	1969 
+LOGIC PROGRAMMING	1972 (Prolog)	-//-
+ . logical inference and rules to express computations
+ 
+=======================================================================
+DUCK TYPING		1970s (Smalltalk) - 2000s (Python)
+REFLECTIVE PARADIGM	1982
+
+=======================================================================
+=======================================================================
+=======================================================================
 
 graph theory		1736		1950s (network analysis , Dijkstra's shortest path algorithm)
 
 set theory		1870s (infinite sets and cardinalities)
     			      		1960s-1970s (formal langs , database systems , e.g., Codd's relational model with set ops)
-					
-automata theory		1936		1945 (EDVAC)
 
 AI	 		1955 (J. McCarthy)
 					1956 (Logic Theorist program) 
 
-hierarchy of grammars	1956		1957 (ALGOL 58 syntax) 
-formal grammar theor.	1956		1960 (ALGOL 60 compiler)
-parsing			-//-		-//-
-linking 		~1957		~1957 (IBM 704's linker for FORTRAN and COBOL)
-data structures		-//-		-//-
 ML   			1959		early 1960s 
-interpreting		1960		1960 (the LISP programming language)
-
-analysis of algorithms	1960s		1962 (Big O notation to evaluate performance) 
 
 _

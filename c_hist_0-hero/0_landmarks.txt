@@ -2,7 +2,10 @@
 | Concept		| Proposed in | First applied in | What need did it address ?	|
 +-----------------------+-------------+------------------+------------------------------+
 
+=======================================================================
 AUTOMATA THEORY		1936		1945 (EDVAC)
+
+=======================================================================
 IMPERATIVE LANG.	1949		-//- (Short Code for the UNIVAC I)
  . controlling program flow
  

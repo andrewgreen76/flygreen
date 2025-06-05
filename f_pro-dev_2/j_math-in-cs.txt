@@ -1,0 +1,13 @@
+
+ . concrete calculations
+ . predictions (statistical models , etc.) 
+
+
+===================================================================================
+PREDICTIONS 
+===================================================================================
+
+"
+The UNIVAC I predicted Dwight Eisenhower’s 1952 presidential election victory by analyzing early voting returns from key states, using statistical models programmed by Remington Rand engineers and CBS statisticians to extrapolate a national outcome with high accuracy.
+"
+_

@@ -1,0 +1,21 @@
+
+===================================================================================
+PCB DESIGN - ROUTINE IN A NUTSHELL : 
+===================================================================================
+
+ . project name
+ . sch. field values
+ . annotate blocks
+ . MCU pin orientation
+
+ . standards and practices of board design 
+ 
+ . manufacturing specs document 
+    . board material (usually FR4)  , copper thickness , surface finish (usually HASL)
+ . Gerber files
+ . drill file 
+ . assembly drawing 
+ . pick-and-place file 
+ . BOM
+
+_

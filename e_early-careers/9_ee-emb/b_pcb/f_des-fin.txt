@@ -1,0 +1,19 @@
+
+===================================================================================
+PCB DESIGN DETAILS - FINAL STAGES : 
+===================================================================================
+
+ . order form / PCB manufacturing specification document
+    . board material (usually FR4)  , copper thickness , surface finish (usually HASL)
+    
+ . Gerber files
+ 
+ . drill file
+ 
+ . assembly drawing
+ 
+ . pick-and-place file
+ 
+ . BOM
+ 
+_

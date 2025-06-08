@@ -1,0 +1,15 @@
+
+===================================================================================
+PCB DESIGN DETAILS - MIDDLE STAGES : 
+===================================================================================
+
+ . MCU pin orientation
+    . power on top
+    . ground on the bottom
+    . input on the left
+    . output on the right 
+
+ . one decoupling capacitor (100nF) per power pin
+ . all like components must be the same model 
+
+_

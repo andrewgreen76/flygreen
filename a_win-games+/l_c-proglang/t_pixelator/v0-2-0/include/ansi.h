@@ -30,8 +30,8 @@
 
 void test_vertsweep();
 void test_horsweep();
-void test_palette2();
-void test_palette1();
+void test_palette5_2();
+void test_palette5_1();
 void test_resfade();
 void test_resgrain();
 void clear_term();

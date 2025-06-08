@@ -1,4 +1,8 @@
 
+============================================================================
+EXPLORE ALL [NN;N;NNN PALETTES. 
+============================================================================
+
  . FIRST SEE IF IT CAN BE DONE WITH GIMP. If not , ...
  |
  . background blackener / whitener 

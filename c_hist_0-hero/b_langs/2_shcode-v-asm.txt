@@ -1,0 +1,10 @@
+
+Short Code				Assembly
+-----------------------------------------------------------------
+
+manual translation			? not manual translation ?
+ ? how ?			  	  ? how ?
+
+? no symbolic instructions ? 		symbolic instructions
+
+-

@@ -1,0 +1,16 @@
+
+===================================================================================
+PCB DESIGN DETAILS - INITIAL STAGES : 
+===================================================================================
+
+ . project name
+    . descriptive , at the top of the schematic
+    . tells the manufacturer what you are trying to do 
+
+ . replace default text field values with custom values
+    . it would make for a more memorable PCB manufacturing experience and less of an eyesore 
+
+ . annotate every block
+    . tells exactly what the block is supposed to do 
+
+_

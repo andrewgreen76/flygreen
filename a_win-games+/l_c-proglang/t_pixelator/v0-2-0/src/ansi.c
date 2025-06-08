@@ -88,7 +88,7 @@ void test_horsweep(){
 }
 
 ////////////////////////////////////////////////////////////////
-void test_palette2(){
+void test_palette5_2(){
   uint8_t ccode ; 
 
   if(SHOW_TEST_MSGS)  printf("Performing an extended color palette test ...\n");
@@ -116,7 +116,7 @@ void test_palette2(){
 }
 
 ////////////////////////////////////////////////////////////////
-void test_palette1(){  
+void test_palette5_1(){  
   uint8_t ccode;
   
   if(SHOW_TEST_MSGS)  printf("Performing a basic 16-color palette test ...\n");

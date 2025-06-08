@@ -11,7 +11,7 @@ PCB DESIGN - ROUTINE IN A NUTSHELL :
  . standards and practices of board design 
  
  . manufacturing specs document 
-    . board material (usually FR4)  , copper thickness , surface finish (usually HASL)
+    . board material (usually FR4) , copper thickness , surface finish (usually HASL)
  . Gerber files
  . drill file 
  . assembly drawing 

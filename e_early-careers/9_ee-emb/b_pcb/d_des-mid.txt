@@ -10,6 +10,9 @@ PCB DESIGN DETAILS - MIDDLE STAGES :
     . output on the right 
 
  . one decoupling capacitor (100nF) per power pin
- . all like components must be the same model 
+ 
+ . all like components must be the same model
+
+ . give meaningful names to key nets 
 
 _

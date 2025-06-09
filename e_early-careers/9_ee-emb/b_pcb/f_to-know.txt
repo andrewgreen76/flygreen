@@ -5,12 +5,12 @@ pull-down resistor	- function :
 comparator		- function :
 ferrite bead		- function : 
 filter			- function : 
-reference schematic	- function : 
 octocoupler		- function : 
 H-bridge		- function : 
 decoupling capacitor 	- function :
 op-amp			- function :
 voltage regulator 	- function :
+buck-boost converter 	- function : 
 CC pin 			- function :
 ESD protection (how)	- function :
 

@@ -3,7 +3,10 @@
 PCB DESIGN DETAILS - MIDDLE STAGES : 
 ===================================================================================
 
- . start with 3.3V and 1kOhm for every LED (not 5V @ 220 Ohm) 
+ . start with 3.3V @ 1kOhm for every LED (not 5V @ 220 Ohm) 
+
+ . include key net flags : VCC (to be replaced with an exact value) and GND 
+    . for all power sources : use '+' and 'V' 
 
  . place a moderate amt of info in every block to save the reader all the runs to the datasheet 
 
@@ -19,17 +22,15 @@ PCB DESIGN DETAILS - MIDDLE STAGES :
 
  . give meaningful names to key nets 
 
- . check for every component :
-    . the correct values
-    . ratings
-    . models
+ . check with every component :
+    . the correct value
+    . rating
+    . model
     . manuf-recommeneded material
 
  . correctness of wire crossings (junctions vs. jumpovers)
 
  . check for (and place) Vmax and Imax
-
- . power and voltage : use '+' and 'V' 
 
  ? differentiate between [the role of the net name]	- local 
    		     and [the role of the power symbol] - global - to connect power demands on multiple pages for the same project 

@@ -6,7 +6,7 @@ PCB DESIGN - ROUTINE IN A NUTSHELL :
  . project name
  . sch. field values
  . annotate blocks
- . MCU pin orientation
+ . pin orientation everywhere 
 
  . standards and practices of board design 
  

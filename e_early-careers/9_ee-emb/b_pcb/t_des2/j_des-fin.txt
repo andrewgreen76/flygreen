@@ -8,7 +8,10 @@ PCB DESIGN DETAILS - FINAL STAGES :
 
  . schematic PDF 
 
- . Gerber files
+ . Gerber files (layer files) 
+    . create a directory for Gerber files (use a relative path)
+    . [Plot]
+    . inspect the layer in GerbView , gerbv , ViewMate , or any other built-in or standalone application. 
  
  . drill file
  

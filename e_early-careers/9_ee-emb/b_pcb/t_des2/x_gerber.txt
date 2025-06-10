@@ -1,0 +1,4 @@
+"
+The term "Gerber files" originates from the Gerber Systems Corporation, which developed the Gerber format in the 1960s, initially as a vector-based plotting standard for photoplotters, later becoming the industry standard for describing PCB layouts.
+"
+_

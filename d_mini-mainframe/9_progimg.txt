@@ -34,6 +34,10 @@ The Manchester Baby, also called the Small-Scale Experimental Machine, was the f
 The first stored program run on the Manchester Baby (SSEM) was a program written by Freddie Williams and Tom Kilburn, who led the team that built the machine. The program demonstrated the operation of the SSEM by performing a simple calculation, specifically determining the highest proper factor of a given number (2^18 = 262,144). This program effectively showcased the capabilities of the SSEM as the world's first stored-program computer.
 "
 
+"
+The Small-Scale Experimental Machine (SSEM), or Manchester Baby, took approximately 52 minutes to perform the 2^20 (1,048,576) computation in 1948, as it executed a program to calculate this power using iterative multiplication, limited by its 32-bit word length and basic instruction set.
+"
+
 ========================================================================================
 EARLY PROGRAM IMAGES - MEDIA , SYSTEMS , AND APPLICATIONS : 
 ========================================================================================

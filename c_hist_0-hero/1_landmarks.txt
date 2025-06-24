@@ -1,6 +1,6 @@
 
-| Concept		| Proposed in | First applied in | What need did it address ?	|
-+-----------------------+-------------+------------------+------------------------------+
+| Concept		| Proposed in | First applied in		| What need did it address ?   |
++-----------------------+-------------+---------------------------------+------------------------------+
 
 =======================================================================
 AUTOMATA THEORY		1936		1945 (EDVAC)
@@ -11,6 +11,7 @@ IMPERATIVE LANG.	1949		-//- (Short Code for the UNIVAC I)
  
 =======================================================================
 WEAK TYPING		1954-1957 (FORTRAN programming language)
+IMPLICIT TYPING 	-//-	  	-//-
 PROCEDURAL PROG. 	-//-	  	-//-
  . structured procedures 
 HIERARCHY OF GRAMMARS	1956		1957 (ALGOL 58 syntax) 
@@ -28,7 +29,8 @@ INTERPRETING		-//-		-//-
 INFERRED TYPING 	-//-
 
 =======================================================================
-STATIC TYPING 		1959 (dev. of ALGOL 58)
+STATIC TYPING 		1958 (dev. of ALGOL 58)
+GOTO STATEMENTS 	-//- 	      	-//-
 					1960 (ALGOL 60) 
 MANIFEST TYPING 	-//- 
 ANALYSIS OF ALGS	~1962		1962 (Big O notation to evaluate performance)
@@ -43,6 +45,8 @@ LOGIC PROGRAMMING	1972 (Prolog)	-//-
 =======================================================================
 DUCK TYPING		1970s (Smalltalk) - 2000s (Python)
 REFLECTIVE PARADIGM	1982
+
+
 
 =======================================================================
 =======================================================================

@@ -1,0 +1,20 @@
+
+ . binary logic (ALU)	(hw support)   	- Zuse Z1 (1938)
+ |
+ > FP arithmetic      	(hw support)	- Zuse Z3 (1941) 
+ > int +, -, *		(algorithm)	- -//-
+ > int / 		(algorithm)	- -//- 
+ > root 		(algorithm)	- -//-
+ |
+ > int +     		(hw support)	- Atanasoff-Berry Computer (1942)
+ > int / 		(hw support)	- Bell Labs Model V (1946) 
+ > string processing	(hw support)	- Burroughs B5500 (1961) 
+
+===================================================================================
+
+ . manual assistance - i.e., rewired/reconfigured or implemented as a block of code
+ . (native) hardware support - i.e., done directly by hardware with a single assembly instruction
+ . fully programmable - running on a program (that can be altered) rather than hardware logic
+ => not fully programmable - some physical reconfiguration needs to be done for the computer to perform a different operation 
+
+_

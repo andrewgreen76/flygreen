@@ -1,13 +1,15 @@
 
- . binary logic (ALU)	(hw support)   	- Zuse Z1 (1938)
+ . binary logic (ALU)	(hw support)   	- Zuse Z1 (1938)			Electromechanical relays (switches) 
  |
- > FP arithmetic      	(hw support)	- Zuse Z3 (1941) 
- > int +, -, *		(algorithm)	- -//-
+ > FP arithmetic      	(hw support)	- Zuse Z3 (1941)
+ |
+ > int +, -, *		(algorithm)	- Zuse Z3 
  > int / 		(algorithm)	- -//- 
  > root 		(algorithm)	- -//-
  |
  > int +     		(hw support)	- Atanasoff-Berry Computer (1942)
- > int / 		(hw support)	- Bell Labs Model V (1946) 
+ > int / 		(hw support)	- Bell Labs Model V (1946)
+ |
  > string processing	(hw support)	- Burroughs B5500 (1961) 
 
 ===================================================================================

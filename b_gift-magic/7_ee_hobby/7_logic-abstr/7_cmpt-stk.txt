@@ -1,5 +1,7 @@
 
-Everything is either built or programmed. 
+===================================================================================
+THE COMPUTER BUILD ABSTRACTION STACK 
+===================================================================================
 
 - Transistors are used to make gates.
 - Gates are used to make latches, flip-flops, and multiplexers.
@@ -9,5 +11,4 @@ Everything is either built or programmed.
 
 - The MOS 6502 CPU chip (in the Apple II) has over 4,500 transistors.
 
-- If you get the thought of doing it all yourself from scratch (i.e., using only NAND gates), get rid of it. 
-
+_

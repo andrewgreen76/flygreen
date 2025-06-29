@@ -1,0 +1,4 @@
+"
+Pull-down resistors ... are commonly used in digital circuits to ensure a stable low voltage state at a node when no active signal is present, preventing floating inputs and ensuring reliable operation.
+"
+_

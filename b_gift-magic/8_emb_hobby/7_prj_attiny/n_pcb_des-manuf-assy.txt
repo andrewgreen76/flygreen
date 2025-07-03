@@ -9,7 +9,7 @@ TINY GAME CONSOLE - PCB DESIGN :
    (b) 40.5mm x 84mm = 1594 mil x 3307 mil (1.59" x 3.31") 
  . round corners
  . thickness : 1.6(mm?)
- . trace width : 0.4mm = 16 mil
+ . trace width : 0.4mm=16mil -> 0.1mm=4mil 
  . case security vias (fiducials?) : 3mm = 118 mil
  . select a color for the soldermask
 

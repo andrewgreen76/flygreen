@@ -1,0 +1,4 @@
+"
+Examples of microarchitectures include Intel's Skylake, AMD's Zen 2, ARM's Cortex-A53, and RISC-V's Rocket, each designed to implement their respective instruction set architectures (ISAs) like x86, ARMv8-A, or RISC-V.
+"
+_

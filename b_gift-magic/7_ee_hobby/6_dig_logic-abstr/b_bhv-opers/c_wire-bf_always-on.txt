@@ -5,6 +5,6 @@ Structure :
 
 Behavior :
 - input is on => output is on
-- defeats the point of having a transistor ; might as well just have a regular switch. 
+- a transistor, though being a switch, would also stabilize the input signal to low or high  
 
-.
+_

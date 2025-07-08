@@ -1,0 +1,22 @@
+
+Coin cell batteries :
+ |
+ . CAN be replaced with a BR2032-type lithium-ion battery
+ . 3.3V power source 
+ . primary (non-rechargeable) and secondary (rechargeable) 
+ . ex. : CR2032
+ . "watches, calculators, and small electronics" 
+
+
+Lithium-ion batteries :
+ |
+ . can introduce a fire hazard (see "thermal runaway") 
+ . can NOT be replaced with a coin cell battery
+ . 3.7V power source 
+ . secondary (rechargeable)
+ . ex. :
+   . LIR2032 and LIR2032H - irreplaceable with other types of batteries , even lithium-ion ones 
+   . BR2032 
+ . "used in devices like key fobs, solar keyboards, Bluetooth earphones, game controllers, glucometers"
+
+_

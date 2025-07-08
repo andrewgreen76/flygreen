@@ -3,10 +3,12 @@
 ROUND 2 - ACTUAL STEPS OF DOING EVERYTHING : 
 ===================================================================================
 
- . come up with a medium - material with patterend toner - for protecting the copper needed for the circuit
- . press the inked medium onto a side of the copper board
- . bind all of the toner to the side - typically with heat
- . loosen and remove unprotected resist
+ . ink : toner -OR- ultra fine point permanent marker ink 
+
+ . come up with material for protecting the copper needed for the circuit
+ . have the ink in circuit pattern in contact with a side of the copper board
+ . bind all of the ink to the side - typically with heat
+ . (loosen and remove unprotected resist)
  . remove unwanted copper
  -----------------------------------------------------------------------------------
  . drilling

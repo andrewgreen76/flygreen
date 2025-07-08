@@ -1,15 +1,18 @@
 
-Not all PCBs are alike. 
-Not all rigid PCBs are alike.
-...
-
-
 ===================================================================================
-DIY (HOME-MADE) - METHOD 1 : 
+METHOD 1 - QUICK AND DIRTY : 
 ===================================================================================
 
-(Top-down treatment) : 
- . circuit paper : thermal transferrable paper
+Round 1 :
+ . trace masking :
+   . printing the mirror image of the circuit onto thermally transferrable paper with toner 
+   . pressing the circuit in toner onto the copper-clad board 
+ . etching :
+   . 
+
+
+Round X : 
+ . circuit paper :  
  . toner mask deposition - ironing toner powder onto a board of substrate and copper
  . etching chemically - ferric chloride 
  . drilling / deburring / cleaning holes 

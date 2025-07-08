@@ -1,0 +1,4 @@
+"
+A PCB material stack-up is the arrangement and specification of layers in a printed circuit board, including conductive copper layers, insulating dielectric materials, and their thicknesses, designed to meet electrical, thermal, and mechanical requirements for the circuit.
+"
+_

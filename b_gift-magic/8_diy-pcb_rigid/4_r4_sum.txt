@@ -7,10 +7,10 @@ ROUND 4 - TO SUM UP AND NAIL THE ENTIRE EVENT :
  . toner press
  . toner bind
  . photolithography 
- . developing 
+ . development 
  . etching
  . drilling
- . resist stripping 
+ . circuit mask stripping 
  ---------------------------------------
  . plating
  . soldermask

@@ -1,0 +1,40 @@
+
+I have a Canon Pixma TS3722. 
+
+
+===================================================================================
+IDEAS FOR DIFFERENT PLANS 
+===================================================================================
+
+ . PPE : eyewear , gloves , (lab coat) , dust mask , vacuum cleaner
+ . ferric chloride storage container
+ . ferric chloride application container
+ . micro twist drill kit (the tool and the drill bits) 
+ 
+--------------------------------+---------------------------------------+-----------------------------------+
+"The SHARPIE way"		| "The PAPER way"			| "The SHEET way"		    |
+--------------------------------+---------------------------------------+-----------------------------------+
+resist-free copper		| copper with positive photoresist	| -//-				    |
+emery for polishing the copper	| -					| -	      	       		    |
+--------------------------------+---------------------------------------+-----------------------------------+
+**SHARPIE**			| **THERMALLY TRANSFERABLE PAPER**	| **A TRANSPARENCY SHEET**	    |
+- 				| specialized printer			| specialized printer		    |
+-				| HP LaserJet Pro M404dw 		| Brother HL-L2350DW		    |
+-				| baby oil	  			| -				    |
+-				|  . makes paper heat-resistant		| -				    |
+-				|  . allows UV-light pass through	| -				    |
+-				| regular paper -> parchment paper	| -				    |
+-				| flatiron + ironing board 		| -//- 	  			    |
+--------------------------------+---------------------------------------+-----------------------------------+
+-				| UV-light 				| CFL light bulb 		    |
+--------------------------------+---------------------------------------+-----------------------------------+
+-				| ?					| positive type developer solution  |
+--------------------------------+---------------------------------------+-----------------------------------+-----------------
+ferric chloride	mush 		| ( concentrated FeCl3(H2O)x )		| concentrated FeCl3(H2O)x solution | cupric chloride 
+--------------------------------+---------------------------------------+-----------------------------------+-----------------
+a low-noise drill		| (micro twist drill)			| (drill press)			    |
+--------------------------------+---------------------------------------+-----------------------------------+
+a piece of emery		| IPA					| acetone			    |
+--------------------------------+---------------------------------------+-----------------------------------+
+
+_

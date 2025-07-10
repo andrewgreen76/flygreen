@@ -73,7 +73,8 @@ MASK STRIPPING - OPTIONS :
 ===================================================================================
 
    . removing the circuit mask to expose the copper for solderability
-   . a.k.a. RESIST STRIPPING 
+   . a.k.a. RESIST STRIPPING
+   . may have to be manually rubbed off for best results 
   (a) IPA - least abrasive 
   (b) acetone - nail polish remover 
   (c) a piece of emery 

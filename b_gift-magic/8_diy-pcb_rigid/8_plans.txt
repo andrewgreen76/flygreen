@@ -7,6 +7,7 @@ IDEAS FOR DIFFERENT PLANS
 ===================================================================================
 
  . PPE : eyewear , gloves , (lab coat) , dust mask , vacuum cleaner
+ . a ruler for scoring or copper-coating for traces 
  . a clamp for security 
  . ferric chloride storage container
  . ferric chloride application container
@@ -20,7 +21,7 @@ emery for polishing the copper	| -					| -	      	       		    	|
 --------------------------------+---------------------------------------+---------------------------------------+
 hacksaw + vacuum cleaner	| ruler + scoring knife			| -				    	|
 --------------------------------+---------------------------------------+---------------------------------------+
-**SHARPIE**			| **THERMALLY TRANSFERABLE PAPER**	| **A TRANSPARENCY SHEET**	    	|
+**A SHARPIE** + a ruler		| **THERMALLY TRANSFERABLE PAPER**	| **A TRANSPARENCY SHEET**	    	|
 - 				| specialized printer			| specialized printer		    	|
 -				| HP LaserJet Pro M404dw 		| Brother HL-L2350DW		    	|
 --------------------------------+---------------------------------------+---------------------------------------+

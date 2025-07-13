@@ -1,0 +1,4 @@
+"
+Hardware verification is the process of testing and validating a hardware design, such as a custom computer architecture or integrated circuit, to ensure it meets functional, performance, and reliability specifications using methods like simulation, formal verification, or physical testing.
+"
+_

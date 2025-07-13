@@ -5,12 +5,12 @@ SPECIALIZED FIRMWARE - SKILLS AND EXPERIENCE
 
  . minimum : BS in EE/CE/ISys/CS 
 
- . USB, SPI, I2C, UART, GPIO , CAN ; DDR3/4 , IP cores , LIN , ADC , etc.
+ . UART, SPI, I2C, GPIO, CAN, USB ; DDR3/4 , IP cores , LIN , ADC , etc.
    	. busses
 	. peripherals (& their controllers)
 	. drivers for peris 
 	. Bash 
-	. C
+	. C -> embedded C 
 	. `make` 
 	. assembly 
  . C++ ;
@@ -18,33 +18,35 @@ SPECIALIZED FIRMWARE - SKILLS AND EXPERIENCE
  . Python
  
  . 1-5 years
-   emb.OS :
-    . Embedded Linux (kernel configuration and device tree setup) 
+   emb.OS (RTOS) principles :
+    . bootloaders 
     . FreeRTOS
+    . Embedded Linux (kernel configuration and device tree setup) 
+    . Zephyr
     . TI RTOS
     . SYSBIOS 
-    . Zephyr
-    . bootloaders 
 
- . Database Management Software 
- . APIs 
- . writing drivers for actuators and sensors 
+ . "advanced computer architectures"
+ . "micro-architecture concepts"
+ . writing drivers/APIs for actuators and sensors 
  . analog and digital circuits (design)
  . layout tools (Altium Schematic Capture , Altium Designer , Cadence Allegro , Mentor , KiCAD)
  . signal conditioning , filters
  . control algorithms (PID , floating point filters)
  . HW/SW integration , debugging , triage 
  . embedded toolchains and workflow 
- . FPGA / MCU - design , bring-up
+ . FPGA / MCU - design , bring-up , simulation, formal verification, physical testing 
  . STM32 hardware
  . Bluetooth / Wifi / IEEE 802.11
  . System Debug 
  . high-speed signal integrity design , modeling , standards , validation 
+ . digital signal processing 
+ . Database Management Software 
  . Zynq , Blackfin , TI SOC DSP , co-processors 
  . IP protocols, hardware subsystems , interfaces
  . JTAG 
  . cybersecurity related to embedded systems
- . digital signal processing , digital image processing 
+ . digital image processing 
  . Android (Debug Bridge) 
  . fixed-point implementation
  . MISRA (automotive safety processes , MISRA C) ; ASIL (four integrity levels in automotive systems) 

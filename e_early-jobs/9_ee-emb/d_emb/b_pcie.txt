@@ -1,0 +1,4 @@
+"
+An embedded systems engineer must know that PCIe (Peripheral Component Interconnect Express) buses are high-speed, serial communication interfaces that use point-to-point topology, differential signaling, and scalable lanes (e.g., x1, x4, x16) to connect peripherals like GPUs or SSDs to a processor, requiring careful consideration of bandwidth, latency, and power management in system design.
+"
+_

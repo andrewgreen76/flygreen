@@ -1,0 +1,4 @@
+"
+In computer engineering, topology refers to the arrangement or structure of connections between devices in a network, such as star, bus, ring, or mesh, which determines how data flows and impacts performance, scalability, and reliability.
+"
+_

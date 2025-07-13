@@ -6,11 +6,13 @@ BIOS/UEFI - SKILLS AND EXPERIENCE
  . minimum : BS in EE/CE/ISys/CS 
 
  . USB, SPI, I2C, UART, GPIO , CAN ; DDR3/4 , IP cores , LIN , ADC , etc.
-   	. busses
+   	. busses (PCIe)
 	. peripherals (& their controllers)
 	. drivers for peris 
-	. Bash 
+	. embedded C
+	|
 	. C
+	. Bash 
 	. `make` 
 	. assembly 
  . C++ ;

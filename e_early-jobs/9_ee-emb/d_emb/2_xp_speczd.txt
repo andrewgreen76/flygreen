@@ -5,7 +5,7 @@ SPECIALIZED FIRMWARE - SKILLS AND EXPERIENCE
 
  . minimum : BS in EE/CE/ISys/CS 
 
- . UART, SPI, I2C, GPIO, CAN, USB ; DDR3/4 , IP cores , LIN , ADC , etc.
+ . UART, SPI, I2C, GPIO, CAN, USB ; DDR3/4 -> PCIe , DDR5 , IP cores , LIN , ADC , etc.
    	. busses
 	. peripherals (& their controllers)
 	. drivers for peris 

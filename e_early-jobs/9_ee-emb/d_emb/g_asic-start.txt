@@ -1,0 +1,4 @@
+"
+The first step in ASIC (Application-Specific Integrated Circuit) design is defining the system requirements and specifications, which involves outlining the chip's functionality, performance goals, power constraints, and target application to guide the subsequent design process.
+"
+_

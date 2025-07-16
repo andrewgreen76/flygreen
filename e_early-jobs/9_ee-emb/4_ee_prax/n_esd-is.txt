@@ -1,0 +1,24 @@
+
+Static charge :
+ . accumulation of charge through friction with any kind of fabric
+ . any small charge can mess everything up 
+ . static until discharged
+ |
+ . harder to build up in moist climates
+ . easier to accumulate in drier climates 
+
+
+Vulnerable targets :
+ . integrated circuits (ICs)
+ . capacitors
+ . diodes 
+ . transistors 
+
+
+ESD :
+ . "Electrostatic discharge (ESD) can silently damage or kill the functionality of electronic equipment,
+      such as a PCB with a PIC10F200, even when it is not powered (i.e., not live), as the high-voltage
+      discharge can degrade or destroy sensitive components like transistors or capacitors without immediate
+      visible effects."
+
+_

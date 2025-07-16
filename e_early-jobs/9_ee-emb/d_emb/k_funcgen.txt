@@ -1,0 +1,4 @@
+"
+A function generator is an electronic test instrument used to generate various types of electrical waveforms, such as sine, square, or triangular waves, for testing, debugging, and designing circuits, including those on PCBs with components like the PIC10F200.
+"
+_

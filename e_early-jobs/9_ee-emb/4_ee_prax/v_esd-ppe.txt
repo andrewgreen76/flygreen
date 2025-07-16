@@ -1,0 +1,32 @@
+
+ESD protection :
+ . anything big and made of metal (a computer case) - the other side of your wrist band clipping 
+ . carbon-suffused polyester vest 
+ . "Polyester is not inherently ESD-protective and can generate static electricity, but it can be treated with
+      antistatic coatings or combined with conductive fibers to provide ESD protection in applications like
+      clothing or packaging for electronics."
+
+
+ . protection in ohms
+ . wrist cord (jack connected to an ESD tester)
+ . footstraps 
+ . mat
+ . inspection gloves 
+
+
+Inspection gloves :
+ . "Uline offers white ESD gloves, such as the Sure Knit Touchscreen ESD Nylon Inspection Gloves and Portwest
+      A198 Antistatic Work Gloves with PU fingertip coating, designed for electrostatic discharge protection in
+      electronics assembly and cleanroom environments.
+      [](https://harmonycr.com/esd-safe-gloves/)
+      [](https://mannsupply.com/collections/esd-gloves)"
+ . "PU, in the context of Uline's ESD gloves, stands for **polyurethane**, a lightweight, flexible coating
+      applied to the fingertips to enhance grip and dexterity while maintaining antistatic properties for handling
+      sensitive electronics."
+ . the gloves themselves are made of wool or cotton 
+
+
+Discharge limits :
+ . https://www.youtube.com/watch?v=pWhtyz-UFZc
+ 
+_

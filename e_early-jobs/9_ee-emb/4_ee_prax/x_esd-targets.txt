@@ -1,0 +1,15 @@
+
+Most vulnerable parts : 
+ . capacitors
+ . CPU socket 
+
+
+"
+Contrary to your assumption, power supply units (PSUs) typically contain multiple capacitors, such as electrolytic or ceramic types, used for filtering, energy storage, and voltage stabilization to ensure a steady and clean power output to electronic circuits.
+"
+
+
+"
+While capacitors in PSUs, such as electrolytic or ceramic types, are generally less susceptible to ESD damage compared to sensitive components like ICs or transistors, they can still be affected by high-voltage ESD events, potentially causing dielectric breakdown or degraded performance, especially in smaller or precision capacitors.
+"
+_

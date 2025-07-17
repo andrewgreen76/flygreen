@@ -1,0 +1,4 @@
+"
+A plug labeled "do not hot plug" means it should not be connected or disconnected while the circuit is powered, as doing so could cause arcing, damage to the plug or equipment, or safety hazards, and the power must be turned off first.
+"
+_

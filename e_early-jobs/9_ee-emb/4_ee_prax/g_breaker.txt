@@ -1,12 +1,15 @@
 
 Q : What is a breaker ?
-
+|
 A : "A **breaker** (circuit breaker) is a **safety device** that **automatically interrupts electrical flow** when current exceeds a safe limit, protecting circuits from damage or fire hazards."
 
 
-
 Q : What does it mean to trip a breaker ? 
-
+|
 A : "To **trip a breaker** means that the **circuit breaker has activated** to **shut off electrical flow** due to an **overload, short circuit, or fault**, preventing damage or hazards."
 
+
+"
+A cable labeled "Not for current interrupting" means it is not designed to safely break or interrupt an electrical circuit while current is flowing, as doing so could cause arcing, damage to the cable, or safety hazards, and it should only be disconnected when the circuit is de-energized.
+"
 _

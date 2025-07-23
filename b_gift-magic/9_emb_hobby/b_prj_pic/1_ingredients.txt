@@ -1,0 +1,9 @@
+
+ . PIC10F200 MCU 
+ . breadboard 
+ . programmer
+ . logic analysis :
+   (a) logic analyzer + IDE 
+   (b) Arduino + IDE 
+
+_

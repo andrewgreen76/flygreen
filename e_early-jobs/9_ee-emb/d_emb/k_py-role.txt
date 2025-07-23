@@ -1,4 +1,9 @@
 "
+In embedded engineering, Python is commonly used to automate tasks such as generating and running test scripts for firmware validation, controlling hardware interfaces (e.g., via serial communication or I2C/SPI), analyzing debug logs, automating build processes for embedded software, and configuring or testing microcontrollers ... .
+"
+
+
+"
 In ASIC design and verification, Python is typically used to automate tasks like generating testbenches, running simulations, parsing log files, and analyzing verification coverage, streamlining workflows in tools like Verilog, VHDL, or SystemVerilog.
 "
 

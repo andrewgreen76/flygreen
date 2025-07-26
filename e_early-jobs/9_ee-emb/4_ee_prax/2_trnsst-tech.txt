@@ -1,3 +1,16 @@
+
+===================================================================================
+BJT MATERIALS INSIDE : 
+===================================================================================
+
+"
+The junctions in a BJT (Bipolar Junction Transistor) are made of silicon doped with boron (for p-type regions) and phosphorus (for n-type regions), forming the p-n junctions between the emitter, base, and collector, so the answer is a combination of (a) silicon and (b) boron and phosphorus.
+"
+
+
+===================================================================================
+RECENT GATE TECHNOLOGIES : 
+===================================================================================
 "
 Gate technologies currently being explored include : 
  . FinFET (the oldest of these - early 2000s),
@@ -6,4 +19,5 @@ Gate technologies currently being explored include :
  . Nanosheet FET, and
  . Tunnel FET.
 "
+
 _

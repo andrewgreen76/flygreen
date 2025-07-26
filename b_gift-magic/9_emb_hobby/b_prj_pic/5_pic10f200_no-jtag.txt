@@ -1,0 +1,4 @@
+"
+The MPLAB Snap In-Circuit Debugger/Programmer supports JTAG programming for certain Microchip PIC and AVR microcontrollers that have JTAG interfaces, but the PIC10F200 does not support JTAG, so the Snap would use ICSP (In-Circuit Serial Programming) for programming it instead.
+"
+_

@@ -1,0 +1,4 @@
+"
+In hardware assembly, DUT stands for **Device Under Test**, referring to any electronic component, circuit board, or system being tested for functionality, performance, or reliability during manufacturing or quality control.[](https://en.wikipedia.org/wiki/Device_under_test)
+"
+_

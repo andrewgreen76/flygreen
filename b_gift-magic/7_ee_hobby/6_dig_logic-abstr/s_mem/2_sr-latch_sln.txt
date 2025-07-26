@@ -1,4 +1,12 @@
 
+"
+When an SR-latch circuit first goes live with both Set (S) and Reset (R) inputs at 0, the outputs Q and Q' may start in an indeterminate state (not necessarily "no charge") due to initial conditions like noise, parasitic capacitance, or manufacturing variations, but they quickly stabilize to one of the valid states (Q=0, Q'=1 or Q=1, Q'=0) based on the feedback loop of the cross-coupled NOR or NAND gates, unless explicitly set by external initialization.
+"
+
+===================================================================================
+===================================================================================
+===================================================================================
+
 A two-switch (S-R) design that sets and clears the output.
 - We achieve RETENTION. 
 - We want to do better with a one-switch design than rely on the silly TWO-SWITCH design. 
@@ -30,3 +38,4 @@ SUMMARY :
   - solves : latching a data bit is possible 
   - problem : you are doing this with two keys instead of one
 
+_

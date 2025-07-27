@@ -1,0 +1,4 @@
+"
+The SR-latch concept, a foundational sequential logic circuit, was developed in the early 20th century, with contributions from engineers like William Eccles and F.W. Jordan in 1918 in the UK, who described early flip-flop circuits, though the modern cross-coupled NOR/NAND gate design became prevalent in the 1950s with the rise of transistor-based digital electronics in laboratories like Bell Labs in the USA.
+"
+_

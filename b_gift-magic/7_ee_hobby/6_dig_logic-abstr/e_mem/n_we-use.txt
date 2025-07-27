@@ -1,0 +1,4 @@
+"
+Modern machines primarily rely on D-flip-flops or more advanced sequential logic elements like registers and SRAM cells for memory, rather than SR-latches, JK-flip-flops, or master-slave JK-flip-flops, which are less common in contemporary designs due to their complexity or timing limitations, though they may still appear in specific applications like custom ASICs or legacy systems.
+"
+_

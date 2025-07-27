@@ -1,0 +1,6 @@
+"
+The triple-XOR swap algorithm, which swaps two variables using three XOR operations (a ^= b; b ^= a; a ^= b), likely emerged in the 1960s or 1970s among early computer scientists optimizing for minimal memory use in assembly or low-level programming, but specific details of its development, including a definitive inventor or exact origin, remain undocumented in historical records.
+"
+
+"the XOR swap algorithm is a degenerate form of a Feistel cipher"
+_

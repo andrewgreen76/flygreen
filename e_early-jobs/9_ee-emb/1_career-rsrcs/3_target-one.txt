@@ -1,0 +1,16 @@
+
+Hit the job market , find the dream job , and check its boxes : 
+
+ . Processor Verification Engineer 
+ . BIOS/UEFI firmware engineer 
+ . Embedded Linux Engineer
+ . Hardware Integration/Firmware Engr
+ . Connectivity Test and Integration Engr
+ . Embedded SW Engr - Storage Memory
+ . ASIC Verification Engineer 
+ . Bluetooth/Wireless Test Automation 
+ . (Bio)medical Device Tester 
+ . (Bio)medical Systems Engineer 
+ . Security-Focused Engineer/Evaluator 
+
+_

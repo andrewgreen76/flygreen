@@ -1,0 +1,24 @@
+
+===================================================================================
+SERVER RACK ASSEMBLY :
+===================================================================================
+
+Air-blocking boxes :
+ . "Air-blocking boxes, or blanking panels, are used in server racks to prevent hot air recirculation
+    and improve cooling efficiency by directing airflow through equipment, reducing energy costs
+    and preventing overheating."
+
+
+Switch rail kit : 
+ . "... a set of mounting hardware, typically adjustable metal rails, designed to securely install
+    a network switch or other equipment into a rack, allowing for easy sliding access and proper
+    alignment within the rack structure."
+
+
+BBU :
+ . Battery Backup Unit
+ . "... a device that provides temporary power to critical server components during power outages,
+    ensuring data integrity and system stability until primary power is restored or a safe shutdown
+    is completed."
+
+_

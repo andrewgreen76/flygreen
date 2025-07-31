@@ -1,0 +1,9 @@
+"
+Verification in the context of working with FPGAs and ASICs is the process of ensuring that the design (described in HDL like Verilog or VHDL) meets its functional, performance, and timing specifications through methods like simulation, formal verification, and testbenches, before implementation or fabrication.
+"
+
+
+"
+Simulation in verification for FPGA and ASIC designs is the process of testing the hardware description language (HDL) model, such as Verilog or VHDL, in a virtual environment using tools like ModelSim or Vivado Simulator to mimic the behavior of the design under various input conditions and verify its functionality against specifications.
+"
+_

@@ -1,8 +1,10 @@
 
 Hit the job market , find the dream job , and check its boxes : 
 
+ . Verification Infrastructure Lead - CPU Hardware Development 
  . Processor Verification Engineer 
- . BIOS/UEFI firmware engineer 
+ . BIOS/UEFI Firmware Engineer
+ . Battery Software Test Engineer 
  . Embedded Linux Engineer
  . Hardware Integration/Firmware Engr
  . Connectivity Test and Integration Engr

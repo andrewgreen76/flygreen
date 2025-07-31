@@ -1,0 +1,4 @@
+"
+Formal verification is a mathematical method used in FPGA and ASIC design to rigorously prove or disprove the correctness of a design's functionality against its specifications, using tools like model checking or theorem proving, without relying on simulation or testbenches.
+"
+_

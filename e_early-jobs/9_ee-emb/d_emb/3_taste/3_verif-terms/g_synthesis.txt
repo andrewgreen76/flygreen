@@ -1,0 +1,4 @@
+"
+Synthesis in FPGA and ASIC design is the process of converting a high-level hardware description language (HDL) model, such as Verilog or VHDL, into a gate-level netlist or physical layout, using tools like Vivado or Synopsys Design Compiler, to map the design onto the target hardware's logic elements.
+"
+_

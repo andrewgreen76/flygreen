@@ -1,0 +1,4 @@
+"
+UVM (Universal Verification Methodology) is a standardized SystemVerilog-based framework used for verifying complex FPGA and ASIC designs, employing constrained-random testbenches, coverage-driven verification, and reusable verification components to ensure design correctness and robustness.
+"
+_

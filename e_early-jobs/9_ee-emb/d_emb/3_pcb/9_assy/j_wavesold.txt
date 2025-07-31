@@ -1,0 +1,9 @@
+"
+Wave soldering is a process in PCB assembly where a wave of molten solder flows over the board’s underside to simultaneously solder multiple components.
+"
+
+
+"
+Wave soldering is a ___BULK SOLDERING PROCESS___ used in PCB assembly where the board, with through-hole components like a DIP-packaged PIC10F200, is passed over a molten solder wave to create reliable ___SOLDER JOINTS ON THE BOTTOM SIDE___, typically following component placement and flux application.
+"
+_

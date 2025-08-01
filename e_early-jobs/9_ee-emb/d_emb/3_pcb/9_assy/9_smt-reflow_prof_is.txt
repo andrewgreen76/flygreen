@@ -1,0 +1,15 @@
+
+Temperature profile :
+
+ . a.k.a. reflow profile 
+
+ . The way the temperature needs to be changed across time to successfully complete any kind of reflow is reflected
+   in a graph called the temperature profile.
+   
+ . "A temperature profile in hot air reflow is a controlled sequence of temperature changes—preheating, soaking,
+    reflow, and cooling—designed to optimize soldering of electronic components onto a circuit board while minimizing
+    thermal stress and defects."
+
+ ! Look up the datasheet for the solder paste you want to use to see its reflow profile. 
+
+_

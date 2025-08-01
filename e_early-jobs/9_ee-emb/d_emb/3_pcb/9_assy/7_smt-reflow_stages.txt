@@ -3,25 +3,24 @@
 REFLOW STAGES :
 ===================================================================================
 
-Preheat :
- . "... to activate the flux, remove moisture, and prevent thermal shock to components before reaching the reflow
-   temperature ..."
- . "Activating the flux in hot air reflow means heating the flux in solder paste to a temperature where it becomes
-    chemically active, ___REMOVING OXIDES AND CONTAMINANTS___ from metal surfaces ___TO ENSURE CLEAN, RELIABLE SOLDER JOINTS.___"
+Preheating :
+ . "... ___[to] prevent thermal shock to components before reaching the reflow temperature ..."
  . "Thermal shock is the stress induced ... due to rapid temperature changes, potentially causing cracks, delamination, or
     failure, which the preheat stage in hot air reflow helps prevent by gradually raising the temperature."
       
-Soak :
+Soaking :
  . "Soaking in hot air reflow is a stage in the soldering process where electronic components on a circuit board are held
     at a specific temperature to evenly distribute heat and activate flux before reaching the peak reflow temperature."
+ . "Activating the flux in hot air reflow means ___HEATING THE FLUX IN SOLDER PASTE___ to a temperature where it becomes
+    chemically active, ___REMOVING OXIDES AND CONTAMINANTS___ from metal surfaces ___TO ENSURE CLEAN, RELIABLE SOLDER JOINTS.___"
  . "The soaking stage in hot air reflow ensures uniform heating of electronic components, reducing thermal stress and
     improving solder joint quality by allowing flux activation and minimizing defects."
     
 Reflow :
- . "The reflow stage in hot air reflow is when the ___TEMPERATURE IS RAISED TO ITS PEAK___, melting the solder paste to
-    form strong, reliable solder joints between electronic components and the circuit board."
+ . "The reflow stage in hot air reflow is when the ___TEMPERATURE IS RAISED TO ITS PEAK , MELTING THE SOLDER PASTE___ 
+    to form strong, reliable solder joints between electronic components and the circuit board."
     
-Cool :
+Cooling :
  . "Cooling in hot air reflow is the final stage where the circuit board and components are gradually cooled after the
     reflow stage to solidify the solder joints, ensuring strong connections while minimizing thermal stress and defects."
 

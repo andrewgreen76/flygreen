@@ -1,9 +1,0 @@
-
-Reflow methods : 
- . convection reflow : convection oven 
- . infrared : radiation in an oven
- . vapor phase : vapor to transfer heat
- . hot air
- . laser 
-
-_

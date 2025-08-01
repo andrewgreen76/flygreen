@@ -1,0 +1,17 @@
+
+Given : Wonderway T4-type Sn42/Bi58 (model XW-402) 
+---------------------------------------------------------------------------------------------------------
+
+		Preheat		Soaking		Reflow	   	   Cooling 
+---------------------------------------------------------------------------------------------------------
+	|
+190C	|					re/cs
+155C	|				    sssss   ssss	re/cs
+138C	.				se/rs	    wwwwwwwwwwwww    wwwwwww				
+110C	.		pe/ss sssssssssss	se/rs	sss		    wwwwwww
+90C	.	sssssssss		pe/ss www	   ss			  wwwwwwww
+60C	|ssssssss	wwwwwwwwwwwwwwww		     sss			  wwwwwww		
+normal	|wwwwwwwwwwwwwwww					ce				 wwwwwwww		
+	0	30	1	1.5	2	2.5	3	3.5	4	4.5	5	5.5	6	6.5	7
+
+_

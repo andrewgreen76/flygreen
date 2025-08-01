@@ -1,0 +1,13 @@
+
+Reflow methods : 
+ . convection reflow : convection oven 
+ . infrared : radiation in an oven
+ . vapor phase : vapor to transfer heat
+ . hot air
+ . laser 
+
+
+"
+Infrared and convection oven reflow methods are not the same; infrared reflow uses radiant heat from infrared lamps to directly heat the circuit board, while convection reflow relies on circulating hot air to evenly distribute heat, each requiring different temperature profiles and control for optimal soldering.
+"
+_

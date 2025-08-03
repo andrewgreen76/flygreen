@@ -5,6 +5,7 @@ Reflow methods :
  . vapor phase : vapor to transfer heat
  . hot air
  . laser 
+ . sand 
 
 
 "

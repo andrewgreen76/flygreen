@@ -1,7 +1,7 @@
-const readline = require('readline');
+const kinbuf = require('readline');
 
 // Enable raw mode to capture individual keypresses
-readline.emitKeypressEvents(process.stdin);
+kinbuf.emitKeypressEvents(process.stdin);
 process.stdin.setRawMode(true);
 
 //////////////////////////////////////////////////////////////////////////////////////

@@ -1,4 +1,32 @@
 "
 Electrical shunting is the process of diverting electrical current through an unintended low-resistance path, often bypassing the normal load or circuit, which can lead to inefficient operation or potential damage.
 "
+
+
+"
+In electronics, a shunt is a precision resistor used to create a low-resistance path for current. By measuring the small voltage drop across the shunt, we can accurately calculate the current flowing in a circuit — a principle widely used in current sensing and monitoring systems.
+
+💡 Key Features of Shunts:
+ • Low resistance to minimize power loss
+ • High accuracy for precise measurements
+ • Wide current range options for different applications
+
+📦 Where are they used?
+ • Power supply monitoring
+ • Battery management systems (BMS) in EVs
+ • Solar energy systems
+ • Industrial equipment control
+ • DC power distribution panels
+
+⚙ Example:
+In a battery monitoring system, a shunt ensures that the current is measured with minimal impact on the overall system performance, enabling better efficiency and safety.
+
+🔧 Popular Shunt Models:
+ • Vishay: WSBS8518, WSL2512, WSL1206
+ • Isabellenhütte: BVN, BVR, SMR Series
+ • Ohmite: FCSL Series, LVT Series
+ • Yokogawa: 240A, 300A Shunts
+
+At ICORELL, we supply high-precision shunts and related components, ensuring stable performance for industrial, automotive, and renewable energy applications.
+"
 _

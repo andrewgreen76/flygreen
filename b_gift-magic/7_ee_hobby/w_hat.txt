@@ -1,0 +1,4 @@
+"
+In hardware, a HAT (Hardware Attached on Top) is an add-on board designed for Raspberry Pi, following a specific standard for easy integration, featuring a standardized form factor and I2C EEPROM for automatic configuration.
+"
+_

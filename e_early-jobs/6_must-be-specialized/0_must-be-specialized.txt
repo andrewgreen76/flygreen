@@ -5,10 +5,10 @@ Start making some moves.
 
 
 ===================================================================================
-FIELDS , NATURE OF THE JOBS , SALARIES :
+FIELDS , NATURE OF THE JOBS , SALARIES , POPULARITY : 
 ===================================================================================
 
-.				Nature of the job		Salary
+.				Nature of the job		Salary				Popularity / Ease of entrance 
 
 Assembler			Attaching things 		(close to the) minimum wage 
 Manufacturing operator 		Preparing materials		(close to the) minimum wage

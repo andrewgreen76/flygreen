@@ -1,0 +1,66 @@
+
+Learn about different industries.
+Figure out the right career for yourself. 
+Start making some moves.
+
+
+===================================================================================
+FIELDS , NATURE OF THE JOBS , SALARIES :
+===================================================================================
+
+.				Nature of the job		Salary
+
+Assembler			Attaching things 		(close to the) minimum wage 
+Manufacturing operator 		Preparing materials		(close to the) minimum wage
+Embedded engineer		Building/finishing devices	High **,***
+ASIC verification engineer	.				    ***,***
+"Semiconductor designer"	.				    ???
+PCB designer   			.				    ???
+
+
+===================================================================================
+EMBEDDED ENGINEERING (building things) :
+===================================================================================
+
+ . protocols/interfaces : I2C , SPI , UART , ... 
+ . FPGA / ASIC experience
+ . RTL design 
+
+
+===================================================================================
+ASIC VERIFICATION :
+===================================================================================
+
+ . FPGA / ASIC experience
+ . RTL design 
+ 
+
+===================================================================================
+PCB DESIGN :
+===================================================================================
+
+ . computing the impedance of a trace
+ . learning about ground loops
+ . choosing the correct clock frequency
+ . "implications of reflection or cross-coupling"
+ . dealing with picosecond signal skew on a PCB bus
+ . avoiding race conditions on a PCB
+ . requirements of meeting setup and hold times 
+
+
+===================================================================================
+SEMICONDUCTOR DESIGN :
+===================================================================================
+
+ . silicon physics
+   . SPICE 
+ . manufacturing
+ . system architecture
+   . VHDL , Verilog , SystemVerilog (with UVM)
+   ---------------------------------------------
+   . RISC microcode engine (using pure asynchronous logic)
+   . speculative execution and branch prediction
+   . dynamic register renaming
+   . cache consistency management and pipeline issue resolution 
+
+_

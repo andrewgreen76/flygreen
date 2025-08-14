@@ -12,10 +12,10 @@ FIELDS , NATURE OF THE JOBS , SALARIES :
 
 Assembler			Attaching things 		(close to the) minimum wage 
 Manufacturing operator 		Preparing materials		(close to the) minimum wage
-Embedded engineer		Building/finishing devices	High **,***
-ASIC verification engineer	.				    ***,***
-"Semiconductor designer"	.				    ???
-PCB designer   			.				    ???
+Embedded engineer		Building/finishing devices	High  **,***
+ASIC verification engineer	.				     ***,***
+"Semiconductor designer"	.				     ***,***
+PCB designer   			.				     ***,***
 
 
 ===================================================================================

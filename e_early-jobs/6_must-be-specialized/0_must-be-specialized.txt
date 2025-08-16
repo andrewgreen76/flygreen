@@ -22,6 +22,7 @@ PCB designer   			.				     ***,***
 EMBEDDED ENGINEERING (building things) :
 ===================================================================================
 
+ . () tools by an engineer for engineers 
  . protocols/interfaces : I2C , SPI , UART , ... 
  . FPGA / ASIC experience
  . RTL design 

@@ -1,0 +1,9 @@
+"
+A key difference between a debug build and a release build is that a debug build includes additional debugging information and symbols for troubleshooting, while a release build is optimized for performance and size, with debugging information typically stripped out.
+"
+
+
+"
+The debug build compile time of Rust code is significantly longer than the release build because it includes extensive debugging information, enables all checks (like bounds checking), and prioritizes minimal optimization for easier debugging, whereas the release build focuses on aggressive optimizations and strips out debugging overhead.
+"
+_

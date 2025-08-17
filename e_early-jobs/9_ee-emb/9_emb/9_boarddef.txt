@@ -1,0 +1,18 @@
+
+A file with DATA / SETTINGS : 
+ . like A CONFIG (constant calibrations stored in a file)
+ . target board (processor family , processor (core) ) 
+ . target's clock speed for operation 
+ . SPI programming host's port 
+ . target's pin mappings
+ . etc.
+
+This way everything will be done correctly. 
+
+===================================================================================
+
+"
+A compatible board definition is a configuration file or set of parameters that defines a microcontroller board’s hardware specifications, such as pin mappings, clock speed, and peripheral settings, allowing development environments like the Arduino IDE to compile and upload code correctly to the board.
+"
+
+_

@@ -1,0 +1,4 @@
+"
+A lockable board has security features (like flash readout protection or secure boot) that prevent unauthorized code access or modification, while a non-lockable board lacks these protections.
+"
+_

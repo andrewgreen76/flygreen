@@ -1,0 +1,22 @@
+
+FPGA : 
+ + can be REPROGRAMMED to do anything (especially greater and more complex things)
+ - AT THE COST OF space, power, and performance
+ |
+ . the internal behavior is mainly SOFTWARE LOGIC 
+
+
+ASIC - smaller transistor count
+ + the design will most likely TAKE UP LESS SPACE than an FPGA
+ + the circuitry is hardwired
+ => MORE POWER-EFFICIENT AND PERFORMANT than an FPGA 
+ - circuit logic is hardwired in a fabhouse => once programmed , it CANNOT BE REPROGRAMMED
+ |
+ . the internal behavior is just HARDWARE LOGIC 
+
+
+===================================================================================
+"
+The key benefit of an ASIC (Application-Specific Integrated Circuit) over an FPGA is its optimized performance, power efficiency, and smaller size for a specific task, as it is custom-designed, whereas an FPGA offers reconfigurability but is less efficient in power and speed for fixed applications.
+"
+_

@@ -1,0 +1,50 @@
+
+Please a single-sentence answer to each of the following questions:
+
+Host processor category: 			MCU 		SoC		CPU		GPU
+Host processor architecture: 			AVR	PIC	ARM	       STM8 (CISC)	other	
+Host processor + board models:		_________________________________________________________
+Battery model compatible with the host:	_________________________________________________________
+
+Display driver model / architecture:		_________________________________________________________
+————————————————————————————————————————————————————
+Runtime: 
+List the I2C bus’ individual connections between the host processor and the display driver: 
+Host processor: GPIO pin name, pin #		Display driver: pin name, pin #			
+
+
+
+
+
+
+————————————————————————————————————————————————————
+Programming time: 
+Programming processor + board models: 	_________________________________________________________
+List the SPI port’s individual connections between the programming board and the target host processor: 
+Programming board: pin name, pin #		Target host processor: GPIO pin name, pin #		
+
+
+
+
+
+
+————————————————————————————————————————————————————
+Software - coding and board programming:
+
+Dev environment type:			IDE 			CLI
+If IDE, name:				_________________________________________________________
+If IDE, comments on the library mgr: 		_________________________________________________________
+If CLI, list the utilities:			_________________________________________________________
+
+Available source code to demo text display: 	Y/N
+Reference for the source code: 		_________________________________________________________
+Display driver library:			_________________________________________________________
+Other libraries:				_________________________________________________________
+
+Compatible board definition: 			Y/N
+Reference for the source: 			_________________________________________________________
+
+I2C clock speed:         		internal        external        400kHz        1MHz        8MHz        16MHz        20MHz
+
+Display driver code address:			_________________________________________________________
+Smallest font available:			_________________________________________________________

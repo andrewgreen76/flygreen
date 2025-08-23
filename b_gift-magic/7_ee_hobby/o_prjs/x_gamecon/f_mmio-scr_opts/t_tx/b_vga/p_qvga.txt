@@ -1,6 +1,0 @@
-"
-QVGA stands for Quarter Video Graphics Array. It is a display resolution standard that represents one-fourth of the VGA resolution. The standard VGA resolution is 640 x 480 pixels, and QVGA typically has a resolution of 320 x 240 pixels.
-
-QVGA is commonly used in various devices with small to medium-sized displays, including early digital cameras, mobile phones, handheld gaming devices, and other portable electronics. While it has become less common in modern high-resolution displays, QVGA remains relevant in certain applications where a lower resolution is sufficient, and power consumption or processing resources are critical factors.
-"
-_

@@ -1,0 +1,34 @@
+
+Chef's ingredients :
+------------------------------------------
+Power supply : 
+- a breadboard
+- (4) x AA/AAA batteries
+- a battery case
+- a DC1 power socket		 
+
+Processing power : 
+- a CPU				 
+
+Inputs : 
+- (N) x buttons			
+
+Output devices : 
+- screen only :
+  - Hitachi 
+  - monitor , LCD , backlit 
+  - low-res : 320x240 (75K) -or- 160x144 (22.5K) 
+  - 7-in -or- 5.7-in -or- 3.5-in
+  - "QVGA display" or "320x240 TFT display"
+- RGB LCD HAT
+
+RAM (incl. MMIO) :
+- (2) x 8K SRAM :
+  - (1) x 8K SRAM for main sys mem (running the game, storing data) 
+  - (1) x 8K SRAM for display/memory buffer 
+
+ROM (code : game code (charset, tiles), boot) : 
+- 8+ GB USB stick / 8 GB SD card
+-or- 16K ROM chip 
+
+.

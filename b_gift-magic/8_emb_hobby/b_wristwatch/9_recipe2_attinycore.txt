@@ -1,0 +1,9 @@
+"
+To set up the Arduino IDE with ATTinyCore for programming the ATtiny85, follow these steps in one concise paragraph: Install the Arduino IDE (version 1.6.3 or later), then open it and go to **File > Preferences**, add the URL `http://drazzy.com/package_drazzy.com_index.json` to the **Additional Boards Manager URLs** field, click **OK**, and navigate to **Tools > Board > Boards Manager**, search for "ATTinyCore," install the package by Spence Konde, select **Tools > Board > ATTinyCore > ATtiny25/45/85 (No bootloader)**, choose **ATtiny85** under **Processor**, set the **Clock** to **8 MHz (internal)**, configure your Arduino Uno as an ISP by uploading the **ArduinoISP** sketch from **File > Examples > 11.ArduinoISP > ArduinoISP**, connect the ATtiny85 to the Uno (VCC to 5V, GND to GND, Pin 10 to RESET, Pin 11 to PB0, Pin 12 to PB1, Pin 13 to PB2, with a 10µF capacitor between Uno’s RESET and GND), select **Tools > Programmer > Arduino as ISP**, burn the bootloader via **Tools > Burn Bootloader** to set the fuses, and then upload your sketch using **Sketch > Upload Using Programmer**.[](https://wolles-elektronikkiste.de/en/programming-attiny-with-arduino-code)[](http://homemadehardware.com/guides/programming-an-attiny85/)[](https://cyberblogspot.com/how-to-install-attinycore-on-arduino-ide/)
+"
+
+
+"
+... after setting up the Arduino IDE with ATTinyCore, configuring the Arduino Uno as an ISP, connecting the ATtiny85, burning the bootloader, and uploading the Tiny4kOLED-based source code using "Upload Using Programmer," the ATtiny85 is programmed to display text on the SSD1306 OLED.
+"
+_

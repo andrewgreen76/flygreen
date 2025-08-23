@@ -1,4 +1,0 @@
-"
-Parasitic capacitance is the unintended capacitance that exists between conductive elements in a circuit, ... caused by their physical proximity, which can introduce noise or affect signal timing and performance.
-"
-_

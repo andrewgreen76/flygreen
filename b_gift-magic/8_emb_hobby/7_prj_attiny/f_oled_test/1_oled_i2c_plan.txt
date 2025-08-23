@@ -1,0 +1,29 @@
+
+===================================================================================
+TESTING THE INGREDIENTS BEFORE BUILDING THE THING - OLED : 
+===================================================================================
+
+To save ourselves as much pain as possible , we test the OLED ***first*** :
+ . 128x32 vs. [128x64]
+ . I2C , ***not*** SPI 
+
+
+Then we have to imagine how the test (ideally , painting of a single pixel) would take place.
+  | (a) Are we going to program the Arduino to communicate with the OLED directly ?
+  | (b) Or are we going to program the Arduino to burn OLED-talking code onto the EEPROM of the ATtiny85 ?
+  |
+  Let's try both. First , (a) , and then , (b). 
+
+
+===================================================================================
+===================================================================================
+===================================================================================
+
+"
+The `ssd1306_byte()` function is not part of the **Adafruit_SSD1306** library, which is commonly used for controlling SSD1306 OLED displays in Arduino; instead, the library provides higher-level functions like `drawPixel()` for ease of use.
+"
+
+"
+The `ssd1306_byte()` function is part of the **SSD1306xLED** library by Alexander Podgorski (lexus2k).
+"
+_

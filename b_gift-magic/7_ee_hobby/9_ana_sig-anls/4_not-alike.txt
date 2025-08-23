@@ -1,7 +1,0 @@
-
-Not all _____ (models) are alike.
-
- . Not all power supplies are alike.
- . Not all transistor models are alike. 
-
-_

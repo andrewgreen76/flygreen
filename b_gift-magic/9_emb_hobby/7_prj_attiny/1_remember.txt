@@ -1,9 +1,0 @@
-
-===================================================================================
-!!! AN IMPORTANT THING TO REMEMBER ABOUT THE CONNECTIONS !!! 
-===================================================================================
-
- . It's the connection between the Arduino and the ATtiny programmer that is SPI , but the connection between
-     the console and the OLED is I2C. 
-
-_

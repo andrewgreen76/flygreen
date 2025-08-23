@@ -1,4 +1,0 @@
-"
-A buffer gate introduces a minimal propagation delay, typically on the order of **a few nanoseconds** (e.g., 5-10 ns for a 74HC series buffer), depending on the technology and operating conditions, as it processes the input signal to strengthen or clean it before output.
-"
-_

@@ -1,5 +1,0 @@
-
- . a blinking-LED board
- . an Arduino board 
-
-_

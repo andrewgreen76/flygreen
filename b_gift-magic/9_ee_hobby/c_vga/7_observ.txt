@@ -1,0 +1,54 @@
+========================================================================================
+OBSERVATIONS FROM BEN EATER'S VGA "CARD" : 
+========================================================================================
+
+WARNING : VGA monitors can be easily damaged.
+
+
+
+4 actual pixels to 1 color state : 
+ . Because we have a 10MHz clock (that is four times as slow as the 40 MHz expected
+   by the board built into the VGA monitor) , the given 10MHz can only change the horizontal count (state)
+   four times as slowly. This is why our tailored hardware only accounts for 200 "graphical
+   units" (not actual pixels, but color configurations) per scanline instead of 800 as would be
+   expected when aiming at the 800x600 resolution. 
+
+
+
+(r,g,b) = f(x,y) :
+ . Use an EEPROM as a CU that takes in horizontal and vertical binary counts
+   and spits out a red-green-blue signal configuration for the given pixel at (x,y). 
+
+
+
+Initial 8 colors :
+
+   1. K
+   2. R
+   3. B
+   4. M
+   5. G
+   6. Y
+   7. T
+   8. W/E
+
+16 colors (with dithering) :
+
+   1. Black
+   2. White
+   3. Gray
+   4. Red
+   5. Green
+   6. Blue
+   7. Cyan
+   8. Magenta
+   9. Yellow
+   10. Brown
+   11. Light Red
+   12. Light Green
+   13. Light Blue
+   14. Light Cyan
+   15. Light Magenta
+   16. Light Yellow
+
+_

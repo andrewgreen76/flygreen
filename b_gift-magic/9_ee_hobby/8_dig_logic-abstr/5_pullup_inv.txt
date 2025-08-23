@@ -1,0 +1,4 @@
+
+A ---pull-up resistor--- can help with building an inverting circuit ! 
+
+_

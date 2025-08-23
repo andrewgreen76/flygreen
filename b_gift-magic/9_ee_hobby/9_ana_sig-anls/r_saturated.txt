@@ -1,0 +1,4 @@
+"
+In electrical engineering, "saturated" refers to a condition where a component, such as a transistor or inductor, has reached its maximum capacity and can no longer respond to increases in input, typically said about amplifiers, transistors, or magnetic cores.
+"
+_

@@ -1,0 +1,10 @@
+
+ . CPU : 8-bit , CMOS , [compose a model name] , (8/)16-bit timers 
+ ? RAM : SRAM , DRAM , -or- what ? 
+ ? ROM : flash , EEPROM , or both ?
+ . I/O :
+    . SPI ports
+    . display controller ports
+ . SPU (sound) 
+
+_

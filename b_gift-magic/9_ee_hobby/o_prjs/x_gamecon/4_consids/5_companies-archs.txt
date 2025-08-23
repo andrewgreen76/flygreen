@@ -1,0 +1,12 @@
+
+Intel  - x86
+Lenovo - x86
+HP     - x86 , ARM 
+NVIDIA - x86 , ARM 
+AMD    - Zen 3 
+STM    - ARM (Cortex)
+Dell   - not their own (Intel) 
+Asus   - not their own (Intel , AMD , NVIDIA) 
+Acer   - not their own (Intel , AMD) 
+
+_

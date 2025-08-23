@@ -1,6 +1,0 @@
-
- . degrades at higher resolutions 
- . degrades while coursing down long cables
- . worse-case scenario : the color on the Rx end would be mostly blue 
-
-_

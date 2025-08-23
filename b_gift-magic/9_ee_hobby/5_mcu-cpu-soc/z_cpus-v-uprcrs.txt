@@ -1,0 +1,21 @@
+
+https://www.totalphase.com/blog/2022/12/microprocessor-vs-cpu-what-is-the-difference/
+
+"
+... microprocessors and CPUs are more similar that they are different. In fact, all CPUs are microprocessors however not all microprocessors are CPUs. The main difference between the two is their functionality and purpose within a computer system. A CPU is a type of processor tasked with a variety of roles. A microprocessor is generally tasked with one specific task and does that one task exceedingly well. A CPU issues commands to microprocessors and in return the microprocessors send data to the CPU or other component as specified by the CPU. Microprocessors are tasked with executing specific and repeatable actions whereas a CPU is tasked with executing a wide and diverse range of tasks.
+"
+
+
+
+ChatGPT : 
+
+"
+Yes, all CPUs are microprocessors, but not all microprocessors are CPUs. The terms "CPU" (Central Processing Unit) and "microprocessor" are often used interchangeably, but they do have slightly different meanings.
+
+A CPU is a specific component of a computer that is responsible for executing instructions and performing calculations. It is the primary unit that carries out the actual processing of data and instructions in a computer system. CPUs are typically found in desktop and laptop computers, servers, and other computing devices.
+
+On the other hand, a microprocessor is a more general term that refers to a small integrated circuit (IC) that contains all the basic components of a CPU on a single chip. Microprocessors are the building blocks of CPUs and serve as the central processing unit in most modern computers. They are designed to execute instructions and process data, just like CPUs.
+
+In summary, every CPU is a microprocessor because it is a processor on a microchip. However, the term "microprocessor" can also encompass other types of processors that may not be traditional general-purpose CPUs. For example, microcontrollers and digital signal processors (DSPs) are also types of microprocessors, but they are designed for specific tasks and may not have the same level of general-purpose computing capabilities as a CPU.
+"
+

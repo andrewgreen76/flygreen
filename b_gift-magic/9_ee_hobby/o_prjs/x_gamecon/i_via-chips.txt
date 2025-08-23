@@ -1,0 +1,18 @@
+
+========================================================================================
+VERSATILE INTERFACE ADAPTERS : 
+========================================================================================
+
+ . "The components of a VIA typically include
+    . input/output ports,
+    . data registers,
+    . control logic,
+    . interrupt handling mechanisms, and
+    . timing circuits,
+    which collectively enable communication and interaction between the microprocessor
+    and external devices in embedded systems."
+
+ . storing data relevant to I/O
+   (not necessarily just peripherals)
+
+_

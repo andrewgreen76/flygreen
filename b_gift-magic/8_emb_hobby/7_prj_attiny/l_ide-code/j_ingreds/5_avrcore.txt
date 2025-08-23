@@ -1,0 +1,12 @@
+
+===================================================================================
+WHAT IS AVR CORE ? 
+===================================================================================
+
+ . "... the SOURCE CODE and CONFIGURATION FILES of the Arduino AVR Boards platform." 
+
+ . The **AVR core** itself is hardware, but its functionality is represented in the form of **files**
+   (such as header files, libraries, and firmware) to provide software INTERFACES, COMPILER SUPPORT,
+   and LOW-LEVEL CONTROL for programming and simulation.
+
+_

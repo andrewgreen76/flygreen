@@ -1,3 +1,0 @@
-
-A gate is a circuit with transistors and components that GOVERN THE BEHAVIOR of the said circuit. 
-

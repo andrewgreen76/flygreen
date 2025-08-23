@@ -1,4 +1,0 @@
-
-B-LCDAD-HDMI1	- DSI-to-HDMI adapter 
-
-_

@@ -1,5 +1,0 @@
-
-- : expensive , no standard compatibility 
-+ : common eDP port in laptops 
-
-_

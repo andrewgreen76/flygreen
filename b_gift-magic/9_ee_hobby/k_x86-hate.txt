@@ -1,0 +1,23 @@
+
+===================================================================================
+REASONS TO HATE (THE LATEST FORM OF) x86 - AND WHY IT NEEDS TO DIE OFF :
+===================================================================================
+
+Big reasons :
+ . proprietary
+ . bloated - compared to its early iterations 
+ ... 
+ . enable line A20
+ . multiple compatibility modes
+
+
+Tiny reasons :
+ . -
+
+
+(Neverminds :
+ . [instr] [dest] [src]
+ . the latest x86 ISA manual is 2,500+ pages
+)
+
+_

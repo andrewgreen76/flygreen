@@ -1,0 +1,18 @@
+
+The LRU (Least Recently Used) eviction policy is enforced in a cache data structure by keeping track of the access order of the cached items. When the cache reaches its capacity and needs to evict an item, it removes the least recently used item from the cache.
+
+Here's a general approach to enforcing the LRU eviction policy in a cache data structure:
+
+1. Maintain a data structure that tracks the access order of items. This can be implemented using a doubly linked list or an ordered collection like OrderedDict.
+2. Each time an item is accessed (read or updated), move it to the most recently used position in the access order.
+3. When a new item is added to the cache:
+   - If the cache is not full, add the item to the cache and update the access order to mark it as the most recently used.
+   - If the cache is full, remove the least recently used item (the one at the front of the access order) and add the new item to the cache, placing it at the most recently used position in the access order.
+4. When an item is evicted, remove it from both the cache and the access order tracking data structure.
+
+By maintaining the access order of items, the cache can identify the least recently used item when it needs to make room for new entries. The item that was accessed least recently (at the front of the access order) is evicted to accommodate the new item.
+
+Enforcing the LRU eviction policy in a cache data structure ensures that the most frequently and recently used items are retained in the cache, while less frequently used items are evicted when the cache reaches its capacity. This helps optimize cache performance by keeping the most relevant and frequently accessed data readily available.
+
+It's worth noting that there are variations of the LRU eviction policy, such as the "approximate LRU" where items are evicted based on an estimation of their recency of use rather than precise tracking. The exact implementation details can vary depending on the specific cache implementation and requirements.
+

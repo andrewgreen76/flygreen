@@ -1,9 +1,0 @@
-
- . address
- . data
-   . instructions
-   . actual data per se 
- . I/O
- . control 
-
-_

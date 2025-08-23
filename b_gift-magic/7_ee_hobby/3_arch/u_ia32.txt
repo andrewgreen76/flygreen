@@ -1,8 +1,0 @@
-
-x86-32 (32 bit Intel x86)
-
- . "IA-32 is the 32-bit version of the x86 instruction set architecture,
-    designed by Intel and first implemented in the 80386 microprocessor
-    in 1985."
-      
-_

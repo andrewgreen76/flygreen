@@ -1,6 +1,0 @@
-
-Board			SoC 
-
-Raspberry Pi 4		BCM2711 SoC
-
-_

@@ -1,9 +1,0 @@
-"
-To isolate a fault ... means to identify and separate the faulty component or section of a system from the rest of the circuit, enabling troubleshooting and repairs without affecting other functioning parts.
-"
-
-
-"
-Fuses help isolate faults in a system by breaking the electrical circuit when excessive current flows, preventing further damage to components and allowing for easier identification of the faulted section.
-"
-_

@@ -1,4 +1,0 @@
-"
-... noise ... can take the form of electrical fluctuations, such as thermal noise, crosstalk, or power supply variations, which introduce small random voltages or currents that tip the latch into one of its stable states (Q=0, Q'=1 or Q=1, Q'=0).
-"
-_

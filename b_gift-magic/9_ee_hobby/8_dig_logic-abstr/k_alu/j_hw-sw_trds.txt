@@ -1,0 +1,7 @@
+
+The rather more advanced functionality can be delegated to the system software rather than the hardware implementation. 
+
+Delegation to hardware :
++ shorter computational time
+- costs more to design and manufacture
+

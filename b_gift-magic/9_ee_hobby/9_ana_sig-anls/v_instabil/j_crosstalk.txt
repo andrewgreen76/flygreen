@@ -1,0 +1,4 @@
+"
+Crosstalk is the unwanted electromagnetic coupling between adjacent conductive traces or components on a PCB, such as one with a PIC10F200, where signals from one trace interfere with another, causing noise, distortion, or errors in signal transmission.
+"
+_

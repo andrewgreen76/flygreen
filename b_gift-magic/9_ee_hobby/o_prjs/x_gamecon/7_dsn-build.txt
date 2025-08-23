@@ -1,0 +1,30 @@
+==============================================================================
+PHYSICAL INGREDIENTS - I/O DEVICES (in a case) : 
+==============================================================================
+
+ . input : 
+    . keypad / keyboard / buttons 
+    . mouse
+ . output : 
+    . display - LCD screen
+       ? controller 
+    . sound - speaker / piezo pick-up
+       ? controller 
+ . memory/storage (on the main board)
+ . processor (on the main board)
+ 
+==============================================================================
+ARCHITECTURE : 
+==============================================================================
+
+ . width : 8-bit / 32-bit 
+
+We want color. 
+
+Tetris : 
+
+Gameboy :
+
+VIC-20 : 
+
+_

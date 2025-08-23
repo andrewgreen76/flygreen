@@ -1,0 +1,11 @@
+======================================================================================================
+VIDEO SIGNAL PROTOCOLS PROFILE TABLE : 
+======================================================================================================
+
+	year		ana/dig		ser/prll	a/sync		SPI/I2C		bit-width
+
+LCD	'68/'70s	dig		prll		sync		I2C		8-bit
+VGA	'87		ana		-		sync (h/vsync)	I2C		64 / 128-bit
+HDMI	'02		dig		prll		async  		I2C		24 / 30 / 36 / 48-bit
+
+_

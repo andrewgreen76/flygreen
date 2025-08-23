@@ -1,0 +1,46 @@
+
+Assuming all are CMOS.
+Assuming all are 8-bit. 
+Assuming all are Harvard architecture -based (separate buses). 
+
+---------------------------------------------------------------------------------------------------------------------------------
+		PIC10F200	ATtiny12	PIC12LF1840	ATtiny25/V	ATtiny85	ATmega328P		STM8L
+---------------------------------------------------------------------------------------------------------------------------------
+CPU core :	
+ . arch.	PIC		AVR1		PIC		AVR		AVR		AVR			STM8
+ . RISC/CISC	RISC		RISC		RISC		RISC		RISC		RISC   	     		CISC
+ . I-set	33		90		49		120		120		131			80
+ . num.regs	8		32 gen.purp	2 FSRs ; 	32		32		32			6
+   				  (8-bit)	  12 core ,
+				  +I/O,st,ctl	  20 sp.func.
+					  
+ . clk speed	1MIPS @ 4MHz	8MIPS @ 8MHz	32 MHz		4 MHz		20MIPS @ 20MHz	16 MHz 			16 MHz
+ . misc.	2-stage 			(mem: 80B GPR,	1 MIPS / MHz			1 MIPS / MHz		3-stage 
+   		pipeline			 16B common)				       	 			pipeline ,
+															clock tree 
+---------------------------------------------------------------------------------------------------------------------------------
+		PIC10F200	ATtiny12	PIC12LF1840	ATtiny25/V	ATtiny85	ATmega328P		STM8L
+---------------------------------------------------------------------------------------------------------------------------------
+SRAM.A.width	4		6		8		7		9		11			13
+SRAM.D.width	x8		x8		x8		x8 		x8		x8			x8
+SRAM.size	(2^4) 16a x8	(2^6) 64a x8	(2^8)256a x8	128a x8 	512a x8		2Ka x8 			8Ka x8 
+						 
+flROM.A.width	9		9		13		11		12		13			16
+flROM.D.width	x12		x16		x14		x16		x16		x16			x8
+flash.size	(2^9)512a x12	(2^9)512a x16	8Ka x14		2Ka x16		4Ka x16		8Ka x16			64Ka x8 
+
+EEPROM.A.width	-   		8, using 6	8   		8, using 7 	9		10   			10
+EEPROM.D.width	-		x8		x8		x8		x8		x8			x8
+EEPROM.size	-		(2^6) 64a x8	256a x8		128a x8 	512a x8		1Ka x8			1Ka x8 
+
+I/O count	4		6		6		6 		5IO + 1I	23 (SMT: 32)		67
+ser or prll	parallel	parallel	both		both		serial 		both	 		both 
+
+timers		1				1		1		2 x8		2x 8-bit, 1x 16-bit	tons
+
+THT pin.cnt	6-8				8		8		8		28			-
+SMT pin count	-				-		-//-		-//- 		32			48/64/80
+---------------------------------------------------------------------------------------------------------------------------------
+		PIC10F200	ATtiny12	PIC12LF1840	ATtiny25/V	ATtiny85	ATmega328P		STM8L
+---------------------------------------------------------------------------------------------------------------------------------
+_

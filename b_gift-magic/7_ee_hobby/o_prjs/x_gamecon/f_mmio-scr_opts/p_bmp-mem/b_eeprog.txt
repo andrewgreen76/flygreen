@@ -1,6 +1,0 @@
-
- . Dataman 48/96
- . XGecu Pro
- . ST-Link V2 
-
-_

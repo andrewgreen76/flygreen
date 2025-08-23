@@ -1,0 +1,14 @@
+
+I would like to thank : 
+
+[no handle]	- Daniel Champagne - a.k.a. danielc - original game creator 
+@webboggles 	- Ilya Titov , a.k.a. webboggles - the original PCB designer 
+@andyhighnumber - Andy Jackson , a.k.a. andyhighnumber - latest creator of games for the 3-button configuration 
+@boyanov	- Neven Boyanov , founder of The Tinusaur Project (@TinusaurBG) 
+
+Honorable mentions : 
+
+@thetejash	- Tejashwi Kalp Taru - for ideas on completing the PCB design and information on component integrity 
+@DjamalUK	- [unknown] , demonstrations of the game console in action 
+
+_

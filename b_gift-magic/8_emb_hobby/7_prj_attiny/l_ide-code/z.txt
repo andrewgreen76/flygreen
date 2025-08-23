@@ -1,0 +1,27 @@
+Arduino: 1.8.19 (Linux), Board: "ATtiny25/45/85, ATtiny25, Internal 1 MHz"
+
+java.io.IOException: Cannot run program "___REMOVE___/bin/avrdude": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at java.base/java.lang.Runtime.exec(Runtime.java:681)
+	at java.base/java.lang.Runtime.exec(Runtime.java:530)
+	at processing.app.helpers.ProcessUtils.exec(ProcessUtils.java:11)
+	at cc.arduino.packages.Uploader.executeUploadCommand(Uploader.java:129)
+	at cc.arduino.packages.uploaders.SerialUploader.runCommand(SerialUploader.java:383)
+	at cc.arduino.packages.uploaders.SerialUploader.burnBootloader(SerialUploader.java:372)
+	at processing.app.Editor.lambda$handleBurnBootloader$61(Editor.java:2385)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:295)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:225)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 9 more
+Error while burning bootloader.
+
+
+This report would have more information with
+"Show verbose output during compilation"
+option enabled in File -> Preferences.
+
+_

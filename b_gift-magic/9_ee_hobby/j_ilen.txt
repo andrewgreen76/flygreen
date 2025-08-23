@@ -1,0 +1,12 @@
+"
+Instruction length refers to the size, in terms of the number of bytes, required to encode an instruction in machine code. In most modern computer architectures, instructions can vary in length depending on the specific operation being performed and the addressing modes used.
+
+For example, in x86 architecture, instructions can range from one byte (e.g., NOP) to many bytes long (e.g., complex arithmetic instructions with memory operands and prefixes).
+
+
+============================================================================================================================================================
+
+
+In the case of the Intel 8008 microprocessor, which has an 8-bit architecture, instructions are typically one byte in length. However, some instructions may require additional bytes to encode operands or memory addresses, resulting in longer instruction lengths.
+"
+_

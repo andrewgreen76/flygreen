@@ -1,4 +1,0 @@
-"
-The primary difference between EEPROM and flash memory on an Arduino Uno is that EEPROM is non-volatile memory used for storing small amounts of data that need to be retained even when power is removed, while flash memory is used for storing the Arduino program (sketch) and is typically larger in capacity.
-"
-_

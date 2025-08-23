@@ -1,4 +1,0 @@
-
-Key encoders : MM74C922
-
-_

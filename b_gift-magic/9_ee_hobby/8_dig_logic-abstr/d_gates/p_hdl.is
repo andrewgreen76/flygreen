@@ -1,0 +1,11 @@
+
+HDL is :
+- a FUNCTIONAL language and a declarative language
+  = inputs are unknown, not given within the implementation 
+  = it is purely about conditions and behavior, not dynamic data manipulation 
+    -= no altering procedures going on ; everything is static
+  = no code and data compilation or interpretation
+
+- The order of statements does not matter to the hardware simulator,
+  but it does matter to us for the sake of readability. 
+

@@ -1,0 +1,23 @@
+
+What is purpose of cache hierarchy?
+ChatGPT
+
+The purpose of a cache hierarchy is to bridge the performance gap between the fast but small cache memory and the larger but slower main memory (RAM) in a computer system. It aims to improve the overall system performance by reducing memory access latency and enhancing data availability.
+
+The cache hierarchy consists of multiple levels of cache memory, typically referred to as L1, L2, and sometimes L3 caches. Each cache level has different characteristics in terms of capacity, access speed, and proximity to the CPU.
+
+The primary goals of the cache hierarchy are:
+
+    Reduce Memory Access Latency: Caches are faster than main memory, allowing the CPU to access frequently used data and instructions more quickly. By keeping a copy of frequently accessed data in the cache, the CPU can avoid the need to access slower main memory for every request.
+
+    Exploit Locality of Reference: Programs often exhibit temporal and spatial locality, meaning that they tend to access the same data or nearby data repeatedly. The cache hierarchy leverages this behavior by storing recently accessed data and instructions in higher-level caches, improving the chances of their availability for subsequent accesses.
+
+    Improve System Bandwidth: Caches can help alleviate memory bus congestion by reducing the number of memory requests that need to travel to the main memory. This can enhance the overall system bandwidth and mitigate performance bottlenecks.
+
+    Optimize Power Efficiency: Accessing main memory consumes more power compared to accessing cache memory due to the longer access times and the need to activate higher-level memory modules. By utilizing the cache hierarchy effectively, the system can reduce the frequency of main memory accesses, leading to power savings.
+
+    Mitigate Performance Variations: The cache hierarchy helps to smooth out performance differences between the CPU and the main memory. It can absorb and hide memory latency, allowing the CPU to continue executing instructions at a higher rate even when memory accesses are slower.
+
+Overall, the cache hierarchy is designed to enhance the performance of a computer system by reducing memory access latency, leveraging data locality, optimizing bandwidth, improving power efficiency, and mitigating performance variations. It acts as a buffer between the CPU and main memory, providing faster access to frequently used data and instructions.
+
+

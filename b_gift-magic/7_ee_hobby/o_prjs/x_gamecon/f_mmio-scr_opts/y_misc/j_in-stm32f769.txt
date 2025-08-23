@@ -1,4 +1,0 @@
-"
-The STM32F769 microcontroller does not route pixel data from the framebuffer to the LCD panel using the I²C protocol. Instead, it typically utilizes specialized display interfaces such as the Parallel Interface, LTDC (LCD TFT Display Controller), or MIPI DSI (Mobile Industry Processor Interface Display Serial Interface) depending on the specific configuration and requirements of the LCD panel. These interfaces are designed to efficiently transfer pixel data to the display panel and support various display resolutions and refresh rates. While the STM32F769 may include I²C peripherals for other purposes, they are not typically used for routing pixel data to the LCD panel.
-"
-_

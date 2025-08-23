@@ -1,0 +1,10 @@
+
+Structure :
+- 1 transistor
+- collector and base are the same input 
+
+Behavior :
+- input is on => output is on
+- a transistor, though being a switch, would also stabilize the input signal to low or high  
+
+_

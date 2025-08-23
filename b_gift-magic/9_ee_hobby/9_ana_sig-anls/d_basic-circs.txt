@@ -1,0 +1,30 @@
+
+ . OR'd Q feedback 
+    . permanent write of 1 
+
+
+===================================================================================
+SR-LATCHES 
+===================================================================================
+
+Not all SR-latches are alike. 
+
+ . (NOR-based) SR-latch 
+    . setter 
+
+ . (NAND-based) SR-latch 
+    . inverter (but w/ input inverted - a setter) 
+
+
+===================================================================================
+NOR-LATCHING -BASED CIRCUITS 
+===================================================================================
+
+-> [tie S = R~] ->	. D-latch w/o ENable 
+    	      	  	   . setter	     -> [add enable] ->  }	
+					     		     	 } . D-latch w/ ENable
+      				   	    			 }    . locks the manually defined binary input   
+-> [add enable]  ->    . SR-latch w/ Enable  -> [tie S = R~] ->  } 
+    		  	   . locking setter 
+
+_

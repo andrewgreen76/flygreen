@@ -1,4 +1,0 @@
-
-Don't forget Tools -> Serial Monitor. 
-
-_

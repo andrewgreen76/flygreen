@@ -1,0 +1,15 @@
+
+===================================================================================
+WHAT IS ISP ? 
+===================================================================================
+"
+In embedded engineering, **ISP (In-System Programming)** refers to the ability to program a microcontroller or other programmable device directly on the circuit board, without needing to remove it, typically via interfaces like **SPI, JTAG, or UART**.
+"
+
+===================================================================================
+WHAT ARE MOSI vs. MISO ? 
+===================================================================================
+"
+... **MOSI (Master Out Slave In) and MISO (Master In Slave Out)** are **digital signals** used for data transfer in the **SPI (Serial Peripheral Interface) protocol**.
+"
+_

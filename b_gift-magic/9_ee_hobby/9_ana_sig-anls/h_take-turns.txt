@@ -1,0 +1,14 @@
+
+=================================================================================================
+PROBLEM 2 : ARCHITECTED HARDWARE BLOCKS TAKING TURNS IN COMBINATIONAL LOGIC ... AND THE SOLUTION 
+=================================================================================================
+
+Computer architectures rely on the concept and practice of resource sharing (e.g., bus communication) between
+  hardware components. This can only be achieved by enforcing taking turns : one component can write to the bus ,
+  another can read from the bus , and the rest of the hardware has their read_enable and write_enable shut off.
+
+Taking turns is regulated in discrete hardware states with (1) momentary-enable clock pulses and (2) control bits
+  stored in control registers. One hardware state can help define the next hardware state , determining how
+  resources like the system bus and CPU registers can be shared. 
+
+_

@@ -1,0 +1,9 @@
+
+===================================================================================
+BACKPLANE 
+===================================================================================
+
+"
+... a backplane is essentially a board with buses that facilitate communication between connected modules or cards, but it lacks the integrated components found on a motherboard.
+"
+_

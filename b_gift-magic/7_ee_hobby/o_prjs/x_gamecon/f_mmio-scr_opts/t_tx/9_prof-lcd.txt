@@ -1,7 +1,0 @@
-
- . digital
- . 8-bit 
- . parallel
- . synchronous 
-
-_

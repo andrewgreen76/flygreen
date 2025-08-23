@@ -1,9 +1,0 @@
-
-===================================================================================
-A PRETTY-MUCH-NEEDLESS HOT TIP : 
-===================================================================================
-
-It is always a good idea to prototype the console's circuit on a breadboard to ensure that everything
-  is going to work before you permanently slate it as a PCB.
-
-_

@@ -1,6 +1,0 @@
-"
-In breadboard prototyping, the commonly used LEDs are standard through-hole LEDs. These LEDs have two long leads (legs) and a flat edge indicating the cathode side (negative). They are designed to be easily inserted into the holes of a breadboard for prototyping electronic circuits.
-
-These LEDs typically have a 5mm or 3mm diameter and come in various colors. They are widely used for simple indicator purposes in prototype circuits on breadboards. Keep in mind that the specific characteristics and specifications of these LEDs (such as forward voltage, forward current, and brightness) can vary based on the type and manufacturer, so it's essential to check the datasheet if precise specifications are required for your project.
-"
-_

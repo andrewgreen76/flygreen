@@ -1,0 +1,44 @@
+
+- : system processing is involved just to project an image , code is handled first 
++ : loading data (and code) straight from the EEPROM upon startup 
+
+=========================================================================================================================================================
+
+"
+Yes, there are single-board computers (SBCs) or system-on-chip (SoC) boards that can boot directly from their onboard storage, such as an EEPROM (Electrically Erasable Programmable Read-Only Memory), without the need for a separate microSD card or external storage device. One example of such a board is the Raspberry Pi Compute Module.
+
+The Raspberry Pi Compute Module (CM) is designed for industrial and commercial applications where customization and integration into other hardware are common requirements. It features an onboard eMMC (Embedded MultiMediaCard) flash storage instead of relying on a microSD card for storage and booting.
+
+Here's how the Raspberry Pi Compute Module works:
+
+1. **Onboard eMMC**: The Compute Module contains onboard eMMC storage, which can store the operating system and other necessary files.
+
+2. **Boot Options**: The Compute Module can be configured to boot directly from the onboard eMMC storage, eliminating the need for a separate microSD card.
+
+3. **Customization**: Developers can customize the operating system and software to be flashed onto the eMMC storage according to their specific requirements.
+
+4. **Integration**: The Compute Module is designed to be integrated into custom hardware designs, allowing for a wide range of applications.
+
+5. **Programming**: The Compute Module can be programmed to automatically display whatever content is stored in its onboard storage upon booting.
+
+Other SBCs or SoC boards designed for industrial or embedded applications may also offer similar capabilities, allowing for booting directly from onboard storage like an EEPROM or eMMC. These boards are typically used in applications where reliability, customization, and integration are important considerations.
+"
+
+
+
+"
+To hook up an eDP (Embedded DisplayPort) screen at home, you would typically need some form of a graphics card or a board that supports eDP output. Here are a few suggestions:
+
+1. **Graphics Cards**:
+   - **NVIDIA GeForce GTX/RTX Series**: Many modern NVIDIA graphics cards support eDP output. Look for models with DisplayPort outputs, as eDP uses the same connector type.
+   - **AMD Radeon RX Series**: Similarly, many AMD graphics cards support eDP output. Again, look for models with DisplayPort outputs.
+   
+2. **Embedded Boards or Single Board Computers (SBCs)**:
+   - **Raspberry Pi**: Some models of Raspberry Pi, particularly the Compute Module series, support eDP output. You may need additional accessories or adapters.
+   - **NVIDIA Jetson Series**: Certain models of NVIDIA Jetson developer kits also support eDP output.
+   
+3. **Mini PCs or Industrial PCs**: Some mini PCs or industrial PCs come with eDP connectors, allowing you to connect eDP screens directly.
+   
+When selecting a graphics card or board, ensure that it has compatible output ports (such as DisplayPort) and that it supports the resolution and refresh rate of your eDP screen. Additionally, check compatibility with your operating system, as drivers may be necessary for proper functionality.
+"
+_

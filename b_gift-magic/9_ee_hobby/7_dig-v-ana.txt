@@ -1,0 +1,5 @@
+
+Digital circuit theory - concerned with digital logic given ideal conditions.
+Analog circuit theory - concerned with handling gnarly issues that prevent us from achieving these ideal conditions. 
+
+_

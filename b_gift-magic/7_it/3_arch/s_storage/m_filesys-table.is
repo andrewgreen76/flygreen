@@ -1,0 +1,12 @@
+
+What is a file system table?
+ChatGPT
+
+A file system table is a data structure used by a file system to keep track of the files and directories stored on a storage device.
+
+Different file systems have different types of file system tables, such as File Allocation Table (FAT) used by older versions of Windows and some removable storage devices, or the Master File Table (MFT) used by the NTFS file system used by modern versions of Windows.
+
+The file system table typically includes information about each file and directory, such as its name, location on the storage device, size, creation and modification dates, and permissions. When a file or directory is accessed, the operating system consults the file system table to locate the data on the storage device.
+
+The file system table is an essential component of a file system, as it enables the operating system to manage and organize files and directories on the storage device, and allows users to access and manipulate their files and data.
+

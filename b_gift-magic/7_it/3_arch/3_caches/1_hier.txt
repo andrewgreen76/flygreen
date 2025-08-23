@@ -1,0 +1,18 @@
+
+CPU			}
+----------+		}
+Registers |		} CPU (<>clock) 
+==========+======++	}  retains process state. 
+L1	}	 ||	} 
+L2	} caches ||	} The clock and the caches  
+L3	} 	 ||	}  define the performance of the CPU (core).
+=================++	}
+|
+RAM	main memory 
+|
+|
+|
+SSD	storage 
+HDD	
+
+_

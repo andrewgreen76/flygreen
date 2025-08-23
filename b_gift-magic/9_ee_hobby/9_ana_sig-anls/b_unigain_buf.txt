@@ -1,0 +1,4 @@
+"
+A unity gain buffer is an operational amplifier configuration that provides no amplification or attenuation (gain of 1), used to isolate different stages of a circuit while maintaining signal integrity.
+"
+_

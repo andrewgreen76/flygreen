@@ -1,0 +1,5 @@
+
+The Raspberry Pi is a series of single-board computers that are primarily designed to promote learning about computing and programming. While the Raspberry Pi Foundation, which develops and manufactures Raspberry Pi boards, promotes open-source software and encourages community involvement, the hardware design of Raspberry Pi boards is not fully open-source. The foundation has released the schematics and some technical documentation for the boards, allowing for community collaboration and modification, but some components and details of the board design are proprietary.
+
+It's worth noting that the Raspberry Pi runs on various open-source operating systems, such as Linux distributions, and supports a wide range of open-source software. The Raspberry Pi Foundation actively contributes to open-source projects and supports the open-source community.
+

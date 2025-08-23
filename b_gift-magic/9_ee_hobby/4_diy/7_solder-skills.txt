@@ -1,0 +1,63 @@
+
+===================================================================================
+CHEF'S TOOLS AND INGREDIENTS : 
+===================================================================================
+
+- natural givens : a soldering iron, a PCB, and some components  
+- a support base with a "holster" for the iron 
+- a wet sponge for wiping off used solder
+- a good flux
+- a bottle of alcohol (for rubbing off flux residue)
+- getting an exhaust extractor is a really good idea 
+
+
+===================================================================================
+SAFETY :
+===================================================================================
+
+- ONLY PLUG IN THE SOLDERING IRON the moment you are ready two solder a pad with a lead.
+- ALWAYS LEAVE IT IN THE SPRING HOLDER when not using it.
+- Wash your hands after you are done soldering. 
+
+
+===================================================================================
+PROPER SOLDERING PRACTICES :
+===================================================================================
+
+- (Assess the materials you'll be working with - with lead or lead-free, the type of alloy, rosin-core flux or not.) 
+- Clean the soldering tip and the surface of the board before soldering. 
+- "Turn on the soldering iron and set temperature above the melting point of your solder.
+  600°- 650°F (316°- 343°C) is a good place to start for lead-based solder and 650°- 700°F
+  (343°- 371°C) for lead-free solder."
+- Use flux regularly. It helps remove the films of oxide that form on the metal surfaces
+  that are being soldered. That way the solder will retain good wetting (ability to melt).
+- Connect the tip of the iron directly with the solder, the PCB pad or pinhole, and the lead of the component to avoid solder skips.
+  - A good idea is to lightly solder up the lead and the pad/pinhole before soldering them together.
+- Hold the fresh soldered connection still until it cools and turns solid. 
+- Apply alcohol wherever solder was applied after you are done to wipe off the flux. 
+
+
+===================================================================================
+TINNING :
+===================================================================================
+
+ . temporarily covering the tip with some solder
+ . the tip has nickel chrome plating
+
+An untinned tip :
+ . will be covered with a film of oxide , making hard to perform soldering
+ . will be vulnerable to cracks and holes 
+
+
+===================================================================================
+CASES OF POOR SOLDERING TO AVOID : 
+===================================================================================
+
+- dewetting :
+  - solder drying up too quickly after balling up. 
+- solder skip (cold solder) :
+  - no actual solder connection between the PCB pad and the lead.
+- solder bridge :
+  - two or more pads become connected with excess solder. 
+
+_

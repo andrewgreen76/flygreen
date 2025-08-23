@@ -1,8 +1,0 @@
-
- . "A latch is a level-sensitive memory element that changes its output based on the input levels as long
-    as the enable signal is active ... "
-
- . "... a flip-flop is an edge-triggered memory element that updates its output only on a specific clock edge,
-    providing more precise timing control in digital circuits." 
-
-_

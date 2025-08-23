@@ -1,0 +1,6 @@
+
+Board			CPU 
+
+Raspberry Pi 4 		Quad-core ARM Cortex-A72
+
+_

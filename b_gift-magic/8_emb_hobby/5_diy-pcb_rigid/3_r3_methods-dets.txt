@@ -1,0 +1,94 @@
+
+Do your research and make your selections to build a plan of attack. 
+
+
+===================================================================================
+ROUND 3 - MORE IN DETAIL : 
+===================================================================================
+
+Realizing the medium for casting copper protection in the pattern of your circuit - options :
+  (a) transfering toner onto thermally transferable paper
+  (b) transfering toner onto an overhead projection transparency sheet with a laser printer 
+
+
+Pressing protection for the circuit pattern onto copper - options :
+   |
+  (a) the copper layers are ALREADY coated with greenish-bluish positive photosensitive resist 
+  ->> in a room dimly lit with a red light
+  ->> only then can we expose the photosensitive copper
+   |
+  (b) FR4 copper layers that are not photosensitive 
+   |
+  ->> ALL of the toner is to touch a side of the board - without any gaps 
+
+
+Binding circuit-pattern toner mask to the copper - options :
+  --- pressure and heat
+  --- [less efficient] pressure and application of a chemical solution
+
+
+Softening the unmasked photoresist :
+  --- a.k.a. photolithography with positive photoresist 
+  (a) exposure to UV-light , with a minute-long wait 
+  (b) exposure to CFL bulb light , at 6"-8" away , with an eight-minute wait
+
+
+DEVELOPING - removing unmasked photoresist , exposing undesired copper - options :
+  --- use a Pyrex dish for making and storing the solution
+  --- keep agitating the dish with the board in it in all directions for 15-20 mins 
+  (a) negative-type developer solution ()
+       . 
+  (b) positive-type developer solution (1 resist : 10 water) with 1 min development time
+  ->> needs to be rinsed in cold water afterwards 
+
+
+ETCHING - removing now-exposed undesired copper - options :
+  --- keep the lab ventilated
+   |
+  (a) ferric chloride solution (1 concentrated ferric chloride : 1 ?vapor-distilled? water) 
+  (b) cupric chloride
+   |
+  (a) keep agitating the board in the solution in a Pyrex dish in all directions for about 15 mins 
+  (b) agitate the board for 1 min , let it sit awhile and come back periodically to agitate it a bit more
+   |
+  ->> needs to be rinsed in cold water afterwards 
+
+
+===================================================================================
+DRILLING - OPTIONS : 
+===================================================================================
+
+  --- must have eyewear and a dust mask
+  --- a vacuum hose for ridding of the excess board dust bits
+  (a) micro twist drill 
+  (b) dremel tool
+  (c) drill press (mini drill press stand) 
+
+"
+Stripping the resist before drilling holes is generally avoided because the resist protects the copper traces during drilling, preventing damage or unwanted etching, and ensures precise hole alignment, whereas stripping first could expose the copper to potential harm or misalignment during the drilling process.
+"
+
+===================================================================================
+MASK STRIPPING - OPTIONS : 
+===================================================================================
+
+   . removing the circuit mask to expose the copper for solderability
+   . a.k.a. RESIST STRIPPING
+   . may have to be manually rubbed off for best results 
+  (a) IPA - least abrasive 
+  (b) acetone - nail polish remover 
+  (c) a piece of emery 
+
+
+===================================================================================
+AFTERTHOUGHTS : 
+===================================================================================
+
+ . (electro-)plating the vias to connect the copper layers 
+ . applying a soldermask to give protection to some parts of the copper layer from accidents :
+   . no shorting , no accidental soldering , etc. 
+ . applying a surface finish - to keep exposed copper solderable 
+ . silkscreen - for component courtyards , annotations (reference designators) , essential text (project name ,
+     rev. number , etc.) , and artwork 
+
+_

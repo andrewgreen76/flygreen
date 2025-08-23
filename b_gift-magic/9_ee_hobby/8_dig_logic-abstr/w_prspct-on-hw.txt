@@ -1,0 +1,13 @@
+
+Everything is either built or programmed. 
+
+- Transistors are used to make gates.
+- Gates are used to make latches, flip-flops, and multiplexers.
+- And these are used to create half-adders, full adders, and ALUs.
+- Flip-flops and multiplexers are used to create registers.
+- And these are used to create memory components (e.g., RAM and ROM) and CPUs (and maybe even other complex units). 
+
+- The MOS 6502 CPU chip (in the Apple II) has over 4,500 transistors.
+
+- If you get the thought of doing it all yourself from scratch (i.e., using only NAND gates), get rid of it. 
+

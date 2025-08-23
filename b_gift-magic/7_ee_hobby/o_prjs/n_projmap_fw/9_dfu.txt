@@ -1,4 +1,0 @@
-"
-`dfu-util` is a command-line tool used for **Device Firmware Update (DFU)** operations, specifically for transferring firmware to devices that support the DFU protocol. It allows users to upload new firmware to microcontrollers or embedded devices via USB, typically in bootloader mode, without needing a separate programmer or debugger. It's commonly used with devices like Arduino boards or other USB devices that can be updated via DFU mode.
-"
-_

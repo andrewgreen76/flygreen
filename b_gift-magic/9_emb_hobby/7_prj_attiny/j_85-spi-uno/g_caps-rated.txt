@@ -1,4 +1,0 @@
-"
-A **25V-rated capacitor** is used instead of a **50V-rated capacitor** because it is typically **smaller, cheaper, and sufficient** for circuits operating below 25V, avoiding unnecessary cost and size.
-"
-_

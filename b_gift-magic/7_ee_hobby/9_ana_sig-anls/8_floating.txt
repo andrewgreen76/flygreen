@@ -1,4 +1,0 @@
-"
-A floating bit signal means having no defined input signal, often resulting in unpredictable behavior or potential interference, rather than a conflict of inputs.
-"
-_

@@ -1,6 +1,0 @@
-
-3906	- transistor (PNP)
-2222	- transistor (NPN) 
-555  	- timer 
-
-_

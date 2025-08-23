@@ -1,6 +1,0 @@
-"
-On the Arduino Uno R3 board, the most common form factor for SMD (Surface Mount Device) components, including resistors, capacitors, and integrated circuits, is 0603. This package size strikes a balance between small size and ease of manual assembly. It's worth noting that this information might be subject to change based on revisions or variations in Arduino Uno boards.
-
-For specific and accurate details, you can refer to the Arduino Uno R3 schematic or documentation available on the official Arduino website or related resources. The schematic will provide details about the sizes and types of SMD components used on the board.
-"
-_

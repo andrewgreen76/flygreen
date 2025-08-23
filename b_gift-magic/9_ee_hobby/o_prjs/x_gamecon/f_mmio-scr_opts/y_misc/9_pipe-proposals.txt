@@ -1,0 +1,15 @@
+========================================================================================
+PIPELINE PROPOSALS , ONGOING PROJECTS : 
+========================================================================================
+
+() laptop-like
+ . I2C
+ . [home-made fb/EEPROM] + [DDC] + [home-made screen]
+
+() [Arduino Uno R3] + [mono 16x2 LCD display]
+ . 
+
+() [Arduino Mega 2560] + [128x64 TFT LCD screen]
+ . 
+
+_

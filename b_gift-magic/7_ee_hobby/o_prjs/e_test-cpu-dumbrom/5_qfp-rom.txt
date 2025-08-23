@@ -1,6 +1,0 @@
-
-This ROM - stores one small simple thing to do.
- . 
- . paint across the LED matrix 
-
-_

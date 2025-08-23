@@ -1,0 +1,29 @@
+
+===================================================================================
+REMINDER : TYPICAL SKETCH BOOT-UP 
+===================================================================================
+
+ . Hook up the Arduino board to the PC - WITH A ***GOOD*** USB-B_TO_USB-? CABLE
+ -> open the IDE
+ -> File > Examples > 01.Basics > Blink
+ -> Tools > Board > Arduino Uno
+ -> Tools > (Serial) Port > [ COM? / /dev/ttyACM? / /dev/ttyUSB? (Arduino Uno) ]
+    . You can check for the correct serial port with : 
+      $ ls /dev/ttyACM* 
+      $ ls /dev/ttyUSB* 
+ -> Tools > Programmer > Arduino as ISP
+ -> Verify/Compile and Upload
+ |
+ |
+ |
+ (-> If it doesn't work , you may have to swap for a better USB cable.) 
+ (-> -OR- hold the RESET button on the board for a sec , release it , ***then*** click on "Upload" ,
+     and wait for the "Done uploading" message on the console.) 
+ (-> -OR- run
+      $ sudo apt install --reinstall avrdude )
+ (-> -OR- the bootloader in the upper 512B-1024B of the flash ROM on the board's MCU may be corrupted -
+     - probably because you weren't using anti-ESD gear - so you'll need a different board/MCU.) 
+ (-> -OR- hold the RESET button on the board , click on "Upload" , wait for the "Uploading ..."
+     message on the console , and then release the reset button.)
+
+_

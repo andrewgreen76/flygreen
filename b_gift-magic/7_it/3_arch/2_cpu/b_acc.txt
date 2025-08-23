@@ -1,0 +1,11 @@
+
+"
+The accumulator register is located inside the CPU (Central Processing Unit) and is a vital component of the CPU's architecture. It is one of the general-purpose registers directly accessible by the CPU for performing arithmetic and logical operations on data during the execution of instructions.
+
+The accumulator is a high-speed storage location within the CPU that temporarily holds intermediate results of computations. It plays a crucial role in the instruction execution cycle, where data is fetched from memory, processed in the CPU, and then stored back to memory or to other registers.
+
+Unlike the CPU registers, which are part of the CPU's hardware, RAM (Random Access Memory) is external to the CPU and serves as the main memory of the computer system. Data is fetched from the RAM into the CPU's registers, including the accumulator, when the CPU needs to operate on it. After the computations are performed, the results may be stored back in the RAM or in other registers as needed.
+
+In summary, the accumulator register is an internal component of the CPU and is used to hold data temporarily during computation, while RAM is the main memory of the computer system where data and program instructions are stored when they are not actively being processed by the CPU.
+"
+

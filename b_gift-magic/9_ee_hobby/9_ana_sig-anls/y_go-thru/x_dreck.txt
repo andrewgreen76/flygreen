@@ -1,0 +1,65 @@
+
+
+between clock pulses data signals should be given time to traverse combinational-logic gates , and components with a clock pin should
+function as stumbling block for data signals 
+
+
+
+    => We want a momentary-enable clock to break the combinational logic traffic (from power-on to end-of-operation)
+       into discrete states - to help us to at least monitor and understand what is going on with gate states at
+       every clock moment. 
+
+
+
+
+ 1) Assume : a persistent enable / extremely high clock frequency
+    Assume : a circuit with more than just a few gates 
+    Signals within hardware lines tend to be less and less in sync as the circuit grows bigger and bigger.
+    
+   . This is an example of a hardware-related side-effect. 
+   . Who is to say that this is the only hardware-related side-effect out there ?
+   => Purely combinational logic circuits larger than just a few gates are not reliable due to signal instability ,
+      delay , and maybe even other factors.
+
+ 2) Some signals are traveling throughout the computer's hardware at the same time instead of taking turns. 
+
+
+Solutions :
+  |
+ (b) We could just regulate all hardware lines with momentary enable pulses.
+    . Crank the clock rate close to persistent enable - you will run into instability.
+    . We also don't want our computer to be too slow.
+    . Do NOT assume that all signals have to travel throughout the computer ; hardware blocks have to take turns
+        in communicating with one another. 
+
+
+ . multiple different states within the same hardware block can get conflated within the same moment 
+ . in DRAM - periodic refreshing
+ . in synchronous SRAM 
+
+Imagine a machine (e.g., a dumb adder) running on purely combinational logic , no clocking. 
+
+We want to control every aspect data. 
+ . its state 
+ . its placement 
+ . its timing
+
+A clock gives hardware the ability to wait on our wishes. A clocked (waiting) mechanism
+
+The D signal line in a latch is for a data bit. Data isn't random ; data is whatever we want it to be. 
+ => We want to 
+
+ (1) DATA ISN'T GOING TO DRIVE ITSELF. We need a driving mechanism.
+ (2) We assume data to be organized. doesn't come from nowhere. 
+
+We want to enforce an organized , sequential flow of binary instructions and data from memory to memory. 
+ . feedbacking , logic stabilization , and forced delay in a circuit may not always give us that 
+ . (we don't want spontaneous analog signal oddities) 
+ => NEED A CLOCK - to separate one instruction or piece of data (state 1) from another (state 2)
+ . this way we can drive data AS DISCRETE , HARDWARE STATES "CHAINED" TOGETHER
+    . hardware states are stored in memory 
+    . each hardware block moves from state to state through time
+    . from memory to memory 
+    . in an organized way 
+
+_

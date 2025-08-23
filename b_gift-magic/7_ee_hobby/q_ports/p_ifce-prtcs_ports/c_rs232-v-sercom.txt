@@ -1,4 +1,0 @@
-"
-**RS-232** refers to a specific standard for serial communication, defining electrical signaling and connector pinouts, while **serial COM ports** (often referred to as "COM" in Windows) are the software interfaces on a computer that utilize serial communication, commonly adhering to the RS-232 standard but can also support other serial protocols.
-"
-_

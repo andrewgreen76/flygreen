@@ -1,1 +1,0 @@
-0000:00:02.0 VGA compatible controller: Intel Corporation Device 46a8 (rev 0c)

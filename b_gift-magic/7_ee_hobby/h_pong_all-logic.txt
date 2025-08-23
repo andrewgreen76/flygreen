@@ -1,4 +1,0 @@
-"
-There was no code in the original PONG. It also used no CPU or game code software at all. It was made using pure physical electronics.
-"
-_

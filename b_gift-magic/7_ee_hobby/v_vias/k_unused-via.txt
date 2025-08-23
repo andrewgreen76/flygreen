@@ -1,4 +1,0 @@
-"
-Having a via in a PCB, even if not immediately used, can provide design flexibility for future revisions or modifications and ensure compatibility with various circuit configurations or components.
-"
-_

@@ -1,0 +1,21 @@
+I want to write bytes of a colored frame - RGB-values at (x,y) positions - directly into memory and convert them into an image that a screen/monitor can display, so something generating a video signal has to come into play.
+
+
+ - The image can be something as simple as just a tiny pixel in a corner of the display (just to keep things simple). 
+ - The bytes can be stored on anything that's not PDIP-style - maybe a QFP-style chip, memory on an MCU/MPU/SoC board - doesn't matter.
+ - Ergo, the architecture width of the entire solution would likely be 32-bit. 
+ - The architecture involved cannot be AVR, therefore maybe ARM on an STM32 board or the like will do. So, no to Arduino. 
+ - Ideally, I would like for the driving processor/controller to be simple and not rely on an OS, if possible. 
+ - I want to stay away from VGA, preferring more recent technology, like HDMI. However, from my research I concluded that generating and transferring HDMI signal makes for a super-complicated pipeline (different signal types, components, protocols and all). Also, it is my understanding that anything involving HDMI has to be high-power and needs a GPU / video card, so I do welcome recommendations for parts. And if it is HDMI, I don't need sound. 
+ - Ideally, the screen/monitor has to be large. (Again, HDMI, high-power boards, and graphics cards come to mind.) Otherwise, I'll settle for something small, but the bigger, the better. 
+
+
+All in all, I guess what I need is a board with reprogrammable memory that is capable of delivering a video signal to a display with recent tech. 
+
+
+
+
+
+
+Though it does seem like the sort of thing one would have to study closely from the start, I would like to put together a solution first to be sure that it works. Reward first, then comes the research. 
+

@@ -1,0 +1,14 @@
+"
+Shortly after Carver Mead introduced the concept of Very Large Scale Integration (VLSI) in the late 1970s, technologies like photolithography with ultraviolet light, complementary metal-oxide-semiconductor (CMOS) processes, and computer-aided design (CAD) tools were explored and used to miniaturize circuits, enabling the creation of complex integrated chips with thousands to millions of transistors.
+"
+
+
+"
+While photolithography and early integrated circuit technologies emerged in the 1960s, Carver Mead's concept of Very Large Scale Integration (VLSI) was formalized in the late 1970s, leading to the widespread adoption of advanced CMOS processes, ultraviolet photolithography, and CAD tools for further circuit miniaturization in the 1980s and beyond.
+"
+
+
+"
+In electron-beam lithography, the electron beams can be focused to a spot size as small as a few nanometers, achieved through electromagnetic lenses that precisely control and focus the beam, not the beam itself being inherently nanometer-thin.
+"
+_

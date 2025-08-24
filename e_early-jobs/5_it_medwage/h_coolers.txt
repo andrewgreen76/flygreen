@@ -1,0 +1,4 @@
+"
+A stock CPU cooler is a pre-installed or included cooling solution provided by the CPU manufacturer, typically a basic air cooler with a heat sink and fan, designed to adequately dissipate heat for the processor under normal operating conditions.
+"
+_

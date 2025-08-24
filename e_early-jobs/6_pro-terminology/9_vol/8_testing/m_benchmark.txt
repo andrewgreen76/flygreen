@@ -1,4 +1,12 @@
 
+Benchmarking software :
+ . helps gauge the performance of a HW/SW system 
+ <= . runs tests
+    . reports results 
+
+
+===================================================================================
+
 1) A diagnostics program. 
 
 
@@ -32,4 +40,4 @@ Outside the context of stress testing:
 
 In both contexts, benchmarks provide a standardized and objective way to assess and compare the performance of various systems, components, or software, helping users make informed decisions and developers optimize their products for better efficiency.
 "
-
+_

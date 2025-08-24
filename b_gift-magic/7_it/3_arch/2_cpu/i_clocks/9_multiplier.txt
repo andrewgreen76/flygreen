@@ -1,0 +1,4 @@
+"
+... the CPU clock multiplier is ... a configurable value or setting within the CPU's architecture that determines its clock speed by multiplying the base clock ... .
+"
+_

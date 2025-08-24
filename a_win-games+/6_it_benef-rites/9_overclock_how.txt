@@ -1,0 +1,20 @@
+"
+Follow the manufacturer’s instructions for overclocking the CPU: Using the detailed instructions from the manufacturer (see below for links to Intel and AMD’s guides): 
+
+    Use benchmarking software to establish a baseline for the normal performance of the computer.
+
+    Set each CPU core multiplier to the value of the lowest multiplier using either the manufacturer’s overclocking software (recommended) or the BIOS. Then reboot the computer. 
+
+    Increase each CPU core multiplier by 1 to increase the CPU frequency. 
+
+    Test each increase for stability using the testing utility provided by the manufacturer. 
+
+        Fix any problems flagged by the testing tools, especially temperature alerts. If the system becomes too unstable, roll back to the last frequency that produced a stable performance and stop overclocking the CPU.
+
+        If the voltage appears to become insufficient to support the new frequency, increase the voltage by 0.05V. Do not increase the voltage above 1.4V without specialized cooling hardware.
+
+        If the computer freezes or crashes, it has either become completely unstable or the CPU is not getting enough voltage to support the overclocked frequency. Use the BIOS to return to the last stable frequency or increase the voltage in 0.01V increments until stable.
+
+    If stable, reboot the computer before attempting the next increase. 
+"
+_

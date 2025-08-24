@@ -1,0 +1,9 @@
+
+CPU sockets :
+ . Land Grid Array (LGA)
+    . pins stick OUT OF THE MOTHERBOARD
+    . sizes vary 
+ . Pin Grid Array (PGA)
+    . pins sticks OUT OF THE CPU 
+
+_

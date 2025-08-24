@@ -1,0 +1,5 @@
+
+SRAM - used for the cache and internal registers of a CPU
+DRAM - used for a computer's main memory. 
+"
+_

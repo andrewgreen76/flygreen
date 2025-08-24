@@ -1,0 +1,4 @@
+"
+The VIA connects PCB layers through its plated copper barrel, and TENTING only covers the exposed ends with solder mask without blocking the internal conductive path.
+"
+_

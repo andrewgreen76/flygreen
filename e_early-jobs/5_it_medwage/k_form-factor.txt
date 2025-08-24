@@ -1,0 +1,17 @@
+
+A STANDARD FOR SIZE (RANGE) with considerations for : 
+ . "... the amount we can put in ..."
+ . "... the amount of space we'll have ..."
+ . shape
+ . "a broad class of SIMILARLY SIZED COMPONENTS" 
+
+
+ATX (Advanced-Technology -Extended) :
+ | . most common standard 
+ | . comes in different sizes 
+ | . in desktops - fully-sized ATX's
+ |
+ITX (Information-Technology -Extended) :
+ | 
+
+_

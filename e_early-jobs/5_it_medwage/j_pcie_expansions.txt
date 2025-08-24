@@ -1,0 +1,6 @@
+
+PCIe (Peripheral Component Interconnect Express) :
+ . a type of bus that allows for communication with I/O (expansion) 
+ . the modern standard for an expansion bus 
+
+_

@@ -1,0 +1,45 @@
+
+===================================================================================
+LAYERS IN THE BINARY COMPUTING STACK :
+===================================================================================
+
+ . hardware
+ . microarchitecture
+ . instruction set architecture (ISA)
+ . operating system
+ . runtime environment
+ . libraries
+ . application software."
+
+
+===================================================================================
+ABSTRACTIONS IN THE BINARY COMPUTING STACK : 
+===================================================================================
+
+Abstractions make up the layers in the binary computing stack. 
+
+"
+varepsilon
+@var_epsilon
+·
+Jun 25, 2023
+my roadmap to learning computers
+- electrons
+- electronic circuits
+- transistors
+- logic gates
+- latches
+- digital circuits
+- comp arch (CPU, memory)
+- machine language
+- assembly
+- C/C++
+- DS, algos
+- OOP
+- OS
+- python
+- web dev
+- data science (numpy, pandas)
+- ML (torch, CUDA)
+"
+_

@@ -1,0 +1,11 @@
+
+The following is rather subjective as it depends on the complexity of the tasks. 
+
+--- MOST RESOURCE-INTENSIVE ---
+ . video processing
+ . web browsing 
+ . sound processing
+ . text editing
+--- LEAST RESOURCE-INTENSIVE ---
+
+_

@@ -1,4 +1,0 @@
-"
-Binary measurements of computer data are more accurate than decimal system measurements. While decimal NOMENCLATURE is commonly used TO MARKET COMPUTERS AND COMPUTER PARTS TO THE GENERAL PUBLIC, binary nomenclature is often used in computer engineering for numerical accuracy. 
-"
-_

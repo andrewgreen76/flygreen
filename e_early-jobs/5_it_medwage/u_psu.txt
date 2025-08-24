@@ -1,0 +1,6 @@
+
+A power supply :
+ . converts AC to DC
+ . reduces the voltage fed to the hardware 
+
+_

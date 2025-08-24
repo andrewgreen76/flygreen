@@ -18,6 +18,7 @@ SATA (serial ATA) :
 
 NVMe (Non-Volatile Memory express) :
  . the technology standard for SSD interfacing - THROUGH AN EXPANSION SLOT
+    + greater bandwidth , greater efficiency in general (speed , energy consumption , etc.) 
  ... where as HDD's interface via a SATA cable
  . PCIe is the technology for inclusion of any I/O device through an expansion slot ,
      but NVMe is specifically for SSD's. 

@@ -3,8 +3,12 @@ The northbridge interconnects :
  . CPU interface 
  . the RAM controller
  . the PCI Express controller / bus 
- . video card controller 
+ . video card controller
+ . the southbridge counterpart 
  . "The northbridge is typically one physical chip, though in some architectures its functions have been
     split or integrated into the CPU."
+
+"In some modern CPUs the Northbridge has been directly integrated into the CPU , so there isn't
+ a separate Northbridge chipset."
     
 _

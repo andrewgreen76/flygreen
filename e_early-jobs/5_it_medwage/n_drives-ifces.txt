@@ -1,0 +1,25 @@
+
+===================================================================================
+STORAGE MEDIA INTERFACES (connections) : 
+===================================================================================
+
+AT - Advanced Technology
+ATA - AT attachment
+
+PATA (parallel ATA) : 
+ . uses multiple connections in a cable for read/write operations 
+
+SATA (serial ATA) :
+ . uses one connection in a cable for read/write operations , serially transferring 1's and 0's 
+ . SATA drives are HOT-SWAPPABLE - You do NOT have to turn off your machine to plug in a SATA drive.
+ + actually transfer data faster than PATA drives
+ <= "higher bandwidth and improved signaling"
+ . used only for HDD interfacing ; cannot keep up with SSD's 
+
+NVMe (Non-Volatile Memory express) :
+ . the technology standard for SSD interfacing - THROUGH AN EXPANSION SLOT
+ ... where as HDD's interface via a SATA cable
+ . PCIe is the technology for inclusion of any I/O device through an expansion slot ,
+     but NVMe is specifically for SSD's. 
+
+_

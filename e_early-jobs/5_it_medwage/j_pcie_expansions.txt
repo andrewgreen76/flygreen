@@ -1,6 +1,9 @@
 
-PCIe (Peripheral Component Interconnect Express) :
- . a type of bus that allows for communication with I/O (expansion) 
- . the modern standard for an expansion bus 
+PCI (Peripheral Component Interconnect) :
+ . a type of bus that allows for I/O COMMUNICATION (GRAPHICS , SOUND , NETWORKING) THROUGH EXPANSION SLOTS 
+
+PCIe (Peripheral Component Interconnect express) :
+ . THE MODERN STANDARD for an expansion bus
+ . PHYSICAL FORM - A SLOT ON THE MOTHERBOARD for a base expansion card 
 
 _

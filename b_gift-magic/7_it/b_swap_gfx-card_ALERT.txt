@@ -1,0 +1,9 @@
+     
+ ! You must POWER DOWN AND UNPLUG the computer before doing any swapping or repair.
+
+ ! You must take some measures to AVOID A SUDDEN ESD SURGE to the hardware , like simply pressing the palm
+     of your hand against the computer's case.
+ 
+ . Blow all dust out of the case at every opportunity. 
+
+_

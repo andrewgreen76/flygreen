@@ -1,5 +1,6 @@
 
- . manages I/O (controllers) 
+ . manages I/O (controllers)
+ . mediates with the northbridge 
 
 
 "

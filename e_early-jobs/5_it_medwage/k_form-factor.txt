@@ -12,6 +12,7 @@ ATX (Advanced-Technology -Extended) :
  | . in desktops - fully-sized ATX's
  |
 ITX (Information-Technology -Extended) :
- | 
+ |
+ . miniITX , nanoITX , picoITX 
 
 _

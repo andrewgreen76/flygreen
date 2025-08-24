@@ -1,6 +1,6 @@
 
 Chipset =
  . the northbridge chip
- + the southbridge chip 
+ + the southbridge chip
 
 _

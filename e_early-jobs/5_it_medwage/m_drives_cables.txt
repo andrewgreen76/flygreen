@@ -1,0 +1,22 @@
+
+===================================================================================
+STORAGE MEDIA : 
+===================================================================================
+
+SSD (solid-state drive) :
+ . stores files and folders (in accord with its own filesystem)
+ |
+ . relies on chips for storage
+ => + faster
+    - more expensive
+
+HDD (hard drisk drive) :
+ . stores files and folders (in accord with its own filesystem)
+ |
+ . relies on moving parts - magnetic platters and disk arms - for storing things
+ => - slower
+    + cheaper 
+
+There are also SSD-HDD hybrids - for balance. 
+
+_

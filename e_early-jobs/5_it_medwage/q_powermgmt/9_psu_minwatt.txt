@@ -1,0 +1,25 @@
+
+===================================================================================
+THE NECESSITY FOR THE MINIMUM WATTAGE  
+===================================================================================
+
+ . Wattage (P) = V * I
+ . Make sure your PSU can deliver enough power (vs. voltage) to the machine.
+
+
+===================================================================================
+HOW TO SELECT THE RIGHT PSU FOR THE TARGET COMPUTER 
+===================================================================================
+
+Consider :
+ 1. (a) the local input voltage standard for the common wall sockets in your country and
+    (b) the voltage the computer is supposed to receive 
+ 2. the minimum wattage required will depend on :
+    . THE FORM FACTOR OF THE MOTHERBOARD
+    . THE NUMBER OF COMPONENTS ON THE MOTHERBOARD
+    . the number of other internal components
+    . the number of peripherals 
+    . "THE MOTHERBOARD AND FORM FACTOR SPECIFICATIONS DOCUMENT will provide a list of compatible power
+       supply types to help you select the correct part."
+
+_

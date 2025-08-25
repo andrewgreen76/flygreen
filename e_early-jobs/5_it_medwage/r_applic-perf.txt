@@ -5,7 +5,7 @@ The following is rather subjective as it depends on the complexity of the tasks.
  . video processing
  . web browsing 
  . sound processing
- . text editing
+ . word processing 
 --- LEAST RESOURCE-INTENSIVE ---
 
 _

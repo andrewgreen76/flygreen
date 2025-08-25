@@ -1,0 +1,25 @@
+
+===================================================================================
+POWER SUPPLY 
+===================================================================================
+
+ . converts AC to DC
+ . reduces the voltage fed to the hardware 
+ . "... MAJOR HARDWARE COMPONENTS of a computer’s architecture, including the motherboard, chipsets,
+    CPUs, RAM, storage, peripherals, expansion slots and cards, etc. ... INFLUENCE THE SIZE AND TYPE
+    OF POWER SUPPLY A COMPUTER NEEDS."
+
+
+===================================================================================
+ENSURING THE ELECTRICAL SAFETY OF THE TARGET MACHINE 
+===================================================================================
+
+Most of the western hemisphere "use the 110-127 VAC standard for common wall sockets".
+Most of the eastern hemisphere "use the 220-240 VAC standard for common wall sockets".
+
+If your target machine accepts VAC that is different to the local input voltage used in the common wall sockets :
+ . replace the PSU for the appropriate VAC fixed in the replacement 
+ . choose a replacement that features a dual-voltage switch
+ . get an external power converter 
+
+_

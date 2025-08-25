@@ -1,0 +1,18 @@
+
+===================================================================================
+DEALING WITH COMPONENTS RUNNING ON DIFFERENT VOLTAGE LEVELS 
+===================================================================================
+
+Different components in a computer will need to be fed different voltage levels , yet the PSU delivers
+  only one. This is where VOLTAGE REGULATORS come in.
+
+A VOLTAGE REGULATOR will simply convert the electrical power supplied from one voltage level to another
+  to provide just the right voltage to a certain component or group of components. Neither will the components
+  be underpowered , nor will they be fried.
+
+The voltage levels different components should accept are as follows : 
+ . 3.3V - DIMMs, chipsets, and some PCI/AGP cards
+ . 5V   - SIMMS, disk drive logic, ISA, and some voltage regulators
+ . 12V  - Motors and voltage regulators with high outputs
+
+_

@@ -1,0 +1,14 @@
+
+===================================================================================
+BIOS
+===================================================================================
+
+Basic Input/Output Services :
+ . has computer BOOTUP ROUTINES (INITIALIZING THE HARDWARE) , including power management
+ . works with DEVICES DRIVERS - software that allows the computer to understand signals received from peripherals
+ . once an operating system is booted into , its kernel will take over for the BIOS in the way of CPU usage
+ . there are native device drivers - stored on the ROM of the computer
+    . In modern systems , the BIOS will have the bootloader (the software beneath it) handle the retrieval of
+      device drivers from a storage device. (The storage is where the OS and the device driver files are located.) 
+
+_

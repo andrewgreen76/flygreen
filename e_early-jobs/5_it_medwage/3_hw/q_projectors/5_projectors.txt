@@ -3,6 +3,17 @@
 PROJECTORS 
 ===================================================================================
 
- . might be able to extend or mirror a computer's interface (like a second monitor would) 
+ . might be able to extend or mirror a computer's interface (like a second monitor would)
+ . expensive , hot , very bright
+
+Tips : 
+ . If the projection display flickers or disappears , check the condition of the cable. 
+ . Having a projector default to 640x480 or 1024x768 (VGA mode) is fine , but if you don't like that ,
+     you will have to figure out how to install the right display driver for the projector. 
+
+Incandescent bulb (lamp) lighting - engineering issues :
+ . the projector gets too hot for the lamp => the projector will shut down
+ . the lamp burns out => (a) the projector will get killed or (b) the projector will shut itself down
+ . This is why it is becoming more common for projectors to rely on LED lights. 
 
 _

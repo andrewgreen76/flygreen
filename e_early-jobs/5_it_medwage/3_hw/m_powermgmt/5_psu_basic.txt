@@ -1,6 +1,6 @@
 
 ===================================================================================
-POWER SUPPLY 
+POWER SUPPLY IS 
 ===================================================================================
 
  . converts AC to DC
@@ -21,5 +21,13 @@ If your target machine accepts VAC that is different to the local input voltage 
  . replace the PSU for the appropriate VAC fixed in the replacement 
  . choose a replacement that features a dual-voltage switch
  . get an external power converter 
+
+
+===================================================================================
+PULLING MORE VOLTAGE THAN IS PROVIDED 
+===================================================================================
+
+ . the device will deteriorate over time 
+ . no instant harm
 
 _

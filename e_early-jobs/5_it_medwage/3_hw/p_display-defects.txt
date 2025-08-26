@@ -1,0 +1,16 @@
+
+===================================================================================
+DISPLAY DEFECTS 
+===================================================================================
+
+Dead pixels 
+ . remain permanently unlit or stuck in one state due to defects in the screen’s hardware
+
+Stuck pixels
+ . remain fixed on one color because one or more of their subpixels fail to change state
+
+Image burn-in
+ . a permanent discoloration or ghosting on a display caused by static images being shown for extended periods
+ . most commonly affects **OLED and plasma displays**, though older CRTs can also experience it
+
+_

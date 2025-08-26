@@ -1,0 +1,20 @@
+
+===================================================================================
+TERMINAL STRIP 
+===================================================================================
+
+ . "... an electrical connection device that allows multiple wires to be securely connected and organized
+    by inserting them into insulated slots with screws or spring-loaded clamps, commonly used in control
+    panels and wiring projects."
+
+
+===================================================================================
+PUNCH DOWN BLOCK 
+===================================================================================
+
+ . "... a terminal strip used to connect telephone or data lines" 
+ . for connecting wiring 
+ . for changing out wires 
+ . for making a new connection for a telephone system or Local Area Network (LAN) 
+
+_

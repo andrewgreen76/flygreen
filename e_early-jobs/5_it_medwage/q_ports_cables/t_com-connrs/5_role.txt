@@ -1,0 +1,6 @@
+
+Role :
+ . they share info between devices
+ . they connect devices to the Internet 
+
+_

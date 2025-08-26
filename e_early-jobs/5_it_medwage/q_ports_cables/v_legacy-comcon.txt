@@ -1,0 +1,12 @@
+
+===================================================================================
+LEGACY COMMUNICATION CONNECTORS 
+===================================================================================
+
+DB89 :
+ . older peripherals like keyboards, mice, and joysticks
+ 
+Molex :
+ . provide power to drives or devices inside the computer (e.g. , a video card) 
+
+_

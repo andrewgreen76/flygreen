@@ -1,0 +1,21 @@
+
+Plain Old Telephone Service (POTS) : 
+ . role and action : TRANSMIT VOICE through A PAIR OF TWISTED COPPER WIRES
+ . used by : landline telephones, dial-up internet, and alarm systems
+ . connector : RJ-11 (Register Jack 11) 
+
+Digital Subscriber Line (DSL) :
+ . role and action : provides access to high-speed networks or the internet
+ . used by : a computer for connecting to network elements through telephone lines and a modem 
+ . connector : the RJ-45 ethernet cable 
+
+Cable Internet :
+ . role and action : uses a cable TV infrastructure and a modem to provide high-speed internet access to users
+ . connector : an F-type connector is commonly used with cable modems 
+
+Fiber-optic cables :
+ . role and action :  send data long-distance and allow for higher-bandwidth communication 
+ . the major internet providers use fiber-optic cables for high-speed internet service 
+ . connector : strands of glass fibers inside an insulated casing
+
+_

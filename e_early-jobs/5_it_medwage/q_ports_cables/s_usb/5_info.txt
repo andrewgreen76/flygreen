@@ -1,0 +1,35 @@
+
+===================================================================================
+USB-A 
+===================================================================================
+
+1 Byte = 8 bits , so "to transfer a 1MB file in a second , you need an 8Mb/s connection speed". 
+ . USB 2.0 (black ports) - transfer speed of 480 Mbps (Mb/s)
+ . USB 3.0 (blue ports) - transfer speed of 5 Gbps (Gb/s)
+ . USB 3.1 (teal ports) - transfer speed of 10 Gbps 
+
+Newer generations are backward-compatible , guaranteeing the lesser of the two speeds between the two generations. 
+
+
+===================================================================================
+MICRO-USB , USB-C , USB4 , AND LIGHTNING
+===================================================================================
+
+These cables :
+ . deliver more power than USB-A/B
+ . deliver data faster than USB-A/B 
+ . are meant for mobile devices
+ |
+ . USB-C :
+    . both ends have the same build => the cable is reversible
+    . ports transfer data at 20 Gbps
+ . USB4 :
+    . uses USB-C cables to deliver data at 40 Gbps
+    => USB-C cables are capable of feeding 40 Gbps 
+    . uses the Thunderbolt 3 protocol
+ . Lightning
+    . exclusive to Apple
+    . used for charging and connecting peripherals 
+ . Micro-USB - on non-Apple products
+
+_

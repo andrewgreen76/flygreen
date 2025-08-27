@@ -4,11 +4,35 @@ BIOS
 ===================================================================================
 
 Basic Input/Output Services :
- . has computer BOOTUP ROUTINES (INITIALIZING THE HARDWARE) , including power management
- . works with DEVICES DRIVERS - software that allows the computer to understand signals received from peripherals
+ . has computer BOOTUP ROUTINES (INITIALIZING THE HARDWARE) , including power management tests 
+ . works with DEVICES DRIVERS
+    . services as extensions of BIOS 
+    . software that allows the computer to understand signals received from peripherals
  . once an operating system is booted into , its kernel will take over for the BIOS in the way of CPU usage
  . there are native device drivers - stored on the ROM of the computer
     . In modern systems , the BIOS will have the bootloader (the software beneath it) handle the retrieval of
       device drivers from a storage device. (The storage is where the OS and the device driver files are located.) 
+
+
+===================================================================================
+POST 
+===================================================================================
+
+ . the first routine BIOS runs
+ . identifies the hardware in the computer 
+ . checks whether adequate voltage is supplied to the hardware
+ . will produce sound - beeps - to help identify the type of issue if one does occur
+    . legacy computers will produce a single beep upon a successful boot ; two beeps for a booting failure
+    . The beep codes will depend on the manufacturer. See the motherboard manual.
+ . initializes the hardware - feeds off of the basic settings data on the CMOS chip to prepare the CPU , RAM ,
+     and storage for work with an operating system (OS)
+     . CMOS chip : hosts essential booting data - BIOS settings (date , time , booting methods , etc.)
+     . you can boot into the BIOS/CMOS settings menu with the just right key 
+ . loads in essential drivers - e.g., for operability with the keyboard , mouse , graphics card , monitor , etc. 
+
+
+Disk image :
+  . a copy of something
+  . in the context of IT , an OS (kernel code + modules + drivers) 
 
 _

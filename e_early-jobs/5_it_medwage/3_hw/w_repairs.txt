@@ -1,0 +1,22 @@
+
+===================================================================================
+PROFESSIONAL REPAIRS 
+===================================================================================
+
+If you are qualified and able to repair a specific part of the device without voiding the warranty :
+ . use ESD PPE
+ . follow 5S principles
+ . take pictures for reassembly prior to disassembly
+ . follow vendor documentation
+
+If you are NOT qualified / able to do the repair :
+ . your repair attempt may void the warranty
+ . Have the manufacturer / vendor handle repairs / replacement.
+
+RMA process :
+ 1. Go over your company's policy and the device's warranty / service agreement to determine the timeliness
+      of the handling.
+ 2. Perform a factor reset - removal of all personal / proprietary files.
+ 3. Initiate a work order. 
+
+_

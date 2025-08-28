@@ -1,0 +1,14 @@
+
+===================================================================================
+REIMAGING A COMPUTER 
+===================================================================================
+
+Disk image :
+  . a copy of something
+  . in the context of IT , an OS (kernel code + modules + drivers) 
+
+Reimaging :
+ . wiping and reinstalling an OS
+ . can be done with a CD-ROM , a stick , or even a server via a network 
+
+_

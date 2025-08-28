@@ -1,0 +1,56 @@
+
+===================================================================================
+GROUNDING YOURSELF 
+===================================================================================
+
+a) use ESD PPE (electro-static dischard personal protective equipment)
+  . an anti-static wristband 
+  . a smock
+  . footstraps
+  . cotton inspection gloves
+b) touch the case of an electrical device that is plugged in but not powered on 
+
+
+===================================================================================
+STANDOFFS 
+===================================================================================
+
+ . together a set of standoffs keep it the motherboard elevated from the PC chassis' metal surface
+ . this prevents (1) short-circuiting and (2) reduction to airflow/cooling
+ . can be mounted onto the motherboard or into the chassis 
+
+
+===================================================================================
+ASSEMBLY  
+===================================================================================
+
+1. motherboard - into the chassis 
+2. CPU - into the socket on the motherboard
+3. thermal paste for the heatsink - spread evenly across the top of the mounted CPU
+4. the chunky heatsink block - with the heatsink onto the CPU with the thermal paste , with screws for guiding
+    . the screws are to be secured with the opposite sides first :
+
+    1     4
+      . .  
+      . . 
+    3 . . 2
+
+5. heatsink Molex to be connected to the motherboard
+    . the power pulled via the motherboard governs the speed of the fan
+6. RAM sticks
+    . first four - to be inserted into the white slots first by default - two on one side of the PSU/CPU ,
+      two on the other 
+7. SSD - into the NVMe expansion slot 
+8. case fan - connect the molex to the "rear fans" on the motherboard (if the label is present)
+9. PSU - mount it , connect to the motherboard with a Molex cable , and secure it with screws 
+10. HDD - -//- 
+11. Other peripherals - -//-
+12. Graphics card - into a PCIe slot
+
+13. Remove the wristband alligator clip.
+14. Close the case.
+15. The keyboard and the mouse can be connected to USB 2.0 ports.
+16. Plug in the power cable.
+17. Connect the monitor. 
+
+_

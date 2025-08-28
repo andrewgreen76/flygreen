@@ -24,15 +24,11 @@ POST
  . will produce sound - beeps - to help identify the type of issue if one does occur
     . legacy computers will produce a single beep upon a successful boot ; two beeps for a booting failure
     . The beep codes will depend on the manufacturer. See the motherboard manual.
+    . Some machines do not have built-in speakers. 
  . initializes the hardware - feeds off of the basic settings data on the CMOS chip to prepare the CPU , RAM ,
      and storage for work with an operating system (OS)
      . CMOS chip : hosts essential booting data - BIOS settings (date , time , booting methods , etc.)
      . you can boot into the BIOS/CMOS settings menu with the just right key 
  . loads in essential drivers - e.g., for operability with the keyboard , mouse , graphics card , monitor , etc. 
-
-
-Disk image :
-  . a copy of something
-  . in the context of IT , an OS (kernel code + modules + drivers) 
 
 _

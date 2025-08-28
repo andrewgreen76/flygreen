@@ -1,0 +1,13 @@
+
+===================================================================================
+COMMUNICATION CONNECTORS 
+===================================================================================
+
+DB89 :
+ . a legacy connector 
+ . for older peripherals like keyboards, mice, and joysticks
+ 
+Molex :
+ . PROVIDES POWER TO DEVICES INSIDE THE COMPUTER (e.g. PSU-to-motherboard , storage drive , a video card) 
+
+_

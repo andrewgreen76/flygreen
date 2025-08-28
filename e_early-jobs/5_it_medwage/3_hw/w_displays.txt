@@ -1,0 +1,43 @@
+
+===================================================================================
+LCD DISPLAYS IN GENERAL 
+===================================================================================
+
+ . An LCD display has part-liquid , part-solid LC - liquid crystal (molecules).
+
+
+TN (twisted nematic) displays :
+ . earliest LCD technology
+ . initially , LC molecules are aligned horizontally on a medium in the first polarizer layer , letting all
+     "parallel" waves from the backlight pass
+ . there is a layer of specifically shaped electrodes , each one with the shape of its assigned segment 
+ . once voltage , if dictated by display logic , is applied to a segment/electrode in the second polarizer
+     layer , the crystal molecules in that layer will be aligned vertically and block the incoming light waves 
+ + cheap , easy to manufacture , fast refresh rates , better response times (avoiding motion blur) , easy to
+     make for any size / shape
+ - narrow viewing angles , color distortion (violating our intentions/desires given our knowledge of the color
+     theory) , poor contrast (pixels losing hue at a really wide viewing angle) 
+
+
+IPS (in-plane switching) displays :
+ . LC are situated horizontally to the screen
+ + great color fidelity to what the engineers were aiming for
+ + wider viewing angles
+ - expensive
+ - low refresh rates
+ - slow response times
+    . "For IPS displays, slow response times mean pixels take longer to change colors, which can cause motion
+       blur or ghosting in fast-moving images." 
+
+
+===================================================================================
+POSITIVE VS. NEGATIVE MONOCHROME LCD DISPLAYS 
+===================================================================================
+
+Positive displays :
+ . the backlight waves make it through the negative space surrounding the masking segments
+
+Negative displays :
+ . the backlight waves make it through the segments situated within the masking negative space 
+
+_

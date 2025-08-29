@@ -1,5 +1,6 @@
 
 SRAM - cache , internal registers in a CPU
-DRAM - computer's main memory (external to the CPU) 
+DRAM - computer's main memory (external to the CPU)
+SDRAM - Synchronus DRAM - synchronized to our system's clock speed => quicker processing of data 
 
 _

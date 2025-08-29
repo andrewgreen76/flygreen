@@ -1,0 +1,31 @@
+
+===================================================================================
+OLED
+===================================================================================
+
+ . Organic Light-Emitting Diode display
+ . uses organic (carbon-based) material
+ . they are active (emissive) displays - i.e. , they convert electricity into light , eliminating
+     the need for a backlight
+ . feature the cathode-to-anode emissive layer
+ . used in "in foldable smartphones and rollable TVs"
+ + good res , wide viewing angles => great contrast , fast response rate
+ + energy-efficient , easy to manufacture , thinner than LCDs
+ + can be built to be rollable
+ - sensitive to light and moisture , blue LEDs degrade quicker , inclined to have image burn-in 
+
+
+===================================================================================
+AMOLED
+===================================================================================
+
+ . Active Matrix Organic Light Emitting Diode (AMOLED)
+ . Super AMOLED
+ . used in smartphones
+ . an active-matrix display has a film with a configuration of active capacitors of TFT (thin film transistors)
+ . every pixel has its own state changed at an instant => fast response times
+ . touchscreen functionality
+ . used in high-end displays
+ - hard and expensive to make 
+
+_

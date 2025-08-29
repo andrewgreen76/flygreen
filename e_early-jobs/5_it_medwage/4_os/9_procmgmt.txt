@@ -1,0 +1,11 @@
+
+===================================================================================
+PROCESS MANAGEMENT - ADDITIONAL NOTES 
+===================================================================================
+
+Program vs. process : 
+ . a program is stored as a file or a group of files working together as source code
+ . only once it is executed does it become a process - an instance of the program being run in RAM 
+ . it is important to note that you can have multiple processes of the same program 
+
+_

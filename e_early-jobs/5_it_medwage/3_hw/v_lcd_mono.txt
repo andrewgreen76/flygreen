@@ -1,0 +1,12 @@
+
+===================================================================================
+POSITIVE VS. NEGATIVE MONOCHROME LCD DISPLAYS 
+===================================================================================
+
+Positive displays :
+ . the backlight waves make it through the negative space surrounding the masking segments
+
+Negative displays :
+ . the backlight waves make it through the segments situated within the masking negative space 
+
+_

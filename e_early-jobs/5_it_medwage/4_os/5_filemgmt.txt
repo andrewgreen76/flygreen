@@ -1,0 +1,17 @@
+
+===================================================================================
+FILE MANAGEMENT 
+===================================================================================
+
+File management can only be realized with three key aspects : 
+ . the file system
+ . data
+ . metadata
+    . file owner
+    . rwx permissions
+    . file size
+    . date created
+    . date modified
+    . file type 
+
+_

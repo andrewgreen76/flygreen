@@ -1,0 +1,10 @@
+
+===================================================================================
+STORAGE DRIVE - CAVEAT 
+===================================================================================
+
+Very frequently we will hear the word "disk" in place of "storage drive". Personally , I do not recommend using
+  "hard drive" in its place as , technically speaking , SSD's are not HDD's , and using the term "hard drive"
+  may create some confusion for students. 
+
+_

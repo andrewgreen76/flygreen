@@ -4,6 +4,7 @@ LCD DISPLAYS IN GENERAL
 ===================================================================================
 
  . An LCD display has part-liquid , part-solid LC - liquid crystal (molecules).
+ . passive (non-emissive) displays - i.e. , require backlighting 
 
 
 TN (twisted nematic) displays :
@@ -12,9 +13,10 @@ TN (twisted nematic) displays :
      "parallel" waves from the backlight pass
  . there is a layer of specifically shaped electrodes , each one with the shape of its assigned segment 
  . once voltage , if dictated by display logic , is applied to a segment/electrode in the second polarizer
-     layer , the crystal molecules in that layer will be aligned vertically and block the incoming light waves 
- + cheap , easy to manufacture , fast refresh rates , better response times (avoiding motion blur) , easy to
-     make for any size / shape
+     layer , the crystal molecules in that layer will be aligned vertically and block the incoming light waves
+ . in use for professional purposes 
+ + cheap , easy to manufacture , better response times (avoiding motion blur) , easy to make for any size / shape
+ + fast refresh rates <= instant render of detail of any single frame in real time 
  - narrow viewing angles , color distortion (violating our intentions/desires given our knowledge of the color
      theory) , poor contrast (pixels losing hue at a really wide viewing angle) 
 
@@ -30,14 +32,10 @@ IPS (in-plane switching) displays :
        blur or ghosting in fast-moving images." 
 
 
-===================================================================================
-POSITIVE VS. NEGATIVE MONOCHROME LCD DISPLAYS 
-===================================================================================
-
-Positive displays :
- . the backlight waves make it through the negative space surrounding the masking segments
-
-Negative displays :
- . the backlight waves make it through the segments situated within the masking negative space 
+VA (Vertical Alignment) :
+ . LC are vertically aligned
+ . good performance for general-purpose applications
+ + great contast
+ - slow response times 
 
 _

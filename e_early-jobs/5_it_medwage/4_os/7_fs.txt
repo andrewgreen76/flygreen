@@ -1,0 +1,27 @@
+
+===================================================================================
+FILE SYSTEMS (FS) 
+===================================================================================
+
+Every OS organizes files in its own way - using its own FILE SYSTEM - on a storage drive (even a thumb drive).
+
+REFORMATTING a storage drive :
+ . erasing all data on the drive and configuring it to a specific file system
+
+Different file systems are OPTIMIZED FOR DIFFERENT PURPOSES. 
+
+Flavors :
+ . on Windows - NTFS :
+    . focus on security and encryption
+    . focus on faster access speeds
+ . on a Mac - APFS
+ . on a Linux machine - there are different file systems ;
+    . the predominant FS on Linux machines in general is `ext4`
+    . ext4 is backward-compatible with older `ext` file systems
+
+Data storage :
+ . Whatever the FS , data is stored in DATA BLOCKS that DO NOT HAVE TO BE CONTIGUOUS.
+ . This BLOCK STORAGE method means immediately writing data to a disk instead of spending time looking
+     for a region of vacant contiguous blocks on the drive. 
+
+_

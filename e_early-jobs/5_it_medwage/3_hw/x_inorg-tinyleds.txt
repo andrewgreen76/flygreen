@@ -1,0 +1,25 @@
+
+===================================================================================
+INORGANIC MINI-LED'S (mLED's) 
+===================================================================================
+
+ . next-gen , emissive
+ . smaller segments than in OLED's
+ . it is everywhere , including the "Liquid Retina XDR" screen tech
+ . "HDR (High Dynamic Range) in displays is a technology that enhances the range of brightness and color,
+    producing more vivid images with greater contrast."
+ + extremely bright , vivid images ; great lifetime ; thin panels ; readability in ample ambient lighting ; less
+     expensive than uLED's
+ - more costly and limited by LCD technology 
+
+
+===================================================================================
+INORGANIC MICRO-LED'S (uLED's) 
+===================================================================================
+
+ . next-gen , emissive 
+ . smaller segments than in mini-LED's
+ + great in every way
+ - expensive , not ready for mass production 
+
+_

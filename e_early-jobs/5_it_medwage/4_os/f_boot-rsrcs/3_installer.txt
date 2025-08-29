@@ -1,0 +1,4 @@
+
+A (bootable) INSTALLER is just another word for a bootable drive.
+
+_

@@ -1,8 +1,5 @@
 
-===================================================================================
-BOOTING UP A COMPUTER 
-===================================================================================
-
+THE FLOW of a computer booting process : 
  . power-on
  -> BIOS' POST
  -> boot device / OS selection (per the configured boot order)
@@ -12,7 +9,7 @@ BOOTING UP A COMPUTER
  -> running the user space 
 
 
-Bootloader :
+BOOTLOADER :
  . a small BIOS-level program with instructions telling the CPU how to load the OS data from the image into the RAM 
 
 _

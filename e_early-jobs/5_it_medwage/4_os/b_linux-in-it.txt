@@ -1,0 +1,9 @@
+
+===================================================================================
+LINUX IN IT 
+===================================================================================
+
+ . need to know CLI commands 
+ . "most of the Linux machines you interact with in IT support will be accessed remotely" 
+
+_

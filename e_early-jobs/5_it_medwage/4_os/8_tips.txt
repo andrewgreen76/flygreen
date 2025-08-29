@@ -1,0 +1,10 @@
+
+===================================================================================
+IT-CONTEXT TROUBLESHOOTING TIPS 
+===================================================================================
+
+ . When dealing with a slow machine , more likely than not the issue is abuse of hardware resources.
+ . failure to accomodate multiple processes <= RAM deficiency
+ . processes are slow <= lack of CPU cores/availability 
+
+_

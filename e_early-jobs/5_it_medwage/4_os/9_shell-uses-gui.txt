@@ -1,0 +1,42 @@
+
+===================================================================================
+SHELLS AND GUI 
+===================================================================================
+
+Shell :
+ . "A shell is a user interface that allows INTERACTION WITH THE OPERATING SYSTEM’s services, either
+    through a command line or graphical environment."
+ . different shells have different features and handle performance differently
+ . "In more advanced IT roles you might have to manage thousands of machines. You don't want to have to click
+    a button or drag a window on every machine when you can just run a command once." 
+
+
+Desktop environment :
+ . "Providing the GUI for the desktop environment means supplying the visual interface elements (windows,
+    icons, menus) that make up the desktop environment, but THE DESKTOP ENVIRONMENT ALSO INCLUDES BACKGROUND
+    SERVICES AND INTEGRATION BEYOND JUST THE GUI."
+ . GUI + processes
+
+
+Shells that use a GUI :
+| . Windows Explorer 
+| . the GNOME shell
+|
+Shells that do not use a GUI :
+| . PowerShell
+| . z.sh
+| . Bash
+|
+Whatever the case , A SHELL ALLOWS FOR INTERACTION WITH THE OS. 
+
+
+Windows Explorer :
+ . "Windows Explorer is a shell because it provides the graphical interface for FILE MANAGEMENT and the
+    desktop environment, acting as the user’s primary interaction layer with the operating system."
+
+
+The GNOME shell :
+ . "The GNOME Shell is unique because it tightly integrates the window manager, application launcher, and
+    system interface into a single unified environment."
+
+_

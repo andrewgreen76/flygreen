@@ -1,0 +1,33 @@
+
+===================================================================================
+PROCESS MANAGEMENT - ADDITIONAL NOTES 
+===================================================================================
+
+Program vs. process : 
+ . a program is stored as a file or a group of files working together as source code
+ . only once it is executed does it become a process - an instance of the program being run in RAM 
+ . it is important to note that you can have multiple processes of the same program 
+
+
+Process management by the kernel entails :
+ . creation
+ . scheduling
+ . termination 
+
+
+What is a VIRTUAL MEMORY really ?
+ = RAM SPACE + SWAP SPACE on the disk , assigned to the same process 
+
+
+Conventional exectution of a program :
+ . a program is targeted for execution 
+ -> the program's source code - implementation and libraries - is broken up into pages
+ -> these pages are stored in the virtual memory
+ -> any page due for execution is to be moved to physical memory (RAM) 
+
+
+I/O management :
+ . the kernel doesn't just engage in a one-on-one with an I/O device (peripheral) using a driver
+ . the kernel is expected to have the ability to regulate communication between the peripherals 
+
+_

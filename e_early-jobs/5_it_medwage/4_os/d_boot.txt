@@ -1,0 +1,18 @@
+
+===================================================================================
+BOOTING UP A COMPUTER 
+===================================================================================
+
+ . power-on
+ -> BIOS' POST
+ -> boot device / OS selection (per the configured boot order)
+ -> running the bootloader
+ -> running the kernel + manager modules (incl. using device drivers)
+ -> running system processes
+ -> running the user space 
+
+
+Bootloader :
+ . a small BIOS-level program with instructions telling the CPU how to load the OS data from the image into the RAM 
+
+_

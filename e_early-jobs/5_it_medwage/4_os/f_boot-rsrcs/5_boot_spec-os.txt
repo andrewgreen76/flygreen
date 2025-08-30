@@ -9,12 +9,4 @@ Booting macOS :
  . hold the Option key for the Startup Manager
  . you can bypass the boot order and select the OS you want to boot up
 
-
-Boot method options :
- . from a hard drive (even if it is a hot-swappable drive) 
- . from a USB stick
- . from an optical disk
- . via a network (LAN)
- . via cloud
-
 _

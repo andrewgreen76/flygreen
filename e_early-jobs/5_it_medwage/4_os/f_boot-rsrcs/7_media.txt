@@ -1,0 +1,36 @@
+
+===================================================================================
+BOOT METHOD OPTIONS - PHYSICAL MEDIA :
+===================================================================================
+
+ . from a hard drive (even if it is a hot-swappable drive) 
+ . from a USB stick
+ . from an optical disk
+
+
+===================================================================================
+VIA A NETWORK (LAN)
+===================================================================================
+
+ . "PXE (Preboot Execution Environment) is a protocol that allows a computer to boot an operating system
+    over a network instead of from local storage."
+    
+ . "In a LAN environment , a PXE server (or TFTP/boot server") needs to house the OS image for the target
+    machine to load into RAM."
+
+ . You can enable and set up PXE through BIOS. 
+
+
+===================================================================================
+VIA CLOUD
+===================================================================================
+
+ . "In a cloud environment, a hypervisor or virtual machine manager needs to house the OS image, typically
+      STORED ON A NETWORKED STORAGE SYSTEM LIKE A SAN OR NAS, which the target machine accesses to load the
+      operating system into RAM during the boot process."
+ . "A SAN (Storage Area Network) is a high-speed, dedicated network that provides block-level storage access
+     to multiple servers, often used in enterprise environments, while a NAS (Network Attached Storage) is a
+     file-level storage device connected to a network, offering simpler access for sharing and backup across
+     devices."
+
+_

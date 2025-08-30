@@ -1,0 +1,20 @@
+
+Booting Windows / Linux :
+ . learn the key mapped to the BIOS Options menu on the target machine (depends on the manufacturer and the
+     BIOS version) 
+ . reconfigure the boot order if you must 
+
+
+Booting macOS :
+ . hold the Option key for the Startup Manager
+ . you can bypass the boot order and select the OS you want to boot up
+
+
+Boot method options :
+ . from a hard drive (even if it is a hot-swappable drive) 
+ . from a USB stick
+ . from an optical disk
+ . via a network (LAN)
+ . via cloud
+
+_

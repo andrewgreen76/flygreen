@@ -1,0 +1,24 @@
+
+===================================================================================
+NETWORK vs. CLOUD 
+===================================================================================
+
+Network : 
+ . "... a collection of interconnected devices that communicate and share resources through wired or wireless connections."
+ . resources : peripherals , storage 
+
+
+Cloud :
+ . a network + data centers (buildings with servers)
+ . """ON-DEMAND SERVICES""" : basically , cloud is networking on steroids - meant to be super-fast , capable of
+     providing "ON-DEMAND SERVICES"
+
+
+A scalable computing resource :
+ . for quickly accessing , preparing , running processes - RAM 
+ . for execution - CPU cores
+ . for everything else - storage 
+ . on a cloud - distributed among cloud nodes
+ . when dedicated to a cloud node , the resources can be expanded or shrunk as needed
+
+_

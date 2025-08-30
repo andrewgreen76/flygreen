@@ -1,10 +1,29 @@
 
 ===================================================================================
-STORAGE DRIVE - CAVEAT 
+STORAGE DRIVE TERMINOLOGY - CAVEAT 
 ===================================================================================
 
-Very frequently we will hear the word "disk" in place of "storage drive". Personally , I do not recommend using
-  "hard drive" in its place as , technically speaking , SSD's are not HDD's , and using the term "hard drive"
-  may create some confusion for students. 
+ . Very frequently we will hear the word """DISK""" in place of "storage drive". Technically speaking ,
+     SSD's are not HDD's , and using the term """HARD DRIVE""" may create some confusion for students.
+     But "hard drive" is what even professionals use , so we are stuck with that.
+
+ . flash drive = USB stick = the stick 
+
+
+===================================================================================
+AN SSD ISN'T JUST SOMETHING ATTACHED INTERNALLY 
+===================================================================================
+
+SSD's are not exclusively devices attached inside the computer's case. Some come in enclosures connected
+  externally via a USB or Thunderbolt port.
+
+
+===================================================================================
+EXTERNAL HOT-SWAPPABLE DRIVE 
+===================================================================================
+
+ . "... is a storage device that can be connected to or removed from a computer while [that computer] is
+    powered on, without requiring a reboot."
+ . ex. : SATA flatbed HDD's , docking stations 
 
 _

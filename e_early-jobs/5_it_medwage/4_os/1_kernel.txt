@@ -5,18 +5,21 @@ KERNEL - KNOWLEDGE BASE
 
 What is an operating system (OS) ?
  |
- . OS as something stored = OS image = kernel (main code) + modules + drivers (+ applications)
+ . OS as something stored = OS image = bootloader + kernel (main code) + modules + drivers (+ applications)
  |
  . OS as something running = OS in RAM
-   = kernel space (for the kernel as a process)
+   = bootloader
+   + kernel space (for the kernel as a process)
    + modules
    + drivers
    + user space (for user processes) 
+
 
 Kernel :
  . works with the computer's RESOURCES - CPU cores , registers , cache , memory addresses , etc.
  . Once all the BIOS routines are performed and the kernel's operating system is selected , the kernel takes over
      for the BIOS as the process governing the computer for as long as the device is on.
+
 
 Kernel space - manager modules :
  . process manager

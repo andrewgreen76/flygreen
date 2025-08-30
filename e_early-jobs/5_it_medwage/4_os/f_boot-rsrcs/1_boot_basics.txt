@@ -1,5 +1,5 @@
 
-THE FLOW of a computer booting process : 
+THE FLOW of a computer's booting process : 
  . power-on
  -> BIOS' POST
  -> boot device / OS selection (per the configured boot order)
@@ -11,5 +11,15 @@ THE FLOW of a computer booting process :
 
 BOOTLOADER :
  . a small BIOS-level program with instructions telling the CPU how to load the OS data from the image into the RAM 
+
+
+The role of the HARD DRIVE IN BOOTING :
+ . The hard drive plays an integral role in booting - you need a physical host of the OS image to load into RAM before
+     booting up the OS.
+
+
+BOOT ORDER :
+ . a BIOS will typically remember the order of the hard drives to go through in order to find a valid bootloader
+ . the BIOS will load in the first bootloader it recognizes across the hard drives referenced in the boot order 
 
 _

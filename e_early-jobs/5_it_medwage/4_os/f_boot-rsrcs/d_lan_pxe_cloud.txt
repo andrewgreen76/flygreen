@@ -1,19 +1,12 @@
 
 ===================================================================================
-BOOT METHOD OPTIONS - PHYSICAL MEDIA :
-===================================================================================
-
- . from a hard drive (even if it is a hot-swappable drive) 
- . from a USB stick
- . from an optical disk
-
-
-===================================================================================
 VIA A NETWORK (LAN)
 ===================================================================================
 
- . "PXE (Preboot Execution Environment) is a protocol that allows a computer to boot an operating system
-    over a network instead of from local storage."
+Think about that : Your computer doesn't even need an OS to do networking ! 
+
+ ! "PXE (Preboot Execution Environment) is a protocol that ALLOWS A COMPUTER TO BOOT AN OPERATING SYSTEM
+    OVER A NETWORK instead of from local storage."
     
  . "In a LAN environment , a PXE server (or TFTP/boot server") needs to house the OS image for the target
     machine to load into RAM."

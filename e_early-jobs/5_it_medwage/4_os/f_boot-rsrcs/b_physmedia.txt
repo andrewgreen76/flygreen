@@ -1,0 +1,10 @@
+
+===================================================================================
+BOOT METHOD OPTIONS - PHYSICAL MEDIA :
+===================================================================================
+
+ . from a hard drive (even if it is a hot-swappable drive) 
+ . from a USB stick
+ . from an optical disk
+
+_

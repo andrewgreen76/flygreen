@@ -1,0 +1,30 @@
+
+===================================================================================
+DOWNLOADING AND BOOTING FILES 
+===================================================================================
+
+RAC (remote access controller)
+  . "... a standardized communication protocol implemented through HARDWARE (THE BASEBOARD MANAGEMENT
+     CONTROLLER , OR BMC) AND SUPPORTING FIRMWARE" 
+  . can RECOVER THE POWER AND THE OS with networking functions on a server remotely 
+  . ex. : IPMI
+ (1) has to be enabled in BIOS
+ (2) the target server must have a RAC device , like an iDRAC 
+
+
+===================================================================================
+IPMI (INTELLIGENT PLATFORM MANAGEMENT INTERFACE) 
+===================================================================================
+
+Meant for REMOTE CARETAKING OF SERVERS DESPITE THEIR CONDITION - a.k.a. OUT-OF-BAND MANAGEMENT :
+ . can collect data on / monitor the condition and resources of servers
+ . can deliver power
+ . can reconfigure servers
+
+
+IPMI's limits :
+ . limited to aiding hardware with IPMI support
+ . cannot handle physical issues with hardware
+ . cannot help with certain networking accessibility issues - firewalls , DNS failures , etc. 
+
+_

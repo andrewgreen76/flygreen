@@ -1,6 +1,12 @@
 
+Downloading vs. streaming :
+ . downloaded data stays on the target device's disk 
+ . "Streamed data is temporarily buffered in the target machine’s RAM or cache for immediate use and is
+    typically discarded after being read, not permanently stored."
+
+
 ===================================================================================
-RETRIEVING
+STREAMING THE OS IMAGE - VIA A RAC INTERFACE 
 ===================================================================================
 
 RAC (remote access controller)
@@ -15,15 +21,13 @@ RAC (remote access controller)
     . "... a RAC can function independently, though many modern RACs integrate with or rely on the BMC
        for broader system management features." 
 
- (1) has to be enabled in BIOS
- (2) the target server must have a RAC device , like an iDRAC (on a Dell server motherboard) 
+1. the target server must have a RAC device , like an iDRAC (on a Dell server motherboard) 
+2. RAC has to be enabled in BIOS
+3. through the RAC interface an OS image on a disk is to be selected
+4. the OS image is then streamed to the target server , but not retained 
 
 
-===================================================================================
-IPMI (INTELLIGENT PLATFORM MANAGEMENT INTERFACE) 
-===================================================================================
-
-IPMI's limits :
+RAC's limits :
  . limited to aiding hardware with IPMI support
  . cannot handle physical issues with hardware
  . cannot help with certain networking accessibility issues - firewalls , DNS failures , etc. 

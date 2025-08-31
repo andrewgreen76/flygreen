@@ -1,0 +1,11 @@
+
+===================================================================================
+BOOTING INTO AN OS WITH WoL 
+===================================================================================
+
+Wake-on-LAN (WoL) is NOT A BOOTING METHOD.
+ . the target device is to have a NIC with WoL capability
+ . WoL is to be enabled in BIOS 
+ . the target device is to be triggered to wake up upon receiving a signal over the WoL network 
+
+_

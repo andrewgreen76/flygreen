@@ -1,0 +1,22 @@
+
+===================================================================================
+WHAT IS DUAL BOOTING ? 
+===================================================================================
+
+ . 
+
+
+===================================================================================
+DUAL BOOTING BENEFITS 
+===================================================================================
+
+ . "While having two operating systems can be helpful for various reasons, it is especially helpful when
+    one system is failing or unable to boot. If this happens, you can still boot the computer using the
+    other system and troubleshoot from there."
+
+
+===================================================================================
+STEPS : 
+===================================================================================
+
+_

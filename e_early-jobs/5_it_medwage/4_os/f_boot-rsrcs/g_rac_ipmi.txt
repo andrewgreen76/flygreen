@@ -1,28 +1,27 @@
 
 ===================================================================================
-
+RETRIEVING
 ===================================================================================
 
 RAC (remote access controller)
 
-  . "... a standardized communication [system] implemented through HARDWARE (THE BASEBOARD MANAGEMENT
-     CONTROLLER , OR BMC) AND SUPPORTING FIRMWARE"
-  
-  . a system meant for REMOTE CARETAKING OF SERVERS DESPITE THEIR CONDITION - a.k.a. OUT-OF-BAND MANAGEMENT :
-     . can collect data on / monitor the condition and resources of servers
-     . can RECOVER THE POWER AND THE OS with networking functions on a server remotely 
-     . can reconfigure servers
-     . ex. : IPMI
+ . a specialized IC on the server’s motherboard or it can be a specialized EXPANSION CARD 
+ . performs REMOTE CARETAKING OF SERVERS DESPITE THEIR CONDITION
+    . a.k.a. OUT-OF-BAND MANAGEMENT 
+    . a RAC can collect data on / monitor the condition and resources of servers
+    . can RECOVER THE POWER AND THE OS with networking functions on a server remotely 
+    . can reconfigure servers
+    . ex. : IPMI
+    . "... a RAC can function independently, though many modern RACs integrate with or rely on the BMC
+       for broader system management features." 
 
  (1) has to be enabled in BIOS
- (2) the target server must have a RAC device , like an iDRAC 
+ (2) the target server must have a RAC device , like an iDRAC (on a Dell server motherboard) 
 
 
 ===================================================================================
 IPMI (INTELLIGENT PLATFORM MANAGEMENT INTERFACE) 
 ===================================================================================
-
-
 
 IPMI's limits :
  . limited to aiding hardware with IPMI support

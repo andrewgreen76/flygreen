@@ -1,10 +1,10 @@
 
 ===================================================================================
-VIA A NETWORK (LAN)
+DOWNLOADING THE OS IMAGE - VIA A NETWORK (LAN)
 ===================================================================================
 
- . enable and set up PXE (Preboot Execution Environment) through BIOS
-    . PXE = a client-server system/interface/specification implemented with hardware and software ,
+ . Enable and set up PXE (Preboot Execution Environment) through BIOS. 
+    . PXE - a client-server system/interface (with a specification) implemented with hardware and software ,
         aiming to allow for retrieving OS booting resources remotely.
  -> the target machine needs to download the NBP (network bootstrap system) via a DHCP/TFTP protocol
       (in a LAN environment)
@@ -13,13 +13,9 @@ VIA A NETWORK (LAN)
 
 Think about that : Your computer doesn't even need an OS to do networking ! 
 
- ! "PXE  is [a system] that ALLOWS A COMPUTER TO BOOT AN OPERATING SYSTEM
-    OVER A NETWORK instead of from local storage."
- . a "specification" , an interface 
-
 
 ===================================================================================
-VIA CLOUD
+DOWNLOADING THE OS IMAGE - VIA CLOUD
 ===================================================================================
 
  . "In a cloud environment, a hypervisor or virtual machine manager needs to house the OS image, typically

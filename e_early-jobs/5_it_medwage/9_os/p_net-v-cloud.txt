@@ -20,5 +20,8 @@ A scalable computing resource :
  . for everything else - storage 
  . on a cloud - distributed among cloud nodes
  . when dedicated to a cloud node , the resources can be expanded or shrunk as needed
+Scalability :
+ . "The measure of a system’s ability to increase or decrease in performance and cost in response to varying
+    loads in system processing demands."
 
 _

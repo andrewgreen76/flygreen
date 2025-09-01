@@ -1,0 +1,35 @@
+
+Remote connection : 
+ . The connection of "... an authorized person to a computer or network remotely; allows us to manage multiple
+   machines from anywhere in the world." 
+
+
+SSH : 
+ . a.k.a. Secure Shell
+ . a terminal emulator PROGRAM with a dedicated network PROTOCOL
+ . for remote access and data transfer 
+ . an abstraction that does its job regardless of its implementation
+ . "... a cryptographic network protocol that provides [...] remote login and command execution over an
+    unsecured network." 
+
+
+OpenSSH : 
+ . A popular OPEN-SOURCE IMPLEMENTATION of SSH in Linux systems.
+ . provides "a suite of tools like ssh, scp, and sftp for SECURE COMMUNICATION" 
+
+
+SSH client :
+ . "A program you MUST HAVE INSTALLED on your device in order TO ESTABLISH AN SSH CONNECTION WITH ANOTHER DEVICE." 
+SSH server :
+ . "Software installed on a machine that allows for that device to ACCEPT AN SSH CONNECTION."
+ 
+
+SSH authentication key : 
+ . A secure method for one computer to connect with another computer. 
+
+
+Plink (PuTTY Link) : 
+ . a CLI tool for managing remote SSH connections / sessions
+ . not pre-installed 
+
+_

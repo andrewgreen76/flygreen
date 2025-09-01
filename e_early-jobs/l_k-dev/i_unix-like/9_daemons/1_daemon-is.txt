@@ -1,6 +1,7 @@
 
 A process or program that : 
-. is non-interactive (runs in the background)
+. is NON-INTERACTIVE (runs in the background)
+. INITIATED AT BOOT TIME 
 . regulates system functionality
 . examples :
   . print spooling

@@ -1,7 +1,12 @@
 
-init system and service manager (sYSTEM dAEMON)
+ . init system and service manager (SYSTEM Daemon)
+ . "Systemd is differentiated by being an init system and service manager that controls and supervises all
+    other daemons and system processes from startup."
 
 
+===================================================================================
+MORE ON SYSTEMD 
+===================================================================================
 
 Remind me what systemd is?
 ChatGPT
@@ -22,3 +27,4 @@ Here are some key features and components of systemd:
 
 Systemd aims to improve system startup times, simplify service management, enhance reliability, and provide a standardized framework for managing various aspects of the system. However, its adoption and design have sparked discussions and debates within the Linux community.
 
+_

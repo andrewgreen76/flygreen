@@ -1,0 +1,14 @@
+
+Hostname :
+ . symbolic name given to a device (on or off of a network)
+ . "used to identify THE COMPUTER when it needs to talk to other computers"
+
+
+User name:
+ . "A unique identifier for a USER ACCOUNT." 
+
+
+Prompt string : 
+user@host:~/home$
+
+_

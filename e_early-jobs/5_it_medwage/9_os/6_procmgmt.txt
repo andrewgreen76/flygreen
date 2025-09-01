@@ -16,7 +16,7 @@ Process management by the kernel entails :
 
 
 What is a VIRTUAL MEMORY really ?
- = RAM SPACE + SWAP SPACE on the disk , assigned to the same process 
+ = RAM SPACE + SWAP SPACE on the disk , all assigned to the same process 
 
 
 Conventional exectution of a program :

@@ -1,4 +1,11 @@
 
+"A SECURE method of connecting a device to a PRIVATE NETWORK over the internet." 
+
+
+===================================================================================
+VPN (VIRTUAL PRIVATE NETWORK) 
+===================================================================================
+
 What is VPN?
 ChatGPT
 
@@ -20,3 +27,4 @@ VPNs are commonly used for various purposes, including:
 
 There are various VPN protocols and implementations available, including OpenVPN, IPsec, L2TP/IPsec, PPTP, and more. Each protocol has its own strengths and considerations in terms of security, speed, and compatibility.
 
+_

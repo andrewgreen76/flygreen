@@ -1,0 +1,11 @@
+
+===================================================================================
+SHELL 
+===================================================================================
+
+ . "A program that interprets text commands and sends them to the OS to execute."
+ . Since the Bash interpreter is written in C , which is an abstraction of assembly , we should be able to see
+     the layers of the binary computing stack that are necessary for a computer's CPU to convert given commands
+     into instructions and execute them. 
+
+_

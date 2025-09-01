@@ -15,4 +15,12 @@ Bitlocker :
  . "a drive encryption tool included with Windows"
  . "only available for Pro and Enterprise licenses of Windows"
 
+
+===================================================================================
+MODERN WINDOWS VERSIONS 
+===================================================================================
+
+ . Windows 10 is to lose support on October, 2025.
+ . Windows 11 was rolled out in 2021. 
+
 _

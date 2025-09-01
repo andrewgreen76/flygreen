@@ -21,7 +21,7 @@
     . sound
     . music
 -> text editor (term.emu standard) 
--> interpreter
+-> interpreter (first in Python , then in some other language) 
 -> compiler
 ...
 -> something resume-worthy 

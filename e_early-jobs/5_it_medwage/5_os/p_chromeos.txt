@@ -1,0 +1,27 @@
+
+===================================================================================
+CHROME OS 
+===================================================================================
+
+The goal is to demonstrate the power of web browsing as an alternative to dependence on the local hard drive.
+ . working with emails
+ . working with files like documents , images , etc.
+ . connecting to another computer
+ . casual gaming
+
+The way a Chromebook works :
+ . runs two things concurrently - the Chrome OS and (typically up to) one container called "Crostini"
+ . the container hosts Android and other Linux-based distro applications
+
+Benefits :
+ + greater disk space - courtesy of the servers 
+ + hard to penetrate , private data stays private ... even if the machine is stolen 
+   <= no one can get admin rights
+   <= features an AUTOMATIC FAILSAFE that restores the system to the latest secure snapshot 
+
+Drawbacks : 
+ - dependent on the EXTERNAL SERVERS within the **CHROME (CLOUD) INFRASTRUCTURE** 
+ => this is definitely problematic for users who find themselves frequently unable to access WiFi
+ - definitely not ideal for resource-intensive gaming 
+
+_

@@ -14,7 +14,9 @@ Flavors :
  . on Windows - NTFS :
     . focus on security and encryption
     . focus on faster access speeds
- . on a Mac - APFS
+ . on a Mac :
+    . "HFS+/APFS: HFS+ is a journaling system developed by Apple Inc."
+    . "APFS is another but more encrypted Apple journaling system"
  . on a Linux machine - there are different file systems ;
     . the predominant FS on Linux machines in general is `ext4`
     . ext4 is backward-compatible with older `ext` file systems

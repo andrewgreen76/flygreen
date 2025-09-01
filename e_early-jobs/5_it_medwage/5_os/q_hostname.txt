@@ -1,0 +1,5 @@
+
+Hostname :
+ . symbolic name given to a device (on or off of a network) 
+
+_

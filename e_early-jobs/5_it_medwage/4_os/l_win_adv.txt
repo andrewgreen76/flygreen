@@ -1,0 +1,18 @@
+
+===================================================================================
+AN INTRODUCTION TO ADVANCED WINDOWS FEATUERS 
+===================================================================================
+
+Domain : 
+ . "a centrally administered group of computers"
+
+Workgroup :
+ . computers on the same LAN 
+
+You can join these via System Properties. 
+
+Bitlocker :
+ . "a drive encryption tool included with Windows"
+ . "only available for Pro and Enterprise licenses of Windows"
+
+_

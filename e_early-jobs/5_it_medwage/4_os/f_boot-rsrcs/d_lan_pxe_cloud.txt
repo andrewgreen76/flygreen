@@ -3,6 +3,8 @@
 DOWNLOADING THE OS IMAGE - VIA A NETWORK (LAN)
 ===================================================================================
 
+ . some call it "network(-based) booting"
+
  . Enable and set up PXE (Preboot Execution Environment) through BIOS. 
     . PXE - a client-server system/interface (with a specification) implemented with hardware and software ,
         aiming to allow for retrieving OS booting resources remotely.

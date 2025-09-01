@@ -1,0 +1,5 @@
+"
+TO PROVISION AN OS MEANS to prepare and CONFIGURE it with the necessary installation, settings, and
+resources so it’s ready for use on a target machine.
+"
+_

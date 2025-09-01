@@ -9,8 +9,9 @@ Downloading vs. streaming :
 STREAMING THE OS IMAGE - VIA A RAC INTERFACE 
 ===================================================================================
 
-RAC (remote access controller)
+ . some call it "internet-based booting"
 
+RAC (remote access controller)
  . a specialized IC on the server’s motherboard or it can be a specialized EXPANSION CARD 
  . performs REMOTE CARETAKING OF SERVERS DESPITE THEIR CONDITION
     . a.k.a. OUT-OF-BAND MANAGEMENT 

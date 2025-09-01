@@ -1,0 +1,4 @@
+"
+QNX is a commercial Unix-like real-time operating system designed for embedded systems and mission-critical applications.
+"
+_

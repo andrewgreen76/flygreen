@@ -1,0 +1,7 @@
+
+When selecting an OS for a computer , do not forget to consider the architecture (specifically , the
+ address width) the CPU supports.
+ . "A 64-bit CPU architecture primarily means it supports 64-bit wide general-purpose registers and memory
+    addressing, though data bus widths may vary."
+
+_

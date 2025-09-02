@@ -11,6 +11,7 @@ Wait times :
 
 TIME LIMITS :
  . you only have 5-60 minutes to complete each lab
+ . you have to hit """END LAB""" within the 5-60 min time range 
  . upon fail you will have to start over 
 
 

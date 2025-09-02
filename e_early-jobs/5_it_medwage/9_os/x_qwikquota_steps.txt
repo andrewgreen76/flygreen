@@ -1,0 +1,7 @@
+
+In the event of "exceeding the quota for a Qwiklab" : 
+ . use THE QWIKLABS EMAIL ADDRESS 
+ -> provide THE LINK to the problematic lab and THE TITLE of the course
+ -> ASK A SUPPORT AGENT to reset the quota before retaking the lab 
+
+_

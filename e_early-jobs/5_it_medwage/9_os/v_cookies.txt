@@ -1,4 +1,0 @@
-"
-Cookies in a browser are small pieces of data stored on a user’s device by websites to remember information like LOGIN STATUS, PREFERENCES, OR TRACKING IDENTIFIERS.
-"
-_

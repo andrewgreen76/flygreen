@@ -1,0 +1,9 @@
+
+Cookies : 
+ . "Cookies in a browser are small pieces of data stored on a user’s device by websites to remember information
+    like LOGIN STATUS, PREFERENCES, OR TRACKING IDENTIFIERS."
+
+Incognito mode :
+ . "prevents the browser from saving history, cookies, site data, or form inputs after the session ends" 
+
+_

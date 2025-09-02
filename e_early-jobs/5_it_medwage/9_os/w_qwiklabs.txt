@@ -1,0 +1,20 @@
+
+Getting in : 
+ . create an account or sign in with Google 
+ . gain access only through Coursera
+
+
+Wait times : 
+ . VM boot-ups may come with delays 
+ . loading a lab can take up to several minutes
+
+
+TIME LIMITS :
+ . you only have 5-60 minutes to complete each lab
+ . upon fail you will have to start over 
+
+
+Optimizations :
+ . works best with Google Chrome 
+
+_

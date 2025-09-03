@@ -1,0 +1,36 @@
+
+===================================================================================
+INTERNET =/= WORLD WIDE WEB 
+===================================================================================
+
+The Internet is a physical connection of devices :
+| . satellites , cellular networks (towers and other devices) , cables within the ground
+|
+WWW is just web-pages , shared content - something that Tim Berners-Lee conceived and is known for.
+
+
+WAYS TO GAIN ACCESS to content on the Internet :
+ . WWW
+ . email services
+ . chatting services
+ . file-sharing services
+
+
+Networking : designing , building , and managing networks. 
+
+
+===================================================================================
+INTERNET SERVICE PROVIDER 
+===================================================================================
+
+ . ex. : CenturyLink , Level 3 , Comcast , Telefonica 
+
+
+===================================================================================
+SWITCHES VS. ROUTERS
+===================================================================================
+
+ . a router connects networks
+ . a switch connects multiple devices to one LAN 
+
+_

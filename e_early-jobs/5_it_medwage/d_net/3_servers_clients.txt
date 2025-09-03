@@ -1,0 +1,23 @@
+
+===================================================================================
+DEVICES INVOLVED IN NETWORKS 
+===================================================================================
+
+Servers :
+ . computing devices with just the disk storage at the crux - FOR STORING USER AND INTERACTIVE DATA 
+ . They connect to the Internet (satellites , towers , cables)and use it to deploy content to the client
+   devices.
+
+
+Clients :
+ . devices that request and receive data
+ . they do NOT connect to the massive global thing that is the Internet
+ |
+ . they DO connect to a LAN offered by the ISP
+ -> the LAN pushes the client's requests (as digital PACKETS) via the Internet to the server's network
+ -> the requests eventually make it to the server
+ -> the server fetches those requests and provides the demanded content (also as packets) - essentially , data
+ -> the data makes it through the server's LAN , hen via the INternet , to the client's LAN
+ -> the client receives the content 
+
+_

@@ -6,7 +6,7 @@ MICROSOFT TERMINAL SERVICES CLIENT
 "A client program used to create RDP connections to remote computers."
 
 RDP connection :
- . "... a remote desktop session established using Microsoft’s Remote Desktop Protocol to control another
-    computer over a network."
+ . "... a REMOTE DESKTOP SESSION established using Microsoft’s Remote Desktop Protocol to CONTROL ANOTHER
+    COMPUTER OVER A NETWORK."
 
 _

@@ -1,0 +1,10 @@
+
+===================================================================================
+IP ADDRESS VS. MAC ADDRESS 
+===================================================================================
+
+Every computer has its own IP address and a unique MAC address : 
+ . IP address - A NUMERICAL REPRESENTATION OF THE DEVICE'S LOCATION
+ . MAC address - a unique and permanent numerical identifier of the computer's NIC
+
+_

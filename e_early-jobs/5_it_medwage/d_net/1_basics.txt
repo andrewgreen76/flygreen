@@ -19,12 +19,4 @@ INTERNET SERVICE PROVIDER
 
  . ex. : CenturyLink , Level 3 , Comcast , Telefonica 
 
-
-===================================================================================
-SWITCHES VS. ROUTERS
-===================================================================================
-
- . a router connects networks
- . a switch connects multiple devices to one LAN 
-
 _

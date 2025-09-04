@@ -1,0 +1,9 @@
+
+===================================================================================
+IT TECH'S HABITS ON THE JOB 
+===================================================================================
+
+ . check the health of the end-user computers
+ . check the health of the connections : cables , switches , routers , hubs 
+
+_

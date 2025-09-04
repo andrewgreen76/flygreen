@@ -4,12 +4,14 @@ PROTOCOLS - HALL OF FAME
 ===================================================================================
 
 TCP (Transmission Control Protocol) :
- . has to do with RELIABLE DELIVERY 
+ . has to do with RELIABLE DELIVERY
+ => works with routers 
 
 
 IP (Internet Protocol) : 
  . deals with DELIVERING every packet TO ITS CORRECT DESTINATION 
  . IP addresses can help with that
+ => works with switches 
 
 
 ===================================================================================

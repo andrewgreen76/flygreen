@@ -1,0 +1,33 @@
+
+===================================================================================
+BASICS OF THE ***WORLD WIDE WEB*** 
+===================================================================================
+
+A website : 
+ . a text document
+ . formatted with HTML
+ . web-browsers use the code in HTML
+
+
+URL (Uniform Resource Locator) : 
+ . textual address for a webpage
+ . in www.google.com
+    . www. - means we want website content
+    . .google. - domain name
+
+
+ICANN :
+ . Internet Corporation of Assigned Names and Numbers 
+ . will only log in unclaimed domains 
+
+
+DNS (Domain Name System) :
+ . a protocol (system) functioning like a dictionary 
+ . maps web addresses (mostly letters) to their numerical counterparts (actual public IP addresses)
+    . failure in a translation like this means a fault with your DNS configuration 
+
+
+Source (of some/malicious internet request) 
+ . identified by IP address recorded in a server log 
+
+_

@@ -1,0 +1,14 @@
+
+===================================================================================
+WHAT DOES IT MEAN TO MAP A NETWORK DRIVE ? 
+===================================================================================
+"
+To map a network drive means TO ASSIGN A LOCAL DRIVE LETTER (e.g., Z:) to
+  (1) a shared folder or
+  (2) a storage location
+ON A NETWORK, allowing the user to access it as if it were a local drive through the operating system's file explorer.
+"
+
+ . makes for an easier , user-friendly data sharing experience 
+
+_

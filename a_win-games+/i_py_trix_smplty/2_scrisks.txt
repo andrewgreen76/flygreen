@@ -1,0 +1,23 @@
+
+===================================================================================
+RISKS TO SCRIPTING : 
+===================================================================================
+
+ . Using somebody else's code to get something done - and not even going over it (a flaw that can be
+   shared with programming) - may result in you becoming a target of hooliganry :
+   . reconfiguration
+   . corruption
+   . deletion
+   . shutdown
+   . theft
+   . creation of entry points for penetration
+   . ransomware attacks - encrypting something , typically a file system , and selling decryption keys for ransom
+
+
+ . [Accidental damage or exposure] done with [a powerful command/script].
+
+
+ . Mismanagement of hardware resources (cores , memory) can lead to a crash - of the browser , an app , or even
+   an entire system. 
+
+_

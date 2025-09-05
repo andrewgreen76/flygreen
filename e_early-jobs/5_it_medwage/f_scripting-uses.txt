@@ -1,0 +1,12 @@
+
+===================================================================================
+TYPICAL USES OF SCRIPTING 
+===================================================================================
+
+ . automation (e.g., backup of company/network/drive files) 
+ . remapping network drives
+ . installing apps
+ . gathering data
+ . starting updates 
+
+_

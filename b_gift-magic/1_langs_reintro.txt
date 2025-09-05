@@ -1,0 +1,41 @@
+
+========================================================================================
+CODING : 
+========================================================================================
+
+ . translating one language into another
+ . ex. : English to a scripting language
+ . ex. : English to a programming language 
+
+
+========================================================================================
+PROGRAMMING vs. SCRIPTING : 
+========================================================================================
+
+Programming :
+ . you write a program - source code that gets compiled , i.e., processed into a binary
+ . for building large software products and services 
+ . guarantees relatively efficient runtime activity
+ . runtime errors may occur - usually to do with memory management 
+
+Scripting :
+ . you write a script - a file with a list of commands/functions that are to be executed
+ . no runtime setbacks 
+
+
+========================================================================================
+LANGUAGES ARE NOT JUST FOR PROGRAMMING : 
+========================================================================================
+
+What he have here is a discussion of languages for all sorts of applications , not just
+for programming and scripting. There are also languages for :
+ . query
+ . hardware description (behavior) 
+ . markup (typesetting) 
+ . markdown (typesetting) 
+ . Oh, and there are formal languages , but those are only in the abstract. 
+
+
+There might be others. :)
+
+_

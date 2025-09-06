@@ -1,0 +1,7 @@
+
+Before using somebody else's software :
+ . do research on the source of the software
+ . read its license agreement
+ . test it 
+
+_

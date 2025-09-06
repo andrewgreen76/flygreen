@@ -1,0 +1,9 @@
+
+===================================================================================
+SOFTWARE REVISIONING 
+===================================================================================
+
+ . "... MANAGING CHANGES to software through version numbers or control systems to maintain organization and hisory."
+ . a.k.a. VERSION CONTROL 
+
+_

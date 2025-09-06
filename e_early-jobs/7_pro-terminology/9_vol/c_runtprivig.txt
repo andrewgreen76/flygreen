@@ -1,0 +1,4 @@
+"
+Runtime privileges are PERMISSIONS GRANTED to a program DURING ITS EXECUTION that allow it to perform specific operations, such as ACCESSING HARDWARE RESOURCES OR EXECUTING SENSITIVE INSTRUCTIONS, based on its security context.
+"
+_

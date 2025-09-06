@@ -1,0 +1,4 @@
+"
+The first compiler ever made available was the A-0 compiler, developed by Grace Hopper in 1952 for the UNIVAC I, which translated symbolic mathematical code into machine language, marking the beginning of automated programming.
+"
+_

@@ -1,0 +1,21 @@
+
+Application software : 
+ . targets a specific need
+ . userspace-oriented
+
+
+System software :
+ . kernel-oriented
+
+
+Firmware :
+ . code on the ROM 
+
+
+===================================================================================
+
+Drivers : software that can help convert instructions from one hardware architecture to another.
+Applications : software for day-to-day operations.
+Utilities : tools (calculator , debugger , etc.) 
+
+_

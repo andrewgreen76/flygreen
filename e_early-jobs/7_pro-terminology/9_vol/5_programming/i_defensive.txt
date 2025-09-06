@@ -1,0 +1,4 @@
+"
+Defensive programming is a practice where CODE ANTICIPATES AND HANDLES POTENTIAL ERRORS OR UNEXPECTED INPUTS to ensure reliability and robustness.
+"
+_

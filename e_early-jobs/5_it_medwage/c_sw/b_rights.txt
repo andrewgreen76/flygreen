@@ -7,6 +7,10 @@ Copyright :
  . PROTECTING your own work (e.g., software) with a LICENSE that has TERMS OF USE 
 
 
+License agreement :
+ . conditions on the rights to use the software 
+
+
 Commercial software license :
  . they pay to use your software 
 
@@ -18,8 +22,8 @@ Non-commercial software license :
 There is software that would require you to pay SEVERAL LICENSES.
 
 
-If you decide to use somebody else's software to achieve a goal :
- . go through their license agreement
- . write your own solution from scratch to achieve the goal 
+If you decide to use somebody else's software to achieve a goal , decide on one of the following :
+  (a) go through their license agreement
+  (b) write your own solution from scratch to achieve the goal 
 
 _

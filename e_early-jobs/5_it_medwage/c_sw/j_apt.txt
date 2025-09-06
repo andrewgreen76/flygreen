@@ -1,0 +1,15 @@
+
+===================================================================================
+APT - LINUX'S PACKAGE MANAGER 
+===================================================================================
+
+ . apt install [package]
+ . apt remove [package]
+
+
+apt vs. apt-get :
+ . "`apt` is a newer, user-friendly command-line tool that combines and streamlines functions of older
+   commands like `apt-get` and `apt-cache`, while `apt-get` is the traditional package management tool
+   in Debian-based systems."
+
+_

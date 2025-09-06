@@ -1,0 +1,18 @@
+
+===================================================================================
+PROFESSINAL STANDARDS AND PRACTICES 
+===================================================================================
+
+ . Always UPDATE YOUR SOFTWARE. 
+
+
+ . RESTART THE COMPUTER whenever you remove a piece of software ; this way it gets completely flushed out
+     of the system. 
+
+
+ . QUESTION THE USE of somebody else's software :
+   . do research on the source of the software
+   . read its license agreement (incl. the warranty) 
+   . test it 
+
+_

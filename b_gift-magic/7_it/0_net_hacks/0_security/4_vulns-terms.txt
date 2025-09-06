@@ -1,4 +1,4 @@
-
+"
     Injection Attacks: Common examples include SQL injection, command injection, and format string injection, which occur when untrusted user input is directly used in constructing queries or command execution.
 
     Unvalidated Input: Failing to validate user input can lead to various security vulnerabilities, such as cross-site scripting (XSS) and cross-site request forgery (CSRF).
@@ -10,4 +10,11 @@
     Insecure Memory Management: Improper handling of memory allocation, deallocation, and pointers can result in memory leaks, use-after-free vulnerabilities, or other memory-related security issues.
 
 These vulnerabilities highlight the importance of secure coding practices, input validation, proper memory management, and adherence to secure programming guidelines to minimize the risk of security breaches and protect against potential exploits.
+"
 
+
+"
+ . A virus attaches to files or programs and spreads when they are executed,
+ . while a worm is a standalone program that self-replicates and spreads across networks without user action.
+"
+_

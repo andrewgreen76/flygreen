@@ -1,0 +1,25 @@
+
+===================================================================================
+LEGALLY PROTECTING YOUR WORK 
+===================================================================================
+
+Copyright :
+ . PROTECTING your own work (e.g., software) with a LICENSE that has TERMS OF USE 
+
+
+Commercial software license :
+ . they pay to use your software 
+
+
+Non-commercial software license :
+ . making it open-source 
+
+
+There is software that would require you to pay SEVERAL LICENSES.
+
+
+If you decide to use somebody else's software to achieve a goal :
+ . go through their license agreement
+ . write your own solution from scratch to achieve the goal 
+
+_

@@ -1,0 +1,14 @@
+
+Application software : 
+ . targets a specific need
+ . userspace-oriented
+
+
+System software :
+ . kernel-oriented
+
+
+Firmware :
+ . code on the ROM 
+
+_

@@ -1,0 +1,20 @@
+
+===================================================================================
+OTHER FACTS TO CONSIDER 
+===================================================================================
+
+Transactional user base :
+ . "... users who interact with a product or service mainly for single, short-term, or one-off transactions
+    rather than ongoing engagement or relationships."
+ . that's when you "break or build trust"
+
+
+Cc :
+ . a.k.a. carbon copy
+ . shows all recipients
+Bcc :
+ . a.k.a. blind carbon copy
+ . hides all recipients
+ . the idea is NOT TO DISCLOSE ADDESSES of others 
+
+_

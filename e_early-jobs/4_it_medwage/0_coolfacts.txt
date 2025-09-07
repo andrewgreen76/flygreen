@@ -19,5 +19,6 @@ OTHER THINGS ABOUT HAVING A ROLE IN IT
 
  . activities in IT are BECOMING MORE AND MORE REMOTE
  . you may end up SUPPORTING SOMEONE IN A DIFFERENT COUNTRY
+ . you'll have a ticket queue , so FCFS (first come , first serve) 
 
 _

@@ -22,10 +22,12 @@ BEFORE TROUBLESHOOTING ,
 
 Acknowledge the user.
  |
- . When you are troubleshooting , THEY MAY BE WONDERING ABOUT YOUR THOUGHT PROCESS.
- . REFLECT YOUR THOUGHT PROCESS TO THEM. Give the user a bit of a detail regarding what you are doing
- |   exactly. PROVE IT TO THEM THAT YOU KNOW WHAT YOU ARE DOING. 
+ . When you are troubleshooting , THEY MAY BE WONDERING ABOUT YOUR THOUGHT PROCESS. REFLECT YOUR THOUGHT
+ | PROCESS TO THEM. Give the user a bit of a detail regarding what you are doing exactly. PROVE IT TO THEM
+ | THAT YOU KNOW WHAT YOU ARE DOING. 
  |
- . During the call , KEEP THE USER UP TO DATE. 
+ . During the call , KEEP THE USER UP TO DATE.
+ |
+ . REFLECT THE VALUE IN THE INFORMATION THE USER PROVIDES to you. 
 
 _

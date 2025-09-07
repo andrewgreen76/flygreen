@@ -1,6 +1,8 @@
 
 -> Fibonacci Numbers
--> Binary Number Search 
+-> Binary Number Search
+-> practice arrays and keyboard response 
+-> 15-Tile 
 -> Word Search
 -> Snake
 -> Pong
@@ -22,8 +24,8 @@
     . sound
     . music
 -> text editor (term.emu standard) 
--> interpreter (first in Python , then in some other language) 
--> compiler
+-> interpreter (core and managers first in Python , then in some other language) 
+-> compiler (core and managers first in C , then in some other language) 
 ...
 -> something resume-worthy 
 

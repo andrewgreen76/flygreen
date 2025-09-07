@@ -7,7 +7,7 @@ inqcnt = 0
 u = 100
 l = 0
 #
-a = 72
+a = 17
 #####################################################################################
 def delay():
     t=0
@@ -19,10 +19,10 @@ def gencase(u,l,ref):
 
     print ("Let's try again")
     if a>ref:
-        print ("UPPER BOUND CHOSEN")
+        print ("UPPER HALF CHOSEN")
         half( u , ref )
     else:
-        print ("LOWER BOUND CHOSEN")
+        print ("LOWER HALF CHOSEN")
         half( ref , l )
 #####################################################################################
 def half( u , l ):
@@ -46,7 +46,7 @@ def half( u , l ):
     # Thinking and guessing : 
     delay()
     g=((u-l)//2)+l
-    print(f"g = ( ({u}-{l})//2) + {l}")
+    print(f"g = ( ({u}-{l})//2 ) + {l}")
     print (f">>> Guess: {g}")
     delay()
 

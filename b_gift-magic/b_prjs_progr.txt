@@ -1,5 +1,6 @@
 
 -> Fibonacci Numbers
+-> Binary Number Search 
 -> Word Search
 -> Snake
 -> Pong

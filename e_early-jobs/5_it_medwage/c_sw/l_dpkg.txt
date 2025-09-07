@@ -1,0 +1,23 @@
+
+===================================================================================
+SOFTWARE MANAGEMENT IN LINUX SYSTEMS 
+===================================================================================
+
+"
+`dpkg` is the low-level package manager for Debian-based systems that installs, removes, and manages `.deb` packages directly.
+"
+
+ -s	: search for the program - to see if it's set up 
+
+
+Updating is done with 'apt' :
+ . sudo apt-get install -f 
+
+===================================================================================
+RELATED INFO 
+===================================================================================
+
+"
+In `firefox-esr`, **-esr** stands for **Extended Support Release**, a version of Firefox that receives security updates but fewer feature changes for stability.
+"
+_

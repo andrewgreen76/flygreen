@@ -1,6 +1,15 @@
-for x in range(100):
-    for y in range(100):
-        #print('x: ', x)
-        #print('y: ', y)
-        print(x and y and (x in y) and (y in x) and (x[0] == y[-1]))
-        #print(f"{x and y and (x in y) and (y in x) and (x[0] == y[-1])}")
+inqcnt = 0
+u = 3
+l = 1
+# => guess space : [1-3] 
+a = 2
+
+def half( u , l )
+  inqcnt += 1
+  g==a	# check the special case
+    ? print inqcnt
+    : a <= g=(u-l)/2  
+      ? half( u , g ) 
+      : half( g , l )
+
+half()

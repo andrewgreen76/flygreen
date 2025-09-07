@@ -5,6 +5,16 @@ APT - LINUX'S PACKAGE MANAGER
 
  . apt install [package]
  . apt remove [package]
+ 
+ . sudo apt-get update 
+    . REFRESHES THE LOCAL PACKAGE INDEX - the lists of latest available versions of packages
+    . each of the common packages in Linux systems is in its own repository
+    . every Linux distro is able to track the age of and other info about each package/version
+    . with all this set up , a Linux distro does not have to pry answers out of the user with more prompts
+    . we say that "these repositories are up-to-date and all dependencies are fixed" (if that is really the case) 
+    
+ . sudo apt-get upgrade
+    . INSTALLS THE LATEST PACKAGES per the local package index 
 
 
 apt vs. apt-get :

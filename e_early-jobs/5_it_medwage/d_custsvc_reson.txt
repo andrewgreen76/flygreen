@@ -6,28 +6,44 @@ CUSTOMER SERVICE - POINTS OF RESONANCE
 Reflect empathy. 
  . Show that you can IMAGINE WHAT THE USER MUST HAVE BEEN THROUGH.
 For first-timers : 
- . "Missed some opportunities because of that ?"
+ . [for the worst-case scenario:] "Missed some opportunities because of that ?"
  . "Couldn't get some work done ?"
  . "You lost any work in the process ?"
-Repeat users : 
+ . "Probably setting you back by quite a bit."
+For repeat users : 
  . "Let me guess ..."
  . "Did you have to ... this time ?"
- -> "If I may." 
 
 
-BEFORE TROUBLESHOOTING ,
- . ask whether the user has communicated details regarding their problem previously to somebody else. 
- . saves the repetition on their part 
+BEFORE TROUBLESHOOTING, 
+ | 
+ . Ask whether the user has COMMUNICATED DETAILS REGARDING THEIR PROBLEM PREVIOUSLY to somebody else. (Saves the repetition.) 
+ . REFLECT THE VALUE IN THE INFORMATION THE USER PROVIDES to you. That includes A PERSONAL FACT. 
+ |
+ -> "If I may."
+ |
+ . VOCALIZE EVERY INTENTION you have for the device. 
+ . GET KEY INFORMATION ON THEIR DEVICE (platform , browser of choice , etc.) 
+ . ACCURATELY IDENTIFY THE ROOT CAUSE before fixing the issue ; separate your observations from what the user says. 
+ . skip the small talk 
 
 
 Acknowledge the user.
  |
- . When you are troubleshooting , THEY MAY BE WONDERING ABOUT YOUR THOUGHT PROCESS. REFLECT YOUR THOUGHT
- | PROCESS TO THEM. Give the user a bit of a detail regarding what you are doing exactly. PROVE IT TO THEM
- | THAT YOU KNOW WHAT YOU ARE DOING. 
+ . When you are troubleshooting , THEY MAY BE WONDERING about your thought process. REFLECT YOUR THOUGHT
+ |   PROCESS TO THEM. Give the user a bit of a detail regarding what you are doing exactly. PROVE IT TO THEM
+ |   THAT YOU KNOW WHAT YOU ARE DOING. 
  |
- . During the call , KEEP THE USER UP TO DATE.
+ . During the call , KEEP THE USER UP-TO-DATE.
  |
- . REFLECT THE VALUE IN THE INFORMATION THE USER PROVIDES to you. 
+ . skip the small talk 
+
+
+Final notes :
+ . reiterate the cause
+ . reiterate the solution
+ . clarify WHAT NEEDS TO BE DONE next
+ . clarify WHAT SHOULD **NEVER** BE DONE
+ . "Do you have any questions , concerns , or reservations about the solution ?" 
 
 _

@@ -1,12 +1,11 @@
 
 ===================================================================================
-MORE ON COMMUNICATION WITH USERS 
+MISCELLANEOUS COMMUNICATION TIPS 
 ===================================================================================
 
-Transactional user base :
- . "... users who interact with a product or service mainly for single, short-term, or one-off transactions
-    rather than ongoing engagement or relationships."
- . that's when you "break or build trust"
+An app "isn't working" :
+ . blank display
+ . the app is not responding to any user actions
 
 
 Cc :

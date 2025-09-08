@@ -1,0 +1,38 @@
+
+===================================================================================
+BUGZILLA 
+===================================================================================
+
+ . bug tracking , issue mgmt , [open-source]
+
+
+===================================================================================
+JIRA 
+===================================================================================
+
+ . issue-tracking tool , project-tracking tool , for agile software dev, [proprietary]
+
+Agile software development : 
+ . "... is an iterative approach that emphasizes FLEXIBILITY, COLLABORATION, and delivering SMALL, WORKING
+    INCREMENTS of software quickly."
+
+Iterative approach : 
+ . "... working in repeated cycles of planning, building, testing, and refining to gradually improve a result."
+ . chiseling with improvements 
+
+
+===================================================================================
+CONFLUENCE
+===================================================================================
+
+ . for documentation to be shared between teams 
+
+
+===================================================================================
+REDMINE
+===================================================================================
+
+ . issue-tracking tool , project-tracking tool , [open-source]
+ . "supports wikis, forums, and multiple project workflows" 
+
+_

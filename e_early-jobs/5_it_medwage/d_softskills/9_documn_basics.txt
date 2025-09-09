@@ -1,11 +1,17 @@
 
+===================================================================================
+DOCUMENTATION BASICS 
+===================================================================================
+
 ALWAYS DOCUMENT YOUR WORK
- |
  . sidenote : the necessity to document definitely applies to embedded engineering
  . this is why we have TICKETS / TICKETING SYSTEMS - for documenting issues in IT - not emails
- |
+
+
  . "Bug tracking with only emails isn’t scalable because issues become hard to organize, prioritize, search,
       and track across multiple users and projects."
+
+
  . "For something to **not be scalable** means it CANNOT HANDLE INCREASING WORKLOAD, growth, or demand
       efficiently without breaking down or requiring disproportionate resources."
 

@@ -1,0 +1,37 @@
+
+===================================================================================
+UPDATING THE TICKET 
+===================================================================================
+
+ . keeps the user in the know 
+ . helps you track and trace your steps
+ . with the root cause identified
+ . with documentation of what measures you have taken and what necessitated them
+ . with the solution that worked 
+
+
+===================================================================================
+DOCUMENTATION PRACTICES 
+===================================================================================
+
+The common sense of documentation :
+ . If no documentation was provided for recreating a solution , you did your absolute worst in documenting it.
+     Don't be lazy.
+     => it will lead to waste of somebody else's (and maybe even your own) time 
+ . update the documentation when fixing something that has gone through a change
+ . we should be able to recreate the solution for a recurring problem , so be very specific in the steps to do that 
+ . WRITE DOWN THE PROCEDURES AND POLICIES YOU FOLLOWED (a.k.a., documentation trail) - to save time in the future
+
+
+Other things to consider :
+ . add WHAT CAUSED THE ISSUE
+ . add WHY/HOW YOUR SOLUTION WILL WORK
+ . add HOW TO DEPLOY THE SOLUTION STEP-BY-STEP
+ . when a user starts a ticket and does not describe the issue well , you have to do it for them in the ticket's
+     documentation
+
+
+Audit trail :
+ . (in documentation) a reflection of what worked and what didn't 
+
+_

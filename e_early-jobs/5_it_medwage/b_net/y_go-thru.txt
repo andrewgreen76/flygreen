@@ -1,0 +1,10 @@
+
+Active Directory :
+ |
+ . "... Microsoft's directory service that manages users, computers, and resources within a Windows network
+ |  domain.”
+ |
+ . "A directory service is a centralized system that stores, organizes, and provides access to information
+    about users, devices, and resources on a network."
+
+_

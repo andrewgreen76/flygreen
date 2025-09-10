@@ -17,6 +17,15 @@ Networking : designing , building , and managing networks.
 INTERNET SERVICE PROVIDER 
 ===================================================================================
 
- . ex. : CenturyLink , Level 3 , Comcast , Telefonica 
+ . ex. : CenturyLink , Level 3 , Comcast , Telefonica
+
+
+===================================================================================
+MISCELLANEOUS QUESTIONS 
+===================================================================================
+
+What does it mean for a user to be unable to connect to the internal system ?
+ . "It means the user cannot establish access—due to network, authentication, or configuration issues—to
+    the organization’s private systems or resources."
 
 _

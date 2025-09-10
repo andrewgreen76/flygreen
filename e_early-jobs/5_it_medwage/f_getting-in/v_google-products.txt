@@ -1,0 +1,7 @@
+
+Look up Google’s physical products , see what kind of firmware they support : 
+
+    mobile devices / Android OS / Linux / firmware?
+    “Google’s devices use firmware such as Android-based bootloaders, embedded Linux variants, and custom microcontroller firmware for hardware components.”
+
+_

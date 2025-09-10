@@ -15,7 +15,13 @@ Resume basic :
 
 
 Other things :
- . don't forget to follow the templates included in this directory 
+ . don't forget to follow the templates/formats included in this directory
  . include all the certificates - and maybe trim off all the irrelevant ones
+ . IT IS OK to highlight your skills more than your work experience
+ . There is a format for that - "functional"/"skill-based" - and it can reflect your fit , so you may
+     have to follow that format. 
+
+
+Formats :
 
 _

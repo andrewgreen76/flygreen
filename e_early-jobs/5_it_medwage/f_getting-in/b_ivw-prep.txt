@@ -1,0 +1,37 @@
+
+===================================================================================
+PREPARATIONS - MOCK INTERVIEW WITH SOMEBODY 
+===================================================================================
+
+ . the goal is to be mentally prepared so that you are able to give concise answers on the spot calmly 
+ . Ask someone you know well who would be able and willing to devote time to do it ; they don’t necessarily
+     have to know the content. Just provide them with your resume. 
+   - prepare flash cards or a list of questions for them that you may be asked during the interview 
+   - “Why do you like IT?” 
+ . be ready for the “why” and the “how” on every subject 
+ . get used to explaining technical things in non-technical terms 
+ . have them throw troubleshooting scenarios at you , asking you to explain what you did when you fixed [something specific]
+
+
+===================================================================================
+PREPARATIONS - ELEVATOR PITCH 
+===================================================================================
+
+ . Write down your pitch , refine it regularly , then memorize it
+    . “… you want it to be so short that you can deliver it to someone that you are meeting in an elevator ride” 
+    - TWO SENTENCES 
+ . don’t show/“tell” them A MAGIC TRICK ; they will want it automated 
+ . show/“tell” them WHY THEY WILL NEED YOU EVERY TIME 
+ . tell them WHO YOU ARE - IN SHORT
+    - your current role 
+    - what you are passionate about , what you are about , what you do 
+ . why the other person should be interested in you : SHOW THEM WHY YOU WOULD PROVE TO BE USEFUL 
+    - ? finding FIRMWARE EXPLOITS on Google devices ? (Look into CVE?) 
+    - identifying inefficiencies and providing much smarter solutions 
+    - what you are looking for in your new role 
+ . YOUR PLAN : 
+    - what kind of CAREER YOU ARE LOOKING FOR 
+    - the steps you will take towards your ultimate professional goal 
+ . Be your authentic self 
+
+_

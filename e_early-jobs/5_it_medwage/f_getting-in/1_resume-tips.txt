@@ -3,7 +3,7 @@
 YOUR RESUME 
 ===================================================================================
 
-Resume basic : 
+Resume basics : 
  . include your up-to-date resume - on LinkedIn , etc.
  . your resume must REFLECT THE SAME BULLET POINTS AS THOSE IN THE JD
  . your resume must REFLECT ONLY THE THINGS THAT ARE RELEVANT to the position
@@ -11,7 +11,11 @@ Resume basic :
     . as much of relevant work as possible , but don't skip recent jobs
     . show relevant skills (". Attention to detail" , ". Fast learner" , etc.) 
  . look up the standard resume template
- . have somebody give feedback on your resume 
+ . have somebody give feedback on your resume
+ . Sell it to the recruiter that you are the right match for the position , not that you are looking
+     for work in any desired (e.g., technical) capacity or that you are just looking for a job. It’s
+     how you look your most professional.
+ . DON’T TARGET THE SPECIFIC FIELD ; TARGET THE ROLE. 
 
 
 Other things :
@@ -19,9 +23,19 @@ Other things :
  . include all the certificates - and maybe trim off all the irrelevant ones
  . IT IS OK to highlight your skills more than your work experience
  . There is a format for that - "functional"/"skill-based" - and it can reflect your fit , so you may
-     have to follow that format. 
+     have to follow that format.
+ . With Google (IT) : RELEVANT EXPERIENCE AND SKILLS > general work experience 
 
 
 Formats :
+ . Contact the company’s HR and ask them what resume format they want to see - since not all companies
+     are alike and they do not necessarily endorse the same resume format.
+ . Skill-based : 
+   - a brief summary of qualifications 
+   - reflect the value of every skill with quantifiable impact you made using it 
+   - only list tools and topics you actually know a fair deal about ; don’t list everything you have a marginal experience with 
+   Relevant work -oriented : 
+   - action + noun + quantified achievement 
+   - don’t pad the role you worked in with bullet points about minutia ; reflect your relevant strengths 
 
 _

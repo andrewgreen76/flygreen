@@ -22,9 +22,10 @@ Clients :
  -> the data makes it through the server's LAN , hen via the INternet , to the client's LAN
  -> the client receives the content 
 
-Nodes are not just servers and clients. 
-
-    they can be processes running on the same node as well 
+Node :
+ . a.k.a. network interface 
+ . nodes are not just servers and clients 
+ . they can be processes running on the same device as well 
 
 Most devices are not purely servers or clients ; they usually function as both. 
 

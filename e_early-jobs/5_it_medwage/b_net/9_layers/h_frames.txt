@@ -21,18 +21,17 @@ Data as structured information :
  |
  . they fit into one 6-byte field 
  
- . 7-8 bytes 	   - preamble		- v
- . 7-8 bytes 	   - preamble		- v
+ . 1500 bytes 	   - payload		- the data itself (containing data for all the layers) 
+ . 7-8 bytes 	   - FCS		- Frame Check Sequence 	        - the checksum value 
 
 
 ===================================================================================
-VLAN 
+CHECKSUM  
 ===================================================================================
 
- . "... lets you have multiple logical LANs operating on the same physical equipment."
- 
-Q : "What does it mean for something to be a logical LAN on a physical equipment ?"
-A : "It means the network is divided into separate virtual segments (logical LANs) that share the same physical
-     hardware but operate as independent networks."
+ . calculated from a cyclical redundancy check (CRC) against the frame
+ . CRC is used for data integrity in all sorts of applications , not just networking
+ . uses polynomial division
+ . reflects whether the data is not corrupted 
 
 _

@@ -16,6 +16,7 @@ NETWORKING DEVICES :
     - timing every transmission would have to be enforced
     => this slows down the LAN 
     - basically , A LAN WITH THROUGHPUT of the same data/packet WITH DISTRIBUTION OVERHEAD
+    . The collision is collision of current. Nothing electrically major , just delivery of garbage instead of clean data. 
     
     Switch : 
     - allows for NODE-TO-NODE transfer of packets 

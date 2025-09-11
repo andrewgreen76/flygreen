@@ -1,0 +1,38 @@
+
+===================================================================================
+THE MAKE-UP OF A FRAME 
+===================================================================================
+
+ . a data packet at layer 2
+
+
+Data as structured information :
+ |
+ . 7-8 bytes 	   - preamble		- alternating 1's and 0's	- as a buffer between frames
+       		     			  	      	      		- also used to adjust internal clock and transmission speed
+ . 1 byte 	   - SFD		- Start Frame Delimiter 	- tells the recipient when the preamble ends and body begins 
+ 
+ . 6 bytes 	   - dest MAC addr 
+ . 6 bytes 	   - src MAC addr
+ 
+ . 4 bytes 	   - VLAN header	- tells that the frame is a VLAN frame 
+ -OR-
+ . 2 bytes 	   - Ether-type field	- defines the protocol of the frame
+ |
+ . they fit into one 6-byte field 
+ 
+ . 7-8 bytes 	   - preamble		- v
+ . 7-8 bytes 	   - preamble		- v
+
+
+===================================================================================
+VLAN 
+===================================================================================
+
+ . "... lets you have multiple logical LANs operating on the same physical equipment."
+ 
+Q : "What does it mean for something to be a logical LAN on a physical equipment ?"
+A : "It means the network is divided into separate virtual segments (logical LANs) that share the same physical
+     hardware but operate as independent networks."
+
+_

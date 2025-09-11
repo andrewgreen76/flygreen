@@ -1,0 +1,17 @@
+
+===================================================================================
+ETHERNET :
+===================================================================================
+ 
+ . incl. a protocol for data delivery on LAN - from node to node VIA A (LOCAL) LINK
+ . born in 1980 , with standardization published in 1983
+ . solved the problem of collision domain with the method called "CARRIER SENSE MULTIPLE ACCESS WITH COLLISION
+     DETECTION" (CSMA CD)
+    . used to determine when the LAN channels are clear and the device is ready to send data
+    . COMPUTERS CAN DETECT COLLISION of transmitted data
+    . upon collision every local device will WAIT A RANDOM INTERVAL OF TIME THAT IS UNIQUE TO THE DEVICE before
+        those devices retransmit
+ . uses MAC addresses to log the sender and the recipient to ensure successful delivery
+    . this is especially helpful within collision domains 
+
+_

@@ -1,4 +1,8 @@
 
+Data packet
+ . an individual piece of data transmitted across any layer  
+
+
 ===================================================================================
 DATA LINK LAYER :
 ===================================================================================
@@ -8,14 +12,5 @@ DATA LINK LAYER :
  . incl. standards for TRANSLATING SIGNALS BETWEEN HARDWARE IN LAN DEVICES AND THE REST OF THE INTERNET/LAYERS 
  . works at LAN level with switches
  . addresses accounted for : MAC addresses
-
-
-===================================================================================
-ETHERNET :
-===================================================================================
- 
- . incl. a protocol for data delivery on LAN - from node to node VIA A (LOCAL) LINK
-
- . born in 1980 , with standardization published in 1983 
 
 _

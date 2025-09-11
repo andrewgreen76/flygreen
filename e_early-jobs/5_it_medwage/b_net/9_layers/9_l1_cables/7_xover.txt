@@ -1,0 +1,34 @@
+
+===================================================================================
+CROSSOVER CABLES 
+===================================================================================
+
+ . legacy enterprise tech
+ . new enterprise tech uses Auto Medium Dependent Interface Crossover (Auto-MDI/MDIX) technology
+
+
+Purpose of crossover cables : 
+ . for connecting to an enterprise networking equipment (switch , router , etc.)
+ . for performing admin tasks (updating , recovery , etc.) 
+
+       		  	         |
+	IT ADMIN SYS (LAPTOP)	 |	ENTERPRISE COMPUTER 
+	   	     		 |
+	Ethernet / NIC port	<->	management port
+		       		 |
+				 
+ . used to access the OS and/or the management interface
+ . can connect two routers , two PCs , or a router to a PC 
+
+
+Legend - for the T-568-A scheme :
+ |
+ . Endpoint 1 of the Ethernet cable:
+ |  . Pins 1 & 2 - Green wires for sending data
+ |  . Pins 3 & 6 - Orange wires for receiving data
+ |
+ . Endpoint 2 of the Ethernet cable:
+    . Pins 1 & 2 - Orange wires for sending data
+    . Pins 3 & 6 - Green wires for receiving data
+
+_

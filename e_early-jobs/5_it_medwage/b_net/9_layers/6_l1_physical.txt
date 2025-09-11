@@ -3,16 +3,10 @@
 PHYSICAL LAYER : 
 ===================================================================================
 
-    physical DEVICES for networking 
-    the standards for the physical design , performance , and compatibility requirements ; DESIGN EXPECTATIONS 
-    signal TRANSMISSION METHODS 
-    simplex = uni-directional communication 
-    duplex communication = bi-directional communication 
-    - 1-2 pairs are reserved for one direction 
-    full duplex : 
-    - reserve another 1-2 pairs for the other direction 
-    - and the devices will be able to send and receive data simultaneously 
-    half-duplex : 
-    - when the networking system detects poor communication between two nodes and forces them to take turns 
+ . LOCAL PHYSICAL DEVICES for networking 
+ . the standards for the physical design , performance , and compatibility requirements ; DESIGN EXPECTATIONS 
+ . incl. signal TRANSMISSION METHODS EXCLUSIVELY 
+ . cabling is an extension of the layer
+ . even cabling tools are an extension of the layer 
 
 _

@@ -1,0 +1,19 @@
+
+===================================================================================
+CONNECTORS AND PORTS 
+===================================================================================
+
+ . switches have many of those
+ . servers and desktops have 1-2 types of networking ports
+ . mobile devices do not have any 
+
+ . most common one - RJ45 (Register Jack 45)
+
+ . most ports have two small LEDs - the link light and the activity light
+    . link light on - both devices are powered on and connected
+    . activity light on - data is being transmitted
+ . other ports have one LED taking on both roles
+    . may even indicate other things (e.g., link speed)
+ . just read the documentation 
+
+_

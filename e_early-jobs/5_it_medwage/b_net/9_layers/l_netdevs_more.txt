@@ -7,18 +7,22 @@ NETWORKING DEVICES :
     - legacy tech (for the reasons below) 
     - layer 1 device (does not need a protocol and runs point independently) 
     - allows for connecting multiple computers to communicate at once 
-    - the sender device will transmit data to all hub-connected devices ; every individual recipient device will decide whether that data was meant for it 
-    network segment : a part of a LAN where devices share the same connection or packet-routing device 
-    collision domain : a network segment - a (hub-unified) part of LAN - where only one device can send data at a time ; otherwise, packets can come in conflict if sent simultaneously 
+    - the sender device will transmit data to all hub-connected devices ; every individual recipient device will decide whether that data was meant for it
+    
+    network segment : a part of a LAN where devices share the same connection or packet-routing device
+    
+    COLLISION DOMAIN : a network segment - a (hub-unified) part of LAN - where only one device can send data at a time ; otherwise, packets can come in conflict if sent simultaneously 
     - in the event of a conflict with a different packet, the client will have to send the request again
     - timing every transmission would have to be enforced
     => this slows down the LAN 
-    - basically , THROUGHPUT of the same data/packet IN LAN WITH DISTRIBUTION OVERHEAD  
+    - basically , A LAN WITH THROUGHPUT of the same data/packet WITH DISTRIBUTION OVERHEAD
+    
     Switch : 
     - allows for NODE-TO-NODE transfer of packets 
     - does so by reading the packet and “switching” it in the right direction 
     - collision domains are culled and simultaneous transmissions are allowed 
-    - layer 2 device (needs the Ethernet or the Wi/Fi protocol) 
+    - layer 2 device (needs the Ethernet or the Wi/Fi protocol)
+    
     Router
     - layer 3 device (needs the IP protocol) 
     - stores internal tables with routing info and rules 

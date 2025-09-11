@@ -1,0 +1,47 @@
+
+===================================================================================
+COMMON CABLING : 
+===================================================================================
+
+ . Ethernet over twisted-pair cables 
+ . using coaxial/fiber cables connected to the ISP
+ . can also provide telephone and television services 
+
+
+	ISP	<-> 	gateway modem  <---Ethernet cable-->	router/PC 
+
+
+===================================================================================
+COPPER CABLES - BASICS 
+===================================================================================
+
+    - modern devices send signals as 0’s and 1’s SERIALLY , with a component sending a 1 when sufficient voltage
+    has been fed internally 
+    
+Twisted pairs of copper wires in a plastic insulator (a.k.a. jacket) 
+ + twisted to curtail EMI , RFI , and crosstalk
+ + modern tech offers levels of such protection
+ + there are low-cost options
+ + thin , lightweight , and quite flexible yet relatively durable
+ + its frequency range is suitable for transmitting data and audio communications 
+    
+    constant conservation of charge , which **does NOT necessarily mean** constant current
+    
+    Modulation : 
+    - a method of varying the voltage
+    - for computer networks it’s LINE CODING
+    
+    - categories : Cat5 , Cat5e , Cat6 
+    - number of twists in a pair , transfer rates
+    - the arrangement of copper pairs determines transfer rate and resistance to ground interference
+    
+    - Cat5e handles crosstalk than Cat5 , which has been largely replaced
+    
+    - CROSSTALK : an electrical pulse on one wire is accidentally reflected on another wire
+    
+    - Cat6 : 
+    - + faster , more reliable transfer 
+    - - more expensive , shorter maximum distance at higher speeds 
+    - . typically four twisted pairs , but certain transmission technologies may have it different
+
+_

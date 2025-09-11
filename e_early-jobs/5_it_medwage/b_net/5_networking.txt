@@ -22,14 +22,18 @@ Clients :
  -> the data makes it through the server's LAN , hen via the INternet , to the client's LAN
  -> the client receives the content 
 
+Nodes are not just servers and clients. 
 
-===================================================================================
-SWITCHES VS. ROUTERS
-===================================================================================
+    they can be processes running on the same node as well 
 
- . a switch connects multiple devices to one LAN 
- . a router connects networks
- . "A hub ... connects multiple computers in a network and BROADCASTS INCOMING DATA TO ALL CONNECTED PORTS"
-    BY DEFAULT 
+Most devices are not purely servers or clients ; they usually function as both. 
+
+    The server to one device can be a client to another device. 
+    Ex. : the email server to you can be a client to a DNS server. 
+    We ascribe “server” or “client” to refer to the device’s primary purpose. 
+
+Network topography : 
+
+    the physical aspect of a network ; a piece of the Internet
 
 _

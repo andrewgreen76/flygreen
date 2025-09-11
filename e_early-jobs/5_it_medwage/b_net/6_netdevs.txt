@@ -1,0 +1,11 @@
+
+===================================================================================
+SWITCHES VS. ROUTERS
+===================================================================================
+
+ . a switch connects multiple devices to one LAN 
+ . a router connects networks
+ . "A hub ... connects multiple computers in a network and BROADCASTS INCOMING DATA TO ALL CONNECTED PORTS"
+    BY DEFAULT 
+
+_

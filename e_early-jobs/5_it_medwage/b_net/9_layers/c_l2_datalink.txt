@@ -1,0 +1,14 @@
+
+===================================================================================
+DATA LINK LAYER :
+===================================================================================
+
+    (a.k.a. network interface , network access layer) 
+    lowest protocols : Ethernet , Wi-Fi
+    incl. A STANDARD FOR TRANSLATING SIGNALS 
+    works at LAN level with switches 
+    Ethernet : 
+    - incl. a protocol for data delivery on LAN - from node to node VIA A (LOCAL) LINK
+    addresses accounted for : MAC addresses
+
+_

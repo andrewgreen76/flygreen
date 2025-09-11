@@ -1,9 +1,9 @@
 
 ===================================================================================
-IT TECH'S HABITS ON THE JOB 
+TROUBLESHOOTING BASICS 
 ===================================================================================
 
- . check the health of the connections : cables , switches , routers , hubs 
- . check the health of the end-user computers
+ . "Gathering information to identify the problem by asking the user questions should be the first step
+    when troubleshooting."
 
 _

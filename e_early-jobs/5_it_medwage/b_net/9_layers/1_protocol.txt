@@ -1,0 +1,22 @@
+
+===================================================================================
+PROTOCOLS
+===================================================================================
+
+A protocol is SOMETHING CONCEPTUAL AND REALIZED IN NETWORKING SYSTEMS - a set of rules and standards computers
+  must follow TO SEND EACH OTHER DATA THEY CAN UNDERSTAND. 
+
+
+Why have a protocol ? 
+ . DELIVERING PACKETS as efficiently as possible
+ . ensuring the packets are NOT INADVERTENTLY CORRUPTED along the way 
+ . ensuring the packets are NOT TAMPERED WITH
+ . ensuring the packets are CORRECTLY ROUTED 
+ . ensuring the packets are DELIVERED TO THE CORRECT DESTINATION 
+
+
+Computer networking :
+ . the field and the activities revolving around ALL COMMUNICATION METHODS
+ . involves repeating messages that were not fully delivered 
+
+_

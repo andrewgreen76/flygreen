@@ -1,0 +1,33 @@
+
+===================================================================================
+COPPER CABLES - TECHNOLOGIES 
+===================================================================================
+
+General :
+ . four pairs of color-coded twisted copper wires
+ . each pair : one solid and one striped
+
+Unshielded twisted pair (UTP)
+ . the most common
+ . least expensive
+ . in business and home networks
+ . some protection against EMI, RFI, and crosstalk interference. 
+
+Shielded twisted pair (STP)
+ . where EMI, RFI, and crosstalk are quite problematic
+ . "uses a BRAIDED ALUMINUM AND/OR COPPER SHIELDING to encase the four twisted pairs underneath the outer jacket" 
+
+Foiled twisted pair (FTP)
+ . where EMI, RFI, and crosstalk are quite problematic
+ . "uses A THIN FOIL SHIELD that wraps around the bundle of twisted pair wires underneath the outer jacket" 
+
+
+ . "The STP and FTP labels are often used interchangeably to reference shielded and/or foiled cables."
+
+
+Cabling for high-interference environments : 
+ . A shielded with foiled twisted pair (SF/FTP) :
+    . STP and FTP can be combined for greater protection
+ . each of the twisted pairs can have its own shielding , but that will make the cable more expensive 
+
+_

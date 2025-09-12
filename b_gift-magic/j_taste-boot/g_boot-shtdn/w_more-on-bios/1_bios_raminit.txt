@@ -1,0 +1,11 @@
+
+===================================================================================
+THE BEGINNING OF LIFE 
+===================================================================================
+
+"The first thing that POST in BIOS checks for is the presence and integrity of the system's memory (RAM).
+   ... the CPU executes the POST code directly from the BIOS ROM, using only its internal registers and
+   minimal stack space until RAM is tested and initialized. The minimal stack space comes from the CPU’s
+   internal registers or a small area of cache used as temporary storage before system RAM is initialized." 
+
+_

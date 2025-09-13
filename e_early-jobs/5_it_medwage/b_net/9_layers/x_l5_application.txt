@@ -1,0 +1,9 @@
+
+===================================================================================
+APPLICATION LAYER : 
+===================================================================================
+
+    app-specific protocols : HTTP , SMTP , DHCP , IMAP , POP3 , 
+    reflects the nature of the data - the contents of the packet 
+
+_

@@ -1,0 +1,34 @@
+
+===================================================================================
+PROTOCOLS - HALL OF FAME 
+===================================================================================
+
+TCP (Transmission Control Protocol) :
+ . has to do with RELIABLE DELIVERY
+ => works with routers 
+
+
+IP (Internet Protocol) : 
+ . deals with DELIVERING every packet TO ITS CORRECT DESTINATION 
+ . IP addresses can help with that
+ => works with switches 
+
+
+===================================================================================
+LATEST IP ADDRESS VERSIONS 
+===================================================================================
+
+IPv4 : 
+ . 32 bits are spent on representing XXX.XXX.XXX.XXX to cover over 4.3 billion addresses/devices.
+ . ex. : 127.0.0.1
+ . introduced in 1981 
+ . (as of 2025) still the most common IPv 
+
+
+IPv6 :
+ . 128 bits are to cover a humongous number of devices.
+ . XXXX:XXXX: ... :XXXX
+ . one way to cover much more than 4.3 billion devices
+ . steadily increasing in usage since 1996 
+
+_

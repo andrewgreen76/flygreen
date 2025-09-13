@@ -1,0 +1,31 @@
+
+===================================================================================
+IPv4 ADDRESSES : 
+===================================================================================
+
+    32 bits long , four octets (an octet is exactly 8 bits ; 0x00 -> 0xFF) expressed as decimals 
+    Dotted decimal notation 
+    IP addresses are easier to store 
+    assigned upon connection , not determined by hardware vendors like MAC addresses are 
+
+“What does it mean for IP addresses to be more hierarchical than MAC addresses?”
+
+    “It means IP addresses are structured in layers (network prefix and host part) that reflect network topology, while MAC addresses are flat identifiers unique to each device without inherent location information.”
+    i.e., MAC address - fixed ID unique to the device ; 
+    IP address - tells you how to find the device ; it’s more hierarchical = more high-level , more flexible than the “grounded” MAC addresses. 
+
+
+===================================================================================
+IP ADDRESS OWNERSHIP : 
+===================================================================================
+
+    IBM owns every IP address with ‘9’ for the first octet (e.g., 9.0.0.1) 
+    “The first octet only indicates the general address range (like Class A, B, or C in older notation) but does not by itself reveal ownership by a company like IBM.”
+    IP addresses **belong** to networks in spite of having been assigned to devices.
+
+“What does it mean for an IP address to belong to a network?”
+
+    The IP address will be tied not just to the device, but also to the network , and it is assigned by the network. 
+    A device can have a different IP address every time it connects to a network (even if it is the same network). 
+
+_

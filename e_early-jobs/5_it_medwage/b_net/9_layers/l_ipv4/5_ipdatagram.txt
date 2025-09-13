@@ -1,0 +1,54 @@
+
+IP datagram : 
+
+    made of (1) the header and (2) the payload 
+    structured as formally defined fields 
+    [add to repo : image of IP datagram header structure] 
+
+IP datagram header : 
+
+    bits 0-3 : IPv 
+    bits 4-7 : header length (usually 20 bytes in IPv4) 
+    - counts 32-bit words
+    - e.g., head.len = 5w => 5w * 4B = 20B
+    bits 8-15 : service type 
+    - specify type of QoS (quality of service) technology 
+    - can be used by routers to prioritize datagrams 
+    bits 16-31 : total length field 
+    ? the length of IP datagram (payload) ? 
+    - in bytes 
+    - max.len = 65,535 (64K) 
+    bits 32-47 : ID field 
+    - used to group pieces of a message together 
+    - if datagram payload > 64K , the router will break it up into pieces 
+    - the pieces will have the same ID value 
+    bits 48-51 : flag(s) field 
+    - whether datagram is fragmentation-friendly or already fragmented 
+    - fragmentation : 
+    - - this is different from the 64K-based splitting 
+    - - breaking up a datagram into several individual datagrams 
+    - - different networks allow for different IP datagram sizes 
+    - - this can be configured 
+    bits 52-63 : fragment(ation) offset 
+    - used by the recipient to put datagrams in the same transmission back together in the correct order 
+    bits 64-71 : TTL (Time To Live) 
+    - max router hops a datagram is allowed (before it is discarded) 
+    - TTL gets decremented 
+    - this is to avoid an infinite loop of routing the same packet due to a misconfiguration 
+    bits 72-79 : protocol field 
+    - holds a value signifying the type of transport layer protocol used for delivery (TCP or UDP) 
+    bits 80-95 : header checksum 
+    - checksum from the contents in the entire IP datagram header 
+    - because the TTL changes , so will the checksum 
+    bits 96-127 : src IP address 
+    bits 128-159 : dest IP address
+    bits 160-? : (IP) options field
+    - holds settings for diagrams used in testing procedures 
+    - varies in length 
+    bits 184-191 : padding with 0’s 
+
+IP datagram payload : 
+
+    v
+
+_

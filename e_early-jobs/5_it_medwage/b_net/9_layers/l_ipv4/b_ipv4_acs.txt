@@ -1,0 +1,23 @@
+
+Address class system : 
+
+    old system , widely used (CIDR - Classless Inter-Domain Routing - is replacing it)
+    ACS is only for the “global IP address space” (not MAC addresses) 
+    Each class represents a different kind of network. 
+    class A : 
+    - IP address = network ID (1st octet) + host ID (2nd , 3rd , 4th octets) 
+    - network ID starts with 0…
+    class B : 
+    - IP address = network ID (1st , 2nd octets) + host ID (3rd , 4th octets) 
+    - network ID starts with 10…
+    class C : 
+    - IP address = network ID (1st , 2nd , 3rd octets) + host ID (4th octets) 
+    - network ID starts with 110…
+    class D : 
+    - used in multicasting (datagram sent to all LAN nodes) 
+    - network ID starts with 1110…
+    class E : 
+    - IP addresses are unassigned and are used for testing procedures 
+    - a class will have a coverage of X IP addresses based on the number of BITS IN THE HOST ID 
+
+_

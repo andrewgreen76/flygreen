@@ -1,0 +1,12 @@
+
+DHCP (Dynamic Host Confuguration Protocol) : 
+
+    used for generating and assigning an IP address 
+    a DYNAMIC IP ADDRESS is generated
+    **typically** , dynamic IP addresses are reserved for clients 
+
+STATIC IP ADDRESS - configured on a node manually. 
+
+    **typically** reserved for servers and network devices 
+
+_

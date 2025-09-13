@@ -1,0 +1,11 @@
+
+===================================================================================
+FIBER(-OPTIC) CABLES : 
+===================================================================================
+
+    - contain hair-thin glass tubes 
+    - + great for getting around EMI 
+    - + faster transfer , greater maximum distance vs. copper wires 
+    - - expensive , fragile 
+
+_

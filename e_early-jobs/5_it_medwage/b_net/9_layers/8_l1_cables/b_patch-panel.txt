@@ -1,0 +1,10 @@
+
+===================================================================================
+PATCH PANELS IN INTERNET CABLING
+===================================================================================
+
+ . you can connect a device with a networking cable to an Ethernet socket in the wall
+ -> the port is connected to separate piece of equipment - called the PATCH PANEL - within your building
+ -> other cables connected to the patch panel will direct signals to switches / routers 
+
+_

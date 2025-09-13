@@ -1,0 +1,46 @@
+
+===================================================================================
+THE MAKE-UP OF A FRAME 
+===================================================================================
+
+ . a data packet at layer 2
+
+
+Data as structured information :
+ |
+ . 7-8 bytes 	   - preamble		- alternating 1's and 0's	- as a buffer between frames
+       		     			  	      	      		- also used to adjust internal clock and transmission speed
+ . 1 byte 	   - SFD		- Start Frame Delimiter 	- tells the recipient when the preamble ends and body begins 
+ 
+ . 6 bytes 	   - dest MAC addr 
+ . 6 bytes 	   - src MAC addr
+ 
+ . 4 bytes 	   - VLAN header	- tells that the frame is a VLAN frame 
+ -OR-
+ . 2 bytes 	   - Ether-type field	- defines the protocol of the frame
+ |
+ . they fit into one 6-byte field 
+ 
+ . 46-1500 bytes   - payload		- the data itself (containing data for all the layers) 
+ . 4 bytes 	   - FCS		- Frame Check Sequence 	        - the checksum value 
+
+
+===================================================================================
+CHECKSUM  
+===================================================================================
+
+a.k.a. frame check sequence 
+
+1. the checksum is calculated at the sender node and enclosed with the frame before the packet's transmission 
+2. the checksum is calculated again upon delivery to the recipient node 
+ . If the two answers do not match , the data is corrupted and will be discarded (and probably have to be
+ |   retransmitted). 
+ |
+ . this method is called a "CYCLICAL REDUNDANCY CHECK (against the frame/data)" , or CRC
+    . collects the data within the frame and uses it in a mathematical computation featuring polynomial division
+    . produces a checksum based on the frame's data 
+    . CRC is used for data integrity in all sorts of applications , not just networking
+
+In this way Ethernet deals with data integrity , NOT data recovery. 
+
+_

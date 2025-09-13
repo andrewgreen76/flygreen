@@ -1,0 +1,9 @@
+
+===================================================================================
+NETWORK TOPOLOGY : 
+===================================================================================
+
+ . “Network topology is the arrangement of how devices and connections are organized and structured within a network.”
+ . think proximity , optimal paths
+
+_

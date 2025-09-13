@@ -1,0 +1,24 @@
+
+We want successful delivery of a packet to the recipient. 
+
+=> The IP datagram must contain the MAC address of the recipient. 
+
+=> We must obtain the MAC address of the destination. How do we do that ? We need …
+
+ARP (Address Resolution Protocol) : 
+
+    a protocol where an IP address is resolved to the respective MAC address 
+    for the mapping we need an ARP table 
+    almost every networking device has its own ARP table 
+
+|
+
+If the sender doesn’t have an ARP entry / MAC address for the recipient with a known IP address , it will send a **broadcast ARP message** with the IP address to the **MAC broadcast address** - FF: FF: FF: FF: FF: FF. 
+
+-> All devices on the network will receive the message and the originally intended recipient will send an **ARP response** containing the MAC address. 
+
+|
+
+ARP entries expire after a short amount of time due to regular IP reassignments. 
+
+_

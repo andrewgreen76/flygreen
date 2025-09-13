@@ -1,0 +1,26 @@
+
+ . crimper :
+    . "To **crimp a wire** means to attach a connector by compressing it tightly onto the wire with a crimping tool,
+       ensuring a secure electrical and mechanical connection."
+    . also used for connecting wires 
+
+ . cable stripper
+ 
+ . Wi-Fi analyzer :
+    . specs out the Wi-Fi in the area
+
+ . toner probe :
+    . for finding Internet connectors
+
+ . punch-down tool
+    . connects wires to panels and jacks 
+
+ . a cable tester
+
+ . loopback plug :
+    . for testing ports
+
+ . network tap :
+    . copies traffic info for assessing the condition of networking devices 
+
+_

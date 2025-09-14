@@ -1,0 +1,15 @@
+
+===================================================================================
+VERILOG vs. SYSTEMVERILOG 
+===================================================================================
+
+ . "Verilog is a hardware description language for modeling digital circuits, while SystemVerilog extends it with
+    advanced features for design, verification, and object-oriented programming."
+
+ . "The popular go-to tool for writing Verilog code is the open-source **Icarus Verilog** paired with **GTKWave**
+    for waveform viewing."
+
+ . "The popular go-to tool for writing SystemVerilog code is Synopsys VCS, widely used for simulation and
+    verification in industry."
+
+_

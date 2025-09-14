@@ -1,8 +1,13 @@
 
+ . "... the Busicom 141-PF did not have separate component controllers; the Intel 4004 microprocessor itself
+      directly managed communication with the 4001 ROM and 4002 RAM chips."
  . "Typically, a memory controller has minimal processing capability for control logic but does not have
-    significant memory of its own; it primarily orchestrates access to external memory."
- . "No, the Busicom 141-PF did not have separate component controllers; the Intel 4004 microprocessor itself
-    directly managed communication with the 4001 ROM and 4002 RAM chips."
+      significant memory of its own; it primarily orchestrates access to external memory."
+ . "The processing ability for control logic in a microcontroller consists of simple, dedicated operations—like
+    timing, state management, and signal coordination—handled by hardware circuits rather than general-purpose
+      instruction execution."
+ . "The first memory controller is generally considered to be the one integrated into the Intel 8086’s
+      supporting chipset in 1978, which managed access to DRAM."
 
 
  . calc : |min model|---|max model|

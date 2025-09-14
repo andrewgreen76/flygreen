@@ -1,0 +1,32 @@
+
+===================================================================================
+CIDR (CLASSLESS INTER-DOMAIN ROUTING) 
+===================================================================================
+
+ . We totally could use the [networkID . subnetID . hostID] approach to routing packets.
+ . "Before this , if a company needed just a few more addresses than a single class C could provide , they could
+      upgrade to higher-class equipment or they'd need an entire class C" and you would need two individual ARP
+      tables to route any packet.
+ . If a company purchased equipment under a class that could cover a wide host IP address space , the routers would
+     have ARP tables with unused (read: wasted) IP addresses , which means a waste of hardware (read: RAM) resources. 
+ 
+
+The CIDR approach :
+  |
+  . allows for more FLEXIBILIY/BALANCE in terms of host IP address coverage needed for a business 
+  |
+  . this is where the /slash notation for subnetting comes in
+  . the octet format is not particularly useful now 
+  . the dots in an IP address are just there for reference at this point
+  . network classes are no longer needed
+  |
+  . ex.: xxx.xxx.xxx.xxx/xx 
+  |
+  . this is where we demarcate networks - give an idea numerically where one network ends and another begins 
+  . uses subnet masks for demarcating networks 
+  . [ {networkID.subnetID} . hostID]
+
+
+Every new network will actually lose two host IDs in its host IP address space - the 0 and the all-ones. 
+
+_

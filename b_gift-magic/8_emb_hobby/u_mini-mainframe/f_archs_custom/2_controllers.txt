@@ -6,8 +6,16 @@
  . "The processing ability for control logic in a microcontroller consists of simple, dedicated operations—like
     timing, state management, and signal coordination—handled by hardware circuits rather than general-purpose
       instruction execution."
+      
  . "The first memory controller is generally considered to be the one integrated into the Intel 8086’s
       supporting chipset in 1978, which managed access to DRAM."
+      
+ . "Designing a memory controller typically requires a small team of hardware engineers, often ranging from
+    a few individuals to a dozen depending on complexity."
+ . "A moderately complex microcontroller or FPGA-based system-on-chip block can often be designed by a single
+    engineer, while larger projects usually need a team."
+ . "Even a relatively simple microprocessor design can require a team of engineers, since it involves coordinated
+    work across architecture, verification, layout, and testing." 
 
 
  . calc : |min model|---|max model|

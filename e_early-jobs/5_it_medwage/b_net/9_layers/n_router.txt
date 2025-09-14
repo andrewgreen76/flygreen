@@ -1,0 +1,36 @@
+
+===================================================================================
+ROUTER IS :
+===================================================================================
+
+ - allows for ACCESS TO THE REST OF THE INTERNET 
+ - layer 3 device (needs the IP protocol) 
+ - stores internal tables with routing info and rules 
+ - home / small office routers : they direct requests out through the wider LAN
+
+
+===================================================================================
+TYPES OF ROUTERS :
+===================================================================================
+
+ (1) CORE (ISP) routers : more “central” to the Internet , forming its “backbone” , they are capable of
+     handling more traffic
+      |
+      . core-core-core
+      . core-core-gateway
+      . use the network ID in the address for routing the packets to the right neighboring router 
+
+
+ (2) "A GATEWAY (router) is a networking device that CONNECTS TWO DIFFERENT NETWORKS, often TRANSLATING
+      BETWEEN DIFFERENT PROTOCOLS or architectures so they can communicate."
+      . core-gateway-switch 
+      . use the host ID in the address to help the switch direct the packets to the right computer 
+
+
+===================================================================================
+BORDER GATEWAY PROTOCOL (BGP)
+===================================================================================
+
+ . a protocol that routers follow to learn about each other and thus optimize paths for future transmissions 
+
+_

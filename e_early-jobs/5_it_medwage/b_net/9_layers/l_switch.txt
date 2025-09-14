@@ -1,0 +1,13 @@
+
+===================================================================================
+SWITCH : 
+===================================================================================
+
+Switch :
+ - this device can figure out exactly who to send the packet to 
+   => allows for NODE-TO-NODE transfer of packets , eliminating packet distribution to all the other LAN devices 
+ - does so by reading the packet and “switching” it in the right direction 
+ - collision domains are culled and simultaneous transmissions are allowed 
+ - layer 2 device (needs the Ethernet or the Wi/Fi protocol)
+
+_

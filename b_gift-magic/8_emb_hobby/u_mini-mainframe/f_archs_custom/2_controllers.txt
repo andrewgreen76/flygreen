@@ -1,4 +1,10 @@
 
+ . "Typically, a memory controller has minimal processing capability for control logic but does not have
+    significant memory of its own; it primarily orchestrates access to external memory."
+ . "No, the Busicom 141-PF did not have separate component controllers; the Intel 4004 microprocessor itself
+    directly managed communication with the 4001 ROM and 4002 RAM chips."
+
+
  . calc : |min model|---|max model|
  |  . min model specs :
  |  . max model specs :

@@ -1,0 +1,36 @@
+
+===================================================================================
+SUBNET 
+===================================================================================
+
+ . a sub-network
+ . subnetting = a way of splitting a network into subnets
+ . a router alone (belonging to some class or another) cannot be connected to tons of devices given a large
+     IP address range , so that coverage needs to be broken up
+ => allows for more practical , more manageable routing 
+ . every subnet has its own gateway router
+ . core-(subnet)gateway-switch
+ . IP address = network ID + subnet ID + host ID 
+
+
+===================================================================================
+SUBNET MASK 
+===================================================================================
+
+ . used "to determine [whether] an IP address exists on the same network"
+ . used to bring out the subnet ID 
+ . 32-bit
+ . the subnet mask defines the size of subnet 
+ . common subnet mask = 255.255.255.0 = 11111111 11111111 11111111 00000000 
+   => 0-255 available for host IDs
+   . but 0 is never used
+   . 255 is reserved for the broadcast address for subnets 
+   => The rule is : we are left with 1-254 available for host IDs , or 256-2 total host IDs.
+      However , we still say that 2^x are available.
+
+
+The slash ('/') notation :
+ . ex.: 255.255.255.0   = 11111111 11111111 11111111 00000000 = /24
+ . ex.: 255.255.255.224 = 11111111 11111111 11111111 11111000 = /27
+
+_

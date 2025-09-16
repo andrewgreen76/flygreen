@@ -1,0 +1,38 @@
+
+===================================================================================
+ROUTING PROTOCOLS : 
+===================================================================================
+
+ . for learning about neighboring networks  through neighboring routers 
+ . for updating the routing table with shortest paths 
+
+
+Autonomous system : 
+ . networks collectively regulated by a network-operating organization 
+ . ex.: administered LANs 
+ . ex.: core routers 
+
+
+Interior gateway protocols :
+ |
+ . used by routers to share information within the same autonomous system 
+ . routers only have information on neighboring routers , not all the routers in the autonomous system
+ |
+ . (a) distance-vector protocols 
+       - older standard 
+       . every router shares its routing vector with the neighboring routers 
+       - because of this updating a routing vector in a router takes too long 
+ . (b) link state routing protocols 
+       . Each router shares the state of the link to each one of its own interfaces. This info is shared
+       	 with every router in the autonomous system. 
+       -> Then every router recomputes the shortest path to every destination network in the routing table
+       	  using sophisticated algorithms. 
+       + faster update time 
+       - requires more resources 
+
+
+Exterior gateway protocols : 
+ . used by **edge routers** to exchange information between autonomous systems (administered by different organizations) 
+ . an edge router connects a core router (in a cluster of interconnected core routers) to its own autonomous system
+
+_

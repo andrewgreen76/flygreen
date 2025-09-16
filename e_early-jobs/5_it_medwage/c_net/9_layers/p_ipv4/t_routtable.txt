@@ -1,0 +1,34 @@
+
+===================================================================================
+ROUTING TABLE : 
+===================================================================================
+
+ . a list of entries , structured as a vector in code 
+ . every router regularly updates its own routing table 
+
+
+Common constitution :
+ |
+ . destination network 
+    - logged as the network ID and the subnet mask 
+    - separately or in CIDR form 
+ . next hop : IP address of the next router for the packet to hit 
+ . total hops
+ . interface : IP address of the “outgoing” networking interface of the next router
+ |
+ . the exact make-up routing table depends on the make and class of the router 
+
+
+Additional notes : 
+ . in every entry the dest IP address is mapped to the networking interface of the next device that will receive the packet 
+ . every major OS has a routing table 
+ . core routers can have millions of entries 
+
+
+The shortest **available** path between a pair of two nodes can change regularly due to : 
+ . router malfunction or shutdown 
+ . breakage 
+ . new routers getting included 
+ . acknowledging traffic congestion 
+
+_

@@ -1,0 +1,30 @@
+
+===================================================================================
+WHAT DOES A ROUTER DO ?
+===================================================================================
+
+General case : 
+ . Packet sent to MAC address of the receiving interface on the router
+ . The router removes the Ethernet header and footer from the packet , leaving the data-link IP datagram (network layer content) 
+ . Reads the IP datagram header’s dest. IP field 
+ . Looks at the routing table for the computed shortest path , deduces which way the packet must go.
+|
+Special case :
+ . Looks up the IP address in its own ARP table and accounts for the corresponding MAC address 
+ . Copies the IP header from the IP datagram and overwrites the copy , decrementing the TTL field and recalculating the checksum 
+ . Copies the Ethernet header and overwrites the copy 
+ . - src = MAC address of the router’s sender network interface 
+ . - dest = MAC address of the recipient device 
+ . Encapsulates the IP datagram (header and payload) , placing the IP header at the beginning and the Ethernet header at the end , thus forming a packet 
+ . Sends it to the networking interface of the recipient 
+
+
+Typically , a packet travels through a dozen routers before reaching its final destination.
+
+Core routers are connected in a **mesh** , allowing a packet to take a different path in the event of a breakage of a shorter path. 
+
+What does it mean for an IP address to belong to a network, not to a node on the network ?
+ . "It means the IP address IDENTIFIES THE ENTIRE NETWORK SEGMENT (the network prefix) rather than a specific host
+    within that network."
+
+_

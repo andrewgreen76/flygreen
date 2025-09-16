@@ -1,0 +1,10 @@
+
+ . "IPv4 was introduced in 1981 with the publication of RFC 791."
+
+ . "An RFC (Request for Comments) is a formal publication by the IETF that describes standards, protocols,
+    procedures, or informational documents for the internet."
+
+ . "Yes, earlier RFCs like the one defining IPv4 were published by ARPA and its successors, and the IETF later
+    took over stewardship of the RFC series after its founding in 1986."
+
+_

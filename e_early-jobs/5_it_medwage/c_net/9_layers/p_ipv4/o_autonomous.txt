@@ -1,0 +1,11 @@
+
+===================================================================================
+AUTONOMOUS SYSTEMS : 
+===================================================================================
+
+Autonomous system : 
+ . networks collectively regulated by a network-operating organization 
+ . ex.: administered LANs 
+ . ex.: core routers 
+
+_

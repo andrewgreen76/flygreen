@@ -1,9 +1,9 @@
 
 IP datagram : 
 
-    made of (1) the header and (2) the payload 
+    made of (1) the header and (2) the payload (user content) 
     structured as formally defined fields 
-    [add to repo : image of IP datagram header structure] 
+
 
 IP datagram header : 
 
@@ -47,8 +47,8 @@ IP datagram header :
     - varies in length 
     bits 184-191 : padding with 0’s 
 
-IP datagram payload : 
 
-    v
+IP datagram payload : 
+ . user content 
 
 _

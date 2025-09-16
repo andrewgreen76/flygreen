@@ -9,4 +9,8 @@ Q : "What does it mean for something to be a logical LAN on a physical equipment
 A : "It means the network is divided into separate virtual segments (logical LANs) that share the same physical
      hardware but operate as independent networks."
 
+
+VLAN header:
+ . VLAN packet header , followed by the EtherType 
+ 
 _

@@ -1,0 +1,16 @@
+
+===================================================================================
+REQUEST FOR COMMENTS (RFC)
+===================================================================================
+
+ . A documentation series published by the Internet Engineering Task Force (IETF) "in collaboration with the
+    Internet Society (ISOC) and related bodies like the IAB"
+
+ . IETF is an open community ! 
+
+ . "... A NUMBERED DOCUMENT in the "Request for Comments" series that publishes internet STANDARDS, PROTOCOLS,
+    and related information."
+
+ . IETF , ISOC , and IAB - entities "responsible for keeping the Internet running". 
+
+_

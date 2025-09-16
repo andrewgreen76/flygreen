@@ -1,0 +1,13 @@
+
+===================================================================================
+IANA (INTERNET ASSIGNED NUMBERS AUTHORITY) :
+===================================================================================
+
+ . a non-profit organization
+ . helps manage IP address allocation
+ . deals with Autonomous System Number (ASN) allocation
+ . ASN - autonomous system identifier assigned by IANA
+    . 32-bit 
+    . just a single decimal number 
+
+_

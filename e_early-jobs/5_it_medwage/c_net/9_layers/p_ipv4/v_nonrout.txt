@@ -1,0 +1,28 @@
+
+RFC 1918 (1996) :
+ . outlined a list of networks as "non-routable address space"
+
+
+Some devices do not need to be connected to all of the Internet.
+
+
+===================================================================================
+NON-ROUTABLE ADDRESS SPACE :
+===================================================================================
+
+  . Devices with these addresses can communicate with one another on the same LAN but will not have a gateway
+      router , thus remaining isolated.
+  . dedicated exclusively to INTERNAL NETWORKING 
+  => CANNOT BE ROUTED TO
+  . FREE TO BE USED by anyone
+  |
+  . Network Address Translation (NAT) technology can help break those boundaries when the need arises. 
+
+
+Three primary ranges :
+ . 10.0.0.0/8 
+ . 172.16.0.0/12 
+ . 192.168.0.0/16 
+ . Internal gateway protocols WILL ROUTE to these address spaces ; external gateway protocols are not applicable. 
+
+_

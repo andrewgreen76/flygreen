@@ -5,13 +5,8 @@ ROUTING PROTOCOLS :
 
  . for learning about neighboring networks  through neighboring routers 
  . for updating the routing table with shortest paths 
-
-
-Autonomous system : 
- . networks collectively regulated by a network-operating organization 
- . ex.: administered LANs 
- . ex.: core routers 
-
+ . "implemented based on specifications published by the Internet Engineering Task Force (IETF)"
+ 
 
 Interior gateway protocols :
  |
@@ -21,18 +16,23 @@ Interior gateway protocols :
  . (a) distance-vector protocols 
        - older standard 
        . every router shares its routing vector with the neighboring routers 
-       - because of this updating a routing vector in a router takes too long 
+       - because of this updating a routing vector in a router takes too long
+       . ex.: RIP, or Routing Information Protocol (IETF RFC2453)
+       . ex.: EIGRP, or Enhanced Interior Gateway Routing Protocol (Cisco documentation)
  . (b) link state routing protocols 
        . Each router shares the state of the link to each one of its own interfaces. This info is shared
        	 with every router in the autonomous system. 
        -> Then every router recomputes the shortest path to every destination network in the routing table
        	  using sophisticated algorithms. 
        + faster update time 
-       - requires more resources 
+       - requires more resources
+       . ex.: "The most common link state protocol is OSPF, or Open Shortest Path First (IETF RFC2328)."
 
 
 Exterior gateway protocols : 
  . used by **edge routers** to exchange information between autonomous systems (administered by different organizations) 
  . an edge router connects a core router (in a cluster of interconnected core routers) to its own autonomous system
+ . the purpose of core routers is to get data from and feed data to edge routers
+ . There's only one - BGP, or Border Gateway Protocol (IETF RFC4271). 
 
 _

@@ -17,7 +17,7 @@ Data as structured information :
  
  . 4 bytes 	   - VLAN header	- tells that the frame is a VLAN frame 
  -OR-
- . 2 bytes 	   - Ether-type field	- defines the protocol of the frame
+ . 2 bytes 	   - EtherType field	- defines the protocol of the frame
  |
  . they fit into one 6-byte field 
  

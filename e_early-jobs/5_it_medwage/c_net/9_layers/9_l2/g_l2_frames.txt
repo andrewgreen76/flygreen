@@ -25,22 +25,7 @@ Data as structured information :
  . 4 bytes 	   - FCS		- Frame Check Sequence 	        - the checksum value 
 
 
-===================================================================================
-CHECKSUM  
-===================================================================================
-
-a.k.a. frame check sequence 
-
-1. the checksum is calculated at the sender node and enclosed with the frame before the packet's transmission 
-2. the checksum is calculated again upon delivery to the recipient node 
- . If the two answers do not match , the data is corrupted and will be discarded (and probably have to be
- |   retransmitted). 
- |
- . this method is called a "CYCLICAL REDUNDANCY CHECK (against the frame/data)" , or CRC
-    . collects the data within the frame and uses it in a mathematical computation featuring polynomial division
-    . produces a checksum based on the frame's data 
-    . CRC is used for data integrity in all sorts of applications , not just networking
-
-In this way Ethernet deals with data integrity , NOT data recovery. 
+Conclusion :
+ . an Ethernet frame is typically limited to 1518 bytes 
 
 _

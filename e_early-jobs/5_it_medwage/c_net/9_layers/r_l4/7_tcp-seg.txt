@@ -22,21 +22,45 @@ TCP SEGMENT HEADER :
  - at least 20 bytes: 
 
   Bits 0-15 - source port : 
-  - keeps connections for outgoing packets separate 
-  - ephemeral 
+  . keeps connections for OUTGOING PACKETS SEPARATE
+  . needed for receiving server-response packets 
+  . ephemeral 
   Bits 16-31- destination port : 
-  - server port 
-  Bits 32-63 - sequence number : 
-  Bits 64-95 - ackn number : 
-  Bits 96-99 - header length : 
-  Bits 100-105 - [empty] : 
-  Bits 106-111 - control flags : 
-  Bits 112-127 - window : 
-  Bits 128-143 - checksum : 
-  Bits 144-159 - urgent : 
-  |
-  (Bits 160-175 - options [if any] ) : 
-  (Bits 160-191) - padding : 
+  . server port 
+  Bits 32-63 - sequence number :
+  . indexes this TCP segment in a series of related TCP segments 
+  Bits 64-95 - ackn number :
+  . index of the next TCP segment 
+  Bits 96-99 - data offset field (TCP header length) :
+  . gives a clue for the actual location of the data payload 
+  Bits 100-105 - [ ? empty ? ] : 
+  Bits 106-111 - TCP control flags : 
+  . (so unused that it's not even relevant and kind of a waste ... maybe)
+  . used to prioritize certain segments 
+  . used with the urgent pointer 
+  Bits 112-127 - TCP window : 
+  . basically , tells how many related packets are sent before an acknowledgement is required 
+  . the range of sequence numbers in the series
+  Bits 128-143 - checksum
+
+
+  Bits 144-159 - urgent pointer :
+  . (so unused that it's not even relevant and kind of a waste ... maybe)
+  . used to prioritize certain segments 
+  . used with the TCP control flags 
+  (Bits 160-175 - options [if any] ) :
+  . used in more complicated protocols for flow control 
+  (Bits 160-191) - padding (just 0's) 
+
+
   Bits 192-223 - data payload 
+
+
+===================================================================================
+TCP ACKNOWLEDGEMENT : 
+===================================================================================
+
+ . to ensure all expected data is received
+ . to ensure that the sender isn't wasting time retransmitting packets 
 
 _

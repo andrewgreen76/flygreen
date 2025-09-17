@@ -3,17 +3,17 @@
 TRANSPORT LAYER : 
 ===================================================================================
 
-    concerned with RELIABLE DELIVERY with DATA INTEGRITY 
-    - error checking and data verification 
-    concerned with MATCHING PACKETS WITH RELEVANT PROCESSES on the receiving node 
+ . concerned with RELIABLE DELIVERY with DATA INTEGRITY 
+   . error checking and data verification 
+ . concerned with MATCHING PACKETS WITH RELEVANT PROCESSES on the receiving node 
 
-    determines WHICH PROGRAMS are to receive the data on the client/server end 
-    STEPS FOR “KNOCKING ON THE RIGHT DOOR” (in spite of what the layer is called) 
-    protocols : TCP , UDP 
-    - TCP : provides reliable delivery 
-    - UDP : user datagram protocol 
-    - it’s common to hear TCP/IP , but they are very much separable 
-    => UDP can work with IP 
+ . determines WHICH PROGRAMS ARE TO RECEIVE THE DATA on the client/server end 
+ . STEPS FOR “KNOCKING ON THE RIGHT DOOR” (in spite of what the layer is called) 
+ . protocols : 
+   . TCP : provides reliable delivery 
+   . - it’s common to hear TCP/IP , but they are very much separable 
+   . UDP : user datagram protocol 
+ . => UDP can work with IP 
 
 
 Service (server) : 

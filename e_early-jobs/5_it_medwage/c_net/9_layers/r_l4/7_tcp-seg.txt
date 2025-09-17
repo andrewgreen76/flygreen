@@ -1,0 +1,42 @@
+
+===================================================================================
+TCP SEGMENT : 
+===================================================================================
+
+ . TCP header 
+ . TCP payload = “message” = data placed by a process 
+
+
+===================================================================================
+EPHEMERAL PORT : 
+===================================================================================
+
+ . temporarily used by a client 
+ . allocated by the OS
+
+
+===================================================================================
+TCP SEGMENT HEADER : 
+===================================================================================
+
+ - at least 20 bytes: 
+
+  Bits 0-15 - source port : 
+  - keeps connections for outgoing packets separate 
+  - ephemeral 
+  Bits 16-31- destination port : 
+  - server port 
+  Bits 32-63 - sequence number : 
+  Bits 64-95 - ackn number : 
+  Bits 96-99 - header length : 
+  Bits 100-105 - [empty] : 
+  Bits 106-111 - control flags : 
+  Bits 112-127 - window : 
+  Bits 128-143 - checksum : 
+  Bits 144-159 - urgent : 
+  |
+  (Bits 160-175 - options [if any] ) : 
+  (Bits 160-191) - padding : 
+  Bits 192-223 - data payload 
+
+_

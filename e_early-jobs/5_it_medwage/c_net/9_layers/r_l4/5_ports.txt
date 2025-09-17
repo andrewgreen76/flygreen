@@ -1,0 +1,39 @@
+
+===================================================================================
+PORT 
+===================================================================================
+
+ . a 16-BIT VALUE
+ . tells how to direct packets to services (multiplexing traffic)
+ . tells how to receive and treat certain packets (demultiplexing traffic) 
+ . Servers listen to incoming requests in real time on ports.
+ . "... allows different applications or services on the same device to use the network simultaneously" -
+    - for a specific purpose. 
+
+
+Notation : [IP address:port] ; xxx.xxx.xxx.xxx:xx 
+ . a.k.a. socket address 
+ . a.k.a. socket number 
+ . Ex.: 10.1.1.100:80
+
+
+Port 80 : 
+ . using the HTTP protocol 
+ . WEBSITE content and functionality
+ . UNENCRYPTED packet traffic
+
+
+Port 21 : 
+ . FTP protocol 
+ . TRANSFERING FILES from one computer to another with the
+
+
+Port 25 : 
+ . SMTP protocol 
+ . for EMAIL servicing
+
+
+Port 9100 : 
+ . PRINTING service 
+
+_

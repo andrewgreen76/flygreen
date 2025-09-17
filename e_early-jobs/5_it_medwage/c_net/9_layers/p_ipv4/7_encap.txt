@@ -1,7 +1,20 @@
 
-Encapsulation : 
+===================================================================================
+ENCAPSULATION : 
+===================================================================================
 
-    Ethernet frame = the header + data payload (IP datagram) 
-    the IP datagram has a payload of its own - the packet (TCP/UDP) 
+ . Ethernet frame = the header + data payload (IP datagram) 
+ . the IP datagram has a payload of its own - the packet (TCP/UDP) 
+
+    Enternet frame > IP datagram > TCP/UDP segment > message]
+    Ethernet frame :
+    - header 
+    - payload = IP datagram
+    IP datagram : 
+    - header 
+    - payload = TCP/UDP segment 
+    Segment : 
+    - header 
+    - payload = message 
 
 _

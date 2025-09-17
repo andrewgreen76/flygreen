@@ -1,0 +1,14 @@
+
+Multiplexing traffic : 
+ . a sender node DIRECTS PACKETS to services on other nodes 
+
+
+Demultiplexing traffic : 
+ . the recipient node TAKES INCOMING PACKETS to specific processes 
+
+
+Thanks to multiplexing and demultiplexing one server machine can run all the applications for a small business.
+ . website content and functionality, email servicing, printing services, etc.
+ . once all the needed ports are included 
+
+_

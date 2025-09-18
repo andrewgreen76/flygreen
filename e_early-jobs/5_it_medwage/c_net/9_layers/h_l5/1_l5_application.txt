@@ -1,0 +1,23 @@
+
+Data types in networking : 
+ . webpage contents 
+ . streaming video content on an app 
+ . a document being sent to a device 
+
+
+===================================================================================
+APPLICATION LAYER : 
+===================================================================================
+
+ . concerned with TRANSLATING packets for client/server processes 
+ . application-specific protocols : HTTP , SMTP , DHCP , IMAP , POP3 , ...
+    . "STANDARDIZED ACROSS APPLICATION TYPES" (e.g., HTTP for web services)
+ . reflects the nature of the data - the contents of the packet 
+
+
+Recall that at the transport layer we only move TCP/UDP segments :
+ . TCP/UDP header
+ . payload = message = the data itself that one application process wants to send to another application process
+
+
+_

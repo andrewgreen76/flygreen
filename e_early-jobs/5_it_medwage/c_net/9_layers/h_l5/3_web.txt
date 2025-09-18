@@ -1,0 +1,19 @@
+
+===================================================================================
+WEB SERVERS 
+===================================================================================
+
+Most popular ones : 
+ . Microsoft IIS (Internet Information Services) - Windows servers 
+ . Apache - open-source and cross-platform HTTP web server 
+ . nginx :
+    . can function as the primary web server
+    . can function as a reverse proxy - forwarding client requests to backend servers
+       . "for load balancing, security, or caching"
+    . high-performance 
+    . compatible with a variety of web servicing protocols 
+
+
+Leading protocol : HTTP. 
+ 
+_

@@ -1,0 +1,28 @@
+
+"Local networking stack" : 
+ . a part of the OS
+ . used by a client application process (like a web browser) 
+
+
+===================================================================================
+NETWORK LAYER : 
+===================================================================================
+
+ . a.k.a. the Internet layer 
+ . node-to-node delivery ACROSS NETWORKS - not across a link 
+ . works with routers - devices that connect networks 
+ . DEFINITIVE PROTOCOL : IP - the heart of all internetworks
+ . addresses accounted for : IP addresses
+
+
+Internetwork : 
+ . networks connected together
+ . the Internet being the largest 
+
+
+Network software : 
+ . clients - send requests for data 
+ . servers - respond to those requests 
+ . a single (client/server) node can handle multiple applications (processes) at the same time 
+
+_

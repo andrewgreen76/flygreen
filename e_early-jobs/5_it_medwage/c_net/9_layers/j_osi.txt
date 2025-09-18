@@ -1,0 +1,28 @@
+
+===================================================================================
+THE OSI MODEL
+===================================================================================
+
+ . everything in that model is defined without any ambiguities
+ => used in academia and by network certification organizations
+
+
+The OSI model has seven layers :
+ |
+ . application :
+    . in the OSI model it merely deals with managing data processed at the presentation layer and feeds it to
+      applications 
+ . presentation :
+    . this implementation is a part of the OS 
+    . for formatting , translation , compression , and encryption 
+ . session
+    . this implementation is a part of the OS 
+    . takes the unencapsulated payload - application data - from the TCP segments' and feeds it to the
+      presentation layer 
+    . optimizes the workflow between the applications and the transport layer implementations
+ . transport
+ . network
+ . data link
+ . physical
+
+_

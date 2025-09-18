@@ -8,7 +8,9 @@ DATA LINK LAYER :
 ===================================================================================
 
  . (a.k.a. network interface , network access layer) 
- . has the lowest protocols : Ethernet , Wi-Fi
+ . has the "lowest" protocols
+    . Ethernet - the most common data link layer protocol 
+    . Wi-Fi and other wireless tech protocols 
  . incl. standards for TRANSLATING SIGNALS BETWEEN HARDWARE IN LAN DEVICES AND THE REST OF THE INTERNET/LAYERS 
  . works at LAN level with switches
  . addresses accounted for : MAC addresses

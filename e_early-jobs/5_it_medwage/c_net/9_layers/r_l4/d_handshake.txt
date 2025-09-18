@@ -1,0 +1,34 @@
+
+Handshake : 
+ . A way for two nodes to inform one another that they will indeed communicate using the same protocol. 
+
+
+===================================================================================
+TCP CONNECTION LIFETIME
+===================================================================================
+
+OPENING a connection - with a 3-way handshake (full duplex) :
+
+
+	sender 	--------[SYN=1]-----> 	recipient
+ 	 . Recipient reads the seq.num as the reference for the first segment in the transmission
+ 
+ 	sender 	<---[SYN=1, ACK=1]--- 	recipient
+ 	 . Recipient : “I’ve reserved resources.”
+	 
+  	sender 	--------[ACK=1]-----> 	recipient
+ 	 . Sender : “I’ve reserved resources.”
+
+
+Every subsequent segment sent must be reciprocated with a segment containing ACK=1. (This prevents retransmission.)
+
+
+CLOSING a connection - with a 4-way handshake :
+
+      	---[FIN=1]-->
+    	<--[ACK=1]---
+    	<--[FIN=1]---
+      	---[ACK=1]-->
+	 . God forbid if the second FIN is not ACK’d. Then you would have a simplex connection. 
+
+_

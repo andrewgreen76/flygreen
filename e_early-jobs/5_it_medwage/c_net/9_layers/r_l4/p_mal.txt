@@ -1,0 +1,26 @@
+
+Malicious actor :
+ . "an individual or entity that intentionally attempts to harm, exploit, or disrupt computer systems or networks"
+
+
+===================================================================================
+PORTS/SERVICES AS MALICIOUS ACTORS 
+===================================================================================
+
+ . sending malware
+ . scanning client ports for unsecured ports and/or vulnerabilities
+
+
+Unsecured port on the client's side : 
+ . does not require authentication
+ . a service on that port does not have to share its identity
+ => the client will unconditionally trust any service on that port , whether its a legitimate service , a malware
+    sender , or impersonator 
+
+
+Security :
+ . "Securing a port involves using firewalls, access controls, authentication, and encryption to restrict and
+    protect the data transmitted through that port."
+ . we say that "we are to secure ports" , not "we are to secure sockets"
+
+_

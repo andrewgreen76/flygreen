@@ -1,0 +1,34 @@
+
+Stateful link :
+ . accounts for socket states and data integrity
+ . "the system keeps track of the connection’s status and context, such as sequence numbers, acknowledgments,
+      or session information, throughout the communication" 
+ . ex.: half-duplex - transmitting in one direction at a time
+ . ex.: simplex - though one-way , it still accounts for socket states and data integrity 
+
+
+===================================================================================
+CONNECTION-ORIENTED PROTOCOLS 
+===================================================================================
+
+ . ex.: TCP
+ . meant for stateful links 
+ . Without it a single bad bit will render the entire chain of segments useless ... which is why we have RST. 
+ . all data is properly transmitted via a connection
+ . every segment is eventually acknowledged
+ |
+ . data is discarded per Ethernet and IP protocols (per a checksum)
+ . it's the TCP nodes that decide when to resend it (broken checksum is one reason)
+ |
+ . Without TCP traffic might not reach its destination due to :
+    . line errors (bits rendered bad mid-transmission)
+    . congestion - and your packets may get demoted
+    . broken fiber cable 
+
+
+See if your traffic is important enough to be worth the OVERHEAD : 
+ . establishing a connection
+ . cumulative ACK transmission
+ . closing the connection 
+
+_

@@ -10,6 +10,9 @@ Popular ways of CONNECTING A DEVICE TO A LAN :
  . Ethernet cable - wired
  . WiFi - wireless - using radios and antennas
  . fiber optic cable - wired
-    . because of great speeds that they offer they are highly priced 
+    . they generally connect ISPs
+    + great speeds
+    - highly priced
+    - can be easily broken     
 
 _

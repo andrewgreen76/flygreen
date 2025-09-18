@@ -1,0 +1,25 @@
+
+===================================================================================
+UDP TRANSMISSION LIFETIME
+===================================================================================
+
+ . unconditional simplex transmission ; no SYN or ACK , no handshakes 
+
+	node 1 	--------[]------->  node 2
+
+
+Common UDP ports :
+ . 53 (DNS)
+ . 67 and 68 (DHCP)
+ . 69 (TFTP)
+ . 123 (NTP)
+ . 161 (SNMP)
+
+
+Security issue :
+ . no built-in security
+ . for security - needs additional protocols :
+    . DTLS
+    . application-level encryption 
+
+_

@@ -1,0 +1,34 @@
+
+===================================================================================
+TYPES OF PORTS 
+===================================================================================
+
+ . broken into three categories - by IANA
+ . not all OS honor IANA's efforts
+ . "the IANA registry of assigned port numbers is the most reliable [documentation] for determining how
+    a specific port is [to be] used"
+
+
+System ports :
+ . 1-1023
+ . port 21 - FTP
+ . port 992 - Telnet over TLS/SSL
+ . most of these are still not assigned by IANA 
+ . modern OS do not use system ports for sending packets 
+
+
+User ports :
+ . 1024-49151
+ . vendors register these for services
+ . some are assigned (by IANA) , some aren't 
+
+
+Ephemeral ports :
+ . 49152-65535
+ . temporarily used exclusively by clients for private transfers 
+ . allocated by the OS
+ |
+ . a.k.a. dynamic ports 
+ . a.k.a. private ports
+
+_

@@ -8,14 +8,6 @@ TCP SEGMENT :
 
 
 ===================================================================================
-EPHEMERAL PORT : 
-===================================================================================
-
- . temporarily used by a client 
- . allocated by the OS
-
-
-===================================================================================
 TCP SEGMENT HEADER : 
 ===================================================================================
 
@@ -28,6 +20,8 @@ TCP SEGMENT HEADER :
   Bits 16-31- destination port : 
   . server port 
   Bits 32-63 - sequence number :
+  . helps with ordering segments (segments are sent but may not be received in the right order)
+  . helps with determining which segment needs to be resent 
   . indexes this TCP segment in a series of related TCP segments
   . "originates from a randomly chosen initial sequence number (ISN) set during the connection handshake,
      then increases by the number of bytes sent in subsequent segments"

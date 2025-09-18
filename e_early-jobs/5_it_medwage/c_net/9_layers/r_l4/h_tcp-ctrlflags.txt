@@ -8,7 +8,8 @@ TCP CONTROL FLAGS :
      . (URG = 1 : the segment is urgent and the urgent pointer can take you to info about this) 
  . ACK(nowledged)= 1 : 	ackn number (index of next seg) is yet to be examined 
  . PSH = 1 : 	     	sender wants recipient to move data out of the buffer to the relevant process ASAP 
- . RST (reset) = 1 : 	need to retransmit segments due to a missing or corrupted segment 
+       	       	   	 . i.e., it is used to GET THE LISTENING SERVICE TO RESPOND IMMEDIATELY 
+ . RST (reset) = 1 : 	need to retransmit segments due to a missing or corrupted segment
  . SYN(chronize) = 1 : 	used for establishing a new connection 
    		     	 . recipient needs to examine the sequence number field 
  . FIN(ish) = 1 : 	final segment 

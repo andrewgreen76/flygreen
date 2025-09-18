@@ -4,10 +4,11 @@ Handshake :
 
 
 ===================================================================================
-TCP CONNECTION LIFETIME
+TCP TRANSMISSION LIFETIME
 ===================================================================================
 
 OPENING a connection - with a 3-way handshake (full duplex) :
+ . using an initial TCP segment 
 
 
 	client 	--------[SYN=1 , client's ISN]-----> 	server
@@ -16,7 +17,7 @@ OPENING a connection - with a 3-way handshake (full duplex) :
  	client 	<---[SYN=1, ACK=1 , server's ISN]--- 	server
  	 . Server : “I’ve reserved resources.” 
 	 
-  	client 	--------[ACK=1]-----> 	server
+  	client 	---------------[ACK=1]-------------> 	server
  	 . Client : “I’ve reserved resources.”
 
 
@@ -31,14 +32,5 @@ CLOSING a connection - with a 4-way handshake :
       	---[ACK=1]-->
 	 . God forbid if the second FIN is not ACK’d. Then you would have a simplex connection (or more like
 	   half-duplex). 
-
-
-===================================================================================
-UDP CONNECTION LIFETIME
-===================================================================================
-
- . unconditional simplex transmission ; no SYN or ACK , no handshakes 
-
-	client 	--------[]------->  server
 
 _

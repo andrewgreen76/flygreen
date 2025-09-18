@@ -1,0 +1,32 @@
+
+[refresher] Port : 
+ . a specific number that represents a specific process/function 
+ . a value (1) in the memory of the communicating process and (2) in the packets 
+ . a value used for multiplexing (funneling) and demultiplexing (distribution between processes)
+
+
+===================================================================================
+TCP SOCKETS
+===================================================================================
+
+Instantiation : 
+ . implementation of something remote locally (no matter the context)
+
+
+Socket :
+ |
+ . PROCESS WITH A BUFFER for "virtual presence of the other side" 
+ . the OS is in charge of **binding every socket** with a specific [IP address:port]
+ => the socket can use the IP address and the port to send and receive segments 
+ . has its own "socket number" notation : [IP address:port] ; xxx.xxx.xxx.xxx:xx
+ |
+ . "instantiation of one endpoint on the other endpoint in a TCP connection"
+ . TCP sockets can only be instantiated by processes 
+ . opening a socket = instantiating a socket
+
+
+Jargon : 
+ . we say that “traffic can be sent to a port”
+ . we say that “a socket has to be opened on the node’s port for the other node to get a response” 
+
+_

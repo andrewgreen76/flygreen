@@ -1,0 +1,18 @@
+
+===================================================================================
+CONNECTIONLESS PROTOCOLS 
+===================================================================================
+
+ . ex.: UDP
+ . unconditional transmission
+ . data and connection integrity are not an issue
+ . just target a port and send your packet
+
+
+Ex.: video streaming with a connectionless protocol : 
+ . missing just a few frames is not a big deal
+ . doing away with the overhead of a connection-oriented protocol
+ => you get more bandwidth
+ => means you can get away with streaming a higher-quality video 
+
+_

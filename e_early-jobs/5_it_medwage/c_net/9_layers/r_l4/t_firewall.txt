@@ -1,0 +1,23 @@
+
+===================================================================================
+FIREWALL 
+===================================================================================
+
+ . can be a system , not necessarily exclusively software
+ . regarding opening a socket :
+    . conditions the client to follow rules for opening a socket on a port
+ . regarding incoming data :
+    . "blocks traffic that meets certain criteria"
+
+
+Firewalls can operate at different networking layers.
+ . we see them mostly at the transport layer 
+ . at the transport layer : can be blocking certain server IP addresses attempting to send segments to certain ports 
+
+
+Where are firewalls ? 
+ . firewalls are frequently run on clients
+ . all major modern OS have a firewall built in 
+ . firewall **and** routing functions are typically performed by a server
+
+_

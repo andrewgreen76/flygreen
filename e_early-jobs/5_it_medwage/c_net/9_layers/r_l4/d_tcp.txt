@@ -10,7 +10,8 @@ UDP PROTOCOL :
 TCP PROTOCOL : 
 ===================================================================================
 
- . sends multiple packets at once - unlike other protocols , which send individual packets separately
  . published in 1981 (in RFC 793)
+ . sends multiple packets at once - unlike other protocols , which send individual packets separately
+ . "connection-oriented" 
 
 _

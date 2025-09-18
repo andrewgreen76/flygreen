@@ -1,0 +1,8 @@
+
+===================================================================================
+BANDWIDTH
+===================================================================================
+
+ . "THE MAXIMUM RATE AT WHICH DATA CAN BE TRANSMITTED over a network or communication channel."
+
+_

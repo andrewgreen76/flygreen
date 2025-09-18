@@ -4,6 +4,7 @@ PORT
 ===================================================================================
 
  . a 16-BIT VALUE
+ => 65,536-1 ports addressable (1-65535) 
  . tells how to direct packets to services (multiplexing traffic)
  . tells how to receive and treat certain packets (demultiplexing traffic) 
  . Servers listen to incoming requests in real time on ports.
@@ -15,6 +16,7 @@ Notation : [IP address:port] ; xxx.xxx.xxx.xxx:xx
  . a.k.a. socket address 
  . a.k.a. socket number 
  . Ex.: 10.1.1.100:80
+ . can be assigned by an OS , manually configured , or hardcoded in the software 
 
 
 Port 80 : 

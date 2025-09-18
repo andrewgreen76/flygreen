@@ -1,0 +1,34 @@
+
+===================================================================================
+SOCKET STATES :
+===================================================================================
+
+	client								server
+	
+									LISTEN :
+									 . socket is open for requests
+									 . awaiting SYN
+ 	SYN_SENT : 
+ 	 . but a connection is not yet established
+	 . awaiting SYN/ACK	 
+									SYN_RECEIVED :
+									 . and SYN/ACK is sent
+									 . awaiting ACK
+									 
+	ESTABLISHED ::::::::::::::::::::::::::::::::: connection is good , at full duplex
+
+	FIN_WAIT    ::::::::::::::::::::::::::::::::: ACK for the FIN is not yet received 
+
+	CLOSE_WAIT  ::::::::::::::::::::::::::::::::: the connection is closed but not the local socket 
+
+	CLOSED      ::::::::::::::::::::::::::::::::: the connection is closed and so are the sockets 
+
+
+	Other socket states do exist. 
+
+
+Their names can vary from OS to OS.
+ . there is no one standard ("they exist outside of the scope of the definition of TCP itself")
+ . but the protocol is universal 
+
+_

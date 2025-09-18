@@ -10,14 +10,14 @@ TCP CONNECTION LIFETIME
 OPENING a connection - with a 3-way handshake (full duplex) :
 
 
-	sender 	--------[SYN=1]-----> 	recipient
- 	 . Recipient reads the seq.num as the reference for the first segment in the transmission
+	client 	--------[SYN=1 , client's ISN]-----> 	server
+ 	 . Server reads the client's seq.num - as the reference for the first segment in the transmission.
  
- 	sender 	<---[SYN=1, ACK=1]--- 	recipient
- 	 . Recipient : “I’ve reserved resources.”
+ 	client 	<---[SYN=1, ACK=1 , server's ISN]--- 	server
+ 	 . Server : “I’ve reserved resources.” 
 	 
-  	sender 	--------[ACK=1]-----> 	recipient
- 	 . Sender : “I’ve reserved resources.”
+  	client 	--------[ACK=1]-----> 	server
+ 	 . Client : “I’ve reserved resources.”
 
 
 Every subsequent segment sent must be reciprocated with a segment containing ACK=1. (This prevents retransmission.)
@@ -29,6 +29,16 @@ CLOSING a connection - with a 4-way handshake :
     	<--[ACK=1]---
     	<--[FIN=1]---
       	---[ACK=1]-->
-	 . God forbid if the second FIN is not ACK’d. Then you would have a simplex connection. 
+	 . God forbid if the second FIN is not ACK’d. Then you would have a simplex connection (or more like
+	   half-duplex). 
+
+
+===================================================================================
+UDP CONNECTION LIFETIME
+===================================================================================
+
+ . unconditional simplex transmission ; no SYN or ACK , no handshakes 
+
+	client 	--------[]------->  server
 
 _

@@ -28,7 +28,11 @@ TCP SEGMENT HEADER :
   Bits 16-31- destination port : 
   . server port 
   Bits 32-63 - sequence number :
-  . indexes this TCP segment in a series of related TCP segments 
+  . indexes this TCP segment in a series of related TCP segments
+  . "originates from a randomly chosen initial sequence number (ISN) set during the connection handshake,
+     then increases by the number of bytes sent in subsequent segments"
+  . "A TCP connection actually has two initial sequence numbers - one chosen by the client and one by the
+     server - since EACH DIRECTION OF COMMUNICATION MAINTAINS ITS OWN SEQUENCE SPACE."
   Bits 64-95 - ackn number :
   . index of the next TCP segment 
   Bits 96-99 - data offset field (TCP header length) :

@@ -1,0 +1,28 @@
+
+===================================================================================
+DNS (DOMAIN NAME SYSTEM) : 
+===================================================================================
+
+ . resolves (translates) individual strings - domain names - into IP addresses
+ . A GLOBAL service
+ 
+ . just as with IP addresses for clients , IP addresses for servers that support domain names also change 
+    . potential reason : the server was moved from one data center to another
+    
+ . (The closer you are to the data center of a certain company , the quicker it will be for you to access their services.) 
+
+
+===================================================================================
+DNS (DOMAIN NAME SYSTEM) : 
+===================================================================================
+
+DHCP (Dynamic Host Configuration Protocol) :
+ . a technology that assigns an IP address automatically to a new device 
+ . an application layer protocol
+ . automates the configuration process of hosts on a network
+
+
+Dynamic IP address:
+ . an IP address assigned automatically to a device through DHCP 
+
+_

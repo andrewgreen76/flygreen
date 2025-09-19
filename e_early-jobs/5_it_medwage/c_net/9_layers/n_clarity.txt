@@ -1,0 +1,32 @@
+
+===================================================================================
+IP ADDRESS vs. MAC ADDRESS - IN PRACTICE 
+===================================================================================
+
+Remember :
+ . only the IP address (format) is useful for routing in the right direction
+ . the MAC address doesn’t have the format 
+
+
+Remember :
+ . the MAC address , not the IP address , specifies the device for packet delivery
+ . the IP address for the self-same destination device can change regularly , so it needs to be mapped per the
+   ever-changing ARP tables 
+    . because a LAN can only afford up to a limited number of devices connected together
+    . IP addresses are (re)assigned upon connection. This is why routing/ARP table entries change all the time.
+
+
+Remember :
+ . IP address - routing
+ . MAC address - device targeting 
+
+
+===================================================================================
+OTHERS 
+===================================================================================
+
+Remember :
+ . every client , just like a router , has its own ARP table 
+ . the ARP table allows for “configuring” the client 
+
+_

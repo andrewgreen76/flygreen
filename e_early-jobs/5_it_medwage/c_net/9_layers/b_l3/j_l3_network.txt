@@ -1,7 +1,8 @@
 
-"Local networking stack" : 
+Networking stack : 
  . a part of the OS
- . used by a client application process (like a web browser) 
+ . implementation of all the networking functions for every client application process (like a web browser)
+ . ex.: getting the IP address of an interface , aiding in transmission of a broadcast ARP message , etc. 
 
 
 ===================================================================================

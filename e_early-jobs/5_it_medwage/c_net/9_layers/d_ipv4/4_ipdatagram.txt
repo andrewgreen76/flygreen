@@ -34,7 +34,8 @@ IP datagram header :
     bits 64-71 : TTL (Time To Live) 
     - max router hops a datagram is allowed (before it is discarded) 
     - TTL gets decremented 
-    - this is to avoid an infinite loop of routing the same packet due to a misconfiguration 
+    - this is to avoid an infinite loop of routing the same packet due to a misconfiguration
+    - typical value : 64 hops 
     bits 72-79 : protocol field 
     - holds a value signifying the type of transport layer protocol used for delivery (TCP or UDP) 
     bits 80-95 : header checksum 

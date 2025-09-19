@@ -1,0 +1,11 @@
+
+===================================================================================
+ACK TIMERS 
+===================================================================================
+
+"For every segment received and accounted for within the TCP window field the recipient must respond with a segment
+ containing the corresponding acknowledgment number. If the sender does not get a segment with the acknowledgment
+ number corresponding to a specific segment within a certain period of time (based on a timer), the sender should
+ deem the segment missing and [...] retransmit it."
+
+_

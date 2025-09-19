@@ -12,6 +12,8 @@ TCP PROTOCOL :
 
  . published in 1981 (in RFC 793)
  . sends multiple packets at once - unlike other protocols , which send individual packets separately
- . "connection-oriented" 
+ . "connection-oriented"
+ . staples of TCP : ACKnowledgements , checksums , sequence numbers (for reordering) , ackn.numbers and timers
+     (for retransmission of lost segments) 
 
 _

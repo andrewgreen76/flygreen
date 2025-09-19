@@ -1,0 +1,10 @@
+
+A segment is missing :
+ . the recipient will fail to reciprocate with a segment with an ACK=1 within a certain period of time per a timer
+ . the sender will retransmit
+
+
+A segment is corrupt : 
+ . the recipient will send a segment with a PSH=1 , telling the sender to retransmit the entire chain of related segments 
+
+_

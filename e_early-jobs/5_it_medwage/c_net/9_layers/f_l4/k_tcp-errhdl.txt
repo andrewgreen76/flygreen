@@ -7,4 +7,14 @@ A segment is missing :
 A segment is corrupt : 
  . the recipient will send a segment with a PSH=1 , telling the sender to retransmit the entire chain of related segments 
 
+
+Q : "Could you elaborate a bit on why TCP's specific mechanisms (like sequencing, acknowledgments, and retransmissions)
+|    are so vital for handling medical records? What specific problems would arise if, for instance, a medical record
+|    was transferred using a connectionless protocol like UDP, and some data was lost or arrived out of order?"
+|
+A : "These mechanisms promise data integrity and reliability. A failure in these mechanisms would mean receiving bad
+     or corrupt data about a patient. The recipient device has to make sense of the received segments to put together
+     user-friendly cohesive information about the needs of a patient. With a connectionless protocol the recipient
+     medical office would not get coherent data and, ergo, assist their patient."
+
 _

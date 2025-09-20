@@ -1,5 +1,12 @@
 
-DNS is structured hierarchically. There are five types of DNS servers (like layers/levels of deeper queries). 
+DNS is structured hierarchically. There are five types of DNS servers (like layers/levels of deeper queries).
+
+.	.	.	.	.	.	.	.
+		
+ . cache/recurs ---------[domain name]-------->	root servers
+ . cache/recurs <------[TLD/name server]-------	root servers
+ . cache/recurs -----[requesting this TLD]---->	TLD servers
+ . cache/recurs <-[authoritative name server]--	TLD servers
 
 
 ===================================================================================
@@ -49,6 +56,8 @@ TLD and TLD name servers :
 
 -----------------------------------------------------------------------------------
 Can you feel the digital/networking bureaucracy creeping in?
+ . hierarchy ~ bureaucracy
+ . helps with getting accurate , not malicious , DNS lookups 
 -----------------------------------------------------------------------------------
 
 authoritative name servers : 
@@ -61,5 +70,13 @@ The truth is a DNS server can perform SEVERAL OF THESE ROLES AT ONCE (with only 
 
 “DNS resolution follows a hierarchical tree structure, starting from the root servers down through TLD servers
  to authoritative servers.”
+
+
+===================================================================================
+MALICIOUS PARTIES  
+===================================================================================
+
+"They are out there, and they are out there to "redirect DNS query traffic to mislead users into visiting
+fraudulent or harmful sites instead of the intended legitimate ones."
 
 _

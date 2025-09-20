@@ -1,0 +1,29 @@
+
+DNS typically uses UDP, but given the right circumstances a TCP connection would have to be established. 
+
+===================================================================================
+WHY DNS USES UDP :
+===================================================================================
+
+ . helps with the massive traffic of full DNS resolutions, which would be a challenge with TCP and its overhead
+ |
+ . a single UDP datagram is enough for a single request => the request datagram can be unconditionally sent 
+ . a single UDP datagram is enough for a single response => the response datagram can be unconditionally sent
+ . all parties involved in the full DNS resolution are trusted
+ |
+ - you might fail to send/receive a datagram or receive a bad datagram
+ => integrity does not seem to be an issue 
+ => it looks like IP address lookups are trivialized by design
+ => {speed, trust} > {success of transmission} 
+
+
+Compare this to multiplayer gaming : 
+ . "... while many games use UDP for real-time communication due to its low latency, some also use TCP for
+    reliability and control data."
+ . "Control data is information exchanged between systems to manage, coordinate, or maintain a connection, rather
+    than carrying the main content or payload."
+ . "Multiplayer gaming communication often uses **UDP** instead of TCP to prioritize low latency over guaranteed
+    delivery."
+ => {uninterrupted gaming experience} > {speed}
+
+_

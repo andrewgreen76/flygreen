@@ -1,0 +1,15 @@
+
+===================================================================================
+RESOURCE RECORD TYPE: CNAME
+===================================================================================
+
+ . resolves one domain to another (more widely accepted) domain 
+
+	[this.com] ---> [www.this.com]
+	[www.this.com] ---> [IP address]
+
+
+This is great because this way the IP address, when it has to change, will change only in one place - the CNAME
+  record on the authoritative name server's end. 
+
+_

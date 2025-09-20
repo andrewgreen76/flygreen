@@ -8,8 +8,8 @@ PORT
  . tells how to direct packets to services (multiplexing traffic)
  . tells how to receive and treat certain packets (demultiplexing traffic) 
  . Servers listen to incoming requests in real time on ports.
- . "... allows different applications or services on the same device to use the network simultaneously" -
-    - for a specific purpose. 
+ . "... allows different applications or services on the same device to use the network simultaneously" 
+ => every protocol gets its own port 
 
 
 Notation : [IP address:port] ; xxx.xxx.xxx.xxx:xx 
@@ -36,6 +36,10 @@ Port 25 :
 
 
 Port 9100 : 
- . PRINTING service 
+ . PRINTING service
+
+
+Port 53 :
+ . domain name resolution 
 
 _

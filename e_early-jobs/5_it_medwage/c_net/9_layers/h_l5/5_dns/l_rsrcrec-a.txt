@@ -1,0 +1,50 @@
+
+"A resource record (RR) is a fundamental data entry in the DNS that maps a domain name to information such as an
+ IP address, mail server, or alias."
+
+
+===================================================================================
+RESOURCE RECORD TYPE: A
+===================================================================================
+
+ . the one we assumed and allows for much simpler discussions about DNS 
+ . resolves a domain name to one of several listed """IPv4"""addresses that will provide the same content/data 
+
+	[domain name www.this.com] ---> [IPv4 address 1]
+    	[domain name www.this.com] ---> [IPv4 address 2]
+    	...
+
+ . A list like this is logged in something called a ZONE FILE, stored on the disk of an authoritative name server. 
+
+The mapping to multiple IP addresses helps break up and distribute traffic - a technique called "DNS round robin".
+ . round robin : "iterating over a list of items one by one in an orderly fashion"
+ . When a DNS resolver asks for mapping to an IP address, a server would respond with the entire pre-configured
+     list of IP addresses, not just the first entry. If for some reason trying the first IP address is a bust,
+     the client will try the next one.
+
+    	xxx.xxx.xxx.1
+	xxx.xxx.xxx.2 <-
+	...
+
+
+===================================================================================
+TO BE INVESTIGATED 
+===================================================================================
+
+Account 1: 
+
+ -> The next DNS resolver would be led to the next IP address on the list because by then the list will have been
+    reconfigured on the authoritative name server's end. The first entry would be dequeued and then enqueued to
+    the same list in the zone file. 
+
+	xxx.xxx.xxx.2 <-
+	xxx.xxx.xxx.3
+	...
+    	xxx.xxx.xxx.1
+
+
+Account 2:
+
+ . The list in the zone file in the authoritative name server will not be updated upon every query. 
+
+_

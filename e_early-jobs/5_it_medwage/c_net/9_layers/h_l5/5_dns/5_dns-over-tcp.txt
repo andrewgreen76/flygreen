@@ -1,0 +1,15 @@
+
+===================================================================================
+WHY DNS USES TCP :
+===================================================================================
+
+ . for when a DNS lookup response cannot fit within a single datagram
+ . "A DNS lookup can be too large for a single datagram when the response data (such as many records, long TXT
+ |  records, or DNSSEC information) exceeds the typical UDP size limit of 512 bytes (or larger EDNS0 extensions)."
+ . "Even when a client only asks for an IP address, the DNS response can exceed a single datagram if the domain
+ |  has many associated records (e.g., multiple A/AAAA records, CNAME chains, or DNSSEC signatures)."
+ |
+ . the caching/recursive name server will sent a UDP packet explaining this situation to the client 
+ . the client will then resort to establishing a TCP connection with the caching/recursive name server 
+
+_

@@ -1,0 +1,12 @@
+
+===================================================================================
+RESOURCE RECORD TYPE: AAAA (QUAD A)
+===================================================================================
+
+ . for resolutions to """IPv6""" addresses
+ 
+    	[domain name www.this.com] ---> [IPv6 address 1]
+    	[domain name www.this.com] ---> [IPv6 address 2]
+	...
+
+_

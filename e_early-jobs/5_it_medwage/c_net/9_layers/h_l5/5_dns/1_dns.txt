@@ -1,34 +1,20 @@
 
-===================================================================================
-DOMAIN NAME : 
-===================================================================================
-
+Domain name : 
  . a web address as an individual string
 
-
 ===================================================================================
-DNS (DOMAIN NAME SYSTEM) : 
+DNS (DOMAIN NAME SYSTEM) - BASICS : 
 ===================================================================================
 
- . resolves (translates) domain names into IP addresses
+ . a tree of servers 
  . A GLOBAL service
- 
- . just as with IP addresses for clients , IP addresses for servers that support domain names also change 
-    . potential reason : the server was moved from one data center to another
-    
- . (The closer you are to the data center of a certain company , the quicker it will be for you to access their services.) 
-
-
-===================================================================================
-DHCP (DYNAMIC HOST CONFIGURATION PROTOCOL) :
-===================================================================================
-
- . a technology that assigns an IP address automatically to a new device 
- . an application layer protocol
- . automates the configuration process of hosts on a network
-
-
-Dynamic IP address:
- . an IP address assigned automatically to a device through DHCP 
+ . for resolving (translating) domain names into IP addresses
+ => users don't have to memorize the numerical IP addresses or configure things themselves 
+ . port 53 
+ |
+ . The closer you are to the data center of a certain company, the quicker it will be for you to access their services.
+ . Just as with IP addresses for clients, IP addresses for servers that support domain names also change. 
+    . potential reason : the server was moved from one data center to another 
 
 _
+

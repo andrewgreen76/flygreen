@@ -1,0 +1,14 @@
+
+===================================================================================
+DHCP (DYNAMIC HOST CONFIGURATION PROTOCOL) :
+===================================================================================
+
+ . a technology that assigns an IP address automatically to a new device 
+ . an application layer protocol
+ . automates the configuration process of hosts on a network
+
+
+Dynamic IP address:
+ . an IP address assigned automatically to a device through DHCP 
+
+_

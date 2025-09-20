@@ -7,55 +7,59 @@ TYPES OF DNS SERVERS
 ===================================================================================
 
 caching name servers : 
-
-    store (least recent) resolutions locally , making it easy for the resolver to get the IP address
-    helps with the plodding resolution overhead
-    provided by ISP or LAN 
-    they can also become recursive name servers 
+ . store (least recent) resolutions locally , making it easy for the resolver to get the IP address
+ . helps with the plodding resolution overhead
+ . provided by ISP or LAN 
+ . they can also become recursive name servers 
 
 
 recursive name servers :  
-
-    they ask other servers if they know the IP address (a.k.a. full lookup) 
-    (most are caching servers)
-
-
-root (name) servers 
-
-    all they do is DIRECTING queries to TLD name servers 
-    a.k.a. root name server systems 
-    a.k.a. “authoritative starting points for DNS resolution”
-    there are a total of 13 distinct root server systems used worldwide
-    each one has a unique IP address 
-    each one is operated by a separate organization 
-    all 13 are distributed (virtually replicated) to multiple servers with “anycast” 
-    “Anycast is a network routing method where multiple servers share the same IP address, and traffic is directed to the nearest or best-performing one.”
-    i.e. multiple servers would share the same IP address and the received DNS query would be sent to the best TLD name server 
-    routing to the best server is based on location, congestion, the condition of the link, etc. 
+ . they ask other servers if they know the IP address (a.k.a. full lookup) 
+ . (most are caching servers)
 
 
-TLD name servers : 
+root (name) servers
+ . cache/recurs --[domain name]-> root servers
+ . cache/recurs <-[TLD name server]-- root servers
+ . all they do is RESPONDING TO CACHING/RECURSIVE SERVERS' queries WITH TLD SERVERS TO BE BOTHERED ("queried")
+ . a.k.a. root name server systems 
+ . a.k.a. “authoritative starting points for DNS resolution”
+ . there are a total of 13 distinct root server systems used worldwide
+ . each one has a unique IP address 
+ . each one is operated by a separate organization 
+ . all 13 are distributed (virtually replicated) to multiple servers with “anycast” 
+ . “Anycast is a network routing method where multiple servers share the same IP address, and traffic is
+    directed to the nearest or best-performing one.”
+ . i.e. multiple servers would share the same IP address and the received DNS query would be sent to the best
+   TLD name server 
+ . routing to the best server is based on location, congestion, the condition of the link, etc.
+ -> OK. So now the caching/recursive servers HAVE TLD NAME SERVERS TO TALK TO. 
 
-TLD : 
 
-    TLD = top-level domain 
-    the “top” part of DNS - far from the clients 
-    the last part of a web address (e.g., .com) 
-    every TLD has a corresponding TLD name server 
-    distributed in anycast fashion just like root servers 
-    i.e., a set of TLD servers can respond to queries with the same TLD 
-    i.e., only one TLD server has to be systematically selected 
+TLD and TLD name servers : 
+ . TLD = top-level domain 
+ . the “top” part of DNS - far from the clients 
+ . the last part of a web address (e.g., .com) 
+ . every TLD (.xxx) has a corresponding TLD name server
+ . distributed in anycast fashion just like root servers - there is more than one physical location with the
+   same TLD (e.g., .com) 
+ . i.e., a set of TLD servers can respond to queries with the same TLD 
+ . i.e., only one TLD server has to be systematically selected
+ . cache/recurs <-[authoritative name server]-- TLD name servers
 
+-----------------------------------------------------------------------------------
+Can you feel the digital/networking bureaucracy creeping in?
+-----------------------------------------------------------------------------------
 
 authoritative name servers : 
+ . finally provide the IP address mapped to the textual web address
+ 
+-----------------------------------------------------------------------------------
 
-    b
+The truth is a DNS server can perform SEVERAL OF THESE ROLES AT ONCE (with only one being imperative by design). 
 
 
-The truth is a DNS server can perform SEVERAL OF THESE ROLES AT ONCE (with only one being imperative by design)
-
-|
-
-“DNS resolution follows a hierarchical tree structure, starting from the root servers down through TLD servers to authoritative servers.”
+“DNS resolution follows a hierarchical tree structure, starting from the root servers down through TLD servers
+ to authoritative servers.”
 
 _

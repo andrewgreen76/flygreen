@@ -1,0 +1,21 @@
+
+===================================================================================
+DNS SERVERS - BASICS 
+===================================================================================
+
+“DNS resolution follows a hierarchical tree structure, starting from the root servers down through TLD servers
+ to authoritative servers.”
+		
+ . cache/recurs ----------[domain name]---------> root servers
+ . cache/recurs <-------[TLD/name server]-------- root servers
+ . cache/recurs ------[requesting this TLD]-----> TLD servers
+ . cache/recurs <--[authoritative name server]--- TLD servers
+ . cache/recurs ---[querying this auth.serv.]---> authoritative servers
+ . cache/recurs <---------[IP address]----------- authoritative servers
+
+There are five types of DNS servers.
+ . The truth is a DNS server can perform SEVERAL OF THESE ROLES AT ONCE (with only one being imperative by design).
+ . "A DNS server can be configured to perform multiple roles, such as acting as both an authoritative server and a
+    caching/recursive resolver."
+
+_

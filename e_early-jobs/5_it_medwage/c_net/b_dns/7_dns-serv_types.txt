@@ -1,31 +1,21 @@
 
-DNS is structured hierarchically. There are five types of DNS servers (like layers/levels of deeper queries).
-
-.	.	.	.	.	.	.	.
-		
- . cache/recurs ---------[domain name]-------->	root servers
- . cache/recurs <------[TLD/name server]-------	root servers
- . cache/recurs -----[requesting this TLD]---->	TLD servers
- . cache/recurs <-[authoritative name server]--	TLD servers
-
-
 ===================================================================================
-TYPES OF DNS SERVERS 
+TYPES OF DNS SERVERS - BREAKDOWN
 ===================================================================================
 
-caching name servers : 
+Caching name servers : 
  . store (least recent) resolutions locally , making it easy for the resolver to get the IP address
  . helps with the plodding resolution overhead
  . provided by ISP or LAN 
  . they can also become recursive name servers 
 
 
-recursive name servers :  
+Recursive name servers :  
  . they ask other servers if they know the IP address (a.k.a. full lookup) 
  . (most are caching servers)
 
 
-root (name) servers
+Root (name) servers
  . cache/recurs --[domain name]-> root servers
  . cache/recurs <-[TLD name server]-- root servers
  . all they do is RESPONDING TO CACHING/RECURSIVE SERVERS' queries WITH TLD SERVERS TO BE BOTHERED ("queried")
@@ -51,32 +41,18 @@ TLD and TLD name servers :
  . distributed in anycast fashion just like root servers - there is more than one physical location with the
    same TLD (e.g., .com) 
  . i.e., a set of TLD servers can respond to queries with the same TLD 
- . i.e., only one TLD server has to be systematically selected
+ . i.e., only one TLD server has to be systematically selected to respond 
  . cache/recurs <-[authoritative name server]-- TLD name servers
 
------------------------------------------------------------------------------------
-Can you feel the digital/networking bureaucracy creeping in?
- . hierarchy ~ bureaucracy
- . helps with getting accurate , not malicious , DNS lookups 
------------------------------------------------------------------------------------
 
-authoritative name servers : 
+Authoritative name servers : 
  . finally provide the IP address mapped to the textual web address
- 
------------------------------------------------------------------------------------
-
-The truth is a DNS server can perform SEVERAL OF THESE ROLES AT ONCE (with only one being imperative by design). 
-
-
-“DNS resolution follows a hierarchical tree structure, starting from the root servers down through TLD servers
- to authoritative servers.”
 
 
 ===================================================================================
-MALICIOUS PARTIES  
+IN DEFENSE OF DNS HIERARCHY (BUREAUCRACY) 
 ===================================================================================
 
-"They are out there, and they are out there to "redirect DNS query traffic to mislead users into visiting
-fraudulent or harmful sites instead of the intended legitimate ones."
+It helps with getting accurate , not malicious , DNS lookups. 
 
 _

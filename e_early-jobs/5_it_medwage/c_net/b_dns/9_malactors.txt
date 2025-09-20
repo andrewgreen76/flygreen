@@ -1,0 +1,10 @@
+
+===================================================================================
+MALICIOUS PARTIES  
+===================================================================================
+
+They could "redirect DNS query traffic to mislead users into visiting fraudulent or harmful sites instead of
+  the intended legitimate ones." This is one of the reasons why we have DNS - conditioning clients to use only
+  the trusted name servers, not some sketchy ones. 
+
+_

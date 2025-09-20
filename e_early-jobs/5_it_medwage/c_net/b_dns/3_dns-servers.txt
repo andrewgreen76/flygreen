@@ -1,0 +1,27 @@
+
+===================================================================================
+DNS SERVERS 
+===================================================================================
+
+DNS server shapes : 
+ . a hardware appliance 
+ . general-purpose computer 
+ . a virtual machine running DNS software 
+
+
+DNS server basics : 
+ . a.k.a. name server
+ . takes the address as a text string , looks up the IP address , and provides it to the client 
+
+
+RESOLVER and DNS QUERIES : 
+ . client-side software 
+ . mediates between the client and the DNS server 
+
+
+Computer’s networking requirements : 
+ . MAC addresses - hardcoded in firmware/software
+ . IP addresses , the subnet mask , gateway , and the DNS server (process) - CONFIGURED (and can be changed at any time) 
+ . Computers on the same LAN share the same DNS server. 
+
+_

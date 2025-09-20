@@ -10,14 +10,17 @@ RESOURCE RECORD TYPE: A
  . the one we assumed and allows for much simpler discussions about DNS 
  . resolves a domain name to one of several listed """IPv4"""addresses that will provide the same content/data 
 
-	[domain name www.this.com] ---> [IPv4 address 1]
-    	[domain name www.this.com] ---> [IPv4 address 2]
+	[domain name www.this.com] ---> [IPv4 address 1]	// where an IP address would have to be updated (1)
+    	[domain name www.this.com] ---> [IPv4 address 2]	// where an IP address would have to be updated (2)
     	...
 
- . A list like this is logged in something called a ZONE FILE, stored on the disk of an authoritative name server. 
-
-The mapping to multiple IP addresses helps break up and distribute traffic - a technique called "DNS round robin".
+ . HELPS BREAK UP AND DISTRIBUTE TRAFFIC - a technique called "DNS round robin"
+ |
  . round robin : "iterating over a list of items one by one in an orderly fashion"
+ |
+ . A list of these resource records like this is logged in something called a ZONE FILE, stored on the disk of an
+ |   authoritative name server.
+ |
  . When a DNS resolver asks for mapping to an IP address, a server would respond with the entire pre-configured
      list of IP addresses, not just the first entry. If for some reason trying the first IP address is a bust,
      the client will try the next one.

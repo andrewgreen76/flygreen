@@ -3,13 +3,25 @@
 RESOURCE RECORD TYPE: CNAME
 ===================================================================================
 
- . resolves one domain to another (more widely accepted) domain 
+ . resolves one domain to another, more widely accepted domain - the canonical name (CNAME) 
 
-	[this.com] ---> [www.this.com]
-	[www.this.com] ---> [IP address]
+   	####################################
+   	### a DNS zone file with a CNAME ###
+   	####################################
+   	Acceptable domains   CNAME
+	------------------------------------
+	[this.com]	---> [www.this.com]
+	[www.that.com] 	---> [www.this.com]
+	|
+	|
+	|
+	[www.this.com]	---> [IP address]	// the only record where the IP address has to be updated 
 
 
 This is great because this way the IP address, when it has to change, will change only in one place - the CNAME
-  record on the authoritative name server's end. 
+  record on the authoritative name server's end.
+
+
+Large companies can have DOZENS OF DOMAIN NAMES that would be resolved to the same CNAME. 
 
 _

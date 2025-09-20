@@ -8,6 +8,6 @@ TTL (TIME TO LIVE) :
  . TTL is determined by the owner of the domain 
 
 
-In the past, limited tech meant limited bandwidth. So as not to waste bandwidth TTL’s were allowed to be days so as not to waste bandwidth on recursive (full DNS) lookups.
+In the past, limited tech meant limited bandwidth. So as not to waste bandwidth on full DNS (recursive) lookups TTL’s were allowed to be days.
 
 _

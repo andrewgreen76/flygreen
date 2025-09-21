@@ -74,12 +74,4 @@ a) The client could get the DHCP server's IP address for subsequent messaging fr
    the DHCP message.
 b) The client could just keep broadcasting its messages to all the nodes on the LAN. 
 
-##############################################################################################################
-					X. The client figures things out
-##############################################################################################################
-
-With all the necessary information aggregated during the DHCP discovery the client can now configure itself
-  at the network layer - adopting the offered IP address, applying the subnet mask, and keeping its gateway
-  and DNS server counfigurations. 
-
 _

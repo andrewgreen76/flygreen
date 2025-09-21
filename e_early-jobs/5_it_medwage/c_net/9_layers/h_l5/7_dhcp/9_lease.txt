@@ -1,0 +1,14 @@
+
+===================================================================================
+DHCP LEASE
+===================================================================================
+
+ . follows every DHCP discovery
+ . A TIMED AGREEMENT on how long the client can stay connected with the given IP address (and other settings) 
+ . all the necessary information aggregated during the DHCP discovery that the client can now use to configure
+     itself at the network layer
+ . the agreement is stored on both the DHCP client and the DHCP server
+ . the server also records the client’s MAC-to-IP binding
+ . after the expiration the client will have to negotiate a new lease to stay connected 
+
+_

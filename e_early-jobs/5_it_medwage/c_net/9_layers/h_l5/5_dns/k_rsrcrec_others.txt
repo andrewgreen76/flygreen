@@ -20,4 +20,8 @@ TXT (text record)
     . i.e., an ISP can write in additional text actually meant to be communicated as configurations
       to your email server  
 
+
+PTR (pointer record)
+ . resolves an IP to a (domain) name 
+
 _

@@ -1,0 +1,23 @@
+
+===================================================================================
+DNS ZONE FILES
+===================================================================================
+
+ZONE FILE : 
+ . a file used to configure a single DNS zone with relevant resource records (of type A) 
+ . must have an SOA (state of authority) resource declaration
+    . a resource record matching a DNS zone with the name server responsible for it
+ . NS records that might end up functioning the same way as SOA records 
+
+
+Reverse lookup zone file :
+ . when a client provides an IP address, a reverse lookup zone file will have the DNS reciprocate with an FQDN
+     right away 
+ . holds "pointer resource record declarations"
+ . a single pointer record maps an IP address backwards - to the respective domain name (FQDN)
+ . "for logging, authentication, or security verification purposes"
+ . "Reverse DNS [querying caters to security] by allowing systems [mail servers, firewalls, and intrusion detection
+    systems] to verify that an IP address maps to a legitimate domain name, aiding in spam filtering, access control,
+    and anomaly detection."
+
+_

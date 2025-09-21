@@ -1,14 +1,17 @@
 
 ===================================================================================
-DNS ZONES
+DNS ZONE
 ===================================================================================
+
+A concept for an implementation that would allow for an easier control over all levels of every domain name. 
+
 
 Collectivelly, all ROOT SERVERS CATER TO THE GLOBAL ROOT ZONE
  . a root server = an authoritative name server with a DNS zone used in special cases 
 
 
 Every TLD NAME SERVER has its own DNS zone covering the respective TLD, e.g. ".com"
- . likewise, there has to be one TLD name server dealing with ".net"
+ . likewise, there has to be one and only TLD name server dealing with ".net"
  . a single TLD name server - for ".org"
  . etc.
  . a TLD name server = an authoritative name server with a DNS zone used in special cases 
@@ -16,7 +19,9 @@ Every TLD NAME SERVER has its own DNS zone covering the respective TLD, e.g. ".c
 
 An authoritative name server : 
  . helps resolve a specific domain that would have its own DNS zone
- . the same auth.name server can cover a number of DNS zones - defined in """DNS zone files""" 
+ . the same auth.name server can cover a number of DNS zones - defined in """DNS zone files"""
+ . a subdomain/IP address for every DNS zone (file), with every auth.name server machine supporting multiple
+     tiny DNS zones (with their files) 
 
 
 !!! DNS zones do NOT overlap. !!!
@@ -29,5 +34,17 @@ An authoritative name server :
  |   zones**. It's the latter entity gets the say on what to do about the domain.
  |
  . And vice versa, the auth.name server can't do anything about Google's TLD (".com"). 
+
+
+Ex.: therealbeatles.com :
+ . let's not have one DNS zone for the band 
+ . 5 auth.name servers total 
+    . therealbeatles.com
+    . john.therealbeatles.com
+    . paul.therealbeatles.com
+    . george.therealbeatles.com
+    . ringo.therealbeatles.com
+ . 1 auth.name server for the band
+ . one auth.name server, with a subdomain, for each of the 4 individuals => an actual total of 4 DNS zones
 
 _

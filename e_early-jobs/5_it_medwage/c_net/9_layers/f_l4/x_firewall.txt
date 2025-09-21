@@ -18,6 +18,6 @@ Firewalls can operate at different networking layers.
 Where are firewalls ? 
  . firewalls are frequently run on clients
  . all major modern OS have a firewall built in 
- . firewall **and** routing functions are typically performed by a server
+ . (firewall **and** routing functions are typically performed by a server) 
 
 _

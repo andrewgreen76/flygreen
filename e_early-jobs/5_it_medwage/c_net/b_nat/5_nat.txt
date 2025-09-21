@@ -1,0 +1,28 @@
+
+===================================================================================
+NAT (NETWORK ADDRSES TRANSLATION) : 
+===================================================================================
+
+ . a system / technique 
+ . implemented in various ways 
+
+
+Goal #1: coping with the limitations of IPv4 coverage.
+ |
+ . allows a network to have one public IP address and multiple private IP addresses
+ . This allows for coverage of 4.3 billion **PUBLIC** IP addresses ; delivery to/from private IP addresses
+     is handled separately.
+ => this helps with the IPv4's limitation on global coverage
+
+ . NAT is configured on routers 
+
+
+Goal #2: protection. 
+ |
+ 1. NAT performs translation of one IP address into another
+ |
+ 2. clients on a LAN have private IP addresses and share the same public IP address
+ => the private IP addresses are never disclosed 
+ => it would be hard to target an actual client
+
+_

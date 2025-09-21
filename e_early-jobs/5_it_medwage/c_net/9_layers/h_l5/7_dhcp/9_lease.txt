@@ -9,6 +9,9 @@ DHCP LEASE
      itself at the network layer
  . the agreement is stored on both the DHCP client and the DHCP server
  . the server also records the client’s MAC-to-IP binding
- . after the expiration the client will have to negotiate a new lease to stay connected 
+ . after the expiration the client will have to negotiate a new lease to stay connected
+
+ . the client can also terminate the lease upon disconnection
+ . the IP address is then vacated and the server logs that internally 
 
 _

@@ -1,14 +1,35 @@
 
+Computer’s TCP/IP networking requirements :
+ . an IP address
+ . the subnet mask (for the LAN)
+ . a gateway (edge router) - mediates between networks 
+ . a DNS server (process)
+ |
+ . xxx.xxx.xxx.xxx/xx + a router + a DNS server 
+ . all CONFIGURED = defined for the device -AND- can be changed at any time 
+ . All nodes on the same LAN share the same {subnet mask, gateway, DNS server} , which can be achieved with easy automation.
+ . Every node must be assigned its own unique IP address. How do you automate that? With DHCP. 
+ |
+ . Note : MAC addresses - hardcoded in firmware/software
+
+
+Problem : assigning unique IP addresses to (numerous) newly connected nodes/hosts is a tedious task 
+
+
 ===================================================================================
 DHCP (DYNAMIC HOST CONFIGURATION PROTOCOL) :
 ===================================================================================
 
- . a technology that assigns an IP address automatically to a new device 
  . an application layer protocol
- . automates the configuration process of hosts on a network
+ . Implementation : a DHCP server automatically assigns a unique IP address to the node newly connected to the
+     TCP/IP LAN.
+ . First, the DHCP server will reserve an IP address range for a group of client devices local to one another.
+     That way they will belong to the same LAN. 
+ . Dynamic IP address : an IP address assigned automatically to a device using the DHCP 
 
 
-Dynamic IP address:
- . an IP address assigned automatically to a device through DHCP 
+Servers and routers must have their IP addresses assigned and known
+ . mainly for diagnostics among other reasons
+ . this includes NTP (Network Time Protocol) servers
 
 _

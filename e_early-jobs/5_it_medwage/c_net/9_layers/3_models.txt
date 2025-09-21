@@ -3,8 +3,12 @@
 NETWORK STACK MODELS : 
 ===================================================================================
 
-    TCP/IP
-    OSI
-    They are just **models** , ideas we use to explain the realization of and activity in networking. 
+ . TCP/IP
+ . OSI
+ . They are just **models** , ideas we use to explain the realization of and activity in networking.
+ . every model proposes a number of networking layers
+ . the functionaliy of every layer will depend on the functionality of all the layers below it
+    . One exception to that is that DHCP, an application layer protocol, is used by servers to decide what IP
+      to assign to network devices that belong to the network layer. 
 
 _

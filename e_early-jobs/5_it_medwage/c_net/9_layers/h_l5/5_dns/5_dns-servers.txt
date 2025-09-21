@@ -18,10 +18,4 @@ RESOLVER and DNS QUERIES :
  . client-side software 
  . mediates between the client and the DNS server 
 
-
-Computer’s networking requirements : 
- . MAC addresses - hardcoded in firmware/software
- . IP addresses , the subnet mask , gateway , and the DNS server (process) - CONFIGURED (and can be changed at any time) 
- . Computers on the same LAN share the same DNS server. 
-
 _

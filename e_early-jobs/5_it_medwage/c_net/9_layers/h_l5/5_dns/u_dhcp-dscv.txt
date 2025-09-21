@@ -1,0 +1,85 @@
+
+===================================================================================
+DHCP DISCOVERY 
+===================================================================================
+
+Whatever the DHCP server's method, the client will be configured with its own IP address through DHCP discovery,
+a process with 4 steps :
+
+##############################################################################################################
+					1. Server discovery
+##############################################################################################################
+
+											[DHCPDISCOVER msg]
+								   [UDP dgm: [:68,:67], [DHCPDISCOVER msg] ]
+		     [IP dgm: [src=0.0.0.0, dest=255.255.255.255], [UDP dgm: [:68,:67], [DHCPDISCOVER msg] ] ]
+				     
+				     /// broadcast ///
+	255.255.255.255:67(UDP)	<------------------------------- 0.0.0.0:68(UDP)
+	every node on LAN				      	 DHCP client
+	 . only a posibility a DHCP server would be there
+
+
+##############################################################################################################
+						2. Offer
+##############################################################################################################
+
+ . The DHCP server uses a pre-configured DHCP method of selecting an IP address for the client before offering it.
+ 
+ 	    	 	       		      	   	                [DHCPOFFER msg]
+					           [UDP dgm: [:67,:68], [DHCPOFFER msg] ]
+ [IP dgm: [src=123.124.1.1, dest=255.255.255.255], [UDP dgm: [:67,:68], [DHCPOFFER msg] ] ]
+ 
+			    		/// broadcast ///
+	123.124.1.1:67(UDP) -------------------------------> 255.255.255.255:68(UDP)
+	DHCP server					     every node on LAN, but the intended recipient will
+							     recognize its own MAC address in a field of the
+							     DHCPOFFER message
+ . The client can reject the offer based on what IP address range it is configured to accept an offer for. 
+
+a) The client could get the DHCP server's IP address for subsequent messaging from the DHCP/BOOTP header in
+   the DHCP message.
+b) The client could just keep broadcasting its messages to all the nodes on the LAN. 
+
+##############################################################################################################
+					3. Acceptance - with a request message
+##############################################################################################################
+
+											[DHCPREQUEST msg]
+								   [UDP dgm: [:68,:67], [DHCPREQUEST msg] ]
+		     [IP dgm: [src=0.0.0.0, dest=255.255.255.255], [UDP dgm: [:68,:67], [DHCPREQUEST msg] ] ]
+				     
+				     /// broadcast ///
+	255.255.255.255:67(UDP)	<------------------------------- 0.0.0.0:68(UDP)
+	every node on LAN				      	 DHCP client
+
+ . the request message signifies accepting the offer 
+ . "DHCPACCEPT" would have sounded better than "DHCPREQUEST"
+
+##############################################################################################################
+					4. Acknowledgment
+##############################################################################################################
+ 
+ 	    	 	       		      	   	                [DHCPACK msg]
+					           [UDP dgm: [:67,:68], [DHCPACK msg] ]
+ [IP dgm: [src=123.124.1.1, dest=255.255.255.255], [UDP dgm: [:67,:68], [DHCPACK msg] ] ]
+ 
+			    		/// broadcast ///
+	123.124.1.1:67(UDP) -------------------------------> 255.255.255.255:68(UDP)
+	DHCP server					     every node on LAN, but the intended recipient will
+							     recognize its own MAC address in a field of the
+							     DHCPOFFER message
+
+a) The client could get the DHCP server's IP address for subsequent messaging from the DHCP/BOOTP header in
+   the DHCP message.
+b) The client could just keep broadcasting its messages to all the nodes on the LAN. 
+
+##############################################################################################################
+					X. The client figures things out
+##############################################################################################################
+
+With all the necessary information aggregated during the DHCP discovery the client can now configure itself
+  at the network layer - adopting the offered IP address, applying the subnet mask, and keeping its gateway
+  and DNS server counfigurations. 
+
+_

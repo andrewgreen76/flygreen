@@ -40,6 +40,7 @@ Port 9100 :
 
 
 Port 53 :
- . domain name resolution 
+ . domain name resolution
+ . typically UDP port 53, but can be TCP port 53 for larger queries and zone transfers 
 
 _

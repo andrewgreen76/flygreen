@@ -1,0 +1,29 @@
+
+===================================================================================
+DHCP METHODS 
+===================================================================================
+
+Dynamic allocation : 
+  1. an IP address range is reserved for a group of close client devices
+  2. any one IP address in that range can be given to any one client device
+  +. a different IP address can be given to the same client device every time 
+
+
+Automatic allocation : 
+  1. an IP address range is reserved for a group of close client devices
+  2. the same IP address in that range is ASSIGNED again to the same client device (if at all possible)
+      . this might not apply to every local client device 
+
+
+Fixed allocation :
+ . a manually specified list of MACaddr-to-IPaddr mappings
+ . no IP address range reservation involved
+ . If no mapping found for the newly connected device with a certain MAC address, the server will resort
+     to either (a) other DHCP methods or (b) refusal to assign an IP address.
+ . a good security measure from connecting untrusted client devices (that may or may not intend to steal
+     an IP address) 
+
+
+These are simply configured for the DHCP server. 
+
+_

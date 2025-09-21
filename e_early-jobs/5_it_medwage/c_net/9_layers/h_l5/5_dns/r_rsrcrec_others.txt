@@ -1,0 +1,23 @@
+
+===================================================================================
+OTHER RESOURCE RECORD TYPES 
+===================================================================================
+
+MX (mail exchange) 
+ . for resolving to the IP address of a (company) mail server before an email is delivered 
+ . this helps with separation from web traffic 
+
+
+SRV (service record) 
+ - NOT for resolving to the IP address of data
+ + but for resolving to the IP address of a service - any service
+
+
+TXT (text record) 
+ . originally meant for mapping a domain with some specific piece of text
+ . now used by other computers to convey information meaningful pretty much only to computers
+    . settings for network services entrusted to other entities for managing a user's domain
+    . i.e., an ISP can write in additional text actually meant to be communicated as configurations
+      to your email server  
+
+_

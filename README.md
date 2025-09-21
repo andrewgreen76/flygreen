@@ -38,4 +38,5 @@ CHOSEN PERSONAL PROJECTS:
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 - methods of booting into an OS
-- traditional VMs vs. JVM vs. LLVM 
+- traditional VMs vs. JVM vs. LLVM
+- DNS, A records, AAAA records, CNAME records 

@@ -1,0 +1,42 @@
+
+===================================================================================
+DOMAIN NAME BREAKDOWN
+===================================================================================
+
+	www	.	blah		.	com
+	(subdomain)  <-	(domain)   <-	(top-level domain (TLD))
+
+TLD's : 
+ . Due to increasing traffic going through TLD servers VANITY TLD's were created.
+ . .suck , .an , .egg
+
+
+ICANN :
+ . manages claimed TLD's and unclaimed domains in DNS 
+ . keeps track of unclaimed domains 
+ . defines and administers all the claimed TLD's
+ . works with IANA (which governs the global IP space, assigning IP addresses and autonomous system numbers) 
+
+
+Domain :
+ . "... used to demarcate where control moves from a TLD name server to an authoritative name server"
+ . "Now that with the TLD we got to the right TLD name server, let's use the domain to figure out which
+      authoritative name server to go to."
+ . every domain is managed by an independent entity 
+
+
+Subdomain :
+ . identifies the specific machine or service that provides the content/data
+ . Got only one host? Then the subdomain is the host name
+ . It can be something standard, like "www", or something much more creative, like "hark.theangels.com" . 
+
+
+Fully qualified domain name (FQDN) :
+ . ex.: www.blah.com
+ . (1) The TLD, (2) the domain, and (3) the subdomain(s) must be present.
+ . Yes, even "subdomains" - plural. In fact, you can have up to 127 "levels" (incl. the domain and the TLD) in an FQDN.
+ . every level can hold up to 63 characters
+ . the whole FQDN can hold up to 255 characters 
+ . ex.: katebushis.runningupthathill.makingadealwithgod
+ 
+_

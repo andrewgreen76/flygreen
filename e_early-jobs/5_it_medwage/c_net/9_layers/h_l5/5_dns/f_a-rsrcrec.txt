@@ -8,7 +8,7 @@ RESOURCE RECORD TYPE: A
 ===================================================================================
 
  . the one we assumed and allows for much simpler discussions about DNS 
- . resolves a domain name to one of several listed """IPv4"""addresses that will provide the same content/data 
+ . resolves a domain name to one of several listed """IPv4""" addresses that will provide the same content/data 
 
 	[domain name www.this.com] ---> [IPv4 address 1]	// where an IP address would have to be updated (1)
     	[domain name www.this.com] ---> [IPv4 address 2]	// where an IP address would have to be updated (2)

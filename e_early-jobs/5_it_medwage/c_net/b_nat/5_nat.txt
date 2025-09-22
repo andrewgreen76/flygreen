@@ -8,21 +8,28 @@ NAT (NETWORK ADDRSES TRANSLATION) :
 
 
 Goal #1: coping with the limitations of IPv4 coverage.
- |
  . allows a network to have one public IP address and multiple private IP addresses
  . This allows for coverage of 4.3 billion **PUBLIC** IP addresses ; delivery to/from private IP addresses
-     is handled separately.
+    is handled separately.
  => this helps with the IPv4's limitation on global coverage
-
+ |
  . NAT is configured on routers 
 
 
 Goal #2: protection. 
  |
- 1. NAT performs translation of one IP address into another
+ . NAT performs IP MASQUERADING by translating one IP address into another. 
+ . ONE-TO-MANY NAT : LAN clients "share" the same public IP address - that of their gateway.
  |
- 2. clients on a LAN have private IP addresses and share the same public IP address
- => the private IP addresses are never disclosed 
- => it would be hard to target an actual client
+ . The gateway - a router or a firewall - will : 
+   . log the source IP address (let's call it SIPA) of an outgoing IP datagram
+   -> map it to its own IP address (let's call it RIPA) on the router's send-to-receive networking interface,
+	thus obscuring the client's real address and putting itself in between as a safeguard
+   -> receive an incoming packet, recognize the RIPA as the destination IP address, and treat it as the
+	response packet 
+   -> inspect the packet for anything malicious
+   -> Best-case scenario: the gateway will find nothing malicious, write SIPA into the destination IP address,
+	and let the packet move forward to the intended private recipient.
+ => NAT allows LAN play close to the vest when it comes to handing private IP addresses.
 
 _

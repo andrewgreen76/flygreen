@@ -33,4 +33,8 @@ Now for more general cases.
 INTERNAL PORT : "the original source port on the client side that the gateway tracks for NAT mapping"
 EXTERNAL PORT : "the port assigned by the gateway for the outgoing connection toward the server"
 
+
+The Google IT Support Pro Cert program will have you believe that it's the same (ephemeral) port from the client,
+  through the gateway, to the server. 
+
 _

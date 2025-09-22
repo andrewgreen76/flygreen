@@ -1,14 +1,14 @@
 
 ===================================================================================
-HOW NAT HANDLES MASSIVE SERVER-TO-CLIENT TRAFFIC 
+HOW NAT HANDLES MASSIVE SERVER-TO-CLIENT TRAFFIC - WITH PORT PRESERVATION
 ===================================================================================
 
 ***SCENARIO*** : The HTTPS webserver sends a response to the client via the client's gateway.
 -> "The server will send the response **from its system port 443** toward the gateway."
 -> "The gateway will receive the packet on the [same] external port it assigned for the outgoing connection
       to the server."
-->  The gateway will use NAT, reusing the mapping of the external port to the internal port and the mapping
-      of ACTSRC to SSNI, and thus feed the packet through its own client-side networking interface to the
+->  The gateway will use NAT, performing reverse IP masquerading and reusing the mapping of the external port
+      to the internal port, and thus feed the packet through its own client-side networking interface to the
       intended recipient client on the ephemeral port they both shared in the first place. Again, port
       preservation. 
 

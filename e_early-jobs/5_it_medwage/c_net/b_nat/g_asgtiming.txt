@@ -1,0 +1,9 @@
+
+==========================================================================================
+DEALING WITH ADOPTION OF THE SAME EPHEMERAL PORT AT THE SAME TIME BY MORE THAN ONE CLIENT 
+==========================================================================================
+
+The gateway will tell one of the clients to take up a different ephemeral port, randomly chosen by the gateway
+  itself. 
+
+_

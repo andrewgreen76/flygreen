@@ -1,6 +1,6 @@
 
 ===================================================================================
-HOW NAT HANDLES MASSIVE CLIENT-TO-SERVER TRAFFIC 
+HOW NAT HANDLES MASSIVE CLIENT-TO-SERVER TRAFFIC - WITH PORT PRESERVATION
 ===================================================================================
 
 NAT does this in a number of ways. 
@@ -15,14 +15,12 @@ Now for more general cases.
 
 
 ***SCENARIO*** : A client sends a packet meant for an HTTPS webserver.
-->  That packet will actually leave the client on an ephemeral port (randomly chosen by the modern OS).
+->  That packet will actually leave the client on an ephemeral port - randomly CHOSEN BY THE CLIENT'S MODERN OS.
 ->  The packet will arrive at the gateway's client-side networking interface on the same ephemeral port. 
     That is called PORT PRESERVATION.
      . router's port = client's source port
      
-->  1. NAT will log the actual source IP address (call it ACTSRC), log the mapping of ACTSRC with its own
-       server-side networking interface IP address (call it SSNI), write in its SSNI as the source IP address
-       to the packet, and send the packet to the server. 
+->  1. NAT will perform IP masquerading. 
 ->  2. "NAT typically assigns a new ephemeral port for the outgoing connection while KEEPING TRACK OF THE MAPPING
        between the original client port and the new port."
     

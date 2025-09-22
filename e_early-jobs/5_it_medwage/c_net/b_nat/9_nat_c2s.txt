@@ -19,8 +19,13 @@ Now for more general cases.
 ->  The packet will arrive at the gateway's client-side networking interface on the same ephemeral port. 
     That is called PORT PRESERVATION.
      . router's port = client's source port
--> "NAT typically assigns a new ephemeral port for the outgoing connection while KEEPING TRACK OF THE MAPPING
-    between the original client port and the new port."
+     
+->  1. NAT will log the actual source IP address (call it ACTSRC), log the mapping of ACTSRC with its own
+       server-side networking interface IP address (call it SSNI), write in its SSNI as the source IP address
+       to the packet, and send the packet to the server. 
+->  2. "NAT typically assigns a new ephemeral port for the outgoing connection while KEEPING TRACK OF THE MAPPING
+       between the original client port and the new port."
+    
 -> "The packet will leave the gateway’s server-side interface from a port assigned by NAT, which may be
     a different ephemeral port, destined for the webserver’s system port 443."
 

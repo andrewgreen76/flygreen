@@ -19,7 +19,7 @@ Goal #1: coping with the limitations of IPv4 coverage.
 Goal #2: protection. 
  |
  . NAT performs IP MASQUERADING by translating one IP address into another. 
- . ONE-TO-MANY NAT : LAN clients "share" the same public IP address - that of their gateway.
+ . ONE-TO-MANY NAT : 100's-1000's of LAN clients "share" the same public IP address - that of their gateway.
  |
  . The gateway - a router or a firewall - will : 
    . log the source IP address (let's call it SIPA) of an outgoing IP datagram

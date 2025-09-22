@@ -16,7 +16,7 @@ TCP SEGMENT HEADER :
   Bits 0-15 - source port : 
   . keeps connections for OUTGOING PACKETS SEPARATE
   . needed for receiving server-response packets 
-  . ephemeral 
+  . mostly for ephemeral ports (for private transfers between clients) 
   Bits 16-31- destination port : 
   . server port 
   Bits 32-63 - sequence number :

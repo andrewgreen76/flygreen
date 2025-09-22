@@ -1,0 +1,19 @@
+
+===================================================================================
+HOW NAT HANDLES MASSIVE SERVER-TO-CLIENT TRAFFIC 
+===================================================================================
+
+***SCENARIO*** : The HTTPS webserver sends a response to the client via the client's gateway.
+-> "The server will send the response **from its system port 443** toward the gateway."
+-> "The gateway will receive the packet on the [same] external port it assigned for the outgoing connection
+      to the server."
+->  The gateway will use NAT, reusing the mapping of the external port to the internal port, and thus feed the
+      packet through its own client-side networking interface to the intended recipient client on the ephemeral
+      port they both shared in the first place. Again, port preservation. 
+
+
+Reminder : 
+ . INTERNAL PORT : "the original source port on the client side that the gateway tracks for NAT mapping"
+ . EXTERNAL PORT : "the port assigned by the gateway for the outgoing connection toward the server"
+
+_

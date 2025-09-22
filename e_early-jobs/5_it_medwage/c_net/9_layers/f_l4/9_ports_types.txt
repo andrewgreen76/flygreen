@@ -11,24 +11,32 @@ TYPES OF PORTS
 
 System ports :
  . 1-1023
+ . for the MOST COMMON, SYSTEM-LEVEL, protocol-based SERVICES 
  . port 21 - FTP
  . port 992 - Telnet over TLS/SSL
  . most of these are still not assigned by IANA 
- . modern OS do not use system ports for sending packets 
+ . Modern OS on client devices do not use system ports for sending packets. A single dedicated system port
+     cannot manage massive traffic, so the OS will assign an ephemeral port on the client. (See "ephemeral
+     ports" below.)
+ . Now a server "can support up to about 4 billion simultaneous sessions per IP address on the same port,
+     limited by the 32-bit combination of client IP and client port numbers" (socket addresses).
 
 
 User ports :
  . 1024-49151
- . vendors register these for services
- . some are assigned (by IANA) , some aren't 
+ . vendors register these for OTHER SERVICES
+ . some are assigned (by IANA), some aren't
+ . ex.: 3306 - registered for MySQL (has its own database communication protocol) by IANA 
 
 
 Ephemeral ports :
- . 49152-65535
- . temporarily used exclusively by clients for private transfers 
- . allocated by the OS
- |
- . a.k.a. dynamic ports 
- . a.k.a. private ports
+  . 49152-65535
+ (1) can be TEMPORARILY used exclusively by clients for PRIVATE TRANSFERS
+ (2) can be used for distinguishing a multitude of simultaneous unique connections between the clients and
+     the same server via a gateway 
+  . assigned/allocated by the OS
+  |
+  . a.k.a. dynamic ports 
+  . a.k.a. private ports
 
 _

@@ -1,0 +1,31 @@
+
+===================================================================================
+HOW NAT HANDLES MASSIVE CLIENT-TO-SERVER TRAFFIC 
+===================================================================================
+
+NAT does this in a number of ways. 
+
+"A client can use **system ports** (ports 0–1023) in special cases, but normally it uses **ephemeral ports**
+ for outgoing connections."
+  . "Special cases include **services running with elevated privileges that need to initiate connections from
+     well-known ports**, such as certain network management or legacy protocols."
+
+
+Now for more general cases. 
+
+
+***SCENARIO*** : A client sends a packet meant for an HTTPS webserver.
+->  That packet will actually leave the client on an ephemeral port (randomly chosen by the modern OS).
+->  The packet will arrive at the gateway's client-side networking interface on the same ephemeral port. 
+    That is called PORT PRESERVATION.
+     . router's port = client's source port
+-> "NAT typically assigns a new ephemeral port for the outgoing connection while KEEPING TRACK OF THE MAPPING
+    between the original client port and the new port."
+-> "The packet will leave the gateway’s server-side interface from a port assigned by NAT, which may be
+    a different ephemeral port, destined for the webserver’s system port 443."
+
+
+INTERNAL PORT : "the original source port on the client side that the gateway tracks for NAT mapping"
+EXTERNAL PORT : "the port assigned by the gateway for the outgoing connection toward the server"
+
+_

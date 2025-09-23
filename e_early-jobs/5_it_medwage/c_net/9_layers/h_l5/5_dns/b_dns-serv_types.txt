@@ -13,6 +13,8 @@ Caching name servers :
 Recursive name servers :  
  . they ask other servers if they know the IP address (a.k.a. full lookup) 
  . (most are caching servers)
+ . "The recursive resolver is still considered to be doing the “resolving” because it follows the entire chain of
+    DNS queries on the client’s behalf until it delivers the final IP address."
 
 
 Root (name) servers

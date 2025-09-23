@@ -1,0 +1,18 @@
+
+===================================================================================
+SECURITY MEASURES - RECAP
+===================================================================================
+
+ . firewalls
+ . NAT
+ . non-routable address space
+
+
+===================================================================================
+FUN FACTS ABOUT ENCRYPTION : 
+===================================================================================
+
+ . Most web packets are encrypted. 
+ . Encrypting and decrypting are actually resource-intensive processes.
+
+_

@@ -16,7 +16,9 @@ NON-ROUTABLE ADDRESS SPACE :
   => CANNOT BE ROUTED TO
   . FREE TO BE USED by anyone
   |
-  . Network Address Translation (NAT) technology can help break those boundaries when the need arises. 
+  . Network Address Translation (NAT) technology can help break those boundaries when the need arises.
+  . “NAT (Network Address Translation) allows devices using non-routable (private) IP address space to communicate
+    with the public internet by translating their private addresses to a routable public IP address.”
 
 
 Three primary ranges :

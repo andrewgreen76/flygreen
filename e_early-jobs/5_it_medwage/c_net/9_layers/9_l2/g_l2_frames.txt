@@ -8,7 +8,7 @@ THE MAKE-UP OF A FRAME
 
 Data as structured information :
  |
- . 7-8 bytes 	   - preamble		- alternating 1's and 0's	- as a buffer between frames
+ . 7-8 bytes 	   - preamble		- alternating 1's and 0's	- as a pre-emptive buffer/marker between frames
        		     			  	      	      		- also used to adjust internal clock and transmission speed
  . 1 byte 	   - SFD		- Start Frame Delimiter 	- tells the recipient when the preamble ends and body begins 
  

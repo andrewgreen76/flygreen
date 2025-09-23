@@ -10,4 +10,12 @@ IANA (INTERNET ASSIGNED NUMBERS AUTHORITY) :
     . 32-bit 
     . just a single decimal number 
 
+
+===================================================================================
+DHCP vs. IANA :
+===================================================================================
+
+ . DHCP assigns IP ADDRESSES to hosts
+ . IANA allocates and manages global IP address RANGES 
+
 _

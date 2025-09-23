@@ -1,0 +1,16 @@
+
+===================================================================================
+REGIONAL INTERNET REGISTRIES (RIRs) : 
+===================================================================================
+"
+IANA is responsible for assigning address blocks to five Regional Internet Registries (RIRs):
+ . AFRINIC - Africa
+ . ARIN - USA, Canada, and parts of the Caribbean
+ . APNIC - Most of Asia, Australia, New Zealand, and Pacific Island nations
+ . LACNIC - Central America, South America, and the remaining parts of the Caribbean not covered by ARIN
+ . RIPE - Europe, Russia, Middle East, and portions of Central Asia
+
+
+Your computer gets its IP address directly from an RIR, not the IANA.
+"
+_

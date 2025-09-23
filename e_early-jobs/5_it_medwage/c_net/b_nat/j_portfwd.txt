@@ -1,8 +1,19 @@
 
 ===================================================================================
-PORT FORWARDING 
+PORT FORWARDING
 ===================================================================================
 
- . 
+(1) IP masquerading for dedicated individual servers for the same company ; every server gets its own system port.
+
+(2) NAT will simply figure out which server to forward a packet to based on the incoming/outgoing system port for the packet. 
+    . i.e., specific ports are used to forward specific kind of traffic to specific (server) nodes
+
+ . a mode in which certain nodes are configured to have inbound traffic arriving at a specific destination port 
+ . The server-bound packet leaves the gateway’s server-side networking interface on a system (or user) port.
+ . A response packet from the server will leave the server at an ephemeral port (chosen by the server). 
+ . IP masquerading for the server 
+ . A system port can be chosen. 
+ . A little different from port preservation. 
+ . Same (destination) port. 
 
 _

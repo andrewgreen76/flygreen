@@ -1,0 +1,19 @@
+
+===================================================================================
+PROXY SERVICE : 
+===================================================================================
+
+ . a server that is a front for a client 
+
+ . Anonymity
+ . Security
+ . Content filtering
+ . Better performance 
+ . etc.
+ 
+ . similar to gateways 
+ . exist in every layer of the networking model(s) 
+ . => there are different kinds of proxies 
+ . If somebody mentions a specific proxy, most likely it’s a “””web proxy”””.
+
+_

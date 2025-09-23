@@ -22,7 +22,8 @@ IPv4 :
  . 32 bits are spent on representing XXX.XXX.XXX.XXX to cover over 4.3 billion addresses/devices.
  . ex. : 127.0.0.1
  . introduced in 1981 
- . (as of 2025) still the most common IPv 
+ . (as of 2025) still the most common IPv
+ . 99% of the devices in use [in the early-mid 2020's] still use IPv4
 
 
 IPv6 :

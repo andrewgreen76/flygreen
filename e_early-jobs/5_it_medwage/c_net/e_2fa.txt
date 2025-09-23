@@ -1,0 +1,10 @@
+
+===================================================================================
+2FA (TWO-FACTOR AUTHENTICATION) : 
+===================================================================================
+
+ . first became popular with VPNs 
+ . you need more than just a username and a password
+ . the 2FA system will generate a number that is to be checked before access is granted
+
+_

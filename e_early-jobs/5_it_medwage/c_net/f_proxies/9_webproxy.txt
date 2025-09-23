@@ -1,0 +1,17 @@
+
+===================================================================================
+WEB PROXY : 
+===================================================================================
+
+ . simply put, a proxy for web traffic
+ . old tech 
+ . offered faster content retrieval as it was closer to clients than the web server and could cache retrieved
+     content 
+ . nowadays they are used for denying web requests for content unrelated to work (i.e., denying access to
+     websites unrelated to work) 
+ . “Modern web content is often personalized (cookies, sessions, geo-targeting), cached responses may not reflect
+     each user’s unique version, so proxies usually respect cache-control rules to avoid serving mismatched content.” 
+ . “The requested content is personalized after the web server dispatches it, typically during server-side rendering
+     or by client-side scripts using session data, cookies, or API calls.”
+  
+_

@@ -13,4 +13,20 @@ IANA is responsible for assigning address blocks to five Regional Internet Regis
 
 Your computer gets its IP address directly from an RIR, not the IANA.
 "
+
+
+===================================================================================
+IPv4 EXHAUSTION TIMELINE : 
+===================================================================================
+"
+On February 3, 2011, IATA assigned the last unallocated /8 of the 4.2 billion possible combinations of IPv4
+  addresses. In some regions, you use a recycled number as a new IP address due to reaching IP exhaustion.
+  The RIRs exhausted the following blocks by date:
+
+ . APNIC reached its final /8 addresses in April 2011.
+ . RIPE reached its final /8 addresses in September 2012. 
+ . LACNIC reached its final /10 addresses in June 2014.
+ . ARIN exhausted its list of free IPv4 addresses in September 2015.
+ . AFRINIC entered IPv4 Exhaustion Phase 2 in January 2020.
+"
 _

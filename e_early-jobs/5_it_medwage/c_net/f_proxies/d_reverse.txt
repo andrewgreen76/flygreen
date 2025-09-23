@@ -1,0 +1,10 @@
+
+===================================================================================
+REVERSE PROXY : 
+===================================================================================
+
+ . a server as a front for multiple servers 
+ . a starting point for all client requests - for LOAD BALANCING
+ . used for encryption and decryption using dedicated cryptography hardware, alleviating the work from the servers behind it 
+
+_

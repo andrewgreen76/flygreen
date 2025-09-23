@@ -1,0 +1,33 @@
+
+===================================================================================
+VIRTUAL PRIVATE NETWORKS (VPN) : 
+===================================================================================
+
+ . technology that extends a private LAN to a different, remote LAN 
+ . typically used for business purposes by employees who are not in the office 
+ . a “tunneling” protocol 
+   . access to something remote 
+   . “a VPN tunnel has been established” 
+ . must have a dedicated VPN server coming with a router 
+ . (VPN) client — tunnel — router — (VPN)server (of the company LAN)
+ 
+ . On the client side the tunnel has a virtual interface - a networking interface with an IP address that matches
+     the IP address of the (company) server.
+
+ . Before transferring an IP datagram, the VPN encrypts it. 
+   -> Then it encapsulates the datagram in a TCP segment / UDP datagram
+   -> Then it encapsulates **that** in an IP datagram. 
+   -> the datagram is transferred 
+   -> the VPN will peel the IP datagram and decrypt the actual IP segment for the server 
+   -> the IP datagram is encapsulated into an Ethernet frame and distributed through the server-side LAN 
+ . a “general technology concept”, not a protocol (seeing that it can be designed/implemented in more ways than one)
+
+
+===================================================================================
+SITE-TO-SITE CONNECTIVITY : 
+===================================================================================
+
+ . server — router ———	 TUNNEL   — router — server
+ . this allows two LANs / offices function as one 
+
+_

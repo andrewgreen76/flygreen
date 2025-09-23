@@ -1,0 +1,31 @@
+
+===================================================================================
+EARLY NETWORKING
+===================================================================================
+
+The telephone
+ . invented in 1876 by Alexander Graham Bell 
+
+
+PUBLIC SWITCHED TELEPHONE NETWORK (PSTN) : 
+ . a.k.a. Plain Old Telephone Service (POTS) 
+ . this old telephone connection infrastructure that was leveraged to connect computers at long distances
+     in the late 1970s
+
+
+Analog phone lines to transmit data : 
+ . “Phone lines were first used to transmit data by converting digital signals into audio tones using modems,
+    which allowed computers to communicate over the existing analog telephone network.”
+Modem :
+ . “The first modem was invented in 1958 by Bell Labs to transmit digital data over telephone lines for the U.S.
+    Air Force’s SAGE air-defense system.”
+
+
+Dial-up connection : 
+ . uses POTS to TRANSFER DATA BY DIALING A PHONE NUMBER
+ . A computer's digital signals would be converted to analog before having been sent over phone lines with a modem.
+ . The recipient modem would convert the incoming analog signal back to digital and feed it to the local computer.
+ . “The first dial-up network was realized in 1965 with the creation of the Dartmouth Time-Sharing System (DTSS),
+   which allowed remote computer access via telephone lines and modems.”
+
+_

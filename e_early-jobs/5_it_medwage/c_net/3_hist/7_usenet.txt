@@ -1,0 +1,11 @@
+
+===================================================================================
+USENET
+===================================================================================
+
+ . an early form of dial-up network that followed DTSS
+ . invented by two Duke University grads
+ . meant to ALLOW COMPUTERS TO COMMUNICATE ACROSS LONGER DISTANCES 
+ . still around as newsgroups and binary file sharing services
+
+_

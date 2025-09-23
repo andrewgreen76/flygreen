@@ -1,0 +1,41 @@
+
+Networking: god powers of communication and control at a distance
+
+	A program to open and dazzle with: exercising power. 
+	Baby programs, new spaces, and/or concepts: Telnet, Telehack. 
+
+	Getting our hands dirty before we start thinking about or analyzing things. I promise you: it’s nothing illegal. ;) 
+
+=========================================================================
+========================== A surprise ASCII program :)  =========================
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+> Run a Windows command prompt as administrator. 
+> Regardless of what your current directory is in the console, simply type “telnet” and hit Enter to access Telnet. 
+> Type ‘o’ to open a connection with a hostname/server and hit Enter. 
+> Type “towel.blinkenlights.nl” for the hostname and hit Enter to open a connection with a server under that hostname. 
+
+Watch the magic of ASCII unfold in Telnet as we are about to roll Star Wars Episode IV: A New Hope in ASCII from the very start up until the very end! 
+
+> To get out of the screening time press Ctrl + ]. 
+
+For further and more independent learning follow this URL: 
+https://www.lifewire.com/what-is-telnet-2626026
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+================================= Telehack ================================
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+> Run a Windows command prompt as administrator. 
+> Type “telnet” and hit Enter. 
+> Type ‘o’ to open a connection with a hostname and hit Enter. 
+> Type “telehack.com” for the hostname and hit Enter. 
+
+Welcome to Telehack! 
+
+> After the dot (.) type “ping” and hit Enter. 
+> Press Ctrl + T. 
+
+> To get out of Telnet space press Ctrl + ]. 
+
+_

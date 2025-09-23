@@ -14,7 +14,7 @@ Networking : designing , building , and managing networks.
 
 
 ===================================================================================
-INTERNET SERVICE PROVIDER 
+INTERNET SERVICE PROVIDERS
 ===================================================================================
 
  . ex. : CenturyLink , Level 3 , Comcast , Telefonica

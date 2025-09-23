@@ -25,7 +25,7 @@ MISCELLANEOUS QUESTIONS
 ===================================================================================
 
 Q : What does it mean for a user to be unable to connect to the internal system ?
-A : "It means the user cannot establish access—due to network, authentication, or configuration issues—to
+A : "It means the user cannot establish access - due to network, authentication, or configuration issues - to
      the organization’s private systems or resources."
 
 

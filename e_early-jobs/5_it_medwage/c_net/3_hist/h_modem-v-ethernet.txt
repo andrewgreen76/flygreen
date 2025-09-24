@@ -10,8 +10,19 @@
 DATA TRANSMISSION - WITH A MODEM 
 ===================================================================================
 
-	      [digital data]			    
-[cmptr][I/O net ifce] ---------------> [modem’s inbuf] ---------------->
+               [dig.dat] [raw bit stream]
+[I/O net ifce] --------> [inbuf] ~~~~~~~~~[LSb/MSb,0/1]-------<srl bit-sampl.(syncd-read)>---> [outbuf] -------------->
+     	       			                     [lin.coder]
+[cmptr]	- - - - - - - - - <clk.sync> - - - - - - - - [modem]							[phone line]
+
+
+Sampling:
+ . “To sample a bit means to measure the signal at a specific clock instant to determine whether it represents
+      a 0 or a 1.”
+ . “Detecting a bit at a logic level is essentially the result of sampling, since sampling provides the timing
+      reference needed to reliably decide whether the signal is a 0 or a 1.”
+ . “In other words, sampling stabilizes the signal by ensuring each bit is read at the correct time without
+      ambiguity.”
 
 
 ===================================================================================

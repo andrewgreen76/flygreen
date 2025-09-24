@@ -1,5 +1,10 @@
 
-"Line coding technology was first developed in the **early 1960s** for digital data transmission over
-  telecommunication lines."
+===================================================================================
+LINE CODING
+===================================================================================
+
+ . a.k.a. encoding 
+ . "Line coding technology was first developed in the **early 1960s** for digital data transmission over
+      telecommunication lines."
 
 _

@@ -1,0 +1,8 @@
+
+ . “Routers were first used in the late 1970s, with early implementations appearing on ARPANET to connect
+      multiple networks.”
+
+
+ . "Routers are COMPATIBLE WITH BOTH phone lines (via DSL or similar modems) and Ethernet cables."
+
+_

@@ -1,0 +1,15 @@
+
+ . modems are used for phone lines
+ . Ethernet cables use direct digital signaling without a modem
+ 
+ . modems originated in the late 1950s 
+ . Ethernet cabling technology emerged in the 1970s
+
+
+===================================================================================
+DATA TRANSMISSION - MODEM vs. ETHERNET 
+===================================================================================
+
+ . 
+
+_

@@ -1,0 +1,7 @@
+
+Reminder :
+ . UDP packets - datagrams
+ . TCP packets - segments
+ . IP packets - datagrams 
+
+_

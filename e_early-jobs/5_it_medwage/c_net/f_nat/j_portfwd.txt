@@ -3,7 +3,8 @@
 PORT FORWARDING
 ===================================================================================
 
-(1) IP masquerading for dedicated individual servers for the same company ; every server gets its own system port.
+(1) IP masquerading for dedicated individual servers for the same company ; every server gets to work only with
+      the dedicated system port.
 
 (2) NAT will simply figure out which server to forward a packet to based on the incoming/outgoing system port for the packet. 
     . i.e., specific ports are used to forward specific kind of traffic to specific (server) nodes

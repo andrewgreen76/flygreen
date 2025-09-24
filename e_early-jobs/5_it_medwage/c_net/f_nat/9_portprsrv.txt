@@ -5,8 +5,8 @@ PORT PRESERVATION
 
 (1) IP masquerading for clients 
     => the IP’s would be mapped
-(2) the same ephemeral port on all networking interfaces 
-    . unless two clients “book” the same ephemeral port, in the event of which a different ephemeral port
+(2) THE SAME EPHEMERAL PORT ON ALL NETWORKING INTERFACES (the client, the gateway, the server) 
+    . ... unless two clients “book” the same ephemeral port, in the event of which a different ephemeral port
       would be allocated to the second client 
     => NAT will simply figure out which client to deliver the packet to based on the chosen port. 
 

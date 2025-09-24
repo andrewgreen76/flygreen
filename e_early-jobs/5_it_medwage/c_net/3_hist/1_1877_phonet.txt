@@ -1,0 +1,23 @@
+
+===================================================================================
+EARLY CONNECTIONS
+===================================================================================
+
+The telephone
+ . invented in 1876 by Alexander Graham Bell
+ . “Phone lines were introduced in 1877, shortly after Alexander Graham Bell’s invention of the telephone,
+    to connect early telephone exchanges and subscribers.”
+
+
+PUBLIC SWITCHED TELEPHONE NETWORK (PSTN) : 
+ . a.k.a. Plain Old Telephone Service (POTS) 
+ . this old telephone connection infrastructure that was leveraged to connect computers at long distances
+     in the late 1970s
+
+
+“A single telephone system constitutes the network of telephones, lines, switches, and exchanges that work
+together to provide voice communication within a defined area or organization.”
+ . “The size of the area or organization for a single telephone system can range from a small office or
+   household to a large citywide or nationwide network, depending on its scale and infrastructure.”
+
+_

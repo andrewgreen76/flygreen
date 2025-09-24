@@ -1,0 +1,12 @@
+
+===================================================================================
+DIAL-UP CONNECTION : 
+===================================================================================
+
+ . uses POTS to TRANSFER DATA BY DIALING A PHONE NUMBER
+ . A computer's digital signals would be converted to analog before having been sent over phone lines with a modem.
+ . The recipient modem would convert the incoming analog signal back to digital and feed it to the local computer.
+ . “The first dial-up network was realized in 1965 with the creation of the Dartmouth Time-Sharing System (DTSS),
+   which allowed remote computer access via telephone lines and modems.”
+
+_

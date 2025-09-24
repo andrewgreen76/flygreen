@@ -1,0 +1,7 @@
+
+"The first coaxial cable was developed in **1880** by Oliver Heaviside."
+
+Nowadays “a coaxial cable is typically used for high-frequency analog or digital signals, such as cable TV,
+  broadband Internet, or radio-frequency communications.”
+
+_

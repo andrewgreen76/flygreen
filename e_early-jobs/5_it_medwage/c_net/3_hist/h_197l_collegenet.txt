@@ -1,0 +1,7 @@
+
+College and university networking: 
+ . dial-up connections 
+ . TSS and mainframes 
+ . 300-baud modems (connected by standard phone lines) 
+
+_

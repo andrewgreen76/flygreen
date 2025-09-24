@@ -1,0 +1,32 @@
+
+===================================================================================
+MODEM :
+===================================================================================
+
+ . “The first modem was invented in 1958 by Bell Labs to transmit digital data over telephone lines for the U.S.
+    Air Force’s SAGE air-defense system.”
+
+
+Analog phone lines to transmit data : 
+ . “Phone lines were first used to transmit data by converting digital signals into audio tones using modems,
+    which allowed computers to communicate over the existing analog telephone network.”
+
+
+POTS was leveraged to connect computers at longer distances in the late 1970s. 
+
+
+===================================================================================
+NOISY (AND BOSSY) MODEMS: 
+===================================================================================
+
+The noises: 
+ . the sounds they make are audible wavelengths as the product of processing digital data
+ . “Modems had speakers so users could hear the connection tones and negotiation signals, helping diagnose line
+      noise or connection issues during dial-up sessions.”
+
+
+Phone line takeover: 
+ . “You could not hear anything on the phone line when using the Internet in the 1990s because dial-up modems
+      occupied the line exclusively, preventing simultaneous voice and data transmission.”
+
+_

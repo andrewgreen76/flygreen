@@ -6,4 +6,12 @@ ETHERNET
  . WiFi / Ethernet cables use direct digital signaling to the modem
  . "Ethernet technology emerged in the early 1970s, with the first standard, IEEE 802.3, formalized in **1983**."
 
+
+ . “Ethernet uses wired access methods with CSMA/CD (Carrier Sense Multiple Access with Collision Detection) for
+      traffic control over twisted-pair or fiber-optic cabling.”
+
+
+ . “You don’t need Ethernet connectivity to establish an Internet connection if you use Wi-Fi, cellular, or other
+      wireless access methods.”
+
 _

@@ -1,0 +1,5 @@
+
+“Modems and routers connect to the wall to access the ISP’s service through whatever physical medium—phone line,
+   coax, or fiber—is provided.”
+
+_

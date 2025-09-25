@@ -1,0 +1,17 @@
+
+===================================================================================
+COAXIAL CABLE
+===================================================================================
+
+"The first coaxial cable was [conceived] in **1880** by Oliver Heaviside."
+
+Nowadays “a coaxial cable is typically used for high-frequency analog or digital signals, such as cable TV,
+  broadband Internet, or radio-frequency communications.”
+
+“Coaxial Internet typically uses DOCSIS (Data Over Cable Service Interface Specification) technology to
+   transmit digital data over cable TV lines.”
+
+“Coaxial connectivity is unnecessary for an Internet connection if you use alternatives like fiber, DSL,
+   or wireless technologies.”
+
+_

@@ -1,4 +1,9 @@
 
 “WiFi was introduced in 1997 with the release of the first IEEE 802.11 standard for wireless networking.”
 
+
+Getting Internet services: 
+ . “A modem or router can receive ISP service wirelessly if the ISP provides a fixed wireless, LTE/5G, or satellite
+    connection instead of a wired line.”
+
 _

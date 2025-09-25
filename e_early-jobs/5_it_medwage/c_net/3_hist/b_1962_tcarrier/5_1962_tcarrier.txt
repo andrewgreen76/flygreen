@@ -11,16 +11,4 @@ T-CARRIER TECHNOLOGIES
  . => very expensive 
  . => not commercially available 
 
-
-===================================================================================
-TRANSMISSION SYSTEM 1 (T1) 
-===================================================================================
-
- . a T-carrier specification
- . emerged in 1962
- 
- . later used for data transmission - at 64 Kbps per recipient
- . => total outgoing data transfer rate of 1.544 Mbps 
- . => nowadays means any twisted-pair copper connection - even 1-to-1 - delivering 1.544 Mbps
-
 _

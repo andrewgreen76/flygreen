@@ -1,0 +1,31 @@
+
+===================================================================================
+TYPES OF DSL
+===================================================================================
+
+ADSL - asymmetric DSL
+ . an early form of DSL
+ . support different speeds for incoming and outgoing data
+ . faster download speeds, slower upload speeds
+ . lower costs
+
+
+SDSL - symmetric DSL
+ . an early form of DSL
+ . similar to ADSL
+ . upload speed = download speed
+ . was used by exclusively by businesses with servers dedicated to sending data to clients
+ . has become more common in use by businesses and individual users
+ . best performance = 1.544 Mbps
+ . led the way to HDSL
+
+
+HDSL - high-bitrate DSL
+ . a more recent form of DSL
+ . performance = north of 1.544 Mbps
+
+
+There are others. 
+ . and ISP's provide various DSL options. 
+
+_

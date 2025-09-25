@@ -1,0 +1,18 @@
+
+===================================================================================
+TRANSMISSION SYSTEM 1 (T1) 
+===================================================================================
+
+ . the first T-carrier specification to ever emerge 
+ . came to be in 1962
+ . originally used to connect different telecom company sites 
+ 
+ . later used for data transmission - at 64 Kbps per recipient
+ . => total outgoing data transfer rate of 1.544 Mbps 
+ . nowadays means any twisted-pair copper connection - even 1-to-1 - delivering 1.544 Mbps
+
+ . businesses co-opted the tech for their own purposes - with the greater spread of the Internet in the 90s
+
+ . legacy tech 
+
+_

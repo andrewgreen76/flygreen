@@ -1,0 +1,22 @@
+
+ . Landline phone calls were transmitted at relatively low frequencies. 
+ . In a dial-up setup a connection to the Internet would interfere with the frequencies of any incoming phone
+     calls, taking over the phone line, and data would be transmitted at those frequencies.
+ . It was discovered that data could be transmitted at higher frequencies without interference with phone calls. 
+
+===================================================================================
+DIGITAL SUBSCRIBER LINE (DSL)
+===================================================================================
+
+ . developed in late 80s
+ . commercially available in the early 90s
+
+
+Dial-up setups have their modems and DSL setups have their own
+|
+DSL modems:
+ . Digital Subscriber Line Access Multiplexers (DSLAM)
+ . long-running
+ => a connection is on for as long as the DSLAM is on (unlike dial-ups with shorter connection sessions)
+
+_

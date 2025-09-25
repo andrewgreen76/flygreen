@@ -1,0 +1,22 @@
+
+===================================================================================
+TRANSMISSION SYSTEM 1 (T3) 
+===================================================================================
+
+ . 28 T1's multiplexed
+ 
+ => 24 phone channels
+    x 28 T1's
+    x 1 link
+    
+ => 1.544 Mbps x 28 = 44.736 Mbps 
+
+
+In small business offices: 
+ . also legacy tech, replaced by the cheaper """cable broadband""" and """fiber""" connections
+
+
+For internal ISP operations:
+ . fiber connections 
+
+_

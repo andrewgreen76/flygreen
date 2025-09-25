@@ -1,0 +1,23 @@
+
+===================================================================================
+BROADBAND TECHNOLOGIES
+===================================================================================
+
+ . any technology that is not dial-up (i.e., does not involve transmission of analog signals)
+
+
+CHARACTERISTICS of broadband connections:
+ . are always on
+ . long-lasting
+ . very fast (faster than the fastest dial-up) 
+
+
+HISTORY:
+ |
+ . "The first broadband technology to emerge was **cable television infrastructure in the late 1940s and early
+ |    1950s**, which later evolved to carry Internet signals."
+ |
+ . "Cable infrastructure was first used to carry Internet signals in the **mid-1990s** with the advent of cable
+      modem service."
+
+_

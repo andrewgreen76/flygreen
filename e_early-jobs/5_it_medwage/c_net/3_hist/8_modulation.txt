@@ -19,4 +19,14 @@ MODULATION
  . “To shift the information onto a carrier wave means altering the carrier wave’s properties so that it carries
       the original information for transmission.”
 
+
+===================================================================================
+CARRIER SIGNAL / CARRIER WAVE
+===================================================================================
+
+ . a high-frequency signal with sinusoidal waves 
+ . digital signal (varying between 0 volts and MAX volts) modified by a modulator into analog form 
+ . used as a basis for data transmission in phone lines, coax, fiber, etc., but NOT ETHERNET
+    . Ethernet cables transmit purely digital signals
+
 _

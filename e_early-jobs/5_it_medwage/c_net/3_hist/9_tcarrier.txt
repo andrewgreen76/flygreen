@@ -1,0 +1,26 @@
+
+===================================================================================
+T-CARRIER TECHNOLOGIES 
+===================================================================================
+
+ . originally for calling up to 24 phone call recipients across the same link (cable) at the same time
+ . originally invented by AT&T
+
+ . now they are meant for SENDING multiple data messages at the same time 
+ . require specialized data transmission lines
+ . => very expensive 
+ . => not commercially available 
+
+
+===================================================================================
+TRANSMISSION SYSTEM 1 (T1) 
+===================================================================================
+
+ . a T-carrier specification
+ . emerged in 1962
+ 
+ . later used for data transmission - at 64 Kbps per recipient
+ . => total outgoing data transfer rate of 1.544 Mbps 
+ . => nowadays means any twisted-pair copper connection - even 1-to-1 - delivering 1.544 Mbps
+
+_

@@ -1,0 +1,14 @@
+
+===================================================================================
+BAUD
+===================================================================================
+
+ . bits transmitted every second 
+ . "The term 'baud' and its use for signaling rate measurement started in the 1920s, named after Émile Baudot."
+
+
+ . Late 1950s: best baud rate reached = 110 bps
+ . Late 1970s: best baud rate reached = 300 bps 
+ . Early 1990s: best baud rate reached = 14.4 Kbps
+
+_

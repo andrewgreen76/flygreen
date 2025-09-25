@@ -20,4 +20,15 @@ together to provide voice communication within a defined area or organization.�
  . “The size of the area or organization for a single telephone system can range from a small office or
    household to a large citywide or nationwide network, depending on its scale and infrastructure.”
 
+
+===================================================================================
+TELECOM COMPANY SITES
+===================================================================================
+
+ . "a physical location, such as a central office, cell tower, or data center, where telecommunications equipment
+      is installed to provide network services"
+
+ . "The first telecom company site is generally considered to be Bell Telephone Company’s central office in New
+      York City, established in 1877."
+
 _

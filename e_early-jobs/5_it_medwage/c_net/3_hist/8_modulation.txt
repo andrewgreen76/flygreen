@@ -1,0 +1,22 @@
+
+===================================================================================
+MODULATION
+===================================================================================
+
+ . used in modems
+ . receiving bits and, based on the bits, generating varying analog signals
+ |
+ . “Modulation is the process of varying a carrier signal’s properties (such as amplitude, frequency, or phase)
+ |    to encode and transmit information.”
+ |
+ . these analog signals will be transmitted down the phone line
+
+
+ . “The purpose of modulating a signal before transmission is to shift the information onto a carrier wave so it
+ |    can travel efficiently over long distances, avoid interference, and match the transmission medium’s
+ |    frequency requirements.”
+ |
+ . “To shift the information onto a carrier wave means altering the carrier wave’s properties so that it carries
+      the original information for transmission.”
+
+_

@@ -9,6 +9,7 @@ NAT (NETWORK ADDRSES TRANSLATION) :
 
 Goal #1: coping with the limitations of IPv4 coverage.
  . allows a network to have one public IP address and multiple private IP addresses
+    . using certain techniques like port preservation and port forwarding 
  . This allows for coverage of 4.3 billion **PUBLIC** IP addresses ; delivery to/from private IP addresses
     is handled separately.
  => this helps with the IPv4's limitation on global coverage

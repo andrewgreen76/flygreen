@@ -3,6 +3,9 @@
 MODEM :
 ===================================================================================
 
+ . modems are used for outputing analog signal transmission lines (phone lines, DSL, cable(TV), fiber)
+
+
  . “The first modem was invented in 1958 by Bell Labs to transmit digital data over telephone lines for the U.S.
     Air Force’s SAGE air-defense system.”
 

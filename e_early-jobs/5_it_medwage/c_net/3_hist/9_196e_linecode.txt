@@ -1,0 +1,34 @@
+
+===================================================================================
+LINE CODING
+===================================================================================
+
+ . a.k.a. encoding
+ . used in line coders
+ . line coders are built into modems
+
+
+ . receiving bits and, based on the bits, generating a digital signal with varying voltage levels - MAX volts
+     for '1' and 0 volts for '0' - digital signals (a.k.a. line signals) 
+ . these digital signals will be transmitted across Ethernet cables
+
+
+ . “A line coder in a modem typically consists of a bit clock recovery unit, shift register, encoder logic (for
+      schemes like NRZ, RZ, Manchester, or bipolar), pulse-shaping filter, and a line driver to condition the
+      signal for transmission over the channel.”
+
+
+ . “The most common line coding techniques today are NRZ (Non-Return-to-Zero), Manchester encoding, and 8b/10b
+      encoding, used in digital communications and networking.”
+
+
+ . “The most recent and practical line coding technique widely used today is PAM-4 (Pulse Amplitude Modulation
+      with 4 levels), especially in high-speed data transmission like 400G Ethernet.”
+
+
+===================================================================================
+
+"Line coding technology was first developed in the **early 1960s** for digital data transmission over
+   telecommunication lines."
+
+_

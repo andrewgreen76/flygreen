@@ -1,28 +1,13 @@
 
- . modems are used for outputing analog signal transmission lines (phone lines, DSL, cable(TV), fiber) 
- . WiFi / Ethernet cables use direct digital signaling to the modem
- 
- . modems originated in the late 1950s 
- . Ethernet cabling technology emerged in the 1970s
-
-
 ===================================================================================
-DATA TRANSMISSION - WITH A MODEM 
+BIT SAMPLING:
 ===================================================================================
 
-Sampling:
  . “To sample a bit means to measure the signal at a specific clock instant to determine whether it represents
       a 0 or a 1.”
  . “Detecting a bit at a logic level is essentially the result of sampling, since sampling provides the timing
       reference needed to reliably decide whether the signal is a 0 or a 1.”
  . “In other words, sampling stabilizes the signal by ensuring each bit is read at the correct time without
       ambiguity.”
-
-
-===================================================================================
-DATA TRANSMISSION - WITH ETHERNET 
-===================================================================================
-
-
 
 _

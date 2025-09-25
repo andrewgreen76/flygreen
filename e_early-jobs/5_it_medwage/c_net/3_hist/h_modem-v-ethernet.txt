@@ -1,6 +1,6 @@
 
- . modems are used for phone lines
- . Ethernet cables use direct digital signaling without a modem
+ . modems are used for outputing analog signal transmission lines (phone lines, DSL, cable(TV), fiber) 
+ . WiFi / Ethernet cables use direct digital signaling to the modem
  
  . modems originated in the late 1950s 
  . Ethernet cabling technology emerged in the 1970s
@@ -9,12 +9,6 @@
 ===================================================================================
 DATA TRANSMISSION - WITH A MODEM 
 ===================================================================================
-
-               [dig.dat] [raw bit stream]
-[I/O net ifce] --------> [inbuf] ~~~~~~~~~[LSb/MSb,0/1]-------<srl bit-sampl.(syncd-read)>---> [outbuf] -------------->
-     	       			                     [lin.coder]
-[cmptr]	- - - - - - - - - <clk.sync> - - - - - - - - [modem]							[phone line]
-
 
 Sampling:
  . “To sample a bit means to measure the signal at a specific clock instant to determine whether it represents

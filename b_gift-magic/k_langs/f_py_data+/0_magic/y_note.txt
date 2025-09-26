@@ -1,0 +1,7 @@
+
+What do you want it to tell you first?
+ . How it knows about its own brain. 
+ . print(f"CPU Cores: {os.cpu_count()}")
+ . os -> cpu_count()
+
+_

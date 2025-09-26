@@ -8,11 +8,13 @@
 DIGITAL SUBSCRIBER LINE (DSL)
 ===================================================================================
 
+ . used phone lines
+ . but sent data over them at higher frequencies 
  . developed in late 80s
  . commercially available in the early 90s
 
 
-Dial-up setups have their modems and DSL setups have their own
+Dial-up setups have their modems ; DSL setups have their own. 
 |
 DSL modems:
  . Digital Subscriber Line Access Multiplexers (DSLAM)

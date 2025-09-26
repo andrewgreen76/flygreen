@@ -13,6 +13,10 @@ PUBLIC SWITCHED TELEPHONE NETWORK (PSTN) :
  . a.k.a. Plain Old Telephone Service (POTS) 
  . this old telephone connection infrastructure that was leveraged to connect computers at long distances
      in the late 1970s
+ . “A switched telephone is a telephone connected through a circuit-switched network, where calls are established
+      by temporarily linking dedicated paths between callers.”
+ . “A circuit-switched network establishes a dedicated communication path between two endpoints for the entire
+      duration of a session.”
 
 
 “A single telephone system constitutes the network of telephones, lines, switches, and exchanges that work

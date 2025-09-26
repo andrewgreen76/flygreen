@@ -1,0 +1,28 @@
+
+===================================================================================
+PPP (POINT-TO-POINT PROTOCOL)
+===================================================================================
+
+ . a broadband communication protocol 
+ . byte-based 
+ . for data transmission between two DIRECTLY CONNECTED devices 
+ => a data-link layer protocol
+
+
+Purpose of PPP: 
+ . “different systems used diverse network protocols, and PPP enabled interoperability over the same physical link”
+ . i.e., “PPP reduces complexity by providing a unified encapsulation method for multiple network protocols over one link”
+ => supposed to simplify wide-area network (WAN) operations 
+ . meant to HANDLE HEAVY TRAFFIC
+
+
+Drawbacks of PPP: 
+ . expensive
+ . complicated structure due to countless data links that need to be managed 
+
+
+More on PPP: 
+ . the nodes do NOT have to be manufactured by the same vendor 
+ . laid out in July 1994 in RFC 1661
+
+_

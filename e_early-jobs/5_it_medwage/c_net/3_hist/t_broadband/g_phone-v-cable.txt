@@ -1,0 +1,11 @@
+
+===================================================================================
+HOW PHONE LINES ARE DIFFERENT FROM CABLE
+===================================================================================
+
+ . ... where lines would go through CO’s central offices - with switchboards used by telephone operators. 
+ . Later these “CO’s” became just automated hardware.
+ . A single connection between a CO and a user would promise its own fixed/limited bandwidth.
+ => The performance of your line is independent of other (local) users. 
+
+_

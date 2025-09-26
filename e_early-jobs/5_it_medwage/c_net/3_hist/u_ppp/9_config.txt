@@ -1,0 +1,23 @@
+
+===================================================================================
+CONFIGURING PPP - OPTIONS
+===================================================================================
+
+ (A) multilink: supports SPREADING TRAFFIC around a LAN 
+ (B) compression: promotes faster traffic by reducing the amount of data in every frame 
+ (C) authentication: exchanging authentication messages - with one of the two methods: 
+     (a) using Password Authentication Protocol (PAP): username and password are transmitted in plaintext 
+     (b) using Challenge Handshake Authentication Protocol (CHAP): a 3-way handshake that periodically checks
+       	 identities of the clients
+ (D) error detection - involves the following: 
+     (1) Frame Check Sequence: 
+     	 . used for determining whether data loss has occurred along the way
+     	 . Address, Control, Protocol, Information, and Padding fields are used in the computation of FCS
+     (2) looped link detection: 
+     	 . a looped link allows for infinite circling of a frame
+	 . a randomly generated magic number is used to detect this 
+	 . every node encountered will log the received frame’s magic number
+ 	 . then upon a different arrival the node will check the logged magic number with the arrived frame’s
+	   magic number, and if it’s a match, the frame is erased
+
+_

@@ -1,0 +1,34 @@
+
+===================================================================================
+THE HISTORY OF CABLE TV NETWORK 
+===================================================================================
+
+ . originally wireless - with telecom TV towers and residential antennas 
+ . you had to be within range (cellular communications follow this fashion)
+ . late 1940s: shifted towards wired - to provide service to locations out of range 
+ . 1984: Cable Communications Policy Act - decentralized cable television, allowing to expand greatly 
+ . early 1990s: cable expansion matched that of PSTN
+
+
+===================================================================================
+CABLE (TV) BROADBAND
+===================================================================================
+
+ . leveraged the ability to transmit data across TV cables at higher frequencies (just like what DSL did for
+     data communications across phone lines)
+ . mid-90s: was applied to the Internet 
+ . 1996: options became commercial available 
+
+
+===================================================================================
+CABLE IS SHARED BANDWIDTH TECHNOLOGY
+===================================================================================
+
+ . individual user node lines are multiplexed with a split coaxial cable as a part of a cable modem transmission
+     system, connected to ISP’s end-point device called CMTS (cable modem termination system)
+ => users share the same bandwidth … until user-end transmissions reach the ISP
+ 
+ . performance may slow down when multiple LOCAL user nodes compete for some of the bandwidth 
+ => bandwidth uptake cannot be too concentrated
+
+_

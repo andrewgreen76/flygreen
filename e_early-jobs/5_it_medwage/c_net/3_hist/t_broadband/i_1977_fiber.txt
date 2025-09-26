@@ -1,0 +1,25 @@
+
+===================================================================================
+FIBER (OPTIC) CABLING
+===================================================================================
+
+ . uses light instead of electrical signals 
+ . an electrical signal could reliably deliver data for thousands of feet before needing a repeater so as to
+     avoid degradation   
+ + fiber: greatest transmission range - dozens of miles before needing a repeater or an amplifier 
+ + best Internet speeds
+
+ . introduced in the 1970s
+ . "with the first commercial fiber optic telephone system deployed by AT&T in 1977"
+ . began to be used by telecom companies 
+ . late 1990s - early 2000s: becomes the prevalent Internet cabling technology 
+ - expensive to produce and plant 
+ 
+ . for LAN demarcation: the Optical Network Terminator (ONT) instead of the modem 
+
+
+Optical Network Terminator (ONT):
+ . converts data for fiber-oriented protocol into data for the twisted-pair copper-oriented protocol
+ . no delivery across copper cables is required 
+
+_

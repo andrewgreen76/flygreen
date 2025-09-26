@@ -1,0 +1,18 @@
+
+===================================================================================
+CABLE MODEM
+===================================================================================
+
+ . for cable INTERNET connections
+ . at the edge of user LAN
+ . connects the LAN to CMTS (cable modem termination system) via a multiplexed line - with merge points called
+ |   cable plants
+ |    
+ . Cable plant: a merge node, “the physical infrastructure of cables, amplifiers, and nodes delivering service”.
+ . CMTS is on the ISP side and eventually connects users to the ISP (core network)
+ |
+ |
+ . DOCSIS:
+   . "a telecommunications standard that enables high-speed data transmission over cable TV networks."
+
+_

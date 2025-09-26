@@ -1,0 +1,33 @@
+
+===================================================================================
+FTTX
+===================================================================================
+
+ . Fiber-to-the-X 
+ . an idea for the distance to go to bring fiber closer to some node 
+
+
+FTTN: 
+ . Fiber-to-the-neighborhood 
+ . the idea of bringing fiber to a node with a shared physical cabinet 
+ . that cabinet would connect many, even further local nodes with copper or coax cables
+  
+
+FTTB:
+ . Fiber-to-the-Building
+ . Fiber-to-the-Business
+ . Fiber-to-the-Basement
+ . where cables enter the building 
+ . the rest of the way is connected with copper
+
+
+FTTH:
+ . Fiber-to-the-Home
+ . fiber to individual residence (unit or house)
+
+
+FTTP: 
+ . Fiber-to-the-Premises
+ . FTTB and FTTH
+
+_

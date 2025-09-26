@@ -1,6 +1,0 @@
-
- . uses cabling technologies other than phone lines 
- . also use modems 
-
-
-_

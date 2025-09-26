@@ -1,0 +1,23 @@
+
+===================================================================================
+PPP FRAME MAKE-UP
+===================================================================================
+
+ . 1 byte - start FLAG 
+   . (there may or may not be a flag, depending on the encapsulation)
+   
+ . 1 byte - broadcast ADDRESS
+ 
+ . 1 byte - CONTROL field : 
+   . multi-purpose
+   . can help with creating a connectionless data link
+   
+ . 1-2 bytes - PROTOCOL field : specifies the network protocol for the encapsulated IP datagram
+ 
+ . up to 1500 bytes - DATA
+ 
+ . 2/4 bytes - Frame check sequence (FCS) : for detecting data loss at the endpoint
+ 
+ . 1 byte - end flag
+
+_

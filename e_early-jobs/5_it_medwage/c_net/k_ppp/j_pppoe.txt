@@ -1,0 +1,31 @@
+
+===================================================================================
+POINT TO POINT PROTOCOL OVER ETHERNET (PPPoE)
+===================================================================================
+
+ . an alternative to the hard-to-manage PPP
+ 
+ . with PPP only two users can be connected 
+ => individual one-on-one links need to be managed
+ 
+ . with PPPoE several users can communicate with one another using the same Ethernet network 
+ => there is no need for logging countless one-on-one links
+ 
+ . this way “everybody knows everybody in the neighborhood” 
+
+
+===================================================================================
+PPPoE DESIGN
+===================================================================================
+
+ . PPP frames are encapsulated in Ethernet frames 
+ => data can be sent across Ethernet cables
+ 
+ . tunneling packets across the DSL ISP’s network and on to the rest of the Internet
+ . has the benefits of PPP + encryption
+ . uses PAP for authentication
+ 
+ . a little more complicated because most connections are not direct
+ => need the discovery stage : putting up a session ID that would be used to identify the correct destination device
+
+_

@@ -4,6 +4,8 @@ BROADBAND TECHNOLOGIES
 ===================================================================================
 
  . any technology that is not dial-up (i.e., does not involve transmission of analog signals)
+ . i.e., uses cabling technologies other than phone lines 
+ . also use modems 
 
 
 CHARACTERISTICS of broadband connections:

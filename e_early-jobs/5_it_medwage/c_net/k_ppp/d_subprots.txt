@@ -1,0 +1,11 @@
+
+===================================================================================
+PPP’S SUB-PROTOCOLS
+===================================================================================
+
+ . at the network layer - for when it’s time for remote transfer 
+   . Network Control Protocol (NCP): For negotiating optional settings for the remote transfer at every layer 
+   . Link Control Protocol (LCP): For automatically deciding the terms of the connection (initiation,
+       termination, error detection, provisioning for optional authentication) at each endpoint
+
+_

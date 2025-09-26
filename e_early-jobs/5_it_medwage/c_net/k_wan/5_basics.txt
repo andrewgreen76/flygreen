@@ -8,6 +8,13 @@ WIDE AREA NETWORK (WAN)
  . need a contract with an ISP
  -> the ISP IS RESPONSIBLE FOR MOVING YOUR data from one related locale to another 
 
+ . makes use of data link layer protocols
+    . PPP
+    . Frame Relay
+    . HDLC
+    . MPLS
+    . hardly ever uses Ethernet 
+
 
 ===================================================================================
 "LOCAL LOOP"

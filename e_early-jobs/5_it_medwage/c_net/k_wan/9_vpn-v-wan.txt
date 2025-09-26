@@ -1,0 +1,22 @@
+
+===================================================================================
+VPN vs. WAN
+===================================================================================
+
+VPN:
+ + secure, ENCRYPTED communication 
+ + CHEAPER 
+ - BANDWIDTH IS SHARED with public networks
+ => potential latency surge
+
+
+WAN:
+ + GUARANTEED BANDWIDTH (like a reserved lane) 
+ => consistent performance 
+ + connections are ALWAYS ON
+ => no reconnection overhead 
+ + the long-distance connections are handled by the ISP 
+ - COSTLY
+ - HARD TO MANAGE
+
+_

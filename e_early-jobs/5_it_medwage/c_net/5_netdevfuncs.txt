@@ -35,6 +35,6 @@ Most devices are not purely servers or clients ; they usually function as both.
 
 Network topography : 
 
-    the physical aspect of a network ; a piece of the Internet
+    the physical aspect of a network ; a (physical) part of the Internet
 
 _

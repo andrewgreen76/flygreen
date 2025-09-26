@@ -5,7 +5,10 @@
 VIRTUAL PRIVATE NETWORKS (VPN) : 
 ===================================================================================
 
- . technology that extends a private LAN to a different, remote LAN 
+ . technology that extends a private LAN to a different, remote LAN
+    . can even deliver access to resources on the other side of the globe
+ . may be called “private”, but it’s actually run over shared public infrastructure even though the transmitted
+     data is meant to be private
  . typically used for business purposes by employees who are not in the office 
  . a “tunneling” protocol 
    . access to something remote 

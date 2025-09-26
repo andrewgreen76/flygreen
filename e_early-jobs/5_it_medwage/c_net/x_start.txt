@@ -1,0 +1,18 @@
+
+===================================================================================
+YOUR PLAN AS AN IT SUPPORT SPECIALIST FOR A SMALL COMPANY
+===================================================================================
+
+ . IPv4 addresses are running out
+ . IPv4 addresses are expensive
+ . Will IPv6 addresses exclusively work?
+ . Try non-routable address space (with NAT) 
+ . Need a router
+ . List the necessities: 
+   . a contract with an ISP - (to deliver a link to the internet for web) service 
+   . DHCP - for automated address assignment 
+   . DNS - for fetching web content 
+   . VPN - for remote access ... but with port forwarding (works with NAT, IP masquerading) 
+   . a (?web proxy?) - for denial of request for content unrelated to work 
+
+_

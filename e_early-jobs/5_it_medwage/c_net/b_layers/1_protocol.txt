@@ -19,4 +19,12 @@ Computer networking :
  . the field and the activities revolving around ALL COMMUNICATION METHODS
  . involves repeating messages that were not fully delivered 
 
+
+===================================================================================
+PROTOCOL ARCHITECTURE
+===================================================================================
+
+ . the definition of the protocol (as published in an RFC)
+ . “A protocol’s architecture defines its structure, layers, and how components interact to achieve communication.”
+
 _

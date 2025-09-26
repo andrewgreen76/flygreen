@@ -1,0 +1,27 @@
+
+===================================================================================
+WIDE AREA NETWORK (WAN)
+===================================================================================
+
+ . a kind of technology that functions like LAN but covers multiple locales
+ 
+ . need a contract with an ISP
+ -> the ISP IS RESPONSIBLE FOR MOVING YOUR data from one related locale to another 
+
+
+===================================================================================
+"LOCAL LOOP"
+===================================================================================
+
+ . not really a loop but more like a line 
+ . the coverage involving the demarcation points (LAN routers and ISP edge routers) and the ISP core network
+     (core routers)
+ . refresher:
+    . "An ISP core network is the high-capacity backbone infrastructure that routes and manages data traffic
+      between regional networks and the global Internet."
+
+
+ . If you were a company, with WAN the local loop would connect the two ISP offices that would handle the long-
+     -distance transmission of YOUR data from end to end.
+
+_

@@ -1,0 +1,65 @@
+
+===================================================================================
+WAN PROTOCOLS
+===================================================================================
+
+The packet switching protocol: 
+ . a method of preventing data corruption
+ -> a single message is split into multiple packets 
+ -> these packets are triplicated
+ -> every triplicate takes its own optimal route
+ -> triplicates are collated and matched for error detection and correction ; at least two must match 
+ -> the packets are reassembled 
+ . otherwise, a retransmission request will be sent
+
+
+Frame relay:
+ |
+ . old tech 
+ . packet switching
+ . between two WAN endpoints 
+ . at the OSI model’s data-link and physical layers 
+ . “used on Integrated Services Digital Network (ISDN) lines”
+ . now used in places outside of WAN
+ |
+ . Frame relay network: 
+   . a data communications network 
+   . fast
+   . graces packets in frames
+   . reduces the need for error checking
+   . writes the destination address into every frame 
+   . Permanent Virtual Circuits (PVCs): for permanent connections 
+   . Switched Virtual Circuits (SVCs): for temporary connections 
+
+
+Asynchronous Transfer Mode (ATM): 
+ . old tech 
+ . encodes data with asynchronous time-division multiplexing 
+ . encoded data is placed in fixed-size cells 
+ . there are entire ATM networks 
+ . replaced by IP 
+
+
+High Level Data Control (HLDC):
+ . data-link layer protocol 
+ . error correction
+ . flow control
+ . polling for data transmission 
+ . versatile due to use of multiple protocols 
+ . supplanted Synchronous Data Link Control (SLDC) which uses only one 
+ . modes: 
+   . Asynchronous Response Mode (ARM): one-way permission to initiate a connection
+   . Normal Response Mode (NRM): one-way permission to transmit data 
+   . Asynchronous Balanced Mode (ABM): no need for permission to connect; two-way permission to transmit data
+
+
+Packet over Synchronous Optical Network (SONET) or Synchronous Digital Hierarchy (SDH): 
+ . cover the terms of communicating over fiber cables 
+
+
+Multiprotocol Label Switching (MPLS):
+ . optimizing routing 
+ . long addresses and short path labels would replace inefficient traditional table lookups
+ . data is moved directly from node to node 
+
+_

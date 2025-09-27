@@ -4,6 +4,8 @@ WIDE AREA NETWORK (WAN)
 ===================================================================================
 
  . a kind of technology that functions like LAN but covers multiple locales
+ + much more efficient than business cable and DSL
+ - very expensive, even to big companies 
 
 
  . WAN is comprised of LANs 

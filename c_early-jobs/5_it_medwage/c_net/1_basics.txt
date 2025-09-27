@@ -14,24 +14,9 @@ Networking : designing , building , and managing networks.
 
 
 ===================================================================================
-INTERNET SERVICE PROVIDERS
+ISP's (INTERNET SERVICE PROVIDERS)
 ===================================================================================
 
  . ex. : CenturyLink , Level 3 , Comcast , Telefonica
-
-
-===================================================================================
-MISCELLANEOUS QUESTIONS 
-===================================================================================
-
-Q : What does it mean for a user to be unable to connect to the internal system ?
-A : "It means the user cannot establish access - due to network, authentication, or configuration issues - to
-     the organization’s private systems or resources."
-
-
-Q : What qualifies as an administrative change in networking?
-A : "An administrative change in networking is any intentional configuration modification made by an administrator,
-     such as updating IP addresses, routing tables, firewall rules, or access controls."
-
 
 _

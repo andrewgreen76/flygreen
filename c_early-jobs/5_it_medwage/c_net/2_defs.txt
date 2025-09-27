@@ -1,0 +1,25 @@
+
+===================================================================================
+DEFINITIONS 
+===================================================================================
+
+Carrier network: 
+ . a telecom infrastructure 
+ . like a dominion under an ISP 
+ . regulates communications 
+
+
+Internal system: 
+ . the organization’s private systems or resources 
+
+
+Administrative change in networking:
+ . a config by an admin 
+ . updating IP addresses, routing tables, firewall rules, or access controls 
+
+
+Flow control: 
+ . a mechanism that CONTROLS THE BANDWIDTH between the sender and the receiver to prevent data loss and buffer
+   overflow 
+
+_

@@ -1,0 +1,25 @@
+
+===================================================================================
+A SUPER-BRIEF HISTORY OF ARCHITECTURES 
+===================================================================================
+
+Architecture		Who was involved	Where
+
+Intel 4004		Federico Faggin		embedded systems
+Intel 8008		F. Faggin, Ted Hoff	microcomputers
+Intel 8080		Federico Faggin		PCs, microcomputers
+Intel 8086		Stephen P. Morse	IBM PC-compatible machines 
+Intel 8088		R. Retter, D. Star,..	IBM PC-compatible machines
+Intel i286		Pat Gelsinger, ...	computers
+Intel i386		John H. Crawford, ...	computers
+Intel i486		Pat Gelsinger, ...	computers
+Intel Pentium I		D. Alpert, J. Crawford	computers
+Intel Pentium Pro	Robert Colwell,..	computers
+Intel Pentium II	Robert Colwell,..	computers
+Intel Pentium III	Robert Colwell		computers
+Intel Pentium IV	B. David, R. Colwell	computers
+ARMv8 	      		Richard Grisenthwaite	embedded systems
+RISC-V	      		K. Asanovic, ...	PCs, embedded systems 
+Zen			Jim Keller		AMD’s Ryzen, Threadripper, and EPYC processors for desktops, laptops, and servers
+
+_

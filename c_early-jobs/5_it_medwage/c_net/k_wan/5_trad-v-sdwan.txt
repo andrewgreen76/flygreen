@@ -1,0 +1,27 @@
+
+===================================================================================
+FLAVORS OF WAN
+===================================================================================
+
+Physical (traditional) WAN - formed with a router: 
+ . a.k.a. WAN endpoint
+ . a.k.a. border router 
+ . a.k.a. edge endpoint
+ . connects LANs to form a WAN 
+ . uses private connections 
+ . your/LAN side: Ethernet interface
+ . their/WAN side: digital modem interface
+ |  . works at the OSI link layer 
+ |  . i.e., “handles framing, addressing, and error detection for data transmitted over the physical link
+ |  . to the carrier network”
+ |
+ - leasing an ISP line is expensive 
+
+
+Software-Defined WAN (SD-WAN):
+ . cloud-based WAN
+ + simplifies WAN management 
+ + SD-WAN is cheaper than a traditional physical WAN
+ . can work with the more classic WANs
+
+_

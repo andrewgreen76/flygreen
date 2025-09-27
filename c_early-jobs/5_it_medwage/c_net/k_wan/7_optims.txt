@@ -1,0 +1,33 @@
+
+===================================================================================
+WAN OPTIMIZATION METHODS
+===================================================================================
+
+Compression of files: 
+ . to help with traffic
+ . sender and recipient will need an app for the same set of compression and decompression algorithms 
+ . there are many encoding and decoding algorithms out there
+
+
+Deduplication: 
+ . WAN converts every redundant copy of a file into a pointer to that file
+ => more efficient data backups 
+ => more efficient data recovery
+ . WAN disk hardware is expensive 
+
+
+Protocol optimization: 
+ . makes networking protocols more efficient for resource-intensive applications that need more bandwidth
+   for better performance 
+
+
+Local caching.
+ . SOME products allow for caching shared files. 
+
+
+Traffic shaping - transmission optimizations: 
+ . bandwidth throttling: managing excessive traffic
+ . rate limiting: capping the bandwidth 
+ . complex algorithms: organizing and prioritizing data in the traffic 
+
+_

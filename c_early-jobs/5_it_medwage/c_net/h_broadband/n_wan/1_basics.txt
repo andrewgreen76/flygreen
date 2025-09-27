@@ -11,22 +11,21 @@ WIDE AREA NETWORK (WAN)
  . option : security can be configured with VPN 
 
 
- . need a contract with an ISP
- -> the ISP IS RESPONSIBLE FOR MOVING YOUR data from one related locale to another 
-
-
 Important to big companies: 
  + fast
  + capable of accommodating movement of large amounts of data 
  => consistent performance
- + caretaking by the ISP 
-
+ + contracted caretaking by the ISP
+   . the ISP IS RESPONSIBLE FOR MOVING YOUR data from one related locale to another 
+But: 
+ - very expensive
+ 
 
  . makes use of data link layer protocols
-    . PPP
-    . Frame Relay
-    . HDLC
-    . MPLS
-    . hardly ever uses Ethernet 
+   . PPP
+   . Frame Relay
+   . HDLC
+   . MPLS
+   . hardly ever uses Ethernet 
 
 _

@@ -17,7 +17,8 @@ CABLE (TV) BROADBAND
  . leveraged the ability to transmit data across TV cables at higher frequencies (just like what DSL did for
      data communications across phone lines)
  . mid-90s: was applied to the Internet 
- . 1996: options became commercial available 
+ . 1996: options became commercial available
+ . became cheap
 
 
 ===================================================================================

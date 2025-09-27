@@ -12,6 +12,7 @@ DIGITAL SUBSCRIBER LINE (DSL)
  . but sent data over them at higher frequencies 
  . developed in late 80s
  . commercially available in the early 90s
+ . became cheap
 
 
 Dial-up setups have their modems ; DSL setups have their own. 

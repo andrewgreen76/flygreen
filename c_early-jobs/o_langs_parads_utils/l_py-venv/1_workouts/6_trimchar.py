@@ -1,4 +1,10 @@
+# nums = [2,7,11,15], target = 9
+
 import sys
 
-print( sys.argv[3] )
-print( sys.argv[6] )
+nums = sys.argv[3]
+nums = nums[:-1]
+target = sys.argv[6]
+
+print( nums )
+print( target )

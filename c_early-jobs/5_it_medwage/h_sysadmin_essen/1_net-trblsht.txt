@@ -1,0 +1,15 @@
+
+ . ping
+ 
+ . traceroute
+ . nc (netcat)
+ . Test-NetConnection
+ 
+ . mtr
+ . pathping
+ 
+ . nslookup
+ 
+ . ...
+
+_

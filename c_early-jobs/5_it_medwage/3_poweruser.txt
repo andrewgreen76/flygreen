@@ -3,8 +3,7 @@
 POWER USER
 ===================================================================================
 
- . an above-average computer user , somebody with the habits of an IT tech 
- . knows about the revision history feature in word processors ... and maybe even ways to give versions of
-     the same document distinctive names 
+ . an above-average computer user, somebody with the habits of an IT tech - ideally with the inclination to
+     learning command-line interfaces and the make-up of operating systems 
 
 _

@@ -1,6 +1,6 @@
 
 ===================================================================================
-LINUX - A REFRESHER AND MOVING FORWARD 
+LINUX - A REFRESHER 
 ===================================================================================
 
  $ ls
@@ -12,14 +12,12 @@ LINUX - A REFRESHER AND MOVING FORWARD
  $ touch
  $ touch .[filename] - is how you can hide the file 
 Ctrl-R - command-search through history in reverse
+ $ cd [dirpath]		# "change directory" takes you to the directory on the path you specified
+ $ cd -			# takes to the previously visited directory
 
 
 Flags can be fused:
  $ ls -l -a  	=	$ ls -la 
-
-
- $ cd [dirpath]		# "change directory" takes you to the directory on the path you specified
- $ cd -			# takes to the previously visited directory
 
 
 Paths:
@@ -27,5 +25,11 @@ Paths:
  . absolute path: starts at the root
  . relative path: starts at the current directory (a.k.a. working directory)
 
+
+ $ grep file d_ps_strsrh.txt 
+"> Select-String [str/r.e.] [in this file]
+   # searches for file contents matching the provided reg.expr.
+      		^	 ^scan for filenames matching the regular expression
+"
 
 _

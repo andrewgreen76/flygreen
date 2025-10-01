@@ -2,6 +2,7 @@
 Hostname :
  . symbolic name given to a device (on or off of a network)
  . "used to identify THE COMPUTER when it needs to talk to other computers"
+ . "the human-readable name assigned to a device on a network to identify it, such as `my-computer` or `server1`"
 
 
 User name:

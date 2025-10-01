@@ -3,8 +3,24 @@
 STRING SEARCH IN POWERSHELL
 ===================================================================================
  
- $ sls //////////////////// the “grep” of PowerShell 
- vs. $ Select-String     // searches for file contents by the provided regular expression 
- $ Select-String [string to search] [targets to search in]
+ > sls	  // alias for -> ...
+ > Select-String [str/r.e.] [in this file]
+   # the “grep” of PowerShell 
+   # searches for file contents matching the provided reg.expr.
+
+
+ > ls [dirpath] -Recurse -Filter [r.e.]
+      		^	 ^scan for filenames matching the regular expression
+		cover all levels
+
+
+Regular expression:
+ . a textual "formula" used as a condition or rule for detecting a string as a matching hit
+ . ex.: sea*
+   	sea	seance	season
+
+
+Pattern-matching:
+ . the process of collecting all the instances of a string that matches the provided regular expression
 
 _

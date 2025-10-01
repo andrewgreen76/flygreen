@@ -16,12 +16,20 @@ Some of the commands are ALIASES for the commands native to Windows, inspired by
  > Get-Help mkdir	 # getting help with a command in Windows PowerShell. #> Get-Help [cmd]
  > dir /?   		 # getting help with a command in Windows Command Prompt. #> [old_cmd] /?
 Ctrl-R - command-search through history in reverse
- > cp -Recurse
+ > cp -Recurse  # like -r -- capturing all depth levels, not just the directory itself 
  > cp -Verbose
  > rm		# remove [target], just like in Bash
  > rm -Force	# You may have the permissions to act on the file, but it may be a system file, so PowerShell
       		#   wants to know for sure whether this is in fact something you want to do.		
  > start [application] [target]	  # Fire up an application and have it target a specific file.
  > Get-Alias cd		# Output: cd -> Set-Location
+
+ > ... > ... 	  # overwrite
+ > ... >> ... 	  # append
+ > [a] | [b] 	  # feed the output of 'a' as the input to 'b'
+ > ... 2> $null	  # feed the stderr msg to nothing
+       	  	  # 1 - stdout, 2 - stderr
+
+ . $null - a variable that holds the value of ---nothing---.
 
 _

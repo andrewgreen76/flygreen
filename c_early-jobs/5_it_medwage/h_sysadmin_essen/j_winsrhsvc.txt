@@ -4,6 +4,15 @@ WINDOWS SEARCH SERVICE
 ===================================================================================
 
 “The Windows Search service is a background service that indexes files, emails, and other content on a Windows
-   system to provide fast and efficient search results.”
+ system to provide fast and efficient search results.”
+
+
+The index:
+ . "the database that stores the cataloged information about files and their properties for quick retrieval
+    during searches"
+
+
+The indexer:
+ . "the component that scans and catalogs file names, contents, and properties to enable fast search results"
 
 _

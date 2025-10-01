@@ -1,0 +1,9 @@
+
+===================================================================================
+WINDOWS SEARCH SERVICE
+===================================================================================
+
+“The Windows Search service is a background service that indexes files, emails, and other content on a Windows
+   system to provide fast and efficient search results.”
+
+_

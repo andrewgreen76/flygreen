@@ -3,6 +3,9 @@
 KEY DIRECTORIES IN A WINDOWS FILE SYSTEM
 ===================================================================================
 
+ . A drive with its own letter stands for a distinctive file system 
+ . the Windows OS resides in drive C:\
+ |
  . Program Files (x86) - 32-bit applications
  . Program Files - 64-bit applications
  . $Recycle.Bin - actually also a directory 

@@ -1,17 +1,15 @@
 
- . knowing PowerShell will help you stand out from the crowd 
+Knowing PowerShell will help you stand out on the job market. 
+
 
 ===================================================================================
-POWERSHELL 
+POWERSHELL - KEY COMMANDS:
 ===================================================================================
 
-Details: 
- . PowerShell has aliases for commands it shares with other OS’s
- . A drive with its own letter stands for a distinctive file system 
- . the Windows OS resides in drive C:\
+Some of the commands are ALIASES for the commands native to Windows, inspired by the actual commands from
+  other operating systems.
 
 
-Key commands:
  > cd	   # change directory
  > cd \    # go to the root directory 
  > cd ~\   # go to the user’s home directory
@@ -23,6 +21,7 @@ Ctrl-R - command-search through history in reverse
  > rm		# remove [target], just like in Bash
  > rm -Force	# You may have the permissions to act on the file, but it may be a system file, so PowerShell
       		#   wants to know for sure whether this is in fact something you want to do.		
- > start [application] [target]	  # Fire up an application and have it target a specific file. 
+ > start [application] [target]	  # Fire up an application and have it target a specific file.
+ > Get-Alias cd		# Output: cd -> Set-Location
 
 _

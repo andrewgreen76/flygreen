@@ -1,0 +1,10 @@
+
+===================================================================================
+STRING SEARCH IN POWERSHELL
+===================================================================================
+ 
+ $ sls //////////////////// the “grep” of PowerShell 
+ vs. $ Select-String     // searches for file contents by the provided regular expression 
+ $ Select-String [string to search] [targets to search in]
+
+_

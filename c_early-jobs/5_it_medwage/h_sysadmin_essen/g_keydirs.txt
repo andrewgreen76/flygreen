@@ -1,8 +1,8 @@
 
 ===================================================================================
-POWERSHELL 
+KEY DIRECTORIES IN WINDOWS AND LINUX
 ===================================================================================
 
- . knowing PowerShell will help you stand out from the crowd 
+ . 
 
 _

@@ -1,0 +1,11 @@
+
+===================================================================================
+KEY DIRECTORIES IN A WINDOWS FILE SYSTEM
+===================================================================================
+
+ . Program Files (x86) - 32-bit applications
+ . Program Files - 64-bit applications
+ . $Recycle.Bin - actually also a directory 
+ . ProgramData - hidden, holds application resources shared by users on the system
+
+_

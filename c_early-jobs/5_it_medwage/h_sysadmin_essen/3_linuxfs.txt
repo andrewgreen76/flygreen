@@ -3,7 +3,9 @@
 KEY DIRECTORIES IN THE LINUX FILE SYSTEM
 ===================================================================================
 
-See man for "hier". 
+Enter "$ man hier" for the the Linux file system hierarchy.
+
+/ - the root holds all files and directories for the system and all the user accounts
 
 /boot
 - files needed by the bootloader
@@ -12,6 +14,7 @@ See man for "hier".
 /bin
 - basic commands and executables for a minimal system
 - may be symbolically linked to /usr/bin 
+- explore Program Files in Windows to find similarities
 
 /sbin
 - commands/execs/bins for the		SUPERUSER/ROOT
@@ -20,6 +23,7 @@ See man for "hier".
 
 /home
 - holds directories of individual users' homes (so it's a super-home, if you will)
+- USER FILES exclusively
 
 /[user-you]
 - your personal files 
@@ -29,7 +33,7 @@ See man for "hier".
 - home of the root user 
 
 /etc
-- essential configs
+- ESSENTIAL/SYSTEM CONFIGS
 - start-up scripts 
 - stands for "editable text configuration"
 
@@ -44,7 +48,8 @@ See man for "hier".
 - emptied at every reboot 
 - can be	/var/tmp	-or-	/run/tmp
 
-/var 
+/var
+- ever-changing records managed by the system 
 - misc. variable files specific to and used by the OS (e.g., databases, email, history, etc.)
 - /var/logs holds records of activity within the system
 - temporary message files
@@ -53,6 +58,7 @@ See man for "hier".
 - web-server files (like in /srv) 
 
 /usr (Unix System Resources)
+- SOFTWARE INSTALLED BY USERS
 - similar to /root
 - utilities, extended system operations (i.e., non-essential to the system)
   => the files and directories here are not in /root
@@ -83,9 +89,9 @@ See man for "hier".
 - rarely used
 
 /proc
-- a sudo fs (created at boot time, destroyed at shutdown)
 - holds info about every live process on the machine (every process has its own dir)
 - holds info about the system, hardware, etc.
+- a sudo fs (created at boot time, destroyed at shutdown)
 
 /run
 - info about the system since boot time (logged users, daemons)

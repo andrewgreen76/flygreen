@@ -1,0 +1,31 @@
+
+===================================================================================
+LINUX - A REFRESHER AND MOVING FORWARD 
+===================================================================================
+
+ $ ls
+ $ man mkdir	  # man [cmd]
+ $ mkdir --help	  # [cmd] --help
+ $ cat
+ $ more
+ $ less
+ $ touch
+ $ touch .[filename] - is how you can hide the file 
+Ctrl-R - command-search through history in reverse
+
+
+Flags can be fused:
+ $ ls -l -a  	=	$ ls -la 
+
+
+ $ cd [dirpath]		# "change directory" takes you to the directory on the path you specified
+ $ cd -			# takes to the previously visited directory
+
+
+Paths:
+ . path: a string that specifies the location of (or targets) a file/dir 
+ . absolute path: starts at the root
+ . relative path: starts at the current directory (a.k.a. working directory)
+
+
+_

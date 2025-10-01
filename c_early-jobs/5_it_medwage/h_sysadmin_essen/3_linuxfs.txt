@@ -5,7 +5,14 @@ KEY DIRECTORIES IN THE LINUX FILE SYSTEM
 
 Enter "$ man hier" for the the Linux file system hierarchy.
 
-/ - the root holds all files and directories for the system and all the user accounts
+/     - pwd: /
+      - the root holds all files and directories for the system and all the user accounts
+
+/home - pwd: /home
+      - home for all user accounts
+
+~    - pwd: /home/[yourname-or-else]
+      - the prime directory for your user account 
 
 /boot
 - files needed by the bootloader

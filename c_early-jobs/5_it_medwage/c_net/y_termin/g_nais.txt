@@ -1,0 +1,14 @@
+
+===================================================================================
+NAIS LAPTOPS
+===================================================================================
+
+"An NAIS laptop is typically a laptop issued and managed by an organization or institution using the NAIS (Network Access and Information Security) framework for secure network access and device management."
+ |
+ |
+ . "a rugged or specialized laptop used by network administrators or engineers for configuring, testing, and
+    troubleshooting network devices"
+ . "meets the U.S. National AI Research Resource (NAIRR) or similar institutional standards for secure, compliant
+    hardware used in certain academic or government programs"
+
+_

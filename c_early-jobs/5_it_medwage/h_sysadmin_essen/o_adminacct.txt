@@ -1,0 +1,24 @@
+
+===================================================================================
+MANAGING ADMIN ACCOUNTS
+===================================================================================
+
+Q: “What does it mean for the admin account to be disabled by default on Windows?”
+A: “It means that the built-in Administrator account in Windows is created but turned off by default, so it cannot
+    be used to sign in until an authorized user enables it.”
+ . Every idling admin account session must be timed to prevent easy access to the account. 
+ . Disabled = not activated 
+
+
+===================================================================================
+LOCAL ADMIN ACCOUNT vs. YOUR OWN ACCOUNT (AS AN ADMIN): 
+===================================================================================
+
+Local admin account - the objective admin account, no matter who the individual is. 
+ . you may not have to enter your password all the time
+ .  comes with a risk, so use your own account as much as possible
+ 
+Your own account: a separate account for the admin as a regular user
+ . You can access administrative powers through your own account at any time. 
+
+_

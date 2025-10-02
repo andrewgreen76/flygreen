@@ -1,0 +1,10 @@
+
+===================================================================================
+UAC - USER ACCOUNT CONTROL:
+===================================================================================
+
+ . enforces authentication upon attempts at certain changes 
+ . you are being selective about when to use your privileges instead of using an admin account 
+ . works like “sudo” and “superuser”
+
+_

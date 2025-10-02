@@ -1,0 +1,13 @@
+
+===================================================================================
+WHY GROUP USERS? 
+===================================================================================
+
+Users can be grouped for a number of reasons: 
+ . to share files
+ . to be influenced at the same time by the same admin action or system action (using the numerical group ID) 
+ . to share the same permissions 
+ . etc. 
+
+
+_

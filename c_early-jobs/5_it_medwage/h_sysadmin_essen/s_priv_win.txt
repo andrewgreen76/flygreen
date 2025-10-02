@@ -1,0 +1,10 @@
+
+===================================================================================
+PRIVILEGES IN WINDOWS - USERS, GROUPS, AND MANAGING ADMIN PRIVILEGES:
+===================================================================================
+
+ . Get-LocalUser: lists all user accounts on the machine
+ . Get-LocalGroup: lists all groups
+ . Get-LocalGroupMember [group]: lists members of the indicated group (like admins) 
+
+_

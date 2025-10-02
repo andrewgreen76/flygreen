@@ -1,0 +1,10 @@
+
+===================================================================================
+<USERS> AND <PROCESSES AS USERS>
+===================================================================================
+
+$ cat /etc/password
+ . logs all the users on the machine
+ . some users are humans, others are processes 
+
+_

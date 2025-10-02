@@ -1,0 +1,9 @@
+
+===================================================================================
+/dev
+===================================================================================
+
+ /dev/null - a "magic" file that WILL TAKE ANYTHING and give nothing in return
+ /dev/zero - a "magic" file that will spit out nothing but zeros if properly used
+
+_

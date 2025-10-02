@@ -1,0 +1,35 @@
+
+===================================================================================
+COMPUTER MANAGEMENT TOOL IN WINDOWS: 
+===================================================================================
+
+ . covers more than Settings
+
+Windows domain: 
+ . a.k.a. Windows network domain
+ . a network management system for an enterprise environment
+ . the entire network of computers (connected to a database) regulated by the Active Directory
+ . Active Directory: 
+   . a computer management tool that regulates all machines within the Windows domain 
+ . helps manage user accounts, devices, security settings, etc. 
+ . managed by servers 
+ . the admin of the domain can REGULATE IT FROM ANY CONNECTED MACHINE 
+
+System Tools:
+
+ . Task Scheduler: includes system shutdown
+ . Event Viewer: system logs (crashes, etc.) 
+ . Shared Folders 
+ . Local Users and Groups: for managing accounts and groups
+ . > Users > [spec.user] > Profile
+ . - this can prove to be useful for when an admin wants to keep tabs on something or somebody
+ . Performance: resource monitoring
+ . Device Manager: managing peripherals and internal components
+
+Storage:
+ . Disk Management 
+
+Services and Applications:
+ . utilities for managing networking services 
+
+_

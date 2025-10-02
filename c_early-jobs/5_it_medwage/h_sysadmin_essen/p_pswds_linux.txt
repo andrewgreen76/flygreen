@@ -1,0 +1,12 @@
+
+===================================================================================
+WHAT ARE PASSWORDS IN LINUX?
+===================================================================================
+
+ . If an /etc file shows “x” for the password, it is encrypted and stored elsewhere.
+ 
+ . Group passwords : “A group password in Linux is an optional password that allows users who are not listed as
+     group members to temporarily join the group using the newgrp command.”
+
+
+_

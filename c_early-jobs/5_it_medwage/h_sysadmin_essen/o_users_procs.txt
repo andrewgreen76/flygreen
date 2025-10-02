@@ -3,8 +3,24 @@
 <USERS> AND <PROCESSES AS USERS>
 ===================================================================================
 
-$ cat /etc/password
- . logs all the users on the machine
- . some users are humans, others are processes 
+$ cat /etc/passwd
+ . logs four key pieces of information on every user account on the same machine
+ . some "users" are humans, others are processes
+
+
+First three are typically : root, daemon, bin :
+ |
+ . root:x:0:0:root:/root:/bin/bash
+ . daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+ . bin:x:2:2:bin:/bin:/usr/sbin/nologin
+ . <user alias> : <pswd/hash> : <UID> : <default shell>
+ |
+ 1. <user alias> - the user's alias to be read and understood by humans, not for the system to use 
+ 2. As for the "password", every user entry has:
+     (a) a hash string ("password"), stored in /etc/shadow, or
+     (b) a magic number signifying a locked/disabled account 
+ 3. UID - user's (numerical) ID used by the system 
+ 4. "For system accounts or accounts that are not meant for interactive logins, this field might be set to
+     /sbin/nologin or left blank, preventing a user from directly logging in."
 
 _

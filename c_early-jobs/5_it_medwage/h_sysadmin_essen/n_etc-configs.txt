@@ -1,0 +1,24 @@
+
+===================================================================================
+/etc AND ITS CHILD CONFIGS
+===================================================================================
+
+ . /etc dir : stores configs - for the kernel (system configs) and applications 
+
+
+Passwords and hash strings in Linux:
+ . If an /etc file shows “x” for the password, it is hashed and stored elsewhere.
+ . hash string : a long, complex string generated for security (a modern method) instead of a password (an older method)
+ . stored on a server's disk  
+
+
+Protected configs:
+ |
+ . /etc/passwd
+    . logs four key pieces of information on every user account on the same machine
+    . some "users" are humans, others are processes
+ . /etc/sudoers : tells which users have root (admin) privileges
+ |
+ . /etc/group : tells which users as a group can do certain things (like running “sudo”) 
+
+_

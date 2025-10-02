@@ -3,7 +3,9 @@
 WHAT ARE PASSWORDS IN LINUX?
 ===================================================================================
 
- . If an /etc file shows “x” for the password, it is encrypted and stored elsewhere.
+ . If an /etc file shows “x” for the password, it is hashed and stored elsewhere.
+ . hash: a long, complex string generated for security instead of a password
+ . stored on a server's disk 
  
  . Group passwords : “A group password in Linux is an optional password that allows users who are not listed as
      group members to temporarily join the group using the newgrp command.”

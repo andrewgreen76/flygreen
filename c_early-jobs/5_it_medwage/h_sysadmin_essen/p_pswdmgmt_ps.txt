@@ -1,0 +1,33 @@
+
+===================================================================================
+MANAGING PASSWORDS IN POWERSHELL WITH "net" 
+===================================================================================
+
+“net” command:
+ . native to DOS, but works in PowerShell
+ . the easier way
+ . less versatile than Set-LocalUser
+ . can help with changing passwords
+
+
+If the user REMEMBERS their password but needs to **reset it**:
+ (a)   > net user [username] ‘some_password’
+ (b)   > net user [username] *    # That’s better. Just enter your password and the CLI will output stars for
+       	     	  	     	  # characters to the screen instead of the actual password you are typing in. 
+				  # Besides, every command (line) entered is logged in a file and that log file
+				  # is sent to the “central logging service”. All the more reason to use the star. 
+
+ (c)   > net user [username] /logonpasswordchg:yes    # This will force the user to replace the default password
+       	     	  	     			      # upon next login. Even better since the admin won’t know
+						      # the user’s password.
+
+
+===================================================================================
+MANAGING PASSWORDS IN POWERSHELL WITH "Set-LocalUser" 
+===================================================================================
+
+ . more modern
+ . involves scripting 
+ . can do more than “net” 
+
+_

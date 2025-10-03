@@ -1,0 +1,16 @@
+
+===================================================================================
+MANAGING PASSWORDS IN LINUX BASH 
+===================================================================================
+
+To change a password: 
+
+ $ passwd [username]    # admin changes the password immediately without notifying the user
+   	  		# Then: old pswd, new DEFAULT pswd, confirm
+
+ $ sudo passwd -e [username]    # forces the user to change their password at the next login
+   	       	  		# -e - flag for “expired”
+
+The new password is hashed and stored in /etc/shadow .
+
+_

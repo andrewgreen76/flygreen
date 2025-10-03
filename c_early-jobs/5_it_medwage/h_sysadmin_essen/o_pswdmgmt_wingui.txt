@@ -1,0 +1,23 @@
+
+===================================================================================
+MANAGING PASSWORDS IN WINDOWS GUI: 
+===================================================================================
+
+If the user REMEMBERS their password but needs to **reset it**:
+ . Computer Management Tool
+ -> Local Users and Groups
+ -> [user in central pane]
+ -> right-click -> Properties
+ -> v User must change password at next logon
+ -> Apply -> OK 
+ -> Password will be reset at next login
+
+If the user FORGOT their password, you have to **set it**:
+ . Computer Management Tool
+ -> Local Users and Groups
+ -> [user in central pane]
+ -> right-click -> Set Password 
+ -> (They will lose certain credentials or privileges.)
+ -> Password will be set at next login
+
+_

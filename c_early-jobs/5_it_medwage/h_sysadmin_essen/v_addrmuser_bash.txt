@@ -1,0 +1,14 @@
+
+===================================================================================
+ADDING AND REMOVING USERS IN LINUX BASH
+===================================================================================
+
+Adding users in Linux Bash:
+ $ sudo useradd [username]
+ $ sudo passwd -e [username]
+
+
+Removing users in Linux Bash:
+ $ sudo userdel [username]
+
+_

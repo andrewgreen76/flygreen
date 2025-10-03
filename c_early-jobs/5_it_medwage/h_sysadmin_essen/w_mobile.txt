@@ -1,0 +1,27 @@
+
+===================================================================================
+MOBILE DEVICES
+===================================================================================
+
+ . managing accounts on smartphones and tablets (iOS and Android)
+
+Primary account : 
+ . for setting up the regular “user profile”
+ . for synchronizing data and settings to the cloud (for the latest backup) 
+
+Single Sign-On: 
+ . NOT a feature that gives the ability to sign in without repeating your credentials over and over
+ . IS a feature that allows you to provide the SAME CREDENTIALS to access multiple different accounts across various applications
+
+Protection measures:
+ . password
+ . pin
+ . “unlock pattern”
+ . biometric data: fingerprint, sensor, facial recognition, etc. - something physically unique to you
+
+Protection of business data: 
+ . Mobile Device Management (MDM) policies
+ . stipulate the terms of use (e.g., all mobile business devices are to be locked)
+ . stipulate the terms of device configuration
+
+_

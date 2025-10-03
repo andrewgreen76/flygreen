@@ -1,0 +1,10 @@
+
+===================================================================================
+PERMISSIONS IN WINDOWS
+===================================================================================
+
+ . Access Control Lists (ACLs) : where permissions are assigned to users 
+ . Discretionary Access Control Lists (DACLs)
+ . System Access Control Lists (SACLs) : give Windows the rules for logging every instance of someone accessing a file or folder
+
+_

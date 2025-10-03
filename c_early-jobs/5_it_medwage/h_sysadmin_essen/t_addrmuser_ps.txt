@@ -1,0 +1,27 @@
+
+===================================================================================
+ADDING AND REMOVING USERS IN POWERSHELL
+===================================================================================
+
+Adding users via PowerShell:
+  |
+ (a) with “net”:
+  |  > net user [username] * /add 
+  |  > net user [username] /logonpasswordchg:yes    # Prompt the user to type in the new default password at logon. 
+  |
+  |  # -OR-
+  |
+  |  > net user [username] ‘some_password’ /add /logonpasswordchg:yes 
+  |
+ (b) with “New-LocalUser”
+
+
+Removing users via PowerShell:
+  |
+ (a) with “net”:
+  |  > net user [username] /del
+  |
+ (b) with “Remove-LocalUser”
+     > Remove-LocalUser [username]
+ 
+_

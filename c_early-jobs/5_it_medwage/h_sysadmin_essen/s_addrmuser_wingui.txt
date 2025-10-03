@@ -1,0 +1,22 @@
+
+===================================================================================
+ADDING AND REMOVING USERS
+===================================================================================
+
+Adding users in Windows GUI:
+ . Computer Management Tool
+-> Local Users and Groups
+-> [in central pane] right-click -> New User 
+-> Type in a temporary default password
+-> v User must change their password at next logon 
+-> Create 
+
+
+Removing users in Windows GUI:
+ . Computer Management Tool
+ -> Local Users and Groups
+ -> [user in central pane]
+ -> right-click -> Delete -> Yes
+ . Adding a user account with the same name will not bring everything back.
+
+_

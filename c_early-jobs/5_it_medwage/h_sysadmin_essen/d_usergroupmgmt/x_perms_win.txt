@@ -6,6 +6,7 @@ PERMISSIONS IN WINDOWS
  . Access Control List (ACL):
     . implemented as part of a structured data object - the "security descriptor"  
     . holds permissions assigned to users
+    . Any time you see “ACLs”, think “permissions”.
 
 
  . Discretionary Access Control List (DACL):

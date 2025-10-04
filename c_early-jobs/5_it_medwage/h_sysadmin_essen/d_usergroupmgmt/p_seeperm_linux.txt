@@ -1,0 +1,21 @@
+
+===================================================================================
+EXAMINING AND UNDERSTANDING PERMISSIONS - IN LINUX BASH
+===================================================================================
+
+ . r, w, x
+ . r/w apply to both files and folders
+ . "Being the owner of a file means that the user has primary control over the file’s permissions and access
+    settings in the system.
+
+
+File type and permission bits:
+ . ?????????? - 10 bits
+ . e.g., -rwxr-x-wx
+ . 1st bit : ‘-‘ for regular file, ‘d’ for directory
+ . 1st rwx : owner’s permissions. (Yes, even the owner can limit themselves.)
+ . 2nd rwx : permissions given to the group that this file "belongs" to. (Yes, even the group that "owns" this
+     file can limit themselves.)
+ . 3rd rwx : permissions given to all other users
+
+_

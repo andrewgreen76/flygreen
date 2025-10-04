@@ -1,6 +1,6 @@
 
 ===================================================================================
-PERMISSIONS IN WINDOWS
+PERMISSIONS IN WINDOWS - ACLs
 ===================================================================================
 
  . Access Control List (ACL):
@@ -8,14 +8,13 @@ PERMISSIONS IN WINDOWS
     . holds permissions assigned to users
     . Any time you see “ACLs”, think “permissions”.
 
-
  . Discretionary Access Control List (DACL):
     . a basic type of ACL, tied to and responsible for access to a specific object 
     . specifies what users and groups can access the object
     . every file/folder is an object with an owner and a set of DACLs 
 
-
  . System Access Control Lists (SACL):
     . config for recording every instance of accessing a file or folder to an "event log" 
+
 
 _

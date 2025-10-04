@@ -1,0 +1,23 @@
+
+===================================================================================
+EXAMINING AND UNDERSTANDING PERMISSIONS - IN WINDOWS POWERSHELL
+===================================================================================
+
+ICACLs (Improved Change ACLs): 
+ . a PowerShell utility for examining ACLs
+ . To view users that can access a file/folder:
+
+   > icacls [file/folder]
+
+ (F) - full access (a.k.a. full control) 
+
+
+Permission inheritance:
+ . Parent directories may or may not share - or “inherit” - access permissions with their children.
+ => Files cannot possibly “pass on” permissions; only folders can.
+
+ . Things like (OI) and (CI) are what is known as PERMISSION MASKS.
+ . (OI) - object inherit - files will inherit this parent’s DACL (permissions)
+ . (CI) - container inherit - folders will inherit this parent’s DACL
+
+_

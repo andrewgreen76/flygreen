@@ -1,0 +1,24 @@
+
+===================================================================================
+EXAMINING AND UNDERSTANDING PERMISSIONS - IN WINDOWS GUI
+===================================================================================
+
+To see permissions:
+ . right-click -> Properties -> Security 
+ -> Select a group or user name
+ -> Look at the permissions
+
+
+Details: 
+ . You can have the “write” permission without the “read” permission. 
+ . The “write” permission for a directory allows you to create anything in that directory. 
+ . The “modify” permission covers all three: rwx. 
+ . Full control: 
+    . rwx perms
+    . ownership
+    . ability to change the object’s ACLs 
+
+
+Since this is modern Windows, the permissions you will see here are “NTFS permissions” - permissions to access files and folders stored in a disk volume formatted to NTFS.
+
+_

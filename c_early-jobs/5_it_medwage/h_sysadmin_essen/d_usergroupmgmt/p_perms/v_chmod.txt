@@ -10,25 +10,44 @@ MORE TO CHMOD THAN MEETS THE EYE - BEYOND MAKING THINGS EXECUTABLE
  ....???...          g - group, and
  .......???  	     o - others
 
-The notation comprised of the file type bit and the permission trios - drwxrwxrwx - is called the symbolic format.
+Also:
+ +    # to add the permission
+ -    # to remove the permission
 
 
-Changing permissions:
-| +    # to add the permission
-| -    # to remove the permission
-|
+===================================================================================
+CHMOD IN ACTION
+===================================================================================
+
 Examples:
-|
-| $ chmod u+x [target]  	 # endows the user the perm to employ the file as an executable
-|   -rw-rw-rw-	->    -rwxrw-rw-
-|
-| $ chmod u-x [target]  	 # deprives the user of the perm to employ the file as an executable
-|   -rwxrw-rw-	->    -rw-rw-rw-
-|
-| $ chmod +x [target]  	 # is a short for    $ chmod u+x ; $ chmod g+x ; $ chmod o+x 
-|   -rw-rw-rw-	->    -rwxrwxrwx
-|
+
+ $ chmod u+x [target]  	 # endows the user the perm to employ the file as an executable
+   -rw-rw-rw-	->  -rwxrw-rw-
+
+ $ chmod u-x [target]  	 # deprives the user of the perm to employ the file as an executable
+   -rwxrw-rw-	->  -rw-rw-rw-
+
+ $ chmod +x [target]  	 # is a short for    $ chmod u+x ; $ chmod g+x ; $ chmod o+x 
+   -rw-rw-rw-	->  -rwxrwxrwx
+
 You can fuse permission trios and permission masks, like:
  $ chmod ugo+rx [target]
+
+
+Suppose we want to change permissions in a very specific but convoluted way:
+| $ chmod u+rwx [target]
+| $ chmod g+rx [target]
+| $ chmod o+r [target]
+|
+There is a shorthand for altering permission trios:
+ $ chmod 754 [target]
+		     421421421
+   -rw-------  ->  -rwxr-xr--
+
+
+ . The chmod notation comprised of the file type bit and the permission trios for altering permissions - drwxrwxrwx -
+   - is called the symbolic format.
+
+ . The chmod notation making use of numbers is called the numerical format.
 
 _

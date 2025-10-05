@@ -1,0 +1,13 @@
+
+===================================================================================
+CHANGING FILE OWNERSHIP 
+===================================================================================
+
+Using "chown" to change the ownership of a file to a specific individual in the system.
+ . a.k.a. "CHange OWNer" command
+ $ (sudo) chown [user] [file]
+
+You can also you "chgrp" to change the ownership of a file to a specific group in the system.
+ . a.k.a. "CHange GRouP" command
+
+_

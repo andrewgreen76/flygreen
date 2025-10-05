@@ -24,7 +24,9 @@ What you do is raise the setUID bit:
  
  $ sudo chmod u+s [target]
  -OR-
- $ sudo chmod 4755 [target]    # That's basically like s--(4) rwx(7) r-x(5) r-x(5)
+ $ sudo chmod 4755 [target]    #  (4) - access restricted to root users
+   	      	   	       #   v
+   	      	   	       # rws(7) r-x(5) r-x(5)
 
 
 ===================================================================================
@@ -36,6 +38,26 @@ SPECIAL PERMISSIONS IN BASH - setGID
  
  $ sudo chmod g+s [target]
  -OR-
- $ sudo chmod 2755 [target]    # That's basically like -s-(2) rwx(7) r-x(5) r-x(5)
+ $ sudo chmod 2755 [target]    #	 (2) - access restricted to the group as though they are root users
+   	      	   	       #	  v
+			       # rwx(7) r-s(5) r-x(5)
+
+
+===================================================================================
+SPECIAL PERMISSIONS IN BASH - the "sticky bit"
+===================================================================================
+
+ . the bit marking a file/dir no one except for the root can remove (though they can read and write to it)
+
+ $ ls -ld /tmp/
+drwxrwxrwt 40 root root 12288 Oct  5 14:32 /tmp/
+         ^
+	 the sticky bit
+
+ $ sudo chmod +t [target]
+ -OR-
+ $ sudo chmod 1755 [target]    #		(1) - no one can delete this file except for the root
+   	      	   	       #		 v
+			       # rwx(7) r-x(5) r-t(5)
 
 _

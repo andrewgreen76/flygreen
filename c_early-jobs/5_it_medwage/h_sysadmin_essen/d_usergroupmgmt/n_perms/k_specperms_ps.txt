@@ -22,8 +22,6 @@ C:\Windows\Temp\ BUILTIN\Users:(CI)(S,WD,AD,X)
 
 "BUILTIN\Users:(CI)(S,WD,AD,X)"
  . all users on this machine
-
-
  . WD - create files and write data
  . AD - create folders and add data
  . S - synchronize

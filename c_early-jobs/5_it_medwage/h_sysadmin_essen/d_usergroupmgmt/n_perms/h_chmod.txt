@@ -1,6 +1,6 @@
 
 ===================================================================================
-MORE TO CHMOD THAN MEETS THE EYE - BEYOND MAKING THINGS EXECUTABLE
+MORE TO "chmod" THAN MEETS THE EYE - BEYOND MAKING THINGS EXECUTABLE
 ===================================================================================
 
  . chmod - command for "CHange MODe"
@@ -9,6 +9,7 @@ MORE TO CHMOD THAN MEETS THE EYE - BEYOND MAKING THINGS EXECUTABLE
  .???...... 	     u - owner (or "primary [u]ser", if that helps you), 
  ....???...          g - group, and
  .......???  	     o - others
+ .?????????	     a - all
 
 Also:
  +    # to add the permission

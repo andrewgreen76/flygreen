@@ -1,0 +1,34 @@
+
+===================================================================================
+MORE TO CHMOD THAN MEETS THE EYE - BEYOND MAKING THINGS EXECUTABLE
+===================================================================================
+
+ . chmod - command for "CHange MODe"
+ . alters permission trios to your specifications ... you know ... like:
+
+ .???...... 	     u - owner (or "primary [u]ser", if that helps you), 
+ ....???...          g - group, and
+ .......???  	     o - others
+
+The notation comprised of the file type bit and the permission trios - drwxrwxrwx - is called the symbolic format.
+
+
+Changing permissions:
+| +    # to add the permission
+| -    # to remove the permission
+|
+Examples:
+|
+| $ chmod u+x [target]  	 # endows the user the perm to employ the file as an executable
+|   -rw-rw-rw-	->    -rwxrw-rw-
+|
+| $ chmod u-x [target]  	 # deprives the user of the perm to employ the file as an executable
+|   -rwxrw-rw-	->    -rw-rw-rw-
+|
+| $ chmod +x [target]  	 # is a short for    $ chmod u+x ; $ chmod g+x ; $ chmod o+x 
+|   -rw-rw-rw-	->    -rwxrwxrwx
+|
+You can fuse permission trios and permission masks, like:
+ $ chmod ugo+rx [target]
+
+_

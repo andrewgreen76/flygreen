@@ -1,0 +1,31 @@
+
+===================================================================================
+SPECIAL PERMISSIONS IN WINDOWS POWERSHELL
+===================================================================================
+
+Run Windows PowerShell as the administrator and type in:
+ > icacls C:\Windows\Temp
+
+C:\Windows\Temp\ BUILTIN\Users:(CI)(S,WD,AD,X)
+                 BUILTIN\Administrators:(F)
+                 BUILTIN\Administrators:(OI)(CI)(IO)(F)
+                 NT AUTHORITY\SYSTEM:(F)
+                 NT AUTHORITY\SYSTEM:(OI)(CI)(IO)(F)
+                 CREATOR OWNER:(OI)(CI)(IO)(F)
+
+"***Local administrators*** and ***the operating system's computer account*** have full permissions over this
+   folder."
+
+(IO) - "inherit-only" in "CREATOR OWNER:(OI)(CI)(IO)(F)" :
+ . the associated permissions in this DACL (here it's full control (F) ) will be tied to the children and
+   the children's children and onward but will not apply to this parent (C:\Windows\Temp)
+
+"BUILTIN\Users:(CI)(S,WD,AD,X)"
+ . all users on this machine
+
+
+ . WD - create files and write data
+ . AD - create folders and add data
+ . S - synchronize
+
+_

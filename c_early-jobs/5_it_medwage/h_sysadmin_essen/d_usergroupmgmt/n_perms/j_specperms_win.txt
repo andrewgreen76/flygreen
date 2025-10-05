@@ -1,0 +1,19 @@
+
+===================================================================================
+SPECIAL PERMISSIONS IN WINDOWS GUI
+===================================================================================
+
+Simple permissions:
+ . Sysadmins and IT support specialists typically deal with simple permissions - r/w/x for all sorts of entities. 
+ . Simple permissions are in fact comprised of very specific, or "special" permissions.
+
+
+To see them:
+ . right-click a file/folder
+ -> Properties
+ -> Security
+ -> Advanced ...
+ -> double-click on a user/group entry
+ -> click on "Show advanced permissions"
+
+_

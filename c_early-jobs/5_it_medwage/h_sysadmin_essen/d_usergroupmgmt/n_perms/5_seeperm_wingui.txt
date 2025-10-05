@@ -13,7 +13,7 @@ Details:
  . You can have the “write” permission without the “read” permission. 
  . The “write” permission for a directory allows you to create anything in that directory. 
  . The “modify” permission covers all three: rwx. 
- . Full control: 
+ . descriptor (F) - Full control: 
     . rwx perms
     . ownership
     . ability to change the object’s ACLs 

@@ -1,0 +1,14 @@
+
+===================================================================================
+AUTHENTICATED AND GUEST USERS
+===================================================================================
+
+Authenticated user:
+ . will be required to use a password to use the computer
+
+
+Guest user:
+ . allowed to use the computer without a password
+ . disabled by default
+
+_

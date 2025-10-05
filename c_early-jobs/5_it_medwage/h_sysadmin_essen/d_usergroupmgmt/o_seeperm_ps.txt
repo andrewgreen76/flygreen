@@ -9,7 +9,10 @@ ICACLs (Improved Change ACLs):
 
    > icacls [file/folder]
 
- (F) - full access (a.k.a. full control) 
+ (F) : full access (a.k.a. full control)
+ (M) : modify access - r/w/x/del but not change permissions
+ (R) : read-only access
+  . etc.
 
 
 Permission inheritance:

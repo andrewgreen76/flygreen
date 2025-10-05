@@ -1,0 +1,22 @@
+
+===================================================================================
+CHANGING PERMISSIONS IN WINDOWS GUI
+===================================================================================
+
+ . right-click [target] in File Explorer
+ -> Properties
+ -> Security tab
+ -> Edit ...
+Adding the user to whose perms are to be modded:  
+ -> Add ...
+ -> type in the name of the user to be added
+ -> Check Names - to iron out the path to a valid username
+ -> OK
+From here in the Permissions window:
+ -> we can tick and untick permissions for the user
+ -> Apply -> OK
+ . "Deny" has precedence over "Allow"
+ . "Allow" and "Deny" can be marked for special cases of users belonging to a group that has a different
+    permission. These are basically exceptions.
+
+_

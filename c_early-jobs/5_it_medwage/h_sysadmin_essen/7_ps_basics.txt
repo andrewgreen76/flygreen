@@ -13,8 +13,8 @@ Some of the commands are ALIASES for the commands native to Windows, inspired by
  > cd	   # change directory
  > cd \    # go to the root directory 
  > cd ~\   # go to the user’s home directory
- > Get-Help mkdir	 # getting help with a command in Windows PowerShell. #> Get-Help [cmd]
- > dir /?   		 # getting help with a command in Windows Command Prompt. #> [old_cmd] /?
+ > Get-Help mkdir	 # getting help with a command native to Windows PowerShell. #> Get-Help [cmd]
+ > dir /?   		 # getting help with a command native to Windows Command Prompt. #> [old_cmd] /?
 Ctrl-R - command-search through history in reverse
  > cp -Recurse  # like -r -- capturing all depth levels, not just the directory itself 
  > cp -Verbose

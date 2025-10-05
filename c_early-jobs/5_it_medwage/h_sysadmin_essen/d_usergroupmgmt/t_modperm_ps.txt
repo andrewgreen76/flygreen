@@ -1,0 +1,11 @@
+
+===================================================================================
+CHANGING PERMISSIONS IN WINDOWS POWERSHELL
+===================================================================================
+
+ > icacls '[path\target]' /grant 'Everyone:(OI)(CI)(R)'
+ > icacls '[path\target]' /grant 'Authenticated Users:(OI)(CI)(R)'
+
+ > icacls '[path\target]' /remove [User/Group]
+
+_

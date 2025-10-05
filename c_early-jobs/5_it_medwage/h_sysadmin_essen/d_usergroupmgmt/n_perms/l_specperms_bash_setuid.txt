@@ -1,0 +1,41 @@
+
+===================================================================================
+SPECIAL PERMISSIONS IN BASH - setUID
+===================================================================================
+
+ . a.k.a. set user ID
+ . For endowing the user with AN EXCLUSIVE RIGHT ... but NOT ALL OF THE EXCLUSIVE RIGHTS of the root user!
+ . the right to do anything they want with a specific file that **ONLY THEY** own
+
+
+-rwsr-xr-x 1 root root 64152 May 30  2024 /usr/bin/passwd
+   ^
+   setUID bit : means that EVERY USER GETS A VERY SPECIAL PERMISSION - to run the file (command) like the
+     root user.
+
+
+Say you want **this** specific user (a regular user or maybe another admin) to be able to do what only a
+root user can - anything they want - with their own file, and other, less privileged users can't.
+ (a) a regular user who wants private access to and control over the file they own
+ (b) an admin who needs to run a command, a binary executable, or a script without limitations
+
+
+What you do is raise the setUID bit:
+ 
+ $ sudo chmod u+s [target]
+ -OR-
+ $ sudo chmod 4755 [target]    # That's basically like s--(4) rwx(7) r-x(5) r-x(5)
+
+
+===================================================================================
+SPECIAL PERMISSIONS IN BASH - setGID
+===================================================================================
+
+ . a.k.a. set group ID
+
+ 
+ $ sudo chmod g+s [target]
+ -OR-
+ $ sudo chmod 2755 [target]    # That's basically like -s-(2) rwx(7) r-x(5) r-x(5)
+
+_

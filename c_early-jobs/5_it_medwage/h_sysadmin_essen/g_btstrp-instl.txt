@@ -1,5 +1,0 @@
-
-"To bootstrap a Windows installer means to use a small setup program that initializes the installation process by
-   installing prerequisites and then launching the main installer."
-
-_

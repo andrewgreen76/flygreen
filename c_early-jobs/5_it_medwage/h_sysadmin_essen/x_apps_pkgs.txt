@@ -1,0 +1,27 @@
+
+===================================================================================
+INSTALLATION PACKAGES IN THE WORLD OF MOBILE APPS 
+===================================================================================
+
+Code signing:
+ . the developer signs off on an app saying "Hey, I am the one who developed this."
+ . the code can be altered in the package repository, in the event of which the digital signature is rendered
+     null and void
+
+
+Two kinds of apps:
+ . consumer-use apps
+ . enterprise apps
+    . signed with an enterprise cert
+
+
+Side-loading:
+ . the app store is like a middle man
+ . side-loading is any method of downloading an app directly, i.e. without the involvement of an app store
+
+
+Dedicated cache:
+ . any app that gives the user the ability to create content will have dedicated storage space assigned to that app
+ . reinstalling the app will clear its cache
+
+_

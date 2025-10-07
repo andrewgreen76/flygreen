@@ -1,12 +1,14 @@
 
 ===================================================================================
-INSTALLATION EXECUTABLES FOR WINDOWS
+INSTALLATION EXECUTABLES IN WINDOWS GUI
 ===================================================================================
 
 Flavors of executables:
- (a) files that guide the GUI Windows installer (wizard) to correctly install something 
+ (a) files that guide the GUI Windows installer (wizard) to correctly install something
+      . the system assumes certain settings by default
  (b) independent custom installers, having nothing to do with an .msi file or the Windows installer and just
-       running point on everything 
+     running point on everything
+      . you will have to define every little detail for the installation process
 
 
 Microsoft’s portable executable (PE):
@@ -17,10 +19,12 @@ Microsoft’s portable executable (PE):
 
 
 Microsoft install package (MSI file):
- . the MSI file is used by Windows installer to generate instructions for setting up, maintaining, and removing the software
+ . the MSI file is used by Windows installer to generate instructions for setting up, maintaining, and removing
+   the software
 
 
 Windows installer bootstrapping: 
- . the triggered PE will in turn trigger, pass its own resources, and then pass control to (bootstrap) the Windows installer
+ . the triggered PE will in turn trigger, pass its own resources, and then pass control to (bootstrap) the
+   Windows installer
 
 _

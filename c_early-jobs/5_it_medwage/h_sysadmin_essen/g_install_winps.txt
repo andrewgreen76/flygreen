@@ -1,0 +1,12 @@
+
+===================================================================================
+INSTALLATION VIA WINDOWS POWERSHELL
+===================================================================================
+
+ . can be automated for multiple machines with very specific configurations - not something you want to do manually
+ . some scripting may be involved
+ . config mgmt tools: PowerShell Desired State Configuration (DSC)
+ . you can actually use /? to inquire about the exclusive commands the installation package supports
+
+
+_

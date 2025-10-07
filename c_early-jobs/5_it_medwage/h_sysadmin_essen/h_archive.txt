@@ -1,0 +1,17 @@
+
+===================================================================================
+ARCHIVES
+===================================================================================
+
+ . package: an installation file with rules for software setup
+ . archive: a bunch of files bundled up and compressed into one file and can be uncompressed wherever the archive is
+ . package archive:
+    . a.k.a. source archive
+    . compressed source code
+    . installing from the package archive = "installing from source"
+
+
+Archiving/unarchiving in PowerShell:
+ > Compress-Archive -Path [target] [path/name_of_archive]
+
+_

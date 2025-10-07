@@ -1,0 +1,26 @@
+
+===================================================================================
+INSTALLATION EXECUTABLES FOR WINDOWS
+===================================================================================
+
+Flavors of executables:
+ (a) files that guide the GUI Windows installer (wizard) to correctly install something 
+ (b) independent custom installers, having nothing to do with an .msi file or the Windows installer and just
+       running point on everything 
+
+
+Microsoft’s portable executable (PE):
+ . a format of an executable native to Windows
+ . not just code and operands
+ . regular text (e.g., comments)
+ . embedded raw data (say, for an image) under the resources section (.rsrc)
+
+
+Microsoft install package (MSI file):
+ . the MSI file is used by Windows installer to generate instructions for setting up, maintaining, and removing the software
+
+
+Windows installer bootstrapping: 
+ . the triggered PE will in turn trigger, pass its own resources, and then pass control to (bootstrap) the Windows installer
+
+_

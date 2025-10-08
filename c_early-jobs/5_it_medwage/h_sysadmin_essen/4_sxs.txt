@@ -1,0 +1,14 @@
+
+===================================================================================
+SIDE-BY-SIDE ASSEMBLIES (SXS)
+===================================================================================
+
+ . DLLs are shared by applications
+ . updating the one DLL for one application can break the functionality of another
+ . SXS is a method of supporting both old and new versions of the same shared DLL so as not to break the
+     functionality of older applications
+ . shared DLLs are stored in C:\Windows\winsxs\
+ . **manifest** : tells Windows upon firing up an application that the system will also have to look into
+     the “winsxs” folder and lift the specified DLLs necessary for the application to run
+
+_

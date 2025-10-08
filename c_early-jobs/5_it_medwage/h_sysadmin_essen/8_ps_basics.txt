@@ -6,8 +6,10 @@ Knowing PowerShell will help you stand out on the job market.
 POWERSHELL - KEY COMMANDS:
 ===================================================================================
 
-Some of the commands are ALIASES for the commands native to Windows, inspired by the actual commands from
-  other operating systems.
+Some of the commands are ALIASES for the commands native to Windows.
+ . the aliases are "inspired" by the actual commands from other operating systems
+ . cmdlet (pronounced "command-let") : "a lightweight, single-function command used in PowerShell to perform
+     specific tasks."
 
 
  > cd	   # change directory

@@ -3,8 +3,9 @@
 ARCHIVES
 ===================================================================================
 
- . package: an installation file with rules for software setup
- . archive: a bunch of files bundled up and compressed into one file and can be uncompressed wherever the archive is
+ . package: an INSTALLATION FILE with rules for a software setup
+ . archive: a bunch of files - FILES OF ANY KIND - bundled up and compressed into one file and can be uncompressed
+   	    wherever the archive is
  . package archive:
     . a.k.a. source archive
     . compressed source code

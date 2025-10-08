@@ -19,8 +19,8 @@ Microsoft’s portable executable (PE):
 
 
 Microsoft install package (MSI file):
- . the MSI file is used by Windows installer to generate instructions for setting up, maintaining, and removing
-   the software
+ . an installation package
+ . used by Windows installer to generate instructions for setting up, maintaining, and removing the software
 
 
 Windows installer bootstrapping: 

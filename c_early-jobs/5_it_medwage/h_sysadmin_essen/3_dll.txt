@@ -1,0 +1,22 @@
+
+===================================================================================
+PROGRAMMING LINGO REFRESHER
+===================================================================================
+
+ . source code : high-level code produced by a human being
+ . .h 	       : header file (holds declarations that will be processed into addresses of code and data that can be
+      	       	 referred to by multiple source files)
+ . .c          : implementation/source file/definitions of declared functions 
+ . .h + .c     = library (dependencies in code form)
+
+
+===================================================================================
+DYNAMIC LINK LIBRARY (DLL)
+===================================================================================
+
+ . a library exclusive to Windows
+ . can be used by several different processes (i.e., shared by different applications)
+ . placed only once into memory instead of getting copied into the space of every process that needs to use it
+ => saves you memory 
+
+_

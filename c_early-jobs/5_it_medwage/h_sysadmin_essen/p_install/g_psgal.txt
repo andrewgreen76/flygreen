@@ -1,0 +1,19 @@
+
+===================================================================================
+EVOLUTION OF INSTALLATION IN WINDOWS
+===================================================================================
+
+PowerShell gallery:
+ . "a selection of packages native to Windows and quickly referred to by PowerShell"
+
+
+Chocolatey:
+ . a package manager with a public repository 
+ . an alternative to PowerShell, helping with expansion of the arsenal of packages
+ . gives the ability to create a private repository for a company, e.g., something specific to an enterprise-grade application
+ . Chocolatey is third-party
+
+
+Package repositories are also called package sources.
+
+_

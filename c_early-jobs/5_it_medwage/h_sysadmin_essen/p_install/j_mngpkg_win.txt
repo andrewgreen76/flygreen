@@ -1,0 +1,19 @@
+
+===================================================================================
+MANAGING PACKAGE SOURCES IN WINDOWS
+===================================================================================
+
+ > Register-PackageSource -Name [pkg_name] -ProviderName [name_of_provider] -Location [web-address]
+   # adds the repository to the list for PowerShell to account for
+
+ > Get-PackageSource
+   # to see if the repository is available for use 
+
+ > Find-PackageSource [pkg_name] -IncludeDependencies
+   # checks to see whether a specific package is available within the package source
+   # cmdlet for the ***Windows package manager***
+   # the manager helps locate the software with all the resources by the package name
+
+ > Install-Package -Name [pkg_name] 
+
+_

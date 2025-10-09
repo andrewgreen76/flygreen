@@ -1,0 +1,18 @@
+
+===================================================================================
+MICROSOFT INSTALL PACKAGE (MSI FILE):
+===================================================================================
+
+ . conditions Windows installer to perform the installation in a certain way
+ . an installation package
+ . used by Windows installer to generate instructions for setting up, maintaining, and removing the software
+ |
+ . contains a complicated database
+ . made up of :
+   . a database comprised of tables with installation instructions
+   . dependencies
+   . object data (e.g., image data)
+   . shortcuts
+   . other files
+
+_

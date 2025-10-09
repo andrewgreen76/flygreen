@@ -1,0 +1,29 @@
+
+===================================================================================
+MANAGING PACKAGES IN LINUX
+===================================================================================
+
+ $ sudo dpkg -i [pkg_name][file_extension]
+   . "a standalone package installer"
+   . i.e., it attempts to install only the target single package, not its dependencies
+   . vs. APT, which is a **package manager**; i.e., it installs the dependencies
+   . is exclusive to Debian and Debian-based distros
+
+
+APT:
+ |
+ . a.k.a. Advanced Package Tool
+ . much less painful to use than dpkg as it installs the package’s dependencies automatically before the target package itself
+ . supposed to replace “apt-get” for being easier to use
+ |
+ $ sudo apt install [pkg_name]
+ |
+ $ sudo apt update	# updates THE LIST of packages
+ $ sudo apt upgrade 	# actually UPDATES THE PACKAGES
+ |
+ /etc/apt/sources.list : holds the list of repositories to be available to the system
+
+
+Package file extensions: .deb, .rpm, .tgz
+
+_

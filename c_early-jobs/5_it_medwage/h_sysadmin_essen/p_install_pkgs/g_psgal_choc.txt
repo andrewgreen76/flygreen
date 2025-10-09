@@ -12,6 +12,8 @@ Chocolatey:
  . an alternative to PowerShell, helping with expansion of the arsenal of packages
  . gives the ability to create a private repository for a company, e.g., something specific to an enterprise-grade application
  . Chocolatey is third-party
+ |
+ > Install-Package -Name [pkg_name] -Source [pkg_src]
 
 
 Package repositories are also called package sources.

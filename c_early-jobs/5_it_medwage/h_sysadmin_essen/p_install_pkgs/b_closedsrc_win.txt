@@ -1,0 +1,9 @@
+
+===================================================================================
+DEALING WITH CLOSED-SOURCE PACKAGES - IN WINDOWS
+===================================================================================
+
+ . using a process-monitoring program from the Microsoft Sysinternals Toolkit to see what an installer is doing
+     instead of looking at the code
+
+_

@@ -4,7 +4,7 @@ INSTALLATION EXECUTABLES IN WINDOWS GUI
 ===================================================================================
 
 Flavors of executables:
- (a) files that guide the GUI Windows installer (wizard) to correctly install something
+ (a) files that use an MSI file to guide the GUI Windows installer (wizard) to correctly install something
       . the system assumes certain settings by default
  (b) independent custom installers, having nothing to do with an .msi file or the Windows installer and just
      running point on everything
@@ -13,14 +13,16 @@ Flavors of executables:
 
 Microsoft’s portable executable (PE):
  . a format of an executable native to Windows
- . not just code and operands
- . regular text (e.g., comments)
- . embedded raw data (say, for an image) under the resources section (.rsrc)
-
-
-Microsoft install package (MSI file):
- . an installation package
- . used by Windows installer to generate instructions for setting up, maintaining, and removing the software
+ . tells Windows installer about the ***resources*** needed for the setup and ***bootstraps*** the Windows installer
+ . wraps in : 
+   . the application itself
+   . the application’s dependencies
+   . code / data
+   . regular text (e.g., comments)
+   . other resources (embedded image data, icon data) - under the resources section (.rsrc) 
+   . (MSI file)
+   => “self-contained”
+   . (a header with metadata)
 
 
 Windows installer bootstrapping: 

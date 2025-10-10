@@ -14,5 +14,6 @@ MICROSOFT INSTALL PACKAGE (MSI FILE):
    . object data (e.g., image data)
    . shortcuts
    . other files
+   . another structure will be used to put together instructions for uninstallation
 
 _

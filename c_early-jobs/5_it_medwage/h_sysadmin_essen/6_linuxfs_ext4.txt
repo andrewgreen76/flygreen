@@ -1,5 +1,14 @@
 
 ===================================================================================
+THE ext4 FILE SYSTEM
+===================================================================================
+
+ . a file system native to the Linux kernel
+ . An ext4-formatted storage drive can be read from and written to ***only by a Linux distro***, not
+     a process on Windows.
+
+
+===================================================================================
 KEY DIRECTORIES IN THE LINUX FILE SYSTEM
 ===================================================================================
 

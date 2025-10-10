@@ -24,4 +24,8 @@ Protection of business data:
  . stipulate the terms of use (e.g., all mobile business devices are to be locked)
  . stipulate the terms of device configuration
 
+Mobile app's cache:
+ . the app's dedicated storage space
+ . resetting the app to its original state will clear the cache
+
 _

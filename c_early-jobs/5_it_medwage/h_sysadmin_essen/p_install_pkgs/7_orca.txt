@@ -1,0 +1,14 @@
+
+===================================================================================
+Orca.exe
+===================================================================================
+
+A tool that helps with making:
+ . MSI files
+ . Windows-native installation packages
+ . you can even edit them
+
+
+Orca.exe is a part of an SDK (Software Development Kit) provided by Microsoft.
+
+_

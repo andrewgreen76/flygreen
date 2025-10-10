@@ -10,8 +10,8 @@ MANAGING PACKAGE SOURCES IN WINDOWS
    # to see if the repository is available for use 
 
  > Find-PackageSource [pkg_name] -IncludeDependencies
-   # checks to see whether a specific package is available within the package source
    # cmdlet for the ***Windows package manager***
+   # checks to see whether a specific package is available within the package source
    # the manager helps locate the software with all the resources by the package name
 
  > Install-Package -Name [pkg_name] 

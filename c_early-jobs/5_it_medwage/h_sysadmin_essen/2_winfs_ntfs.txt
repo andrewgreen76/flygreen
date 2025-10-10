@@ -11,4 +11,13 @@ KEY DIRECTORIES IN A WINDOWS FILE SYSTEM
  . $Recycle.Bin - actually also a directory 
  . ProgramData - hidden, holds application resources shared by users on the system
 
+
+===================================================================================
+NTFS (NEW TECHNOLOGY FILE SYSTEM)
+===================================================================================
+
+ . the current standard for every file system native to Windows
+ . an NTFS-formatted storage drive can be read from and written to ***by both*** the Windows and Linux
+     operating systems
+
 _

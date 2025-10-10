@@ -3,7 +3,7 @@
 MANAGING PACKAGES IN LINUX
 ===================================================================================
 
- $ sudo dpkg -i [pkg_name][file_extension]
+ $ sudo dpkg -i [pkg_name].[file_extension]
    . "a standalone package installer"
    . i.e., it attempts to install only the target single package, not its dependencies
    . vs. APT, which is a **package manager**; i.e., it installs the dependencies

@@ -1,0 +1,15 @@
+
+===================================================================================
+UPDATING THE LINUX KERNEL
+===================================================================================
+
+Updating Linux distributions:
+ |
+ . i.e., updating the local kernel, of course
+ |
+ $ uname    # provides information about the system
+ $ uname -r    # shows the current kernel version
+ $ sudo apt update    # refreshes the package index with the latest version for every package
+ $ sudo apt full-upgrade    # updates the kernel (and other packages) to the latest versions
+
+_

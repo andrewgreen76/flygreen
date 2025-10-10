@@ -1,0 +1,30 @@
+
+===================================================================================
+DEVICES IN LINUX
+===================================================================================
+
+ . everything in Linux is a file 
+ . devices are (represented as) files
+
+
+Actual physical devices:
+ |
+ . character devices:
+   . input devices (that send data in a byte stream, i.e., character after character), e.g., keyboard, mouse, etc.
+   . /dev/zero : feeds an endless stream of zeros (null bytes)
+   . /dev/null : the black hole to pipe unwanted data to
+   . “You can verify that /dev/zero is a character device using the ls -l command. The output will show a ‘c’ at
+      the beginning of the permissions field, which stands for "character device.”
+   . all are represented as files
+ . block devices
+   . storage devices 
+   . i.e., they transfer data in blocks
+   . 1 block = 512B / 4KB
+   . all are also represented as files
+   . /dev/sda , /dev/sdb , ... - storage devices (sd)
+
+   $ ls -l
+   : b ??? ??? ???    # ‘b’ : block device
+
+
+_

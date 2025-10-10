@@ -1,0 +1,27 @@
+
+===================================================================================
+UPDATING THE WINDOWS OS
+===================================================================================
+
+Updating Windows versions older than Windows 10:
+ |
+ . need the Windows Update client service
+ . the service runs in the background regularly
+ . communicates with Windows update servers
+ . fetches security patches
+ + gives the liberty of selecting updates
+ - every missed update would have to be downloaded/applied
+ |
+ . Update Settings -> Advanced Options:
+   . for checking for new updates
+   . looking up the update history
+   . selecting the method of downloading and applying patches
+   . scheduling update actions
+
+
+Updates of Windows 10 are cumulative:
+ + only the latest updates would be fetched/applied
+ - the user does not get to be selective with individual updates
+ - not optional
+
+_

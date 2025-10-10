@@ -1,0 +1,14 @@
+
+===================================================================================
+DEVICE DRIVERS IN LINUX
+===================================================================================
+
+ . some are built into the kernel
+ . others are standalone drivers
+   - can be developed without the need of pulling the Linux kernel repo, changing things, and pushing a commit
+   - can be installed like any other software in Linux; the kernel will deal with it on its own later, when
+       the user prompts the system to install the device driver
+   - standalone drivers are classified as kernel modules (other kernel modules include things like the kernel
+       memory manager module)
+
+_

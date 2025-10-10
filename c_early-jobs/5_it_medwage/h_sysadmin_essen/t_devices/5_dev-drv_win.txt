@@ -1,0 +1,23 @@
+
+===================================================================================
+DEVICES AND DRIVES ON WINDOWS
+===================================================================================
+
+ . devmgmt.msc : Device Manager console
+ . Plug-and-Play (PnP) manager: recognizes and categorizes newly connected devices 
+ . the corresponding driver for the device is located and installed 
+ . every device has a hardware ID issued by the OEM (vendor)
+
+
+Device driver installation - basics:
+ . OS uses the ID to find the appropriate device driver:
+   (a) going off of the installation disk
+   (b) searching in the local list of common drivers
+
+
+Device driver installation - steps:
+   -> Windows Update
+   -> driver vendor’s store
+   -> device driver is installed
+
+_

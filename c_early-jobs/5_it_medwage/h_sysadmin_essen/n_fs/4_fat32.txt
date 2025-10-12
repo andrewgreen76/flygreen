@@ -3,9 +3,9 @@
 FAT32
 ===================================================================================
 
- . File Allocation Table
+ . a file system compatible with the Big Three : Windows, Linux, and MacOS
+ . "File Allocation Table"
  . 32-bit
- . a file system compatible with Windows, Linux, and MacOS
 
  - does not support files over 4GB
  - the FS has to be <=32GB

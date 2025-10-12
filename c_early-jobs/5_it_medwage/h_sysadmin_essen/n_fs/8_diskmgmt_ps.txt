@@ -1,0 +1,21 @@
+
+===================================================================================
+DISK MANAGEMENT IN WINDOWS - USING POWERSHELL
+===================================================================================
+
+ . for automating the process
+ . we use the "Diskpart" utility
+
+ > Diskpart
+ DISKPART>
+
+ DISKPART> list disk    # shows a list of disks Windows recognizes
+ DISKPART> select disk [disk_no]
+ DISKPART> clean        # wipes the entire disk of any data and volume formatting, so now we'd have to create
+ 	   		# the new prime partition
+ DISKPART> create partition primary
+ DISKPART> select partition 1
+ DISKPART> active       # enables operations on the partition
+ DISKPART> format FS=[chosen_FS] label=[chosen_diskname] quick
+
+_

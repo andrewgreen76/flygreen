@@ -12,9 +12,11 @@ DISK PARTITIONING - IN LINUX
  $ parted -l    # lists the partitions
     . /dev/sda1, /dev/sda2, ...
  . the "start" field for a partition shows the location where it begins
- $ sudo parted /dev/[select_disk/part]
+ $ sudo parted /dev/sd[select_disk/part]
+ |
+ |
  (parted) print    # lists info about the selected disk/partition
- "Error: /dev/[select_disk/part]: unrecognised disk label"    # storage has no part.table assigned for formatting
+ "Error: /dev/sd[select_disk/part]: unrecognised disk label"    # storage has no part.table assigned for formatting
  (parted) mklabel gpt
  (parted) mkpart [part.type] [FS_to_format_to] [start.loc] [end.loc]    # partition type - meaninigful to MBR only
  	  	 	     		       		   		# given gpt, we use "primary" by default
@@ -27,7 +29,7 @@ DISK PARTITIONING - IN LINUX
 DISK FORMATTING - IN LINUX
 ===================================================================================
 
- $ sudo mkfs -t ext4 /dev/[partition]    # 'mkfs' formats the targeted partition to be compatible to a specific FS.
+ $ sudo mkfs -t ext4 /dev/sd[partition]    # 'mkfs' formats the targeted partition to be compatible to a specific FS.
  $ parted -l
 
 _

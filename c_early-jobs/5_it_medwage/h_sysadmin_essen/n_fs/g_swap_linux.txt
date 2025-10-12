@@ -1,0 +1,28 @@
+
+===================================================================================
+PARTITIONING AND FORMATTING SWAP SPACE ON A DISK - IN LINUX
+===================================================================================
+
+ $ sudo parted /dev/sd[target_disk]
+ (parted) mkpart primary linux-swap [start.loc] [end.loc]
+ (parted) mkpart primary linux-swap [start.loc] [loc] 100%   # "100%" means taking up the rest of disk space.
+ 	  	 	 	    		      	     # We are yet to format it as a swap space (not a FS).
+ (parted) quit
+ $ sudo mkswap /dev/sd[swappart]	# formats the partition as swap space
+ $ sudo swapon /dev/sd[swappart]	# enables the space for use ("mounts") as swap space
+
+
+===================================================================================
+===================================================================================
+===================================================================================
+
+Permanently mounting the swap space:
+ . (but again, don't expect for there to be a swap space on a thumb drive)
+ . (the swap space is made available on the (thumb) drive at boot time)
+ $ sudo blkid    # Lists all partitions in every mounted drive, with each partition having its UUID
+   		 # (universally unique ID) listed.
+		 # Pronounced "block ID".
+ $ [chosen_txted] /etc/fstab    # ... and intuitively add the UUID, the mountpoint, the FS type, etc. of the
+   		  		# storage space to be permanently mounted.
+
+_

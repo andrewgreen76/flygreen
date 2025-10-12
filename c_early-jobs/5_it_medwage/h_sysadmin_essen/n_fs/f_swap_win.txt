@@ -1,0 +1,24 @@
+
+===================================================================================
+WINDOWS MEMORY MANAGER
+===================================================================================
+
+ . handles virtual memory (virtual-to-physical memory mapping)
+ . handles paging
+ . pages are stored in "pagefile.sys", a hidden file on the root partition of the volume
+
+
+System Properties:
+ . gives you the ability to change paging parameters - page count, page size, and path to pagefile.sys
+ . Control Panel
+   -> System and Security
+   -> System
+   -> Advanced system settings (in the pane on the left-hand side)
+   . You are in the System Properties applet
+   -> Advanced tab -> Performance -> Settings ...
+   . You are in the Performance Options applet
+   -> Advanced tab -> Virtual Memory, displaying the paging file size
+   -> You can hit "Change..." to alter the settings from the Windows default options
+   . You can also generate new pagefile.sys on other drives.
+ 
+_

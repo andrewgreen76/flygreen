@@ -1,0 +1,24 @@
+
+===================================================================================
+SWAP SPACE
+===================================================================================
+
+Virtual memory :
+ . the concept of taking up a part of some other physical resource and reappropriating it as a kind of an
+     extension of RAM (which we also refer to as virtual memory), thereby creating the illusion that the
+     machine has more memory than originally specified by the vendor.
+
+
+Swap space:
+ . a disk partition reserved for storing data that cannot fit into RAM, thus embodying virtual memory.
+ . It is comprised of PAGES (of a certain equal size).
+ . Paging : the act of moving page-size data from RAM to swap space or vice versa.
+ . Page-size data that goes unused in the process space of an application for a period of time will get
+     "evicted" onto the swap space. (LRU - least recently used data.)
+ . Addressing relevant pages on the swap space is abstracted away to the application process and is carefully
+     managed by the kernel. There is a method of mapping the actual physical addresses to the so-called
+     "virtual" addresses that the application process understands.
+ . Because the SSD and the HDD in a machine are typically the ones to support virtual memory, we almost
+     never use any space on a thumb drive as swap space.
+
+_

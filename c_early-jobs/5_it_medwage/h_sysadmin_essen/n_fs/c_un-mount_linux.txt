@@ -3,18 +3,18 @@
 MOUNTING A PARTITIONED FS TO A DIRECTORY - IN LINUX
 ===================================================================================
 
-/dev/[partition] is not accessible just yet.
+/dev/sd[partition] is not accessible just yet.
  . So far it's just a volume.
  . The Linux master FS on our machine has no directory that would serve as the access point to the created volume.
 
 
  $ mkdir [path/mountpoint]
- $ sudo mount [path/partition] [path/mountpoint]
+ $ sudo mount /dev/sd[partition] [path/mountpoint]
 
 
 UNMOUNTING:
  (a) $ sudo umount [path/mountpoint]
- (b) $ sudo umount [path/partition]
+ (b) $ sudo umount /dev/sd[partition]
   . The disk/partition is automatically unmounted upon system shutdown.
   . Failure to unmount manually (assuming no need to shut down) will result in system errors.
 

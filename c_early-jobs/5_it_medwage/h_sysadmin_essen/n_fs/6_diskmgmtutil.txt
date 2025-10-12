@@ -1,0 +1,12 @@
+
+===================================================================================
+DISK MANAGEMENT UTILITY
+===================================================================================
+
+ . can be used to reconfigure the disk and its partitions
+
+ . right-click "This PC"
+ -> "Manage"
+ -> Storage -> Disk Management
+
+_

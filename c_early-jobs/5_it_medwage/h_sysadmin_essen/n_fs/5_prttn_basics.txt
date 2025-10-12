@@ -1,0 +1,36 @@
+
+===================================================================================
+PARTITIONS
+===================================================================================
+
+ . To format the disk or a part of it you need to create a partition (a bounded space) on it.
+ . Once the partition is created, you can ***mount*** an OS or something with a different function to it.
+ . Volume : a partition formatted to a certain FS.
+
+
+Partition table:
+ . holds info on the partitioned structure of the disk
+ . classifies every partition as {boot (OS), swap, ...}
+ . shows amount of space allocated for every partition
+ . ...
+Partition table schemes:
+  . determine the structure of partition info
+ (a) master boot record (MBR)
+    . the older method
+    . used for Windows OS
+    . max vol size = 2TB
+    . allows for up to four ***primary partitions**
+    . primary partitions can be divided into ***extended partitions***
+    . extended partitions can be divided into ***logical partitions***
+ (b) GUID partition table (GPT)
+    . necessary for setting up UEFI
+    . over 2TB of space
+    . unlimited number of partitions of the same type
+
+
+GUID (Globally Unique Identifier):
+ . "a 128-bit value used to uniquely identify objects, components, or entities across systems and networks
+    without duplication"
+ . should remind of the IPv6 addresses
+
+_

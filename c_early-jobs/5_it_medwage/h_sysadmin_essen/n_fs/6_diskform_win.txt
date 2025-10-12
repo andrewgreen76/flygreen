@@ -4,17 +4,12 @@ FORMATTING DISK SPACE - IN WINDOWS GUI
 ===================================================================================
 
 Disk Management Utility: 
- . can be used to reconfigure the disk and its partitions (think FS and boundaries)
+ . used to reconfigure the disk and its partitions (think FS and boundaries)
  . it is more sensible to reconfigure something like a stick rather a disk with an OS on a computer
  . revamping the FS on a storage drive - or FORMATTING the disk - will erase all of its contents
 
 
-To open it:
- . right-click "This PC"
- -> "Manage"
- -> Storage -> Disk Management
-
-
+To open it, right-click "This PC" -> "Manage" -> Storage -> Disk Management.
 To reformat a storage device:
   . right-click on the partition/drive
   -> "Format ..."
@@ -32,5 +27,5 @@ To reformat a storage device:
   . file/folder compression option:
      . less space uptake but needs time to do compression/extraction work
   -> "OK"
- 
+
 _

@@ -1,6 +1,6 @@
 
 ===================================================================================
-DISK MANAGEMENT IN WINDOWS - USING POWERSHELL
+FORMATTING DISK SPACE - WITH POWERSHELL
 ===================================================================================
 
  . for automating the process

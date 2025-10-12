@@ -1,0 +1,14 @@
+
+Pull-up resistor vs. pull-down resistor:
+ |
+ . "Pull-down resistors ... are commonly used in digital circuits to ensure a stable low voltage state at a node
+ |  when no active signal is present, preventing floating inputs and ensuring reliable operation."
+ |  
+ . A ---pull-up resistor--- can help with building an inverting circuit ! 
+
+
+Choosing the right value:
+ |
+ . "An ideal pull-down resistor typically ranges from 1 kΩ to 100 kΩ, balancing sufficient current draw to hold
+    the line low without excessive power consumption."
+_

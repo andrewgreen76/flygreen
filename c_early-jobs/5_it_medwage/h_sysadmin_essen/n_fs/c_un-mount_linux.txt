@@ -1,0 +1,30 @@
+
+===================================================================================
+MOUNTING A PARTITIONED FS TO A DIRECTORY - IN LINUX
+===================================================================================
+
+/dev/[partition] is not accessible just yet.
+ . So far it's just a volume.
+ . The Linux master FS on our machine has no directory that would serve as the access point to the created volume.
+
+
+ $ mkdir [path/mountpoint]
+ $ sudo mount [path/partition] [path/mountpoint]
+
+
+UNMOUNTING:
+ (a) $ sudo umount [path/mountpoint]
+ (b) $ sudo umount [path/partition]
+  . The disk/partition is automatically unmounted upon system shutdown.
+  . Failure to unmount manually (assuming no need to shut down) will result in system errors.
+
+
+Permanently mounting a disk/partition:
+ . the storage space is made available at boot time
+ $ sudo blkid    # Lists all partitions in every mounted drive, with each partition having its UUID
+   		 # (universally unique ID) listed.
+		 # Pronounced "block ID".
+ $ [chosen_txted] /etc/fstab    # ... and intuitively add the UUID, the mountpoint, the FS type, etc. of the
+   		  		# storage space to be permanently mounted.
+
+_

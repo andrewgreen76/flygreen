@@ -1,0 +1,33 @@
+
+===================================================================================
+DISK PARTITIONING - IN LINUX
+===================================================================================
+
+"Parted":
+ . a utility for partitioning and formatting drives in linux
+ . supports both MBR and GPT
+ . comes in both GUI (interactive mode) and CLI
+
+
+ $ parted -l    # lists the partitions
+    . /dev/sda1, /dev/sda2, ...
+ . the "start" field for a partition shows the location where it begins
+ $ sudo parted /dev/[select_disk/part]
+ (parted) print    # lists info about the selected disk/partition
+ "Error: /dev/[select_disk/part]: unrecognised disk label"    # storage has no part.table assigned for formatting
+ (parted) mklabel gpt
+ (parted) mkpart [part.type] [FS_to_format_to] [start.loc] [end.loc]    # partition type - meaninigful to MBR only
+ 	  	 	     		       		   		# given gpt, we use "primary" by default
+ (parted) mkpart primary ext4 1MiB 5GiB    # NOTE: In Linux exact data measurement is used (1KiB = 1024B, 1KB = 1000B).
+ 	  	 	      	   	   # Windows uses estimated data measurement.
+ (parted) quit
+
+
+===================================================================================
+DISK FORMATTING - IN LINUX
+===================================================================================
+
+ $ sudo mkfs -t ext4 /dev/[partition]    # 'mkfs' formats the targeted partition to be compatible to a specific FS.
+ $ parted -l
+
+_

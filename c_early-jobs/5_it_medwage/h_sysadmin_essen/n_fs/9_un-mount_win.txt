@@ -5,6 +5,9 @@ MOUNTING A FILE SYSTEM TO A DISK (PARTITION)
 
  . makes the disk (partition) operable to the OS 
  . in Windows the selected FS is mounted automatically following the formatting process
+
+
+Unmounting:
  . if you are using a thumb drive, you'd need to eject the drive every time you need to remove it
 
 _

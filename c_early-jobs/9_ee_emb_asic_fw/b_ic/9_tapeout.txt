@@ -1,0 +1,4 @@
+"
+Tapeout is the final stage of the chip design process where the completed design data is sent for semiconductor fabrication.
+"
+_

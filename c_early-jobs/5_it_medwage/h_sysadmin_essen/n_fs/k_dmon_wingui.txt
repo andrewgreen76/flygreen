@@ -1,0 +1,34 @@
+
+===================================================================================
+DISK USAGE MONITORING - IN WINDOWS GUI
+===================================================================================
+
+Computer Management -> Storage -> Disk Management
+ -> right-click on the disk of your interest
+ -> Properties -> General tab
+Disk clean-up:
+ -> click on “Disk Cleanup”
+ . executes cleanmgr.exe
+ . deletion of temp files
+ . compression of hardly-ever-used files
+ . log wiping
+ . emptying the Recycle Bin
+
+
+Disk defragmentation:
+ . scheduled to be performed automatically
+ . Disk Defragmenter utility (“Defragment and Optimize Drives”)
+Trim:
+ . a utility for recalling unused space on the SSD
+Disk defragmentation on HDD’s:
+ . consolidation and reorganization of files on the HDD
+ . helps minimize the time it takes for the actuator arms (a.k.a. disk arms) to travel from one block on the HDD to another 
+    . rotational seek time
+    . linear seek time
+
+
+Disk Usage monitoring utility - in Windows PowerShell:
+ . a.k.a. the DU utility
+ . part of the SysInternals toolkit
+
+_

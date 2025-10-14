@@ -1,0 +1,29 @@
+
+===================================================================================
+FILE MANAGEMENT WITH LINUX FILE SYSTEMS
+===================================================================================
+
+ . the INODE TABLE contains inodes
+ . INODE : a structure containing the corresponding file’s ***metadata***
+ . does NOT hold the main body (actual data in the file) or even the file name
+
+
+Soft link = symlink :
+ . references a file ***by its name***
+ $ ln -s [target file] [link name]    # creates a soft link
+
+
+Hard link : 
+ . references a file ***by its inode***
+ . basically, points to the (physical) location of the file on the disk (within the file system)
+ => You don’t have to worry about changing the original file’s name.
+ => better than a symlink
+ $ ln [file]    # creates a hard link
+ |
+ |
+ $ ls -l [file]
+ : ft rwxrwxrwx hlc    # hlc - hard link count
+ . every file has at least one hard link
+ . no hard links means the file is supposed to be deleted
+
+_

@@ -1,0 +1,34 @@
+
+===================================================================================
+FILE MANAGEMENT WITH NTFS
+===================================================================================
+
+ . As an abstracted thing itself, NTFS uses its own object/structure for this purpose - the master file table.
+
+
+Master file table (MFT):
+ . every file has at least one related entry (a.k.a. MFT record), depending on the number of the file’s attributes
+ . MFT has its own entry in itself
+ . attributes : file info - file name, path, creation date, modification date, permissions, state (compressed /
+   / uncompressed), location of the file’s data, …
+ . file record number : the file’s index in the MFT
+
+
+Shortcut:
+ . technically a file that also has its own entry in MFT
+ . easily created and working just fine in GUI
+ . does not work as expected when accessed via PowerShell
+
+
+Symbolic link:
+ . works as expected when accessed via PowerShell
+ $ mklink [link.name] [target_to_reference]
+
+
+Hard link:
+ . An entry is added to the MFT.
+ . That entry references the file record number of the linked file, not the name of the linked file.
+ => You can change the name of the linked file and the link would still work.
+ $ mklink /H [link.name] [target_to_reference]
+
+_

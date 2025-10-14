@@ -1,0 +1,17 @@
+
+===================================================================================
+DISK USAGE MONITORING - IN LINUX
+===================================================================================
+
+Linux has a very good implementation of file management methods, resulting in very tight used-space consolidation
+  and hardly any need of defrag mechanics.
+
+
+ $ du -h    # disk space used
+      	    # without a parameter the utility targets the working directory 
+	    # the ‘-h’ stands for “in a human-readable form”
+
+
+ $ df -h    # disk space available - in all disks
+
+_

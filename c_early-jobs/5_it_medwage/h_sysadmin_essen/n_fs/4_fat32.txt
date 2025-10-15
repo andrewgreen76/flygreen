@@ -3,7 +3,7 @@
 FAT32
 ===================================================================================
 
- . a file system compatible with the Big Three : Windows, Linux, and MacOS
+ . a file system r/w-compatible with the Big Three : Windows, Linux, and MacOS
  . "File Allocation Table"
  . 32-bit
 

@@ -1,0 +1,13 @@
+
+===================================================================================
+WHY EJECT/UNMOUNT A THUMB DRIVE
+===================================================================================
+
+ . The system has not actually finished r/w between the {data buffer (cache) of the computer} and {the thumb drive}.
+ => Data on {the thumb drive} or {the data buffer in RAM/cache} will be left corrupted.
+ => Removing the thumb drive incorrectly will result in system errors, especially if you remove the thumb drive too
+      soon.
+ . The thing is that the data buffer has a direct interface with the thumb drive, so anything that has to be read
+     from or written to the drive will have to go through the data buffer first. 
+
+_

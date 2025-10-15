@@ -1,0 +1,34 @@
+
+===================================================================================
+FS PARTITION RECOVERY IN WINDOWS
+===================================================================================
+
+Journaling:
+ . Anything that changes about any file is reflected in not just the metadata, but also ***the NTFS log file***.
+ . This is how we keep track of the file system’s current state.
+ . This log is used for system recovery.
+
+
+Self-healing:
+ . a background process that automatically remedies various issues like data corruption
+ > fsutil repair query [drive letter:]    # for monitoring self-healing on a disk
+
+
+NTFS’ “chkdsk” utility:
+ |
+ . for checking the health of a disk by looking for corrupted locations and other anomalies
+ . will always give a report but by default it will not perform any kind of recovery action
+ |
+ . “chkdsk” is deployed automatically by the OS whenever it detects an issue like (a) incomplete (corrupted) data
+ |  or (b) a location on the disk that is hard to read from/write to.
+ |    
+ |   . The volume itself has its own metadata file with a special bit that, once raised, will signal chkdsk that
+ |     there is an issue. The utility will check this bit at boot time and, if the bit is set, use the NTFS log
+ |     to restore the file system’s pre-crash state, thus performing the recovery.
+ |
+ . manually: chkdsk is used as an option of last resort in the event of some disk failure disaster
+ |
+ . Getting “chkdsk” to fix a problem:
+   > chkdsk /F [drive letter:]    # the utility will attempt to fix any issue it finds
+
+_

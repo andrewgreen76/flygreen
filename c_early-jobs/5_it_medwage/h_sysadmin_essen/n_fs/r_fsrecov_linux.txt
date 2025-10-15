@@ -1,0 +1,14 @@
+
+===================================================================================
+FS PARTITION RECOVERY IN LINUX
+===================================================================================
+
+ . performed only when the file system is NOT mounted
+ . Running a file system check in Linux on a mounted partition will wreck the partition.
+ . sometimes the file system repair is NOT a success
+ 
+ $ sudo fsck /dev/sd[selected_partition]
+
+ . some Linux distros and versions perform “fsck” at boot time
+
+_

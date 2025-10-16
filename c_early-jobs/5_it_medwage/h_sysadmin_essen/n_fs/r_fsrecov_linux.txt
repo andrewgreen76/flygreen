@@ -3,8 +3,11 @@
 FS PARTITION RECOVERY IN LINUX
 ===================================================================================
 
- . performed only when the file system is NOT mounted
- . Running a file system check in Linux on a mounted partition will wreck the partition.
+Whenever you PARTITION a disk or PERFORM A RECOVERY action on the disk, always unmount the disk.
+!!! ALWAYS UNMOUNT THE DISK. !!!
+
+ !!! Always perform this when the file system is NOT mounted. !!!
+ !!! Running a file system check in Linux on a mounted partition will wreck the partition. !!!
  . sometimes the file system repair is NOT a success
  
  $ sudo fsck /dev/sd[selected_partition]

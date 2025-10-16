@@ -1,0 +1,14 @@
+
+Application vs. image:
+ |
+ Q : "What does it mean for a process to run an image instead an application?"
+ |
+ A : "When a process runs an image instead of an application, it means it is executing a binary executable file
+      (the program image) directly loaded into memory, rather than launching it through a higher-level wrapper
+      or interface."
+
+
+Daemon:
+ . a background process, always out of sight and independent of the user
+
+_

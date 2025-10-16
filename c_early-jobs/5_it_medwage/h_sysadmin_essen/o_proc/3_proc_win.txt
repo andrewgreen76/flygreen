@@ -1,0 +1,36 @@
+
+===================================================================================
+PROCESSES IN WINDOWS - BASICS
+===================================================================================
+
+ . Every new process has a parent process. 
+ . The child process will inherit members - variables, structures, etc. - of the parent.
+ . Some of this is implementation for ***settings***. These inherited settings are what we call an ENVIRONMENT.
+ . Then the child can run independently - regardless of the state of the parent.
+
+
+Process management in Windows:
+ > taskkill /pid [PID]    # kills the process
+ . Getting process info (including the PID):
+   . GUI: Task Manager -> Details tab
+      . taskmgr.exe
+      . Ctrl + Shift + Esc
+   . CMD: > tasklist
+   . PS: Get-Process
+
+
+First processes in Windows:
+ . Session Manager Subsystem:
+    . a.k.a. SSMS
+    . a.k.a. ssms.exe
+    . The first user process to start at boot time. So the user mode begins.
+    . prepares settings for the kernel
+    . triggers the login process “winlogon.exe”
+
+
+Client-server Runtime Subsystem:
+ . a.k.a. CSRSS
+ . a.k.a. csrss.exe
+ . manages the Windows GUI and CLI
+
+_

@@ -1,0 +1,16 @@
+
+===================================================================================
+WAYS OF MANAGING PROCESSES
+===================================================================================
+
+Communicating with processes - using signals: 
+ . signal : something sent to inform a process that an event has happened
+ . e.g., an interrupt, a manual SIGTERM, etc.
+
+
+Aborting a process: 
+ . It is totally fine to abort a time-consuming process that’s only moving data around in memory - just as long as:
+    1. it has nothing to do with data on a disk, and
+    2. it is not a system-critical process.
+
+_

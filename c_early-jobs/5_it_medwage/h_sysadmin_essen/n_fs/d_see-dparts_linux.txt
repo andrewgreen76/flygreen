@@ -3,6 +3,13 @@
 MONITORING PARTITIONS IN LINUX
 ===================================================================================
 
- $ sudo fdisk -l
+ $ sudo fdisk -l [disk]    # lists all partitions on the disk
+   	      	 	   # m - help menu
+			   # q - quit
+ $ sudo fdisk [disk]	   # calls for the interactive mode of the utility, this time regarding disk partition
+   	      		   # n - new partition
+			   # d - delete default partitions (you will be asked how many)
+			   # t - change the type of a partition
+			   # v - verify changes to realize them for the targte partition	
 
 _

@@ -1,0 +1,39 @@
+
+===================================================================================
+PROCESSES IN LINUX - BASICS
+===================================================================================
+
+ . Every child is always with its own parent. Kill the parent and the children will die too.
+ . a.k.a. parent-child relationship
+ . everything is a file, even a process - in “/proc”
+
+
+First processes in Linux:
+ . "In Linux, the process with PID 0 is the scheduler (also known as the swapper), a kernel process responsible
+      for managing CPU scheduling."
+ . “init” has the PID of 1
+ . “init”:
+    . bootloader -> kernel -> init
+    . The kernel starts init so that init can start other processes while the kernel is off doing other things.
+
+
+Getting process info (including the PID):
+ $ ps -x
+ . tty:
+    . short for “teletype”
+    . what it used to mean: 
+    . what it means now:
+ . STAT:
+    . process status
+    . R - running / waiting to run
+    . T - stopped (meaning “frozen”, not killed)
+    . S - interruptible sleep (waiting for an interrupt (a specific event) to happen before getting back to work)
+ $ ps -ef    # -e : list all processes (including those by other users)
+      	     # -f : full details
+	     # UID : ID of the user who started the process
+	     # PPID : ID of the parent process that started this child process
+	     # C : the number of children this (parent) process has
+	     # STIME : start time of the process
+	     # TIME : CPU time taken up by the process
+
+_

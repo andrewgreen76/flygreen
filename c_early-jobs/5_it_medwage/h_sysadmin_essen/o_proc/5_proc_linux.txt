@@ -19,15 +19,6 @@ First processes in Linux:
 
 Getting process info (including the PID):
  $ ps -x
- . tty:
-    . short for “teletype”
-    . what it used to mean: 
-    . what it means now:
- . STAT:
-    . process status
-    . R - running / waiting to run
-    . T - stopped (meaning “frozen”, not killed)
-    . S - interruptible sleep (waiting for an interrupt (a specific event) to happen before getting back to work)
  $ ps -ef    # -e : list all processes (including those by other users)
       	     # -f : full details
 	     # UID : ID of the user who started the process
@@ -35,5 +26,16 @@ Getting process info (including the PID):
 	     # C : the number of children this (parent) process has
 	     # STIME : start time of the process
 	     # TIME : CPU time taken up by the process
+
+tty:
+ . short for “teletype”
+ . what it used to mean: teleprinter/telewriter, a device that transmitted messages over communication lines
+ . what it means now: ANYTHING that provides communication with the system via text I/O, even if that thing
+     is a terminal emulator
+STAT:
+ . process status
+ . R - running / waiting to run
+ . T - stopped (meaning “frozen”, not killed)
+ . S - interruptible sleep (waiting for an interrupt (a specific event) to happen before getting back to work)
 
 _

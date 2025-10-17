@@ -1,0 +1,34 @@
+
+===================================================================================
+PROCESSES ON MOBILE DEVICES
+===================================================================================
+
+ . processes can’t be viewed
+ . multiple processes may be associated with the same mobile app
+ . foreground app - the app on the screen
+ . background apps
+    . not currently in the screen
+    . will be suspended by the OS for as long as possible
+    . with the Home Screen on all of the apps are in the background
+ . Identify which apps consume juice the most.
+
+
+===================================================================================
+NON-STOP AND FROZEN APPS
+===================================================================================
+
+ . slows down the device
+ . takes up a lot of juice
+ . need to be closed and maybe even uninstalled
+ . On an Android all apps (their processes) can be closed with “Clear All”.
+ . Closing apps one at a time can help identify the app that abuses the resources.
+    1. Start with the foreground app.
+    2. Keep closing apps right to left in the app switcher (from most recently used to least recently used)
+       until you detect the culprit.
+    . (Closing and reopening an app within a certain period of time can take up more battery power than just
+       leaving it running.)
+    3. Restart the device if it’s still working slowly.
+    4. Go to Settings -> Battery -> Battery Health (on iOS) or Settings -> Battery -> More -> Battery Usage
+       (on Android) to zero in on the parasitic app if restarting the device doesn’t make a difference.
+
+_

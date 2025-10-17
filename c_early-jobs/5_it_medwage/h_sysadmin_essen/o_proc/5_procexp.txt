@@ -1,0 +1,17 @@
+
+===================================================================================
+PROCESS EXPLORER
+===================================================================================
+
+ . a.k.a. procexp.exe
+ . a.k.a. procexp64.exe
+ . you’ll have to download it from the MS website
+ . a selection of a process will show what files the process is using
+ => If your target file is being used by a process, use Process Explorer.
+ . In ???.mui, .mui - multilingual user interface (support of multiple languages).
+ . Process 1 nested under Process 2 means that Process 1 is the child and Process 2 is the parent.
+ . Right-click on a process.
+    . “Kill Process Tree” - kills **this** process and all of its children. The parent isn’t touched.
+    . A “Restarted” child will be killed and created as a child of procexp.exe .
+
+_

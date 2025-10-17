@@ -17,6 +17,7 @@ Process management in Windows:
       . Ctrl + Shift + Esc
    . CMD: > tasklist
    . PS: Get-Process
+   . Process Explorer
 
 
 First processes in Windows:

@@ -1,11 +1,14 @@
 
 ===================================================================================
-WAYS OF MANAGING PROCESSES
+SIGNALS - BASICS
 ===================================================================================
 
 Communicating with processes - using signals: 
  . signal : something sent to inform a process that an event has happened
- . e.g., an interrupt, a manual SIGTERM, etc.
+ . NOT TO BE CONFUSED with an interrupt!
+    . signal : is sent and received at the OS level, i.e. mixed in somewhere with code and data
+    . interrupt : a low-level hardware line as part of the architecture, not the software
+ . Processes can not only receive but also send signals.
 
 
 Aborting a process: 

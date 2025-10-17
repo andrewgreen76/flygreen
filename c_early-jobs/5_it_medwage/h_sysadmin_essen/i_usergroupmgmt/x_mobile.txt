@@ -26,6 +26,6 @@ Protection of business data:
 
 Mobile app's cache:
  . the app's dedicated storage space
- . resetting the app to its original state will clear the cache
+ . resetting the app : "refreshing" the app, brining it to its original state by clearing (deleting) the cache
 
 _

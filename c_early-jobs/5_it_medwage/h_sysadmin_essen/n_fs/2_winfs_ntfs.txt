@@ -10,6 +10,7 @@ KEY DIRECTORIES IN A WINDOWS FILE SYSTEM
  . Program Files - 64-bit applications
  . $Recycle.Bin - actually also a directory 
  . ProgramData - hidden, holds application resources shared by users on the system
+ . System32 - contains vital executables, drivers, DLLs, and configuration utilities the Windows kernel depends on
 
 
 ===================================================================================

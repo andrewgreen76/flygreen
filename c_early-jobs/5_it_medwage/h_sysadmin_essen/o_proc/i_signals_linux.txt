@@ -1,0 +1,30 @@
+
+===================================================================================
+SIGNALS IN LINUX - CAST OF CHARACTERS
+===================================================================================
+
+SIGINT (signal interrupt) - with Ctrl + C
+ . the only signal you can easily send in Windows
+ . Linux offers a variety of signals a user can send.
+
+SIGTERM:
+ $ kill [PID]    # Sends a SIGTERM to the process, process releases its resources, and the kernel aborts the process.
+   		 # If a process would simply be killed while it was working on a file, that file would be corrupted.
+
+SIGKILL:
+ $ kill -KILL [PID]    # Yes, that’s a “kill” twice.
+   	      	       # This one sends a SIGKILL to the process and it dies without releasing its resources
+		         # including its target file. => This may result in a case of file corruption.
+ 		       => SIGTERM over SIGKILL
+
+SIGTSTP:
+ . signal “terminal stop”
+ . suspends the process
+ $ kill -TSTP [PID]
+ . or Ctrl + Z
+
+SIGCONT:
+ . the process resumes working
+ $ kill -CONT [PID]
+ 
+_

@@ -1,0 +1,16 @@
+
+===================================================================================
+MONITORING RESOURCES - IN LINUX
+===================================================================================
+
+ $ top
+ $ htop
+ $ uptime    # This command shows:
+   . current time
+   . length of time the OS has been live
+   . number of users logged on
+   . the system "load average" on the device - the load on the CPU within 1-, 5-, and 15-min intervals
+     . This one is great if you are good at understanding logic behind math.
+ $ lsof    # lists {open files} and {what processes are using these open files}
+
+_

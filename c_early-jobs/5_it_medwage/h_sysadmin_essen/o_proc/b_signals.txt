@@ -16,4 +16,9 @@ Aborting a process:
     1. it has nothing to do with data on a disk, and
     2. it is not a system-critical process.
 
+
+SIGINT (signal interrupt)
+ . with Ctrl + C
+ . the only signal you can easily send in Windows
+
 _

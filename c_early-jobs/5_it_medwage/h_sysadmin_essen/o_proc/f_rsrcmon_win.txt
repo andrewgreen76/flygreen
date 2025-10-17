@@ -1,0 +1,16 @@
+
+===================================================================================
+MONITORING RESOURCES - IN WINDOWS
+===================================================================================
+
+1. Resource Monitor
+2. Process Explorer -> right-click on a process -> Properties -> Performance Graph tab
+  . Private Bytes - memory uptake
+  . I/O - disk space uptake and operation time
+  |
+3. Get-Process:
+  . NPM(K) - non-paged memory the process is using (in kilobytes)
+  > Get-Process | Sort CPU -descending | Select -first 3 -Property ID,ProcessName,CPU
+    # a way of listing the most resource-intensive processes with Get-Process
+
+_

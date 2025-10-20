@@ -1,0 +1,22 @@
+
+===================================================================================
+PuTTY
+===================================================================================
+
+ . a TERMINAL EMULATOR for using SSH
+ . free
+ . open-source
+ . makes use of multiple protocols, but primarily SSH
+ . has to be downloaded
+ . PuTTY Configuration window
+    . default port = 22 (SSH)
+    . default connection type = SSH
+ . “host name / IP address” - those are of the node to connect to
+ . your credentials are logged in the terminal - where your IP address is also determined
+
+
+Plink (PuTTY Link) : 
+ . a CLI tool for managing remote SSH connections / sessions
+ . not pre-installed 
+
+_

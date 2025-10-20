@@ -6,12 +6,11 @@ Remote connection :
 
 SSH : 
  . a.k.a. Secure Shell
- . a terminal emulator PROGRAM with a dedicated network PROTOCOL
- . for remote access and data transfer 
- . an abstraction that does its job regardless of its implementation
- . "... a cryptographic network protocol that provides [...] remote login and command execution over an
-    unsecured network." 
-
+ . a PROTOCOL for using an unsecured network
+ . for remote connection and access
+ . for data transfer
+ . for command execution
+ . leveraged using terminal emulators - like PuTTY
 
 OpenSSH : 
  . A popular OPEN-SOURCE IMPLEMENTATION of SSH in Linux systems.
@@ -26,10 +25,5 @@ SSH server :
 
 SSH authentication key : 
  . A secure method for one computer to connect with another computer. 
-
-
-Plink (PuTTY Link) : 
- . a CLI tool for managing remote SSH connections / sessions
- . not pre-installed 
 
 _

@@ -1,0 +1,11 @@
+
+===================================================================================
+FILE TRANSFER IN LINUX
+===================================================================================
+
+ . Secure Copy Protocol
+ . file transfer with SSH over a network
+ $ scp [path_and_target] [ username ]@[ hostname (IPaddr) ]:[ path ]
+ . you need credentials for the target client
+
+_

@@ -6,7 +6,7 @@ PuTTY
  . a TERMINAL EMULATOR for using SSH
  . free
  . open-source
- . makes use of multiple protocols, but primarily SSH
+ . makes use of multiple protocols, but primarily SSH 
  . has to be downloaded
  . PuTTY Configuration window
     . default port = 22 (SSH)
@@ -19,4 +19,12 @@ Plink (PuTTY Link) :
  . a CLI tool for managing remote SSH connections / sessions
  . not pre-installed 
 
+
+===================================================================================
+PuTTY - IN WINDOWS POWERSHELL
+===================================================================================
+
+ > putty.exe -ssh [username]@[IP address] [port]
+ # You can use “plink” as well.
+ 
 _

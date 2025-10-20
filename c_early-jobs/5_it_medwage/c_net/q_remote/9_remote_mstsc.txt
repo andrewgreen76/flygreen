@@ -1,0 +1,36 @@
+
+===================================================================================
+REMOTE DESKTOP PROTOCOL (RDP)
+===================================================================================
+
+ . for CONTROLLING ANOTHER COMPUTER OVER A NETWORK
+ . you get the GUI of the other computer 
+ . such instances are Remote Desktop Sessions
+ . RDP services and some products are provided by Microsoft
+
+
+To have a machine regulated over RDP:
+ |
+ 1. It needs to have a compatible RDP client.
+   (a) RealVNC - Windows, macOS, Linux, Raspberry Pi OS, Android, and iOS
+   (b) Microsoft RDP (Microsoft Remote Desktop app) - for MacOS
+ |
+ 2. Remote connections should be enabled.
+    . Start Menu
+    -> right-click on “This PC”
+    -> Properties
+    -> (in the navigation pane on the left-hand side) “Remote settings”
+    -> Remote Desktop
+    -> “Allow remote connections to this computer” (a feature that can be abused when a malicious actor is involved).
+
+
+===================================================================================
+MICROSOFT TERMINAL SERVICES CLIENT 
+===================================================================================
+
+ . "A client program used to create RDP connections to remote computers."
+ . mstsc.exe
+ . "Remote Desktop Connection" app on Windows
+ . "Computer" = host name / IP address of the node to connect to
+
+_

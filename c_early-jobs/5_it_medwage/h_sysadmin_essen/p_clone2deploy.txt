@@ -1,0 +1,14 @@
+
+===================================================================================
+DISK CLONING AND OS DEPLOYMENT
+===================================================================================
+
+"To deploy an OS in IT means to install, configure, and distribute an operating system onto target devices or
+ servers for operational use" efficiently using a single machine.
+
+
+Disk cloning tools:
+ . Clone Zillow (open-source)
+ . Semantic Ghost
+
+_

@@ -1,0 +1,22 @@
+
+===================================================================================
+MISCELLANEOUS TIPS
+===================================================================================
+
+A computer is working very slowly:
+ . CPU and RAM gouging
+ . use Windows/Linux utilities to examine what the processes are up to resource-wise
+
+
+An error or a crash has occurred:
+ . root issue vs. cascading error
+ . searching for the word “error” in a log
+ . searching for the name of the application running into error
+ . get information on the time when an error or a crash took place
+ . When having a filtered list of errors for relevant info, work your way from the top or from the bottom.
+ . Working from the top may help resolve the root issue.
+ . Working from the bottom might help zero in on the actual issue.
+ . You can also troubleshoot the issue in real time, having the ill-ridden application already fired up and
+     monitoring activities in a log.
+
+_

@@ -1,0 +1,13 @@
+
+===================================================================================
+UNIX TIMESTAMPS
+===================================================================================
+
+ . e.g., 150-153-8594
+ . Unix time
+ . a.k.a. Epoch time
+ . a.k.a. Unix Epoch time
+ . number of seconds elapsed since 12:00am on January 1, 1970
+ . as a frame of reference for managing time-based data
+
+_

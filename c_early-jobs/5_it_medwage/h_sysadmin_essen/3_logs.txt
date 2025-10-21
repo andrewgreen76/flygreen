@@ -1,0 +1,33 @@
+
+===================================================================================
+LOGS AND LOGGING - IN WINDOWS
+===================================================================================
+
+Event Viewer (eventvwr.msc)
+ . each entry represents an event
+ . selecting an entry automatically pulls up more info on the bottom pane - for troubleshooting and bug-hunting purposes 
+ . levels : 
+    . “Information” - lowest level
+ . Windows Logs 
+    . relates to the kernel space and access to the system
+    . System - issues with drivers, etc.
+    . Security - accessing the computer
+ . Applications and Services Logs 
+    . relates to user space and services to the system
+ . Custom View
+
+
+===================================================================================
+LOGS AND LOGGING - IN LINUX
+===================================================================================
+
+ . /var/log
+ . /var - files that constantly change (“variable files”)
+ . dmesg - system boot messages
+ . syslog - for everything except for “off” events
+ . An “off” event is an event when something gets powered off.
+ . log rotation - removing old, mammoth-size logs to make room for new ones
+ $ logrotate    # a tool for configuring log rotation on a Linux system
+ . centralized logging - browsing logs from multiple machines on a single machine
+
+_

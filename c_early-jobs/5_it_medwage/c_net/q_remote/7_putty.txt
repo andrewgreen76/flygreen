@@ -1,6 +1,6 @@
 
 ===================================================================================
-PuTTY
+PuTTY - BASICS AND WINDOWS GUI
 ===================================================================================
 
  . a TERMINAL EMULATOR for using SSH
@@ -13,6 +13,8 @@ PuTTY
     . default connection type = SSH
  . “host name / IP address” - those are of the node to connect to
  . your credentials are logged in the terminal - where your IP address is also determined
+ . can be used for file transfer
+    . using PuTTY Secure Copy Client (pscp.exe)
 
 
 Plink (PuTTY Link) : 

@@ -3,6 +3,11 @@
 MISCELLANEOUS TIPS
 ===================================================================================
 
+Supplemental readings.
+Interviews.
+ $ (sudo) apt log    # to check for updates
+
+
 A computer is working very slowly:
  . CPU and RAM gouging
  . use Windows/Linux utilities to examine what the processes are up to resource-wise

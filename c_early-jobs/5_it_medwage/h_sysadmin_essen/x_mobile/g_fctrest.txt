@@ -1,0 +1,29 @@
+
+===================================================================================
+FACTORY RESET AND MOBILE OS UPDATING
+===================================================================================
+
+Factory reset - removes:
+ . user data
+ . user-installed apps
+ . customizations
+ => Back up or sync to the cloud all the data the user wants to keep.
+
+
+Factory reset with expansion storage in the mix.
+  1. Some factory reset options cover **expansion storage** - attachments, like an SD card or a thumb drive, that
+     may contain personal or proprietary data, so unmount and remove them first.
+  2. Other factory reset options ignore expansion storage when you need it wiped, so it will need to be wiped using
+     the right factory reset option.
+
+
+When to factory-reset a mobile device:
+ . when the device changes hands
+ . when it is due for a repair
+ . when troubleshooting a device (but only as the option of last resort)
+
+
+OTA:
+ . over-the-air, a method of providing updates for the OS on a mobile device
+
+_

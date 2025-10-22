@@ -8,6 +8,9 @@ WHY EJECT/UNMOUNT A THUMB DRIVE
  => Removing the thumb drive incorrectly will result in system errors, especially if you remove the thumb drive too
       soon.
  . The thing is that the data buffer has a direct interface with the thumb drive, so anything that has to be read
-     from or written to the drive will have to go through the data buffer first. 
+     from or written to the drive will have to go through the data buffer first.
+ . Signaling the system to unmount a disk (typically a thumb drive) will get it to cease any I/O activity with the
+     drive.
+
 
 _

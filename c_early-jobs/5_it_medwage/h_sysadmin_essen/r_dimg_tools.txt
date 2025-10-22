@@ -1,0 +1,14 @@
+
+===================================================================================
+DISK IMAGING - TOOLING
+===================================================================================
+
+Disk cloning tools:
+ . Clonezilla
+    . open-source
+    . gives the ability to restore multiple machines at the same time
+ . Ghost
+    . from Symantec
+    . a go-to commercial product
+
+_

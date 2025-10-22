@@ -1,0 +1,14 @@
+
+===================================================================================
+MISCELLANEOUS TIPS
+===================================================================================
+
+ . the device won’t boot
+ . the device has bad connectivity
+ . so you can’t get an update
+ . so you reflash or overwrite the OS on a mobile device
+ 1. Download the update to a computer.
+ 2. Connect the mobile device to the computer with a USB cable.
+ 3. Run the programmer on the computer to reflash the firmware on the device.
+
+_

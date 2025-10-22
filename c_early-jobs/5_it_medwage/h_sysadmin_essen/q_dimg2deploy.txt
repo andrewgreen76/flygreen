@@ -1,0 +1,37 @@
+
+===================================================================================
+DISK CLONING AND OS DEPLOYMENT
+===================================================================================
+
+"To deploy an OS in IT means to install, configure, and distribute an operating system onto target devices or
+ servers for operational use" efficiently using a single machine, typically using disk imaging methods.
+
+
+Disk imaging - basics:
+ . Disk image : a copy of an application or a system but packaged as a single file. So it’s like a virtual disk.
+ . Just like a disk, the image has to be mounted.
+ . “disk imaging” = disk cloning
+ . for CLONING MACHINES
+ . to clone a machine : to make a copy of the entire operating system in the form of a disk image - as a backup
+ . helps with portability
+
+
+Disk imaging methods:
+ !!! ALWAYS unmount ANY hard drive before you clone it; doing so will prevent r/w conflicts and data corruption. !!!
+  |
+ (a) disk-to-disk cloning : using an external hard drive
+  | . external hard drive dock : a device for connecting multiple hard drives at once
+  | . dd : a traditional Unix utility for copying and creating files
+  |
+ (b) network-initiated deployment
+    . installing an OS via a network
+       # option : default boot options built into the network
+       # option : custom images
+    . requires automation for deployment across multiple machines for the method to be more practical
+    . It is ideal to advise your company on hardware standardization. Having hardware diversity can make your life
+	a living hell when you want to deploy the same system across multiple machines. Having a single computer
+	that is different from all the others means you have to learn about its drivers and maintain those drivers
+	and the OS separately from the other machines. So it’s not just a case of one small difference. Your workload
+	pretty much doubles.
+
+_

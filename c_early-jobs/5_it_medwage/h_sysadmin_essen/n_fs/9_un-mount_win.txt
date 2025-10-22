@@ -9,5 +9,6 @@ MOUNTING A FILE SYSTEM TO A DISK (PARTITION)
 
 Unmounting:
  . if you are using a thumb drive, you'd need to eject the drive every time you need to remove it
+ . Failure to unmount manually (assuming no need to shut down) will result in system errors.
 
 _

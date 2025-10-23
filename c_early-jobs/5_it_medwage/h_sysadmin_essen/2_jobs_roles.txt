@@ -1,0 +1,21 @@
+
+===================================================================================
+JOBS IN IT
+===================================================================================
+
+IT Support Specialist:
+ . solve an individual problem for a single user
+ . help desk - front line, interfaces with users, routes tickets
+ . desktop support - beyond help desk’s front-line services, looks into deeper UX issues
+ . tech support - can handle an even wider variety of issues, bordering on engineering
+
+
+System Administrator:
+ . beyond tech support, this person manages an entire fleet of machines for the whole organization
+ . have good coverage of security and CVE
+ . The larger the company, the larger the size of the sysadmin team, starting with 1.
+    . network administrators
+    . database administrators
+ => Your list of responsibilities will depend on the company you are working for.
+
+_

@@ -14,6 +14,8 @@ Disk imaging - basics:
  . for CLONING MACHINES
  . to clone a machine : to make a copy of the entire operating system in the form of a disk image - as a backup
  . helps with portability
+ISO image:
+ . the name is derived from the International Organization for Standardization's ISO 9660 file system
 
 
 Disk imaging methods:

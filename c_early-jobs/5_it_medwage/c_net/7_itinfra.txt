@@ -1,0 +1,29 @@
+
+===================================================================================
+IT INFRASTRUCTURE
+===================================================================================
+
+ . networking systems and technical services
+
+
+Database:
+ . a massive information structure stored on servers
+ . managed by a database management system (DBMS)
+
+
+Directory service:
+ . a database with information about users, devices, and network resources
+
+
+Pull the image of the networking microstructure.
+
+
+Server:
+ . a device or process that provides a service
+ . enterprise-grade servers are big hunks of metal, not
+
+
+Client:
+ . a device or process that receives a service
+
+_

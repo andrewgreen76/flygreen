@@ -6,7 +6,6 @@ Remote connection :
 
 SSH : 
  . a.k.a. Secure Shell
- . a PROTOCOL for using an unsecured network
  . for remote connection and access
  . for data transfer
  . for command execution

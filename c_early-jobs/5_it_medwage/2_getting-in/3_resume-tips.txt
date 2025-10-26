@@ -30,12 +30,12 @@ Other things :
 Formats :
  . Contact the company’s HR and ask them what resume format they want to see - since not all companies
      are alike and they do not necessarily endorse the same resume format.
- . Skill-based : 
-   - a brief summary of qualifications 
-   - reflect the value of every skill with quantifiable impact you made using it 
-   - only list tools and topics you actually know a fair deal about ; don’t list everything you have a marginal experience with 
+ ! Skill-based : 
+    . a brief summary of qualifications 
+    ! QUANTIFIABLE IMPACT : reflect the value of every skill with quantifiable impact you made using it 
+    . only list tools and topics you actually know a fair deal about ; don’t list everything you have a marginal experience with 
  . Relevant work -oriented : 
-   - action + noun + quantified achievement 
-   - don’t pad the role you worked in with bullet points about minutia ; reflect your relevant strengths 
+    . action + noun + quantified achievement 
+    . don’t pad the role you worked in with bullet points about minutia ; reflect your relevant strengths 
 
 _

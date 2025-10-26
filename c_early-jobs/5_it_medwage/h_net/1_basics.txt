@@ -17,6 +17,16 @@ Networking : designing , building , and managing networks.
 ISP's (INTERNET SERVICE PROVIDERS)
 ===================================================================================
 
- . ex. : CenturyLink , Level 3 , Comcast , Telefonica
+ . Spectrum uses its own Charter services
+ . Xfinity uses its own Comcast services
+ . Starlink uses its own SpaceX services
+ . CenturyLink , Level 3 , Telefonica
+
+
+===================================================================================
+HOW HTML IS PROCESSED
+===================================================================================
+
+A web browser is the program that processes HTML code to render and display web pages.
 
 _

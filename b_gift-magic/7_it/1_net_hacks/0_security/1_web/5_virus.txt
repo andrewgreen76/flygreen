@@ -1,0 +1,14 @@
+
+===================================================================================
+VIRUS
+===================================================================================
+
+  . embeds/injects malicious code "into legitimate programs or individual files" (scripts, macros, etc.)
+  . "replicates by infecting other code when executed"
+  . relies "on autorun mechanisms, file associations, social engineering, or software vulnerabilities to get executed"
+  . comes from a webpage 
+ (a) through malicious scripts
+ (b) through downloads that exploit browser vulnerabilities
+  . "usually the product of a third-party malicious agent, not the original creator of the legitimate content it infects"
+
+_

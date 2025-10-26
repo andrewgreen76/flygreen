@@ -12,7 +12,7 @@ Resume basics :
     . show relevant skills (". Attention to detail" , ". Fast learner" , etc.) 
  . look up the standard resume template
  . have somebody give feedback on your resume
- . Sell it to the recruiter that you are the right match for the position , not that you are looking
+ . Sell it to the recruiter that you are the right match FOR THE POSITION , not that you are looking
      for work in any desired (e.g., technical) capacity or that you are just looking for a job. It’s
      how you look your most professional.
  . DON’T TARGET THE SPECIFIC FIELD ; TARGET THE ROLE. 
@@ -34,7 +34,7 @@ Formats :
    - a brief summary of qualifications 
    - reflect the value of every skill with quantifiable impact you made using it 
    - only list tools and topics you actually know a fair deal about ; don’t list everything you have a marginal experience with 
-   Relevant work -oriented : 
+ . Relevant work -oriented : 
    - action + noun + quantified achievement 
    - don’t pad the role you worked in with bullet points about minutia ; reflect your relevant strengths 
 

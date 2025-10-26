@@ -1,10 +1,10 @@
 
 ===================================================================================
-JOBS IN IT
+JOBS IN I.T.
 ===================================================================================
 
 IT Support Specialist:
- . solve an individual problem for a single user
+ . solves an individual problem for a single user
  . help desk - front line, interfaces with users, routes tickets
  . desktop support - beyond help desk’s front-line services, looks into deeper UX issues
  . tech support - can handle an even wider variety of issues, bordering on engineering

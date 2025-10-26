@@ -1,0 +1,19 @@
+
+CyberPower PC model : SLC7000BST
+
+
+"
+Gigabyte B450M DS3H WiFi is the motherboard model used in the CyberPowerPC SLC7000BST gaming desktop, as confirmed by customer specifications for the AMD Ryzen 7 3700X configuration sold at Best Buy.
+"
+
+
+The AMD Ryzen 7 3700X :
+ . desktop processor
+ . 8-core, 16-thread
+ . from AMD's 3rd-generation Ryzen series
+ . built on a Zen 2 architecture (7nm)
+ . high performance for gaming, content creation, multitasking
+ . base clock = 3.6 GHz
+ . boost clock = up to 4.4 GHz
+
+_

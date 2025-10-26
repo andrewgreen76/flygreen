@@ -1,0 +1,4 @@
+"
+To power cycle a system or device means to turn it off completely, wait briefly, and then turn it back on to reset its operations and clear any temporary glitches.
+"
+_

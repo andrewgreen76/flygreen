@@ -21,18 +21,12 @@ Starting out as a sysadmin with a SMALL company - your responsibilities:
 | . run point on security
 |
 Selecting the right components and devices for a company’s IT infrastructure:
-| . File servers need more storage.
-| . a fleet of servers
-|   . is to have no peripherals
-|   . be connected to a central terminal that does have a monitor and a keyboard.
-|   . (a) via SSH
-|   . (b) via a KVM switch if the connectivity is bad
-|
-KVM switch:
- . looks like a hub
- . really is a switch that routes data between the central terminal and the servers
- . useful for when there is a networking issue
- . keyboard, video, and mouse - the classic setup with peripherals for the central terminal
+  . File servers need more storage.
+  . a fleet of servers
+    . is to have no peripherals
+    . be connected to a central terminal that does have a monitor and a keyboard.
+    . (a) via SSH
+    . (b) via a KVM switch if the connectivity is bad
 
 
 Starting out as a sysadmin with a LARGE company:

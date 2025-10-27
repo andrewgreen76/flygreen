@@ -1,0 +1,11 @@
+
+===================================================================================
+KVM SWITCH
+===================================================================================
+
+ . looks like a hub
+ . really is a switch that routes data between the central terminal and the servers
+ . useful for when there is a networking issue
+ . keyboard, video, and mouse - the classic setup with peripherals for the central terminal
+
+_

@@ -16,8 +16,13 @@ Directory service:
 
 
 Data center:
- . a facility that holds and manages countless servers
- . Large multi-billion dollar companies have their own data centers.
- . Small companies share data center space.
+| . a facility that holds and manages countless servers
+| . Large multi-billion dollar companies have their own data centers.
+| . Small companies share data center space.
+| 
+Cost of services:
+  . The more servers you have, the more customers you can accommodate.
+  . The more customers you get, the more servers you are going to need and the higher the subscription cost of
+      retaining those servers is going to be.
 
 _

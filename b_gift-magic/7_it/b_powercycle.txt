@@ -1,4 +1,10 @@
-"
-To power cycle a system or device means to turn it off completely, wait briefly, and then turn it back on to reset its operations and clear any temporary glitches.
-"
+
+Hard reboot:
+ . a.k.a. hard restart
+ . a.k.a. power cycling
+ . "To power cycle a system or device means to turn it off completely, wait briefly, and then turn it back on to
+    reset its operations and clear any temporary glitches."
+ . "a forced reboot of a device by cutting power and then turning it back on"
+ . "typically by holding the power button until it shuts down completely"
+
 _

@@ -1,0 +1,10 @@
+
+===================================================================================
+IN-THE-MOMENT TROUBLESHOOTING
+===================================================================================
+
+Accountability for a problem vs. responsibility for handling the problem:
+ . When you experience a technical issue with a service, it is not just the problem of the company that maintains
+   your servers; it is also your problem. So get on it and stay on it.
+
+_

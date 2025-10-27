@@ -15,15 +15,9 @@ Directory service:
  . a database with information about users, devices, and network resources
 
 
-Pull the image of the networking microstructure.
-
-
-Server:
- . a device or process that provides a service
- . enterprise-grade servers are big hunks of metal, not
-
-
-Client:
- . a device or process that receives a service
+Data center:
+ . a facility that holds and manages countless servers
+ . Large multi-billion dollar companies have their own data centers.
+ . Small companies share data center space.
 
 _

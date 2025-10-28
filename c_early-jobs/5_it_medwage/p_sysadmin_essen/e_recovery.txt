@@ -1,9 +1,9 @@
 
 ===================================================================================
-TROUBLESHOOTING BASICS 
+DATA AND SYSTEM RECOVERY
 ===================================================================================
 
- . "Gathering information to identify the problem by asking the user questions should be the first step
-    when troubleshooting."
+ . always back up your data
+ . keep your backups as far away from the target machine/infrastructure as possible
 
 _

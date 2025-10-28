@@ -1,0 +1,31 @@
+
+===================================================================================
+HARDWARE LIFECYCLE - STAGES
+===================================================================================
+
+ 1. Procurement
+ 2. Deployment
+   . user account setup
+   . OS imaging
+   . assigning a hostname ( with [user-device], [user-location], or any other standard)
+   . installing applications necessary for work
+   . walkthrough for the new employee
+ 3. Maintenance
+ 4. Retirement
+   . backing up the user account
+   . wiping the machine
+  (a) recycling it if defective
+  (b) reimaging it if reappropriated to a new employee
+ 1. Obtain a replacement.
+
+
+===================================================================================
+SOFTWARE-LEVEL REAPPROPRIATION
+===================================================================================
+
+Installing applications and configuring settings
+ . a time-consuming process
+ . fine to do it in a small company
+ . there are quicker alternatives if you are working for a large company
+
+_

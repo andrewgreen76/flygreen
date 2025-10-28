@@ -1,0 +1,13 @@
+
+ . User accounts and devices are provisioned to employees at the request of HR.
+
+
+===================================================================================
+MANAGING USERS
+===================================================================================
+
+ . the point is to allow users to be productive
+ . user account management
+ . includes giving and limiting privileges
+
+_

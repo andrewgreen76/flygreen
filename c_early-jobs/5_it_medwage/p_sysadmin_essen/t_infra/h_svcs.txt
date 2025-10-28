@@ -1,0 +1,26 @@
+
+===================================================================================
+I.T. INFRASTRUCTURE SERVICES
+===================================================================================
+
+ . You'll have to manage them all.
+
+
+ . file storage
+ . email
+ . the web
+ . network access (secure or not) as a service to be managed
+ . . DHCP (port 67/68)
+ . . HTTPS, which uses TLS over **TCP port 443**
+
+
+===================================================================================
+MANAGING A SERVICE
+===================================================================================
+
+ . setup
+ . updates
+ . patching for security holes
+ . achieving and maintaining compatibility with the organization’s infrastructure
+ 
+_

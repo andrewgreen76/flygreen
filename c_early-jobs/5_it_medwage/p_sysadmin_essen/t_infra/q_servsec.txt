@@ -1,0 +1,22 @@
+
+===================================================================================
+SERVER SECURITY
+===================================================================================
+
+Security patches:
+ . Critical security patches are applied as soon as they are available.
+
+
+Batch updates:
+ . Lower-level updates are postponed as they can be time-consuming and cut into the company’s productivity.
+ . These updates are bundled up for later as a batch and applied altogether.
+
+
+Routine maintenance:
+ . A batch update is applied once every month.
+ |
+ 1. Take the servers offline.
+ 2. Apply the batch update.
+ 3. Ensure that the update works for the server.
+
+_

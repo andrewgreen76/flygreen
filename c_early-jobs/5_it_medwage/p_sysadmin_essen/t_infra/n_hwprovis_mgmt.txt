@@ -1,0 +1,20 @@
+
+===================================================================================
+MANAGING DEVICES
+===================================================================================
+
+ . to provision hardware : set up, configure, deploy
+ . imaging every machine in the infrastructure with the same image for system-wide recovery or infrastructure upgrade
+ . standardization of settings
+ . knowing the lifecycle of every device
+ . keeping tabs on:
+ . . what was built and when
+ . . what was taken out of the box and when
+ . . what was replaced and when
+ . . who last maintained it and when
+ . . how long the device has been in service to the company
+ . knowing how to handle a replaced device
+ . Inventory: You get to have your hardware inventory as an alternative to ordering a new device at the company’s expense.
+ . . Every device in the inventory needs to be tagged with a sticker to convey what needs to be known.
+
+_

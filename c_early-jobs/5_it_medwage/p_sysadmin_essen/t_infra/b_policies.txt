@@ -1,0 +1,24 @@
+
+===================================================================================
+(SECURITY) POLICIES
+===================================================================================
+
+ . Something to be discussed by the sysadmin/CSO and other leaders … rather than just one person deciding on this matter by themselves.
+ . You will be the one documenting all the policies and procedures regarding the use of work devices and networks.
+ 
+ . Methods of storing policy documentation:
+    . internal Wiki
+    . a file server
+    . etc.
+    
+ . Needless to say, all work devices are to have a password on them.
+ . Needless to say, all employees should have easy access to the policy documentation.
+ . Whether employees are allowed to use work computers and the network for visiting websites not related to
+     work ... is something in a gray area. That is up to you.
+     
+ . Allowing for this is a good idea if:
+    . someone promotes products and services on social media
+    . stays up to date on things related to their industry
+    . There may be other reasons.
+
+_

@@ -1,0 +1,36 @@
+
+===================================================================================
+LIVE SYSTEM/SERVICE CARETAKING
+===================================================================================
+
+Rollback:
+ . reverting a piece of software or a system to its previous state
+ . rolling back a command = undoing its action, the impact it made
+
+Production:
+ . a service is functioning live
+ . production server - currently provides service
+ . production service - a service currently being provided
+ . an email service currently providing access to emails is an email production service
+
+Test environment:
+ . a VM
+ . for testing any change you want to make, important or trivial, to a service
+ . must be done BEFORE introducing it in a production service
+ . even a small change might betray the integrity of the infrastructure
+
+Secondary / stand-by machine:
+ . a clone of an actual production service
+ . same settings as the original
+ . will not receive any actual traffic until we rule it otherwise
+ |
+ . apply the changes to the stand-by machine
+ -> this machine is to be the primary machine
+ -> apply the same changes to the original machine with production services
+
+Canary:
+ . an individual server meant for stress-testing (here, taking on a massive service workload)
+ . for detecting issues arising from handling a massive workload
+ . deployed as a group of canaries
+
+_

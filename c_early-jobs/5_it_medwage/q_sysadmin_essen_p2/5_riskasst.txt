@@ -1,0 +1,21 @@
+
+===================================================================================
+HOW TO ASSESS RISKY SITUATIONS
+===================================================================================
+
+Imperative services:
+ . centralized authentication system - logging in
+ . billing system - getting paid
+ . backups - regaining system health or user account state
+ . E-commerce sign - an indicator of a trustworthy business
+ . external customer support
+
+Lesser services
+ . Your ticket system! Yes! Less important than your external customer support application?
+
+
+"
+The more users your service reaches, the more you'll want to ensure that change aren't disruptive.
+"
+
+_

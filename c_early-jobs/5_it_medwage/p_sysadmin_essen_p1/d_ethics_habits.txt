@@ -1,8 +1,10 @@
 
 ===================================================================================
-ADMINISTRATIVE RIGHTS
+ADMINISTRATION RIGHTS ... AND HABITS
 ===================================================================================
 
  . Do not use administrative rights on tasks that do not require them.
+ . Write what you are about to do.
+ . Write what you did.
 
 _

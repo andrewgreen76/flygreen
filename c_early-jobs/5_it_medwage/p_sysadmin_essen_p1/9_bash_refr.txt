@@ -27,9 +27,8 @@ Paths:
 
 
  $ grep file d_ps_strsrh.txt 
-"> Select-String [str/r.e.] [in this file]
-   # searches for file contents matching the provided reg.expr.
-      		^	 ^scan for filenames matching the regular expression
-"
+ > Select-String [str/r.e.] [in this file]       
+       		  ^	      ^scan for filenames matching the regular expression
+ # searches for file contents matching the provided reg.expr.
 
 _

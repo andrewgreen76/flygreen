@@ -3,7 +3,7 @@
 IT TERMINOLOGY
 ===================================================================================
 
- . shop : a small business
- . fleet : your IT infrastructure = all the devices connected to your company's network
+Shop : a small business
+Fleet : your IT infrastructure = all the devices connected to your company's network
 
 _

@@ -12,6 +12,8 @@ IT Support Specialist:
 
 System Administrator:
  . beyond tech support, this person manages an entire fleet of machines for the whole organization
+ . has to be reachable around the clock
+ . A service will alert the sysadmin the moment a major problem with the network arises.
  . have good coverage of security and CVE
  . The larger the company, the larger the size of the sysadmin team, starting with 1.
     . network administrators

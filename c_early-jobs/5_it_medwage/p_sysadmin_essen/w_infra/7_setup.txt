@@ -1,10 +1,10 @@
 
 ===================================================================================
-STARTING OUT
+I.T. INFRASTRUCTURE - RESPONSIBILITIES
 ===================================================================================
 
 Starting out as ANY sysadmin - your responsibilities:
- . Decide on the **critical data retention solutions**:
+ . Decide on the **solutions for retaining critical data**:
  . (a) the cloud
  . (b) local physical servers
  . (c) both - just to be safe
@@ -35,6 +35,5 @@ Starting out as a sysadmin with a LARGE company:
 
 Starting out as a Chief Security Officer (CSO) - your responsibilities:
  . decide on the **policies** regarding equipment management and usage
-
 
 _

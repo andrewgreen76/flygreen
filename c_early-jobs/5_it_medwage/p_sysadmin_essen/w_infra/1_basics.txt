@@ -1,6 +1,6 @@
 
 ===================================================================================
-IT INFRASTRUCTURE
+I.T. INFRASTRUCTURE - BASICS
 ===================================================================================
 
  . networking systems and technical services
@@ -24,5 +24,16 @@ Cost of services:
   . The more servers you have, the more customers you can accommodate.
   . The more customers you get, the more servers you are going to need and the higher the subscription cost of
       retaining those servers is going to be.
+
+
+===================================================================================
+SIZES
+===================================================================================
+
+Small company vs. large company:
+ . small company : up to 50 employees
+ . mid-size company : 50-250 employees
+ . large company : over 250 employees
+ . A large company would have a CSO with an IT team … instead of just one sysadmin like a small company would.
 
 _

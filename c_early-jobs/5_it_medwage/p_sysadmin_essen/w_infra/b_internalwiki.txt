@@ -1,8 +1,8 @@
 
 ===================================================================================
-IT TERMINOLOGY
+INTERNAL WIKI (SITE)
 ===================================================================================
 
- . “shop” : a small business
+ . “a private, collaborative web platform within an organization used to document, share, and manage knowledge among employees”
 
 _

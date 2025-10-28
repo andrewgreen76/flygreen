@@ -3,8 +3,9 @@
 IT TERMINOLOGY
 ===================================================================================
 
-Shop : a small business
-Fleet : your IT infrastructure = all the devices connected to your company's network
-Machine servicing : "having it inspected, repaired, or maintained ... to restore or improve its performance"
+Triage :		prioritizing bugs and other issues based on their severity, frequency, risk, impact on the team, etc. 
+Shop : 			a small business
+Fleet : 		your IT infrastructure = all the devices connected to your company's network
+Machine servicing : 	maintenance
 
 _

@@ -1,0 +1,23 @@
+
+===================================================================================
+REPRODUCTION
+===================================================================================
+
+Reproduction case:
+ |
+ . an erroneous situation you can reproduce yourself to test your solution against the reproduced problem
+ . to make sure that your solution works
+ . and that history will not repeat itself
+ . will require some retracing with the person who reported the issue
+ |
+ . THIS MUST BE RESOLVED IN A TEST INSTANCE !!!
+ . Document what you are about to do.
+ . Document what you did.
+
+
+Questions to ask:
+  1. Steps to get to the error.
+  2. What is the unexpected/bad result?
+  3. What is the expected result?
+
+_

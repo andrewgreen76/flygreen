@@ -5,7 +5,7 @@ ENTERPRISE-GRADE SERVERS
 
  . RELIABLE enough to be able to stay on <<<24/7>>>for servicing clients when they make requests
  . POWERFUL enough to service countless clients - something a consumer-grade general-purpose computer can’t do
- . tower servers - every server is like a tower, taking up a lot of space
+ . tower servers - every server is like a desktop tower, taking up a lot of space
  . rack servers - ~1.5” thick
  . blade servers - even smaller
  . There are other types with different form factors.

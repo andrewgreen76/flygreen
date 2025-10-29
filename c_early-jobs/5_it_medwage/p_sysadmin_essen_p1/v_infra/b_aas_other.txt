@@ -1,0 +1,36 @@
+
+===================================================================================
+OTHER SERVICES
+===================================================================================
+
+Network as a Service (NaaS):
+ . alternative to having own physical networking equipment
+ . receiving virtualized networking services - routing, WAN, VPN, security - via cloud from other companies
+ . the provider will also take care of security **updates**
+ . Rack, blade, and other physical servers are physical devices, so they are considered to be part of the physical
+   aspect of an infrastructure. They are not a part of networking services. They just leverage them.
+
+
+Software as a Service (SaaS):
+  . takes care of licensing, security and security updates, compatibility updates
+ (a) Microsoft Office 365
+ (b) Google G suite
+
+
+Platform as a Service (PaaS):
+  . virtualized IDEs
+  . more webdev-oriented
+  . database service on the cloud
+  . web server on the cloud
+ (a) Heroku
+ (b) Microsoft Azure
+ (c) Google App Engine
+
+
+Directory:
+  . a utility for user account management, device management, and authorization
+ (a) Windows Active Directory
+ (b) OpenLDAP
+ (c) Directory as a Service (DaaS)
+
+_

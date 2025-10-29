@@ -3,24 +3,24 @@
 INTERNET =/= WORLD WIDE WEB 
 ===================================================================================
 
-The Internet is a physical connection of devices :
+ . The Internet is a physical connection of devices :
  . satellites , cellular networks (towers and other devices) , cables within the ground
 
 
-WWW is just web-pages , shared content - something that Tim Berners-Lee conceived and is known for.
-
-
-Networking : designing , building , and managing networks. 
+ . WWW is just web-pages, shared content - something that Tim Berners-Lee conceived and is known for.
 
 
 ===================================================================================
-ISP's (INTERNET SERVICE PROVIDERS)
+NETWORK vs. INTERNET
 ===================================================================================
 
- . Spectrum uses its own Charter services
- . Xfinity uses its own Comcast services
- . Starlink uses its own SpaceX services
- . CenturyLink , Level 3 , Telefonica
+ . By “network” they typically mean LAN. This doesn’t really necessitate the presence of security at its strongest
+   (at the datalink layer).
+   
+ . By “Internet” they typically mean the rest - all the other networks - of the Internet. In this case you definitely
+   need the most up-to-date security with strongest measures (at the network layer and above).
+
+ . Networking : designing , building , and managing networks. 
 
 
 ===================================================================================

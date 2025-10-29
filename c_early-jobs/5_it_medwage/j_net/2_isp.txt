@@ -1,0 +1,11 @@
+
+===================================================================================
+ISP's (INTERNET SERVICE PROVIDERS)
+===================================================================================
+
+ . Spectrum uses its own Charter services
+ . Xfinity uses its own Comcast services
+ . Starlink uses its own SpaceX services
+ . CenturyLink , Level 3 , Telefonica
+
+_

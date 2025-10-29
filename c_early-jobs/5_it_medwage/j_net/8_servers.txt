@@ -1,0 +1,21 @@
+
+===================================================================================
+SERVERS
+===================================================================================
+
+To avoid confusion about servers:
+ . Servers are physical devices, so they are considered to be part of the physical aspect of an infrastructure.
+   They are not a part of networking services. They just deploy them.
+ . “An email server is primarily a process (software) that runs on a device to send, receive, and store email
+   messages.”
+ => More than anything else, an email server is a software that can be provided as a service (SaaS).
+
+
+Reminder: a server can be:
+ (a) a device providing a specific service
+   + better performance <= one server can host multiple services
+ (b) a virtualized instance (process) providing a specific service
+   +
+   - mild performance <= one service per instance
+
+_

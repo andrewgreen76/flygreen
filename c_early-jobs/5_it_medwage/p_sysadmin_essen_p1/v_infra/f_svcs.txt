@@ -1,0 +1,34 @@
+
+===================================================================================
+IT INFRASTRUCTURE - ASPECTS
+===================================================================================
+
+ . physical
+ . software
+ . networking
+ . directory
+
+
+===================================================================================
+IT INFRASTRUCTURE SERVICES - BASICS
+===================================================================================
+
+Infrastructure as a service (IaaS):
+  . alternative to having physical hardware resources
+  . receiving virtualized infrastructure services - compute, storage, servers, and virtualization of your own - via
+    cloud from other companies
+  . If holding and maintaining your own physical servers and updating their OS is too much of a pain, you can rely
+    on other companies’ services to do all this for you.
+  . You can virtualize and monitor their services to you via cloud.
+ (a) AWS EC2 (Elastic Compute Cloud)
+ (b) Linode - virtual servers for rent
+ (c) Microsoft Azure
+ (d) Google Computer Engine
+
+
+  ! You must weigh all the pros and cons of employing and maintaining a service before committing to it.
+    - gets more costly with every new user
+    - You depend on another party for the services. So, if anything goes wrong, they have to fix it and you (just
+      as they) are still liable for it.
+
+_

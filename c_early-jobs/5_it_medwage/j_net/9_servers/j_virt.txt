@@ -1,0 +1,24 @@
+
+===================================================================================
+SERVER VIRTUALIZATION
+===================================================================================
+
+A server can be:
+  |
+ (a) a device providing a specific service
+  | + better performance <= one server can host multiple services
+  |
+ (b) a virtualized instance (process) providing a specific service
+    +
+    - mild performance <= one service per instance
+
+
+Server virtualization - basics:
+ . a server will typically have multiple instances
+ . every virtual instance provides one server
+
+
+Server virtualization - benefits:
+ .
+
+_

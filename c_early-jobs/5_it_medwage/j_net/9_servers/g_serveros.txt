@@ -1,0 +1,18 @@
+
+===================================================================================
+SERVER OS
+===================================================================================
+
+ . When you set up a server on a regular computer, you have to install a service on it yourself
+ . but a server OS already comes with additional services
+ . An enterprise-grade, 24/7 server needs a dedicated OS to help sustain around-the-clock servicing with
+     varying amount of workload.
+ . A server OS is optimized for this sort of thing.
+ . requires more memory
+ . more network connections can be accommodated
+ . better security than a regular OS
+ . Common OS have versions that are optimized in this fashion.
+ . Windows Server
+ . certain Linux distributions (Ubuntu Server, RHEL)
+
+_

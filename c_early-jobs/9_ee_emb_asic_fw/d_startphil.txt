@@ -1,0 +1,44 @@
+
+From LinkedIn:
+
+"
+View Jacob Beningo’s  graphic link
+Jacob BeningoJacob Beningo
+   • FollowingPremium • Following
+Consultant | Firmware & Embedded Systems | Transforming Embedded Practices Through Consulting & EducationConsultant | Firmware & Embedded Systems | Transforming Embedded Practices Through Consulting & Education
+49m •  49 minutes ago • Visible to anyone on or off LinkedIn
+
+
+My core philosophy when building embedded software is simple:
+
+There is no hardware. Only data.
+
+Once you understand this, you can implement your embedded software in a way that doesn’t have hardware dependencies.
+
+Yes, Zero. Hardware. Required.
+
+And the implication is huge:
+
+- You don’t need to wait months for hardware to arrive.
+- You don’t need to grab some random dev board just to “get started.”
+- You can focus immediately on the thing that matters to your customers: the application layer.
+
+Because when hardware becomes data, you can:
+
+- Replace hardware details with mocks or stubs.
+- Run simulations of your app code without hiccups.
+- Make your software immune to hardware changes.
+- Leverage test harnesses easily, thanks to modular & portable design.
+
+Of course, you’ll still write drivers.
+You’ll still test on real hardware.
+
+But the shift is better:
+
+Hardware is no longer the bottleneck.
+Your code doesn’t depend on it.
+Your progress doesn’t wait on it.
+
+That’s the freedom this philosophy unlocks.
+"
+_

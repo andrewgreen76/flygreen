@@ -1,0 +1,29 @@
+
+===================================================================================
+ACCESSING UEFI
+===================================================================================
+
+Method (a) - via Settings:
+ |
+ . Settings -> Update & Security -> Windows Update -> Check for updates
+ . Settings -> Update & Security -> Windows Security (on Windows 10)
+ . (on Windows 11 that would have been Settings -> Privacy & security -> Windows Security)
+ . Settings -> Update & Security -> Recovery -> Advanced start-up -> Restart now
+ |
+ . Troubleshoot -> Advanced options -> UEFI Firmware Settings -> Restart
+
+
+Method (b) - at boot time:
+ |
+ . Press DEL when the legend of keys on the Gigabyte splash screen pops up.
+ . Peripherals -> double-click "AMD CPU fTPM" -> Enabled
+
+
+===================================================================================
+ACCESSING SAFE MODE
+===================================================================================
+
+ . Hold Shift -> restart the computer -> a system-level application with a blue screen will show up.
+ . Troubleshoot -> Advanced options -> Startup Settings -> Restart -> keep hitting F4 or '4'
+
+_

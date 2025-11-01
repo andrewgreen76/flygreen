@@ -1,0 +1,26 @@
+
+Ubuntu Linux is hung / gjs crashed.
+ |
+Then			. Ctrl + Alt + F3		# to switch to a virtual console
+ 			$ sudo systemctl restart gdm	# to restart the display manager
+ 			--OR--
+ 			$ lightdm
+
+If that doesn't work, 	you are probably getting an infinite loop of producing error messages related to the systemd
+  journal. In that case, perform a soft reboot and you will end up in the HTTP(s) Boot mode.
+
+  	   		. Hold Alt + HOLD PrintScreen/SysRq and don't let go, and the system will listen.
+			-> Press the following keys without any errors regardless of what you see on the screen :
+			   'r' 'e' 'i' 's' 'u' 'b'.
+			. Then you may let go of Alt + PrintScreen.
+			. Now you are in the HTTP(s) Boot mode.
+
+If that doesn't work, 	then it's probably because your machine cannot obtain the IPv4 address of the service since
+  your router is configured to have DHCP fail to provide the address of the server with NBP. NBP (Network Boot Program
+  helps with (a) booting the OS over the network and (b) reconfiguring your system's settings. So we'll have to figure
+  that out.
+
+
+If that doesn't work	(no solution was reached in hours), then powercycle your device. What can I say?
+
+_

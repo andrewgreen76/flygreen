@@ -1,0 +1,4 @@
+"
+This outline describes the traditional chip design process, but it's constantly evolving due to AI/ML and chiplets [sic].
+"
+_

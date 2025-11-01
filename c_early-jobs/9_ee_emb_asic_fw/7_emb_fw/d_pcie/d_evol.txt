@@ -1,0 +1,9 @@
+
+===================================================================================
+THE EVOLUTION OF PCIe
+===================================================================================
+
+"
+The PCIe standard has seen significant recent changes, including the January 2025 release of version 0.7 of the PCIe 7.0 draft specification (finalized later that year at 128 GT/s for up to 512 GB/s bidirectional bandwidth on x16 links) and the August 2025 announcement of PCIe 8.0 development. 
+"
+_

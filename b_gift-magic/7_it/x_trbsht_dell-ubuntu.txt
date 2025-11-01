@@ -1,6 +1,8 @@
 
-Ubuntu Linux is hung / gjs crashed.
- |
+===================================================================================
+UBUNTU LINUX IS HUNG / gjs CRASHED
+===================================================================================
+
 Then			. Ctrl + Alt + F3		# to switch to a virtual console
  			$ sudo systemctl restart gdm	# to restart the display manager
  			--OR--
@@ -21,6 +23,7 @@ If that doesn't work, 	then it's probably because your machine cannot obtain the
   that out.
 
 
-If that doesn't work	(no solution was reached in hours), then powercycle your device (hard reboot). What can I say?
+If that doesn't work	(no solution was reached in hours), simply press the power button and the device will shut down.
+  What can I say?
 
 _

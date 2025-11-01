@@ -10,8 +10,10 @@ FIELDS , NATURE OF THE JOBS , SALARIES , POPULARITY :
 
 .				Nature of the job		Salary				Popularity / Ease of entrance 
 
-Assembler			Attaching things 		(close to the) minimum wage 
+Assembler			Attaching/detaching things	(close to the) minimum wage 
 Manufacturing operator 		Preparing materials		(close to the) minimum wage
+Test operator 			Preparing/offboarding devices	(close to the) minimum wage
+Test technician			Conducts tests
 Embedded engineer		Building/finishing devices	High  **,***
 ASIC verification engineer	.				     ***,***
 "Semiconductor designer"	.				     ***,***

@@ -21,6 +21,6 @@ If that doesn't work, 	then it's probably because your machine cannot obtain the
   that out.
 
 
-If that doesn't work	(no solution was reached in hours), then powercycle your device. What can I say?
+If that doesn't work	(no solution was reached in hours), then powercycle your device (hard reboot). What can I say?
 
 _

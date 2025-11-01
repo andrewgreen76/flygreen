@@ -1,0 +1,4 @@
+"
+In software engineering, “shifting things left” means moving testing, quality checks, and other feedback activities earlier in the development process to catch issues sooner.
+"
+_

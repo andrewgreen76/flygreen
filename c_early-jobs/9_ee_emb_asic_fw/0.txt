@@ -1,0 +1,5 @@
+
+Simulation : 
+Synthesis : text --> converted to --> hardware/logic/resources (registers/logic-gates) implementation in some form - in LUTs
+
+_

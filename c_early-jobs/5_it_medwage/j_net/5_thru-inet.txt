@@ -1,5 +1,5 @@
 
-Popular ways of CONNECTING A DEVICE TO A LAN :
+CONNECTING a device TO A LAN :
  . Ethernet cable - wired
  . WiFi - wireless - using radios and antennas
  . fiber optic cable - wired
@@ -10,7 +10,7 @@ Popular ways of CONNECTING A DEVICE TO A LAN :
 
 
 Ways to GAIN ACCESS TO CONTENT on the Internet :
- . WWW (provides interactive content that is web-pages) 
+ . WWW (web services - provide interactive content that is webpages) 
  . email services
  . chatting services
  . file-sharing services

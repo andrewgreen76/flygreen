@@ -1,6 +1,6 @@
 
 ===================================================================================
-A SUPER-BRIEF HISTORY OF ARCHITECTURES 
+A SUPER-BRIEF HISTORY OF PC ARCHITECTURES 
 ===================================================================================
 
 Architecture		Who was involved	Where

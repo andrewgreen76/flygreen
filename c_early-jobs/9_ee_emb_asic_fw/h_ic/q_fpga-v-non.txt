@@ -18,7 +18,7 @@ NON-FPGA's :
     . **memory ICs** (such as DRAM or EEPROM), and
     . **application-specific ICs** (ASICs)
     "
-    . CPU's
+    . processors
     
    
  . memory IC's :
@@ -32,6 +32,6 @@ PROGRAMMING AN FPGA vs. PROGRAMMING A MICROCONTROLLER :
 ===================================================================================
 
 Programming an FPGA - enabling certain interconnects between gates to simulate a circuit.
-Programming a microcontroller - "writing" firmware (binary code) to the flash memory
+Programming a microcontroller - "writing" firmware (binary code) to the flash memory.
 
 _

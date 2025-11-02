@@ -1,0 +1,11 @@
+
+===================================================================================
+VERY LARGE SCALE INTEGRATION (VLSI) DESIGN PROCESS
+===================================================================================
+
+The main IC pre-fab stages:
+  . front-end design
+  . back-end design
+ (. pre-si(licon) verification and validation)
+
+_

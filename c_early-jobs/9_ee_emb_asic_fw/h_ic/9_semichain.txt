@@ -1,0 +1,30 @@
+"
+The semiconductor value chain covers the entire lifecycle from design to distribution, while the supply chain
+  focuses on the movement of materials and components within that process.
+"
+
+===================================================================================
+THE MAIN STAGES OF THE SEMICONDUCTOR VALUE CHAIN
+===================================================================================
+
+ . design (IP and EDA)
+ . wafer fabrication (front-end manufacturing)
+ . assembly, testing, and packaging (back-end manufacturing)
+ . distribution/system integration
+
+
+ . front-end : early stage
+ . back-end  : later stage
+ |
+ . [front-end , back-end] x [design , manufacturing]
+
+
+===================================================================================
+POST-VLSI
+===================================================================================
+
+ . front-end fabrication
+ . back-end fabrication
+ . post-si(licon) verification and validation
+
+_

@@ -3,9 +3,9 @@
 THE MAIN STAGES OF THE SUPPLY CHAIN
 ===================================================================================
 
- . planning
+ ! PLANNING
  . sourcing
- . manufacturing
+ ! manufacturing
  . delivery
  . returns
 

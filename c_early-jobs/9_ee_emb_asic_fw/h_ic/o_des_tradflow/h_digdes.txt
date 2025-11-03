@@ -1,0 +1,40 @@
+
+Writing Verilog code to simulate the digital circuits in order to verify the correctness of their behavior. Then,
+  a virtual form of the chip is created.
+
+===================================================================================
+BUILD - DIGITAL DESIGN
+===================================================================================
+
+1. Simulation:
+ (a) functional design/verification, a.k.a. behavioral modeling
+ (b) RTL design
+  . Create digital circuits to implement the chip's functionality
+  . Write HDL (Hardware Description Language) code to describe the digital circuits
+  . Simulate the digital circuits to verify their correctness
+  . Logic design is the process of creating the digital circuitry (using gates, flip-flops, and combinational/
+      /sequential elements) that implements the functional behavior, typically expressed in RTL as part of front-
+      -end digital design.
+  . Tools used :
+     . for HDL (Verilog ;-) ) editing : Vim, Emacs, VS Code, Synopsys Verdi, Cadence Incisive Desktop
+     . for performing simulation based on the HDL code : ModelSim, Questa
+
+
+2. Synthesis:
+ . produces a gate-level netlist
+ |
+ . before physical design
+ . takes and converts RTL code into a gate-level netlist
+ . the netlist is to be used in the layout implementation stage ("virtualizing" the chip)
+ . Tools used : Synopsys Design Compiler, Cadence Genus
+
+
+Debugging occurs during both simulation and synthesis.
+ . Tools used : Verdi, DVE
+
+
+Other tools :
+ . Icarus Verilog can do both sim and synthesis
+ . Verilator converts the HDL code into models prior to simulation
+
+_

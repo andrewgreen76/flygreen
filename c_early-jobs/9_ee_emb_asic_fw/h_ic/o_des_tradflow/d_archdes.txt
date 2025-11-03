@@ -1,0 +1,33 @@
+
+The idea is clearer in visuals, featuring logistics, components, and protocols.
+
+
+===================================================================================
+ARCHITECTURAL DESIGN
+===================================================================================
+
+ . Create a high-level blueprint of the chip's architecture
+ . Decide on the chip's overall structure and organization
+ . Choose the necessary components:
+    . Processors (CPUs, GPUs, etc.)
+    . Memory (RAM, ROM, etc.)
+    . Interfaces (e.g., USB, HDMI)
+    . Other functional blocks (e.g., audio, video)
+ . Define the communication protocols between components
+
+
+Tools used : "SystemC, high-level synthesis (HLS) tools like Catapult or Vivado HLS, cycle-accurate simulators,
+  and performance modeling environments for exploring microarchitecture, power, and area trade-offs"
+
+
+===================================================================================
+SystemC
+===================================================================================
+"
+SystemC is a set of C++ classes and macros that provide a system-level design and verification language.
+  It extends C++ with constructs for hardware modeling and simulation, allowing designers to model and
+  simulate concurrent processes and hardware components at a higher level of abstraction than traditional
+  hardware description languages (HDLs) like VHDL or Verilog. SystemC is used for designing and verifying
+  complex systems-on-chip (SoCs) and embedded systems.
+"
+_

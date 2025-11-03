@@ -1,0 +1,18 @@
+
+The idea is in words.
+
+
+===================================================================================
+PLAN (SYSTEM SPECIFICATION)
+===================================================================================
+
+ . Define the chip's purpose and functionality
+ . Identify the target application (e.g., smartphone, laptop, server)
+ . Determine the chip's performance requirements:
+    . Speed (clock frequency)
+    . Power consumption
+    . Area (size)
+    . Interfaces (e.g., USB, HDMI)
+ . Develop a written specification outlining the chip's requirements
+
+_

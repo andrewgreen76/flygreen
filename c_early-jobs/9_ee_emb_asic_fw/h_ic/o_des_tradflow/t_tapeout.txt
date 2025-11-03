@@ -1,0 +1,6 @@
+
+Deploying the design files - kind of like Gerber files for semiconductor design and manufacturing.
+
+"Tapeout is the final stage of the chip design process where the completed design data is sent for semiconductor fabrication."
+
+_

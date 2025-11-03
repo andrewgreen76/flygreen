@@ -1,0 +1,10 @@
+
+===================================================================================
+MANUFACTURE (FABRICATION)
+===================================================================================
+
+ . Send the final design to a manufacturing facility (foundry)
+ . Use specialized equipment to fabricate the chip
+ . Test and package the finished chip for use in electronics.
+
+_

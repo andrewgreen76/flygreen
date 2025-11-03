@@ -1,0 +1,25 @@
+
+Converting the netlist into the virtual shape of the chip.
+
+===================================================================================
+BUILD - PHYSICAL DESIGN
+===================================================================================
+
+ . a.k.a. layout implementation
+ . Design the PHYSICAL LAYOUT of the chip
+ . "CIRCUIT DESIGN is a subset of physical design, focusing on transistor-level schematics and custom cell layouts,
+    whereas physical design encompasses broader steps like floorplanning, place-and-route, and timing closure for
+    the entire chip.
+   "
+ . PLACE AND ROUTE the components on the chip
+ . Ensure the design meets performance, power, and area requirements
+ . VERIFICATION follows these physical design steps
+
+
+Tools used:
+  1. for place-and-route :			Cadence Innovus or Synopsys ICC2
+  2. for parasitic extraction : 		Calibre or Mentor Graphics  
+  3. for static timing analysis : 		Synopsys PrimeTime or Cadence Tempus
+  4. for DRC and LVS : 				Calibre or Mentor Graphics  
+
+_

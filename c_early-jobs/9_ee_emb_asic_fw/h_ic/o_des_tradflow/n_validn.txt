@@ -1,0 +1,14 @@
+
+Making sure that the performance of the chip meets the expectations.
+
+===================================================================================
+CHECK (VERIFICATION AND VALIDATION)
+===================================================================================
+
+ . a.k.a. pre-si(licon)
+ . Verify that the design is correct and works as planned
+ . Test the chip's functionality, performance, and power consumption
+ . Validate the design against the original specifications
+ . Use various tools and techniques, such as simulation, emulation, and prototyping
+
+_

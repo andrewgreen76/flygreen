@@ -1,14 +1,30 @@
 
-Making sure that the performance of the chip meets the expectations.
+Making sure that the performance of the "virtual" chip meets the expectations - before the files are shipped to the
+  fabhouse.
 
 ===================================================================================
 CHECK (VERIFICATION AND VALIDATION)
 ===================================================================================
 
  . a.k.a. pre-si(licon)
+ . the final checks
  . Verify that the design is correct and works as planned
  . Test the chip's functionality, performance, and power consumption
  . Validate the design against the original specifications
- . Use various tools and techniques, such as simulation, emulation, and prototyping
+
+
+Tools used:
+ . to ensure functional and timing correctness of the final netlist
+ . Use various tools and techniques, such as simulation, emulation, and prototyping.
+ |
+ . for simulation - SPICE tools :			SPICE, HSPICE, Spectre, FastSPICE
+ | for emulation - hardware emulators : 		Cadence Palladium, Synopsys ZeBu, etc.
+ . for prototyping - FPGA prototyping platforms : 	Xilinx Vivado for FPGA implementation,
+ |     		     	  	      			Intel Quartus Prime for Intel/Altera FPGAs
+ |
+ . for final check - formal equivalence checkers :	Synopsys Formality, Cadence Conformal, etc.
+    |
+    . "Formal equivalence checkers are used to mathematically verify that the synthesized or post-layout design
+       exactly matches the original RTL specification."
 
 _

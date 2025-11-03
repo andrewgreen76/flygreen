@@ -27,7 +27,7 @@ BUILD - PHYSICAL DESIGN VERIFICATION
 
 Tools used for physical design verification:
   2. for parasitic extraction : 		Calibre or Mentor Graphics  
-  3. for static timing analysis : 		Synopsys PrimeTime or Cadence Tempus
+  3. for static timing analysis (STA) : 	Synopsys PrimeTime or Cadence Tempus
   4. for DRC and LVS : 				Calibre or Mentor Graphics  
 
 _

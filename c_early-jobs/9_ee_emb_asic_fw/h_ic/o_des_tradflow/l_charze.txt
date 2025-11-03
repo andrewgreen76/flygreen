@@ -1,0 +1,5 @@
+"
+To characterize a circuit means to measure and analyze its electrical behavior - such as speed, power, and timing -
+- under various conditions.
+"
+_

@@ -1,9 +1,8 @@
 
 ===================================================================================
-MANUFACTURE (FABRICATION)
+TOOLCHAIN RECAP
 ===================================================================================
 
- . Use specialized equipment to fabricate the chip
- . Test and package the finished chip for use in electronics.
+Do we really have to bother? Synopsys and Cadence rule the game, and that's pretty much all we (I) need to know. 
 
 _

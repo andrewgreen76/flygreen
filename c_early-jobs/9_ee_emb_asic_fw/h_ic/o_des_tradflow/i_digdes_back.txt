@@ -1,0 +1,24 @@
+
+###################################################################################
+############### THIS IS WHERE FRONT-END STOPS AND BACK-END BEGINS. ################
+###################################################################################
+
+===================================================================================
+SYNTHESIS AND DEBUGGING
+===================================================================================
+
+2. (Logic) synthesis:
+ . converts RTL code into a gate-level netlist
+ . the netlist is to be used in the layout implementation stage ("virtualizing" the chip)
+ . Tools used : Synopsys Design Compiler, Cadence Genus
+
+
+Debugging occurs during both simulation and synthesis.
+ . Tools used : Verdi, DVE
+
+
+Other tools :
+ . Icarus Verilog can do both sim and synthesis.
+ . Verilator converts the HDL code into models prior to simulation.
+
+_

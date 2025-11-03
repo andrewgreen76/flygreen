@@ -16,8 +16,14 @@ ARCHITECTURAL DESIGN
  . Define the communication protocols between components
 
 
-Tools used : "SystemC, high-level synthesis (HLS) tools like Catapult or Vivado HLS, cycle-accurate simulators,
-  and performance modeling environments for exploring microarchitecture, power, and area trade-offs"
+Tools used :
+ |
+ . for system-level design and verification :		SystemC
+ . for high-level synthesis (HLS) : 	    		Catapult or Vivado HLS
+ . cycle-accurate simulators : 	  			gem5, SimpleScalar, MARSSx86
+ |
+ . for exploring microarchitecture, power, and area trade-offs - performance modeling environments:
+    . Sniper, gem5 (with full-system mode), PTLsim
 
 
 ===================================================================================

@@ -3,9 +3,10 @@
 TAPEOUT
 ===================================================================================
 
- . deploying the design files - kind of like Gerber files for semiconductor design and manufacturing.
- . "Tapeout is the final stage of the chip design process where the completed design data is sent for
-    semiconductor fabrication."
- . Tools used : 
+ . bundling and deploying GDS(II) files
+    . These are design files that are kind of like Gerber files but for semiconductor design and manufacturing.
+
+
+Tools used : EDA tools -OR- foundry-specific utilities.
 
 _

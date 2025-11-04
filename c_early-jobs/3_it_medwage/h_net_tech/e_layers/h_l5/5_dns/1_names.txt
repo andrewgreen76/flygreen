@@ -6,7 +6,7 @@ NAMES
  . name server : the server that translates
  . hostname :  	 a label (not a web-address) tied to a device in the DNS
  . domain name : the main part of a web-address (or the middle part of *that* part)
-   (a) wikipedia.org
-   (b) .wikipedia.  
+    . "wikipedia.org"
+    . not to be confused with second-level domain (SLD), e.g., ".wikipedia." 
 
 _

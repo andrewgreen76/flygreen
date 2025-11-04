@@ -1,0 +1,40 @@
+
+===================================================================================
+FILE TRANSFER PROTOCOL (FTP)
+===================================================================================
+
+ + features authentication
+ - no encryption
+ 
+ . otherwise similar to SSH
+ . port number 21
+ . client device needs client software
+ . server device needs service software
+ . the target file can be shared by specifying the path to the file and the path of the destination
+ . the sharing can be two-way
+ . FTP used to be for simple file sharing
+ . nowadays it is used for sending and receiving web-content
+
+
+==================================================================================
+SECURE TRANSFER PROTOCOL (SFTP)
+===================================================================================
+
+ + features SSH encryption
+ + and authentication
+ . port number 22
+
+
+===================================================================================
+TRIVIAL FILE TRANSFER PROTOCOL (TFTP)
+===================================================================================
+
+ . primitive end-to-end file transfer
+ - no authentication
+ - no encryption
+ . port number 69
+ . typically used for holding installation files
+ . PXE (Preboot Execution Environment) leverages TFTP for delivering OS installation files to terminals belonging to a company.
+    . This is supposed to be more efficient than carrying around a disk with an OS image.
+
+_

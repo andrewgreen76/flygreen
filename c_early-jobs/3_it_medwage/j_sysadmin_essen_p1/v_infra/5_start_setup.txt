@@ -4,6 +4,10 @@ I.T. INFRASTRUCTURE - RESPONSIBILITIES
 ===================================================================================
 
 Starting out as ANY sysadmin - your responsibilities:
+ . Protocols essential for a company setup:
+    . DNS
+    . DHCP
+    . NTP
  . Decide on the **solutions for retaining critical data**:
  . (a) the cloud
  . (b) local physical servers

@@ -1,0 +1,18 @@
+
+===================================================================================
+REMOTE ACCESS - WITH SSH !
+===================================================================================
+
+ . Set up a client on the machine you want to connect from.
+ . Set up a server on the machine you want to connect to.
+
+
+Setting up SSH on Linux:
+ $ sudo apt-get install openssh-client
+ $ sudo apt-get install openssh-server
+
+
+Setting up SSH on Windows:
+ . with PuTTY or WinRM
+
+_

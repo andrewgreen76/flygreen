@@ -1,15 +1,7 @@
 
 ===================================================================================
-MISCELLANEOUS TIPS
+MISCELLANEOUS TROUBLESHOOTING
 ===================================================================================
-
- . Update PowerShell to 5.1+
- . Supplemental readings.
- . Mock-interviews.
-
-
- $ (sudo) apt log    # to check for updates
-
 
 A computer is working very slowly:
  . CPU and RAM gouging
@@ -26,5 +18,17 @@ An error or a crash has occurred:
  . Working from the bottom might help zero in on the actual issue.
  . You can also troubleshoot the issue in real time, having the ill-ridden application already fired up and
      monitoring activities in a log.
+
+
+===================================================================================
+MISCELLANEOUS TIPS
+===================================================================================
+
+ . Update PowerShell to 5.1+
+ . Supplemental readings.
+ . Mock-interviews.
+
+
+ $ (sudo) apt log    # to check for updates
  
 _

@@ -15,7 +15,7 @@ Lesser services
 
 
 "
-The more users your service reaches, the more you'll want to ensure that change aren't disruptive.
+The more users your service reaches, the more you'll want to ensure that [changes aren't going to be]  disruptive.
 "
 
 _

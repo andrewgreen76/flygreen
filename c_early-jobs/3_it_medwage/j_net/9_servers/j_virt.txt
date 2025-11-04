@@ -5,20 +5,23 @@ SERVER VIRTUALIZATION
 
 A server can be:
   |
- (a) a device providing a specific service
-  | + better performance <= one server can host multiple services
+ (a) a device providing one specific service
+  | + more resources for the same service => more performant service
+  | - expensive
+  | - you can run only one service
+  | . See whether one service is worth the cost of the server.
+  | - needs maintenance - you have to take if offline and fix it quickly before firing it back up
+  | - needs updates
   |
  (b) a virtualized instance (process) providing a specific service
-    +
-    - mild performance <= one service per instance
-
+    + you can run multiple services on one machine (with each service in its own instance), saving money
+    + Services can be migrated onto a different server when this one needs maintenance.
+    . Only one service can be provided within one instance.
+    - mild performance from every service
+    
 
 Server virtualization - basics:
  . a server will typically have multiple instances
  . every virtual instance provides one server
-
-
-Server virtualization - benefits:
- .
 
 _

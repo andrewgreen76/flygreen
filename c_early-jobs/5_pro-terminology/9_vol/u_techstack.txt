@@ -1,0 +1,6 @@
+"
+Having a "stack" means an interview candidate [software engieneer] is proficient in a specific technology stack -
+  - a cohesive set of programming languages, frameworks, tools, and platforms (such as MERN, Java/Spring, or
+  Python/Django) used to build and deploy full applications.
+"
+_

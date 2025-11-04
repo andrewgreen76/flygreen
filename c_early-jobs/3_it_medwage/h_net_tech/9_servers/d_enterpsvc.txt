@@ -1,0 +1,19 @@
+
+===================================================================================
+IT ENTERPRISE ENVIRONMENT SERVICES
+===================================================================================
+
+ . i.e. for large organizations
+
+
+Intranet:
+ . company LAN
+ . go-to website : company website
+
+
+Proxy server:
+ . security and privacy : safeguards the company terminals
+ . productivity : can be used to restrict access to websites that are not work-related
+ . can be used for monitoring and logging activities within the infrastructure
+
+_

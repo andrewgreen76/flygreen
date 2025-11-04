@@ -1,0 +1,24 @@
+
+===================================================================================
+METHODS OF RESOLVING DOMAIN NAMES - USING ...
+===================================================================================
+
+ (a) a local host file + DNS server provided by the ISP
+     . with static IP addresses
+     . for hosting things manually
+     . /etc/hosts
+
+ (b) your own local DNS server
+     . has all of the organization's hostnames mapped to IP addresses
+     . every computer would have to have its DNS settings changed accordingly (using this DNS server)
+
+ (c) a directory service
+    . automates IP-to-machine mapping
+    ! Not to be confused with DHCP, which assigns IP addresses !
+   (i)  Active Directory
+   (ii) LDAP
+
+
+127.0.0.1 - reference back to the device
+
+_

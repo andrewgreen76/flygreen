@@ -1,0 +1,26 @@
+
+===================================================================================
+SETTING UP DNS
+===================================================================================
+
+ . Your device is provided a DNS server address - that of the ISP - by the router.
+ . You can access not just a website, but any connected work device remotely.
+ . port number 53
+|
+Setting up DNS for web access:
+ 1. Come up with and buy a domain name (from a domain registrar).
+ 2. Link files or IP addresses are to point to that domain name.
+ 3. Web content files are to be stored on a cloud-hosting provider’s server and/or a personal server.
+|
+Cloud-hosting providers:
+ . AWS
+ . Google Cloud
+ . Microsoft Azure
+ . Domain registrars
+|
+Domain registrars:
+ . sell you the hostname you want
+ . (an option) charge a monthly fee for storing your files
+    . they can provide you with DNS settings in exchange for your IP address
+
+_

@@ -1,0 +1,19 @@
+
+===================================================================================
+NETWORK TIME PROTOCOL (NTP)
+===================================================================================
+
+ . a protocol essential for set up
+ . helps with synchronizing computers connected to the same network
+ . for conditioning all LAN devices to communicate in real time 
+ . can help with the problem of time zones
+ . can help with keeping track of what’s old and what’s new
+ . security services and authentication protocols depend on it
+ . port number 123
+ (a) local NTP server
+ (b) public NTP server
+ . When connecting computers with NTP clients to the same network, you tell them which NTP server they are to synchronize their clocks to.
+ . “It’s better to connect many NTP clients to a local server to reduce external network traffic, improve synchronization accuracy, and lessen the load on public servers.”
+ . Connecting NTP clients to their local NTP server and connecting that server to a public NTP server is also a good idea.
+
+_

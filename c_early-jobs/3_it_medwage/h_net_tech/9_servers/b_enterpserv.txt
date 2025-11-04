@@ -3,11 +3,29 @@
 ENTERPRISE-GRADE SERVERS
 ===================================================================================
 
- . RELIABLE enough to be able to stay on <<<24/7>>>for servicing clients when they make requests
+ . RELIABLE enough to be able to stay on <<<24/7>>> for servicing clients when they make requests
  . POWERFUL enough to service countless clients - something a consumer-grade general-purpose computer can’t do
  . tower servers - every server is like a desktop tower, taking up a lot of space
  . rack servers - ~1.5” thick
  . blade servers - even smaller
  . There are other types with different form factors.
 
+
+===================================================================================
+IT ENTERPRISE ENVIRONMENT SERVICES
+===================================================================================
+
+ . i.e. for large organizations
+
+
+Intranet:
+ . company LAN
+ . go-to website : company website
+
+
+Proxy server:
+ . security and privacy : safeguards the company terminals
+ . productivity : can be used to restrict access to websites that are not work-related
+ . can be used for monitoring and logging activities within the infrastructure
+ 
 _

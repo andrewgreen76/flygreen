@@ -26,4 +26,9 @@ Fixed allocation :
 
 These are simply configured for the DHCP server. 
 
+
+Manual assignment vs. DHCP:
+ . A statically assigned IP address will also have to be manually entered in network settings.
+ . With DHCP everything is automated.
+
 _

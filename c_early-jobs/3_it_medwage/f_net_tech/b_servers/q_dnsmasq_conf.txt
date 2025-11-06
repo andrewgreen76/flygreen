@@ -1,0 +1,10 @@
+
+===================================================================================
+dnsmasq CONFIG BREAKDOWN
+===================================================================================
+
+ . interface		: server interface for the utility to use for requests and replies
+ . bind-interfaces 	: i.e., this is the only interface dnsmasq will use
+ . domain		: the domain name on the LAN/subnet
+
+_

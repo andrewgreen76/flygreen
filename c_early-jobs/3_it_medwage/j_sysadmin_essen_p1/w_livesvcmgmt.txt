@@ -3,6 +3,8 @@
 LIVE SYSTEM/SERVICE CARETAKING
 ===================================================================================
 
+!!! NEVER TEST IN PRODUCTION !!!
+
 Rollback:
  . reverting a piece of software or a system to its previous state
  . rolling back a command = undoing its action, the impact it made

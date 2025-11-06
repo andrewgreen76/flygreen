@@ -1,0 +1,10 @@
+
+===================================================================================
+VISIBILITY OF A NETWORKING DEVICE
+===================================================================================
+
+ . "A networking device is visible for a short period of time when it appears on the network (via ARP, DHCP, or
+    discovery protocols) only briefly - typically due to intermittent connectivity, power-saving sleep modes, or
+    temporary boot-up - before disappearing again."
+ 
+_

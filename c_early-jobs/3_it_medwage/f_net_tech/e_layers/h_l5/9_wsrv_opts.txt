@@ -1,6 +1,6 @@
 
 ===================================================================================
-WEB SERVERS 
+WEB SERVERS - OPTIONS
 ===================================================================================
 
 Most popular ones : 
@@ -12,8 +12,5 @@ Most popular ones :
        . "for load balancing, security, or caching"
     . high-performance 
     . compatible with a variety of web servicing protocols 
-
-
-Leading protocol : HTTP. 
- 
+    
 _

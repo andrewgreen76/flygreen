@@ -1,0 +1,31 @@
+
+===================================================================================
+vsftpd
+===================================================================================
+
+ . "Very Secure FTP daemon"
+ . must be installed before it runs
+
+
+ $ lftp [server label/name]     # Used by an FTP client to connect to an FTP server. 
+   		     	   	# Can be used to verify that vsftpd is running.
+
+
+ $ lftp localhost     		# localhost - i.e., the FTP server running on the local host.
+ lftp localhost:~> _[cmd]_
+
+
+===================================================================================
+CONFIGURING SERVICES
+===================================================================================
+
+ . E.g., vsftpd can be config'd in /etc/vsftpd.conf
+ . anonymous_enable=YES    # forces the utility not to authenticate, allowing for anonymous connections
+
+
+Services only listen to their settings at the time they start.
+ => (a) Intuitively, we'd have to think that for config changes to take effect the service will have to be started.
+    (b) Alternatively, we can get a service to "reload" - re-read its config file without restarting.
+ $ sudo service vsftpd reload
+
+_

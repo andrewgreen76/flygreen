@@ -11,8 +11,9 @@ YOUR PLAN AS AN IT SUPPORT SPECIALIST FOR A SMALL COMPANY
  . List the necessities: 
    . a contract with an ISP - (to deliver a link to the internet for web) service 
    . DHCP - for automated address assignment 
-   . DNS - for fetching web content 
+   . DNS - for fetching web content
+   . NTP - for synchronizing terminals and local servers
    . VPN - for remote access ... but with port forwarding (works with NAT, IP masquerading) 
-   . a (?web proxy?) - for denial of request for content unrelated to work 
+   . a web proxy - for denial of request for content unrelated to work 
 
 _

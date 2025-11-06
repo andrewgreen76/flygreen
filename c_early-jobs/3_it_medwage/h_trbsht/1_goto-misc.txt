@@ -25,6 +25,7 @@ A website can't be reached.
    . ping a reliable website
  (b) the problem is with your domain name resolution
    $ nslookup [reliable website's address]
+   . your local host file might have something wrong
 
 
 ===================================================================================

@@ -1,0 +1,29 @@
+
+===================================================================================
+DAEMON
+===================================================================================
+
+Basically:
+ . another word for a service, a (background) process running persistently on a server
+ . for etymology, go here: https://en.wikipedia.org/wiki/Daemon_(computing)#Terminology
+ . "After the term was adopted for computer use, it was incorrectly[1] rationalized as a backronym for disk and
+    execution monitor."
+
+
+More:
+ . every daemon comes with a set of config files
+
+
+Daemons already existing: 
+ . config'd to automatically start at boot time
+ => they don't have to be manually triggered
+ + This is great because if anything happens, you won't need a sysadmin to fire them up.
+
+
+New daemons:
+ . some services will start off by themselves
+ . others need to be configured before getting to work
+    . Windows : in the Windows Registry - with a GUI wizard or the Set-Service cmdlet
+    . Linux   : in the configs in /etc
+
+_

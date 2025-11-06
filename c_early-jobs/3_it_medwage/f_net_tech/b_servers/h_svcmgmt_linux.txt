@@ -1,0 +1,20 @@
+
+===================================================================================
+SERVICE MANAGEMENT IN LINUX
+===================================================================================
+
+Getting the status of a service: 
+ $ service [protocol] status
+ $ sudo date -s "[date time]"    # to manually set the time on the machine
+
+
+Manipulating a daemon:
+  |
+ (a) $ sudo service [protocol] stop    
+  |  $ sudo service [protocol] start   
+  |
+ (b) $ sudo service [protocol] restart
+  |
+  . Doing this on the NTP daemon will reset the local NTP daemon clock.
+
+_

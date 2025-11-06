@@ -1,0 +1,26 @@
+
+===================================================================================
+SERVICE MANAGEMENT IN WINDOWS POWERSHELL
+===================================================================================
+
+Gettins the status of a service:
+ > Get-Service					# lists all services (both stopped and running) 
+ > Get-Service [service]			# E.g., wuauserv - Windows Update service. 
+ > Get-Service [service] | Format-List *    	# lists all properties of the service 
+
+
+Manipulating a service:
+ . Run as admin
+ > Stop-Service [service]
+ > Start-Service [service]
+
+
+===================================================================================
+SERVICE MANAGEMENT IN WINDOWS GUI
+===================================================================================
+
+The "Services" management console:
+ . If it's not saying anything under the status column, then the service isn't running.
+ . Right-click on a service for the options to stop and start it.
+
+_

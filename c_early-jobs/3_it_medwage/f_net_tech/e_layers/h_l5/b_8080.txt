@@ -1,0 +1,6 @@
+
+Port number 8080:
+ . "... commonly used for HTTP (HyperText Transfer Protocol) as an alternative to the standard port 80, often
+    for web proxies, development servers, or to avoid conflicts."
+
+_

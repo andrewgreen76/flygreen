@@ -1,10 +1,8 @@
 
 ===================================================================================
-
+Internet Information Services (IIS)
 ===================================================================================
 
-Internet Information Services (IIS):
- |
  . a feature for (aiding in) serving web-page content
  . essentially a local web-server
  . IIS needs to be installed and enabled in the Server Manager to take effect.

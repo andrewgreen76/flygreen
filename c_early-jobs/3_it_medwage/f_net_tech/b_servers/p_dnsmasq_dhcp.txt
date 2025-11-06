@@ -9,13 +9,14 @@ DHCP WITH dnsmasq
 
 
 Reconfiguring dnsmasq with different client and server interfaces:
- |
- $ sudo dnsmasq -C [path_to_config]    # Forces the utility to listen to the specified config instead of its own at
-   		   		       # /etc/dnsmasq.conf .
+  |
+  $ sudo dnsmasq -C [path_to_config]    # Forces the utility to listen to the specified config instead of its own at
+					# /etc/dnsmasq.conf .
 
 
-Deploying a DHCP server with dnsmasq:
- # Since the dnsmasq server is already running and can take on DHCP queries, ... 
- $ sudo dhclient -i [client_interface] -v    # how you run a DHCP client 
+Deploying a DHCP client with dnsmasq:
+  |
+  $ sudo dhclient -i [client_interface] -v    # how you run a DHCP client 
+  # ... since the dnsmasq server is already running and can take on DHCP queries. 
  
 _

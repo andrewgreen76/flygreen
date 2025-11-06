@@ -7,6 +7,13 @@ NAMES
  . hostname :  	 a label (not a web-address) tied to a device in the DNS
  . domain name : the main part of a web-address (or the middle part of *that* part)
     . "wikipedia.org"
-    . not to be confused with second-level domain (SLD), e.g., ".wikipedia." 
+    . not to be confused with second-level domain (SLD), e.g., ".wikipedia."
+
+
+Interface name :
+ . not used in DNS resolution
+ . ID for an interface on a networking device
+ . "Interface names (e.g., eth0, wlan0) are used in local system configuration and network commands for precise
+    control over specific physical or virtual adapters."
 
 _

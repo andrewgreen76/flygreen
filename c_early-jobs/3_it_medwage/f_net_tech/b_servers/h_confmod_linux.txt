@@ -16,7 +16,7 @@ vsftpd
 
 
 ===================================================================================
-CONFIGURING SERVICES
+CONFIGURING SERVICES - WITHOUT RESTARTING
 ===================================================================================
 
  . E.g., vsftpd can be config'd in /etc/vsftpd.conf
@@ -27,5 +27,9 @@ Services only listen to their settings at the time they start.
  => (a) Intuitively, we'd have to think that for config changes to take effect the service will have to be started.
     (b) Alternatively, we can get a service to "reload" - re-read its config file without restarting.
  $ sudo service vsftpd reload
+
+
+A word on logging warnings vs. errors:
+ . Unlike errors, warnings are not logged.
 
 _

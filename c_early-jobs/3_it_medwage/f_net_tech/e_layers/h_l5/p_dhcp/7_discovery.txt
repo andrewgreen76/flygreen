@@ -1,10 +1,9 @@
 
 ===================================================================================
-DHCP DISCOVERY 
+DHCP AT WORK
 ===================================================================================
 
-Whatever the DHCP server's method, the client will be configured with its own IP address through DHCP discovery,
-a process with 4 steps :
+Whatever the DHCP server's method, the client will be configured with its own IP address in these 4 steps :
 
 ##############################################################################################################
 					1. Server discovery

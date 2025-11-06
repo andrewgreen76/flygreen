@@ -1,0 +1,21 @@
+
+===================================================================================
+DHCP WITH dnsmasq
+===================================================================================
+
+ . The machine that runs the DHCP server is to have a static address.
+ . This address is to be configured into the network interface settings of the OS.
+ . This ensures "reliable lease assignment and client connectivity".
+
+
+Reconfiguring dnsmasq with different client and server interfaces:
+ |
+ $ sudo dnsmasq -C [path_to_config]    # Forces the utility to listen to the specified config instead of its own at
+   		   		       # /etc/dnsmasq.conf .
+
+
+Deploying a DHCP server with dnsmasq:
+ # Since the dnsmasq server is already running and can take on DHCP queries, ... 
+ $ sudo dhclient -i [client_interface] -v    # how you run a DHCP client 
+ 
+_

@@ -1,0 +1,36 @@
+
+===================================================================================
+dnsmasq
+===================================================================================
+
+ . a utility for regulating services essential to your IT infrastructure
+ . across DNS, DHCP, TFTP, and PXE
+ . clearly a centralizing solution
+ |
+ . provides cache for DNS queries
+ => caches external DNS server responses
+ |
+ $ sudo apt install dnsmasq   # ... , the service is INSTALLED and it's up and RUNNING.
+ |
+ . "In regular mode, dnsmasq runs silently as a background daemon with minimal logging to the system log, handling
+ |  DNS queries, DHCP leases, and caching efficiently without the verbose output or performance overhead of debug
+ |  mode."
+ |
+ $ sudo service dnsmasq stop
+ $ sudo dnsmasq -dq		      # debug mode, log our queries
+ $ sudo dnsmasq -d -q -H [host file]    # Consider this additional file I specified and resolve the hostnames
+   		      	       		# listed in that file.
+
+
+dig:
+ |
+ . "... receives all requested DNS resource records directly from the queried DNS server (or recursive resolver)
+ |  in a single response ... ."
+ |
+ . dnsmasq is to run in one shell session (console), while dig is to be run in a different session. 
+ |
+ $ dig [web-address] @[hostname]
+ $ dig @[IP_address] [domain/label]    # queries the DNS server at the IP address for resrouce record of the
+       		     		       # domain/label.
+
+_

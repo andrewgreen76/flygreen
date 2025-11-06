@@ -1,0 +1,12 @@
+
+===================================================================================
+DHCP POOL
+===================================================================================
+
+ . The static IP address of the DHCP server machine is NOT stored in the DHCP pool.
+ . "A DHCP pool is a defined range of IP addresses within a network subnet that a DHCP server dynamically assigns
+    to client devices for a limited lease period."
+ . "The DHCP pool (range of assignable IP addresses) is stored in the dnsmasq configuration file, typically at
+    /etc/dnsmasq.conf or in files under /etc/dnsmasq.d/, defined using the dhcp-range directive."
+
+_

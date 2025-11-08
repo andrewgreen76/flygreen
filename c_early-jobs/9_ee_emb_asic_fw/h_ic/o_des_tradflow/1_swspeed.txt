@@ -1,0 +1,5 @@
+"
+SWITCHING SPEED is the time it takes for a logic gate or transistor to transition between high (1) and low (0)
+  output states, typically measured in nanoseconds as PROPAGATION DELAY.
+"
+_

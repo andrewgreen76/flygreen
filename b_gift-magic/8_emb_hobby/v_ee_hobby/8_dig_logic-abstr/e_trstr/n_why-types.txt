@@ -11,7 +11,6 @@ Different kinds of transistors exist to optimize for specific applications, such
 each leveraging variations in structure, materials, and doping.
 "
 
-
 "
 Ruggedness in power control refers to a transistor's ability to withstand high voltage spikes, current surges,
   thermal stress, and short-circuit conditions without failure, ensuring reliable operation in demanding power

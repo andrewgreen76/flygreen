@@ -1,0 +1,33 @@
+
+===================================================================================
+MAINSTREAM LOGIC FAMILIES
+===================================================================================
+
+Low-power Schottky TTL family:
+ . TTL = transistor-transistor logic
+ . a.k.a. LS TTL
+ . uses BJTs
+ . "for faster switching speeds (around 9 ns) at moderate power (1–2 mW per gate)"
+ . "The Apple II primarily used the 74LS series of Low-Power Schottky TTL logic family for its digital circuitry,
+    including the CPU, memory, and peripheral interfaces."
+ . "IBM PC compatibles primarily used the 74LS (Low-Power Schottky TTL) logic family in early models (like the
+    original 1981 IBM PC), transitioning to 74F (Fast TTL) and 74HC (High-Speed CMOS) in later 386/486-era systems
+    for improved speed and power efficiency."
+
+
+High-speed CMOS family:
+ . CMOS = Complementary Metal-Oxide-Semiconductor
+ . a.k.a. HC
+ . uses MOSFETs
+ . "for lower power consumption (0.1–0.5 mW per gate at 100 kHz) with comparable speed (8–10 ns at 5 V)
+ . better noise immunity"
+
+
+"Use LS (Low-Power Schottky TTL) in projects requiring 5 V TTL compatibility, high fan-out, and moderate speed with
+ legacy systems (e.g., retro computing or industrial controls), and use HC (High-Speed CMOS) in battery-powered,
+ low-power, or mixed-voltage (2–6 V) modern designs needing noise immunity and minimal quiescent current."
+
+
+"Modern systems like the AMD Ryzen 7 use advanced CMOS logic families (such as 7 nm or 5 nm FinFET-based processes) integrated directly into the CPU die, with no discrete TTL or HC logic chips, relying instead on on-chip high-speed, low-power CMOS for all digital operations."
+
+_

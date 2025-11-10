@@ -1,0 +1,13 @@
+
+Not all transistors are alike.
+
+===================================================================================
+COMMON TYPES OF TRANSISTORS 
+===================================================================================
+
+ . BJT - "used in modern electronics for applications like amplification, switching, and high-current circuits
+       	  due to their robustness and linear characteristics"
+ . MOSFET - "higher switching speeds, lower power consumption due to voltage-driven rather than current-driven
+   	     operation, smaller size, and better efficiency in digital and high-frequency circuits"
+
+_

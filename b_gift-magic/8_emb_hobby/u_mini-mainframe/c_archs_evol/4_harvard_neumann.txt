@@ -24,6 +24,8 @@ VON NEUMANN ARCHITECTURE
 COMPUTERS DESIGNED WITH HARVARD ARCHITECTURE 
 ===================================================================================
 
+ . embedded systems
+
 "
 Here are several examples of computers and microcontrollers that use **Harvard architecture**:
 
@@ -43,6 +45,8 @@ Harvard architecture is commonly used in embedded systems, digital signal proces
 ===================================================================================
 COMPUTERS DESIGNED WITH VON NEUMANN ARCHITECTURE 
 ===================================================================================
+
+ . general-purpose computers
 
 "
 Here are several computers with Von Neumann architecture:

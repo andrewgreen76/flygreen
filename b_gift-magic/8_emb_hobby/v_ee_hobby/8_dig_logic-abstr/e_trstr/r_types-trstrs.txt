@@ -16,4 +16,19 @@ Ruggedness in power control refers to a transistor's ability to withstand high v
   thermal stress, and short-circuit conditions without failure, ensuring reliable operation in demanding power
   electronics applications like motor drives and inverters.
 "
+
+
+FinFET:
+ . Fin Field-Effect Transistor
+ . "FinFET is a 3D transistor architecture with a thin fin-like channel wrapped by the gate on three sides, enabling
+    better electrostatic control, reduced leakage, and improved performance in advanced CMOS processes (typically 22
+    nm and below)."
+
+
+GAAFET:
+ . Gate-All-Around Field-Effect Transistor
+ . "GAAFET is a next-generation transistor architecture where the gate fully surrounds the channel on all four sides
+    using stacked nanosheets, enabling superior electrostatic control, reduced leakage, and continued scaling beyond
+    FinFET in sub-3 nm CMOS processes."
+
 _

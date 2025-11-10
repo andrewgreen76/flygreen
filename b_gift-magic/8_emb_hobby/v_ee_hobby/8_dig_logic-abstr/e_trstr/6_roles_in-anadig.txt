@@ -1,0 +1,10 @@
+
+===================================================================================
+UNIQUE FUNCTIONS 
+===================================================================================
+
+ . (in analog circuits) amplifier - regulated by the base terminal 
+ . (in digital circuits) switch - when the base changes from 0V to about 0.7V , the drain/emitter switches from 0 to 1 
+    . technically an amplifier ; you just bypass the gradation between 0V and 0.7V 
+
+_

@@ -9,11 +9,4 @@ LOGIC FAMILIES
 "There are many logic families beyond TTL and CMOS, including ECL, NMOS, PMOS, BiCMOS, and GaAs, each optimized for
   specific speed, power, or application needs."
 
-
-===================================================================================
-FROM OLD TO NEW
-===================================================================================
-
-
-
 _

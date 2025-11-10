@@ -1,0 +1,10 @@
+
+===================================================================================
+WHY TRANSISTORS 
+===================================================================================
+"
+Engineers switched from relays to transistors because transistors are smaller, FASTER, MORE RELIABLE,
+CONSUME LESS POWER, and ENABLE COMPACT, HIGH-SPEED ELECTRONIC CIRCUITS, unlike bulky, slow, and power-hungry
+mechanical relays.
+"
+_

@@ -1,0 +1,6 @@
+"
+An IP core (Intellectual Property core) is a reusable, pre-designed hardware block—such as a processor, memory
+  controller, or interface—that is licensed and integrated into larger chip designs, hence hardware design is
+  often referred to as IP core development.
+"
+_

@@ -1,0 +1,12 @@
+
+===================================================================================
+BJT vs. MOSFET
+===================================================================================
+
+"
+No, in most cases it will not work if you simply swap a BJT for a MOSFET on a breadboard, because BJTs are
+  current-controlled (base current turns it on) while MOSFETs are voltage-controlled (gate-source voltage
+  turns it on), so the biasing and drive circuitry are completely different — a direct pin-for-pin replacement
+  almost always fails.
+"
+_

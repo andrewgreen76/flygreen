@@ -1,0 +1,4 @@
+"
+A Programmable Logic Device (PLD) in microcontroller applications is a reconfigurable integrated circuit that allows designers to implement custom digital logic functions alongside or in support of a microcontroller, enabling flexible hardware acceleration, interface adaptation, or glue logic without dedicated ASICs.
+"
+_

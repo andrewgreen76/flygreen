@@ -1,0 +1,4 @@
+"
+A daughter board is a smaller circuit board that plugs into or mounts onto a larger motherboard or main board to add functionality, such as memory, I/O, or specialized processing.
+"
+_

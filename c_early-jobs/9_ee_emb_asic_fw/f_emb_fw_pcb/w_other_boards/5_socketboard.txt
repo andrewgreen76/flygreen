@@ -1,0 +1,4 @@
+"
+A socket board is a prototyping or testing board that features IC sockets (like DIP or ZIF sockets) allowing you to insert and remove integrated circuits without soldering, ideal for programming, testing, or swapping chips.
+"
+_

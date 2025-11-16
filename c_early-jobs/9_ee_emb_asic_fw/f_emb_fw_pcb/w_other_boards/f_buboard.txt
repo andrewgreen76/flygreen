@@ -1,0 +1,4 @@
+"
+A BU board (short for Build-Up board) in PCB assembly refers to a multi-layer printed circuit board constructed using sequential lamination of thin core layers and prepregs, ideal for high-density interconnect (HDI) designs with fine traces, microvias, and compact form factors.
+"
+_

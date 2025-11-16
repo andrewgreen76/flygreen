@@ -1,0 +1,19 @@
+"
+EEPROM is writable NVRAM, because NVRAM simply means non-volatile memory, not read-only memory.
+"
+
+
+"
+Its name is historical—EEPROM is actually rewritable despite containing the term “read-only memory.”
+"
+
+
+"
+EEPROM is far too slow and has limited write endurance, so it cannot function like RAM in a computer.
+"
+
+
+"
+Write endurance is the number of times a memory cell can be reliably written before it wears out.
+"
+_

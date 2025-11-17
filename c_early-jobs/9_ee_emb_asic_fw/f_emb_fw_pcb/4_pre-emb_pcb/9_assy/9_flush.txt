@@ -1,0 +1,4 @@
+"
+To stay flush against the board means ensuring a component sits flat and fully in contact with the PCB surface, with no gaps or tilting, for optimal soldering and thermal/electrical performance.
+"
+_

@@ -1,0 +1,6 @@
+"
+A diffusion resistor is a resistor formed by selectively doping a region of the silicon substrate (usually with
+  boron for p-type or phosphorus/arsenic for n-type) to create a controlled resistive path whose resistance
+  depends on the dopant concentration, diffusion depth, and geometry of the doped area.
+"
+_

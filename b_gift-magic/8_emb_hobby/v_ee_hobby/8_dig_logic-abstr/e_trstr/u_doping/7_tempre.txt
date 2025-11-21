@@ -1,0 +1,7 @@
+"
+... doping in semiconductor manufacturing is almost never done at room temperature; diffusion doping requires high
+  temperatures (900–1200 °C) to drive dopant atoms into the silicon lattice, while ion implantation is done at lower
+  temperatures but is always followed by a high-temperature anneal (typically 800–1100 °C) to repair crystal damage
+  and electrically activate the dopants.
+"
+_

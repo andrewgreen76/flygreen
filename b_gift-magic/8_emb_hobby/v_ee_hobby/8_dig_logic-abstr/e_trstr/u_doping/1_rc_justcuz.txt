@@ -1,0 +1,6 @@
+"
+The RC oscillator in the PIC10F200 (and most PIC microcontrollers) is fabricated on the silicon die using a
+  combination of on-chip polysilicon or diffusion resistors and MOS capacitor structures (or parasitic capacitance),
+  along with analog comparator and current-source circuitry to create the timed charge/discharge cycle.
+"
+_

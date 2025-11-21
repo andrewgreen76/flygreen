@@ -1,0 +1,8 @@
+"
+Diffusion doping and ion implantation are two fundamentally different techniques for introducing dopant atoms into
+  silicon—diffusion uses high-temperature gas or solid sources to drive atoms thermally into the lattice, while ion
+  implantation accelerates ionized dopant atoms directly into the silicon—but in modern CMOS processes they are
+  often used together (implantation for precise shallow doping + high-temperature diffusion/anneal steps to activate
+  and distribute the dopants).
+"
+_

@@ -1,0 +1,22 @@
+"
+At room temperature phosphorus exists in several allotropes - white (waxy, yellowish, highly reactive solid),
+  red (powdery, reddish-brown solid), and black (shiny, crystalline solid) - while during doping it is typically
+  introduced as a colorless, toxic gas (phosphine PH₃ or phosphorus oxychloride POCl₃) that decomposes at high
+  temperature (800–1100 °C) to release atomic phosphorus into the silicon.
+"
+
+
+"
+An allotrope is a different physical form or structural arrangement of the same chemical element (e.g., diamond
+  and graphite are allotropes of carbon, or white, red, and black phosphorus are allotropes of phosphorus) that
+  exhibits distinct properties despite having identical atoms.
+"
+
+
+"
+One sentence: Allotropes are different because the same element’s atoms are bonded and arranged in distinct
+  crystalline or molecular structures (e.g., carbon atoms form tetrahedral sp³ bonds in diamond vs. planar sp²
+  hexagonal layers in graphite), which fundamentally changes bond strength, electron distribution, density,
+  hardness, conductivity, color, and other physical/chemical properties.
+"
+_

@@ -1,0 +1,7 @@
+"
+Polysilicon (polycrystalline silicon) is a material made of many small silicon crystals (grains) formed by
+  depositing silicon atoms in a disordered, multi-crystalline structure onto a substrate, typically using
+  chemical vapor deposition (CVD) at high temperature, and is widely used in ICs for gates, resistors, and
+  interconnects.
+"
+_

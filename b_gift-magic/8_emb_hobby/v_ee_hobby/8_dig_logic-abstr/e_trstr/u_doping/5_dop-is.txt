@@ -1,0 +1,8 @@
+"
+A doping technique is a controlled process that intentionally introduces precise amounts of impurity atoms
+  (such as boron, phosphorus, or arsenic) into specific regions of a silicon crystal lattice to permanently
+  alter its electrical conductivity, turning it from intrinsically semi-insulating into either p-type
+  (positive/hole-conducting) or n-type (negative/electron-conducting) semiconductor material—the essential
+  building block for creating transistors, diodes, and all active devices in integrated circuits.
+"
+_

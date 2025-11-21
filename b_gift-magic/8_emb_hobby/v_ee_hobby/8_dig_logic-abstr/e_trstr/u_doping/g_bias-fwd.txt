@@ -1,6 +1,9 @@
-
+"
+... bias is determined solely by how you connect it in the circuit (anode to higher voltage = forward-biased;
+  cathode to higher voltage = reverse-biased).
+"
 ===================================================================================
-FORWARD-BIASED DIODES
+FORWARD-BIASED DIODE POLARITY
 ===================================================================================
 
 Inside a diode:
@@ -23,15 +26,9 @@ Conventional current is the agreed-upon direction of positive charge flow (from 
   charged electrons flowing in the opposite direction.
 "
 
-===================================================================================
-REVERSE-BIASED DIODES
-===================================================================================
-
-Inside a diode:
-   p-type		       n-type
- . [-BAT+] ---(.- on wire)--> [-BAT+]	// conventional current model
- . [-BAT+] <--(.- on wire)--- [-BAT+]	// electron flow model
- . Lo.voltage/GND / / / / / Hi.voltage
- . little to no current
-
+"
+... in a forward-biased circuit, electrons physically flow from the ground/negative terminal (where they are
+  injected from the power supply) through the load/diode and back to the positive terminal of the power supply,
+  so within the circuit itself, electrons are indeed moving from ground toward the positive power rail.
+"
 _

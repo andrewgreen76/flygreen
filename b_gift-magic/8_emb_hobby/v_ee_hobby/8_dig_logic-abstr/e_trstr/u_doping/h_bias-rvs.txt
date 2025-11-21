@@ -1,0 +1,14 @@
+
+===================================================================================
+REVERSE-BIASED DIODE POLARITY
+===================================================================================
+
+Inside a diode:
+   [---black (anode)---|slv.strip (cathode)]
+   p-type		       n-type
+ . [-BAT+] ---(.- on wire)--- [-BAT+]	// conventional current model
+ . [-BAT+] ---(.- on wire)--- [-BAT+]	// electron flow model
+ . Lo.voltage/GND -------- Hi.voltage
+ . little to no current
+
+_

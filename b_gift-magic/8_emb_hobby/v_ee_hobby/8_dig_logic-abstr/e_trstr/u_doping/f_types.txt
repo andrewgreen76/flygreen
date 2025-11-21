@@ -1,0 +1,7 @@
+"
+Boron-doped (p-type) silicon conducts electricity primarily via positive-charge-carrying holes with hole mobility
+  around 450–500 cm²/V·s, while phosphorus-doped (n-type) silicon conducts primarily via negative electrons with
+  higher electron mobility around 1350–1500 cm²/V·s, making n-type silicon significantly more conductive for the
+  same doping concentration.
+"
+_

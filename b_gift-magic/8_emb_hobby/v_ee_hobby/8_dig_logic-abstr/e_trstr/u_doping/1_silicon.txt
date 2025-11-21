@@ -1,0 +1,6 @@
+"
+Pure (intrinsic) silicon is a very poor conductor at room temperature because it has only a tiny number of thermally
+  generated free electrons and holes, giving it a resistivity of about 2–3 kΩ·m—millions of times higher than metals
+  but still much lower than true insulators.
+"
+_

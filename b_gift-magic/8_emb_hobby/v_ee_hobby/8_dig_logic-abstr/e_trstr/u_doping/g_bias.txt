@@ -1,0 +1,37 @@
+
+===================================================================================
+FORWARD-BIASED DIODES
+===================================================================================
+
+Inside a diode:
+   [---black (anode)---|slv.strip (cathode)]
+   p-type		       n-type
+ . [-BAT+] ---(.- on wire)--> [-BAT+]	// conventional current model
+ . [-BAT+] <--(.- on wire)--- [-BAT+]	// electron flow model
+ . Hi.voltage \ \ \ \ \ \ Lo.voltage/GND
+ . current can pass through
+
+
+"
+... in a forward-biased p-n junction diode, conventional current (positive to negative) flows from the p-type side
+  to the n-type side, while electrons physically move in the opposite direction (from n-type to p-type).
+"
+
+"
+Conventional current is the agreed-upon direction of positive charge flow (from positive to negative terminal) used
+  in circuit diagrams and calculations, even though in metallic wires the actual moving particles are negatively
+  charged electrons flowing in the opposite direction.
+"
+
+===================================================================================
+REVERSE-BIASED DIODES
+===================================================================================
+
+Inside a diode:
+   p-type		       n-type
+ . [-BAT+] ---(.- on wire)--> [-BAT+]	// conventional current model
+ . [-BAT+] <--(.- on wire)--- [-BAT+]	// electron flow model
+ . Lo.voltage/GND / / / / / Hi.voltage
+ . little to no current
+
+_

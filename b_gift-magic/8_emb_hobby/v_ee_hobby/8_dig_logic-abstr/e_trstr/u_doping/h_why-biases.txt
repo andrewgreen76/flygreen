@@ -1,0 +1,20 @@
+
+Forward-biased diodes:
+ . allowing current to flow easily in one direction
+ . ex.: rectification, signal routing, LED lighting
+
+
+Reverse-biased diodes:
+ (a) blocking current
+ (b) creating depletion regions for capacitance - varactors
+ (c) detecting light - photodiodes
+ (d) protecting circuits - flyback/Zener diodes
+
+
+"
+A reverse-biased diode is used instead of simply removing the connection because it dynamically blocks current in
+  one direction while allowing the circuit to instantly switch to forward conduction when the voltage polarity
+  reverses (e.g., in rectifiers, flyback protection, or logic gates), something an open circuit or physical switch
+  cannot do automatically.
+"
+_

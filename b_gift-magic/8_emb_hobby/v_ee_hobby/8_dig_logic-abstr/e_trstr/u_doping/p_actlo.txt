@@ -1,0 +1,7 @@
+"
+Pins are often designed active-low (such as MCLR) because an N-channel MOSFET can pull a signal strongly and
+  quickly to ground, requiring only a simple pull-up resistor to hold it high by default, which simplifies
+  circuitry, improves noise immunity, and ensures a reliable reset or enable state if the pin is accidentally
+  left floating or during power-up.
+"
+_

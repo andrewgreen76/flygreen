@@ -1,0 +1,21 @@
+
+===================================================================================
+REAL-TIME CLOCK (RTC)
+===================================================================================
+
+ . the secret heartbeat of an embedded system
+
+
+"
+A real-time clock (RTC) is a clock (usually a dedicated low-power IC or module) that keeps accurate time and
+  date even when the main system is powered off, typically using a crystal oscillator and a backup battery or
+  supercapacitor.
+"
+
+
+"
+A typical small supercapacitor (0.1 F to 1 F at 5.5 V) used for RTC backup can sustain a low-power real-time
+  clock (drawing ~1 µA) for anywhere from several days to several weeks, depending on its capacitance, leakage
+  current, and temperature — commonly 1–4 weeks in practical designs.
+"
+_

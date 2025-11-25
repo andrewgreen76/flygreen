@@ -1,0 +1,8 @@
+"
+Parts of an ALU include:
+ . adder/subtractor
+ . logic unit (AND, OR, XOR, NOT)
+ . shifter
+ . (sometimes) a comparator
+"
+_

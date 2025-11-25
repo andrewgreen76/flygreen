@@ -1,0 +1,5 @@
+"
+It’s normal to just use the **`reg` (SystemVerilog `logic`)** declaration—FPGA tools automatically map it to real
+  flip-flops, so you don’t manually implement registers.
+"
+_

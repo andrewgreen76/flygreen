@@ -1,0 +1,28 @@
+
+===================================================================================
+JTAG
+===================================================================================
+
+"
+ . JTAG (Joint Test Action Group) is a standardized interface and protocol (IEEE 1149.1) used for testing,
+     debugging, and programming integrated circuits, such as FPGAs and microcontrollers, by providing access
+     to their internal components via a serial communication port using signals like TDI, TDO, TCK, and TMS.
+ . JTAG connectors are for **programming and debugging**
+ . A standard JTAG connector typically has **10 or 14 pins**, depending on the variant.
+"
+
+===================================================================================
+PMOD
+===================================================================================
+
+"
+ . Pmod connectors are for **general-purpose peripheral I/O**
+ . A Pmod is a **standardized 6- or 12-pin peripheral module connector** used to attach sensors, displays, and
+     other I/O devices to FPGA boards.
+ . The Basys 3 board has **Pmod headers, a micro-USB port, a 3-pin UART header, a VGA connector, and standard
+      2×6/2×7 pin headers for various I/O**.
+ . On the Basys 3 board, **JA, JB, JC, and JXADC are Pmod connectors** used for general-purpose I/O, peripheral
+     modules, or ADC input expansion.
+ . **A Pmod like JA or JB is ideal** for connecting a tiny OLED via SPI or I²C.
+" 
+_

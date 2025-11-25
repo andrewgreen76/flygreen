@@ -1,14 +1,18 @@
 
-Wall wart :
+Wall wart:
  . AC adapter 
 
 
-Scientific model :
+Scientific model:
  . theoretical scenario 
 
 
-Forward bias :
+Forward bias:
  . "... the condition in a semiconductor diode where the positive voltage is applied to the anode and
     the negative to the cathode, allowing current to flow through the diode."
+
+Bypassing:
+ . "To bypass a circuit on an input port or switch means to **directly connect the signal through, ignoring or
+    short-circuiting any intermediate components**."
 
 _

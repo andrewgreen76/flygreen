@@ -20,7 +20,8 @@ K-MAP
      defining the result.
 
  . A logical step (read: conventional approach, not an intuitive move) in handling a K-map is something called
-     LOOPING A SUPER K-MAP - outlining internal sub-grids in configurations of (2^x)*(2^y).
+     LOOPING A SUPER K-MAP - drawing loops around internal sub-grids featuring only 1's and variables (no zeros) ...
+     ... but in configurations of (2^x)*(2^y).
  . ex.: 1x2, 4x2, 1x1, 2x2, etc.
  . This makes the formulation of the optimized logic equation less of a chore - in terms of SOPs (sums of products)
      and POSs (products of sums).

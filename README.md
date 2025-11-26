@@ -37,6 +37,7 @@ CHOSEN PERSONAL PROJECTS:
 - [currently studying for a Google IT certification]
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
-- methods of booting into an OS
-- traditional VMs vs. JVM vs. LLVM
-- DNS, resource record types 
+ . FPGA programming
+ . data backup terminology
+
+_

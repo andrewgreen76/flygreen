@@ -1,0 +1,28 @@
+
+ . TT -> logic circuit
+ . TT -> logic equation
+ . TT -> K-map -> optimized logic equation
+ . learning how to do simulation
+
+
+===================================================================================
+K-MAP
+===================================================================================
+
+ . a.k.a. Karnaugh map
+ . a grid of possibilities given a number of inputs
+ . typically used when more than two inputs are in play
+ . very practical for the [a,b]x[c,d] configuration
+ 
+ . For more than four inputs more than one K-map is generated.
+ . In that case the related K-maps can be fused into one SUPER K-MAP - something called K-MAP COMPRESSION.
+ . Assuming that n>=5, the n-th variable could be made to look like the final variable inside of the K-map,
+     defining the result.
+
+ . A logical step (read: conventional approach, not an intuitive move) in handling a K-map is something called
+     LOOPING A SUPER K-MAP - outlining internal sub-grids in configurations of (2^x)*(2^y).
+ . ex.: 1x2, 4x2, 1x1, 2x2, etc.
+ . This makes the formulation of the optimized logic equation less of a chore - in terms of SOPs (sums of products)
+     and POSs (products of sums).
+
+_

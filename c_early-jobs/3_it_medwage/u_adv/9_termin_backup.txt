@@ -9,4 +9,11 @@ Q: What is post-mortem?
 A: The practice of documenting what went wrong and what steps can be taken to make sure the incident will never
      happen again.
 
+
+Q: NAS is ...?
+|
+A: . "NAS stands for **Network Attached Storage**"
+   . "A NAS device is a dedicated network-connected storage unit that provides shared file access to multiple
+        users or systems."
+
 _

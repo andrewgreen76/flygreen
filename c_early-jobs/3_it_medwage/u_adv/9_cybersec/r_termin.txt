@@ -1,0 +1,12 @@
+
+Q: "What does it mean for data to be encrypted at rest?"
+|
+A: "It means the data is stored in encrypted form on disk so it cannot be read without the decryption key."
+
+
+Q: What is post-mortem?
+|
+A: The practice of documenting what went wrong and what steps can be taken to make sure the incident will never
+     happen again.
+
+_

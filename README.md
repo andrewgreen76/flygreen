@@ -35,9 +35,12 @@ CHOSEN PROFESSIONAL PROJECT:
 __________________________________________________________________________
 CHOSEN PERSONAL PROJECTS:
 - [currently studying for a Google IT certification]
+- 4-/8-bit ALU design
+- programming an MCU (e.g., STM32L152RET6 - account for PICkit 4/5 costs)
+- RISC-V OSOC project
+- NanOS 
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
- . FPGA programming
- . data backup terminology
+- FPGA programming
 
 _

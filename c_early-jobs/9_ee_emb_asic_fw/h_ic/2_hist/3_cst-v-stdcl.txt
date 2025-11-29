@@ -1,0 +1,11 @@
+"
+[Before FPGAs] Chips were designed using **full-custom or standard-cell ASIC design with schematics and manual
+  layout**, often simulated with early EDA tools long before reprogrammable FPGAs existed.
+"
+
+
+"
+Full-custom design lets engineers hand-craft every transistor and wire for maximum performance, while standard-cell
+  design assembles pre-designed logic blocks for faster, more automated chip development.
+"
+_

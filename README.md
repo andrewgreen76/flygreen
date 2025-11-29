@@ -36,9 +36,10 @@ __________________________________________________________________________
 CHOSEN PERSONAL PROJECTS:
 - [currently studying for a Google IT certification]
 - 4-/8-bit ALU design
-- programming an MCU (e.g., STM32L152RET6 - account for PICkit 4/5 costs)
-- RISC-V OSOC project
-- NanOS 
+- your own AI ... without conventional NN training
+- [ruled out] programming an MCU (e.g., STM32L152RET6 - account for PICkit 4/5 costs)
+- [ruled out] RISC-V OSOC project (toolchain, example cores)
+- [ruled out] NanOS (GCC, build instructions, trial in QEMU)
 __________________________________________________________________________
 TOPICS AND METHODS EXPLORED TO AN EXTENT OVER THE PAST FEW DAYS :
 - FPGA programming

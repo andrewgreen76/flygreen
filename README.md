@@ -37,6 +37,7 @@ CHOSEN PERSONAL PROJECTS:
 - [currently studying for a Google IT certification]
 - 4-/8-bit ALU design
 - your own AI ... without conventional NN training
+- [ruled out] game engine in C (requires porting to an OS that isn't yours)
 - [ruled out] programming an MCU (e.g., STM32L152RET6 - account for PICkit 4/5 costs)
 - [ruled out] RISC-V OSOC project (toolchain, example cores)
 - [ruled out] NanOS (GCC, build instructions, trial in QEMU)

@@ -1,0 +1,9 @@
+
+===================================================================================
+ABOUT UART / USART
+===================================================================================
+
+ . "UARTs were first developed in the 1960s"
+ . "USART, which adds synchronous capabilities, was introduced in the 1970s"
+
+_

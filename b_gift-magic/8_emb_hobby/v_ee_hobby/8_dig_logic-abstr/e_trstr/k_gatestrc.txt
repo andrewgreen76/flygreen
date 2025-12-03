@@ -1,0 +1,5 @@
+"
+A gate structure is the **control electrode and surrounding geometry in a transistor that regulates the flow of
+  current between its source and drain**.
+"
+_

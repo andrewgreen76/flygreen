@@ -5,5 +5,7 @@ ABOUT UART / USART
 
  . "UARTs were first developed in the 1960s"
  . "USART, which adds synchronous capabilities, was introduced in the 1970s"
+ . "The first use of a UART to transmit text for screen display was in the 1960s with teletypes connected
+    to mainframe computers."
 
 _

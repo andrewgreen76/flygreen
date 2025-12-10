@@ -2,6 +2,9 @@
  . 1971
 
  . RAM :        8 KB
- . storage : <500 KB 
+ 
+ . storage :
+    . kernel only = ~8 KB 
+    . total package = <20 KB 
 
 _

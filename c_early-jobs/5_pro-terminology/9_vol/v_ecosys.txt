@@ -1,8 +1,16 @@
+
+ . support
+
+========================================================================================
+
+"
+... the complete set of **tools, libraries, documentation, community support, and compatible hardware** that surrounds and enables development for a particular platform.
+"
+
 "
 ... "ecosystem" refers to the interconnected environment of hardware, software, and users that collectively interact within a computing platform ... 
 "
 
-========================================================================================
 "
 In general, an ecosystem refers to a complex network or system of interconnected entities, components, and interactions that work together and influence each other within a specific environment. It can be applied to various contexts, including natural environments, technological systems, or business environments.
 

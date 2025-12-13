@@ -1,0 +1,25 @@
+
+===================================================================================
+TYPES OF ATTACKS
+===================================================================================
+
+Malware:
+ . obtaining sensitive info
+ . changing things
+ . deleting things
+ . virus, worm, adware, spyware, trojan, rootkit, backdoor, botnet, etc.
+
+
+Virus:
+ . attachment (to executable code) + replication
+ 1) the virus attaches itself to a program/script
+ 2) the virus becomes aware of other files the executable targets
+ 3) the virus attaches itself to those other files
+ 4) rinse, repeat steps 1-3
+
+
+Worm:
+ . a lot like a virus
+ + spreads through networks, not just through attachments
+
+_

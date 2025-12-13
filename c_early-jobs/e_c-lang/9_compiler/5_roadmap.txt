@@ -1,0 +1,46 @@
+
+===================================================================================
+BUILDING A FULL COMPILER - ROADMAP
+===================================================================================
+
+ . What kind of program are we building here?
+ . Is it core (minimal) or is it full?
+
+
+===================================================================================
+BUILDING A COMPILER CORE - ROADMAP
+===================================================================================
+
+Starting point. Choose your destiny:
+ . {cc, as, ld}
+ * in {C, ASM}
+ * {with abstractions, without abstractions}
+ . what 
+ |
+ . in ASM with abstractions
+ . in ASM without abstractions
+ . [not possible without ASM] in C with abstractions
+ . [not possible without ASM] in C without abstractions
+
+
+The roadmap itself:
+ . syntax and semantics analysis (unused variables, etc.)
+ . optimization
+ .
+ .
+ .
+ . typedef
+ . macros
+ . system calls
+ . inline assembly
+ .
+ .
+ .
+ . binary executable
+
+
+===================================================================================
+BUILDING A FULL COMPILER - ROADMAP
+===================================================================================
+
+_

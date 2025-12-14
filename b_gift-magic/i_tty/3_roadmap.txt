@@ -4,6 +4,13 @@ TTY implementation roadmap:
  . for STM32
  . for BIOS (int 16h for registering keystrokes, int 10h for text output)
 
+Requires understanding of the target architecture:
+ . linker
+ . assembler
+ . editor
+ . shell
+ . compiler
+
 
 "
 Character deletion on teletype devices became possible in the mid-1960s with the introduction of ASCII’s DEL (0x7F)

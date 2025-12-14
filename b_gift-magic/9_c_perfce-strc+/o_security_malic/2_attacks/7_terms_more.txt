@@ -1,0 +1,9 @@
+
+Quarantine:
+ . the process of isolating an infected device from the network to prevent the spread of malware
+
+
+Threat Definition Files:
+ . databases used by antivirus software to identify known malware and viruses
+
+_

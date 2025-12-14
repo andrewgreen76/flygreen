@@ -1,0 +1,11 @@
+
+Ransomware: 
+ . holds your data or system until a ransom is paid
+
+
+WannaCry ransomware:
+ . exploited a vulnerability in older Windows systems
+ . xxx,xxx of machines across the globe got infected
+ . that included medical services in England
+
+_

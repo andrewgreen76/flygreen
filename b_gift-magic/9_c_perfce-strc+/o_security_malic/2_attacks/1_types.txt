@@ -3,11 +3,7 @@
 TYPES OF ATTACKS
 ===================================================================================
 
-Malware:
- . obtaining sensitive info
- . changing things
- . deleting things
- . virus, worm, adware, spyware, trojan, rootkit, backdoor, botnet, etc.
+Malware: obtaining, changing, deleting things
 
 
 Virus:
@@ -26,10 +22,7 @@ Worm:
 Adware:
  . displays ads
  . collects data
-
-
-Trojan:
- . malicious executable disguised as legitimate software that you would agree to download/install
+ . installed with or without your consent
 
 
 Spyware:
@@ -38,6 +31,8 @@ Spyware:
  . e.g., keylogger: logs your every keypress, exposing even private, sensitive, or security-related data
 
 
-Ransomware: 
+Trojan: malicious executable DISGUISED as legitimate software that you would agree to download/install
+Ransomware: HOLDS YOUR DATA OR SYSTEM HOSTAGE until a ransom is paid
+Botnet: interconnected devices running bots
 
 _

@@ -1,0 +1,35 @@
+
+===================================================================================
+MALWARE DETECTION, EXAMINATION, AND REMOVAL
+===================================================================================
+
+If you have a reason to believe that a computer may be infected, gather info from the user.
+ |
+ . date the symptoms
+ . date and examine the download history
+ |
+ . check for the symptoms
+ |  . it's slow
+ |    <= takes up too much memory
+ |    <= any other reason
+ |  . restarts on its own
+ |
+ . use the machine's resource manager to monitor the processes
+    . observe processes with any funny names, inquire the user about the program
+    . observe memory usage
+
+
+If you have a reason to believe that it is now a part of a botnet:
+ . quarantine it ASAP
+    . disconnect the device from WiFi
+    . unplug the Ethernet cable
+    . disable automatic backup - seeing that the device can get infected again if the malware is backed up
+ . do an offline malware scan
+ . reconnect for a moment, see whether the anti-malware software / threat definition files updated automatically
+ . finish the scan
+ . confirm that there are no more issues
+ . re-enable automatic machine backup
+ . create a safe restore point
+ . educate the user on safe practices
+
+_

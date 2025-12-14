@@ -8,6 +8,10 @@ BASICS
  . having a product to sell or a service to provide
 
  . business plan
+    . customer acquisition strategy
+    . financials
+    . DCF valuation
+    . cap table
  . knowledge of your market
  . legal compliance
  . effective marketing skills

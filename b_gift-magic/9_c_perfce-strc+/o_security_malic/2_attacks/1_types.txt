@@ -22,4 +22,22 @@ Worm:
  . a lot like a virus
  + spreads through networks, not just through attachments
 
+
+Adware:
+ . displays ads
+ . collects data
+
+
+Trojan:
+ . malicious executable disguised as legitimate software that you would agree to download/install
+
+
+Spyware:
+ . allows someone to read your I/O operations
+ . transferring the data elsewhere
+ . e.g., keylogger: logs your every keypress, exposing even private, sensitive, or security-related data
+
+
+Ransomware: 
+
 _

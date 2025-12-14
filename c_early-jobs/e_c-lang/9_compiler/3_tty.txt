@@ -1,0 +1,6 @@
+"
+Character deletion on teletype devices became possible in the mid-1960s with the introduction of ASCII’s DEL (0x7F)
+  and machines like the Teletype Model 33 (circa 1963), which supported a “rubout” mechanism rather than true
+  on-screen editing.
+"
+_

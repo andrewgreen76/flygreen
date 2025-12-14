@@ -15,7 +15,6 @@ Starting point. Choose your destiny:
  . {cc, as, ld}
  * in {C, ASM}
  * {with abstractions, without abstractions}
- . what 
  |
  . in ASM with abstractions
  . in ASM without abstractions
@@ -25,7 +24,8 @@ Starting point. Choose your destiny:
 
 The roadmap itself:
  . syntax and semantics analysis (unused variables, etc.)
- . optimization
+ . compile-time optimization
+ . low-level optimizations (such as instruction relaxation)
  .
  .
  .

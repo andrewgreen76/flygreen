@@ -9,7 +9,7 @@ LAYERS IN THE BINARY COMPUTING STACK :
  . operating system
  . runtime environment
  . libraries
- . application software."
+ . application software
 
 
 ===================================================================================

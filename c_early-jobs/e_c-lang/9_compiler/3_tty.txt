@@ -1,6 +1,33 @@
+
+TTY implementation roadmap:
+ . target a system/architecture
+ . for STM32
+ . for BIOS (int 16h for registering keystrokes, int 10h for text output)
+
+
 "
 Character deletion on teletype devices became possible in the mid-1960s with the introduction of ASCII’s DEL (0x7F)
   and machines like the Teletype Model 33 (circa 1963), which supported a “rubout” mechanism rather than true
   on-screen editing.
+"
+
+
+"
+Yes—the PC BIOS historically assumes teletype-style text I/O (via simple character-based console services like INT 10h/INT 16h) rather than a full terminal abstraction.
+"
+
+
+"
+A full terminal abstraction is a software-defined interface that models a display and input device with standardized capabilities (cursor control, screen buffering, colors, key events, escape sequences) independent of the underlying hardware.
+"
+
+
+"
+At the BIOS level, TTY-style text I/O is implemented by firmware routines that synchronously read keystrokes and write characters to a text-mode video buffer via fixed interrupts (e.g., INT 16h for keyboard and INT 10h teletype output) with minimal state and no terminal semantics.
+"
+
+
+"
+Terminal semantics are the defined rules and behaviors governing how text output and input are interpreted—such as cursor movement, line wrapping, scrolling, control characters, and escape sequences—beyond simply printing characters.
 "
 _

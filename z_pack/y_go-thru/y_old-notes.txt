@@ -1,0 +1,1565 @@
+
+===================================================================================
+
+Device independence.
+
+build an RC circuit
+Coursera
+Actalent jobs
+build a watchdog timer
+
+random logic
+
+ . I can write a display driver for your CPU/MCU
+ . I can design an ASIC for the display
+
+Indeed - manual labor, front desk, min.wage jobs
+Experis IT Mangroup, FamSoft - IT
+LinkedIn - tech jobs
+Dice - emb, ...
+
+===================================================================================
+
+PCB	]    [	hobby
+	] }{ [
+IC	]    [ 	professionally
+
+FRU:
+ . "In a server, a FRU (Field Replaceable Unit) is a hardware component designed to be easily replaced on-site
+    without sending the entire system for repair."
+
+ILOM:
+ . "ILOM (Integrated Lights Out Manager) is a server management interface that allows administrators to monitor,
+    configure, and control the server remotely, even when it is powered off."
+
+
+Do not scream at anybody.
+Don't get confrontational.
+Don't get snide.
+Temper your energy.
+|
+=> Self-awareness is not a natural-born ability. It is not a habit because habits are hard things to break. It is a skill.
+|
+Never break the company policy. Don't try to bend the rules for anyone. 
+
+===================================================================================
+===================================================================================
+===================================================================================
+
+I could have HoMM on a handheld console.		# embedded engineering / PCB design
+... a handheld console with a simple design. 		# PCB design / embedded engineering 
+... with a simple microcontroller architecture. 	# IC design
+Or just a living firmware on a microcontroller. 	# 
+ . a vegetable blinker 	       				# embedded engineering
+Or firmware that can print text , emulating BIOS. 	# 
+ . a vegetable printer-to-display 	       		# embedded engineering
+Creative tension issue : how do I write my own BIOS ?
+ . do research on SeaBIOS
+ . arch > fw > arch2 > fw2 > ... > POST			# AS A CREATIVE THING WITHOUT PRESSURE. FOCUS ON THIS. 
+   . get enough ROM for POST and other test routines
+ . it may have to be BIOS tailored exclusively for
+     your machine's architecture
+ . need POST-specific hardware : 
+   . signal POST init
+   -> signal POST termok
+   -> power down 
+ . test in QEMU
+
+autocomplete models 
+
+"TCP/IP was conceived in the early 1970s, with its core design formalized by Vinton Cerf and Robert Kahn in 1973."
+
+lookup tables :
+ . symbols
+ . instructions
+ . ... 
+
+Google IT certs :
+ . do NOT require driving : tech support specialist , sysadmin , help desk tech , (@ Google/Amazon/Microsoft/Cisco) 
+ . REQUIRE DRIVING : field service tech , network tech 
+
+classic rock and pop music -> prog -> ambient -> folk -> post-hardcore -> classical music 
+
+Language for learning programming / control flow : assembly
+| . exploration 
+|
+Language for building things : Python
+  . creating something useful / impressive 
+
+ . "Blind spot" : job openings (I don't know whether your job board is up to date)
+ . "Blind spot" : I've applied for all the operator jobs (list them) ; Are there certain jobs that I have not listed because
+     I think I do not qualify for that you think I may be a good fit for regardless of my shortcomings - Is this
+     something that can be discussed over the phone or would have to be discussed during the interview. 
+ . Do you tend to look out more for applications that come through ADP , Indeed , or ZipRecruiter ? 
+ . Do you work with Randstad ?
+ . apprenticeships 
+ |
+ . How much time do I have ? 
+ . Were there any fires related to this job that people in this company had to put out in the recent days , weeks , months ?
+ | 
+ . If your intuition tells you that I am over-qualified / do not have enough experience for this job , is there a different position
+     that you would recommend ? 
+
+technician, assembler, manufacturing, operator, assembly, QC, quality 
+When you are on the engineering job market , being unemployed for months is a norm. 
+Why we can't have a single-transistor AND-gate. 
+
+Get a job doing something you won't like ? 
+
+ . multi-line support => DESIGN THE LANGUAGE WITH PEN AND PAPER 
+ . meta-cmd (e.g., exit ) 
+ . bin.exec -OR- a function in a conf.expa script (built from smaller scripting blocks) 
+ . fail
+
+ . there's no shortage of know-it-alls and assholes in the tech industry
+ . everybody loves their dogma
+ . every language has its place 
+
+What do you do ? What makes you a valuable member ? What makes you stand out ?
+ . [Bring thin-profile wallet-sized demos.] 
+ . I like to IMPRESS people with my efficiency. Knowing only the MOST USEFUL KEYBINDINGS is just the tip
+     of the iceberg. I like solving problems IN A VERY QUICK AND DIRTY WAY - ON MY MACHINE. I like
+     doing my research like it's on steroids , research about the issues on hand and figuring out through
+     trial-and-error what I cannot do before I formulate the most efficient plan of attack , typically with
+     the help of LLM's , Grok for accuracy and ChatGPT for concision. 
+    (a) I like writing cheap , yet fast and effective scripts but I know how to deploy all this with
+     extreme caution.
+    (b) I like building small yet powerful and versatile things , be that designing something in
+     a CAD tool or writing extremely lean and performant code that does exactly what I want it to do.
+    . I stress-test my creations by day and play with the assembly programming language by night. 
+ . I have a wealth of information on the distant and recent history of various kinds of attacks and how
+     these attacks can make an impact on a computer's resources , malicious code written in powerful-and-
+     -ergo-risky shell scripts , in the C programming language , and in JavaScript. These attacks typically
+     commit buffer overflow exploits.
+ . My engineering expertise matured to the point where I began to prioritize embedded systems - building my own
+     own devices and hacking into other devices to learn more about them. 
+ . strong command of mature tools for developing embedded systems for essential devices (such as medical
+     equipment , as my history shows) - tools that are hard to match in terms of efficiency , such as
+     the C programming language , in which I write robust , highly modular , and obfuscation-free code
+     that would make debugging and refactoring a painless experience
+ . I am also capable of quickly conducting R&D for acquring deep insight into the entire stack of any embedded
+     ecosystem from the bottom up.
+ . greater , more specific constructs (application domains) , what you get done
+
+What does it mean to be an engineer ?
+ . figuring out a solution - even when you don't know what the problem is , which means ***pain*** 
+ . reading other people's code 
+ . debugging
+ . choosing variables
+ . shaping inefficient algorithms to be efficient
+ . extensively documenting how to finish something 
+ |
+ . improvising inefficient algorithms
+
+Memory alignment. 
+-> make your own PCB (ferric chloride) 
+
+Build your own logic-processing hardware - modules of flip-flops / latches (incl. decoding logic) 
+ . clone AVR CPU : ALU + registers (+ caches) + CU (w/ interrupts ?) 
+ . clone AVR RAM : SRAM architecture as big cells
+ . clone AVR ROM : NOR flash architecture as big cells
+ . clone AVR str : NAND flash architecture as big cells 
+ . fab a keyboard encoder for programming binary output to the NOR flash 
+ . clone a key encoder model
+-> design the firmware in two parts : bootcode and NOR-flash programming utility 
+-> manually burn bootcode onto NOR flash
+-> a hardware-programming utility in place of an OS 
+-> Use an assembler to write the core subset of same-flavor assembly (cross-assembly). 
+Fortran compiler
+BASIC interpreter 
+
+(a) figure out the resistance values for the circuit 
+(b) write a linker using x86 assembly 
+
+hand soldering classes
+5-day
+$1740
+|
+carla@eptac.com:
+get empl
+company name
+phys address
+email/phone
+
+whse worker : 
+automation pkwy
+8-430
+345-1145
+$21/hr
+ft
+Adecco
+Temp-2-Hire
+Kits - electronic components 
+
+You are a real engineer if :
+ . you are better at programming/HDL languages than human languages
+ => you are better at connecting with technology than connecting with people 
+ . you are more fascinated by artificial intelligence than real , human intelligence
+
+Wall : 
+ + HoMM
+ + "Perfect" is the enemy of "great". 
+
+list of projects :
+ - soldered-up DIY radio 
+ - CPU board
+ - VGA board
+ - EEPROM programmers (manual and microcontroller-based)
+ - LCD programmer
+ - flashlight with a prototyping board 
+
+Relevant project : designing and prototyping a microcontroller that emulates PC hardware.
+ . modular keyboard
+
+You never stop networking : 
+
+					hardware		physical tech. notes 
+
+ . keyboard microcontroller logic 	ATmega328 
+ . screen display controller		.			IPS/TN LCD ; !!! driver-free !!! MIPI DSI port  
+ . CPU/SoC				BCM2711 board 
+ . (graphics handled by the CPU/SoC)
+ |
+ . (i/d)GPU board controller 
+
+
+ . modular screen 
+ . dumb MCU - that I can connect to a keyboard and a screen 
+ . smart MCU
+ . dumb CPU (one core) , other hardware
+ . smart CPU (multiple cores) , other hardware 
+
+
+List - Technical colleges , vocational schools , industry-specific career development centers :
+ |
+ . towns with opportunities :
+ |  . Santa Clara, CA
+ |    . De Anza
+ |    . SJSU 
+ |    . NVIDIA
+ |    .	Asus
+ |    . AMD
+ |    . Intel 
+ |  . AUSTIN, TX
+ |    . UT Austin 
+ |    . TX - UHouston
+ |    . AMD
+ |    . Flex, Ltd. 
+ |  . PHOENIX / Chandler, AZ
+ |    . ASU 
+ |    . AZ - Mesa CC
+ |    . AZ - Gateway CC - Phoenix, AZ
+ |    . Intel 
+ |  . MINNEAPOLIS, MN
+ |  . TUCSON, AZ
+ |  . RALEIGH, NC
+ |  . PORTLAND, OR 
+ |  . Detroit, MI
+ |  . Seattle, WA
+ |  . Boulder, CO
+ |  . Indianapolis, IN
+ |  . San Diego, CA
+ |    . CA - SD Miramar College 
+ |  . Grand Rapids, MI
+ |  . Champaign, IL
+ |  . IL - DuPage - Glen Ellyn
+ |  . SLT, UT
+ |  . Nashville, TN
+ |  . Cleveland, OH 
+
+ . trade/vocational schools :
+ |  . VA - North Virginia CC
+ |  . MA - Bunker Hill - Boston
+
+ |  . Atlanta, GA - GIT
+ |  . Cambridge, MA - MIT
+ |  . West Lafayette, IN - Purdue
+ |  . UC Berkeley
+ |  . Ann Arbor , MI - UM
+ |  . Clemson , SC 
+
+
+Tesla/TMCC MDP apprenticeship INTEREST FORM 
+
+Circuit diagrams :
+ . Logisim
+ 
+Schematic drawing / Gerber files / BOMs / etc. :
+ . Logisim (schematics only) 
+ . KiCAD (pro level) 
+ . Altium Designer (pro level) 
+ 
+Realistic circuit simulations (that account for physical properties of all components) :
+ . Proteus 8 Professional
+ . LTSpice
+ 
+--------------------------------------	
+What did Linus mean by RISC-V repeating the same mistakes ?
+ . What are these mistakes (in your opinion) ?
+ . How close to the foundational elements of computer architecture are these mistakes ?
+   Or are they to do with something higher , more sophisticated ? Or is it both ?  
+ . What improvements would you like to see in a better architecture ? 
+ . What other kinds of changes would you like to see ? 
+ . What would you like to see removed ? 
+--------------------------------------	
+may have to move dirs A, B, D to their own repos. 
+--------------------------------------	solid LED upon power-on 
+(UDEMY) circuit logic design 
+-> 3D + components circuit design 
+-> fab 
+|
+wall socket 
+floor for hardware scaling
+roadmaps and recipes
+
+Am I going to use it ? 
+
+own-utils/ownC
+|
+CHIP-8
+|
+ShitC : 
+ . built with no knowledge of how compilers work ;
+ . laziest effort put in a compiler ;
+ . stub implementations ;
+ . put together in a day 
+LazyC - put together in a few days ; pretends to be C ; faked functionality ; can only process some C code 
+DumbC - 1st attempt at something truly serious -> (in)complete compiler 
+
+
+linker.ld / bios.cfg 
+
+If you can't apply it , you can't appreciate it. If you can't appreciate it ,
+  you can't learn it. Then you are just guessing how to scribble correctly
+  while futzing around with numbers and funny characters. 
+
+
+==========================================================================
+HARDWARE STATES : 
+==========================================================================
+
+ i --> . ---> .
+ ^     |      |
+ |     v      v
+ . <- hlt <- instant
+     /wait   bus_ld
+
+
+==========================================================================
+CLEARER IDEAS : 
+==========================================================================
+
+instr : memsrc -> [macromap_ascii] -> ascii 
+ascii_populate 
+minasm2c ascii processor
+minC2C ascii processor 
+instr : vid/getcin -> buf -> [micromap_ascii] -> looks into the bits
+|
+atomic BIOS services / kernel driver services
+ . mapping req.vid.data -> video.buf 
+
+
+execpri : 
+
+ i -> . 
+ ^    |	
+ |    v	
+ . <- get_cmd (act2react) 
+
+
+==========================================================================
+control signals <- [decod_logic] <- instr <- [mov_instr] [mapper_IC] [mapper] [mapper] ...  
+==========================================================================
+
+learn an important useful function
+ . practice using it
+ . deploy it in a project
+ |
+ . SCI (execve , mmap , etc.)
+    . Unix-based syscalls 
+    . my syscalls 
+ . malloc , calloc , realloc , etc. 
+    . (g)libc functions 
+    . my (g)libc-based functions 
+
+==========================================================================
+I could just act like I know ISA interrupts and reg.vals for calls to
+  the kernel and not bother with assembly. 
+==========================================================================
+
+Do I want to fiddle with memory addresses or disk bytes ?
+ | 
+ . Memory :
+ |  . need kernel for that : malloc() -> mmap() ; (obsolete : memocore() , sbrk() ) 
+ |  . can't write to mem outside of a process - the kernel keeps track of
+ |     the FREE LIST - also a form of memory protection 
+ |  . mem.prot : can't access DS , BSS , SS , heap 
+ |  > malloc() -> How does malloc() populate memory ?
+ |  . treat mem like disk ; birth/death ~ populate/release <- a program that does that <- analyze malloc() 
+ |
+ . Disk - a byte with no role (no ties to inodes)
+    $ sudo dd if=./[..].bin of=/dev/sd[?]
+
+--------------------------------------------------------------------------
+own alt. to WozMon (256 bytes) 
+own alt. to QEMU
+own alt. to SeaBIOS / Coreboot 
+own executor :
+ . execution of binaries - kernel's module/driver
+ . system calls : exec() family 
+ . look into their implementation 
+own loader (kernel's memory manager module ? ) 
+ . system calls : 
+ . look into their implementation 
+> own linker
+ . system calls : 
+ . look into their implementation
+> own Binutils 
+> own assembler
+ . x86 vs. ARM (Cortex-M) 
+ . extern [..]
+ . look into their implementation
+ . minimal [...] + self-hosting + C-hosting
+ . own ISA with own binary interrupts and reg.vals for calls to the kernel 
+> murmC (minimal assembly + self-hosting)
+  . own <unistd.h> and <fcntl.h>
+  . own <stdio.h>
+  . own clone of GCC
+  . own clone of glibc
+  . impl murmC in C
+  . impl murmC in x86-asm 
+  . minimal assembly + self-hosting + C-hosting
+--------------------------------------------------------------------------
+
+ . combining modules (preprocessor?)
+ . resolving symbol addresses 
+ . I understand how languages are abstracted ; now I want to know how programs are structured. 
+ . just enough assembly 
+ . ld on GitHub
+ . dd, memset, etc. to write a byte to memory / disk. 
+ . Write a linker in C. 
+ . Everything is written in C. Write a C compiler in [...] that can talk to C functions and assembly routines. 
+
+What is wrong with Intel :
+ . the A20 line hack that led to compatibility nightmare 
+
+Real mode : we can access the BIOS
+|
+Protected mode : 
+we can no longer access the BIOS
+if we try to , really bad things will happen
+no longer able to do disk I/O in CHS way
+ . will have to write a disk driver
+
+VanFOS - vanilla , free , open-source BIOS 
+
+HDD ARM ACTUATOR ~ EMBEDDED SYSTEMS / ROBOTICS 
+
+TTM Tech :
+ . San Jose
+ . Santa Ana 
+ . Denver
+ . Forest Grove , OR 
+ . Chippewa Falls , WI
+ . STAFFORD SPRINGS , CT
+ . Sterling , VA 
+|
+knowl/underst. of MICRO SECTIONS 
+
+// f00f 
+https://www.youtube.com/watch?v=YDKBVk2T9fI
+
+ (a) stick with pro-terminology (misc. terms) -or-
+ (b) break up that dir into DS , algs , etc.
+
+igbati - 32-bit MASM 
+C compiler
+
+Early computers and modern servers : 
+ . motherboard :
+    . directly connects the CPU , the RAM , the storage , etc. 
+ . backplane : 
+    . connects the motherboard to boards/modules 
+
+=================================================================================================
+
+UCSD :
+- contact : 858-534-3400 -or- concurrent@ucsd.edu
+  - didn't get a response regarding raising my GPA
+  - didn't get an auto-generated email with my AX number. 
+- conc. (all links on
+  https://extendedstudies.ucsd.edu/student-resources/registration-policies-and-procedures/concurrent-enrollment
+  ) :
+  - classes Fall 2024: 9/25
+  - eligibility app
+  - get the AX acct #. 
+  - EASy requests : avail on 9/25 wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+  - academic integrity tutorial
+  - upload vaccine info
+  - pay for the course 
+  - enroll by : 10/13
+	- reg. checklist (M.S. starting Fall 2024) 
+	  - NEED A GPA OF AT LEAST 3.0. 
+	  - deadline : 9/6/23 - 12/20/23
+- contact : cse-gradinfo-bsms@ucsd.edu
+
+=================================================================================================
+
+(ELF) object file breakdown in these scenarios : 
+ . do-nothing in asm 
+ -> write 'a' vs. 'b' to spot them in the object files 
+ -> write a C program with d (0x64) in the data segment , b (0x62) in BSS , s (0x73) in the stack , h (0x68) in the heap 
+
+7etsuo , C , lecture : https://x.com/i/status/1819592399255183414
+symbolic debugging
+A small C program that tells you the endianness.
+What if I won't find any use for 'static' , 'volatile' , 'union' , 'extern' , or 'register' in my code ?
+C with GTK
+asm -> k-dev
+DS
+hist of syntax hilite 
+
+Ctrl+q+Ctrl+[key] to print (non-)printable ASCII bytes to a file. 
+
+
+===========================================================================================
+
+ . make a difference :
+   . being a part of a project
+     . learned everything -> identified problems and solutions 
+     . hardware/firmware/kernel : performant and robust systems in the hands of customers 
+     . software : Nebular : tool for taking notes with scopes (for exploring concepts) 
+     |
+     . game development 
+     . educational course / videos / tutorials and exercises 
+       . Logisim
+       . writing a compiler/interpreter for a language
+       	 . gamedev-oriented
+	 . meant for mistakes like counting from 1 instead of 0 
+   . doing what you love doing :
+     . VLSI (job market)       - ?
+     . uctrlr (I/O) (market)   - ?
+     . dev.driv.engr (market)  - ?
+     . CPU arch. (market)      - ?
+     . ctrl ucode (market)     - ?
+     . firmware routs (market) - ?
+     . RAM arch. (market)      - ?
+     . kernel dev. (market)    - ?
+
+===========================================================================================
+
+I chose [this university] because it does not believe in the principle of "one size fits all" when it comes to educating students. The fact is that not all students are equally sharp or intuitive in the ways of hardware and software engineering. 
+
+I chose [this university] because it has a program that is just right for me - Computer Architecture. Over the past few years I have been obsessing with the x86 architecture in its early iterations, but after looking at the 2,500-page manual for the x86-64 ISA and listening to Jim Keller, President and CEO of the semiconductor manufacturer Tenstorrent, talking about the "bloatware" in the ISA, I figured that perhaps it would be best if I switched to RISC-V, considering its strengths like being an open-standard architecture, its simplicity, and its educational appeal. That being said, I am not done with the x86 assembly courses on Udemy and I like to finish what I start. 
+
+===========================================================================================
+
+How I spent these 12 months :
+
+ . ........................................................................................
+ 
+ ->  8/1  ->	... Nand2Tetris (arch + fake asm + fake Py)	+ .5 months
+ ->  8/15 ->	radio + jobs + resume + intro to career dev.	+ nil 
+ -> 	  -> 	Emacs mail : eLisp , notmuch (not interested)	+ .5 mths 
+ ->  9/1  ->	CPU / (osc / EEPROM-prog) + jobs + schools 	+ 2 months 
+ -> 11/1  ->	GRE : studying for GRE				+ 1 month 
+ -> 12/1  ->	online : Dartm : C + Unix / jobs / UNR 		+ .5 months
+ -> 12/15 ->	Pat : sched + virt + mmgmt (segm + pg) + VAX	+ 1 month 
+ 
+ ->  1/15 -> 	Tesla empl + UNR stud + handshake + UNR jobs 	+ .5 months
+ ->  2/1  ->	Pat : Ushl + make + segm + pg + perst 		+ 1 month
+ ->  3/1  -> 	VGA + LCD (CG) + RaspPI/btlds + apply to colls 	+ .5 months
+ ->  3/15 ->	btld + woz/vicmon + BIOS/POST+resv + CU Boul	+ .5 months
+ ->  4/1  ->	memory mapping (ROM + RAM) + boot/shtdn seq.	+ .5 months 
+ ->  4/15 ->	CU Boulder to-do's 				+ .5 months 
+ ->  5/1  -> 	Intel : history, MCS8, uprcrs, x86, regs, semic	+ .5 months
+ ->  5/15 ->	early asm's + interrupts + prefixes + a-modes	+ 1 month 
+ ->  6/15 ->	history of computing : 1938-1965 + loans 	+ 1 month
+ ->  7/1  -> 	history of computing : 1938-1965
+ ->  7/15 ->	des.doc. : custom firmware / CPU / comp 	+ 
+
+===========================================================================================
+
+ . what is linking 
+
+ . map out the timeline for concepts from :
+   . (applicable => accessible) 
+   ===============================================================================================
+   PRACTICAL / ANALYTICAL : 
+   ===============================================================================================
+   . programming languages : 
+     . C : K&R , ??? (structs , union , malloc , macros , compiler , optimization , goto , vulns , typedef)
+       . funcs : memcpy , printf , puts
+     . C++ : AEIP , templates , types of polymorphism , etc. 
+     . data structures :
+     . typing systems : 
+   ===============================================================================================
+   ANALYTICAL : 
+   ===============================================================================================
+   . analysis of algorithms (Big ? , proof by induction , searching , sorting , quicksort , mergesort) 
+   . discrete mathematics (logic , graph theory) 
+   . automata theory : NP-hard , NP-complete
+
+@ De Anza / UW / UMN / GATech :
+ |
+ . Find program advisors at these institutions 
+ |
+ . Research on :
+   . pathways (wafer / semic. des/manuf.) 
+   . If I have BS in CSE , how do we know that I'm fit enough to do MS in EE ? 
+   . I want to change my major from CSE to EE 
+   . exploratory programs 
+   . Any workshops for finding work ?
+   . Any career training programs ? 
+   . Any internships / co-ops ?
+   . When to start applying for Fall 2025 
+
+
+A year off :
+ . one year of earning to kill CC debt
+ . time to explore prerequisites :
+   . BB equivalents of early computers : ENIAC , SSEM , etc. 
+   . VLSI design ; semic.    	       	       	      
+     . Logisim 
+   . CPU/GPU architectures			      
+   . assemblers
+     . optimal / regular assemblers
+     . macro assemblers 
+   . compilers / higher-level programming (C / C++)
+     . goto statements 
+     . macros
+     . pragmas 
+     . typing systems 
+     . templates
+   . linkers , debuggers 
+   -> data structures				      
+   -> algorithms (analysis)			      
+   -> file systems 				      
+   -> operating systems
+      . parallel programming
+      . distributed computing 
+   -> discrete mathematics			      
+      . set theory
+      . functions
+      . relations
+      . natural language argument 
+      . logic (propositional , natural deduction , etc.) 
+      . elements of mathematical reasoning 
+|
+v
+
+Terms to cover :
+ . theory of computation -
+ . formal math. argument - 
+ . rigorous math. argument -
+ . computational complexity theory -
+ . decision problem -
+ . polynomial time - 
+ . formal method -
+ . model checking - 
+ . automated reasoning -
+ . verification -
+ . module -
+ . regression - 
+ . unit test -
+ . formal verification -
+ . synthesis -
+ . program synthesis -
+ . reactive systems - 
+ . automata - 
+ . protocol verification -
+
+-------------------------------
+
+Topics \ Time :			1945		1950		1960		1970
+
+Computer      			Start.ref:
+				ENIAC 
+
+HW Tech (PCB,semic,disks)
+computer arch
+	 /design (compts,mechs) 
+mons / OS 
+
+-------------------------------
+
+ . cont. ed  - yes credits , no loans 
+ . MS in CS on Coursera (Crystal) 
+ . face-to-face , job opportunities - more of a chance
+ + internships
+ + fixed times
+ . fed. loans - applicable 
+
+-------------------------------
+
+-------------------------------
+
+4) scholarship amounts :
+ . newstu-famprog : $3,750
+ . (not eligible) gen app : $6,000
+
+-------------------------------
+
+semic/PCB , machine code 
+what are pages 
+why is memory organized as pages
+what are segments  
+why is memory organized as segments 
+(1) memory protection by i286 vs. (2) memory protection per paging and segm. 
+locking hardware support
+stack frame (during function calls)
+base pointer
+stack pointer
+segment registers
+OSINT = Inet
+phishing
+spear-phishing 
+
+PDFs :
+ . Whirlwind: The History of a Pioneer Computer
+ . A History of Computing in the Twentieth Century 
+
+COA : 	     BEST-CASE SCENARIO						WORST-CASE SCENARIO 
+ . COL :	month		year					month	   year
+   . CC cover  - $1334		$16,000 				-	   $16,000
+   .
+   .
+   .
+ . est. COA   - $5,500		$66,000		amt to loan		$5,500	   $58k
+										   $62k
+										   $67k
+						 		   		   $69k
+										   $85k
+										   
+------------------------------------------------------------------------------------------------------
+
+Openings : 
+ . https://boulder.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&sort_column=default&job.job_types%5B%5D=6&query=college%20of%20engineering%20%26%20applied%20science
+
+@ OCHNR :
+ . recommendations on how to go about housing for an transfer/out-of-state grad student who is not currently employed
+   . I could find work in NV quickly , but it's not efficient
+   . leasing companies/managers 
+   . in-office lawayer
+   . negotiation
+   . more in security deposit
+   . offer what you have in bank account 
+   . find temporary lease-free solutions on Craigslist 
+ . handshake / family trip
+   . undergrads only , apply anyway
+   . flexible 
+
+@ College Ave
+@ Sallie Mae : 
+ . What happens if I don't spend it all?
+ . student acct to determine actual expense/cost
+ . CU will decide the actual amt 
+
+ . information on lodging , the Tuition Classification department within the Office of the Registrar
+   . phone number : 303-492-0907
+   . email : universityhousing@colorado.edu
+   . email : tuitclass@colorado.edu
+   . mention you already have a BS in CSE (yet PES -> CEAS)  
+
+check out rental places 
+ . 720-414-1446 / https://ralphieslist.colorado.edu/housing/property/steps-from-campus-university-village-at-boulder-creek/ocp69nl42t
+ . (720) 897-0025 / https://ralphieslist.colorado.edu/housing/property/777-broadway/ocp5whtq8n
+ . (719) 377-0148 / https://ralphieslist.colorado.edu/housing/property/3050-madison-ave-apt-5/ocpn6w6r2m
+
+ . lodging 
+ -> find work thru CU Boulder resources 
+ -> proof of income
+ -> residence
+
+===============================================================
+Mission (Dolores) 
+Glorious Spring 
+===============================================================
+ . OS :
+---------------------------------------------------------------
+   -> ECEN 1310 (C Programming for ECE) /
+      	   	   	       	   	/ CSCI 1300 (Introduction to Computer Science) 
+---------------------------------------------------------------
+   -> CSCI/CSPB 2270	- Computer Science II / Data Structures 
+    + CSCI/CSPB 2824 	- Discrete Structures
+    + CSPB 2400  	- Computer Systems
+    + CSCI/CSPB 3308 	- Software Development Methods and Tools     
+   -> CSPB 3753    	- Design and Analysis of Operating Systems
+===============================================================
+ . ARC :
+---------------------------------------------------------------
+   -> ECEN 1310 / CSCI 1300  
+---------------------------------------------------------------
+   -> ECEN 2350			- Digital Logic 
+   -> ECEN 3350 / CSCI 2400 	- Programming Digital Systems 
+   -> ECEN 3593 / ECEN 5090 	- Computer Organization 
+   -> grad student     		x 
+   -> ECEN 5593			- Advanced Computer Architecture
+===============================================================
+ . VLSI :
+---------------------------------------------------------------
+   -> ECEN 1310 / CSCI 1300 / APPM 1350 + APPM 1360 
+---------------------------------------------------------------
+   -> CSCI 2824			- Discrete Structures 
+   -> grad student 		x 
+   -> ECEN 5139 and CSCI 5454	- CAD 
+   -> ECEN 6139     	 	- Logic Synthesis of VLSI Systems
+===============================================================
+
+
+index register
+nested interrupt
+multiple sequence in context of interrupts
+data science
+data engineering 
+
+
+Computer graphics 
+Compilers
+Engineering education 
+
+
+bad credits
+C's
+GPA
+no LoRecs
+C , debugger , memory management 
+--------------
+
+first hardware interrupts - 1103a 
+first software interrupts
+exception handling
+overflow trap
+ . trap => abort execution 
+evolution : components 
+How does assembly work ? 
+hw ; --logisim-- ; --cust emu-- :
+ . gfx ctrlr built into the screen
+ . gfx ctrlr/GPU built onto a board ? 
+What happens to the hardware of the host machine when it runs an assembly program?
+Finding something addictive :
+ . exercises 
+   . modes :
+     (1) (How do we know which mode it is based on the instr ? )
+     (2) (How is the mode supported using instr bit fields ? ) 
+     . immediate  : operand is within the instruction
+     . register	  : dest_reg <- src_reg (both specd in instr)
+     . implicit	  : standalone ; 
+   ? Turing Machine (Turing-complete) ? 
+   . GAS (over NASM)
+ . below assembly :
+   . forget about mnemonics ; think only in binary/hex
+   . LED(mem)mon 
+   . cpu/mem <-> keyscan+scrout (scan2scr interp)
+   . ints : anykey 
+ . DEC PDP -style transparency 
+ . exercises : instructions in different modes
+ ? early assembly ? 
+ ? 8008 assembly ? 
+
+5/20 - transfer student registration
+
+==========================================================================================================================================================
+UEACAdvising@colorado.edu : 
+ . best time for an enrollment window
+ . group advising session ?
+ . ? Local - Where will you be physically located while accessing CU classes/course content this semester ? 
+-> (ONCE) enrollment window 
+
+==========================================================================================================================================================
+PREP FOR ADVISOR : PES/IUT 
+==========================================================================================================================================================
+ . parallel major plan :
+   . PES -> PMP/MS in CE (high-speed digital design sub-plan) 
+   . PES -> BS in EE 
+   . PES -> BS in ME
+  (1) College of Arts & Sciences IUT Requirements
+  (2) Leeds School of Business IUT Requirements
+  (4) College of Media, Communication & Information (CMCI) IUT Requirements
+  (5) Program in Environmental Design (ENVD) IUT Requirements
+  (6) College of Music IUT Requirements
+  (7) School of Education IUT requirements  
+
+==========================================================================================================================================================
+(3) COLLEGE OF ENGINEERING AND APPLIED SCIENCE IUT REQUIREMENTS :
+1ST SEMESTER SCHEDULE (TENTATIVE) - ~17 CREDITS :
+==========================================================================================================================================================
+ FYXP 3000 (1) - [first-year] First-year exploration 
+ ? APPM 1350 (4) - Calc I
+ ECEN 1100 (1) - Exploring ECE
+ ECEN 1400 (3) - Introduction to Digital and Analog Electronics
+ ? PHYS 1110 (4) - General Physics 1 
+ COEN 1830 (1) - [first-year] Special Topics (First-Year Engineering Seminar)
+ ENES 1010 (3) - [first-year] Humanities & Social Sciences Elective		| 9 credits total 
+------------------------------------------------------------------------
+ ECEN 1310 (4) - C Programming for ECE						| 13 credits total
+ ECEN 2260 (3) - Circuits As Systems						| 16 credits total  
+ PHYS 1140 (1) - Experimental Physics
+------------------------------------------------------------------------
+ (1x) FYXP 3000 (1 credit) - you will be pre-enrolled for this course
+ (1+) Major and Intra-University Transfer (IUT) courses
+ (1+) (total : 18 crs)
+  . Arts and humanities (gen. ed.) : music -> history -> classics -> English  
+  . Social sciences : sociology -> geography -> political science 	   
+ (1x) electives (total : 7 crs) 
+
+(103 crs:)
+Math (two courses): TAKE PLACEMENT ASSESSMENTS 
+    APPM 1350 (or MATH 1300 or APPM 1340+1345) - Calc I
+    APPM 1360 (or MATH 2300)   	    	       - Calc II
+    If you have prior transfer/AP/IB credit for the courses above (and you are not repeating them via a CU Boulder enrollment), the following courses are approved alternates for the math requirement:
+    For students intending to declare COMPUTER SCIENCE or CREATIVE TECHNOLOGY AND DESIGN:
+	CSCI 2820 (or MATH 2130)      	       - Lin. Algebra
+	CSCI 2824 (or MATH 2001)	       - Discrete Structures 
+    For all other majors:
+	APPM 2350 (or MATH 2400)	       - Calc III 
+	APPM 2360 (or MATH 2130 & MATH 3430)   - DFQ w/ Lin. Algebra
+|
+Science (one of the following courses):
+    PHYS 1110 (or PHYS 1115)	       	       - Gen. Physics I 
+    CHEM 1113*	       			       - Gen. Chem. I 
+    CSCI 1300**				       - Intro to CS 
+
+==========================================================================================================================================================
+QUESTIONS FOR THE ADVISOR :
+==========================================================================================================================================================
+ (1) PES is 1 year -or- 2 years (four semesters)
+ (2) IUT 2nd-sem courses before CEAS 
+==========================================================================================================================================================
+AFTERWARDS :
+==========================================================================================================================================================
+
+-> placement assts/exams 
+-> PES advisor] + [Buff Portal : New Student Welcome card : orientation , ...
+   . best time to apply for loans (considering the timing of computing the COA and COL) 
+-> select classes
+-> enroll in classes (get their syllabus , learn the material ahead of time)
+   @ BuffPortal 
+-> PES registration 
+-> Anthem Gold SHIP
+-> HealtyBuffs Check-in 
+|
+paying the deposit at OCM / Bursar's Office
+6/5 , 7/9 , 7/24 : Buff2Buff virtual meetup (summer experience)
+8/19 - Fall Welcome events 
+8/22 - transfer student orientation
+8/26 - classes begin 
+
+==========================================================================================================================================================
+==========================================================================================================================================================
+==========================================================================================================================================================
+
+int , rdy 
+
+==========================================================================================================================================================
+
+learn about storage technology :
+ |
+ . history of flash (NAND , NOR , SPI , ?USB? )
+ | + organization (blocks / sectors)
+ | + how to store/write files
+ |   . anatomy of a file on the physical level 
+ |
+ . ROM is too small for a kernel/etc.
+
+===========================================================================================
+===========================================================================================
+===========================================================================================
+
+storage support -> files -> programs (sh+interp , kernel , debugger , etc.) -> OS (on a storage disk/partition) 
+		   	    	     BIOS , BDOS , CCP 
+		   	    	     eash / EaC (easmC) / easm (c.h.asm) (ulang) 
+				     Bash / C     / x86 asm 
+first computer to work with a storage device  
+first device to support an operating system 
+first CPU to support an operating system (vertical studies : CPU + OS)
+ . storage at the time
+rtos
+
+the need for memory segmentation 
+address = segment + offset
+index registers in 8008
+mem protection and addressing in 8088
+
+FBPLID (Fixed Basic Pipeline for Linear Incremental Development of a CPU). 
+The open-source Google Maps of VLSI design (down to micro- and nano-). 
+A game for making games
+pictures : of dies 
+no MMU in 8088 
+von Neumann vs. load-store 
+mpu
+mmu
+load / store unit
+superscalar : multiple ALUs ? 
+refresh counter 
+NP-hard , Turing complete , NP-complete 
+changes / graduations from MPU to MPU 
+learn to use a debugger (with breakpoints) 
+numa / sub-numa / SNC - in UEFI too ? 
+what is the first thing a CPU microarchitect does 
+can a processor have multiples ALU's / sets of general-purpose registers 
+POST/BIOS
+EEPROM programmer (pro-grade tool/utility) 
+own loader - "What is a loader?"
+linker
+assembler
+compiler
+pre-processor
+
+later : industry certs : CUD/UCD from UEFI forum ; CBP
+UEFI : 
+ . PEI in POST ? 
+ . DXE in POST ?
+tiano
+PI (platform init)
+read init-dets.txt
+branch prediction
+BASIC : source listings 
+
+CPUs 
+memory - Micron 
+storage - Seagate
+storage - Western Digital 
+peripherals - ??? 
+
+in eu
+in biu
+
+Incremental development
+ - history of x86 MPUs. 
+Curriculum plan for CU Boulder. 
+main args in the kernel-space 
+
+=======================================================================================
+
+CS grad : PMP subplan : 
+ . a 5XXX class
+ 
+EE undergrad : PMP subplan : high-speed digital design
+
+=======================================================================================
+
+Total cost = $90k/yr
+|
+COA = $65k/yr
+|
+COLiving = $25k/yr 
+ . residence : $20,400/yr (not $17k/yr)
+ . food : $4,000/yr
+
+Bursar's office 
+
+=======================================================================================
+=======================================================================================
+=======================================================================================
+
+general-purpose , recent , educational , fun 
+profile the LCD pipeline 
+STM32 board -> firmware for printing characters 
+
+QFP/SOIC programmer 
+
+programming     | data structures       |
+ - type safety -> polym , encap , etc. -> math of cs -> autom -> alg anls 
+
+
+
+FFS to AFS : real-world applications (then and now) , history of evolutions , etc. 
+
+Altium (PCB engineering)
+AMI (American Megatrends , AtMega) 
+Insyde Software 
+Phoenix Technologies 
+odd gigs 
+Apprenticeship 
+Warranty technician
+ . PC warranty repair technician 
+Hardware technician
+Tech support specialist 
+CompTIA A+ (CTIA website , Coursera) - expensive , exp. recommended 
+Computer technician :
+ . certs :
+    . CompTIA A+
+    . CompTIA Security+
+    . Network+
+    . A+
+    . Cisco - networking 
+    . Microsoft
+    . Google
+ . networking protocols 
+ . AutoCAD 
+ . DoDD 8570.01-M IAT II or higher
+ . clearances :
+    . DOE Q (Top Secret)
+    . TS/SCI
+ . VMWare 
+ |   
+ ? SAP ? 
+
+IBM 5100 : https://www.google.com/search?channel=fs&client=ubuntu-sn&q=ibm+5100
+interrupts 
+VEKATECH VK-RZ/G2LC board
+aarch64
+
+Diagnostics and fixing : computers , graphics cards.
+ - computer repair technician
+ - hardware repair technician
+ - GPU technician 
+
+ . check out the curricula (for theories , proofs , algorithms) 
+
+
+education				+	work		
+|						|
+|						PT GC oper
+. PT/FLEX / PROTRACTED FOR YEARS 
+. only BSEE + internships (no AS)    
+. vocational schools
+. trade schools
+. no more addl online classes 
+. applied science/math if possible 
+|
+|
+. on-campus :
+   |
+   + fin.aid / sch-ps
+   + housing
+   + connections (recommendations) 
+   ?+ internships
+   |
+   - prison feel 
+|
+|
+. online degree :
+   |
+   + no prison feel
+   |       + more time to self
+   |       + no travelling
+   |          + saving time
+   |          + - car - gas - insurance
+   |
+   - no fin.aid / sch-ps 
+   - no direct communication about internships 
+           - no dir.com for letters of recommendation 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+comfort
+|
+LA / Santa Monica - UCLA 
+Chicago - NWU 
+Seattle - UW 
+|
+Colorado - CU Boulder 
+
+===================================================================================================
+
+#define  _GNU_SOURCE
+#define  _POSIX_C_SOURCE 200809L
+
+
+pwd vs. realpath 
+
+) sorting : bubble sort , selection sort
+) searching : linear , bisection , 
+) Fibonacci recursion - what they are really looking for :
+  - GIVEN index, PROVIDE number 
+) resize : NN, bilinear resize, bicubic interpolation,
+) red-black trees, k-d trees, BSP tree, graphs (edges, nodes), 
+) Dijkstra's algorithm, 
+- what they look like , how they work 
+- usefulness of each 
+|
+CPU projects
+Embedded systems projects
+- AutoCAD projects
+Semiconductor companies in Midwest/Illinois
+
+declarative languages 
+
+
+
+Linux Device Drivers Engineer
+
+https://www.google.com/about/careers/applications/jobs/results/134832270071472838-junior-software-engineer/?src=Online/Job%20Board/CakeResume&utm_source=Online&utm_medium=Job%20Board&utm_campaign=CakeResume
+|
+https://www.google.com/about/careers/applications/jobs/results/99476672668934854-kernel-technical-lead-manager-pixel-core-platform?src=Online/Job+Board/CakeResume&utm_source=Online&utm_medium=Job+Board&utm_campaign=CakeResume
+|
+https://www.linkedin.com/learning/introduction-to-career-skills-in-software-development/explore-version-control-systems?autoSkip=true&resume=false
+paper calendar 
+
+---------------------------------------------------------------------------
+MAKE A DIFFERENCE EVERY DAY. 
+- 9/12/23 :
+
+Write that bootloader in ??? assembly :
+- 512 bytes , ending with 0x55 0xAA , loaded in at 0x7C00
+1) jmp ; times
+2) in C/asm 
+
+===========================================================================
+===========================================================================
+===========================================================================
+Foundations of networking :
+- aside from CCN (TCP/IP sockets in Java) 
+===========================================================================
+       	  	 system administration
+     	       	 operating systems engineering 
+     	       	 embedded systems engineering
+===========================================================================
+    - RESEARCH THE COMPANIES 
+
+> immunization and records :
+  - update COVID records
+  - send to UNR admissions and records 
+  - URL : https://izrecord.nv.gov/public/Application/PublicPortal
+  - call 775-684-5954 or email izit@health.nv.gov
+  - NNPH locations : https://www.nnph.org/about-us/clinic-and-office-locations.php
+
+=================================================================================================
+
+. Difference : a part of an OS
+  . boot sector in .asm
+. explore /dev/* (/zero, /null, etc.)
+
+- an emulator (VM) 
+- learn BIOS-kernel-API/DSP-distro ladder for that 
+- An API / display server protocol for a 13h-like mode portable to any server-like system.
+
+Suppose I want to write a very dumb bootloader. I know that to do that an assembly file needs to be written and converted to binary. The first 512 bytes would be the boot sector (with the last two bytes being 0x55 0xAA). 
+
+=================================================================================================
+
+UTA :
+- (512) 471-3434
+
+
+Edu.track to internships the coming fall/spring :
+ - internship fairs : https://www.unr.edu/career/students/career-fairs
+ - academic advice AND do research on transfer of credits 
+ - ONLINE Master's Degree options for INTERNSHIPS 
+ - On-site -required INTERNSHIPS :
+   - UCLA internships : 	 $12k 11% 92% 
+   - UC Irvine internships : 	 $9k  29% 84%
+   - UCSD internships :    	 $15k 34% 87%
+   - ASU internships :
+   - Stanford internships :
+   - UC Berkley internships : 
+   - UWashington internships : 
+   - Caltech internships : 
+   - Rensselaer Poly internships : 
+   - Harvard internships : 
+Finding work :
+ - Call and ASK ABOUT THE AGE OF THE POSTING.
+   - Tesla, Vectra AI, Oracle NetSuite. 
+   - B&N. 
+   - Keep checking Tesla Connect. 
+
+=================================================================================================
+
+src for PiOS / Raspbian 
+
+Thursday : 
+- disable SecureBoot on both devices
+- back to Windows on the laptop
+- to Linux on the PC 
+
+- own bootloader 
+- system administration 
+- Gb-like, the means to make a fun game 
+- image-processing
+
+ - RECREATE C/C++ APPLICATION + OPENCV -> 
+-> Udemy : 
+-> CPU -> RPi 4 ARM -> x86 assembler -> C compiler -> embedded C -> IoT ->
+-> client-server architectures -> physically building a server -> SSH ->
+-> Linux kernel (What is an OS ? What is a kernel ?) -> gen. kernel -> Windows kernel -> sys admin skills (server management)
+-> game dev/engines -> C# and .NET
+|
+GitHub/website : contributions -> portfolio -> GitHub
+design the game screen elements pixel by pixel 
+malware distribution vectors
+
+
+
+Smth to excel at , a project (forget versatility) : 
+|
+gb-like :
+- LCD screen choice - ? 
+|
+PC OS :
+- 6502-based multi-breadboard computer 
+- raspbian os linux kernel -> STUDY
+  - have the OS in action
+  - have the src code 
+
+Build a digital portfolio :
+- Emacs 
+- Ubuntu/Bash
+  - (Let's wait until there's a response to the Emacs bug report.) 
+  - runaway spacing
+  - prints the firefox CL at the very top line of the terminal upon clearing the screen. 
+- Gnus :
+  - a better prompt for username (can't have whateverdefaultmeans@gmailuser@gmail.com) 
+- internships 
+- SMTH PROFESSIONAL to/with SOMETHING YOU HAVE :
+  - focus on Emacs, Bash, Ubuntu. 
+  - reporting bugs , typos 
+  - skillfully written documentation
+  - RASPBERRY PI 4 : research,order Rpi4 (A, B), 400 : 
+    - Raspbian linux kernel - 8+ GB 
+    - Raspbian Lite linux kernel - 4+ GB 
+   -> original code -> GitHub
+    - graphics , sound , heat check 
+  < MCU / ARDUINO Uno R4 : Minima or Wi-Fi 4
+    - AVR 
+    - graphics , sound , heat check 
+  |
+  < RISC-V / Si-Five 
+  < TESLA : look into open-source Tesla projects
+    + learn : [sound , heat monitoring] x [VLSI/VHDL/.. , embC]
+    + stress-test
+    . ...
+    . GitHub
+  - Peropesis
+    - not tiny enough (205 MB , compressed or uncompressed ? )
+    - not approachable :
+      - need to download an ISO , md5sum file 
+      - https://peropesis.org/get-peropesis/
+  - Linux kernel
+    - not tiny enough (4 GB , compressed or uncompressed ? ) 
+- your own projects - educational contributions : 
+       	   	      		  - custom bootstrap
+  - bootable USB 
+  - custom 'Hello world' bootloader/'Hello world' kernel ("I'll be doing the heavy-lifting for the time being.") 
+  - elf
+
+Design a CPU 
+unikernel 
+assembler core
+multi-core support 
+microcode
+
+Frame of reference : RAM : Apple II max RAM , etc. 
+Keep track of what is proprietary and what isn't :
+- Proprietary 	      		      	   | Non-proprietary
+
+What is a downstream OS (of Ubuntu) ? 
+CPU cores / threads
+PPA (Ubuntu) - personal package archive 
+- driver pack
+- generic OS image 
+embC
+VLSI/VHDL 
+sysadmin skills -> ... -> GitHub
+dial-up vs. broadband (1Mbps+) 
+|
+
+take your Mac laptop to the store 
+iPhone images (things to learn) -> this list 
+Get :
+- a whiteboard
+- GC guitar pack 
+Arduino : LCD (pre-programmed) -> GitHub 
+GitHub : Nand2Ti06 original code for the x-compiler in C/Py -> GitHub
+
+
+
+VLSI
+- "Understanding of VLSI design level flows and techniques."
+ . Arduino Mega 2560 Rev3
+|
+experience :
+- own projects :
+  - embedded C (much later : Unix interface, etc. from the K&R book)
+  - microcontrollers : 
+    - Arduino :
+      - take out the R3 UNO , use the LED display. 
+      - compare Minima to R4 WiFi
+    - STM32 , TI
+  - microprocessors :
+    - Raspberry PI 4 + Tim's TV screen
+  - contributions :
+    - typos , skillfully written docn , suggestions (a feature, etc.)
+  - IoT (own net card -or- whatever) 
+- apprenticeship schools 
+|
+C/C++ extension
+C runtime library 
+
+loader
+reloc code
+exec code 
+
+job titles < intel,amd,nvidia CAREER WEBSITES  
+|
+Move (1 month)
+> Better reach of Internet > Zoom interviews 
+> DMVNV (0.5 weeks)
+> Find work :
+  - soft laptop case 
+  - PORTFOLIO : 
+  - Git prjs (as many as possible) / Coursera / Udemy / 
+  - Better reach of Internet / Zoom 
+  - Git prjs (amap) / Coursera / Udemy / 
+  - Reno on-site / remote 
+  - Git prjs (amap)/ Coursera / Udemy / 
+  - Reno on-site / remote / reloc 
+
+Interview script - something to say to the interviewer :
+- No portfolio - Why ?
+  - START MAKING SACRIFICES 
+  - Still growing my skills
+  - Can't find relevant and actionable projects to work on (no bugs to report)
+    - Technical complications (limitations like no Pop_OS!) 
+- What took so long ?
+  - Moving + getting local residence squared away.
+  - Still studying : Coursera.
+- Why this job ?
+  - Underqualified for openings when matchmaking.
+
+
+Try VMware (on Windows for Linux - DOES NOT SUPPORT HW VIRT) 
+Book : GPU sys perf / engr  
+fpga vs asic vs uprcsr vs uctrlr vs gpu 
+MCU core architectures : ARM Cortex 
+cmake
+embedded c
+pki
+Computer-Aided Design (CAD)
+algorithms
+
+- Portfolio site
+- GOOD QUALITY Projects
+- GitHub contributions 
+|
+v Resume
+v LinkedIn
+- Networking
+- Meetups
+|
+? Find a startup ?? 
+|
+v Technical Ability
+
+VPN access 
+Use QEMU to build a dumb boot. 
+Make sure you don't make a decision that you'll end up regretting. 
+Learn safe dualboot , partitions 
+Learn to use VMs / VBox : on Win 11
+- Then dualboot.
+|
+Personal project :
+- get QEMU 
+- dumbest firmware
+- dumbest kernel 
+
+
+OS essentials : SecureBoot, learn about BitLocker
+do pointers cost extra access time ? 
+learn tmux (b/w two wins/paths)
+AeGiS.
+- Graphics scripting lang : arch-agnostic.
+- inline Asm > inline C > (study Pygame, etc.) > AeGiS
+sw-render <> OpenGL <> NOT API > Wayland > Graphics API
+Graphics drivers : specify the GPU (OEM, etc.)
+Plotting pixels 
+
+Thermal transferable paper > PCB. 
+Scratch > Python > shell > C <= What lang for gfx after Scratch ? 
+learning ASM (Malcolm Shore) - LinkedIn 
+relevant vs. personal (relevant should feel personal, and personal should feel relevant) 
+
+Learn cmake / Makefile
+statically typed - determined/accessible at compile-time
+dynamically typed - accessible during runtime. 
+
+ptrs :
+- problems w/o ptrs:
+  - tying objects together to make structures
+- purpose:
+  - ? 
+  - passing by pointer (instead of creating a copy of the passed var/obj) , a.k.a. distant recall 
+  - dyn.memgmt - ? 
+
+add material on io-ports, net-ports to hackbook 
+MOSH 
+
++-- emus of : Comm64/Atari 2600/Apple II.
+|   	 - coded in C
+|	 - teaching x86asm(GAS, nasm)
+v
+
+=====================================================================
+Intro to career in SW dev. - Annyce Davis (LinkedIn) 
+=====================================================================
+
+.data
+    message:    .asciz "I am Andrew Green\n"
+
+.text
+.global main
+
+main:
+    # Write the string to the standard output
+    mov     $4, %eax          # System call number for write
+    mov     $1, %ebx          # File descriptor 1: standard output
+... A-a-a-ah! ... tl;dw
+
+=====================================================================
+
+keybindings , ANSI esc seqs , UTF-8,-16,-32 
+interview questions: C
+interview questions: C++
+How do systems on planes fetch WiFi connection in the airplane mode? Do they have isolated servers?
+awareness, informed incentive, informed intelligence, good conditioning 
+m : Manteia , matchmaking , match the right people with the right opportunities 
+write a poke api lib 
+write a sound api lib 
+Explore clipping in games. 
+TPV EFI
+empty DIMM sockets
+Sims in Unity
+Pixel shader 
+
++ OS/krnl	OS, sched, memgmt, driv, optim, hw comm, btlnks, config, dbg, virt, dbg;
++ lang-utils	optim, code gen, tools/utils, anlzrs, (OS, driv) ; 
+|
+- OS/krnl	security, R&D, cloud, RTOS.
+- lang-utils	prog/lang expand, integr, (RTOS, emb.sys)
+|
+|  	      	  			
+> btm-up or top-down 
+
+=====================================================================
+
++ Win (C#/Unity/.NET)		simple games, edu, net, sim, (UI/UX, test, consult, scripting) ; 
+-      				VR / AR / XR / MR / 3D / mobile, web apps,  
+
+=====================================================================
+
+Recreational programming :
+|
+we are not studying to become pioneering researchers 
+rewarding / unrewarding
+compelling / uncompelling 
+exposing gaps
+identifying problems
+asking students questions 
+pursuit of meaningful knowledge , skills , and experience
+supplanting addiction to video games with addiction to intellectually stimulating things
+recurring feeling of being rewarded
+trustworthy with time and money (invested into the teaching)
+obsession meets ambition 
+
+"Everybody is identical in their secret unspoken belief that way deep down they are different from everyone else."
+- David Foster Wallace, Infinite Jest 
+
+ . What does it do for fun ?
+ . Can it get hammered ?
+ . Can it experience hypnagogia ?
+ . Can it ideate images ?
+ . Can it be inspired to philosophize ?
+ . How can it develop symptoms of maladaptive daydreaming ? 
+
+_

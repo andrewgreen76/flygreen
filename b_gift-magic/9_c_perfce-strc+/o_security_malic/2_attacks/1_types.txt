@@ -33,6 +33,20 @@ Spyware:
 
 Trojan: malicious executable DISGUISED as legitimate software that you would agree to download/install
 Ransomware: HOLDS YOUR DATA OR SYSTEM HOSTAGE until a ransom is paid
-Botnet: interconnected devices running bots
+
+
+Rootkit:
+ . sysadmin toolchain abused
+ . typically hides the processes it triggers
+
+
+Botnet:
+ . interconnected devices (bots) running resource-hogging programs (can also be called bots)
+ . ex.: botnet abuse for Bitcoin mining
+
+
+Logic bomb:
+ . intentionally installed but still with malicious intent
+ . triggered at a certain time or event
 
 _

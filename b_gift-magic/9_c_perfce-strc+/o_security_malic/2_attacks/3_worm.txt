@@ -2,16 +2,18 @@
 Worm:
  . a lot like a virus
  + spreads through networks, not just through attachments
- e.g.: "ILoveYou", a.k.a. Love Bug
-   . launched on May 4, 2000
-   . a malicious executable emailed as a "love letter" text file
-   . spread to millions of computers with Windows on them
-   . attached itself to and spread through files and folders
-   . discovered more email addresses on target machines and would send itself to those targets
-   . would launch various sorts of malicious software
-   . would replace files
-   . would hide itself after it did the deed
-   . across the globe
-   . billions of dollars in damages
+
+
+The "ILoveYou" attack, a.k.a. Love Bug:
+ . launched on May 4, 2000
+ . a malicious executable emailed as a "love letter" text file
+ . spread to millions of computers with Windows on them
+ . attached itself to and spread through files and folders
+ . discovered more email addresses on target machines and would send itself to those targets
+ . would launch various sorts of malicious software
+ . would replace files
+ . would hide itself after it did the deed
+ . across the globe
+ . billions of dollars in damages
 
 _

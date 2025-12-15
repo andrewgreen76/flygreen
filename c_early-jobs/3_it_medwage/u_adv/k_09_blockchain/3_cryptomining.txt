@@ -1,0 +1,26 @@
+"
+Cryptomining is practiced by individuals, companies, and mining pools that run specialized hardware or software to
+  support blockchain networks.
+"
+
+
+"
+Cryptomining is the process of using computational power to validate transactions and add new blocks to a blockchain
+  in exchange for rewards.
+"
+
+
+"
+The rewards typically include newly created cryptocurrency coins and transaction fees paid by users.
+"
+
+
+"
+Blockchain was first implemented in 2009 as the underlying technology for Bitcoin.
+"
+
+
+"
+
+"
+_

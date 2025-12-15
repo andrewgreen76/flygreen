@@ -18,9 +18,4 @@ The rewards typically include newly created cryptocurrency coins and transaction
 "
 Blockchain was first implemented in 2009 as the underlying technology for Bitcoin.
 "
-
-
-"
-
-"
 _

@@ -3,9 +3,9 @@
 BASICS
 ===================================================================================
 
- . courage
- . resources: (self-)investment, time
  . somebody to care about - customers
+ . courage / nothing to lose 
+ . resources: (self-)investment, time
  . an idea for a product to sell or a service to provide
  . getting really good at turning the idea for a solution into a reality
  . persuasive skills and people skills

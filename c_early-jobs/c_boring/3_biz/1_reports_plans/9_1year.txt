@@ -1,0 +1,14 @@
+
+===================================================================================
+PLAN FOR 2025-2026
+===================================================================================
+
+ . displaying something to the screen
+ . cloning HoMM/Heretic - one level
+ . building the medical device
+ 
+ . learning to use FreeRTOS
+ . cloning FreeRTOS
+    . writing multiple processes
+
+_

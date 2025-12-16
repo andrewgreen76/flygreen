@@ -5,14 +5,17 @@ BASICS
 
  . courage
  . resources: (self-)investment, time
- . an idea for a product to sell or a service to provide
  . somebody to care about - customers
-
- . business plan
-    . customer acquisition strategy
-    . financials
-    . DCF valuation
-    . cap table
+ . an idea for a product to sell or a service to provide
+ . getting really good at turning the idea for a solution into a reality
+ . persuasive skills and people skills
+ |
+ . a consistent "work" schedule
+ . business plan - business plan for the day
+ . customer acquisition strategy
+ . financials
+ . DCF valuation
+ . cap table
  . knowledge of your market
  . legal compliance
  . effective marketing skills

@@ -3,6 +3,9 @@ TTY implementation roadmap:
  . target a system/architecture
  . for STM32
  . for BIOS (int 16h for registering keystrokes, int 10h for text output)
+    - x86-64 ISA has a 2,100-page manual
+ . for a custom ISA
+
 
 Requires understanding of the target architecture:
  . linker

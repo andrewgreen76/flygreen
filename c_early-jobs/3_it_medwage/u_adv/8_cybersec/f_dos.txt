@@ -1,0 +1,5 @@
+"
+A denial-of-service or DoS attack is an attack that tries to prevent access to a service for legitimate users by
+  overwhelming the network or server. 
+"
+_

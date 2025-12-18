@@ -1,0 +1,29 @@
+
+===================================================================================
+PING OF DEATH
+===================================================================================
+
+ . a malicious ping is sent to machine
+ . the ping request is larger than what the ICMP protocol would typically handle
+ => buffer overflow
+ => (a) system crash or (b) execution of malicious code
+
+
+===================================================================================
+PING FLOOD
+===================================================================================
+
+ . an excess influx of ping packets to the destination
+ => the ICMP server is overwhelmed 
+
+
+===================================================================================
+SYN FLOOD
+===================================================================================
+
+ . similar to a DoS attack
+ . the TCP server is overwhelmed with SYN requests
+ . the attacker does not bother with ACK messages
+ => half-open attacks
+
+_

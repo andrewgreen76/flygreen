@@ -1,0 +1,11 @@
+
+===================================================================================
+DISTRIBUTED DENIAL-OF-SERVICE
+===================================================================================
+
+ . "overwhelm online services with massive amounts of malicious traffic FROM MANY SOURCES (botnets) to make them
+    slow or crash, causing outages and financial/reputational damage"
+ . "commonly via volumetric, protocol, or application-layer methods like HTTP floods or SYN floods"
+ . "aiming to exhaust bandwidth or resources"
+
+_

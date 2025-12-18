@@ -7,7 +7,7 @@ void main(){
   printf("Elem: %c\n", arr[0] );
   printf("Elem: %c\n", arr[1] );
   printf("Elem: %c\n", arr[2] );
-  printf("Elem: %hu\n", arr[3] );
-  printf("Elem: %hu\n", arr[4] );
-  printf("Elem: %hu\n", arr[5] );
+  printf("Elem: %b\n", arr[3] );
+  printf("Elem: %b\n", arr[4] );
+  printf("Elem: %b\n", arr[5] );
 }

@@ -3,6 +3,17 @@
 DNS CACHE POISONING ATTACK
 ===================================================================================
 
- . 
+In an untampered DNS:
+ . a client sends a domain name (resolution request) to a DNS server
+ . the DNS server talks to other, "deeper" servers for an IP address to resolve to
+ . that server eventually gets the corresponding IP address and feeds it back to the client
+
+
+Intrusion scenario:
+ . "An intruder can insert a false DNS record by tricking a DNS resolver into accepting a forged response that
+    <appears to come> from an authoritative server [really the hacker's system], often by guessing or predicting
+    transaction IDs or exploiting vulnerabilities."
+ . This way the legitimate target DNS server is suggested with a compromising DNS record(s) and the legitimate
+    clients can have their DNS requests remapped to undesirable, malicious IP addresses.
 
 _

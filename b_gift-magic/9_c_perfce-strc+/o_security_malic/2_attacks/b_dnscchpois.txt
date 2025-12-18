@@ -16,4 +16,8 @@ Intrusion scenario:
  . This way the legitimate target DNS server is suggested with a compromising DNS record(s) and the legitimate
     clients can have their DNS requests remapped to undesirable, malicious IP addresses.
 
+
+DNS cache poisoning can spread to other networks. The suggested DNS entries can be shared, thus "infecting" the other
+  legitimate DNS servers.
+
 _

@@ -1,0 +1,16 @@
+
+===================================================================================
+MAN-IN-THE-MIDDLE
+===================================================================================
+
+ . a.k.a., Meddler-in-the-middle attack
+ . poses as Legitimate_Side_2 to Legitimate_Side_1 and vice versa
+ . could have a way of modifying data in between the two legitimate parties
+
+
+Session hijacking:
+ . cookie hijacking 
+ . a legitimate user logs in, the website generates a session access "token"/"cookie", and the user forgets to log out
+ . an illegimate user can snatch that token and abuse it (and impersonate you)
+
+_

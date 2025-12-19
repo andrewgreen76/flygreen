@@ -1,4 +1,8 @@
 
 A SQL injection attack takes on an entire database and the users logged in that database.
+ . running SQL commands
+ . to delete website data
+ . steal data
+ . other malicious acts
 
 _

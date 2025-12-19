@@ -1,0 +1,8 @@
+
+Password attack:
+ . password crackers (guessing your password)
+ . brute force attack - tries every alphanumerical combination
+ . dictionary attack - selective with trying out passwords by using a dictionary of real words
+ => Don't use real words in your passwords.
+
+_

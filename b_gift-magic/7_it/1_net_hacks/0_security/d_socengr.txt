@@ -1,0 +1,55 @@
+
+===================================================================================
+SOCIAL ENGINEERING - BY TECHNICAL AND IN-PERSON MEANS
+===================================================================================
+
+ . hacking humans
+
+
+Phishing Attacks:
+ . Email attack:
+    . "Your account has been compromised" + a sketchy link to a fake duplicate of a real website
+    . targets an arbitrary user
+ . Spear fishing:
+    . more deceptive as it can get retailored (personalized) to sound more trustworthy 
+    . can target an individual or even a group
+ . "JavaScript can be employed to create convincing phishing websites that trick users into revealing sensitive
+    information such as login credentials, personal details, or financial information."
+
+
+(Email) spoofing:
+ . a malicious email sent from a real address ("masquerading") but featuring a link to a malicious IP address
+
+
+Baiting:
+ . hacking humans directly instead of using computers
+
+
+Tailgating:
+ . entering the premises by following an employee inside, oftentimes impersonating a third-party employee
+
+
+Shoulder Surfing:
+ . An in-person attack where an attacker observes a victim entering sensitive information, such as passwords,
+   to steal credentials.
+
+Vishing:
+ . Voice phishing, where attackers use phone calls to impersonate legitimate organizations to extract personal
+   information from victims.
+ . using VoIP
+
+
+Whaling:
+ . targeting a person with a great deal of fame, power, and/or wealth
+ . more time is spent on tailoring the bait correctly
+
+
+Impersonation:
+ . impersonating IT Support to get an employee of an organization fix a credentials issue that isn't there, thereby
+   redirecting the employee to a website where the new credentials would be stored and infiltrating the company's
+   IT infrastructure
+
+
+Dumpster diving: literally. 
+
+_

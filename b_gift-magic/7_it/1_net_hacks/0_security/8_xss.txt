@@ -1,12 +1,14 @@
 
- . a malicious script is injected into a website (HTML code)
- . targets and steals data of a single user (vs. a SQL injection attack, which takes on an entire database and the users
-     logged in that database)
-
-
 ===================================================================================
 CROSS-SITE SCRIPTING (XSS) INJECTION ATTACK
 ===================================================================================
+
+ . a malicious script is injected into a website (HTML code)
+ . targets and steals data of a single user
+    . e.g., cookies (login data, used and not yet erased or overwritten)
+    . vs. a SQL injection attack, which takes on an entire database and the users logged in that database
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 "Can you give me a small example of cross-site scripting?"
 

@@ -1,0 +1,4 @@
+
+A SQL injection attack takes on an entire database and the users logged in that database.
+
+_

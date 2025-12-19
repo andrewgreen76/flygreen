@@ -1,5 +1,8 @@
 
 What is the mysql_realescape_string command?
+
+
+"
 ChatGPT
 
 The mysql_real_escape_string command is a function that was used in older versions of PHP to escape special characters in a string before sending it to a MySQL database. It was primarily used to prevent SQL injection attacks by ensuring that user input was properly formatted and escaped.
@@ -30,4 +33,5 @@ $stmt->close();
 $mysqli->close();
 
 In this example, the bind_param function binds the variable $input to the prepared statement, automatically escaping any special characters and ensuring the query's safety.
-
+"
+_

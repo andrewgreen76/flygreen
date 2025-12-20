@@ -1,0 +1,32 @@
+
+General-purpose OS:
+ |
+ . greater interactivity (with the user)
+ . software diversity ("flexibility"): running different types of applications
+ . hardware diversity: through drivers
+ . "It's OK to not deliver on time." ("Non-deterministic timing.")
+   . "Non-deterministic timing means that the exact time at which an operation completes cannot be guaranteed in
+      advance because it depends on system load, scheduling, and other runtime factors."
+ 
+
+RTOS:
+ |
+ . for time-critical tasks
+ => must operate predictably
+ . "The device must and will deliver on time and we know it." ("Strict timing guarantees.")
+ . used in precise mass synchronization/orchestration of moving objects as well as in standalone objects
+ . reliable sensor handling
+ . safe coordination between signals
+ |
+ . Examples:
+   (1) an airbag system
+   (2) CNC milling: "a CNC milling machine relies on an RTOS-based motor controller to move cutting tools with
+       precise timing and positioning to avoid damaging the part or the machine."
+   (3) traffic light systems
+ 
+
+===================================================================================
+"
+A general-purpose OS is designed for flexibility and user interaction with non-deterministic timing, while an RTOS is designed for predictability and deterministic response to time-critical tasks.
+"
+_

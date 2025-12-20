@@ -1,0 +1,8 @@
+
+Cryptography:
+ . the practice of using mathematical techniques to keep stored/transferred private data secure
+ . encryption
+ . authentication
+ . preservation of integrity of data
+
+_

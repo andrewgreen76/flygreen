@@ -23,11 +23,4 @@ WHAT IS BLOCKCHAIN
  |    that the data has been altered"
  . "a hash functions like a checksum but is designed to be far more resistant to collisions and deliberate tampering."
 
-
-Cryptography:
- . the practice of using mathematical techniques to keep stored/transferred private data secure
- . encryption
- . authentication
- . preservation of integrity of data
-
 _

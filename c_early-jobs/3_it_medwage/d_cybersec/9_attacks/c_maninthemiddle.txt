@@ -8,7 +8,7 @@ MEDDLER-IN-THE-MIDDLE
 
 
 Session hijacking:
- . cookie hijacking 
+ . a.k.a., cookie hijacking 
  . a legitimate user logs in, the website generates a session access "token"/"cookie", and the user forgets to log out
  . an illegimate user can snatch that token and abuse it (and impersonate you)
 
@@ -32,5 +32,7 @@ EVIL TWIN NETWORK
  . "An evil twin network mimics a legitimate Wi‑Fi network by copying its SSID, security settings, and sometimes
     signal characteristics to trick users into connecting."
  . the hacker regulating the evil twin will be able to control our traffic
+ . might not require a password
+ . may project stronger Wi-Fi signal than the real network
 
 _

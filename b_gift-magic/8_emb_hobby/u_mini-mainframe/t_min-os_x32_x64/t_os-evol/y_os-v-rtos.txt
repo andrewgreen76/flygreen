@@ -19,10 +19,15 @@ RTOS:
  . safe coordination between signals
  |
  . Examples:
-   (1) an airbag system
-   (2) CNC milling: "a CNC milling machine relies on an RTOS-based motor controller to move cutting tools with
-       precise timing and positioning to avoid damaging the part or the machine."
-   (3) traffic light systems
+ |  (1) an airbag system
+ |  (2) CNC milling: "a CNC milling machine relies on an RTOS-based motor controller to move cutting tools with
+ |      precise timing and positioning to avoid damaging the part or the machine."
+ |  (3) traffic light systems
+ |
+ . Options:
+    (a) FreeRTOS - 5-10 KB of storage
+    (b) Zephyr - 20-50+ KB of storage
+    (c) embedded Linux - from XXX KB to XXX MB of storage
  
 
 ===================================================================================

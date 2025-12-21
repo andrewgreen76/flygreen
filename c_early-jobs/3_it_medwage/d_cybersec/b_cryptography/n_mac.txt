@@ -1,0 +1,29 @@
+
+===================================================================================
+MESSAGE AUTHENTICATION CODE (MAC)
+===================================================================================
+
+ . message + a shared secret key = MAC used for authentication
+
+
+Hash Message Authentication Code (MAC):
+ |
+ . secret key ---[crypto-hash fxn]--> HMAC
+ . attached to and sent with the unprocessed message
+ |
+ . cryptographic hash functions:
+    . MD5 - rendered obsolete in 2004
+    . SHA-1 - rendered obsolete in 2017
+    . SHA-2
+    . SHA-3
+
+
+Cipher-based Message Authentication Code (CMAC):
+ |
+ . message ---[symmetric cipher w/ secret key]--> CMAC
+ |
+ . CBC-MAC: Cipher-Block Chaining Message Authentication Codes
+    . message ---[block cipher w/ secret key]--> CMAC
+    . encryption upon encryption upon encryption ...
+
+_

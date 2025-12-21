@@ -1,0 +1,20 @@
+
+===================================================================================
+COMBINING THE BENEFITS OF SYMMETRIC AND ASYMMETRIC CIPHERS
+===================================================================================
+
+Symmetric cipher:
+ . less computationally expensive than an asymmetric cipher
+ => more data can be encrypted all at once
+
+
+Asymmetric cipher:
+ + works on untrusted channels
+ - complex and computationally expensive
+
+
+Combining the benefits:
+ . An asymmetric cipher can be used as a cipher for exchanging the symmetric key, thus keeping it secure.
+ -> Then we can use that key to make message exchanges that would otherwise be less secure.
+ 
+_

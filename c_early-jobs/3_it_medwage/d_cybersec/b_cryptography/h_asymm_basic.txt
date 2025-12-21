@@ -3,8 +3,8 @@
 ASYMMETRIC CIPHER
 ===================================================================================
 
- . a.k.a., public cipher
  . the encryption key =/= the decryption key
+ . a.k.a., public cipher
 
  . "... each party independently generates its own single private key and derives its own public key."
  . the related private and public keys are bound together as a pair

@@ -1,0 +1,14 @@
+
+===================================================================================
+THREE INHERENT PROPERTIES OF ASYMMETRIC CIPHERS
+===================================================================================
+
+1. Confidentiality: data is held in secrecy through encryption-decryption.
+
+
+2. Authenticity: tampering check using digital signatures.
+
+
+3. Non-repudiation: the signature will give away the actual author of the message.
+
+_

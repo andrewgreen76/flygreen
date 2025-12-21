@@ -1,0 +1,20 @@
+
+===================================================================================
+KEY vs. ALGORITHM vs. CIPHER
+===================================================================================
+
+Key:
+ . a.k.a., the secret
+ . a basic item used for authentication
+ . shared and kept secret between two parties
+ . an additional input "argument" / input data / data structure / input-output mapping / additional anything
+
+
+Algorithm:
+ . an operation on the message data, the key, or both
+
+
+Cipher:
+ . a cipher mechanism = key + the crunching algorithm
+
+_

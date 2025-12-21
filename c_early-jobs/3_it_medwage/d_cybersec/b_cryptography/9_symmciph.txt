@@ -1,38 +1,34 @@
 
 ===================================================================================
-KEY vs. ALGORITHM vs. CIPHER
-===================================================================================
-
- . the key is the input "argument" / input data / data structure / input-output mapping
- . the algorithm is the operation
-
-
-===================================================================================
 SYMMETRIC CIPHER
 ===================================================================================
 
  . the same key is used to encrypt and decrypt the message
- . substitution cipher
-    . THE MAPPING between the plaintext and the ciphertext (a substitution table) is THE KEY, not the algorithm
-    . THE SUBSTITUTION process is THE ALGORITHM
-    . ex.: the Caesar cipher
-    . ex.: ROT13 (Caesar cipher with the key of 13) - the decryption process is the inverse of encryption
- . stream cipher
-    . encrypting one character at a time
-    . 1:1 relationship between the input and the output
-    + faster
-    + easier to implement
-    - easier to crack if key generation and input handling are not done correctly
-       . e.g., the same key is reused again and again
-       . need an initialization vector (IV) with random data worked into the encryption key
-       => the recipient will know how to extract the actual working key - the "master key" - within the encryption key
-       => encryption key = master key + IV
-       . decryption: the IV in plaintext is placed with the encrypted message, and thus the master key is extracted 
- . block cipher
-    . the entire input is placed in a block of data with a fixed size
-    . encrypted all at once
-    . if the input is too long, the block can be multiplied as much as needed and the last block would then be padded
-    + tough to crack
-    - takes too long to implement and use
+
+
+Substitution cipher:
+ . THE MAPPING between the plaintext and the ciphertext (a substitution table) is THE KEY, not the algorithm
+ . THE SUBSTITUTION process is THE ALGORITHM
+ . ex.: the Caesar cipher
+ . ex.: ROT13 (Caesar cipher with the key of 13) - the decryption process is the inverse of encryption
+
+Stream cipher:
+ . encrypting one character at a time
+ . 1:1 relationship between the input and the output
+ + faster
+ + easier to implement
+ - easier to crack if key generation and input handling are not done correctly
+    . e.g., the same key is reused again and again
+    . need an initialization vector (IV) with random data worked into the encryption key
+    => the recipient will know how to extract the actual working key - the "master key" - within the encryption key
+    => encryption key = master key + IV
+    . decryption: the IV in plaintext is placed with the encrypted message, and thus the master key is extracted 
+
+Block cipher:
+ . the entire input is placed in a block of data with a fixed size
+ . encrypted all at once
+ . if the input is too long, the block can be multiplied as much as needed and the last block would then be padded
+ + tough to crack
+ - takes too long to implement and use
 
 _

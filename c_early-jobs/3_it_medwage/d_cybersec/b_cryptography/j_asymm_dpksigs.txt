@@ -1,0 +1,25 @@
+ 
+===================================================================================
+PUBLIC KEY SIGNATURES
+===================================================================================
+
+Paul	     	    John
+-------		    -------
+Paul's privkey	    John's privkey
+John's pubkey	    Paul's pubkey
+
+
+ . This time Paul will:
+   (1) combine a copy of his message to John with his own private key
+   (2) and thus generate a massive DIGITAL SIGNATURE
+   (3) then add the signature to the original message
+   (4) and send it to John
+ -> John's system will:
+   (1) use a function to crunch Paul's digital signature back into the message copy + Paul's private key
+   (2) crunch Paul's private key into public key
+   (3) make sure the messages and the public keys match
+   (4) flag/deny the message if there is a sign that it has been tampered with
+   
+ => An advanced method compared to the more basic asymmetric cipher.
+
+_

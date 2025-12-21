@@ -1,0 +1,33 @@
+
+===================================================================================
+ASYMMETRIC CIPHER
+===================================================================================
+
+ . a.k.a., public cipher
+ . the encryption key =/= the decryption key
+
+ . "... each party independently generates its own single private key and derives its own public key."
+ . the related private and public keys are bound together as a pair
+ . in this two-way communication, the two parties exchange public keys
+
+
+ . Paul generates a private key A
+ -> key A is processed into a public key
+ -> the two keys are considered a pair
+ . John generates a private key B
+ -> key A is processed into a public key
+ -> the two keys are considered a pair
+ -> Paul has John's public key and John has Paul's
+ . "Yes, each user typically stores their private key securely and their public key may be stored locally, on a
+    server, or distributed via a certificate or key directory."
+
+Paul	     	    John
+-------		    -------
+Paul's privkey	    John's privkey
+John's pubkey	    Paul's pubkey
+
+ -> Paul would use John's public key to encrypt his own message for John into ciphertext.
+ -> John will use his own private key (since the private and public keys are paired in the system) to decrypt the
+     message.
+
+_

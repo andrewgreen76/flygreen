@@ -1,9 +1,16 @@
 
+===================================================================================
+KEY vs. ALGORITHM vs. CIPHER
+===================================================================================
+
  . the key is the input "argument" / input data / data structure / input-output mapping
  . the algorithm is the operation
 
 
-Symmetric:
+===================================================================================
+SYMMETRIC CIPHER
+===================================================================================
+
  . the same key is used to encrypt and decrypt the message
  . substitution cipher
     . THE MAPPING between the plaintext and the ciphertext (a substitution table) is THE KEY, not the algorithm

@@ -1,0 +1,30 @@
+
+===================================================================================
+ENTROPY
+===================================================================================
+
+ . the extent of unpredictability or randomness in a system or dataset
+
+
+Source of entropy:
+ . "... provides unpredictable or random data that cannot be easily guessed or reproduced."
+ . system time
+ . hardware events (including peripherals)
+ . internal noise
+ . external noise
+ . etc.
+ 
+
+Seed value - its role and lifetime:
+ . generated using sources of entropy
+ . with some arbitrary algorithm
+ -> fed to the pseudo-random number generator (PRNG) in order to "initialize" that PRNG, bringing it to its first
+    (internal) state
+ . "Directly using raw entropy is often SLOW, LIMITED, and UNEVEN, so a PRNG processes it to efficiently produce
+   large, high-quality sequences of random numbers."
+ -> "A PRNG uses deterministic algorithms to transform its seeded internal state into a sequence of numbers that
+    appear random but are reproducible if the seed is known."
+ -> "Over time or after producing many numbers, the generator may be reseeded with new entropy to maintain
+    unpredictability."
+
+_

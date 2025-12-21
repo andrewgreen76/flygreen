@@ -1,8 +1,16 @@
 
-Key considerations for choosing a cipher:
+===================================================================================
+KEY CONSIDERATIONS FOR CHOOSING A CIPHER:
+===================================================================================
+
  . speed
+    . since the same input can be fed through multiple times
+    . dedicated hardware logic can perform encryption and decryption faster that the general-purpose CPU
+    . in fact, modern CPUs have dedicated AES instructions
+    
  . ease of implementation
+ 
  . Though complexity is important to make illegitimate decryption difficult, complexity can be made excessive to the
-   extent that errors can be made, which could lead to compromised security.
+   extent that errors can be made, which could lead to security bugs.
 
 _

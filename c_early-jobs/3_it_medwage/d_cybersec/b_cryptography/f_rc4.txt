@@ -1,0 +1,27 @@
+
+===================================================================================
+RC4 (RIVEST CIPHER 4)
+===================================================================================
+
+ . symmetric
+ . stream cipher
+ . 40-2048 bits in a key
+ => trying brute-force isn't a big problem
+ 
+ . Was used in:
+    . WEP (wireless encryption)
+    . WPA (advanced wireless encryption)
+    . SSL and TLS until 2015
+    
+ . replaced with TLS 1.2 featuring AES GCM (turning the AES block cipher into a stream cipher)
+
+
+===================================================================================
+RC4 VULNERABILITIES
+===================================================================================
+
+"No-More" attack:
+ . stole an auth cookie from a TLS-encrypted connection within 52 hours
+ => any protocol using this cipher is vulnerable
+
+_

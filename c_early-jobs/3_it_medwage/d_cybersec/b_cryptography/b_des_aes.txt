@@ -1,6 +1,10 @@
 
-Federal Information Prodessing Standard (FIPS)
+===================================================================================
+FEDERAL INFORMATION PRODESSING STANDARD (FIPS)
+===================================================================================
+
  . a federal standard for securing government data
+ . ex.: DES 
  
 
 ===================================================================================

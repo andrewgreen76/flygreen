@@ -1,0 +1,10 @@
+
+===================================================================================
+SEED VALUE
+===================================================================================
+
+ . a secret value
+ . two or more other values are used to generate a seed value
+ . the seed value is used to initialize a process
+
+_

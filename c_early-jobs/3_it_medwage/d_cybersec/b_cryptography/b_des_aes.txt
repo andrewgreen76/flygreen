@@ -1,0 +1,31 @@
+
+Federal Information Prodessing Standard (FIPS)
+ . a federal standard for securing government data
+ 
+
+===================================================================================
+DATA ENCRYPTION STANDARD (DES)
+===================================================================================
+
+ . formulated in the 70s
+ . by IBM and US NSA
+
+ . a symmetric block cipher
+ => same two-way key 
+ => works on 64-bit blocks with 64-bit keys
+ . 8 of the bits - for parity checking
+ => actual key length = 56 bits
+ => 2^56 = 72 quadrillion possible keys
+
+ . the Electronic Frontier Foundation (EFF) decrypted a DES-encrypted message in 56 hours in 1998
+
+
+===================================================================================
+ADVANCED ENCRYPTION STANDARD (AES)
+===================================================================================
+
+ . the NIST replaced DES with AES in 2001
+ . 128-bit blocks
+ . keys of sizes of 128, 192, and 256 bits
+
+_

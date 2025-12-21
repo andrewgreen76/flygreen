@@ -1,0 +1,8 @@
+
+Key considerations for choosing a cipher:
+ . speed
+ . ease of implementation
+ . Though complexity is important to make illegitimate decryption difficult, complexity can be made excessive to the
+   extent that errors can be made, which could lead to compromised security.
+
+_

@@ -1,0 +1,20 @@
+
+Cryptanalysis:
+ . looking for hidden messages
+ . attempting to decode messages
+
+
+Frequency analysis:
+ . studying the frequency of occurrence of a letter in a ciphertext
+ . some letters appear more frequently than others
+ . some letters are put together more often than others
+ . "Frequency analysis exposes vulnerabilities by comparing the frequency of symbols in encoded text to known letter
+    frequencies in a language, revealing patterns that help break substitution ciphers."
+ => an old way of encrypting messages
+ => not very reliable nowadays, substituted with math-based methods
+
+
+Automated cryptanalysis in WWII:
+ . The "Colossus" was the world's first programmable digital electronic computer.
+
+_

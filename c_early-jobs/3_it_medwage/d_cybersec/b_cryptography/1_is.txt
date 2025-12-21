@@ -1,8 +1,35 @@
 
 Cryptography:
  . the practice of using mathematical techniques to keep stored/transferred private data secure
- . encryption
- . authentication
- . preservation of integrity of data
+ . hiding messages
+ . using encryption
+ . using authentication
+ . for preservation of integrity of data
+ . cryptology - the study of cryptography
+
+
+Encryption:
+ . taking a readable message (PLAINTEXT), applying an encrypting operation (CIPHER) based on an ENCRYPTION ALGORITHM
+   and using a unique value (KEY), and producing unreadable CIPHERTEXT
+ . Naturally, decryption is the reverse.
+
+
+Cryptosystem:
+ . consider KG as algorithms for key generation
+ . consider E as algorithms for encryption
+ . consider D as algorithms for decryption
+ . cryptographic service = KG + E + D
+
+
+Security through obscurity:
+ . i.e., the key or the encryption algorithm must be kept secret
+ . B secures A, but then you'd have to secure B.
+ . This invalidates simple cases of security through obscurity.
+
+
+Kerckhoff's principle:
+ . The cryptosystem must remain secure even if everything about the system is known - except for the key.
+ . a.k.a., Shannon's maxim
+ . a.k.a., "the enemy knows the system"
 
 _

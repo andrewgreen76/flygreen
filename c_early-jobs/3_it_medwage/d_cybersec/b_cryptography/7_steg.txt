@@ -1,0 +1,7 @@
+
+Steganography:
+ . hiding information from observers without encoding it
+ ex.: using invisible ink
+ ex.: embedding a message/file into another file
+
+_

@@ -1,5 +1,6 @@
 
 “WiFi was introduced in 1997 with the release of the first IEEE 802.11 standard for wireless networking.”
+ . "IEEE 802.11 is a family of wireless networking standards that define how devices communicate over Wi-Fi."
 
 
 Getting Internet services: 

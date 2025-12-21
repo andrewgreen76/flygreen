@@ -1,4 +1,14 @@
+"
+Cryptography began in ancient times as simple substitution and transposition ciphers, used by early civilizations like the Egyptians and Greeks to conceal messages for military, diplomatic, and religious purposes.
+"
 
- . 
 
+"
+Transposition ciphers are encryption methods that hide a message by rearranging the positions of its characters according to a rule, without changing the characters themselves.
+"
+
+
+"
+The 9th-century Arabian mathematician who described cryptanalysis was **Al-Kindi**, who documented frequency analysis for breaking ciphers.
+"
 _

@@ -8,9 +8,8 @@ GCM:
  . a randomized seed value is generated - and becomes part of the master secret
  . the seed value is incremented
  . the value is then encrypted into ciphertext
- . the ciphertext is woven in with the plaintext and encrypted again
  . keys and nonces are added to the recipe
     . Nonce: "a number used only once in cryptographic operations to ensure uniqueness and prevent replay attacks."
- => RANDOMNESS, UNIQUENESS, and ENCRYPTION UPON ENCRYPTION are integral to the method.
+ => RANDOMNESS and UNIQUENESS are integral to the method.
 
 _

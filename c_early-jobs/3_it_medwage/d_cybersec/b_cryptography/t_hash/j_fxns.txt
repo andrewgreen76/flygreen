@@ -1,0 +1,35 @@
+
+MD5:
+ ? still popular ?
+ . 512-bit blocks
+ . 128-bit digest
+ . published in 1992
+ . a design flaw discovered in 1996
+ . hash collisions discovered in 2004
+    . a malicious actor could generate a hashing file with digests colliding with those from a legitimate file
+    => illegitimate digests could be fed to the recipient
+    => this can lead to impersonation and theft
+    . a fake SSL certificate could be validated
+ . the expectation was for all to stop using it by 2010 (for cryptographic applications)
+ . hash collisions were still abused and a fake Microsoft digital cert. was used to sign the Flame malware
+
+
+===================================================================================
+THE SECURE HASH ALGORITHM SUITE
+===================================================================================
+
+SHA-1:
+ . 512-bit blocks
+ . 160-bit digest
+ . designed by the NSA
+ . published in 1995
+ . used in protocols: TLS/SSL, PGP SSH, IPsec
+ . used to identify revisions and do integrity checks in Git
+ . NIST encouraged switching from SHA-1 to SHA-2 in 2010
+ . tremendous amount of resources (especially GPUs and cloud) is required to break SHA-1 to get full hash collisions
+ . the first full collision - published in 2017
+ . "A theoretical attack on SHA-1 refers to a method of finding weaknesses in the algorithm's design, while a full
+    collision signifies the successful execution of such an attack to find two different inputs that produce the same
+    SHA-1 output."
+    
+_

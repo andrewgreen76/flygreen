@@ -12,7 +12,7 @@ Hash Message Authentication Code (MAC):
  . attached to and sent with the unprocessed message
  |
  . cryptographic hash functions:
-    . MD5 - rendered obsolete in 2004
+    . MD5 - falling out of favor in 2000's
     . SHA-1 - rendered obsolete in 2017
     . SHA-2
     . SHA-3

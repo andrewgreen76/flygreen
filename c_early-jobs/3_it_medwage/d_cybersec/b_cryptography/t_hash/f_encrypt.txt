@@ -1,16 +1,16 @@
 
-========================================================================
-ENCRYPTION - A NEW SPIN ON HASHING : 
-========================================================================
-
 Idea: transmitting files
- . but files, requests, etc. can be tampered with
+ . but files, requests, etc. may still be tampered with
  |  . packet sniffing
  |  . man-in-the-middle attacks
  |  . etc.
  |
  => transmission must be made secure 
 
+
+========================================================================
+CRYPTOGRAPHIC HASHING 
+========================================================================
 
 Idea: encryption in the form of compression.
  | 

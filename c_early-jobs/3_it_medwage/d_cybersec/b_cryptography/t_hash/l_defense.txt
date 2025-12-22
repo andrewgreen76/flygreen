@@ -1,0 +1,31 @@
+
+===================================================================================
+BENEFITS OF HASHING
+===================================================================================
+
+ . Passwords are not to be stored in plaintext anywhere, including a database server where it can be stolen.
+ . If an attacker finds out they can steal your cookies, they can steal the cookies of others and realize
+     that the whole database is fair game.
+ . Instead, store a hash digest of the password, which would be pretty much impossible to recover the password
+     from.
+ . Though a hacker may have access to the hash digests, the database's hashing function requires an actual
+     password as the input, so having the hash digests of those passwords would be rather useless.
+
+
+Hashing complexity:
+ . The tougher the hashing function, the more resource intensive a brute force attack would have to be.
+ . Time (a sufficient time fram) and resources (techological resources) are to be accounted for when raising
+     concerns over brute force attacks.
+
+
+Chain hashing:
+ . can make hacking efforts much, much more frustrating
+
+
+Malicious efforts with "rainbow tables":
+ . used in expediting recovery of passwords from the digests
+ . contains ALL the possible password combos along with their corresponding hashes
+ . a trade-off between computational power and DISK SPACE
+   => with huge amounts of disk space on the hacker's side time may now not be on the target's side
+
+_

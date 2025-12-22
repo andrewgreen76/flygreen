@@ -1,0 +1,12 @@
+
+Encryption largely relies on computations other than hashing.
+
+
+Cryptographic hashing is exclusively unidirectional.
+ . easy to compute forward
+ . almost IMPOSSIBLE TO REVERSE the operation: you cannot get the original value from the computed output
+ . DETERMINISTIC: a real hashing function is deterministic (i.e., always producing the same output given the same input)
+ . NO CORRELATION BETWEEN CHANGES: a change in the input should seem to have no correlation with the change in the output
+ . NO COLLISIONS: there should be no hash collisions whatsoever
+
+_

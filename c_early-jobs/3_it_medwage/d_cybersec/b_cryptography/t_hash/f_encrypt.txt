@@ -1,0 +1,26 @@
+
+========================================================================
+ENCRYPTION - A NEW SPIN ON HASHING : 
+========================================================================
+
+Idea: transmitting files
+ . but files, requests, etc. can be tampered with
+ |  . packet sniffing
+ |  . man-in-the-middle attacks
+ |  . etc.
+ |
+ => transmission must be made secure 
+
+
+Idea: encryption in the form of compression.
+ | 
+ . need a kind of hash function for this 
+ . MD5, SHA-1, SHA-2, SHA-3 
+
+
+=======================================================================
+=======================================================================
+=======================================================================
+    . error / change detection
+
+_

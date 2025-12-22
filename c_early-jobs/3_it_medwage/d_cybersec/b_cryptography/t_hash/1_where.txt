@@ -9,7 +9,7 @@ Quick lookup of an entry within a large body of data (data sets) :
  . in a non-sensitive situation :
     . spell-checking 
 
-=====================================================
+============================================================================
 "
 In the context of social situations and specific industries, hash tables are primarily a foundational data structure used in software development rather than in direct social interactions. However, their applications do extend to various sectors, including finance and banking. Here's a bit more detail on how hash tables might be used in certain industries:
 

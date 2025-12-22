@@ -1,0 +1,24 @@
+
+========================================================================
+WHAT IS IT LIKE, HOW DOES IT WORK :
+========================================================================
+
+ . "a data structure optimized for quick lookups"
+   + an array (of "buckets")
+      . Yes, for a dictionary it would have to be a freaking huge array (hundreds of thousands , even millions of
+      |	words)
+      |
+      |
+      + collision => append the colliding node to the corresponding element in the array 
+   + key-value pair(s) 
+   + a hash function
+
+              K       V          hash    i   <K,V>
+           ----------------------------------------
+       	    "253" , "John"   -> 95347 -> 0 | <K,V>
+	     "42" , "Paul"   -> 38929 -> 1 | <K,V>
+	    "368" , "George" -> 70353 -> 2 | <K,V>
+	       .
+	       .
+	       .
+_

@@ -5,7 +5,9 @@ TERMINOLOGY :
 
  . KEY : the input to be converted to a number 
  . HASHING : conversion of the key to some number (before you can track the needed info) 
- . HASH CODE (or HASH VALUE) : the number the key is hashed to; the output
+ . HASH CODE : the number the key is hashed to; the output
+ . HASH VALUE - -//-
+ . DIGEST - -//-
  . HASHING ALGORITHM : used to perform the conversion
     . There is no one hashing algorithm. There are different flavors out there.
  . BUCKET : a SLOT in the hash table's array

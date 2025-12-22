@@ -1,0 +1,6 @@
+"
+In 2025, researchers have achieved major milestones in quantum computing—such as building chips with record-high qubit fidelity and much longer coherence times, and demonstrating verifiable quantum advantage on real hardware by running algorithms far faster than classical supercomputers—moving the field closer to practical, scalable quantum machines. ([livescience.com][1])
+
+[1]: https://www.livescience.com/technology/computing/scientists-build-most-accurate-quantum-computing-chip-ever-thanks-to-new-silicon-based-computing-architecture?utm_source=chatgpt.com "Scientists build 'most accurate' quantum computing chip ever thanks to new silicon-based computing architecture"
+"
+_

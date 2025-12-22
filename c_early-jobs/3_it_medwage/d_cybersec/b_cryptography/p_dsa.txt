@@ -1,0 +1,29 @@
+
+===================================================================================
+DIGITAL SIGNATURE ALGORITHM (DSA)
+===================================================================================
+
+ . asymmetric cipher
+ . for signing and authenticating data
+ . own method of generating keys
+ . own method of signing and authenticating with key pairs
+ . quality of security ~ choice of random seed value for the signing process
+    . if the seed value is stolen or deduced, the attacker can obtain the private key
+
+
+History of breaking:
+ . 2010 - breach of security in Sony's PS3 game console platform
+ . the randomized seed value was not getting re-generated for every signature
+ . exploited by a hacker group called Fail0verflow
+ . they quickly cracked the digital signature that secured a private key
+ . that key was used by Sony staff to sign off on the software deployed to gamers
+ . Signing off is necessary to tell the software that "the game hasn’t been tampered with, contains no malware,
+     and is legitimately from the official developer."
+ -> game piracy issue ensued
+
+
+Other notes:
+ . now a part of US FIPS
+ . patented in 1991
+
+_

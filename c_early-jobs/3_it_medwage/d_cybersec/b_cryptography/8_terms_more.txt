@@ -4,10 +4,10 @@ KEY vs. ALGORITHM vs. CIPHER
 ===================================================================================
 
 Key:
- . a.k.a., the secret
- . a basic item used for authentication
- . shared and kept secret between two parties
+ . the shared secret between two parties, used for authentication
  . an additional input "argument" / input data / data structure / input-output mapping / additional anything
+ => once hijacked, can be used for impersonation
+ . kind of like an ID
 
 
 Algorithm:

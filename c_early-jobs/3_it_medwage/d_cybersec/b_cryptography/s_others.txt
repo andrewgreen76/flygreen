@@ -18,8 +18,8 @@ ELLIPTIC CURVE CRYPTOGRAPHY (ECC) SYSTEM
     . a 256-bit elliptic curve key could be comparable to a 3072-bit RSA key
     
  . There are elliptic-curve variants of DH and DSA - ECDH and ECDSA.
- . EC-encryption is recommended by NIST
- . the NSA allows its use for securing top-secret data with 384-bit EC keys
+ . EC-encryption is recommended by NIST.
+ . The NSA allows its use for securing top-secret data with 384-bit EC keys.
  . However, quantum computing attacks are a concern.
 
 _

@@ -1,0 +1,16 @@
+
+Password salt:
+ . randomized data as additional input to the hashing function
+ . produces a hash digest unique to the password+salt combo
+
+   	    { password | salt } ---[hashing fxn]--> { salt | hash value }
+
+ => This would multiply the size of the rainbow table.
+ => A tremendous size of the salt would keep the hackers at bay for a long time.
+ . Even UNIX had salts! 12-bit ones. So this is not a new idea.
+ |
+ . "The largest *allowed* salt size in modern password-hashing standards like Argon2 can be extremely large (up
+    to 2³²-1 bytes by specification), though best practices typically recommend something around **16–32 bytes**
+    (≥128–256 bits) for strong uniqueness and security."
+
+_

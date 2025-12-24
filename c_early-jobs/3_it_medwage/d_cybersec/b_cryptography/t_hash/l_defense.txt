@@ -14,18 +14,12 @@ BENEFITS OF HASHING
 
 Hashing complexity:
  . The tougher the hashing function, the more resource intensive a brute force attack would have to be.
- . Time (a sufficient time fram) and resources (techological resources) are to be accounted for when raising
+ . Time (a sufficient time frame) and resources (techological resources) are to be accounted for when raising
      concerns over brute force attacks.
 
 
 Chain hashing:
  . can make hacking efforts much, much more frustrating
-
-
-Malicious efforts with "rainbow tables":
- . used in expediting recovery of passwords from the digests
- . contains ALL the possible password combos along with their corresponding hashes
- . a trade-off between computational power and DISK SPACE
-   => with huge amounts of disk space on the hacker's side time may now not be on the target's side
+ . feed the output as input through a hashing function many, many times
 
 _

@@ -1,0 +1,10 @@
+
+Malicious efforts with "rainbow tables":
+ . used in expediting recovery of passwords from the digests
+ . contains ALL the possible password combos along with their corresponding hashes
+ . a trade-off between computational power and DISK SPACE
+   => with huge amounts of disk space on the hacker's side time may now not be on the target's side
+ . You can download rainbow tables with password lists and hashing functions from the Web.
+    . These are stored somewhere on a server, saving you, the hacker, a lot of your disk space.
+
+_

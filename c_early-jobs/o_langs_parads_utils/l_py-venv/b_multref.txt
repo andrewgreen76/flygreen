@@ -1,0 +1,14 @@
+"
+String interning is an optimization technique where identical string values are stored only once in a shared pool so multiple references point to the same memory location.
+"
+
+
+"
+For numerical variables, the equivalent concept is value caching or constant pooling, where identical numeric values may be stored once and reused rather than duplicated in memory.
+"
+
+
+"
+Unlike string interning, which preserves identity and immutability for frequently reused text, numeric caching is typically limited in scope, value range, and implementation and is treated as a performance optimization rather than a language-visible feature.
+"
+_

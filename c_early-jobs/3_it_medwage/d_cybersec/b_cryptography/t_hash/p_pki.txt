@@ -1,0 +1,13 @@
+
+===================================================================================
+PUBLIC KEY INFRASTRUCTURE (PKI)
+===================================================================================
+
+Digital certificate:
+ . a file as proof that a certain entity owns a public key
+ 
+
+PKI system:
+ . for management of digital certificates
+
+_

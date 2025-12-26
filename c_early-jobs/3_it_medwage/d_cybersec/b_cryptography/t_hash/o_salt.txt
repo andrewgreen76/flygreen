@@ -1,9 +1,12 @@
 
-Password salt:
- . randomized data as additional input to the hashing function
- . produces a hash digest unique to the password+salt combo
+===================================================================================
+PASSWORD SALT
+===================================================================================
 
-   	    { password | salt } ---[hashing fxn]--> { salt | hash value }
+ . RANDOMIZED DATA as ADDITIONAL INPUT to the hashing function
+
+   	    { password | salt } ---[hashing fxn]--> { hash value }
+								   ---> { salt | hash value }
 
  => This would multiply the size of the rainbow table.
  => A tremendous size of the salt would keep the hackers at bay for a long time.

@@ -1,5 +1,8 @@
 
-Malicious efforts with "rainbow tables":
+===================================================================================
+MALICIOUS EFFORTS WITH "RAINBOW TABLES"
+===================================================================================
+
  . used in expediting recovery of passwords from the digests
  . contains ALL the possible password combos along with their corresponding hashes
  . a trade-off between computational power and DISK SPACE

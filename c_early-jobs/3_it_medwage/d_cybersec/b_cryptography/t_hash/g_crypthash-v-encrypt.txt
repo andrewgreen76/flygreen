@@ -1,8 +1,14 @@
 
+===================================================================================
+ENCRYPTION vs. CRYPTOGRAPHIC HASHING
+===================================================================================
+
 Encryption largely relies on computations other than hashing.
+ . quick two-way mapping is possible
+ . i.e., it is easy to determine the original input based on the output
 
 
-Cryptographic hashing is exclusively unidirectional.
+Hashing is exclusively unidirectional.
  . easy to compute forward
  . almost IMPOSSIBLE TO REVERSE the operation: you cannot get the original value from the computed output
  . DETERMINISTIC: a real hashing function is deterministic (i.e., always producing the same output given the same input)

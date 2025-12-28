@@ -1,0 +1,5 @@
+"
+The Global Interpreter Lock (GIL) in Python is a mutex that ensures only one thread executes Python bytecode
+  at a time in the standard CPython implementation.
+"
+_

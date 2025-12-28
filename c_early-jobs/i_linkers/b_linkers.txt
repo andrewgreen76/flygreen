@@ -1,0 +1,5 @@
+"
+... there have been many different linkers over time (e.g., `ld`, `gold`, `lld`, `link.exe`), often multiple
+  per platform and language, each implemented independently with different designs and features.
+"
+_

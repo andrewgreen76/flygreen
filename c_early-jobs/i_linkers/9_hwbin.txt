@@ -1,0 +1,6 @@
+"
+A hardware binary is a binary-encoded configuration or instruction stream (such as a ROM image, microcode, or
+  FPGA bitstream) that directly defines or controls the behavior of hardware rather than being executed by a
+  general-purpose operating system.
+"
+_

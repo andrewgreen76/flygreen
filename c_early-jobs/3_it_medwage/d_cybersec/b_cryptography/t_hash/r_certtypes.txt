@@ -1,0 +1,18 @@
+
+===================================================================================
+TYPES OF CERTIFICATES
+===================================================================================
+
+TLS/SSL server certificate:
+ . the web server sends it to the client (browser)
+ . cert. subject == server's hostname
+ . wildcard certs
+ . Is the cert. issued and signed by the public CA the client trusts?
+ |
+ . A self-signed certificate may not work.
+
+
+TLS/SSL client certificate:
+ . optional
+
+_

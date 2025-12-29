@@ -1,13 +1,27 @@
 
-===================================================================================
-PUBLIC KEY INFRASTRUCTURE (PKI)
-===================================================================================
-
 Digital certificate:
  . a file as proof that a certain entity owns a public key
- 
+ . contains info about the corresponding public key
+    . the identity of the owner
+ . digital party from the second party (recipient)
 
-PKI system:
+
+===================================================================================
+PUBLIC KEY INFRASTRUCTURE (PKI) SYSTEM
+===================================================================================
+
  . for management of digital certificates
+ . uses the DH cryptographic method
 
+
+Certificate Authority (CA) handles:
+ . storing
+ . issuing
+ . signing
+Registration Authority (RA) handles:
+ . verifying the identities of entities requesting certificate approval and management
+Central repository:
+ . for storing and indexing keys
+ . works with the PKI system to facilitate the CA tasks
+ 
 _

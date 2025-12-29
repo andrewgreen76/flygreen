@@ -1,0 +1,4 @@
+"
+Electricity doesn’t have a single constant speed; the electric field propagates close to the speed of light in a medium, while electrons drift much more slowly.
+"
+_

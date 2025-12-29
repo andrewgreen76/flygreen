@@ -1,0 +1,19 @@
+"
+JavaScript garners so much hatred because its early design compromises, inconsistent behavior across environments, and permissive quirks clash with expectations of strict, predictable programming languages, even though it remains extremely powerful and ubiquitous.
+"
+
+
+"
+Early JavaScript design compromises include dynamic typing, implicit type coercion, confusing equality rules (`==`), a single-threaded event loop model, mutable globals, and a rushed syntax meant to resemble Java rather than a cleaner, more consistent language.
+"
+
+
+"
+Examples of JavaScript’s permissive quirks include implicit type coercion (`"5" == 5`), silent `undefined` or `NaN` results instead of errors, hoisting, and historically inconsistent browser APIs.
+"
+
+
+"
+Hoisting is JavaScript’s behavior of moving variable and function declarations to the top of their containing scope during compilation, which allows them to be referenced before they appear in the code.
+"
+_

@@ -14,5 +14,15 @@ TLS/SSL server certificate:
 
 TLS/SSL client certificate:
  . optional
+ . not issued not by the public CA
+ . issued by the CA internal to
+   (a) the server or
+   (b) an intermediary between the server and the client
 
+
+Code-signing cert.:
+ . for signing executables
+ . for ensuring that the software was not tampered with
+ . for ensuring that the software came from the original author, not from some malicious actor
+ 
 _

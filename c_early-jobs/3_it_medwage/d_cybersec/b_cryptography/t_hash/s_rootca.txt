@@ -1,0 +1,26 @@
+
+===================================================================================
+ROOT CA's and CHAIN OF TRUST
+===================================================================================
+
+PKI relies on a chain of trust between nodes.
+ |
+ . starts with the Root Certificate Authority
+ . the root certs are self-signed ... because no one other node is going to verify them
+ . root CA certs are shipped (read: distributed) with their native OS
+ . browsers will follow, like dominoes
+ |
+ . the root CA has a private key
+ . uses its own private key to approve public keys and issue certs
+ . every cert signed by root CA has the "CA" field
+ . "CA"=true => the cert is a interm./subordinate CA => the entity with the cert. can sign other certs => has as much
+    clout as the root CA.
+ . an intermediary CA can help generate and work with other intermediary CA's
+ . End-entity / leaf cert. = guess what that is.
+
+
+The root CA certs would have to be distributed in the first place.
+ . shipped with OS's
+ . browsers can lead to the store sponsored by the OS where these certs are hosted
+
+_

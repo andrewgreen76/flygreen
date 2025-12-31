@@ -1,11 +1,4 @@
 
-Digital certificate:
- . a file as proof that a certain entity owns a public key
- . contains info about the corresponding public key
-    . the identity of the owner
- . digital party from the second party (recipient)
-
-
 ===================================================================================
 PUBLIC KEY INFRASTRUCTURE (PKI) SYSTEM
 ===================================================================================
@@ -23,5 +16,5 @@ Registration Authority (RA) handles:
 Central repository:
  . for storing and indexing keys
  . works with the PKI system to facilitate the CA tasks
- 
+
 _

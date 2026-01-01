@@ -1,0 +1,20 @@
+
+===================================================================================
+TRAPPING CHARGE IN A LATCH
+===================================================================================
+
+A: "A latch traps a peak voltage by using a SAMPLING SWITCH and STORAGE ELEMENT (typically a capacitor) that
+    charges to the peak level and holds it when the switch opens."
+
+Q: "I built a latch without a capacitor and it worked just fine."
+
+A: "It worked because the latch’s transistors and wiring inherently provide PARASITIC CAPACITANCE and REGENERATIVE
+    FEEDBACK, allowing the voltage state to be stored without an explicit capacitor."
+
+   "Parasitic capacitance is the UNINTENDED CAPACITANCE THAT NATURALLY EXISTS between conductors and semiconductor
+    junctions due to their physical proximity and materials."
+
+   "It worked because parasitic capacitances in the devices and wiring stored enough charge to hold the voltage
+    briefly, effectively acting as the capacitor."
+
+_

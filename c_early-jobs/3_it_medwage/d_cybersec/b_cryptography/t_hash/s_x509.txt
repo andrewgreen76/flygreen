@@ -1,0 +1,31 @@
+
+===================================================================================
+X.509 STANDARD
+===================================================================================
+
+ . certs are formatted to the standard
+ . cert. revocation lists (CRLs) are formatted to the standard
+    . for informing nodes of which certs are invalidated
+ . published in 1988
+ . Version 3 is the current standard
+ . cert. fingerprints
+    . values computed by clients upon validation of certs
+    . hash digests of the entire cert
+
+
+X.509 cert. fields:
+ . version
+ . serial number
+ . cert. sig. algorithm
+   (1) identifies what algorithm is applied to use the public key for validating the cert's digital signature and content
+   (2) identifies what hashing algorithm is used to sign the cert
+ . issuer "name" - contains info about the signer authority
+ . validity - date range (two subfields) for which the cert is valid
+ . subject - contains info about the cert's recipient
+ . subject public key info - two subfields
+   (1) identifies the public key algorithm
+   (2) the public key itself
+    . must match with the cert. sig. algorithm
+ . cert. value = digital sig.
+
+_

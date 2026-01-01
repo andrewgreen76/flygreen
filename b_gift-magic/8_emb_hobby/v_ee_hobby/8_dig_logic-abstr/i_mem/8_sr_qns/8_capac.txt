@@ -1,0 +1,20 @@
+
+===================================================================================
+HOW CAPACITANCE WORKS
+===================================================================================
+
+"Capacitance is the physical property of a system that stores electric charge per unit voltage due to the
+ separation of conductors by an electric field."
+
+"An electric field exerts a force on electric charge, causing charges to move or redistribute depending on
+ their sign and mobility."
+
+"Separating conductors with an insulating region lets an electric field push charges onto opposite conductors, preventing recombination and thereby storing charge as field energy."
+
+"Recombination is the process where positive and negative charges meet and neutralize each other, releasing energy."
+
+"... a capacitor temporarily deters charge from neutralizing by holding it on separated conductors."
+
+"An electric field forms between the separated conductors because the accumulated positive and negative charges
+ create a voltage difference across the insulating gap."
+_

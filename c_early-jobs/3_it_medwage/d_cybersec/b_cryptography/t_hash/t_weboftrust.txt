@@ -1,0 +1,15 @@
+
+===================================================================================
+THE WEB OF TRUST
+===================================================================================
+
+ . an alternative to the PKI system's "chain of trust"
+ . individual parties sign public keys instead of CA's
+ . need a form of ID (a real ID of a real person)
+ . mutual vouching (i.e., the signer for one public key is the validating issuer of the other public key and vice versa)
+ . a key-signing party
+    . not an individual entity but an event of trust between two individual entities
+    . by the end of the party EVERY public key is to be signed by EVERY other participant to complete a web of trust
+ . two webs of trust can be merged through a single individual
+
+_

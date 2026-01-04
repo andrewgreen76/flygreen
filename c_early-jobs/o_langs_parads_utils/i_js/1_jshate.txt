@@ -1,3 +1,18 @@
+
+ . Automatic Semicolon Insertion (at the end of every line)
+ , confusing equality rules (`==`)
+ . silent `undefined` or `NaN` results instead of errors
+ . dynamic typing
+ , implicit type coercion
+ , a single-threaded event loop model
+ , mutable globals
+ , a rushed syntax meant to resemble Java rather than a cleaner, more consistent language
+ , hoisting (automatic and contrary to the coder's expectations)
+ , historically inconsistent browser APIs
+
+===================================================================================
+WHY JAVASCRIPT GETS SO MUCH HATE
+===================================================================================
 "
 JavaScript garners so much hatred because its early design compromises, inconsistent behavior across environments, and permissive quirks clash with expectations of strict, predictable programming languages, even though it remains extremely powerful and ubiquitous.
 "

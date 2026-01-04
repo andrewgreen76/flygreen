@@ -1,6 +1,6 @@
 
 ===================================================================================
-TRAPPING CHARGE IN A LATCH
+TRAPPING A CHARGE IN A LATCH
 ===================================================================================
 
 A: "A latch traps a peak voltage by using a SAMPLING SWITCH and STORAGE ELEMENT (typically a capacitor) that

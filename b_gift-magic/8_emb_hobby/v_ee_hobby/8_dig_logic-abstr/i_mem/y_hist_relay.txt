@@ -1,0 +1,4 @@
+"
+An electrical relay is an electrically operated switch that uses a small current to control a much larger one, acting as an automated or remote control for circuits, ideal for automation, power distribution, and safety protection by allowing low-power signals (like from a microchip or button) to switch high-power loads (like motors or lights). It typically works via an electromagnet (in electromechanical types) or semiconductor components (in solid-state types) to open or close contacts, allowing one circuit to control another.
+"
+_

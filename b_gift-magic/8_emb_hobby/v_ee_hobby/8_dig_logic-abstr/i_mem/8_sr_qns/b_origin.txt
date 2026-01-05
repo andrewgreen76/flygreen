@@ -1,0 +1,12 @@
+"
+The SR latch (also known as the set-reset latch or basic flip-flop circuit) traces its origins to 1918, when British
+physicists William Henry Eccles and Frank Wilfred Jordan invented the first electronic bistable multivibrator — called
+the Eccles–Jordan trigger circuit — using two vacuum tubes with cross-coupled feedback, creating the fundamental cross-
+-coupled pair topology that is still used today in modern NOR- or NAND-based SR latches. This circuit, patented in 1918
+(published 1920), was initially intended for relay-like applications in telegraphy and telephony, but became the
+cornerstone of digital memory and sequential logic decades later, notably in early computers like the 1943 Colossus.
+The specific name "SR latch" and its standardized description in terms of set/reset inputs emerged much later (especially
+popularized in the 1950s through works like Montgomery Phister's teaching and 1958 book Logical Design of Digital
+Computers).
+"
+_

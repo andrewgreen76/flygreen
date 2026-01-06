@@ -30,4 +30,8 @@ High-speed CMOS family:
 
 "Modern systems like the AMD Ryzen 7 use advanced CMOS logic families (such as 7 nm or 5 nm FinFET-based processes) integrated directly into the CPU die, with no discrete TTL or HC logic chips, relying instead on on-chip high-speed, low-power CMOS for all digital operations."
 
+
+"... you can power LS (TTL) and HC (CMOS) chips from the same 5 V Vcc and common ground, but you must ensure the LS
+outputs meet HC input voltage requirements or use pull-ups/level compatibility where needed."
+
 _

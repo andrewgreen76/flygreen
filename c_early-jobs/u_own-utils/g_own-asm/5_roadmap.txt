@@ -1,0 +1,27 @@
+
+.
+forging an object file
+.
+assembler program/process
+.
+linker program/process - in assembly
+.
+a teletype/Green shell language interpreter process
+.
+editor program/process
+.
+parsing code/text
+.
+lexing
+.
+analyzing
+.
+AST
+.
+remembering data/chars: letters, numbers, special chars, strings, etc.
+.
+including library code in source code
+.
+system calls
+.
+_

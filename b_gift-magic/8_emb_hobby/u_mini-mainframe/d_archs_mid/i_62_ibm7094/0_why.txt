@@ -1,0 +1,4 @@
+"
+Computers first gained the ability to switch between processes—**multiprogramming**—in the early **1960s**, with systems like the IBM 7094 and Atlas.
+"
+_

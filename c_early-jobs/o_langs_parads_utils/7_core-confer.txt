@@ -1,5 +1,10 @@
 "
-The 1956 **MCC (Massachusetts Computer Conference) meeting** brought together early programming language designers,
-including John Backus and others, to define core concepts like subroutines, loops, and conditional statements.
+In the 1950s, the **Meetings at the University of Cambridge and Dartmouth** (notably the 1957 FORTRAN design meeting)
+brought together programming language designers to define core concepts like variables, loops, and conditional statements.
 "
+
+ . functions
+ . variables
+ . recursion
+ 
 _

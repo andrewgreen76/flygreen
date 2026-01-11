@@ -1,0 +1,7 @@
+
+Q: "How many hours a day should I spend writing code?"
+
+A: "As much as you can consistently focus without burning out—often 2–6 hours of deliberate, uninterrupted coding
+    per day is effective for steady improvement."
+
+_

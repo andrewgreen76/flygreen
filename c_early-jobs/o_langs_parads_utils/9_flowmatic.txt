@@ -1,0 +1,20 @@
+
+===================================================================================
+EXAMPLES OF CODE IN FLOW-MATIC
+===================================================================================
+
+RECORD INVENTORY-RECORD
+    ITEM-NUMBER        PIC 9(5)
+    ITEM-NAME          PIC X(20)
+    QUANTITY-IN-STOCK  PIC 9(4)
+    UNIT-PRICE         PIC 9(3)V99.
+
+(1) TRANSFER A TO C.
+(2) JUMP TO OPERATION B.
+(3) WRITE-ITEM C.
+(4) READ-ITEM A; IF END OF DATA GO TO OPERATION 3.
+(5) REWIND C.
+(6) CLOSE-OUT FILES C, D.
+(7) STOP. (END)
+
+_

@@ -1,0 +1,9 @@
+"
+Homoiconicity is the property of a language where programs are represented using the same data structures as its data, allowing code to be manipulated and generated like ordinary data.
+"
+
+
+"
+Lisp uniquely introduced symbolic computation with a uniform list-based data structure, automatic garbage collection, dynamic typing, and programs treated as manipulable data (homoiconicity) enabling powerful metaprogramming.
+"
+_

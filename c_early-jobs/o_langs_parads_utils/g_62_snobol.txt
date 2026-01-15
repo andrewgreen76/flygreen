@@ -1,0 +1,30 @@
+"
+SNOBOL uniquely introduced first-class, built-in string pattern matching with backtracking as a primary control mechanism rather than a library feature.
+"
+
+
+"
+“first-class” - pattern objects in SNOBOL could be created, stored, passed, and composed like ordinary values, not just used implicitly by special syntax.
+"
+
+
+"
+For example, in SNOBOL you could assign a pattern to a variable and reuse or combine it later, such as defining `P = 'AB' 'C'` and then applying `P` to different strings, treating the pattern itself as a manipulable value rather than a fixed operator.
+"
+
+
+"
+In SNOBOL, adjacent pattern expressions are implicitly concatenated, so `'AB' 'C'` is a single composite pattern made of two subpatterns, not two separate assignments.
+"
+
+
+"
+“Implicitly by special syntax” means the pattern is embedded directly in a language construct (like a match statement) and cannot be named, stored, or manipulated as a value on its own.
+"
+ - like a literal string
+
+
+"
+Backtracking is an execution strategy where the system automatically retries alternative matches or choices when a current attempt fails, reverting to earlier decision points.
+"
+_

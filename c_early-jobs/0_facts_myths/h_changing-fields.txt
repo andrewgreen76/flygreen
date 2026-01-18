@@ -1,0 +1,12 @@
+
+United by embedded:
+ . biomedical
+ . telecommunications
+ . industrial
+ . robotics
+ . consumer electronics
+ . automotive
+ . defense
+ . aerospace
+
+_

@@ -1,0 +1,5 @@
+
+ . argument - the actual value passed to the function
+ . parameter - the variable listed in a function’s definition
+
+_

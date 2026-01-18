@@ -1,0 +1,42 @@
+
+IT Consultant:
+ . "An IT consultant analyzes a client's technical needs and then recommends, designs, or implements technology
+    solutions to improve their systems, efficiency, and business outcomes."
+
+
+PC Provisioning Technician:
+ . "A PC provisioning technician prepares, configures, and deploys computers so they’re ready for end-users with
+    the correct software, settings, and security policies."
+
+
+Site Reliability Engineer:
+ . "A site reliability engineer builds and maintains automated systems that keep large software services reliable,
+    fast, and scalable."
+
+
+Network Engineer:
+ . "A network engineer designs, configures, and maintains the hardware and protocols that allow computers and devices
+    to communicate securely and efficiently."
+
+
+Security Engineer:
+ . "A security engineer designs, builds, and operates systems that protect Google’s infrastructure, users, and data
+    from security threats at massive scale."
+
+
+IT Support Specialist:
+ . "An IT support specialist helps users troubleshoot, resolve, and prevent technical problems with computers,
+    software, and networks."
+
+
+Embedded System Engineer vs. Embedded System Developer:
+ . "An embedded systems engineer typically focuses on designing and integrating hardware–software systems at a system
+    level, while an embedded systems developer is more focused on writing and maintaining the firmware and low-level
+    software that runs on that hardware."
+
+
+Sales Engineer:
+ . "A sales engineer explains and demonstrates complex technical products to customers and helps design solutions
+    that meet their needs to support the sales process."
+
+_

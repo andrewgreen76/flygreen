@@ -1,0 +1,4 @@
+"
+The Ralph Loop (or Ralph Wiggum Technique) is a viral AI development pattern using simple bash loops to automate coding tasks, where an AI agent repeatedly runs, reviews its own code (errors/output), and makes incremental improvements until a defined goal is met, effectively creating persistent, self-debugging development cycles. It mimics an engineer's process (task, code, test, repeat) but uses the file system as memory, providing a fresh context with each loop iteration to prevent context rot, making it great for well-defined tasks like refactoring or building APIs.
+"
+_

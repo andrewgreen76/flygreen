@@ -1,0 +1,5 @@
+
+ . "... can be created, passed as an argument, returned from functions, and stored in variables just like any other value."
+ . "... may or may not be modifiable depending on the language’s rules."
+ 
+_

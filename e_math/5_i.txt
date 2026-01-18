@@ -1,0 +1,17 @@
+
+===================================================================================
+iMAGINARY UNIT APPLIED
+===================================================================================
+"
+Actually the imaginary unit i is used heavily in dozens of practical engineering & physics domains — most notably electrical engineering (AC circuit analysis, impedance, signal processing), quantum mechanics, control theory, signal & image processing (Fourier transforms), electromagnetism, fluid dynamics, and many branches of modern signal-processing-based technologies (radar, MRI, audio, telecommunications, etc.).(So the assumption unfortunately goes the opposite way: today it is hard to find a sophisticated technical domain that doesn't make routine, production use of complex numbers.)
+"
+
+===================================================================================
+THE DISCOVERY/INVENTION/WHATEVER OF THE iMAGINARY UNIT
+===================================================================================
+"
+The imaginary unit i (defined as the square root of −1) emerged in the mid-16th century when Italian mathematicians like Girolamo Cardano (in his 1545 book Ars Magna) and especially Rafael Bombelli (in his 1572 Algebra) encountered
+    	      	     	      	     	    	    		       			     	 UNAVOIDABLE SQUARE ROOTS
+															  of negative numbers while solving cubic equations using radical formulas, leading them to manipulate these "fictitious" quantities formally to obtain correct real-number solutions despite initial skepticism and the derogatory label "imaginary" later coined by René Descartes.
+"
+_

@@ -1,0 +1,6 @@
+
+Forge an object file - with 'dd'.
+Forge a binary executable - with 'dd'.
+A linker converts binary to binary.
+
+_

@@ -1,14 +1,11 @@
 
- . c. 1966 - MacLisp
- . 1969 - standard Lisp definition
- . 1975 - Scheme
- . c. 1979 - Franz Lisp - Lisp flavor native to Unix
- . 1979-1982 - PSL - Lisp flavor native to Unix
- . 1981-1984 - Common Lisp (ANSI-standardized)
- . 1994 - publication of the ANSI Common Lisp standard 
- . 1999-2006 - SBCL
+ . c. 1966	- MacLisp
+ . 1969 	- standard Lisp definition
+ . 1975 	- Scheme
+ . c. 1979 	- Franz Lisp (Lisp flavor native to Unix)
+ . 1979-1982 	- PSL (Lisp flavor native to Unix)
+ . 1981-1984 	- Common Lisp (ANSI-standardized)
+ . 1994 	- publication of the ANSI Common Lisp standard 
+ . 1999-2006 	- SBCL (Steel Bank Common Lisp)
 
-"
-
-"
 _

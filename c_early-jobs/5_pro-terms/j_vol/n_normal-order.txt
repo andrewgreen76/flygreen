@@ -1,0 +1,24 @@
+
+What does it mean for a language to be normal-order?
+
+ . "A language is **normal-order** if it evaluates expressions by reducing the outermost (leftmost) function
+    application first, delaying evaluation of arguments until their values are actually needed."
+ . "A language is **normal-order** if it evaluates a function call by executing the function body first and only
+    evaluating its arguments if and when their values are needed."
+
+
+
+What does it mean to reduce a function application?
+
+ . evaluating the function body somehow before the arguments are even applied (only when those arguments are needed)
+ |
+ . "Reducing a function application in a normal-order language means always reducing the leftmost-outermost redex
+    (reducible expression) first. In practical terms, this means that functions are applied to their arguments before
+    the arguments themselves are evaluated. This strategy is also known as "fully expand and then reduce", or simply
+    calling a function by name (not by value)."
+
+
+"
+In other words, a function can receive arguments WITHOUT NECESSARILY USING ALL OF ITS PARAMETERS during execution.
+"
+_

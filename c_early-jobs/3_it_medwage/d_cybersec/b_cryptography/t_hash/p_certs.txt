@@ -8,4 +8,10 @@ DIGITAL CERTIFICATES
     . the identity of the owner
  . digital party from the second party (recipient)
 
+
+Contains:
+ . dig. sig.
+ . public key (data)
+ . info about the cert owner
+
 _

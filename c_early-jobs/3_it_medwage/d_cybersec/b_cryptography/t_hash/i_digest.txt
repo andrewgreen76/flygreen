@@ -1,0 +1,5 @@
+
+Digest:
+ . input ---[hash alg.]--> hashing output
+
+_

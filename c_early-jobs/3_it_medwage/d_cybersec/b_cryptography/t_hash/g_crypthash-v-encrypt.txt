@@ -13,6 +13,7 @@ Hashing is exclusively unidirectional.
  . almost IMPOSSIBLE TO REVERSE the operation: you cannot get the original value from the computed output
  . DETERMINISTIC: a real hashing function is deterministic (i.e., always producing the same output given the same input)
  . NO CORRELATION BETWEEN CHANGES: a change in the input should seem to have no correlation with the change in the output
+    . we mean that a certain change in the input will not tell us what different output it would produce
  . NO COLLISIONS: there should be no hash collisions whatsoever
 
 _

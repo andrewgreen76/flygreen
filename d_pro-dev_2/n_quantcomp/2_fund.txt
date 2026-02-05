@@ -1,0 +1,15 @@
+
+Quantum computing is founded on the principles of quantum mechanics.
+
+Quantum mechanics is concerned with:
+ (1) all possible states a particle (its position is a state), a system, or (in the case of quantum mechanics) a qubit can have, and
+ (2) the probability that particle/system will end up in that state given a certain input
+
+A quantum state:
+ (a) a possible state of a thing
+ (b) unknown state
+
+Wavefunction:
+ . all possible states of a particle/system captured within one graph and that graph's corresponding mathematical expression
+
+_

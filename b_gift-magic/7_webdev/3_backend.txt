@@ -1,4 +1,14 @@
 "
 A cutting-edge starter backend setup would be Bun with the Hono framework, PostgreSQL as the database, Prisma as the ORM, and JWT-based authentication for secure, modern performance.
 "
+
+
+Backend:
+ - PC:			16 GB RAM + hefty storage space
+ - runtime/bundler: 	Bun
+ - web framework: 	Hono
+ - production hosting: 	VPS (IaaS, cloud private server)
+ |
+ - database:		PostgreSQL
+
 _

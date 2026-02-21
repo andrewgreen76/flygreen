@@ -1,0 +1,4 @@
+"
+The frontend is what users see and interact with in the browser, the backend is the server-side logic that processes requests and enforces rules, and the database is the persistent storage layer that saves and retrieves application data.
+"
+_

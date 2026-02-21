@@ -1,0 +1,28 @@
+"
+A database is technically independent infrastructure, but in application architecture it is considered part of the backend stack because it is accessed and controlled by the server-side logic.
+"
+
+
+"
+The database is generally considered part of the backend architecture, although it acts as an independent component in terms of its operation, storage, and specialized management. 
+Couchbase
+Couchbase
+ +2
+In modern web architecture (3-tier architecture), the backend is composed of the server, application logic, and the database. 
+Codecademy
+Codecademy
+ +1
+Here is a breakdown of the relationship:
+Why the Database is Part of the Backend
+Persistent Storage: The backend needs to store user information, product data, or application state. The database is the repository for this data.
+Data Flow: When a user requests data, the backend (e.g., a Python or Node.js API) receives the request, queries the database, and formats the result, acting as an intermediary.
+Backend Responsibilities: Database design, SQL query writing, and managing database connections are standard responsibilities of a backend developer. 
+Reddit
+Reddit
+ +4
+How the Database is Independent
+Separate Service: Databases (e.g., PostgreSQL, MySQL, MongoDB) often run on separate servers or instances from the web application server.
+Specialized Technology: Databases are specialized software for storing and retrieving data, requiring different skills (DBA/Data Engineer) compared to application logic development.
+Independence: In some architectures, especially in microservices or BaaS (Backend-as-a-Service), the database can be swapped or updated without changing the application logic, showing it functions as a distinct,, decoupled entity.
+"
+_

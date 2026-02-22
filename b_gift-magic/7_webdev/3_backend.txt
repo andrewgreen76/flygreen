@@ -3,12 +3,56 @@ A cutting-edge starter backend setup would be Bun with the Hono framework, Postg
 "
 
 
-Backend:
- - PC:			16 GB RAM + hefty storage space
- - runtime/bundler: 	Bun
- - web framework: 	Hono
- - production hosting: 	VPS (IaaS, cloud private server)
+CDN (Content Delivery Network):
+ . "a distributed network of servers that caches and delivers website content from locations closer to users to
+    reduce latency and improve performance"
+
+
+VPS:
+ . Virtual Private Server
+
+
+CSPs:
+ . cloud service providers
  |
+ . CDN-oriented CSPs:
+   . Akamai
+   . Fastly
+   > Cloudflare
+   . AWS CloudFront
+   . Google Cloud CDN
+   . Imperva
+ . VPS-oriented CSPs:
+   . DigitalOcean
+   . Linode (Akamai Cloud)
+   . AWS Lightsail
+   . Vultr
+   . Hetzner Cloud
+ . edge-network -oriented
+
+
+Backend:
+ - server device:	PC/laptop = [Win11 rig w/ WSL , Linux laptop],
+   	  		16 GB RAM + hefty storage space
+   
+ - production hosting
+   (persistent caretaking):
+			VPS - virtual private server (IaaS, cloud private server)
+ 
+ - runtime/bundler
+   (builder/container): Bun
+   
+ - web framework
+   (libraries): 	Hono
+			
  - database:		PostgreSQL
+
+ - ORM (subst.tool 
+   instead of SQL):	Prisma
+
+ - responsive security:
+			JWT-based authentication (JSON Web Token format)
+			bot protection
+			DDoS protection
 
 _

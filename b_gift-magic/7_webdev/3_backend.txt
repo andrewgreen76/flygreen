@@ -1,5 +1,6 @@
 "
-A cutting-edge starter backend setup would be Bun with the Hono framework, PostgreSQL as the database, Prisma as the ORM, and JWT-based authentication for secure, modern performance.
+A cutting-edge starter backend setup would be Bun with the Hono framework, PostgreSQL as the database, Prisma as
+  the ORM, and JWT-based authentication for secure, modern performance.
 "
 
 
@@ -23,13 +24,24 @@ CSPs:
    . Google Cloud CDN
    . Imperva
  . VPS-oriented CSPs:
-   . DigitalOcean
-   . Linode (Akamai Cloud)
+   . DigitalOcean ($4-$5/mth)
    . AWS Lightsail
+   . Linode (Akamai Cloud)
    . Vultr
    . Hetzner Cloud
  . edge-network -oriented
 
+
+"
+For a scalable website, you would typically use a VPS-oriented CSP to run your backend and database, and optionally add a CDN-oriented CSP in front of it later for performance and protection as traffic grows.
+"
+
+
+"
+For performance and protection at scale, I’d recommend Cloudflare because it combines CDN, DDoS protection, DNS, and WAF features with strong global coverage and an easy setup.
+"
+
+===================================================================================
 
 Backend:
  - server device:	PC/laptop = [Win11 rig w/ WSL , Linux laptop],

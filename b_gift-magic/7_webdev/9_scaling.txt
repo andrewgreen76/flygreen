@@ -1,0 +1,9 @@
+"
+Scaling vertically means increasing the power of a single server (more CPU, RAM, storage), while scaling horizontally means adding more servers and distributing traffic and workload across them.
+"
+
+
+"
+WordPress falls short for a forum with millions of users because its plugin-based architecture and database model are not optimized for high-concurrency, real-time discussion workloads, making large-scale performance tuning and horizontal scaling significantly more complex.
+"
+_

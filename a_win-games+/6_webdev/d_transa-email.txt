@@ -1,4 +1,41 @@
+
+===================================================================================
+WHAT IS A TRANSACTIONAL EMAIL
+===================================================================================
 "
 A transactional email is an automatically generated message sent by a system in response to a specific user action or event, such as account activation, password reset, or notification alerts.
 "
+
+===================================================================================
+WHY YOU ***NEED*** A DEDICATED SMTP TRANSACTIONAL EMAIL PROVIDER (NOT GMAIL)
+===================================================================================
+
+... if you are working on an app or a web-forum:
+
+"
+one sentence: so Gmail does not allow sending transactional emails on my behalf, is that correct
+
+No—Gmail does allow SMTP sending, but it is not intended for automated transactional email from applications like forums, and large volumes or server-based sending are often blocked or violate Google’s terms, which is why Discourse recommends dedicated email services.
+
+one sentence: so Gmail does not allow sending transactional emails on my behalf
+
+Correct—Gmail is not intended to send automated transactional emails on behalf of applications like forums, and using it that way is discouraged and may be blocked.
+
+one sentence: is it really this way with other mail services (hotmail,  yahoo, etc.)?
+
+Yes—consumer email services like Gmail, Hotmail/Outlook, and Yahoo generally discourage or restrict automated transactional email from applications, which is why forums and web apps typically use dedicated transactional mail providers instead.
+
+one sentence: therefore it is not going to be useful to resort to alternatives to Discourse-on-Ubuntu
+
+Correct—switching away from Discourse-on-Ubuntu will not solve the email problem, because any self-hosted forum or web application (Discourse, Flarum, phpBB, etc.) still needs a transactional email provider rather than consumer email services like Gmail, Outlook, or Yahoo.
+"
+
+===================================================================================
+LIST OF DEDICATED SMTP TRANSACTIONAL EMAIL PROVIDERS
+===================================================================================
+
+ . Mailgun
+ . SendGrid
+ . Postmark
+
 _

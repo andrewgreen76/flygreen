@@ -1,0 +1,39 @@
+
+Your script:
+$ cd /var/discourse && sudo ./launcher enter app
+# or
+$ cd /var/discourse && sudo ./launcher rebuild app
+$ ./launcher rebuild app
+
+===================================================================================
+
+Issues: register my fucking admin account.
+ . Can't get an activation email.
+
+===================================================================================
+
+ # Google App Pass:
+$ megakogublmkutaa
+
+===================================================================================
+
+# -bash: cd: /var/www/discourse: NO SUCH FILE OR DIRECTORY
+# COMMAND 'bundle' NOT FOUND ...
+ # That means you need to move into the Discourse container with:
+$ cd /var/discourse && sudo ./launcher enter app
+
+===================================================================================
+
+ # Restart Discourse with my email:
+$ ./launcher rebuild app
+
+===================================================================================
+
+ # Reload errors.
+
+===================================================================================
+
+ # To view a list of DATABASES:
+$ psql -c '\l' ; echo "exitcode=$?"
+
+_

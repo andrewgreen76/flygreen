@@ -1,0 +1,4 @@
+"
+GoDaddy often pushes aggressive upsells, has high renewal prices (around $22/year for .com), and a cluttered experience with heavy marketing; Namecheap is solid but sometimes has slightly higher or less transparent renewals compared to Porkbun's flat ~$11/year with no surprises; Wix and Hostinger tie domains closely to their website builders or hosting ecosystems, limiting flexibility if you want full control for a self-hosted setup like your DigitalOcean Droplet forum; WordPress.com (or similar) bundles domains with their managed platform, which isn't ideal for independent, scalable hosting where you need easy DNS tweaks and transfers without lock-in—making Porkbun the cleaner, more developer-friendly choice for transparent pricing, free WHOIS privacy, minimal upsells, and straightforward management.
+"
+_

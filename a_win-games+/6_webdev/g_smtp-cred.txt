@@ -1,0 +1,4 @@
+"
+SMTP credentials are the **username, password (or API key), SMTP server address, and port** provided by your email service that Discourse uses to authenticate and send outgoing emails.
+"
+_

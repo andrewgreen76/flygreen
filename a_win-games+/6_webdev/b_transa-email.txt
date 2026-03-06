@@ -1,0 +1,4 @@
+"
+A transactional email is an automatically generated message sent by a system in response to a specific user action or event, such as account activation, password reset, or notification alerts.
+"
+_

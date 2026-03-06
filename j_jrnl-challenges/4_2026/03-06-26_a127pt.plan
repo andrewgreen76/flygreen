@@ -1,0 +1,12 @@
+
+=== 3/6/26, 1:27am PT:
+
+Pushing 35. Went through a lot of things.
+
+Working on a forum-only website. ChatGPT recommended the Discourse-on-Ubuntu marketplace app as a sensible foundation for my newfangled DigitalOcean Droplet. I will probably never touch Discourse-on-Ubuntu ever again because it made my web dev experience - building a forum - very difficult, very time-consuming. Gmail does not allow for external SMTP requests (if I'm understanding this correctly). Cherry on top: I have no DevOps experience/understanding.
+
+Thoughts: let's try
+Windows/IIS stack with SQL databases		phpBB with PHP/LAMP stack	  Discourse-on-Ubuntu
+
+=== assume End of today, 11:59pm PT 
+

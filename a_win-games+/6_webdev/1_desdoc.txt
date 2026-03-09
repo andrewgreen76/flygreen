@@ -6,16 +6,20 @@ GENERAL - CHECKLIST AND SPECS
 ===================================================================================
 
 Premise of the prod/svc:   Helping aspiring and current professionals improve the quality of their lives
+Format:	       		   - for large communities exclusively - ?
+			   - for small and large communities - (freemium) forum
+			   - for small communities exclusively - (premium coverage) live chats -> live streaming
 Brand name:    		   Ideated
 Logo: 			   Created
+Brand awareness method:	   T-shirt, networking channels (word of mouth)
 
 
 ===================================================================================
 FRONT-END - CHECKLIST AND SPECS
 ===================================================================================
 
-Front_assist_coding:	   Codex 5.3
-Front_assist_research:	   ChatGPT
+Assistance with coding:	   Codex 5.3
+Assistance with research:  ChatGPT, Google
 Stack (incl. HTML/CSS):	   Bash
 
 ===================================================================================
@@ -30,5 +34,14 @@ Container service:	   Docker
 Transactional email svc:   Mailgun
 Stack: 	      	    	   for database: PostgreSQL
 			   for CLI work: Bash, (Ruby / Ruby-on-Rails)
+Payment model:		   Freemium
+Payment method:		   {directly with CC, Stripe, PayPal, ...}
+
+
+===================================================================================
+OPTIONAL
+===================================================================================
+
+Store setup:	   T-shirts, mugs, etc.
 
 _

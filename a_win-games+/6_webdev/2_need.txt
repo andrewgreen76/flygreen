@@ -1,0 +1,6 @@
+
+money: Stripe
+hosting for the compute: replicate.com
+security consciousness: present
+
+_

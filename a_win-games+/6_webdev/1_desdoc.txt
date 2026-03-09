@@ -1,0 +1,31 @@
+
+Web dev doc for the project/startup. What am I using?
+
+===================================================================================
+GENERAL - CHECKLIST AND SPECS
+===================================================================================
+
+Premise of the prod/svc:   Helping aspiring and current professionals improve the quality of their lives
+Brand name:    		   Ideated
+Logo: 			   Created
+
+
+===================================================================================
+FRONT-END - CHECKLIST AND SPECS
+===================================================================================
+
+Front_assist_coding:	   Codex 5.3
+Front_assist_research:	   ChatGPT
+
+
+===================================================================================
+BACK-END - CHECKLIST AND SPECS
+===================================================================================
+
+Hosting platform: 	   DigitalOcean
+Hosting base:		   Discourse on Ubuntu 22.04
+Domain registrar: 	   Cloudflare
+Domain mapped:		   Yes
+Container service:	   Docker
+
+_

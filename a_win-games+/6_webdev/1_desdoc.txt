@@ -42,12 +42,18 @@ Hosting OS/app:		   Discourse on Ubuntu 22.04
 Domain registrar: 	   Cloudflare (help with DDoS attacks)
 Domain mapped:		   Yes
 Transactional email svc:   Mailgun
+
+
+===================================================================================
+PAYMENT PROCESSING
+===================================================================================
+
 Payment model:		   Freemium
 Payment method:		   {directly with CC, Stripe, PayPal, ...}
 
 
 ===================================================================================
-OPTIONAL
+BACK-END STACK - CHECKLIST AND SPECS
 ===================================================================================
 
 Store setup:	   T-shirts, mugs, etc.

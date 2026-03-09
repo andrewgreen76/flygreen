@@ -1,0 +1,44 @@
+"
+Ruby can do floating-point numbers, but like most programming languages, it uses a binary representation (IEEE 754) that can cause precision issues for certain decimal numbers. 
+Stack Overflow
+Stack Overflow
+ +1
+Here is a breakdown of how Ruby handles floating-point numbers, why they might seem broken, and how to handle them properly. 
+1. Ruby Does Support Floats 
+You can create a Float in Ruby by adding a decimal point, or by using to_f. 
+Medium
+Medium
+ +2
+ruby
+x = 0.1 + 0.2
+puts x # Output: 0.30000000000000004
+As shown, 0.1 + 0.2 does not equal 0.3 exactly because of how computers store these numbers in binary. 
+Stack Overflow
+Stack Overflow
+ +2
+2. The Problem: Precision Errors
+Because Ruby (like C, Python, Java) uses binary floating-point numbers, it cannot accurately represent some decimal fractions. These small errors can add up, making 0.1 + 0.05 == 0.15 return false. 
+DEV Community
+DEV Community
+ +3
+Common examples of unexpected behavior:
+2.0 - 1.1 results in 0.8999999999999999
+1.4 + 1.2 results in 2.5999999999999996 
+GitHub
+GitHub
+ +1
+3. The Solutions
+If you need high precision, especially for financial calculations, do not use Float. Use these alternatives: 
+BigDecimal: The standard library for high-precision decimal arithmetic. It is part of Ruby, but you must require it.
+ruby
+require 'bigdecimal'
+a = BigDecimal("0.1")
+b = BigDecimal("0.2")
+c = a + b # 0.3
+Rational: For exact fraction handling (e.g., 1/3 instead of 0.333).
+Integers (Pence/Cents): Store currency as integers (e.g., $10.00 as 1000) and divide only when displaying. 
+DEV Community
+DEV Community
+ +4
+"
+_

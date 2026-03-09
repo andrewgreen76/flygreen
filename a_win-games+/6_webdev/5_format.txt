@@ -1,0 +1,4 @@
+"
+The format of a website (forum, blog, etc.) is mainly a **general web architecture/product design decision**, because it determines how both the front-end interface and the back-end data model and features are structured.
+"
+_

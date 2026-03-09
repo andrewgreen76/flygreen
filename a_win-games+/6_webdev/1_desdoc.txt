@@ -16,7 +16,7 @@ FRONT-END - CHECKLIST AND SPECS
 
 Front_assist_coding:	   Codex 5.3
 Front_assist_research:	   ChatGPT
-
+Stack (incl. HTML/CSS):	   Bash
 
 ===================================================================================
 BACK-END - CHECKLIST AND SPECS
@@ -27,5 +27,8 @@ Hosting base:		   Discourse on Ubuntu 22.04
 Domain registrar: 	   Cloudflare
 Domain mapped:		   Yes
 Container service:	   Docker
+Transactional email svc:   Mailgun
+Stack: 	      	    	   for database: PostgreSQL
+			   for CLI work: Bash, (Ruby / Ruby-on-Rails)
 
 _

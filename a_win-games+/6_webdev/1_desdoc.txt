@@ -11,10 +11,11 @@ Format:	       		   - for large communities exclusively - ?
 			   - for small communities exclusively - (premium coverage) live chats -> live streaming
 Brand name:    		   Ideated
 Logo: 			   Created
-Brand awareness method:	   T-shirt, networking channels (word of mouth)
-Persistence measures:	   ?
-Security measures:	   ?
-Performance measures:	   ?
+Brand awareness method:	   T-shirt, networking channels (word of mouth); (optional) merch
+Persistence measures:	   Primary: DigitalOcean SSD's
+	    		   Backups: laptop, thumb drive
+Security measures:	   Cloudflare services for DDoS attacks
+Performance measures:	   protection against DDoS for speed, Droplet options for scaling vertically and then horizontally
 
 
 ===================================================================================
@@ -24,6 +25,7 @@ FRONT-END STACK - CHECKLIST AND SPECS
 Assistance with coding:	   Codex 5.3
 Assistance with research:  ChatGPT, Google
 Languages (w/ HTML/CSS):   Bash
+QA methodology:		   just me; open to having real, dedicated talent from outside
 
 
 ===================================================================================
@@ -34,11 +36,11 @@ Hosting service: 	   DigitalOcean
 Hosting OS/app:		   Discourse on Ubuntu 22.04
 => For caching, jobs, q's: Redis (in-memory key-value) database
 => For permanent data:	   PostgreSQL database
-Domain registrar: 	   Cloudflare
+=> Container service:	   Docker
+=> Languages		   for CLI work: Bash, (Ruby / Ruby-on-Rails)
+Domain registrar: 	   Cloudflare (help with DDoS attacks)
 Domain mapped:		   Yes
-Container service:	   Docker
 Transactional email svc:   Mailgun
-Languages		   for CLI work: Bash, (Ruby / Ruby-on-Rails)
 Payment model:		   Freemium
 Payment method:		   {directly with CC, Stripe, PayPal, ...}
 

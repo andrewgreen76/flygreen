@@ -12,28 +12,33 @@ Format:	       		   - for large communities exclusively - ?
 Brand name:    		   Ideated
 Logo: 			   Created
 Brand awareness method:	   T-shirt, networking channels (word of mouth)
+Persistence measures:	   ?
+Security measures:	   ?
+Performance measures:	   ?
 
 
 ===================================================================================
-FRONT-END - CHECKLIST AND SPECS
+FRONT-END STACK - CHECKLIST AND SPECS
 ===================================================================================
 
 Assistance with coding:	   Codex 5.3
 Assistance with research:  ChatGPT, Google
-Stack (incl. HTML/CSS):	   Bash
+Languages (w/ HTML/CSS):   Bash
+
 
 ===================================================================================
-BACK-END - CHECKLIST AND SPECS
+BACK-END STACK - CHECKLIST AND SPECS
 ===================================================================================
 
-Hosting platform: 	   DigitalOcean
-Hosting base:		   Discourse on Ubuntu 22.04
+Hosting service: 	   DigitalOcean
+Hosting OS/app:		   Discourse on Ubuntu 22.04
+=> For caching, jobs, q's: Redis (in-memory key-value) database
+=> For permanent data:	   PostgreSQL database
 Domain registrar: 	   Cloudflare
 Domain mapped:		   Yes
 Container service:	   Docker
 Transactional email svc:   Mailgun
-Stack: 	      	    	   for database: PostgreSQL
-			   for CLI work: Bash, (Ruby / Ruby-on-Rails)
+Languages		   for CLI work: Bash, (Ruby / Ruby-on-Rails)
 Payment model:		   Freemium
 Payment method:		   {directly with CC, Stripe, PayPal, ...}
 

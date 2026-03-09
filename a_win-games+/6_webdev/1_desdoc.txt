@@ -12,11 +12,7 @@ Format:	       		   - for large communities exclusively - (freemium) forum
 Brand name:    		   Ideated
 Logo: 			   Created
 Brand awareness method:	   T-shirt, networking channels (word of mouth); (optional) merch
-Persistence measures:	   Primary: DigitalOcean SSD's
-	    		   Backups: laptop, thumb drive
-Security measures:	   Cloudflare services for DDoS attacks
-Performance measures:	   protection against DDoS to maintain speed;
-	    		   Droplet options for scaling vertically and then horizontally
+Payment model:		   Freemium
 
 
 ===================================================================================
@@ -42,14 +38,13 @@ Hosting OS/app:		   Discourse on Ubuntu 22.04
 Domain registrar: 	   Cloudflare (help with DDoS attacks)
 Domain mapped:		   Yes
 Transactional email svc:   Mailgun
-
-
-===================================================================================
-PAYMENT PROCESSING
-===================================================================================
-
-Payment model:		   Freemium
 Payment method:		   {directly with CC, Stripe, PayPal, ...}
+-----------------------------------------------------------------------------------
+Persistence measures:	   Primary: DigitalOcean SSD's
+	    		   Backups: laptop, thumb drive
+Security measures:	   Cloudflare services for DDoS attacks
+Performance measures:	   protection against DDoS to maintain speed;
+	    		   Droplet options for scaling vertically and then horizontally
 
 
 ===================================================================================

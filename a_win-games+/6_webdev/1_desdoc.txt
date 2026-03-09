@@ -6,7 +6,7 @@ GENERAL - CHECKLIST AND SPECS
 ===================================================================================
 
 Premise of the prod/svc:   Helping aspiring and current professionals improve the quality of their lives
-Format:	       		   - for large communities exclusively - ?
+Format:	       		   - for large communities exclusively - (freemium) forum
 			   - for small and large communities - (freemium) forum
 			   - for small communities exclusively - (premium coverage) live chats -> live streaming
 Brand name:    		   Ideated
@@ -15,7 +15,8 @@ Brand awareness method:	   T-shirt, networking channels (word of mouth); (option
 Persistence measures:	   Primary: DigitalOcean SSD's
 	    		   Backups: laptop, thumb drive
 Security measures:	   Cloudflare services for DDoS attacks
-Performance measures:	   protection against DDoS for speed, Droplet options for scaling vertically and then horizontally
+Performance measures:	   protection against DDoS to maintain speed;
+	    		   Droplet options for scaling vertically and then horizontally
 
 
 ===================================================================================

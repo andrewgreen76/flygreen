@@ -6,9 +6,10 @@ GENERAL - CHECKLIST AND SPECS
 ===================================================================================
 
 Premise of the prod/svc:   Helping aspiring and current professionals improve the quality of their lives
-Format:	       		   - for large communities exclusively - (freemium) forum
-			   - for small and large communities - (freemium) forum
+Format:
 			   - for small communities exclusively - (premium coverage) live chats -> live streaming
+			   - for small and large communities - (freemium) forum
+			   - for large communities exclusively - (freemium) forum
 Brand name:    		   Ideated
 Logo: 			   Created
 Brand awareness method:	   T-shirt, networking channels (word of mouth); (optional) merch
@@ -35,6 +36,7 @@ Hosting OS/app:		   Discourse on Ubuntu 22.04
 => For permanent data:	   PostgreSQL database
 => Container service:	   Docker
 => Languages		   for CLI work: Bash, (Ruby / Ruby-on-Rails)
+=> Supports live feat's?   Yes, through WebSockets
 Domain registrar: 	   Cloudflare (help with DDoS attacks)
 Domain mapped:		   Yes
 Transactional email svc:   Mailgun

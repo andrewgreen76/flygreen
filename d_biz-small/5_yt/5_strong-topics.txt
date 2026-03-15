@@ -10,8 +10,12 @@ Write bloggy scripts, speak from experience:
 “Why should you achieve anything in life” - Wait till it gets old. Being happy, feeling good, being addicted to things that are immediately available (that you also did not earn and probably do not really fully appreciate) - SMedia, SMedia. What will you do when you eventually get bored with it? You will work because you got tired with the monotony of addiction to mediocrity. No one ever speaks of mediocrity as a necessity.
  
 “Things that hurt the quality of your work” - Time management. Create the thing and iterate on it.
- 
-Product + experience > skills/knowledge of tools.
+
+A good idea + use AI + do the human QA (performance, security, persistence integrity) yourself ->
+  -> deploy and see whether [the idea + the execution] is validated.
+ . Success = good idea + good execution. The better the idea, the better the execution it deserves. Don't waste
+     a good idea on terrible execution.
+ . Product + experience > skills/knowledge of tools.
  
 “If you are to create a product or a service, what quality are you to aim for?” - ersatz (anything), good, perfect, has a personality.
 
@@ -20,5 +24,7 @@ Product + experience > skills/knowledge of tools.
 “Certain things that don’t count as ‘real creation’ ” - Things anyone can create: creating a YouTube channel and content, creating a community; exceptions; what does count as ‘real creating’.
 
 “Why I started and why I stopped drinking” - 
+
+"Advice to failed programmers" - 
 
 _

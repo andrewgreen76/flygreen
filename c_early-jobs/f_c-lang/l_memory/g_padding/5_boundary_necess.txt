@@ -1,0 +1,50 @@
+"
+Padding to an alignment boundary is necessary so the CPU can access data in a single efficient, hardware-supported memory operation rather than slower or potentially invalid unaligned accesses.
+"
+
+
+"
+The CPU accesses data by issuing load/store instructions that read or write fixed-size chunks (e.g., 4 or 8 bytes) from aligned memory addresses, which match the hardware’s natural word boundaries.
+"
+
+
+"
+GCC automatically inserts padding and aligns data according to the target platform’s ABI so memory accesses are efficient and correct.
+"
+
+
+"
+The Ubuntu Linux ABI is the platform’s agreed-upon binary interface (largely the System V AMD64 ABI on x86-64) that defines how compiled programs—like those built on Ubuntu—lay out data, pass arguments, and interact with the OS and libraries.
+"
+
+
+"
+Alignment requirements are defined by the system’s ABI (Application Binary Interface), which is based on the CPU architecture and compiler conventions.
+"
+
+
+"
+ABIs are designed collaboratively by CPU vendors (like Intel or AMD), operating system developers, and compiler/toolchain maintainers to ensure everything interoperates correctly. They choose alignment rules based on the CPU’s memory access design (bus width, cache lines, and instruction behavior) to balance correctness, performance, and compatibility.
+"
+
+
+"
+[All these ABIs are not the same.] Different platforms use different ABIs (e.g., System V ABI vs Microsoft x64 calling convention). [We are typically given] the most common real-world case (e.g., 64-bit systems using the System V ABI) as a concrete example, even though other ABIs can differ in details.
+"
+
+
+===================================================================================
+THE KEY PART THAT'S RIGHT ON THE MONEY
+===================================================================================
+
+struct A { bool d; } "could be placed at address 0x1000 (or any 1-byte-aligned address)"
+struct B { int c; } "could be placed at address 0x1004 (an address divisible by 4 to satisfy int alignment)".
+
+
+===================================================================================
+===================================================================================
+===================================================================================
+"
+A byte-aligned address simply means any valid memory address, since bytes are the smallest addressable unit and every address refers to a byte.
+"
+_

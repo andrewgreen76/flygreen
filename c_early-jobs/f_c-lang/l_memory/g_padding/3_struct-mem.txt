@@ -1,0 +1,4 @@
+"
+Compilers always lay out a struct as one contiguous block of memory so its fields are not split across separate gaps.
+"
+_

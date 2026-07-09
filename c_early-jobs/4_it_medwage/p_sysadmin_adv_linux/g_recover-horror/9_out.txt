@@ -1,0 +1,41 @@
+
+===================================================================================
+dd MESS
+===================================================================================
+
+GPT PMBR size mismatch (1000215215 != 1953458175) will be corrected by write.
+The backup GPT table is not on the end of the device.
+Disk /dev/sda: 931.48 GiB, 1000170586112 bytes, 1953458176 sectors
+Disk model: easystore 2647  
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: F76C9350-76B5-422C-8929-31E131FD3E0A
+
+Device       Start        End   Sectors   Size Type
+/dev/sda1     2048    1050623   1048576   512M EFI System
+/dev/sda2  1050624 1000214527 999163904 476.4G Linux filesystem
+
+
+ChatGPT:
+|
+"
+This actually means your dd worked, but your 1TB external drive now contains a smaller cloned disk image (~512GB), so the GPT table doesn’t extend to the full drive—fix it with:
+
+sudo gdisk /dev/sda
+
+Then press:
+
+x   (expert mode)
+e   (relocate backup GPT to end of disk)
+w   (write changes)
+
+After that, optionally expand the partition:
+
+sudo growpart /dev/sda 2
+sudo resize2fs /dev/sda2
+
+The old Western Digital files are gone—they were just being shown from a previously mounted filesystem."
+
+_

@@ -32,7 +32,6 @@ ABIs are designed collaboratively by CPU vendors (like Intel or AMD), operating 
 [All these ABIs are not the same.] Different platforms use different ABIs (e.g., System V ABI vs Microsoft x64 calling convention). [We are typically given] the most common real-world case (e.g., 64-bit systems using the System V ABI) as a concrete example, even though other ABIs can differ in details.
 "
 
-
 ===================================================================================
 THE KEY PART THAT'S RIGHT ON THE MONEY
 ===================================================================================
@@ -40,6 +39,13 @@ THE KEY PART THAT'S RIGHT ON THE MONEY
 struct A { bool d; } "could be placed at address 0x1000 (or any 1-byte-aligned address)"
 struct B { int c; } "could be placed at address 0x1004 (an address divisible by 4 to satisfy int alignment)".
 
+
+===================================================================================
+WHY BOTHER WITH struct SIZE WHEN PADDING
+===================================================================================
+"
+The last field is padded so the total struct size is a multiple of its strictest alignment requirement, ensuring arrays of that struct keep each element properly aligned.
+"
 
 ===================================================================================
 ===================================================================================
